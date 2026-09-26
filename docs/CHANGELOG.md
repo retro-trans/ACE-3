@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-09-26
 
+- Make the README version-independent, link release-specific changes and limitations to Releases, and remove the What is translated section. Use version placeholders in editing examples. Documentation only.
+
 - Record the standing requirement in `AGENTS.md`: every future release must support Retro Trans Tools, pass patch and package validation before publishing, and have verified catalog registration and automatic routing before completion.
 
 - Make the cleaned ACE-3 repository public and add Retro Trans automatic-patching metadata to release 0.1.42. Keep all four published patches unchanged; distinguish Original prologue and English prologue routes for original discs and matching 0.1.35 upgrades. Add a reusable dry-run-first metadata packager and user/maintainer instructions. No game version or translation changes.
