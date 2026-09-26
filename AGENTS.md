@@ -14,3 +14,4 @@ tools - any tools help with translation
 - If user told you to remember anything write it down here, make sure to ask user if the new one conflict with old one
 
 ** REMEMBER **
+- Every new release must work with [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools). Follow `docs/RETRO_TRANS_RELEASES.md` and the current upstream release standard: include the canonical manifest, validation report, checksums and all listed patches; decode-verify every patch and pass the upstream release validator before publishing. Verify catalog registration and automatic patch routing after publishing before considering the release complete. Preserve stable game/edition identities and never overwrite published patches with different bytes.
