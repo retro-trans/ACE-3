@@ -51,7 +51,7 @@
     },
     {
       "id": "dialogue_11190",
-      "note": "'nu Gundam' kept lowercase at sentence-start per locked unit spelling (unit_names_014_a.json)."
+      "note": "User corrected the locked unit spelling to 'Nu Gundam' in 0.1.47."
     },
     {
       "id": "dialogue_11202",
@@ -382,9 +382,9 @@
     },
     {
       "id": "dialogue_11190",
-      "target": "<on()><sp(20)>The nu Gundam isn't only for show!<ab(500)><off()>",
+      "target": "<on()><sp(20)>The Nu Gundam isn't only for show!<ab(500)><off()>",
       "status": "meaning_reviewed",
-      "notes": "nu Gundam kept lowercase per unit_names_014_a.json, even though the line begins with it."
+      "notes": "Nu Gundam capitalization follows the user correction in 0.1.47."
     },
     {
       "id": "dialogue_11191",

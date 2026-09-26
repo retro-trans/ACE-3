@@ -1,0 +1,11 @@
+{
+  "version": "0.1.46",
+  "bundles": [4002050, 4002054, 4002057],
+  "table_id": 3010,
+  "layout_id": 14,
+  "rows": [
+    {"text_id": 41, "node": 150, "body_node": 152, "before": "Victory Conditions", "target": "Victory"},
+    {"text_id": 43, "node": 151, "body_node": 153, "before": "Defeat Conditions", "target": "Defeat"}
+  ],
+  "note": "The two briefing headings have 96.53 native units before the objective column. Use the concise condition labels; leave all objectives, values and pause-menu wording unchanged."
+}

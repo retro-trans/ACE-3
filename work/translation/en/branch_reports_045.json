@@ -1,0 +1,192 @@
+{
+  "version": "0.1.45",
+  "status": "meaning_reviewed",
+  "format": "Ordered nonempty table-1 rows. Leading scene/speaker/speed commands are inherited verbatim; embedded links and picture cues are explicit.",
+  "scenes": {
+    "4004002": [
+      "Federation Movements",
+      "<book(25)>Shirahime<endbook()> was destroyed by an internal blast<thumbnail(202)>. It is no longer a <book(24)>Terminal Colony<endbook()>. Many were killed or wounded.",
+      "<book(9)>Federation<endbook()> HQ will hold an emergency meeting to decide how to respond to each faction.",
+      "There is something else that concerns me.",
+      "An unidentified craft was seen escaping <book(25)>Shirahime<endbook()> just before the blast.",
+      "This craft<thumbnail(205)>... Surprisingly, its signal reportedly vanished along with a boson particle signature.",
+      "In other words, a single mobile weapon capable of a <book(30)>Boson Jump<endbook()>...",
+      "That should be impossible... We can only await the <book(9)>Federation<endbook()>'s follow-up investigation.",
+      "<book(18)>Giganos<endbook()><thumbnail(204)>, <book(12)>Neo Zeon<endbook()>, and an <color(5)>unidentified faction<ce()>... We certainly have our work cut out for us."
+    ],
+    "4004012": [
+      "Hojo Army Movements",
+      "<color(5)>Sakomizu<ce()>'s forces now call themselves the <color(5)>Hojo Army<ce()><thumbnail(209)> and continue to attack the <book(9)>Federation<endbook()>.",
+      "Their forces are not very large, however, and their resistance seems limited to small-scale actions.",
+      "We cannot take them lightly. Be ready to respond whenever a mission arises."
+    ],
+    "4004022": [
+      "The Attack on Amaterasu",
+      "Baldora Charge",
+      "<book(9)>Federation<endbook()> HQ has sent word. The <book(29)>Martian Successors<endbook()> are led by <color(5)>Haruki Kusakabe<ce()>, a former Jovian vice admiral.",
+      "These former enemies of Earth have risen again and allied with <book(12)>Neo Zeon<endbook()> and the others.",
+      "In the last war, we thought we had discarded the <book(28)>Ruins Unit<endbook()> far out in space.",
+      "Why was it at <book(26)>Amaterasu<endbook()><thumbnail(212)>? I believe the <book(23)>Hisago Plan<endbook()> itself was being used as a cover.",
+      "The self-styled <book(29)>Martian Successors<endbook()> secretly recovered the <book(28)>Ruins Unit<endbook()> and hid it at <book(26)>Amaterasu<endbook()>.",
+      "They must have kept experimenting as they waited for their chance to rise again.",
+      "The <book(28)>Ruins Unit<endbook()> had <color(4)>Yurika<ce()> installed within it as a living translator.",
+      "<color(4)>Yurika<ce()> was the captain of this <book(20)>Nadesico B<endbook()>'s predecessor, the <color(4)>Nadesico<ce()>.",
+      "She and <color(4)>Akito<ce()> were said to have died in a <color(6)>shuttle<thumbnail(199)> accident<ce()>, but it seems that was not the truth.",
+      "Through her, an A-class <book(27)>Jumper<endbook()>, they were experimenting with <book(30)>Boson Jumps<endbook()> by living beings.",
+      "We cannot ignore the fact that her presence is helping strengthen the <book(29)>Martian Successors<endbook()>.",
+      "Next time, we must... bring <color(4)>Yurika<ce()> back.",
+      "The recent incident caused a sharp rise in <book(2)>Baldora Charge<endbook()><thumbnail(213)>.",
+      "Various forms of energy are converted via <color(6)>Baldora particles<ce()> to power the <book(1)>Baldora Drive<endbook()>...",
+      "We can now say that this confirms <color(5)>Berkt<ce()>'s aim.",
+      "We must stop him, no matter what."
+    ],
+    "4004032": [
+      "Neo Zeon Movements",
+      "<book(12)>Neo Zeon<endbook()><thumbnail(215)> has reportedly occupied the refugee colony <book(17)>Sweetwater<endbook()>.",
+      "They are no longer just terrorists. With Spacenoid support, they have become a major power.",
+      "To the Spacenoids oppressed by the <book(9)>Earth Federation<endbook()>, they have become something like saviors."
+    ],
+    "4004042": [
+      "Coralians",
+      "Even we don't fully understand what they are.",
+      "<book(72)>Coralians<endbook()><thumbnail(218)> are wills without physical form. Well... perhaps you could call them a phenomenon.",
+      "They could be our enemies, or they could be our allies.",
+      "One thing is certain... They are the key to communicating with the <book(69)>Scub Coral<endbook()>.",
+      "The <book(38)>New Federation<endbook()>'s <color(5)>Dewey Novak<ce()><thumbnail(194)> is also pursuing the <book(72)>Coralians<endbook()>.",
+      "We have to reach the truth before he does, whatever it takes."
+    ],
+    "4004062": [
+      "Siberian Railway Movements",
+      "The <book(56)>Siberian Railway<endbook()><thumbnail(187)>'s real duty is to watch the <book(54)>Domepolises<endbook()> and prevent <book(55)>Exodus<endbook()>.",
+      "But that last incident cost them the <book(38)>New Federation<endbook()>'s trust. Seems they're chasing us to earn it back.",
+      "That <color(5)>Asuham<ce()> is from <book(38)>New Federation<endbook()> HQ. Seems he was sent to watch the <book(56)>Siberian Railway<endbook()> after its repeated failures.",
+      "And that <color(5)>Queen<ce()> must be their trump card.",
+      "That one was far stronger than any previous foe. It shows the <book(38)>New Federation<endbook()> is growing more wary of us."
+    ],
+    "4004072": [
+      "The Incident 13 Years Ago",
+      "Baldora Charge",
+      "Let me tell you a story from the past.",
+      "After the <book(53)>Moon Invader War<endbook()>, we tested a new Getter under Dr. <color(5)>Saotome<ce()><thumbnail(225)>.",
+      "Then disaster struck. Dr. <color(5)>Saotome<ce()>'s daughter, <color(4)>Michiru Saotome<ce()>, died in an accident during a combination test.",
+      "Her body had been infested by <book(49)>Invaders<endbook()>.",
+      "Dr. <color(5)>Saotome<ce()> then ended his joint research with <book(68)>Adroc Thurston<endbook()> on the <book(72)>Coralians<endbook()>.",
+      "What Dr. <color(5)>Saotome<ce()> went on to develop alone was <book(48)>Shin Dragon<endbook()><thumbnail(169)>.",
+      "<color(4)>Ryoma<ce()> and I thought the research was dangerous and tried to stop it. But <book(48)>Shin Dragon<endbook()> was completed.",
+      "Fearing <book(48)>Shin Dragon<endbook()>, Earth Federation officials fired a <book(52)>Deuteron Missile<endbook()><thumbnail(226)> at Earth.",
+      "Then <color(5)>Saotome<ce()> vanished, leaving only a ruined world. That's what happened 13 years ago.",
+      "I was caught in that <book(52)>Deuteron Missile<endbook()>'s blast<thumbnail(227)>.",
+      "But... I was enveloped in the light of <book(51)>Getter Rays<endbook()>, and my consciousness wandered through space.",
+      "Yes... the <book(52)>Deuteron Missile<endbook()> tore a rift in space-time that sent me to the Moon.",
+      "For me, the incident 13 years ago happened only a short time ago.",
+      "I woke in the cockpit of a Getter Robo abandoned on the Moon, and came back.",
+      "To kill <color(5)>Saotome<ce()> and every last one of those <book(49)>Invaders<endbook()>.",
+      "The recent incident caused a sharp rise in <book(2)>Baldora Charge<endbook()><thumbnail(228)>.",
+      "Various forms of energy are converted via <color(6)>Baldora particles<ce()> to power the <book(1)>Baldora Drive<endbook()>...",
+      "We can now say that this confirms <color(5)>Berkt<ce()>'s aim.",
+      "We must stop him, no matter what."
+    ],
+    "4004102": [
+      "Baldora Charge",
+      "This incident caused the <book(2)>Baldora Charge<endbook()><thumbnail(235)> to surge.",
+      "If the <book(33)>Macross<endbook()>'s full power was converted to fuel via <color(6)>Baldora particles<ce()>, that's hardly surprising.",
+      "After all, that is enough power to destroy a planet.",
+      "In any case, letting him get any further ahead could be a fatal blow to us."
+    ],
+    "4004112": [
+      "Baldora Charge",
+      "Since the <book(33)>Macross<endbook()> incident, the rise in <book(2)>Baldora Charge<endbook()><thumbnail(237)> has accelerated.",
+      "His subordinates are probably collecting energy at various locations.",
+      "He was rather arrogant at first. Perhaps that defeat opened his eyes.",
+      "Since we caused that change, we must find him, whatever it takes."
+    ],
+    "4004122": [
+      "Baldora Charge",
+      "Once again, we have allowed the <book(2)>Baldora Charge<endbook()><thumbnail(242)> to rise.",
+      "We have less time than we first thought. The enemy is gathering power at a considerable rate.",
+      "We should assume there are no more chances to spare. Our next encounter must settle this."
+    ],
+    "4004142": [
+      "Situation Report",
+      "The <book(29)>Martian Successors<endbook()> have accepted the call to surrender.",
+      "Their leader <color(5)>Haruki Kusakabe<ce()> is in custody. The <book(28)>Ruins Unit<endbook()> is recovered, ending the threat of <book(30)>Boson Jumps<endbook()>.",
+      "The former <book(18)>Giganos<endbook()> forces also seem to have fallen apart after <color(5)>Meio Plato<ce()><thumbnail(249)> disappeared.",
+      "After trying to drop <book(13)>5th Luna<endbook()>, <book(12)>Neo Zeon<endbook()> has also entered peace talks. So all's well that ends well...",
+      "Or so I would like to say, but we still have <color(5)>Berkt<ce()><thumbnail(191)> to pursue.",
+      "Let us find his location as quickly as possible."
+    ],
+    "4004162": [
+      "Baldora Charge",
+      "Once again, we have allowed the <book(2)>Baldora Charge<endbook()><thumbnail(255)> to rise.",
+      "We have less time than we first thought. The enemy is gathering power at a considerable rate.",
+      "We should assume there are no more chances to spare. Our next encounter must settle this."
+    ],
+    "4004192": [
+      "The Invaders' True Nature",
+      "Faye's Past",
+      "Baldora Drive Activity",
+      "<book(49)>Invaders<endbook()> are<thumbnail(248)> <book(73)>Antibody Coralians<endbook()> that underwent abnormal evolution through <book(51)>Getter Rays<endbook()>.",
+      "Evolution freed them from the <book(69)>Scub<endbook()>'s will. They sought to invade and destroy all life, and to obtain <book(51)>Getter Rays<endbook()>.",
+      "So even the <book(69)>Scub Coral<endbook()>, their own origin, became a target of their infestation.",
+      "In other words, they cannot coexist even with the <book(69)>Scub<endbook()>, despite their shared origin.",
+      "Even if we make peace with the <book(69)>Scub<endbook()>, the <book(49)>Invaders<endbook()> will not disappear.",
+      "<book(49)>Invaders<endbook()> keep multiplying. Left unchecked, they will bring the world to the <book(77)>Limit of Questions<endbook()> and destroy it.",
+      "Dr. <color(5)>Saotome<ce()> called it the world's last day. To prevent it, he built <book(48)>Shin Dragon<endbook()> to wipe out the <book(49)>Invaders<endbook()>.",
+      "I was born and raised in this world<thumbnail(173)>. I joined the <book(38)>New Federation<endbook()> solely to help rebuild the devastated Earth.",
+      "Soon I was assigned to a special unit under <color(5)>Berkt<ce()>, and learned <color(5)>Berkt<ce()>'s true goal.",
+      "But no one would listen to me. So I deserted the military.",
+      "<color(5)>Berkt<ce()> sent people after me. The one who saved me was <color(6)>Jill Bardona<ce()>...",
+      "The developer of the <book(1)>Baldora Drive<endbook()>, Dr. <color(6)>Bardona<ce()>.",
+      "He put me aboard <color(4)>Ixbrau<ce()><thumbnail(271)>, opened the <book(1)>Baldora Drive<endbook()>, and sent me to the other world.",
+      "With one request... to protect a boy named <color(4)>Barrel<ce()>.",
+      "In the other world, I contacted the <book(9)>Federation<endbook()>'s technical division.",
+      "In exchange for disclosing to the <book(9)>Earth Federation<endbook()> the unknown technology used to build <color(4)>Ixbrau<ce()>...",
+      "I gained a commission in the <book(9)>Federation<endbook()> military and, as <color(4)>Ixbrau<ce()>'s pilot, joined <book(10)>Londo Bell<endbook()>.",
+      "Soon afterward, the Saint Cruz incident occurred. That was where I found <color(4)>Barrel<ce()><thumbnail(270)>.",
+      "That is how I brought <color(4)>Barrel<ce()> into the military.",
+      "Because of <book(48)>Shin Dragon<endbook()>, the <book(2)>Baldora Charge<endbook()><thumbnail(272)> has nearly reached critical level.",
+      "This is our last chance. Everyone, stay focused."
+    ],
+    "4004202": [
+      "Baldora Charge",
+      "With the <book(1)>Baldora Drive<endbook()> shut down, the measured <book(2)>Baldora Charge<endbook()><thumbnail(252)> has fallen to <color(6)>zero<ce()>.",
+      "However... as you all know, that does not mean this situation has been resolved.",
+      "For now, let us steadily do what we can."
+    ],
+    "4004212": [
+      "Siberian Railway Movements",
+      "The <book(56)>Siberian Railway<endbook()><thumbnail(187)> has all but ceased to function after its president, <color(5)>Kids Munt<ce()>, fell from power.",
+      "It can no longer act as a police force. From now on, it seems it will simply be a railway company.",
+      "<color(5)>Asuham Boone<ce()> is missing. Rumor says he went home to London as the <book(56)>Siberian Railway<endbook()> effectively ceased military activity.",
+      "Our battle with the <book(56)>Siberian Railway<endbook()> is over. Now we can focus on fighting the <book(38)>New Federation<endbook()>."
+    ],
+    "4004222": [
+      "New Federation Movements",
+      "D.O.M.E.",
+      "In this battle, the <book(38)>New Federation<endbook()>'s commander, <book(40)>Fixx Bloodman<endbook()><thumbnail(179)>, was killed.",
+      "As a result, the <book(38)>New Federation<endbook()> already appears to have undergone major reforms.",
+      "The new leader of the <book(38)>New Federation<endbook()> is <color(5)>Dewey Novak<ce()><thumbnail(194)>... the man trying to trigger the <book(77)>Limit of Questions<endbook()>.",
+      "Under him, the <book(38)>New Federation<endbook()> has begun military action to wipe out the <book(72)>Coralians<endbook()>, winning people's support.",
+      "As we work to communicate with the <book(69)>Scub<endbook()>, the <book(38)>New Federation<endbook()> has become an even more formidable foe.",
+      "Meanwhile, the <book(42)>Space Revolutionary Army<endbook()> has lost its leader and most of its main force. It seems unable to keep fighting.",
+      "Depending on what we do next, peace with the colonies should now be possible.",
+      "<book(46)>D.O.M.E.<endbook()><thumbnail(281)> seems to have been the place where this world's first Newtype was sealed away.",
+      "The world's first Newtype was broken down to the genetic level and sealed within machinery as <book(46)>D.O.M.E.<endbook()>.",
+      "He watched over this world, waiting for people like us to appear...",
+      "He was a messenger, to tell of his own tragedy and how this world came to be.",
+      "The <book(69)>Scub<endbook()> may have seen this facility as something linking them to humans.",
+      "Perhaps the <book(49)>Invaders<endbook()> did not attack because the <book(69)>Scub<endbook()>'s will remained even after they became <book(49)>Invaders<endbook()>."
+    ]
+  },
+  "review": {
+    "method": "Local source/context review; no independent reviewer claimed",
+    "rows_examined": 142,
+    "japanese_rows_translated": 141,
+    "fullwidth_english_title_normalized": 1,
+    "notes": [
+      "Read all nonempty rows of all 16 reports in stored order, including topic titles. Preserve topic, speaker, speed, thumbnail, glossary and color commands in exact order.",
+      "Apply locked Ruins Unit, Moon Invader War and Deuteron Missile forms after meaning review. Retain provisional Saint Cruz and the project decision Baldora Drive / Dr. Jill Bardona.",
+      "No character gender is introduced for Queen. Same-source repeated Baldora reports retain the same translation."
+    ]
+  }
+}

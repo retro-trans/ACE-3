@@ -1,0 +1,9 @@
+{
+  "version": "0.1.44",
+  "entries": [
+    {"table_id": 3070, "text_id": 6, "en": "Lock-On Info", "previous": "Lock Info", "status": "user_selected"},
+    {"table_id": 3070, "text_id": 7, "en": "Lock-On Priority", "previous": "Target Priority", "status": "user_selected"},
+    {"table_id": 3070, "text_id": 11, "en": "Ingame Comm", "previous": "Comm messages", "status": "user_selected"}
+  ],
+  "scope": "Game options menu labels. Preserve this user-selected spelling; historical build inputs retain their previous wording."
+}

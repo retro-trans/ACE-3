@@ -1,0 +1,48 @@
+{
+  "version": "0.1.43",
+  "reported_build": "0.1.42",
+  "runtime_verified": false,
+  "texture_id": 50101,
+  "texture_rectangle": [47, 28, 78, 17],
+  "texture_bundles": [4002050, 4002052, 4002053, 4002054, 4002057],
+  "notes": "Deployment sprite UVs cover x47.2..124.17 y27.75..45.24. Text quads for stat rows end at x62.24; bars start about 66 units from label origin. Expand the local line box, then fit the displayed quad to 60 units. Upgrade heading moves down 4 units to clear the top border. Runtime verification is pending; a local font/geometry check is not an emulator screenshot.",
+  "panels": [
+    {"bundle": 4002053, "layout": 21, "labels": [
+      {"node":8,"text_id":73,"width":96},
+      {"node":13,"text_id":110,"width":90},
+      {"node":14,"text_id":111,"width":60},
+      {"node":17,"text_id":112,"width":60},
+      {"node":20,"text_id":113,"width":60},
+      {"node":23,"text_id":114,"width":60},
+      {"node":26,"text_id":115,"width":60},
+      {"node":29,"text_id":116,"width":60}
+    ]},
+    {"bundle":4002053,"layout":23,"labels":[
+      {"node":55,"text_id":110,"width":90,"dy":4},
+      {"node":56,"text_id":111,"width":60},
+      {"node":60,"text_id":112,"width":60},
+      {"node":64,"text_id":113,"width":60},
+      {"node":68,"text_id":114,"width":60},
+      {"node":72,"text_id":115,"width":60},
+      {"node":76,"text_id":116,"width":60}
+    ]},
+    {"bundle":4002050,"layout":30,"labels":[
+      {"node":46,"text_id":110,"width":90},
+      {"node":47,"text_id":111,"width":60},
+      {"node":49,"text_id":112,"width":60},
+      {"node":51,"text_id":113,"width":60},
+      {"node":53,"text_id":114,"width":60},
+      {"node":55,"text_id":115,"width":60},
+      {"node":57,"text_id":116,"width":60}
+    ]},
+    {"bundle":4002057,"layout":30,"labels":[
+      {"node":46,"text_id":110,"width":90},
+      {"node":47,"text_id":111,"width":60},
+      {"node":49,"text_id":112,"width":60},
+      {"node":51,"text_id":113,"width":60},
+      {"node":53,"text_id":114,"width":60},
+      {"node":55,"text_id":115,"width":60},
+      {"node":57,"text_id":116,"width":60}
+    ]}
+  ]
+}

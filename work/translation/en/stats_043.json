@@ -1,0 +1,6 @@
+{
+  "version": "0.1.43",
+  "player_sorties": {"source": "プレイヤー出撃", "target": "Player Sorties", "context": "Number of deployments with this unit as the player unit."},
+  "existing_labels": {"73": "Consec. Sorties", "110": "Parameters", "111": "Armor", "112": "Weight", "113": "Dash", "114": "Vernier", "115": "Turning", "116": "Evasion"},
+  "note": "Existing English stat names are unchanged; only their layout is fitted."
+}

@@ -27,7 +27,7 @@
         "dialogue_12422",
         "dialogue_12430"
       ],
-      "note": "Resource 2805010 (nu Gundam/Amuro) rows address an unnamed plural ally group ('everyone', 'you there'); no squad-member identity invented. This table is shared verbatim by resources 2805010, 2805011 (HWS) and 2805020 (Re-GZ) per the task's unit list, all piloted by Amuro."
+      "note": "Resource 2805010 (Nu Gundam/Amuro) rows address an unnamed plural ally group ('everyone', 'you there'); no squad-member identity invented. This table is shared verbatim by resources 2805010, 2805011 (HWS) and 2805020 (Re-GZ) per the task's unit list, all piloted by Amuro."
     },
     {
       "id": "dialogue_12433",
@@ -38,7 +38,7 @@
     "controls": "All <op()>/<sp(20)>/<ab(1000)>/<ed()> commands verified identical and in the same order as source for every row (throwaway console diff against tools/dialogue_corpus.py output; no command added, removed, or reordered).",
     "fit": "Every row's visible English text measured at <= 2*(source Japanese character count)-2, capped at 72, per the battle-shout hard byte budget; full-sentence draft written first, then compressed without dropping clause meaning. Row dialogue_12463 (3-character source, budget 4) could only fit the bare word 'Slow' -- flagged as over-compressed.",
     "format": "ASCII only; straight quotes and '...' ellipses; no bare '%'; lowercase j/q avoided throughout via synonym substitution (verified: zero occurrences in this batch's text). Source \\n line breaks kept where present in the source row; no new line breaks introduced.",
-    "speakers": "Rows are per-unit battle shouts (resource groups 2801011 Marina/Gun Ark, 2801012 Berkt/Blood Ark, 2801040 Barrel+Faye/Ixbrau, 2805010 Amuro/nu Gundam+Re-GZ, 2805030 Char/Sazabi); no speaker or addressee identity/gender invented beyond what context and named vocatives in the source settle.",
+    "speakers": "Rows are per-unit battle shouts (resource groups 2801011 Marina/Gun Ark, 2801012 Berkt/Blood Ark, 2801040 Barrel+Faye/Ixbrau, 2805010 Amuro/Nu Gundam+Re-GZ, 2805030 Char/Sazabi); no speaker or addressee identity/gender invented beyond what context and named vocatives in the source settle.",
     "meaning_review": "Independent meaning review complete for all 80 rows; 3 rows fixed (dialogue_12393 and dialogue_12425 changed which side/action was meant -- enemy reinforcements misread as friendly 'backup', and 'failing to block' misread as 'failing to hold out'; dialogue_12427 changed a passive 'being pushed back' into an active 'falling back' that contradicted the pilot continuing to fight two rows later), all within budget; all rows set to meaning_reviewed. See review_12357.json."
   },
   "rows": [

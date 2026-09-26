@@ -26,6 +26,45 @@
 - Verify the workflow with 13 automated tests, including a synthetic-disc edit/write/verify round trip. Check the 91,074-row catalog against the original disc, a 2,709-row export/no-op verification and a single-table edit preview against 0.1.42, plus browser search, filtering, pagination and the control-code toggle. No Japanese script is stored in the committed catalog.
 - Add a README credits table matching the SRW-Z project's format: Project Lead — pow; Playtesting — SecondarySebs, BlackHowling | QiyoShiro. Documentation only; no new game build.
 
+## 0.1.47 — 2026-09-26
+
+- Prepare a public release containing the 0.1.43–0.1.47 translation and UI fixes, both prologue editions, full original-disc patches and matching published 0.1.42 upgrades. Use the current Retro Trans release builder for encoding, full decode verification and canonical package validation. Release-disc hashes differ from local test images because file order is restored for smaller patches.
+
+- Use the user-requested spelling Nu Gundam, including Nu Gundam (HWS), throughout the English unit-name glossaries, translation inputs and dialogue. Supersede old review notes that required lowercase spelling.
+- Correct 40 stored occurrences in the 0.1.46 disc: 36 indexed text occurrences and four fixed-field unit parameter names. Check each source string and preserve all pointers, control codes and record sizes. The builder previews changes by default and verifies the complete written image against the intended output hash.
+- Local test build; in-game visibility remains unverified.
+- Finished-image verification passed. Size 4,447,076,352 bytes; SHA-256 `77fa368be1d5e287ebf6a560c363bdadc85f4d2a3c8672ca23b91ce22b8c12df`. No lowercase nu Gundam spelling remains in the English translation or glossary JSON files.
+
+## 0.1.46 — 2026-09-26 (test build)
+
+- Fit the missing Briefing headings by shortening Victory Conditions and Defeat Conditions to Victory and Defeat in all three shared menu copies. The objective column begins only 96.53 native units after the headings; the previous labels measured 174–187 units. Keep objective text and pause-menu headings unchanged.
+- Apply six fixed-size string edits on top of 0.1.45, preserving the branching report translations, layouts and scripts. The builder checks exact preimages, unaliased string storage, font widths and unchanged neighboring rows, then verifies every output byte against the intended delta.
+- Confirm that the finished 0.1.45 Hojo Army report already contains its English title and all three English dialogue rows. The build/save-state provenance of the newly supplied Japanese screenshot is awaiting confirmation; no additional dialogue defect is claimed resolved here.
+- Whole-disc verification passed: only the six intended heading strings differ from 0.1.45. Size 4,447,076,352 bytes; SHA-256 `9c4e95b4294ed8b017279ef5e957cb3388bd5802d444c08b9524baab9a7035f8`. In-game heading visibility remains unverified.
+
+## 0.1.45 — 2026-09-26 (test build)
+
+- Translate all 16 missed branching Situation Report resources, including Federation Movements and the reported Shirahime dialogue: 141 Japanese title/dialogue rows, plus normalization of the D.O.M.E. title. These sparse report tables were absent from the prior translation inputs.
+- Preserve every topic, speaker, speed, thumbnail, color and glossary command in its original order. Keep null slots and text IDs intact, append English strings, and retain all other script/image chunks. Fit report dialogue into three lines across all three menu fonts, with linked terms kept on one line.
+- Audit all 156 window resources (191 active tables, 2,939 rows) and the 40 previously supported mission resources (6,338 dialogue rows, including both routes). No Japanese remains in those audited active text rows after the patch. This does not certify unused/legacy scenes, unclassified mission variants, or Japanese baked into images.
+- Inherit 0.1.44 and the English prologue. Build using `tools/build_branch_reports_patch.py`; review and editable translations are in `work/translation/en/branch_reports_045.json`. In-game route navigation remains unverified; this is a local test build.
+- Finished-disc verification passed for all 10,344 archive payloads, 133 disc files and 16 changed report bundles. The finished-ISO audit confirms zero Japanese rows in the stated window/mission scope; four boot-metadata tests pass. Size 4,447,076,352 bytes; SHA-256 `879cd6a564669ce82966c26fd96099b0cbed4ee41e65b6c4aaff4ee435c0de7f`.
+
+## 0.1.44 — 2026-09-26 (test build)
+
+- Use the user-requested Game option names Lock-On Info, Lock-On Priority and Ingame Comm in all three menu copies. Help descriptions, option values and controls remain unchanged.
+- Fit these labels into their existing rows with complete local line boxes, preserving text height, bindings and character capacities. The previous blank rows already contained English strings; the layout change still needs in-game visibility verification.
+- Build from 0.1.43 with `tools/build_game_labels_patch.py`, preserving its stat-panel changes and earlier fixes. The dry run checks exact text preimages, serialized label widths and unchanged neighboring text/resources. The build verifies every archive payload, disc file and all three finished menu bundles. This is a local test build, not a published release.
+- Verified all 10,344 archive payloads, 133 disc files and nine updated label instances; four boot-metadata tests pass. Size 4,447,076,352 bytes; SHA-256 `d0191dd3b4cc2c3936b54ba69d5d0fc40bb48c5a7f3a24f111a2111fdc81fab8`. In-game visibility remains pending.
+
+## 0.1.43 — 2026-09-26 (test build)
+
+- Translate the baked Player Sorties label with native game glyphs in five identical menu texture copies. Preserve the palette, texture headers and all pixels outside its caption rectangle.
+- Fit Parameters and all six stat labels in Deployment, Unit Upgrades and both recruitment menu copies. Expand each local text box before horizontal fitting; retain text height, bindings and allocation capacities. Also fit Consec. Sorties in Deployment.
+- Move the Unit Upgrades Parameters heading down four native units to clear the panel border. Existing English stat wording is unchanged.
+- Build from 0.1.42 using `tools/build_stats_panel_patch.py`. The builder checks source textures, label bindings, glyph capacity, measured widths, non-overlapping fixed extents and the complete finished-disc byte delta. In-game visibility and alignment still require a fresh-boot check; this test build is not a published release.
+- Verified all nine patched resources and all 29 fitted text quads; the complete disc matches only the intended changes. Size 4,447,076,352 bytes; SHA-256 `181104eb34146c323186e0bda6205c7bbdb1de7031c4df6c870e3a92819f9bbc`.
+
 ## 0.1.42 — 2026-09-25
 
 - Rename the situation briefing screen from Situation Archive to the user-requested Situation Report in all three shared title copies (table 3010, text 21). The replacement fits inside the previous title width and character capacity.

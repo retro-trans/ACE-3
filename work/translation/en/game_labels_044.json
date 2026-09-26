@@ -1,0 +1,13 @@
+{
+  "version": "0.1.44",
+  "table_id": 3070,
+  "layout_id": 42,
+  "bundles": [4002050, 4002054, 4002057],
+  "display_width": 140,
+  "rows": [
+    {"text_id": 6, "node": 13, "before": "Lock Info", "target": "Lock-On Info"},
+    {"text_id": 7, "node": 21, "before": "Target Priority", "target": "Lock-On Priority"},
+    {"text_id": 11, "node": 57, "before": "Comm messages", "target": "Ingame Comm"}
+  ],
+  "review": "Exact wording requested by the user. Adjust label boxes without changing help text, values or controls."
+}

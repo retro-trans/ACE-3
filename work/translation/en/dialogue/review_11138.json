@@ -11,7 +11,7 @@
     {"rows":[11143,11144,11145,11147],"finding":"King Sakomizu (nickname) and 5th Luna confirmed locked against character_names_021.json (nickname field) and encyclopedia_021_a.json/encyclopedia_022.json ('5th Luna', text_id 13)."},
     {"rows":[11148,11149,11150,11151,11152,11153],"finding":"'the great evil king' for 悪の大王 is a literal, rhetorical address by an unnamed young speaker; no formal title invented beyond the source."},
     {"rows":[11170],"finding":"'Alpha Azieru' matches terms_028.json / gundam.fandom.com source."},
-    {"rows":[11190],"finding":"'nu Gundam' kept lowercase at sentence-start, matching the locked spelling in unit_names_014_a.json ('en': 'nu Gundam')."},
+    {"rows":[11190],"finding":"Superseded in 0.1.47: user requested the locked spelling 'Nu Gundam'."},
     {"rows":[11191,11192,11193,11194,11195,11196,11197,11198,11199,11200,11201,11203,11206,11209],"finding":"Ensemble battle-join sequence: only characters explicitly named in the source (Go/號, Tapp/Light, Eureka, Faye) are named in translation; other reaction lines correctly left speaker-neutral. No invented identities."},
     {"rows":[11202],"finding":"Honorific -san on Amuro's name rendered 'Mr. Amuro' per task ruling (acceptable), distinguishing this speaker's address from others' plain 'Amuro' in the same scene."},
     {"rows":[11210],"finding":"'Psycho-Frame' applied per orchestrator ruling, consistent with dialogue_11114 (batch_11058) and the later batch_11256 scene."}
