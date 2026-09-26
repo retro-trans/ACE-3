@@ -47,6 +47,8 @@ Use a new `0.x.y` version for changed game output and update the changelog.
 
 ## Publish and confirm discovery
 
+Follow the [SRW-Z release format](https://github.com/retro-trans/SRW-Z/releases) for the description: a short game/edition introduction, then `### Apply`, `### What changed since ...`, `### Release status`, `### What's included`, `### How it was translated`, `### Acknowledgements`, `### Source code` and `### Contribute`. Use the matching ACE3 release notes in `docs/releases/` as the local starting point. Keep source requirements, commands, hashes, credits and limitations specific to ACE3 and the release; do not copy another project's technical claims or license restrictions.
+
 Upload every listed patch and both `VALIDATION.json` and `SHA256SUMS.txt` first. Upload `BUILD-MANIFEST.json`
 last, so the catalog does not discover an incomplete package. All patch assets in that release must be listed;
 the existing versioned ACE3 manifest/checksum files can remain as supplemental documentation.

@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-09-26
 
+- Reformat both published release descriptions to follow SRW-Z: Apply, changes, release status, included content, translation details, acknowledgements, source code and Contribute. Preserve ACE3-specific source/output hashes, patch routes and runtime limitations; distinguish manual installation of the older release from current automatic patching. Keep local copies of both descriptions. Release assets are unchanged.
+
 - Add a Contribute section to published release notes, matching SRW-Z's invitation for bug reports, proofreading and playtesting with the shared Discord link.
 
 - Remove the Source history reset section from published release notes and its obsolete guide reference. Release assets are unchanged.
