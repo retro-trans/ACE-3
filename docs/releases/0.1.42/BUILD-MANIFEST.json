@@ -7,22 +7,6 @@
   "source_commit": "5bc26fd2668013761126f2d5806476443c4c9301",
   "patches": [
     {
-      "patch": "ACE3-English-0.1.42.xdelta",
-      "edition": "Original prologue",
-      "language": "en",
-      "source_version": "original",
-      "source_format": "iso",
-      "target_format": "iso",
-      "source_sha256": "5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705",
-      "source_bytes": 4447076352,
-      "target_sha256": "ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d",
-      "target_bytes": 4455411712,
-      "patch_sha256": "ed4b1bee3ca86cb44ae64c7b3a0a386a77ef7f9e13b9ff3fa7e543bbaaaac141",
-      "patch_bytes": 100861494,
-      "source_sha1": "e28be00d97ee6624e3985acf9b5267b184c58d78",
-      "target_sha1": "b7578bee7ac3b86ab27c25318225047e42ee0099"
-    },
-    {
       "patch": "ACE3-English-0.1.42-movie.xdelta",
       "edition": "English prologue",
       "language": "en",
@@ -37,22 +21,6 @@
       "patch_bytes": 183947107,
       "source_sha1": "e28be00d97ee6624e3985acf9b5267b184c58d78",
       "target_sha1": "029aec90b38dc87d07bfb22bda06c744860e9b99"
-    },
-    {
-      "patch": "ACE3-English-0.1.35-to-0.1.42.xdelta",
-      "edition": "Original prologue",
-      "language": "en",
-      "source_version": "0.1.35",
-      "source_format": "iso",
-      "target_format": "iso",
-      "source_sha256": "15f69e6ca194b8f8a58ca8e0cc84b54e946923b1efe732345015a81443f61da3",
-      "source_bytes": 4452986880,
-      "target_sha256": "ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d",
-      "target_bytes": 4455411712,
-      "patch_sha256": "2fdbbffdba2f4aa13161c37d8823607389221fce653cda7788cfaf8e58f8eae3",
-      "patch_bytes": 62442855,
-      "source_sha1": "5050492a60d498010b13816969fe74b811960834",
-      "target_sha1": "b7578bee7ac3b86ab27c25318225047e42ee0099"
     },
     {
       "patch": "ACE3-English-0.1.35-to-0.1.42-movie.xdelta",

@@ -9,10 +9,9 @@ glossaries, layout metadata and tools; disc images, extracted artwork and memory
 Use [Retro Trans](https://github.com/retro-trans/retro-trans-tools/releases/latest) for automatic patching:
 
 1. Open **Automatic**, click **Refresh catalog**, and browse to your original Japanese ISO or a supported previously patched ISO.
-2. For the original ISO, choose **Original prologue** or **English prologue** from the **Binary** list.
-   Both translate the game text; English prologue also translates the opening movie subtitles.
+2. Select the **English prologue** patch, which translates the game text and opening movie subtitles.
 3. Leave **Target** on **Latest**, choose a new output filename, and apply the patch. Retro Trans downloads the
-   matching patch and verifies the resulting disc. Supported previously patched ISOs automatically match their own edition.
+   matching patch and verifies the resulting disc. Use the latest Retro Trans app when refreshing the catalog.
 
 See the [release notes](https://github.com/retro-trans/ACE-3/releases) for changes, known limitations and supported upgrade paths.
 Boot the result fresh and load a normal memory-card save; older save states retain old text in memory.
@@ -23,14 +22,13 @@ For manual patching:
    - `Another Century's Episode 3 - The Final (Japan).iso`, 4,447,076,352 bytes
    - SHA-256 `5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705`
 2. Download a patch from [Releases](https://github.com/retro-trans/ACE-3/releases/latest):
-   - `ACE3-English-<version>.xdelta`: English text with the original prologue movie.
    - `ACE3-English-<version>-movie.xdelta`: English text and English prologue subtitles.
-   - Files named `<previous>-to-<version>` update the matching previously released ISO. Use the movie update
-     only with the previous movie edition. These do not apply to local test builds; check the release's source hashes.
+   - Files named `<previous>-to-<version>-movie` update the matching previously released ISO.
+     These do not apply to local test builds; check the release's source hashes.
 3. Apply it with xdelta3 (or any VCDIFF tool such as Delta Patcher):
 
    ```bash
-   xdelta3 -d -s "Another Century's Episode 3 - The Final (Japan).iso" ACE3-English-<version>.xdelta ACE3-English-<version>.iso
+   xdelta3 -d -s "Another Century's Episode 3 - The Final (Japan).iso" ACE3-English-<version>-movie.xdelta ACE3-English-<version>.iso
    ```
 
 4. Compare the output SHA-256 with the release notes or manifest, then play it in PCSX2. Boot it fresh and load

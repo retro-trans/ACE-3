@@ -1,67 +1,37 @@
-English fan translation of **Another Century's Episode 3: The Final** for PS2 (**SLPS-25784**), with a choice of the original prologue movie or English prologue subtitles. Both editions translate the game text.
+English fan translation of **Another Century's Episode 3: The Final** for PS2 (**SLPS-25784**), including English prologue subtitles.
 
 ### Apply
 
-**The easiest way:** Download [Retro Trans](https://github.com/retro-trans/retro-trans-tools) from its Releases page. Click **Refresh catalog**, open **Automatic**, and select your source game image. For an original Japanese disc, choose **Original prologue** or **English prologue** in the **Binary** list. Choose **0.1.42** as the target for this release, select a new output filename, and click **Patch**. **Latest** selects the newest compatible release. The app downloads the matching patch and verifies the result.
+**The easiest way:** Use the latest [Retro Trans](https://github.com/retro-trans/retro-trans-tools) app. Click **Refresh catalog**, open **Automatic**, select your original Japanese ISO or supported previous English-prologue ISO, choose **0.1.42** (or **Latest**) as the target, choose a new output filename, and click **Patch**. The app downloads the matching patch and verifies the result.
 
-**Other ways:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) accepts the same `.xdelta` files. Select your unpacked ISO as the original file and the appropriate patch.
+**Other ways:** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) accepts the same `.xdelta` files. Select your unpacked ISO and the matching patch.
 
-**Command line:** Get [xdelta3 here](https://github.com/jmacd/xdelta), then use one of the commands below.
-
-You need your own Japanese disc image or the matching published English v0.1.35 image for an upgrade. Full patches are alternatives; do not apply them on top of each other. The text and movie upgrade patches require their matching source editions.
+**Command line:** Get [xdelta3 here](https://github.com/jmacd/xdelta), then use one of these commands.
 
 | Your source image | Patch |
 | --- | --- |
-| Original Japanese ISO; keep the original prologue | `ACE3-English-0.1.42.xdelta` |
-| Original Japanese ISO; use English prologue subtitles | `ACE3-English-0.1.42-movie.xdelta` |
-| Published English v0.1.35 text ISO | `ACE3-English-0.1.35-to-0.1.42.xdelta` |
-| Published English v0.1.35 movie ISO | `ACE3-English-0.1.35-to-0.1.42-movie.xdelta` |
+| Original Japanese ISO | `ACE3-English-0.1.42-movie.xdelta` |
+| Published English-prologue v0.1.35 ISO | `ACE3-English-0.1.35-to-0.1.42-movie.xdelta` |
 
-**Original prologue edition:**
+**Original Japanese disc:**
 
 ```text
-xdelta3 -d -s "Another Century's Episode 3 - The Final (Japan).iso" ACE3-English-0.1.42.xdelta "ACE3 English 0.1.42.iso"
+xdelta3 -d -s "Another Century's Episode 3 - The Final (Japan).iso" ACE3-English-0.1.42-movie.xdelta "ACE3 English 0.1.42.iso"
 ```
 
-**English prologue edition:**
+**Upgrade from v0.1.35:**
 
 ```text
-xdelta3 -d -s "Another Century's Episode 3 - The Final (Japan).iso" ACE3-English-0.1.42-movie.xdelta "ACE3 English 0.1.42 movie.iso"
+xdelta3 -d -s "ACE3 English 0.1.35 movie.iso" ACE3-English-0.1.35-to-0.1.42-movie.xdelta "ACE3 English 0.1.42.iso"
 ```
 
-**Already on the v0.1.35 text edition?** Use its upgrade patch:
+Use your actual filenames. The full patch requires your original Japanese disc image; the upgrade requires the exact published English-prologue v0.1.35 output. Local test images may differ. Do not disable source checks if a checksum mismatch appears. Both patches produce the same output.
 
-```text
-xdelta3 -d -s "ACE3 English 0.1.35.iso" ACE3-English-0.1.35-to-0.1.42.xdelta "ACE3 English 0.1.42.iso"
-```
+The original Japanese ISO is 4,447,076,352 bytes; SHA-256 `5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705`.
 
-**Already on the v0.1.35 movie edition?** Use its upgrade patch:
+Output: 4,455,411,712 bytes; SHA-256 `c72752b32b5982b63ef8c5db5f171090469e3aad94999245cace2cb760565353`. Exact source hashes are in `BUILD-MANIFEST.json`; `VALIDATION.json` records successful patch round trips, and `SHA256SUMS.txt` covers download integrity.
 
-```text
-xdelta3 -d -s "ACE3 English 0.1.35 movie.iso" ACE3-English-0.1.35-to-0.1.42-movie.xdelta "ACE3 English 0.1.42 movie.iso"
-```
-
-Use your actual source filename in these commands. For a supported DVD `.chd`, Retro Trans handles unpacking before patching. Other patchers need the unpacked ISO; do not apply an ISO patch directly to the compressed CHD.
-
-If the patcher reports a checksum mismatch, check your source edition and version against the details below. Do not disable source verification. Upgrade patches require the exact published v0.1.35 outputs; local test builds may have different bytes. Full and upgrade patches produce identical v0.1.42 output within each edition.
-
-<details>
-<summary>Source and output ISO hashes</summary>
-
-| Required source | Bytes | SHA-256 |
-| --- | ---: | --- |
-| Original Japanese ISO | 4,447,076,352 | `5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705` |
-| Published v0.1.35 text ISO | 4,452,986,880 | `15f69e6ca194b8f8a58ca8e0cc84b54e946923b1efe732345015a81443f61da3` |
-| Published v0.1.35 movie ISO | 4,452,986,880 | `db226b8474d3b7f833eff553d78743f7f78d20d2cb3cd78e75a67a67a901d70c` |
-
-Both v0.1.42 outputs are **4,455,411,712 bytes**.
-
-| Output edition | SHA-256 |
-| --- | --- |
-| Original prologue | `ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d` |
-| English prologue | `c72752b32b5982b63ef8c5db5f171090469e3aad94999245cace2cb760565353` |
-
-</details>
+Retro Trans supports unpacking DVD CHD images before patching. Other patchers require the unpacked ISO. Use the latest Retro Trans app to refresh catalogs containing withdrawn patches.
 
 ### What changed since v0.1.35
 
@@ -73,21 +43,21 @@ Both v0.1.42 outputs are **4,455,411,712 bytes**.
 * **Warnings and options completed.** Completes the memory-card operation warnings and fits long option labels.
 * **Labels clarified.** Uses **Purchasable**, **Combo scene**, **Comm messages**, **Camera Movement** and **Situation Report**.
 
-The [changelog](https://github.com/retro-trans/ACE-3/blob/main/docs/CHANGELOG.md) contains further detail. The build verifies all 10,344 archive payloads and all 133 disc files. All four patches were decoded and compared with their intended ISO by size and SHA-256. Download checksums and exact source/output identities are provided in `SHA256SUMS.txt` and `BUILD-MANIFEST.json`; `VALIDATION.json` records successful patch round trips.
+The [changelog](https://github.com/retro-trans/ACE-3/blob/main/docs/CHANGELOG.md) contains further detail. The build verifies all 10,344 archive payloads and all 133 disc files. Both remaining patches were decoded and compared with their intended ISO by size and SHA-256. Download checksums and exact source/output identities are provided in `SHA256SUMS.txt` and `BUILD-MANIFEST.json`; `VALIDATION.json` records successful patch round trips.
 
-The Retro Trans packaging update adds those three metadata files. The existing xdelta files and resulting game images are unchanged. Release images preserve the original file order, with DATA.BIN enlarged and later files moved accordingly; their hashes differ from local test builds.
+The Retro Trans packaging update adds those three metadata files. The remaining xdelta files and resulting English prologue image are unchanged. Release images preserve the original file order, with DATA.BIN enlarged and later files moved accordingly; their hashes differ from local test builds.
 
 ### Release status
 
 **In-game confirmation is still pending for this release.** The recent layout and pagination fixes passed automated checks but still need fresh-boot testing. Patch verification does not establish full-game playability.
 
-Some image-based labels, including Player Sorties and the "battle stations" briefing banner, and the burned-in subtitles of two late-game movies remain Japanese. The original-prologue edition also retains the Japanese prologue movie.
+Some image-based labels, including Player Sorties and the "battle stations" briefing banner, and the burned-in subtitles of two late-game movies remain Japanese.
 
 Boot the patched ISO fresh in PCSX2 and load a normal memory-card save. Older save states retain executable data and text from the previous build.
 
 ### What's included
 
-English menus and help, Encyclopedia entries, unit and pilot names, mission text, story and in-mission dialogue, battle shouts, meeting captions, abilities, support details and command lists. The movie edition additionally includes English prologue subtitles. Full patches and matching v0.1.35 upgrades are provided for both editions; the editions differ only in the prologue movie data.
+English menus and help, Encyclopedia entries, unit and pilot names, mission text, story and in-mission dialogue, battle shouts, meeting captions, abilities, support details and command lists. English prologue subtitles are included. A full patch and matching v0.1.35 upgrade are provided.
 
 ### How it was translated
 

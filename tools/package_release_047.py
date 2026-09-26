@@ -1,4 +1,4 @@
-"""Prepare both 0.1.47 editions and build verified Retro Trans release assets.
+"""Build the English-prologue-only 0.1.47 Retro Trans release assets.
 
 Run relayout_disc.py ACE3-English-0.1.47.iso first. Preview by default.
 Only patches and canonical metadata go in the release directory.
@@ -7,28 +7,24 @@ import argparse
 import json
 from pathlib import Path
 import re
-import shutil
 import sys
-from build_ui_patch import ROOT, iso_files, require
-from package_release_042 import digest, MOVIE_FILE
+from build_ui_patch import ROOT, require
+from package_release_042 import digest
 
 VERSION = '0.1.47'
 DIR = ROOT/'work/release'
 ORIGINAL = next(ROOT.glob('*.iso'))
 MOVIE = DIR/'ACE3-English-0.1.47-orig-layout.iso'
-TEXT = DIR/'ACE3-English-0.1.47-text-orig-layout.iso'
 OUTPUT = ROOT/'work/output/release-0.1.47'
 TOOLS = ROOT/'work/local/retro-trans-tools'
 EXPECTED = {
     ORIGINAL: '5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705',
-    DIR/'ACE3-English-0.1.42-text-orig-layout.iso': 'ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d',
     DIR/'ACE3-English-0.1.42-orig-layout.iso': 'c72752b32b5982b63ef8c5db5f171090469e3aad94999245cace2cb760565353',
 }
 
 
 def jobs():
     for edition, suffix, target, previous in (
-        ('Original prologue', '', TEXT, DIR/'ACE3-English-0.1.42-text-orig-layout.iso'),
         ('English prologue', '-movie', MOVIE, DIR/'ACE3-English-0.1.42-orig-layout.iso'),
     ):
         for version, source, stem in (
@@ -50,10 +46,10 @@ def main():
                   platform='PS2', version=VERSION, source_commit=args.source_commit, patches=list(jobs()))
     for row in config['patches']:
         print('PLAN', row['patch'], row['edition'], row['source_version'], '->', VERSION, flush=True)
-    print('Restore the original prologue for the text edition; verify all four patch round trips.', flush=True)
+    print('English prologue only; verify the full and upgrade patch round trips.', flush=True)
     if not args.write:
         return
-    require(not TEXT.exists() and not OUTPUT.exists(), 'Release outputs already exist')
+    require(not OUTPUT.exists(), 'Release outputs already exist')
     meta = json.loads(MOVIE.with_suffix('.json').read_text())
     require(meta['verified'] and meta['files'] == 133, 'Verified release layout required')
     expected = dict(EXPECTED)
@@ -61,25 +57,6 @@ def main():
     for path, sha in expected.items():
         require(digest(path) == sha, 'Source hash mismatch: '+path.name)
         print('Verified source', path.name, flush=True)
-    with ORIGINAL.open('rb') as source, MOVIE.open('rb') as target:
-        original_movie = iso_files(source)[MOVIE_FILE]
-        target_movie = iso_files(target)[MOVIE_FILE]
-    require(original_movie['size'] == target_movie['size'], 'Movie extents differ')
-    shutil.copyfile(MOVIE, TEXT)
-    with ORIGINAL.open('rb') as source, TEXT.open('r+b') as target:
-        source.seek(original_movie['offset'])
-        target.seek(target_movie['offset'])
-        left = target_movie['size']
-        while left:
-            chunk = source.read(min(left, 8 << 20))
-            require(chunk, 'Short movie read')
-            target.write(chunk)
-            left -= len(chunk)
-    start, length = target_movie['offset'], target_movie['size']
-    for offset, size in ((0, start), (start+length, MOVIE.stat().st_size-start-length)):
-        require(digest(TEXT, offset, size) == digest(MOVIE, offset, size), 'Non-movie bytes changed')
-    require(digest(TEXT, start, length) == digest(ORIGINAL, original_movie['offset'], length), 'Original movie mismatch')
-    print('Verified original-prologue edition', flush=True)
     sys.path.insert(0, str(TOOLS))
     from retro_trans.release import build_release, validate_directory
     from retro_trans.catalog import atomic_json, file_hashes

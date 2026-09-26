@@ -28,7 +28,8 @@
 
 ## 0.1.47 — 2026-09-26
 
-- Prepare a public release containing the 0.1.43–0.1.47 translation and UI fixes, both prologue editions, full original-disc patches and matching published 0.1.42 upgrades. Use the current Retro Trans release builder for encoding, full decode verification and canonical package validation. Release-disc hashes differ from local test images because file order is restored for smaller patches.
+- Publish the 0.1.43–0.1.47 translation and UI fixes as an English-prologue-only release, with a full original-disc patch and matching published 0.1.42 movie upgrade. Both patches passed complete decode verification and the current Retro Trans package validator. Release image: 4,455,428,096 bytes, SHA-256 `b86f9a52d2b8bfae419d5a7d7bd48d59665787b3e6393e3722d9dc757129aa8e`.
+- At the user's request, discontinue non-movie downloads from this release and older releases. Update the README, release notes and old metadata to the supported edition. Preserve exact withdrawn catalog identities while removing their automatic routes; Retro Trans 0.3.1 adds compatible refresh support. Remaining published movie patches are unchanged.
 
 - Use the user-requested spelling Nu Gundam, including Nu Gundam (HWS), throughout the English unit-name glossaries, translation inputs and dialogue. Supersede old review notes that required lowercase spelling.
 - Correct 40 stored occurrences in the 0.1.46 disc: 36 indexed text occurrences and four fixed-field unit parameter names. Check each source string and preserve all pointers, control codes and record sizes. The builder previews changes by default and verifies the complete written image against the intended output hash.

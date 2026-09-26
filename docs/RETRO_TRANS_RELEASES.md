@@ -1,58 +1,29 @@
 # Retro Trans release packaging
 
-ACE3 uses the [Retro Trans release standard](https://github.com/retro-trans/retro-trans-tools/blob/main/docs/RELEASE_STANDARD.md).
-The public 0.1.42 release contains a canonical `BUILD-MANIFEST.json`, `VALIDATION.json`, `SHA256SUMS.txt` and
-four unchanged xdelta assets. Copies of the canonical metadata live in `docs/releases/0.1.42/`.
+ACE3 follows the [Retro Trans release standard](https://github.com/retro-trans/retro-trans-tools/blob/main/docs/RELEASE_STANDARD.md).
+Publish only **English prologue**, using stable game ID `ace-3`, platform `PS2` and language `en`.
+The user discontinued the non-movie edition on 2026-09-26. Preserve its historical binary identities in withdrawn catalog records, not selectable downloads.
 
-The stable game ID is `ace-3`, the platform is `PS2` and the language is `en`. Keep the edition names
-**Original prologue** and **English prologue** stable in future releases. The original disc matches both choices;
-each published translated disc matches only its own edition. The manifest includes SHA-256, byte sizes and
-SHA-1 aliases for CHD identification; extracted disc bytes still require SHA-256 verification before patching.
+## Build and validate
 
-## Verify existing patches
+For 0.1.47, preview `python tools/relayout_disc.py ACE3-English-0.1.47.iso`, inspect the planned extents, then repeat with `--write`.
+Preview `python tools/package_release_047.py --source-commit <full-source-commit>`, then repeat with `--write`.
+The packager invokes the current Retro Trans builder for the original-disc full patch and the matching published 0.1.42 upgrade.
+It verifies source identities, decodes each patch, compares the complete target image, adds SHA-1 aliases for DVD CHD identification, and validates the canonical package.
+Only patches, `BUILD-MANIFEST.json`, `VALIDATION.json` and `SHA256SUMS.txt` belong in the release assets. Never upload an ISO, private configuration, dump or extracted game data.
 
-`tools/package_retro_trans.py` adapts already-built patches without changing their bytes. It uses a separate local
-checkout of Retro Trans for its manifest validator and bundled xdelta engine. It does not upload anything.
-Python 3.8 or later and the current Windows Retro Trans checkout are required for the bundled engine.
-
-Prepare a manifest following the upstream standard, using the published 0.1.42 manifest as an example. Specify
-the exact expected source, patch and target hashes/sizes from the build. `source_commit` identifies the translation
-source snapshot. For 0.1.42 it points to the cleaned initial snapshot.
-
-Keep a private `work/local/retro-trans-sources.json` mapping each source SHA-256 to an ISO path. Paths may be
-absolute or relative to that JSON file. Never commit this file or any original/patched game image. Example shape:
-
-```json
-{
-  "<source SHA-256 from the manifest>": "path/to/source.iso"
-}
-```
-
-With the four existing patches in `work/release/`, preview the 0.1.42 package:
-
-```text
-python tools/package_retro_trans.py docs/releases/0.1.42/BUILD-MANIFEST.json --patch-dir work/release --sources work/local/retro-trans-sources.json --retro-trans-tools work/local/retro-trans-tools --out work/output/retro-trans-release
-```
-
-Inspect the edition/source routes, then repeat with `--write`. The output directory must not already exist.
-The preview checks patch hashes and input sizes without writing files. The write pass hashes every source,
-decodes every patch with Retro Trans's engine, compares output sizes and SHA-256 hashes, and validates the final
-package using Retro Trans's own release validator. It also computes SHA-1 aliases. Verification ISOs are temporary;
-the final directory contains only the unchanged patches and three metadata files. Allow space for all patch
-copies plus the largest decoded ISO.
-
-For newly encoded releases, upstream also supplies `python -m retro_trans.release build`; its configuration and
-validation commands are documented in the linked standard. Do not replace a published patch with different bytes.
-Use a new `0.x.y` version for changed game output and update the changelog.
+The general `tools/package_retro_trans.py` remains available to validate existing patches without changing their bytes. Keep its source-path mapping private under `work/local/`.
+New translations require a new `0.x.y` version; never replace a published patch with different bytes.
 
 ## Publish and confirm discovery
 
-Follow the [SRW-Z release format](https://github.com/retro-trans/SRW-Z/releases) for the description: a short game/edition introduction, then `### Apply`, `### What changed since ...`, `### Release status`, `### What's included`, `### How it was translated`, `### Acknowledgements`, `### Source code` and `### Contribute`. Use the matching ACE3 release notes in `docs/releases/` as the local starting point. Keep source requirements, commands, hashes, credits and limitations specific to ACE3 and the release; do not copy another project's technical claims or license restrictions.
+Follow the [SRW-Z release format](https://github.com/retro-trans/SRW-Z/releases): Apply, changes, release status, included content, translation details, acknowledgements, Source code and Contribute. Keep local notes and canonical metadata under `docs/releases/`.
+Stage a draft, upload every listed patch plus `VALIDATION.json` and `SHA256SUMS.txt`, and upload `BUILD-MANIFEST.json` last. Check uploaded sizes and hashes before publishing.
 
-Upload every listed patch and both `VALIDATION.json` and `SHA256SUMS.txt` first. Upload `BUILD-MANIFEST.json`
-last, so the catalog does not discover an incomplete package. All patch assets in that release must be listed;
-the existing versioned ACE3 manifest/checksum files can remain as supplemental documentation.
+Run **Refresh patch catalog** in Retro Trans Tools Actions after publishing. Confirm its validator succeeds and the release appears in the public catalog.
+Use `tools/verify_release_routes.py --version 0.1.47 --catalog <catalog.json>` to check original-disc and upgrade paths, current-version no-op, discontinued-edition exclusion and unknown-disc rejection.
+Add `--manifest <BUILD-MANIFEST.json>` only for a candidate preview against a catalog that does not yet contain the release.
 
-Retro Trans scans public stable releases hourly. A maintainer can also run **Refresh patch catalog** in that
-repository's Actions page. Confirm the run succeeds and the catalog contains `retro-trans/ACE-3` / `v0.1.42`,
-then use **Refresh catalog** in the app. Packaging validation verifies patch application, not in-game behavior.
+Removing an older published patch requires updating its live manifest, validation report and checksums, and moving its exact catalog identities into `withdrawn_releases` with the maintainer's reason. Retro Trans 0.3.1 or later supports refreshing these withdrawals from older cached catalogs. The remaining patch bytes stay unchanged.
+
+Packaging and catalog checks verify patch application, not in-game behavior. Keep runtime limitations explicit in the notes.

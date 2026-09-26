@@ -2,32 +2,12 @@
   "version": "0.1.42",
   "assets": [
     {
-      "name": "ACE3-English-0.1.42.xdelta",
-      "size": 100861494,
-      "sha256": "ed4b1bee3ca86cb44ae64c7b3a0a386a77ef7f9e13b9ff3fa7e543bbaaaac141",
-      "source_sha256": "5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705",
-      "source_size": 4447076352,
-      "output_sha256": "ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d",
-      "output_size": 4455411712,
-      "decode_verified": true
-    },
-    {
       "name": "ACE3-English-0.1.42-movie.xdelta",
       "size": 183947107,
       "sha256": "03b83af51b954840570a2c05f739bc3d7189e261c558a394eedcba1ee74e840a",
       "source_sha256": "5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705",
       "source_size": 4447076352,
       "output_sha256": "c72752b32b5982b63ef8c5db5f171090469e3aad94999245cace2cb760565353",
-      "output_size": 4455411712,
-      "decode_verified": true
-    },
-    {
-      "name": "ACE3-English-0.1.35-to-0.1.42.xdelta",
-      "size": 62442855,
-      "sha256": "2fdbbffdba2f4aa13161c37d8823607389221fce653cda7788cfaf8e58f8eae3",
-      "source_sha256": "15f69e6ca194b8f8a58ca8e0cc84b54e946923b1efe732345015a81443f61da3",
-      "source_size": 4452986880,
-      "output_sha256": "ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d",
       "output_size": 4455411712,
       "decode_verified": true
     },
