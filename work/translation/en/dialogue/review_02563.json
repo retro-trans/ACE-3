@@ -1,0 +1,29 @@
+{
+  "reviewer": "independent_meaning_review_dialogue_2563_agent",
+  "slice_start": 2563,
+  "slice_count": 80,
+  "rows_examined": [{"start": 2548, "end": 2657}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [2618, 2619, 2620], "finding": "Voice-only taunt before the Blue Hawk of Giganos (Meio Plato) is visually identified at 2621-2624. Gender-neutral 'that one' for source yatsu confirmed correct: the reveal structure withholds identity from the player at this point in the table, matching the precedent in review_01073 (row 1073) of not supplying an unstated identity/gender."},
+    {"rows": [2593, 2603], "finding": "Squad/waypoint callsigns Yamabuki Squad, Orange Vermilion, Red, Blue, Point R confirmed against orchestrator ruling: accepted as literal ACE3-original callsigns, no glossary entry required."},
+    {"rows": [2564, 2579, 2580, 2581, 2583], "finding": "'Giganos army'/'Giganos-army' for Giganos-gun checked against the corpus: only one prior instance exists (dialogue_01486, batch_01426, 'Giganos forces'), not a locked term and not a majority. Left as the translator's literal rendering; flagging alongside the translator's own note for an orchestrator terminology pass rather than unilaterally normalizing from a single data point."},
+    {"rows": [2611, 2612], "finding": "Eureka/Nirvash spellings confirmed against character_names_021.json and unit_names_014_b.json. No pronoun invented for Eureka; source has none and none was needed."},
+    {"rows": [2621, 2622, 2623, 2624], "finding": "Blue Hawk of Giganos / Meio Plato reveal sequence checked word-for-word against source; 'he' at 2623 matches source 彼 (already gendered in the Japanese), not an invented pronoun."},
+    {"rows": [2632], "finding": "Bare 'Federation' (no book tag) confirmed correct: source line 宇宙の民を苦しめ続ける連邦を打倒すべく has no book/color wrapper here, unlike the book(9)-tagged Federation references at 2672/2676/2687 in the next slice."},
+    {"rows": [2618], "finding": "'遅かりし復讐人、未熟者よ。滅。' rendered as two independent-clause vocatives ('Too late, avenger; you're still unripe. Perish.') instead of one compound noun phrase; same two attributes (belated, immature) applied to the same addressee, meaning unchanged. Left as merely differently phrased."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_02564", "dialogue_02579", "dialogue_02580", "dialogue_02581", "dialogue_02583"], "issue": "Giganos-gun rendered 'Giganos army'; the only other corpus occurrence of this noun (dialogue_01486) uses 'Giganos forces'. Not enough data to call either one a majority; not fixed here since this is a common-noun phrasing choice, not a name error, but the two forms should eventually be reconciled by an orchestrator terminology pass."},
+    {"ids": ["dialogue_02568", "dialogue_02574", "dialogue_02575", "dialogue_02592", "dialogue_02603", "dialogue_02619", "dialogue_02626"], "issue": "Rows contain lowercase j or q outside a locked name (e.g. 'adjust', 'squads', 'objective', 'justice'; 'quick turn' at 2574/2575 is the terms_028.json-locked exception). Not rewritten: this is a meaning-only pass, rewriting for glyph avoidance risks changing register for no meaning gain, and the already-reviewed batch_01073 corpus tolerates the same pattern (4 of 80 rows). Flagging for whoever runs a dedicated font/style pass."}
+  ],
+  "validation": {
+    "controls": "Every source <...> command reproduced in the same order for every one of the 80 rows (op()/on()/sp(20)/ab(n)/ed()/off()); no book/color/ce() spans occur in this slice. Verified programmatically against a fresh tools/dialogue_corpus.py slice.",
+    "format": "No raw carriage returns; \\n line-break counts unchanged from source (verified per row).",
+    "fit": "Visible text (tags and \\n removed) checked <=110 characters for every row; longest is well under the limit.",
+    "runtime": "Runtime scene selection, font glyph coverage, and on-screen visual fit are not established by this meaning review."
+  }
+}

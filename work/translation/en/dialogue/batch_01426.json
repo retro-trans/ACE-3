@@ -1,0 +1,569 @@
+{
+  "slice_start": 1426,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1411,
+      1520
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_01432",
+        "dialogue_01433",
+        "dialogue_01436",
+        "dialogue_01440"
+      ],
+      "note": "glossary.json locks 'New Federation' (provisional) while character_names_021.json gives 'New United Nations Earth' / 'New UNE'; the file's own rule says glossary.json spelling wins, so New Federation is used. Needs central decision."
+    },
+    {
+      "id": "dialogue_01432",
+      "note": "Compressed to fit 110: 'an organization called' became 'a body called', 'military power' became 'force of arms'. Who fought the unit is left unstated as in source."
+    },
+    {
+      "id": "dialogue_01438",
+      "note": "Source omits who is to be taken; 'us' inferred from first-person plural in 1437 and 1439 (speaker evidently Jamil, from 1431)."
+    },
+    {
+      "id": "dialogue_01430",
+      "note": "'spatial transfer device' is a literal rendering of a coloured keyword not found in any glossary/encyclopedia file; proposal filed."
+    },
+    {
+      "ids": [
+        "dialogue_01448",
+        "dialogue_01468",
+        "dialogue_01485"
+      ],
+      "note": "Nadesico wiki spelling 'Chulip' used (wiki wins) although the source word is the ordinary word for tulip and 1448 mocks the name; 'Tulip' would make the remark more transparent. Singular/plural of the Chulip is not marked in source."
+    },
+    {
+      "ids": [
+        "dialogue_01459",
+        "dialogue_01460",
+        "dialogue_01461",
+        "dialogue_01462"
+      ],
+      "note": "One chained monologue (text ids 85-88), probably the 'Tak's monologue' placeholder 1480; speaker not tagged, so 1459 kept subjectless."
+    },
+    {
+      "ids": [
+        "dialogue_01471",
+        "dialogue_01485"
+      ],
+      "note": "Rows 1471-1485 are developer placeholders describing planned voice lines, not dialogue; translated literally. 1481, 1482 and 1485 could also be read as line summaries."
+    },
+    {
+      "id": "dialogue_01493",
+      "note": "Subject omitted; read as reaction to Unit 2 being spotted in 1492 ('it'). Could equally be addressed to the pilot ('you')."
+    },
+    {
+      "id": "dialogue_01504",
+      "note": "Retort to 1503: 'that is a line for a fully-fledged man' (i.e. the listener is not one yet). Kept close to literal."
+    },
+    {
+      "ids": [
+        "dialogue_01497",
+        "dialogue_01499"
+      ],
+      "note": "Rank rendered 'Major' (Gundam wiki for Gato); contains lowercase j with no natural synonym. 1499 fire-support request kept imperative, no 'me' supplied."
+    },
+    {
+      "ids": [
+        "dialogue_01447",
+        "dialogue_01505"
+      ],
+      "note": "Resources 6041-6043 read like legacy Another Century's Episode 2 mission data (Tak, Burning, Uraki/Gato and Unit 2, Jovian Lizards, UCE) stored among ACE3 tables; translated faithfully without forcing them into the ACE3 Mission 04 storyline."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target equals the source's (script-checked).",
+    "fit": "No line breaks; longest visible text 109 chars; over-110 rows: none.",
+    "ascii": "ASCII only; no bare percent sign. Lowercase j/q only in locked names/ranks (Jamil, Jovian, Major).",
+    "meaning_review": "Independent meaning review done (review_01426.json): 80/80 rows examined, 0 meaning fixes, all rows meaning_reviewed, none left draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_01426",
+      "target": "<on()><sp(20)><color(4)>Faye<ce()>, that's such a ridiculous idea...",
+      "status": "meaning_reviewed",
+      "notes": "Reply to 1425 (a wholly different world); trailing off kept."
+    },
+    {
+      "id": "dialogue_01427",
+      "target": "<on()><sp(20)>No. That possibility can't be ruled out.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01428",
+      "target": "<on()><sp(20)>Huh...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01429",
+      "target": "<on()><sp(20)>It isn't hard to imagine the <book(1)>Baldora Drive<endbook()>'s effects causing this.",
+      "status": "meaning_reviewed",
+      "notes": "Locked provisional spelling Baldora Drive."
+    },
+    {
+      "id": "dialogue_01430",
+      "target": "<on()><sp(20)>There's something about that facility. It's no mere <color(6)>spatial transfer device<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Term rendered literally; see proposals."
+    },
+    {
+      "id": "dialogue_01431",
+      "target": "<on()><sp(20)>But we need information. Captain <color(4)>Jamil<ce()>, could you tell us a little more?",
+      "status": "meaning_reviewed",
+      "notes": "Rank follows the coloured name in source; color span kept on the name only."
+    },
+    {
+      "id": "dialogue_01432",
+      "target": "<on()><sp(20)>Those were <book(38)>New Federation<endbook()> troops earlier. A body called the <book(38)>New Federation<endbook()> rules this Earth by force of arms.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed; 'the ones engaged earlier' kept subjectless. Both book links kept in order."
+    },
+    {
+      "id": "dialogue_01433",
+      "target": "<on()><sp(20)>The <book(38)>New Federation<endbook()>... So it's not our <book(9)>Earth Federation<endbook()>. But what about you people?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01434",
+      "target": "<on()><sp(20)>We're <book(39)>Vultures<endbook()> working to protect Newtypes. We fight to protect a girl named <color(4)>Tiffa<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01435",
+      "target": "<on()><sp(20)>A Newtype... So that girl is one...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01436",
+      "target": "<on()><sp(20)>The <book(38)>New Federation<endbook()> is after her to put Newtypes to military use.",
+      "status": "meaning_reviewed",
+      "notes": "'her' is explicit in the source."
+    },
+    {
+      "id": "dialogue_01437",
+      "target": "<on()><sp(20)>You seem to have complicated circumstances... but losing the <color(4)>Freeden<ce()> has put us in a tight spot.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01438",
+      "target": "<on()><sp(20)>I have a favor to ask. Could you take us to our allies?",
+      "status": "meaning_reviewed",
+      "notes": "Object omitted in source; 'us' taken from the first-person plural in 1437/1439."
+    },
+    {
+      "id": "dialogue_01439",
+      "target": "<on()><sp(20)>Our allies... We must link up with <book(60)>Gekkostate<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01440",
+      "target": "<on()><sp(20)>Like me, they fight the <book(38)>New Federation<endbook()>. A man named <color(4)>Holland<ce()> leads them.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01441",
+      "target": "<on()><sp(20)>Information from here on, of course, and all the help we can give - that's a promise.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01442",
+      "target": "<on()><sp(20)>What we need now is information. Acting with you, even temporarily, would be best.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01443",
+      "target": "<on()><sp(20)>Yeah, that looks like the only option for now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01444",
+      "target": "<on()><sp(20)>It helps to hear you say that.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01445",
+      "target": "<on()><sp(20)><book(60)>Gekkostate<endbook()> is now in a town called Bellforest to repair a machine called the <book(61)>Nirvash<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Bellforest: see proposals."
+    },
+    {
+      "id": "dialogue_01446",
+      "target": "<on()><sp(20)>Understood. Please lead the way.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01447",
+      "target": "<op()><sp(20)>So that big thing is spitting out the enemies?<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01448",
+      "target": "<op()><sp(20)>\"Chulip\"? What a ridiculous name!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Nadesico wiki spelling Chulip; see uncertainties."
+    },
+    {
+      "id": "dialogue_01449",
+      "target": "<op()><sp(20)>They keep coming! Knock them down!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01450",
+      "target": "<op()><sp(20)>That much should secure the route.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01451",
+      "target": "<op()><sp(20)>Now destroy as many of the rest as you can.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01452",
+      "target": "<op()><sp(20)>This many of them is cheating!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Polite register in source."
+    },
+    {
+      "id": "dialogue_01453",
+      "target": "<op()><sp(20)>No enemies in the vicinity.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01454",
+      "target": "<op()><sp(20)>Well done. Bring the attack team back for resupply.<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01455",
+      "target": "<op()><sp(20)>Good, this ship will advance. Destination: Kimbareid Base.<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kimbareid Base: see proposals."
+    },
+    {
+      "id": "dialogue_01456",
+      "target": "<op()><sp(20)>The ones still left worry me... but return to the ship for now.<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01457",
+      "target": "<op()><sp(20)>It's no good! The route can't be secured!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01458",
+      "target": "<op()><sp(20)>No choice... We fall back for now!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01459",
+      "target": "<op()><sp(20)>Jovian Lizards... Fought them many times before.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Subject omitted in source; kept subjectless."
+    },
+    {
+      "id": "dialogue_01460",
+      "target": "<sp(20)>Unmanned weapons of unknown origin that keep raiding Earth...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01461",
+      "target": "<sp(20)>One by one they're no great threat, but this many of them is trouble.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01462",
+      "target": "<sp(20)>With a weapon that can multi-lock...<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01463",
+      "target": "<op()><sp(20)>Is the target in the direction the enemies come from?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01464",
+      "target": "<op()><sp(20)>...I don't get it. Why would these things be in a place like this?<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01465",
+      "target": "<op()><sp(20)>At this rate the ship cannot advance.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01466",
+      "target": "<op()><sp(20)>Not yet?! Hurry!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01467",
+      "target": "<op()><sp(20)>Are you all right?! Be careful out there!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01468",
+      "target": "<op()><sp(20)>Good, the mobile weapons seem to be wiped out. Finish off the Chulip.<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Number of Chulips not marked in source."
+    },
+    {
+      "id": "dialogue_01469",
+      "target": "<on()><sp(20)>Multiple heat sources ahead of the ship.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01470",
+      "target": "<on()><sp(20)>You can see the targets, right? Eliminate them.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01471",
+      "target": "<op()><sp(20)>Additional mission details<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01472",
+      "target": "<op()><sp(20)>Praise: doing well, keep it up<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01473",
+      "target": "<op()><sp(20)>Praise: doing well, keep it up - part 2<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01474",
+      "target": "<op()><sp(20)>Praise for meeting the success condition<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01475",
+      "target": "<op()><sp(20)>Encouragement: hang in there<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01476",
+      "target": "<op()><sp(20)>Urged to hurry (for dire moments)<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01477",
+      "target": "<op()><sp(20)>High praise<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01478",
+      "target": "<op()><sp(20)>Notice: time is up, but the mission succeeded<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01479",
+      "target": "<op()><sp(20)>Scolded: time is up, mission failed<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01480",
+      "target": "<op()><sp(20)>Tak's monologue<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally. Tak = Tak Kepford (ACE2 protagonist); see proposals."
+    },
+    {
+      "id": "dialogue_01481",
+      "target": "<op()><sp(20)>The targets to destroy lie where the enemies come from<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01482",
+      "target": "<op()><sp(20)>What is the enemy after?<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01483",
+      "target": "<op()><sp(20)>Burning's sharp pep talk<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally. Source word is a sharp bracing shout."
+    },
+    {
+      "id": "dialogue_01484",
+      "target": "<op()><sp(20)>Amuro's encouragement (per unit, when the player unit isn't Amuro)<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01485",
+      "target": "<op()><sp(20)>Only the Chulip remains<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01486",
+      "target": "<op()><sp(20)>Giganos forces are deploying wide and closing on the ship!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01487",
+      "target": "<op()><sp(20)>Strike them here as fast as possible!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01488",
+      "target": "<op()><sp(20)>Enemy strength is on the decline!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01489",
+      "target": "<op()><sp(20)>Good, advancing again.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01490",
+      "target": "<op()><sp(20)>The damage is spreading!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01491",
+      "target": "<op()><sp(20)>Don't panic, this ship can still hold!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01492",
+      "target": "<op()><sp(20)>Found it! It's Unit 2!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01493",
+      "target": "<op()><sp(20)>So it's come out!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply to 1492 (Unit 2 spotted); subject omitted in source."
+    },
+    {
+      "id": "dialogue_01494",
+      "target": "<op()><sp(20)>Captain, at this rate...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01495",
+      "target": "<op()><sp(20)>No choice... We fall back for now!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same source text as 1458."
+    },
+    {
+      "id": "dialogue_01496",
+      "target": "<op()><sp(20)>Good! Keep pressing in!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01497",
+      "target": "<op()><sp(20)>Major, sir! The HLV's launch time is drawing near!<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01498",
+      "target": "<sp(20)>Please hurry back to base!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01499",
+      "target": "<op()><sp(20)>Understood! Provide fire support!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01500",
+      "target": "<op()><sp(20)>Sir!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01501",
+      "target": "<op()><sp(20)>Why did you steal Unit 2?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01502",
+      "target": "<op()><sp(20)>I have no more words for the likes of you! A man who can't even grasp the meaning of fighting!!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'man' explicit in source."
+    },
+    {
+      "id": "dialogue_01503",
+      "target": "<op()><sp(20)>Even so, I'm a Federation officer!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01504",
+      "target": "<op()><sp(20)>Those are the words of a full-grown man!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Dismissive retort to 1503: such a line belongs to a fully-fledged man."
+    },
+    {
+      "id": "dialogue_01505",
+      "target": "<op()><sp(20)>As expected of the Federation's White Devil. But I will not be outdone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

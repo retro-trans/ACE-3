@@ -1,0 +1,537 @@
+{
+  "slice_start": 11256,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      11241,
+      11350
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_11256",
+      "target": "<op()><sp(20)>Berkt... became the Shin Dragon...?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reaction to the Baldora Charge overload reported in the immediately preceding rows (11252-11255); no new information supplied."
+    },
+    {
+      "id": "dialogue_11257",
+      "target": "<op()><sp(20)>Why you?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressee is the transformed Shin Dragon/Berkt per following rows; speaker not identified, kept unassigned."
+    },
+    {
+      "id": "dialogue_11258",
+      "target": "<op()><sp(20)>Rejected by Go,\nthe Shin Dragon sought a new core.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Go is the locked spelling for the Shin Getter's artificial pilot (character_names_021.json, unit_names_014_a.json)."
+    },
+    {
+      "id": "dialogue_11259",
+      "target": "<op()><sp(20)>Even if that's possible, you, who are not Go,\nshouldn't be able to use its full power!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11260",
+      "target": "<op()><sp(20)>A new power, gained with me as its core...\nGo ahead and see for yourself.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply from the transformed Berkt/Shin Dragon; 'Go' here is the verb, not the character -- no collision, plain imperative."
+    },
+    {
+      "id": "dialogue_11261",
+      "target": "<op()><sp(20)>To make that thing settle down,\nwe have no choice but to strike the main body!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Source omits <ed()>; row continues directly into 11262-11264 as one operator briefing, tags reproduced exactly as given."
+    },
+    {
+      "id": "dialogue_11262",
+      "target": "<sp(20)>But the main body is protected\nby powerful Getter Rays.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Getter Rays is the locked encyclopedia_022.json spelling; source here carries no <book()> wrapper, so none was added."
+    },
+    {
+      "id": "dialogue_11263",
+      "target": "<sp(20)>First hit its outer sections,\nand build up damage across the whole body.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11264",
+      "target": "<sp(20)>Doing that should open a way through!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11265",
+      "target": "<op()><sp(20)>Congratulations.\nThis is your own doing.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "New exchange (text_id 121); speaker not identified from context, kept unassigned/ambiguous antagonist address."
+    },
+    {
+      "id": "dialogue_11266",
+      "target": "<op()><sp(20)>Can you see it?\nThe two worlds becoming one.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11267",
+      "target": "<sp(20)>This is nothing but salvation.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11268",
+      "target": "<op()><sp(20)>Why would you go this far...?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressed to the speaker of 11265-11267; responder not identified."
+    },
+    {
+      "id": "dialogue_11269",
+      "target": "<op()><sp(20)>Barrel, you said you believed in the future.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Confirms the addressee of 11265-11268 is speaking to/about Barrel; speaker's own identity still not confirmed from text alone."
+    },
+    {
+      "id": "dialogue_11270",
+      "target": "<sp(20)>That is exactly what I have to deny.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11271",
+      "target": "<sp(20)>Deceived by false hope, and diving headlong into ruin...\nThat's humanity's true nature.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11272",
+      "target": "<op()><sp(20)>Conflict, repeated again and again.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11273",
+      "target": "<sp(20)>The land, fearful of the Limit of Questions.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Kudan no Genkai (クダンの限界) is the Eureka Seven term whose fandom wiki page title is 'Limit of Questions'; locked by orchestrator ruling and applied here (meaning review)."
+    },
+    {
+      "id": "dialogue_11274",
+      "target": "<sp(20)>A world with nothing but despair.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11275",
+      "target": "<sp(20)>Putting a stop to it with humanity's own hands--\nthat is what salvation truly is.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11276",
+      "target": "<op()><sp(20)>If you were human, like me,\nthere's no way you'd think this way!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11277",
+      "target": "<op()><sp(20)>I am not Barrel.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Confirms speaker is Berkt, Barrel's parallel-world counterpart (glossary.json char.berkt note: 'Keep separate from Berkt; parallel-world identities are not interchangeable speaker labels')."
+    },
+    {
+      "id": "dialogue_11278",
+      "target": "<op()><sp(20)>By our father Bardona,\nwe were made the key to the Baldora Drive.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Bardona is the locked surname for Dr. Jill Bardona (terms_028.json); source's バルドナ here is the same surname, kept distinct from the 'Baldora' in Baldora Drive per the existing lock."
+    },
+    {
+      "id": "dialogue_11279",
+      "target": "<sp(20)>But because of that, the New Federation\ncame to want us dead.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "New Federation is the locked spelling (terms_028.json, glossary.json)."
+    },
+    {
+      "id": "dialogue_11280",
+      "target": "<sp(20)>At that time, I discarded the name Barrel.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11281",
+      "target": "<op()><sp(20)>Why... did you kill your own father?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not identified; gender-neutral address kept."
+    },
+    {
+      "id": "dialogue_11282",
+      "target": "<op()><sp(20)>The reason he built the Baldora Drive...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11283",
+      "target": "<sp(20)>Barrel, it was so he could meet you.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11284",
+      "target": "<sp(20)>I'm nothing more than something that happened to be born--\nsomething that isn't Barrel.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11285",
+      "target": "<sp(20)>So I killed him.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11286",
+      "target": "<op()><sp(20)>No way...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11287",
+      "target": "<op()><sp(20)>No matter how you were born or how you've lived...\nyou're still me, and that doesn't change!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11288",
+      "target": "<sp(20)>So please, just stop this!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11289",
+      "target": "<op()><sp(20)>Shut up!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11290",
+      "target": "<sp(20)>I am a possibility within you.\nAre you going to deny that?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11291",
+      "target": "<op()><sp(20)>All the more reason, then...\nI'll stop you!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11292",
+      "target": "<op()><sp(20)>What you're doing\nis something I might do too.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11293",
+      "target": "<sp(20)>If you're a possibility within me...\nthen I'll settle this with myself!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11294",
+      "target": "<op()><sp(20)>You don't have the strength to bear the depth of despair.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11295",
+      "target": "<sp(20)>Just wait quietly for your ruin.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11296",
+      "target": "<op()><sp(20)>If we accept reality and move forward,\nthe future is sure to open up!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11297",
+      "target": "<op()><sp(20)>Even in a situation like this, is there something you still believe in, Faye?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Faye is the locked spelling (meeting_terms_015.json inherited_terms, Faye Rochenante); no gender pronoun invented for the speaker."
+    },
+    {
+      "id": "dialogue_11298",
+      "target": "<op()><sp(20)>I have the future that Barrel showed me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11299",
+      "target": "<op()><sp(20)>There's absolutely no way I can lose!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11300",
+      "target": "<op()><sp(20)>Once you witness that moment, you'll change too!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'刻' (that instant/moment) kept literal rather than expanded into an invented Newtype-specific term; following row's reply supplies the Newtype framing."
+    },
+    {
+      "id": "dialogue_11301",
+      "target": "<op()><sp(20)>Spoken like a Newtype.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Newtype is the established Gundam-franchise term already used throughout character_names_021.json."
+    },
+    {
+      "id": "dialogue_11302",
+      "target": "<sp(20)>But in the end, clinging to possibility,\nyou're nothing more than a soldier being used!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11303",
+      "target": "<op()><sp(20)>The Psycho-Frame's resonance\ngathered people's will.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Psycho-Frame (サイコフレーム) is the locked spelling per the Gundam wiki; applied here (meaning review)."
+    },
+    {
+      "id": "dialogue_11304",
+      "target": "<sp(20)>People can connect with each other!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11305",
+      "target": "<op()><sp(20)>I've got no intention of having my life ended\nby your self-serving ideas!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11306",
+      "target": "<sp(20)>There's still someone out there\nI have to beat!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11307",
+      "target": "<op()><sp(20)>The very will of people to defeat other people\nis the mistake.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11308",
+      "target": "<op()><sp(20)>You're wrong about that!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11309",
+      "target": "<op()><sp(20)>The future is something you seize by believing in it yourself!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11310",
+      "target": "<sp(20)>There's no way I'll lose\nto someone who doesn't understand that!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11311",
+      "target": "<op()><sp(20)>Dreaming of the future, only to be betrayed.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11312",
+      "target": "<sp(20)>Humanity despairs from that, over and over.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11313",
+      "target": "<sp(20)>That's exactly what the way of life you speak of amounts to!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11314",
+      "target": "<op()><sp(20)>Even that is a path!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11315",
+      "target": "<op()><sp(20)>That's right... people can grow stronger through that.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11316",
+      "target": "<op()><sp(20)>We already stopped the Limit of Questions!\nThere's no need to do this anymore!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Limit of Questions matches the same locked term as row 11273; kept consistent (meaning review)."
+    },
+    {
+      "id": "dialogue_11317",
+      "target": "<op()><sp(20)>We can go on living!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11318",
+      "target": "<op()><sp(20)>So what?\nThat doesn't matter anymore.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11319",
+      "target": "<sp(20)>This world ends by my own will.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11320",
+      "target": "<op()><sp(20)>I won't let that happen... never!\nNot for the sake of the Nirvash that waited for me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Nirvash is the locked spelling (unit_names_014_b.json)."
+    },
+    {
+      "id": "dialogue_11321",
+      "target": "<op()><sp(20)>We're the ones who even defeated the Overdevil!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Overdevil is the locked King Gainer spelling (terms_028.json)."
+    },
+    {
+      "id": "dialogue_11322",
+      "target": "<op()><sp(20)>That was certainly an unexpected effort.\nBut it ends here.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11323",
+      "target": "<op()><sp(20)>Underestimate Gainer, who's awakened his Oversense,\nand you'll regret it!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Gainer is the locked King Gainer spelling. Oversense (オーバーセンス), one word, is the locked spelling matching 'Overskill'; applied here (meaning review)."
+    },
+    {
+      "id": "dialogue_11324",
+      "target": "<sp(20)>There's no way I'll lose\nto someone who just runs away like you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11325",
+      "target": "<op()><sp(20)>Didn't expect to hear that\nfrom someone who fled during the Exodus.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Exodus is the locked King Gainer spelling (mission_terms_019.json)."
+    },
+    {
+      "id": "dialogue_11326",
+      "target": "<op()><sp(20)>The Exodus wasn't about running away.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11327",
+      "target": "<sp(20)>It's a word for living life looking forward!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11328",
+      "target": "<op()><sp(20)>The Shin Dragon's core, Go...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Shin Dragon and Go are the locked spellings (mission_terms_019.json inherited_terms; unit_names_014_a.json)."
+    },
+    {
+      "id": "dialogue_11329",
+      "target": "<sp(20)>Why would a created life-form side with humans?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11330",
+      "target": "<op()><sp(20)>My power is memories... recollections...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11331",
+      "target": "<sp(20)>To connect the past to the future,\nI live in the present and protect everyone!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11332",
+      "target": "<op()><sp(20)>The guardian of the Shin Dragon, once humanity's enemy--\nyou say that while riding the Shin Getter?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Shin Getter is the locked spelling (unit_names_014_a/b.json Shin Getter-1/2/3 forms)."
+    },
+    {
+      "id": "dialogue_11333",
+      "target": "<op()><sp(20)>Now it's humanity's shield and spear!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11334",
+      "target": "<op()><sp(20)>I will defeat you, no matter what!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11335",
+      "target": "<op()><sp(20)>We won our last battle,\nand gained peace with the aliens too.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_11256",
+        "dialogue_11257",
+        "dialogue_11265",
+        "dialogue_11266",
+        "dialogue_11267",
+        "dialogue_11268",
+        "dialogue_11269",
+        "dialogue_11281",
+        "dialogue_11296",
+        "dialogue_11300",
+        "dialogue_11301"
+      ],
+      "note": "Speakers are not tagged in the source tables. Lines were translated from content and addressee cues only (named addressees such as 'Barrel' and 'Faye' were kept); no speaker identity or gender was invented for untagged lines."
+    },
+    {
+      "ids": [
+        "dialogue_11273",
+        "dialogue_11316"
+      ],
+      "note": "クダン ('Kudan') and クダンの限界 ('Kudan's Limit') do not appear in any project glossary file. Researched (Japanese folklore prophetic-beast name 'kudan'; no ACE3, Wings of Rean, or Getter Robo Armageddon source confirms this as the intended reference). Kept as a literal romanized proper noun pending orchestrator research; proposed to the glossary."
+    },
+    {
+      "id": "dialogue_11303",
+      "note": "サイコフレーム ('Psychoframe') has no single confirmed official English spelling; Psycho-Frame, Psycoframe and Psychoframe all circulate in Gundam CCA sources. Rendered as a plain lowercase technology term; proposed to the glossary for a locked decision."
+    },
+    {
+      "id": "dialogue_11323",
+      "note": "オーバーセンス ('Over Sense') is not covered by the English Overman King Gainer Wikipedia article (which discusses 'Overskills' but not this term) and has no other glossary attestation. Kept literal, matching the franchise's existing 'Over-' compounds; proposed to the glossary."
+    },
+    {
+      "id": "dialogue_11278",
+      "note": "父バルドナ rendered as 'our father Bardona', reusing the locked surname for Dr. Jill Bardona rather than the separately locked 'Baldora' (Drive/particles) spelling, per terms_028.json's note that unifying the two is an open question."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket command tokens preserved in exact source order, including rows with no closing <ed()> which continue directly into the following row as in the source (e.g. 11261-11263, 11266, 11269-11270, 11272-11274, 11279, 11282-11284, 11289, 11292, 11294, 11301, 11305, 11309, 11311-11312, 11318, 11326, 11330, 11337, 11347, 11392).",
+    "meaning_review": "Independent meaning review performed; all 80 rows in slice examined and set to meaning_reviewed (none left as draft).",
+    "fit": "Full meaning drafted first, without shortening for display; longest visible strings measured below 110 characters.",
+    "runtime": "Resource 6350 (mission 29, 'Stop the Baldora Drive 2') scene continuity verified from the corpus's stored table order and text_id groupings; no in-game screenshot verification performed."
+  }
+}

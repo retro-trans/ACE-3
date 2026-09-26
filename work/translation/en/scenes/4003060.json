@@ -1,0 +1,192 @@
+{
+ "resource_id": 4003060,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 16,
+ "rows_examined": 16,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "06  Support the Exodus",
+   "notes": "Released mission title reused.",
+   "source_sha256": "8c3288deb6d021c0ea6d3089ddcbc9be5e25e4eb2a411c10d57dda360f6117ea"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30110,1)><speed(2)>Let me tell you about <color(4)>Gain Bijou<ce()><thumbnail(185)>, the man we are about to meet up with.",
+   "notes": "Locked name contains j (exempt).",
+   "source_sha256": "3740395410f966e6d47b00ef1f98a30bbf7bddd02e600421be399d7bc6eaa1a9"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30110,1)><speed(2)>The guy is an <book(55)>Exodus<endbook()> contractor who goes by the alias Black Southern Cross.",
+   "notes": "Black Southern Cross per character_names_021 nickname.",
+   "source_sha256": "7985d0ccb0fa6ef9ede6bb09758ee1a9a324f84ae96c40e9b0aea93f555ead77"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)><book(55)>Exodus<endbook()> is the act of <book(54)>Domepolis<endbook()> residents escaping <book(38)>New Federation<endbook()> control and moving to live on fertile land.",
+   "notes": "",
+   "source_sha256": "4994e00a054ba8328b44274e5877e68027efd8ffb3f283cc5d7372e8f5020b26"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>All over Siberia there are cities run by the <book(38)>New Federation<endbook()> that are called <book(54)>Domepolis<endbook()><thumbnail(186)>.",
+   "notes": "",
+   "source_sha256": "8c88c842bf22033c532da9ce406a0270282e53eda7559058bb4fb7121f6f10d2"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>A <book(54)>Domepolis<endbook()> holds not only ordinary citizens; monks of a sect called <book(83)>Vodarac<endbook()> and political prisoners are confined there too.",
+   "notes": "",
+   "source_sha256": "faa6d0eaafca2365892a5745b8cb475885d47024ecfef175b970a3bf9b130724"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30060,1)><speed(2)>They are run by what is called the <book(56)>Siberian Railway<endbook()><thumbnail(187)>, a subordinate body of the <book(38)>New Federation<endbook()>.",
+   "notes": "",
+   "source_sha256": "70b0a8209c24ef8821e7d21077c5164687e6016f8d2d130b23748ab82a1904f5"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30060,1)><speed(2)>The <book(56)>Siberian Railway<endbook()> defines <book(55)>Exodus<endbook()> as a serious crime; merely planning one brings severe punishment.",
+   "notes": "",
+   "source_sha256": "80297106bf25a276b1731110cc89459ed7154352cbc950a44ac300e23edad921"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<topic()><operator(30110,1)><speed(2)><color(4)>Gain<ce()> is hunted by the <book(56)>Siberian Railway<endbook()> as a top-class bounty head. That is why he teamed up with us.",
+   "notes": "",
+   "source_sha256": "4b9a43246bf28a92dc0ab7cdb5c6ced8639dbf10457e988d9b9d794f2340e1e9"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30110,1)><speed(2)>The goal of this operation is to work with <color(4)>Gain<ce()> and make the <book(55)>Exodus<endbook()><thumbnail(188)> succeed.",
+   "notes": "",
+   "source_sha256": "e7f5d9f3e8204a7d06018ab9b1a415fb2dc02bb6d243350a1da49e6634886a17"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30110,1)><speed(2)>And one more thing... Breaking out a <book(83)>Vodarac<endbook()> high priest who is due to be executed soon.",
+   "notes": "Source has no subject; gerund keeps it open.",
+   "source_sha256": "0fd67d510644be47dfc138167d458f3b90d850a0be96fbdf427c693777390b04"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30110,1)><speed(2)>The place is a <book(54)>Domepolis<endbook()> called Wulgusk. The high priest was thrown into prison as a political prisoner on false charges.",
+   "notes": "Wulgusk: see glossary_proposals.",
+   "source_sha256": "8f6496321c6861bac1062cbcd2e7c695f9cc0c25342939ac758f0604a676a8b7"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30110,1)><speed(2)><color(4)>Gain<ce()> has teamed up with residents inside and already managed to slip into the <book(54)>Domepolis<endbook()> prison.",
+   "notes": "",
+   "source_sha256": "860a3809bae88084134182db7faaf1da5b528545bc404ce532696d093ec31c8e"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30110,1)><speed(2)>The moment the <book(55)>Exodus<endbook()> starts, we back up <color(4)>Gain<ce()> and get the high priest out. You get the gist, right?",
+   "notes": "",
+   "source_sha256": "b93824a800b803c3b3a2ca6c8d21bfe728960b59a31803ddfdbee0a97fa3d47b"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30110,1)><speed(2)><color(4)>Gain<ce()> is well versed in all kinds of information. Meeting up with him should be a great advantage for our actions from here on.",
+   "notes": "Operator id is Holland (30110) although the register (wareware / kare) sounds like Jamil; see uncertainties.",
+   "source_sha256": "c95e0312f0172d8e9862bb2fbc6790fe55b87f8fa4cac4e93d3fe9660caba56b"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>It'd be a big help to have you people on board. I'm counting on you.",
+   "notes": "",
+   "source_sha256": "5e5a553ffe7651fb89ff2a909bf2eb3f042491483e28aebca48482394d8b7c14"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "\"ukeoinin\" rendered \"contractor\" (character_names_021 role says \"Exodus specialist\"); no locked term found."
+  },
+  {
+   "slot": 22,
+   "issue": "Domepolis used unchanged as plural (\"cities ... called Domepolis\") to keep the book span on the locked spelling."
+  },
+  {
+   "slot": 32,
+   "issue": "Operator tag says Holland (30110) but the wording is formal (wareware, kare) unlike his other lines (ore-tachi, yatsu) and like Jamil's. Translated in a neutral register; possible source-data speaker slip, not changed."
+  },
+  {
+   "slot": 23,
+   "issue": "In this game's crossover setting the Vodarac (Eureka Seven) are held in King Gainer's Domepolis; \"high priest\" for kousou is descriptive, English E7 usage not verified."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "Urugusuku",
+   "en": "Wulgusk",
+   "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer ; https://tvtropes.org/pmwiki/pmwiki.php/Anime/OvermanKingGainer",
+   "why": "King Gainer Domepolis where the Exodus starts; not in glossary."
+  },
+  {
+   "ja_reading_romaji": "kousou (Vodaraku no kousou)",
+   "en": "high priest",
+   "source": "none verified; descriptive (kousou = high-ranking monk)",
+   "why": "Title of the Vodarac cleric to be rescued in missions 06; needs one project-wide term."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 16,
+  "rows_in_scene": 16,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"06  Support the Exodus\".",
+   "Speakers: 30110 Holland Novak (slots 19-20, 26-33), 30060 Jamil Neate (slots 21-25).",
+   "Slot 20 ruling: \"contractor\" is a correct rendering of ukeoinin; the glossary \"Exodus specialist\" is a role description, not a locked term. \"Black Southern Cross\" matches the character_names_021 nickname.",
+   "Slot 22 ruling: invariant plural \"Domepolis\" accepted; keeps the locked spelling inside the book span (same spelling as encyclopedia_022).",
+   "Slot 32 ruling: speaker tag left as Holland per orchestrator decision; a neutral register is appropriate since the wording (wareware/kare) differs from Holland's other lines. Meaning is correct.",
+   "Slot 23 ruling: \"high priest\" for kousou matches the term already used and proposed in dialogue batch_01895/01975 (mission 06) and briefing 4003521; consistent.",
+   "Slot 28: gerund keeps the source's missing subject open; \"due to be executed soon\" correct.",
+   "Slot 29: \"Wulgusk\" is in no glossary file; it matches the common English King Gainer spelling; provisional.",
+   "Slots 19, 22, 24, 27: <thumbnail> follows the same noun as in the source.",
+   "Gain is male in character_names_021 and the source itself says otoko/kare."
+  ],
+  "remaining_uncertainties": [
+   "Slot 29: \"Wulgusk\" spelling provisional - orchestrator should add it to glossary.json and check the mission 06 dialogue batches for the same place name.",
+   "Slot 32: possible source-data speaker slip (Jamil-like register under Holland's tag); not changed.",
+   "Slot 26: \"dakara oretachi to te wo kunde iru\" is a present state (\"is teamed up with us\"); draft says \"teamed up with us\" - same meaning, left."
+  ]
+ }
+}

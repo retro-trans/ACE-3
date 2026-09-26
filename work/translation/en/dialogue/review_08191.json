@@ -1,0 +1,26 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 8191,
+  "slice_count": 24,
+  "rows_examined": [{"start": 8031, "end": 8214}],
+  "rows_examined_count": 184,
+  "rows_in_slice": 24,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [8191, 8196, 8197, 8198], "finding": "Reviewed the wordless-tag reunion continuation against the color(4)-tagged pattern established in batch_08111 (rows 8184-8190); speaker alternation is internally consistent and no contradiction was found across the join. Row 8197 ('You keep growing up more and more, don't you.') is ambiguous between addressing Renton's maturing and Eureka's own (Coralian) growth, but nothing in the immediate context settles it either way, so the translator's neutral phrasing was left as-is."},
+    {"rows": [8206, 8207, 8208, 8209], "finding": "New Federation abandoning Zonder Epta Island and recovering/modifying Jamil's old GX into the 'Double X' match unit_names_014_b.json ('Gundam Double X (G-Falcon Equipped)') and the GX/colony-drop backstory established earlier in the slice (dialogue_08037-08042); no reversal or invented detail."},
+    {"rows": [8210, 8211, 8212], "finding": "Garrod inferred as the casual speaker of 8210 ('Might as well. Let's take it and put it to use.'), confirmed by Jamil formally handing him the GX in 8211 and Garrod's own reply naming Renton/Barrel in 8212; chain is self-consistent."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_08191", "dialogue_08196", "dialogue_08197", "dialogue_08198"], "issue": "No <ab()>/<ed()> boundaries in this reunion stretch; speaker alternation is inferred from the established color(4) pattern in the prior batch, not independently re-derived. Checked for contradictions, found none."},
+    {"ids": ["dialogue_08202"], "issue": "Line addressed to Faye ('about what happened before') has no speaker tag; left unattributed as translator noted, no identity confirmable from this slice."},
+    {"ids": ["dialogue_08210"], "issue": "Speaker taking the recovered Double X inferred as Garrod from register and the immediately following formal hand-off; not independently tagged in source."}
+  ],
+  "validation": {
+    "controls": "All <on()>/<sp(20)>/<color(n)>/<book(n)>/<endbook()> command sequences re-diffed against a fresh `python tools/dialogue_corpus.py slice 8031 184 --context 15` pull for every row in this slice; zero mismatches.",
+    "format": "No newline characters (literal or \\n) present in any target string.",
+    "fit": "All 24 rows re-measured at <=110 visible (tag-stripped) characters.",
+    "runtime": "ASCII-only re-verified (fullwidth percent sign only exception, none present); no lowercase j/q found in visible text."
+  }
+}

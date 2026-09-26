@@ -1,0 +1,79 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 3803,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 3788,
+      "end": 3952
+    }
+  ],
+  "rows_examined_count": 165,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_03808",
+      "before": "It's quite the size.",
+      "after": "It's really huge.",
+      "reason": "Font has no native-size lowercase q (project constraint); 'quite' removed a locked-name-exempt lowercase q. 'really huge' preserves the source's degree emphasis (随分とでかいもんだな = 'quite a size')."
+    },
+    {
+      "id": "dialogue_03816",
+      "before": "We've been used quite conveniently ourselves.",
+      "after": "We've been used pretty conveniently ourselves.",
+      "reason": "Same lowercase-q font constraint as dialogue_03808; 'pretty' keeps the same degree of 'used conveniently' (いいように使われた)."
+    },
+    {
+      "id": "dialogue_03855",
+      "before": "I just have to beat them, right?",
+      "after": "I only have to beat them, right?",
+      "reason": "Font has no native-size lowercase j; 'only' preserves the same restrictive sense as あいつらを倒せばいいんでしょ."
+    },
+    {
+      "id": "dialogue_03878",
+      "before": "I just love that kind of thing!",
+      "after": "I really love that kind of thing!",
+      "reason": "Lowercase-j font constraint; 'really' preserves the emphatic だぁ〜い好き (drawn-out emphasis on 'love')."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [3837, 3838],
+      "finding": "Gekko lift-failure and abandon-ship lines translated literally as a self-contained alarm/order, asserting neither success nor destruction of the ship. Read together with row 3851 ('The Gekko's cleared the operation area!') this is consistent with the stored table holding an alternate/failure-branch outcome rather than the actual story fate; translation invents nothing and is safe under either reading."
+    },
+    {
+      "rows": [3875],
+      "finding": "Extra ruling applied: '<op()><sp(20)>Come this way, demon-- follow the clapping!<ab(300)>' kept as drafted. Source is the oni-gokko (blindfold tag) chant 'オニさんこちら、手の鳴る方へ' used by Anemone as a combat taunt. The English line preserves the mocking shape: it invites the enemy ('demon') to be led in blind by the sound of clapping, i.e. treats the opponent as the disadvantaged blindfolded player in the children's game. The condescending/taunting sense survives, so no closer literal rendering was substituted."
+    },
+    {
+      "rows": [3819, 3820],
+      "finding": "臨時フィールド (literally 'temporary field') is rendered 'emergency field'. Not an established corpus term (no glossary/prior-batch hit). 'Emergency' fits the mid-combat urgency of the scene but is an interpretive shift from the literal 'temporary/ad hoc'; left as drafted since it does not reverse or invent meaning, but flagged below as a terminology call for centralized review rather than a private choice."
+    },
+    {
+      "rows": [3855, 3864, 3868, 3869, 3871, 3872, 3873, 3874],
+      "finding": "Pronoun handling for Dewey ('he'/'him') matches explicit source pronoun 彼 and the named デューイ; no identity invented. Neutral referents ('them', 'this thing') for unnamed opponents/objects also checked against source ambiguity (あいつら, こいつ) and left unresolved, per rule against inferring identity or gender."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [3819, 3820],
+      "issue": "'Emergency field' for 臨時フィールド is an interpretive call (literal is 'temporary/provisional field'); both are defensible in context but this is the first corpus occurrence and no glossary entry backs either choice. Recommend a centralized terminology decision if 臨時フィールド recurs."
+    },
+    {
+      "rows": [3847, 3848],
+      "issue": "'You'll understand eventually...\n...once we enter the Zone.' - source omits the subject of ゾーンに入れば entirely. 'We' (the group/mission) was judged more natural than 'you' (the addressee alone) given the shared operation framing, but the source does not settle it either way."
+    },
+    {
+      "rows": [3807],
+      "issue": "これで少しはましになるか。 is a musing/rhetorical question ('I wonder if this will help a little'); rendered as the flatter affirmation 'That should make things a little easier.' Meaning direction is unchanged (support forces arriving will help) so this was left as phrasing, not fixed, but the tone is slightly more certain than the source."
+    }
+  ],
+  "validation": {
+    "controls": "Re-verified with a throwaway script comparing every <...> command (exact text and order) between each row's target and tools/dialogue_corpus.py slice 3803 80 --context 15 output; 0 mismatches across all 80 rows.",
+    "format": "Newline (\\n) counts re-checked row-by-row against source; unchanged.",
+    "fit": "Visible text (tags stripped) re-measured for all 80 rows; longest is 108 chars (dialogue_03841); all <= 110.",
+    "ascii": "Re-scanned for non-ASCII characters (fullwidth % excepted): none found. Re-scanned for lowercase j/q: 6 hits found across the two batches (4 in this slice: dialogue_03808, dialogue_03816, dialogue_03855, dialogue_03878), all in ordinary words ('quite', 'just'), none in locked names; all 4 reworded and re-verified clean.",
+    "meaning_review": "All 80 rows examined against Japanese source with 15-row context on each side plus full cross-reference to the paired slice (batch_03883, same scene); 4 meaning/technical fixes applied (all font-constraint j/q rewordings, no pure mistranslation found); all rows set to meaning_reviewed; no row left as draft."
+  }
+}

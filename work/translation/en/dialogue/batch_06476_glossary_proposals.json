@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "sansha rengou",
+    "en": "Tripartite Alliance",
+    "source": "dialogue_06538 (resource 6200, Mission 17A 'Defend Federation HQ 2'): \"<book(12)>ネオ・ジオン<endbook()>ら、三者連合の方です。\"",
+    "why": "Names a coalition of which Neo Zeon is only one of three members; the other two are not identified in this slice or its +/-15 row context window. Not found in glossary.json, character_names_021.json, mission_terms_019.json, meeting_terms_015.json, opening_history_terms.json, deployment_terms_017.json, terms_028.json, or encyclopedia_022.json. 'Tripartite Alliance' is a literal, plain compositional rendering (three parties + union/alliance); no external wiki source exists since this appears to be an ACE3-original faction label rather than a term from any single crossover source anime. Orchestrator should confirm/replace once the other two member factions are identified elsewhere in the corpus (candidates given nearby context: the New Federation top brass around Berkt, per glossary.json's 'Of the New Federation top brass, he seems to handle Shin Dragon')."
+  },
+  {
+    "term_romaji": "chijoujin",
+    "en": "Upper Earth's people",
+    "source": "dialogue_06498 (resource 6200): \"私は、リーンの翼の意志をもって地上人に鉄槌を振るう！\"",
+    "why": "Compositional rendering derived from the already-locked 'Upper Earth' (encyclopedia_021_a.json, source chijoukai) for the related but distinct term chijoujin ('people of Upper Earth'). No existing glossary entry covers the 'people of' form specifically; flagging so a consistent short form (e.g. 'Upper-Earthers') can be locked centrally if the term recurs."
+  }
+]

@@ -1,0 +1,536 @@
+{
+  "slice_start": 3549,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      3534,
+      3643
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_03570"
+      ],
+      "note": "Referent of the pronoun (\"that guy\") is ambiguous between Holland (named one row earlier at dialogue_03568 as the Gekko is abandoned) and Berkt (the mission's named pursuit target, asked about at dialogue_03553). Translated with a neutral 'him' that reads correctly under either identity; no specific identity was asserted."
+    },
+    {
+      "ids": [
+        "dialogue_03608",
+        "dialogue_03609",
+        "dialogue_03610",
+        "dialogue_03611"
+      ],
+      "note": "Speaker order around reaching the target point and Berkt's appearance is untagged. dialogue_03609's self-congratulatory remark could be a teammate reacting to their own arrival, or a sardonic aside as Berkt watches them approach. dialogue_03611's cold dismissal is read as Berkt, based on the named callout at dialogue_03610 and his glossary-sourced 'reserved, hostile' personality, not an explicit speaker tag."
+    },
+    {
+      "ids": [
+        "dialogue_03619",
+        "dialogue_03620",
+        "dialogue_03621",
+        "dialogue_03622",
+        "dialogue_03623"
+      ],
+      "note": "'The previous great war' (mae no taisen) is Gundam Wing's own backstory conflict, referenced while Heero explains sealing away Zero; this is a different war from the project's locked 'First Defensive War' term (which belongs to the ACE3-continuity storyline), so the unrelated locked term was not substituted here."
+    },
+    {
+      "ids": [
+        "dialogue_03628"
+      ],
+      "note": "Row's box is left open in the source (no closing command), and the reply lands in the next slice's first row (dialogue_03629). Flagged only because the exchange crosses the 80-row slice boundary, not because of any translation doubt in this row."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared against the source via tools/dialogue_corpus.py slice 3549 80 --context 15: all equal, including the unclosed boxes at dialogue_03551, dialogue_03554, dialogue_03567, dialogue_03597, dialogue_03603, dialogue_03606, dialogue_03619-03621, dialogue_03624 and dialogue_03628.",
+    "format": "No newlines in any target; source's own line breaks are joined with a space, matching current corpus convention (e.g. batch_03310). ASCII only; no bare percent sign; straight quotes only.",
+    "fit": "Longest visible text is 96 characters (limit 110); no over-limit rows.",
+    "glyphs": "Lowercase j/q avoided where a natural synonym existed (e.g. 'act fast' not 'quickly', 'considerable number' / 'a huge number' not 'quite a number'); none remain outside locked names.",
+    "ids": "80/80 ids present (dialogue_03549-dialogue_03628), none duplicated.",
+    "meaning_review": "80/80 rows checked against tools/dialogue_corpus.py slice 3549 80 --context 15; 1 meaning fix applied (dialogue_03624); all other rows confirmed correct.",
+    "resource": "All 80 rows belong to resource 6110 (Mission 11A, 'Pursue Berkt')."
+  },
+  "rows": [
+    {
+      "id": "dialogue_03549",
+      "target": "<op()><sp(20)>Multiple unidentified contacts in the area!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03550",
+      "target": "<op()><sp(20)>First, let's clear out these pests in our way.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03551",
+      "target": "<op()><sp(20)>Clear the enemies in the area and secure a path for the Gekko.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03552",
+      "target": "<sp(20)>Don't dawdle!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03553",
+      "target": "<op()><sp(20)>Berkt... where is he?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Pronoun uses Berkt's glossary-sourced gender (male), not an inference from name."
+    },
+    {
+      "id": "dialogue_03554",
+      "target": "<op()><sp(20)>All right! Advance the ship!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03555",
+      "target": "<sp(20)>All units, keep clearing the enemies in the area!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03556",
+      "target": "<op()><sp(20)>Transmitting the Gekko's position. Please be careful not to stray too far.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03557",
+      "target": "<op()><sp(20)>Don't stray too far from the ship! Spread out the enemy's attacks!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03558",
+      "target": "<op()><sp(20)>An enemy ship has appeared! It's closing in!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03559",
+      "target": "<op()><sp(20)>If we don't act fast, more enemies will show up.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03560",
+      "target": "<op()><sp(20)>We'll be leaving the operation area soon. What's the situation around us?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03561",
+      "target": "<op()><sp(20)>More enemy ships incoming!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03562",
+      "target": "<op()><sp(20)>Turn the ship! Change course!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03563",
+      "target": "<op()><sp(20)>Enemy reinforcements incoming!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03564",
+      "target": "<op()><sp(20)>We've dealt with the enemy ships. Continue forward as we are!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03565",
+      "target": "<op()><sp(20)>The Gekko's taken heavy damage! Please, we need support!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03566",
+      "target": "<op()><sp(20)>The Gekko's in trouble!! Go cover it!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03567",
+      "target": "<op()><sp(20)>It's no good...! Abandon ship! All hands, evacuate!<ab(1500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03568",
+      "target": "<sp(20)>Holland...!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Locked character name; ship is apparently his."
+    },
+    {
+      "id": "dialogue_03569",
+      "target": "<op()><sp(20)>No way... that can't be!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03570",
+      "target": "<op()><sp(20)>Faye, can you get a confirmation on him?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties: referent of 'him' is ambiguous (Holland or Berkt); both are male so the pronoun holds either way."
+    },
+    {
+      "id": "dialogue_03571",
+      "target": "<op()><sp(20)>I still don't know.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03572",
+      "target": "<op()><sp(20)>There's a lot we don't know about the enemy's performance. Don't let your guard down.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03573",
+      "target": "<op()><sp(20)>I know, I know!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03574",
+      "target": "<op()><sp(20)>I'll nail this one for sure!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03575",
+      "target": "<op()><sp(20)>All right, I'm getting in on this too!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03576",
+      "target": "<op()><sp(20)>Hey, Renton! The Nirvash is wobbling!<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03577",
+      "target": "<sp(20)>Fly it straight, damn it!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03578",
+      "target": "<op()><sp(20)>Y-yikes...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03579",
+      "target": "<op()><sp(20)>Renton, that's not cool...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03580",
+      "target": "<op()><sp(20)>Garrod, stay sharp!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03581",
+      "target": "<op()><sp(20)>Yeah... I know, I know!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03582",
+      "target": "<op()><sp(20)>This is... multiple life signs confirmed!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03583",
+      "target": "<op()><sp(20)>So it's the Invaders!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Locked term (encyclopedia_021_b.json book(49) reference)."
+    },
+    {
+      "id": "dialogue_03584",
+      "target": "<op()><sp(20)>T-there's a huge number of them!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03585",
+      "target": "<op()><sp(20)>Damn it, this isn't the time for Berkt...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03586",
+      "target": "<op()><sp(20)>Calm down! Don't let their numbers overwhelm you!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03587",
+      "target": "<op()><sp(20)>Hey, there's some other group mixed in with them!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03588",
+      "target": "<op()><sp(20)>Zentradi remnants... Seems like the same situation as before.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Zentradi is the locked Macross spelling (not Zentraedi)."
+    },
+    {
+      "id": "dialogue_03589",
+      "target": "<op()><sp(20)>So these guys have been absorbed by the Invaders.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03590",
+      "target": "<op()><sp(20)>If that's how it is, there's nothing to do but shoot them down.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03591",
+      "target": "<op()><sp(20)>Barrel, in front of you! Stop spacing out!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03592",
+      "target": "<op()><sp(20)>You don't have to tell me...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03593",
+      "target": "<op()><sp(20)>We have to deal with these guys even all the way out here?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03594",
+      "target": "<op()><sp(20)>Quit whining. Someone experienced is best for this after all.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03595",
+      "target": "<op()><sp(20)>So these are the rumored Invaders!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03596",
+      "target": "<op()><sp(20)>Knock them down and more keep coming. Be careful!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03597",
+      "target": "<op()><sp(20)>Heh, this looks fun!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03598",
+      "target": "<sp(20)>Being swarmed for a change isn't so bad!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03599",
+      "target": "<op()><sp(20)>You think numbers alone will do it...! I won't go down that easily!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03600",
+      "target": "<op()><sp(20)>Eureka, what's wrong!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03601",
+      "target": "<op()><sp(20)>The Nirvash is frightened...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kept 'it' for the Nirvash, matching pronoun usage in encyclopedia_021_b.json."
+    },
+    {
+      "id": "dialogue_03602",
+      "target": "<op()><sp(20)>Those things corrode the Scub... Maybe that's why they don't mix well.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Scub Coral locked term (short form 'Scub' per encyclopedia_021_b.json)."
+    },
+    {
+      "id": "dialogue_03603",
+      "target": "<op()><sp(20)>That's a considerable number...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03604",
+      "target": "<sp(20)>We can't break free of this disadvantage.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03605",
+      "target": "<op()><sp(20)>Each unit's damage level keeps climbing!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03606",
+      "target": "<op()><sp(20)>This is dangerous if it continues.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03607",
+      "target": "<sp(20)>Depending on the situation, we may need to consider a temporary withdrawal.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03608",
+      "target": "<op()><sp(20)>We've reached the target point.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03609",
+      "target": "<op()><sp(20)>I suppose I should say, impressive.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unclear; see uncertainties."
+    },
+    {
+      "id": "dialogue_03610",
+      "target": "<op()><sp(20)>Berkt!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03611",
+      "target": "<op()><sp(20)>...For some reason, you people irritate me.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Read as Berkt; see uncertainties."
+    },
+    {
+      "id": "dialogue_03612",
+      "target": "<op()><sp(20)>Enemy signals nearby! T-their numbers... 50... 60... over 80!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Full-width digits normalized to ASCII."
+    },
+    {
+      "id": "dialogue_03613",
+      "target": "<op()><sp(20)>What did you say!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03614",
+      "target": "<op()><sp(20)>We were surrounded...!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03615",
+      "target": "<op()><sp(20)>Wait, please! The enemies are being shot down one after another!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03616",
+      "target": "<op()><sp(20)>A new wave of enemies!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03617",
+      "target": "<op()><sp(20)>...Is that... Heero!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Heero Yuy, locked short name."
+    },
+    {
+      "id": "dialogue_03618",
+      "target": "<op()><sp(20)>...Where have you been all this time!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03619",
+      "target": "<op()><sp(20)>After the previous great war ended, I sealed Zero away and gave up the fight.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties re: 'the previous great war' vs. the locked 'First Defensive War' term."
+    },
+    {
+      "id": "dialogue_03620",
+      "target": "<sp(20)>But... I won't let history repeat itself again.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03621",
+      "target": "<sp(20)>The history of a sad, miserable war.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03622",
+      "target": "<sp(20)>Zero...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03623",
+      "target": "<sp(20)>Show me a future where fighting means something new!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03624",
+      "target": "<op()><sp(20)>You're all putting up a good fight.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Source 'you two' claim removed: \u541b\u305f\u3061 is plain plural ('you all'), not a specific count the source states. Read as Berkt addressing whoever is engaging him."
+    },
+    {
+      "id": "dialogue_03625",
+      "target": "<sp(20)>It would be rude of me not to take this seriously for once.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03626",
+      "target": "<op()><sp(20)>The reason you're leading the world to ruin... What is it?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03627",
+      "target": "<op()><sp(20)>Everything... there's no meaning in letting it go on existing like this.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03628",
+      "target": "<op()><sp(20)>Hey! Can you hear me, Berkt!?<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues into dialogue_03629 in the next slice; see uncertainties."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+ "resource_id": 4003671,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Neo Zeon",
+   "notes": "Enemy faction name.",
+   "source_sha256": "3bea7d40814c0138b23f0465fc01b3a5772def14191961aee8237f4650610d09"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Martian Successors",
+   "notes": "Enemy faction name.",
+   "source_sha256": "500e92e9224d8dfd58259b586443249e799aa4eac1dfd201c19fe394fcc79b60"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(14030,1)><speed(2)><move(1,5,3)>Alright, I'll explain<marker(2,5,3,1)> the operation.<move(2,5,3)>",
+   "notes": "",
+   "source_sha256": "34d8ff363afa99df6880e3ead9026df804b1c67438b94591e2fb596b7e35a30a"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(14030,1)><speed(2)><move(1,2,10)>Heading for the moon is the <book(12)><marker(25,2,10,0)>Neo Zeon<move(1,5,8)><endbook()> <color(5)>fleet<ce()> - it's right there.<marker(25,5,8,0)><move(1,8,6)> In this area<marker(25,8,6,0)>, we'll strike them.<move(2,5,8)><picture(78,2,7,0)><refer(2,7,2,10)><picture(101,30,7,0)><refer(30,7,8,6)>",
+   "notes": "",
+   "source_sha256": "9b6913d34c5c6eca26532b2ba3e1afbdf0e71f7a86d3681fa815e63b881131f9"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(14030,1)><speed(2)>Naturally, they've noticed us, but seem to want no part of a fight.<marker(48,2,12,0)> They're raising<marker(48,5,10,0)> ship speed<marker(48,8,8,0)>, trying to shake us off.",
+   "notes": "",
+   "source_sha256": "f086ebcf35ef430f5f78f8a9f9fa849231a4f7b4e1ab808c3849cce1174e1ad4"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(14030,1)><speed(2)>We'll give chase and destroy every last <color(5)>enemy ship<ce()>.",
+   "notes": "",
+   "source_sha256": "a2315399fb809cdd36b79bb5e005a1900793591073d470e589fc7654cdfdaeee"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(14030,1)><speed(2)>If we let too many escape,<line(43,0,14,15,14)> the operation is a <color(6)>failure<ce()>. Watch yourselves.",
+   "notes": "",
+   "source_sha256": "e7734433e10d4504382bd86110a91b94ecff25da52f30e70e8c5ac3ed1a9d058"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<delpic(2,7,1)><enemylist()><operator(14030,1)><speed(2)>Alright, show them what you've got!",
+   "notes": "",
+   "source_sha256": "343bf3cf722c65a1f03b4a47a9dd18439e06eedddd9938a2f6ea8be52f73a044"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "'Neo Zeon' and 'Martian Successors' verified against locked spellings.",
+   "Speaker 14030 verified via speaker_lookup.py as Roy Focker.",
+   "Slot 24 'show them what you've got' for omaera no udemae wo misete yare (show your skill): the imperative's addressee for 'show' is implicit in source; 'them' (the enemy) is the only plausible referent given the whole scene is about pursuing and destroying the fleeing enemy fleet, so this is a safe, non-ambiguous completion rather than an invented subject.",
+   "Slot 21-23 (enemy noticing the party but avoiding combat, raising speed to flee, party giving chase and destroying every ship) checked against source for correct cause/effect order; no inversion found.",
+   "All commands verified identical in count and order versus source for every row; ASCII-only, no newline, 128-visible-char limit verified for every row; no lowercase j/q and no bare % found."
+  ],
+  "remaining_uncertainties": [
+   "Slot 24: 'show them what you've got' supplies an implicit object ('them' = the enemy) not stated in the source imperative; kept since no other referent is plausible in context, but flagged per base-rules guidance to report inferred referents even on a passing row."
+  ]
+ }
+}

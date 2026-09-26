@@ -1,0 +1,73 @@
+{
+  "batch": "batch_00241.json",
+  "reviewer": "translate_dialogue_161",
+  "slice_start": 241,
+  "rows_in_slice": 80,
+  "rows_examined": [
+    [
+      226,
+      335
+    ]
+  ],
+  "rows_examined_count": 110,
+  "status": "meaning_reviewed",
+  "changes": [],
+  "uncertainties": [
+    {
+      "rows": [
+        245
+      ],
+      "issue": "The threatened subject is omitted. The escorted Nadesico is plausible from surrounding long-range-fire warnings, so the existing it is retained; runtime speaker/scene confirmation is still needed."
+    },
+    {
+      "rows": [
+        247
+      ],
+      "issue": "As many as possible immediately is a defensible rendering of the qualified destruction order in a multiple-target context; no stylistic rewrite made."
+    },
+    {
+      "rows": [
+        272
+      ],
+      "issue": "Please pay no attention to me preserves the request not to concern oneself with the civilian arrival without inventing a tactical order."
+    },
+    {
+      "rows": [
+        287,
+        288,
+        289,
+        291,
+        292
+      ],
+      "issue": "Plural escapees are supported by multiple approaching craft and the statement that each carries the intelligence and one survivor is sufficient."
+    },
+    {
+      "rows": [
+        278,
+        279,
+        280,
+        281,
+        284,
+        316
+      ],
+      "issue": "Sibling relationship and male reference are explicit in these source lines; no gender inferred merely from a name."
+    },
+    {
+      "rows": [
+        300
+      ],
+      "issue": "The conditional event speaker remains unidentified; the translation does not name a character."
+    }
+  ],
+  "preserved": [
+    "Source control codes, colors, command order, and button icons",
+    "Original embedded newline counts",
+    "Existing names pending centralized glossary normalization"
+  ],
+  "verification": {
+    "source_hashes_checked": 80,
+    "command_sequences_checked": 80,
+    "failures": 0
+  },
+  "limits": "Meaning review only; no runtime display-fit or audio timing approval."
+}

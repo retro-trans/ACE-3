@@ -1,0 +1,503 @@
+{
+  "slice_start": 81,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      66,
+      175
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows": [
+    {
+      "id": "dialogue_00081",
+      "target": "<op()><sp(20)>Enemy reinforcements confirmed.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00082",
+      "target": "<op()><sp(20)>The enemy appears to have begun retreating.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00083",
+      "target": "<on()><sp(20)>The air defense unit is out of action!\nEnemy bombers are entering the Sanc Kingdom!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Silenced means out of action; does not assert every defender is dead."
+    },
+    {
+      "id": "dialogue_00084",
+      "target": "<on()><sp(20)>The Sanc Kingdom...!\nLady Relena...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Honorific retained as Lady, with no unsupported speaker attribution."
+    },
+    {
+      "id": "dialogue_00085",
+      "target": "<op()><sp(20)>It looks like they stop moving while their barriers are up.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Enemy referent established by alternate wording in row 87."
+    },
+    {
+      "id": "dialogue_00086",
+      "target": "<op()><sp(20)>They seem to stop moving while their barriers are deployed.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00087",
+      "target": "<op()><sp(20)>The enemy stops moving while its barriers are deployed.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Independent review: The immobility lasts while the barriers remain active, not just during deployment."
+    },
+    {
+      "id": "dialogue_00088",
+      "target": "<op()><sp(20)>They stop moving while their barriers are up.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00089",
+      "target": "<op()><sp(20)>They stop moving while their barriers are up.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00090",
+      "target": "<op()><sp(20)>It seems they stop moving while their barriers are up.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00091",
+      "target": "<op()><sp(20)>Confirmed: targets stop moving while barriers are deployed.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Robotic register retained without assigning a speaker."
+    },
+    {
+      "id": "dialogue_00092",
+      "target": "<op()><sp(20)>The enemy stops moving while its barriers are up.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00093",
+      "target": "<sp(20)>Attack them one after another, and that should do it.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00094",
+      "target": "<sp(20)>Attack as many enemy units as you can.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00095",
+      "target": "<sp(20)>It looks like continued attacks will hold them back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00096",
+      "target": "<sp(20)>Keep attacking one after another to hold the enemy back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00097",
+      "target": "<sp(20)>Keep up the attacks, and that should do it.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00098",
+      "target": "<sp(20)>Attacking them one after another should keep the enemy back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00099",
+      "target": "<sp(20)>Halt the targets' movement.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00100",
+      "target": "<sp(20)>Attack them one after another, and you can do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00101",
+      "target": "<sp(20)>Keep attacking to stop the enemy's advance.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00102",
+      "target": "<sp(20)>Please halt the enemy's movement with your attacks.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00103",
+      "target": "<op()><sp(20)>You did it! That was amazing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00104",
+      "target": "<op()><sp(20)>Impressive skill.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00105",
+      "target": "<op()><sp(20)>Brilliant work. Just as I expected of you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00106",
+      "target": "<op()><sp(20)>Amazing! You exceeded my expectations.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00107",
+      "target": "<op()><sp(20)>Oh, wow! That was amazing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00108",
+      "target": "<op()><sp(20)>Wonderful! That's your true talent shining through.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00109",
+      "target": "<op()><sp(20)>Crisis averted.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00110",
+      "target": "<op()><sp(20)>Such incredible skill! I'm truly impressed!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00111",
+      "target": "<op()><sp(20)>That was amazing! Keep it up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00112",
+      "target": "<op()><sp(20)>Just what I'd expect from an ace pilot.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00113",
+      "target": "<op()><sp(20)>I'm cooperating with the UCE in pursuit of Drake.<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker identifies herself in next row; self-reference established across the pair."
+    },
+    {
+      "id": "dialogue_00114",
+      "target": "<sp(20)>My name is Ciela Lapana, of the Gran-Garan.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Name and vessel follow sourced glossary proposals."
+    },
+    {
+      "id": "dialogue_00115",
+      "target": "<sp(20)>While we draw the Reclaimers' attention,<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues into row 116."
+    },
+    {
+      "id": "dialogue_00116",
+      "target": "<sp(20)>please retrieve the target.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues row 115."
+    },
+    {
+      "id": "dialogue_00117",
+      "target": "<op()><sp(20)>You can locate the target by the sonar pings.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00118",
+      "target": "<sp(20)>The pings will get faster as you get closer.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00119",
+      "target": "<sp(20)>Once you find it, approach and attach a transmitter.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00120",
+      "target": "<sp(20)>Then we'll send a recovery craft.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source explicitly contrasts our side with the addressed pilot."
+    },
+    {
+      "id": "dialogue_00121",
+      "target": "<op()><sp(20)>No details have been provided, but it is vital military cargo.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Passive preserves unspecified recipient of the undisclosed details."
+    },
+    {
+      "id": "dialogue_00122",
+      "target": "<sp(20)>Handle it with the utmost care.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00123",
+      "target": "<op()><sp(20)>Have you still not found it?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00124",
+      "target": "<op()><sp(20)>The enemy is jamming the sonar. Take them out.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00125",
+      "target": "<op()><sp(20)><cs(2)>Jonathan, fighting each other<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues into row 126; direct address explicit."
+    },
+    {
+      "id": "dialogue_00126",
+      "target": "<sp(20)><cs(2)>won't accomplish anything!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues row 125."
+    },
+    {
+      "id": "dialogue_00127",
+      "target": "<op()><sp(20)><cs(1)>Anyone who gets in the way of Orphan's plans<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues into row 128."
+    },
+    {
+      "id": "dialogue_00128",
+      "target": "<sp(20)><cs(1)>will be eliminated.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Passive preserves unexpressed agent."
+    },
+    {
+      "id": "dialogue_00129",
+      "target": "<op()><sp(20)><cs(1)>That was supposed to be your mission too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00130",
+      "target": "<op()><sp(20)><cs(2)>Not anymore. The Grand Chers' mission<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues into row 131."
+    },
+    {
+      "id": "dialogue_00131",
+      "target": "<sp(20)><cs(2)>and Orphan's goals are both wrong!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues row 130."
+    },
+    {
+      "id": "dialogue_00132",
+      "target": "<op()><sp(20)><cs(1)>It's your lack of resolve<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues into row 133."
+    },
+    {
+      "id": "dialogue_00133",
+      "target": "<sp(20)><cs(1)>that makes you try to run away from Orphan!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues row 132."
+    },
+    {
+      "id": "dialogue_00134",
+      "target": "<op()><sp(20)><cs(1)>You coward! You're not a man at all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Gendered taunt is explicit in source; no speaker gender invented."
+    },
+    {
+      "id": "dialogue_00135",
+      "target": "<op()><sp(20)><cs(2)>You'll answer for that... Jonathan Glenn!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Idiomatic retaliatory challenge after row 134's insult."
+    },
+    {
+      "id": "dialogue_00136",
+      "target": "<op()><sp(20)>Transmitter attachment confirmed.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00137",
+      "target": "<sp(20)>Dispatching the recovery craft.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00138",
+      "target": "<on()><sp(20)>Well done.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00139",
+      "target": "<op()><sp(20)><cs(2)>Even joining forces with the likes of Poseidal...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Refers to Poseidal's faction; no gender assigned."
+    },
+    {
+      "id": "dialogue_00140",
+      "target": "<sp(20)><cs(2)>I'm sick of doing work that helps things like that.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Keeps vague reference to the activities being aided; first-person rejection follows the row 130 response."
+    },
+    {
+      "id": "dialogue_00141",
+      "target": "<op()><sp(20)><cs(1)>Orphan's eternal existence is humanity's eternal existence.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00142",
+      "target": "<sp(20)><cs(1)>Can't you understand that?<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00143",
+      "target": "<sp(20)><cs(1)>And that we need that thing to achieve it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Object remains that thing; do not identify it with energy material from external plot knowledge."
+    },
+    {
+      "id": "dialogue_00144",
+      "target": "<op()><sp(20)><cs(2)>Where are you going, Jonathan Glenn?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00145",
+      "target": "<op()><sp(20)>Grand Chers are approaching!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Number unspecified in Japanese; plural threat call selected, subject to visual verification."
+    },
+    {
+      "id": "dialogue_00146",
+      "target": "<op()><sp(20)>You must not panic.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00147",
+      "target": "<sp(20)>Assess the enemy carefully, then show me you can rout them.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00148",
+      "target": "<op()><sp(20)><cs(1)>You think you can get in my way?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00149",
+      "target": "<on()><sp(20)>Damn it... That belongs to Orphan!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00150",
+      "target": "<on()><sp(20)>Captain, enemy contacts around the recovery craft!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00151",
+      "target": "<on()><sp(20)>What?!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00152",
+      "target": "<on()><sp(20)>The recovery craft has taken a direct hit!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00153",
+      "target": "<on()><sp(20)>This is... a high energy reading!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00154",
+      "target": "<sp(20)>It's dangerous! Get clear!<ab(2000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Independent review: The warning orders evacuation from the danger; taking cover in place could imply the wrong action."
+    },
+    {
+      "id": "dialogue_00155",
+      "target": "<on()><sp(20)>All units, withdraw at once!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00156",
+      "target": "<on()><sp(20)>That light...!#c[FF0000]\n#cWhy is something like that here...?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source does not identify the light's cause; preserved ambiguity."
+    },
+    {
+      "id": "dialogue_00157",
+      "target": "<on()><sp(20)>Just what is it#c[FF0000]\n#cthat we are pursuing...?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Color controls retained in exact order across the line break."
+    },
+    {
+      "id": "dialogue_00158",
+      "target": "<op()><sp(20)>Organic Plate acquired.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Item terminology proposal; capitalization selected for pickup message."
+    },
+    {
+      "id": "dialogue_00159",
+      "target": "<op()><sp(20)>Your unit moves more slowly underwater, so be careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00160",
+      "target": "<op()><sp(20)>Unit speed decreases underwater. Stay alert.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "This sequence contains likely legacy ACE1 content. Runtime use is unverified; all rows are retained.",
+    "No speaker table was provided. Only explicit self-introduction and direct addresses were used; alternate support voices remain unattributed.",
+    "Row 145 does not specify the number of approaching Grand Chers; the plural needs visual confirmation.",
+    "Rows 139-143 and 156 refer vaguely to plans or cargo. Their exact identities have deliberately not been supplied.",
+    "Full-length drafts have not been checked against the runtime subtitle box or audio timing. No meaning was cut to fit."
+  ],
+  "validation": {
+    "meaning_review": "Independent review of all 80 rows with context 66-175; report review_00081.json."
+  }
+}

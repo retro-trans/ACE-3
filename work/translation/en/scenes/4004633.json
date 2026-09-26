@@ -1,0 +1,431 @@
+{
+ "resource_id": 4004633,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 49,
+ "rows_examined": 49,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21010,1)><speed(2)><color(4)>Eureka<ce()>'s really gone and done something bold...",
+   "notes": "",
+   "source_sha256": "189e43ab9c5ad87d8713259134846330273499b9c5a376756c3aac52074cecb9"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21030,1)><speed(2)>A girl can get pretty bold for the person she likes, you know.",
+   "notes": "",
+   "source_sha256": "197ae37c61e32b323fe96540915891cde864e3058cd5be69a6576bcbb8288683"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21030,1)><speed(2)>Though that's probably hard for you to get, <color(4)>Gainer<ce()>.",
+   "notes": "",
+   "source_sha256": "78b2f038da0441f0509e7c243f45413a16fb020ec77e63e45fcf3b5e1917733c"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(21020,1)><speed(2)>I'm worried about where <color(4)>Renton<ce()> ended up too.",
+   "notes": "",
+   "source_sha256": "9ae5b07c26163785e535c11e5e40e5374c144c1633b8e835075d714245ee9033"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(21020,1)><speed(2)>Kid or not, as a member of <color(4)>Gekkostate<ce()> he's got a bounty on his head now.",
+   "notes": "",
+   "source_sha256": "245a8cf3bfed7db0273b3a57b622b2fdb958025b91acbee3fc168aeaed11a343"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23030,1)><speed(2)>The <color(6)>Swan<ce()>... Never thought I'd run into <color(5)>Charles<ce()> and <color(5)>Ray<ce()> out here...",
+   "notes": "White Swan-go = the SL-1200 MkI 'Swan', Charles and Ray Beams's ship; see glossary_proposals.",
+   "source_sha256": "41132f9174f4395aab68aea55e2054614881c297bf4610b9d5a538f9fdc90c4a"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23040,1)><speed(2)>I heard those two went freelance after leaving the military...",
+   "notes": "",
+   "source_sha256": "0ad3bddb01ab5668224323b0be11a66f33e27d0e5d626cb4b006854f3ac97f13"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(21010,1)><speed(2)>What were those two like?",
+   "notes": "",
+   "source_sha256": "661b704bfc55b90cd588dfd127046afb1f0fd24ef453f8d041f02f438db8e6b6"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(23030,1)><speed(2)><color(5)>Charles<ce()> used to be in the same SOF unit as me. We fought together.",
+   "notes": "",
+   "source_sha256": "85649e9192fc8e13106c176b5ff68c14d35f9c1db33b75a298370f2c422ed094"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(23030,1)><speed(2)>Usually a cheerful guy, but his LFO piloting sense was a cut above.",
+   "notes": "",
+   "source_sha256": "8bafc7e360ab99f6ad994412b9645caa7bf4d2efede0c571136a5e9d9bfab13c"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(23040,1)><speed(2)><color(5)>Charles<ce()>'s wife <color(5)>Ray<ce()> was a former intel officer, a colleague of mine.",
+   "notes": "",
+   "source_sha256": "5cbfebafc74bdf9ced2e147187033189fb00ce494d17c883b98369f9515d7f34"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(23030,1)><speed(2)>I didn't want to fight them, but if they stand in our way, I won't hold back...",
+   "notes": "",
+   "source_sha256": "22aeacb89c83ba6b2c9fe8289ff9df42f5196201346ca18a0aa8df1a770b9ed4"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(23030,1)><speed(2)>But... <color(4)>Eureka<ce()>. You care that much about <color(4)>Renton<ce()>...",
+   "notes": "",
+   "source_sha256": "80c4c675b26d9daa1a89efc6c859158be703712fe0cf050c749d8d0f54c00b8a"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(23030,1)><speed(2)>Are you saying you chose him?",
+   "notes": "",
+   "source_sha256": "af989a6e8be98a13d4de75cc6c3532a8907356fce0b56c775a74a0fe984f593f"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(23040,1)><speed(2)><color(4)>Holland<ce()>... admit it already.",
+   "notes": "",
+   "source_sha256": "32b9ad05098aac80bde985595f303833c1895c3b31ded18743c2f5f1a99ca5de"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(23030,1)><speed(2)>I know... I know it already.",
+   "notes": "",
+   "source_sha256": "da416986626c858d82a9d689e0ce44f2fce9c5374a9475800f39f6f444c1f02a"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(23030,1)><speed(2)>But it's not easy to simply admit it...",
+   "notes": "",
+   "source_sha256": "fb372bb474f5613e7ddd92c224d9d2c8313400391224cdfe9c47688b54a084a8"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(17070,1)><speed(2)>A new power for us is waiting on that island.",
+   "notes": "",
+   "source_sha256": "6138471927249efd4acb632e736ed7915f6de0e1f5395ee56f50ecf9d1932276"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(17040,1)><speed(2)>Yeah, if I'm not mistaken, what's on that island is...",
+   "notes": "",
+   "source_sha256": "7f447c75b9b477c7af1b52d45095c25ac11e0a2d0c555154afd15fe41d9a1606"
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(17030,1)><speed(2)>What are you two talking about?",
+   "notes": "",
+   "source_sha256": "e4545fd377973aca10816e4d990d85a8f547c5a793cb105c0b726bc8a25457dd"
+  },
+  {
+   "table": 0,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(17010,1)><speed(2)>Microwave power came down on that island.",
+   "notes": "",
+   "source_sha256": "8f50f6f6ec6032139a2d614387cb7bed5a17bd7087fcdcadc889c3a661242703"
+  },
+  {
+   "table": 0,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(17020,1)><speed(2)>Don't tell me, it's <color(4)>GX<ce()>...!",
+   "notes": "",
+   "source_sha256": "04c400ba9c36a88182c4f5eb270b202faefb2af18e0e5401ddecb3b62c5ef163"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>, about before...",
+   "notes": "",
+   "source_sha256": "871950b678e51812433b34f3c853af4f0b66d827031ff759417c78ca19a625f6"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>I really... after all...",
+   "notes": "Source is Barrel's trailing, unfinished thought ('boku wa yappari...'); what he means to say is not settled before Faye cuts him off. Kept open.",
+   "source_sha256": "c65da09dbae254c90d23b2b94795258fced72165e12e038c67315fc70db3e2d0"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)>Wait, <color(4)>Barrel<ce()>. You don't need to say it now.",
+   "notes": "",
+   "source_sha256": "74a6076bc3894b7da6df4317e827b5ab7d0865e048f13e3f2cd6af73bfda05e3"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>Why not?",
+   "notes": "",
+   "source_sha256": "afde54a1299c099489c15f39393ef057157512eac0a38ee3178f25a3d9a08d6d"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>I want you focused on the fight. Your safety comes first right now.",
+   "notes": "",
+   "source_sha256": "d17b591235c1342e9b1a58c217e79caf5a57c9a313b5f2084d60a021a5637bf9"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)>Don't feel anxious. I'll be right there supporting you.",
+   "notes": "",
+   "source_sha256": "28cdc41721f0af79856785bf29de7afd91a6c99d04f5c21f0f37844065fe0991"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1040,2)><speed(2)>...Thanks.",
+   "notes": "",
+   "source_sha256": "585644838d84d72c356d5abc5cf51be3b631532c84494d5a96aea50b02735918"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(25020,1)><speed(2)>The enemy's <color(5)>military base<ce()>... Their defenses look thick.",
+   "notes": "",
+   "source_sha256": "54f4b832dd58341594cb04b0e638144825e01f5239e8eec5efc08fc11c84e38f"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(25010,1)><speed(2)>Yeah, but we've got to carve a way through, for <color(4)>Renton<ce()> and <color(4)>Eureka<ce()>'s sake.",
+   "notes": "",
+   "source_sha256": "4639b857512bcf2a0954bda3bf1fe91afd0b1d4ab35012575d33ec837d66a107"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(21030,1)><speed(2)><color(4)>Gainer<ce()>, please make sure you find <color(4)>Eureka<ce()>.",
+   "notes": "",
+   "source_sha256": "5a8b31158eba13bdd6c3b062933c67f3eeac60dd5f9daf084f338369147ce448"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(21010,1)><speed(2)>Isn't that <color(4)>Renton<ce()>'s duty, though?",
+   "notes": "",
+   "source_sha256": "6657c10bbde81a402fa160d45d56d6a4fe11c656946bf423d5c47648326ab1a8"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(21020,1)><speed(2)><color(4)>Gainer<ce()>, I get why <color(4)>Renton<ce()> leaving made you angry, but try to understand how he feels too.",
+   "notes": "",
+   "source_sha256": "a970305d769b6c0734bf226dbe446156a494555001f333793a5f49bd59a2cba4"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(21010,1)><speed(2)>I'm angry because I do understand how he feels. <color(4)>Renton<ce()>... what are you doing.",
+   "notes": "",
+   "source_sha256": "737807a3050d265665673e50bb977e3b5bbe2c2a536431b5b8c097c261db4599"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(1020,1)><speed(2)><color(4)>Faye<ce()>, be careful. <color(4)>Barrel<ce()> too... it's dangerous out there.",
+   "notes": "",
+   "source_sha256": "dd7a9ca8349698c6e7bbbeee44324760dda15780fce7688a61fc3c223efe5905"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(1060,1)><speed(2)>Yes, I know.",
+   "notes": "",
+   "source_sha256": "2599345ecb08720d6b533551581bc6e33ec3e319f524a33c6ae733d738410983"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(1020,1)><speed(2)>Abandoning the fight, huh. Can't be helped with so many young ones around.",
+   "notes": "",
+   "source_sha256": "5c44f0d369e00ab25404504f3cc4566dfa7400850c4c9b63807cab51dfa48246"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(1060,1)><speed(2)>If only I were a little more put together...",
+   "notes": "",
+   "source_sha256": "3fa7dc8afc0f17ed1631a15b3a81b679bcea8982683a1303356ec9c9c00c24cd"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(1020,2)><speed(2)>You're doing fine. But the two of you are one unit, so look out for him.",
+   "notes": "",
+   "source_sha256": "e21d473ce87bc7399edec69516d11a59cf4eb4d4980b752c70bfda8133c59c7f"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(1020,2)><speed(2)>It's hard now, but a day will come when you're glad you fought together.",
+   "notes": "",
+   "source_sha256": "f9dea89558f9ccafd6a81b7857f4c36ead2212eae9317a117354cc26de403f03"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(23040,1)><speed(2)>Sorry our kids are causing trouble.",
+   "notes": "",
+   "source_sha256": "cb5ee320ef8b8c54ee77c1fd5458d36cc852cacbfd1c1a273ac69cf575d57c03"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(6011,1)><speed(2)>It's fine. The moment you doubt yourself, even a little, you can't fight anymore.",
+   "notes": "",
+   "source_sha256": "b46540aba2dbf3596b0ae5ed36e3370413c829561a57c6c83c7da0746eccf5d4"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(6011,1)><speed(2)>I've had times like that too.",
+   "notes": "",
+   "source_sha256": "bbf362eb68eb782e45743173bc21943a339397bd25d4628e9e63bb0d48f9edff"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(23100,1)><speed(2)>R-really? You sure don't look like it...",
+   "notes": "",
+   "source_sha256": "ad92eadd5a0b63dcd5773cab0d5757caa897ef36034f6940a13f5d08b996885e"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(6011,1)><speed(2)>I found something to anchor myself to... They need that too.",
+   "notes": "",
+   "source_sha256": "2e74e54e27d01ff2d4633017b4cb9835dd998855aa3453bfbce1741f2d0572c0"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(19060,1)><speed(2)><color(4)>Ryoma<ce()>... Please put <color(4)>Eureka<ce()> first.",
+   "notes": "",
+   "source_sha256": "0ee5b0359817e59cdb01e72da99ed17b42f7803aa249e30ece715bead17f4281"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(19060,1)><speed(2)>I've got <color(4)>Kei<ce()>, after all. This doesn't feel like someone else's problem.",
+   "notes": "",
+   "source_sha256": "df097bcb26edfe88b3689fadfd2be45ca53f7ed5d600e397c0ff5b11668bbb43"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(19040,1)><speed(2)>...Fine. Can't say no when you make a face like that.",
+   "notes": "",
+   "source_sha256": "b9e1790002c1bdee4eca1731dc9e6d5467304d2c9d74d2c6ef19171e1756ee13"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 20,
+   "issue": "Barrel's line is an unfinished thought ('boku wa yappari...') cut off by Faye's next line; what he means to confess/admit is not recoverable from this scene. Rendered as an equally open trailing line."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "term": "Swan",
+   "ja": "白鳥号",
+   "note": "Charles and Ray Beams's ship (the SL-1200 MkI); wiki page title is 'Swan'.",
+   "source": "https://eurekaseven.fandom.com/wiki/Swan"
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 49,
+  "rows_in_scene": 49,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "table0 slot24 'Swan' for Charles and Ray Beams's ship: accepted per orchestrator ruling (Eureka Seven wiki page title). No change; glossary_proposals already recorded.",
+   "table1 slot20 Barrel's unfinished line ('I really... after all...'): source 'boku wa yappari...' is a deliberately cut-off thought, interrupted by Faye's next line; not recoverable from this scene. Kept open per existing note.",
+   "table1 slot22 'Why not?' for source 'どうして？' ('Why?'): natural English reply to Faye's preceding negative statement ('you don't need to say it'); not a meaning change.",
+   "j/q rewording (mechanical, not a meaning change): table0 slot33 'just admit it already'->'admit it already', table0 slot35 'just admit it'->'simply admit it', table1 slot100 'Renton's job'->'Renton's duty'. Done to remove lowercase j/q outside locked names per project rule; meaning unaffected."
+  ],
+  "remaining_uncertainties": [
+   "table1 slot20: Barrel's trailing 'I really... after all...' - what he means to say/confess is not recoverable from this scene; rendered as an equally open line."
+  ]
+ }
+}

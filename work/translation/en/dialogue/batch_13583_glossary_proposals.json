@@ -1,0 +1,20 @@
+[
+  {
+    "term_romaji": "Mokuren-shiki Battoujutsu",
+    "en": "Jovian(-style) iaido / Jovian-style sword-drawing technique",
+    "source": "https://dic.pixiv.net/a/%E6%9C%A8%E9%80%A3 ; https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E8%89%A6%E3%83%8A%E3%83%87%E3%82%B7%E3%82%B3%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9 ; project glossary opening_history_terms.json org.jovian_federation (locked as 'Jovian Federation')",
+    "why": "Tsukiomi Genichiro's (speaker for resource 2812250) signature iaido style, named after an abbreviation that web research confirms stands for the term already locked as 'Jovian Federation' in this project's glossary. dialogue_13656 and dialogue_13667 both reference this named style/technique but could not fit the full name inside their hard byte budgets (26 and 22 visible characters respectively) alongside the sentence meaning, so both were compressed to generic phrasing ('Not an assassin's blade.' / 'My style can't win...!'). Proposing 'Jovian iaido' and 'Jovian Softness' as working English names for the technique family, for use where a full byte budget is not in force (unit bios, flavor text) and for central glossary review."
+  },
+  {
+    "term_romaji": "Souka senbei",
+    "en": "(left out in-line; rendered generically as 'rice crackers')",
+    "source": "Real-world Saitama-prefecture rice-cracker brand; the joke puns on the phrase 'sou ka' ('I see')",
+    "why": "dialogue_13605 has Izumi Maki repeat 'sou ka... sou ka, sou ka...' (I see... I see, I see...) and then pun into the real rice-cracker brand name, an untranslatable sound-alike joke specific to Japanese. Rendered as a generic non-sequitur ('...rice crackers...') to preserve the absurdist rhythm without inventing unstated content. Flagging in case the orchestrator wants a different placeholder or wants this class of line-specific pun catalogued centrally."
+  },
+  {
+    "term_romaji": "shijin / shijin homophone pun (poet vs. a dead person)",
+    "en": "'the poet' / 'the dead-et' (invented English portmanteau)",
+    "source": "Izumi Maki self-introduction gag, dialogue_13625",
+    "why": "The source's signature joke for Izumi Maki puns her self-styled title 'the poet Maki' against 'Maki... the shijin', where the Japanese word 'shijin' is a homophone of both 'poet' and 'corpse/dead person'. No English homophone pair exists; substituted the portmanteau 'dead-et' (poet/dead) to keep the wordplay and the character's morbid self-deprecating humor within the row's byte budget. This is a creative equivalence rather than a literal translation - flagging for central review, especially if this specific joke recurs in other resources referencing Izumi."
+  }
+]

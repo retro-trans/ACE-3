@@ -1,0 +1,544 @@
+{
+  "slice_start": 9215,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      9200,
+      9309
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_09215",
+      "target": "<op()><sp(20)>The Baldora Charge\nis already near critical.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09216",
+      "target": "<sp(20)>Top priority is suppressing the area\nfor Ensign Barrel to access it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09217",
+      "target": "<op()><sp(20)>Destroy the enemy force.\nMove fast!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09218",
+      "target": "<op()><sp(20)>Don't worry about the details.\nGo on and wreck them!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09219",
+      "target": "<op()><sp(20)><freezemouth(1)>...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Freezemouth monologue; speaker not tagged, but content (row9220) matches Berkt's later self-hatred lines (9276-9292)."
+    },
+    {
+      "id": "dialogue_09220",
+      "target": "<sp(20)>This cursed self of mine.\nLet's truly end it here...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Likely Berkt addressing himself; no speaker tag in source, kept as plain statement."
+    },
+    {
+      "id": "dialogue_09221",
+      "target": "<op()><sp(20)>We... didn't make it, did we.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/referent unclear (table order != event order); left neutral, no identity invented."
+    },
+    {
+      "id": "dialogue_09222",
+      "target": "<op()><sp(20)>The Nadesico is under attack!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09223",
+      "target": "<op()><sp(20)>Ignore minor damage.\nPlease prioritize downing enemy units.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09224",
+      "target": "<op()><sp(20)>Th-the Nadesico's damage is spreading!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09225",
+      "target": "<op()><sp(20)>We're fine, at this level.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09226",
+      "target": "<op()><sp(20)>Harry.\nPlease trust everyone.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Harry = locked nickname for Hari Makibi (character_names_021)."
+    },
+    {
+      "id": "dialogue_09227",
+      "target": "<op()><sp(20)>Th-the Nadesico... has been sunk...!!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09228",
+      "target": "<op()><sp(20)>How could this happen...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09229",
+      "target": "<op()><sp(20)>There's still time.\nKeep it up!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09230",
+      "target": "<op()><sp(20)>Operation time is running low.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09231",
+      "target": "<op()><sp(20)>Destroy them fast!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09232",
+      "target": "<op()><sp(20)>There's no time left!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09233",
+      "target": "<op()><sp(20)>Please hurry.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09234",
+      "target": "<op()><sp(20)>The particle field has vanished!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "particle field = locked term (mission_terms_019)."
+    },
+    {
+      "id": "dialogue_09235",
+      "target": "<op()><sp(20)>Half the targets destroyed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09236",
+      "target": "<op()><sp(20)>Alright!\nLet's keep it coming!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09237",
+      "target": "<op()><sp(20)>Most targets destroyed!\nAlmost there!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09238",
+      "target": "<op()><sp(20)>Almost there.\nPlease hold on.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09239",
+      "target": "<op()><sp(20)>To pull this off even in a situation like this...\nImpressive.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09240",
+      "target": "<op()><sp(20)>The enemy force has spread out over a wide area.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09241",
+      "target": "<sp(20)>Such a huge number...\nI can't even count the enemy units!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09242",
+      "target": "<op()><sp(20)>Damn Berkt...\nTo think he prepared this many.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09243",
+      "target": "<op()><sp(20)>It means the enemy is desperate too.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09244",
+      "target": "<op()><sp(20)>If we can't win here, it's over.\nWe have to open a path, no matter what!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09245",
+      "target": "<op()><sp(20)>Still... with numbers like this,\nwe won't take them all down so easily.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09246",
+      "target": "<op()><sp(20)>Yeah.\nWill we make it in time...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09247",
+      "target": "<op()><sp(20)>Talk about a hopeless situation.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09248",
+      "target": "<op()><sp(20)>This time, I don't feel like we can win.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09249",
+      "target": "<op()><sp(20)>How many more of them do I have to fight!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09250",
+      "target": "<op()><sp(20)>Don't start whining!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09251",
+      "target": "<op()><sp(20)>Barrel.\nDon't you dare get shot down.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09252",
+      "target": "<op()><sp(20)>Ngh... tougher than usual!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09253",
+      "target": "<op()><sp(20)>This is their last stand.\nDon't you dare underestimate them!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09254",
+      "target": "<op()><sp(20)>Report the enemy force's status!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09255",
+      "target": "<op()><sp(20)>They're guarding the Baldora Drive heavily!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09256",
+      "target": "<op()><sp(20)>The time limit is almost here!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09257",
+      "target": "<sp(20)>Clear a path for Barrel and Faye!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09258",
+      "target": "<op()><sp(20)>You!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09259",
+      "target": "<op()><sp(20)>Hikaru! This is the moment that counts.\nWe can't lose!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Hikaru identified as Hikaru Ichijyo (Macross DYRL) from adjacent finale content (Boddole Zer/Lynn Minmay in nearby resource 6281-6282); locked in character_names_021."
+    },
+    {
+      "id": "dialogue_09260",
+      "target": "<op()><sp(20)>I know that!\nYou'd better not get shot down either, senior!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source honorific senpai rendered as 'senior' (no lowercase j/q)."
+    },
+    {
+      "id": "dialogue_09261",
+      "target": "<op()><sp(20)>Can I really stop\nthe Baldora Drive!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09262",
+      "target": "<op()><sp(20)>It's alright.\nHave faith.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source's 'believe' has no stated object (in yourself/in me); kept neutral."
+    },
+    {
+      "id": "dialogue_09263",
+      "target": "<op()><sp(20)>But first, I've got to deal with this enemy!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09264",
+      "target": "<op()><sp(20)>Each unit's damage rate is climbing.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09265",
+      "target": "<sp(20)>This isn't good, at this rate!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09266",
+      "target": "<op()><sp(20)>But we can't retreat here!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09267",
+      "target": "<op()><sp(20)>Everyone... I know it's rough,\nbut fight it out to the end!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09268",
+      "target": "<op()><sp(20)>Of course!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09269",
+      "target": "<op()><sp(20)>If running is pointless anyway,\nwe've got no choice but to fight!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09270",
+      "target": "<op()><sp(20)>Ngh... there's still more of them!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09271",
+      "target": "<op()><sp(20)>Everyone, a little more!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09272",
+      "target": "<op()><sp(20)>Area suppression complete!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09273",
+      "target": "<op()><sp(20)>Good.\nSend Barrel and Faye forward!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09274",
+      "target": "<op()><sp(20)>Don't forget about me.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09275",
+      "target": "<op()><sp(20)>Berkt, stop this already!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressed to Berkt by name; speaker presumed Barrel from following exchange, not tagged in source."
+    },
+    {
+      "id": "dialogue_09276",
+      "target": "<op()><sp(20)>Not yet, Barrel...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Reply naming Barrel; presumed Berkt (matches his hostility per glossary), not tagged in source."
+    },
+    {
+      "id": "dialogue_09277",
+      "target": "<sp(20)>This won't end until you're sunk in despair.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09278",
+      "target": "<sp(20)>You, who took everything from me.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09279",
+      "target": "<op()><sp(20)>I get it, you hate me.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Barrel responding; not tagged in source."
+    },
+    {
+      "id": "dialogue_09280",
+      "target": "<sp(20)>But you have no right to drag everyone into it!\nEveryone... has a future.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09281",
+      "target": "<op()><sp(20)>My hatred is directed\nat your very existence.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Berkt; not tagged in source."
+    },
+    {
+      "id": "dialogue_09282",
+      "target": "<op()><sp(20)>Then to protect that,\nI'll stop you as many times as it takes.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unclear: could be Barrel or Faye (polite 'anata'); no identity assigned."
+    },
+    {
+      "id": "dialogue_09283",
+      "target": "<op()><sp(20)>I'll deny everything about all of you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Berkt (plural 'you all'); not tagged in source."
+    },
+    {
+      "id": "dialogue_09284",
+      "target": "<op()><sp(20)>...It sacrificed armor to boost mobility!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Operator/pilot commentary on Berkt's unit transforming; no unit name supplied by source."
+    },
+    {
+      "id": "dialogue_09285",
+      "target": "<op()><sp(20)>Watch out!\nThis unit is different in nature from before!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09286",
+      "target": "<op()><sp(20)>What's driving you to this?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unclear (feminine sentence ending); possibly Faye. Not assigned."
+    },
+    {
+      "id": "dialogue_09287",
+      "target": "<op()><sp(20)>Because I carried the name Barrel,\nI had to suffer.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Berkt states he bore the name 'Barrel'; consistent with glossary note that Berkt/Barrel are separate parallel-world identities the story connects. No identity merged in translation."
+    },
+    {
+      "id": "dialogue_09288",
+      "target": "<sp(20)>This face, this name...\nand I've kept hating you, all this while.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09289",
+      "target": "<op()><sp(20)>Berkt, stop!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Barrel; not tagged."
+    },
+    {
+      "id": "dialogue_09290",
+      "target": "<sp(20)>If you're a human being like me...\nyou can't possibly wish for ruin!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09291",
+      "target": "<op()><sp(20)>The same human being...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Berkt; not tagged."
+    },
+    {
+      "id": "dialogue_09292",
+      "target": "<sp(20)>You're the one saying that!?\nYou, who denied me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09293",
+      "target": "<op()><sp(20)>It's true, I don't understand you.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Barrel; not tagged."
+    },
+    {
+      "id": "dialogue_09294",
+      "target": "<sp(20)>But do you have the right\nto destroy everyone's future!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_09219",
+        "dialogue_09220"
+      ],
+      "note": "Freezemouth self-address monologue is not speaker-tagged; content (self-hatred, 'this cursed self') matches Berkt's later confession in 9276-9292 but is not confirmed. Left as plain statement, no name inserted."
+    },
+    {
+      "id": "dialogue_09221",
+      "note": "'We... didn't make it, did we' has no clear speaker/referent in this stored-table position; could belong to a different sub-event than the surrounding Nadesico-damage alerts. Left neutral."
+    },
+    {
+      "ids": [
+        "dialogue_09275",
+        "dialogue_09276",
+        "dialogue_09277",
+        "dialogue_09278",
+        "dialogue_09279",
+        "dialogue_09281",
+        "dialogue_09283",
+        "dialogue_09287",
+        "dialogue_09289",
+        "dialogue_09291",
+        "dialogue_09293"
+      ],
+      "note": "Barrel/Berkt confrontation rows are not individually speaker-tagged. Attribution to Barrel vs Berkt is inferred from content (who is addressed by name, who says 'I took everything', who is called by name) but not certain; no third-party identity or gender was invented."
+    },
+    {
+      "ids": [
+        "dialogue_09282",
+        "dialogue_09286"
+      ],
+      "note": "Two lines use polite 'anata' / feminine sentence endings distinct from the Barrel/Berkt exchange's rougher register; may belong to Faye rather than Barrel. Left unassigned, translated literally."
+    },
+    {
+      "id": "dialogue_09287",
+      "note": "Berkt states he 'carried the name Barrel' and suffered for it. This matches the existing glossary note (char.barrel_orland: 'Keep separate from Berkt; parallel-world identities are not interchangeable speaker labels'), so translation keeps Barrel and Berkt as distinct speaker labels; no merged identity assumed."
+    },
+    {
+      "id": "dialogue_09259",
+      "note": "'Hikaru' identified as Hikaru Ichijyo (Macross: Do You Remember Love) rather than Hikaru Amano (Nadesico), based on adjacent finale content (Boddole Zer/Lynn Minmay battle in neighbouring resources 6281-6282, viewed for context only, outside this batch's row range)."
+    }
+  ],
+  "validation": {
+    "controls": "All source angle-bracket commands (op/on/sp/ab/ed/freezemouth) preserved in exact source order per row; no color()/book() spans in this batch's source rows.",
+    "fit": "All rows drafted in full; longest visible strings stay well under the 110-character budget.",
+    "translation": "First-pass draft translation, independent meaning review pending; status left as draft per task instructions.",
+    "meaning_review": "Independent review of 80 rows against original ISO; 110 examined 9200-9309. No meaning fixes needed; all rows verified. See review_09215.json."
+  }
+}

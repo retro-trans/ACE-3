@@ -1,0 +1,97 @@
+{
+ "resource_id": 4003641,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Ex-Giganos",
+   "notes": "Enemy faction name.",
+   "source_sha256": "65683b603e21202a3a4d9432a6049611b423a9f3246526359de74bc632018a26"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Martian Successors",
+   "notes": "Enemy faction name.",
+   "source_sha256": "500e92e9224d8dfd58259b586443249e799aa4eac1dfd201c19fe394fcc79b60"
+  },
+  {
+   "table": 1,
+   "slot": 2,
+   "text_id": 3,
+   "en": "Neo Zeon",
+   "notes": "Enemy faction name; locked (encyclopedia_022 org.neo_zeon).",
+   "source_sha256": "3bea7d40814c0138b23f0465fc01b3a5772def14191961aee8237f4650610d09"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(14030,1)><speed(2)><move(1,7,15)>Listen up<marker(1,7,15,0)>, I'll<marker(5,4,2,0)> explain<marker(5,13,2,0)> the<marker(5,2,13,0)> operation<marker(5,14,12,0)>.<move(2,8,14)>",
+   "notes": "",
+   "source_sha256": "fa4fcc2541f40f1a359e9d8f36940b56dbbd7a7ed6b62241637fb5d7e461a073"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(14030,1)><speed(2)>First,<marker(20,0,2,0)> around <book(33)>Macross<marker(20,11,2,0)><marker(20,13,4,0)><endbook()>,<marker(20,0,10,0)><marker(20,14,14,0)> we'll<move(1,7,5)> wipe out the <color(5)>enemy forces<ce()>.<marker(22,3,6,0)><marker(22,7,5,0)><marker(22,10,6,0)> Don't bother<move(1,7,11)> with the small fry<marker(22,3,10,0)><marker(22,7,11,0)><marker(22,10,10,0)>; aim only for the <color(5)>targets<ce()>.<move(2,7,11)><picture(93,2,7,0)><refer(2,7,3,6)>",
+   "notes": "",
+   "source_sha256": "3e340480034a42b0f6107f1de09c20c4048b219035710dc10737e13e740bfdea"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(14030,1)><speed(2)>Once we destroy all the <color(5)>targets<ce()> and secure the area,<move(1,7,8)> we'll launch an all-out assault on <book(33)>Macross<endbook()><marker(27,7,8,0)>.<move(2,7,8)><picture(92,30,7,0)><refer(30,7,7,8)>",
+   "notes": "",
+   "source_sha256": "db6ccfa5384a94cae91caae5bfa2624ca2113cb94ccbc788476787787197360d"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(14030,1)><speed(2)>From the enemy-held <book(33)>Macross<endbook()>, expect <color(6)>fierce attacks<ce()>, so be careful.",
+   "notes": "",
+   "source_sha256": "c11185d40e5af347d0af34fdbb3eb1c5d071127a1cf5bc27f9b1b84d98442d4d"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<delpic(2,7,1)><enemylist()><operator(14030,1)><speed(2)>At the very least... Let's sink it with our own hands.",
+   "notes": "\"it\" = Macross, seized and turned against them; source omits the object, kept implicit as in source.",
+   "source_sha256": "30222db978dc3a37aaa131271cd088d8ecf0c9f8e0b5e657fae704b792816634"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 23,
+   "issue": "\"semete...\" (at the very least) trails off before naming what Roy is resigned to; object of \"sink\" (Macross) left implicit exactly as the source leaves it."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "'Ex-Giganos', 'Martian Successors' and 'Neo Zeon' verified against locked spellings.",
+   "Speaker 14030 verified via speaker_lookup.py as Roy Focker.",
+   "'Macross' (book(33)) kept as the plain city/ship name, consistent with its use as an attack target and later reconquest objective across the scene.",
+   "Slot 22 'enemy-held Macross' for teki ni nottorareta Macross (Macross seized by the enemy): paraphrase preserves the meaning (Macross now under enemy control) without inventing extra information.",
+   "Slot 23 'Let's sink it with our own hands' for ore-tachi no te de shizumete yaru n da: source is a first-person-plural declarative statement of resolve rather than a suggestion, but 'Let's' still centers the same 'we, not anyone else, by our own hands' emphasis; object 'it' (Macross) kept implicit exactly as the source leaves it. Treated as a register nuance, not a meaning error, and left unchanged.",
+   "All commands verified identical in count and order versus source for every row; ASCII-only, no newline, 128-visible-char limit verified for every row; no lowercase j/q and no bare % found."
+  ],
+  "remaining_uncertainties": [
+   "Slot 23: 'Let's sink it' (invitation) vs a stricter 'We'll sink it' (resolve) is a register call not cross-checked against other Roy Focker lines in the wider corpus for tone consistency; flagged for awareness, not changed."
+  ]
+ }
+}

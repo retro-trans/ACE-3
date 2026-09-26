@@ -1,0 +1,53 @@
+{
+  "reviewer": "independent_meaning_review_04478_agent",
+  "slice_start": 4478,
+  "slice_count": 64,
+  "rows_examined": [{"start": 4463, "end": 4556}],
+  "rows_examined_count": 94,
+  "rows_in_slice": 64,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_04498",
+      "before": "<op()><sp(20)>You knockoff invader!<ab(200)><ed()>",
+      "after": "<op()><sp(20)>You knockoff Invader!<ab(200)><ed()>",
+      "reason": "The source word 'Invader' (katakana loanword) is a proper-noun faction from this game's own Getter Robo Armageddon lore (work/translation/en/encyclopedia_022.json translates the linked book(49) term as 'Invaders', tied to the 'Moon Invader War' and the Shin Dragon reactivating at the end of this mission). Lowercasing it turned a named-faction jab into a generic insult; capitalized to match the established term and the parallel fix in batch_04398 row 4457."
+    },
+    {
+      "id": "dialogue_04504",
+      "before": "<op()><sp(20)>You knockoff invader, you!<ab(1300)><ed()>",
+      "after": "<op()><sp(20)>You knockoff Invader, you!<ab(1300)><ed()>",
+      "reason": "Same 'Invader' proper-noun fix as dialogue_04498."
+    },
+    {
+      "id": "dialogue_04506",
+      "before": "<sp(20)>Calling this Dominator\nan invader, of all things!<ab(500)><ed()>",
+      "after": "<sp(20)>Calling this Dominator\nan Invader, of all things!<ab(500)><ed()>",
+      "reason": "Same 'Invader' proper-noun fix as dialogue_04498; this is the Dominator pilot's indignant reply to being called an Invader."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [4507], "finding": "Kei (character_names_021.json: female, Shin Getter-2 pilot) is addressed only with an imperative ('Kei, transform too and counter it!'); no pronoun needed or invented. Correct as drafted."},
+    {"rows": [4484, 4486, 4489], "finding": "Game Champ, Queen, and King (Cynthia Lane's and Gainer's locked terms/nicknames, terms_028.json and character_names_021.json) used correctly and consistently."},
+    {"rows": [4493, 4494], "finding": "Barrel (Barrel Orland, confirmed male in glossary.json's char.barrel_orland entry) is defended by an unnamed ally ('Barrel is not lacking!'); the source does not name the defender, so keeping the defender unnamed is correct -- no invented subject."},
+    {"rows": [4503], "finding": "The YF-19 line ('Not if you can't keep up with this YF-19!') stays name-neutral in the target text, which is correct either way. Flagging for the record: per the orchestrator's Mission 11B cast list, this YF-19 belongs to Faye Rochenante in this scene, not Macross Plus's Isamu Alva Dyson (the batch's original note wrongly implied Isamu); the batch file's note was corrected to remove that misattribution, no change was needed to the visible target text."},
+    {"rows": [4529, 4530, 4531, 4532, 4533, 4534], "finding": "Post-mission talk block correctly has no <ab()>/<ed()> at all, matching the source; 'Shin Dragon' matches the locked inherited term (mission_terms_019.json)."},
+    {"rows": [4535, 4536, 4537, 4538, 4539], "finding": "Gainer's interlocutor is kept unnamed/gender-neutral throughout, matching the source's lack of a speaker tag; 'she' is used only for Cynthia Lane, whose gender is already locked in character_names_021.json, not inferred from her name. No invented identity."},
+    {"rows": [4540], "finding": "The <book(56)>Siberian Railway<endbook()> link matches the corresponding encyclopedia entry (encyclopedia_022.json slot 55 / text_id 56); consistent with terms_028.json's ruling that the Siberian Railway's nickname also renders as the full name."}
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_04500",
+      "issue": "The line translated literally as 'So the malice has arrived!' has no confirmed deeper in-show meaning, ability name, or character epithet found in available King Gainer sources; speaker and referent are not identifiable from surrounding context. Kept as the draft's literal rendering; not fully resolved by this review, but the translation itself is not contradicted by anything found."
+    },
+    {
+      "id": "dialogue_04521",
+      "issue": "Per the task's ruling, 'Kids Munt' (King Gainer Wikipedia spelling) is accepted and used correctly here ('Lord Kids'). Note for the record: work/translation/en/encyclopedia_022.json currently translates the same name as 'Kizz Munt' in two places (the Siberian Railway description), which conflicts with this ruling. That file is a different resource table outside this slice's scope, so it was not edited here; flagged for central reconciliation."
+    }
+  ],
+  "validation": {
+    "controls": "All <...> commands re-checked against the Japanese source in exact order for all 64 rows, including the <ab(10000)> placed before the text in row 4521 (kept in that exact position) and rows 4529-4541, which have no <ab()>/<ed()> at all in the source (post-mission talk block). No command was added, removed, or reordered by the 3 meaning fixes.",
+    "format": "Newline counts unchanged for every row, including the 3 rows edited.",
+    "fit": "All 64 rows remain ASCII, single- or multi-line combat/dialogue lines well under the 110-character visible-text budget; the 3 edited lines each only changed one letter's case."
+  }
+}

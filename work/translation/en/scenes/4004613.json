@@ -1,0 +1,606 @@
+{
+ "resource_id": 4004613,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 60,
+ "rows_examined": 60,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21010,1)><speed(2)>(<color(4)>Sara<ce()>'s actually pretty stacked, you know. The type that looks slimmer in clothes.)",
+   "notes": "",
+   "source_sha256": "5e8f2f2201d3b641eee6310818bae5bb7c7cb929ee16988bee074605e6136edd"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21030,1)><speed(2)>W-wait a minute!! What do you mean by that!? <color(4)>Gainer<ce()>, you pervert! Disgusting!",
+   "notes": "",
+   "source_sha256": "4028f9b665bc6275e9031c989952a21894ab0296f80cb6de12a1c4ac922c5e75"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21010,1)><speed(2)>Wha-!? How did you know what I was thinking!?",
+   "notes": "",
+   "source_sha256": "4319497a2712d638f88223171d9c8aba952e1913b840b5a447fa7a81202fc16e"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)>(Damn it, <color(4)>Talho<ce()>... \"Don't walk around in your underwear,\" \"don't leave your stuff lying around\"... She won't let up.)",
+   "notes": "",
+   "source_sha256": "984242b63ec194d348c910abb81778a3ebf531a686e102251053cd4bbcdf06e1"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23040,1)><speed(2)>...Sorry for nagging, then. But is that really something to bring up right before we launch?",
+   "notes": "",
+   "source_sha256": "879cc1b6eec844dbe9a920b7e34993c22228e7c13f8872c80b814737e9eac1a8"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23030,1)><speed(2)>Wh-whoa, hold on! I didn't say anything... I mean, I was only thinking it!?",
+   "notes": "",
+   "source_sha256": "6a47b5d4119a4a793bebb78c8b7fd20116c3acca6161eb2d41cc80b1409a1a5d"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23040,1)><speed(2)>(...I wish he had a little more dignity, like the other captains.)",
+   "notes": "",
+   "source_sha256": "8ee86cb669e322663b42ac7c10b95dc1a4fc1ace1b1bc2fa1a97d59337786e23"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(17030,2)><speed(2)>(<color(4)>Sara<ce()>'s nice and all... but <color(4)>Marina<ce()> and <color(4)>Hikaru<ce()> are hard to give up too. Can't decide who to go for first.)",
+   "notes": "",
+   "source_sha256": "790eab626a4e8cf36b967e712e049c0dde5f8c8c4a9568fbd59095a28bfa6029"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12061,1)><speed(2)>Oh, come on! <color(4)>Roybea<ce()>, aren't you being awfully forward!?",
+   "notes": "",
+   "source_sha256": "1a9bde3167dccb505fcd9b5b09929dc5bab18208f253019767636093bb6798d5"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(17030,1)><speed(2)>Huh...? About what?",
+   "notes": "",
+   "source_sha256": "853569ed0b4aa228704c4dfe732c67102f448c3abbadffd4ff0d79b27e204a40"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1020,1)><speed(2)>...We heard you loud and clear, you know?",
+   "notes": "",
+   "source_sha256": "c68d068fb793d99664676ea9cf465ffcc1e4409d1d92b0b742acd2859e999fad"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(10030,1)><speed(2)>(...Things would be a lot easier if <color(4)>Kaine<ce()> and <color(4)>Tapp<ce()> would only follow <color(4)>D-3<ce()>'s data more. <color(4)>D-3<ce()>'s the real star of the show.)",
+   "notes": "",
+   "source_sha256": "1aa0ccce953ff1d23569fa608fc55c7fd405581562adf14c51e7ef6f96695e04"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(10010,1)><speed(2)>Hey, what's that supposed to mean? I'm the star here!",
+   "notes": "",
+   "source_sha256": "8d71b27932845ac123b95f3064beb5404c11c3be115387b827676b9d359b8f2f"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(17040,1)><speed(2)>What in the world is all this commotion, right before launch!",
+   "notes": "",
+   "source_sha256": "aa938026ade12519d2334b57cbfcff8bba6d1fac0407caa4880edd4bd3036d1c"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(21030,1)><speed(2)>It seems like everyone can hear what's in each other's minds.",
+   "notes": "",
+   "source_sha256": "de5330005b2c066cd00dcf81b21a47ec6fcc57f155e582e11a2d0107e3039032"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(21020,1)><speed(2)>Could it be... This strange phenomenon might be from an Overskill...",
+   "notes": "Overskill = King Gainer mind-reading power (Kashmir's Planetta); see glossary_proposals.",
+   "source_sha256": "6754481042ecf3c2f02958d4152dec7f598f898ba050c93741ad114ce083d64a"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(23040,1)><speed(2)>Knowing everyone's true feelings... that's not exactly peaceful.",
+   "notes": "",
+   "source_sha256": "9c1beb3136d8e3683ed75a28d74e4082c579e6e6806f59f12df2c5a7e65433c1"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(21020,1)><speed(2)>Strip away the lies and flattery people wrap things in, and of course it leads to conflict.",
+   "notes": "",
+   "source_sha256": "ebf0f20f134ebc1e70cdb538bc83d540eeeb6567a7d137dc7a5984f47a786f5b"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(19050,1)><speed(2)><color(4)>Gain<ce()>, do you have a plan? This is hurting morale.",
+   "notes": "",
+   "source_sha256": "226f4472446b1d40ba87b7a2341d053e225b88bac2fbf4fbf92200979fb5038d"
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(21020,1)><speed(2)>Just take out the source. The <color(5)>Overman<ce()> that's triggering this Overskill.",
+   "notes": "",
+   "source_sha256": "ab8f2d9a668d033b9c59152d76141e78a51b4a6dc06f54f143e8c6c03356dea5"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>(<color(4)>Faye<ce()>'s nagged less lately. Still, if she's this naggy now, what's she going to be like when she's older?)",
+   "notes": "",
+   "source_sha256": "b34a62fd030eb1b64cc228be51e97c4305643b60c3521b57b2200b8a5de76abd"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>... what exactly do you mean by that.",
+   "notes": "",
+   "source_sha256": "1b232a5b0bcb6d7b99db4b5ce9436580a7359882484ee8a8aa58bcfb1a48d2e7"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>Uh... n-no, I mean, how do I put this... It's not like that...",
+   "notes": "",
+   "source_sha256": "c811a86b919de33c7a6b57c62dde7d21f7e2082908f128ef8fa7347e9ccc0e27"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>...Just get ready to launch! Honestly...",
+   "notes": "",
+   "source_sha256": "8e0ba61f485fd07f48e8b07b708172f110dfffc8458fe95f0679498bd8908cb7"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)>This is such a mess. Can we even fight properly like this?",
+   "notes": "",
+   "source_sha256": "0be4c00b55f4d10949903b962211c0751f122e16296d2c8f661724d603b42320"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(12031,1)><speed(2)>People can't act without thinking anything at all. We need to do something about this.",
+   "notes": "",
+   "source_sha256": "b7caead11bfcd518a4b45f01f3490cb5710b95d165f76228d120f200b76d782a"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(12031,1)><speed(2)>Captain <color(4)>Amuro<ce()>, I'm counting on you.",
+   "notes": "",
+   "source_sha256": "9b32a8131f86f48e75150e54948bf4b4dad876f2dcd048b6a521b85c223b7894"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10020,1)><speed(2)>Easy, easy, that's enough out of both of you.",
+   "notes": "",
+   "source_sha256": "5b5756079197aecb3567d0738b9293c3d67f1ddb952d1424fed3ad84508d2eec"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,1)><speed(2)>(Man, they're really acting like kids.)",
+   "notes": "",
+   "source_sha256": "6f65b151193ae8d9ec067df3b888a272a0f5a4573021941e0e8c313578b72e6a"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,1)><speed(2)>What...?",
+   "notes": "",
+   "source_sha256": "962206e5a5c97d0a04994a9d7976dc1f9e3bd31638a8124bfa94db7fc07980a6"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(10010,1)><speed(2)>Who're you calling a kid!?",
+   "notes": "",
+   "source_sha256": "0dd9b452ac107b95e3e7512960b56aa3d57a374aa8039abf6b64128facabcbde"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(10020,1)><speed(2)>Wha- no, I mean, I...",
+   "notes": "",
+   "source_sha256": "e70b5fee6d885f9cad5ac7a171b82e41f9a43b7088a60753919a7237fa2ffc7c"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(25010,1)><speed(2)>(How many times have I gotten <color(4)>Guld<ce()> to buy me lunch so far...)",
+   "notes": "",
+   "source_sha256": "779aa022600e51496964e4206dd7593827240e1eafccaebb88de10c6241e3eed"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(25020,1)><speed(2)>(...Thirteen times. You've bought twice.)",
+   "notes": "",
+   "source_sha256": "caea8fdd4d481315d7fc4659554f2f89b49f8d19eb3af2b540b546693acddb9f"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(25010,1)><speed(2)>Y-you could hear that!?",
+   "notes": "",
+   "source_sha256": "f678e68204344991fb50bf509b91894cac55f386a671ae5aa8b769094712f20c"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(25020,1)><speed(2)>You're paying me back later, for sure. ...Don't forget it.",
+   "notes": "",
+   "source_sha256": "2e797720c5df737306bb760befbb177caa4a885b1c01c00911d45259241120b5"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(17010,1)><speed(2)>(I-isn't now my chance to learn how <color(4)>Tiffa<ce()> really feels? All right, here goes...)",
+   "notes": "",
+   "source_sha256": "8d5ae8e700689bb18dd57c580353bcb71115c00f6412907e8b8b599ad9722dc9"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17070,1)><speed(2)><color(4)>Garrod<ce()>...",
+   "notes": "",
+   "source_sha256": "eeaa8d3fb5d27b29544de9234bb51fb4b366f93d3de291a0d9d0f63c255ea8e2"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(17010,1)><speed(2)>W-what is it, <color(4)>Tiffa<ce()>?",
+   "notes": "",
+   "source_sha256": "d9570a2a5afe774a974d58b980542be097d71d4e39096f1516f85bc936b63427"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(17070,1)><speed(2)>I always believe in you, <color(4)>Garrod<ce()>. Don't worry...",
+   "notes": "",
+   "source_sha256": "71d4438807782a3d3362d016ab2eb874f38ef15389c48914be71dd5790761642"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(17020,1)><speed(2)>(If <color(4)>Roybea<ce()> would only stop chasing women, he'd make a great partner...)",
+   "notes": "",
+   "source_sha256": "c8d21af34f9a55ae29349399a1e306bff05f559f0037cd66c7c0cdc1f44ea11a"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(17030,2)><speed(2)>Heh... So that's what's going through your head, huh? Sorry, but this is simply how I am.",
+   "notes": "",
+   "source_sha256": "9dd172fda131c0d5b1afe2b7e9cc9209b907cac04829a3b4ef6d71668bab47ad"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(17020,1)><speed(2)>Whoa! You heard every word!?",
+   "notes": "",
+   "source_sha256": "f0ada200245fd7794f53aa2e30e0be1f3bc592a0bb28aab3f53b5b2659a6186f"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(17020,1)><speed(2)>T-this is no laughing matter! Let's take these guys down already!",
+   "notes": "",
+   "source_sha256": "0a2eaf439af00886b28455e3d03fc9825e281bbb04417d1f033299af30c9a438"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(21020,1)><speed(2)>(<color(4)>Gainer<ce()>... what a fool. He's only lowered his standing with <color(4)>Sara<ce()> again.)",
+   "notes": "",
+   "source_sha256": "daa888473ffc7bb52ffdb3db01caf461719e566c8cdb3d480256a4a4c4390d6c"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(21010,1)><speed(2)>...Yeah, I'm a fool, whatever.",
+   "notes": "",
+   "source_sha256": "972d8289601194ee5f53b9ee38241cacfaa74bc57d3bb113f95d35c4bf25be4f"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(21020,2)><speed(2)>Oh? You caught that, huh? Well, don't let it get to you!",
+   "notes": "",
+   "source_sha256": "88029e4a9381ce35dd0d04706280584a33937c379c78b2ef23b30f08daebb212"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(23010,1)><speed(2)>(So you can hear people's thoughts... I'd kind of like to know what <color(4)>Eureka<ce()> really thinks of me.)",
+   "notes": "",
+   "source_sha256": "0fd809740858ac62d75d010524e6814c6a9b56ef35dfc066cb25728df696ee09"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(23020,1)><speed(2)>I always say what I think. <color(4)>Renton<ce()>, <color(4)>Holland<ce()>... everyone, you're all important to me.",
+   "notes": "",
+   "source_sha256": "05bba03d47f90a21c7ebcb9bfa86e0241780585e30898da6c0e0cebe83812e98"
+  },
+  {
+   "table": 1,
+   "slot": 301,
+   "text_id": 302,
+   "en": "<operator(23010,1)><speed(2)>Y-you heard that!?",
+   "notes": "",
+   "source_sha256": "d9f5b1a3a97e537979f7e19ff1b75ad04a62128b59c9a43dbf04c063ec9dd633"
+  },
+  {
+   "table": 1,
+   "slot": 339,
+   "text_id": 340,
+   "en": "<operator(23030,1)><speed(2)>(Geez... I need to get back in <color(4)>Talho<ce()>'s good graces once we're back.)",
+   "notes": "",
+   "source_sha256": "c3b824bf480fc633c9fbc24adb1296745dcf3b4b3c308410ebbab05389eb711e"
+  },
+  {
+   "table": 1,
+   "slot": 340,
+   "text_id": 341,
+   "en": "<operator(23040,1)><speed(2)>Oh... it's fine, you don't need to worry about that.",
+   "notes": "",
+   "source_sha256": "ecd589b4ccb632c376a0b515c5b3ddd9f302b8c8ba345f3c1046fd6e06bfbd2d"
+  },
+  {
+   "table": 1,
+   "slot": 379,
+   "text_id": 380,
+   "en": "<operator(19020,1)><speed(2)>Hearing everyone's inner voice, huh...",
+   "notes": "",
+   "source_sha256": "4e60ad661e1d35688962ed1d112203438171263310d0fed9b48938ee7c1255ff"
+  },
+  {
+   "table": 1,
+   "slot": 380,
+   "text_id": 381,
+   "en": "<operator(19020,1)><speed(2)>This could be a good chance to find out what Go's really thinking, since he never shows it.",
+   "notes": "",
+   "source_sha256": "503866030b33d358107cd9c654f1ef5b59830ca8e8db10872ca071dead48408b"
+  },
+  {
+   "table": 1,
+   "slot": 381,
+   "text_id": 382,
+   "en": "<operator(19010,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "9cc72fd2338c297c805ae41a09193cb596caa5ef9715168f63593060054971ec"
+  },
+  {
+   "table": 1,
+   "slot": 382,
+   "text_id": 383,
+   "en": "<operator(19030,1)><speed(2)>Not hearing anything from him... does that mean he's not thinking anything at all!?",
+   "notes": "",
+   "source_sha256": "4441f6637ff576dce85d6f72f4db531921f37751814df68015b7e02f9fae912e"
+  },
+  {
+   "table": 1,
+   "slot": 419,
+   "text_id": 420,
+   "en": "<operator(1020,1)><speed(2)>Honestly, what a farce. None of this would matter if everyone only focused on the fight...",
+   "notes": "",
+   "source_sha256": "3808bee93a6b90bd1a11b092b4204923469d519098eda723d1a88b9039037a6e"
+  },
+  {
+   "table": 1,
+   "slot": 420,
+   "text_id": 421,
+   "en": "<operator(6011,1)><speed(2)>Right. This is no obstacle.",
+   "notes": "",
+   "source_sha256": "a03106562ed980ad745e87c730e8c0ed2dc0fc78f4fe4e08ae759661b2b4b9b2"
+  },
+  {
+   "table": 1,
+   "slot": 421,
+   "text_id": 422,
+   "en": "<operator(1020,1)><speed(2)>(I can't hear his inner voice at all. Guess that's to be expected of him...)",
+   "notes": "",
+   "source_sha256": "acb3514f2806d2fa8f177a768cd23ef13a94b8f992af19345d5acfaf62c3ebc6"
+  },
+  {
+   "table": 1,
+   "slot": 422,
+   "text_id": 423,
+   "en": "<operator(6011,1)><speed(2)>Yeah.",
+   "notes": "",
+   "source_sha256": "255ad54ed75985cb667fba0fedd165a9b8bf8b3f53e6f8adfbe556a04d482020"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 19,
+   "issue": "'kigase suru taipu' (looks slimmer in clothes than she is) rendered as 'the type that looks slimmer in clothes' -- idiom paraphrased for clarity."
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "issue": "'D-3' kept as the established callsign for Light's Dragonar-3 (matches dialogue_00489/00502 'This is D-3.')."
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "issue": "'Overskill' is not yet a locked glossary term; rendered per King Gainer wiki research (Kashmir's Planetta mind-reading Overskill). See glossary_proposals."
+  },
+  {
+   "table": 1,
+   "slot": 380,
+   "issue": "Character label '号' (Go) has no color tag in source at this row (color tags are present on his name elsewhere in the corpus); kept plain 'Go' with no color span, matching the source exactly."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "term": "Overskill",
+   "note": "King Gainer term for the paranormal ability an Overman/pilot can manifest (here: reading others' thoughts, matching Kashmir's Planetta Overskill in the source anime). Not yet present in project glossary files.",
+   "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer ; https://mmecha.fandom.com/wiki/Siberian_Mecha"
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 60,
+  "rows_in_scene": 60,
+  "meaning_fixes": [],
+  "glyph_fixes": [
+   {
+    "table": 0,
+    "slot": 20,
+    "before": "W-wait just a minute!!",
+    "after": "W-wait a minute!!",
+    "reason": "avoid lowercase j; meaning unchanged."
+   },
+   {
+    "table": 0,
+    "slot": 24,
+    "before": "I was just thinking it!?",
+    "after": "I was only thinking it!?",
+    "reason": "avoid lowercase j; meaning unchanged."
+   },
+   {
+    "table": 0,
+    "slot": 30,
+    "before": "would just follow <color(4)>D-3<ce()>'s data more.",
+    "after": "would only follow <color(4)>D-3<ce()>'s data more.",
+    "reason": "avoid lowercase j; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 59,
+    "before": "This is quite a mess.",
+    "after": "This is such a mess.",
+    "reason": "avoid lowercase q; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 142,
+    "before": "You're paying me back later, no question.",
+    "after": "You're paying me back later, for sure.",
+    "reason": "avoid lowercase q; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 219,
+    "before": "(If <color(4)>Roybea<ce()> would just quit chasing women, he'd make a great partner...)",
+    "after": "(If <color(4)>Roybea<ce()> would only stop chasing women, he'd make a great partner...)",
+    "reason": "avoid lowercase j and q; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 220,
+    "before": "Sorry, but this is just how I am.",
+    "after": "Sorry, but this is simply how I am.",
+    "reason": "avoid lowercase j; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 222,
+    "before": "T-this is no joke!",
+    "after": "T-this is no laughing matter!",
+    "reason": "avoid lowercase j; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 259,
+    "before": "He's just lowered his standing with <color(4)>Sara<ce()> again.",
+    "after": "He's only lowered his standing with <color(4)>Sara<ce()> again.",
+    "reason": "avoid lowercase j; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 419,
+    "before": "if everyone just focused on the fight...",
+    "after": "if everyone only focused on the fight...",
+    "reason": "avoid lowercase j; meaning unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "0/19 idiom 'kigase suru taipu' paraphrased as 'the type that looks slimmer in clothes': meaning preserved. Accepted.",
+   "0/30 and throughout: 'D-3' callsign kept exactly as specified by the orchestrator ruling. Accepted, no change.",
+   "0/34, 0/38 'Overskill' kept as one word per orchestrator ruling (locked term). Accepted, no change; glossary_proposals entry left in place for the orchestrator to formalize.",
+   "1/61 Amuro's rank 'Captain' (from '大尉'): matches orchestrator ruling. Accepted.",
+   "1/380 Go's name left without a <color()> span, matching the source's own formatting at this row exactly (color tags on his name appear elsewhere in the corpus but not here). Accepted, no change -- this is not a speaker-tag issue, only a cosmetic color-span match to source.",
+   "1/380, 1/382 'he'/'him' for Go: gender is documented as male in work/glossary/character_names_021.json (char entry for 號/Go, Getter Robo Armageddon, gender: male), not inferred from the name. Accepted.",
+   "Speaker tags (e.g. Marina at 0/29 and 1/419, Sara at 1/64 sounding like gossip about Gain) kept exactly as tagged in source per the never-change rule; content still reads consistently with each tagged speaker. No changes."
+  ],
+  "remaining_uncertainties": []
+ }
+}

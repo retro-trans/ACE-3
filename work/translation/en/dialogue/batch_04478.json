@@ -1,0 +1,441 @@
+{
+  "slice_start": 4478,
+  "slice_count": 64,
+  "rows_examined": [
+    [
+      4463,
+      4556
+    ]
+  ],
+  "rows_examined_count": 94,
+  "rows_in_slice": 64,
+  "rows": [
+    {
+      "id": "dialogue_04478",
+      "target": "<sp(20)>You're all supposed to be pretty skilled, right?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues from 4477 in the previous batch (no <op()> here)."
+    },
+    {
+      "id": "dialogue_04479",
+      "target": "<op()><sp(20)>Is this enemy actually having fun?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04480",
+      "target": "<op()><sp(20)>There's no other game this fun, right?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04481",
+      "target": "<op()><sp(20)>Game...? What are you talking about?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04482",
+      "target": "<op()><sp(20)>This movement... I knew it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04483",
+      "target": "<op()><sp(20)>What's wrong, Gainer?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04484",
+      "target": "<op()><sp(20)>It's the exact same movement as\nGame Champ \"Queen\"!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Game Champ = locked term (terms_028.json); Queen = Cynthia Lane's locked online-game handle (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_04485",
+      "target": "<op()><sp(20)>An Overman pilot!<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4486."
+    },
+    {
+      "id": "dialogue_04486",
+      "target": "<sp(20)>I'm Gainer Sanga!\nA Game Champ with the title of King!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'King' = King Gainer's title/nickname (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_04487",
+      "target": "<op()><sp(20)>Gainer...?\nDon't tell me, THE Gainer Sanga?!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4488."
+    },
+    {
+      "id": "dialogue_04488",
+      "target": "<sp(20)>Heh heh heh...\nThings are getting interesting.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04489",
+      "target": "<sp(20)>To think I'd get to battle King,\na real Overman!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed source phrase interpreted as marveling at facing King Gainer as a genuine Overman; no extra detail invented beyond the source."
+    },
+    {
+      "id": "dialogue_04490",
+      "target": "<op()><sp(20)>Stop it!\nThis isn't a game!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04491",
+      "target": "<op()><sp(20)>Th-this one's strong!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04492",
+      "target": "<op()><sp(20)>What a rare machine.\nI really love ones like this.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4493."
+    },
+    {
+      "id": "dialogue_04493",
+      "target": "<sp(20)>Though the pilot's a bit lacking, I'd say.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04494",
+      "target": "<op()><sp(20)>Barrel is not lacking!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Ensign Barrel = locked character (terms_028.json); defender's identity not specified in source."
+    },
+    {
+      "id": "dialogue_04495",
+      "target": "<op()><sp(20)>Heh... so speed is\nthe Overskill, huh.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04496",
+      "target": "<op()><sp(20)>Transformation as an Overskill?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04497",
+      "target": "<op()><sp(20)>Hmph, that's soft... too soft!\nSweeter than chocolate!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source puns on '\u7518\u3044' meaning both naive/soft and literally sweet; approximated with soft/sweet rather than translated literally."
+    },
+    {
+      "id": "dialogue_04498",
+      "target": "<op()><sp(20)>You knockoff Invader!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04499",
+      "target": "<op()><sp(20)>Don't lump me in with something like that!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04500",
+      "target": "<op()><sp(20)>So the malice has arrived!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Translated literally; researched and found no special in-show meaning, ability, or epithet using this term in King Gainer sources. Speaker and referent unclear from context."
+    },
+    {
+      "id": "dialogue_04501",
+      "target": "<op()><sp(20)>A good opponent!\nThis looks like it'll be a lot of fun!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04502",
+      "target": "<op()><sp(20)>This one's pretty fast!\nBut I'll catch it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04503",
+      "target": "<op()><sp(20)>Not if you can't keep up with this YF-19!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not stated by name in this row; per orchestrator mission cast (Mission 11B roster), this YF-19 is Faye Rochenante's mount in this scene, not Macross Plus's Isamu Alva Dyson. Target text stays name-neutral."
+    },
+    {
+      "id": "dialogue_04504",
+      "target": "<op()><sp(20)>You knockoff Invader, you!<ab(1300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04505",
+      "target": "<op()><sp(20)>How rude!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4506."
+    },
+    {
+      "id": "dialogue_04506",
+      "target": "<sp(20)>Calling this Dominator\nan Invader, of all things!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Dominator = locked unit name (unit_names_014_b.json, slot 348)."
+    },
+    {
+      "id": "dialogue_04507",
+      "target": "<op()><sp(20)>Kei, transform too and counter it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kei = locked character (character_names_021.json), female Getter Robo Armageddon pilot; no gendered pronoun needed in this imperative line."
+    },
+    {
+      "id": "dialogue_04508",
+      "target": "<op()><sp(20)>You're Gain?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04509",
+      "target": "<op()><sp(20)>Are you another one chasing after me?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04510",
+      "target": "<op()><sp(20)>I'm interested in your skills!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04511",
+      "target": "<op()><sp(20)>My skills are top-class.\nI'll give you a good show!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04512",
+      "target": "<op()><sp(20)>Half of the mission time has passed.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04513",
+      "target": "<op()><sp(20)>Whoa... incredible skill...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04514",
+      "target": "<op()><sp(20)>Enemy forces have appeared again!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04515",
+      "target": "<op()><sp(20)>Enemy forces have appeared!\nUgh, they never let up!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04516",
+      "target": "<op()><sp(20)>An allied unit has been shot down!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04517",
+      "target": "<op()><sp(20)>Allied forces have been wiped out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04518",
+      "target": "<op()><sp(20)>That unit includes some highly capable units.\nPlease be careful!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04519",
+      "target": "<on()><sp(20)>I'm telling you for your own good. Surrender peacefully!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04520",
+      "target": "<on()><sp(20)>Hello, everyone.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04521",
+      "target": "<on()><sp(20)><ab(10000)>I've come under orders from Lord Kids\nto wipe you all out.<off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source places <ab(10000)> immediately after <sp(20)>, before the text, instead of at the end; kept in that exact position. 'Kids' = Kids Munt, president of the Siberian Railway (researched via web search of King Gainer character summaries); \u69d8 honorific rendered as 'Lord'."
+    },
+    {
+      "id": "dialogue_04522",
+      "target": "<on()><sp(20)>But if you surrender peacefully, I won't attack.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04523",
+      "target": "<on()><sp(20)>As long as you surrender peacefully, that is.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04524",
+      "target": "<on()><sp(20)>Gain... next time, I'll drag you back with me!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04525",
+      "target": "<on()><sp(20)>A transmission?\n...An order to retreat?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04526",
+      "target": "<on()><sp(20)>And it was only getting fun!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04527",
+      "target": "<on()><sp(20)>Guess I have no choice but to head back for now,\nbut we'll play again sometime.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04528",
+      "target": "<on()><sp(20)>That was pretty fun!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04529",
+      "target": "<on()><sp(20)>Thanks to your hard fighting, we were able to handle it fast.",
+      "status": "meaning_reviewed",
+      "notes": "Row has no <ab()>/<ed()> at all, matching the source; this begins a post-mission talk block that runs through row 4541."
+    },
+    {
+      "id": "dialogue_04530",
+      "target": "<on()><sp(20)>But there's no time to rest.\nWord has come in that the <book(48)>Shin Dragon<endbook()>\nhas resumed activity.",
+      "status": "meaning_reviewed",
+      "notes": "Shin Dragon = locked inherited term (mission_terms_019.json)."
+    },
+    {
+      "id": "dialogue_04531",
+      "target": "<on()><sp(20)>I knew it. So it's really here...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04532",
+      "target": "<on()><sp(20)>I wish I could let everyone rest, but...\nI'm sorry.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04533",
+      "target": "<on()><sp(20)>There's no need to rest.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04534",
+      "target": "<on()><sp(20)>All right, let's head for New York.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04535",
+      "target": "<on()><sp(20)><color(4)>Gainer<ce()>...\nWas that enemy a friend of yours?",
+      "status": "meaning_reviewed",
+      "notes": "Speaker addressing Gainer is not named or gendered in these rows; kept neutral."
+    },
+    {
+      "id": "dialogue_04536",
+      "target": "<on()><sp(20)>I don't even know her face.\nWe've only talked a handful of times,\nbut she seemed interested in me.",
+      "status": "meaning_reviewed",
+      "notes": "'She' used for Cynthia Lane, whose gender is already locked female in character_names_021.json; not inferred from name."
+    },
+    {
+      "id": "dialogue_04537",
+      "target": "<on()><sp(20)>She was a good rival in the game too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04538",
+      "target": "<on()><sp(20)>What bothered me was that\nshe seemed to relish the fight itself,\nlike it was nothing but a game to her...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04539",
+      "target": "<on()><sp(20)>A real battle isn't a game.\nI have to make her understand it's not play.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04540",
+      "target": "<on()><sp(20)><color(4)>Gainer<ce()>...\nIf she's with the <book(56)>Siberian Railway<endbook()>,\nyou'll probably get to see her again, won't you?",
+      "status": "meaning_reviewed",
+      "notes": "Siberian Railway used for the book-link target per terms_028.json (nickname Shibe-tetsu also renders as full 'Siberian Railway', not the withdrawn 'Sibe-Rail' coinage)."
+    },
+    {
+      "id": "dialogue_04541",
+      "target": "<on()><sp(20)>Yeah.\nI can't let her stay somewhere like a battlefield.\nI'll definitely convince her myself.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_04500",
+      "note": "'malice has arrived' (jaki ga kita ka) translated literally; researched and found no special in-show meaning, ability name, or character epithet using this term in Overman King Gainer sources. Speaker and referent are not identifiable from surrounding context."
+    },
+    {
+      "id": "dialogue_04489",
+      "note": "Compressed source phrase ('battle with King and a real Overman') interpreted as marveling at facing King Gainer as a genuine Overman; meaning kept close to source without inventing additional detail."
+    },
+    {
+      "id": "dialogue_04497",
+      "note": "Wordplay on the source's double meaning of 'sweet/naive' approximated as 'soft...too soft! Sweeter than chocolate!' to preserve the pun rather than translating literally."
+    },
+    {
+      "ids": [
+        "dialogue_04535",
+        "dialogue_04536",
+        "dialogue_04537",
+        "dialogue_04538",
+        "dialogue_04539",
+        "dialogue_04540",
+        "dialogue_04541"
+      ],
+      "note": "Gainer's interlocutor in this post-mission talk is not named or gendered in these rows; kept neutral throughout. 'She' is used only for Cynthia Lane, whose gender is already locked in the project glossary."
+    },
+    {
+      "ids": [
+        "dialogue_04498",
+        "dialogue_04504",
+        "dialogue_04506"
+      ],
+      "note": "'invader' kept lowercase as an ad hoc taunt about the Dominator's flying-saucer shape, not a named enemy faction; same treatment as the parallel occurrence in batch_04398 (row 4457)."
+    },
+    {
+      "id": "dialogue_04521",
+      "note": "Kids Munt (Siberian Railway president) identified via web search of King Gainer character/plot summaries, not yet in the project's own glossary files; recommend adding to character_names_021.json centrally rather than proposing here since no dedicated wiki page with sourced gender/personality was found in this pass."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently reviewed for meaning against the Japanese source (rows 4463-4556 read for context); 3 meaning fixes applied (capitalized Invader in 4498, 4504, 4506, matching the established Domepolis/Invader encyclopedia terms); all 64 rows in slice set to meaning_reviewed, none left at draft.",
+    "fit": "Full meaning retained without display-fit shortening; all rows are short combat/dialogue lines well under the 110-character visible-text budget.",
+    "controls": "All original angle-bracket commands preserved in source order for every row, including the <ab(10000)> placed before the text in row 4521, and rows 4529-4541 which have no <ab()>/<ed()> at all in the source (post-mission talk block)."
+  }
+}

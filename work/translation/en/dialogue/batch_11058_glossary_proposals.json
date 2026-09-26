@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "Rara",
+    "en": "Lalah Sune",
+    "source": "https://gundam.fandom.com/wiki/Lalah_Sune",
+    "why": "Named in dialogue_11118 ('Remember well the agony you felt when Lalah died!'), spoken by Char to Amuro about the Newtype Lalah Sune, who died in the original Mobile Suit Gundam and whose death defines Char and Amuro's rivalry in Char's Counterattack. No existing entry in any project glossary file (character_names_021.json, glossary.json, encyclopedia_022.json); the Gundam Wiki page-title spelling 'Lalah Sune' is proposed per the project's wiki-wins convention. Only the given name 'Lalah' appears in this row's dialogue text."
+  },
+  {
+    "term_romaji": "shukusei",
+    "en": "purge",
+    "source": null,
+    "why": "In dialogue_11109 Char declares he means to shukusei (\"cleanse/purge/purify\") humanity's punishers-of-punishers logic; rendered 'purge' to keep the ideological, non-literal-execution register rather than a plain 'punish' or 'kill'. Not a proper noun, flagged only so a consistent English verb is picked if this speech recurs elsewhere in the corpus."
+  }
+]

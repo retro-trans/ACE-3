@@ -1,0 +1,72 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 7846,
+  "slice_count": 80,
+  "rows_examined": [{"start": 7831, "end": 7940}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_07911",
+      "before": "That guy... why is he after me?",
+      "after": "That one... why are they after me?",
+      "reason": "Source uses aitsu, not kare, for the pursuer; per ruling, 'he' is licensed only where the source itself uses kare (dialogue_07921), so the gender was not the translator's to supply here."
+    },
+    {
+      "id": "dialogue_07912",
+      "before": "Barrel, don't engage him...",
+      "after": "Barrel, don't engage them...",
+      "reason": "Source (aite ni shite wa dame) has no pronoun at all for the pursuer; 'him' invented a gender the source withholds."
+    },
+    {
+      "id": "dialogue_07913",
+      "before": "...Who is he, anyway.\\nWhy does he have the same reason I do.",
+      "after": "...Who is that one, anyway.\\nWhy do they have the same reason I do.",
+      "reason": "Source uses aitsu twice, not kare; same unnamed-pursuer ruling as dialogue_07911."
+    },
+    {
+      "id": "dialogue_07918",
+      "before": "That guy... why is he after me?",
+      "after": "That one... why are they after me?",
+      "reason": "Duplicate of dialogue_07911's line; source again uses aitsu, not kare."
+    },
+    {
+      "id": "dialogue_07919",
+      "before": "The same... is he even human?",
+      "after": "The same... are they even human?",
+      "reason": "Source (onaji...ningen na no ka) has no pronoun at all; 'he' invented a gender not licensed by the surrounding aitsu/kare pattern."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [7865], "finding": "hannou-chi rendered as 'reaction level' per orchestrator ruling that the term is acceptable; kept."},
+    {"rows": [7906], "finding": "aitsu ('he won't come') is Berkt, identified via the immediately preceding row (Berkt might still come) and confirmed male in character_names_021.json/glossary.json; a named-character inference, not the unnamed-pursuer ambiguity, so 'he' stands."},
+    {"rows": [7921], "finding": "Source explicitly uses kare ('Barrel, you're not like him'); this is the one row in the exchange where the ruling licenses 'he/him', left unchanged."},
+    {"rows": [7846, 7847, 7848, 7849, 7851, 7852, 7853, 7854, 7855, 7856, 7857, 7858, 7859, 7860], "finding": "Interference/reinforcement briefing lines checked against source line by line; no reversed meaning, no invented subjects."},
+    {"rows": [7861, 7862, 7863, 7864], "finding": "Ryoma/Saotome confrontation preserved; 'our goal' at 7862 is a natural possessive fill for source's unmarked mokuteki given a teammate is reining Ryoma in, not an invented identity (flagged in uncertainties below)."},
+    {"rows": [7868, 7869, 7870, 7871, 7872, 7873, 7874, 7875, 7876, 7877, 7878, 7879, 7880, 7881, 7882, 7883, 7884, 7885, 7886], "finding": "Renton/Eureka(?)/Barrel emotional exchange about the war and protecting Eureka checked line by line against source; addressee and subject (Renton told to protect Eureka, Barrel told to fight) preserved correctly, no reversal."},
+    {"rows": [7887, 7888, 7889, 7890, 7891, 7892, 7893, 7894, 7895, 7896, 7897, 7898, 7899, 7900, 7901, 7902], "finding": "Saotome's voice from Shin Dragon calling Go as its core: subject/addressee (Go) and the 'key/core' claim preserved without invented information; Go's refusal ('I won't do as you wish') matches source's ambiguous-subject line reasonably."},
+    {"rows": [7903, 7904, 7905, 7906, 7907, 7908, 7909, 7910], "finding": "Post-battle exchange about Berkt not coming and unit tuning checked; no meaning drift."},
+    {"rows": [7914, 7915, 7916, 7917, 7920, 7922, 7923, 7924, 7925], "finding": "Remaining Barrel/pursuer and Tower-distress lines checked; no further invented subjects or reversed meaning found."}
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_07850",
+      "issue": "Speaker of 'We'd better do something before Shin Dragon gets away' is not identified by adjacent context in this table-order slice; translation itself does not invent an identity, so left as meaning_reviewed, but the speaker remains unconfirmed."
+    },
+    {
+      "id": "dialogue_07862",
+      "issue": "'Ryoma, you know our goal, don't you!' fills source's unmarked mokuteki with 'our'; read as the shared mission objective given a teammate is reining Ryoma in from personal revenge against Saotome. Plausible but not certain -- could also be 'your goal' (Ryoma's personal aim). Not changed since it does not contradict the source, but flagging the call."
+    },
+    {
+      "ids": ["dialogue_07911", "dialogue_07912", "dialogue_07913", "dialogue_07918", "dialogue_07919"],
+      "issue": "Unnamed pursuer's identity is still not asserted (possibly Berkt or a doppelganger, per glossary.json's warning not to conflate Berkt with parallel-world identities); only the pronoun was corrected per the orchestrator's kare-only ruling, not the identity."
+    }
+  ],
+  "validation": {
+    "controls": "Every <...> command in each target re-verified against a fresh tools/dialogue_corpus.py slice(7846,80,--context 15) with a throwaway diff script (in order, none added/removed/reordered); script not committed.",
+    "format": "ASCII-only (fullwidth percent excepted) and no lowercase j/q outside locked names, re-checked by the same script; no literal CR/newline-character violations.",
+    "fit": "Visible text (tags stripped) <= 110 chars in every row; longest is 95 chars, unchanged from the draft's own count.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

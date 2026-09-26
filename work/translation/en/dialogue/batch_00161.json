@@ -1,0 +1,511 @@
+{
+  "slice_start": 161,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      146,
+      255
+    ]
+  ],
+  "rows": [
+    {
+      "id": "dialogue_00161",
+      "target": "<op()><sp(20)>Your unit slows down underwater. Please be careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Operator variant; no speaker identity inferred."
+    },
+    {
+      "id": "dialogue_00162",
+      "target": "<op()><sp(20)>Your unit slows down underwater. Be careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00163",
+      "target": "<op()><sp(20)>Your unit moves more slowly underwater.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00164",
+      "target": "<op()><sp(20)>Your unit slows down underwater, so be careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00165",
+      "target": "<op()><sp(20)>Warning: reduced speed underwater confirmed.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Mechanical register follows source katakana; speaker remains unidentified."
+    },
+    {
+      "id": "dialogue_00166",
+      "target": "<op()><sp(20)>Your unit slows down underwater. Please be careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00167",
+      "target": "<op()><sp(20)>Your unit slows down underwater. Take care.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00168",
+      "target": "<op()><sp(20)>Reduced unit speed underwater confirmed.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00169",
+      "target": "<op()><sp(20)>The target is in the direction where the beeps get faster.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Sonar context is explicit in row 174."
+    },
+    {
+      "id": "dialogue_00170",
+      "target": "<op()><sp(20)>The target lies in the direction where the beeps get faster.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00171",
+      "target": "<op()><sp(20)>The target is in the direction where the beeps get faster.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00172",
+      "target": "<op()><sp(20)>The target is in the direction where the beeps get faster.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00173",
+      "target": "<op()><sp(20)>The target is in the direction where the beeps get faster.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00174",
+      "target": "<op()><sp(20)>Target confirmed in the direction of increasing sonar ping rate.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source describes rising sonar sound interval; surrounding variants 169–177 consistently say sound gets faster. Interpreted as increasing ping rate, not longer pauses. Review this source inconsistency."
+    },
+    {
+      "id": "dialogue_00175",
+      "target": "<op()><sp(20)>The target is in the direction where the beeps get faster.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00176",
+      "target": "<op()><sp(20)>The target is in the direction where the beeps get faster.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00177",
+      "target": "<op()><sp(20)>Target confirmed in the direction where the beeps get faster.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00178",
+      "target": "<op()><sp(20)>An unexploded bomb?! Watch out!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00179",
+      "target": "<op()><sp(20)>An unexploded bomb! Be careful!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00180",
+      "target": "<op()><sp(20)>It's an unexploded bomb. Are you all right?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00181",
+      "target": "<op()><sp(20)>An unexploded bomb! Are you okay?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00182",
+      "target": "<op()><sp(20)>An unexploded bomb?! Hey, are you okay?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00183",
+      "target": "<op()><sp(20)>It's an unexploded bomb. Be careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00184",
+      "target": "<op()><sp(20)>Warning: unexploded bomb detected.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00185",
+      "target": "<op()><sp(20)>It's an unexploded bomb. Please be careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00186",
+      "target": "<op()><sp(20)>An unexploded bomb. Do be careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00187",
+      "target": "<op()><sp(20)>An unexploded bomb has been detected.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00188",
+      "target": "<on()><sp(20)>Hello, everyone aboard the Ra Cailum.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Ship spelling researched; see batch terminology proposals."
+    },
+    {
+      "id": "dialogue_00189",
+      "target": "<sp(20)>Dispatched by the United Space Forces,#c[FF0000]\n#cI'm Ruri Hoshino, captain of the Nadesico B.<ab(6000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Existing glossary fixes Ruri Hoshino. Organization English rendering provisional: see uncertainties and terminology proposals."
+    },
+    {
+      "id": "dialogue_00190",
+      "target": "<on()><sp(20)>I'm Bright Noa, captain of the Ra Cailum.#c[FF0000]\n#cPlease take command of this operation.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Names agree with glossary and researched ship spelling."
+    },
+    {
+      "id": "dialogue_00191",
+      "target": "<on()><sp(20)>Likewise. I look forward to working with you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply to Bright's introduction and request in row 190."
+    },
+    {
+      "id": "dialogue_00192",
+      "target": "<on()><sp(20)>The advance team is already moving on the base.#c[FF0000]\n#cWe can't fire the Gravity Blast recklessly.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Gravity Blast spelling supported by franchise reference."
+    },
+    {
+      "id": "dialogue_00193",
+      "target": "<sp(20)>Everyone not assigned to capture the base,\nplease escort this ship.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00194",
+      "target": "<sp(20)>We're in quite a bind and short on time, so I'm counting on you.<ab(3000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Situation and addressee established in rows 192–193."
+    },
+    {
+      "id": "dialogue_00195",
+      "target": "<op()><sp(20)>Enemy reinforcements confirmed.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00196",
+      "target": "<op()><sp(20)>Go ahead and intercept them, please.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Enemy reinforcements in preceding row."
+    },
+    {
+      "id": "dialogue_00197",
+      "target": "<sp(20)>The Nadesico can't handle this alone.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00198",
+      "target": "<sp(20)>Please provide support.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00199",
+      "target": "<op()><sp(20)>Damage to the Nadesico B is increasing.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00200",
+      "target": "<op()><sp(20)>Damage to the engine section is increasing. This is dangerous...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00201",
+      "target": "<op()><sp(20)>Damage to the Nadesico has passed the critical threshold.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00202",
+      "target": "<on()><sp(20)>Enemy lines successfully breached.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject left implicit as in source."
+    },
+    {
+      "id": "dialogue_00203",
+      "target": "<on()><sp(20)>Shuttle launch confirmed!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00204",
+      "target": "<on()><sp(20)>It seems we didn't make it in time.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "The failed shared operation is established in rows 203–207."
+    },
+    {
+      "id": "dialogue_00205",
+      "target": "<on()><sp(20)>Not only has it fallen into Giganos hands,\nbut it's been sent into space...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Object remains 'it'; no identity or gender invented."
+    },
+    {
+      "id": "dialogue_00206",
+      "target": "<on()><sp(20)>It's unfortunate, but there's nothing we can do.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00207",
+      "target": "<sp(20)>All units, let's begin our withdrawal.<ab(3000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00208",
+      "target": "<op()><sp(20)>The Nadesico B has been hit.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00209",
+      "target": "<op()><sp(20)>Enemy approaching. Prepare to intercept.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00210",
+      "target": "<op()><sp(20)>Almost through the enemy lines.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00211",
+      "target": "<op()><sp(20)>Hurry and take them out! I'm counting on you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00212",
+      "target": "<op()><sp(20)>Most of our forces have gone to capture the base.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Operator variants 212–221 followed by escort order variants 222–230."
+    },
+    {
+      "id": "dialogue_00213",
+      "target": "<op()><sp(20)>Our forces are tied up capturing the base.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00214",
+      "target": "<op()><sp(20)>Most of our forces are heading to capture the base.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00215",
+      "target": "<op()><sp(20)>Most allied forces have gone to capture the base.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00216",
+      "target": "<op()><sp(20)>Almost everyone has gone to capture the base.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00217",
+      "target": "<op()><sp(20)>Most allied forces are engaged in the base capture operation.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00218",
+      "target": "<op()><sp(20)>Eighty percent of our forces are engaged in the base capture operation.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Exact source percentage retained."
+    },
+    {
+      "id": "dialogue_00219",
+      "target": "<op()><sp(20)>Most of our forces are engaged in the base capture operation.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00220",
+      "target": "<op()><sp(20)>The vast majority of our forces have gone to capture the base.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00221",
+      "target": "<op()><sp(20)>The base capture operation is currently underway.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00222",
+      "target": "<sp(20)>You protect the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00223",
+      "target": "<sp(20)>I'm leaving the Nadesico B's escort to you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00224",
+      "target": "<sp(20)>Please take responsibility for escorting the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00225",
+      "target": "<sp(20)>Your job is to protect the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00226",
+      "target": "<sp(20)>Make sure you protect the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00227",
+      "target": "<sp(20)>Escort the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Mechanical command variant."
+    },
+    {
+      "id": "dialogue_00228",
+      "target": "<sp(20)>Please escort the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00229",
+      "target": "<sp(20)>Please protect the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00230",
+      "target": "<sp(20)>Please escort the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00231",
+      "target": "<op()><sp(20)>There are enemies farther away, too.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Escort context: rows 241–250 explicitly order dealing with distant enemies, not only staying near ship."
+    },
+    {
+      "id": "dialogue_00232",
+      "target": "<op()><sp(20)>Enemy forces are also deployed at long range.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00233",
+      "target": "<op()><sp(20)>Being targeted from long range!<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Target of enemy aim omitted in source and preserved as implicit."
+    },
+    {
+      "id": "dialogue_00234",
+      "target": "<op()><sp(20)>There are enemies farther away, too.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00235",
+      "target": "<op()><sp(20)>There seem to be enemies farther away, too.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00236",
+      "target": "<op()><sp(20)>Also being targeted from long range.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Target of enemy aim remains implicit."
+    },
+    {
+      "id": "dialogue_00237",
+      "target": "<op()><sp(20)>Target confirmed at long range.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00238",
+      "target": "<op()><sp(20)>The enemy is also deployed at long range.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00239",
+      "target": "<op()><sp(20)>The enemy is taking aim from long range, too.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Object of aim remains implicit."
+    },
+    {
+      "id": "dialogue_00240",
+      "target": "<op()><sp(20)>Also taking artillery fire from long range.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Recipient of fire remains implicit."
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_00174",
+      "note": "Literal wording about sonar interval conflicts with every surrounding equivalent operator variant. Draft follows the established faster-beep direction and uses increasing ping rate. Gameplay verification recommended."
+    },
+    {
+      "id": "dialogue_00189",
+      "note": "United Space Forces is a transparent provisional translation. English Nadesico references often identify the broader organization as United Earth Armed Forces; exact space branch localization needs verification before final glossary normalization."
+    },
+    {
+      "ids": [
+        "dialogue_00233",
+        "dialogue_00236",
+        "dialogue_00240"
+      ],
+      "note": "Threat receiver is not explicit. Escort context concerns Nadesico, but translations intentionally do not invent ship/pilot subject."
+    }
+  ],
+  "independent_review": "review_00161.json"
+}

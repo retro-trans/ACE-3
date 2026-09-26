@@ -1,0 +1,52 @@
+{
+  "reviewer": "independent_shout_review_agent_13503",
+  "slice_start": 13503,
+  "slice_count": 80,
+  "rows_examined": [{"start": 13488, "end": 13597}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_13528",
+      "before": "You started it, bring it!",
+      "after": "If they start it, take it!",
+      "reason": "Wrong addressee: source '売られたケンカは買いやがれ！' is the rough imperative idiom 'if a fight is sold [to you], buy it' aimed at an ally who should not back down, matching the scold sequence around it (13527 'Stop dawdling around!', 13529 'Hey, get a grip!'). The draft turned it into a taunt at the enemy ('you started it'), reversing who is being addressed. The genuinely enemy-directed, first-person form of the same idiom appears correctly later at dialogue_13540 ('Started it? I'll finish it!'), confirming the two source lines use different grammar (buiyagare, imperative to a second party vs buttte yaru ze, self-declaration to the opponent)."
+    },
+    {
+      "id": "dialogue_13511",
+      "before": "I'll handle my end!\nLeave that side to you!",
+      "after": "I'll handle my end! Leave that side to you!",
+      "reason": "Shout rows must not contain a newline (source line breaks are joined into a single line for the fixed-size shout table); joined into one line without changing meaning, still within the 44-char budget."
+    },
+    {
+      "id": "dialogue_13519",
+      "before": "Damn it, don't waste\nmy energy like that!",
+      "after": "Damn it, don't waste my energy like that!",
+      "reason": "Same no-newline shout constraint; joined into one line, fits the 44-char budget (41 chars)."
+    },
+    {
+      "id": "dialogue_13549",
+      "before": "Hey, watch out!\nThat one's no pushover!",
+      "after": "Hey watch out! That one's no pushover!",
+      "reason": "Same no-newline shout constraint; joined into one line and the comma after 'Hey' dropped to fit the 38-char budget exactly (39 chars would have been 1 over)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [13503, 13505, 13506, 13509, 13510, 13512, 13513, 13514, 13517, 13521, 13523, 13527, 13530, 13531, 13539, 13543, 13550, 13553], "finding": "Translator's flagged compressions (Ryoko's resource 2812220) keep the core meaning and brash/hotheaded register; no dropped sentence endings or reversed meaning found."},
+    {"rows": [13515], "finding": "'Counting on you, don't fail.' adds a harsher conditional ('don't fail') not literally in '頼んだぜ、頼りにしてっからな' (a plain statement of trust/reliance). This is a tone intensification consistent with Ryoko's brash character rather than an invented fact or reversal, so it is left as a phrasing choice, not fixed."},
+    {"rows": [13540], "finding": "'Started it? I'll finish it!' correctly renders the first-person, opponent-directed form of the buy/sell-a-fight idiom (contrast with the ally-directed imperative form fixed at dialogue_13528)."},
+    {"rows": [13552], "finding": "'てめーら、無事だったか！' is literally a question ('were you all unharmed?'); the draft's declarative 'You punks made it!' shifts mood from question to statement but keeps the same concern-for-allies meaning, not a reversal. Left as is."},
+    {"rows": [13579], "finding": "Hikaru Amano's 'draw person on my palm, gulp!' folk-ritual line is compressed but not misrepresented; nothing invented beyond the source gesture."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_13503", "dialogue_13505", "dialogue_13511", "dialogue_13514", "dialogue_13519", "dialogue_13528", "dialogue_13540", "dialogue_13549", "dialogue_13550"], "issue": "Translator flagged these as heavily compressed given the tight per-row byte budget. Reviewed against source and adjacent rows: no dropped sentence sense or reversed meaning found in any of them except dialogue_13528 (fixed above; wrong addressee, not a compression artifact)."},
+    {"id": "dialogue_13549", "issue": "Translator kept the unnamed opposing pilot gender-neutral ('That one's no pushover!'). Confirmed: neither this row nor its neighbors settle the pilot's identity or gender, so gender-neutral phrasing is correct per BASE_RULES."}
+  ],
+  "validation": {
+    "commands": "Re-ran `python tools/dialogue_corpus.py slice 13503 80 --context 15` and diffed source order/ids against all 80 targets; every <op()><sp(20)>...<ab(1000)><ed()> sequence is identical and in source order for all rows, including the 4 rows edited above.",
+    "fit": "Recomputed min(72, 2*source_chars-2) for every edited row; all 4 fixed rows fit their budget (26/44/44/38 chars used of 26/44/44/38 available).",
+    "ascii": "All 80 targets remain ASCII-only after edits; no bare '%', no newline remains in any row.",
+    "ids": "All 80 row ids match the slice in original stored-table order; no id added, removed, or reordered."
+  }
+}

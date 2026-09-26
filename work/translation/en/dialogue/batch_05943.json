@@ -1,0 +1,564 @@
+{
+ "slice_start": 5943,
+ "slice_count": 80,
+ "rows_examined": [
+  [
+   5928,
+   6037
+  ]
+ ],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "uncertainties": [
+  {
+   "ids": [
+    "dialogue_05943",
+    "dialogue_05944",
+    "dialogue_05946",
+    "dialogue_05947"
+   ],
+   "note": "Self-deprecating admission of repeated defeats, reacted to with surprise in 5945, then resolved into 'Yassaba Jin cannot afford to lose today' (5947, third person). Read as Yassaba Jin's own boast/lament rather than someone else describing him, since he names himself in 5947; not stated as certain because no speaker tag exists."
+  },
+  {
+   "ids": [
+    "dialogue_05948",
+    "dialogue_05949",
+    "dialogue_05950",
+    "dialogue_05951",
+    "dialogue_05952",
+    "dialogue_05953"
+   ],
+   "note": "'Black Southern Cross' (5952) is Gain Bijou's locked nickname (character_names_021.json) and was already used the same way as an enemy epithet thrown at him in batch_04398.json ('Black Southern Cross! I'll bring your head back to Siberia...'). Read the same way here: Yassaba Jin (Siberian Railway) taunts an opponent implied to be Gain Bijou for using an Overman instead of sniping; the addressee is not named in-line, so no name was written into the visible text."
+  },
+  {
+   "ids": [
+    "dialogue_05955",
+    "dialogue_05956",
+    "dialogue_05957",
+    "dialogue_05958"
+   ],
+   "note": "Unnamed opponent recognized as familiar ('I remember you!'); no identity guessed. 5958's warning ('don't take the bait') is unattributed but plausibly a teammate of whoever is being taunted."
+  },
+  {
+   "id": "dialogue_05964",
+   "note": "'Isamu' matches the locked short form for Isamu Alva Dyson (sources.json); gender/identity already established in the glossary, not inferred here."
+  },
+  {
+   "ids": [
+    "dialogue_05978",
+    "dialogue_05979",
+    "dialogue_05980",
+    "dialogue_05981"
+   ],
+   "note": "Untimed post-battle conference rows (no <ab()>/<off()> in the source from 5978 through 6044, matching the pattern already documented for batch_02375.json). Speakers are not tagged; left unattributed."
+  },
+  {
+   "ids": [
+    "dialogue_05997",
+    "dialogue_06000",
+    "dialogue_06013"
+   ],
+   "note": "'スカブ知性体説' (book 71) has no existing corpus/glossary entry; rendered literally as 'Scub Sentience Theory' and proposed in the accompanying glossary_proposals file. 'Scub' itself (book 69) follows the already-locked 'Scub Coral' short form used in character_names_021.json (Dr. Bear's role text)."
+  },
+  {
+   "id": "dialogue_06013",
+   "note": "'クダンの限界' (book 77) researched via WebSearch: the Eureka Seven fandom wiki's own page title is 'Limit of Questions' (not a literal 'Kudan' rendering); used per the corpus rule that the wiki wins over a literal/corpus guess. Proposed in the glossary_proposals file since no prior project lock was found."
+  },
+  {
+   "id": "dialogue_06014",
+   "note": "Source breaks the term itself with an ellipsis (クダンの……限界？). Rendered as 'Limit of... Questions?' inside the same book(77) span to keep the dramatic pause while still reading as the locked-choice term; flagged as an imperfect fit for orchestrator review."
+  },
+  {
+   "id": "dialogue_05994",
+   "note": "アーキタイプ (book 67, 'Archetype') has no existing project glossary entry; it is the Eureka Seven franchise's own official English term (confirmed via WebSearch of eurekaseven.fandom.com/wiki/Archetype) and is proposed in the glossary_proposals file."
+  }
+ ],
+ "validation": {
+  "controls": "All angle-bracket/book/color commands checked against the source in order for every row; book/color spans wrap the same words as in Japanese wherever English word order allows a matching span, otherwise reordered around the corresponding name only (e.g. 'Dr. Bear' vs source's name-then-title order) without changing which words are tagged.",
+  "fit": "Longest row (06015) compressed to 107 visible characters (from a literal ~150) without dropping the end of the sentence; all others fit with room to spare.",
+  "ascii": "ASCII-only; no lowercase j/q outside the locked names Jamil/Jin/Jurgens/Bijou.",
+  "meaning_review": "Independent review of 80 rows against original ISO; 110 examined 5928-6037. No meaning fixes required; see review_05943.json."
+ },
+ "rows": [
+  {
+   "id": "dialogue_05943",
+   "target": "<sp(20)>Defeated again and again in battle after battle!<ab(300)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05944",
+   "target": "<sp(20)>Because of that, within the New Federation\nmy reputation keeps sinking lower!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05945",
+   "target": "<op()><sp(20)>Talking about your own disgrace like that!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05946",
+   "target": "<op()><sp(20)>Call it a last stand, if you like!<ab(800)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05947",
+   "target": "<sp(20)>Today, Yassaba Jin\ncannot afford to lose!!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05948",
+   "target": "<op()><sp(20)>Yassaba Jin!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05949",
+   "target": "<op()><sp(20)>Let's settle this! The beauty of a man's life\nlies in giving it everything he's got!!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05950",
+   "target": "<op()><sp(20)>You mean an all-out fight, no holding back!?<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05951",
+   "target": "<op()><sp(20)>You, once called a master sniper,\nnow reduced to using an Overman!<ab(200)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05952",
+   "target": "<sp(20)>The name Black Southern Cross will weep for shame!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05953",
+   "target": "<op()><sp(20)>What a rude accusation.\nI can still snipe well enough, you know?<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05954",
+   "target": "<op()><sp(20)>Like I caaare!!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05955",
+   "target": "<op()><sp(20)>I remember you!\nTime for my revenge!<ab(300)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05956",
+   "target": "<sp(20)>You think you can beat me\nwith some backwater machine like that!?<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05957",
+   "target": "<op()><sp(20)>What did you say!\nAre you mocking me!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05958",
+   "target": "<op()><sp(20)>Don't take the bait!!\nIgnore him, that's all!!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05959",
+   "target": "<sp(20)>This time for sure! I'll show you\nexactly how cool I can be!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05960",
+   "target": "<op()><sp(20)>Your luck's run out now that we've met!!<ab(500)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05961",
+   "target": "<op()><sp(20)>You already said that earlier!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05962",
+   "target": "<op()><sp(20)>WOOOAAAH!!\nAircraft are the enemy of the Siberian Railway!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05963",
+   "target": "<op()><sp(20)>What's that about? He's coming right at us!<ab(200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05964",
+   "target": "<op()><sp(20)>Don't mind him, Isamu!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05965",
+   "target": "<op()><sp(20)>You there, Gundam! Let's settle this!<ab(200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05966",
+   "target": "<op()><sp(20)>Great, another troublesome old man.<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05967",
+   "target": "<op()><sp(20)>Take him down fast, that's all.<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05968",
+   "target": "<op()><sp(20)>The strongest man in the world?\nThat's meeee!!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05969",
+   "target": "<op()><sp(20)>Nobody asked you that!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05970",
+   "target": "<op()><sp(20)>He's got it in for us for some weird reason!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05971",
+   "target": "<op()><sp(20)>Interesting.\nTurn the tables on him!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05972",
+   "target": "<op()><sp(20)>If we beat the boss, won't his underlings run off too?<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05973",
+   "target": "<op()><sp(20)>It's heading for the Nadesico!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05974",
+   "target": "<op()><sp(20)>We didn't make it in time...!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05975",
+   "target": "<on()><sp(20)>Your luck's run out now that we've met!!<ab(500)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05976",
+   "target": "<on()><sp(20)>This time for sure! I'll show you\nhow cool I can be!<ab(500)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05977",
+   "target": "<on()><sp(20)>There's no way I'm weak!<ab(500)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05978",
+   "target": "<on()><sp(20)>In the end, <color(5)>Berkt<ce()> never showed up, did he.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05979",
+   "target": "<on()><sp(20)>Still, the <book(2)>Baldora Charge<endbook()> is definitely\non the rise.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05980",
+   "target": "<on()><sp(20)>It's probably his subordinates who are on the move.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05981",
+   "target": "<on()><sp(20)>Sneaking around like that, damn it...!",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05982",
+   "target": "<on()><sp(20)>Does the <book(38)>New Federation<endbook()> know that <color(5)>Berkt<ce()>'s\ngoal is the world's destruction?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05983",
+   "target": "<on()><sp(20)>If that were true, they wouldn't leave\nsuch a dangerous man alone, would they?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05984",
+   "target": "<on()><sp(20)>Not even <book(40)>Bloodman<endbook()> probably knows\nwhat he's really trying to do.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05985",
+   "target": "<on()><sp(20)>Evil commander or not, he wouldn't make an executive\nout of someone trying to destroy his own world.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05986",
+   "target": "<on()><sp(20)>Why not simply rat him out?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05987",
+   "target": "<on()><sp(20)>Well, it'd be pointless.\nSomeone who'd actually listen to us\nwouldn't be an evil commander in the first place.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05988",
+   "target": "<on()><sp(20)><book(40)>Bloodman<endbook()> is desperate to secure\nthe <book(48)>Shin Dragon<endbook()>.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05989",
+   "target": "<on()><sp(20)>By putting in good results,\nhe's probably earning his trust.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05990",
+   "target": "<on()><sp(20)>So as long as he's an executive, he's free\nto use the <book(38)>New Federation<endbook()> however he likes.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05991",
+   "target": "<on()><sp(20)>Ahh, is <color(4)>Holland<ce()> around?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05992",
+   "target": "<on()><sp(20)>Whoa, huge!!",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05993",
+   "target": "<on()><sp(20)>Who are you!?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05994",
+   "target": "<on()><sp(20)>Dr. <color(4)>Bear<ce()> is the foremost expert in <book(67)>Archetype<endbook()> research.\nSome circumstances led him to\ncome aboard.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05995",
+   "target": "<on()><sp(20)>Speaking of Dr. <color(4)>Bear<ce()>,\nhe only ever researches what he likes,\nbut apparently turns out first-rate papers...",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05996",
+   "target": "<on()><sp(20)>What does that doctor want with us?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05997",
+   "target": "<on()><sp(20)>Let me get straight to the point:\nI believe the <book(69)>Scub<endbook()>\nare an intelligent life form.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05998",
+   "target": "<on()><sp(20)><book(69)>Scub<endbook()> - an intelligent species?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05999",
+   "target": "<on()><sp(20)><freezemouth(1)>...",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06000",
+   "target": "<on()><sp(20)>That's right. The <book(71)>Scub Sentience Theory<endbook()> is\nan unorthodox theory not yet proven scientifically.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06001",
+   "target": "<on()><sp(20)>But my research on the <book(67)>Archetype<endbook()>\nconvinced me that the <book(69)>Scub<endbook()> have intelligence.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06002",
+   "target": "<on()><sp(20)>What's the <book(67)>Archetype<endbook()>?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06003",
+   "target": "<on()><sp(20)><book(61)>Nirvash<endbook()> included -\nthey're the true bodies of <book(65)>LFO<endbook()>s.\nThese are excavated from ruins.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06004",
+   "target": "<on()><sp(20)>Recent research suggests the <book(67)>Archetype<endbook()>\nis something shaped by the <book(69)>Scub<endbook()>.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06005",
+   "target": "<on()><sp(20)>And this <book(67)>Archetype<endbook()>\nhas traits close to those of a humanoid creature, but...",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06006",
+   "target": "<on()><sp(20)>After examining <book(61)>Nirvash<endbook()>,\nI've come to understand one thing.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06007",
+   "target": "<on()><sp(20)>Understand what?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06008",
+   "target": "<on()><sp(20)><book(61)>Nirvash<endbook()> wants to fly.\nIn other words, I think it needs\na spec upgrade to match that change.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06009",
+   "target": "<on()><sp(20)><freezemouth(1)>.........",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06010",
+   "target": "<on()><sp(20)>Though I won't know the details\nuntil I dig into it a bit more.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06011",
+   "target": "<on()><sp(20)><color(4)>Holland<ce()>, I'd like to come along with you\nand look into the <book(69)>Scub<endbook()> and <book(61)>Nirvash<endbook()>.\nThat's fine, right?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06012",
+   "target": "<on()><sp(20)>Sure, you're welcome to.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06013",
+   "target": "<on()><sp(20)>Thanks.\nIf the <book(71)>Scub Sentience Theory<endbook()> is proven,\nthe <book(77)>Limit of Questions<endbook()> could eventually be proven too.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06014",
+   "target": "<on()><sp(20)><book(77)>Limit of... Questions<endbook()>?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06015",
+   "target": "<on()><sp(20)>Once a planet's limit for intelligent life\nis exceeded, not only the planet\nbut space itself is destroyed.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06016",
+   "target": "<on()><sp(20)>It's that kind of theory, from informational dynamics.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06017",
+   "target": "<on()><sp(20)>Um... so that means...?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06018",
+   "target": "<on()><sp(20)>The <book(69)>Scub<endbook()> are multiplying faster\nthan any organism on Earth can reproduce.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06019",
+   "target": "<on()><sp(20)>So if the <book(69)>Scub<endbook()> really are intelligent,\nat this rate the <book(77)>Limit of Questions<endbook()>\nwill happen?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06020",
+   "target": "<on()><sp(20)>That's right.\n<book(60)>Gekkostate<endbook()> is acting to prevent\nthe <book(77)>Limit of Questions<endbook()>.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06021",
+   "target": "<on()><sp(20)>By negotiating with the <book(72)>Coralians<endbook()>\nand working toward coexistence.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06022",
+   "target": "<on()><sp(20)>Is that even possible?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  }
+ ]
+}

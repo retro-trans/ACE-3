@@ -1,0 +1,476 @@
+{
+  "slice_start": 6763,
+  "slice_count": 70,
+  "rows_examined": [
+    [
+      6748,
+      6857
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 70,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_06763",
+        "dialogue_06767",
+        "dialogue_06771",
+        "dialogue_06772",
+        "dialogue_06780"
+      ],
+      "note": "Continuation of the same unnamed Berkt-unit pilot from the previous slice (see batch_06683.json uncertainty); pronoun \"her\" again rests on feminine speech particles, not a name."
+    },
+    {
+      "ids": [
+        "dialogue_06764",
+        "dialogue_06766",
+        "dialogue_06768",
+        "dialogue_06769"
+      ],
+      "note": "\"he/his\" in Barrel's musing refers to Berkt, who is named explicitly just before (06749-06758) and just after (06768); read as continuing that thread rather than the enemy pilot he was just fighting."
+    },
+    {
+      "id": "dialogue_06790",
+      "note": "This line addresses Akito by surname alone (\u30c6\u30f3\u30ab\u30ef) rather than by first name/full name as most of the scene does; kept as \"Tenkawa\" rather than normalized to \"Akito\" to preserve that shift, which may signal a colder or more formal speaker."
+    },
+    {
+      "id": "dialogue_06812",
+      "note": "\"Captain Hoshino\" assumes this is Ruri Hoshino (locked as Nadesico B/C captain); rank placed before the tagged surname to match the precedent in batch_01073 (\"Lieutenant Commander Hoshino\")."
+    },
+    {
+      "id": "dialogue_06814",
+      "note": "\"Gekko\" (\u6708\u5149\u53f7) is locked in meeting_terms_015.json, but that entry's cited source is the Eureka Seven wiki's Gekkostate ship, while this row is a Nadesico-side scene; flagging the source mismatch for the orchestrator even though the spelling itself is followed as locked."
+    },
+    {
+      "id": "dialogue_06810",
+      "note": "\"Yurika\" is used to match existing corpus usage (proposals_dialogue_00776.json), presumed to be Yurika Misumaru; not independently re-researched in this pass."
+    }
+  ],
+  "rows": [
+    {
+      "id": "dialogue_06763",
+      "target": "<op()><sp(20)>Barrel, don't engage...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same unnamed pilot as 06762; \"her\" carries the same uncertainty."
+    },
+    {
+      "id": "dialogue_06764",
+      "target": "<op()><sp(20)>...Who exactly is he.\nWhat's the reason he's the same as me?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"he\" refers to Berkt (locked male character) per the doppelganger thread continued in 06766/06768; not a guess from context alone - Berkt is explicitly named two rows later (06768) and earlier (06749-06758)."
+    },
+    {
+      "id": "dialogue_06765",
+      "target": "<op()><sp(20)>Barrel!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06766",
+      "target": "<op()><sp(20)>The same...? Is he even human?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"he\" continues the Berkt reference from 06764."
+    },
+    {
+      "id": "dialogue_06767",
+      "target": "<op()><sp(20)>I wouldn't know about that.\nNot that it matters anyway.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06768",
+      "target": "<op()><sp(20)>Barrel.\nYou're not like him.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"him\" = Berkt, confirmed by name in the surrounding exchange."
+    },
+    {
+      "id": "dialogue_06769",
+      "target": "<op()><sp(20)>But if I were in his shoes,\nand told to kill... wouldn't I hesitate?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "\"his\" continues the Berkt reference; Barrel questions whether he'd hesitate to kill in Berkt's position."
+    },
+    {
+      "id": "dialogue_06770",
+      "target": "<sp(20)>I honestly... don't really know.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06771",
+      "target": "<op()><sp(20)>That's enough.\nI don't want to hear soft-hearted talk like that.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same unnamed Berkt-unit pilot as 06756; impatient dismissal of Barrel's hesitation."
+    },
+    {
+      "id": "dialogue_06772",
+      "target": "<op()><sp(20)>What's wrong?\nIf you don't get serious, you'll die!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same unnamed pilot pressing the attack."
+    },
+    {
+      "id": "dialogue_06773",
+      "target": "<op()><sp(20)>New enemy ship confirmed!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06774",
+      "target": "<op()><sp(20)>Engage any enemies that get in the way.\nBut don't forget the target takes priority.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06775",
+      "target": "<sp(20)>But don't forget the target takes priority.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06776",
+      "target": "<op()><sp(20)>The target is gone.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06777",
+      "target": "<on()><sp(20)>Enemy ship, incoming!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06778",
+      "target": "<on()><sp(20)>Former Jovian soldiers.\nLay down your arms.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not tagged; presumed continuation of Tsukiomi's earlier appeal to former-Jovian troops (06686) given the parallel phrasing, but this is inferred from context, not confirmed by a speaker id."
+    },
+    {
+      "id": "dialogue_06779",
+      "target": "<on()><sp(20)>That one...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06780",
+      "target": "<on()><sp(20)>I'd like a turn to play too.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Same unnamed Berkt-unit pilot rejoining the fight; no name given in this scene."
+    },
+    {
+      "id": "dialogue_06781",
+      "target": "<on()><sp(20)>Tch...\nNot when I'm busy as hell!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06782",
+      "target": "<on()><sp(20)>Boson particle reaction spiking, aft port side!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06783",
+      "target": "<on()><sp(20)>Is that...?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06784",
+      "target": "<on()><sp(20)>!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06785",
+      "target": "<on()><sp(20)>...Guess there's no room\nto entertain an uninvited guest... huh.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "\"huh\" added only to render the trailing \u304b (a soft, resigned rhetorical tag) naturally; no new information supplied."
+    },
+    {
+      "id": "dialogue_06786",
+      "target": "<on()><sp(20)>The enemy's remaining forces are withdrawing.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06787",
+      "target": "<on()><sp(20)>...Akito Tenkawa.\nWhy don't you come with us.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06788",
+      "target": "<on()><sp(20)><color(4)>Akito<ce()>... thank you for the backup.",
+      "status": "meaning_reviewed",
+      "notes": "Honorific \u3055\u3093 after the color-tagged name dropped, as in prior batches (e.g. Lieutenant Commander Hoshino in batch_01073); no equivalent English suffix used project-wide."
+    },
+    {
+      "id": "dialogue_06789",
+      "target": "<on()><sp(20)>Would you let me talk to you for a moment?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06790",
+      "target": "<on()><sp(20)><color(4)>Tenkawa<ce()>.\nYou must have something to say.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker addresses Akito by surname alone (\u30c6\u30f3\u30ab\u30ef, not \u30a2\u30ad\u30c8/full name), unlike most of the scene; kept as \"Tenkawa\" to preserve that shift in address from the source rather than normalizing to \"Akito.\""
+    },
+    {
+      "id": "dialogue_06791",
+      "target": "<on()><sp(20)><color(4)>Ruri<ce()>... I...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06792",
+      "target": "<on()><sp(20)>Why...\nWhy didn't you tell me?\nThat you were alive.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06793",
+      "target": "<on()><sp(20)>...Because there was no need to tell you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06794",
+      "target": "<on()><sp(20)>Wha-!?\nYou bastard!\nAnd you call yourself <color(4)>Ruri<ce()>'s guardian!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06795",
+      "target": "<on()><sp(20)>How worried <color(4)>Ruri<ce()> was,\ndo you have any idea?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06796",
+      "target": "<on()><sp(20)><color(4)>Kaine<ce()>... please stop.",
+      "status": "meaning_reviewed",
+      "notes": "\"-san\" honorific dropped as elsewhere; Kaine Wakaba's locked short name used (character_names_021.json / glossary.json)."
+    },
+    {
+      "id": "dialogue_06797",
+      "target": "<on()><sp(20)>Ah... right...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06798",
+      "target": "<on()><sp(20)><color(4)>Ruri<ce()>...\nThe <color(4)>Akito Tenkawa<ce()> you all knew is dead.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06799",
+      "target": "<on()><sp(20)>That's you trying to sound cool.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06800",
+      "target": "<on()><sp(20)>It's not like that, <color(4)>Ruri<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06801",
+      "target": "<on()><sp(20)>Two years ago, the <book(29)>Martian Successors<endbook()> captured me,\nthey experimented on me and messed with my head.",
+      "status": "meaning_reviewed",
+      "notes": "\"experimented on me\" substitutes for \"test subject\" to avoid the lowercase j glyph; book(29) wraps the locked term Martian Successors as in source."
+    },
+    {
+      "id": "dialogue_06802",
+      "target": "<on()><sp(20)>That's when it started.\nWhen my emotions run high, my body simply glows.\nLike something out of a comic, right?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06803",
+      "target": "<on()><sp(20)>And on top of that, my senses...\nmy sense of taste especially, it's shot.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06804",
+      "target": "<on()><sp(20)>I can't even make you\nramen anymore...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06805",
+      "target": "<on()><sp(20)>Oh, <color(4)>Akito<ce()>... sorry!\nI... didn't mean to...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06806",
+      "target": "<on()><sp(20)>It's fine...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06807",
+      "target": "<on()><sp(20)><color(4)>Akito<ce()> was rescued by <book(31)>Nergal<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "book(31) wraps the locked company name Nergal, matching source span exactly."
+    },
+    {
+      "id": "dialogue_06808",
+      "target": "<on()><sp(20)>Since then, while still officially registered as dead,\nhe's kept pursuing the <book(29)>Martian Successors<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06809",
+      "target": "<on()><sp(20)><color(4)>Akito Tenkawa<ce()>.\nHave you decided to fight alongside us?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06810",
+      "target": "<on()><sp(20)>I... fight for <color(4)>Yurika<ce()>'s sake.\nThat's all there is to it.",
+      "status": "meaning_reviewed",
+      "notes": "\"Yurika\" matches existing corpus usage (proposals_dialogue_00776.json); presumed to be Yurika Misumaru, not independently reconfirmed here."
+    },
+    {
+      "id": "dialogue_06811",
+      "target": "<on()><sp(20)>......<color(4)>Akito<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06812",
+      "target": "<on()><sp(20)>Captain <color(4)>Hoshino<ce()>...\nSorry to interrupt,\nbut we need to hurry to Mars.",
+      "status": "meaning_reviewed",
+      "notes": "Rank placed before the color-tagged surname (\"Captain Hoshino\"), matching the established pattern for Lieutenant Commander Hoshino in batch_01073; assumes this Hoshino is Ruri Hoshino, now captain per her locked glossary role."
+    },
+    {
+      "id": "dialogue_06813",
+      "target": "<on()><sp(20)>You're right.\nLet's prepare for the <book(30)>Boson Jump<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "book(30) wraps the locked term Boson Jump."
+    },
+    {
+      "id": "dialogue_06814",
+      "target": "<on()><sp(20)>We'll deploy the Distortion Field\nto full spread, and the <color(4)>Gekko<ce()> will leap along with us.",
+      "status": "meaning_reviewed",
+      "notes": "\"Gekko\" is the locked spelling for \u6708\u5149\u53f7 (meeting_terms_015.json); note that file's cited source is the Eureka Seven wiki (Gekkostate's ship) even though this scene is Nadesico-side - flagged in case that lock was meant for a different craft/context."
+    },
+    {
+      "id": "dialogue_06815",
+      "target": "<on()><sp(20)>The moment we leap to Mars,\nwe'll begin the suppression operation.\nEveryone, thank you for your cooperation.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06816",
+      "target": "<on()><sp(20)><color(4)>Faye<ce()>...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06817",
+      "target": "<on()><sp(20)>What is it?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06818",
+      "target": "<on()><sp(20)>About earlier... sorry.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06819",
+      "target": "<on()><sp(20)>..........\nIf you really mean to apologize, I want to hear it.\nWhy did you suddenly do something like that?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06820",
+      "target": "<on()><sp(20)>...I simply couldn't help but think about it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06821",
+      "target": "<on()><sp(20)>About what?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06822",
+      "target": "<on()><sp(20)><color(5)>Berkt<ce()>, over on that other Earth...\nI wondered what kind of life he's lived.",
+      "status": "meaning_reviewed",
+      "notes": "color(5) reused for Berkt as in the immediately following rows (06823-06824), distinct from color(4) used for Ruri/Akito/Faye/Barrel elsewhere in this slice."
+    },
+    {
+      "id": "dialogue_06823",
+      "target": "<on()><sp(20)>If something had been different...\nEven only slightly different...\nMaybe I'd have become <color(5)>Berkt<ce()> instead.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06824",
+      "target": "<on()><sp(20)>Maybe <color(5)>Berkt<ce()>\nis actually me, I thought...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06825",
+      "target": "<on()><sp(20)>Once I started thinking that way, I simply\ncouldn't bring myself to fight anymore...\nSorry.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06826",
+      "target": "<on()><sp(20)>...I should be the one apologizing.\nI forced you aboard,\neven though you owed no duty to fight.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit the 110-character visible limit; full meaning (self-blame for forcing Barrel aboard, absolving him of any duty to fight) retained."
+    },
+    {
+      "id": "dialogue_06827",
+      "target": "<on()><sp(20)>......\n<color(4)>Barrel<ce()>.\nYou can step down now, if you want.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06828",
+      "target": "<on()><sp(20)>Huh...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06829",
+      "target": "<on()><sp(20)>Of course, staying is your choice too.\nBut it's for you to decide.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06830",
+      "target": "<on()><sp(20)>I... decide...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06831",
+      "target": "<on()><sp(20)>That's all I can do for you right now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06832",
+      "target": "<on()><sp(20)>Think it over...\nbefore the next battle ends.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently meaning-reviewed against source (tools/dialogue_corpus.py slice 6763 70, resource 6210, mission 18A 'Neo Zeon Fleet'/Nadesico scene). One fix applied: dialogue_06763 dropped an invented gendered pronoun for the same unnamed Berkt-unit pilot (her -> pronoun-free), matching the ruling applied to dialogue_06762 in batch_06683. All 70 rows now status meaning_reviewed; none left as draft.",
+    "fit": "All rows fit within the 110-character visible budget; 06826 was compressed to fit, full meaning retained.",
+    "controls": "Every angle-bracket command reproduced in the same order as the source for each row; no manual line-wrap added beyond the source's own \\n breaks; color()/book() spans wrap the same words the source tags wrapped."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 5614,
+  "slice_count": 80,
+  "rows_examined": [{"start": 5599, "end": 5708}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_05637",
+      "before": "No, it's that thief you mentioned.",
+      "after": "No, it's that notorious thief.",
+      "reason": "Source is '例のドロボウさんです' - 'rei no' marks 'that thief' as an already-established/well-known nickname, not a claim that Lt. Cmdr. Hoshino personally mentioned a thief to the speaker. 'you mentioned' invents a specific prior remark the source does not state (Hoshino's only preceding line is asking 'is that you?', not naming any thief)."
+    },
+    {
+      "id": "dialogue_05682",
+      "before": "The Martian Successors staged a shuttle explosion to kidnap Akito and Yurika...",
+      "after": "The Martian Successors faked a shuttle explosion, covering up the real kidnapping of Akito and Yurika...",
+      "reason": "Source '...爆破事故にみせかけた...誘拐事件' means the kidnapping was disguised AS a shuttle explosion accident (a cover story), not that the explosion was the method used to abduct them. This reading is confirmed two rows later at dialogue_05684, where Nergal similarly puts out a fake 'died in an accident' story to cover for Inez's survival - the same cover-up pattern. The old wording reversed cause and effect (explosion-as-method instead of explosion-as-cover-story)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [5636, 5672, 5686], "finding": "Rank conversions confirmed against glossary: 少佐 -> 'Lt. Cmdr.' for Ruri Hoshino (meeting_terms_015.json, naval equivalent since she commands the Nadesico) and 少尉 -> 'Ensign' for Barrel (terms_028.json). Both applied correctly."},
+    {"rows": [5646, 5647, 5648, 5649, 5650, 5651, 5652, 5653, 5654, 5655, 5656, 5657, 5658, 5659, 5660, 5661], "finding": "Face-reveal confrontation checked line by line against the untagged source. dialogue_05648 ('The same face... as mine?') uses the 僕 register established for Barrel earlier in the mission (e.g. dialogue_05617), so the confused reaction belongs to Barrel; dialogue_05654's わ particle plus dialogue_05655 naming Faye immediately after settles that the rescuer is Faye. No row asserts an identity beyond what these anchor points settle; lines without an anchor (dialogue_05649-05652, 05658-05661) are left unattributed in the translation exactly as the source leaves them."},
+    {"rows": [5679, 5680, 5681, 5682, 5683, 5684, 5685], "finding": "Speaker of the extended backstory is Inez (confirmed by the の/わ-style self-reference in dialogue_05684 and her self-introduction in dialogue_05680); the translation does not misattribute any of this explanation to another character."},
+    {"rows": [5682, 5683], "finding": "Kidnapping victims Akito and Yurika, and their abductor (the Martian Successors), match character_names_021.json's entry for the Martian Successors' assassination-unit leader ('abducted Akito and Yurika')."},
+    {"rows": [5685], "finding": "Tag order (Nergal, then Inez, then Boson Jump) reproduced in the same order as the source despite less natural English syntax, per the translator's own note; ruling upheld."},
+    {"rows": [5694, 5706, 5708], "finding": "Pronoun 'he' for the still-unnamed key-holder (Berkt) is supplied only where the surrounding rows in this slice and the next (dialogue_05706, dialogue_05710) settle the referent; no earlier row invents this before it is settled."}
+  ],
+  "uncertainties": [
+    {"rows": [5637], "issue": "Fixed in this review (see meaning_fixes): 'that thief' is confirmed as an existing/notorious nickname, not something Hoshino stated in this exchange; which earlier scene coined the nickname is still not attested in the reviewed corpus, so no specific origin is asserted."},
+    {"rows": [5640, 5641, 5642, 5643, 5644], "issue": "Translator's ruling that the unnamed ally speaking here is not Barrel is upheld; nothing in the row or its neighbours names this ally, and 'yatsu' (that one) at dialogue_05644 is correctly left as vague as the source, since it is not confirmed here whether it refers to Barrel or another Aestivalis pilot."},
+    {"rows": [5646, 5647, 5648, 5649, 5650, 5651, 5652, 5661], "issue": "Translator's caution on this untagged Berkt/Barrel exchange is upheld (see checked_decisions); reviewer agrees no line should assert more identity than dialogue_05648's 僕-register self-reference and dialogue_05654/05655's Faye anchor settle."},
+    {"rows": [5654, 5656, 5666, 5697, 5709, 5712], "issue": "Translator's note that female sentence-final particles mark these as spoken by a woman without inserting a name beyond what color()-tagged names elsewhere already establish is upheld."},
+    {"rows": [5663, 5664, 5665], "issue": "Translator's ruling that the 'long-lost brothers' joke and its apology come from an unnamed bystander, not a specific named crew member, is upheld; nothing in the surrounding rows names a speaker."},
+    {"rows": [5672], "issue": "Translator's 'Ensign Barrel' rank+name convention (terms_028.json, matching the batch_01073 'Lieutenant Commander Hoshino' precedent) is upheld."},
+    {"rows": [5685], "issue": "Translator's forced tag-order note is upheld (see checked_decisions)."}
+  ],
+  "validation": {
+    "controls": "Every source <...> command reproduced in the same order for all 80 rows, including the <on()>...<ab(10000)><off()> pattern for rows 05625-05661 and the untagged post-battle conference rows 05662-05693, verified against a fresh dialogue_corpus.py slice.",
+    "format": "Line-break (\\n) counts unchanged from source for every row, including the two meaning-fixed rows (dialogue_05637: 0 newlines kept at 0; dialogue_05682: 2 newlines kept at 2).",
+    "fit": "Visible text (tags removed) re-measured for every row, including both meaning fixes (dialogue_05637 well under limit; dialogue_05682 approx. 104 characters); longest row overall (dialogue_05685) remains under 110 characters.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

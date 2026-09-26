@@ -1,0 +1,113 @@
+{
+  "slice_start": 6476,
+  "slice_count": 73,
+  "rows_examined": [
+    [6461, 6563]
+  ],
+  "rows_examined_count": 103,
+  "rows_in_slice": 73,
+  "uncertainties": [
+    {
+      "ids": ["dialogue_06496"],
+      "note": "Source '連邦政府' (Federation government) is untagged, unlike the tagged book(9) Earth Federation and book(38) New Federation entity IDs seen elsewhere in the corpus. King Sakomizu's rant is in the Wings of Rean/Byston Well storyline, not the parallel Gundam UC (Amuro/Bright/Jamil) thread, so it may mean the ACE3-original New Federation rather than Earth Federation; left as plain 'Federation' rather than guessing which."
+    },
+    {
+      "ids": ["dialogue_06498"],
+      "note": "'地上人' (people of 地上界/Upper Earth) has no locked rendering in any glossary file; translated compositionally as 'Upper Earth's people' from the locked 'Upper Earth' (encyclopedia_021_a.json). Not asserted as a locked term - see glossary proposal."
+    },
+    {
+      "ids": ["dialogue_06507"],
+      "note": "Context before and after (King Sakomizu's death, Luxe's grief) does not settle what prompts 'The Nanajin doesn't carry the Wings of Rean.' or who is speaking to whom; translated literally without adding an implied reason."
+    },
+    {
+      "ids": ["dialogue_06528"],
+      "note": "Wordless exclamation; likely Harry given his established emotional personality and that the very next line addresses him directly, but this is an inference, not stated outright by the source."
+    },
+    {
+      "ids": ["dialogue_06538"],
+      "note": "'三者連合' (lit. 'three-party alliance/union') names a coalition of which Neo Zeon is only one member; the other two parties are not identified in this slice or its context window. No existing glossary term found. Rendered as 'Tripartite Alliance' and proposed for centralization - see batch_06476_glossary_proposals.json."
+    }
+  ],
+  "validation": {
+    "self_check": "All angle-bracket commands verified to match the source in the same order for every row (on/op, sp(20), ab(n), ed(), off(), color/ce, book/endbook where present), including the rows from dialogue_06520 onward that end with no ab()/ed() at all, matching the source exactly. No newline characters were added beyond those present in the source at matching clause breaks. Every id from dialogue_06476 to dialogue_06548 is present exactly once.",
+    "fit": "All rows fit within the 110-character visible-text budget after compressing dialogue_06540 (three source lines collapsed to two while keeping the core meaning - see notes on that row); no row was shortened at the cost of dropping meaning otherwise.",
+    "controls": "color(4)/color(5) spans verified against character_names_021.json/glossary.json (Luxe, Asap, Harry, Berkt) and repositioned around the corresponding English name only where the source wraps only part of a title (dialogue_06534: color(5) wraps only 'Sakomizu', not 'King'). book(2)/(12)/(13)/(21)/(30) spans cross-checked against encyclopedia_022.json's term-name table (table_id 3018) by text_id, confirming Baldora Charge, Neo Zeon, 5th Luna, Nadesico C and Boson Jump.",
+    "glyphs": "No lowercase j or q left outside locked terms/names (Boson Jump). 'judgment'/'adjustments' avoided (dialogue_06498, dialogue_06546) in favor of j-free synonyms; 'just' avoided throughout in favor of 'simply'/'only'/'usually'.",
+    "meaning_review": "Independently meaning-reviewed against the Japanese source (see review_06476.json). 72 of 73 rows needed no change; dialogue_06512 was reworded ('This should never have happened!' -> 'This cannot be allowed to happen!') because the source (あってはならないこと) is the speaker calling to stop an ongoing catastrophe, not lamenting one already finished. 'Tripartite Alliance' and 'Upper Earth's people' confirmed per orchestrator ruling. All rows set to meaning_reviewed; none left as draft."
+  },
+  "rows": [
+    {"id": "dialogue_06476", "target": "<sp(20)>In the end, you simply want things to go your way!<ab(500)>", "status": "meaning_reviewed", "notes": "Continues dialogue_06475 from batch_06396.json (no <op()>/<on()>, no <ed()> in source)."},
+    {"id": "dialogue_06477", "target": "<sp(20)>That's usually what people call invasion!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06478", "target": "<op()><sp(20)>I have nothing more to say to fools!<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06479", "target": "<op()><sp(20)>What could someone like you\npossibly understand about today's Earth!<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06480", "target": "<op()><sp(20)>What do you understand!?<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06481", "target": "<op()><sp(20)>I understand plenty! This Earth belongs to us,\nthe people living in the here and now!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06482", "target": "<op()><sp(20)>What could you people, consorting with aliens, possibly understand?<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06483", "target": "<op()><sp(20)>Ha! Just as I thought, you don't get it at all!\nWhat's good about today's Earth!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06484", "target": "<op()><sp(20)>So it's today's corrupt government\nthat's driven this world mad!?<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06485", "target": "<op()><sp(20)>I-it's a monster...<ab(300)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06486", "target": "<op()><sp(20)>It's grown huge...?\nIts attack range has gotten bigger, watch out!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06487", "target": "<op()><sp(20)>I sense a fierce Aura Power...!<ab(200)>", "status": "meaning_reviewed", "notes": "Aura Power locked per encyclopedia_022.json. Continues into dialogue_06488 (no <ed()> in source)."},
+    {"id": "dialogue_06488", "target": "<sp(20)>Watch out for the Aura Power\nbeing released from that giant sword!<ab(1000)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06489", "target": "<op()><sp(20)>The 5th Luna is closing in!<ab(300)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06490", "target": "<op()><sp(20)>What is that?<ab(300)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06491", "target": "<op()><sp(20)>A meteor is falling from space!<ab(300)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06492", "target": "<op()><sp(20)>That glow...\nIs that human hatred turned into Aura...?<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06493", "target": "<op()><sp(20)>Why is this happening!<ab(100)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06494", "target": "<op()><sp(20)>It's what evildoers do!<ab(100)>", "status": "meaning_reviewed", "notes": "Continues into dialogue_06495 (no <ed()> in source)."},
+    {"id": "dialogue_06495", "target": "<sp(20)>And you're helping them do it!<ab(300)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06496", "target": "<op()><sp(20)>I only wish to overthrow the Federation defiling the Earth,\nand guide people toward the right path!<ab(300)>", "status": "meaning_reviewed", "notes": "'government' dropped from 'Federation government' to fit the length budget; see uncertainties on which Federation is meant. Continues into dialogue_06497 (no <ed()> in source)."},
+    {"id": "dialogue_06497", "target": "<sp(20)>For that, I wield my power\nwith the Wings of Rean!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06498", "target": "<on()><sp(20)>With the will of the Wings of Rean,\nI bring down the iron hammer on Upper Earth's people!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "'iron hammer' (tettsui wo furuu, lit. 'wield the iron mallet') avoids the lowercase j in 'judgment'; see uncertainties on 'Upper Earth's people'."},
+    {"id": "dialogue_06499", "target": "<on()><sp(20)>Therefore, nothing can stop me!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06500", "target": "<on()><sp(20)>Raaaaargh!!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "Wordless battle roar rendered phonetically in ASCII."},
+    {"id": "dialogue_06501", "target": "<on()><sp(20)>Father has... gone berserk!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06502", "target": "<on()><sp(20)>I won't let you defile Upper Earth any further!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06503", "target": "<on()><sp(20)>If the Wings of Rean belong to a Holy Warrior,\nthen protect my resolve!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "Holy Warrior matches King Sakomizu's sourced role in character_names_021.json."},
+    {"id": "dialogue_06504", "target": "<on()><sp(20)>King Sakomizu...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06505", "target": "<on()><sp(20)>Father...\nyou protected Upper Earth, your homeland, didn't you?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "Upper Earth locked per encyclopedia_021_a.json for chijoukai."},
+    {"id": "dialogue_06506", "target": "<on()><sp(20)>Father!?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06507", "target": "<on()><sp(20)>The Nanajin doesn't carry the Wings of Rean.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "Nanajin locked unit name per unit_names_014_a.json. See uncertainties."},
+    {"id": "dialogue_06508", "target": "<op()><sp(20)>Power is something wielded to build the future!<ab(300)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06509", "target": "<op()><sp(20)>Destroying Upper Earth, of all things!<ab(300)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06510", "target": "<op()><sp(20)>That's what it's come to as a result!\nAt this rate, the surface will be doomed!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06511", "target": "<op()><sp(20)>What a foolish thing!<ab(200)>", "status": "meaning_reviewed", "notes": "Continues into dialogue_06512 (no <ed()> in source)."},
+    {"id": "dialogue_06512", "target": "<sp(20)>This cannot be allowed to happen!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06513", "target": "<op()><sp(20)>Base secured!<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06514", "target": "<op()><sp(20)>Damn it!\nAn ally's been taken down...!<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06515", "target": "<op()><sp(20)>Send out additional reinforcements!<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06516", "target": "<op()><sp(20)>Base recaptured!<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06517", "target": "<op()><sp(20)>With the unmanned units down,\nthis is going to get pretty rough.<ab(1200)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06518", "target": "<op()><sp(20)>This is bad if it keeps up...<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06519", "target": "<op()><sp(20)>If we don't retake it, things could get rough.<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06520", "target": "<on()><sp(20)><color(4)>Luxe<ce()>... are you all right?", "status": "meaning_reviewed", "notes": "Luxe = Luxe Sakomizu per character_names_021.json (researched, female). No ab()/ed() in source from here through dialogue_06548."},
+    {"id": "dialogue_06521", "target": "<on()><sp(20)>Yes.\nBut I don't know what to do from now on...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06522", "target": "<on()><sp(20)>Then come with us.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06523", "target": "<on()><sp(20)>But...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06524", "target": "<on()><sp(20)>The crisis isn't over.\nWe'd like your continued cooperation going forward.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06525", "target": "<on()><sp(20)>...In that case,\nfor the trouble my father caused,\nplease let me make amends.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06526", "target": "<on()><sp(20)>All right, it's settled! <color(4)>Asap<ce()>,\nmake sure you protect <color(4)>Luxe<ce()> properly.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06527", "target": "<on()><sp(20)>Understood!\nThank you very much!", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06528", "target": "<on()><sp(20)>Aaaaaaahhh!", "status": "meaning_reviewed", "notes": "See uncertainties (likely Harry, not asserted)."},
+    {"id": "dialogue_06529", "target": "<on()><sp(20)><color(4)>Harry<ce()>.\nDon't make a scene.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06530", "target": "<on()><sp(20)>S-sorry! Captain!\nBut... the <book(2)>Baldora Charge<endbook()> is\nspiking sharply!", "status": "meaning_reviewed", "notes": "Baldora Charge confirmed against encyclopedia_022.json's term-name table (table_id 3018, text_id 2), matching the source's book(2) tag exactly."},
+    {"id": "dialogue_06531", "target": "<on()><sp(20)>What!?\nThen <color(5)>Berkt<ce()> is...!", "status": "meaning_reviewed", "notes": "Berkt locked per glossary.json (char.berkt)."},
+    {"id": "dialogue_06532", "target": "<on()><sp(20)>He's been moving in the shadows...!?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06533", "target": "<on()><sp(20)>Could this huge spike mean...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06534", "target": "<on()><sp(20)>That Aura Power King <color(5)>Sakomizu<ce()> unleashed\nthe moment he perished...", "status": "meaning_reviewed", "notes": "Source's color(5) tag wraps only the surname (not 'King'); reordered to English 'King Sakomizu' word order with the tag kept on the name only."},
+    {"id": "dialogue_06535", "target": "<on()><sp(20)>We fell right into their trap...!", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06536", "target": "<on()><sp(20)>There's not a moment to lose now.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06537", "target": "<on()><sp(20)>We now know\nthey've been active nearby.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06538", "target": "<on()><sp(20)>But right now, our top priority\nis the <book(12)>Neo Zeon<endbook()> and the others in the <color(5)>Tripartite Alliance<ce()>.", "status": "meaning_reviewed", "notes": "See uncertainties and glossary proposal for 'Tripartite Alliance' (three-zya rengou)."},
+    {"id": "dialogue_06539", "target": "<on()><sp(20)>In the end, we did manage to stop the <book(13)>5th Luna<endbook()>.\nBut their operation\nisn't over with this.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06540", "target": "<on()><sp(20)>They're already planning their next move.\nHolding the <book(30)>Boson Jump<endbook()> keeps us on their leash regardless.", "status": "meaning_reviewed", "notes": "Compressed from a more literal three-line rendering to fit the length budget while keeping the core meaning (they control the party as long as they hold the Boson Jump); no ab()/ed() in source, matching the surrounding rows."},
+    {"id": "dialogue_06541", "target": "<on()><sp(20)>If we can only take that away,\nI think we can focus on <color(5)>Berkt<ce()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06542", "target": "<on()><sp(20)>Agreed.\nFirst, we deal with the <book(30)>Boson Jump<endbook()> threat\nbefore anything else.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06543", "target": "<on()><sp(20)>With that, we'll begin preparations\nfor the Mars assault operation.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06544", "target": "<on()><sp(20)>So we're going after the enemy's source.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06545", "target": "<on()><sp(20)>Yes.\nBut before that...\nwe'll head to the Moon to prepare.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06546", "target": "<on()><sp(20)><book(21)>Nadesico C<endbook()>'s final tuning,\nreceiving the new unit...\nthere's a lot to take care of.", "status": "meaning_reviewed", "notes": "Nadesico C locked via book(21)/encyclopedia_022.json. 'tuning' avoids the lowercase j in 'adjustments'."},
+    {"id": "dialogue_06547", "target": "<on()><sp(20)>Sounds like you'll be pretty busy, huh?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_06548", "target": "<on()><sp(20)>Yes.\nLet's settle this once and for all.", "status": "meaning_reviewed", "notes": ""}
+  ]
+}

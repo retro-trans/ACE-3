@@ -1,0 +1,41 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 9035,
+  "slice_count": 80,
+  "rows_examined": [{"start": 9020, "end": 9129}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_09107",
+      "before": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()> wasn't just a device for leaping -\nit was a door that connects worlds.",
+      "after": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()> wasn't only a device for leaping -\nit was a door that connects worlds.",
+      "reason": "\"just\" contains the font's unsupported lowercase j (see BASE_RULES/technical-pitfalls constraint); reworded to \"only\", same meaning as the source's \"not merely a leap device\"."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [9050, 9051, 9061, 9062, 9064], "finding": "Antagonist (unnamed within batch_08955) confirmed here as Dr. Saotome: addressed as \"Doctor\" at 9051 and 9062, dies at 9064 inside Shin Dragon. Consistent with the cross-slice inference made in batch_08955; no change needed."},
+    {"rows": [9053], "finding": "Michiru (Michiru Saotome) short form accepted per orchestrator ruling from the Getter Robo wiki; full form correctly used at first narration mention, row 9083."},
+    {"rows": [9088], "finding": "\"Baldora Charge\" (new term, linked via book(2)) accepted per orchestrator ruling as a locked-adjacent term formed by analogy with \"Baldora Drive\"/\"Baldora particles\"; no change needed."},
+    {"rows": [9070, 9079], "finding": "\"Baldora Drive\" appears without the <book(1)> tag in the source at these two rows, unlike the surrounding rows (9088, 9105-9112). Target correctly preserves the untagged form rather than normalizing it; command set matches source exactly."},
+    {"rows": [9095, 9104, 9111, 9112], "finding": "\"New Federation\", \"Jill Bardona\", and \"Baldora Drive\" spellings match terms_028.json/glossary.json; no change needed."},
+    {"rows": [9080, 9082], "finding": "Source rows lack <ab()>/<off()> from dialogue_09080 onward (narration/recap block begins at 9082); target correctly omits these commands rather than adding them, matching source exactly."}
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_09073",
+      "issue": "Berkt says \"...Faye?\" immediately after losing (9072-9074), echoing Barrel's relationship to Faye. Kept literal rather than interpreting this as Berkt having his own Faye counterpart, since the reveal later in this same slice (9104-9114) instead centers on Jill Bardona as Berkt's father, killed by Berkt. This reading is plausible but not textually settled within the slice; flagging per BASE_RULES even though the row itself is not wrong."
+    },
+    {
+      "id": "dialogue_09004_carryover",
+      "issue": "This slice's Saotome exposition (9052-9053, referencing the Ageha Plan and the Invaders) depends on the \"kudan no genkai\"/\"Limit of Questions\" ruling applied to dialogue_09004 in batch_08955.json; noted here for continuity, no separate action needed in this slice."
+    }
+  ],
+  "validation": {
+    "controls": "Re-ran `python tools/dialogue_corpus.py slice 9035 80 --context 15` and diffed every <...> command (including on/off/sp/ab/color/book pairs, and rows lacking ab/off from 9080-9082 onward) against each row's target in source order; all 80 rows match exactly, including the one row touched by the meaning fix (only visible text changed).",
+    "format": "No raw newline characters introduced; \\n line-break markers match the source's line breaks in every row that keeps one.",
+    "fit": "All 80 rows measured at or under 110 visible (tag-stripped) characters; the two rows the translator already compressed (dialogue_09083, dialogue_09112) remain within budget and were not further altered.",
+    "ascii": "All targets ASCII-only except the fullwidth ％ (none occurs in this slice). Scanned all 80 targets for lowercase j/q outside locked names; found and fixed dialogue_09107 (\"just\"). No other occurrences."
+  }
+}

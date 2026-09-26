@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "Ichinen Sensou",
+    "en": "One Year War",
+    "source": "https://en.wikipedia.org/wiki/One_Year_War ; already used in work/translation/en/dialogue.json / batch_00856.json (row 866, 'Just what you'd expect from a One Year War ace')",
+    "why": "dialogue_02672 names the Federation-Zeon war explicitly. Term is universal Gundam canon and already attested once in the corpus, but is not present in any of the four core glossary files; proposing a formal glossary entry so later batches don't re-derive it independently."
+  },
+  {
+    "term_romaji": "Boueisensou (bare, no Daiichiji prefix)",
+    "en": "Defensive War",
+    "source": "dialogue_02683 (kare wa ni-nen mae no boueisensou no ato ni); compare opening_history_terms.json 'First Defense War' and proposals_dialogue_01073.json 'First Defensive War' for the full 'Daiichiji Boueisensou'",
+    "why": "This row's source omits 'Daiichiji' (First). Rendered as bare 'Defensive War' by analogy with the book(9) Federation/Earth Federation adaptation already established in batch_01426 (same book id, English wording follows the literal source text). Needs orchestrator confirmation whether book(4) should always read 'First Defensive War' for consistency, or may drop 'First' when the source does."
+  }
+]

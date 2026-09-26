@@ -1,0 +1,1072 @@
+{
+  "version": "0.1.19",
+  "review": {
+    "status": "meaning_reviewed",
+    "agent": "review_missions_019",
+    "rows_examined": 102,
+    "rows_in_file": 102,
+    "numbers_checked": "all seconds, percentages, counts, mission numbers and branch letters match",
+    "defects_fixed": [
+      "3057/240 obstruction -> interference areas (radar-interference zones per the mission guide)",
+      "3055/220 Operation: Seize Ruins -> Ruins Capture Operation (same base-capture verb as its secret goal)",
+      "3055/170 and 452 Break -> Breach the Defense Net",
+      "3057/110 making the Gekko detour -> the Gekko having to detour (it detours on its own if the player is slow)"
+    ],
+    "kept_as_intentional": [
+      "Sweep for mop-up missions: Mop Up and Eliminate exceed the 290-unit selector",
+      "Probe for mission 01: Investigate exceeds the selector",
+      "Stop covers both shutting down the Baldora Drive and halting Axis; Shut Down does not fit",
+      "Branch missions use one space after the number for width",
+      "Tresor Institute shortens the glossary name Tresor Research Institute for width"
+    ],
+    "uncertainties": [
+      "Baldora Drive and Jill Bardona come from the same kana and are both provisional; needs one corpus-wide decision",
+      "Infinite Mobile Cannon and Kleid have no official English spelling",
+      "3055/460 could not be tied to a mission or mode; Subdue judged on wording alone",
+      "09B Coralian Contact is a noun phrase while 24 Contact D.O.M.E. is imperative; both accurate",
+      "17B Repel Pursuit Force 2 has no part 1 in English or in the source",
+      "warships covers any capital ship"
+    ],
+    "post_review_compression": [
+      "3057/150, 3057/170 and 3057/320 were abbreviated to 55 characters or fewer so no text allocation grows (a goal widget sized for about 30 Japanese characters most likely has the bounded 56-58 character allocation); every number and both conditions are kept"
+    ]
+  },
+  "categories": [
+    {
+      "table_id": 3055,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "ACE3 mission titles",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 10,
+          "source": "０１　未確認生命体調査",
+          "en": "01  Probe Unknown Lifeform",
+          "dialog": false,
+          "source_width": 190,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 10,
+          "text_id": 20,
+          "source": "０２　ナデシコＢ援護",
+          "en": "02  Support Nadesico B",
+          "dialog": false,
+          "source_width": 162,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 20,
+          "text_id": 30,
+          "source": "０３　バルドナ・ドライブ制圧",
+          "en": "03  Capture Baldora Drive",
+          "dialog": false,
+          "source_width": 222,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 21,
+          "text_id": 31,
+          "source": "０３　バルドナ・ドライブ制圧",
+          "en": "03  Capture Baldora Drive",
+          "dialog": false,
+          "source_width": 222,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 30,
+          "text_id": 40,
+          "source": "０４　不明勢力掃討",
+          "en": "04  Sweep Unknown Forces",
+          "dialog": false,
+          "source_width": 152,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 40,
+          "text_id": 50,
+          "source": "０５　月光号援護",
+          "en": "05  Support Gekko",
+          "dialog": false,
+          "source_width": 131,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 50,
+          "text_id": 60,
+          "source": "０６　エクソダス援護",
+          "en": "06  Support the Exodus",
+          "dialog": false,
+          "source_width": 162,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 60,
+          "text_id": 70,
+          "source": "０７　真ドラゴン破壊",
+          "en": "07  Destroy Shin Dragon",
+          "dialog": false,
+          "source_width": 161,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 70,
+          "text_id": 80,
+          "source": "０８　不明勢力掃討２",
+          "en": "08  Sweep Unknown Forces 2",
+          "dialog": false,
+          "source_width": 162,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 80,
+          "text_id": 90,
+          "source": "０９Ａ　連邦本部防衛",
+          "en": "09A Defend Federation HQ",
+          "dialog": false,
+          "source_width": 170,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 90,
+          "text_id": 100,
+          "source": "１０Ａ　アマテラス防衛",
+          "en": "10A Defend Amaterasu",
+          "dialog": false,
+          "source_width": 177,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 100,
+          "text_id": 110,
+          "source": "１１Ａ　ベルクト追撃",
+          "en": "11A Pursue Berkt",
+          "dialog": false,
+          "source_width": 155,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 110,
+          "text_id": 120,
+          "source": "０９Ｂ　コーラリアン接触",
+          "en": "09B Coralian Contact",
+          "dialog": false,
+          "source_width": 190,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 120,
+          "text_id": 130,
+          "source": "１０Ｂ　重要物資奪還",
+          "en": "10B Recover Vital Supplies",
+          "dialog": false,
+          "source_width": 165,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 130,
+          "text_id": 140,
+          "source": "１１Ｂ　追撃部隊迎撃",
+          "en": "11B Intercept Pursuit Force",
+          "dialog": false,
+          "source_width": 161,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 140,
+          "text_id": 150,
+          "source": "１２Ｂ　真ドラゴン破壊２",
+          "en": "12B Destroy Shin Dragon 2",
+          "dialog": false,
+          "source_width": 185,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 150,
+          "text_id": 160,
+          "source": "１３　大気圏突入",
+          "en": "13  Atmospheric Entry",
+          "dialog": false,
+          "source_width": 128,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 160,
+          "text_id": 170,
+          "source": "１４　防衛網突破",
+          "en": "14  Breach the Defense Net",
+          "dialog": false,
+          "source_width": 133,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 170,
+          "text_id": 180,
+          "source": "１５　マクロス破壊",
+          "en": "15  Destroy the Macross",
+          "dialog": false,
+          "source_width": 140,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 180,
+          "text_id": 190,
+          "source": "１６　トレゾア技研防衛",
+          "en": "16  Defend Tresor Institute",
+          "dialog": false,
+          "source_width": 176,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 190,
+          "text_id": 200,
+          "source": "１７Ａ　連邦本部防衛２",
+          "en": "17A Defend Federation HQ 2",
+          "dialog": false,
+          "source_width": 179,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 200,
+          "text_id": 210,
+          "source": "１８Ａ　ネオ・ジオン艦隊",
+          "en": "18A Neo Zeon Fleet",
+          "dialog": false,
+          "source_width": 190,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 210,
+          "text_id": 220,
+          "source": "１９Ａ　遺跡制圧作戦",
+          "en": "19A Ruins Capture Operation",
+          "dialog": false,
+          "source_width": 166,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 220,
+          "text_id": 230,
+          "source": "１７Ｂ　追撃部隊撃退２",
+          "en": "17B Repel Pursuit Force 2",
+          "dialog": false,
+          "source_width": 175,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 230,
+          "text_id": 240,
+          "source": "１８Ｂ　真ドラゴン破壊３",
+          "en": "18B Destroy Shin Dragon 3",
+          "dialog": false,
+          "source_width": 185,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 240,
+          "text_id": 250,
+          "source": "１９Ｂ　エウレカ救出",
+          "en": "19B Rescue Eureka",
+          "dialog": false,
+          "source_width": 157,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 250,
+          "text_id": 260,
+          "source": "２０　抗体コーラリアン撃退",
+          "en": "20  Repel Antibody Coralians",
+          "dialog": false,
+          "source_width": 212,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 260,
+          "text_id": 270,
+          "source": "２１　真ドラゴン破壊４",
+          "en": "21  Destroy Shin Dragon 4",
+          "dialog": false,
+          "source_width": 172,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 270,
+          "text_id": 280,
+          "source": "２２　バルドナ・ドライブ停止",
+          "en": "22  Stop Baldora Drive",
+          "dialog": false,
+          "source_width": 221,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 280,
+          "text_id": 290,
+          "source": "２３　ノルブ奪還",
+          "en": "23  Recover Norb",
+          "dialog": false,
+          "source_width": 128,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 290,
+          "text_id": 300,
+          "source": "２４　Ｄ．Ｏ．Ｍ．Ｅ．接触",
+          "en": "24  Contact D.O.M.E.",
+          "dialog": false,
+          "source_width": 191,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 300,
+          "text_id": 310,
+          "source": "２５　ゾーン突入",
+          "en": "25  Enter the Zone",
+          "dialog": false,
+          "source_width": 127,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 301,
+          "text_id": 311,
+          "source": "２５　ゾーン突入",
+          "en": "25  Enter the Zone",
+          "dialog": false,
+          "source_width": 127,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 310,
+          "text_id": 320,
+          "source": "２６　エウレカ救出２",
+          "en": "26  Rescue Eureka 2",
+          "dialog": false,
+          "source_width": 156,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 320,
+          "text_id": 330,
+          "source": "２７　アクシズ阻止",
+          "en": "27  Stop Axis",
+          "dialog": false,
+          "source_width": 144,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 330,
+          "text_id": 340,
+          "source": "２８　アクシズ阻止２",
+          "en": "28  Stop Axis 2",
+          "dialog": false,
+          "source_width": 156,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 331,
+          "text_id": 341,
+          "source": "２８　アクシズ阻止２",
+          "en": "28  Stop Axis 2",
+          "dialog": false,
+          "source_width": 156,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 340,
+          "text_id": 350,
+          "source": "２９　バルドナ・ドライブ停止２",
+          "en": "29  Stop Baldora Drive 2",
+          "dialog": false,
+          "source_width": 233,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 341,
+          "text_id": 420,
+          "source": "ＶＳ　リ・ガズィ",
+          "en": "VS Re-GZ",
+          "dialog": false,
+          "source_width": 118,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 342,
+          "text_id": 421,
+          "source": "ＶＳ　ＹＦ－１９",
+          "en": "VS YF-19",
+          "dialog": false,
+          "source_width": 112,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 343,
+          "text_id": 422,
+          "source": "ＶＳ　キングゲイナー",
+          "en": "VS King Gainer",
+          "dialog": false,
+          "source_width": 168,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 344,
+          "text_id": 423,
+          "source": "ＶＳ　真ゲッター１",
+          "en": "VS Shin Getter-1",
+          "dialog": false,
+          "source_width": 140,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 345,
+          "text_id": 424,
+          "source": "ＶＳ　ニルヴァーシュ　ｔｙｐｅＺＥＲＯ",
+          "en": "VS Nirvash typeZERO",
+          "dialog": false,
+          "source_width": 289,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 346,
+          "text_id": 425,
+          "source": "ＶＳ　ガンダムＸチーム",
+          "en": "VS Gundam X Team",
+          "dialog": false,
+          "source_width": 187,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 347,
+          "text_id": 426,
+          "source": "ＶＳ　ウイングガンダムゼロ",
+          "en": "VS Wing Gundam Zero",
+          "dialog": false,
+          "source_width": 219,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 348,
+          "text_id": 427,
+          "source": "ＶＳ　ブラックゲッター",
+          "en": "VS Black Getter",
+          "dialog": false,
+          "source_width": 177,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 349,
+          "text_id": 428,
+          "source": "ＶＳ　ナナジン",
+          "en": "VS Nanajin",
+          "dialog": false,
+          "source_width": 115,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 350,
+          "text_id": 429,
+          "source": "ＶＳ　ガンダムＤＸ",
+          "en": "VS Gundam DX",
+          "dialog": false,
+          "source_width": 148,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 351,
+          "text_id": 430,
+          "source": "ＶＳ　Ｇガンダムチーム",
+          "en": "VS G Gundam Team",
+          "dialog": false,
+          "source_width": 186,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 352,
+          "text_id": 431,
+          "source": "ＶＳ　∀ガンダムチーム",
+          "en": "VS Turn A Gundam Team",
+          "dialog": false,
+          "source_width": 187,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 353,
+          "text_id": 432,
+          "source": "ＶＳ　ガンダムＳＥＥＤチーム",
+          "en": "VS Gundam SEED Team",
+          "dialog": false,
+          "source_width": 229,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 354,
+          "text_id": 433,
+          "source": "ＶＳ　ＡＣＥオリジナルチーム",
+          "en": "VS ACE Original Team",
+          "dialog": false,
+          "source_width": 233,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 355,
+          "text_id": 434,
+          "source": "ＶＳ　パーフェクトガンダム",
+          "en": "VS Perfect Gundam",
+          "dialog": false,
+          "source_width": 215,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 361,
+          "text_id": 440,
+          "source": "エクストラミッション１",
+          "en": "Extra Mission 1",
+          "dialog": false,
+          "source_width": 171,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 362,
+          "text_id": 441,
+          "source": "エクストラミッション２",
+          "en": "Extra Mission 2",
+          "dialog": false,
+          "source_width": 173,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 363,
+          "text_id": 442,
+          "source": "エクストラミッション３",
+          "en": "Extra Mission 3",
+          "dialog": false,
+          "source_width": 173,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 364,
+          "text_id": 443,
+          "source": "エクストラミッション４",
+          "en": "Extra Mission 4",
+          "dialog": false,
+          "source_width": 175,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 371,
+          "text_id": 450,
+          "source": "バルドナ・ドライブ停止",
+          "en": "Stop Baldora Drive",
+          "dialog": false,
+          "source_width": 185,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 372,
+          "text_id": 451,
+          "source": "重要物資奪還",
+          "en": "Recover Vital Supplies",
+          "dialog": false,
+          "source_width": 115,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 373,
+          "text_id": 452,
+          "source": "防衛網突破",
+          "en": "Breach the Defense Net",
+          "dialog": false,
+          "source_width": 97,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 374,
+          "text_id": 453,
+          "source": "マクロス破壊",
+          "en": "Destroy the Macross",
+          "dialog": false,
+          "source_width": 106,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 375,
+          "text_id": 454,
+          "source": "真ドラゴン破壊",
+          "en": "Destroy Shin Dragon",
+          "dialog": false,
+          "source_width": 124,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 376,
+          "text_id": 455,
+          "source": "ゾーン突入",
+          "en": "Enter the Zone",
+          "dialog": false,
+          "source_width": 91,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 378,
+          "text_id": 457,
+          "source": "バルドナ・ドライブ停止２",
+          "en": "Stop Baldora Drive 2",
+          "dialog": false,
+          "source_width": 197,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 379,
+          "text_id": 458,
+          "source": "エクストラミッション１",
+          "en": "Extra Mission 1",
+          "dialog": false,
+          "source_width": 171,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 380,
+          "text_id": 459,
+          "source": "エクストラミッション２",
+          "en": "Extra Mission 2",
+          "dialog": false,
+          "source_width": 173,
+          "limit": 290,
+          "max_lines": 1
+        },
+        {
+          "slot": 381,
+          "text_id": 460,
+          "source": "敵部隊制圧",
+          "en": "Subdue Enemy Forces",
+          "dialog": false,
+          "source_width": 95,
+          "limit": 290,
+          "max_lines": 1
+        }
+      ]
+    },
+    {
+      "table_id": 3057,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "ACE3 secret goals",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 10,
+          "source": "自機のダメージを\n１００以下に抑える",
+          "en": "Keep damage to your unit\nto 100 or less",
+          "dialog": false,
+          "source_width": 144,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 10,
+          "text_id": 20,
+          "source": "ナデシコＢのダメージを\n２０％以下に抑える",
+          "en": "Keep damage to the Nadesico B\nto 20％ or less",
+          "dialog": false,
+          "source_width": 192,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 20,
+          "text_id": 30,
+          "source": "ブラッドアークに\n９０％のダメージを与える",
+          "en": "Deal 90％ damage\nto the Blood Ark",
+          "dialog": false,
+          "source_width": 199,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 30,
+          "text_id": 40,
+          "source": "フリーデンのダメージを\n２０％以下に抑える",
+          "en": "Keep damage to the Freeden\nto 20％ or less",
+          "dialog": false,
+          "source_width": 190,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 40,
+          "text_id": 50,
+          "source": "１５０秒以内に\n全ての拠点を制圧する",
+          "en": "Capture all bases\nwithin 150 seconds",
+          "dialog": false,
+          "source_width": 183,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 50,
+          "text_id": 60,
+          "source": "１００機以上の敵を撃破する",
+          "en": "Destroy 100 or more enemies",
+          "dialog": false,
+          "source_width": 220,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 60,
+          "text_id": 70,
+          "source": "全てのメタルビーストを撃破する",
+          "en": "Destroy all Metal Beasts",
+          "dialog": false,
+          "source_width": 263,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 70,
+          "text_id": 80,
+          "source": "全ての積尸気を撃破する",
+          "en": "Destroy all Shishiki",
+          "dialog": false,
+          "source_width": 202,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 80,
+          "text_id": 90,
+          "source": "無限機動砲を一発も発射させない",
+          "en": "Never let the Infinite\nMobile Cannon fire",
+          "dialog": false,
+          "source_width": 274,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 90,
+          "text_id": 100,
+          "source": "遠距離からの砲撃を全て回避する",
+          "en": "Evade all long-range bombardment",
+          "dialog": false,
+          "source_width": 271,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 100,
+          "text_id": 110,
+          "source": "月光号を迂回させずに\nミッションをクリアする",
+          "en": "Clear the mission without\nthe Gekko having to detour",
+          "dialog": false,
+          "source_width": 183,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 110,
+          "text_id": 120,
+          "source": "月光号のＡＰ４０％以上の状態で\nミッションをクリアする",
+          "en": "Clear the mission with the\nGekko at 40％ AP or more",
+          "dialog": false,
+          "source_width": 260,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 120,
+          "text_id": 130,
+          "source": "一度も輸送艦を\n警告エリアまで侵入させない",
+          "en": "Never let a transport\nreach the warning area",
+          "dialog": false,
+          "source_width": 232,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 130,
+          "text_id": 140,
+          "source": "１５０秒以内に\n全ての拠点を制圧する",
+          "en": "Capture all bases\nwithin 150 seconds",
+          "dialog": false,
+          "source_width": 183,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 140,
+          "text_id": 150,
+          "source": "隠れたドミネーターを\n４回発見し、撤退させる",
+          "en": "Find the hidden Dominator\n4 times and make it retreat",
+          "dialog": false,
+          "source_width": 186,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 150,
+          "text_id": 160,
+          "source": "衛星砲を３０機以上撃破する",
+          "en": "Destroy 30 or more satellite cannons",
+          "dialog": false,
+          "source_width": 231,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 160,
+          "text_id": 170,
+          "source": "４２０秒以内に拠点を全制圧し\n友軍艦クレイドを生存させる",
+          "en": "Capture all bases in 420 sec\nwith ally ship Kleid alive",
+          "dialog": false,
+          "source_width": 240,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 170,
+          "text_id": 180,
+          "source": "全ての友軍部隊を生存させる",
+          "en": "Keep all allied units alive",
+          "dialog": false,
+          "source_width": 236,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 180,
+          "text_id": 190,
+          "source": "裏切ったバルチャーの手下を\n全て撃破する",
+          "en": "Destroy all of the traitorous\nVulture's underlings",
+          "dialog": false,
+          "source_width": 234,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 190,
+          "text_id": 200,
+          "source": "オウカオーを\n３０秒以内にハイパー化させる",
+          "en": "Make the Oukaou go Hyper\nwithin 30 seconds",
+          "dialog": false,
+          "source_width": 239,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 200,
+          "text_id": 210,
+          "source": "全ての戦艦を撃破する",
+          "en": "Destroy all warships",
+          "dialog": false,
+          "source_width": 184,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 210,
+          "text_id": 220,
+          "source": "全ての拠点を制圧する",
+          "en": "Capture all bases",
+          "dialog": false,
+          "source_width": 183,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 220,
+          "text_id": 230,
+          "source": "３００秒以内に\n全ての敵拠点を制圧する",
+          "en": "Capture all enemy bases\nwithin 300 seconds",
+          "dialog": false,
+          "source_width": 202,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 230,
+          "text_id": 240,
+          "source": "全ての障害エリアを解除する",
+          "en": "Disable all interference areas",
+          "dialog": false,
+          "source_width": 233,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 240,
+          "text_id": 250,
+          "source": "フロスト兄弟を\n二人とも撤退させる",
+          "en": "Force both Frost brothers\nto retreat",
+          "dialog": false,
+          "source_width": 158,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 250,
+          "text_id": 260,
+          "source": "１００秒以内に\n全ての敵拠点を制圧する",
+          "en": "Capture all enemy bases\nwithin 100 seconds",
+          "dialog": false,
+          "source_width": 202,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 260,
+          "text_id": 270,
+          "source": "真ドラゴンからの攻撃を\n全て回避する",
+          "en": "Evade every attack\nfrom Shin Dragon",
+          "dialog": false,
+          "source_width": 189,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 270,
+          "text_id": 280,
+          "source": "リーダーユニットを\n８機以上撃破する",
+          "en": "Destroy 8 or more\nleader units",
+          "dialog": false,
+          "source_width": 153,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 280,
+          "text_id": 290,
+          "source": "２４０秒以内に全ての\n粒子フィールドを解除する",
+          "en": "Disable all particle fields\nwithin 240 seconds",
+          "dialog": false,
+          "source_width": 211,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 290,
+          "text_id": 300,
+          "source": "Ｇビットを一度も攻撃しない",
+          "en": "Never attack a G-Bit",
+          "dialog": false,
+          "source_width": 221,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 300,
+          "text_id": 310,
+          "source": "全ての粒子フィールドを解除する",
+          "en": "Disable all particle fields",
+          "dialog": false,
+          "source_width": 265,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 310,
+          "text_id": 320,
+          "source": "自機のダメージが１００以下で\n月光号のＡＰを５０％以上残す",
+          "en": "Take 100 damage or less and\nkeep the Gekko at 50％+ AP",
+          "dialog": false,
+          "source_width": 239,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 320,
+          "text_id": 330,
+          "source": "友軍艦の損害率を\n２５％以下に抑える",
+          "en": "Keep allied ship damage\nto 25％ or less",
+          "dialog": false,
+          "source_width": 149,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 330,
+          "text_id": 340,
+          "source": "自機のダメージを\n３０００以下に抑える",
+          "en": "Keep damage to your unit\nto 3000 or less",
+          "dialog": false,
+          "source_width": 159,
+          "limit": 420,
+          "max_lines": 2
+        },
+        {
+          "slot": 340,
+          "text_id": 350,
+          "source": "自機のダメージを\n２０００以下に抑える",
+          "en": "Keep damage to your unit\nto 2000 or less",
+          "dialog": false,
+          "source_width": 159,
+          "limit": 420,
+          "max_lines": 2
+        }
+      ]
+    }
+  ]
+}

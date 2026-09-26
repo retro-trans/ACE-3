@@ -1,0 +1,479 @@
+{
+  "slice_start": 10387,
+  "slice_count": 70,
+  "rows_examined": [
+    [
+      10372,
+      10471
+    ]
+  ],
+  "rows_examined_count": 100,
+  "rows_in_slice": 70,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_10404",
+        "dialogue_10405"
+      ],
+      "note": "Vent Roll (ベントロール) and VRF (ＶＲＦ) are ship/part designations for the Gekko-class vessel taking damage. No reliable English source confirming 'Vent Roll' was found (Eureka Seven wiki searches returned only the Gekko's general Trapar-based flight description); VRF is kept as a bare, already-Roman-letter abbreviation. Both proposed as provisional terms in batch_10387_glossary_proposals.json pending a better source."
+    },
+    {
+      "ids": [
+        "dialogue_10425",
+        "dialogue_10426",
+        "dialogue_10427",
+        "dialogue_10428",
+        "dialogue_10429"
+      ],
+      "note": "Speaker is not named in these rows, but the addressee's reply 'Sakuya...' (dialogue_10430) and the content (a past failed attempt to cross into the Zone 'as a paired one', now passed on to 'those kids') match the glossary's Sakuya profile ('Eureka's predecessor... in love with Norb'). No name was inserted into dialogue_10425-10429 themselves; the identification is inference from context, not an assertion added to the text."
+    },
+    {
+      "id": "dialogue_10426",
+      "note": "対の者 rendered as 'the paired ones', a descriptive translation of the Vodarac pairing concept (Sakuya bonded with a human partner, per Eureka Seven Wiki's Humanoid Coralians/Norb pages) rather than an established fixed English term; no glossary entry exists for this phrase. Flagged as a term proposal."
+    },
+    {
+      "ids": [
+        "dialogue_10387",
+        "dialogue_10388",
+        "dialogue_10409",
+        "dialogue_10410",
+        "dialogue_10411",
+        "dialogue_10442"
+      ],
+      "note": "'Tower' (タワー) is used as a ship name in this scene (it can be 'abandoned' like a vessel, alongside the Gekko/Nadesico/Izumo). This exact spelling already appears in work/translation/en/encyclopedia_022.json for the same katakana string, but that entry's own series/backstory context could not be confirmed (its neighboring entries mix Getter Robo Armageddon and King Gainer terms, likely just adjacent table slots rather than a thematic grouping). Spelling reused for consistency; identity beyond 'one of the escorted motherships' is not asserted."
+    },
+    {
+      "id": "dialogue_10398",
+      "note": "'Harry' assumed to be the previously researched nickname for Ruri Hoshino's aide (see glossary proposals_dialogue_00776.json), consistent with a Nadesico-crew giving orders about escort/protective units; not independently reconfirmed as this specific character within this scene."
+    }
+  ],
+  "validation": {
+    "fit": "All rows drafted at full meaning, no display-based shortening; longest visible line stays well under the 110-character cap.",
+    "controls": "Every <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()> command copied in the same order as the source for each row, including the run of <on()>...<off()> lines closing the scene (dialogue_10448-10456); no color/book spans present in this range.",
+    "terms": "Tower/Pororoca (proposed), Vent Roll/VRF (proposed, provisional), the paired ones (proposed, provisional), particle field (mission_terms_019.json), protective unit / self-propelled weapon (generic ACE3 terms, rendered literally as in prior 'interference area' style entries), Flail unit / base / Nadesico / Gekko / Nirvash / Renton / Eureka / Sakuya / Norb / Holland (existing glossary and corpus precedent).",
+    "self_check": "Ran an offline ASCII/length/j-q/smart-punctuation check against every row's visible text before submitting; see build notes in the final report.",
+    "meaning_review": "Independently meaning-reviewed: 70 of 70 rows examined against original ISO with 30 rows of surrounding context (10372-10471). No meaning fixes needed. All rows set to meaning_reviewed. See review_10387.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_10387",
+      "target": "<op()><sp(20)>This is the Tower.\nWe're having trouble here; send support.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10388",
+      "target": "<op()><sp(20)>Suppress the base along the Tower's course.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10389",
+      "target": "<op()><sp(20)>Confirmed: the particle field has vanished!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10390",
+      "target": "<op()><sp(20)>Destroy all targets!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10391",
+      "target": "<op()><sp(20)>What?! The enemy's launching an all-out attack?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10392",
+      "target": "<op()><sp(20)>The particle field is gone!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10393",
+      "target": "<op()><sp(20)>Doing it all by themselves...\nthat's past impressive, it's almost unbelievable...<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10394",
+      "target": "<op()><sp(20)>All targets wiped out!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10395",
+      "target": "<op()><sp(20)>The enemy is retreating!\nWe did it!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10396",
+      "target": "<op()><sp(20)>Deploying a protective unit\nto set up a temporary field in the area.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10397",
+      "target": "<sp(20)>I'll send them to cover any ship that gets into danger.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10398",
+      "target": "<op()><sp(20)>Harry.\nPlease redirect the protective unit to escort the ships.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10399",
+      "target": "<op()><sp(20)>They might get attacked on the way there, you know?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10400",
+      "target": "<op()><sp(20)>If that happens, we'll deal with it then.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10401",
+      "target": "<op()><sp(20)>Nadesico's damage is spreading.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10402",
+      "target": "<op()><sp(20)>The Nadesico is in serious danger.\nPlease send support.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10403",
+      "target": "<op()><sp(20)>The protective unit has arrived.\nDeploying a field over the Nadesico's armor!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10404",
+      "target": "<op()><sp(20)>Lower left, the Vent Roll's been hit!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10405",
+      "target": "<op()><sp(20)>Right No. 2, VRF has come off, lift down 25％!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10406",
+      "target": "<op()><sp(20)>Engine stopped! Can't maintain lift!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10407",
+      "target": "<op()><sp(20)>Holland...!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10408",
+      "target": "<op()><sp(20)>Protective unit has arrived.\nHaving them cover the Gekko!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10409",
+      "target": "<op()><sp(20)>They're struggling a bit.\nGo cover the Tower.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10410",
+      "target": "<op()><sp(20)>Is the Tower at its limit...!\nAbandon ship!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10411",
+      "target": "<op()><sp(20)>The protective unit has reached the Tower.\nHaving them reinforce the Tower's armor.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10412",
+      "target": "<op()><sp(20)>We need to hurry, we're running out of time!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10413",
+      "target": "<op()><sp(20)>Time's up...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10414",
+      "target": "<op()><sp(20)>Planning to reinforce the base's defenses, huh.\nWe'd better intercept them.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10415",
+      "target": "<op()><sp(20)>Enemy ship has reached the base.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10416",
+      "target": "<op()><sp(20)>This puts us at a disadvantage again...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10417",
+      "target": "<op()><sp(20)>An enemy ship has reached the base!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10418",
+      "target": "<op()><sp(20)>The enemy force is on the move!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10419",
+      "target": "<op()><sp(20)>The enemy ship is withdrawing.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10420",
+      "target": "<op()><sp(20)>The protective unit has been wiped out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10421",
+      "target": "<op()><sp(20)>All reinforcement enemy ships destroyed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10422",
+      "target": "<op()><sp(20)>Good work out there.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10423",
+      "target": "<op()><sp(20)>All ships have reached their designated positions.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10424",
+      "target": "<op()><sp(20)>All right, prepare to attack!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10425",
+      "target": "<op()><sp(20)>I've been waiting for you, all this time.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10426",
+      "target": "<sp(20)>Before, as the paired ones,\nwe tried to break through into the Zone.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10427",
+      "target": "<op()><sp(20)>But we failed.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10428",
+      "target": "<op()><sp(20)>But I'm not sad.\nBecause I got to meet you again, like this.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10429",
+      "target": "<sp(20)>Those kids\ninherited our will.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10430",
+      "target": "<op()><sp(20)>Sakuya...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10431",
+      "target": "<op()><sp(20)>Let's begin, for those kids' sake.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10432",
+      "target": "<op()><sp(20)>And for our sake too.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10433",
+      "target": "<op()><sp(20)>Destroy every target!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10434",
+      "target": "<op()><sp(20)>Allied forces have begun advancing.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10435",
+      "target": "<sp(20)>We should probably have\nthe Flail unit provide cover too.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10436",
+      "target": "<op()><sp(20)>The enemy is blocking the Nadesico's course.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10437",
+      "target": "<sp(20)>Please intercept them.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10438",
+      "target": "<sp(20)>Secure the ship's course.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10439",
+      "target": "<sp(20)>Everyone, cover the ship's advance.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10440",
+      "target": "<op()><sp(20)>Cover the Gekko's advance.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10441",
+      "target": "<op()><sp(20)>Use this opening to clear the enemies along the Gekko's course.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10442",
+      "target": "<op()><sp(20)>Advancing the Tower to the target point.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10443",
+      "target": "<op()><sp(20)>Enemy ship destroyed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10444",
+      "target": "<op()><sp(20)>Destroyed the enemy ship!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10445",
+      "target": "<op()><sp(20)>The self-propelled weapon is attacking!\nOur allies are taking damage.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10446",
+      "target": "<op()><sp(20)>The self-propelled weapon's attack has landed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10447",
+      "target": "<op()><sp(20)>Please secure the support unit's advance route.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10448",
+      "target": "<on()><sp(20)>So this is...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10449",
+      "target": "<on()><sp(20)>The Pororoca that Norb told us about...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10450",
+      "target": "<on()><sp(20)>Renton, go!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10451",
+      "target": "<on()><sp(20)>You two are our hope for the future!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10452",
+      "target": "<on()><sp(20)>Renton!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10453",
+      "target": "<on()><sp(20)>Let's go, Eureka!\nFor everyone!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10454",
+      "target": "<on()><sp(20)>All ships, follow the Nirvash!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10455",
+      "target": "<on()><sp(20)>Nadesico, entering the Zone.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10456",
+      "target": "<on()><sp(20)>Fireeeee!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

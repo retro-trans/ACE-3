@@ -1,0 +1,33 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 10637,
+  "slice_count": 80,
+  "rows_examined": [{"start": 10622, "end": 10731}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [10637, 10716], "finding": "Battle-order dialogue (push through, prioritize large types, main-gun/AAM salvo, combat formation, booster breakthrough) matches the source with no reversed objectives or swapped actors."},
+    {"rows": [10639, 10648], "finding": "Eureka's captured-monologue block (dialogue_10639-10648) about her precious people and willingness to stop wishing if it costs the planet is translated in full meaning with no dropped sentence endings; 'those precious to me' / 'everyone' referents kept as the source leaves them, without inventing who else is meant."},
+    {"rows": [10654, 10657], "finding": "月光号 (Gekko) takes damage and 本艦 (\"this ship\", the speaking ship's self-reference) orders abandonment; translation keeps 'This ship' generic per the source rather than asserting it is explicitly named Gekko in row 10657, matching the translator's own uncertainty note. No meaning fix needed - the source itself does not name the ship in that row."},
+    {"rows": [10660, 10690], "finding": "Unattributed Gekkostate-pilot lines translated with generic subject/addressee, no gender or identity invented, consistent with BASE_RULES."},
+    {"rows": [10677, 10684], "finding": "Garrod/Tiffa and Gainer/Sara exchanges (fighting for the two of them; Gainer always thinking of Sara first) preserve speaker/addressee direction and do not swap who is reassuring whom."},
+    {"rows": [10685, 10686], "finding": "'This fight of mine began with an Antibody Coralian' / 'And that's how we met' reproduces the source's ambiguous handoff between what reads as Renton's masculine-register line and a following collective 'we met' line; no speaker identity is asserted beyond what the source supports, matching the translator's own flagged uncertainty."},
+    {"rows": [10693, 10699], "finding": "Renton's appeal to the Nirvash ('I need Eureka by my side') keeps the emotional escalation and the final need-statement intact, no dropped clauses."},
+    {"rows": [10700, 10716], "finding": "Amita Drive activation through the Command Cluster approach and the crew's parting lines to Renton (bring Eureka back, don't come back empty-handed) match the source's meaning and tone throughout."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_10657"], "issue": "Confirmed as correctly left unresolved: the source's 本艦 (\"this ship\") does not itself name the Gekko in this row; the translator's inference to context (10654-10656) is reasonable but not asserted in the translation, which is the right call."},
+    {"ids": ["dialogue_10660", "dialogue_10690"], "issue": "Confirmed as correctly left unresolved: no color/speaker tag in source, generic Gekkostate-style lines; translation invents no identity or gender."},
+    {"id": "dialogue_10668", "issue": "Confirmed as correctly left unresolved: '0100/0140' is a literal, non-idiomatic rendering of a two-number sensor/grid reading; no better-attested real-world notation was found in the glossary or corpus, so the literal rendering stands."},
+    {"ids": ["dialogue_10685", "dialogue_10686"], "issue": "Confirmed as correctly left unresolved: speaker mapping (Renton then a collective 'we met' line) is a reasonable inference from the following 10693-10699 'we met' theme but is not settled by a color tag; translation does not overstate certainty."},
+    {"id": "dialogue_10705", "issue": "Confirmed as correctly left unresolved: 'I... Can... Fly!' is the standard fan rendering of the elongated katakana line and is internally consistent with the split version at 10746-10748 in the following batch; not independently verifiable against an official English release from files available in this repo."}
+  ],
+  "validation": {
+    "controls": "All <...> commands re-checked in exact source order for all 80 rows via a throwaway console diff against `python tools/dialogue_corpus.py slice 10637 80 --context 15`; no mismatches.",
+    "format": "No row introduces a literal newline absent from the source; escaped \\n counts match the source for every row.",
+    "fit": "Visible text (tags removed, newlines not counted as glyphs) re-measured at <=110 characters for every row; ASCII-only except the locked fullwidth percent sign (not used in this slice); no lowercase j/q found outside locked names.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

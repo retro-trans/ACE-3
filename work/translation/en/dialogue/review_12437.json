@@ -1,0 +1,38 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 12437,
+  "slice_count": 100,
+  "rows_examined": [{"start": 12432, "end": 12541}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 100,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_12447",
+      "before": "Backup!? Watch out.",
+      "after": "More!? Watch out.",
+      "reason": "増援！？気をつけろ。 refers to the enemy's added forces, paired with a warning; 'Backup' implies friendly support arriving, the same friendly/enemy ambiguity fixed at dialogue_12393 in the prior batch. This table's own dialogue_12385 (増援！？, same word) is already correctly rendered 'More!?', so this keeps the table internally consistent as well as clear. Fits the 20-char budget (17 chars)."
+    },
+    {
+      "id": "dialogue_12516",
+      "before": "Which leads?",
+      "after": "Main one?",
+      "reason": "どれが主力だ？ asks which enemy unit is the main/strongest force (a targeting-priority question), not who is in a leadership position. 'Which leads?' reframes it as a question about hierarchy. Fits the 12-char budget (9 chars)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [12460, 12490, 12508], "finding": "Confirmed Char/Sazabi (resource 2805030) addresses an unnamed subordinate ace pilot ('kimi'/'you') throughout; no identity or gender assigned, matching the source's own lack of a name for this addressee."},
+    {"rows": [12463], "finding": "遅い！ is a 3-character source line with a 4-character visible budget; 'Slow' is confirmed the maximum literal fit (adding any punctuation, e.g. '!', would exceed the cap). No better fix exists within budget; translator's flag accepted as-is."},
+    {"rows": [12536], "finding": "Confirmed as a distinct high-slot line (slot 160, not the regular ~10-slot combat-bark spacing used elsewhere in this table); 君は手を組む価値のある人間だな。 is accurately rendered 'Worth teaming up with.' at face value; no fix needed."},
+    {"rows": [12479], "finding": "押されているだと！？ correctly rendered 'Pushed back, us!?' here, confirming the direction of the fix applied to the identical phrase at dialogue_12427 in the previous batch."},
+    {"rows": [12518], "finding": "増援？しかしもう遅い。 kept as 'Backup? Too late now.' -- unlike dialogue_12393/12447, the follow-on 'too late now' already signals the reinforcement (whoever it belongs to) won't matter, so the friendly/enemy ambiguity is resolved by context here and no fix was needed."},
+    {"rows": [12437, 12536], "finding": "Scripted re-check after the two fixes: every row's tag sequence matches source order, every row's visible text within min(72, 2*JP-2), zero non-ASCII, zero lowercase j/q for all 100 rows."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran a throwaway script comparing every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> tag sequence against tools/dialogue_corpus.py's source output for all 100 rows: identical order, zero mismatches, including after the two meaning fixes.",
+    "fit": "Re-checked every row's visible text against min(72, 2*sourceJPchars-2): zero rows over budget, including the two fixed rows (dialogue_12447: 17/20, dialogue_12516: 9/12) and dialogue_12463 (4/4, confirmed unfixable further).",
+    "format": "ASCII-only (plus the permitted fullwidth %) and zero lowercase j/q confirmed by script for all 100 rows.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

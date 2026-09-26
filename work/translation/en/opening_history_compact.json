@@ -1,0 +1,67 @@
+{
+ "version": "0.1.26",
+ "note": "Tightened wording of opening_history.json (0.1.12) so the crawl fits the original table size and the original line span, IDs 11-81. Same facts, same order, same headings. Lowercase j and q avoided except in the locked name Project Super Nova.",
+ "review": {
+  "status": "meaning_reviewed",
+  "agent": "review_history_compact_026",
+  "paragraphs_examined": 16,
+  "paragraphs_in_file": 16,
+  "source_rows": 39,
+  "defects_fixed": [
+   "S1 P1: among -> involving and the added \"other\" removed (three separate parties converge in one war)",
+   "S1 P4: joint -> one government (stray lowercase j; three parties, one government)",
+   "S2 P4: begins reorganizing restored (source says the reorganization starts); After postwar cleanup"
+  ],
+  "uncertainties": [
+   "S1 P3 \"Its leader\" could attach to the Coup; Kusakabe led the Jovian Federation and the coup was against him",
+   "auxiliary force for a unit outside the regular command structure",
+   "Poor support narrows a general word for handling/response",
+   "crisis slightly heightens a word for situation",
+   "transport-route is a gloss; the disc text only says route development plan",
+   "last heading moved from slot 78 to 77 so the two-line paragraph still ends on the original last line"
+  ],
+  "limits": "Meaning review only; not seen on screen."
+ },
+ "sections": [
+  {
+   "heading_slot": 10,
+   "heading": "Unified Calendar 058",
+   "paragraphs": [
+    "The great war involving the Zentradi fleet, the Jovian Federation and invaders from outer space ends. It is later called the First Defense War.",
+    "Earth makes peace with the Zentradi.",
+    "The Hot-Blooded Coup erupts in the Jovian Federation. Its leader, Vice Admiral Kusakabe, goes missing, and young peace advocates take over.",
+    "This brings peace between Earth and the Jovian Federation. With the Zentradi, the three form one government, the Earth Federation.",
+    "Zentradi naturalization program begins, with micronization for any who wish.",
+    "Work begins on the Hisago Plan, a transport-route program to build a Boson Jump network across the solar system.",
+    "The Earth Federation puts economic sanctions on anti-Federation colonies and the former Giganos Empire."
+   ]
+  },
+  {
+   "heading_slot": 40,
+   "heading": "Unified Calendar 059",
+   "paragraphs": [
+    "Megaroad-01, the first super-long-range emigration fleet, departs. Macross City is founded, with the retired Macross kept there as a symbol of peace.",
+    "The Earth Federation builds Sweetwater to house First Defense War refugees.",
+    "Poor support for resettlement on Earth leads to riots by Zentradi immigrants.",
+    "After postwar cleanup, the Earth Federation starts reorganizing its military. Londo Bell is formed as an auxiliary force to keep order in the Earth Sphere.",
+    "Project Super Nova begins, to select the next-generation Valkyrie."
+   ]
+  },
+  {
+   "heading_slot": 63,
+   "heading": "Unified Calendar 060",
+   "paragraphs": [
+    "The battleship Nadesico B enters service.",
+    "A small meteorite on an untraced path falls to Earth. Unidentified life forms emerge from it, and their attacks cause growing damage in many regions.",
+    "The Earth Federation orders its military to handle the crisis. Londo Bell forms a special investigation team."
+   ]
+  },
+  {
+   "heading_slot": 77,
+   "heading": "January of the Same Year",
+   "paragraphs": [
+    "One of the largest meteorites on record strikes Saint Cruz."
+   ]
+  }
+ ]
+}

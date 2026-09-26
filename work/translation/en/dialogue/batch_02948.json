@@ -1,0 +1,539 @@
+{
+  "slice_start": 2948,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      2933,
+      3042
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_02978",
+        "dialogue_02979",
+        "dialogue_02980",
+        "dialogue_02981",
+        "dialogue_02982",
+        "dialogue_02983"
+      ],
+      "note": "Speaker for 2978-2979 and 2982-2983 inferred to be Luxe (she calls King Sakomizu 'my father' and later 'his daughter'); 2980-2981 inferred to be Asap answering her (he addresses her as Luxe). Not tagged in the table; inferred from content and pronoun/name usage only."
+    },
+    {
+      "ids": [
+        "dialogue_02985",
+        "dialogue_02986"
+      ],
+      "note": "Both lines have unidentified speakers (one tells Asap to let Luxe go; another apologizes for interrupting). No identity assumed."
+    },
+    {
+      "ids": [
+        "dialogue_03017"
+      ],
+      "note": "'Komon-jin' (Byston Well 'Common person') has no established English rendering anywhere in the project glossary or encyclopedia; translated literally as 'commoner' rather than inventing a lore term such as 'native'. Flagged as a glossary proposal for centralized decision."
+    },
+    {
+      "ids": [
+        "dialogue_03007"
+      ],
+      "note": "'Aura Road' (oora rodo) is a Dunbine/Byston Well franchise term with no prior project glossary entry; rendered per wiki sources and proposed for the glossary."
+    },
+    {
+      "ids": [
+        "dialogue_02972"
+      ],
+      "note": "'Aura Battler' (oora batora) already appears in character_names_021.json role descriptions but has no dedicated glossary term entry; proposed for formal addition."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source by console snippet: 80/80 equal, including the long unterminated <on()> stretch from 3003-3027 that has no <ab()>/<ed()>/<off()> in the source and none was added.",
+    "fit": "No newline in any target; longest visible text is within 110 characters; no over-limit rows.",
+    "glyphs": "ASCII only; no lowercase j or q outside locked names/terms (Jacoba Aon, LFO exempted as locked/acronym); no bare percent sign.",
+    "ids": "80/80 ids present (dialogue_02948-dialogue_03027), none duplicated.",
+    "meaning_review": "Independently reviewed against the Japanese source (console slice, context 15); 80/80 rows examined, 1 meaning fix (dialogue_03017: 'commoner' -> 'Common folk' per orchestrator ruling on komon-jin), 0 rows left as draft. See review_02948.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_02948",
+      "target": "<sp(20)>I won't accept it! How could I possibly accept it!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02949",
+      "target": "<sp(20)>If this is the world that was born from the results of that old war...!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02950",
+      "target": "<sp(20)>Then I will punish these people myself!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02951",
+      "target": "<op()><sp(20)>But that would only spread the fighting further!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02952",
+      "target": "<op()><sp(20)>The Wings of Rean, together with the Oukaou's power, guided me to the surface world!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02953",
+      "target": "<sp(20)>Then that power can still be used!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02954",
+      "target": "<op()><sp(20)>That's wrong! Please don't assume that!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02955",
+      "target": "<op()><sp(20)>Enough of your prattling!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02956",
+      "target": "<op()><sp(20)>If I leave the Earth as it is, I can't make it up to those who died!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02957",
+      "target": "<op()><sp(20)>To those who fought together to protect our country and died, I mean!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02958",
+      "target": "<op()><sp(20)>Those who died are the past! You mustn't wield the power of the past!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02959",
+      "target": "<op()><sp(20)>Then perish! Become a fragment of the Wings of Rean!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02960",
+      "target": "<op()><sp(20)>Power is something wielded to build the future!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02961",
+      "target": "<op()><sp(20)>I will strike down the surface-dwellers with the will of the Wings of Rean!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02962",
+      "target": "<op()><sp(20)>Therefore, nothing can stop me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02963",
+      "target": "<op()><sp(20)>Father...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02964",
+      "target": "<op()><sp(20)>Are you people my enemies too?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02965",
+      "target": "<op()><sp(20)>The enemy seems to be skilled in close combat. Fight carefully!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02966",
+      "target": "<op()><sp(20)>What are these guys?!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02967",
+      "target": "<sp(20)>They just show up out of nowhere, I don't get it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02968",
+      "target": "<op()><sp(20)>You vulgar wretch! Have some shame!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not identified; addressee not identified. Rendered as a generic insult without assigning identity to either party."
+    },
+    {
+      "id": "dialogue_02969",
+      "target": "<op()><sp(20)>Whoa!? What movement...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02970",
+      "target": "<op()><sp(20)>Barrel, calm down! If you panic, you'll lose!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02971",
+      "target": "<op()><sp(20)>I know!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02972",
+      "target": "<op()><sp(20)>Is this thing... an Aura Battler?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02973",
+      "target": "<op()><sp(20)>This one moves differently...! Interesting!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02974",
+      "target": "<op()><sp(20)>I won't let you have your way!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02975",
+      "target": "<op()><sp(20)>Ugh, buzzing around like that! What annoying pests!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02976",
+      "target": "<op()><sp(20)>That nimbleness is a good match for an LFO!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02977",
+      "target": "<op()><sp(20)>Dammit! A Getter can keep pace chasing them too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02978",
+      "target": "<op()><sp(20)>My father... King Sakomizu is caught in delusions of the past and trying to become a bringer of chaos.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Resource 6090 mixes at least three separate mini-scenes (HQ combat alerts, an Eureka Seven/Dragonar banter aside, and this Wings of Rean father-daughter/Byston Well arc); this row begins the Sakomizu/Luxe/Asap thread. Speaker is Luxe (referring to 'my father... King Sakomizu'), inferred from 2982-2983 where she calls herself 'his daughter' and addresses Asap by name."
+    },
+    {
+      "id": "dialogue_02979",
+      "target": "<sp(20)>I have to stop him... before he's consumed by Jacoba Aon's wrath.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Jacoba Aon spelled per Byston Well/Dunbine sources; not previously in project glossary. See glossary proposal."
+    },
+    {
+      "id": "dialogue_02980",
+      "target": "<op()><sp(20)>No, Luxe.<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02981",
+      "target": "<sp(20)>Killing one's own parent is what evildoers do!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02982",
+      "target": "<op()><sp(20)>Even so, I'm the only one who can correct that man's ambition--his own daughter!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02983",
+      "target": "<sp(20)>Asap, even if you won't help me, I will see this through myself.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02984",
+      "target": "<op()><sp(20)>Eh, whoa... wait a second...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02985",
+      "target": "<op()><sp(20)>Let her go, Asap.<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not identified (imperative addressed to Asap by name); could be Luxe herself or a third party. Left as a bare imperative, no speaker assumed."
+    },
+    {
+      "id": "dialogue_02986",
+      "target": "<op()><sp(20)>Sorry to interrupt.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker interrupting the conversation is not identified in-row."
+    },
+    {
+      "id": "dialogue_02987",
+      "target": "<on()><sp(20)>So this is... this is the surface world...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02988",
+      "target": "<on()><sp(20)>I can't believe it...! Is this what the surface world has become...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02989",
+      "target": "<on()><sp(20)>Do people still fight each other, burning their own people and cities?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02990",
+      "target": "<on()><sp(20)>Enough!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02991",
+      "target": "<on()><sp(20)>How foolish...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02992",
+      "target": "<on()><sp(20)>King Sakomizu!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02993",
+      "target": "<on()><sp(20)>Father!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02994",
+      "target": "<on()><sp(20)>King Sakomizu...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02995",
+      "target": "<on()><sp(20)>Stay back!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02996",
+      "target": "<on()><sp(20)>If you cannot agree with my thinking, then you have no reason to come with me!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02997",
+      "target": "<sp(20)>This is the Earth Federation vessel Nadesico B. I am its captain, Ruri Hoshino.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02998",
+      "target": "<sp(20)>If you don't mind, I'd like you to come aboard and tell us what happened.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02999",
+      "target": "<op()><sp(20)>Enemy cannon suppressed!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03000",
+      "target": "<op()><sp(20)>Successfully suppressed the enemy cannon!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03001",
+      "target": "<op()><sp(20)>The enemy is falling back.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03002",
+      "target": "<op()><sp(20)>Excellently done.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03003",
+      "target": "<on()><sp(20)>First, I want to ask. Where did you come from?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03004",
+      "target": "<on()><sp(20)><book(36)>Byston Well<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03005",
+      "target": "<on()><sp(20)>What did you say?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03006",
+      "target": "<on()><sp(20)>A world caught between the sea and the earth... would that make sense to you?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03007",
+      "target": "<on()><sp(20)>We came from <book(36)>Byston Well<endbook()>, through the Aura Road.",
+      "status": "meaning_reviewed",
+      "notes": "Aura Road (oora rodo) rendered per Dunbine/Byston Well sources; not previously in project glossary. See glossary proposal."
+    },
+    {
+      "id": "dialogue_03008",
+      "target": "<on()><sp(20)>I know of it. In the past, I fought alongside a Holy Warrior who came from there.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03009",
+      "target": "<on()><sp(20)>Then, you know about it?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03010",
+      "target": "<on()><sp(20)>Yes. Though it feels slightly different from the <book(36)>Byston Well<endbook()> we know.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03011",
+      "target": "<on()><sp(20)><color(4)>Asap<ce()>. Who is this King <color(5)>Sakomizu<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03012",
+      "target": "<on()><sp(20)>That is my father, <color(5)>Shinjiro Sakomizu<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03013",
+      "target": "<on()><sp(20)>Seeing how much the surface world had changed, my father seemed to grieve...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03014",
+      "target": "<on()><sp(20)>Changed surface world...? Does your old man know this world?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03015",
+      "target": "<on()><sp(20)>King <color(5)>Sakomizu<ce()> and I were originally people of this world.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03016",
+      "target": "<on()><sp(20)>King <color(5)>Sakomizu<ce()> was sent to <book(36)>Byston Well<endbook()> a long time ago.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03017",
+      "target": "<on()><sp(20)>I was born to a surface-dweller father and a mother of the Common folk from <book(36)>Byston Well<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Meaning fix: source term komon-jin is the Byston Well human race; orchestrator ruling renders it 'Common folk' (accepted term), replacing the literal 'commoner'. Speaker is Luxe (daughter of a surface-dweller father and a Common-folk mother from Byston Well), inferred from established relationships, not stated by name in this row."
+    },
+    {
+      "id": "dialogue_03018",
+      "target": "<on()><sp(20)>King <color(5)>Sakomizu<ce()> is king of Hojo in <book(36)>Byston Well<endbook()>. <color(4)>Luxe<ce()> is its princess.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03019",
+      "target": "<on()><sp(20)>A-a princess...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03020",
+      "target": "<on()><sp(20)>From what I've heard, this does seem to be a world different from the <book(36)>Byston Well<endbook()> we know.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03021",
+      "target": "<on()><sp(20)>Don't tell me... is this the effect of our worlds starting to connect?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03022",
+      "target": "<on()><sp(20)>I can't say for certain... but that's possible too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03023",
+      "target": "<on()><sp(20)>What do you two plan to do from here?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03024",
+      "target": "<on()><sp(20)>King <color(5)>Sakomizu<ce()> surely intends to invade the surface world... I have to stop him.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03025",
+      "target": "<on()><sp(20)>Isn't that right, <color(4)>Luxe<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03026",
+      "target": "<on()><sp(20)>Yes.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03027",
+      "target": "<on()><sp(20)>A request to question the two of you has come from <book(9)>Federation<endbook()> headquarters.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

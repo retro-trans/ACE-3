@@ -1,0 +1,454 @@
+{
+ "resource_id": 4004553,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 47,
+ "rows_examined": 47,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(25010,1)><speed(2)>Finally, this moment's here. Time to pay you back for wrecking that trial!",
+   "notes": "'trial' = the Trial that selected the YF-19/YF-21 (encyclopedia_022 text_id 85); kept lowercase to match that rendering.",
+   "source_sha256": "87cf1d77dcbee4c57aa2f5584a9b636a21b27ce5bf452c8855653a00b8657bec"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(25020,1)><speed(2)>Calm down, <color(4)>Isamu<ce()>. This is a dangerous opponent.",
+   "notes": "",
+   "source_sha256": "c3a6ca31daca2c73afa142b4fb895ab038e726e5a0b10ee10d626ff0a60251c0"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(25010,1)><speed(2)>Like hell I can calm down. I definitely had that win.",
+   "notes": "",
+   "source_sha256": "2eee30a9c55bc4514bacdd77473127e822274b4830ea9d32f52a66e5f8c487a6"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(25020,1)><speed(2)>No, it was my win.",
+   "notes": "",
+   "source_sha256": "df051b71ddd3bf9fd9d71b3cbb592b05ff15809eaa91f26d25a6c9d379b6bb4a"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(25010,1)><speed(2)>What'd you say?!",
+   "notes": "",
+   "source_sha256": "19744cf7560eeab240543eb71ba848aae7c5182365d3db4ddf270f3eb4a16700"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12061,2)><speed(2)>Okay! That's enough!",
+   "notes": "",
+   "source_sha256": "3d57ceeadbc46fea8202f8c92705a60466f8244714abf21e1c778df97de48365"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12071,1)><speed(2)>No fighting while we're working.",
+   "notes": "",
+   "source_sha256": "acc8027b582bc5fa94a534298dd59a3c0ced874ccb671f7c629ce4d69f9b3681"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12061,1)><speed(2)>Ahaha. Hi there. Backup number one, <color(4)>Hikaru Amano<ce()> here!",
+   "notes": "",
+   "source_sha256": "728ffc289c1aedc1c4a2120266b4b4daea67e8978a0642547319b2c4483c106b"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12071,1)><speed(2)>Likewise, number two... <color(4)>Izumi Maki<ce()>.",
+   "notes": "",
+   "source_sha256": "a95862d11c224e82c16586c482f03269f09e21995b0e2a42c054642298fb6307"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(25020,1)><speed(2)>So you're the pilots that Lt. Cmdr. <color(4)>Hoshino<ce()> recommended.",
+   "notes": "'Lt. Cmdr. Hoshino' per locked shousa rendering (terms_028, matches 4004463).",
+   "source_sha256": "88c47d45d64099908a8723a55244053bf3206b28caf34860c36d18e78cce522c"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(12061,1)><speed(2)>That's right! Along with <color(4)>Ruri-Ruri<ce()>, nice to meet you!",
+   "notes": "'Ruri Ruri' is Hikaru's affectionate doubling of Ruri (Hoshino); rendered 'Ruri-Ruri'.",
+   "source_sha256": "524b45a99099063cf5a2aa5483c0fed04f3fbbd8440822d2f47af42de302e2e0"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(21010,1)><speed(2)>Are the people called <color(4)>Skull Squadron<ce()> also comrades who fought alongside you?",
+   "notes": "'Skull Squadron' per Macross role wording already used for Hikaru Ichijyo/Max/Roy Focker in character_names_021.",
+   "source_sha256": "062d381c97b61553e03ca95b6e9b13c6a2e12f62f5731483e44201cd0c2bb91b"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(5010,1)><speed(2)>Yeah. <color(4)>Skull Squadron<ce()> was stationed aboard the <color(4)>Macross<ce()> back then.",
+   "notes": "",
+   "source_sha256": "29d578803bfde6b7e6dd1c6e04073888acdd5228389923740d866c51c2a45764"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(1020,1)><speed(2)>Once they heard the <color(4)>Macross<ce()> was in danger, I doubt they could sit still.",
+   "notes": "",
+   "source_sha256": "bd5a2a88549b021ea3a7ee03fb0f7d5713346af0a4f1414275583766c2a58e86"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(1020,1)><speed(2)>Their skills are considerable too.",
+   "notes": "",
+   "source_sha256": "b38ad6c0cea9ca67a830f7aef281acbc19b63058ee6a728cd39fdc700d05c683"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(1020,1)><speed(2)>...Though their personalities might be a little odd.",
+   "notes": "",
+   "source_sha256": "ef0aa47f1a933e9fbf5425a918fd177994fe1e12d86b496ec2f919bc9a3956ef"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(21010,1)><speed(2)>I-is that so...",
+   "notes": "",
+   "source_sha256": "447d26180bd444cf2ec8820182d2ae9ca1f81b5fe8311cf7822ccbe1d97c1aa2"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Marina<ce()>, do you know anything about that <color(5)>black unit<ce()>?",
+   "notes": "'-san' on Marina dropped per corpus convention; 'black unit' is a plain descriptor, not a proper noun.",
+   "source_sha256": "8726c68043bd49652c2315796ad36d211d83692ec015fd848fea3e772d7eb9ae"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1020,1)><speed(2)>No... From what I hear it doesn't even have a Guardian, so it's a different beast from this <color(4)>Gun Ark<ce()>.",
+   "notes": "'Guardian' short for the locked 'Guardian System' (encyclopedia_021_a).",
+   "source_sha256": "89c8d5bee60dd3a9b9e7df6ef851a1fd013a60b1935b58a0d227d47aa5e12367"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1020,1)><speed(2)>Everyone here is struggling against it, so it's possible it's exceeding its original specs.",
+   "notes": "",
+   "source_sha256": "303c6c0ced95ad3ae8e610f7aaa70a106e9cb369c42c0911512351e5fb786dac"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>Can we even beat a machine like that...",
+   "notes": "",
+   "source_sha256": "9eaeb98ec0b39811643590ae7ae947eb40a6b330dba5248e2b9f6c57aa69d792"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1020,2)><speed(2)>It'll be fine. You've survived this far, so have some confidence in your skill.",
+   "notes": "",
+   "source_sha256": "a6e32928697b0315719aef6ce66f418a47949a3aaf86e10163d791bef171497a"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>...Right!",
+   "notes": "",
+   "source_sha256": "41e66f8d621f88230eeafa628866875002b230815c8c234ca5f136cdd311f8e2"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(25010,2)><speed(2)><color(4)>Guld<ce()>, follow behind me like a little chick, would you?",
+   "notes": "",
+   "source_sha256": "ef23b167ac9f27021ed153964f5126ed5546aafd877949779d8b700200f289e7"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(25020,1)><speed(2)>So worried about your own back, huh? Guess I could watch it for you, then.",
+   "notes": "",
+   "source_sha256": "d4dc0a62c475a11957ca1e057f3a608f861f9d261eefb1ff30c8a1c2780f20b0"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(25010,1)><speed(2)>What did you say?!",
+   "notes": "",
+   "source_sha256": "64729a58ee066c76a85624b23b7f4f3af6ee09ccd0dbf44c3c213c0d24f2952d"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(25020,1)><speed(2)>What are you getting mad about? You're the one who told me to guard your back.",
+   "notes": "",
+   "source_sha256": "d88b93f0fe4c9767418c975555d916ab71916a8793169ecc756975d0f7f003ad"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(25010,1)><speed(2)>You never shut up, do you! And another thing, you...",
+   "notes": "",
+   "source_sha256": "d54bb0e2ce7c9360c7a506586407fb9568007a1b64e066043ec81cccc961ef19"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(21030,1)><speed(2)>All right, break it up, you two lovebirds!",
+   "notes": "'nakayoshi' (getting along so well) said sarcastically about their bickering; rendered as 'lovebirds' teasing.",
+   "source_sha256": "bd6dd4227dcd06b594c5dada5f9b7d02662bc415e625520321ac68f8d1238c87"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(21020,1)><speed(2)>So the enemy's a drone running on AI. What do you think, <color(4)>Gainer<ce()>?",
+   "notes": "",
+   "source_sha256": "fb81162da72d8080fa1defc262707f3d1e6a7d8d8b96cacc6d39606820f16662"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(21010,1)><speed(2)>What do I think... I fight stuff like that all the time in games, so it doesn't scare me.",
+   "notes": "",
+   "source_sha256": "5279f8363a25d155c666c8dc39640f1c976c3593ba3752bdf031cf9dbca71b72"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(21010,1)><speed(2)>When it comes to reading movement, no way it can match a human.",
+   "notes": "",
+   "source_sha256": "dbec82685356f994d190307535a557a4d23a4b9d685cb13dda713b543710d484"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(21030,1)><speed(2)>That's a real gamer's way of thinking.",
+   "notes": "",
+   "source_sha256": "01c675a1a3d4cb8f35bff15d4e28753f7de1945453c3d596901337db2469cdcf"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(21020,1)><speed(2)>Reality doesn't work out that easily.",
+   "notes": "",
+   "source_sha256": "f474edc48124c327aea6d5fee6852c5767fe17183661a085691e48d57356cc3f"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(21010,1)><speed(2)>I know that. I've racked up plenty of battle experience myself.",
+   "notes": "",
+   "source_sha256": "901835cdfdeb8381ed314bacdaa03b39c2bb09fd214506ed73e99170e187dc4d"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(12051,2)><speed(2)>Hey, you two have been out of it a while - you gonna be okay?",
+   "notes": "",
+   "source_sha256": "4b3b81d3b75689b1523f6ef4ceeac344a9039546d2c1ad045c25113dc1cf5ba0"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(12061,1)><speed(2)>It's fine, it's fine! Bring on the drone fighters, whatever!",
+   "notes": "",
+   "source_sha256": "393a992f6e0dbd0c920f127c149079c8c71ea69c94d7f8404f11cfa39fa14d87"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(12071,1)><speed(2)>This kind of thing is like riding a bike. Once you learn it, you never forget.",
+   "notes": "",
+   "source_sha256": "b4ce92645819a18e5ad5236c538b5ac013b55efd60e4fe3b0a0c06e0020bb448"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(12061,2)><speed(2)>Besides, if they're calling in even me, Earth must be in pretty serious trouble, huh?",
+   "notes": "",
+   "source_sha256": "ffed241ee214c17c3bb15ec60f022f40dca3d1d022dc953fb582626ec3a3d793"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(12051,2)><speed(2)>Yeah... pretty much.",
+   "notes": "",
+   "source_sha256": "cc51c53daa1f3808e3731b641d293c35b86306baaef5011e4ac95106d60e6bee"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(12061,1)><speed(2)>Then I'd better give it my all here, or I won't be able to draw manga in peace!",
+   "notes": "",
+   "source_sha256": "93960e20ba35b3685fe6edd49a91eb7d37a3d34e361f7582596131290360f517"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(10020,2)><speed(2)><color(4)>Hikaru<ce()>, <color(4)>Izumi<ce()>! Been a while!",
+   "notes": "'-chan' on both names dropped per corpus convention.",
+   "source_sha256": "41ff822aa67861634b0fe0295649da3871646f03210826bef4fe442aebcb9919"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(12061,1)><speed(2)>Ahaha! It's been a while!",
+   "notes": "",
+   "source_sha256": "3d89933771804cb3d5977f4bff46642c1a438c567908f521df14badaefee3c87"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(10020,2)><speed(2)>Bet it's been a while since your last battle - you doing okay?",
+   "notes": "",
+   "source_sha256": "12e704ca84edf63b5fc747e4268bdc09172f74f59d3d140c6ccf0307c4ebb4b7"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(10010,2)><speed(2)>If it looks bad, we'll back you up, so don't hesitate to call out, okay?",
+   "notes": "",
+   "source_sha256": "0eb2124e4fb365ebec629a530a08ba6a41dc4a9d5d40de1eac6ecb4bf33a234b"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(12061,1)><speed(2)>It's fine, it's fine! I haven't gotten that rusty!",
+   "notes": "",
+   "source_sha256": "62133e5b66bf37160d3e6ff35fb29d842d664ccf40eb640041933b97daa0a814"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(12071,1)><speed(2)>Old skills die hard, as they say.",
+   "notes": "'mukashi totta kinezuka' idiom (a skill once mastered is never lost) rendered as the closest English idiom.",
+   "source_sha256": "150b7a6cc270fc89df273f40d93fb770f3bcc5b1193edee80df980a6e1773418"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 19,
+   "issue": "'trial' = the Trial that selected the YF-19/YF-21 (encyclopedia_022 text_id 85); kept lowercase to match that rendering."
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "issue": "'Lt. Cmdr. Hoshino' per locked shousa rendering (terms_028, matches 4004463)."
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "issue": "'Ruri Ruri' is Hikaru's affectionate doubling of Ruri (Hoshino); rendered 'Ruri-Ruri'."
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "issue": "'Skull Squadron' per Macross role wording already used for Hikaru Ichijyo/Max/Roy Focker in character_names_021."
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "issue": "'-san' on Marina dropped per corpus convention; 'black unit' is a plain descriptor, not a proper noun."
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "issue": "'Guardian' short for the locked 'Guardian System' (encyclopedia_021_a)."
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "issue": "'nakayoshi' (getting along so well) said sarcastically about their bickering; rendered as 'lovebirds' teasing."
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "issue": "'-chan' on both names dropped per corpus convention."
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "issue": "'mukashi totta kinezuka' idiom (a skill once mastered is never lost) rendered as the closest English idiom."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 47,
+  "rows_in_scene": 47,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/19 'trial' kept lowercase: verified verbatim against encyclopedia_022.json's own rendering ('A trial held by the Earth Federation Forces to select the next-gen[eration]...'). Accepted.",
+   "0/28 'Lt. Cmdr. Hoshino': verified against the corpus - identical rank+name used in 4003040, 4003070, 4004453 and 4004463 ('Lt. Cmdr. Hoshino, still no idea...'). Accepted (the draft's note cites terms_028, but the actual precedent is the reviewed corpus / meeting_terms_015; ruling still holds).",
+   "0/29 'Ruri-Ruri' (Hikaru's affectionate doubling of Ruri Hoshino): accepted per task ruling.",
+   "0/30-31 'Skull Squadron': accepted per task ruling; matches the Macross role wording already used for Hikaru Ichijyo/Max/Roy Focker in character_names_021 (entries 23-25).",
+   "1/19 '-san' dropped on Marina, 'black unit' as a plain descriptor (not a proper noun): accepted.",
+   "1/20 'Guardian' as short form of the locked 'Guardian System' (encyclopedia_021_a): accepted.",
+   "1/64 'nakayoshi' (said sarcastically about Isamu/Guld's bickering) rendered 'lovebirds': matches Sara Kodama's teasing tone (glossary entry 73). Accepted.",
+   "1/179 '-chan' dropped on both Hikaru and Izumi per corpus convention. Accepted.",
+   "1/184 'mukashi totta kinezuka' idiom rendered 'Old skills die hard, as they say': faithful idiom match. Accepted.",
+   "Checked every row's speaker id against speaker_lookup.py and character_names_021/glossary.json for gender and role (Isamu/Guld male, Hikaru/Izumi/Marina/Ryoko/Sara female, Gainer/Gain male); no mismatches found.",
+   "Scanned all 47 rows for lowercase j/q outside locked names: none found (the only 'q' in the scene is inside 'Squadron', part of the accepted locked term 'Skull Squadron').",
+   "Re-ran the console check: all <...> commands identical and in source order, no newlines, ASCII only, all visible text <=120 chars, no bare %."
+  ],
+  "remaining_uncertainties": []
+ }
+}

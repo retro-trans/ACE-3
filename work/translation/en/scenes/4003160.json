@@ -1,0 +1,270 @@
+{
+ "resource_id": 4003160,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 28,
+ "rows_examined": 28,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "13  Atmospheric Entry",
+   "notes": "Released mission title reused.",
+   "source_sha256": "b1f5f0e5191e8ee822d5a08736906e1f9117e287f08a029474ac60ad82c1ab01"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30050,1)><speed(2)>Everyone. Right now, an urgent situation has come up, so let me get straight into the briefing.",
+   "notes": "",
+   "source_sha256": "9ed19555f5e073c6c67ea7c6e912c456abb888084d5dc09d569592e9600597ab"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30050,1)><speed(2)><book(12)>Neo Zeon<endbook()>, former <book(18)>Giganos<endbook()>, and the <book(29)>Martian Successors<endbook()> have united<thumbnail(229)> and begun full-scale hostilities against the <book(9)>Federation<endbook()>.",
+   "notes": "Martian Successors per character_names_021 (org.martian_successors, locked). 'former Giganos' for kyuu-Giganos per character_names_021 role note on the faction. Dropped 'the three of them' (san-sha) to fit the 128-char limit; 'united' used instead of 'joined forces'/'banded together' to avoid the j while staying under 128 chars; thumbnail(229) moved to the equivalent point.",
+   "source_sha256": "cc0cf211a957b657c153bc83b1c0712d80aac176db44c35ae17aabf9efb89fa7"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30050,1)><speed(2)>In response, the <book(9)>Federation<endbook()>'s countermeasures have been a step behind at every turn.",
+   "notes": "",
+   "source_sha256": "82d4d751b9f383200b5dbc48970d6cc452c131b96fd82190ad7b6c7a6ed70212"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30050,1)><speed(2)>The <book(24)>terminal colony<endbook()> \"<book(26)>Amaterasu<endbook()>\" was attacked, and the computing unit that controls the <book(30)>Boson Jump<endbook()> was stolen.",
+   "notes": "Amaterasu = terminal colony per glossary.json loc entry.",
+   "source_sha256": "0b7cbcc044ddb960966df1b26df06588087431646ca2eba5c9ec9738be4351b7"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30050,1)><speed(2)>And now, using the <book(30)>Boson Jump<endbook()>, they are launching surprise attacks on <book(9)>Federation<endbook()> facilities everywhere.",
+   "notes": "",
+   "source_sha256": "b862b49b48315984b3facbb804589e1bc3bb214b8a019ebf1f5a1792e53464a0"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30050,1)><speed(2)>And the moment they gained the upper hand, they seized what may be called a symbol of Earth itself - the <book(33)>Macross<endbook()><thumbnail(244)>!",
+   "notes": "",
+   "source_sha256": "20b4a657f722dd86337d9affd12dbec9906081533be47231dcd15f9ae2809477"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30050,1)><speed(2)>The <book(33)>Macross<endbook()>'s internal main computer oversees the <book(9)>Federation<endbook()> forces' military network.",
+   "notes": "",
+   "source_sha256": "1efa4adda6c629a883b05ed6e3d6e5b5b1851a66c482a771d299f0c7c8ea6aba"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30050,1)><speed(2)>If they seize control of it, every defense system tied into that military network will fall into their hands.",
+   "notes": "",
+   "source_sha256": "382ce7bf904aa580459970ecc8097e8e4a3aee9e46195aa7c1acf8a9b7eb3989"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30050,1)><speed(2)>What's more... as you all know, the <book(33)>Macross<endbook()> is a giant warship whose main gun can destroy even an asteroid...",
+   "notes": "",
+   "source_sha256": "6f8a56bcbf2ca4bce2b47cc0dea5b9139f25cc93fa5ca916d1a2ec566863b9fc"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30050,1)><speed(2)>It is also the political symbol that brought the <book(4)>First Defense War<endbook()> to an end.",
+   "notes": "Source book(4) span here does include 'dai-ichiji' ('First'); rendered as the locked book(4) term 'First Defense War', consistent with both the literal source and the encyclopedia_022 precedent for this book id.",
+   "source_sha256": "68ea8addb2fa1d9822897f880e939bb14f896e9f7a34b0ae784574b08a4b55d9"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30050,1)><speed(2)>If they deploy it as a fighting force... the blow we'd take, both material and psychological, would be beyond measure!",
+   "notes": "Compressed to fit the 128-char limit; meaning unchanged.",
+   "source_sha256": "bd934086ba1d4d9e2360230be9eed15b85216ecae0cd449cb88c03188d04e16b"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<thumbdown()><operator(30050,1)><speed(2)>Our forces must throw everything we have into retaking the <book(33)>Macross<endbook()>.",
+   "notes": "",
+   "source_sha256": "3dfb3b2f03fdf9edda7c5d6c97f14904414d536dea3a05f15fbab408ba777e72"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<topic()><operator(30030,1)><speed(2)>From here<thumbnail(231)>, we will enter the atmosphere from satellite orbit and head straight for <book(88)>Macross City<endbook()>.",
+   "notes": "",
+   "source_sha256": "e9e2b61bcc0e2984024e6809e7944e27433dada9da6aad080d0098add107f01e"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30030,1)><speed(2)>However, to block our advance, <color(5)>enemy forces<ce()> are deployed in satellite orbit.",
+   "notes": "",
+   "source_sha256": "88ba64a9fc3a76ac2dfa0c965ad69d0d3f9aa6b8fcebe0540b6473864e0c9272"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30030,1)><speed(2)>What's more... hacking of the <book(9)>Federation<endbook()>'s military network has progressed, and part of its control has already been seized.",
+   "notes": "",
+   "source_sha256": "ef380f8073f7c34e0ccb1f4b5dc2cb6c8b97ad1d22d07b60776c6cbbbdfa4846"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30030,1)><speed(2)>Because of that, the <book(9)>Federation<endbook()> forces' defense systems deployed in satellite orbit are now aiming their guns at us.",
+   "notes": "",
+   "source_sha256": "cf31e786981cdef4fd0b32fba5bc8d05054aa81cbd2ccb3d729fc2c0a7d9a896"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>It is an extremely troublesome situation, but we have no choice. Let's force our way through to retake the <book(33)>Macross<endbook()>.",
+   "notes": "",
+   "source_sha256": "e7dbf9d47352368694e11b8638ec59521fc56ddfd6c6fdf3c5bcd318a8c16be3"
+  },
+  {
+   "table": 1,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<topic()><operator(30030,1)><speed(2)>Also, there's one more important announcement.",
+   "notes": "",
+   "source_sha256": "eea81efb03e0a9106eeba666bb8fbb4b2a8bbc32124ec1430e28dd2cc01aaf3b"
+  },
+  {
+   "table": 1,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(30030,1)><speed(2)><color(4)>Harry<ce()> and I are heading to the <book(31)>Nergal<endbook()> Dock on the Moon to receive the <book(21)>Nadesico C<endbook()><thumbnail(232)>, so we'll be stepping away for a while.",
+   "notes": "Harry per character_names_021 (Hari Makibi, en_short Harry, nickname given by Ruri). Nergal per Nergal Heavy Industries (encyclopedia_021_a).",
+   "source_sha256": "17d5f21c8aebfc5c692408466da5ce09c2031bf000077131b89b8ef6c4064c8b"
+  },
+  {
+   "table": 1,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(30030,1)><speed(2)>The situation calls for urgency, but the <book(21)>Nadesico C<endbook()> is needed for the battles ahead. We will catch up, so please wait for us.",
+   "notes": "Compressed to fit the 128-char limit; meaning unchanged.",
+   "source_sha256": "b76032a97ee8041d8f1908621487933a8c727f166ed216fbc481e50f3c704256"
+  },
+  {
+   "table": 1,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>In exchange... though it may not be much of one, I've already reached out to some former <color(4)>Nadesico crew<ce()>.",
+   "notes": "'Nadesico crew' descriptive, referring to the film's Aestivalis pilots (Hikaru Amano, Izumi Maki - see 4003170 slot 30).",
+   "source_sha256": "344aec96fe9366cc9c7c7cf408b7d63708f799d7953dc5494d5d89343e18b496"
+  },
+  {
+   "table": 1,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(30030,1)><speed(2)>They're a bit unusual people, but their skill is certain.",
+   "notes": "",
+   "source_sha256": "a8cc158f51c6c4cdc3c7d80ac2c173a7d5d0fb7a5e98bb5bcf56c593266381e3"
+  },
+  {
+   "table": 1,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<operator(30030,1)><speed(2)>They are set to link up after we descend to the ground, so please look after them.",
+   "notes": "'link up' used in place of 'join up' to avoid the j.",
+   "source_sha256": "3ca69d059123324cc5c63d23a1a60343f74b20543163df3226f25b617ffe6fda"
+  },
+  {
+   "table": 1,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<topic()><operator(30060,1)><speed(2)>The <color(4)>Nadesico<ce()>'s absence is a blow, but time is short as well. We're moving out now.",
+   "notes": "",
+   "source_sha256": "e73217e02154dc1c9af81d5293e54163163a442f21692f686be3957a843c1fdc"
+  },
+  {
+   "table": 1,
+   "slot": 43,
+   "text_id": 44,
+   "en": "<topic()><operator(30000,1)><speed(2)><color(4)>Barrel<ce()>. Tuning on the <color(4)>Ixbrau<ce()>'s additional parts<thumbnail(247)> is complete.",
+   "notes": "'Additional parts' (tsuika parts) kept distinct from the 'refit parts' (kansou parts) of 4003030; different source term. 'Tuning' used in place of 'Adjustments' to avoid the j.",
+   "source_sha256": "507337fd7ff8af31e5c7786220adbc7d4c010de7d2da603ca3bdf224dc890472"
+  },
+  {
+   "table": 1,
+   "slot": 44,
+   "text_id": 45,
+   "en": "<operator(30000,1)><speed(2)>Using these additional parts lets us operate the <color(4)>Ixbrau<ce()> as a fire-support unit.",
+   "notes": "",
+   "source_sha256": "216e747a6a7c1450087eec40ac7c16e778e1ced5e07d67e014d58876594c2f2d"
+  },
+  {
+   "table": 1,
+   "slot": 45,
+   "text_id": 46,
+   "en": "<operator(30000,1)><speed(2)>But mobility and melee ability drop sharply, so be careful.",
+   "notes": "",
+   "source_sha256": "48b94fd891135aeed72ede616e0e726fc0b0683fc58deeff3a9a8aa272667101"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "'the three of them' for sansha (Neo Zeon / former Giganos / Martian Successors); descriptive, matches source meaning."
+  },
+  {
+   "slot": 28,
+   "issue": "This row's source book(4) span does include 'dai-ichiji' ('First'); book(4) is locked to 'First Defense War' throughout the reviewed corpus (encyclopedia_021_a/022) and also matches this row's literal source (unlike 4003180 slot 22, whose source omits 'dai-ichiji')."
+  },
+  {
+   "slot": 39,
+   "issue": "'Nadesico crew' is a plain descriptive rendering (no locked term found); it refers to the film's civilian Aestivalis pilots who rejoin in 4003170/4004553 (Hikaru Amano, Izumi Maki)."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 28,
+  "rows_in_scene": 28,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"13  Atmospheric Entry\".",
+   "All command tags (<operator>, <speed>, <book>, <color>/<ce>, <thumbnail>, <thumbdown>, <topic>) checked against tools/scene_source.py output: identical set and order in every row.",
+   "Speakers verified via tools/speaker_lookup.py: 30050 Kouichiro Misumaru, 30030 Ruri Hoshino, 30060 Jamil Neate, 30000 Faye Rochenante; all consistent with addressee/register (e.g. Faye's 'wa'/'no' sentence endings, Jamil's terse command).",
+   "Slot 20 'Martian Successors', 'former Giganos': match character_names_021 locked terms; dropping 'the three of them' (sansha) to fit the 128-char limit does not change meaning (the three parties are still named individually).",
+   "Slot 28: the source's book(4) span actually reads 'dai-ichiji bouei sensou' (DOES include 'dai-ichiji'/'First'), unlike the row's own note which claims the source omits it - the note is inaccurate but 'First Defense War' is correct either way (matches both the literal source and the locked book(4) term). Left the note as-is since it does not affect the English; flagging for the orchestrator.",
+   "Slot 37 'Harry and I' vs source order (romaji: 'watashi to Ha-ri- kun', i.e. Harry-kun and I): reordered for natural English, no meaning change; '-kun' honorific dropped per corpus convention.",
+   "Slot 39 'Nadesico crew' (romaji: 'moto Nadeshiko kuru-'): descriptive, no locked term exists; kept.",
+   "Slot 43-45 'additional parts' (romaji: 'tsuika pa-tsu') kept distinct from 'refit parts' (kansou, 4003030) and later 'armor parts' (romaji: 'gaisou pa-tsu', 4003180) - three different Japanese terms for three different Ixbrau part sets, correctly kept distinct.",
+   "Lowercase j/q scan: none found outside locked names."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: dropping 'the three of them' (sansha) for the 128-char limit is a compression choice, not a meaning error; the three factions are still named.",
+   "Slot 28: the row's note misstates the source (claims the source lacks 'dai-ichiji'/'First' when it is actually present); English text unaffected, but the note itself should be corrected by whoever next touches this row.",
+   "Slot 39: 'Nadesico crew' has no locked project term yet; matches the treatment in 4003170/4004553."
+  ]
+ }
+}

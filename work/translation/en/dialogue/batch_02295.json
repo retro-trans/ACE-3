@@ -1,0 +1,573 @@
+{
+  "slice_start": 2295,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      2280,
+      2389
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_02295",
+        "dialogue_02374"
+      ],
+      "note": "All rows are resource 6070. 2295-2306 are in-combat banter, 2307-2356 are <on()> cutscene lines (text ids 301-379), 2357-2374 are post-mission window text (ids 501-518, no <ab>/<off> in source). Speakers untagged and not asserted."
+    },
+    {
+      "ids": [
+        "dialogue_02301"
+      ],
+      "note": "Who was about to finish Saotome is not stated; no possessive supplied."
+    },
+    {
+      "ids": [
+        "dialogue_02304",
+        "dialogue_02306"
+      ],
+      "note": "Ange/Holland exchange inferred from names in the lines. 2306 'Dewey no nakama' rendered 'one of Dewey's people'."
+    },
+    {
+      "ids": [
+        "dialogue_02307"
+      ],
+      "note": "'zujou' = atop the head or overhead; chose 'atop Shin Dragon's head'."
+    },
+    {
+      "ids": [
+        "dialogue_02315",
+        "dialogue_02319"
+      ],
+      "note": "Omitted object in 2315 rendered 'it' (Shin Dragon); 'yatsu' in 2319 rendered 'its' (Shin Dragon's evolution) rather than 'his'."
+    },
+    {
+      "ids": [
+        "dialogue_02321",
+        "dialogue_02323"
+      ],
+      "note": "Short exchange (likely Go and Kei); text id 328 is absent from the table. 2323 is a trailing fragment, left open."
+    },
+    {
+      "ids": [
+        "dialogue_02339"
+      ],
+      "note": "'tsuite nakatta' - unclear whether Ange laments her own luck or someone else's; left as a bare exclamation."
+    },
+    {
+      "ids": [
+        "dialogue_02344",
+        "dialogue_02347"
+      ],
+      "note": "Explanation of the Baldora Drive by an allied speaker (likely Ruri); 'our own world' in 2346 assumes that."
+    },
+    {
+      "ids": [
+        "dialogue_02357",
+        "dialogue_02374"
+      ],
+      "note": "Source rows have 2-3 line window text; per brief no line breaks were written. 2364 (102), 2366 (102), 2374 (105) are near the 110 limit; 2371 and 2374 were compressed (2374 merges two sentences)."
+    },
+    {
+      "ids": [
+        "dialogue_02359",
+        "dialogue_02363",
+        "dialogue_02367",
+        "dialogue_02369"
+      ],
+      "note": "Book-linked 'Wormhole' capitalised to match the Encyclopedia entry title."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered angle-bracket command list of every target compared with the ISO source via dialogue_corpus.py slice: all equal.",
+    "format": "No newlines; ASCII only; no bare percent sign.",
+    "fit": "Max visible length 105 (limit 110).",
+    "glyphs": "Lowercase j/q avoided except where listed by the self-check (none outside locked names).",
+    "problems": [],
+    "meaning_review": "Independent meaning review done (review_02295.json): 80/80 rows compared with the ISO source, 1 meaning fix(es); all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_02295",
+      "target": "<sp(20)>What on earth do you mean to do by stealing Shin Dragon's Getter Rays?<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02296",
+      "target": "<op()><sp(20)>That is too fine a toy for the likes of you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02297",
+      "target": "<op()><sp(20)>Then I will simply have to stop you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02298",
+      "target": "<op()><sp(20)>Losing lift!? Balance the Trapar on the left and right!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02299",
+      "target": "<op()><sp(20)>The Tower is under attack.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02300",
+      "target": "<op()><sp(20)>At this rate, the Tower will...!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02301",
+      "target": "<op()><sp(20)>You got in the way of finishing off Saotome!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Te-form complaint; who was about to finish Saotome is not stated, so no 'my'."
+    },
+    {
+      "id": "dialogue_02302",
+      "target": "<op()><sp(20)>I saved you, so I'd like a little gratitude, you know.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02303",
+      "target": "<op()><sp(20)>This one... is good.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same shape as reviewed row 1078."
+    },
+    {
+      "id": "dialogue_02304",
+      "target": "<op()><sp(20)>So you're Dewey's little brother. Holland, was it?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues in 2305."
+    },
+    {
+      "id": "dialogue_02305",
+      "target": "<sp(20)>A shame, when you're this skilled...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02306",
+      "target": "<op()><sp(20)>You were one of Dewey's people, right? Then I won't hold back.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02307",
+      "target": "<on()><sp(20)>Ah... L-look, atop Shin Dragon's head... there's a person!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'zujou' can also mean 'overhead/above'; 'atop its head' matches the anime staging."
+    },
+    {
+      "id": "dialogue_02308",
+      "target": "<on()><sp(20)>It has been a long time, all of you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02309",
+      "target": "<on()><sp(20)>Dr. Saotome...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02310",
+      "target": "<on()><sp(20)>So that's... Saotome.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02311",
+      "target": "<on()><sp(20)>You... So you were alive.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02312",
+      "target": "<on()><sp(20)>Nuahahahahaha! I, Saotome, do not die so easily.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02313",
+      "target": "<on()><sp(20)>All units, deploy! The target is Shin Dragon!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02314",
+      "target": "<on()><sp(20)>Hehehehe, hahahahaha! Haa-hahahaha!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02315",
+      "target": "<on()><sp(20)>Come if you dare. The likes of you will not lay a single finger on it.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Object omitted in source; 'it' = Shin Dragon, the declared target in 2313."
+    },
+    {
+      "id": "dialogue_02316",
+      "target": "<on()><sp(20)>Wh-what on earth is this...?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02317",
+      "target": "<on()><sp(20)>Ah... ah...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02318",
+      "target": "<on()><sp(20)>Shin Dragon's Getter Rays are concentrating on a single point!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02319",
+      "target": "<on()><sp(20)>Don't tell me... it has begun? Its evolution...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'yatsu' read as Shin Dragon (its evolution), per 2318/2320."
+    },
+    {
+      "id": "dialogue_02320",
+      "target": "<on()><sp(20)>Hahahahaha... As if the likes of you could interfere with Shin Dragon's activation!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02321",
+      "target": "<on()><sp(20)>I will protect you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02322",
+      "target": "<on()><sp(20)>Who are you?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02323",
+      "target": "<on()><sp(20)>You are...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02324",
+      "target": "<on()><sp(20)>Shin Dragon's Getter Ray level is dropping rapidly!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02325",
+      "target": "<on()><sp(20)>It's them!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02326",
+      "target": "<on()><sp(20)>Letting you people live was the right choice.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02327",
+      "target": "<on()><sp(20)>Getter Ray emission dropping even further!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02328",
+      "target": "<on()><sp(20)>The Getter Rays are being absorbed?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject omitted in source; passive keeps it open."
+    },
+    {
+      "id": "dialogue_02329",
+      "target": "<on()><sp(20)>Curse you! Petty thieves... When it was so close... You will pay for this!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02330",
+      "target": "<on()><sp(20)>Hayato, Benkei.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02331",
+      "target": "<on()><sp(20)>You two, I shall tell.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02332",
+      "target": "<on()><sp(20)>Shin Getter is the mightiest guardian, brought forth by Shin Dragon.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02333",
+      "target": "<on()><sp(20)>Why was Shin Getter born... Think on what that means.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02334",
+      "target": "<on()><sp(20)>What it... means!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02335",
+      "target": "<on()><sp(20)>I shall take my leave here. There has been an interruption, after all.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02336",
+      "target": "<on()><sp(20)>Wait! Saotome!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02337",
+      "target": "<on()><sp(20)>Looks like this will be a little fun after all.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02338",
+      "target": "<on()><sp(20)>That's enough.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02339",
+      "target": "<on()><sp(20)>Rotten luck...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Bare 'tsuite nakatta'; whose bad luck is not stated."
+    },
+    {
+      "id": "dialogue_02340",
+      "target": "<on()><sp(20)>Ange, our business is done. We're withdrawing.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02341",
+      "target": "<on()><sp(20)>We will meet again, Hayato Jin.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02342",
+      "target": "<on()><sp(20)>What are you after?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'mokuteki'; 'objective' avoided for the j glyph."
+    },
+    {
+      "id": "dialogue_02343",
+      "target": "<on()><sp(20)>Asking your enemy? Did you expect an answer?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02344",
+      "target": "<on()><sp(20)>The Baldora Drive is a thing that can connect spaces far apart from each other.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02345",
+      "target": "<on()><sp(20)>What?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02346",
+      "target": "<on()><sp(20)>Somewhere that is not our own world. Yes... to another space that exists in parallel.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'jibun-tachi no sekai' = one's own world; 'our' chosen as the speaker is explaining to allies."
+    },
+    {
+      "id": "dialogue_02347",
+      "target": "<on()><sp(20)>You do know what will happen once it is fully running, don't you?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02348",
+      "target": "<on()><sp(20)>It seems someone among you has a fairly sharp mind.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02349",
+      "target": "<on()><sp(20)>As a reward, I will tell you. Point A-5-3X.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Fullwidth point code converted to ASCII."
+    },
+    {
+      "id": "dialogue_02350",
+      "target": "<on()><sp(20)>I would very much like you all to know despair.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02351",
+      "target": "<on()><sp(20)>Hold on a second. What are you, anyway!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02352",
+      "target": "<on()><sp(20)>...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02353",
+      "target": "<on()><sp(20)>Barrel...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02354",
+      "target": "<on()><sp(20)>Huh?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02355",
+      "target": "<on()><sp(20)>Farewell.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02356",
+      "target": "<on()><sp(20)>H-how do you know my name...?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02357",
+      "target": "<on()><sp(20)>Captain. We'll reach A-5-3X shortly. We've found a <book(1)>Baldora Drive<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Window text without <ab>/<off> in source. 'a' because 2358 shows it is a second facility."
+    },
+    {
+      "id": "dialogue_02358",
+      "target": "<on()><sp(20)>So there was one of those facilities over here too...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02359",
+      "target": "<on()><sp(20)>A huge <book(3)>Wormhole<endbook()> has been observed above the facility.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02360",
+      "target": "<on()><sp(20)>That's not all. Huge gravity wave surges are growing in step with that energy.",
+      "status": "meaning_reviewed",
+      "notes": "'rei no' = the energy already discussed."
+    },
+    {
+      "id": "dialogue_02361",
+      "target": "<on()><sp(20)>I knew it...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02362",
+      "target": "<on()><sp(20)>What do you mean? Explain it to us.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02363",
+      "target": "<on()><sp(20)>We were told the <book(1)>Baldora Drive<endbook()> forms a <book(3)>Wormhole<endbook()> at two distant points to link the spaces.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02364",
+      "target": "<on()><sp(20)>But rather than simply linking distant places, for some reason it became a passage to another world...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02365",
+      "target": "<on()><sp(20)>I believe that is the <book(1)>Baldora Drive<endbook()>'s true function.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02366",
+      "target": "<on()><sp(20)>Hard to believe... but given all that has happened so far, it is the most reasonable conclusion, then.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02367",
+      "target": "<on()><sp(20)>But going by his words and actions, the <book(3)>Wormhole<endbook()> is not fully open yet.",
+      "status": "meaning_reviewed",
+      "notes": "Source says 'kare' (he) = Berkt."
+    },
+    {
+      "id": "dialogue_02368",
+      "target": "<on()><sp(20)>The energy we observed... It is still showing signs of rising.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02369",
+      "target": "<on()><sp(20)>And along with it, we can see the <book(3)>Wormhole<endbook()> stabilizing as it expands.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02370",
+      "target": "<on()><sp(20)>In other words, running the <book(1)>Baldora Drive<endbook()> seems to take an enormous amount of energy.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02371",
+      "target": "<on()><sp(20)>When it reaches critical, I think the link completes and the two worlds become fully connected.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed: 'connection between the spaces' -> 'the link'."
+    },
+    {
+      "id": "dialogue_02372",
+      "target": "<on()><sp(20)>Perhaps that is why <color(5)>Berkt<ce()> is after the <book(51)>Getter Rays<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02373",
+      "target": "<on()><sp(20)>What do <book(51)>Getter Rays<endbook()> have to do with it?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02374",
+      "target": "<on()><sp(20)>Those <color(5)>unmanned units<ce()> had a mechanism for securing power, likely used to gather the power the Drive needs.",
+      "status": "meaning_reviewed",
+      "notes": "Two source sentences merged to fit. Review: 'it' had no clear antecedent (read as the mechanism/units); the thing being run is the Baldora Drive (2370, 2376), now named."
+    }
+  ]
+}

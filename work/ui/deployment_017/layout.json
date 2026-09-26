@@ -1,0 +1,50 @@
+{
+  "screenshots": [
+    {
+      "file": "source_1.png",
+      "size": [
+        1052,
+        620
+      ]
+    },
+    {
+      "file": "source_2.png",
+      "size": [
+        1052,
+        620
+      ]
+    },
+    {
+      "file": "source_3.png",
+      "size": [
+        1052,
+        620
+      ]
+    },
+    {
+      "file": "source_4.png",
+      "size": [
+        1052,
+        620
+      ]
+    }
+  ],
+  "content_rect": [
+    111,
+    0,
+    827,
+    620
+  ],
+  "dialog_body_rect": [
+    378,
+    196,
+    539,
+    224
+  ],
+  "menu_label_width_native": 120,
+  "stat_label_width_native": 92,
+  "dialog_width_native": 410,
+  "dialog_max_lines": 9,
+  "dialog_capacity": 255,
+  "navigation": "User is navigating; do not take over controls."
+}

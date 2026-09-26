@@ -1,0 +1,61 @@
+{
+ "resource_id": 4003893,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 4,
+ "rows_examined": 4,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)>This training exercise will be a mock battle assuming real combat conditions.",
+   "notes": "Faye's mock-battle training exam briefing; wording identical to sibling scenes in the 4003881-895 set, tag positions follow this scene's own source exactly.",
+   "source_sha256": "56a9b1f12320e7edc74dd343e1fa2d216161af55d2831458375cb636121670cf"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>The rule is simple.<move(1,8,11)> Whoever brings the <color(6)>opponent's AP<marker(1,8,11,0)> to zero<ce()> wins<move(2,8,11)>.",
+   "notes": "",
+   "source_sha256": "068d3481bd43f283e69ae348b36086c79dd031e161dc71fbba1083e25d74e8e4"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)><move(1,6,4)>Just because it's practice<marker(22,6,4,0)>, don't<move(1,10,4)> let your guard down<marker(22,10,4,0)>, okay? It'll<move(2,10,4)><picture(141,2,7,0)><picture(142,30,7,0)><refer(2,7,6,4)><refer(30,7,10,4)> hurt a little, you know.",
+   "notes": "Source splits this row into two move/marker segments (rather than one); markers distributed across two clause segments in order.",
+   "source_sha256": "5b41e3c9d7c935bb9a8d754ae324c6ae89466feb940f535b3a38b4291c30b00d"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>Well then<marker(17,8,9,0)>, do your<marker(48,6,6,0)><marker(48,10,6,0)> best.",
+   "notes": "Source has two marker(48,..) tags at different coordinates than the single-move siblings; placed in order.",
+   "source_sha256": "8f9fd1493e0567020be44ca839c1660065804491f589a6fa5b0cf5927e72c65b"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "Two-segment move/marker pattern unique to this sub-group (4003891-894); wording kept identical to sibling rows."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 4,
+  "rows_in_scene": 4,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker 1060 = Faye Rochenante (speaker_lookup.py).",
+   "Wording verified against tools/scene_source.py output for this scene: mock-battle training rules (AP to zero wins), the guard-down/hurt-a-little warning, and the closing 'do your best' all match the source meaning; wording is identical across the whole 4003881-895 set as the draft notes.",
+   "All commands identical in count and order vs this scene's own source in every row (verified programmatically); ASCII-only, no newline, 128-visible-char limit respected, no lowercase j/q, no bare %.",
+   "Slot 21/22 two-segment move/marker pattern (unique to the 4003891-894 sub-group): tag count and order verified identical to this scene's own source; wording kept identical to the sibling rows per task ruling on dense marker clusters."
+  ],
+  "remaining_uncertainties": []
+ }
+}

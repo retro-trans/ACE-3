@@ -1,0 +1,20 @@
+{
+  "version": "0.1.12",
+  "scope": "Opening history supplemental glossary. ACE3 dates and events follow resource 4010, not the original franchises' calendars.",
+  "agent_do_not_touch": "Normalize these names after meaning review; do not respell during prose review. Provisional English names are explicitly marked.",
+  "entries": [
+    {"id":"history.calendar","ja":"統一暦","en":"Unified Calendar","status":"provisional","note":"Literal game calendar name, not Universal Century. No official English title found."},
+    {"id":"history.first_defense_war","ja":"第一次防衛戦争","en":"First Defense War","status":"provisional","note":"Literal ACE3 event name; not Macross Space War I."},
+    {"id":"people.zentradi","ja":"ゼントラーディ","en":"Zentradi","status":"researched","sources":["https://macross.anime.net/fallacies/errata/robotech_faq/5/"],"note":"Macross spelling; retained from existing dialogue proposals."},
+    {"id":"org.jovian_federation","ja":"木星連合","en":"Jovian Federation","status":"researched","sources":["https://nadesico.fandom.com/wiki/Jovian_Federation"]},
+    {"id":"event.hot_blooded_coup","ja":"熱血クーデター","en":"Hot-Blooded Coup","status":"provisional","sources":["https://srw.wiki.cre.jp/wiki/熱血クーデター"],"note":"Japanese event identity verified; English title is a literal project choice."},
+    {"id":"char.haruki_kusakabe","ja":"草壁春樹","en":"Haruki Kusakabe","short_display":"Vice Admiral Kusakabe","status":"researched","sources":["https://villains.fandom.com/wiki/Admiral_Haruki_Kusakabe","https://en.wikipedia.org/wiki/List_of_Martian_Successor_Nadesico_characters"],"profile":{"gender":"male","nicknames":[],"nicknames_status":"No non-title nickname found in reviewed references.","personality":"Self-righteous and manipulative, hostile toward Earth.","role":"Vice admiral and former leader of the Jovian Federation; later leads the Martian Successors."}},
+    {"id":"tech.micronization","ja":"マイクローン化","en":"micronization","status":"researched_secondary","sources":["https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Zentradi"],"note":"Reduction to human size; applied to volunteers in this passage."},
+    {"id":"project.hisago","ja":"ヒサゴプラン","en":"Hisago Plan","status":"researched","sources":["https://www.crunchyroll.com/watch/G6MG7PNV6/martian-successor-nadesico-prince-of-darkness"]},
+    {"id":"tech.boson_jump","ja":"ボソンジャンプ","en":"boson jump","status":"researched","sources":["https://www.crunchyroll.com/watch/G6MG7PNV6/martian-successor-nadesico-prince-of-darkness"]},
+    {"id":"fleet.megaroad01","ja":"メガロード０１","en":"Megaroad-01","status":"researched_secondary","sources":["https://macross.fandom.com/wiki/SDF-2_Megaroad-01"],"note":"This ACE3 sentence uses the name for the first emigration fleet."},
+    {"id":"location.macross_city","ja":"マクロス・シティ","en":"Macross City","status":"researched_secondary","sources":["https://macross.fandom.com/wiki/Macross_City"]},
+    {"id":"location.sweetwater","ja":"スウィート・ウォーター","en":"Sweetwater","status":"researched_secondary","sources":["https://gundam.neoseeker.com/wiki/Char%27s_Counterattack_Encyclopedia"]},
+    {"id":"location.saint_cruz","ja":"セント・クルス","en":"Saint Cruz","status":"provisional","note":"Game-specific romanization. No independent English spelling verified; do not replace with Santa Cruz without evidence."}
+  ]
+}

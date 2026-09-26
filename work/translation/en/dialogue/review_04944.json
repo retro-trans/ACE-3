@@ -1,0 +1,36 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 4944,
+  "slice_count": 80,
+  "rows_examined": [{"start": 4929, "end": 5038}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [4944, 4958], "finding": "Meio Plato refusal/duel continuation (Federation alliance refusal, Linda, Dorchenov comparison, Char's-pawn accusation, Barrel calmed) checked line by line against source; no reversed meaning, no invented subject. 'Linda' correctly identified as Meio's sister per character_names_021.json ('Linda's brother')."},
+    {"id": 4949, "finding": "Dorchenov (ドルチェノフ) accepted per this task's ruling; matches the translator's research (Metal Armor Dragonar antagonist) and fits the in-line comparison."},
+    {"rows": [4959, 4970], "finding": "Verified via raw source dump: this veteran-vs-brash-pilot exchange (Nirvash reference at 4967) has no color-tag or name anywhere in the span. Correctly left neutral -- matches this task's 'unnamed duels' framing."},
+    {"rows": [4971, 4984], "finding": "Verified via raw source dump: the hawk/right-to-kill exchange (Metal Armor reference at 4976) is likewise untagged throughout. 'Walk the line between life and death' for 生死の境界を飛ぶ is a natural English idiom for the same image (skirting the border of life and death), not a meaning change. Dramatic word order at 4984 (kill placed last) intentionally mirrors the source's delayed verb."},
+    {"rows": [4987, 4997], "finding": "Guld Goa Bowman (ガルド) intercept scene matches character_names_021.json spelling; no addressee errors."},
+    {"rows": [4998, 5011], "finding": "Amuro/Marina Carson meeting-block dialogue checked against source: 4998 spoken by Amuro to Marina, 5001 Amuro answering an unnamed bystander about Marina (gender 'she' grounded by Marina's own self-introduction at 5002, not invented). Captain Amuro (大尉) and Commander Misumaru match terms_028.json/meeting_terms_015.json."},
+    {"rows": [5012, 5019], "finding": "Macross hijacking / Sharon Apple briefing matches source; 'Sharon Apple' (シャロン・アップル) is the correct Macross Plus spelling, newly confirmed for the glossary as the translator proposed."},
+    {"id": 5020, "finding": "Vice Admiral Kusakabe (草壁中将) matches opening_history_terms.json's char.haruki_kusakabe entry (short_display: 'Vice Admiral Kusakabe') exactly; ruling from this task confirmed."},
+    {"id": 5021, "finding": "Macross Cannon (マクロスキャノン) accepted literal per this task's ruling; matches source ultimatum content (24-hour deadline) without alteration."},
+    {"note": "Re-ran a throwaway console diff of every <...> command against the source in original order for all 80 rows (0 mismatches), confirmed newline count parity per row (0 mismatches), confirmed ASCII-only content, confirmed no visible text exceeds 110 chars, and confirmed no stray lowercase j/q outside locked names -- including across the format shift from <op()>/<ab()>/<ed()> combat lines to the <on()>/<ab(10000)>/<off()> alert style (4987-4997) and the plain <on()> meeting-block lines with no timing commands (4998-5023). Script was discarded after use."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_04949", "issue": "Dorchenov identification is the translator's best inference (fits the Giganos/Earth-threat comparison) rather than something the line states outright; ruled acceptable per this task's instructions, carried forward as a glossary entry to confirm if the name recurs."},
+    {"ids": ["dialogue_04959", "dialogue_04960", "dialogue_04961", "dialogue_04962", "dialogue_04963", "dialogue_04964", "dialogue_04965", "dialogue_04966", "dialogue_04967", "dialogue_04968", "dialogue_04969", "dialogue_04970"], "issue": "Confirmed genuinely unnamed in source (verified independently). Correctly left with no assigned identity or gender; flagging again since this is a judgment call rather than a clean pass."},
+    {"ids": ["dialogue_04971", "dialogue_04972", "dialogue_04973", "dialogue_04974", "dialogue_04975", "dialogue_04976", "dialogue_04977", "dialogue_04978", "dialogue_04979", "dialogue_04980", "dialogue_04981", "dialogue_04982", "dialogue_04983", "dialogue_04984"], "issue": "Confirmed genuinely unnamed in source (verified independently); the Metal Armor line at 4976 implies a Dragonar-side opponent but no name tag exists to confirm it. Left unassigned, correctly."},
+    {"ids": ["dialogue_05000", "dialogue_05003", "dialogue_05004"], "issue": "Meeting-block bystander lines (asking if Marina is a comrade, commenting on her name, her flustered reply) have no name tag in source; correctly left unattributed to any specific named character."},
+    {"id": "dialogue_05020", "issue": "Ruled per this task's instructions: 'Vice Admiral Kusakabe' for 中将, matching opening_history_terms.json's locked short_display rather than a literal 'Lieutenant General'. Confirmed correct as drafted."}
+  ],
+  "validation": {
+    "commands": "Every <...> command reproduced in source order for all 80 rows, including the shift between combat-subtitle, alert, and meeting-block timing styles; re-verified independently with a throwaway script -- 0 mismatches.",
+    "newline": "Per-row newline count in target matches source exactly for all 80 rows (verified by script).",
+    "ascii": "All target text is ASCII-only except the fullwidth percent sign convention (none required in this slice); verified by script.",
+    "fit": "Visible text (tags stripped) is <=110 chars for all 80 rows, verified by script; the translator's 4984/5020 phrasing choices preserved without further shortening.",
+    "font": "No lowercase j/q found outside locked proper nouns, verified by script."
+  }
+}

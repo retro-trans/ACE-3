@@ -1,0 +1,583 @@
+{
+  "slice_start": 1586,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1571,
+      1680
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_01590",
+        "dialogue_01593",
+        "dialogue_01594"
+      ],
+      "note": "Speakers untagged. 1594 names the opponent as the Blue Hawk (Meio Plato's locked nickname), so 1590/1593 (formal first person, 'coming after me') are read as that opponent's reply to the shouts in 1589/1591/1592; 1590 and 1593 are identical text with different wait values. No speaker names were written into the English."
+    },
+    {
+      "id": "dialogue_01587",
+      "note": "'Te-awase' (a bout / trying one's skill against someone) rendered as 'face you in combat'; the speaker is an enemy ace addressing Amuro (White Devil) but is not identified in the table."
+    },
+    {
+      "ids": [
+        "dialogue_01595",
+        "dialogue_01598",
+        "dialogue_01600"
+      ],
+      "note": "Ship damage reports at the end of resource 6043; the ship is not named in these rows (1583 only says 'Captain'). Left unnamed."
+    },
+    {
+      "id": "dialogue_01608",
+      "note": "Source says roughly 'so those are that group?' (rei no renchuu: the group both parties already know about). English 'the ones I heard about' supplies a mild 'I heard'; alternative: 'So those are the ones?'. 1620 ('I've heard about you all') supports it. Continuation of 1607, same speaker."
+    },
+    {
+      "id": "dialogue_01623",
+      "note": "SOF dai-ichi kidou butai no moto chief: rendered 'former chief of the SOF 1st Mobile Unit'. Eureka Seven wiki describes Holland as a former SOF unit/platoon leader; exact English unit name is not attested. See proposals file."
+    },
+    {
+      "ids": [
+        "dialogue_01621",
+        "dialogue_01622",
+        "dialogue_01623",
+        "dialogue_01624"
+      ],
+      "note": "Exchange read as the Frost brothers (1624 addresses an older brother; Shagia/Olba named in 1683 and 1731). Which brother says 1621-1623 is not settled by the table; English stays neutral."
+    },
+    {
+      "ids": [
+        "dialogue_01628",
+        "dialogue_01630",
+        "dialogue_01631",
+        "dialogue_01632",
+        "dialogue_01633",
+        "dialogue_01634",
+        "dialogue_01635",
+        "dialogue_01636"
+      ],
+      "note": "Nine near-identical 'base captured' voice variants. 1632 and 1633 differ in source only by a particle; English variation between them is cosmetic. 1634 has no subject in source; passive used rather than 'we'."
+    },
+    {
+      "ids": [
+        "dialogue_01638",
+        "dialogue_01640"
+      ],
+      "note": "zenmetsu vs kaimetsu both mean the escort force is lost; rendered 'wiped out' / 'destroyed' to keep the variants distinct."
+    },
+    {
+      "ids": [
+        "dialogue_01647",
+        "dialogue_01661",
+        "dialogue_01662"
+      ],
+      "note": "'Captain' here is the loanword used aboard the Freeden for Jamil (1659 addresses Garrod in the same voice), but the table does not tag it; English just says 'Captain'."
+    },
+    {
+      "id": "dialogue_01648",
+      "note": "Sentence-final 'ka' read as rueful realisation ('so it's a failure'), not a real question."
+    },
+    {
+      "id": "dialogue_01651",
+      "note": "Source omits who 'can do something like this' (follows the all-bases-captured report). Kept passive."
+    },
+    {
+      "id": "dialogue_01664",
+      "note": "Subject (Holland, from 1663) omitted in source; English keeps it subjectless."
+    },
+    {
+      "id": "dialogue_01653",
+      "note": "87 visible characters with <ab(500)>: fits the 110 limit but is long for the display time."
+    }
+  ],
+  "validation": {
+    "controls": "Self-check: ordered <...> command list of every target equals the source's (80/80).",
+    "fit": "No line breaks; longest visible text 87 characters (limit 110).",
+    "ascii": "ASCII only; no bare percent; no lowercase j/q outside locked names.",
+    "meaning_review": "Independent meaning review done: 80/80 rows compared with the source, no meaning fixes needed; all rows meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_01586",
+      "target": "<op()><sp(20)>Damn it! At a time like this!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reaction to the Jovian Lizard alert in 1585."
+    },
+    {
+      "id": "dialogue_01587",
+      "target": "<op()><sp(20)>So you're the Federation's White Devil! I've wanted to face you in combat for once!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "White Devil = locked Amuro nickname."
+    },
+    {
+      "id": "dialogue_01588",
+      "target": "<op()><sp(20)>These moves... This is no ordinary pilot.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01589",
+      "target": "<op()><sp(20)>You bastaaard!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01590",
+      "target": "<op()><sp(20)>Coming after me? So a little theory has been drilled into you after all!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker uses formal first person; the target of the attack is the speaker."
+    },
+    {
+      "id": "dialogue_01591",
+      "target": "<op()><sp(20)>Take this, and this, and this!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Repeated attack shout; no content words in source."
+    },
+    {
+      "id": "dialogue_01592",
+      "target": "<op()><sp(20)>Brace yourself, you bastard!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01593",
+      "target": "<op()><sp(20)>Coming after me? So a little theory has been drilled into you after all!<ab(50)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same text as 1590 with a different wait value."
+    },
+    {
+      "id": "dialogue_01594",
+      "target": "<op()><sp(20)>Nothing like the Metal Armors so far...! So this is the Blue Hawk...!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Blue Hawk per character_names_021 nickname of Meio Plato."
+    },
+    {
+      "id": "dialogue_01595",
+      "target": "<op()><sp(20)>Direct hit! Port side, MS catapult!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01596",
+      "target": "<op()><sp(20)>Damn...!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01597",
+      "target": "<op()><sp(20)>Clear out the enemies around us!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01598",
+      "target": "<op()><sp(20)>Direct hit! Starboard main gun silenced!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01599",
+      "target": "<op()><sp(20)>Stop dawdling!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01600",
+      "target": "<op()><sp(20)>Engine output dropping! The No. 2 propellant supply valve won't open!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01601",
+      "target": "<op()><sp(20)>Not yet?! Hurry!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01602",
+      "target": "<op()><sp(20)>Heat source confirmed at 5 o'clock!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01603",
+      "target": "<op()><sp(20)>To capture a base, please clear out the enemy units around it.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Resource 6050 (Mission 05) begins."
+    },
+    {
+      "id": "dialogue_01604",
+      "target": "<sp(20)>Base locations are shown by the box-shaped marks on the radar.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 1603 (no <op()>)."
+    },
+    {
+      "id": "dialogue_01605",
+      "target": "<op()><sp(20)>Don't forget to support the Gekko as well.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01606",
+      "target": "<op()><sp(20)>Holland! Can you hear me?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01607",
+      "target": "<op()><sp(20)>Jamil, huh. Sorry for the trouble.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01608",
+      "target": "<sp(20)>So they're the ones I heard about?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source: 'that group (we both know of)'. See uncertainties."
+    },
+    {
+      "id": "dialogue_01609",
+      "target": "<op()><sp(20)>I'm Ruri Hoshino, captain of the Nadesico B. Pleased to meet you.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Western name order per glossary."
+    },
+    {
+      "id": "dialogue_01610",
+      "target": "<op()><sp(20)>I'd like to say 'likewise'... but there's no time for greetings.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01611",
+      "target": "<sp(20)>The Nirvash, with Eureka aboard, is surrounded by the enemy.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01612",
+      "target": "<op()><sp(20)>Holland, we'll hold the enemy off here. You recover the Nirvash.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01613",
+      "target": "<op()><sp(20)>Sorry. I'm counting on you.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01614",
+      "target": "<sp(20)>Losing Eureka is not an option...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject omitted in source; kept impersonal."
+    },
+    {
+      "id": "dialogue_01615",
+      "target": "<op()><sp(20)>Talho, how's the Gekko?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01616",
+      "target": "<op()><sp(20)>Still fine. Gidget, what's the situation around us?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01617",
+      "target": "<op()><sp(20)>We're surrounded by the enemy.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01618",
+      "target": "<op()><sp(20)>We will now provide support. Is that acceptable, Captain Hoshino?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01619",
+      "target": "<op()><sp(20)>Yes.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01620",
+      "target": "<op()><sp(20)>I've heard about you all. Nice to meet you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01621",
+      "target": "<op()><sp(20)>That's Holland of Gekkostate.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01622",
+      "target": "<op()><sp(20)>As skilled as the rumors say.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01623",
+      "target": "<sp(20)>As expected of the former chief of the SOF 1st Mobile Unit, I suppose.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "SOF unit name: see glossary proposal."
+    },
+    {
+      "id": "dialogue_01624",
+      "target": "<op()><sp(20)>Leave that one to me. Brother, you take the Nirvash.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker addresses an older brother; Frost brothers appear by name in 1683/1731."
+    },
+    {
+      "id": "dialogue_01625",
+      "target": "<op()><sp(20)>Holland, one unit's headed your way!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01626",
+      "target": "<op()><sp(20)>Finally, one that looks like it'll put up a fight.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01627",
+      "target": "<op()><sp(20)>I'll make you regret that smart mouth in hell.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01628",
+      "target": "<op()><sp(20)>Enemy base captured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "1628-1636 are voice variants of the same capture report."
+    },
+    {
+      "id": "dialogue_01629",
+      "target": "<op()><sp(20)>When a base turns blue, that signals a successful capture.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01630",
+      "target": "<op()><sp(20)>The enemy base has been captured.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01631",
+      "target": "<op()><sp(20)>Base successfully captured.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01632",
+      "target": "<op()><sp(20)>The base is captured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01633",
+      "target": "<op()><sp(20)>Base captured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01634",
+      "target": "<op()><sp(20)>The enemy base has been captured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01635",
+      "target": "<op()><sp(20)>One enemy base captured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01636",
+      "target": "<op()><sp(20)>Enemy base capture successful!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01637",
+      "target": "<op()><sp(20)>The escort force is under attack!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Escort force wording follows earlier batches."
+    },
+    {
+      "id": "dialogue_01638",
+      "target": "<op()><sp(20)>The escort force has been wiped out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01639",
+      "target": "<op()><sp(20)>The escort force is in danger!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01640",
+      "target": "<op()><sp(20)>The escort force has been destroyed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01641",
+      "target": "<op()><sp(20)>Hit on the starboard side!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01642",
+      "target": "<op()><sp(20)>Lift is dropping?! Balance the Trapar between left and right!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01643",
+      "target": "<op()><sp(20)>The Gekko has taken many hits! Please, cover us!!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01644",
+      "target": "<op()><sp(20)>It's no use...! Abandon ship! All hands, evacuate!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Failure branch."
+    },
+    {
+      "id": "dialogue_01645",
+      "target": "<op()><sp(20)>Talho...? Talhooooo!!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Failure branch."
+    },
+    {
+      "id": "dialogue_01646",
+      "target": "<op()><sp(20)>There's no operation time left! Hurry!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01647",
+      "target": "<op()><sp(20)>Captain, the time...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressed as 'Captain' (loanword), as also in 1661."
+    },
+    {
+      "id": "dialogue_01648",
+      "target": "<op()><sp(20)>So the operation... is a failure...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01649",
+      "target": "<op()><sp(20)>This is bad... They've gone on the offensive.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01650",
+      "target": "<op()><sp(20)>All bases successfully captured!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01651",
+      "target": "<op()><sp(20)>Whoa... To think something like this can actually be done...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source omits who is able to do it; kept passive."
+    },
+    {
+      "id": "dialogue_01652",
+      "target": "<op()><sp(20)>These guys are nimble!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01653",
+      "target": "<op()><sp(20)>KLFs are highly mobile machines. Watch for the irregular movements of their ref boards.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01654",
+      "target": "<op()><sp(20)>Don't make it sound so easy!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01655",
+      "target": "<op()><sp(20)>Holland, was it? You live up to the rumors.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01656",
+      "target": "<op()><sp(20)>You bastard...! Let me through!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01657",
+      "target": "<op()><sp(20)>These guys keep darting around!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01658",
+      "target": "<op()><sp(20)>A YF-19 charge can do it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Charge' kept consistent with 1714."
+    },
+    {
+      "id": "dialogue_01659",
+      "target": "<op()><sp(20)>Garrod, watch the enemy's movements closely.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01660",
+      "target": "<op()><sp(20)>Yeah... I'll do it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01661",
+      "target": "<op()><sp(20)>Captain, the enemy's numbers...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01662",
+      "target": "<op()><sp(20)>Yes... it's a little tough. But trust in everyone.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01663",
+      "target": "<op()><sp(20)>Gidget, what about Holland?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01664",
+      "target": "<op()><sp(20)>Engaged with the enemy, and being held up.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01665",
+      "target": "<op()><sp(20)>At this rate, Eureka will...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

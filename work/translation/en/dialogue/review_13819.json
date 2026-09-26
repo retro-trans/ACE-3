@@ -1,0 +1,40 @@
+{
+ "reviewer": "independent_shout_review_agent",
+ "slice_start": 13819,
+ "slice_count": 80,
+ "rows_examined": [[13804, 13913]],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [
+  {
+   "id": "dialogue_13855",
+   "before": "So much!",
+   "after": "Strong!",
+   "reason": "Source (何て力だ。, \"What power!\") is a reaction to the enemy's strength, matching the theme of the surrounding rows (13856 \"This one... is strong.\", 13857 \"Enemy's strong, but we can win!\"). \"So much!\" has no clear referent and reads as vague filler; \"Strong!\" keeps the reaction on-topic and fits the row's byte budget (budget 8, \"Strong!\" = 7 chars) with room to spare."
+  },
+  {
+   "id": "dialogue_13866",
+   "before": "Matching speed, defending!",
+   "after": "Matching speed, intercepting!",
+   "reason": "Source (相対速度を合わせ迎撃体制に移る！) says the unit is moving into intercept posture (迎撃), an active engage order consistent with every other 迎撃 line in this same Focker (Skull Leader) resource (13865 \"intercept formation 17\", 13881 \"Skull Leader to all units, intercepting!\", 13905 \"intercepting!\"). \"Defending\" reverses the tone from active interception to passive defense. Fits budget (30 chars allowed, fix is 29)."
+  }
+ ],
+ "checked_decisions": [
+  {"rows": [13819, 13898], "finding": "Resource boundary confirmed against work/ui/shout_groups.json: 13819-13863 = 2814020 (Max Jenius, VF-1A), 13864-13898 = 2814050 (Roy Focker, VF-1S Skull Leader). Voice registers (polite/gentlemanly for Max, rough/commanding for Focker) match character_names_021.json and are consistently applied."},
+  {"rows": [13827, 13828, 13843, 13861], "finding": "Two-line source rows compressed to one clause each under the byte budget; no meaning reversal, secondary clauses (hang-in-there asides) legitimately dropped per BASE_RULES compression allowance."},
+  {"rows": [13841, 13843], "finding": "Translator reused \"What's wrong?\" for two different source lines (何やってんですか / どうしたんです？) because the literal-er rendering of 13841 (\"What are you doing?!\", 19 chars) would exceed its 14-char budget. Accepted as forced compression, not an error."},
+  {"rows": [13854], "finding": "\"敵の増援を確認、迎撃します。\" compressed to \"Reinforcements incoming.\", dropping the explicit \"intercepting\" clause to fit the 26-char budget. Core alert meaning preserved; accepted."},
+  {"rows": [13898], "finding": "Translator's own uncertainty about dropping \"出迎えてやれ\" (\"go greet them\/meet them head-on\") from the Skull Leader reinforcement-alert line is reasonable: the imperative is carried by the very next row (13899, \"Units, intercept now!\"). No fix needed."}
+ ],
+ "uncertainties": [
+  {"rows": [13834, 13835], "issue": "Two adjacent variant lines for the same 'taking heavy losses' situation (僕たちやられるかもしれないですよ / ……死ぬかもしれないな) are two separate table alternates, not a back-and-forth exchange; translator escalated 13834 to \"in trouble\" and reserved \"die\" for 13835, which reads fine but is a judgment call about how literally to render やられる (can mean 'beaten/wrecked' or 'killed') given no distinguishing evidence which was intended."}
+ ],
+ "validation": {
+  "controls": "All <op()>, <sp(20)>, <ab(1000)>, <ed()> commands verified identical and in original order for all 80 rows; unaffected by this review's edits.",
+  "format": "ASCII only (fullwidth % not present in this batch); ambiguous lowercase j/q occurrences in this batch are all ordinary English words (e.g. \"just\"), not distorted locked names - left as-is per BASE_RULES (fix what is wrong, not what is merely different).",
+  "newline_fix": "All 12 rows whose target previously split a single shout across two lines with \\n (13827, 13828, 13843, 13861, 13865, 13870, 13878, 13881, 13885, 13894, 13895, 13898) were rejoined into one line with a space, per the shout-specific 'no newline in target' rule; each is a mechanical join (verbatim reflow), no wording changed, so length and budget compliance are unchanged.",
+  "byte_budget": "Re-verified all 80 rows programmatically against min(72, 2*source_ja_chars-2); all rows (including both meaning fixes and the newline-joins) fit within budget.",
+  "visible_length": "All 80 rows' visible text (tags stripped) is well under the 110-char cap."
+ }
+}

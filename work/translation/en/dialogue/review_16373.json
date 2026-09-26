@@ -1,0 +1,30 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 16373,
+  "slice_count": 80,
+  "rows_examined": [{"start": 16358, "end": 16467}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [16373, 16374, 16375], "finding": "Confirmed these three rows finish Isamu Alva Dyson (resource 2825010) before the speaker changes to Guld Goa Bowman at 16376 (resource 2825020), matching shout_groups.json. Targets ('That's nothing for me.', 'Done!', 'Home to drink!') match his reckless/carefree register."},
+    {"rows": [16386, 16387], "finding": "'Katamaruna, sankai shiro!' (don't bunch up, spread out) compressed to 'Spread out!' under an 18-char budget, dropping the first half but keeping the command; 'Speed de kanau to omou na yo' (don't think speed alone will beat me) rendered as the declarative 'Speed alone won't win.' -- same warning-to-opponent content, no reversal."},
+    {"rows": [16388], "finding": "Extreme edge case: source 'Tsugi!' (2 visible chars including the exclamation mark) gives a hard 2-character budget by the stated formula. No English rendering of 'next [target]' fits 2 characters; 'Go' is as close as any 2-char string gets and does not invert or misattribute meaning. This is a fit constraint, not a translator error -- kept as meaning_reviewed rather than draft, since the meaning has been checked as far as the format allows."},
+    {"rows": [16414], "finding": "'Mattaku kisama to iu yatsu wa......' (roughly 'honestly, what a guy you are...', an exasperated address, likely to an ally) is rendered as 'Honestly, what a fool...'. The added evaluative word 'fool' is not literally in the source, but the underlying exasperated/scolding register is present in the source's context (kisama is a rough, contemptuous 'you') and fits Guld's disciplined, short-tempered characterization. Ruled acceptable as an idiomatic rendering of the exasperation rather than an invented judgment, but flagged below since it is a closer call than the rest of this batch."},
+    {"rows": [16417], "finding": "'Sono choushi da' (keep that up / that's the way) rendered as 'Just so.' -- unusual phrasing in modern English but not incorrect, and its clipped formality suits Guld's terse commanding voice; left as is per 'fix what is wrong, leave what is merely different'."},
+    {"rows": [16423], "finding": "Source term katakana 'Rouhi' is unclear -- no entry in work/glossary/*.json or terms_028.json, and no resolution found. Cannot confirm whether 'What a waste.' is the correct rendering vs. a possible garbled/corrupted source string (a known corpus issue per project notes). Left as 'draft' rather than 'meaning_reviewed' since the row's meaning could not be verified."},
+    {"rows": [16447], "finding": "'Omega Ichi' kept as the callsign 'Omega 1'; no conflicting glossary/unit-name entry found for this term, consistent with the translator's own glossary proposal."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_16388", "issue": "Ruling: 'Go' at a hard 2-character budget is the closest fit possible for 'next [target]'; not a meaning error, just an unavoidable casualty of the fit constraint. Kept as meaning_reviewed."},
+    {"id": "dialogue_16414", "issue": "Ruling: 'what a fool' is a defensible idiomatic rendering of the exasperated 'kisama to iu yatsu wa', matching Guld's short-tempered characterization, though it adds an explicit judgment word not literally in the source. Not reversed or wrong-addressee; left as is, flagged for visibility rather than fixed."},
+    {"id": "dialogue_16423", "issue": "Source katakana term is unclear (possible 'rouhi'/wasted-expenditure reading, or a corrupted string per this corpus's known glyph-mangling issues). Could not verify against the glossary or terms_028.json. This row is left as 'draft', not 'meaning_reviewed', pending clarification of the source text."}
+  ],
+  "validation": {
+    "controls": "All <op()><sp(20)>...<ab(1000)><ed()> command sequences re-checked against the console source in exact order for all 80 rows; identical, no additions/omissions.",
+    "fit": "Re-ran a throwaway script recomputing min(72, 2*Japanese_char_count-2) per row from the console source against each target's visible length (tags stripped): all 80 rows meet budget, including the 2-character edge case at dialogue_16388. No script left in the repo.",
+    "format": "No newline in any target; all visible text ASCII; no lowercase j or q found outside locked names (none present).",
+    "runtime": "Runtime scene selection and font coverage are not established by this meaning review; only source-vs-target meaning, addressee, tone and glossary spellings were checked."
+  }
+}

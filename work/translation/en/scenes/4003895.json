@@ -1,0 +1,60 @@
+{
+ "resource_id": 4003895,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 4,
+ "rows_examined": 4,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)>This training exercise will be a mock battle assuming real combat conditions.",
+   "notes": "Faye's mock-battle training exam briefing; wording identical to sibling scenes in the 4003881-895 set, tag positions follow this scene's own source exactly.",
+   "source_sha256": "56a9b1f12320e7edc74dd343e1fa2d216161af55d2831458375cb636121670cf"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>The rule is simple.<move(1,8,11)> Whoever brings the <color(6)>opponent's AP<marker(1,8,11,0)> to zero<ce()> wins<move(2,8,11)>.",
+   "notes": "",
+   "source_sha256": "068d3481bd43f283e69ae348b36086c79dd031e161dc71fbba1083e25d74e8e4"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)>Just because it's practice<move(1,8,4)>, don't let your guard down<marker(22,8,4,0)>, okay? It'll<move(2,8,4)><picture(145,30,7,0)><refer(30,7,8,4)> hurt a little, you know.",
+   "notes": "",
+   "source_sha256": "d2e8957e0c699e37207ccd6e20d05227f4280ce1af1448b3818722d9462c0c03"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>Well then<marker(17,8,9,0)>, do your<marker(48,8,6,0)> best.",
+   "notes": "",
+   "source_sha256": "62902e7ce3fc72d6412462dd360cb6127a26b74da5e66aa3a948a0b40885a894"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "picture()/refer() id is scene-specific (points at this scene's exam opponent portrait); English wording identical across the 4003881-895 set per task instruction."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 4,
+  "rows_in_scene": 4,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker 1060 = Faye Rochenante (speaker_lookup.py).",
+   "Wording verified against tools/scene_source.py output for this scene: mock-battle training rules (AP to zero wins), the guard-down/hurt-a-little warning, and the closing 'do your best' all match the source meaning; wording is identical across the whole 4003881-895 set as the draft notes.",
+   "All commands identical in count and order vs this scene's own source in every row (verified programmatically); ASCII-only, no newline, 128-visible-char limit respected, no lowercase j/q, no bare %."
+  ],
+  "remaining_uncertainties": []
+ }
+}

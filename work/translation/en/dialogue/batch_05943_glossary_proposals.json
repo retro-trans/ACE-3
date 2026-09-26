@@ -1,0 +1,26 @@
+[
+  {
+    "term_romaji": "akitaipu",
+    "en": "Archetype",
+    "source": "https://eurekaseven.fandom.com/wiki/Archetype",
+    "why": "book(67), first appearing at dialogue_05994/06001/06002/06004/06005 (Dr. Bear explaining his research on the origin of LFOs). This is the Eureka Seven franchise's own official English term for the humanoid forms excavated from the Scub Coral that serve as the 'skeleton' of every LFO, confirmed via WebSearch of the Eureka Seven fandom wiki. No existing entry was found in character_names_021.json, mission_terms_019.json, or unit_names_014_a/b.json."
+  },
+  {
+    "term_romaji": "sukabu",
+    "en": "Scub",
+    "source": "work/glossary/character_names_021.json (Dr. Bear's role text: 'Iconoclastic Tresor scientist studying the Scub Coral')",
+    "why": "book(69), first appearing at dialogue_05997/05998/06001/06004/06011/06018/06019 as the short form of 'Scub Coral' (the sentient coral organism from Eureka Seven). The short form 'Scub' already appears inside an existing character role description but has no standalone glossary entry of its own; proposed so future batches referencing book(69) alone can confirm the short form without re-deriving it from a character bio."
+  },
+  {
+    "term_romaji": "sukabu chiseitai setsu",
+    "en": "Scub Sentience Theory",
+    "source": "No external source found; literal rendering of スカブ知性体説 (Scub + intelligent-life-form + theory)",
+    "why": "book(71), appearing at dialogue_06000 and dialogue_06013: Dr. Bear's theory that the Scub are an intelligent species. This is an ACE3-coined compound term (not a standard Eureka Seven franchise term), analogous to how 'Kudan no Genkai' is coined in-universe. No prior corpus or glossary entry exists for book(71); flagging for orchestrator confirmation/lock since it will likely recur in later Bear/Scub scenes."
+  },
+  {
+    "term_romaji": "kudan no genkai",
+    "en": "Limit of Questions",
+    "source": "https://eurekaseven.fandom.com/wiki/Limit_of_Questions",
+    "why": "book(77), appearing at dialogue_06013/06014/06019/06020 (the theory that too much sentient life in one space collapses reality). Per project rule, the wiki's own page title wins over a literal transliteration of クダン ('Kudan'); the Eureka Seven fandom wiki's article for this exact concept (件の限界 / クダンの限界) is titled 'Limit of Questions', confirmed via WebSearch. No existing project glossary entry was found for this term."
+  }
+]

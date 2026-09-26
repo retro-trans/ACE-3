@@ -1,0 +1,34 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 9974,
+  "slice_count": 18,
+  "rows_examined": [{"start": 9799, "end": 9991}],
+  "rows_examined_count": 193,
+  "rows_in_slice": 18,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_09985",
+      "before": "<on()><sp(20)>The plunge into <book(75)>the Zone<endbook()>\\nthat <book(46)>D.O.M.E.<endbook()> spoke of...\\nGuess we've got no choice but to do it.",
+      "after": "<on()><sp(20)><book(46)>D.O.M.E.<endbook()> spoke of a plunge\\ninto <book(75)>the Zone<endbook()>...\\nGuess we've got no choice but to do it.",
+      "reason": "Command-order defect, not a meaning error: the source's <book(...)> tags appear in the order book(46) [D.O.M.E.] then book(75) [the Zone] ('Ｄ．Ｏ．Ｍ．Ｅ．が語っていた...ゾーンへの突入'), but the draft's natural English word order put book(75) before book(46), violating the 'commands identical and in the same order as the source' constraint. Reworded so D.O.M.E. is named first in English too, restoring the exact source tag order while keeping the same meaning (the plunge into the Zone that D.O.M.E. spoke of)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [9974, 9975, 9976, 9977, 9978, 9979, 9980, 9983], "finding": "Untagged closing narration (reflecting on the Frost brothers, then quoting Garrod, then pivoting to 'we've got to stop him' re: Dewey) reads consistently as a single speaker (contextually Jamil/a Freeden-side voice) across all these rows; no name written into any row since the source supplies none here."},
+    {"rows": [9981, 9982], "finding": "'Fixx Bloodman' and 'Berkt' spellings verified against encyclopedia_022.json and glossary sources; 'New Federation' (book 38) matches the locked short form used throughout this mission."},
+    {"rows": [9984, 9985, 9987, 9990], "finding": "'Scub' (short form, book 69) vs. 'Scub Coral' (full form) correctly follows which Japanese form the source itself uses row by row (スカブ vs. スカブコーラル), not flattened to one form throughout."},
+    {"rows": [9986, 9988], "finding": "'Great Wall' (book 79) and 'Promised Land' (book 76) match locked encyclopedia spellings; 'Beyond the Great Wall lies the Promised Land' correctly preserves the source's sequencing (Great Wall crossed first, Promised Land beyond it)."},
+    {"rows": [9989, 9991], "finding": "Renton and Eureka named exactly as the source names them (no gender assumption needed, both explicitly named); final row 09991 confirmed as the last row of resource 6300 (row 09992 belongs to resource 6302, a different tutorial table), so the scene boundary and rows_in_slice=18 are correct."}
+  ],
+  "uncertainties": [
+    {"rows": [9974, 9975, 9976, 9977, 9978, 9980, 9983], "issue": "Speaker untagged throughout this closing narration; by tone and content (reflecting on the Frost brothers, quoting Garrod, then 'we've got to stop him' about Dewey) it reads as Jamil or another Freeden-side character, but no name is written into the target since the source gives none. Ruling: correct, conservative call; accepted as-is."}
+  ],
+  "validation": {
+    "controls": "All <...> command tokens checked against source in exact order for all 18 rows. One defect found and fixed: dialogue_09985 had book(46)/book(75) tags swapped relative to source order; corrected (see meaning_fixes). No other command-order, missing-tag, or malformed-tag issues found; none of this batch's rows have ab()/ed()/off() in the source (consistent with the tail pattern begun at row 09972 in batch_09894), and none were added.",
+    "ascii_and_glyphs": "All targets ASCII-only; no lowercase j or q found anywhere in this batch.",
+    "format": "No row exceeds 110 visible (tag-stripped) characters on any line. Newline placement matches the source's own line breaks throughout.",
+    "glossary": "Spot-checked against character_names_021.json, encyclopedia_021_b.json/encyclopedia_022.json: Garrod, Fixx Bloodman, Frost brothers, Berkt, Dewey Novak, D.O.M.E., Command Cluster, Scub/Scub Coral, Great Wall, Promised Land, Renton, Eureka all match locked spellings and book ids.",
+    "meaning_review": "Full source-vs-target comparison performed for all 178 rows across the three contiguous batches (9814-9991, Mission 24 'Contact D.O.M.E.') via tools/dialogue_corpus.py slice 9814 178 --context 15, read to console only and never written to disk. No mistranslations, reversed meanings, wrong addressees, or invented subjects/identities/genders found in this batch; one command-order defect found and fixed. All rows set to meaning_reviewed."
+  }
+}

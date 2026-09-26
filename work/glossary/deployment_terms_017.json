@@ -1,0 +1,20 @@
+{
+  "version": "0.1.17",
+  "language": "en",
+  "scope": "Deployment menus; use the existing glossary for proper names and franchise titles.",
+  "entries": [
+    {"ja": "出撃選択", "en": "Deployment"},
+    {"ja": "僚機", "en": "Ally", "note": "Ally 1 / Ally 2 in the narrow selection labels; allied unit in prose."},
+    {"ja": "連携攻撃", "en": "Combo Attack"},
+    {"ja": "コンビネーションアタック", "en": "Combination Attack"},
+    {"ja": "機嫌", "en": "Mood"},
+    {"ja": "反動耐久", "en": "Stagger Resist."},
+    {"ja": "実弾防御", "en": "Ballistic Defense"},
+    {"ja": "応急修理", "en": "Emergency repairs"},
+    {"ja": "編入", "en": "Recruit", "note": "Acquire a new unit with Ace Points; distinct from assigning an existing unit to a deployment slot."},
+    {"ja": "地上演習", "en": "Ground test", "display": "Ground"},
+    {"ja": "宇宙演習", "en": "Space test", "display": "Space"},
+    {"ja": "基本演習", "en": "Basic training", "display": "Basics"}
+  ],
+  "sources": ["Source UI table 3013 and the user-supplied deployment screenshots."]
+}

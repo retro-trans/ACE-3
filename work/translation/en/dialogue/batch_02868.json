@@ -1,0 +1,532 @@
+{
+  "slice_start": 2868,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      2853,
+      2962
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_02905"
+      ],
+      "note": "Line about fighting 'for Tiffa's sake' has no named speaker/addressee in-row; identity (Jamil) inferred only from the Tiffa reference and is not stated in the target text."
+    },
+    {
+      "ids": [
+        "dialogue_02925",
+        "dialogue_02941"
+      ],
+      "note": "Speakers identifiable only by sentence-ending particle gender or general affiliation; no name or side asserted in the translation."
+    },
+    {
+      "ids": [
+        "dialogue_02868",
+        "dialogue_02870"
+      ],
+      "note": "'Self-propelled cannon' translated literally for jisouhou; this may be the same unit as mission_terms_019.json's named 'Infinite Mobile Cannon' (Dragonar Giganos self-propelled cannon, mission 09A) but the row itself never uses the proper name, so no identity was asserted."
+    },
+    {
+      "ids": [
+        "dialogue_02895",
+        "dialogue_02896",
+        "dialogue_02897",
+        "dialogue_02898"
+      ],
+      "note": "Debate between an unnamed Spacenoid-sympathizing speaker and an unnamed respondent; resource 6090 interleaves multiple crossover mini-scenes (HQ defense alerts, this debate, an Eureka Seven aside at 2904-2910, and a Sakomizu/Hojo thread from 2927 onward) so no side or speaker identity was assumed beyond what each row states."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source by console snippet: 80/80 equal, including malformed <ab(000)> at 2905 preserved as-is.",
+    "fit": "No newline in any target; longest visible text is within 110 characters; no over-limit rows.",
+    "glyphs": "ASCII only; no lowercase j or q outside locked names/terms (Jacoba Aon not in this batch); no bare percent sign.",
+    "ids": "80/80 ids present (dialogue_02868-dialogue_02947), none duplicated.",
+    "meaning_review": "Independently reviewed against the Japanese source (console slice, context 15); 80/80 rows examined, 0 meaning fixes required, 0 rows left as draft. See review_02868.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_02868",
+      "target": "<op()><sp(20)>Former Giganos and Neo Zeon forces are deploying nearby!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02869",
+      "target": "<op()><sp(20)>All units, please engage the enemy.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02870",
+      "target": "<op()><sp(20)>The enemy's self-propelled cannon is attacking our allies. Destroy it first.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Self-propelled cannon' (jisouhou) is a generic description in this row, not asserted to be the same unit as the named 'Infinite Mobile Cannon' (mukigen kidouhou) in mission_terms_019.json; kept literal rather than substituting the proper name."
+    },
+    {
+      "id": "dialogue_02871",
+      "target": "<op()><sp(20)>The cannon's heat output is rising! It's preparing to fire!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02872",
+      "target": "<op()><sp(20)>Heat rising! Here it comes again!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02873",
+      "target": "<op()><sp(20)>I-it's rising again?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02874",
+      "target": "<op()><sp(20)>The enemy cannon is active! Our allies are taking heavy damage!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02875",
+      "target": "<op()><sp(20)>This is bad...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02876",
+      "target": "<op()><sp(20)>The enemy cannon is active! Our allies have been hit!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02877",
+      "target": "<op()><sp(20)>This can't go on...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02878",
+      "target": "<op()><sp(20)>We've been hit again! Allied losses are mounting!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02879",
+      "target": "<op()><sp(20)>The enemy forces have started moving!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02880",
+      "target": "<op()><sp(20)>Captain, the enemy is moving!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02881",
+      "target": "<op()><sp(20)>We're going on the offensive. All units, advance!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02882",
+      "target": "<op()><sp(20)>Enemy reinforcements confirmed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02883",
+      "target": "<op()><sp(20)>The enemy cannon is preparing to fire again.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02884",
+      "target": "<op()><sp(20)>That's dangerous. Please destroy it first.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02885",
+      "target": "<op()><sp(20)>Many enemies have started moving. Is this... an all-out attack?!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02886",
+      "target": "<op()><sp(20)>Our allies are at a disadvantage!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02887",
+      "target": "<op()><sp(20)>Our allies are being pushed back!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02888",
+      "target": "<op()><sp(20)>One of our allied units has been taken down!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02889",
+      "target": "<op()><sp(20)>Damage to the Nadesico is minor. We can still hold out!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02890",
+      "target": "<op()><sp(20)>T-the Nadesico's damage is spreading!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02891",
+      "target": "<op()><sp(20)>C-Captain!! We can't hold on!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02892",
+      "target": "<op()><sp(20)>C-Captain! There's no time left!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02893",
+      "target": "<op()><sp(20)>Everyone, please hurry with the operation.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02894",
+      "target": "<op()><sp(20)>There's no chance left of turning the tide. The mission has failed.<ab(1800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02895",
+      "target": "<op()><sp(20)>You people! How long are you going to keep this pointless fighting up?!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02896",
+      "target": "<op()><sp(20)>You wouldn't understand, would you!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02897",
+      "target": "<sp(20)>The feelings of Spacenoids who have endured the Federation's oppression!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02898",
+      "target": "<op()><sp(20)>Wake up already! Fighting only breeds more fighting!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02899",
+      "target": "<op()><sp(20)>Suddenly targeting Federation headquarters like this... this plan is reckless!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02900",
+      "target": "<op()><sp(20)>It's effective precisely because it looks reckless. The enemy knows how to fight.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02901",
+      "target": "<op()><sp(20)>Even if we keep doing this, it won't bring the war to an end!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02902",
+      "target": "<op()><sp(20)>Geez, it's noisy over on this side too!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02903",
+      "target": "<op()><sp(20)>I guess people just can't help fighting, no matter what world it is.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02904",
+      "target": "<op()><sp(20)>Then I'll be the one to end this fight!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02905",
+      "target": "<op()><sp(20)>For Tiffa's sake, is that it?<ab(000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/addressee not named in-row; inferred from Tiffa reference and reply that this is Jamil being teased about fighting for Tiffa's sake. No identity invented in the target text itself."
+    },
+    {
+      "id": "dialogue_02906",
+      "target": "<op()><sp(20)>Yeah, that's right! You got a problem with that?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02907",
+      "target": "<op()><sp(20)>Renton! If Eureka gets hurt, you won't hear the end of it from me!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02908",
+      "target": "<op()><sp(20)>Y-yes, sir!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02909",
+      "target": "<op()><sp(20)>You be careful too, Holland!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02910",
+      "target": "<op()><sp(20)>...whatever.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02911",
+      "target": "<op()><sp(20)>Incoming transmission from allied forces!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02912",
+      "target": "<sp(20)>An unidentified force has appeared over the sea south of Lhasa!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02913",
+      "target": "<op()><sp(20)>We're picking it up on our own instruments too. An enormous energy reading was detected!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02914",
+      "target": "<op()><sp(20)>The Invaders again?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02915",
+      "target": "<op()><sp(20)>I-I don't know!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02916",
+      "target": "<op()><sp(20)>A massive heat source is approaching!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02917",
+      "target": "<op()><sp(20)>A-are they with these guys?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02918",
+      "target": "<op()><sp(20)>We still don't know, but please stay alert.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02919",
+      "target": "<op()><sp(20)>All targets confirmed destroyed!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02920",
+      "target": "<op()><sp(20)>What about the approaching force?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02921",
+      "target": "<op()><sp(20)>T-they're here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02922",
+      "target": "<op()><sp(20)>W-what?! Who are these guys...?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02923",
+      "target": "<op()><sp(20)>Are these more of them?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02924",
+      "target": "<op()><sp(20)>No, they're not.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02925",
+      "target": "<op()><sp(20)>They've started attacking us too.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker uses feminine sentence-final wa; no name given, no identity assumed beyond what the source shows."
+    },
+    {
+      "id": "dialogue_02926",
+      "target": "<op()><sp(20)>All units, please intercept.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02927",
+      "target": "<op()><sp(20)>Please wait! King Sakomizu!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02928",
+      "target": "<op()><sp(20)>Don't try to stop me!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02929",
+      "target": "<sp(20)>I won't accept it! This state the surface world is in...!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02930",
+      "target": "<sp(20)>This is something that must never be allowed!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02931",
+      "target": "<sp(20)>First, we drive off the enemies here! Follow me!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02932",
+      "target": "<op()><sp(20)>No, King Sakomizu!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02933",
+      "target": "<op()><sp(20)>Everyone, orders have come in from Federation Forces headquarters.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02934",
+      "target": "<op()><sp(20)>What is it?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02935",
+      "target": "<sp(20)>Annihilate the new enemy force that has appeared in the combat airspace.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02936",
+      "target": "<sp(20)>That is all.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02937",
+      "target": "<op()><sp(20)>As always, they ask for the impossible!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02938",
+      "target": "<op()><sp(20)>Hmph. Top brass are the same everywhere, huh.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02939",
+      "target": "<op()><sp(20)>What the hell are those guys?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02940",
+      "target": "<op()><sp(20)>A-are these some new Federation weapon?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02941",
+      "target": "<op()><sp(20)>Damn surface-dwellers!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker (a Hojo/Byston Well combatant) not identified by name; 'surface-dwellers' kept neutral, no side or gender assigned."
+    },
+    {
+      "id": "dialogue_02942",
+      "target": "<op()><sp(20)>Waaugh!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02943",
+      "target": "<op()><sp(20)>Father! Father, please put away your sword!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02944",
+      "target": "<op()><sp(20)>King Sakomizu!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02945",
+      "target": "<op()><sp(20)>Do you people feel nothing?! Look at the state of this surface world!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02946",
+      "target": "<op()><sp(20)>This is the world we live in now!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02947",
+      "target": "<op()><sp(20)>Silence...!<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

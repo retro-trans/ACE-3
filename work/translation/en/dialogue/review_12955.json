@@ -1,0 +1,34 @@
+{
+ "reviewer": "independent_meaning_review_shouts_agent",
+ "slice_start": 12955,
+ "slice_count": 80,
+ "rows_examined": [{"start": 12940, "end": 13049}],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [],
+ "format_fixes": [
+  {"id": "dialogue_12971", "before": "Take that!<LF>That's for underestimating us!", "after": "Take that! That's for underestimating us!", "reason": "Shout rows must have NO newline in the target (source line breaks are joined); the draft kept the source's embedded line break as a literal newline (shown here as <LF>). Joined into one line, still within the 46-char budget."},
+  {"id": "dialogue_12982", "before": "With us on it,<LF>this is nothing!", "after": "With us on it, this is nothing!", "reason": "Same newline-join fix as 12971; still within the 40-char budget."},
+  {"id": "dialogue_12991", "before": "Stay alert,<LF>no telling what might pop out.", "after": "Stay alert, no telling what might pop out.", "reason": "Same newline-join fix as 12971; still within the 44-char budget."},
+  {"id": "dialogue_13000", "before": "Isn't holding the line here<LF>what makes an ace?", "after": "Isn't holding the line here what makes an ace?", "reason": "Same newline-join fix as 12971; exactly fills the 46-char budget."},
+  {"id": "dialogue_13021", "before": "Tough opponent,<LF>but we pulled through.", "after": "Tough opponent, but we pulled through.", "reason": "Same newline-join fix as 12971; still within the 40-char budget."},
+  {"id": "dialogue_13028", "before": "Sorry,<LF>wasn't what you expected.", "after": "Sorry, wasn't what you expected.", "reason": "Same newline-join fix as 12971; still within the 42-char budget."}
+ ],
+ "checked_decisions": [
+  {"rows": [12971], "finding": "The source line (roughly 'serves you right! this is what happens when you underestimate us!') is kept in 'Take that! That's for underestimating us!'; both the gloat and the 'you underestimated us' cause survive, the dropped material is only redundant restatement, no meaning lost."},
+  {"rows": [13028], "finding": "The source line (an apology for defying the enemy's expectations) is correctly kept as 'Sorry, wasn't what you expected.', with Light Newman as the one apologizing (sarcastically); no addressee flip."},
+  {"rows": [12960], "finding": "Source is a bare exclamation naming unspecified 'those guys', rendered as 'Damn them!' without inventing any specific antagonist identity; correct per BASE_RULES on not supplying what the source omits."},
+  {"rows": [12958], "finding": "The 'Leave it to me!' source line appears within Kaine's own table block (resource 2810012, same slot family as his other 'leave it to me' lines at 12930/12945); read as Kaine's own reply to a request, not a different speaker. 'Trust me!' is a fair compression."}
+ ],
+ "uncertainties": [
+  {"id": "dialogue_13068", "issue": "The source line (roughly 'a tough one is headed over, I'm counting on you!') drops the second clause 'I'm counting on you' in the draft ('Tough one's headed your way!'). The 32-char budget has ~4 chars of slack but not enough for the full second clause; left as a reasonable partial compression since the primary warning is intact."},
+  {"id": "dialogue_13006", "issue": "The source line includes an initial curse ('damn') dropped in 'More and more!'; the frustration/curse tone is softened but not reversed. Left as-is (budget had only modest slack)."}
+ ],
+ "validation": {
+  "controls": "All <op()><sp(20)>...<ab(1000)><ed()> command sequences re-checked against the console source dump for rows 12955-13034; identical and in the same order in every row.",
+  "fit": "Re-verified the row's hard budget (min(72, 2*source_chars-2)) for every row; no row exceeds its budget.",
+  "format": "Found and fixed 6 rows (12971, 12982, 12991, 13000, 13021, 13028) that kept a literal newline in the target mirroring the source's own line break; joined into single lines per the shout-specific 'no newline' rule. Re-ran the check after fixing: 0 rows with newlines remain in this batch. All ASCII (no lowercase j/q outside locked names, none present here).",
+  "runtime": "Visual fit at runtime beyond the byte-budget formula is not established by this meaning review."
+ }
+}

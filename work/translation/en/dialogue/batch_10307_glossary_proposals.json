@@ -1,0 +1,20 @@
+[
+  {
+    "term_romaji": "sukabu kōraru",
+    "en": "Scub Coral",
+    "source": "https://eurekaseven.fandom.com/wiki/Scub_Coral",
+    "why": "First appears at dialogue_10311 (Dewey Novak's declaration of rebellion against it). Eureka Seven Wiki gives 'Scub Coral' as the standard romanization, noting some North American/merchandise releases instead use 'Scab Coral'; 'Scub Coral' was chosen as the wiki-page form per the project's wiki-wins-on-disagreement rule. Not previously present in any work/glossary/*.json file even though Nirvash, Eureka, Renton, Coralian and the Zone are already locked."
+  },
+  {
+    "term_romaji": "orenji",
+    "en": "Orange",
+    "source": "https://www.fanverse.org/blogs/eureka-seven-project-orange.37891/ ; https://eurekaseven.fandom.com/wiki/Antibody_Coralians",
+    "why": "First appears at dialogue_10347 ('オレンジが付近に撃ち込まれたわ！'). In Eureka Seven canon, 'Orange' (as in 'Project Orange') is the military's proper-noun name for the tectonic missiles fired into the Scub Coral to trigger a Kute-class Coralian; kept capitalized as a weapon name rather than translated as the color. The source row uses only the bare word 'オレンジ', not '計画'/'プロジェクト', so 'Project' was not added to the translation."
+  },
+  {
+    "term_romaji": "jisou heiki",
+    "en": "self-propelled weapon(s)",
+    "source": null,
+    "why": "Recurring generic term for mobile New Federation weapon platforms encountered as mission obstacles (first at dialogue_10368, then 10370, 10371, 10379, 10445, 10446). No named unit/model could be found on the Eureka Seven wiki or in the existing glossary, so it is rendered literally, following the project's existing pattern for unnamed generic ACE3 terms (e.g. mission_terms_019.json's 'interference area', 'particle field'). Flagging so a future pass can confirm no more specific in-game unit name exists."
+  }
+]

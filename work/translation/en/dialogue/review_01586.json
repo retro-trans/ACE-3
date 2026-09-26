@@ -1,0 +1,40 @@
+{
+  "reviewer":"independent_meaning_review_agent_01586_01666",
+  "slice_start":1586,
+  "slice_count":80,
+  "rows_examined":[{"start":1571,"end":1680}],
+  "rows_examined_count":110,
+  "rows_in_slice":80,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[],
+  "checked_decisions":[
+    {"rows":[1587,1588],"finding":"White Devil challenge and reply: 'te-awase' as 'face you in combat' is accurate; no speaker name added."},
+    {"rows":[1589,1590,1591,1592,1593,1594],"finding":"1590/1593 (formal first person, target of the attack is the speaker) correctly read as the opponent's answer to the shouts; 1594 Blue Hawk matches the glossary nickname of Meio Plato. 1590 and 1593 identical in source apart from the wait value, identical in English."},
+    {"rows":[1595,1598,1600],"finding":"Ship damage reports keep port/starboard and the unnamed ship; nothing supplied."},
+    {"rows":[1606,1607,1608,1610,1611,1613,1614],"finding":"1607-1608, 1610-1611 and 1613-1614 are same-speaker continuations (no <ed()> on the first row); rough register marks all three pairs as Holland. 1614 kept impersonal as in source."},
+    {"rows":[1609,1618,1619],"finding":"Kanchou for Ruri rendered 'captain'/'Captain Hoshino' per orchestrator decision; Western name order matches glossary."},
+    {"rows":[1621,1622,1623,1624,1655],"finding":"Frost brothers exchange: 1621/1624/1655 use the younger brother's speech (boku, da yo, nii-san), 1622-1623 the elder's; English adds no names and no gender beyond 'Brother', which the source states."},
+    {"rows":[1628,1629,1630,1631,1632,1633,1634,1635,1636,1650],"finding":"Base-capture voice variants all mean the same event; 1635 keeps 'one', 1650 keeps 'all'. Passive kept where source has no subject."},
+    {"rows":[1637,1638,1639,1640],"finding":"Escort force variants: under attack / wiped out / in danger / destroyed match shuugeki / zenmetsu / kiken / kaimetsu."},
+    {"rows":[1642,1643,1644,1645],"finding":"Gekko damage and failure branch: Trapar, lift drop, abandon ship and all-hands evacuation all preserved."},
+    {"rows":[1647,1661,1662],"finding":"Loanword 'Captain' (Freeden crew to Jamil) kept as bare 'Captain'; consistent with the kanchou = Captain decision."},
+    {"rows":[1653,1658],"finding":"KLF and 'ref board' follow official Eureka Seven English terms; YF-19 'charge' consistent with 1714."},
+    {"rows":[1605,1615,1621,1616,1663],"finding":"Gekko, Gekkostate, Talho, Gidget, Nirvash, Holland, Jamil, Garrod spellings match the glossary."}
+  ],
+  "uncertainties":[
+    {"rows":[1608],"issue":"Translator doubt ruled: kept. 'Rei no renchuu' means the group the speaker already knows of, so 'the ones I heard about' supplies only what 'rei no' implies and 1620 confirms the Gekko crew had been told about them. A fully neutral alternative would be 'So those are the ones?'."},
+    {"rows":[1623],"issue":"Translator doubt ruled: kept. 'Former chief of the SOF 1st Mobile Unit' is a literal rendering of the source; no official English name for the unit was found, so it remains a glossary proposal, not a verified term."},
+    {"rows":[1587,1590,1593,1594],"issue":"Speakers untagged in resource 6043 (legacy scene). Readings are inferred from nicknames and register only; nothing about identity was written into the English."},
+    {"rows":[1613],"issue":"'Sumanai' here is politer than Holland's 'sumanee' in 1607, but the row has no <ed()> and continues into 1614, which is unmistakably Holland, so it was read as Holland answering Jamil's order in 1612."},
+    {"rows":[1648,1649],"issue":"Sentence-final 'ka' read as realisation in both rows (agreeing with the translator). 1649 'They've gone on the offensive' supplies 'they' for the enemy; the source omits the subject but no other reading fits 'mazui na'."},
+    {"rows":[1651],"issue":"Who 'can do such a thing' is omitted; passive kept. Speaker unknown."},
+    {"rows":[1597],"issue":"'Around us' slightly narrows 'shuuhen no teki' (enemies in the vicinity); harmless in context, left."},
+    {"rows":[1653],"issue":"87 visible characters with <ab(500)>: within the 110 limit but long for its display time; not shortened in a meaning review."}
+  ],
+  "validation":{
+    "controls":"Throwaway console check after review: ordered <...> command list of each of the 80 targets equals the source row's list.",
+    "format":"No newline in any target; ASCII only; no bare percent; no lowercase j/q in visible text.",
+    "fit":"Longest visible text 87 characters (limit 110). 80 ids present, dialogue_01586-dialogue_01665.",
+    "runtime":"Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

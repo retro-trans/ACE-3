@@ -1,0 +1,520 @@
+{
+  "slice_start": 14911,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      14911,
+      14990
+    ]
+  ],
+  "rows_examined_count": 80,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_14917",
+        "dialogue_14940",
+        "dialogue_14944",
+        "dialogue_14945",
+        "dialogue_14949",
+        "dialogue_14953",
+        "dialogue_14957",
+        "dialogue_14958",
+        "dialogue_14975",
+        "dialogue_14979",
+        "dialogue_14982",
+        "dialogue_14983",
+        "dialogue_14987",
+        "dialogue_14988"
+      ],
+      "note": "Two-line row addresses a named teammate (Ryoma/Hayato/Benkei) by name within a resource the task brief assigns to a single pilot. Translated literally as an in-shout exchange without reassigning speaker identity; flagging per DIALOGUE.md guidance to preserve uncertainty over inferring who speaks which line."
+    }
+  ],
+  "validation": {
+    "fit": "Each row's English visible length kept <= 2x(source visible-character count)-2, capped at 72 (per task's hard byte budget); no row exceeded its budget.",
+    "controls": "All angle-bracket commands (<op()>, <sp(20)>, <ab(1000)>, <ed()>) preserved in original order for every row; a single embedded newline kept exactly where the source had one, none added elsewhere.",
+    "meaning_review": "Independently meaning-reviewed against the Japanese source (tools/dialogue_corpus.py slice, context 15); no mistranslations, reversed meanings, wrong addressees/subjects, invented identity/gender, dropped sentence sense, or locked-spelling errors found. All rows promoted to meaning_reviewed; none left as draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_14911",
+      "target": "<op()><sp(20)>Think that's enough to crush us?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14912",
+      "target": "<op()><sp(20)>Finally, someone decent...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14913",
+      "target": "<op()><sp(20)>Heh... here they come!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14914",
+      "target": "<op()><sp(20)>Knew you'd show up...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14915",
+      "target": "<op()><sp(20)>Damn... this never ends!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14916",
+      "target": "<op()><sp(20)>Tch... swarming in!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14917",
+      "target": "<op()><sp(20)>Ryoma, reinforcements!\nHeh, getting fun now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14918",
+      "target": "<op()><sp(20)>New enemy signals!\nWhat, you scared already?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14919",
+      "target": "<op()><sp(20)>More troops, intercept!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14920",
+      "target": "<op()><sp(20)>The cast is set...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14921",
+      "target": "<op()><sp(20)>Boss shows, huh...\nHands itching!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14922",
+      "target": "<op()><sp(20)>Finally, someone with guts.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14923",
+      "target": "<op()><sp(20)>I'll show Getter's true power.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14924",
+      "target": "<op()><sp(20)>The boss arrives.\nFinally, decent one.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14925",
+      "target": "<op()><sp(20)>The enemy leader?!\nNo match for us!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14926",
+      "target": "<op()><sp(20)>A worthy opponent!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14927",
+      "target": "<op()><sp(20)>Enemy ace?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14928",
+      "target": "<op()><sp(20)>Whoever comes, they can't win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14929",
+      "target": "<op()><sp(20)>That movement... stay alert!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14930",
+      "target": "<op()><sp(20)>Shin Getter goes home.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14931",
+      "target": "<op()><sp(20)>Our fight never ends...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14932",
+      "target": "<op()><sp(20)>This is nothing, for me.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14933",
+      "target": "<op()><sp(20)>It's over.\nLet's head home.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14934",
+      "target": "<op()><sp(20)>You okay?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14935",
+      "target": "<op()><sp(20)>Three as one, unbeatable.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14936",
+      "target": "<op()><sp(20)>...So it's over.\nGuess we've got no match.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14937",
+      "target": "<op()><sp(20)>We lived another day.\nWe'll win next time, and after.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14938",
+      "target": "<op()><sp(20)>Units, head back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14939",
+      "target": "<op()><sp(20)>Op's over.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14940",
+      "target": "<op()><sp(20)>Benkei, you good?!\nNot funny, Hayato!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14941",
+      "target": "<op()><sp(20)>We cannot afford to lose!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14942",
+      "target": "<op()><sp(20)>Our odds are slim now.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14943",
+      "target": "<op()><sp(20)>Guess we're at a disadvantage...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14944",
+      "target": "<op()><sp(20)>Hayato... you can cry uncle.\nDon't be stupid, know who I am?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14945",
+      "target": "<op()><sp(20)>Hayato!\nI know... this is dangerous.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14946",
+      "target": "<op()><sp(20)>Do it with Getter!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14947",
+      "target": "<op()><sp(20)>Damn, what power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14948",
+      "target": "<op()><sp(20)>Getter's power exceeds this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14949",
+      "target": "<op()><sp(20)>Benkei, hold steady!\nI know!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14950",
+      "target": "<op()><sp(20)>We're pushed back!\nWe have to hold the line!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14951",
+      "target": "<op()><sp(20)>Stay on guard!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14952",
+      "target": "<op()><sp(20)>Let's go!\nThis brings back memories.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14953",
+      "target": "<op()><sp(20)>Hayato, don't push it.\nWe must show the young our strength.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14954",
+      "target": "<op()><sp(20)>Op begins.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14955",
+      "target": "<op()><sp(20)>Everyone, come back alive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14956",
+      "target": "<op()><sp(20)>We'll all survive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14957",
+      "target": "<op()><sp(20)>Benkei, you okay?\nRust doesn't matter... let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14958",
+      "target": "<op()><sp(20)>Count on you, Benkei.\nCan't lose to youth<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14959",
+      "target": "<op()><sp(20)>Bring your best!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14960",
+      "target": "<op()><sp(20)>Don't freeze up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14961",
+      "target": "<op()><sp(20)>Calm down, you can do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14962",
+      "target": "<op()><sp(20)>Combine our strength!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14963",
+      "target": "<op()><sp(20)>Fight, or die!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14964",
+      "target": "<op()><sp(20)>Cool down or die!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14965",
+      "target": "<op()><sp(20)>It's not the machine, it's you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14966",
+      "target": "<op()><sp(20)>Teaming with you helps.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14967",
+      "target": "<op()><sp(20)>I can watch you worry-free.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14968",
+      "target": "<op()><sp(20)>That skill's plenty alone.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14969",
+      "target": "<op()><sp(20)>No room left for us.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14970",
+      "target": "<op()><sp(20)>A reliable ally.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14971",
+      "target": "<op()><sp(20)>Very impressive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14972",
+      "target": "<op()><sp(20)>Come out and we'll crush you all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14973",
+      "target": "<op()><sp(20)>More troops, of course.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14974",
+      "target": "<op()><sp(20)>So the enemy fears us, huh.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14975",
+      "target": "<op()><sp(20)>Troops, Hayato!\nThey've got guts...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14976",
+      "target": "<op()><sp(20)>New enemies incoming!\nFresh troops won't work!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14977",
+      "target": "<op()><sp(20)>How much force did they send?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14978",
+      "target": "<op()><sp(20)>Persistent, aren't they!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14979",
+      "target": "<op()><sp(20)>Benkei, reinforcements!\nI'll hold with Getter!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14980",
+      "target": "<op()><sp(20)>Fresh troops...\nLet's cut them down here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14981",
+      "target": "<op()><sp(20)>Guard down, you die!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14982",
+      "target": "<op()><sp(20)>Swap with me, Hayato!\nGot this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14983",
+      "target": "<op()><sp(20)>Hayato, you alright?!\nGetter-2's speed can outmaneuver it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14984",
+      "target": "<op()><sp(20)>This one's a threat!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14985",
+      "target": "<op()><sp(20)>A big shot's here.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14986",
+      "target": "<op()><sp(20)>What is this thing?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14987",
+      "target": "<op()><sp(20)>Switch, Benkei!\nDon't test me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14988",
+      "target": "<op()><sp(20)>Benkei, the enemy leader!\nWe must take it down here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14989",
+      "target": "<op()><sp(20)>While we live, hope remains.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14990",
+      "target": "<op()><sp(20)>Everyone, well done.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

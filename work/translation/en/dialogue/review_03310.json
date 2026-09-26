@@ -1,0 +1,36 @@
+{
+  "reviewer": "independent_review_dialogue_agent",
+  "slice_start": 3310,
+  "slice_count": 56,
+  "rows_examined": [{"start": 3295, "end": 3380}],
+  "rows_examined_count": 86,
+  "rows_in_slice": 56,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {"id": "dialogue_03310", "before": "They were alive! And you're gonna let them die again!? Damn it!", "after": "They were alive! And now they are going to be left to die again!? Damn it!", "reason": "Source '今度も見殺しかよ！？' has no stated subject for who is doing the abandoning. The speaker (contextually Ryoko, continuing her reaction from rows 3305-3306/3309, immediately after Akito and Yurika are caught in an explosion) is not addressing a specific second person, so 'you're gonna let them die' invents a 'you' to blame that the source never names. Replaced with a passive construction that keeps the ambiguity, per the no-invented-subject rule."}
+  ],
+  "checked_decisions": [
+    {"rows": [3316, 3332, 3333], "finding": "Orchestrator ruling applied: '強化人間' (kyouka ningen) rendered 'Cyber Newtype', matching the existing character_names_021 description of this same archetype for Gyunei Guss. Ruling accepted as-is; no fix needed."},
+    {"rows": [3320], "finding": "Hokushin kept as the locked name from character_names_021 (Martian Successors' assassination-unit leader); not respelled."},
+    {"rows": [3322, 3330, 3334], "finding": "Amuro Ray, Renton, and Garrod (all named explicitly by the source) kept spelled per character_names_021; 'he' in 3334 correctly matches the source's own masculine pronoun for the Cyber Newtype enemy, not an assumption from a name."},
+    {"rows": [3324], "finding": "'大佐' (Taisa/Colonel) kept as a generic unnamed rank, not expanded to 'Char Aznable'; this is a different rank from '大尉' (taii), so it falls outside the taii-to-'Captain' orchestrator ruling and is unaffected by it."},
+    {"rows": [3325, 3326], "finding": "'Are you two working together!?' correctly addresses exactly two parties: the reply ('Don't lump us, the proud Neo Zeon, in with coup forces!') confirms two distinct forces are in view in this exchange, so 'two' is not an invented headcount."},
+    {"rows": [3336, 3341, 3353], "finding": "艦長 (Ruri, this scene) consistently rendered 'Captain' per orchestrator ruling."},
+    {"rows": [3345, 3350, 3353, 3361, 3362, 3364], "finding": "Berkt, Talho, Harry, Hoshino, and Akito Tenkawa all match character_names_021 spellings; color() tags kept exactly where the source has them (e.g. limited to the name span in 3353's reordered 'Captain Hoshino')."},
+    {"rows": [3347], "finding": "Baldora Charge book(2) tag matches encyclopedia_022's own rendering of the same term."},
+    {"rows": [3349, 3357, 3359], "finding": "'He'/'the enemy'/'this' supplied only where the antecedent (Berkt, or the situation) is unambiguous from the immediately preceding line; no subject invented beyond what context settles."},
+    {"rows": [3354, 3355, 3358], "finding": "Ruins Unit, Boson Jump, Neo Zeon, Giganos, and Martian Successors book() tags all match encyclopedia_022 entries; 'banded together' avoids the lowercase j in 'joined' without changing meaning."},
+    {"rows": [3360, 3361, 3362], "finding": "The black machine's identity reveal (Akito Tenkawa, former Nadesico crewmate) is not disclosed early; 'that black machine' is kept ambiguous on row 3360 exactly as the source withholds it until 3361."},
+    {"rows": [3365], "finding": "'仕事場' (job/workplace) rendered 'post' to avoid a lowercase j; speaker is self-referential ('オレ'), no third-party gender assigned."}
+  ],
+  "uncertainties": [
+    {"rows": [3310, 3335], "issue": "Speakers in rows 3310-3335 (Amaterasu's fall and the Londo Bell engagement) are untagged; only Renton and Garrod are named by the source itself, so no other speaker identity was written into any target. Row 3310's fix (see meaning_fixes) assumes an unspecified/passive subject rather than assigning the line to Ryoko outright, since that attribution is inference, not stated."},
+    {"rows": [3336, 3365], "issue": "Rows 3336-3365 read as a joint debrief between the Nadesico B (Ruri, Harry) and the Gekko-Go (Talho); the source never names a single ship, so no vessel name was added. The unattributed closer at 3365 ('I'm coming along too, my post is gone anyway') is plausibly the mercenary/contractor introduced at rows 3252-3259 of the prior slice, but this was left out of the target as unconfirmed."}
+  ],
+  "validation": {
+    "controls": "Re-ran tools/dialogue_corpus.py slice 3310 56 --context 15 and diffed every <...> command list (order and contents) between source and target for all 56 rows: all equal.",
+    "format": "No newlines, ASCII-only (no non-ASCII characters found) in any of the 56 targets.",
+    "fit": "Longest visible text (tags stripped) is 108 characters; limit is 110; no over-limit rows, including after the dialogue_03310 fix (74 characters).",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

@@ -1,0 +1,259 @@
+{
+ "resource_id": 4004423,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 26,
+ "rows_examined": 26,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(25010,1)><speed(2)>What a crazy story. We've ended up somewhere far away, and right in front of us is a bunch of unknowns, huh.",
+   "notes": "",
+   "source_sha256": "8ab8f9f2bc3a2dc955d66c9cb5bceefe9c337d0d0ca7a62c455a61dc86c4673e"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>Wh-what's going to happen to us?!",
+   "notes": "",
+   "source_sha256": "7793c67cc0c079fa82673abebf9de72075c3aff772340d1863fe8034f757e208"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(10030,1)><speed(2)>Nothing starts until we actually make contact.",
+   "notes": "",
+   "source_sha256": "ff40918e644de0edadb293cdbb79014b264a95ef422468efaceb28f37f5c45f2"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(10010,1)><speed(2)>Being told to fight guys we know nothing about doesn't sit right with me.",
+   "notes": "",
+   "source_sha256": "c00c46df1615b337982111f4d261e99c382f9ab39896954b665c0bee6ff0e90e"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)>In the first place... can we even get back home?!",
+   "notes": "",
+   "source_sha256": "76a48b4e9f2e8e222f75ca38736305abd11ed72dfbf7bc2b8e657ee7bfc2dc47"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>, calm down.",
+   "notes": "",
+   "source_sha256": "5bd5f8eb5131242c235dfdab8bc8266e65bc9964ec57ade3671326a4299cbe42"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1040,1)><speed(2)>Why did this have to happen...!",
+   "notes": "",
+   "source_sha256": "3ef7e887faf77be0578fe4d479b8471bdc93afc298c64698bdb14294070be833"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(25010,1)><speed(2)>Cool your head, kid! At times like this, the ones who panic are the first to get shot down.",
+   "notes": "",
+   "source_sha256": "26b3f1418f636803b1ee83ce391781d6ec9d54856bc9c78c79c2ad2af1930476"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(5010,1)><speed(2)>He's right. I understand feeling anxious, but... ...?!",
+   "notes": "",
+   "source_sha256": "cb360a36228c3160174fdccd8a32475f8ad0254109a70021a61ee99a8398a236"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(5010,1)><speed(2)>This sensation... a Newtype...? No... it's a little different...",
+   "notes": "",
+   "source_sha256": "ae3e754104f4d00f1c0b020e9b67e83a62dec90e39c7799b697bb7ac9c6b5c03"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(10020,1)><speed(2)><color(4)>Amuro<ce()>? Are you sensing something again?",
+   "notes": "",
+   "source_sha256": "cf947c54298af104e8dd08f4dfd57d6abf7b62bdf34ed14aea3a9e56ef943890"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(5010,1)><speed(2)>...Yeah. It's a strange sensation, unlike any before...",
+   "notes": "",
+   "source_sha256": "80985ef04781965f778c32432d771d4cfce88eceb58d17488cafb5f0c1f6b8b0"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)>You're anxious after all, aren't you, <color(4)>Barrel<ce()>?",
+   "notes": "",
+   "source_sha256": "7bdd64231a0faf320663029228df7ccc8be9d1578e61c69dcd2b56f3a6e50eb7"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>But <color(4)>Barrel<ce()>, you survived that battle in this machine your first time aboard. You'll be fine in any situation.",
+   "notes": "",
+   "source_sha256": "e8a1394312076e2fa2d73e0c87e2d0ec387e4115d63ae9095959c5dde4680203"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>...Thanks.",
+   "notes": "",
+   "source_sha256": "c54409278dfda2d901d8e09e70a235fb99ed792b81db65f631ac4f43f71a2fd6"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>Unusually straightforward of you.",
+   "notes": "",
+   "source_sha256": "68f5481ffdcd4ae4d119ab076568f002d0694f9397a4933fb2707abdf40255b7"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)>...Not really.",
+   "notes": "",
+   "source_sha256": "e2465939f450dd286e7600801e4852ce442cdff6f120c38bc4d0f5a1fc83965c"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(25010,1)><speed(2)>Captain, what do we do if the side we're covering turns on us, too?",
+   "notes": "",
+   "source_sha256": "0e6bdab9c7da403a362c70faf8ceab41b8eb5b4c5e10d4184b59251c97a3f7d3"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>I'm praying it doesn't come to that.",
+   "notes": "",
+   "source_sha256": "9adfce76d107e902c87add4b5f6c787455f82af3602710a2fa5a6a6c3a93a8d8"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(5010,1)><speed(2)>In any case, this ship is full of elites. Add the <color(4)>YF-19<ce()> and your skill, and there's nothing to fear, right?",
+   "notes": "",
+   "source_sha256": "6122b92e35f749e6f6beafc18045542b483f2c0ae002d8559a8199cf5b15822e"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(25010,2)><speed(2)>Man, you sure know what to say. Now I'd be a liar if I didn't deliver.",
+   "notes": "",
+   "source_sha256": "053317ed5f9df2af3bdc3d356e9dea0cadc98a9917920d73eb7fd7996ba37e6b"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,1)><speed(2)>Even I'm rattled by this situation...",
+   "notes": "",
+   "source_sha256": "7c159dd5bda1c6060e56cd105e5d25db6ff1f11b3468b386bdb7ff6ecdf9cf57"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,1)><speed(2)>Weren't you supposed to be the great <color(4)>Kaine<ce()>...? Wish you'd pull yourself together.",
+   "notes": "",
+   "source_sha256": "2b1991f17fc62220e312a7af95f0954f60d5a35843ee81de19c9c0c5aed807f4"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,1)><speed(2)>Your eyes are darting around too, <color(4)>Tapp<ce()>, you know? You're as bad as each other.",
+   "notes": "",
+   "source_sha256": "1037fc384f7c5bce1ddff7e2efd3ae1c2982c90a2879d34115e5874ca6bc27ac"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(25010,1)><speed(2)>Pathetic, the lot of you... Get a grip!",
+   "notes": "",
+   "source_sha256": "4fab6bfe5c653381e5e06b3b1c23e37cb044c150944170837b61d90d6b4aee69"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(10010,1)><speed(2)>You don't have to tell us! We're the invincible <color(4)>Dragonar team<ce()>!",
+   "notes": "",
+   "source_sha256": "acbccc04bebb6ebf2fafc88619b9395d1fa84274be2417ea99c97219f7b73efd"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 59,
+   "issue": "'the side we're covering' - refers to the faction they are about to support in the mission; 'Captain' = Amuro (taii)."
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "issue": "'sunao' rendered 'honest'; could also be 'agreeable/meek'."
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "issue": "'Dragonar team' follows majority usage (7x) in existing translation files; not a locked glossary entry."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 26,
+  "rows_in_scene": 26,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 22,
+    "before": "<operator(1060,1)><speed(2)>Unusually honest of you.",
+    "after": "<operator(1060,1)><speed(2)>Unusually straightforward of you.",
+    "reason": "'sunao' here = Barrel accepting Faye's encouragement without his usual pushback; 'honest' wrongly implies he is normally untruthful. Translator flagged the same doubt."
+   }
+  ],
+  "checked_decisions": [
+   "1/59 'the side we're covering' / 'Captain' = Amuro (taii, and Amuro answers). Wording follows source 'engo suru hou mo teki ni mawattara'. Accepted; faction not verified.",
+   "1/22 'sunao' -> changed, see meaning_fixes.",
+   "1/103 'Dragonar team': corpus 9 vs 'Dragonar unit' 2, no glossary lock. Kept; name-script matter.",
+   "0/27 'He's right' - Isamu is male per glossary."
+  ],
+  "remaining_uncertainties": [
+   "1/59: which faction 'the side we're covering' is was not checked against the mission script.",
+   "1/22: replacement 'straightforward' is my reading of 'sunao' (open/not contrary); 'agreeable' would also be defensible."
+  ]
+ }
+}

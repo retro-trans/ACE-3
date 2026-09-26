@@ -1,0 +1,538 @@
+{
+  "slice_start": 776,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      761,
+      870
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_00776",
+      "target": "<op()><sp(20)>Hari, stay calm.\nLet's leave this to everyone out there.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Hari spelling follows Nadesico Wiki Ruri Hoshino page; nickname-like source form does not require an invented surname."
+    },
+    {
+      "id": "dialogue_00777",
+      "target": "<op()><sp(20)>Thanks to all of you, the Nadesico\nhas taken almost no damage.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00778",
+      "target": "<op()><sp(20)>You're awfully quiet today, Guld!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00779",
+      "target": "<op()><sp(20)>This isn't like dealing with a troublemaking brat.\n...This is real combat!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "The brat is an insult aimed at the rival in rows778-780, not a reference to Barrel. No speaker label assigned without event metadata."
+    },
+    {
+      "id": "dialogue_00780",
+      "target": "<op()><sp(20)>...What did you say?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00781",
+      "target": "<op()><sp(20)>You two! Save your squabbling for later!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00782",
+      "target": "<op()><sp(20)>Designating the reinforcements as targets.\nPlease intercept them.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00783",
+      "target": "<op()><sp(20)>Allied units are moving to support the mothership.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00784",
+      "target": "<op()><sp(20)>Now, let's finish off the remaining enemies, too.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00785",
+      "target": "<on()><sp(20)>Captain, there are way too many enemies!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00786",
+      "target": "<on()><sp(20)>It's all right.\nEveryone has come to help us.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00787",
+      "target": "<on()><sp(20)>Captain, preparations to fire are complete!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00788",
+      "target": "<on()><sp(20)>Understood. All allies in the line of fire, evacuate immediately.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00789",
+      "target": "<on()><sp(20)>This is YF-21. Leaving the area now.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00790",
+      "target": "<on()><sp(20)>Yee-haw!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00791",
+      "target": "<on()><sp(20)>Come on! Keep dragging your feet and I'll shoot you down!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "First-person threat to shoot down the rival follows the challenge/reply exchange789-797; not a warning that enemies will shoot the listener."
+    },
+    {
+      "id": "dialogue_00792",
+      "target": "<on()><sp(20)>You! What do you think you're doing?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00793",
+      "target": "<on()><sp(20)>Heh!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00794",
+      "target": "<on()><sp(20)>Are you that eager to settle this?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00795",
+      "target": "<on()><sp(20)>You bastard...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00796",
+      "target": "<on()><sp(20)>Guh...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00797",
+      "target": "<on()><sp(20)>You son of a bitch!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00798",
+      "target": "<on()><sp(20)>H-hey! What are you doing at a time like this!?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00799",
+      "target": "<on()><sp(20)>If you keep dawdling, you'll get hit!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00800",
+      "target": "<on()><sp(20)>Gravity Blast, fire.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00801",
+      "target": "<on()><sp(20)>What!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00802",
+      "target": "<on()><sp(20)>Whoa!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00803",
+      "target": "<on()><sp(20)>What the hell do you think you're doing!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00804",
+      "target": "<on()><sp(20)>Your two units' movements were drawing the enemy together.\nThat was the best moment to fire.",
+      "status": "meaning_reviewed",
+      "notes": "The enemy gathered around both squabbling craft, explaining the firing decision in800; not a claim that the two craft were enemy units."
+    },
+    {
+      "id": "dialogue_00805",
+      "target": "<on()><sp(20)>I knew the two of you would be able to dodge it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00806",
+      "target": "<on()><sp(20)>...\nI'm honored by your confidence in us, but...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00807",
+      "target": "<on()><sp(20)>Lieutenant Commander <color(4)>Hoshino<ce()>, it's been a while.",
+      "status": "meaning_reviewed",
+      "notes": "Naval rank Lieutenant Commander supported by Prince of Darkness character references. Review cross-batch rank normalization."
+    },
+    {
+      "id": "dialogue_00808",
+      "target": "<on()><sp(20)>You haven't changed either, <color(4)>Amuro<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00809",
+      "target": "<on()><sp(20)>I'm sorry about what happened to <book(22)>the Tenkawas<endbook()>.\nI heard they had adopted you.",
+      "status": "meaning_reviewed",
+      "notes": "The couple is Akito and Yurika Tenkawa per Ruri biography; source uses family reference, so personal names are not added."
+    },
+    {
+      "id": "dialogue_00810",
+      "target": "<on()><sp(20)>No, please don't worry about me.\nI'm all right now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00811",
+      "target": "<on()><sp(20)>Instead, could you tell me\nwhat the recovery team's investigation found?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00812",
+      "target": "<on()><sp(20)>Yes.\nThey examined the downed <book(35)>Zentradi<endbook()> craft,\nand apparently all of them were unmanned.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00813",
+      "target": "<on()><sp(20)>Unmanned?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00814",
+      "target": "<on()><sp(20)>All they found in the cockpits was residue from those life-forms.\nIt had apparently spread into the electronics\nand even inside the components.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00815",
+      "target": "<on()><sp(20)>Parasitism...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00816",
+      "target": "<on()><sp(20)>Good grief...\nSo we're dealing with monsters,\nnot <book(35)>Zentradi<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00817",
+      "target": "<on()><sp(20)>Then finding out what's causing this is urgent.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00818",
+      "target": "<on()><sp(20)>Commander <color(4)>Misumaru<ce()> has reported finding something\nthat may be connected to this incident.\nApparently, it's still only a hypothesis.",
+      "status": "meaning_reviewed",
+      "notes": "Independent review: Restores that a relevant object has actually been located; only its connection remains hypothetical."
+    },
+    {
+      "id": "dialogue_00819",
+      "target": "<on()><sp(20)>It's apparently an abandoned experimental facility\ncalled the <book(1)>Baldora Drive<endbook()>.\nWe're heading there immediately.",
+      "status": "meaning_reviewed",
+      "notes": "Existing glossary explicitly fixes provisional Baldora Drive despite the Japanese -dona spelling. Source calls it an experimental facility here; do not overwrite that with device description from general glossary."
+    },
+    {
+      "id": "dialogue_00820",
+      "target": "<on()><sp(20)>Understood.\nThe <book(20)>Nadesico B<endbook()> will now join <book(10)>Londo Bell<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00821",
+      "target": "<on()><sp(20)>Oh, Lieutenant <color(4)>Dyson<ce()> and Chief <color(4)>Bowman<ce()>,\norders have arrived for both of you.",
+      "status": "meaning_reviewed",
+      "notes": "Chief renders civilian organizational title, not a military rank. Guld is a civilian researcher/test pilot in Macross Compendium."
+    },
+    {
+      "id": "dialogue_00822",
+      "target": "<on()><sp(20)>\"<book(85)>Project Super Nova<endbook()> has been canceled\nfollowing the adoption of the new\n<book(86)>X-9 Ghost<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00823",
+      "target": "<on()><sp(20)>Lieutenant <color(4)>Isamu Dyson<ce()> is hereby ordered, under special wartime provisions,\nto transfer to <book(10)>Londo Bell<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Existing glossary alias Isamu Dyson preserves the source name form rather than adding Alva."
+    },
+    {
+      "id": "dialogue_00824",
+      "target": "<on()><sp(20)>Chief <color(4)>Guld Bowman<ce()> is to end his secondment\nand return to corporate headquarters.\"\n...Those are the orders.",
+      "status": "meaning_reviewed",
+      "notes": "Source gives Guld Bowman, omitting canonical middle name Goa; preserve that source form. End of quoted transfer order."
+    },
+    {
+      "id": "dialogue_00825",
+      "target": "<on()><sp(20)>Hey...\nWait a minute! What the hell is this!?\nExplain it so it makes sense!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00826",
+      "target": "<on()><sp(20)>Insulting a superior officer is an offense.",
+      "status": "meaning_reviewed",
+      "notes": "Independent review: Restores the explicit disciplinary-offense meaning, rather than only describing impoliteness."
+    },
+    {
+      "id": "dialogue_00827",
+      "target": "<on()><sp(20)>I don't give a damn!!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00828",
+      "target": "<on()><sp(20)>Blaming the lieutenant commander won't solve anything.",
+      "status": "meaning_reviewed",
+      "notes": "Rank is the same Hoshino rank as807, not a new officer."
+    },
+    {
+      "id": "dialogue_00829",
+      "target": "<on()><sp(20)><color(4)>Guld<ce()>... Are you\nreally okay with this!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00830",
+      "target": "<on()><sp(20)>......",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00831",
+      "target": "<on()><sp(20)>Damn it...!\nI'm not going to let this stand...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00832",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>, orders regarding your status\nhave also arrived from <book(9)>Federation<endbook()> headquarters.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00833",
+      "target": "<on()><sp(20)>\"<color(4)>Barrel Orland<ce()>.\nEffective today, under special wartime provisions,\nyou are appointed a second lieutenant in <book(10)>Londo Bell<endbook()>.\"",
+      "status": "meaning_reviewed",
+      "notes": "Second lieutenant follows Federation pilot context, distinct from naval Nadesico rank terminology."
+    },
+    {
+      "id": "dialogue_00834",
+      "target": "<on()><sp(20)>S-second lieutenant? But I'm a civilian!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00835",
+      "target": "<on()><sp(20)>It's in recognition of your abilities.\n<color(4)>Faye<ce()>'s report also rated you highly.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00836",
+      "target": "<on()><sp(20)>Even so!!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00837",
+      "target": "<on()><sp(20)>Looks like you'll just have to accept it.\n<color(4)>Faye<ce()>, look after him.",
+      "status": "meaning_reviewed",
+      "notes": "Second sentence addresses Faye, asking her to look after Barrel; does not tell Barrel to look after Faye. Context832-842 establishes this."
+    },
+    {
+      "id": "dialogue_00838",
+      "target": "<on()><sp(20)>W-wait a second...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00839",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>, I look forward to working with you again.",
+      "status": "meaning_reviewed",
+      "notes": "Renewed greeting follows formal assignment and earlier shared combat; no farewell implied."
+    },
+    {
+      "id": "dialogue_00840",
+      "target": "<on()><sp(20)>...This is ridiculous.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00841",
+      "target": "<on()><sp(20)>Not in the mood for that, huh...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00842",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>, just remember this.\nI'll give you all the support I can,\nand I'll do anything to keep you safe.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00843",
+      "target": "<on()><sp(20)>Sorry I left you alone.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Resource changes to6021; dialogue concerns Renton, Eureka and Nirvash, not continuation of Faye/Barrel."
+    },
+    {
+      "id": "dialogue_00844",
+      "target": "<on()><sp(20)>Oh... Renton, you just said 'alone'...<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "The observation about saying alone remains unfinished and is clarified as referring to Nirvash in846; avoid adding an unsupported interpretation."
+    },
+    {
+      "id": "dialogue_00845",
+      "target": "<on()><sp(20)>Huh?<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00846",
+      "target": "<on()><sp(20)>About the Nirvash...<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Nirvash spelling is present in existing Renton/Eureka profiles; source spelling variant normalized."
+    },
+    {
+      "id": "dialogue_00847",
+      "target": "<on()><sp(20)>Oh...<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00848",
+      "target": "<on()><sp(20)>Hey, Renton... Let's go together.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00849",
+      "target": "<on()><sp(20)>Yeah.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00850",
+      "target": "<on()><sp(20)>'Welcome back'...\nThat's what the Nirvash is saying.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00851",
+      "target": "<op()><sp(20)>Transmitting the target's location.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00852",
+      "target": "<sp(20)>Please head in the indicated direction.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00853",
+      "target": "<sp(20)>Watch out for the Metal Armors.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00854",
+      "target": "<op()><sp(20)>I'm counting on you!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00855",
+      "target": "<op()><sp(20)>We'll provide support in the surrounding area.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        807,
+        821,
+        823,
+        824,
+        828,
+        833
+      ],
+      "issue": "Rank/title terminology requires consistent cross-batch normalization. Naval Lieutenant Commander, military Lieutenant/Second Lieutenant, and civilian Chief kept distinct."
+    },
+    {
+      "rows": [
+        819
+      ],
+      "issue": "Baldora Drive follows existing provisional glossary; this source describes an experimental facility, unlike the general glossary device description."
+    },
+    {
+      "rows": [
+        776,
+        778,
+        789,
+        812,
+        818,
+        822,
+        824
+      ],
+      "issue": "New names and terms researched or retained as source codes, with formal glossary additions still required."
+    },
+    {
+      "rows": [
+        844,
+        846
+      ],
+      "issue": "Fragmentary remark about addressing Nirvash as alone is kept fragmentary; specific emotional interpretation not added."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket and #c command retained in source order, including book links and color spans.",
+    "format": "Original embedded newline counts retained.",
+    "fit": "Full draft; no byte-budget shortening. Long prose still needs layout review.",
+    "meaning_review": "Independent review of all 80 rows with context 761–870; report review_00776.json."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 9894,
+  "slice_count": 80,
+  "rows_examined": [{"start": 9799, "end": 9991}],
+  "rows_examined_count": 193,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_09897",
+      "before": "<sp(20)>And the world just pretended we didn't exist.<ab(800)><ed()>",
+      "after": "<sp(20)>And the world simply pretended we didn't exist.<ab(800)><ed()>",
+      "reason": "Not a meaning error, but 'just' contains the lowercase j the game font cannot render at native size (project rule / ace3-technical-pitfalls memory). Replaced with 'simply', same adverbial sense (黙殺された = the world ignored/pretended not to notice us)."
+    },
+    {
+      "id": "dialogue_09946",
+      "before": "<on()><sp(20)>Then just cast aside the word Newtype.\\nThat should grant your wish.<ab(500)><off()>",
+      "after": "<on()><sp(20)>Then simply cast aside the word Newtype.\\nThat should grant your wish.<ab(500)><off()>",
+      "reason": "Same lowercase-j font constraint as dialogue_09897; 'just' -> 'simply', meaning unchanged."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [9894, 9895, 9896, 9897], "finding": "Frost brothers' Category F confession opens the box at 09894 and continues through 09897 (no <ed()> until 09897); 'never recognized as Newtypes' / 'the world simply pretended we didn't exist' correctly preserve 黙殺 (silent dismissal), not a softer 'ignored'."},
+    {"rows": [9904, 9905, 9906, 9907, 9908, 9909], "finding": "Untagged protagonist reply to the brothers, including a verbatim source repetition at 09909 of the 09907 line; translated identically rather than varied, matching the source's own repetition."},
+    {"rows": [9911, 9912, 9913], "finding": "'If only you two would touch D.O.M.E. as well...!' narrows the source's plural お前たち to 'you two'. In context this exchange is between D.O.M.E./an interlocutor and specifically the two Frost brothers (the only participants in this ideological confrontation), so the narrowing is a safe contextual inference, not an invented identity. Accepted; flagged in uncertainties below for visibility since it does add specificity beyond the literal plural."},
+    {"rows": [9920, 9944, 9945, 9956, 9957], "finding": "Tiffa correctly identified as both addressee (09944, 'You've been troubled by your own power') and speaker (09945 reply naming Garrod; 09957 reply to 'What do you think? Tiffa.' at 09956) purely from the source's own reply structure, no gender assumed from name alone."},
+    {"rows": [9963], "finding": "Quotation marks around \"Newtype\" only added where the source itself uses corner brackets (『ニュータイプ』, row 9963); row 9927 and 9946, which lack the brackets in source, correctly have no quotes added."},
+    {"rows": [9966, 9970, 9971], "finding": "Frost-brothers farewell exchange ('let's do it, brother' / 'Olba!' / 'Brother!!') correctly uses only the name the source itself supplies (Olba at 09970); Shagia's name is not written in anywhere it doesn't appear in source."}
+  ],
+  "uncertainties": [
+    {"rows": [9904, 9905, 9906, 9907, 9909, 9911, 9913], "issue": "Untagged speakers protesting/replying to the Frost brothers' ideology, and a register shift to a combat order at 9913. Ruling: translated at face value, no identity invented; accepted as-is."},
+    {"rows": [9911], "issue": "'you two' narrows the source's plural お前たち; not explicitly tagged in source. Ruling: acceptable given only two interlocutors (the Frost brothers) are present in this exchange, but noted here per BASE_RULES ('an uncertainty reported is worth more than a clean report') since it is a step beyond the literal text."},
+    {"rows": [9966, 9970, 9971], "issue": "Speakers inferred as the Frost brothers (Shagia/Olba) from the glossary's 'Olba addresses Shagia as brother' note. Ruling: correct, no name added beyond what source states (Olba at 09970)."},
+    {"rows": [9896], "issue": "'Category F' term not previously in the project glossary; researched and confirmed against the Gundam Wiki (Olba Frost article) and recorded in a glossary proposal. Ruling: correct research call; recommend the orchestrator promote 'Category F' to terms_028.json / character_names_021.json since it will recur wherever the Frost brothers' backstory is referenced."}
+  ],
+  "validation": {
+    "controls": "All <...> command tokens checked against source in exact order for all 80 rows, including every box that continues across rows with no closing <ed()>/<off()> (09896-09897, 09899-09900, 09904-09907) and the two tail rows (09972-09973, in the neighboring batch) that have no ab()/ed()/off() at all, matching the source.",
+    "ascii_and_glyphs": "All targets ASCII-only. Two lowercase-j occurrences found (dialogue_09897, dialogue_09946, both the word 'just') and reworded to 'simply' per the font constraint; no lowercase q anywhere in the slice.",
+    "format": "No row exceeds 110 visible (tag-stripped) characters on any line. Newline placement matches the source's own line breaks throughout.",
+    "glossary": "Spot-checked against character_names_021.json and encyclopedia_021_b.json/encyclopedia_022.json/ui_028.json/dialogs_options_018.json: Tiffa Adill, Garrod, Olba, Dewey Novak, Flash System, Command Cluster, Scub Coral, Limit of Questions all match locked spellings.",
+    "meaning_review": "Full source-vs-target comparison performed for all 178 rows across the three contiguous batches (9814-9991, Mission 24 'Contact D.O.M.E.') via tools/dialogue_corpus.py slice 9814 178 --context 15, read to console only and never written to disk. No mistranslations, reversed meanings, wrong addressees, or invented subjects/identities/genders found in this batch. All rows set to meaning_reviewed."
+  }
+}

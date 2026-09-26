@@ -1,0 +1,30 @@
+{
+  "reviewer":"independent_translate_dialogue_81_agent",
+  "slice_start":398,
+  "slice_count":80,
+  "rows_examined":[{"start":383,"end":492}],
+  "rows_examined_count":110,
+  "rows_in_slice":80,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[
+    {"id":"dialogue_00420","before":"...Wait a second... I can't...","after":"...Just... wait a second...","reason":"Source leaves the exhausted thought incomplete. Removed the supplied explicit inability, preserving the halting request without inventing its completion."},
+    {"id":"dialogue_00442","before":"I can't fight effectively alone,\nso I've asked him to pilot.","after":"I can't fight effectively alone,\nso he's handling the piloting.","reason":"Source reports the current piloting arrangement, not merely a request already made. Ongoing action is relevant to the superior's shocked response."}
+  ],
+  "terminology_decisions":[
+    {"id":"dialogue_00454","term":"Light","decision":"Retained and marked do-not-touch based on official verification supplied by orchestrator.","source":"https://www.dragonar.net/character/e02.php"},
+    {"id":"dialogue_00437","term":"Faye","decision":"Retained existing glossary spelling."}
+  ],
+  "uncertainties":[
+    {"rows":[420],"issue":"Exact unstated continuation cannot be recovered from dialogue text; the translation remains unfinished rather than guessing it."},
+    {"rows":[419],"issue":"Gendered praise is explicit in the source, so it remains even though it may sound dated in English."},
+    {"rows":[451,468],"issue":"Interrupted casualty reports deliberately remain incomplete; no additional fate supplied."},
+    {"rows":[467],"issue":"Original malformed <ab(200> preserved exactly. Runtime behavior remains a technical uncertainty, not a translation correction."},
+    {"rows":[477],"issue":"Likely failure branch; storage neighbors include success outcomes. No causal detail or subject added without event mapping."}
+  ],
+  "validation":{
+    "scope":"All 80 targets compared to original Japanese in ISO with both neighboring contexts read.",
+    "controls":"Every angle-bracket token, including malformed row467, and every #c token verified in original order.",
+    "fit":"No edits made for display length. Font measurement and runtime line placement remain builder work.",
+    "style":"Acceptable alternate phrasings retained; no general stylistic rewrite."
+  }
+}

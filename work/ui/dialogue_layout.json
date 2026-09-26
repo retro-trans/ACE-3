@@ -1,0 +1,41 @@
+{
+  "version": "0.1.6",
+  "image": "screenshots/08_tutorial_dialogue.png",
+  "source": "codex-clipboard-d95bf31c-ab3e-4623-8a49-01438b1e05f3.png",
+  "sha256": "47181131ca3d05322818f26093b1ace899efa328090e2a6125501f34fb7dff56",
+  "image_size": [
+    1050,
+    620
+  ],
+  "viewport": [
+    111,
+    1,
+    827,
+    619
+  ],
+  "speaker_region": [
+    319,
+    33,
+    422,
+    28
+  ],
+  "dialogue_region": [
+    319,
+    62,
+    598,
+    105
+  ],
+  "portrait_region": [
+    112,
+    22,
+    203,
+    166
+  ],
+  "row_id": "dialogue_00398",
+  "layout_estimate": {
+    "font_units_width": 460,
+    "max_body_lines": 4,
+    "line_height": 19,
+    "status": "Conservative geometric estimate; game clipping/capacity and timing remain untested."
+  }
+}

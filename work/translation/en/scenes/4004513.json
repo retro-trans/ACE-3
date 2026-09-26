@@ -1,0 +1,392 @@
+{
+ "resource_id": 4004513,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 44,
+ "rows_examined": 44,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17020,1)><speed(2)>The Sea of Lorelei, huh. Why's it called that?",
+   "notes": "",
+   "source_sha256": "2e99e35f96532a7e2887dc56e5e7fd47a9183e26613100e60e8e5387ebcfd2d9"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21020,1)><speed(2)>They say anyone who passes through this sea hears the singing of a woman's ghost.",
+   "notes": "",
+   "source_sha256": "301cd2419c9b157bc2bc2f4bcdf5c2955ba5649dcdc308f3ac570292b35ecbc1"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21020,1)><speed(2)>Supposedly it's named after the legend of the witch Lorelei.",
+   "notes": "",
+   "source_sha256": "1729de0b36191b268d652c810baa6698cce3148840aa97678d224001717dc102"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23010,1)><speed(2)>A g-ghost shows up!? Man, that's kind of creepy...",
+   "notes": "",
+   "source_sha256": "33adb9ffb2915b631bc3474a6e6eaf944fabe18d0059776ef2773ac6877bff13"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17070,1)><speed(2)>...!!",
+   "notes": "",
+   "source_sha256": "e16cd177a8787e3d75d48c5b426185626605f06f6c5163269ec546a177c05663"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23040,1)><speed(2)>!! <color(4)>Tiffa<ce()>, what's wrong!?",
+   "notes": "",
+   "source_sha256": "02c6c57925b5069557fad970e6e220a85c8634c132ae0b35cc98d3713c3a7a57"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(17040,1)><speed(2)>Bridge, what's happening?",
+   "notes": "",
+   "source_sha256": "e5698f42de99c9b36f34a06b8e97f3b58d3a2224f576ba9638b7f06d7d0a5818"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(23100,1)><speed(2)>Something's wrong with <color(4)>Tiffa<ce()>...",
+   "notes": "",
+   "source_sha256": "2cbbe9a832028143a7cf9d12684fc04a41b4d5f35b93bfb9e0ec3868b8969e16"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(17071,1)><speed(2)>...It's been a while, <color(4)>Jamil<ce()>.",
+   "notes": "",
+   "source_sha256": "14dab08402f239421b9865cd36fe4bf4a92f4e33e7532ace25a3a771fb214094"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(17010,1)><speed(2)>...<color(4)>Tiffa<ce()>? What in the world is going on?",
+   "notes": "",
+   "source_sha256": "035e60a0bc62b47666b71e15194b31441c72a134f098652d34a630f0f6f43e80"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(17071,1)><speed(2)>I am... <color(6)>Lucille Liliant<ce()>. I explained things to this girl, and I'm borrowing her body.",
+   "notes": "",
+   "source_sha256": "eedf79787c22a8ca13d6d4fb64e023afb456cfd24691d54cb0f538b7cab49b9b"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(17040,1)><speed(2)>It can't be... <color(6)>Lucille<ce()>... is that you!?",
+   "notes": "",
+   "source_sha256": "74498ff59c0d60729def19b22414b470c99bbe16776a8850a12fa07e94ae2999"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(17010,1)><speed(2)>What's going on here!",
+   "notes": "",
+   "source_sha256": "fcf95ac9afcdd949e2a6dcedc1ce2f4f31db2b373b963eca8260cc3cc28df6ce"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(17040,1)><speed(2)>...<color(6)>Lucille<ce()> was once my instructor.",
+   "notes": "",
+   "source_sha256": "b29b1ac6e2621f99587434db33dbc60770539cdfe7cd18418cfeeabb289f02d4"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(17030,1)><speed(2)>So then she's also...?",
+   "notes": "",
+   "source_sha256": "bedd4e0985150e6be8d19384a753b826e4218e744be6c1f88e6ccfb454092a99"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(17040,1)><speed(2)>A Newtype. <color(6)>Lucille Liliant<ce()> was a training officer for Newtype soldiers in the old Federation forces.",
+   "notes": "'kanojo mo...' (she too...) left elliptical as in source; the next line confirms 'Newtype'.",
+   "source_sha256": "915a89bdb4af65b95f9e087f85f87dcbfa71c4f4b2c523ef28b0903524d2013b"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(17040,1)><speed(2)>But I heard her mind was utterly destroyed in the war against the <color(5)>Space Revolutionary Army<ce()>.",
+   "notes": "",
+   "source_sha256": "03f3b27ce9d16cb3c71b5c713a9acc634505829943a7cdd525fac58dc1970064"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(17071,1)><speed(2)>That's right.",
+   "notes": "",
+   "source_sha256": "80252bda3cf74e9d5b35523c78f400674b6e7c2bd8e1e056ffe3fa1721be6a2b"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(17071,1)><speed(2)>The Newtype research institute exploited my hatred of war and developed the L System.",
+   "notes": "",
+   "source_sha256": "fac9a0fb5622d16f22f6c621356269bb347c398e96a61550568e13ce7eeadd51"
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(17071,1)><speed(2)>The L System amplifies my heart, which was built into it, and can render weapons using electronics unusable.",
+   "notes": "L System's function paraphrased slightly for flow; meaning (amplifies her sealed mind, disables electronic weapons) preserved.",
+   "source_sha256": "a28eba1e5db6084a86cd97fdaf0198f02b623032fdffa9c9c6a133928390a2d5"
+  },
+  {
+   "table": 0,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(17040,1)><speed(2)>So the <color(5)>New Federation<ce()>'s target is that L System. And they mean to use it for war...",
+   "notes": "",
+   "source_sha256": "ae9b3c42f16262b355480b6672dd54556c3c71532175cd8180394b300f252cd1"
+  },
+  {
+   "table": 0,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(17071,1)><speed(2)>I don't want to be used by anyone anymore. <color(4)>Jamil<ce()>, please...",
+   "notes": "",
+   "source_sha256": "71087b94c3e05013f17bf242d3cd70dcd4ebc6a854efc16d35f9a2a7101b12fc"
+  },
+  {
+   "table": 0,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<operator(17040,1)><speed(2)>So this is what <color(4)>Tiffa<ce()> wanted...",
+   "notes": "",
+   "source_sha256": "9b71f03e29f488cab59a539639b5b914baee9b90818146d2510caab49b565440"
+  },
+  {
+   "table": 0,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<operator(17010,1)><speed(2)>All right, let's save <color(6)>Lucille<ce()> with our own hands! <color(4)>Jamil<ce()>... it's your turn.",
+   "notes": "",
+   "source_sha256": "eb8edcd1c1909473e1689909de8e146b761b8b8d2051488d07b49343e4c9285e"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17040,1)><speed(2)>Ngh... but my hands, they're shaking... The memory... from back then... I... I...",
+   "notes": "",
+   "source_sha256": "ecaad3d24493da7c1f51b934c3dd2ba0fb9263d29ce4bbc067a743acf58b8af8"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(25010,1)><speed(2)>You... don't tell me you've got cockpit phobia?",
+   "notes": "",
+   "source_sha256": "3e2a10ee9e8c1957c6df2437d24974bf817f77fed23903ed3bb796dbfdb8ca72"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17040,1)><speed(2)>...Yeah.",
+   "notes": "",
+   "source_sha256": "64f93d3eb58eb8b1b1b533d1520d9e339a66b346a99a27e273e0734f2b26a0b1"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17071,1)><speed(2)><color(4)>Jamil<ce()>. You were deeply wounded in that past war, but you grew strong. This girl trusts you completely.",
+   "notes": "",
+   "source_sha256": "f991639d2f75a4d5e6a37a73dfb2234882bb47aac058ff7a8a12cef1843536c8"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17071,1)><speed(2)>I'm truly glad you found this kind of strength.",
+   "notes": "",
+   "source_sha256": "906d4d260d843742cbc4d7814d69c4d2a3d2ba9c34da9dc3065b554ddd2cfaef"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(17010,1)><speed(2)><color(4)>Jamil<ce()> will be fine. He's our leader, after all.",
+   "notes": "",
+   "source_sha256": "903c78a05d64e37e9a402aaa8abbbf802c0277a164f80008827789f6bbb39d17"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(17010,1)><speed(2)>Leave the piloting to us. Let's go, <color(4)>Jamil<ce()>.",
+   "notes": "",
+   "source_sha256": "57816ace415296798f759d8db2ac07c1229ccc17200dd040a7859c75516799f8"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(19020,1)><speed(2)>But seriously, turning a person into a weapon... I can't believe it.",
+   "notes": "",
+   "source_sha256": "e7c1b5d78be31c4fa80333eb865c27adf303e2853478cb8e6b969b3e4b5222a1"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(5010,1)><speed(2)>War makes people go wrong. I've seen plenty who became tools of battle that way and died.",
+   "notes": "",
+   "source_sha256": "c634a74e2b666be06371361d0799bd811a4475b47510d6e360dec817ed721c3c"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(17071,1)><speed(2)>You're someone who understands people's sorrow, aren't you. I'm grateful for those words...",
+   "notes": "",
+   "source_sha256": "3d9029233ceac1c3a9e64b8e17fdaf7530e83b721e92cc6d349a3c0edaa88147"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(17040,1)><speed(2)>But what can I possibly do now...",
+   "notes": "",
+   "source_sha256": "dc0f593742f60e4b0bcdcd51e72e81c7c07232cd1afd483efb3a36026d843645"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(17071,1)><speed(2)><color(4)>Jamil<ce()>, you've grown strong. This girl trusts you completely.",
+   "notes": "",
+   "source_sha256": "1fbb94adc249503a2256bb7534a79c3630ccec3b2afed4636fd542a3e8806a39"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(17071,1)><speed(2)>I'm truly glad you found this kind of strength.",
+   "notes": "",
+   "source_sha256": "906d4d260d843742cbc4d7814d69c4d2a3d2ba9c34da9dc3065b554ddd2cfaef"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(17010,2)><speed(2)><color(4)>Jamil<ce()> will be fine. He's our leader, after all.",
+   "notes": "",
+   "source_sha256": "0bf71702e830576e3d646e1c28253b376d4e8db1a43a1e79536acb0e095a4c14"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(17010,2)><speed(2)>Leave the piloting to us. Let's go, <color(4)>Jamil<ce()>.",
+   "notes": "",
+   "source_sha256": "0c17869126ca8d9d3f3c103bef868e63c42b65053ed929ac7a4363b35bfc17b3"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(23030,1)><speed(2)><color(4)>Jamil<ce()>, was it okay to talk about that? That must've been a painful past for you.",
+   "notes": "",
+   "source_sha256": "b8c26161cbe3c6436516204b13c0afcf4438e3c738186ed7088733b9b44ab039"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(17040,1)><speed(2)>It was fine. The young people here are trying to carve out their own paths with their own strength.",
+   "notes": "",
+   "source_sha256": "64ae7e412c18eefbf57aa264e5c4c6746cc595390c3f52f5e2cae8a8d6d3736f"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(5010,1)><speed(2)>Living bound by the past is torture. That curse is something you can only break free of yourself.",
+   "notes": "",
+   "source_sha256": "e9e2d49ed642843e6afcf2ac7913ceb302cc9dc1d93fa2768b392ad4e785ba9c"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(17040,1)><speed(2)>I've learned from <color(4)>Garrod<ce()>, <color(4)>Renton<ce()>, and the others too. What I'm about to do is a fight for my own recovery.",
+   "notes": "",
+   "source_sha256": "d3fb995105b2f5a00a9aa3a3e74f0c98a4f978f44d501b8774533d697268ea6f"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(23030,1)><speed(2)>I see... That makes this fight one we really can't afford to lose now.",
+   "notes": "",
+   "source_sha256": "3e8266c42ab4bbb2d34e6f97d89655a7830f07885bf0cf6600921fbc510b3fc8"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 34,
+   "issue": "'kanojo mo...' (she too...) left elliptical as in source; the next line confirms 'Newtype'."
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "issue": "L System's function paraphrased slightly for flow; meaning (amplifies her sealed mind, disables electronic weapons) preserved."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 44,
+  "rows_in_scene": 44,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/34 'kanojo mo...' left elliptical, resolved by the next line naming 'Newtype' explicitly; accepted, no invented information added.",
+   "0/38 L System description paraphrased ('amplifies my heart, which was built into it' for '組み込まれた私の心を増幅し'); meaning preserved, accepted.",
+   "0/42 Lucille-san honorific dropped consistent with corpus convention.",
+   "Speaker identities (Witz, Gain, Renton, Tiffa, Talho, Jamil, Gidget, Lucille, Garrod, Roybea, Isamu, Kei, Holland) verified via speaker_lookup.py against character_names_021.json; 'Lucille Liliant' and 'Space Revolutionary Army' spellings match glossary/character_names_021.json.",
+   "No lowercase j/q found outside locked names anywhere in this scene; no font-constraint fixes needed.",
+   "All <...> command sequences verified identical and in the same order as source for every row (checked programmatically against tools/scene_source.py output).",
+   "No mistranslation, reversed meaning, wrong addressee, invented subject/information, added 'sir'/'ma'am', or wrong name spelling found in any row."
+  ],
+  "remaining_uncertainties": [
+   "0/31 Garrod's 'What's going on here!' is a slightly loose rendering of 'どういうことだよ！' (lit. 'what does this mean!'); kept as an acceptable paraphrase, not a meaning error."
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 9814,
+  "slice_count": 80,
+  "rows_examined": [{"start": 9799, "end": 9991}],
+  "rows_examined_count": 193,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_09851",
+      "before": "<sp(20)>Show those Newtype supremacists\\nwhat true justice looks like!<ab(300)><ed()>",
+      "after": "<sp(20)>Show those Newtype supremacists\\nthe true meaning of what's right!<ab(300)><ed()>",
+      "reason": "Not a meaning error, but 'justice' contains the lowercase j the game font cannot render at native size (project rule / ace3-technical-pitfalls memory: avoid lowercase j/q outside locked names). Reworded to keep the same sense (真の正義 = true justice / what's truly right) without the letter."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [9819, 9820, 9821, 9822, 9823], "finding": "Multi-box unidentified-vessel alert (no <ed()> until 09823) correctly kept as one continuous warning; 'Destroy it, along with the unit that emerged from D.O.M.E.!' correctly preserves that TWO groups (the unidentified vessel and the D.O.M.E. unit) are both targeted for destruction (合わせて撃破されたし), not just one."},
+    {"rows": [9825, 9827, 9829], "finding": "G-Bit singular at first sighting (09825, 09827) vs. G-Bits plural once more appear (09829) correctly follows the source's singular/plural shift (Ｇビット vs Ｇビットも)."},
+    {"rows": [9850, 9851, 9852, 9853], "finding": "Alternating battle-bark taunts from opposing factions (anti-Newtype 'Newtype supremacists' line at 09850-09851 vs. pro-power 'hammer on the Oldtypes' at 09853) are not a contradiction; both are untagged combat barks from opposite sides, correctly left unassigned to a named faction/speaker."},
+    {"rows": [9857, 9858, 9859, 9860], "finding": "Untagged 'brother' exchange ('Now the stage is set... What we seek isn't being a Newtype, just power') correctly read as setup for the Frost brothers given later 09966/09970-09971, with no name invented in the row text itself since the source has none here."},
+    {"rows": [9862, 9920], "finding": "'the Captain' left as an unnamed title (shuttle carrying the Captain and Tiffa; D.O.M.E. addressing 'Tiffa Adill' by full name). Likely Jamil given the Freeden/Tiffa context, but the source never names him here, so no name was supplied. Correct per the do-not-invent rule."},
+    {"rows": [9840, 9841, 9844], "finding": "Garrod named as addressee (09840, 09844) and Tiffa's name is screamed (09841) exactly as the source itself states them; no additional identity was invented beyond what the Japanese text already names."}
+  ],
+  "uncertainties": [
+    {"rows": [9819, 9820, 9821, 9822, 9823, 9830, 9835, 9838, 9843, 9850, 9851, 9852, 9853, 9854, 9856], "issue": "Rapid-fire combat/alert barks with untagged speakers on both the New Federation and Space Revolutionary Army sides. Ruling: translation correctly stays speaker/faction-neutral; no identity invented. Accepted as-is."},
+    {"rows": [9857, 9858, 9859, 9860], "issue": "Untagged 'brother' exchange, read from later context (09966, 09970-09971) as the Frost brothers (Shagia/Olba). Ruling: correct call, no name written into the row itself since the source has none there. Accepted."},
+    {"rows": [9831], "issue": "Source says bare 'Nadesico' with no hull letter, not resolved to 'Nadesico C' even though the mission/task context implies that ship. Ruling: correct per BASE_RULES (do not supply what the source omits); leaving it bare is the right call even with contextual knowledge of which hull it is."},
+    {"rows": [9862, 9920], "issue": "'the Captain' kept as an unnamed title; likely Jamil given the Gundam X plot, but the source never names him. Ruling: correct, no name supplied."}
+  ],
+  "validation": {
+    "controls": "All <...> command tokens (op/sp/ab/ed/color/ce/book/endbook/on/off) checked against the source in exact order, including every row lacking a closing <ed()> that continues into the next row exactly as the source's own box structure requires. One command-order defect was found and fixed in the neighboring batch (dialogue_09985, batch_09974) where book(46) and book(75) had been swapped relative to source order.",
+    "ascii_and_glyphs": "All targets in this batch are ASCII-only; no fullwidth characters other than the (unused-here) fullwidth percent are required. One lowercase-j occurrence (dialogue_09851, 'justice') was found and reworded per the font constraint; no lowercase q anywhere in the slice.",
+    "format": "No row exceeds 110 visible (tag-stripped) characters on any line; longest lines are well under that bound. Newline placement (\\n) matches the source's own line breaks throughout.",
+    "glossary": "Spot-checked against character_names_021.json, terms_028.json and encyclopedia_021_b.json/encyclopedia_022.json: Tiffa Adill/Tiffa, Garrod, Jamil, Cynthia Lane, D.O.M.E., New Federation, Space Revolutionary Army, G-Bit, Satellite System all match locked spellings; 艦長 rendered 'Captain' per the orchestrator decision.",
+    "meaning_review": "Full source-vs-target comparison performed for all 178 rows across the three contiguous batches (9814-9991, Mission 24 'Contact D.O.M.E.') via tools/dialogue_corpus.py slice 9814 178 --context 15, read to console only and never written to disk. No mistranslations, reversed meanings, wrong addressees, or invented subjects/identities/genders found in this batch. All rows set to meaning_reviewed."
+  }
+}

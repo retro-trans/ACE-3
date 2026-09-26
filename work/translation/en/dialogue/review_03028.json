@@ -1,0 +1,25 @@
+{
+  "reviewer": "independent_meaning_review_mission09a_agent",
+  "slice_start": 3028,
+  "slice_count": 12,
+  "rows_examined": [{"start": 2933, "end": 3042}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 12,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [3028, 3029, 3030], "finding": "Asap and Luxe agree to cooperate with the Federation HQ's request for information; agreement direction not reversed."},
+    {"rows": [3031, 3032, 3033], "finding": "Escort/cooperation exchange between the Federation officer and Nadesico B crew reads consistently; no addressee swapped."},
+    {"rows": [3034, 3035, 3036, 3037], "finding": "'Another go back up to space' banter and the 'unfortunately, that's exactly right' confirmation preserve the reluctant-crew tone; not softened or reversed."},
+    {"rows": [3038, 3039], "finding": "book(25)/book(24)/book(26) render as Shirahime/Terminal Colony/Amaterasu, matching encyclopedia_022.json text_id 25/24/26 exactly. The unit sighted at other colonies after the Shirahime attack is described consistently with no invented identity for it."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_03038", "dialogue_03039"], "issue": "Ruling: book(24)/book(25)/book(26) spellings (Terminal Colony, Shirahime, Amaterasu) are confirmed correct against encyclopedia_022.json's matching text_id entries. No fix needed."}
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source via `python tools/dialogue_corpus.py slice 2948 80 --context 15` (covers 3028-3042): 12/12 equal in order.",
+    "format": "No newline in any target; ASCII only, no lowercase j/q outside locked names (none occur in this slice beyond common words like 'question'/'headquarters', already standard in the finalized corpus); no bare percent sign.",
+    "fit": "Longest visible text is within 110 characters; no over-limit rows; no shortening performed.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

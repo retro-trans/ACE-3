@@ -1,0 +1,444 @@
+{
+  "version": "0.1.15",
+  "language": "en",
+  "review": {
+    "status": "meaning_reviewed",
+    "reviewer": "root",
+    "rows_examined": 33,
+    "rows_in_slice": 33,
+    "notes": [
+      "Read each complete source scene in order, including preceding and following rows.",
+      "Preserved every ordered command, glossary link, color and map cue.",
+      "Naval rank shosa rendered Lt. Cmdr.; full meaning Lieutenant Commander.",
+      "Meeting table is Mission 02; briefing is the complete Zentradi/Nadesico support category. Other meetings and briefings remain pending."
+    ]
+  },
+  "rows": [
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 0,
+      "text_id": 1,
+      "source_sha256": "ef8d86444e8bf9573f18584d8bc6ddbc7988d40028789058fcc8b7146c7a5aaa",
+      "en": "02  Support Nadesico B"
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 19,
+      "text_id": 20,
+      "source_sha256": "67930972ec1041027590448b4e910e27e3df5fa245732a721c96e37df3dd0882",
+      "en": "<operator(30050,1)><speed(2)>Attention! I am the commander of <book(10)>Londo Bell<endbook()>, <color(4)>Kouichiro Misumaru<ce()>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 20,
+      "text_id": 21,
+      "source_sha256": "f05601dfdeec5a4a2d11c5650a19afc8191dc03a27e2159f7576267c4424ae39",
+      "en": "<operator(30050,1)><speed(2)>Well done on the last operation. I expect the same from you in the missions ahead."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 21,
+      "text_id": 22,
+      "source_sha256": "133abf18115082d5e4c1d2e5d1902d41560af92705ebfdcd1b3ae99c97b453ae",
+      "en": "<operator(30050,1)><speed(2)>The <color(5)>unidentified life-forms<ce()> we are investigating continue to appear around the world<thumbnail(153)>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 22,
+      "text_id": 23,
+      "source_sha256": "528494cb81197cdbafd653f795eddc07e51ef14f99909122fa7f2e59c8faf621",
+      "en": "<operator(30050,1)><speed(2)>We know they emerge from meteorites that arrive from beyond the atmosphere."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 23,
+      "text_id": 24,
+      "source_sha256": "93fc6398b72fb29faa519ffaa2b9bd03edd3e8c6158264da9fd21ca824bededf",
+      "en": "<operator(30050,1)><speed(2)>They also calcify after a certain time. This has prevented us from capturing any."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 24,
+      "text_id": 25,
+      "source_sha256": "8f2ea7f93575628ea2225df26ec177946422942daa018e31aedf07f7b303ddc1",
+      "en": "<operator(30050,1)><speed(2)><book(9)>Federation<endbook()> Headquarters views this as a grave situation and has made it our highest priority."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 25,
+      "text_id": 26,
+      "source_sha256": "cb44d33c649e61f140b37902e01a5fad0ae61312430fb38307d778933b88dfde",
+      "en": "<operator(30050,1)><speed(2)>Our <book(10)>Londo Bell<endbook()> force<thumbnail(154)> will become a special task force, joined by Lt. Cmdr. <color(4)>Ruri Hoshino<ce()> and the <book(20)>Nadesico B<endbook()>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 26,
+      "text_id": 27,
+      "source_sha256": "2faee8db4c520b539448040cdb650d37697ab44397978e7ebb26d78ccf56891b",
+      "en": "<operator(30050,1)><speed(2)>Understand the gravity of this situation. I am counting on you!"
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 27,
+      "text_id": 28,
+      "source_sha256": "ebc5c7ac70d19e2268477bd73537a7112fb3943b356e5c5a16232ad108e52531",
+      "en": "<thumbdown()><topic()><operator(30050,1)><speed(2)>Next, I have something to say to <color(4)>Barrel Orland<ce()>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 28,
+      "text_id": 29,
+      "source_sha256": "83adfd076327101a32f481a8be68df11c916acc615d7a165c96d5621005570ec",
+      "en": "<operator(30050,1)><speed(2)>Your father, the former <book(9)>Federation<endbook()> vice-minister, helped me in the past. Both your parents have been confirmed safe."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 29,
+      "text_id": 30,
+      "source_sha256": "0287045dd8a3419e28dcbd2de63dd310dc648dbab5fb14f60ed7993976c32c03",
+      "en": "<operator(30050,1)><speed(2)>I also hear you did well as a temporary pilot in the last operation. Keep up the good work."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 30,
+      "text_id": 31,
+      "source_sha256": "3f1e69c4df9c4ad79c3308242e7ea65c298e3bae6facd5a6eec1df49cfa03c77",
+      "en": "<operator(30000,1)><speed(2)><color(4)>Barrel Orland<ce()>. It was an emergency, but I am sorry we got you involved."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 31,
+      "text_id": 32,
+      "source_sha256": "0626c558cfdbdca6febfd18e1430cda19ae6a6e0d516e217301d2e42fcc945e0",
+      "en": "<operator(30000,1)><speed(2)>We will continue our investigation under Commander-in-Chief <color(4)>Misumaru<ce()>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 32,
+      "text_id": 33,
+      "source_sha256": "08aa16f68138c4ad3406329fc0c0237f5e0c46120fc902f2783a58e834114a64",
+      "en": "<operator(30000,1)><speed(2)>Under military regulations, a special order from the <book(9)>Federation<endbook()> forces requires you to remain with us."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 33,
+      "text_id": 34,
+      "source_sha256": "1e2e46d4aaa3604dd8fda9da63bbb5aa129e5b827d01033464685408bf613a52",
+      "en": "<operator(30000,1)><speed(2)>For now, you will take part in operations as the test pilot of the <color(4)>Exbrau<ce()><thumbnail(152)>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 34,
+      "text_id": 35,
+      "source_sha256": "864ccfea443676ad10e0d934b6989227d5a9bcb32c2d94f8965a6a45f1aead1c",
+      "en": "<operator(30000,1)><speed(2)>I will explain the details after the briefing."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 35,
+      "text_id": 36,
+      "source_sha256": "1b1c4b786445e81dd6bb1d1690d113e5e8da39af4d1cca92f66d01894ef0e5e3",
+      "en": "<thumbdown()><topic()><operator(30050,1)><speed(2)>We must act at once. The <book(20)>Nadesico B<endbook()><thumbnail(155)>, which is due to join us, faces an emergency."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 36,
+      "text_id": 37,
+      "source_sha256": "7236d339eec3167e012b118e8f573b956b1b208abe2f4a7f08565e9ddcfe4910",
+      "en": "<operator(30050,1)><speed(2)>It is battling a <book(35)>Zentradi<endbook()> <color(5)>terrorist unit<ce()> made up of former military personnel that attacked it."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 37,
+      "text_id": 38,
+      "source_sha256": "fc1af55fc8c4df8fa088af8536e8d6fe4394f70b4df12d17b77739b53c34de57",
+      "en": "<operator(30050,1)><speed(2)>Head to the combat zone immediately and support the <book(20)>Nadesico B<endbook()>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 38,
+      "text_id": 39,
+      "source_sha256": "53f05659ef1afcef6b345c01794abaa8774686e4da100f6078165e30e148af6e",
+      "en": "<operator(30050,1)><speed(2)>Unable to adapt to life on Earth, some <book(35)>Zentradi<endbook()> turn to terrorism. This is a serious problem for the <book(9)>Federation<endbook()>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 39,
+      "text_id": 40,
+      "source_sha256": "26d658660fd469729733c4ec22ee5e316792f6595284f1d33f01618984ed76b5",
+      "en": "<operator(30050,1)><speed(2)>Their attacks used to be small in scale, but their reach is growing. Everyone, proceed with caution."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 40,
+      "text_id": 41,
+      "source_sha256": "6c517e329d8a6e1d9c5f1fd1d004fa6878472b2adb0f9eb1df3632ac074f5ab4",
+      "en": "<thumbdown()><topic()><operator(30050,1)><speed(2)>One more point. The <book(9)>Federation<endbook()> is selecting its next <book(34)>Valkyrie<endbook()> under <book(85)>Project Super Nova<endbook()><thumbnail(157)>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 41,
+      "text_id": 42,
+      "source_sha256": "713033ebbe30ff61094832c5bfe0b76a9ffc01be873cf974fd568231130e5efc",
+      "en": "<operator(30050,1)><speed(2)>As part of the trials, two <book(34)>Valkyries<endbook()> are currently supporting the <book(20)>Nadesico B<endbook()>."
+    },
+    {
+      "resource_id": 4003020,
+      "table_id": 1,
+      "slot": 42,
+      "text_id": 43,
+      "source_sha256": "6ff9a7a47c41234c6b2d2246e787246cc320e98d578c921c3af8996fa669f7aa",
+      "en": "<thumbdown()><operator(30050,1)><speed(2)>Work with them to eliminate the <color(5)>enemy forces<ce()>. That is all."
+    },
+    {
+      "resource_id": 4003481,
+      "table_id": 1,
+      "slot": 0,
+      "text_id": 1,
+      "source_sha256": "ea5e89e24adc5e05b9e1a35222299b9dfebfff2ab90a8e767ccdbe732f8d62c7",
+      "en": "Zentradi"
+    },
+    {
+      "resource_id": 4003481,
+      "table_id": 1,
+      "slot": 19,
+      "text_id": 20,
+      "source_sha256": "e58f97e90baea5cf756df1d9b656fc6c2eea89eee1607eeb694de5ef70be220c",
+      "en": "<operator(5010,1)><speed(2)><move(1,2,13)>We will strike the <marker(1,2,13,0)><color(5)>enemy forces<ce()> deployed in the operation area.<move(2,2,13)>"
+    },
+    {
+      "resource_id": 4003481,
+      "table_id": 1,
+      "slot": 20,
+      "text_id": 21,
+      "source_sha256": "81767e1bda36f80b77716c1730cf0da79fa4ba8628b9d641cee98ccefed7c183",
+      "en": "<operator(5010,1)><speed(2)><move(1,12,1)>Only attack the <marker(22,12,1,0)><color(5)>targets<ce()><move(1,8,1)> among the <color(5)>enemy <marker(22,8,1,0)>forces<ce()>.<move(1,10,10)> You do not need to fight <marker(22,10,10,0)>them all.<move(2,10,10)><picture(52,30,7,0)><refer(30,7,12,1)>"
+    },
+    {
+      "resource_id": 4003481,
+      "table_id": 1,
+      "slot": 21,
+      "text_id": 22,
+      "source_sha256": "c6a675d372ae1a8978444eb6d5b31f4b6d7a7206753f1d3509f572377cfa8b03",
+      "en": "<operator(5010,1)><speed(2)>Find the <color(5)>targets<ce()> on your radar.<marker(20,2,2,0)><marker(20,7,5,0)><marker(20,10,5,0)><marker(20,13,6,0)><marker(20,1,9,0)><marker(20,4,10,0)><marker(20,7,12,0)> They appear as <color(6)>flashing markers<ce()>."
+    },
+    {
+      "resource_id": 4003481,
+      "table_id": 1,
+      "slot": 22,
+      "text_id": 23,
+      "source_sha256": "8a7abdbb152810e8f864ff386c360771a978deb9a795122ce0e61076b5e97ecd",
+      "en": "<operator(5010,1)><speed(2)><move(1,8,9)>The <book(20)>Nadesico B<endbook()><marker(3,8,9,0)> is badly worn down from earlier fighting.<move(2,8,9)><picture(123,30,14,0)><refer(30,14,8,9)> It will launch <book(6)>drones<endbook()> to provide support."
+    },
+    {
+      "resource_id": 4003481,
+      "table_id": 1,
+      "slot": 23,
+      "text_id": 24,
+      "source_sha256": "cfc343ac6e086cce4651420237b637ed6c77b5ae5913471b5fcc3b70a133b970",
+      "en": "<operator(5010,1)><speed(2)>They can hold the enemy off, but <move(1,7,8)>if the <book(6)>drones<endbook()><marker(5,5,6,0)> are destroyed<move(2,7,8)><picture(53,2,7,0)><refer(2,7,5,6)>, the <color(4)>Nadesico<ce()> will be in danger."
+    },
+    {
+      "resource_id": 4003481,
+      "table_id": 1,
+      "slot": 24,
+      "text_id": 25,
+      "source_sha256": "c9ba06c6ae65a9265912d166efece33a4f8c59fdd924882d7856abc728b439eb",
+      "en": "<operator(5010,1)><speed(2)>If the <color(4)>Nadesico<ce()> is <color(6)>sunk, we lose<ce()>.<marker(48,7,7,0)><marker(48,10,7,0)><marker(32,12,7,1)><marker(48,12,3,0)><marker(48,8,3,0)> Give priority to defending the <color(4)>Nadesico<ce()> when the situation calls for it."
+    },
+    {
+      "resource_id": 4003481,
+      "table_id": 1,
+      "slot": 25,
+      "text_id": 26,
+      "source_sha256": "849333521da3a7833c45bd06ac57f1261f06fd02c97fdba339126ace467ce368",
+      "en": "<delpic(30,7,1)><enemylist()><operator(5010,1)><speed(2)>All right. Move out."
+    }
+  ],
+  "conditions": [
+    {
+      "source": "敵の全撃破",
+      "en": "Destroy all enemies"
+    },
+    {
+      "source": "なし",
+      "en": "None"
+    },
+    {
+      "source": "ターゲットの全撃破",
+      "en": "Destroy all targets"
+    },
+    {
+      "source": "母艦の撃沈",
+      "en": "Mothership sunk"
+    },
+    {
+      "source": "ターゲット拠点の全制圧",
+      "en": "Capture all target bases"
+    },
+    {
+      "source": "列車が領域を離脱",
+      "en": "Train leaves the area"
+    },
+    {
+      "source": "列車の破壊",
+      "en": "Train destroyed"
+    },
+    {
+      "source": "母艦の目標地点到達",
+      "en": "Mothership reaches destination"
+    },
+    {
+      "source": "敵戦艦の全撃破",
+      "en": "Destroy all enemy warships"
+    },
+    {
+      "source": "月光号の目標地点到達",
+      "en": "Gekko reaches destination"
+    },
+    {
+      "source": "輸送艦の全撃破",
+      "en": "Destroy all transports"
+    },
+    {
+      "source": "輸送艦が領域を離脱／母艦の撃沈",
+      "en": "Transport escapes / Mothership sunk"
+    },
+    {
+      "source": "友軍部隊が４つ壊滅／母艦の撃沈",
+      "en": "4 allied units lost / Mothership sunk"
+    },
+    {
+      "source": "敵戦艦の全滅",
+      "en": "Destroy all enemy warships"
+    },
+    {
+      "source": "一定時間経過",
+      "en": "Required time elapsed"
+    },
+    {
+      "source": "７隻の敵戦艦が領域を離脱",
+      "en": "7 enemy warships leave the area"
+    },
+    {
+      "source": "敵の防衛ライン突破阻止",
+      "en": "Stop enemies breaching the defense line"
+    },
+    {
+      "source": "敵が領域を離脱",
+      "en": "Enemy leaves the area"
+    },
+    {
+      "source": "ゾンダーエプタの制圧",
+      "en": "Capture Zonder Epta"
+    },
+    {
+      "source": "一定時間、全拠点を防衛",
+      "en": "Defend all bases for the set time"
+    },
+    {
+      "source": "いずれかの拠点の陥落",
+      "en": "Any base falls"
+    },
+    {
+      "source": "真ドラゴンの撃破",
+      "en": "Destroy Shin Dragon"
+    },
+    {
+      "source": "敵を１００機撃墜",
+      "en": "Shoot down 100 enemies"
+    },
+    {
+      "source": "ナデシコＣの目標地点到達",
+      "en": "Nadesico C reaches destination"
+    },
+    {
+      "source": "損害率が５０％を超える",
+      "en": "Damage exceeds 50%"
+    },
+    {
+      "source": "目標の撃破",
+      "en": "Destroy the target"
+    },
+    {
+      "source": "リ・ガズィの撃破",
+      "en": "Destroy Re-GZ"
+    },
+    {
+      "source": "ＹＦ－１９の撃破",
+      "en": "Destroy YF-19"
+    },
+    {
+      "source": "キングゲイナーの撃破",
+      "en": "Destroy King Gainer"
+    },
+    {
+      "source": "真ゲッター１の撃破",
+      "en": "Destroy Shin Getter-1"
+    },
+    {
+      "source": "ニルヴァーシュの撃破",
+      "en": "Destroy Nirvash"
+    },
+    {
+      "source": "ウイングガンダムゼロの撃破",
+      "en": "Destroy Wing Gundam Zero"
+    },
+    {
+      "source": "ブラックゲッターの撃破",
+      "en": "Destroy Black Getter"
+    },
+    {
+      "source": "ナナジンの撃破",
+      "en": "Destroy Nanajin"
+    },
+    {
+      "source": "ガンダムＤＸの撃破",
+      "en": "Destroy Gundam DX"
+    },
+    {
+      "source": "パーフェクトガンダムの撃破",
+      "en": "Destroy Perfect Gundam"
+    },
+    {
+      "source": "これがでたらひらいにれんらく",
+      "en": "If shown, contact Hirai"
+    },
+    {
+      "source": "２００機の敵を撃破",
+      "en": "Destroy 200 enemies"
+    },
+    {
+      "source": "ゲッタードラゴンの全撃破",
+      "en": "Destroy all Getter Dragons"
+    },
+    {
+      "source": "ｔｙｐｅｔｈｅＥＮＤの撃破",
+      "en": "Destroy type the END"
+    }
+  ]
+}

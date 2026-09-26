@@ -1,0 +1,8 @@
+[
+  {
+    "term_romaji": "oora enajii",
+    "en": "Aura Energy",
+    "source": "dialogue_14221 (resource 2816020, Sakomizu/Oukaou); distinct katakana term from the already-locked 'Aura Power' (oora-ryoku, encyclopedia_022.json text_id 36, used in dialogue_06487/06488)",
+    "why": "The source uses two different katakana terms for what may or may not be the same in-universe concept: 'oora-ryoku' (Aura Power, already locked) and 'oora enajii' (Aura Energy, this row). Rendered literally as a parallel term rather than collapsing it into the locked 'Aura Power' so the distinction is not silently erased if the orchestrator finds evidence they are meant to differ (e.g. a generic aura-based energy versus the specific power stat). If they are confirmed synonymous, this proposal should be withdrawn and dialogue_14221 revised to use 'Aura Power'."
+  }
+]

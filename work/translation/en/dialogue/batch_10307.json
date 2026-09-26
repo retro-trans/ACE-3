@@ -1,0 +1,551 @@
+{
+  "slice_start": 10307,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      10292,
+      10401
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_10314",
+        "dialogue_10315",
+        "dialogue_10316",
+        "dialogue_10317",
+        "dialogue_10318",
+        "dialogue_10320",
+        "dialogue_10321",
+        "dialogue_10322",
+        "dialogue_10327",
+        "dialogue_10328",
+        "dialogue_10329",
+        "dialogue_10330",
+        "dialogue_10331",
+        "dialogue_10344",
+        "dialogue_10345"
+      ],
+      "note": "Rally/reaction lines from unnamed allied pilots and crew as the mission opens. No speaker tag exists in the table; identity is not asserted in the target text. Content (protecting Nirvash's path, urging Renton/Eureka onward) matches the Eureka Seven finale but is kept speaker-neutral."
+    },
+    {
+      "ids": [
+        "dialogue_10337",
+        "dialogue_10338",
+        "dialogue_10339",
+        "dialogue_10340"
+      ],
+      "note": "Defection speech strongly implied to be the Izumo's captain (glossary character_names_021.json identifies Jurgens as 'Captain of the U.F. ship Izumo; later sides with Gekkostate'), following the Izumo's appearance in dialogue_10332-10336. The speaker is not named in the source rows themselves, so no name was inserted into the translation."
+    },
+    {
+      "ids": [
+        "dialogue_10342",
+        "dialogue_10343"
+      ],
+      "note": "Speaker explicitly names Anemone as the person he wants to protect ('僕' pronoun, masculine self-reference), matching the glossary's Dominic profile ('Anemone's handler ... devoted to Anemone'). Identification rests on the explicit in-line name, not on inference; no name was added to the English text."
+    },
+    {
+      "id": "dialogue_10309",
+      "note": "Reordered 'New Federation forces' Supreme Commander, Dewey Novak' into natural English name-then-title order across the \\n break; meaning and both title/name are fully retained."
+    },
+    {
+      "ids": [
+        "dialogue_10309",
+        "dialogue_10339",
+        "dialogue_10368"
+      ],
+      "note": "Rendered 新連邦軍 as lowercase 'New Federation forces' (military/personnel sense) rather than the glossary.json org entry's title-case 'New Federation' alone, matching existing corpus precedent (e.g. batch_01346: 'New Federation forces ahead!'). The bare organization name 'New Federation' remains reserved for the government/org itself per terms_028.json."
+    }
+  ],
+  "validation": {
+    "fit": "All rows drafted at full meaning, no display-based shortening; longest visible line stays well under the 110-character cap.",
+    "controls": "Every <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()> command copied in the same order as the source for each row; no color/book spans present in this range.",
+    "terms": "New Federation forces (glossary.json org.new_federation + terms_028.json 'glossary.json wins over the wiki form New UNE'), Scub Coral (researched, see glossary proposal), Coralian/Antibody Coralian/the Zone/Gekko/Gekkostate (mission_terms_019.json, meeting_terms_015.json), Nadesico/Nirvash/Renton/Eureka/Holland/Dewey Novak/Izumo (character_names_021.json, unit_names_014_b.json), Flail unit (corpus precedent, e.g. batch_04202.json), base (拠点, corpus precedent, e.g. batch_00993.json), Orange and self-propelled weapon(s) proposed in batch_10307_glossary_proposals.json.",
+    "self_check": "Ran an offline ASCII/length/j-q/smart-punctuation check against every row's visible text before submitting; see build notes in the final report.",
+    "meaning_review": "Independently meaning-reviewed: 80 of 80 rows examined against original ISO with 30 rows of surrounding context (10292-10401). No meaning fixes needed. All rows set to meaning_reviewed. See review_10307.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_10307",
+      "target": "<op()><sp(20)>To eliminate the enemy's field weapons,\neach ship will advance.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10308",
+      "target": "<op()><sp(20)>Clear the nearby targets and provide cover.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10309",
+      "target": "<op()><sp(20)>I am Dewey Novak,\nSupreme Commander of the New Federation forces.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10310",
+      "target": "<sp(20)>I ask that you listen calmly\nto what I'm about to say.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10311",
+      "target": "<sp(20)>From this moment, staking humanity's survival,\nwe intend to rise up against the Scub Coral.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10312",
+      "target": "<sp(20)>This operation will surely succeed.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10313",
+      "target": "<sp(20)>And we will surely reclaim our mother star,\nEarth!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10314",
+      "target": "<op()><sp(20)>Damn Dewey... he's finally gone and started it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10315",
+      "target": "<op()><sp(20)>Holland and everyone... they're in danger...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10316",
+      "target": "<op()><sp(20)>At this rate, forget about the Zone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10317",
+      "target": "<op()><sp(20)>Renton, Eureka...\nDon't look back!!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10318",
+      "target": "<sp(20)>Aim for the Zone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10319",
+      "target": "<op()><sp(20)>Nngh... understood!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10320",
+      "target": "<op()><sp(20)>I won't let anyone get in the Nirvash's way!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10321",
+      "target": "<sp(20)>We will make sure to send Renton and the others\ninto the Zone!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10322",
+      "target": "<sp(20)>We can't afford to break here!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10323",
+      "target": "<op()><sp(20)>Do the soldiers of the military\neven know what Dewey's really after?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10324",
+      "target": "<op()><sp(20)>They believe in Dewey's cause:\nfighting to protect humanity.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10325",
+      "target": "<op()><sp(20)>So we have no choice but to fight?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10326",
+      "target": "<op()><sp(20)>Multiple enemy warships!\nAt this rate--!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10327",
+      "target": "<op()><sp(20)>Don't flinch!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10328",
+      "target": "<sp(20)>If we don't fight,\nthis world has no future!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10329",
+      "target": "<sp(20)>We absolutely cannot lose!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10330",
+      "target": "<op()><sp(20)>Damn it!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10331",
+      "target": "<sp(20)>We have to hold out no matter what\nuntil the Nirvash breaks into the Zone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10332",
+      "target": "<op()><sp(20)>Enemy ship signature detected... it's the Izumo!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10333",
+      "target": "<op()><sp(20)>Tch... at a time like this!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10334",
+      "target": "<op()><sp(20)>Wait, don't attack!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10335",
+      "target": "<sp(20)>We've come to cooperate with you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10336",
+      "target": "<op()><sp(20)>What's going on?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10337",
+      "target": "<op()><sp(20)>I read Gekkostate's magazine,\nray=out, and encountered its ideas.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10338",
+      "target": "<sp(20)>And I began to doubt\nDewey Novak's plan.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10339",
+      "target": "<sp(20)>We, the New Federation forces,\nexist to protect the people of the world.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10340",
+      "target": "<sp(20)>We are not Dewey Novak's private army,\nleading the world to ruin!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10341",
+      "target": "<op()><sp(20)>What we did...\nit actually helped, didn't it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10342",
+      "target": "<op()><sp(20)>There's... someone I love.\nI want to save her.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10343",
+      "target": "<sp(20)>I want to protect Anemone!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10344",
+      "target": "<op()><sp(20)>More fools showing up at a time like this.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10345",
+      "target": "<sp(20)>But get ready.\nOur fight isn't going to be half-hearted...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10346",
+      "target": "<op()><sp(20)>This is...!\nAntibody Coralians, appearing!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10347",
+      "target": "<sp(20)>An Orange was fired nearby!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10348",
+      "target": "<op()><sp(20)>Antibody Coralians incoming!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10349",
+      "target": "<sp(20)>Incredible numbers... beyond measurement!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10350",
+      "target": "<op()><sp(20)>That Dewey...\nis he trying to crush us along with our own allies?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10351",
+      "target": "<op()><sp(20)>These numbers... there's no end to them!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10352",
+      "target": "<op()><sp(20)>Let's use the Flail unit to hold them off.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10353",
+      "target": "<op()><sp(20)>The Flail unit is holding off\nthe Antibody Coralians.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10354",
+      "target": "<op()><sp(20)>Use that opening to clear the targets!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10355",
+      "target": "<op()><sp(20)>The course is secured.\nAdvance the ship!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10356",
+      "target": "<op()><sp(20)>Course clear.\nAdvancing toward the designated point.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10357",
+      "target": "<op()><sp(20)>Destroyed a large number\nof Invaders and Antibody Coralians!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10358",
+      "target": "<op()><sp(20)>The enemy's momentum is starting to weaken.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10359",
+      "target": "<op()><sp(20)>We're forcing our way through, no matter what!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10360",
+      "target": "<op()><sp(20)>Hey! Get a grip!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10361",
+      "target": "<op()><sp(20)>Sending the Flail unit over.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10362",
+      "target": "<op()><sp(20)>Do it properly this time.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10363",
+      "target": "<op()><sp(20)>The Gekko has reached its designated point.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10364",
+      "target": "<op()><sp(20)>Have the other ships follow.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10365",
+      "target": "<op()><sp(20)>Clear the nearby enemies and secure\nthe mothership's course.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10366",
+      "target": "<op()><sp(20)>Please secure the Gekko's course.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10367",
+      "target": "<op()><sp(20)>Enemy forces deploying ahead!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10368",
+      "target": "<op()><sp(20)>New Federation self-propelled weapons are stationed there!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10369",
+      "target": "<op()><sp(20)>Let's take those out first.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10370",
+      "target": "<op()><sp(20)>Successfully suppressed the self-propelled weapon!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10371",
+      "target": "<op()><sp(20)>Self-propelled weapon suppressed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10372",
+      "target": "<op()><sp(20)>Excellent.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10373",
+      "target": "<op()><sp(20)>Please resume the advance.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10374",
+      "target": "<op()><sp(20)>Course clear.\nAdvancing toward the designated point.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10375",
+      "target": "<op()><sp(20)>O-our allied unit has been wiped out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10376",
+      "target": "<op()><sp(20)>Nadesico has reached the target point.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10377",
+      "target": "<op()><sp(20)>Please cover the other ships as well.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10378",
+      "target": "<op()><sp(20)>The Nadesico is struggling.\nPlease send support here too.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10379",
+      "target": "<op()><sp(20)>Please suppress the self-propelled weapon.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10380",
+      "target": "<op()><sp(20)>Take out the enemy base ahead.<ab(1100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10381",
+      "target": "<sp(20)>A drone unit is engaging at the base.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10382",
+      "target": "<sp(20)>I'm counting on you to cover them.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10383",
+      "target": "<op()><sp(20)>Secured the base, then.\nAdvancing the ship.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10384",
+      "target": "<op()><sp(20)>The course is secured.\nAdvance the ship!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10385",
+      "target": "<op()><sp(20)>The Tower is ready.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10386",
+      "target": "<op()><sp(20)>Cover the other ships too.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

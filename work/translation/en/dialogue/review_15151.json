@@ -1,0 +1,25 @@
+{
+  "reviewer": "meaning_review_pilot_shouts_agent",
+  "slice_start": 15151,
+  "slice_count": 53,
+  "rows_examined": [{"start": 15136, "end": 15218}],
+  "rows_examined_count": 83,
+  "rows_in_slice": 53,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [15151, 15203], "finding": "Entire slice is a single resource (2820020, Gym Ghingham / Turn X) with no addressed teammate lines; every row is a solo villain shout, so no in-cockpit speaker-attribution question arises here (unlike the Getter resources in the earlier slices)."},
+    {"rows": [15162], "finding": "コケツに入らずして戦果は期待できんだろうさ (the 虎穴に入らずんば虎子を得ず idiom, 'nothing ventured in the tiger's den, nothing gained') rendered as the equivalent English idiom 'Nothing ventured, nothing gained, I'd say!' — correct idiomatic equivalence, not a literal-meaning mismatch."},
+    {"rows": [15151, 15203], "finding": "Turn X, House Ghingham, Gym Ghingham and the '2000 years' motif are used consistently and match glossary spellings throughout; no locked-spelling errors found."},
+    {"rows": [15151, 15203], "finding": "Programmatic check: every command sequence in every row's target matches the source exactly in order; all ids present and matched; no visible text over the shout byte budget; ASCII-only."}
+  ],
+  "uncertainties": [
+    {"issue": "Translator's batch file lists no uncertainties for this slice; independent review found none of its own — every row's meaning, addressee (Turn X itself, or the taunted enemy), and tone matched the source cleanly."},
+    {"issue": "Same cross-batch formatting note as the other four slices: 29 of this slice's 53 rows keep an embedded \\n where the task brief calls for 'NO newline in the target (source line breaks are joined)'. Not treated as a meaning fix; flagged for the orchestrator as a likely corpus-wide pattern across all five reviewed batches (16+25+33+45+29 = 148 of 373 rows total)."}
+  ],
+  "validation": {
+    "fit": "Re-checked all 53 rows: visible text (tags and newline stripped) stays within min(72, 2×(source visible-character count)-2); no row exceeds its budget.",
+    "controls": "Re-checked all 53 rows: command sequence identical and in the same order as the source for every row.",
+    "meaning_review": "Completed independently against the Japanese source via tools/dialogue_corpus.py slice (context 15, console only). No meaning reversals, wrong addressee/subject, invented identity/gender, dropped sentence sense, tone-vs-character contradictions, or locked-spelling errors found. All 53 rows promoted to meaning_reviewed."
+  }
+}

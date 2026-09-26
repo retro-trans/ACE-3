@@ -1,0 +1,48 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 12617,
+  "slice_count": 80,
+  "rows_examined": [{"start": 12602, "end": 12711}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_12691",
+      "before": "I'll end this now...",
+      "after": "End your pain now...",
+      "reason": "Source (今、楽にしてやる……。) is the idiomatic \"I'll put you out of your misery/make it painless for you now\" — addressed at the defeated target, not the fight/situation in the abstract. The prior translation's generic 'this' loses the personal, near-merciful nuance that fits Heero's profile ('cold, stoic, secretly kind-hearted'). Restored the addressee within the row's 20-character budget."
+    },
+    {
+      "id": "dialogue_12696",
+      "before": "A mistake means death...\\nBut I can't die yet...!",
+      "after": "A mistake means death, but I can't die yet...!",
+      "reason": "Format fix, not a meaning change: the source row itself contains a line break, but the shout-specific rule requires source line breaks to be joined into one line in the target (no newline allowed in this table type). Joined into a single line; still fits the row's 52-character budget (46/52)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [12622], "finding": "'Gyunei' spelling matches glossary; no change."},
+    {"rows": [12617, 12641, 12652], "finding": "Quess's first-person feminine lines (あたし) correctly kept gender-neutral in English (no gendered pronouns invented); consistent with BASE_RULES."},
+    {"rows": [12665, 12668], "finding": "Confirmed translator correctly left the new/unnamed enemy pilot ungendered and unidentified ('that', 'this guy') per BASE_RULES; no identity invented."},
+    {"rows": [12679, 12682, 12691], "finding": "Heero Yuy's self-referential 'オレ' lines correctly kept first-person; no addressee invented (e.g. dialogue_12682 'Where is my enemy?!' rendered as an imperative 'Find my enemy!' reviewed and accepted as a self-directed combat bark, consistent with the game's terse style, not a command to a third party)."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_12665", "dialogue_12668"],
+      "issue": "Translator's own flagged uncertainty (referents for an unnamed new enemy left ungendered) reviewed and ruled correct — no fix needed, this is the right call per BASE_RULES (don't assume gender of an unknown party)."
+    },
+    {
+      "id": "dialogue_12613",
+      "issue": "'psycommu' term flagged by translator as not yet in glossary; ruled acceptable (matches franchise convention), no fix. See also review_12537.json."
+    },
+    {
+      "issue": "General: resource 2805051 (Quess Paraya) and start of 2806012 (Heero Yuy) carry the same tight byte budget noted across this whole slice group; heavy compression is expected and not an error except where fixed above."
+    }
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(1000)>/<ed()> command tags checked identical and in original order against the console-dumped source for all 80 rows plus 30 rows of context; unchanged by the 1 fix.",
+    "format": "Found dialogue_12696 reproducing the source's own internal line break as a two-line target, violating the shout-specific no-newline rule; joined into one line (see meaning_fixes). No other rows in this slice had newlines. ASCII-only confirmed for all targets.",
+    "fit": "Edited row dialogue_12691 re-measured against its own budget: 'End your pain now...' = 20 visible chars, matching the row's min(72, 2*11-2)=20 budget exactly. dialogue_12696 (newline-join fix) re-measured at 46/52. All other rows unchanged from the translator's already-verified fit. All 80 rows re-verified programmatically post-edit: command tags match source in order, no newlines, ASCII-only, and each row is within min(72, 2*source_ja_chars-2).",
+    "runtime": "Runtime scene selection, font coverage, and visual fit in-game are not established by this meaning review."
+  }
+}

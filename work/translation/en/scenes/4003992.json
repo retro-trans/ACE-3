@@ -1,0 +1,255 @@
+{
+ "resource_id": 4003992,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 28,
+ "rows_examined": 28,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Berkt's Movements",
+   "notes": "Archive topic 1.",
+   "source_sha256": "ef8b3afaa482312365b9ac138e950cd325166047ebb1229a56aca3219335a226"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "The New Federation Government",
+   "notes": "Archive topic 2.",
+   "source_sha256": "3d59dd47178e5665e75cc6a6f4b6c8c87bb4a3ee45997d94284726ae188e6ba4"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<library(1)><operator(30060,1)><speed(2)><color(5)>Berkt<ce()><thumbnail(189)> commands a <book(38)>New Federation<endbook()> special task force, and is handling the investigation and capture of the <book(48)>Shin Dragon<endbook()>.",
+   "notes": "",
+   "source_sha256": "87c49a4af4dd7ad75f565d65fed88bf693d82bb835ae14492be33d307720d85e"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>If the <book(38)>New Federation<endbook()> is behind his actions this time, it would be a grave matter, but I don't think that's it.",
+   "notes": "",
+   "source_sha256": "521b4a97e03b4f19a6aa2db6c8c4a04235bc34ec94d221608c6fa63c78dd670f"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>That's because the <book(38)>New Federation<endbook()>'s goal is to govern the Earth Sphere.",
+   "notes": "",
+   "source_sha256": "4455979df81fc42ec940077560ff07b559a1a49fe815a80079c3b017b9fc543c"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>In other words, it is highly likely that this matter is his own doing, acting on his own initiative.",
+   "notes": "",
+   "source_sha256": "53d0145a93d18bc9da9dd11160ae0c7f9b4ade1d0bf2382c7880e9f4da05ae51"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>We don't know what his purpose is for now... but we need to pin down his whereabouts right away.",
+   "notes": "",
+   "source_sha256": "ea401a29c4285e94990bf5ba3eb9ce9de102881f4971082838a99a65dc27fa37"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30060,1)><speed(2)><color(5)>Berkt<ce()> is an officer given a fair amount of discretion even within the <book(38)>New Federation<endbook()>.",
+   "notes": "",
+   "source_sha256": "4fe6e912daa7a26411c9da92d0fd1e27dabb9b2310f1ca507d3753e8bd6aa34b"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30060,1)><speed(2)>It is probably his doing that information on the <color(4)>Nadesico<ce()> reached the <book(38)>New Federation<endbook()> at such an early stage too.",
+   "notes": "",
+   "source_sha256": "e453aaa567b65911c42507dd713d3f3a8bb6493aaf0e1adb25f9615ef050a495"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<thumbdown()><operator(30060,1)><speed(2)>Able to move for his own purposes while keeping the <book(38)>New Federation<endbook()> at his back... It's clear he's a formidable opponent.",
+   "notes": "",
+   "source_sha256": "ce4daa11ccef4cc114fb8cecaaaad8acb97638da1fbfd49a614fdc9abb5ac8c2"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<library(2)><topic()><operator(30060,1)><speed(2)>Let me explain about the organization known as the <book(38)>New Federation<endbook()>.",
+   "notes": "",
+   "source_sha256": "14c6d6131ffde556ccb23e18cfa71a12ca74575e54bdd52daefdad1dbdf79ae6"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30060,1)><speed(2)>After the 7th Space War, the framework of nations vanished from a devastated Earth, and a long period of anarchy followed.",
+   "notes": "",
+   "source_sha256": "18e68b4af58e0067878d01849601fa6b360bc041aecace00ae6c60f1f4fbe4fc"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30060,1)><speed(2)>The Federation Reconstruction Committee, formed by old Federation officials, created the United Federation of Predgio Towers.",
+   "notes": "'Federation Reconstruction Committee' and 'United Federation of Predgio Towers' per encyclopedia_021_a locked spellings; this row has no book tags in the source.",
+   "source_sha256": "93a6abe7abf6f48f47183f8d85331faeb7aa4f33135bb2620913f30ea5760d7f"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30060,1)><speed(2)>This was an organization for managing the 157 towers built on the surface, and its heads were the ones known as the three Sages.",
+   "notes": "",
+   "source_sha256": "806ea9ec6e2b2539e4eb424d363e6c5ccde4ef0fb67c66ea186b3e36d6be4ef0"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30060,1)><speed(2)>The three Sages prioritized and pursued policies for restoring the Earth.",
+   "notes": "",
+   "source_sha256": "b4030ace2917559f14b5b974c4885529136b7b1c1e3ddbb699b8a3e5ec8e3817"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30060,1)><speed(2)>But <book(40)>Fixx Bloodman<endbook()><thumbnail(179)>, a Committee leader, pushed to rule the colonies and unify the Earth Sphere.",
+   "notes": "",
+   "source_sha256": "145d91d6cb12c640785afd2d26f2d2c3e3ab9fec5735505601442c0af000dff5"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30060,1)><speed(2)>He then drove out the three Sages and established a new government. That is the current <book(38)>New Federation<endbook()> government.",
+   "notes": "",
+   "source_sha256": "08f139355f1c5779b2f40529e180e98b64f1f8a2b5a4dbc42b9e96729728bfeb"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30060,1)><speed(2)>From then to now, the <book(38)>New Federation<endbook()> has pursued a military buildup to keep the upper hand in its war with the colonies.",
+   "notes": "",
+   "source_sha256": "a8391e0b2dd38ee1fa7d69497eef66abe54590f12c99378b1058f4c8bf24f317"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(30060,1)><speed(2)><book(40)>Bloodman<endbook()> has four capable confidants, each given a high position.",
+   "notes": "",
+   "source_sha256": "6443ae5671258759e613f48d5d0c19a979c7c7e45ed12bc37df0b781a9bb88fd"
+  },
+  {
+   "table": 1,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(30060,1)><speed(2)>First, Colonel <color(5)>Dewey Novak<ce()><thumbnail(194)>, who belongs to the intelligence department.",
+   "notes": "",
+   "source_sha256": "0b2dace90b20a8e20449e0505c95fb760e52151185a7d9f4ec155b12b04b4ff5"
+  },
+  {
+   "table": 1,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(30060,1)><speed(2)>He is <color(4)>Holland<ce()>'s older brother, and carries on the plan Dr. <book(68)>Adroc Thurston<endbook()> once proposed: the <color(6)>Ageha Plan<ce()>.",
+   "notes": "'Ageha Plan' per scene 4003260's locked rendering of book(78); here it appears as a plain color(6) span, not book(78), but the same English name is reused. Orchestrator: shortened to fit three lines.",
+   "source_sha256": "6f72a5d4bdf860d168e932b8682fe62f68b1d0484511a64e2676b639fbac64a5"
+  },
+  {
+   "table": 1,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(30060,1)><speed(2)>He has been entrusted by <book(40)>Bloodman<endbook()> with countermeasures against the <book(72)>Coralians<endbook()>.",
+   "notes": "",
+   "source_sha256": "2fcdfd77080d4aabb8241dc5d52ccdd43d0b50b758127f6d3613b31a457a3169"
+  },
+  {
+   "table": 1,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(30060,1)><speed(2)>Next are <book(40)>Bloodman<endbook()>'s confidants, so to speak - the brothers <color(5)>Shagia Frost<ce()> and <color(5)>Olba Frost<ce()><thumbnail(278)>.",
+   "notes": "'Olba Frost', not 'Orba' - per character_names_021.json locked spelling (en_full 'Olba Frost'; 'Orba Frost' listed only as a variant).",
+   "source_sha256": "73dd37837f9e6bfbc9b581b39d464417fa621b16ae95cce220020a5eaae6c935"
+  },
+  {
+   "table": 1,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(30060,1)><speed(2)>They command a mobile suit battalion, entrusted with putting down rebels and handling colony forces.",
+   "notes": "",
+   "source_sha256": "4a0bfedf36c20566a2ba507b67f1aeb7321255209718a15e0f2d0d320e3f6ed9"
+  },
+  {
+   "table": 1,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<operator(30060,1)><speed(2)>They were once known as skilled freelance <book(39)>Vultures<endbook()>, but their skill was recognized and won them their current post.",
+   "notes": "",
+   "source_sha256": "06b04600f5fcfdb5048a9d9338399678c80dcd16f312f264aeb5d846948428b9"
+  },
+  {
+   "table": 1,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<operator(30060,1)><speed(2)>And the fourth is... <color(5)>Berkt<ce()><thumbnail(191)>, the one we're pursuing.",
+   "notes": "",
+   "source_sha256": "e3f9eb15811b0a49d6cd823ef06a556439d66aa70ae19b8479b84768e3b7f673"
+  },
+  {
+   "table": 1,
+   "slot": 43,
+   "text_id": 44,
+   "en": "<operator(30060,1)><speed(2)>He has been given the mission of securing the <book(48)>Shin Dragon<endbook()>, but he is an officer shrouded in a great deal of mystery.",
+   "notes": "",
+   "source_sha256": "836c57fa750aadd9296c80f4d28858bcfb9f282fb0075506697d0fb98f9bbd41"
+  },
+  {
+   "table": 1,
+   "slot": 44,
+   "text_id": 45,
+   "en": "<thumbdown()><operator(30060,1)><speed(2)>There will likely be more chances to fight the <book(38)>New Federation<endbook()> from here on. I want you to remember that.",
+   "notes": "",
+   "source_sha256": "41d5bff048c209b65a5577946b0b80b5ee4111cc940ba619ec8b277fb1cbef38"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 39,
+   "issue": "Locked spelling is 'Olba Frost' (character_names_021.json en_full); 'Orba Frost' is listed there only as a variant/alternate romanization, flagging in case another scene used the variant."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 28,
+  "rows_in_scene": 28,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 39 ruling applied: 'Olba Frost' confirmed as the locked spelling (character_names_021.json en_full); 'Orba Frost' is listed there only as a variant/alternate romanization. No longer an open uncertainty.",
+   "Slot 29 'United Federation of Predgio Towers' and 'Federation Reconstruction Committee' confirmed against encyclopedia_021_a.json/022.json locked wording (matches verbatim, including 'Ousted the three Sages who headed the United Federation of Predgio Towers').",
+   "Slot 32 'Fixx Bloodman' confirmed locked spelling.",
+   "Slot 37 'Adroc Thurston' and 'Ageha Plan' confirmed locked spellings (encyclopedia_021_b.json/022.json); the source uses a plain color(6) span here rather than book(78), correctly reproduced without inventing a book tag not present in the source.",
+   "Slot 36 'Dewey Novak' and slot 39 'Shagia Frost' confirmed locked spellings against character_names_021.json/mission_terms_019.json.",
+   "Slots 19-44 checked line-by-line against source (Berkt's task-force command, New Federation's true goal, his own-initiative actions, his discretion within New Federation, New Federation government's founding history, the four confidants) - all match; no reversed meaning, wrong addressee, or invented subject found."
+  ],
+  "remaining_uncertainties": []
+ }
+}

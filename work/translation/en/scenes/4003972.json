@@ -1,0 +1,288 @@
+{
+ "resource_id": 4003972,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 30,
+ "rows_examined": 30,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Vulture",
+   "notes": "Archive topic 1; matches locked 'Vulture' (glossary.json).",
+   "source_sha256": "cda8953b173d3e5370256c1587e8d91f9bea1b1e09b737e0509adc5bbd5082e9"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Recent Circumstances",
+   "notes": "Archive topic 2; width limit of the archive list unknown to me.",
+   "source_sha256": "34e877aa408e0f81dc9222ebb78771172f1e56c6b8d6398c84df9b110b18520c"
+  },
+  {
+   "table": 1,
+   "slot": 2,
+   "text_id": 3,
+   "en": "Inside the New Federation",
+   "notes": "Archive topic 3; width limit of the archive list unknown to me.",
+   "source_sha256": "31c456505973a82541cf675df3eca78138ded891d138198d47d3acffb45547b0"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<library(1)><operator(30060,1)><speed(2)>While we are at it, it seems best that we explain who we are to you.",
+   "notes": "",
+   "source_sha256": "04532ace2d02fb8223cc12347b9d75138c49816ef87b60f7f64885b77b18066d"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30110,1)><speed(2)>Me, <color(4)>Jamil<ce()>, <color(4)>Gain Bijou<ce()>, and <color(4)>Hayato Jin<ce()> - the four of us<thumbnail(178)> - are each hostile to the <book(38)>New Federation<endbook()>.",
+   "notes": "'Hayato Jin' for 'Jin Hayato' (Japanese name order) per character_names_021.json.",
+   "source_sha256": "e7ea3784e5f7fa4a0bed859cb422bf75fb1daa52e65d4c4056ed2a215806c6fe"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30110,1)><speed(2)>We're cooperating with each other, each for our own goal, and fighting the <book(38)>New Federation<endbook()>.",
+   "notes": "",
+   "source_sha256": "660b8ea4ac5af4c552a7e0d321e7efaad5cba0c31824b5734b9edaa2e6648b02"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>The <book(38)>New Federation<endbook()> is a unified government headed by <book(40)>Fixx Bloodman<endbook()><thumbnail(179)>.",
+   "notes": "'Fixx Bloodman' per encyclopedia_021_a/022 locked spelling for book(40) (not 'Fix Bradman').",
+   "source_sha256": "6acadf62c4149db4478aef449ee430ce88f13c3c1dd11b7de874dba99248e147"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>The <book(38)>New Federation<endbook()>'s true goal is hegemony over the Earth Sphere - its long-held wish since the old Federation's days.",
+   "notes": "Orchestrator: shortened to fit three lines.",
+   "source_sha256": "1f2faf87a7311e030fd047a89bc11d72ebc097b3914dff8cc252b97a2ff79531"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30060,1)><speed(2)>To that end, they are scheming to turn unknown powers such as Newtypes and the <book(48)>Shin Dragon<endbook()> to military use.",
+   "notes": "",
+   "source_sha256": "cdad269fdbffb91e75af749f278d704ea1792f8d7303802f6c006bf359c9ad79"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<thumbdown()><operator(30060,1)><speed(2)>Such foolish conduct must absolutely be stopped.",
+   "notes": "",
+   "source_sha256": "95d4fc7d9b333ec661e37e2ee30dd011fc29d5d078dea3ded7c767613c9134a4"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<library(2)><topic()><operator(30120,1)><speed(2)>I was surprised you came from another world, but you really don't seem to know a thing. Let me give you a short history rundown.",
+   "notes": "",
+   "source_sha256": "d3055f7f72c455c61ad393008e7b101d4810b2d48cc1801f6a9397157bf6eb13"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30120,1)><speed(2)>This world has seen as many as seven wars fought in the past.",
+   "notes": "",
+   "source_sha256": "897da880389d34f8af0b6699288ceac5c6ebd65eef040adc952aae350b094268"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30120,1)><speed(2)>Getter Robo, developed by Dr. <color(5)>Saotome<ce()>, drove off the <book(49)>Invaders<endbook()> that had appeared on the Moon - the <book(53)>Moon Invader War<endbook()><thumbnail(180)>.",
+   "notes": "Restructured as a label ending in the named event, mirroring the source's own fragment structure; book(53) matches encyclopedia_022's locked title 'Moon Invader War' even though the source here writes the short form 'the lunar war' inside the tag.",
+   "source_sha256": "8d7471e8a43a006fd94384e2f9bc7789bc74c57aaf668a724d4aebb7b6cafb9d"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30120,1)><speed(2)>After that, Dr. <color(5)>Saotome<ce()> started a rebellion and built the <book(48)>Shin Dragon<endbook()>, which he called the ultimate Getter.",
+   "notes": "",
+   "source_sha256": "85e32ed1f3ba35c4834630ba06eb628446342aa2088df7e001c0c29ea778cd59"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30120,1)><speed(2)>To destroy it, fanatical top brass ended up firing the <book(52)>Deuteron Missile<endbook()>, a weapon strong enough to half-destroy Earth.",
+   "notes": "",
+   "source_sha256": "a519613adca2e769f1dd210e636e3ba743b9f95303d00e79b143af9c3c799d8d"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30120,1)><speed(2)>At the same time, the \"Summer of Love\" - a mass outbreak of <book(70)>Trapar<endbook()><thumbnail(181)> - occurred.",
+   "notes": "",
+   "source_sha256": "7427253e218b0d970afed4b1f6c565bb0f8e7a204529add9bfa8eba6be0cff4c"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30120,1)><speed(2)>At the time, the leading authority on <book(69)>Scub<endbook()> research, studying the <book(61)>Nirvash<endbook()> and <color(4)>Eureka<ce()>, was <book(68)>Adroc Thurston<endbook()>.",
+   "notes": "",
+   "source_sha256": "9ce471502364fef988a2f6d77bff757d861ef31144f9b8e1c78ade7627e66e5e"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30120,1)><speed(2)>In exchange for his own life, he held the damage from all this to a minimum, and he's regarded as the hero who saved the world.",
+   "notes": "",
+   "source_sha256": "2746687a90acee52f77501eca2ff3a0f72e43a1fc1c3959cb0b1dda2e9708b6e"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30120,1)><speed(2)>That very <book(68)>Adroc<endbook()> is <color(4)>Renton<ce()>'s father.",
+   "notes": "",
+   "source_sha256": "e88a1be299bab7666200400fc2958faa96a8935cbc8f0fcaa7a125f321b1e71a"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(30120,1)><speed(2)>And then... the 7th Space War broke out - the final war between Earth and the colonies.",
+   "notes": "",
+   "source_sha256": "074b5e8ed7e21085d8a548c7ede3b19211ca15f66b3108e222da6be24bcf5acc"
+  },
+  {
+   "table": 1,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(30120,1)><speed(2)>The <book(42)>Space Rev. Army<endbook()> issued the Earth Federation a demand to surrender, backed by a colony drop.",
+   "notes": "",
+   "source_sha256": "d96dac24880ca56abb1b6f5950823e85b90f82b2be759f848769bf1d65302681"
+  },
+  {
+   "table": 1,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(30120,1)><speed(2)>In response, the Earth Federation deployed its decisive weapon, the <book(37)>Gundam X<endbook()><thumbnail(182)>...",
+   "notes": "",
+   "source_sha256": "a92030bc8faa908991a1fbeae71a18f90e929b11a583a05010ac44e1c45f9459"
+  },
+  {
+   "table": 1,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(30120,1)><speed(2)>But the operation went through, and countless colonies were dropped on Earth.",
+   "notes": "",
+   "source_sha256": "61670db4d6e7de156cbf58d45e39b4860c77d0fadf1fc7fbc9653b5102d1188e"
+  },
+  {
+   "table": 1,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(30120,1)><speed(2)>The colony drops wrecked the environment, blocking sunlight from the surface. Earth's population fell to as low as one-fifth.",
+   "notes": "",
+   "source_sha256": "2ee7077ca554929b7b3234aa564267086a5db17cc2344b91eb7bf3ba1c53db66"
+  },
+  {
+   "table": 1,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(30120,1)><speed(2)>After that, <book(69)>Scub Coral<endbook()> gradually formed the land, and the environment began to regenerate.",
+   "notes": "",
+   "source_sha256": "500fe6241fcc4e29f0a06b237541dd21d5cebf0b1443f5439486bbaff9a00b08"
+  },
+  {
+   "table": 1,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<thumbdown()><operator(30120,1)><speed(2)>And even now, that war is on the verge of repeating itself - at the hands of the <book(38)>New Federation<endbook()> and the <book(42)>Space Rev. Army<endbook()>.",
+   "notes": "",
+   "source_sha256": "8c1f9a3d0e7226fa4699bf7e2235e610e293fe3906b08cae0d5551429f98bc5b"
+  },
+  {
+   "table": 1,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<library(3)><topic()><operator(30080,1)><speed(2)>I believe I've already told you that you, the <color(4)>Nadesico<ce()>, have been marked by the <book(38)>New Federation<endbook()>, but...",
+   "notes": "",
+   "source_sha256": "f9472caf763791f4d0af0e734bf424ec2749393d6d0cfd3a6e99c066a1804fa5"
+  },
+  {
+   "table": 1,
+   "slot": 43,
+   "text_id": 44,
+   "en": "<operator(30080,1)><speed(2)>It seems word is circulating that you are assassins sent by the <book(42)>Space Rev. Army<endbook()><thumbnail(184)>.",
+   "notes": "",
+   "source_sha256": "ca998a66b17d08e920a005958f3db0e9d7f507bfe6b9c1345e6e7771b069c236"
+  },
+  {
+   "table": 1,
+   "slot": 44,
+   "text_id": 45,
+   "en": "<operator(30080,1)><speed(2)>Because of this, the <book(38)>New Federation<endbook()> is on high alert internally too - the colony side is the <book(38)>New Federation<endbook()>'s natural enemy.",
+   "notes": "",
+   "source_sha256": "e17385dee70e7a9de993a42e993ad0b21c1e76ee560746bf4124aa4ad1589498"
+  },
+  {
+   "table": 1,
+   "slot": 45,
+   "text_id": 46,
+   "en": "<thumbdown()><operator(30080,1)><speed(2)>I do not know why such false information is being spread, but... there seems to be something behind it.",
+   "notes": "",
+   "source_sha256": "87542094fd1baa5c9fd851a540867171dd797897dc44f3a19ebd57a87f445cc7"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 0,
+   "issue": "Archive topic titles ('Vulture' / 'Recent Circumstances' / 'Inside the New Federation'): width limit of the archive list screen is unknown to me, as in the reviewed 4003962/4003942."
+  },
+  {
+   "slot": 20,
+   "issue": "<thumbnail(178)> attaches to 'the four [of us]' after all four names in the source; kept at the same relative point after the name list in English."
+  },
+  {
+   "slot": 28,
+   "issue": "Restructured this label-style row to lead with the cause and end with the named event, keeping book(53) and its thumbnail last as in the source; book(53) rendered 'Moon Invader War' (its locked encyclopedia title) even though this row's own tag text is the shorter 'lunar war'."
+  },
+  {
+   "slot": 32,
+   "issue": "Kept the source's clause order (Scub research -> Nirvash/Eureka -> Adroc Thurston named last) via a 'was' construction, to preserve book-span order without inventing facts."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 30,
+  "rows_in_scene": 30,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slots 0-2 archive topic titles: the 128-visible-char screen-title limit (per this task's brief) applies here too; all three titles ('Vulture', 'Recent Circumstances', 'Inside the New Federation') are far under it, so the translator's 'width limit unknown' uncertainty is resolved - no fix needed.",
+   "Slot 20 'Hayato Jin' name order and thumbnail(178) placement checked against source (right after the '4 persons' phrase); thumbnail kept at the same point; accepted. Speaker is Holland Novak (30110), so 'Me' = Holland, and the named three (Jamil, Gain Bijou, Hayato Jin) plus Holland total four; consistent.",
+   "Slot 22 'Fixx Bloodman' confirmed locked spelling (encyclopedia_021_a.json / encyclopedia_022.json).",
+   "Slot 28 ruling applied: book(53) rendered 'Moon Invader War' accepted per this task's ruling; confirmed as the locked encyclopedia_022.json title, reused correctly even though this row's own source text uses the shorter (lunar war) form.",
+   "Slot 32 'Adroc Thurston' confirmed locked spelling (encyclopedia_021_b.json/022.json note 'Adroc' per Eureka Seven wiki, 'Adrock' is a rejected Wikipedia variant); clause-order restructuring to end on his name (matching the source's label structure) accepted, no invented facts.",
+   "Slots 27-41 (Talho Yuki's history rundown) checked against source line-by-line: Getter Robo/Moon Invader War, Shin Dragon rebellion, Deuteron Missile, Summer of Love/Trapar outbreak, Adroc Thurston/Nirvash/Eureka research, 7th Space War, Space Rev. Army colony-drop ultimatum, Gundam X deployment, population loss to one-fifth (20%), Scub Coral land regeneration, and the closing 'war about to repeat' line all match; no reversed meaning or invented subject found.",
+   "Slots 42-45 (Sala Tyrrell) checked against source: Nadesico marked by New Federation, false assassin rumor from Space Rev. Army, New Federation's internal alert status, and 'something behind it' all match.",
+   "No lowercase j/q outside locked names ('Jamil', 'Bijou', 'Jin' all capitalized/part of locked names); verified by script."
+  ],
+  "remaining_uncertainties": [
+   "Slot 28: the source places the sentence-ending period before <thumbnail(180)>, while the English places the period after the tag (both after book(53)/endbook()); command list and order are identical, this is a one-character punctuation/tag-adjacency difference only, not a meaning issue, but noting it since it's a call on tag placement.",
+   "Slot 32: clause order (Scub research -> Nirvash/Eureka -> Adroc Thurston named last) rebuilt with a 'was' construction to preserve book-span order without inventing facts; kept."
+  ]
+ }
+}

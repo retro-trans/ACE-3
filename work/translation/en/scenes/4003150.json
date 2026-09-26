@@ -1,0 +1,104 @@
+{
+ "resource_id": 4003150,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 9,
+ "rows_examined": 9,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "12B Destroy Shin Dragon 2",
+   "notes": "Released mission title reused (missions_019.json text_id 150).",
+   "source_sha256": "7e3b701471bfa7405b316bb80542d2d31bd4a7823f926c40c08e68a2eb0de993"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30090,1)><speed(2)>Thanks for the long trip. Let me get right to briefing you on the situation.",
+   "notes": "",
+   "source_sha256": "1b549788f12d6dd57292b8c1c226723e475d5c177b5f547a5ccfef48384fc5f9"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30090,1)><speed(2)>The <book(48)>Shin Dragon<endbook()><thumbnail(224)> has already resumed activity. If we let it evolve any further, it may become too late to stop.",
+   "notes": "",
+   "source_sha256": "2524ec25008f12aa4944fddb9cec5f7cfeab60a1eb140eae3f0288c577715201"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30090,1)><speed(2)>This time we finish it off for good. Right here.",
+   "notes": "",
+   "source_sha256": "b297282bc0c8f3e86eeea1f66e7e75464b28cb98cbc636e39c79e8154dc9e260"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30090,1)><speed(2)>The goal is very simple. Destroy the <book(48)>Shin Dragon<endbook()> and dismantle its core, cutting off the <book(51)>Getter Rays<endbook()>' energy supply.",
+   "notes": "\"goal\" per locked term. Orchestrator: reworded to avoid a j/q glyph.",
+   "source_sha256": "431d27d05aa4b5395eaff82675b242f3de64f25a1ce3378dbd0ad201a25cea64"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30090,1)><speed(2)>If that succeeds, we should be able to wipe the <book(49)>Invaders<endbook()> from the Earth entirely.",
+   "notes": "",
+   "source_sha256": "13560a16173971393e0171934226666c86993b618ec6bda3f67cc10cb0caf064"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<thumbdown()><operator(30090,1)><speed(2)>Everyone, I am counting on you.",
+   "notes": "",
+   "source_sha256": "0f9b8261029876dcf58b6ef985f01375a8713942cb2879c33d6f2916ce4d0400"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<topic()><operator(30060,1)><speed(2)>One thing to report. It seems <book(38)>New Federation<endbook()>'s pursuit has continued. We have confirmed aircraft silhouettes<thumbnail(156)>.",
+   "notes": "\"aircraft silhouettes\" for kiei; no prior corpus rendering found for this word.",
+   "source_sha256": "8a5137ac437f0f6df282c7b06612c86639a0bfe7984aeee2916ff418d815a0ad"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30060,1)><speed(2)>Keep an eye on their movements too.",
+   "notes": "",
+   "source_sha256": "94a93378757d1ce802c3d84e1d61343c9ad76d5dbb3f4702d1958ab75858ad52"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 25,
+   "issue": "\"kiei\" (machine silhouette/shadow) has no locked English rendering anywhere in the corpus; \"aircraft silhouettes\" is a literal, descriptive guess tied to thumbnail(156)."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 9,
+  "rows_in_scene": 9,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 text_id 150 \"12B Destroy Shin Dragon 2\".",
+   "Slot 25 ruling: \"kiei\" (aircraft/machine silhouette) has no locked corpus term (searched all scene files and dialogue_index.json; no other occurrence of thumbnail(156) or a prior rendering); \"aircraft silhouettes\" is a reasonable literal, descriptive rendering. Accepted.",
+   "Speakers: 30090 Hayato Jin, 30060 Jamil Neate (speaker_lookup.py); both match glossary. Shin Dragon, Getter Rays, Invaders match established corpus spellings (e.g. 4003070, 4004453).",
+   "All <...> command sequences verified identical and in the same order as source; all rows ASCII, no newlines, no bare %, visible length under 128 chars."
+  ],
+  "remaining_uncertainties": [
+   "Slot 25: \"aircraft silhouettes\" for \"kiei\" has no prior corpus precedent; if a later scene establishes a different rendering for this term, align this row.",
+   "A word containing lowercase q appears in slot 22 (\"quite\"); pre-existing wording, left untouched per scope (meaning-only edits) - flagging for a possible glyph-avoidance script pass."
+  ]
+ }
+}

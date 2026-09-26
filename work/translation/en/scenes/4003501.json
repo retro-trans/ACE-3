@@ -1,0 +1,143 @@
+{
+ "resource_id": 4003501,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "NO DATA",
+   "notes": "",
+   "source_sha256": "1187a1c8c01e16d2c1d8245214d11ffa88ee84f3c4c4460fbdc466a82361c480"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)><move(1,1,13)>I will explain<marker(2,1,13,0)> the operation, so please<move(2,1,13)> listen.",
+   "notes": "",
+   "source_sha256": "1c7818518512cb01634553f59f8a0c5c1c751b6b8ab692af6e3b27a783c99e3d"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)>Wiping out the <move(1,14,5)><color(5)>targets<ce()><marker(22,14,2,0)><marker(22,14,5,0)><marker(22,14,8,0)> deployed in the area is<move(2,14,5)><picture(55,30,7,0)><picture(56,30,14,0)><refer(30,7,14,2)><refer(30,14,14,8)> the<marker(20,12,1,0)><marker(20,11,4,0)> goal<marker(20,1,0,0)><marker(20,3,0,0)><marker(20,0,3,0)><marker(20,0,5,0)> of<marker(20,4,6,0)><marker(20,8,7,0)> this<marker(20,8,10,0)><marker(20,8,14,0)> operation.",
+   "notes": "",
+   "source_sha256": "7eb4b8b7a35890ed4b76df779bed0c7672958ffcd1514e4dd9e0014e32952674"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)><color(6)>The force sending <move(1,6,7)>the distress signal<ce()><marker(3,6,7,0)> will also be <color(6)>supported<ce()>, to be <move(2,6,7)><marker(5,1,10,0)><marker(5,3,11,0)>safe. Do not let their <color(4)>mothership<ce()><picture(57,2,7,0)><refer(2,7,6,7)> be <marker(48,14,3,0)><marker(48,14,6,0)><marker(48,14,9,0)>taken down.",
+   "notes": "Source omits who supports; passive kept. \"to be safe\" for nen no tame.",
+   "source_sha256": "050c1f82d043e01f13f46681be6a58e81f7199fc7db505d2f6b3ddaa3d112b38"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>One more point of caution. A <color(6)>dangerous area<ce()><danger(1)> has been confirmed inside the operation zone.",
+   "notes": "",
+   "source_sha256": "e32771381b733931e76ce71ccae38920cb3e96fb33ee8a5a78ffce4890043b0d"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)><color(6)>Area-suppression <move(1,9,2)>weapons<ce()><marker(37,9,2,0)> have been confirmed <move(1,12,7)>in the area.<marker(37,12,7,0)> They are <move(1,9,12)>probably the cause.<marker(37,9,12,0)>",
+   "notes": "",
+   "source_sha256": "a9cc2e8cfa86c04bf2e0381d2d3e9143feaf03ea468035736eacdbfd8e6f2144"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)><move(1,4,13)>This <color(5)>weapon<ce()><marker(37,4,13,0)> seems able to deploy some kind of <book(7)>particle<move(2,9,12)><picture(58,2,14,0)><refer(2,14,4,13)> field<endbook()>.",
+   "notes": "",
+   "source_sha256": "ecde5cb9e851c0559ca51d3dd125dae139b7c4b27763a953d68ef0d05620b2eb"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)>This <book(7)>particle field<endbook()> apparently <color(6)>damages any unit that enters it<ce()>, which makes it a very dangerous thing.",
+   "notes": "",
+   "source_sha256": "9d3585100e9b7496bc37205c9c3ef31eb191691f90e17949a46e45ae0a2e71e2"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12031,1)><speed(2)>The <book(7)>particle field<endbook()> will be shown on the radar, so please fight while keeping out of it.",
+   "notes": "",
+   "source_sha256": "82c24a9d1b1dad5216dae442fc2dca636fc59c2a7583fec9bf8e22aa69b90f96"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12031,1)><speed(2)>If this <color(5)>weapon<ce()> is <color(6)>destroyed<ce()>, I think the <book(7)>particle field<endbook()> can be <color(6)>lifted<ce()> too, so go ahead and destroy it.",
+   "notes": "",
+   "source_sha256": "a35b5ce4ffffbc98a862d4134d0fd359786a5a6c13b6ad9aff7c59530679eb8d"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>Well then, I am counting on you.",
+   "notes": "",
+   "source_sha256": "1014fc4fe1dc4e17cba312f8baab4a70d18227759b18f2a68d52c90a7c432853"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Source scatters 10 markers inside the word sakusen mokuhyou; placed between the English words \"the goal of this operation\" in the same order."
+  },
+  {
+   "slot": 23,
+   "issue": "\"Area-suppression weapons\" for kyokuchi seiatsu-you no heiki: no locked term; Encyclopedia describes the unit only as a combat support weapon that deploys a particle field."
+  },
+  {
+   "slot": 24,
+   "issue": "move/picture/refer sit inside the book(7) span in the source; kept inside, between \"particle\" and \"field\"."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "kyokuchi seiatsu-you no heiki",
+   "en": "area-suppression weapon",
+   "source": "none; descriptive",
+   "why": "Generic description of the particle-field emitter enemy."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [
+   {
+    "slot": 23,
+    "before": "<operator(12031,1)><speed(2)><color(6)>Area-suppression <move(1,9,2)>weapons<ce()><marker(37,9,2,0)> have been confirmed <move(1,12,7)>around it.<marker(37,12,7,0)> They are <move(1,9,12)>probably the cause.<marker(37,9,12,0)>",
+    "after": "<operator(12031,1)><speed(2)><color(6)>Area-suppression <move(1,9,2)>weapons<ce()><marker(37,9,2,0)> have been confirmed <move(1,12,7)>in the area.<marker(37,12,7,0)> They are <move(1,9,12)>probably the cause.<marker(37,9,12,0)>",
+    "reason": "Source says only \"shuuhen ni wa\" (in the vicinity), the same word the draft renders \"in the area\" in slot 20. \"around it\" invents a referent and says the weapons surround the danger area, while slots 24-25 say the weapons generate it."
+   }
+  ],
+  "checked_decisions": [
+   "Slot 20 ruling: the ten markers are timing marks inside one source word; spreading them over \"the goal of this operation\" in source order is fine.",
+   "Slot 23 ruling: \"Area-suppression weapons\" is an accurate descriptive rendering of \"kyokuchi seiatsu-you no heiki\"; no locked term exists (Encyclopedia only describes the unit). Kept.",
+   "Slot 24 ruling: keeping move/picture/refer inside the <book(7)> span mirrors the source; correct.",
+   "Slot 21: passive \"will also be supported\" keeps the omitted subject; \"mothership\" matches meeting_briefing_015.",
+   "\"particle field\" matches mission_terms_019 and the Encyclopedia."
+  ],
+  "remaining_uncertainties": [
+   "Slot 23 plural \"weapons\" (three markers) vs slots 24/27 singular \"This weapon\" / \"destroy it\": the source has no number; left as is, but the player faces three emitters.",
+   "Slot 21: \"force\" for \"seiryoku\" could also be \"faction\"; left."
+  ]
+ }
+}

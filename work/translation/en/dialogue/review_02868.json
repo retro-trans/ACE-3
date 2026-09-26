@@ -1,0 +1,36 @@
+{
+  "reviewer": "independent_meaning_review_mission09a_agent",
+  "slice_start": 2868,
+  "slice_count": 80,
+  "rows_examined": [{"start": 2853, "end": 2962}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [2868, 2870], "finding": "Source uses generic jisouhou (self-propelled cannon), not the proper term mukigen kidouhou (glossary 'Infinite Mobile Cannon', mission_terms_019.json). Literal 'self-propelled cannon' is correct; substituting the proper name would invent an identity the row does not assert."},
+    {"rows": [2880, 2891, 2892], "finding": "Kanchou addressed here is the Nadesico B bridge; 'Captain' matches the orchestrator ruling for Ruri."},
+    {"rows": [2895, 2896, 2897, 2898], "finding": "Debate between an unnamed Spacenoid sympathizer and an unnamed respondent; both sides kept without asserted name, side, or gender beyond what each line states. No reversal of who blames whom."},
+    {"rows": [2899, 2900], "finding": "'It's effective precisely because it looks reckless. The enemy knows how to fight.' correctly keeps 'the enemy' as the Federation being discussed, not the speaker's own side."},
+    {"rows": [2902, 2903, 2904], "finding": "Bridging banter ('noisy over on this side too', 'people can't help fighting') read as commentary from a third pair of speakers distinct from the 2895-2901 debate; no identity invented."},
+    {"rows": [2904, 2905, 2906], "finding": "'For Tiffa's sake, is that it?' matches the established glossary character char.tiffa_adill (Tiffa Adill, After War Gundam X) and its translation_notes on char.garrod_ran: 'Do not infer the addressee of a line solely from his relationship with Tiffa.' The speaker of 2904/2906 is almost certainly Garrod Ran, but the translation correctly avoids naming him or the teasing interlocutor, per that existing glossary caution."},
+    {"rows": [2907, 2908, 2909, 2910], "finding": "Renton/Eureka/Holland exchange (Eureka Seven aside) reads consistently: Holland threatens Renton, Renton answers submissively, a third party tells Holland to be careful, Holland grunts dismissively. No addressee swapped."},
+    {"rows": [2911, 2912, 2913, 2914], "finding": "'The Invaders again?!' correctly treats Invaders as a recurring known threat, not a newly introduced name."},
+    {"rows": [2917, 2922, 2923, 2924, 2925], "finding": "Chain of 'are these with them / are these the same guys' exchanges keeps the two unidentified forces distinct ('no, they're not' at 2924 is not contradicted or reversed by 2925's 'they attacked us too')."},
+    {"rows": [2927, 2928, 2929, 2930, 2931, 2932], "finding": "King Sakomizu's refusal to be stopped and his order to 'follow me' are preserved in the imperative, matching a king commanding his own men, not a request."},
+    {"rows": [2941], "finding": "'Damn surface-dwellers!' (chijoujin-domo) kept as a neutral plural insult; speaker side/gender not asserted beyond the source."},
+    {"rows": [2943, 2944, 2945, 2946, 2947], "finding": "Father/King Sakomizu exchange with Luxe (implicit) and Asap/Renton-side observers is preserved without swapping who is pleading and who is refusing."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_02868", "dialogue_02870"], "issue": "Ruling: 'self-propelled cannon' is correct as a generic description; the row never uses the proper glossary term 'Infinite Mobile Cannon,' so no substitution is warranted. No fix."},
+    {"ids": ["dialogue_02895", "dialogue_02896", "dialogue_02897", "dialogue_02898"], "issue": "Ruling: speaker/respondent identity in the Spacenoid debate is genuinely unresolved by the surrounding rows (table order mixes at least three mini-scenes in resource 6090: HQ alerts, this debate, the Eureka Seven aside 2904-2910, and the Sakomizu/Luxe/Asap thread from 2927 on). Kept neutral is correct; no fix."},
+    {"ids": ["dialogue_02905"], "issue": "Ruling: 'For Tiffa's sake' matches the known Gundam X pairing (Garrod Ran/Tiffa Adill) and the glossary's own caution against inferring the addressee from that relationship. Leaving the row unnamed is the correct call, not an omission. No fix."},
+    {"ids": ["dialogue_02925", "dialogue_02941"], "issue": "Ruling: sentence-final particle gender (2925) and a generic plural insult (2941) do not license naming a speaker or side that the row itself withholds. No fix."}
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source via `python tools/dialogue_corpus.py slice 2868 80 --context 15`: 80/80 equal in order, including the malformed <ab(000)>/<ab(0)> forms preserved as in the source.",
+    "format": "No newline in any target; ASCII only (no lowercase j/q outside established locked names, none occur in this slice); no bare percent sign.",
+    "fit": "Longest visible text is well within 110 characters; no over-limit rows; no shortening performed.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

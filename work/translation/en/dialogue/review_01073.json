@@ -1,0 +1,33 @@
+{
+  "reviewer":"independent_translate_dialogue_81_agent",
+  "slice_start":1073,
+  "slice_count":80,
+  "rows_examined":[{"start":1058,"end":1167}],
+  "rows_examined_count":110,
+  "rows_in_slice":80,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[
+    {"id":"dialogue_01110","before":"You wouldn't know about it, Lieutenant <color(4)>Dyson<ce()>.","after":"You weren't familiar with it, were you, Lieutenant <color(4)>Dyson<ce()>?","reason":"Source retrospectively confirms that Dyson was not familiar with the machine. Conditional wouldn't know could imply inability or an expectation of ignorance; the correction preserves the temporal confirmation."}
+  ],
+  "checked_decisions":[
+    {"rows":[1078,1087],"finding":"Opponent skill observations preserved without inventing pilot identity."},
+    {"rows":[1093,1094,1095,1096,1111,1112,1113],"finding":"Gun Ark recognition and later same-type clarification retained. No unidentified pilot named."},
+    {"rows":[1111],"finding":"War and machine book-link order preserved, with explanatory sentence rearrangement retaining all meaning."},
+    {"rows":[1123,1126],"finding":"Nearby1154-1155 confirms enemy Plate retrieval should be prevented; allied retrieval is also possible. Translation does not reverse the objective."},
+    {"rows":[1131],"finding":"Novis Noah is one ship; punctuation anomaly in source is not interpreted as two entities."},
+    {"rows":[1139],"finding":"Both high heat and high speed preserved."},
+    {"rows":[1147],"finding":"Yu Brain is addressed as a machine, not shortened to pilot Yu."}
+  ],
+  "uncertainties":[
+    {"rows":[1073,1082,1087,1118,1121],"issue":"Unstated realization, identity, and ominous sensation remain unexplained. No guessed antagonist identity or gender supplied."},
+    {"rows":[1104,1110,1144],"issue":"Existing rank decisions retained. Captain Burning versus naval rank adaptations remains a centralized terminology issue, not independently changed here."},
+    {"rows":[1111],"issue":"First Defensive War is an existing researched proposal; name spelling retained for central normalization."},
+    {"rows":[1122,1146,1151],"issue":"Resource6032 may contain legacy content. Its single remaining Gun Ark statement and questioned Marina identity must not be forced into preceding6031 continuity."}
+  ],
+  "validation":{
+    "controls":"All ASCII angle-bracket/#c commands checked in exact order against original ISO, including freezemouth, color, and book commands.",
+    "format":"Original newline counts unchanged.",
+    "fit":"No display-fit shortening performed.",
+    "runtime":"Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

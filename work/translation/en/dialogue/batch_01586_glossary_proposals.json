@@ -1,0 +1,20 @@
+[
+  {
+    "term_romaji": "SOF dai-ichi kidou butai",
+    "en": "SOF 1st Mobile Unit",
+    "source": "https://eurekaseven.fandom.com/wiki/Special_Operations_Force ; https://eurekaseven.fandom.com/wiki/Holland_Novak",
+    "why": "Row 1623 calls Holland its former chief. The wiki confirms SOF (Special Operations Force) and that Holland led an SOF unit, but gives no official English name for the 'first mobile unit'; literal rendering proposed."
+  },
+  {
+    "term_romaji": "goei butai",
+    "en": "escort force",
+    "source": "work/translation/en/dialogue/ earlier batches (Nadesico B escort reports)",
+    "why": "Rows 1637-1640; reuse of the wording already used in earlier batches so the alert family stays consistent."
+  },
+  {
+    "term_romaji": "aoki taka",
+    "en": "Blue Hawk",
+    "source": "work/glossary/character_names_021.json (Meio Plato nickname 'Blue Hawk of Giganos')",
+    "why": "Row 1594 uses the short form without 'of Giganos'; confirm short form is locked."
+  }
+]

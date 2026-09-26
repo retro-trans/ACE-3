@@ -1,0 +1,19 @@
+{
+ "version": "0.1.34",
+ "slice_start": 4005,
+ "slice_count": 1,
+ "scope": "Alert row shared by the leftover mission-12 scene 2002121 and the VF-1/Queadluun-Rau shout tables 2814020/21/40/41/80 (text id 72); not covered by any range batch.",
+ "review": {
+  "status": "meaning_reviewed",
+  "reviewer": "orchestrator",
+  "notes": "Standard alert wording used across the corpus (see batch_00081 etc.)."
+ },
+ "rows": [
+  {
+   "id": "dialogue_04005",
+   "target": "<op()><sp(20)>Enemy reinforcements!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Source: enemy reinforcements confirmed."
+  }
+ ]
+}

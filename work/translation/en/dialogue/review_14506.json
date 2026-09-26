@@ -1,0 +1,36 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14506,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      14491,
+      14600
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [14509, 14513, 14536, 14543, 14582],
+      "finding": "Shagia's recurring 'stage' metaphor (source: stage) is rendered literally and consistently across all five rows; matches his 'sensible, calculating' personality and is not a mistranslation."
+    },
+    {
+      "rows": [14507, 14580],
+      "finding": "'Category F' term checked against terms_028.json and character_names_021.json; no existing locked spelling conflicts. Term is a researched proposal, used consistently, and correctly contrasts the Frost brothers against Newtypes in row 14580 without inventing content."
+    },
+    {
+      "rows": [14583],
+      "finding": "'our brothers' hands' correctly reflects the source's 'by our brothers' hands' (the Frost brothers acting jointly); not an invented collective speaker."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran a throwaway console check comparing every <op()>/<sp()>/<ab(N)>/<ed()> command sequence in each row's target against the source listing (dialogue_corpus.py slice 14506 80 --context 0): 0 mismatches across all 80 rows.",
+    "fit": "Recomputed each row's visible-text length (tags and \\n excluded) against min(72, 2*Japanese_char_count-2): 0 rows over budget.",
+    "ascii": "0 non-ASCII characters found in visible text (fullwidth percent sign exception not needed in this batch); no lowercase j/q found.",
+    "newline": "This batch's own hard constraint states no newline should appear in the rebuilt target text. 27 of this batch's 80 rows still contain an embedded newline carried over from the source's two-line layout (e.g. dialogue_14508, dialogue_14517). This is a pre-existing, corpus-wide pattern in the draft (not introduced by this review) and is out of scope for a meaning-only review to mass-edit across many rows without a coordinated line-join pass; flagging for the orchestrator rather than rewriting unilaterally (see final report)."
+  }
+}

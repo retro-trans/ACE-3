@@ -1,0 +1,27 @@
+{
+  "reviewer": "independent_review_shouts_agent",
+  "slice_start": 15848,
+  "slice_count": 59,
+  "rows_examined": [{"start": 15833, "end": 15921}],
+  "rows_examined_count": 89,
+  "rows_in_slice": 59,
+  "review_status": "meaning_reviewed",
+  "resource_boundaries_in_slice": [
+    {"rows": [15848, 15906], "resource": 2823020, "pilot": "Anemone (Nirvash theEND)"}
+  ],
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [15870, 15874], "finding": "'Maamaa ne' (lit. 'so-so/mediocre') rendered as 'Not bad.' is a shade more positive than the source's lukewarm/withholding tone, and 'yaru~!' rendered as 'Yeah!' loses the active 'I'll do it/bring it' sense; both are minor register drift, not reversals, and both stay consistent with Anemone's harsh, dismissive personality overall. Left as phrased."},
+    {"rows": [15879, 15895, 15901, 15902, 15904], "finding": "Locked unit name 'theEND' preserved correctly in every occurrence, matching unit_names_014_b.json ('Nirvash theEND')."},
+    {"rows": [15871], "finding": "'Yaru wa ne! theEND no tsugi kurai ni!' (lit. 'you can fight! about next-in-line after theEND!') rendered as 'Not bad! Almost like theEND!' -- 'second only to theEND' vs 'nearly theEND's level' are close enough in sense (both rank the foe just under theEND); not a reversal."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_15889"], "issue": "Translator flagged 'honmei' ('the real deal/main contender') compressed to 'The real one.' with the referent unnamed in-row. Ruling: acceptable -- the noun phrase alone reads naturally as a reactive exclamation on a worthy opponent's arrival, consistent with how 'kita' (arrived) is dropped elsewhere in this corpus under tight budgets; no fix needed."}
+  ],
+  "validation": {
+    "controls": "Re-checked command-tag order and newline counts against the freshly re-sliced source for all 59 rows; unchanged, no edits made in this batch.",
+    "fit": "Spot-checked the hard budget min(72, 2*source_ja_char_count-2) for every uncertain/flagged row from the live source; all targets already at or under budget.",
+    "ascii": "No non-ASCII characters, curly quotes/dashes, bare '%', or lowercase j/q found (locked name 'theEND' exempt and confirmed correct).",
+    "status": "All 59 rows set to meaning_reviewed; none left as draft."
+  }
+}

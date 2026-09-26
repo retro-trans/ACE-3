@@ -1,0 +1,347 @@
+{
+ "resource_id": 4003080,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 36,
+ "rows_examined": 36,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "08  Sweep Unknown Forces 2",
+   "notes": "Released mission title reused (missions_019).",
+   "source_sha256": "51a718a167bfe3352800687c63a87d12ebb9db6cbf24aa6b9f81a0933bda66d1"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30050,1)><speed(2)>Well done making it back, all of you.",
+   "notes": "",
+   "source_sha256": "03a4f8d58d82ecdc8e576846dd1e16c90a7a72c6bc95da6ae9bce43f3de3eff5"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30050,1)><speed(2)>I have read the report <color(4)>Ruri<ce()> put together.",
+   "notes": "-kun honorific dropped per project convention.",
+   "source_sha256": "c0e5246a8e81814e7b2a8739d1222c47491312cfeab5ff2fad93b88f3cd90860"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30050,1)><speed(2)>I still can hardly believe such a thing was happening where you had all gone missing...",
+   "notes": "",
+   "source_sha256": "772523425d9ec2ddd43c57a74547d02ce33bc4b3b2a38d54815df017dfc8979e"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30050,1)><speed(2)>But seeing the crew of the <color(4)>Gekko<ce()> who came with you, I can hardly deny it.",
+   "notes": "Gekko per meeting_terms_015 (locked, not Gekkostate).",
+   "source_sha256": "cb693be52ebce45cf4cde53909291e8820656f7b8a89aa7be1116254bcf73c9b"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30050,1)><speed(2)>I never imagined this matter would turn out to be so serious.",
+   "notes": "",
+   "source_sha256": "912e2399a3faf4d88fc1f80ce73623dd405fea8988631c1591686effc971aeb1"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30050,1)><speed(2)>But now that I know the truth, we must prevent the worst outcome, whatever it takes.",
+   "notes": "",
+   "source_sha256": "0e1289a2edb993882f29d47d836eb61df1081346666d568a2ebe635e15fd183d"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30050,1)><speed(2)>I will grant you the authority of a <color(6)>special task force<ce()> with the right to act independently.",
+   "notes": "special task force matches meeting_briefing_015 rendering of tokumu butai.",
+   "source_sha256": "fa10a2ecda189199dfb31b73fec7887e6ac4f7a1c43a5c1db30d0c7fd902d530"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30050,1)><speed(2)>Work together and do what you can to bring this under control and avert the crisis facing both worlds.",
+   "notes": "",
+   "source_sha256": "929509941b3ccf2c97de82fbd37bdf5e06e0b60cc79a27e050b0014b1a75e9c6"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30050,1)><speed(2)>I am counting on you!",
+   "notes": "",
+   "source_sha256": "3e1bb46b41805d9d96265dd8b86a3906f9660a6f771b02b8aae2447504ba905b"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<topic()><operator(30030,1)><speed(2)>Let me go over the current situation again, as a recap.",
+   "notes": "",
+   "source_sha256": "2e7c85f18046fad92761d8595a7146202b5249d2e2c1fdbc52ddc0815b6aabfc"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30030,1)><speed(2)>We will show the <book(1)>Baldora Drive<endbook()>'s activation status with an indicator called <book(2)>Baldora Charge<endbook()><thumbnail(195)>.",
+   "notes": "Baldora Drive / Baldora Charge locked (terms_028).",
+   "source_sha256": "aa21306991e24205608c1429bef46086d8e5dba6ae96d18f924023a1698bc68f"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30030,1)><speed(2)>Calculated from the observed amount of <color(6)>Baldora particles<ce()>, this is the progress toward the <book(1)>Baldora Drive<endbook()>'s full activation.",
+   "notes": "",
+   "source_sha256": "23512a552930bf0265195fadbb7bbf9f463385b1eb0c08fc1ea60d6010834a3a"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30030,1)><speed(2)>Right now, <book(2)>Baldora Charge<endbook()> has reached this stage, and the <book(3)>Wormhole<endbook()> is still expanding.",
+   "notes": "",
+   "source_sha256": "582065ec520d1eae8258873fa6f9d1575dde5cc2e024366d71190c9432923946"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30030,1)><speed(2)>Put simply, the <book(3)>Wormhole<endbook()> is a kind of tunnel linking different dimensions.",
+   "notes": "Echoes encyclopedia_022 Wormhole entry (\"tunnel-like entity linking different space-times\").",
+   "source_sha256": "694a150d87b9674cf1e1a8a556c5d94c4a2a4a38d010e372245871335c2be19c"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30030,1)><speed(2)>When <book(2)>Baldora Charge<endbook()> hits <color(6)>100 percent<ce()>... reaches critical, the <book(1)>Baldora Drive<endbook()> will fulfill its true function.",
+   "notes": "Percent spelled out (no bare %); \"reaches critical\" matches dialogue_02371 precedent.",
+   "source_sha256": "b2501acf0a99b4ab12b07afc5ed0fc0fcc9ff9499975b31e67719cdeafca09a9"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30030,1)><speed(2)>In other words, an Earth-scale <book(3)>Wormhole<endbook()> will be born... and the worlds will be connected.",
+   "notes": "",
+   "source_sha256": "06418565034bf2dfd14f3597ab7d8caeb918f4fab27488732c1110924f7ba4ae"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(30030,1)><speed(2)>Once that tunnel is complete, the two Earths<thumbnail(197)> will be drawn to each other by gravity, causing catastrophic damage.",
+   "notes": "",
+   "source_sha256": "19a8300bdb550405396817e730d8bc0b03d16937e5dad930637850c7e20c530c"
+  },
+  {
+   "table": 1,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(30030,1)><speed(2)>And in the end the Earths will collide,<thumbnail(198)> collapsing from gravitational interference, and both Earths will be destroyed.",
+   "notes": "",
+   "source_sha256": "149bca4a2a91b9931df69b773d52c47338d596992efbb0ab8dfbc9b090fe78dc"
+  },
+  {
+   "table": 1,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(30030,1)><speed(2)>If Earth is destroyed, it will affect all of humanity's habitats, including the colonies.",
+   "notes": "",
+   "source_sha256": "354a35fea2de770023f69f80c00d56ee6afc84d081d59e2ec694973df0b954c5"
+  },
+  {
+   "table": 1,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(30030,1)><speed(2)>In other words, humanity will face <color(6)>extinction<ce()>.",
+   "notes": "",
+   "source_sha256": "9dbd6e5982aff08adc8a2f3149aadccaf0c3b1ba55295e047eb441ad52ff5d78"
+  },
+  {
+   "table": 1,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>Even now, <book(2)>Baldora Charge<endbook()> keeps steadily advancing.",
+   "notes": "\"kono ma ni mo\" -> \"Even now\" (avoids mid-sentence \"just\").",
+   "source_sha256": "c3ec75e5c7215e5e78247c52695168c9325b72badc0c28e15fc8aba80040d1bf"
+  },
+  {
+   "table": 1,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(30030,1)><speed(2)>We must, as soon as possible, locate the holder of the key to stopping the <book(1)>Baldora Drive<endbook()> - <color(5)>Berkt<ce()>.",
+   "notes": "",
+   "source_sha256": "7e5d20d19efeb7bb5c0f246dbdf401f4a84b4e86cd1b3453d16aa64144b7b058"
+  },
+  {
+   "table": 1,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<operator(30030,1)><speed(2)>From what has happened so far, <color(5)>Berkt<ce()> is thought to be gathering power while moving back and forth between the two worlds.",
+   "notes": "",
+   "source_sha256": "a0c0a48768837a278798007bce20816f22463b4a33289a03ce88671e0b41f643"
+  },
+  {
+   "table": 1,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<operator(30030,1)><speed(2)>But right now, we have no information on where he is headed.",
+   "notes": "\"he\" for Berkt, male per glossary/character_names_021.",
+   "source_sha256": "c5f5fbcddb32023d4c2db288e6ae53d0c0d9ff0fe98c5159e7715d789bd85b2b"
+  },
+  {
+   "table": 1,
+   "slot": 43,
+   "text_id": 44,
+   "en": "<topic()><operator(30050,1)><speed(2)>My information network has turned up something that could be a lead.",
+   "notes": "",
+   "source_sha256": "deda148d10b78546375828c6bbf6c6ee57829d919d520fbbd0afad1e9a293173"
+  },
+  {
+   "table": 1,
+   "slot": 44,
+   "text_id": 45,
+   "en": "<operator(30050,1)><speed(2)>Recently, near the colonies of the <book(23)>Hisago Plan<endbook()>, that <color(5)>unmanned mobile weapon<ce()> has been sighted several times.",
+   "notes": "unmanned mobile weapon(s) matches encyclopedia_022 unmanned-unit wording plus corpus \"mobile weapons\".",
+   "source_sha256": "1eea4674fc2e31ad899dc0c8291104dc440c2804a079b78a94be8b5a403328f9"
+  },
+  {
+   "table": 1,
+   "slot": 45,
+   "text_id": 46,
+   "en": "<operator(30050,1)><speed(2)>The <book(23)>Hisago Plan<endbook()> is a plan to develop solar system shipping routes using the <book(30)>Boson Jump<endbook()>.",
+   "notes": "Hisago Plan / Boson Jump locked (encyclopedia_022).",
+   "source_sha256": "2c78fdbb3fae40103830c8bd880429cbfe8639a460b5212e5b507e843313606c"
+  },
+  {
+   "table": 1,
+   "slot": 46,
+   "text_id": 47,
+   "en": "<operator(30050,1)><speed(2)>Its relay points, the <book(24)>Terminal Colonies<endbook()>, have recently suffered repeated attacks by persons unknown.",
+   "notes": "Terminal Colonies locked (encyclopedia_022).",
+   "source_sha256": "79df47bfdff18ef2e6a8b19e4c274fffb8813b8f0b43ee275de8bad95dd9b971"
+  },
+  {
+   "table": 1,
+   "slot": 47,
+   "text_id": 48,
+   "en": "<operator(30050,1)><speed(2)>And mere moments ago, word came in that the <book(24)>Terminal Colony<endbook()> \"<book(25)>Shirahime<endbook()><thumbnail(200)>\" is under attack by <color(5)>mobile weapons<ce()> of unknown origin.",
+   "notes": "\"mere moments ago\" avoids mid-sentence \"just\".",
+   "source_sha256": "f41d1b09a53b21568c17d60e00f879201c2b771798fb5feef0f4e5859d105604"
+  },
+  {
+   "table": 1,
+   "slot": 48,
+   "text_id": 49,
+   "en": "<operator(30050,1)><speed(2)>The culprit is likely the same as in the earlier incidents. That man <color(5)>Berkt<ce()> may well be involved.",
+   "notes": "",
+   "source_sha256": "a62a01da3c70c26fe370e56c9d1426c9149435ec495bae1c62bbccb21a86fde3"
+  },
+  {
+   "table": 1,
+   "slot": 49,
+   "text_id": 50,
+   "en": "<operator(30050,1)><speed(2)>I want you to head to <book(25)>Shirahime<endbook()><thumbnail(203)> at once and help defend the colony.",
+   "notes": "",
+   "source_sha256": "b2a0da36e2965905ad3683d74331e5e5c381bd650ed87ee3d6f97b7f01d44b9a"
+  },
+  {
+   "table": 1,
+   "slot": 50,
+   "text_id": 51,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>We have passed through the <book(1)>Baldora Drive<endbook()>'s <book(3)>Wormhole<endbook()> and are now in satellite orbit.",
+   "notes": "",
+   "source_sha256": "eee01675420813e936121de8ca1fce774a0ea68aad1f5924a3c2b757b47290c8"
+  },
+  {
+   "table": 1,
+   "slot": 51,
+   "text_id": 52,
+   "en": "<operator(30030,1)><speed(2)>Let us head for <book(25)>Shirahime<endbook()> as we are.",
+   "notes": "",
+   "source_sha256": "fd0d764381476828e1e643e6a33e92c6fb80d55e92d7ee9faf174d25db50781a"
+  },
+  {
+   "table": 1,
+   "slot": 52,
+   "text_id": 53,
+   "en": "<topic()><operator(30000,1)><speed(2)><color(4)>Barrel<ce()>, new refit parts for the <color(4)>Ixbrau<ce()><thumbnail(201)> have arrived from a <book(9)>Federation<endbook()> lab.",
+   "notes": "Ixbrau locked (never Exbrau, terms_028); \"refit parts\" reused from scene 4003030 slot 34.",
+   "source_sha256": "1497caabb83c14e4d7cb7e9f7341535b3b0235f21e8afe68bd7442de7f357f14"
+  },
+  {
+   "table": 1,
+   "slot": 53,
+   "text_id": 54,
+   "en": "<operator(30000,1)><speed(2)>It is gear for storming bases, a type built for high-speed combat.",
+   "notes": "",
+   "source_sha256": "aa9bac65a7f0e2679de5ebf5386a54f5db7b7a97b8444b02d4ae50e3f20cb6a6"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "\"Ruri-kun\" rendered bare \"Ruri\"; no project convention found for -kun (dropped as with -san elsewhere)."
+  },
+  {
+   "slot": 32,
+   "issue": "\"tonneru no you na mono\" rendered \"a kind of tunnel\" to echo encyclopedia_022's Wormhole entry wording (\"tunnel-like entity\"); could also be \"is like a tunnel\"."
+  },
+  {
+   "slot": 34,
+   "issue": "\"chikyuu kibo no\" (Earth-scale) modifies Wormhole outside the <book(3)> tag in the source; kept the tag on \"Wormhole\" only, matching source tag placement."
+  },
+  {
+   "slot": 44,
+   "issue": "\"sugata ga ikudo ka kakunin sarete iru\" (sighted several times) rendered with a singular \"that unmanned mobile weapon\" (treating it as a known threat/class); could also be pluralized \"unmanned mobile weapons\"."
+  },
+  {
+   "slot": 52,
+   "issue": "Thumbnail(201) placed directly after <color(4)>Ixbrau<ce()> per source order, ahead of \"refit parts\", slightly differing from scene 4003030 slot 34's placement of the thumbnail after \"refit parts\"; each follows its own source order."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 36,
+  "rows_in_scene": 36,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"08  Sweep Unknown Forces 2\".",
+   "Speakers confirmed via speaker_lookup: 30050 Kouichiro Misumaru, 30030 Ruri Hoshino, 30000 Faye Rochenante.",
+   "Slot 20 \"Ruri-kun\" -> \"Ruri\": honorific-drop is consistent corpus convention (matches 4004403 0/35 -kun-drop precedent). Accepted.",
+   "Slot 22 \"Gekko\" for \"Gekkou-gou\": matches meeting_terms_015 locked term.",
+   "Slot 25 \"special task force\" for tokumu butai: matches meeting_briefing_015 rendering.",
+   "Slots 29-41 Baldora Drive / Baldora Charge / Baldora particles / Wormhole: all locked terms per terms_028; tag placement checked token-for-token against source, identical order in every row.",
+   "Slot 33 \"100 percent\" spelled out (no bare %); \"reaches critical\" matches dialogue_02371 precedent.",
+   "Slots 44-49 Hisago Plan / Terminal Colony(-ies) / Shirahime: match encyclopedia_022 spelling exactly.",
+   "Slot 52 Ixbrau (never Exbrau) matches terms_028; thumbnail(201) placement verified against source token order for this row specifically (matches; differs from 4003030 slot 34 only because that row's own source order differs).",
+   "Slots 22/29/45/52 <book(9)>Federation<endbook()>: this is the player's own Earth Federation, a different entity from the antagonist \"New Federation\" (book(38)) that appears elsewhere in the corpus; no conflict with the orchestrator's \"keep New Federation\" ruling, which applies to that other faction.",
+   "Command-tag audit: every row's <...> tokens compared programmatically against tools/scene_source.py output for this resource - identical tokens, identical order, no additions/omissions.",
+   "Format audit: no non-ASCII characters, no literal newlines, no bare '%', no lowercase j/q anywhere in the file, all visible text under the 128-char limit (scripted check)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: \"-kun\" drop has no written project rule beyond corpus precedent; kept.",
+   "Slot 26: source coordinates two goals, \"bring the situation under control AND restore it\" (shuushuu to kaifuku); EN compresses to \"bring this under control\", folding away the recovery/restoration half. Not a reversal, but two ideas became one - flagging per BASE_RULES even though the row passes.",
+   "Slot 32: \"a kind of tunnel\" vs \"is like a tunnel\" for tonneru no you na mono - stylistic choice only, left as translator's call.",
+   "Slot 44: singular \"that unmanned mobile weapon\" vs plural for a sighting confirmed \"several times\" - translator's own flagged uncertainty, both readings valid, left.",
+   "Slot 52: thumbnail(201) placement immediately after \"Ixbrau\" (matching this row's own source order) differs from scene 4003030 slot 34's placement after \"refit parts\" (that row's own source order); each is correct for its row, not an inconsistency."
+  ]
+ }
+}

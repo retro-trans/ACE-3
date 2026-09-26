@@ -1,0 +1,406 @@
+{
+ "resource_id": 4004433,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 43,
+ "rows_examined": 43,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17040,1)><speed(2)><color(4)>Tiffa<ce()>, is something the matter?",
+   "notes": "",
+   "source_sha256": "dbb3aa5a431306c48399d15537652eca3424bfe7b2c2bc663b5974adcd6290be"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17070,1)><speed(2)>...There will be an encounter here. One that could move the world... I sense a great hope.",
+   "notes": "",
+   "source_sha256": "12586edce8d4363e999db06694cd08356e80189619f55311294fa79db06958b6"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(10010,1)><speed(2)>Huh? What does that mean?",
+   "notes": "",
+   "source_sha256": "71617a4faed3023341755d62393633ab30aa8d48be288a106b679f2b2671b1d3"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17040,1)><speed(2)><color(4)>Tiffa<ce()> can foresee the future with her Newtype power.",
+   "notes": "",
+   "source_sha256": "ec3ce474d90d1de2b2f52f2255bbeb854560721b521aa8039d673d724f9e8462"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17040,1)><speed(2)>Because of this power, <color(4)>Tiffa<ce()> is targeted by the <color(5)>New Federation<ce()>.",
+   "notes": "",
+   "source_sha256": "97c10f3c2836ca80d449e0511d5924b16ca8f690e258b43d80574f4d7d187f0f"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>Captain <color(4)>Amuro<ce()>, do you sense it too?",
+   "notes": "",
+   "source_sha256": "33471267329e394aa96f13136e474bca4ae9eba718b59ea384f2ff1a7d2d0e22"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(5010,1)><speed(2)>No... I can't tell what she is sensing.",
+   "notes": "",
+   "source_sha256": "1b60654228c4b68e078f6aa5a3c68d1f93fedcc899a71d0c5b603b59ce8f7c33"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1060,1)><speed(2)>An encounter that moves the world... That's kind of amazing.",
+   "notes": "",
+   "source_sha256": "088978b59e5daf47fc58fb08d2789d020db6c3a455d8fa9590df98f10e8603d6"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(25010,1)><speed(2)>Moving the world doesn't have to mean it's a good thing, does it?",
+   "notes": "",
+   "source_sha256": "b611ca4986fe1ea52cd98566f2c7c3ed35c6e642447a55d10a209942e68aa49f"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1060,1)><speed(2)>You have no sense of romance...",
+   "notes": "",
+   "source_sha256": "db81d75e5ceb13b06b4bef0be2c14c4413169cf26c23532934a3b878267ebcf8"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(5010,1)><speed(2)><color(4)>Barrel<ce()>, are you all right?",
+   "notes": "",
+   "source_sha256": "794bde0adcb5a232ee0eeab5d381ce1937c347c9cb0e5af2e4a8a6c563dda64a"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>I've managed to switch gears. I can't stay down in the dumps forever.",
+   "notes": "",
+   "source_sha256": "7cd06d0ca0e229a2d204141e79e6568b9108e1a6d42f2cc3d9be8eefcace9447"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,2)><speed(2)>Looking good. I'm glad you're thinking positive.",
+   "notes": "",
+   "source_sha256": "dfe12ee4b9033b69cccd1767288a552e75b0292e6f3ee4a488d32cd4db33dd6e"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>Everyone's calm even in a situation like this. When I think of that, being the only one panicking is uncool.",
+   "notes": "",
+   "source_sha256": "8b006545736894f4e5b6d147bb76101ad64e0b91a115b698ea83b2fa676f4dbe"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,2)><speed(2)>That's a boy for you. You adapt fast.",
+   "notes": "",
+   "source_sha256": "4e042de5bb7949455ab6f3c73352eb0ae48e930bc06064f68669e248bc3920a1"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>F-flatter me all you want, I still haven't decided to fight, you know!",
+   "notes": "",
+   "source_sha256": "f210040272e272cf39d8c747807cd485379c7d3efb234fc768206336a4283fcd"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(10010,1)><speed(2)><color(4)>Light<ce()>, you've been in a staring contest with that monitor for a while. What's up?",
+   "notes": "",
+   "source_sha256": "972b475a5e53c8e6d014012fef333ff2561ce71dfca5ea2536d595274efc4596"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(10030,1)><speed(2)>I'm checking whether the enemies we registered last battle show up on radar.",
+   "notes": "",
+   "source_sha256": "47704552e150eaa9b24e3c205fe202da5e28f3bfd87c35fbdf8fc1f7c7fb45cc"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(10030,1)><speed(2)>Jamming works on the enemies here too, so I want to get the first move in.",
+   "notes": "",
+   "source_sha256": "5520f0221cceabc745b4542509f04ecb39928a907f52243ed613010030acb3ee"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(10020,1)><speed(2)>That's <color(4)>Light<ce()> for you... so diligent.",
+   "notes": "",
+   "source_sha256": "52d488b96720078cfb9a75c259bc133fdcdab7ba25e82fc93302e0f9b162494e"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(25010,1)><speed(2)>Jamming? Shoot 'em down before it comes to that and you're done.",
+   "notes": "Capital 'Jamming' at sentence start used to avoid lowercase j.",
+   "source_sha256": "84ef4cd9ca69c1186d508ca40d365f7a2e5df678d67a95dfd9045ddafd29e944"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(10030,1)><speed(2)>Lieutenant, battle is all about information. Pin down the enemy's moves and win. Zero losses is the best win, right?",
+   "notes": "",
+   "source_sha256": "648a52e4e4662501afdcfb04f7ca548541418354ff780a3eb8cb7bdda4b263d7"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(25010,1)><speed(2)>I don't really get the hard stuff, but hey, I'm counting on you.",
+   "notes": "",
+   "source_sha256": "51c0fc25da4d03412641afc149f7c9ab3b7283f8744b12bff12bb4c87f0e76ba"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Garrod<ce()>... you look younger than me, so why are you fighting in a war?",
+   "notes": "",
+   "source_sha256": "5b57080e334892e2ec29f05564d349c53e995d53e2c802600e92916758602ed8"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(17010,1)><speed(2)>To protect <color(4)>Tiffa<ce()>.",
+   "notes": "",
+   "source_sha256": "ad08a227af62c6f03e6328377a1cbe630c1809544757a3f9b3bf64f66911424b"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(17010,1)><speed(2)>Besides... for us, living itself is a battle.",
+   "notes": "",
+   "source_sha256": "8e95e737bff7c95849431537b49cc853373923c66c332e84fc5352c0d3eb8ea6"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(17040,1)><speed(2)>Age has nothing to do with fighting. People fight because they have a reason.",
+   "notes": "",
+   "source_sha256": "f7ee9b83d1f8ddca1f4772750b7d747857cbb04d6e73b9f513746ddd7a0a0acc"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(1040,1)><speed(2)>A reason, huh... Not that I have one.",
+   "notes": "",
+   "source_sha256": "c89c2238ec57e12934d80111c0298f6c87f9d3489c7bcbc50136f449d3e7c68d"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(17070,1)><speed(2)>...No.",
+   "notes": "",
+   "source_sha256": "bff5ede26b2f3c579ab5f9e161d4c7f35919ec801e11cab38a9f0e37e95c5564"
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "text_id": 106,
+   "en": "<operator(1040,1)><speed(2)>Huh? Me?",
+   "notes": "",
+   "source_sha256": "6b970ae7613c61c28e3055c04f830f707e03cde0950a6b945e631dd856b836c2"
+  },
+  {
+   "table": 1,
+   "slot": 106,
+   "text_id": 107,
+   "en": "<operator(17070,1)>Yes. There is something waiting further along the path you walk...",
+   "notes": "Source row has no <speed(2)> tag; preserved.",
+   "source_sha256": "552c382ed070d3563ccd3379bff1e46cdb3c6fb8e36ed1079bce17d194d3fc69"
+  },
+  {
+   "table": 1,
+   "slot": 107,
+   "text_id": 108,
+   "en": "<operator(1040,1)><speed(2)>Huh...? You mean something will happen if I fight?",
+   "notes": "",
+   "source_sha256": "bd2e946b98daf520d871ee4f3820749094129ca354c8b7e80769fa2b2d7aa7e8"
+  },
+  {
+   "table": 1,
+   "slot": 108,
+   "text_id": 109,
+   "en": "<operator(17070,1)>That... is up to you.",
+   "notes": "Source row has no <speed(2)> tag; preserved.",
+   "source_sha256": "3b2d7621aa272c5aee5503077c05322aa37141ab34b6d385fd1a3d9a7b497bf4"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17040,1)><speed(2)>You two, are you fine with what we discussed earlier?",
+   "notes": "",
+   "source_sha256": "153e830e24538beefc9c48595d544eaddfa515753dcffc4af57ebfa7c1cae9bf"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(17030,1)><speed(2)>You mean being this ship's exclusive mobile suit riders?",
+   "notes": "",
+   "source_sha256": "ddcddbb64a25b0a9ad838ea86379983775fda87eff0c57bfb4bd64f60af7c593"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17020,2)><speed(2)>As long as I get paid, that's fine by me.",
+   "notes": "",
+   "source_sha256": "6ec7bf3e1aff2f62c862e317167d4059d0f65a5cede0d2d09033f0d96f23c4a0"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(17030,2)><speed(2)>I was getting tired of drifting around anyway.",
+   "notes": "",
+   "source_sha256": "38b2487a40cda3b61e85aabf741521b3f367462d77466354e43d13854e972ed3"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(10010,1)><speed(2)>What... you guys are mercenaries?",
+   "notes": "",
+   "source_sha256": "7d8e0a6c838debc411cd9b838a170d1a9781743c3b0a00e43ec494258dea76c3"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(17030,2)><speed(2)>We do more than what we're paid for, though.",
+   "notes": "",
+   "source_sha256": "cff85677c668ffc7045199307e35c7216e48e840b735d635b0576df133af486d"
+  },
+  {
+   "table": 1,
+   "slot": 145,
+   "text_id": 146,
+   "en": "<operator(17020,2)><speed(2)>With us around, you guys won't get a turn, you know?",
+   "notes": "",
+   "source_sha256": "70e34810d074a31c8a111e8ed7f3a9d074ccdd01390a485a0fa8e09437419dac"
+  },
+  {
+   "table": 1,
+   "slot": 146,
+   "text_id": 147,
+   "en": "<operator(10010,2)><speed(2)>That's OUR line!",
+   "notes": "",
+   "source_sha256": "2f4d7093de51f5ecfc56451c505b7553280921a3681c792850dc940f17c6fd9f"
+  },
+  {
+   "table": 1,
+   "slot": 147,
+   "text_id": 148,
+   "en": "<operator(17020,1)><speed(2)><color(4)>Garrod<ce()>, you're really fine with working for free?",
+   "notes": "",
+   "source_sha256": "8bc4e43fdad7385b4dac46d5b4e7ad599977985a3036965762b3d91555d5c561"
+  },
+  {
+   "table": 1,
+   "slot": 148,
+   "text_id": 149,
+   "en": "<operator(17010,1)><speed(2)>I fight to protect <color(4)>Tiffa<ce()>. I don't need any money.",
+   "notes": "",
+   "source_sha256": "c39054a13e05b5b6c2b5e3dfdd57a00132d6d0986529223546e915a7c6ad9ab0"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 23,
+   "issue": "'New Federation' follows glossary.json / encyclopedia_022 (provisional there); character_names_021 lists 'New UNE' as the Gundam X wiki form."
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "issue": "Added 'sir' to carry Barrel's polite register toward Amuro; remove if unwanted."
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "issue": "Tiffa's '...No.' contradicts Barrel's 'I have no reason'; next rows confirm she means him."
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "issue": "Jamil addresses Witz and Roybea ('you two') - inferred from who replies."
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "issue": "'mobile suit riders' follows the Gundam X term used in character_names_021 roles."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 43,
+  "rows_in_scene": 43,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 20,
+    "before": "<operator(1040,1)><speed(2)>I've managed to switch gears. I can't stay down in the dumps forever, sir.",
+    "after": "<operator(1040,1)><speed(2)>I've managed to switch gears. I can't stay down in the dumps forever.",
+    "reason": "'sir' is a military form of address the source does not contain; Barrel is an unwilling civilian who in this same chat insists he has not agreed to fight. Politeness is register only; nothing in the source to carry as an address."
+   }
+  ],
+  "checked_decisions": [
+   "0/23 'New Federation': glossary.json locks ACE3's 'New Federation' and explicitly warns against substituting the franchise name. Accepted.",
+   "1/20 'sir' removed, see meaning_fixes.",
+   "1/104 Tiffa's '...No.' contradicting Barrel's 'I have no reason': rows 105-108 confirm. Accepted.",
+   "1/139 'You two' = Witz and Roybea: both reply, and Witz later contrasts them with Garrod. Accepted.",
+   "1/140 'mobile suit riders': matches role wording in character_names_021. Accepted.",
+   "Genders used (Tiffa her/she, 'boy' for Barrel from source 'otoko no ko') match glossary."
+  ],
+  "remaining_uncertainties": [
+   "1/20: removal of 'sir' is a register call; Barrel is polite (desu/masu) to Amuro and the English now carries that only through neutral wording."
+  ]
+ }
+}

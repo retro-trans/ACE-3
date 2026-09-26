@@ -1,0 +1,33 @@
+{
+  "reviewer":"independent_translate_dialogue_81_agent",
+  "slice_start":4282,
+  "slice_count":50,
+  "rows_examined":[{"start":4267,"end":4346}],
+  "rows_examined_count":80,
+  "rows_in_slice":50,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[],
+  "checked_decisions":[
+    {"rows":[4283,4302],"finding":"'L System' (no hyphen) used per orchestrator ruling and encyclopedia_021_a.json's wiki-form note; consistent with batch_04202."},
+    {"rows":[4319],"finding":"'New Federation' for shinrenpou (新連邦) matches terms_028.json ruling and book(38) usage."},
+    {"rows":[4315],"finding":"'Federation side' (renpou-gawa, 連邦側) kept distinct from 'New Federation': this line is Lucille/Rutil's flashback narration about the 7th Space War government 15 years before the New Federation's coup, matching encyclopedia_022.json's GX-9900 entry ('the Earth side's decisive weapon ... 7th Space War'). Confirmed acceptable per orchestrator ruling that 'Federation side' for the pre-coup government is fine."},
+    {"rows":[4300],"finding":"'Olba' matches character_names_021.json's locked spelling for Olba Frost."},
+    {"rows":[4309],"finding":"Source typo 嬉かった (missing the し of 嬉しかった, 'ureshikatta') correctly read as the intended 'was happy'; matches the scene's farewell tone and is not a meaning error."},
+    {"rows":[4325,4326,4327],"finding":"Group-vow scene: Garrod/Tiffa, Renton/Eureka, Faye/Barrel pairings match character_names_021.json and glossary.json; names correctly left out of the lines themselves since the source identifies only the protected party via color tags, matching the 'do not supply what the source omits' rule."},
+    {"rows":[4318],"finding":"Three source lines compressed to two to fit the 110-character visible limit (disclosed in the batch's own note); newline count intentionally differs from source (2 vs 1) but all three elements (lost power, fighting to protect Newtypes, preventing recurrence) are retained. Accepted as a disclosed, meaning-preserving compression, not an error."},
+    {"rows":[4293],"finding":"'that boy' (ano shounen) correctly left unidentified; no name supplied for the unconfirmed referent (likely Garrod given the Tiffa pairing established later, but not textually confirmed here)."}
+  ],
+  "uncertainties":[
+    {"rows":[4302],"issue":"Speaker of 'I won't hand over the L System' is not settled by adjacent rows (could be Jamil echoing 4212, or a Frost brother refusing to give it up); correctly left subjectless per BASE_RULES rather than guessing."},
+    {"rows":[4293],"issue":"'that boy' addressed alongside Tiffa is not identified in this row range; no name supplied for an unconfirmed referent."},
+    {"rows":[4315],"issue":"'Federation side' vs 'New Federation' distinction confirmed correct by orchestrator ruling; not left open."},
+    {"rows":[4323,4325,4326,4327],"issue":"Group vow scene speakers are inferable from established pairings but intentionally not named in the lines, matching source's own choice to identify only the protected party."}
+  ],
+  "validation":{
+    "controls":"All <...> commands re-checked against the Japanese source in exact order for all 50 rows, including rows 4311-4331 that have no <ab()>/<ed()> at all in source.",
+    "format":"Newline counts verified against the source for every row except the disclosed dialogue_04318 compression (throwaway script, not retained). ASCII-only confirmed except locked <color()> tag names; no bare %; no stray lowercase j/q found in this slice.",
+    "fit":"All visible strings (tags stripped) re-measured at <= 110 characters per line; no row needed shortening.",
+    "runtime":"Runtime scene selection, font coverage, and visual fit are not established by this meaning review.",
+    "scope":"Confirmed rows 4332+ (resource 6131) belong to an unrelated scene (a different game's Daba Myroad/rebel-fleet encounter) and are correctly excluded from this batch."
+  }
+}

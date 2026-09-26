@@ -1,0 +1,47 @@
+{
+  "reviewer":"independent_meaning_review_agent_01586_01666",
+  "slice_start":1666,
+  "slice_count":80,
+  "rows_examined":[{"start":1651,"end":1760}],
+  "rows_examined_count":110,
+  "rows_in_slice":80,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[
+    {"id":"dialogue_01699","before":"<sp(20)>Begging won't do.<ab(100)>","after":"<sp(20)>Begging for things won't do.<ab(100)>","reason":"Source reuses the motto's verb nedaru (the motto itself is quoted verbatim in 1711). 1711 uses the official dub wording 'Don't beg for things', so the echo now uses the same 'beg for things' phrase. Meaning unchanged."},
+    {"id":"dialogue_01700","before":"<sp(20)>Right now, I'm going out to win it myself!<ab(800)><ed()>","after":"<sp(20)>Right now, I'm going out to do it myself!<ab(800)><ed()>","reason":"Source reuses the motto's second verb kachitoru (kachitori ni iku). The official dub wording adopted in 1711 renders that verb as 'Do it yourself'; 'win it myself' broke the echo, so the row now uses the dub's verb per the official-wording rule."},
+    {"id":"dialogue_01705","before":"<op()><sp(20)>My younger brother was in your care the other day.<ab(300)><ed()>","after":"<op()><sp(20)>Thank you for looking after my younger brother the other day.<ab(300)><ed()>","reason":"Set phrase 'otouto ga sewa ni natta' is a (here sarcastic) thank-you for how the addressee treated the brother. 'Was in your care' reads in English as custody/guardianship, which the source does not say."}
+  ],
+  "checked_decisions":[
+    {"rows":[1698,1699,1700,1711],"finding":"Motto ruling. 1711 is a verbatim quotation of the series motto (nedaru na, kachitore, sasureba ataeraren) and keeps the official English dub wording. 1698-1700 are NOT a quotation: they are the boy's own paraphrase, adding 'waiting won't do' (absent from the motto) and recasting the motto's two verbs nedaru / kachitoru in first person. Because the same two verbs are deliberately echoed and 1711 then recites the motto in reaction, the echo was made audible in English with the dub's key phrases ('beg for things', 'do it myself') while keeping the rows' own sentence structure; 1698 has no motto counterpart and is unchanged."},
+    {"rows":[1667,1668],"finding":"Ruri continuation pair; 'Harry' nickname follows the earlier researched decision; Scub Coral is the official term."},
+    {"rows":[1669,1670,1671,1672,1673,1674],"finding":"Talho/Holland bickering: addressees and tone correct; 1672 'otosu' covers losing the ship, 'doesn't get shot down' is acceptable."},
+    {"rows":[1675,1676,1677,1678,1679,1680,1681],"finding":"Izumo bridge exchange: Jurgens orders reinforcements, Dominic objects as Intelligence, Jurgens asserts Air Force command priority, Dominic mutters 'zokubutsu'. Names match glossary; 'Intelligence' for jouhou-bu accepted."},
+    {"rows":[1682,1683,1684,1685,1686,1687,1688,1689],"finding":"Shagia offers to take over, Jurgens refuses then grudgingly thanks him. 1687 fragment kept as a fragment. 1689 read as an order to the ship, which the imperative 'junbi da' supports."},
+    {"rows":[1690,1691],"finding":"Younger brother questions, elder explains the favor; 'them' keeps the debtor open."},
+    {"rows":[1692,1693,1694,1695,1696,1697,1702,1709,1710],"finding":"Approach of the boy on the ref board: no name and no pronoun for him beyond 'son'/'kid', both stated in source."},
+    {"rows":[1707,1708,1720,1721],"finding":"Tutorial warnings about the ranged-combat enemy machine preserved in full, including close-the-distance advice and evasion priority."},
+    {"rows":[1713,1715,1716,1717,1718,1719],"finding":"Enemy ace taunts and the GX pilot's retort: machine-versus-pilot contrast preserved; no names added."},
+    {"rows":[1724,1725,1726,1727,1728,1729,1730,1731,1732,1733,1734,1735,1736,1737,1738,1739,1740,1741,1742,1743,1744,1745],"finding":"<on()>/<off()> event lines: commands intact, interjections kept neutral, 1741-1742 '14 years' preserved, 1745 identical to 1701."}
+  ],
+  "uncertainties":[
+    {"rows":[1711],"issue":"The English dub itself has more than one wording of the motto (a short 'Don't beg for it, earn it!' is also attested for Holland). The three-clause source matches the long dub form, so that form was kept; note the dub's last clause ('or else you won't get anything') inverts the Japanese 'and it shall be given'. Official wording wins per project rule."},
+    {"rows":[1698,1699,1700],"issue":"The official dub wording of this specific episode-2 line could not be retrieved, so these rows are aligned to the dub motto's key phrases rather than to an official rendering of the line itself. 1700 now says 'do it myself' where the Japanese says 'go and win it'; this follows the dub's own equation kachitore = 'do it yourself'. Revert 1700 to 'win it myself' if the orchestrator prefers literal over echo."},
+    {"rows":[1705],"issue":"Fix is an idiom call: the literal draft was not a mistranslation word-for-word, but its English sense (custody) differs from the source's sarcastic thanks. 'The other day' implies an earlier encounter with the younger brother; rows 261+ probably belong to a later/alternate encounter than rows 131-137, as the translator noted."},
+    {"rows":[1691],"issue":"Translator doubt ruled: kept. Number is unmarked in Japanese; 'one of Dewey's subordinates' matches the single intelligence officer shown aboard (1678-1679) and the glossary role text for Dominic. Neutral alternative if wanted: 'Dewey's people should be on that ship.'"},
+    {"rows":[1687],"issue":"Translator doubt ruled: kept. Verb is cut off in source; 'From a Vulture upstart...' keeps the fragment and the contempt of '-agari' without choosing the missing verb. Could equally be completed as 'told off by' or 'helped by'."},
+    {"rows":[1681],"issue":"Translator doubt ruled: kept. 'Philistine' for zokubutsu is acceptable; speaker inferred as the rebuked intelligence officer, not written into the English."},
+    {"rows":[1689],"issue":"Translator doubt ruled: kept as an order to the ship."},
+    {"rows":[1710],"issue":"Translator doubt ruled: passive kept; avoids a pronoun the source omits."},
+    {"rows":[1723],"issue":"Source is a plain-form declaration ('will destroy all targets') with no subject; the draft's imperative changes a vow into an order. Left because the speaker is untagged and the project rule prefers an imperative over an invented 'I/we', but if the speaker is settled as the player character, 'I'll destroy every target!' is closer."},
+    {"rows":[1686],"issue":"'Intelligence's feuds' assumes the elder Frost is tied to the intelligence side in this game's setting; the source says only 'jouhou-bu no isakai', which the English mirrors."},
+    {"rows":[1724,1725,1728,1732,1733,1734,1735,1736,1737],"issue":"Event-scene interjections have no settled speakers in table order; 1728 'Show me' supplies 'me' for 'misete morau zo' (benefactive, speaker-oriented), accepted."},
+    {"rows":[1701,1745],"issue":"Translator doubt ruled: stretched English 'I can fly' kept."},
+    {"rows":[1742],"issue":"Translator doubt ruled: 'over after 14 years' kept."}
+  ],
+  "validation":{
+    "controls":"Throwaway console check after review: ordered <...> command list of each of the 80 targets equals the source row's list, including <on()>/<off()> rows and rows without <ed()>.",
+    "format":"No newline in any target; ASCII only; no bare percent; no lowercase j/q in visible text.",
+    "fit":"Longest visible text 95 characters (limit 110). 80 ids present, dialogue_01666-dialogue_01745.",
+    "runtime":"Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

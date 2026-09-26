@@ -1,0 +1,38 @@
+[
+  {
+    "term_romaji": "Dianna Soreil (\u30c7\u30a3\u30a2\u30ca\u69d8)",
+    "en": "Dianna Soreil / \"Lady Dianna\"",
+    "source": "https://gundam.fandom.com ; https://myanimelist.net/character/2224/Dianna_Soreil",
+    "why": "Turn A Gundam's Moonrace queen; not in project glossary. -sama honorific rendered 'Lady X' per the 'Lord Kids' convention already set in terms_028.json."
+  },
+  {
+    "term_romaji": "White Doll (\u30db\u30ef\u30a4\u30c8\u30c9\u30fc\u30eb)",
+    "en": "White Doll",
+    "source": "https://gundam.fandom.com (System-\u2200-99 \u2200 Gundam)",
+    "why": "Canonical nickname for the Turn A Gundam; not in project glossary."
+  },
+  {
+    "term_romaji": "Black History (\u9ed2\u6b74\u53f2)",
+    "en": "Black History",
+    "source": "https://gundam.fandom.com ; en.wikipedia.org/wiki/Turn_A_Gundam",
+    "why": "Canonical term for the erased past war in the Turn A setting; not in project glossary."
+  },
+  {
+    "term_romaji": "Mountain Cycle (\u30de\u30a6\u30f3\u30c6\u30f3\u30b5\u30a4\u30af\u30eb)",
+    "en": "Mountain Cycle",
+    "source": "https://gundam.fandom.com (System-\u2200-99 \u2200 Gundam) ; dic.pixiv.net",
+    "why": "Terrain where Black History-era mobile suits are buried/excavated in Turn A Gundam; not in project glossary."
+  },
+  {
+    "term_romaji": "kikai ningyou (\u6a5f\u68b0\u4eba\u5f62)",
+    "en": "machine-men (UNCONFIRMED)",
+    "source": "none found; WebSearch turned up no official English rendering",
+    "why": "Literal 'human-shaped machine/doll', how Turn A's primitive society refers to mobile suits. Rendered literally to keep the naive/superstitious flavor within the byte budget. Needs an orchestrator decision."
+  },
+  {
+    "term_romaji": "Getter Wing (\u30b2\u30c3\u30bf\u30fc\u30a6\u30a3\u30fc\u30f3\u30b0, dialogue_15023)",
+    "en": "Getter Wing (UNCONFIRMED)",
+    "source": "none found; only 'Getter Beam' is documented for Black Getter",
+    "why": "Shout accompanying Black Getter's launch; no matching canonical attack name located. Rendered literally; flagged for research/decision."
+  }
+]

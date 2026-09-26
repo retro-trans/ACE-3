@@ -1,0 +1,296 @@
+{
+ "resource_id": 4004413,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 30,
+ "rows_examined": 30,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(25010,1)><speed(2)>A land erased from history, huh... Why were the brass hiding the information?",
+   "notes": "",
+   "source_sha256": "a9331c96ee527e00dd9c6379f26142d5a1a549b24b651f4253bc8ff5a71e9a91"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(10030,1)><speed(2)>Keeping the accident secret for over 10 years and never disposing of it in all that time... I don't get that either.",
+   "notes": "",
+   "source_sha256": "6dd9f24ac0fa8cb05721cf3e5f0892ea046e5144ab6578e4ffd73697e01a6aa5"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>...Perhaps it wasn't disposed of because it was dangerous.",
+   "notes": "",
+   "source_sha256": "744fbf5a70541a20817ac6148745abbdbc0d556be588a82b4e7f2ba0dfb86d66"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(25010,1)><speed(2)>Dangerous?",
+   "notes": "",
+   "source_sha256": "33f21820dedce9686c4c9224975f232e0f1c71f3fb6079512e4f026b7b0ccdcf"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)>For example, it might actually still be running even now.",
+   "notes": "",
+   "source_sha256": "6c581f3fc0c4c2c59b6deb14b28ea543b6c0565efd6e1e15cace2af045522d39"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(10010,1)><speed(2)>Seriously?!",
+   "notes": "",
+   "source_sha256": "56cee117f8c6a154368c27308ef9e1ae5f62c9f6d3376092bb8087c5aee19dd6"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)>It's only a possibility.",
+   "notes": "",
+   "source_sha256": "dcb152bb1d16ae847864d5d23f29ce6ad9478ed0b3b0f8ff8694e78faedf51fc"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1040,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "fb30e184b45d61c67fee14e6e32ca822a6d23e1e0039744963416ea1e98c2cd1"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>, what's wrong?",
+   "notes": "",
+   "source_sha256": "e6f73d7372631769409becc960225d99ed04ad807e503b7f41452fe62e2dc9f9"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1040,1)><speed(2)>I don't know... I can't seem to settle down.",
+   "notes": "",
+   "source_sha256": "2c6b1d1cfde37581a310caa6afdee82bdacb10d9dbf7ed7b341a383c4d4cde91"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1060,1)><speed(2)>I know you still haven't accepted all this.",
+   "notes": "",
+   "source_sha256": "74b20a721efc455abcdbdc3f723513529f6af20617537aa0cbddc8fdbaf1cc14"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1060,1)><speed(2)>But... with the situation being what it is, I need you to cooperate for now.",
+   "notes": "",
+   "source_sha256": "03eb9da5bffbe54687e453fdd9cf8da13ceafa0e60274aa394e6a4ba3507aa16"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(1040,1)><speed(2)>No, it's not that... I've got a strange, uneasy feeling.",
+   "notes": "",
+   "source_sha256": "2883942b54562a256e2692cc7b64aadae44bf3fe14ce9e450037e5f69c8becb8"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>...?",
+   "notes": "",
+   "source_sha256": "840bb1a9d088debbb3a42fbe23342370b7bce0504db180fd73b3347f31c8137e"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>Ugh...",
+   "notes": "",
+   "source_sha256": "b39ca0d59a6f54761beee9fdf7e1abe6762c775d59ea9e9d8d186ea3f8936ce7"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>?!",
+   "notes": "",
+   "source_sha256": "aca2ab35309674bb742875cbe638f273904efd0e64db6da674540fa1828dd472"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>I'm fine... I only got a little dizzy. Sorry.",
+   "notes": "",
+   "source_sha256": "b963286883c1350c11e9291506a313c5121609fa78cb07ee5a0e65c3c731513e"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>...Don't worry about it. You're my partner, after all.",
+   "notes": "",
+   "source_sha256": "33198d4351e4879a312c64b8cd36e8b025f26567b4910ee94f7f3622ecebdf06"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>Partner... huh.",
+   "notes": "",
+   "source_sha256": "7b23213902e9423180ff3162e944847838930f704ce16333775e5059112c540e"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(12031,1)><speed(2)>This may turn out to be a dangerous operation.",
+   "notes": "Source has a typo (dropped kana) but meaning is clear.",
+   "source_sha256": "3482feefc79fc1810744a050e9ccc2f1e2d9767117bb1996014a4b2938d87223"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>I sense an unpleasant pressure from this place. It won't go easily.",
+   "notes": "",
+   "source_sha256": "36712ba9c47abd31472fba94d9a746e7370499560667dcee9b7e57d43b87ce8d"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(12031,1)><speed(2)>But...",
+   "notes": "",
+   "source_sha256": "1a49f942bac15f70ff5f386582f5ac00bc794a48978adc05cc6be7c211ec0fd8"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(5010,1)><speed(2)>It's all right, I won't tell the others. It would only make them needlessly anxious.",
+   "notes": "",
+   "source_sha256": "d086dfaa861911b440ceabc8910f5488edf66cfbff34e9b67c5568943639d2c0"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(25010,1)><speed(2)>Still, getting shoved left and right by a single scrap of paper... Give me a break.",
+   "notes": "",
+   "source_sha256": "0414ab04ef0b488132cc8fdde8e4aab394dba57f8715128b11fe1b23b74a2228"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(12031,1)><speed(2)>7 violations of orders, 5 disciplinary confinements, 6 removals as flight leader... That's some record, Lt. <color(4)>Dyson<ce()>.",
+   "notes": "Rank outside the color span, as in source. 'That's some record' avoids the q glyph.",
+   "source_sha256": "6c275ef8c2ec2b4c7e6baa7501dd672c401b195a6c2429fcce44932fc62bc18e"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(25010,1)><speed(2)>That's our Captain for you. You sure do hear things fast...",
+   "notes": "",
+   "source_sha256": "6ef0195e9e9b63be44c6dc2a441a245afbdb37e2a6fb423c7fe197ea20dfa54b"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(1060,1)><speed(2)>Transfer to <color(4)>Londo Bell<ce()> following the cancellation of Project Super Nova...",
+   "notes": "",
+   "source_sha256": "2a4c29815e241b2966461c806d7abe3cf3fc55117b6d4bcb8c424910f19eadd3"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(1060,1)><speed(2)>Commander <color(4)>Misumaru<ce()> valued your skill and went out of his way for you. Otherwise...",
+   "notes": "",
+   "source_sha256": "633c1f532f09d5561f68be0d368fd2f48058cae8bae44a28c8d29bfdb8447477"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(25010,1)><speed(2)>I'd be doing repair rounds on eco-satellites and clearing debris, ma'am?",
+   "notes": "",
+   "source_sha256": "05751530b142d97ec71694ed43ec4f3a67e2b19adbf36ee24c6c123c792a6298"
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "text_id": 106,
+   "en": "<operator(25010,1)><speed(2)>I'm grateful for the kindness, so I won't complain for now. ...Someday, I'll settle things once and for all.",
+   "notes": "",
+   "source_sha256": "4f2dd353df2bbe34f9e0b26495ddef6e9652979b41783854916dd0f9a2c7be52"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 20,
+   "issue": "'it' (the thing not disposed of) is unnamed in the source; kept as 'it'. Probably the facility/site of the accident - check against the mission briefing."
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "issue": "Ruri's 'But...' - she seems to worry about telling the others; Amuro's reply settles it."
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "issue": "'Captain' = Ruri (captain of Nadesico B) addressed mock-respectfully by Isamu; inferred from previous row's speaker."
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "issue": "'eco-satellites' is a literal rendering of 'eko eisei'; no glossary entry and not a term I could tie to Macross Plus. Isamu uses mock-formal military speech toward Faye -> 'ma'am'."
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "issue": "What Isamu will 'settle' is unstated (cancelled project / rivalry with Guld?); kept vague."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 30,
+  "rows_in_scene": 30,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/20-21 'it' (the undisposed thing) left unnamed as in source. Accepted; cannot verify referent without the briefing.",
+   "1/61 Ruri's 'But...': Amuro's reply (won't tell the others) settles it. Accepted.",
+   "1/101 'Captain' = Ruri (kanchou-dono, reply to Ruri's row). Accepted; note that Amuro's taii is also 'Captain' in this corpus - unavoidable collision.",
+   "1/104 'ma'am': mock-formal '-de arimasu ka' reply to speaker 1060 (Faye, female per glossary). Ruri is also female, so 'ma'am' is safe whichever woman is the addressee. 'eco-satellites' literal, no glossary entry. Accepted.",
+   "1/103 'his' for Misumaru: glossary meeting_terms_015 gives gender male. 'Project Super Nova' and 'Londo Bell' match glossary.",
+   "1/105 object of 'settle things' unstated in source; kept vague. Accepted."
+  ],
+  "remaining_uncertainties": [
+   "0/20-21: referent of 'it' (what was not disposed of) not verified against the mission briefing.",
+   "1/102-103: the source assigns these polite, well-informed lines about Isamu's transfer to speaker 1060 (Faye), though they read like Ruri continuing from 1/100. Translated as the data says; addressee of Isamu's 'ma'am' in 1/104 is therefore Faye by data, possibly Ruri by intent - harmless either way.",
+   "1/104 'eco-satellites': literal, unverified term."
+  ]
+ }
+}

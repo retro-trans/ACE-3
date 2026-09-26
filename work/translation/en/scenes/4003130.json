@@ -1,0 +1,151 @@
+{
+ "resource_id": 4003130,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 14,
+ "rows_examined": 14,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "10B Recover Vital Supplies",
+   "notes": "Released mission title reused (missions_019.json text_id 130).",
+   "source_sha256": "ec6103fbc50c7d5095a46f0c55bc0746be7526539d3819b0c66f453366cb0891"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)>We are currently attempting to pass through the <book(41)>Sea of Lorelei<endbook()>.",
+   "notes": "Sea of Lorelei per encyclopedia_022.",
+   "source_sha256": "dfd7bfe7ca1710e6c227069979073f78b8a60b166455e197ac5d4c55c1fd6e2b"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>But on our course<thumbnail(219)>, <book(38)>New Federation<endbook()> forces have been spotted. It seems they have already noticed us too.",
+   "notes": "",
+   "source_sha256": "ae8f4ce08ca41106a72b0dd5d76672ac5ae18568ee059adbf6c4b77c5e473c03"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>There is no time to take the long way around, so we will engage here. Prepare to launch.",
+   "notes": "",
+   "source_sha256": "1a8729c48b1aec8e902fb8a0be507eaa0193bef405ac1fe314c3b8b2542fb1c8"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<topic()><thumbdown()><operator(30070,1)><speed(2)>Everyone, please listen. I asked <color(4)>Jamil<ce()> for one favor.",
+   "notes": "",
+   "source_sha256": "c8a24f67f26b3b0bd7734d51c45f326922e4869c82a6d701e243ddbc41dbfeb7"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30070,1)><speed(2)>Something that means a great deal to us is in this sea<thumbnail(220)>.",
+   "notes": "",
+   "source_sha256": "e5ab6cce5cbdd7db216cbbfaea4e952393a09a29d8001859ff3e059b3d329879"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30070,1)><speed(2)>We have to reach it.",
+   "notes": "",
+   "source_sha256": "05bd2503deb7e49be48123dd648a6e7247ab6cdae1ad2302d6e4de4cfe1d935f"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<topic()><thumbdown()><operator(30060,1)><speed(2)><color(4)>Tiffa<ce()> is a Newtype. She is sensing something the rest of us cannot.",
+   "notes": "",
+   "source_sha256": "b4e102d397a092d47313c9b5639be1925c4d23772b45f334f34f00dbf5484c91"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30060,1)><speed(2)>Judging by <book(38)>New Federation<endbook()>'s movements, they appear to have been searching for something.",
+   "notes": "",
+   "source_sha256": "15424a82ea359e3d9dfe43a31dc6839821e8ed448ed11377618e1db32c827339"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30060,1)><speed(2)><color(4)>Tiffa<ce()> says it holds an important meaning for us.",
+   "notes": "",
+   "source_sha256": "b86dd67d04291a0bced2704b55c5b6a19cb4e09dfc4393e1c24466a2c69ee0ee"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30060,1)><speed(2)>Judging by that force composition, it must be something very important.",
+   "notes": "Orchestrator: reworded to avoid a j/q glyph.",
+   "source_sha256": "371fc1961c64e91552023e5a3d24b0d37b24ee97289fe68cf76e13c3a921bf92"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30060,1)><speed(2)>I want you to trust <color(4)>Tiffa<ce()>'s word here. We will recover what they found in these waters.",
+   "notes": "",
+   "source_sha256": "101b1fdcc8dd4ec5814ce3ef083f1bf18d1bff9e2bdfaad8cbd98683b374fc3f"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<topic()><operator(30080,1)><speed(2)><color(4)>Garrod<ce()>. It seems the <book(37)>GX<endbook()>'s refit parts... the <color(6)>Divider<ce()><thumbnail(221)>, are finished.",
+   "notes": "\"refit parts\" for kansou-you parts, matching 4003030 slot 34.",
+   "source_sha256": "7a93582a13dd109658f5eb4ab8f25fd18c75bf3d9155c35f5f574747f0b943a8"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30080,1)><speed(2)>They are parts to boost the <book(37)>GX<endbook()>'s versatility. Make good use of them.",
+   "notes": "",
+   "source_sha256": "f7aa35c10f017fe434ec24d89616980d82f5ce73f0f36ce3eec56aa10713b938"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 30,
+   "issue": "\"kansou-you paatsu\" rendered \"refit parts\" to match 4003030 slot 34 (Ixbrau); no project-wide term is locked for this word yet."
+  },
+  {
+   "slot": 30,
+   "issue": "\"Divider\" carries its own color(6) span in the source, separate from the book(37) GX span; kept as two distinct spans exactly as ordered."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 14,
+  "rows_in_scene": 14,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 text_id 130 \"10B Recover Vital Supplies\".",
+   "Slot 29 ruling: \"they\" (New Federation) found something / \"we\" recover it - matches source subject split (kare-ra ... mitsuketa / ware-ware ... dakkan suru); no subject inversion.",
+   "Slot 30 ruling: \"refit parts\" for kansou-you paatsu kept consistent with 4003030 slot 34 (Ixbrau); no project-wide term locked yet, descriptive rendering accepted.",
+   "Slot 30 ruling: \"Divider\" color(6) span and book(37) GX span kept as two distinct spans in source order; command-order diff against source confirms exact match.",
+   "\"GX\" abbreviation matches source's own abbreviated \"GX\" and is already used the same way elsewhere in the corpus (e.g. dialogue_01410-01412, status meaning_reviewed).",
+   "Speakers: 30060 Jamil Neate, 30070 Tiffa Adill, 30080 Sala Tyrrell (speaker_lookup.py); Sala's feminine sentence endings match her glossary gender (female). Gundam X Divider / Sea of Lorelei match unit_names_014_a and encyclopedia sourcing.",
+   "All <...> command sequences verified identical and in the same order as source; all rows ASCII, no newlines, no bare %, visible length under 128 chars."
+  ],
+  "remaining_uncertainties": [
+   "Slot 24: \"We have to reach it\" for \"sore ni fureru\" (lit. \"touch/come into contact with it\") is a slightly loose but acceptable rendering of the sense; left.",
+   "A word containing lowercase q appears in slot 28 (\"quite\"); pre-existing wording, left untouched per scope (meaning-only edits) - flagging for a possible glyph-avoidance script pass."
+  ]
+ }
+}

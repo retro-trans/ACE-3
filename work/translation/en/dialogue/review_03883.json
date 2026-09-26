@@ -1,0 +1,71 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 3883,
+  "slice_count": 55,
+  "rows_examined": [
+    {
+      "start": 3788,
+      "end": 3952
+    }
+  ],
+  "rows_examined_count": 165,
+  "rows_in_slice": 55,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_03908",
+      "before": "Wait just a minute!",
+      "after": "Wait one minute!",
+      "reason": "Font has no native-size lowercase j (project constraint); reworded imperative 待ちなさいよ without adding or dropping meaning."
+    },
+    {
+      "id": "dialogue_03923",
+      "before": "just who are you?",
+      "after": "who exactly are you?",
+      "reason": "Lowercase-j font constraint; 'exactly' preserves the same emphatic force as 何者だ ('just what/who are you')."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [3886],
+      "finding": "'こいつ' addressee shift from Eureka to an unnamed third party kept as neutral 'This one's the leader?'; no identity supplied beyond source, correct call."
+    },
+    {
+      "rows": [3892],
+      "finding": "'例のガンダム' kept generic as 'the famous Gundam' rather than naming a specific unit (e.g. Gundam X); no in-scene source or context settles which Gundam, so no identity was invented. 'Famous' is an interpretive gloss on 例の ('that certain/aforementioned') rather than a literal match, but does not misstate anything the source claims."
+    },
+    {
+      "rows": [3895],
+      "finding": "'兄さん…何を考えている…？' kept as a bare, unattributed 'Brother... what are you thinking...?'. Holland and Dewey are documented siblings in glossary.json (char.holland_novak / char.dewey), so the inference in the translator's note is reasonable, but correctly not written into the visible text since the table does not tag a speaker here."
+    },
+    {
+      "rows": [3901],
+      "finding": "左下、ベントロールに被弾！ラーダー脱落、操舵効率二割低下！ rendered 'Hit on the lower left Vent Roll!\\nRudder's gone, steering efficiency down 20 percent!'. Both ベントロール and ラーダー are unattested in the glossary or an English wiki search; 'Rudder' is a functional reading justified by the paired steering-efficiency clause, not a confirmed spelling. Kept as drafted; no better-supported alternative found."
+    },
+    {
+      "rows": [3888],
+      "finding": "オーバーマンバトル rendered 'Overman battle', borrowing the established King Gainer-side term 'Overman' (this crossover project already uses 'Overman'/'King Gainer' per terms_028.json and unit_names_014_b.json) for a compound with no direct Eureka Seven-side attestation. Reasonable given the absence of a better source; kept as drafted. Confirmed the referenced proposals file exists at work/translation/en/dialogue/batch_03883_glossary_proposals.json (not under work/glossary, which is why an initial glossary-only search missed it) and correctly logs all three unattested terms (Vent Roll, Rudder, Overman battle) for orchestrator review."
+    },
+    {
+      "rows": [3855, 3864, 3868, 3869, 3871, 3872, 3873, 3874, 3883, 3884, 3887, 3893, 3911],
+      "finding": "Pronoun/identity handling re-checked against batch_03803's review of the same list (shared scene): consistent, no identity or gender invented beyond source."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [3892],
+      "issue": "'the famous Gundam' is a readable but interpretive gloss on 例の ('that [aforementioned] one'); an equally valid rendering would be 'that Gundam I mentioned' or similar. Left as drafted since no identity is invented either way."
+    },
+    {
+      "rows": [3931],
+      "issue": "ベルクトの部隊が狙うことは十分に考えられる ('it's quite conceivable Berkt's unit would target it') rendered 'it's entirely possible Berkt's unit will move to seize it.' 'Seize' narrows 狙う (target/aim for) to a specific intent (capture) not explicit in the source; contextually plausible (Shin Dragon is a prize mecha) but an interpretive strengthening, not a literal match. Left as drafted, meaning direction unchanged."
+    }
+  ],
+  "validation": {
+    "controls": "Re-verified with a throwaway script comparing every <...> command (exact text and order) between each row's target and tools/dialogue_corpus.py slice 3883 55 --context 15 output; 0 mismatches across all 55 rows.",
+    "format": "Newline (\\n) counts re-checked row-by-row against source; unchanged.",
+    "fit": "Visible text (tags stripped) re-measured for all 55 rows; all comfortably <= 110 chars (longest is well under the limit in this slice).",
+    "ascii": "Re-scanned for non-ASCII characters (fullwidth % excepted): none found. Re-scanned for lowercase j/q: 2 hits found in this slice (dialogue_03908, dialogue_03923), both in ordinary words ('just'), none in locked names; both reworded and re-verified clean.",
+    "meaning_review": "All 55 rows examined against Japanese source with 15-row context on each side plus full cross-reference to the paired slice (batch_03803, same scene); 2 meaning/technical fixes applied (font-constraint j rewordings, no pure mistranslation found); all rows set to meaning_reviewed; no row left as draft."
+  }
+}

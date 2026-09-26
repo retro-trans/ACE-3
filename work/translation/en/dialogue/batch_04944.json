@@ -1,0 +1,561 @@
+{
+  "slice_start": 4944,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      4929,
+      5038
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_04944",
+      "target": "<op()><sp(20)>I can't ally with the Federation! Obviously!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meio Plato refusing negotiation, continuing the fight from batch_04864's end."
+    },
+    {
+      "id": "dialogue_04945",
+      "target": "<op()><sp(20)>That unit...\nit has electronic warfare capabilities!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04946",
+      "target": "<sp(20)>Be careful when you get close to it!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4945's box."
+    },
+    {
+      "id": "dialogue_04947",
+      "target": "<op()><sp(20)>Nnnngh!!\nYou baaastards!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Elongated shout rendered with repeated letters, ASCII only."
+    },
+    {
+      "id": "dialogue_04948",
+      "target": "<op()><sp(20)>Meio! If Linda saw you like this now,\nshe'd be sad!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Linda per Meio Plato's glossary profile (his sister)."
+    },
+    {
+      "id": "dialogue_04949",
+      "target": "<sp(20)>Using the Macross to threaten Earth,\nisn't that no different from Dorchenov's way?!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4948's box. 'Dorchenov' researched: Metal Armor Dragonar's Giganos antagonist who assassinated his own Marshal and pushed to massacre Earth civilians -- fits the comparison since Meio is also Giganos. See glossary proposal."
+    },
+    {
+      "id": "dialogue_04950",
+      "target": "<sp(20)>Meio!\nI'm going to stop you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4949's box."
+    },
+    {
+      "id": "dialogue_04951",
+      "target": "<op()><sp(20)>Can you, though? My wings!\nTry and break them if you can!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'My wings' -- Meio's own epithet for his Falguen Custom."
+    },
+    {
+      "id": "dialogue_04952",
+      "target": "<op()><sp(20)>You have talent, but you're green!\nThat's not nearly enough!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04953",
+      "target": "<op()><sp(20)>I won't lose...\nGreen or not, I've been fighting!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04954",
+      "target": "<op()><sp(20)>Barrel, stay calm!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04955",
+      "target": "<op()><sp(20)>Meio Plato! You're not the kind of man\nto be used as Char's pawn!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Char per char.char_aznable locked spelling."
+    },
+    {
+      "id": "dialogue_04956",
+      "target": "<op()><sp(20)>For Giganos's revival, I'll gladly become a pawn.\nOrdered to play the fool, I'll play that too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04957",
+      "target": "<op()><sp(20)>Char's self-righteousness --\nyou must have noticed it by now!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04958",
+      "target": "<op()><sp(20)>Even so...\nI cannot abandon Giganos!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04959",
+      "target": "<op()><sp(20)>You seem confident in your speed,\nbut your movements waste far too much!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker shift: an unnamed veteran pilot addresses a new, brash opponent (rows 4959-4970 read as a separate King-Gainer-era pairing per the King Gainer/Nirvash references at 4964-4970). Kept neutral."
+    },
+    {
+      "id": "dialogue_04960",
+      "target": "<op()><sp(20)>Interesting!\nI'll crush you with that wasteful movement!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04961",
+      "target": "<op()><sp(20)>Spirit alone won't win a battle.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04962",
+      "target": "<op()><sp(20)>Damn, what speed!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04963",
+      "target": "<op()><sp(20)>You have talent, but your style is unrefined.\nYou're not drawing out its full performance.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04964",
+      "target": "<op()><sp(20)>Shut up! If experience alone could win,\nold geezers would be the strongest!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04965",
+      "target": "<op()><sp(20)>That way of talking is exactly like someone I know.\nYou're the type who dies young on a battlefield.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'just like' avoided (font rule) -> 'exactly like'."
+    },
+    {
+      "id": "dialogue_04966",
+      "target": "<op()><sp(20)>I don't know where you came from,\nbut a battlefield's no playground for children!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04967",
+      "target": "<op()><sp(20)>What--!!\nDon't underestimate us and the Nirvash!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Nirvash per char.renton_thurston/char.eureka glossary entries and unit_names_014_b.json."
+    },
+    {
+      "id": "dialogue_04968",
+      "target": "<op()><sp(20)>Stronger than anyone we've faced before...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04969",
+      "target": "<op()><sp(20)>It's experience.\nThis enemy is battle-hardened...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04970",
+      "target": "<op()><sp(20)>Even a monstrous machine is piloted by a person.\nIn the end, a battle is person against person!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04971",
+      "target": "<op()><sp(20)>Then!\nWe'll simply throw all three of us at it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'just have to' avoided (font rule) -> 'simply'. 'three of us' left as-is; specific trio not named in this row."
+    },
+    {
+      "id": "dialogue_04972",
+      "target": "<op()><sp(20)>You seem good at reading your opponent,\nbut you rely on it too much.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker shift again to a third, calmer opponent (rows 4972-4984 read as a distinct pairing centered on a hawk/life-and-death exchange). Kept neutral, no identity assigned."
+    },
+    {
+      "id": "dialogue_04973",
+      "target": "<op()><sp(20)>What!?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04974",
+      "target": "<op()><sp(20)>Surface skill alone won't let you survive!\nNot without the will to walk the line between life and death!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04975",
+      "target": "<op()><sp(20)>...Then I'll show you!\nThat thing called spirit--!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04976",
+      "target": "<op()><sp(20)>Heh! No matter how much you tune it up,\na Metal Armor's still a Metal Armor!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Metal Armor per unit_names_014_a.json/character_names_021.json (Metal Armor Dragonar)."
+    },
+    {
+      "id": "dialogue_04977",
+      "target": "<op()><sp(20)>This unit is nothing like what you know.\nLearn that the hard way!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04978",
+      "target": "<op()><sp(20)>Too bad, I'm no mecha otaku!\nI don't care about the fine details!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04979",
+      "target": "<op()><sp(20)>...You,\nwhere do you intend to go?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04980",
+      "target": "<op()><sp(20)>A hawk simply flies to live.\nThat's all.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04981",
+      "target": "<op()><sp(20)>Everyone has the right to live.\nBut no one has the right to kill...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04982",
+      "target": "<op()><sp(20)>You do know that statement's a contradiction?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04983",
+      "target": "<op()><sp(20)>That's right. It's the contradiction --\nthe human nature that gives birth to battle. That's why I...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04984",
+      "target": "<sp(20)>Meio Plato, the you standing before me now... I will kill.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4983's box; word order kept close to source (kill placed last) to preserve the dramatic pause before the verb."
+    },
+    {
+      "id": "dialogue_04985",
+      "target": "<sp(20)>We're running low on time for the operation.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04986",
+      "target": "<sp(20)>Please hurry! There's no time!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04987",
+      "target": "<on()><sp(20)>Defense system confirmed ahead of the ship!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04988",
+      "target": "<on()><sp(20)>W-we're breaking through here!?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04989",
+      "target": "<on()><sp(20)>All hands, prepare for combat!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04990",
+      "target": "<on()><sp(20)>Aircraft sighted at 12 o'clock!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04991",
+      "target": "<on()><sp(20)>It's transmitting a friendly IFF signal!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04992",
+      "target": "<on()><sp(20)>Guld!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Guld Goa Bowman per character_names_021.json (Macross Plus)."
+    },
+    {
+      "id": "dialogue_04993",
+      "target": "<on()><sp(20)>Heh.\nCan't leave this to the likes of you!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04994",
+      "target": "<on()><sp(20)>Heh, so you came after all...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04995",
+      "target": "<on()><sp(20)>Last time, hesitation still lingered,\nbut my resolve is unshaken now.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04996",
+      "target": "<on()><sp(20)>This time I won't hold back!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04997",
+      "target": "<on()><sp(20)>...The match will have to wait.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04998",
+      "target": "<on()><sp(20)><color(4)>Marina<ce()>, thank you for coming.",
+      "status": "meaning_reviewed",
+      "notes": "Cutscene/meeting-style block begins (no ab()/ed() timing commands); Amuro greeting Marina Carson."
+    },
+    {
+      "id": "dialogue_04999",
+      "target": "<on()><sp(20)>It's been a while, Captain <color(4)>Amuro<ce()>.\nTuning up the <book(5)>Gun Ark<endbook()> took time,\nso I'm a little late.",
+      "status": "meaning_reviewed",
+      "notes": "'Adjusting' avoided (font rule) -> 'Tuning up'. Gun Ark per unit_names_014_a.json / Marina Carson glossary profile."
+    },
+    {
+      "id": "dialogue_05000",
+      "target": "<on()><sp(20)>Is that person a comrade too?",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unidentified (a third party present, likely a King Gainer/Eureka Seven cast member per surrounding scene); not assigned an identity."
+    },
+    {
+      "id": "dialogue_05001",
+      "target": "<on()><sp(20)>She's someone I fought alongside\nin a war in the past.",
+      "status": "meaning_reviewed",
+      "notes": "Amuro answering about Marina; 'she' grounded by 5002's self-introduction as Marina."
+    },
+    {
+      "id": "dialogue_05002",
+      "target": "<on()><sp(20)>I'm <color(4)>Marina Carson<ce()>. Nice to meet you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05003",
+      "target": "<on()><sp(20)>What a heart-fluttering name.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unidentified; kept neutral."
+    },
+    {
+      "id": "dialogue_05004",
+      "target": "<on()><sp(20)>U-uh...",
+      "status": "meaning_reviewed",
+      "notes": "Marina's flustered reaction, inferred from adjacency; not asserted beyond context."
+    },
+    {
+      "id": "dialogue_05005",
+      "target": "<on()><sp(20)>By the way, <color(4)>Marina<ce()>, the news should have\nreached you as well, hasn't it?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05006",
+      "target": "<on()><sp(20)>Yes.\nI heard it from Commander <color(4)>Misumaru<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Misumaru per meeting_terms_015.json."
+    },
+    {
+      "id": "dialogue_05007",
+      "target": "<on()><sp(20)>Of course, about the other world,\nand a unit resembling the <book(5)>Gun Ark<endbook()> as well...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05008",
+      "target": "<on()><sp(20)>The two worlds' histories differ,\nnothing between them is exactly the same.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05009",
+      "target": "<on()><sp(20)>And yet, why did only that machine\nshare elements in common...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05010",
+      "target": "<on()><sp(20)>In any case, having that machine misused\nis something I cannot forgive.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05011",
+      "target": "<on()><sp(20)>From now on, I will lend my cooperation as well.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05012",
+      "target": "<on()><sp(20)>Further news regarding the <book(33)>Macross<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05013",
+      "target": "<on()><sp(20)>The hacking of the system is advancing,\nand confusion seems to be spreading worldwide.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05014",
+      "target": "<on()><sp(20)>They're making use of <book(87)>Sharon Apple<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "'Sharon Apple' (Macross Plus virtual idol AI) not previously in glossary; added via proposal, official/fan-standard spelling."
+    },
+    {
+      "id": "dialogue_05015",
+      "target": "<on()><sp(20)>What is <book(87)>Sharon Apple<endbook()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05016",
+      "target": "<on()><sp(20)>To put it simply, she's a virtual idol\nwith a highly advanced AI, but",
+      "status": "meaning_reviewed",
+      "notes": "Sentence left open (trails into next row) as in source."
+    },
+    {
+      "id": "dialogue_05017",
+      "target": "<on()><sp(20)>The enemy is likely counting on <book(87)>Sharon Apple<endbook()>'s\nAI to make seizing the <book(33)>Macross<endbook()>'s systems\nmore efficient.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05018",
+      "target": "<on()><sp(20)>That means our remaining time is even shorter now.",
+      "status": "meaning_reviewed",
+      "notes": "'just got' avoided (font rule)."
+    },
+    {
+      "id": "dialogue_05019",
+      "target": "<on()><sp(20)>Furthermore, their statement was broadcast\nacross every military communication band.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05020",
+      "target": "<on()><sp(20)><book(29)>Martian Successors<endbook()>' rep, Vice Admiral <color(5)>Kusakabe<ce()>,\ndemands the <book(9)>Earth Federation<endbook()>'s dissolution.",
+      "status": "meaning_reviewed",
+      "notes": "Martian Successors per character_names_021.json org (locked, en_full). Kusakabe/Vice Admiral per opening_history_terms.json. Compressed ('rep') to fit visible-length budget."
+    },
+    {
+      "id": "dialogue_05021",
+      "target": "<on()><sp(20)>If the demand isn't met\nwithin 24 hours,\nthey say they won't hesitate to use the <book(33)>Macross<endbook()> Cannon.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05022",
+      "target": "<on()><sp(20)>So it's an ultimatum, then.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05023",
+      "target": "<on()><sp(20)>Yeah... Let's hurry our descent.",
+      "status": "meaning_reviewed",
+      "notes": "Last row of resource 6160 (scene ends here; row 5024 begins a different resource/scene)."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_04949"
+      ],
+      "note": "'ドルチェノフ' researched via WebSearch as 'Dorchenov' (villains.fandom.com/wiki/Dorchenov), the Metal Armor Dragonar Giganos officer who assassinated his own Marshal and pushed to massacre Earth civilians. Fits the in-context comparison (both are Giganos, both threaten Earth) but the identification is my best inference, not stated outright in this line; recorded as a glossary proposal."
+    },
+    {
+      "ids": [
+        "dialogue_04959",
+        "dialogue_04960",
+        "dialogue_04961",
+        "dialogue_04962",
+        "dialogue_04963",
+        "dialogue_04964",
+        "dialogue_04965",
+        "dialogue_04966",
+        "dialogue_04967",
+        "dialogue_04968",
+        "dialogue_04969",
+        "dialogue_04970"
+      ],
+      "note": "Distinct one-on-one exchange (veteran vs. brash pilot) referencing Nirvash/King-Gainer-era characters at 4967-4970. Speakers not name-tagged; kept neutral, no identity or gender assigned."
+    },
+    {
+      "ids": [
+        "dialogue_04971",
+        "dialogue_04972",
+        "dialogue_04973",
+        "dialogue_04974",
+        "dialogue_04975",
+        "dialogue_04976",
+        "dialogue_04977",
+        "dialogue_04978",
+        "dialogue_04979",
+        "dialogue_04980",
+        "dialogue_04981",
+        "dialogue_04982",
+        "dialogue_04983",
+        "dialogue_04984"
+      ],
+      "note": "Separate hawk/right-to-kill exchange, likely a third named boss pairing (Metal Armor reference at 4976 suggests a Dragonar-side opponent). No color-tagged names; speaker identities and genders left unassigned per brief."
+    },
+    {
+      "id": "dialogue_04999",
+      "note": "'Adjusting' replaced with 'Tuning up' solely to avoid the letter j per the font rule; meaning unchanged."
+    },
+    {
+      "ids": [
+        "dialogue_05000",
+        "dialogue_05003",
+        "dialogue_05004"
+      ],
+      "note": "Meeting-block bystander lines (asking if Marina is a comrade; commenting on her name; her flustered reply) have no name tags; not attributed to a specific named character."
+    },
+    {
+      "id": "dialogue_05020",
+      "note": "Rank 'Vice Admiral' for 中将 follows opening_history_terms.json's locked 'Vice Admiral Kusakabe' rather than a literal army 'Lieutenant General', for consistency with the existing glossary entry."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command reproduced in source order for all 80 rows, including the shift from <op()>/<ab()>/<ed()> combat subtitles to plain <on()> meeting-block lines with no timing commands at all (rows 4998-5023) and the <on()>/<ab(10000)>/<off()> alert style (rows 4987-4997).",
+    "ascii": "Straight quotes, hyphens for dashes, ellipsis as three periods; no bare % in this slice.",
+    "fit": "All rows drafted in full first; row 5020 lightly compressed ('rep') and row 4984's clause order kept close to source to preserve its dramatic-pause phrasing.",
+    "font": "Lowercase j/q avoided throughout except inside locked proper nouns (none required j/q here).",
+    "meaning_review": "Independent meaning review completed for all 80 rows in this slice (context rows checked either side per BASE_RULES); no mistranslations, reversed meanings, wrong addressees, or invented subjects/genders found; all rows promoted from draft to meaning_reviewed."
+  }
+}

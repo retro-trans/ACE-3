@@ -1,0 +1,49 @@
+{
+  "reviewer": "meaning_review_dialogue_7034_7153_agent",
+  "slice_start": 7034,
+  "slice_count": 80,
+  "rows_examined": [{"start": 7019, "end": 7128}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [7042], "finding": "'Show the captain you admire what you're made of' correctly renders 憧れの艦長 (\"the captain [Harry] admires\") without assigning a name or gender beyond what character_names_021.json already locks for the addressee (Harry/Hari Makibi)."},
+    {"rows": [7048, 7049], "finding": "Eureka referenced only as the reason not to panic (エウレカちゃんの前で); no additional identity or relationship invented. Eureka locked per character_names_021.json, -chan honorific correctly dropped."},
+    {"rows": [7069, 7070], "finding": "Ruri's system takeover and 'Electronic Fairy' nickname both traced to character_names_021.json (Ruri Hoshino); -chan honorific correctly dropped."},
+    {"rows": [7078, 7079], "finding": "'That red unit' (その赤い機体) left unidentified, matching the source's omission; no pilot name or gender supplied even though row 7092 later names Char in a different exchange."},
+    {"rows": [7085, 7089, 7092], "finding": "Linda's-brother / Meio Plato reference chain verified against character_names_021.json entry for Meio Plato (\"Linda's brother, son of Dr. Lang Plato\"); Meio Plato spelling and short form 'Meio' both locked in that entry."},
+    {"rows": [7086, 7087, 7092, 7093, 7094, 7095], "finding": "Two-part lines with no <op()>/<ed()> on the first half verified against the source: <ed()> is genuinely absent on 7086/7092/7094 and <op()> genuinely absent on 7087/7093/7095, so the un-normalized split is correct, not a dropped command."},
+    {"rows": [7096, 7098], "finding": "'Blue Hawk' nickname and Meio Plato's identity confirmed against character_names_021.json (nickname: \"Blue Hawk of Giganos\"); row 7098's speaker/'this person' referent correctly left unresolved."},
+    {"rows": [7075, 7082, 7095], "finding": "義/義理/大義 consistently rendered as 'duty'/'cause' across this stretch, matching the recurring theme that continues into dialogue_07116 and dialogue_07118 in the next slice."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_07075"],
+      "note": "Speaker of 'Such is the karma of one who lives by duty' is not identifiable from adjacent rows (7069-7074 are unattributed Neo Zeon-side tactical remarks, 7076-7077 are Federation/allied reactions). Ruling: leave unattributed as drafted; no fix needed. Confirmed as a genuine unresolved case, not an oversight."
+    },
+    {
+      "ids": ["dialogue_07098"],
+      "note": "'Did you think this person would be satisfied just teaching?' - referent of 'this person' (kono hito) cannot be resolved from the surrounding exchange (7096-7099, Meio Plato vs. an unnamed rival). Ruling: leave as drafted; the Kaine Wakaba guess is plausible but not asserted in the text, which is correct restraint."
+    },
+    {
+      "ids": ["dialogue_07048", "dialogue_07049", "dialogue_07050", "dialogue_07051"],
+      "note": "Eureka Seven cast banter with untagged speakers. Ruling: no fix needed; only the named/locked character Eureka is referenced, no other identity or gender was invented."
+    },
+    {
+      "ids": ["dialogue_07078"],
+      "note": "'That red unit' capable of a solo Boson Jump is not named; row 7092 later names Char directly in a different, adjacent confrontation, but nothing in the source ties the two lines together explicitly. Ruling: leave unnamed as drafted; do not merge the two threads."
+    },
+    {
+      "ids": ["dialogue_07085", "dialogue_07089", "dialogue_07092", "dialogue_07096", "dialogue_07099"],
+      "note": "Multiple unnamed speakers address Meio Plato across this stretch (pleading and hostile). Ruling: no fix needed; Meio Plato is the only name the source itself supplies, and the translator correctly did not invent labels for the other speakers."
+    }
+  ],
+  "validation": {
+    "commands": "Re-ran tools/dialogue_corpus.py slice 7034 80 --context 15 and diffed every row's <...> command sequence (including rows with no <op()> or no <ed()>, e.g. 7048/7049, 7086/7087, 7092/7093, 7094/7095, 7100/7101/7102, 7105/7106, 7108/7109) against the source; all 80 rows match in content and order.",
+    "format": "No raw newline characters in any target string beyond the source's own \\n line breaks; newline counts match source for all 80 rows.",
+    "fit": "All 80 rows measured at or under 110 visible (tag-stripped) characters.",
+    "ascii": "All target strings are ASCII only; no fullwidth or other non-ASCII characters present.",
+    "meaning_review": "Independently reviewed against Japanese source via tools/dialogue_corpus.py slice 7034 80 --context 15; no mistranslations, reversed meanings, wrong addressees, invented identities, or dropped sentence endings found. All rows verified; none left as draft."
+  }
+}

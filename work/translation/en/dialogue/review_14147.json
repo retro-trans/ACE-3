@@ -1,0 +1,28 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14147,
+  "slice_count": 80,
+  "rows_examined": [{"start": 14132, "end": 14241}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [14147, 14209], "finding": "Resource 2816010 (Asap Suzuki, Nanajin) checked line by line against the Japanese console slice. No reversed meaning, wrong addressee/subject, or invented identity/gender found; compressions keep the core claim."},
+    {"rows": [14169, 14208], "finding": "Luxe Sakomizu spelling (character_names_021.json, confidence medium, not yet locked in glossary.json) used consistently; source uses first-person 'boku' for the male speaker Asap addressing Luxe, no gender invented for either party."},
+    {"rows": [14167], "finding": "Pronoun-neutral 'We can still fight!' for source 'oretachi' is an acceptable rendering; the pilot's own register elsewhere ('boku' at 14208) is not something the source itself keeps consistent, so forcing one is not required."},
+    {"rows": [14210, 14226], "finding": "Resource 2816020 (Oukaou pilot, surname Sakomizu) checked line by line; grandiose/holy-warrior register (punishing warmongers, embracing hatred) matches the character's righteous-warrior framing and is not tone-contradicting."},
+    {"rows": [14216, 14217], "finding": "'The Wings of Rean, and Oukaou's power, brought me here!' and 'The Wings of Rean punishes those who wage war!' both preserve the source's cause-and-effect and subject; no invented agent."},
+    {"rows": [14221], "finding": "'Aura Energy' (oora enajii) kept distinct from the already-locked 'Aura Power' (oora-ryoku) rather than merged; correct call, matches batch_14147_glossary_proposals.json."},
+    {"rows": [14149], "finding": "'Aura Battler' term used consistently with its prior corpus lock (batch_02948)."}
+  ],
+  "uncertainties": [
+    {"rows": [14174], "issue": "Source literally says 'with this power... I can manage/do it' but the target reads 'This power... I can win!' - a slightly stronger claim than the literal 'can do it', but contextually equivalent in a combat shout; left as phrasing, not fixed."}
+  ],
+  "validation": {
+    "controls": "Re-ran `python tools/dialogue_corpus.py slice 14147 80 --context 15` and compared every in-slice row's <...> commands against the target; all commands (op/sp/ab/ed) identical and in the same order as the source, including the shared <op()><sp(20)>...<ab(1000)><ed()> wrapper.",
+    "format": "No newlines in any target; source line breaks (where present, e.g. 14202, 14216, 14217) are correctly joined into a single line.",
+    "fit": "Spot-checked the hard byte budget (min(72, 2*source_chars-2)) on the heaviest compressions (14171, 14202, 14216, 14217, 14219, 14220, 14232) by counting source characters from the console slice; all fit with margin. No row exceeds its budget.",
+    "ascii": "All targets ASCII-only except none needing the fullwidth percent sign; no lowercase j/q found outside the locked name 'Nanajin'."
+  }
+}

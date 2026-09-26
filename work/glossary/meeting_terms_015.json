@@ -1,0 +1,13 @@
+{
+  "version": "0.1.15",
+  "agent_do_not_touch": "Preserve these researched spellings and the existing glossary names after meaning review.",
+  "entries": [
+    {"source":"ミスマル・コウイチロウ","en":"Kouichiro Misumaru","short_en":"Misumaru","kind":"character","status":"researched","gender":"male","role":"Admiral in Nadesico; Londo Bell commander in ACE3 meeting 4003020","nickname":null,"personality":"Not established by the consulted character entry; do not infer.","sources":["https://nadesico.fandom.com/wiki/Kouichiro_Misumaru"],"notes":["Koichiro and Kouichirou are alternate romanizations; project uses the series wiki spelling."]},
+    {"source":"スーパー・ノヴァ計画","en":"Project Super Nova","kind":"project","status":"researched","sources":["https://sdfyodogawa.mywebcommunity.org/MCRglossary/Glossary13a.php","https://bandai-hobby.net/site/character_macrossd/72_vf31j_spec01.pdf"]},
+    {"source":"ゾンダーエプタ","en":"Zonder Epta","kind":"location","status":"researched","sources":["https://gundam.fandom.com/wiki/Garrod_Ran"]},
+    {"source":"月光号","en":"Gekko","kind":"ship","status":"researched","sources":["https://eurekaseven.fandom.com/wiki/Gekkostate"]},
+    {"source":"少佐","en":"Lt. Cmdr.","full_en":"Lieutenant Commander","kind":"rank","status":"contextual_translation","notes":["Naval equivalent selected because Ruri commands Nadesico B. Army equivalent is Major."]}
+  ],
+  "inherited_terms": ["Londo Bell", "Federation", "Zentradi", "Ruri Hoshino", "Barrel Orland", "Faye Rochenante", "Amuro Ray", "Ixbrau", "Nadesico B", "Valkyrie"],
+  "uncertainties": ["Faye Rochenante remains the existing provisional project spelling.","Drones translates the generic unmanned craft label without inventing a specific model.","Hirai is an internal debug addressee; source does not identify the person further."]
+}

@@ -1,0 +1,174 @@
+{
+ "version": "0.1.28-0.1.29",
+ "status": "orchestrator decisions taken while inserting meetings, hangar talks and missions 04-06; provisional unless a source is given",
+ "entries": [
+  {
+   "en": "unidentified life-forms",
+   "note": "hyphenated corpus form (meeting 02 onward); archive title 'Unidentified Life-forms'; mission title stays 'Probe Unknown Lifeform'"
+  },
+  {
+   "en": "Captain / Capt.",
+   "note": "rank taii for Gundam-series pilots (Amuro, Burning, Meio Plato); ship captains (kanchou) are also 'Captain'"
+  },
+  {
+   "en": "Ixbrau",
+   "note": "never 'Exbrau' (one released row fixed by script in 0.1.28)"
+  },
+  {
+   "en": "New Federation",
+   "note": "glossary.json wins over the wiki form New UNE"
+  },
+  {
+   "en": "Baldora Drive / Baldora particles / Dr. Jill Bardona",
+   "note": "kept as locked although the source uses one word; unifying is an open question for the user"
+  },
+  {
+   "en": "Cecilia Islands",
+   "note": "meeting 03; no English source found"
+  },
+  {
+   "en": "Bellforest",
+   "source": "https://eurekaseven.fandom.com/wiki/Bellforest"
+  },
+  {
+   "en": "Wulgusk",
+   "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer"
+  },
+  {
+   "en": "Rushrod / Blackmail / Overdevil / Planetta",
+   "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer ; https://mmecha.fandom.com/wiki/Siberian_Mecha"
+  },
+  {
+   "en": "Alpha Azieru",
+   "source": "https://gundam.fandom.com/wiki/NZ-333_%CE%B1_Azieru"
+  },
+  {
+   "en": "Deins",
+   "note": "Giganos metal armor (caption picture); matches locked 'Stark Deins'",
+   "source": "https://builduphobby.com/1-144-deins-metal-armor-dragonar"
+  },
+  {
+   "en": "Gewei",
+   "note": "Giganos metal armor Gebai/Gewei (caption picture); wiki lists 'Stark Gewei'",
+   "source": "https://mmecha.fandom.com/wiki/Metal_Armors"
+  },
+  {
+   "en": "Chulip / Jovian Lizards",
+   "note": "Nadesico legacy (ACE2 leftover scenes)",
+   "source": "https://nadesico.fandom.com/wiki/Dimensional_Leap_Gate"
+  },
+  {
+   "en": "boson particles / Boson Jump / spatial transfer",
+   "note": "'spatial transfer' (kuukan ten'i) is distinct from the Encyclopedia's 'space leap'"
+  },
+  {
+   "en": "Eureka Seven motto",
+   "note": "official dub wording: Don't beg for things. Do it yourself, or else you won't get anything.",
+   "source": "https://en.wikiquote.org/wiki/Eureka_Seven"
+  },
+  {
+   "en": "quick turn",
+   "note": "released tutorial term for the double-tap dash turn; keep despite the q"
+  },
+  {
+   "en": "Mothership / Ally 1 / Ally 2",
+   "note": "HUD and Results labels follow the pause menu and deployment screen"
+  },
+  {
+   "en": "Siberian Railway",
+   "note": "also for the characters' clipped nickname (Shibe-tetsu); the coined 'Sibe-Rail' proposal is withdrawn (16 corpus rows use the nickname)"
+  },
+  {
+   "en": "Ensign Barrel",
+   "note": "Barrel's rank shoui, as 'Ensign Uraki' in the reviewed corpus; appears again in mission scenes 2002280 and 2002450"
+  },
+  {
+   "en": "Gauli Team",
+   "note": "King Gainer; 'Team' avoids the q of Squad"
+  },
+  {
+   "en": "high priest",
+   "note": "Vodarac cleric (kousou) in meeting 06, briefing 4003521 and mission 06"
+  },
+  {
+   "en": "Konpei Island / Game Champ / B Plan",
+   "note": "first uses in batches 2055/1975; legacy or later rows must match"
+  },
+  {
+   "en": "Kids Munt",
+   "note": "LOCKED, do not touch: President of the Siberian Railway (King Gainer). Katakana Kizzu Munto = Kids Munt per https://en.wikipedia.org/wiki/Overman_King_Gainer; never 'Kizz Munt' (the Encyclopedia draft's guess, corrected 2026-09-23). Honorific -sama = 'Lord Kids'."
+  },
+  {
+   "en": "psycommu",
+   "note": "Gundam Newtype interface (psycho-communicator); lower-case as in official Gundam localizations. Shout wave 0.1.34."
+  },
+  {
+   "en": "Yarf",
+   "note": "PROVISIONAL: the Black Knight's oath 'god of Yarf' (Dunbine, Zwarth shouts); no attested romanization found, literal kana reading kept."
+  },
+  {
+   "en": "Super Asia",
+   "note": "Master Asia's self-mocking pun name in the Master Gundam shouts; literal."
+  },
+  {
+   "en": "Aura Energy",
+   "note": "Distinct katakana term from the locked 'Aura Power' (Dunbine / Wings of Rean); keep both."
+  },
+  {
+   "en": "Category F",
+   "note": "New UNE Newtype-lab label for the Frost brothers (Gundam X); F = Fake."
+  },
+  {
+   "en": "Getter Rays",
+   "note": "Franchise-standard English for the Getter energy (Getter Robo Armageddon)."
+  },
+  {
+   "en": "Dianna Soreil / Lady Dianna",
+   "note": "Turn A Gundam; honorific -sama rendered 'Lady' like 'Lord Kids'."
+  },
+  {
+   "en": "White Doll / Black History / Mountain Cycle",
+   "note": "Turn A Gundam terms, official English (gundam.fandom.com / Wikipedia)."
+  },
+  {
+   "en": "Sochie Heim / Miss Sochie",
+   "note": "Turn A Gundam; official spelling."
+  },
+  {
+   "en": "machine-men",
+   "note": "PROVISIONAL literal rendering of the Turn A term for mobile suits as automatons; no official English form found."
+  },
+  {
+   "en": "Getter Wing",
+   "note": "PROVISIONAL literal attack name in the Black Getter shouts (row dialogue_15023); no documented attack by that name."
+  },
+  {
+   "en": "Overskill / Overman Battle",
+   "note": "King Gainer: Overskill is the official romanization of the Overman ability; 'Overman Battle' literal compound."
+  },
+  {
+   "en": "London IMA",
+   "note": "King Gainer: the International Monitoring Agency that governs the Domepolises."
+  },
+  {
+   "en": "Zaku / Gouf",
+   "note": "Mobile Suit Gundam mobile suits, official English spellings (Amuro's 0079-era shouts)."
+  },
+  {
+   "en": "Plamo Spirit / Plamo-Kyoshiro",
+   "note": "Perfect Gundam pilot Shiro Kyoda's catchphrase and hero name (Plamo-Kyoshiro manga); literal."
+  },
+  {
+   "en": "Omega 1",
+   "note": "Guld Goa Bowman's YF-21 callsign (Macross Plus)."
+  },
+  {
+   "en": "Kou / Duo / Zechs",
+   "note": "Pilot labels of the leftover A.C.E.2 unit resources 2800020/30/32/40 (Kou Uraki, Duo Maxwell, Zechs Merquise); official spellings; the units are not in the ACE3 roster."
+  },
+  {
+   "en": "Dragonar-1 (Lifter)",
+   "note": "Target label of unit resource 2810010 (Dragonar-1 with the Lifter flight unit)."
+  }
+ ]
+}

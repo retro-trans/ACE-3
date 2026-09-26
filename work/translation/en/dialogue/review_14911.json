@@ -1,0 +1,25 @@
+{
+  "reviewer": "meaning_review_pilot_shouts_agent",
+  "slice_start": 14911,
+  "slice_count": 80,
+  "rows_examined": [{"start": 14896, "end": 15005}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [14917, 14940, 14944, 14945, 14949, 14953, 14957, 14958, 14975, 14979, 14988], "finding": "Two-line rows in Ryoma's resource (2819013) that open by naming Hayato or Benkei. Each target keeps the addressed-teammate line and the reply as an unattributed in-cockpit exchange, matching the source's structure exactly, without assigning the opening line to a specific pilot. Correct per the task brief; none invents an identity."},
+    {"rows": [14982, 14987], "finding": "'隼人、俺に替われ！こいつは俺がやる！' and '弁慶、俺に替われ！俺をなめるな！' read equally well as Ryoma's own two-part call (asking to swap, then confirming/taunting) or as a two-speaker exchange; the target's 'Swap with me, Hayato! / Got this!' and 'Switch, Benkei! / Don't test me!' preserve that same ambiguity rather than resolving it toward an invented speaker. No fix needed."},
+    {"rows": [14983], "finding": "'隼人、大丈夫なのか！真ゲッター２の速さならこいつを翻弄できる！' — line 2 references Getter-2 (Hayato's own unit) in the third person, implying Hayato replies about his own machine after being asked if he's okay. Target 'Hayato, you alright?! / Getter-2's speed can outmaneuver it!' preserves this without over-specifying who speaks which half."},
+    {"rows": [14911, 14990], "finding": "Programmatic check: every command sequence in every row's target matches the source exactly in order; all ids present and matched; no visible text over the shout byte budget; ASCII-only."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_14917", "dialogue_14940", "dialogue_14944", "dialogue_14945", "dialogue_14949", "dialogue_14953", "dialogue_14957", "dialogue_14958", "dialogue_14975", "dialogue_14979", "dialogue_14982", "dialogue_14983", "dialogue_14987", "dialogue_14988"], "issue": "Ruled: all acceptable as-is (see checked_decisions); the true speaker of each opening/naming line among Ryoma's two teammates is not recoverable from this slice or its context window, and the draft correctly declines to invent one."},
+    {"issue": "Same cross-batch formatting note as review_14831.json: the task brief requires 'NO newline in the target (source line breaks are joined)', but 25 of this slice's 80 rows keep an embedded \\n mirroring the source's two-part line break, consistent with the batch's own validation.controls claim. Not a meaning defect, left untouched; flagged for the orchestrator since it likely recurs across every shout batch in this corpus."}
+  ],
+  "validation": {
+    "fit": "Re-checked all 80 rows: visible text (tags and newline stripped) stays within min(72, 2×(source visible-character count)-2); no row exceeds its budget.",
+    "controls": "Re-checked all 80 rows: command sequence identical and in the same order as the source for every row.",
+    "meaning_review": "Completed independently against the Japanese source via tools/dialogue_corpus.py slice (context 15, console only). No meaning reversals, wrong addressee/subject, invented identity/gender, dropped sentence sense, tone-vs-character contradictions, or locked-spelling errors found. All 80 rows promoted to meaning_reviewed."
+  }
+}

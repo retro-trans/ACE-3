@@ -1,0 +1,539 @@
+{
+  "slice_start": 4656,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      4641,
+      4750
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_04665",
+        "dialogue_04666",
+        "dialogue_04667",
+        "dialogue_04668",
+        "dialogue_04669",
+        "dialogue_04726",
+        "dialogue_04729",
+        "dialogue_04730",
+        "dialogue_04731"
+      ],
+      "note": "Ryoma/Hayato/Benkei vs. the Invader-controlled Saotome trade taunts across these rows (table order groups the exchange but does not tag speakers). Content and insults are translated faithfully; no line assigns a name beyond what the source's own <color()> tags or immediate context already fix."
+    },
+    {
+      "ids": [
+        "dialogue_04733",
+        "dialogue_04734",
+        "dialogue_04735"
+      ],
+      "note": "Speaker after the Shin Dragon withdraws (row 4732) is not named in-line. Likely Berkt (protective tone toward 'the ship' matches his role commanding Blood Ark forces per glossary), but not asserted as fact in the English."
+    },
+    {
+      "ids": [
+        "dialogue_04692",
+        "dialogue_04697",
+        "dialogue_04698"
+      ],
+      "note": "'She' for the radar contact refers to Cynthia, fixed by the name in row 4692 two rows earlier, not an invented gender."
+    },
+    {
+      "ids": [
+        "dialogue_04723"
+      ],
+      "note": "Speaker (feminine particles) is unidentified; 'she' refers only to Cynthia, the already-established subject of the sentence, not to the speaker."
+    }
+  ],
+  "validation": {
+    "meaning": "Translated directly from the ISO source via tools/dialogue_corpus.py; Japanese was read on console only, never written to disk.",
+    "controls": "Self-check script (throwaway, run from scratchpad, not committed) re-fetched every row's source via dialogue_corpus.py and compared the ordered list of <...> commands against each target; all 80 rows matched exactly, including rows lacking <ed()> (4662, 4668, 4671, 4672, 4729, 4730, 4733 originally checked, 4735) which were left exactly as the source has them.",
+    "fit": "All 80 targets are ASCII-only, contain the same newline count as their source row, and are <=110 visible characters (bracket commands and newlines excluded from the count). No row needed shortening beyond ordinary compression.",
+    "glossary": "Names/terms matched against work/glossary/character_names_021.json, mission_terms_019.json, unit_names_014_a/b.json and work/translation/en/encyclopedia_021_b.json / encyclopedia_022.json: Ryoma (Nagare), Hayato (Jin), Benkei (Kuruma), Saotome, Gainer (Sanga), Cynthia (Lane), Berkt, Marina Carson, Tower, Overman, Invaders, Getter Rays, Shin Dragon, Blood Ark, Dominator all reused as locked; no new terms proposed.",
+    "meaning_review": "Independent meaning review completed for all rows in this slice (see work/translation/en/dialogue/review_4656.json); 4 rows had 'just'/'just' replaced with 'only'/'anywhere else' to remove the font-unsafe lowercase j (dialogue_04690, dialogue_04695, dialogue_04746, dialogue_04783); no other meaning changes were needed and no row was left unverified."
+  },
+  "rows": [
+    {
+      "id": "dialogue_04656",
+      "target": "<op()><sp(20)>Ryoma...?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04657",
+      "target": "<op()><sp(20)>That black Getter... Ryoma?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04658",
+      "target": "<op()><sp(20)>There's no mistaking those movements.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04659",
+      "target": "<op()><sp(20)>But where has that guy been hiding\nfor the past 13 years?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04660",
+      "target": "<op()><sp(20)>We can hear the story later, at our leisure...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04661",
+      "target": "<op()><sp(20)>Let's take down every target.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04662",
+      "target": "<op()><sp(20)>The unmanned ships are holding the perimeter.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04663",
+      "target": "<sp(20)>Don't push the unmanned ships too hard.\nOr the Invaders will come flooding in all at once.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04664",
+      "target": "<op()><sp(20)>Bwahahahaha!\nIt's been a while, Ryoma!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04665",
+      "target": "<op()><sp(20)>So you're still alive, you old geezer Saotome!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04666",
+      "target": "<op()><sp(20)>You stubborn old fossil!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04667",
+      "target": "<op()><sp(20)>Shut up!\nToday I'll finally send you to your grave!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04668",
+      "target": "<op()><sp(20)>Interesting...\nGo ahead and try it, you insect!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04669",
+      "target": "<sp(20)>Rise up, gather, my brethren!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04670",
+      "target": "<op()><sp(20)>Hayato, I've confirmed a Getter Ray reading!\nIt's incredibly powerful!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04671",
+      "target": "<op()><sp(20)>Fuhahahahaha!<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04672",
+      "target": "<sp(20)>Whoever controls the Shin Dragon controls the world -\nno, the entire universe!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04673",
+      "target": "<sp(20)>To sound the overture of the world's true final day!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04674",
+      "target": "<op()><sp(20)>Wh-what is with this number of them?!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04675",
+      "target": "<op()><sp(20)>It's too soon to start whining.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04676",
+      "target": "<op()><sp(20)>Shin Getter being the Shin Dragon's guardian...\nI wonder what that's supposed to mean.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04677",
+      "target": "<op()><sp(20)>How should I know?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04678",
+      "target": "<op()><sp(20)>The Invaders' numbers aren't going down!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04679",
+      "target": "<op()><sp(20)>Just how many of these things are there?!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04680",
+      "target": "<op()><sp(20)>Everyone, cover each other while you fight!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04681",
+      "target": "<op()><sp(20)>So many of them, every single time!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04682",
+      "target": "<op()><sp(20)>Gainer, don't push in too far!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04683",
+      "target": "<op()><sp(20)>Wait a second!\nIsn't this thing an Overman?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04684",
+      "target": "<op()><sp(20)>A heat source is approaching from the northwest of the operation zone!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04685",
+      "target": "<op()><sp(20)>A heat source is approaching from the northeast of the operation zone!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04686",
+      "target": "<op()><sp(20)>A heat source is approaching from the southwest of the operation zone!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04687",
+      "target": "<op()><sp(20)>A heat source is approaching from the southeast of the operation zone!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04688",
+      "target": "<op()><sp(20)>T-they're back again?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04689",
+      "target": "<op()><sp(20)>Not at a time like this...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04690",
+      "target": "<op()><sp(20)>Hmph, it's only more small fry.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04691",
+      "target": "<op()><sp(20)>Small fry, huh?!\nYou've got some nerve, old man!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04692",
+      "target": "<op()><sp(20)>Cynthia!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Establishes the unnamed pilot as Cynthia (glossary: female); subsequent 'she' in 4697/4698 refers back to this identification, not invented."
+    },
+    {
+      "id": "dialogue_04693",
+      "target": "<op()><sp(20)>Going straight home would be boring, after all.\nI came to pick up where we left off.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04694",
+      "target": "<sp(20)>Play with me a little more!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04695",
+      "target": "<sp(20)>A fight this fun\nisn't something you get to experience anywhere else.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04696",
+      "target": "<op()><sp(20)>Come on now.\nSee if you can find where I am?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04697",
+      "target": "<op()><sp(20)>She vanished from radar?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent (Cynthia) fixed by 4692; 'she' is not an invented gender."
+    },
+    {
+      "id": "dialogue_04698",
+      "target": "<op()><sp(20)>She's hiding somewhere.\nFind her!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent (Cynthia) fixed by 4692; 'she' is not an invented gender."
+    },
+    {
+      "id": "dialogue_04699",
+      "target": "<op()><sp(20)>Oops, you actually found me.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04700",
+      "target": "<op()><sp(20)>You figured out I was over here?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04701",
+      "target": "<op()><sp(20)>Bingo!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04702",
+      "target": "<op()><sp(20)>This is getting boring.\nIf you can't find me, I'll come to you instead!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04703",
+      "target": "<op()><sp(20)>Over here, over here.\nI'll take out the small fry.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04704",
+      "target": "<op()><sp(20)>Where are you even looking?\nFighting small fry is no fun.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04705",
+      "target": "<op()><sp(20)>Come on, try and chase me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04706",
+      "target": "<op()><sp(20)>Guess I'll switch places, then.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04707",
+      "target": "<op()><sp(20)>Come and chase me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04708",
+      "target": "<op()><sp(20)>Not bad, are you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04709",
+      "target": "<op()><sp(20)>You're pretty good.\nI'll save the rest of the fun for next time.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04710",
+      "target": "<op()><sp(20)>New enemy unit confirmed!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04711",
+      "target": "<op()><sp(20)>The enemy unit is on the move!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04712",
+      "target": "<op()><sp(20)>There's no time left!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04713",
+      "target": "<op()><sp(20)>Huh?!\nTime's up...<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04714",
+      "target": "<op()><sp(20)>The allied forces' numbers are dropping!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04715",
+      "target": "<op()><sp(20)>The allies are taking a real beating...\nThis is looking pretty bad if it keeps up.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04716",
+      "target": "<op()><sp(20)>The allied forces won't hold much longer!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04717",
+      "target": "<op()><sp(20)>Top priority: support the allied forces!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04718",
+      "target": "<op()><sp(20)>This is the Tower.\nWe've taken a bit of damage.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04719",
+      "target": "<op()><sp(20)>We're struggling a little.\nGo lend support to the Tower.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04720",
+      "target": "<op()><sp(20)>Captain!\nThe Tower is going down...!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04721",
+      "target": "<op()><sp(20)>Enemy base secured!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04722",
+      "target": "<op()><sp(20)>Cynthia, listen to me!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04723",
+      "target": "<op()><sp(20)>It's no use, Gainer.\nShe pulled out a while ago already.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Feminine sentence-final particles mark the speaker as female, but her identity is not established; 'she' pronoun for the departed pilot refers to Cynthia (already female per glossary), not to the unnamed speaker."
+    },
+    {
+      "id": "dialogue_04724",
+      "target": "<op()><sp(20)>There was no need to fight even in the real world...<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04725",
+      "target": "<op()><sp(20)>The target is gone.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04726",
+      "target": "<op()><sp(20)>Let's settle this... old man!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04727",
+      "target": "<op()><sp(20)>The Shin Dragon's Getter Rays are dropping fast!\nThis is...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04728",
+      "target": "<op()><sp(20)>He's here!!\n...Berkt!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'He's here' inferred generically for the arriving party; the following word names Berkt (male, glossary), so the pronoun is grounded in that name, not guessed ahead of it."
+    },
+    {
+      "id": "dialogue_04729",
+      "target": "<op()><sp(20)>You've come to interfere again, you rat.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Addressee of the insult is inferred from neighbouring row 4728 naming Berkt; no new identity invented."
+    },
+    {
+      "id": "dialogue_04730",
+      "target": "<sp(20)>Ryoma, Hayato, Benkei!\nThis will have to wait for next time.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04731",
+      "target": "<sp(20)>As for \"Berkt\"...\nDon't think someone like you can stop this Shin Dragon.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04732",
+      "target": "<op()><sp(20)>The Shin Dragon has vanished!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04733",
+      "target": "<op()><sp(20)>I'll fight for real today.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker after the Shin Dragon's withdrawal (4732) is not identified in-line; could be Berkt (matches his protective duty toward a ship in 4734) or another allied officer. No name added to the English."
+    },
+    {
+      "id": "dialogue_04734",
+      "target": "<sp(20)>I can't afford to let the ship go down.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04735",
+      "target": "<op()><sp(20)>You're all fighting well.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

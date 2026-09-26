@@ -1,0 +1,178 @@
+{
+ "resource_id": 4003170,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 15,
+ "rows_examined": 15,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "14  Breach the Defense Net",
+   "notes": "Released mission title reused.",
+   "source_sha256": "19e6f8166300b71edbbb33b4b3ebb5ad9d93c32a78ea4fc0701dfa938d1e50bb"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30050,1)><speed(2)>The attack on the network using <book(87)>Sharon Apple<endbook()><thumbnail(230)> is still ongoing.",
+   "notes": "Sharon Apple per encyclopedia_022 (Macross Plus).",
+   "source_sha256": "df64f3134a6dbd41e3250ef22f1cefd596d232d007ad06e40a3da5e8220b199e"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30050,1)><speed(2)>At this point, most of the military network has fallen into their hands.",
+   "notes": "",
+   "source_sha256": "6b97d1466cbcb089482447f7443ce1e422803246a7f3516dd52542fe644a5c03"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30050,1)><speed(2)>It looks like it will take a bit longer for <color(4)>Ruri<ce()>, who headed to the Moon, to link up with us.",
+   "notes": "'-kun' on Ruri dropped per corpus honorific convention. 'link up with us' used in place of 'rejoin us' to avoid the j.",
+   "source_sha256": "787ad9cb06857d2e329079c98732444ba96c53be3f1d6b5c4a789f9914cf05ab"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<thumbdown()><operator(30050,1)><speed(2)>We are without the <color(4)>Nadesico<ce()>, but you are the only ones who can handle this situation. I am counting on you!",
+   "notes": "",
+   "source_sha256": "3fea1311695c2ddd586f5b00c4fbb68ed7d9dd8c78a0dd5f869493af6ecc3552"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<topic()><operator(30010,1)><speed(2)>Right now, around <book(88)>Macross City<endbook()>, the <color(5)>Tripartite Alliance<ce()> has a defense network in place.",
+   "notes": "'Tripartite Alliance' for sansha rengou, matching the term already used in reviewed 4003210 (orchestrator ruling).",
+   "source_sha256": "227022660d47e9e9772be67e2570f4561b629d8edca8c1011b28e361b8577ad1"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30010,1)><speed(2)>We're going to break through here and approach <book(88)>Macross City<endbook()>.",
+   "notes": "",
+   "source_sha256": "8951c879cb610cd5e1d41485803ded5f7f69a698aa815074896f1ba802202066"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30010,1)><speed(2)>There's one thing that concerns me. Word has come in that the new AI-driven<thumbnail(296)> unmanned fighter, the <book(86)>Ghost X-9<endbook()>, has gone missing.",
+   "notes": "'AI-driven' used in place of 'AI-equipped' to avoid the j. 'Ghost X-9' word order matches the reviewed encyclopedia_022 (text_id 747/2436), not the unreviewed 'X-9 Ghost' proposal in proposals_dialogue_00776.json; see uncertainties.",
+   "source_sha256": "37fe1d9ee1af8e81e268cf50267f81944ee64ca94e4a1b5ef69363909da60307"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30010,1)><speed(2)>This unit had been deployed to <book(88)>Macross City<endbook()> on a trial basis, but...",
+   "notes": "",
+   "source_sha256": "4c2571e310efd5f5cc648d00c303c86a2ca694abf6e089e98fbf6b967002b259"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30010,1)><speed(2)>Being unmanned came back to bite us - it seems the enemy has seized control of it.",
+   "notes": "",
+   "source_sha256": "ecfb274afabbbdedbdcb3d3e764b63083dbf7a4dcc051f2ffd3eff329eb53f7d"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<thumbdown()><operator(30010,1)><speed(2)>The <book(86)>X-9<endbook()>'s spec sheet far exceeds that of an ordinary manned fighter. Be careful.",
+   "notes": "",
+   "source_sha256": "440033d5f5ab8403cf3ab543b1c0fa82beb1c3922a90b01e3c558a7a690e5962"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<topic()><operator(30010,1)><speed(2)>There's one more report to make. Reliable reinforcements.",
+   "notes": "",
+   "source_sha256": "9f8b4cef1cd871e2f34a8811933671f06754a2dd16c11b33a4fb3c7405e4d2cc"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30010,1)><speed(2)>Lt. Cmdr. <color(4)>Hoshino<ce()> recommended<thumbnail(233)> - <color(4)>Izumi Maki<ce()> and <color(4)>Hikaru Amano<ce()>'s <color(4)>Aestivalis team<ce()> arrived a short while ago.",
+   "notes": "Izumi Maki / Hikaru Amano per character_names_021 (en_full order), matching the same pair's naming in reviewed 4004553. 'Aestivalis team' for -tai (avoids the q of 'squad'); no locked term found for this specific group.",
+   "source_sha256": "c98c4b38f4a1db162920618700a0fa025b3e61bf2e7bd1492bd44de516db612a"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30010,1)><speed(2)>And Major <color(4)>Focker<ce()><thumbnail(234)>'s <color(4)>Skull Squadron<ce()> members are also arranged to link up on-site.",
+   "notes": "'Major Focker' and 'Skull Squadron' per character_names_021 / reviewed 4004553 wording; both keep their j/q as no synonym rank/unit name was found for either (Skull Squadron is also already de facto locked by the reviewed corpus). 'link up' used in place of 'join up' to avoid an added j.",
+   "source_sha256": "8dd407d94c52c1eec9a80e37374c7a54361c51b821770407a2a6d7f2144bd447"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30010,1)><speed(2)>They have combat results from the last war too, and should be an immediate fighting force. Welcome aboard as new comrades.",
+   "notes": "Compressed to fit the 128-char limit; meaning unchanged.",
+   "source_sha256": "4aa40dc45fb99ad3bae2b47b2ea76c3ce73828cec904b63954c9b23d2377b8c6"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 23,
+   "issue": "sansha rengou refers to the Neo Zeon / former Giganos / Martian Successors alliance introduced in 4003160 slot 20; rendered 'Tripartite Alliance' to match the term already used for the same source phrase in reviewed 4003210 (orchestrator ruling)."
+  },
+  {
+   "slot": 25,
+   "issue": "book(86) rendered 'Ghost X-9': the reviewed, already-released encyclopedia_022.json uses this word order twice, while an unreviewed glossary proposal (proposals_dialogue_00776.json) recommends the opposite order 'X-9 Ghost' citing the Macross wiki. Followed the reviewed corpus per task instructions to match how terms were already rendered in reviewed files; orchestrator should reconcile the two-way conflict in the glossary itself."
+  },
+  {
+   "slot": 30,
+   "issue": "'Aestivalis team' for -tai: no locked English term for this specific two-pilot group; 'team' chosen over 'squad' to avoid the q, per the project's 'Gauli Team' precedent (terms_028)."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "sansha rengou",
+   "en": "Tripartite Alliance",
+   "source": "work/translation/en/scenes/4003210.json (reviewed; same source phrase 'sansha rengou' rendered 'Tripartite Alliance' there)",
+   "why": "Enemy alliance introduced by name in mission 13-14 meetings (4003160, 4003170); now aligned with the term already established in 4003210 - should become the one project-wide term."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 15,
+  "rows_in_scene": 15,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 23,
+    "before": "<topic()><operator(30010,1)><speed(2)>Right now, around <book(88)>Macross City<endbook()>, the <color(5)>Three-Faction Alliance<ce()> has a defense network in place.",
+    "after": "<topic()><operator(30010,1)><speed(2)>Right now, around <book(88)>Macross City<endbook()>, the <color(5)>Tripartite Alliance<ce()> has a defense network in place.",
+    "reason": "Orchestrator ruling: 'sansha rengou' is 'Tripartite Alliance', matching the term already used for the same source phrase in reviewed 4003210; replaces the draft's ad hoc 'Three-Faction Alliance'."
+   }
+  ],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"14  Breach the Defense Net\".",
+   "All command tags checked against tools/scene_source.py output: identical set and order in every row.",
+   "Speakers verified via tools/speaker_lookup.py: 30050 Kouichiro Misumaru, 30010 Amuro Ray; consistent with content (Amuro giving the tactical briefing).",
+   "Slot 25 book(86) 'Ghost X-9' ruling: orchestrator confirmed it stays as in the Encyclopedia; kept, conflict with the unreviewed proposals_dialogue_00776.json noted for the glossary owner.",
+   "Slot 30 'Aestivalis team' ruling: orchestrator confirmed acceptable; kept.",
+   "Slot 31 'Major Focker' / 'Skull Squadron': match character_names_021 and reviewed 4004553; 'Squadron' contains a lowercase q but is part of this already-locked unit name (same treatment as 4004553), so left as-is.",
+   "Lowercase j/q scan: only 'Squadron' in the locked name 'Skull Squadron' (slot 31); no other lowercase j/q found outside locked names."
+  ],
+  "remaining_uncertainties": [
+   "Slot 25: 'Ghost X-9' vs a possible future 'X-9 Ghost' relies on which of two conflicting sources the orchestrator treats as authoritative long-term; kept per this task's explicit ruling.",
+   "Slot 30: 'Aestivalis team' has no single locked project term for this two-pilot group; acceptable per orchestrator ruling."
+  ]
+ }
+}

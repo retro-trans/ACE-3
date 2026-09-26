@@ -1,0 +1,26 @@
+{
+  "version": "0.1.10",
+  "language": "en",
+  "review": {
+    "status": "meaning_reviewed",
+    "agent": "review_controller_010",
+    "occurrences_examined": 22,
+    "distinct_captions": 13,
+    "notes": "Asset IDs confirmed by sequential image inspection: 50512 Shift, 50513 Select. Fire preserves the ranged-fire meaning of 射撃. Down/Up are approved compact display variants; full meanings retained. Switch Target follows existing terminology; exact target-cycling behavior is not independently tested."
+  },
+  "entries": [
+    {"id":"settings.confirm_question","source":"この設定でよろしいですか？","target":"Use these settings?"},
+    {"id":"controls.switch_lock","source":"ロック切り替え","target":"Switch Target"},
+    {"id":"controls.melee","source":"近接攻撃","target":"Melee Attack"},
+    {"id":"controls.dash_toggle","source":"ダッシュ ON/OFF","target":"Dash ON/OFF"},
+    {"id":"controls.main_shot","source":"メイン射撃","target":"Main Fire"},
+    {"id":"controls.fire","source":"射撃","target":"Fire"},
+    {"id":"controls.camera","source":"カメラ","target":"Camera"},
+    {"id":"controls.move","source":"移動","target":"Move"},
+    {"id":"controls.combination","source":"コンビネーションアタック","target":"Combination Attack"},
+    {"id":"controls.shift_menu","source":"シフトメニュー","target":"Shift Menu"},
+    {"id":"controls.select_menu","source":"セレクトメニュー","target":"Select Menu"},
+    {"id":"controls.descend","source":"下降","target":"Descend","display":"Down","reason":"Narrow shoulder-button caption; means downward movement."},
+    {"id":"controls.ascend","source":"上昇","target":"Ascend","display":"Up","reason":"Narrow shoulder-button caption; means upward movement."}
+  ]
+}

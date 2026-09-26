@@ -1,0 +1,212 @@
+{
+ "resource_id": 4003040,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 19,
+ "rows_examined": 19,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "04  Sweep Unknown Forces",
+   "notes": "Released mission title reused.",
+   "source_sha256": "77681e2a591071b6fb9abf5b176f223650ff41e2cc90e09a4737eb88b4ed5ef3"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30030,1)><speed(2)>Is everyone here? I will explain the current situation.",
+   "notes": "",
+   "source_sha256": "90c782428211ef71f5aff1fa33d9a7cc5dbfd55892bf4d9d0a6fe4c8298032e7"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30030,1)><speed(2)>The trouble is, we have no idea at all where we are<thumbnail(168)>. We cannot reach HQ either.",
+   "notes": "",
+   "source_sha256": "08595621ac1893ca467d578d06301080ceaa93b923e8a699f2b75c3fcd9904e5"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30030,1)><speed(2)>For now, I will tell you what can be inferred about the current situation.",
+   "notes": "",
+   "source_sha256": "bb7da0ec2f804f159415ff743d1f298362ab7da6981b1fffdff94f07582ac9f5"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30030,1)><speed(2)>Back then, the <book(1)>Baldora Drive<endbook()> was giving off a specific energy<thumbnail(166)> that was detected.",
+   "notes": "",
+   "source_sha256": "ea04166d3205e8476d8d47c9e3665e19d31bb14cc90db188b3eb54ebad772ad8"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30030,1)><speed(2)>I believe it is what is called <color(6)>Baldora particles<ce()>.",
+   "notes": "",
+   "source_sha256": "e7946364d049a361ad70b5bae382229dd78a2f916755686bbb47d538b68cda48"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30030,1)><speed(2)>And right before we came here, energy of excessive mass was also observed.",
+   "notes": "",
+   "source_sha256": "dd27d8db1dad138410479348114e43c309d1f821b65af0c1f6d3a1a10d7e329e"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30030,1)><speed(2)>A phenomenon that occurred because they set the <book(1)>Baldora Drive<endbook()> in motion... That much can be inferred.",
+   "notes": "",
+   "source_sha256": "fb9fd9b685821794623c42c0e57326068997761c61aa198eded8ded853bbb1ea"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30030,1)><speed(2)>What all this suggests is... that we may have been sent to some far-off planet.",
+   "notes": "",
+   "source_sha256": "57a333a7e2614d76f624b4eed33d750e92d0f7b5459941795d4f2699d81bcf20"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30030,1)><speed(2)>But this is no more than a possibility. I ask everyone to respond calmly.",
+   "notes": "",
+   "source_sha256": "b8b879d65f4df4842874ab4b907e7afd6655f4f969ec75321408393232eeed01"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30030,1)><speed(2)>One more thing. An emergency seems to have come up during the survey of the area. Capt. <color(4)>Amuro<ce()>, the details, please.",
+   "notes": "Taii rendered Capt. (army-style, as corpus did for Burning).",
+   "source_sha256": "2c09047093c2ea0fe140b3e0e1062068930c2ac505b8c99089663bfe4287ca02"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<thumbdown()><topic()><operator(30010,1)><speed(2)>Fighting between units of unknown affiliation has been confirmed up ahead.",
+   "notes": "",
+   "source_sha256": "833ee0ebad7384288be5edf681040a76482cc3fb076924db5dbd84129ec906cb"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30010,1)><speed(2)>None of the machines are in the database; they seem to be unidentified types<thumbnail(170)>. And they seem to have noticed us.",
+   "notes": "",
+   "source_sha256": "de4b2bcfdefc7e0e71f14439d548a62fc5ff537c690e26c99dbc2fe821cc7a3f"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30010,1)><speed(2)>The larger unit<thumbnail(171)> is spreading out to encircle us and attack. The enemy numbers are considerable.",
+   "notes": "",
+   "source_sha256": "13c34d13038f4c08712747dfa83fa4ae9382d4c883de8adf6d9ad117f2c1f448"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30010,1)><speed(2)>If Lt. Cmdr. <color(4)>Hoshino<ce()> has it right, this is an unknown planet and the enemy is an unknown force, but...",
+   "notes": "Shosa = Lt. Cmdr. per meeting_terms_015.",
+   "source_sha256": "0d17ad51a2cdbf6c7ab6f151b59e960ad63a81bfa75395a73db9ae328f5e204b"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30010,1)><speed(2)>In any case, the ship's safety comes first. We go out to intercept.",
+   "notes": "",
+   "source_sha256": "92161c17f11c4ab2db3786dfb5851fee2f40296b9dd0bbab32cbb07913719828"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30010,1)><speed(2)>The other, smaller force is sending out a <color(6)>distress signal<ce()>. They seem to have no intent to fight, but...",
+   "notes": "",
+   "source_sha256": "65b4cc1cf0c3f8993442ad9713798e5f5bc883244224f0278c3108183623bad0"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>We cannot deem them allies either. Contact will be tried for now, but if they turn hostile to us, we fight back.",
+   "notes": "",
+   "source_sha256": "ffba91dca261af91bc39f254e5b0503afac2568de37f6c76aabf0ff8d381d83b"
+  },
+  {
+   "table": 1,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(30030,1)><speed(2)>This may develop into combat with both sides, so let us respond carefully.",
+   "notes": "",
+   "source_sha256": "2d9ecfa99dc0ff6d2aa336dff4d89297466b0eda30e0d95f8132fb5cb54403ca"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 28,
+   "issue": "Amuro taii rendered \"Capt.\" (army-style, consistent with corpus \"Captain Burning\"); official CCA English dub uses \"Lieutenant\". Could not open Gundam wiki (HTTP 402) to verify. Risk of confusion with ship captains."
+  },
+  {
+   "slot": 24,
+   "issue": "\"energy of excessive mass\" is literal (kajou na shitsuryou no enerugii); the source itself is technobabble."
+  },
+  {
+   "slot": 25,
+   "issue": "\"they\" = the unknown mobile-weapon force from mission 03 (karera no te ni yotte); inferred from previous meeting."
+  },
+  {
+   "slot": 35,
+   "issue": "Source omits subject for contact/return fire; mixed passive + \"we\" (wareware is explicit only for \"hostile to us\")."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "taii (Amuro)",
+   "en": "Capt.",
+   "source": "https://gundam.fandom.com/wiki/Amuro_Ray (not retrievable, HTTP 402)",
+   "why": "Rank abbreviation for Amuro in CCA era; corpus already uses Captain for Burning (same rank). Official dub says Lieutenant; orchestrator to decide."
+  },
+  {
+   "ja_reading_romaji": "Barudona ryuushi",
+   "en": "Baldora particles",
+   "source": "work/translation/en/encyclopedia_022.json (Baldora Drive page)",
+   "why": "Already used in Encyclopedia but not in any glossary file."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 19,
+  "rows_in_scene": 19,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"04  Sweep Unknown Forces\".",
+   "Slot 28 ruling: \"Capt.\" for Amuro's rank kept per orchestrator decision.",
+   "Slot 24 ruling: \"energy of excessive mass\" is a faithful literal of source technobabble; kept.",
+   "Slot 25 ruling: \"they\" is explicit in the source (\"karera no te ni yotte\"), not invented; kept.",
+   "Slot 35 ruling: passive \"Contact will be tried\" plus \"we fight back\" is acceptable; \"wareware ni\" is explicit in the source.",
+   "Slot 32: \"Lt. Cmdr. Hoshino\" matches released 4003020 and meeting_terms_015.",
+   "Thumbnail positions in slots 20, 22, 30, 31 correspond to the source."
+  ],
+  "remaining_uncertainties": [
+   "Slot 22: \"Back then\" for \"ano toki\" refers to the mission 03 battle; referent inferred from the previous meeting.",
+   "Slot 28: rank \"Capt.\" could be misread as a ship captain; orchestrator decision applied."
+  ]
+ }
+}

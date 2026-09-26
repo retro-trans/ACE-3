@@ -1,0 +1,1062 @@
+{
+  "version": "0.1.39",
+  "rows": [
+    {
+      "id": "dialogue_00814",
+      "resource_id": 2002020,
+      "text_id": 512,
+      "before": "<on()><sp(20)>All they found in the cockpits was\nresidue from those life-forms. It had\napparently spread into the electronics\nand even inside the components.",
+      "target": "<on()><sp(20)>Only residue from those life-forms was\nin the cockpits. It had apparently\nseeped into the electronics and parts.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 442
+    },
+    {
+      "id": "dialogue_00818",
+      "resource_id": 2002020,
+      "text_id": 516,
+      "before": "<on()><sp(20)>Commander <color(4)>Misumaru<ce()> has reported\nfinding something\nthat may be connected to this incident.\nApparently, it's still only a hypothesis.",
+      "target": "<on()><sp(20)>Cmdr. <color(4)>Misumaru<ce()> reports finding a\npossible link to this incident. It is still\nonly a theory.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 442
+    },
+    {
+      "id": "dialogue_00819",
+      "resource_id": 2002020,
+      "text_id": 517,
+      "before": "<on()><sp(20)>It's apparently an abandoned\nexperimental facility\ncalled the <book(1)>Baldora Drive<endbook()>.\nWe're heading there immediately.",
+      "target": "<on()><sp(20)>Reportedly, an abandoned test site\ncalled the <book(1)>Baldora Drive<endbook()>. We're heading\nthere at once.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 454
+    },
+    {
+      "id": "dialogue_00823",
+      "resource_id": 2002020,
+      "text_id": 521,
+      "before": "<on()><sp(20)>Lieutenant <color(4)>Isamu Dyson<ce()> is hereby\nordered, under special wartime\nprovisions,\nto transfer to <book(10)>Londo Bell<endbook()>.",
+      "target": "<on()><sp(20)>Lieutenant <color(4)>Isamu Dyson<ce()> is hereby\nordered, under special wartime\nprovisions, to transfer to <book(10)>Londo Bell<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 422
+    },
+    {
+      "id": "dialogue_00824",
+      "resource_id": 2002020,
+      "text_id": 522,
+      "before": "<on()><sp(20)>Chief <color(4)>Guld Bowman<ce()> is to end his\nsecondment\nand return to corporate headquarters.\"\n...Those are the orders.",
+      "target": "<on()><sp(20)>Chief <color(4)>Guld Bowman<ce()> is to end his\nsecondment and return to corporate\nheadquarters.\" ...Those are the orders.",
+      "kind": "line_breaks_only",
+      "max_width": 456
+    },
+    {
+      "id": "dialogue_00833",
+      "resource_id": 2002020,
+      "text_id": 531,
+      "before": "<on()><sp(20)>\"<color(4)>Barrel Orland<ce()>. Effective today, under\nspecial wartime provisions, you are\nappointed a second lieutenant in\n<book(10)>Londo Bell<endbook()>.\"",
+      "target": "<on()><sp(20)>\"<color(4)>Barrel Orland<ce()>. As of today, under\nwartime special provisions, you are\nappointed a 2nd Lt. in <book(10)>Londo Bell<endbook()>.\"",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 400
+    },
+    {
+      "id": "dialogue_01112",
+      "resource_id": 2002031,
+      "text_id": 511,
+      "before": "<on()><sp(20)>I heard <book(9)>Federation<endbook()> headquarters had\nseized it\nand suspended its operation. Is that\nright?",
+      "target": "<on()><sp(20)>I heard <book(9)>Federation<endbook()> headquarters had\nseized it and suspended its operation.\nIs that right?",
+      "kind": "line_breaks_only",
+      "max_width": 435
+    },
+    {
+      "id": "dialogue_01432",
+      "resource_id": 2002040,
+      "text_id": 530,
+      "before": "<on()><sp(20)>Those were <book(38)>New Federation<endbook()> troops\nearlier. A body called the\n<book(38)>New Federation<endbook()> rules this Earth by\nforce of arms.",
+      "target": "<on()><sp(20)>Those were <book(38)>New Federation<endbook()> troops. The\n<book(38)>New Federation<endbook()> rules this Earth by\nmilitary force.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 452
+    },
+    {
+      "id": "dialogue_02669",
+      "resource_id": 2002080,
+      "text_id": 504,
+      "before": "<on()><sp(20)>It seems the famed Red Comet,\n<color(5)>Char Aznable<ce()>,\nhas declared the formation\nof <book(12)>Neo Zeon<endbook()>.",
+      "target": "<on()><sp(20)>It seems the famed Red Comet,\n<color(5)>Char Aznable<ce()>, has declared the\nformation of <book(12)>Neo Zeon<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 347
+    },
+    {
+      "id": "dialogue_02672",
+      "resource_id": 2002080,
+      "text_id": 507,
+      "before": "<on()><sp(20)>There was once a war called the One\nYear War,\nfought between <book(9)>Earth Federation<endbook()> forces\nand the <color(5)>Zeon Army<ce()>.",
+      "target": "<on()><sp(20)>The One Year War was fought between\n<book(9)>Earth Federation<endbook()> forces and the\n<color(5)>Zeon Army<ce()>.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 433
+    },
+    {
+      "id": "dialogue_02673",
+      "resource_id": 2002080,
+      "text_id": 508,
+      "before": "<on()><sp(20)><color(5)>Char<ce()> was called the Red Comet,\nan ace pilot of the <color(5)>Zeon Army<ce()>,\nand the being most feared by the\n<book(9)>Federation<endbook()>.",
+      "target": "<on()><sp(20)><color(5)>Char<ce()> was called the Red Comet, an ace\npilot of the <color(5)>Zeon Army<ce()>, and the being\nmost feared by the <book(9)>Federation<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 431
+    },
+    {
+      "id": "dialogue_02675",
+      "resource_id": 2002080,
+      "text_id": 510,
+      "before": "<on()><sp(20)><book(12)>Neo Zeon<endbook()> has only issued a declaration\nof uprising\nand doesn't seem to have taken any\naction yet.",
+      "target": "<on()><sp(20)><book(12)>Neo Zeon<endbook()> has only issued a declaration\nof uprising and doesn't seem to have\ntaken any action yet.",
+      "kind": "line_breaks_only",
+      "max_width": 442
+    },
+    {
+      "id": "dialogue_02678",
+      "resource_id": 2002080,
+      "text_id": 513,
+      "before": "<on()><sp(20)>It's dangerous if they don't act right\naway.\n<color(5)>Char<ce()> isn't a man\nwho acts without a plan.",
+      "target": "<on()><sp(20)>It's dangerous if they don't act right\naway. <color(5)>Char<ce()> isn't a man who acts\nwithout a plan.",
+      "kind": "line_breaks_only",
+      "max_width": 429
+    },
+    {
+      "id": "dialogue_02679",
+      "resource_id": 2002080,
+      "text_id": 514,
+      "before": "<on()><sp(20)>The commander says he'll keep pressing\nthe danger\nup the chain, but...\nwho knows when they'll actually act.",
+      "target": "<on()><sp(20)>The commander says he'll keep pressing\nthe danger up the chain, but... who\nknows when they'll actually act.",
+      "kind": "line_breaks_only",
+      "max_width": 453
+    },
+    {
+      "id": "dialogue_02683",
+      "resource_id": 2002080,
+      "text_id": 518,
+      "before": "<on()><sp(20)>Missing since the <book(4)>First Defensive War<endbook()>\ntwo years ago,\neven <book(9)>Federation<endbook()> forces\nhad no lead on him.",
+      "target": "<on()><sp(20)>Missing since the <book(4)>First Defensive War<endbook()>\ntwo years ago, even <book(9)>Federation<endbook()> forces\nhad no lead on him.",
+      "kind": "line_breaks_only",
+      "max_width": 428
+    },
+    {
+      "id": "dialogue_02684",
+      "resource_id": 2002080,
+      "text_id": 519,
+      "before": "<on()><sp(20)>He too was called the Blue Hawk of\n<book(18)>Giganos<endbook()>,\na man who was an ace of the <book(18)>Giganos<endbook()>\nmilitary.",
+      "target": "<on()><sp(20)>He too was called the Blue Hawk of\n<book(18)>Giganos<endbook()>, a man who was an ace of the\n<book(18)>Giganos<endbook()> military.",
+      "kind": "line_breaks_only",
+      "max_width": 425
+    },
+    {
+      "id": "dialogue_02686",
+      "resource_id": 2002080,
+      "text_id": 521,
+      "before": "<on()><sp(20)>Furthermore, there's the mysterious\nenemy force\nthat ran joint operations with the\n<book(18)>Giganos<endbook()> military...",
+      "target": "<on()><sp(20)>Furthermore, there's the mysterious\nenemy force that ran joint operations\nwith the <book(18)>Giganos<endbook()> military...",
+      "kind": "line_breaks_only",
+      "max_width": 426
+    },
+    {
+      "id": "dialogue_02689",
+      "resource_id": 2002080,
+      "text_id": 524,
+      "before": "<on()><sp(20)>Yeah. We have to track down <color(5)>Berkt<ce()>'s\nwhereabouts\nwhile also fighting them\nat the same time.",
+      "target": "<on()><sp(20)>Yeah. We have to track down <color(5)>Berkt<ce()>'s\nwhereabouts while also fighting them at\nthe same time.",
+      "kind": "line_breaks_only",
+      "max_width": 451
+    },
+    {
+      "id": "dialogue_02692",
+      "resource_id": 2002080,
+      "text_id": 527,
+      "before": "<on()><sp(20)>But we can't predict which side\nhe'll show up on.\nWe'll just have to keep fighting while we\nchase him.",
+      "target": "<on()><sp(20)>But we can't predict which side he'll\nshow up on. We'll just have to keep\nfighting while we chase him.",
+      "kind": "line_breaks_only",
+      "max_width": 422
+    },
+    {
+      "id": "dialogue_02698",
+      "resource_id": 2002080,
+      "text_id": 601,
+      "before": "<on()><sp(20)>There's no guarantee <color(5)>Berkt<ce()> will show\nup,\nbut we also can't leave things as they\nare.",
+      "target": "<on()><sp(20)>There's no guarantee <color(5)>Berkt<ce()> will show\nup, but we also can't leave things as\nthey are.",
+      "kind": "line_breaks_only",
+      "max_width": 421
+    },
+    {
+      "id": "dialogue_03038",
+      "resource_id": 2002090,
+      "text_id": 536,
+      "before": "<on()><sp(20)>The unit that appeared during the\nrecent attack on <book(25)>Shirahime<endbook()> has\nreportedly been seen at other colonies\ntoo.",
+      "target": "<on()><sp(20)>The unit from the recent <book(25)>Shirahime<endbook()>\nattack was reportedly seen at other\ncolonies too.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 404
+    },
+    {
+      "id": "dialogue_03929",
+      "resource_id": 2002120,
+      "text_id": 516,
+      "before": "<on()><sp(20)>Everyone, I'm sorry.\nI'd like to give you an explanation,\nbut there doesn't seem to be time right\nnow.",
+      "target": "<on()><sp(20)>Everyone, I'm sorry. I'd like to give\nyou an explanation, but there doesn't\nseem to be time right now.",
+      "kind": "line_breaks_only",
+      "max_width": 427
+    },
+    {
+      "id": "dialogue_03931",
+      "resource_id": 2002120,
+      "text_id": 518,
+      "before": "<on()><sp(20)>If the <book(38)>New Federation<endbook()> catches wind of\nthis,\nit's entirely possible <color(5)>Berkt<ce()>'s unit\nwill move to seize it.",
+      "target": "<on()><sp(20)>If the <book(38)>New Federation<endbook()> catches wind of\nthis, it's entirely possible <color(5)>Berkt<ce()>'s unit\nwill move to seize it.",
+      "kind": "line_breaks_only",
+      "max_width": 439
+    },
+    {
+      "id": "dialogue_04314",
+      "resource_id": 2002130,
+      "text_id": 504,
+      "before": "<on()><sp(20)>In the last of them, the\n<book(42)>Space Rev. Army<endbook()>\nused a colony drop as its trump card\nand pressed Earth to surrender.",
+      "target": "<on()><sp(20)>In the last war, the <book(42)>Space Rev. Army<endbook()>\nused a colony drop as its trump card to\ndemand Earth's surrender.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 447
+    },
+    {
+      "id": "dialogue_04318",
+      "resource_id": 2002130,
+      "text_id": 508,
+      "before": "<on()><sp(20)>Having lost my Newtype power, I began\nfighting\nto protect Newtypes, so this tragedy\nnever happens again.",
+      "target": "<on()><sp(20)>Having lost my Newtype power, I began\nfighting to protect Newtypes, so this\ntragedy never happens again.",
+      "kind": "line_breaks_only",
+      "max_width": 439
+    },
+    {
+      "id": "dialogue_04321",
+      "resource_id": 2002130,
+      "text_id": 511,
+      "before": "<on()><sp(20)>Let those who have something to protect\nprotect it,\nand those who have something to save,\nsave it.",
+      "target": "<on()><sp(20)>Let those who have something to protect\nprotect it, and those who have\nsomething to save, save it.",
+      "kind": "line_breaks_only",
+      "max_width": 458
+    },
+    {
+      "id": "dialogue_04540",
+      "resource_id": 2002140,
+      "text_id": 512,
+      "before": "<on()><sp(20)><color(4)>Gainer<ce()>...\nIf she's with the <book(56)>Siberian Railway<endbook()>,\nyou'll probably get to see her again,\nwon't you?",
+      "target": "<on()><sp(20)><color(4)>Gainer<ce()>... If she's with the\n<book(56)>Siberian Railway<endbook()>, you'll probably get to\nsee her again, won't you?",
+      "kind": "line_breaks_only",
+      "max_width": 449
+    },
+    {
+      "id": "dialogue_04541",
+      "resource_id": 2002140,
+      "text_id": 513,
+      "before": "<on()><sp(20)>Yeah.\nI can't let her stay somewhere like a\nbattlefield.\nI'll definitely convince her myself.",
+      "target": "<on()><sp(20)>Yeah. I can't let her stay somewhere\nlike a battlefield. I'll definitely\nconvince her myself.",
+      "kind": "line_breaks_only",
+      "max_width": 422
+    },
+    {
+      "id": "dialogue_04786",
+      "resource_id": 2002150,
+      "text_id": 509,
+      "before": "<on()><sp(20)><color(4)>Ryoma Nagare<ce()> should have been\nat the epicenter of the\n<book(52)>Deuteron Missile<endbook()>.\nWhy is he still alive?",
+      "target": "<on()><sp(20)><color(4)>Ryoma Nagare<ce()> should have been at the\nepicenter of the <book(52)>Deuteron Missile<endbook()>. Why\nis he still alive?",
+      "kind": "line_breaks_only",
+      "max_width": 445
+    },
+    {
+      "id": "dialogue_04792",
+      "resource_id": 2002150,
+      "text_id": 515,
+      "before": "<on()><sp(20)>Still, the <book(48)>Shin Dragon<endbook()>'s location is\nunknown.\nIt likely won't surface for a while.\nSo, what will he do next...",
+      "target": "<on()><sp(20)>Still, the <book(48)>Shin Dragon<endbook()>'s location is\nunknown. It likely won't surface for a\nwhile. So, what will he do next...",
+      "kind": "line_breaks_only",
+      "max_width": 437
+    },
+    {
+      "id": "dialogue_04795",
+      "resource_id": 2002150,
+      "text_id": 542,
+      "before": "<on()><sp(20)>I'm also worried about the situation\nover there.\nCould we be allowed to return there\nonce?",
+      "target": "<on()><sp(20)>I'm also worried about the situation\nover there. Could we be allowed to\nreturn there once?",
+      "kind": "line_breaks_only",
+      "max_width": 412
+    },
+    {
+      "id": "dialogue_05019",
+      "resource_id": 2002160,
+      "text_id": 522,
+      "before": "<on()><sp(20)>Furthermore, their statement was\nbroadcast\nacross every military communication\nband.",
+      "target": "<on()><sp(20)>Furthermore, their statement was\nbroadcast across every military\ncommunication band.",
+      "kind": "line_breaks_only",
+      "max_width": 379
+    },
+    {
+      "id": "dialogue_05020",
+      "resource_id": 2002160,
+      "text_id": 523,
+      "before": "<on()><sp(20)><book(29)>Martian Successors<endbook()>' rep, Vice Admiral\n<color(5)>Kusakabe<ce()>,\ndemands the <book(9)>Earth Federation<endbook()>'s\ndissolution.",
+      "target": "<on()><sp(20)><book(29)>Martian Successors<endbook()>' rep, Vice Admiral\n<color(5)>Kusakabe<ce()>, demands the\n<book(9)>Earth Federation<endbook()>'s dissolution.",
+      "kind": "line_breaks_only",
+      "max_width": 434
+    },
+    {
+      "id": "dialogue_05021",
+      "resource_id": 2002160,
+      "text_id": 524,
+      "before": "<on()><sp(20)>If the demand isn't met\nwithin 24 hours,\nthey say they won't hesitate to use the\n<book(33)>Macross<endbook()> Cannon.",
+      "target": "<on()><sp(20)>If the demand isn't met within 24\nhours, they say they won't hesitate to\nuse the <book(33)>Macross<endbook()> Cannon.",
+      "kind": "line_breaks_only",
+      "max_width": 437
+    },
+    {
+      "id": "dialogue_05682",
+      "resource_id": 2002180,
+      "text_id": 521,
+      "before": "<on()><sp(20)>The <book(29)>Martian Successors<endbook()> faked a shuttle\nexplosion, covering up the real\nkidnapping of <color(4)>Akito<ce()>\nand <color(4)>Yurika<ce()>...",
+      "target": "<on()><sp(20)>The <book(29)>Martian Successors<endbook()> faked a shuttle\nexplosion, covering up the real\nkidnapping of <color(4)>Akito<ce()> and <color(4)>Yurika<ce()>...",
+      "kind": "line_breaks_only",
+      "max_width": 443
+    },
+    {
+      "id": "dialogue_05690",
+      "resource_id": 2002180,
+      "text_id": 529,
+      "before": "<on()><sp(20)>The absolute weapon that is the\n<book(30)>Boson Jump<endbook()>\nis still in their hands.\nWe can't afford to let our guard down.",
+      "target": "<on()><sp(20)>The absolute weapon that is the\n<book(30)>Boson Jump<endbook()> is still in their hands. We\ncan't afford to let our guard down.",
+      "kind": "line_breaks_only",
+      "max_width": 432
+    },
+    {
+      "id": "dialogue_05710",
+      "resource_id": 2002180,
+      "text_id": 549,
+      "before": "<on()><sp(20)>A report from the <book(9)>Federation<endbook()> forces\nsays\n<color(5)>Berkt<ce()> and the others vanished into\nthe <book(3)>Wormhole<endbook()>.",
+      "target": "<on()><sp(20)>A report from the <book(9)>Federation<endbook()> forces\nsays <color(5)>Berkt<ce()> and the others vanished into\nthe <book(3)>Wormhole<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 451
+    },
+    {
+      "id": "dialogue_05713",
+      "resource_id": 2002180,
+      "text_id": 552,
+      "before": "<on()><sp(20)>The <book(61)>Nirvash<endbook()> isn't doing so well\neither...\nWe can't fix these on our end.\nMind if we head back for now?",
+      "target": "<on()><sp(20)>The <book(61)>Nirvash<endbook()> isn't doing so well\neither... We can't fix these on our\nend. Mind if we head back for now?",
+      "kind": "line_breaks_only",
+      "max_width": 405
+    },
+    {
+      "id": "dialogue_05985",
+      "resource_id": 2002190,
+      "text_id": 508,
+      "before": "<on()><sp(20)>Evil commander or not, he wouldn't\nmake an executive\nout of someone trying to destroy his\nown world.",
+      "target": "<on()><sp(20)>Evil commander or not, he wouldn't\nmake an executive out of someone\ntrying to destroy his own world.",
+      "kind": "line_breaks_only",
+      "max_width": 403
+    },
+    {
+      "id": "dialogue_05987",
+      "resource_id": 2002190,
+      "text_id": 510,
+      "before": "<on()><sp(20)>Well, it'd be pointless.\nSomeone who'd actually listen to us\nwouldn't be an evil commander in the\nfirst place.",
+      "target": "<on()><sp(20)>Well, it'd be pointless. Someone who'd\nactually listen to us wouldn't be an evil\ncommander in the first place.",
+      "kind": "line_breaks_only",
+      "max_width": 450
+    },
+    {
+      "id": "dialogue_05990",
+      "resource_id": 2002190,
+      "text_id": 513,
+      "before": "<on()><sp(20)>So as long as he's an executive, he's\nfree\nto use the <book(38)>New Federation<endbook()> however he\nlikes.",
+      "target": "<on()><sp(20)>So as long as he's an executive, he's\nfree to use the <book(38)>New Federation<endbook()> however\nhe likes.",
+      "kind": "line_breaks_only",
+      "max_width": 450
+    },
+    {
+      "id": "dialogue_05994",
+      "resource_id": 2002190,
+      "text_id": 517,
+      "before": "<on()><sp(20)>Dr. <color(4)>Bear<ce()> is the foremost expert in\n<book(67)>Archetype<endbook()> research.\nSome circumstances led him to\ncome aboard.",
+      "target": "<on()><sp(20)>Dr. <color(4)>Bear<ce()> is the foremost expert in\n<book(67)>Archetype<endbook()> research. Some\ncircumstances led him to come aboard.",
+      "kind": "line_breaks_only",
+      "max_width": 442
+    },
+    {
+      "id": "dialogue_05995",
+      "resource_id": 2002190,
+      "text_id": 518,
+      "before": "<on()><sp(20)>Speaking of Dr. <color(4)>Bear<ce()>,\nhe only ever researches what he likes,\nbut apparently turns out first-rate\npapers...",
+      "target": "<on()><sp(20)>Speaking of Dr. <color(4)>Bear<ce()>, he only ever\nresearches what he likes, but apparently\nturns out first-rate papers...",
+      "kind": "line_breaks_only",
+      "max_width": 452
+    },
+    {
+      "id": "dialogue_06000",
+      "resource_id": 2002190,
+      "text_id": 523,
+      "before": "<on()><sp(20)>That's right. The\n<book(71)>Scub Sentience Theory<endbook()> is\nan unorthodox theory not yet proven\nscientifically.",
+      "target": "<on()><sp(20)>That's right. The\n<book(71)>Scub Sentience Theory<endbook()> is an unorthodox\ntheory not yet proven scientifically.",
+      "kind": "line_breaks_only",
+      "max_width": 457
+    },
+    {
+      "id": "dialogue_06013",
+      "resource_id": 2002190,
+      "text_id": 536,
+      "before": "<on()><sp(20)>Thanks.\nIf the <book(71)>Scub Sentience Theory<endbook()> is proven,\nthe <book(77)>Limit of Questions<endbook()> could eventually\nbe proven too.",
+      "target": "<on()><sp(20)>Thanks. If the <book(71)>Scub Sentience Theory<endbook()> is\nproven, the <book(77)>Limit of Questions<endbook()> could\neventually be proven too.",
+      "kind": "line_breaks_only",
+      "max_width": 456
+    },
+    {
+      "id": "dialogue_06023",
+      "resource_id": 2002190,
+      "text_id": 546,
+      "before": "<on()><sp(20)>This isn't about whether we can. We\nwill.\nOtherwise, no matter what <color(5)>Berkt<ce()> does,\nruin comes to this world.",
+      "target": "<on()><sp(20)>This isn't about whether we can. We\nwill. Otherwise, no matter what <color(5)>Berkt<ce()>\ndoes, ruin comes to this world.",
+      "kind": "line_breaks_only",
+      "max_width": 425
+    },
+    {
+      "id": "dialogue_06026",
+      "resource_id": 2002190,
+      "text_id": 549,
+      "before": "<on()><sp(20)><book(51)>Getter Rays<endbook()> have apparently\nbuilt up massively in a <book(48)>Shin Dragon<endbook()>\nthat's appeared.\n<color(5)>Berkt<ce()> may well show up there.",
+      "target": "<on()><sp(20)>Vast reserves of <book(51)>Getter Rays<endbook()> are\nreported in a newly sighted\n<book(48)>Shin Dragon<endbook()>. <color(5)>Berkt<ce()> may appear there.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 434
+    },
+    {
+      "id": "dialogue_06539",
+      "resource_id": 2002200,
+      "text_id": 520,
+      "before": "<on()><sp(20)>In the end, we did manage to stop the\n<book(13)>5th Luna<endbook()>.\nBut their operation\nisn't over with this.",
+      "target": "<on()><sp(20)>In the end, we did manage to stop the\n<book(13)>5th Luna<endbook()>. But their operation isn't over\nwith this.",
+      "kind": "line_breaks_only",
+      "max_width": 460
+    },
+    {
+      "id": "dialogue_06540",
+      "resource_id": 2002200,
+      "text_id": 521,
+      "before": "<on()><sp(20)>They're already planning their next\nmove.\nHolding the <book(30)>Boson Jump<endbook()> keeps us on\ntheir leash regardless.",
+      "target": "<on()><sp(20)>They're already planning their next\nmove. Holding the <book(30)>Boson Jump<endbook()> keeps us\non their leash regardless.",
+      "kind": "line_breaks_only",
+      "max_width": 446
+    },
+    {
+      "id": "dialogue_06542",
+      "resource_id": 2002200,
+      "text_id": 523,
+      "before": "<on()><sp(20)>Agreed.\nFirst, we deal with the <book(30)>Boson Jump<endbook()>\nthreat\nbefore anything else.",
+      "target": "<on()><sp(20)>Agreed. First, we deal with the\n<book(30)>Boson Jump<endbook()> threat before anything else.",
+      "kind": "line_breaks_only",
+      "max_width": 459
+    },
+    {
+      "id": "dialogue_06801",
+      "resource_id": 2002210,
+      "text_id": 515,
+      "before": "<on()><sp(20)>Two years ago, the <book(29)>Martian Successors<endbook()>\ncaptured me,\nthey experimented on me and messed\nwith my head.",
+      "target": "<on()><sp(20)>Two years ago, the <book(29)>Martian Successors<endbook()>\ncaptured me, they experimented on me\nand messed with my head.",
+      "kind": "line_breaks_only",
+      "max_width": 436
+    },
+    {
+      "id": "dialogue_06802",
+      "resource_id": 2002210,
+      "text_id": 516,
+      "before": "<on()><sp(20)>That's when it started.\nWhen my emotions run high, my body\nsimply glows.\nLike something out of a comic, right?",
+      "target": "<on()><sp(20)>Since then, my body glows faintly when\nmy emotions run high. Like a comic,\nright?",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 447
+    },
+    {
+      "id": "dialogue_06808",
+      "resource_id": 2002210,
+      "text_id": 523,
+      "before": "<on()><sp(20)>Since then, while still officially\nregistered as dead,\nhe's kept pursuing the\n<book(29)>Martian Successors<endbook()>.",
+      "target": "<on()><sp(20)>Since then, while still officially\nregistered as dead, he's kept pursuing\nthe <book(29)>Martian Successors<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 430
+    },
+    {
+      "id": "dialogue_06815",
+      "resource_id": 2002210,
+      "text_id": 530,
+      "before": "<on()><sp(20)>The moment we leap to Mars,\nwe'll begin the suppression operation.\nEveryone, thank you for your\ncooperation.",
+      "target": "<on()><sp(20)>The moment we leap to Mars, we'll begin\nthe suppression operation. Everyone,\nthank you for your cooperation.",
+      "kind": "line_breaks_only",
+      "max_width": 454
+    },
+    {
+      "id": "dialogue_07122",
+      "resource_id": 2002220,
+      "text_id": 502,
+      "before": "<on()><sp(20)>...<color(4)>Akito<ce()>.\nWe've safely secured <color(4)>Yurika<ce()>.\nArrangements will be made to move her\nto Earth.",
+      "target": "<on()><sp(20)>...<color(4)>Akito<ce()>. We've safely secured <color(4)>Yurika<ce()>.\nArrangements will be made to move her\nto Earth.",
+      "kind": "line_breaks_only",
+      "max_width": 453
+    },
+    {
+      "id": "dialogue_07131",
+      "resource_id": 2002220,
+      "text_id": 511,
+      "before": "<on()><sp(20)>Captain <color(4)>Hoshino<ce()>.\nSorry to bring this up right now, but...\n<book(12)>Neo Zeon<endbook()> has offered peace to the\n<book(9)>Federation<endbook()>.",
+      "target": "<on()><sp(20)>Captain <color(4)>Hoshino<ce()>. Sorry to bring this up\nright now, but... <book(12)>Neo Zeon<endbook()> has offered\npeace to the <book(9)>Federation<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 453
+    },
+    {
+      "id": "dialogue_07134",
+      "resource_id": 2002220,
+      "text_id": 515,
+      "before": "<on()><sp(20)>So this world's story has a happy\nending,\nwhich means you can chase after <color(5)>Berkt<ce()>\nwithout any worries now?",
+      "target": "<on()><sp(20)>So this world's story has a happy\nending, which means you can chase\nafter <color(5)>Berkt<ce()> without any worries now?",
+      "kind": "line_breaks_only",
+      "max_width": 426
+    },
+    {
+      "id": "dialogue_07136",
+      "resource_id": 2002220,
+      "text_id": 517,
+      "before": "<on()><sp(20)>That's true.\nThe <book(38)>New Federation<endbook()> should've moved by\nnow, too.\nI'm curious about the <book(48)>Shin Dragon<endbook()> too.",
+      "target": "<on()><sp(20)>That's true. The <book(38)>New Federation<endbook()>\nshould've moved by now, too. I'm\ncurious about the <book(48)>Shin Dragon<endbook()> too.",
+      "kind": "line_breaks_only",
+      "max_width": 399
+    },
+    {
+      "id": "dialogue_07145",
+      "resource_id": 2002220,
+      "text_id": 526,
+      "before": "<on()><sp(20)>...Before I came here,\nI was just a high schooler, and I hated\nthings\nlike the military and soldiers.",
+      "target": "<on()><sp(20)>...Before I came here, I was just a high\nschooler, and I hated things like the\nmilitary and soldiers.",
+      "kind": "line_breaks_only",
+      "max_width": 445
+    },
+    {
+      "id": "dialogue_07151",
+      "resource_id": 2002220,
+      "text_id": 532,
+      "before": "<on()><sp(20)><color(4)>Barrel<ce()>...\nI understand.\nIf that's how you feel, I'll do anything I\ncan.",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>... I understand. If that's how\nyou feel, I'll do anything I can.",
+      "kind": "line_breaks_only",
+      "max_width": 427
+    },
+    {
+      "id": "dialogue_07604",
+      "resource_id": 2002230,
+      "text_id": 524,
+      "before": "<on()><sp(20)>...So even against enemies, I've been\nhurting people like that too.\nWith the <book(61)>Nirvash<endbook()>'s tremendous\npower...",
+      "target": "<on()><sp(20)>...So even against enemies, I've been\nhurting people like that too. With the\n<book(61)>Nirvash<endbook()>'s tremendous power...",
+      "kind": "line_breaks_only",
+      "max_width": 426
+    },
+    {
+      "id": "dialogue_07951",
+      "resource_id": 2002240,
+      "text_id": 511,
+      "before": "<on()><sp(20)>Word's come in from the\n<book(84)>Tresor Research Institute<endbook()>.\nThe <book(61)>Nirvash<endbook()>'s spec-up\nis apparently ready.",
+      "target": "<on()><sp(20)>Word's come in from the\n<book(84)>Tresor Research Institute<endbook()>. The\n<book(61)>Nirvash<endbook()>'s spec-up is apparently ready.",
+      "kind": "line_breaks_only",
+      "max_width": 443
+    },
+    {
+      "id": "dialogue_07145",
+      "resource_id": 2002250,
+      "text_id": 522,
+      "before": "<on()><sp(20)>...Before I came here,\nI was just a high schooler, and I hated\nthings\nlike the military and soldiers.",
+      "target": "<on()><sp(20)>...Before I came here, I was just a high\nschooler, and I hated things like the\nmilitary and soldiers.",
+      "kind": "line_breaks_only",
+      "max_width": 445
+    },
+    {
+      "id": "dialogue_07151",
+      "resource_id": 2002250,
+      "text_id": 528,
+      "before": "<on()><sp(20)><color(4)>Barrel<ce()>...\nI understand.\nIf that's how you feel, I'll do anything I\ncan.",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>... I understand. If that's how\nyou feel, I'll do anything I can.",
+      "kind": "line_breaks_only",
+      "max_width": 427
+    },
+    {
+      "id": "dialogue_08858",
+      "resource_id": 2002260,
+      "text_id": 505,
+      "before": "<on()><sp(20)>Around that time, I took <color(4)>Eureka<ce()>,\ndeserted the military with <color(4)>Talho<ce()> and\nothers,\nand formed the <book(60)>Gekkostate<endbook()>.",
+      "target": "<on()><sp(20)>Around that time, I took <color(4)>Eureka<ce()>,\ndeserted the military with <color(4)>Talho<ce()> and\nothers, and formed the <book(60)>Gekkostate<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 419
+    },
+    {
+      "id": "dialogue_08859",
+      "resource_id": 2002260,
+      "text_id": 506,
+      "before": "<on()><sp(20)>To answer for my crime as his brother,\n<color(5)>Dewey<ce()> was imprisoned,\nand the <book(78)>Ageha Plan<endbook()> was sealed away\nwith him.",
+      "target": "<on()><sp(20)>To answer for my crime as his brother,\n<color(5)>Dewey<ce()> was imprisoned, and the\n<book(78)>Ageha Plan<endbook()> was sealed away with him.",
+      "kind": "line_breaks_only",
+      "max_width": 441
+    },
+    {
+      "id": "dialogue_08860",
+      "resource_id": 2002260,
+      "text_id": 507,
+      "before": "<on()><sp(20)>However, <book(40)>Fixx Bloodman<endbook()>, who rose to\npower\nin place of the three Sages,\nsought to make contact with <color(5)>Dewey<ce()>.",
+      "target": "<on()><sp(20)>However, <book(40)>Fixx Bloodman<endbook()>, who rose to\npower in place of the three Sages,\nsought to make contact with <color(5)>Dewey<ce()>.",
+      "kind": "line_breaks_only",
+      "max_width": 418
+    },
+    {
+      "id": "dialogue_08865",
+      "resource_id": 2002260,
+      "text_id": 512,
+      "before": "<on()><sp(20)>That's right.\nThe appearance of the <book(49)>Invaders<endbook()> was also\nsupposed to be recorded in the\n<book(78)>Ageha Plan<endbook()>.",
+      "target": "<on()><sp(20)>That's right. The appearance of the\n<book(49)>Invaders<endbook()> was also supposed to be\nrecorded in the <book(78)>Ageha Plan<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 412
+    },
+    {
+      "id": "dialogue_08866",
+      "resource_id": 2002260,
+      "text_id": 513,
+      "before": "<on()><sp(20)>But the current thinking is that the\n<book(49)>Invaders<endbook()>\nand <book(73)>Antibody Coralians<endbook()> are hostile to\neach other.",
+      "target": "<on()><sp(20)>But the current thinking is that the\n<book(49)>Invaders<endbook()> and <book(73)>Antibody Coralians<endbook()> are\nhostile to each other.",
+      "kind": "line_breaks_only",
+      "max_width": 416
+    },
+    {
+      "id": "dialogue_08870",
+      "resource_id": 2002260,
+      "text_id": 517,
+      "before": "<on()><sp(20)>Both Dr. <book(68)>Adroc<endbook()> and Dr. <color(5)>Saotome<ce()>\nwere researching the <book(69)>Scub Coral<endbook()>,\neach from the angle of their own\nspecialty.",
+      "target": "<on()><sp(20)>Both Dr. <book(68)>Adroc<endbook()> and Dr. <color(5)>Saotome<ce()> were\nresearching the <book(69)>Scub Coral<endbook()>, each from\nthe angle of their own specialty.",
+      "kind": "line_breaks_only",
+      "max_width": 432
+    },
+    {
+      "id": "dialogue_08875",
+      "resource_id": 2002260,
+      "text_id": 522,
+      "before": "<on()><sp(20)>The reason the <book(49)>Invaders<endbook()> were left a\nmystery,\nnot recorded in the <book(78)>Ageha Plan<endbook()>,\nwas Dr. <color(5)>Saotome<ce()>'s withdrawal...",
+      "target": "<on()><sp(20)>The <book(49)>Invaders<endbook()> stayed a mystery, absent\nfrom the <book(78)>Ageha Plan<endbook()>, because Dr.\n<color(5)>Saotome<ce()> withdrew...",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 436
+    },
+    {
+      "id": "dialogue_08878",
+      "resource_id": 2002260,
+      "text_id": 525,
+      "before": "<on()><sp(20)>The new <book(78)>Ageha Plan<endbook()> was supposed to\nbecome\na proposal that we should coexist\nwith the <book(69)>Scub Coral<endbook()>.",
+      "target": "<on()><sp(20)>The new <book(78)>Ageha Plan<endbook()> was supposed to\nbecome a proposal that we should\ncoexist with the <book(69)>Scub Coral<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 415
+    },
+    {
+      "id": "dialogue_08879",
+      "resource_id": 2002260,
+      "text_id": 526,
+      "before": "<on()><sp(20)>But before <book(68)>Adroc<endbook()> could make that\nproposal,\nthe Summer of Love\ntook his life.",
+      "target": "<on()><sp(20)>But before <book(68)>Adroc<endbook()> could make that\nproposal, the Summer of Love took his\nlife.",
+      "kind": "line_breaks_only",
+      "max_width": 429
+    },
+    {
+      "id": "dialogue_08880",
+      "resource_id": 2002260,
+      "text_id": 527,
+      "before": "<on()><sp(20)>Meanwhile, Dr. <color(5)>Saotome<ce()> activated\n<book(48)>Shin Dragon<endbook()>,\nand the <book(52)>Deuteron Missile<endbook()> incident\noccurred.",
+      "target": "<on()><sp(20)>Meanwhile, Dr. <color(5)>Saotome<ce()> activated\n<book(48)>Shin Dragon<endbook()>, and the <book(52)>Deuteron Missile<endbook()>\nincident occurred.",
+      "kind": "line_breaks_only",
+      "max_width": 430
+    },
+    {
+      "id": "dialogue_08883",
+      "resource_id": 2002260,
+      "text_id": 530,
+      "before": "<on()><sp(20)>About that...\nFor a while now, whenever the <book(49)>Invaders<endbook()>\nappear,\nthe <book(61)>Nirvash<endbook()> has been reacting.",
+      "target": "<on()><sp(20)>About that... For a while now,\nwhenever the <book(49)>Invaders<endbook()> appear, the\n<book(61)>Nirvash<endbook()> has been reacting.",
+      "kind": "line_breaks_only",
+      "max_width": 384
+    },
+    {
+      "id": "dialogue_09082",
+      "resource_id": 2002270,
+      "text_id": 501,
+      "before": "<on()><sp(20)>Dr. <color(5)>Saotome<ce()>, working from the\n<book(78)>Ageha Plan<endbook()>,\nbuilt <book(48)>Shin Dragon<endbook()> as a means toward\npeace.",
+      "target": "<on()><sp(20)>Dr. <color(5)>Saotome<ce()>, working from the\n<book(78)>Ageha Plan<endbook()>, built <book(48)>Shin Dragon<endbook()> as a\nmeans toward peace.",
+      "kind": "line_breaks_only",
+      "max_width": 388
+    },
+    {
+      "id": "dialogue_09083",
+      "resource_id": 2002270,
+      "text_id": 502,
+      "before": "<on()><sp(20)>Fifteen years after <color(4)>Michiru Saotome<ce()>'s\ndeath,\nhe'd given himself to avenge her,\nfighting on alone all along.",
+      "target": "<on()><sp(20)>Fifteen years after <color(4)>Michiru Saotome<ce()>'s\ndeath, he'd given himself to avenge her,\nfighting on alone all along.",
+      "kind": "line_breaks_only",
+      "max_width": 450
+    },
+    {
+      "id": "dialogue_09101",
+      "resource_id": 2002270,
+      "text_id": 520,
+      "before": "<on()><sp(20)>That's right.\nFinding you and drawing you into the\nmilitary\nwas all something I planned.",
+      "target": "<on()><sp(20)>That's right. Finding you and drawing\nyou into the military was all something\nI planned.",
+      "kind": "line_breaks_only",
+      "max_width": 447
+    },
+    {
+      "id": "dialogue_09109",
+      "resource_id": 2002270,
+      "text_id": 529,
+      "before": "<on()><sp(20)>And the two worlds that branched apart\ngradually came to take on different\nforms...\nThat's how it is.",
+      "target": "<on()><sp(20)>And the two worlds that branched apart\ngradually came to take on different\nforms... That's how it is.",
+      "kind": "line_breaks_only",
+      "max_width": 452
+    },
+    {
+      "id": "dialogue_09111",
+      "resource_id": 2002270,
+      "text_id": 531,
+      "before": "<on()><sp(20)>To return to his original world,\nhe continued developing the\n<book(1)>Baldora Drive<endbook()>\nin this world too.",
+      "target": "<on()><sp(20)>To return to his original world, he\ncontinued developing the <book(1)>Baldora Drive<endbook()>\nin this world too.",
+      "kind": "line_breaks_only",
+      "max_width": 444
+    },
+    {
+      "id": "dialogue_09112",
+      "resource_id": 2002270,
+      "text_id": 532,
+      "before": "<on()><sp(20)>Once he returned, he meant to destroy\nboth <book(1)>Baldora Drive<endbook()> units,\nsevering the worlds' connection for\ngood.",
+      "target": "<on()><sp(20)>Once he returned, he meant to destroy\nboth <book(1)>Baldora Drive<endbook()> units, severing the\nworlds' connection for good.",
+      "kind": "line_breaks_only",
+      "max_width": 434
+    },
+    {
+      "id": "dialogue_09116",
+      "resource_id": 2002270,
+      "text_id": 536,
+      "before": "<on()><sp(20)>He rarely showed emotion,\nbut he was a man who sometimes\nrevealed\nsomething like a bottomless hatred.",
+      "target": "<on()><sp(20)>He rarely showed emotion, but he was a\nman who sometimes revealed something\nlike a bottomless hatred.",
+      "kind": "line_breaks_only",
+      "max_width": 446
+    },
+    {
+      "id": "dialogue_09123",
+      "resource_id": 2002270,
+      "text_id": 543,
+      "before": "<on()><sp(20)>But the two worlds are completely\ndifferent.\nShouldn't it be impossible for the same\nperson to exist in both?",
+      "target": "<on()><sp(20)>But the two worlds are completely\ndifferent. Shouldn't it be impossible\nfor the same person to exist in both?",
+      "kind": "line_breaks_only",
+      "max_width": 419
+    },
+    {
+      "id": "dialogue_09131",
+      "resource_id": 2002270,
+      "text_id": 551,
+      "before": "<on()><sp(20)>Everyone here fights with their own\nconvictions.\nHiding who I really was\nfelt like it was disgracing that.",
+      "target": "<on()><sp(20)>Everyone here fights with their own\nconvictions. Hiding who I really was\nfelt like it was disgracing that.",
+      "kind": "line_breaks_only",
+      "max_width": 415
+    },
+    {
+      "id": "dialogue_09136",
+      "resource_id": 2002270,
+      "text_id": 556,
+      "before": "<on()><sp(20)>You've supported and protected me all\nthis time -\nif they're <color(4)>Faye<ce()>'s words, I'll believe\nthem.",
+      "target": "<on()><sp(20)>You've supported and protected me all\nthis time - if they're <color(4)>Faye<ce()>'s words, I'll\nbelieve them.",
+      "kind": "line_breaks_only",
+      "max_width": 448
+    },
+    {
+      "id": "dialogue_09341",
+      "resource_id": 2002280,
+      "text_id": 505,
+      "before": "<on()><sp(20)>Regretting it now won't get us\nanywhere.\nFor now, let's sort out our situation\nand think of a solution.",
+      "target": "<on()><sp(20)>Regretting it now won't get us\nanywhere. For now, let's sort out our\nsituation and think of a solution.",
+      "kind": "line_breaks_only",
+      "max_width": 428
+    },
+    {
+      "id": "dialogue_09356",
+      "resource_id": 2002280,
+      "text_id": 520,
+      "before": "<on()><sp(20)>If he managed to cross over there...\nhe can take his time opening the\n<book(3)>wormhole<endbook()>\nfrom that side.",
+      "target": "<on()><sp(20)>If he managed to cross over there... he\ncan take his time opening the <book(3)>wormhole<endbook()>\nfrom that side.",
+      "kind": "line_breaks_only",
+      "max_width": 449
+    },
+    {
+      "id": "dialogue_09364",
+      "resource_id": 2002280,
+      "text_id": 528,
+      "before": "<on()><sp(20)>Sorry to bring this up now, but...\n<color(4)>Holland<ce()>. Word came in that <color(6)>Norb<ce()>\nhas been captured by the\n<book(38)>New Federation<endbook()>.",
+      "target": "<on()><sp(20)>Sorry to bring this up now, but...\n<color(4)>Holland<ce()>. Word came in that <color(6)>Norb<ce()> has\nbeen captured by the <book(38)>New Federation<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 433
+    },
+    {
+      "id": "dialogue_09368",
+      "resource_id": 2002280,
+      "text_id": 532,
+      "before": "<on()><sp(20)>From here, I want <book(60)>Gekkostate<endbook()>\nto head out and rescue the <book(83)>Vodarac<endbook()> high\npriest,\n<color(6)>Norb<ce()>.",
+      "target": "<on()><sp(20)>From here, I want <book(60)>Gekkostate<endbook()> to head\nout and rescue the <book(83)>Vodarac<endbook()> high priest,\n<color(6)>Norb<ce()>.",
+      "kind": "line_breaks_only",
+      "max_width": 447
+    },
+    {
+      "id": "dialogue_09370",
+      "resource_id": 2002280,
+      "text_id": 534,
+      "before": "<on()><sp(20)>He's held by the <book(38)>New Federation<endbook()> for\nnow,\nbut moved to <book(38)>New Federation<endbook()> HQ,\nwe'd never reach him again.",
+      "target": "<on()><sp(20)>He's held by the <book(38)>New Federation<endbook()> for\nnow, but moved to <book(38)>New Federation<endbook()> HQ,\nwe'd never reach him again.",
+      "kind": "line_breaks_only",
+      "max_width": 432
+    },
+    {
+      "id": "dialogue_09770",
+      "resource_id": 2002290,
+      "text_id": 513,
+      "before": "<on()><sp(20)><color(5)>Dewey<ce()> knows the <book(77)>Limit of Questions<endbook()> and\n<book(73)>Antibody Coralians<endbook()>' secrets, and still\nruns\n<book(82)>Operation Orange<endbook()>?",
+      "target": "<on()><sp(20)><color(5)>Dewey<ce()> knows the <book(77)>Limit of Questions<endbook()> and\n<book(73)>Antibody Coralians<endbook()>' secrets, and still\nruns <book(82)>Operation Orange<endbook()>?",
+      "kind": "line_breaks_only",
+      "max_width": 459
+    },
+    {
+      "id": "dialogue_09778",
+      "resource_id": 2002290,
+      "text_id": 521,
+      "before": "<on()><sp(20)>The <book(69)>Scub Coral<endbook()> is dormant, and that's\nwhy it hasn't crossed the\n<book(77)>Limit of Questions<endbook()>\n...that was my hypothesis.",
+      "target": "<on()><sp(20)>The <book(69)>Scub Coral<endbook()> lies dormant, so it stays\nbelow the <book(77)>Limit of Questions<endbook()>... That\nwas my theory.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 449
+    },
+    {
+      "id": "dialogue_09780",
+      "resource_id": 2002290,
+      "text_id": 523,
+      "before": "<on()><sp(20)><color(5)>Dewey<ce()> means to destroy the <book(69)>Scub<endbook()>'s\ndormancy control, the <book(80)>Command Cluster<endbook()>,\nand\ntrigger the <book(77)>Limit of Questions<endbook()>.",
+      "target": "<on()><sp(20)><color(5)>Dewey<ce()> means to destroy the <book(69)>Scub<endbook()>'s\ndormancy control, the <book(80)>Command Cluster<endbook()>,\nand trigger the <book(77)>Limit of Questions<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 456
+    },
+    {
+      "id": "dialogue_09787",
+      "resource_id": 2002290,
+      "text_id": 530,
+      "before": "<on()><sp(20)>At that moment, the <book(77)>Limit of Questions<endbook()>\nbegan. But the <book(69)>Scub<endbook()> rushed into\ndormancy and stopped it from\nhappening.",
+      "target": "<on()><sp(20)>The <book(77)>Limit of Questions<endbook()> began then. But\nthe <book(69)>Scub<endbook()> quickly went dormant to stop\nit.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 449
+    },
+    {
+      "id": "dialogue_09806",
+      "resource_id": 2002290,
+      "text_id": 549,
+      "before": "<on()><sp(20)>Captain.\nWord's in: the colonies'\n<book(42)>Space Rev. Army<endbook()> sent a huge fleet to\nseize the moon.",
+      "target": "<on()><sp(20)>Captain. Word's in: the colonies'\n<book(42)>Space Rev. Army<endbook()> sent a huge fleet to\nseize the moon.",
+      "kind": "line_breaks_only",
+      "max_width": 421
+    },
+    {
+      "id": "dialogue_09932",
+      "resource_id": 2002300,
+      "text_id": 323,
+      "before": "<on()><sp(20)>Isn't this power itself humanity's\nevolution...?\nIsn't that what's called the power of a\nNewtype?<ab(500)><off()>",
+      "target": "<on()><sp(20)>Isn't this power itself humanity's\nevolution...? Isn't that what's called\nthe power of a Newtype?<ab(500)><off()>",
+      "kind": "line_breaks_only",
+      "max_width": 429
+    },
+    {
+      "id": "dialogue_09937",
+      "resource_id": 2002300,
+      "text_id": 328,
+      "before": "<on()><sp(20)>And I saw beyond time. I felt the\nfuture.\nAre you saying all of that was an\nillusion?<ab(500)><off()>",
+      "target": "<on()><sp(20)>And I saw beyond time. I felt the\nfuture. Are you saying all of that was\nan illusion?<ab(500)><off()>",
+      "kind": "line_breaks_only",
+      "max_width": 436
+    },
+    {
+      "id": "dialogue_09973",
+      "resource_id": 2002300,
+      "text_id": 502,
+      "before": "<on()><sp(20)>I'll go on living with <color(4)>Garrod<ce()>, with my\nown strength now.\nBecause that strength is something you\ngave me.",
+      "target": "<on()><sp(20)>I'll go on living with <color(4)>Garrod<ce()>, with my\nown strength now. Because that\nstrength is something you gave me.",
+      "kind": "line_breaks_only",
+      "max_width": 423
+    },
+    {
+      "id": "dialogue_09978",
+      "resource_id": 2002300,
+      "text_id": 507,
+      "before": "<on()><sp(20)>A Newtype is human too.\nNo matter how much power they hold,\na human can never become more than\nhuman.",
+      "target": "<on()><sp(20)>A Newtype is human too. No matter\nhow much power they hold, a human can\nnever become more than human.",
+      "kind": "line_breaks_only",
+      "max_width": 455
+    },
+    {
+      "id": "dialogue_09981",
+      "resource_id": 2002300,
+      "text_id": 510,
+      "before": "<on()><sp(20)>The <book(38)>New Federation<endbook()> suffered heavy\nlosses in this battle,\nand its leader, <book(40)>Fixx Bloodman<endbook()>, died as\nwell.",
+      "target": "<on()><sp(20)>The <book(38)>New Federation<endbook()> suffered heavy\nlosses in this battle, and its leader,\n<book(40)>Fixx Bloodman<endbook()>, died as well.",
+      "kind": "line_breaks_only",
+      "max_width": 405
+    },
+    {
+      "id": "dialogue_09984",
+      "resource_id": 2002300,
+      "text_id": 513,
+      "before": "<on()><sp(20)>Thanks to <book(46)>D.O.M.E.<endbook()>, the\n<book(80)>Command Cluster<endbook()> called off its order to\nwake the <book(69)>Scub<endbook()>. Guess that means coming\nhere meant something.",
+      "target": "<on()><sp(20)>Thanks to <book(46)>D.O.M.E.<endbook()>, the\n<book(80)>Command Cluster<endbook()> canceled its <book(69)>Scub<endbook()> wake\norder. Our trip paid off.",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 458
+    },
+    {
+      "id": "dialogue_09987",
+      "resource_id": 2002300,
+      "text_id": 516,
+      "before": "<on()><sp(20)>Now that the dialogue with <book(46)>D.O.M.E.<endbook()> is\nover,\nthe <book(69)>Scub Coral<endbook()> is waiting for the time of\nmediation.",
+      "target": "<on()><sp(20)>Now that the dialogue with <book(46)>D.O.M.E.<endbook()> is\nover, the <book(69)>Scub Coral<endbook()> is waiting for the\ntime of mediation.",
+      "kind": "line_breaks_only",
+      "max_width": 455
+    },
+    {
+      "id": "dialogue_10557",
+      "resource_id": 2002311,
+      "text_id": 513,
+      "before": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()> turned out to be a\ndevice\nthat connected the two branched-off\nworlds.",
+      "target": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()> turned out to be a\ndevice that connected the two\nbranched-off worlds.",
+      "kind": "line_breaks_only",
+      "max_width": 416
+    },
+    {
+      "id": "dialogue_10559",
+      "resource_id": 2002311,
+      "text_id": 515,
+      "before": "<on()><sp(20)>The <book(69)>Scub Coral<endbook()> had to protect itself\nfrom the <book(49)>Invaders<endbook()>' hands,\nso as not to bring on the\n<book(77)>Limit of Questions<endbook()>.",
+      "target": "<on()><sp(20)>The <book(69)>Scub Coral<endbook()> had to protect itself\nfrom the <book(49)>Invaders<endbook()>' hands, so as not to\nbring on the <book(77)>Limit of Questions<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 433
+    },
+    {
+      "id": "dialogue_10575",
+      "resource_id": 2002311,
+      "text_id": 531,
+      "before": "<on()><sp(20)>He's lived a hard life.\nThat gap with <color(4)>Barrel<ce()> shaped him,\nuntil he came to think of destroying the\nworld...",
+      "target": "<on()><sp(20)>He's lived a hard life. That gap with\n<color(4)>Barrel<ce()> shaped him, until he came to\nthink of destroying the world...",
+      "kind": "line_breaks_only",
+      "max_width": 419
+    },
+    {
+      "id": "dialogue_10584",
+      "resource_id": 2002311,
+      "text_id": 540,
+      "before": "<on()><sp(20)><color(5)>Dewey<ce()> knew the <book(80)>Command Cluster<endbook()>'s\ndestruction\nwouldn't trigger the <book(77)>Limit of Questions<endbook()>\nright away.",
+      "target": "<on()><sp(20)><color(5)>Dewey<ce()> knew the <book(80)>Command Cluster<endbook()>'s\ndestruction wouldn't trigger the\n<book(77)>Limit of Questions<endbook()> right away.",
+      "kind": "line_breaks_only",
+      "max_width": 405
+    },
+    {
+      "id": "dialogue_10586",
+      "resource_id": 2002311,
+      "text_id": 542,
+      "before": "<on()><sp(20)>So the Colonel tried to turn either\n<color(4)>Eureka<ce()>\nor me into the proxy\n<book(80)>Command Cluster<endbook()>.",
+      "target": "<on()><sp(20)>So the Colonel tried to turn either\n<color(4)>Eureka<ce()> or me into the proxy\n<book(80)>Command Cluster<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 387
+    },
+    {
+      "id": "dialogue_10588",
+      "resource_id": 2002311,
+      "text_id": 544,
+      "before": "<on()><sp(20)>The <book(80)>Command Cluster<endbook()>--\n<color(4)>Anemone<ce()> or <color(4)>Eureka<ce()>, whichever--\nwas how the Colonel meant to feed it\ninto the <book(69)>Scub<endbook()>.",
+      "target": "<on()><sp(20)>The <book(80)>Command Cluster<endbook()>-- <color(4)>Anemone<ce()> or\n<color(4)>Eureka<ce()>, whichever-- was how the Colonel\nmeant to feed it into the <book(69)>Scub<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 453
+    },
+    {
+      "id": "dialogue_10589",
+      "resource_id": 2002311,
+      "text_id": 545,
+      "before": "<on()><sp(20)>So activating that program would\ntrigger\nthe <book(69)>Scub<endbook()>'s self-destruction,\nand bring on the <book(77)>Limit of Questions<endbook()>.",
+      "target": "<on()><sp(20)>So activating that program would\ntrigger the <book(69)>Scub<endbook()>'s self-destruction, and\nbring on the <book(77)>Limit of Questions<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 444
+    },
+    {
+      "id": "dialogue_10594",
+      "resource_id": 2002311,
+      "text_id": 550,
+      "before": "<on()><sp(20)>As long as the Colonel lived, nothing\nhappened,\nbut if anything befell him,\nthe world was set to be destroyed.",
+      "target": "<on()><sp(20)>As long as the Colonel lived, nothing\nhappened, but if anything befell him, the\nworld was set to be destroyed.",
+      "kind": "line_breaks_only",
+      "max_width": 459
+    },
+    {
+      "id": "dialogue_10600",
+      "resource_id": 2002311,
+      "text_id": 556,
+      "before": "<on()><sp(20)>Given how thoroughly the plan was\nprepared, why hasn't the\n<book(77)>Limit of Questions<endbook()> happened... what's\nthe reason?",
+      "target": "<on()><sp(20)>Despite all the plan's preparations, the\n<book(77)>Limit of Questions<endbook()> hasn't happened...\nWhy?",
+      "kind": "meaning_reviewed_fit",
+      "max_width": 442
+    },
+    {
+      "id": "dialogue_10604",
+      "resource_id": 2002311,
+      "text_id": 560,
+      "before": "<on()><sp(20)>But having lost its <book(80)>Command Cluster<endbook()>, the\n<book(69)>Scub<endbook()>\nwants <color(4)>Eureka<ce()> for itself.\nWe have to hurry.",
+      "target": "<on()><sp(20)>But having lost its <book(80)>Command Cluster<endbook()>, the\n<book(69)>Scub<endbook()> wants <color(4)>Eureka<ce()> for itself. We have\nto hurry.",
+      "kind": "line_breaks_only",
+      "max_width": 460
+    },
+    {
+      "id": "dialogue_10765",
+      "resource_id": 2002320,
+      "text_id": 510,
+      "before": "<on()><sp(20)>I'm a scholar - I don't care to believe in\nmiracles...\nbut given the outcome,\nyour feelings bore fruit, you two.",
+      "target": "<on()><sp(20)>I'm a scholar - I don't care to believe in\nmiracles... but given the outcome, your\nfeelings bore fruit, you two.",
+      "kind": "line_breaks_only",
+      "max_width": 456
+    },
+    {
+      "id": "dialogue_11053",
+      "resource_id": 2002330,
+      "text_id": 501,
+      "before": "<on()><sp(20)>Everyone, return to base for now.\nResupply, then move straight into the\noperation\nto destroy the rear of <book(14)>Axis<endbook()>.",
+      "target": "<on()><sp(20)>Everyone, return to base for now.\nResupply, then move straight into the\noperation to destroy the rear of <book(14)>Axis<endbook()>.",
+      "kind": "line_breaks_only",
+      "max_width": 436
+    }
+  ],
+  "summary": {
+    "dialogue_audit": {
+      "communication_rows": 3411,
+      "meaning_reviewed_fit": 15,
+      "line_breaks_only": 99
+    },
+    "changed_scene_copies": 104,
+    "dialogue_instances": 456,
+    "notice_checks": [
+      {
+        "resource_id": 4002050,
+        "expansions_checked": 103,
+        "max_width": 367,
+        "max_chars": 36
+      },
+      {
+        "resource_id": 4002054,
+        "expansions_checked": 103,
+        "max_width": 373,
+        "max_chars": 36
+      },
+      {
+        "resource_id": 4002057,
+        "expansions_checked": 103,
+        "max_width": 367,
+        "max_chars": 36
+      }
+    ],
+    "body_lines": 3,
+    "body_width": 460
+  }
+}

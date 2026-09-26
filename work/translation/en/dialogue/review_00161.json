@@ -1,0 +1,16 @@
+{
+  "slice_start": 161,
+  "slice_count": 80,
+  "reviewer": "translate_dialogue_241",
+  "rows_examined": [[146, 255]],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_type": "independent meaning review against ISO source and both adjacent contexts",
+  "corrections": [],
+  "uncertainties": [
+    {"id": "dialogue_00174", "note": "Source literally refers to increasing sonar interval, while all eight adjacent equivalent variants say sound gets faster. Keep the draft's increasing ping rate interpretation with the original source inconsistency flagged for gameplay verification."},
+    {"id": "dialogue_00189", "note": "United Space Forces remains a provisional organizational rendering. Meaning is intact; canonical terminology verification is a separate outstanding check."},
+    {"ids": ["dialogue_00233", "dialogue_00236", "dialogue_00240"], "note": "Source omits recipient of distant targeting/fire. Draft correctly preserves the implicit recipient rather than adding a ship/pilot referent."}
+  ],
+  "result": "No meaning corrections required. Reviewed status does not certify runtime fit, glossary completeness, or actual in-game use of these legacy resources."
+}

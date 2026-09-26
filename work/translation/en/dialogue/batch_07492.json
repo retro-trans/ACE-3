@@ -1,0 +1,554 @@
+{
+  "slice_start": 7492,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      7477,
+      7586
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_07414",
+        "dialogue_07415"
+      ],
+      "note": "Unattributed first-person reaction to the enemy Overman's mind-reading, addressed to Renton; speaker not settled from neighbours (possibly Eureka via the Nirvash link), left unidentified."
+    },
+    {
+      "ids": [
+        "dialogue_07418",
+        "dialogue_07422",
+        "dialogue_07480",
+        "dialogue_07482",
+        "dialogue_07483"
+      ],
+      "note": "'Kokoro no koe' (heart's voice) is Planetta's mind-reading ability; rendered literally and kept consistent so a later reviewer can retitle it centrally if the orchestrator prefers a different term (e.g. 'inner voice')."
+    },
+    {
+      "ids": [
+        "dialogue_07428",
+        "dialogue_07429",
+        "dialogue_07430",
+        "dialogue_07431",
+        "dialogue_07534"
+      ],
+      "note": "Source puns on 'untenn daiya' (operating schedule) vs. 'daiyamondo' (diamond); kept as 'schedule' plus an explicit diamond simile so the pun stays visible in English."
+    },
+    {
+      "ids": [
+        "dialogue_07537",
+        "dialogue_07538",
+        "dialogue_07539",
+        "dialogue_07540",
+        "dialogue_07541",
+        "dialogue_07547",
+        "dialogue_07552"
+      ],
+      "note": "Multi-speaker battle-banter exchange among Kashmir, Cynthia/Queen and Gainer; only rows that name a party directly (7542, 7543, 7545, 7548, 7554) are anchored. Untagged lines translated for meaning only, no speaker asserted."
+    },
+    {
+      "ids": [
+        "dialogue_07593",
+        "dialogue_07594",
+        "dialogue_07595",
+        "dialogue_07596",
+        "dialogue_07597",
+        "dialogue_07599",
+        "dialogue_07607"
+      ],
+      "note": "Post-battle bridge/crew exchange about Tiffa, Renton, Gainer and Barrel; individual speakers are not name-tagged in the corpus beyond the addressed party (color(4) name). Context (7498-7500 Garrod/Tiffa scene, 7604's Nirvash reference) strongly suggests Garrod and Renton, but no name was inserted into any row's visible text."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket command sequences (<op()>, <on()>, <sp(20)>, <ab(n)>, <off()>, <color(4)>/<ce()>, <book(61)>/<endbook()>) verified to match the source in exact order for every row via a throwaway comparison script against a fresh `dialogue_corpus.py slice` read; rows 7584-7608 and a few others have no <ab()>/<off()> in source and none was added.",
+    "format": "Newline counts verified to match source exactly for every row (checked programmatically). ASCII-only text throughout; straight quotes used for the quoted 'Queen' nickname in 7527/7528.",
+    "fit": "Full meaning drafted first; every row's visible text (commands stripped) verified <= 110 characters, none needed compression.",
+    "glossary": "Garrod (Ran), Tiffa (Adill), Renton (Thurston), Eureka, Gainer Sanga, Cynthia Lane ('Queen'), Kashmir, Game Champ, Siberian Railway, Overskill, Overman taken from character_names_021.json and terms_028.json.",
+    "meaning_review": "Independent meaning review against the Japanese source (dialogue_corpus.py slice 7492 80 --context 15) found no meaning errors in this slice's 80 rows; all set to meaning_reviewed, none left in draft. Translator's unattributed-speaker calls (7537-7541/7547/7552 battle banter) and name/term choices confirmed correct; see review_07492.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_07492",
+      "target": "<op()><sp(20)>I want to hold Sara close.\nHold her so tight I could crush her.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07493",
+      "target": "<sp(20)>Saraaa, I love you--!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07494",
+      "target": "<op()><sp(20)>What is with this brat!\nWe are in the middle of a battle here!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07495",
+      "target": "<op()><sp(20)>Garrod, follow Gainer's lead!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07496",
+      "target": "<op()><sp(20)>M-me too!?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07497",
+      "target": "<sp(20)>Uh... um...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07498",
+      "target": "<sp(20)>The moment I saw Tiffa, I felt it.\nSo this is what they call fate!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07499",
+      "target": "<sp(20)>I won't forgive anyone who lays a hand on Tiffa.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07500",
+      "target": "<sp(20)>Even if the whole Earth falls apart,\nI'll protect Tiffa, no matter what!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07501",
+      "target": "<op()><sp(20)>Garrod...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07502",
+      "target": "<op()><sp(20)>Ohhhhhh!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07503",
+      "target": "<op()><sp(20)>Next, Renton!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07504",
+      "target": "<op()><sp(20)>I have something to say too... Eureka!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07505",
+      "target": "<op()><sp(20)>Renton?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07506",
+      "target": "<op()><sp(20)>From the moment I first saw you,\nI felt something.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07507",
+      "target": "<sp(20)>Meeting you changed something in me.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07508",
+      "target": "<sp(20)>It's you that I...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07509",
+      "target": "<op()><sp(20)>Argh!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07510",
+      "target": "<sp(20)>Being young is no excuse -- that's enough of that!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07511",
+      "target": "<sp(20)>That's it, we just need to cut off\nour own Overskill.<ab(1500)>",
+      "status": "meaning_reviewed",
+      "notes": "'This side's Overskill' = the allies' own Overskill, which is apparently what was broadcasting their private thoughts/feelings as the loud declarations in 7486-7508; cutting it stops the broadcast (confirmed by 7512-7514)."
+    },
+    {
+      "id": "dialogue_07512",
+      "target": "<sp(20)>Heh heh.\nNow we can get serious about this fight.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07513",
+      "target": "<op()><sp(20)>While his Overskill is gone,\nhit him with everything at once!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07514",
+      "target": "<op()><sp(20)>I-I can't hear it!\nI can't hear what's happening outside!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07515",
+      "target": "<op()><sp(20)>Hit the Siberian Railway now, while we can!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07516",
+      "target": "<op()><sp(20)>Just because our thoughts are leaking through\ndoesn't mean we can't win... it doesn't!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07517",
+      "target": "<op()><sp(20)>What a nuisance that guy was.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07518",
+      "target": "<sp(20)>The Siberian Railway is retreating too!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07519",
+      "target": "<op()><sp(20)>No... there should still be more coming.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07520",
+      "target": "<op()><sp(20)>Two enemy units.\nWatch out especially for the red one.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07521",
+      "target": "<op()><sp(20)>It can suddenly stretch its arm out and\ngrab you. Don't let your guard down.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07522",
+      "target": "<op()><sp(20)>That Overman... you're Queen!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Queen' is Cynthia Lane's locked online-handle nickname (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_07523",
+      "target": "<op()><sp(20)>Today, you're going to hear me out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07524",
+      "target": "<op()><sp(20)>That voice, that Overman...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07525",
+      "target": "<op()><sp(20)>You're Gainer Sanga!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07526",
+      "target": "<op()><sp(20)>Game Champ,\ntoday's the day I beat you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07527",
+      "target": "<op()><sp(20)>That voice, those moves...\nYou're \"Queen\"!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Quoted \"Queen\" kept in quotes as in source (corner brackets rendered as straight quotes per ASCII rule)."
+    },
+    {
+      "id": "dialogue_07528",
+      "target": "<op()><sp(20)>\"Queen\"?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same quoted nickname."
+    },
+    {
+      "id": "dialogue_07529",
+      "target": "<op()><sp(20)>She's my rival\nin the game I play!!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "'She' refers to Queen/Cynthia Lane (glossary: female); speaker is Gainer explaining to a companion, confirmed by 7531 self-identification."
+    },
+    {
+      "id": "dialogue_07530",
+      "target": "<sp(20)>Are you listening, Queen?!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07531",
+      "target": "<sp(20)>I'm Gainer Sanga!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07532",
+      "target": "<op()><sp(20)>The King of Game Champ, huh.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Interprets 'Game Champ no King' as referencing Gainer's locked nickname 'King Gainer' (glossary nickname field), i.e. recognizing him as the Game Champ's king/champion."
+    },
+    {
+      "id": "dialogue_07533",
+      "target": "<sp(20)>Let's have some fun with real Overmans!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07534",
+      "target": "<on()><sp(20)>So those are the ones who disrupted\nmy beautiful operating schedule.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the operating-schedule/diamond wordplay from 7428-7431 ('my beautiful operating schedule')."
+    },
+    {
+      "id": "dialogue_07535",
+      "target": "<on()><sp(20)>That crime deserves death, a thousand times over.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07536",
+      "target": "<on()><sp(20)>Gwaaahhh!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07537",
+      "target": "<on()><sp(20)>Kashmir, damn him...\nHe's been utterly useless!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker criticizing Kashmir is not named in the corpus (a superior on the comm); no identity invented."
+    },
+    {
+      "id": "dialogue_07538",
+      "target": "<on()><sp(20)>That's what I told you.\nI alone would have been enough.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply defending having come alone strongly matches Cynthia Lane's established playful, self-assured personality (glossary), but the row itself carries no name tag."
+    },
+    {
+      "id": "dialogue_07539",
+      "target": "<on()><sp(20)>To think I'd be taken down...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07540",
+      "target": "<on()><sp(20)>You're not serious, are you...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker of this and surrounding battle-banter lines (7539-7552) between Kashmir, Cynthia/Queen and Gainer are not individually tagged past 7542/7545/7554 (which do name Cynthia/Gainer); translated line-by-line without asserting untagged speakers."
+    },
+    {
+      "id": "dialogue_07541",
+      "target": "<on()><sp(20)>I won't forgive you!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07542",
+      "target": "<on()><sp(20)>Stop it!\nCynthia!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07543",
+      "target": "<on()><sp(20)>As expected of you, Gainer.\nI could just love you!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07544",
+      "target": "<on()><sp(20)>Aaaaaahh!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07545",
+      "target": "<on()><sp(20)>Gainer!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07546",
+      "target": "<on()><sp(20)>Ahaha, I beat the Game Champ!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07547",
+      "target": "<on()><sp(20)>A battle... isn't a game...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07548",
+      "target": "<on()><sp(20)>No way... Gainer... what's wrong?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07549",
+      "target": "<on()><sp(20)>I never meant to actually hurt him!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Him' refers to Gainer (glossary: male), matching the preceding 7545-7548 naming him directly."
+    },
+    {
+      "id": "dialogue_07550",
+      "target": "<on()><sp(20)>Waaahh! Waaahh!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07551",
+      "target": "<on()><sp(20)>Gainer, hang in there!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07552",
+      "target": "<on()><sp(20)>...No...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07553",
+      "target": "<op()><sp(20)>Stop this now, Queen!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07554",
+      "target": "<op()><sp(20)>I'm Cynthia Lane!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07555",
+      "target": "<op()><sp(20)>If it's play that's not fighting, I'm in!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07556",
+      "target": "<op()><sp(20)>This is the most fun there is!\nFighting with Overmans!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07557",
+      "target": "<op()><sp(20)>Not like that!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07558",
+      "target": "<op()><sp(20)>Gain Bijou!\nI'm taking you back home!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07559",
+      "target": "<op()><sp(20)>Dragging along some weirdo like that --\nstill playing dirty as ever.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07560",
+      "target": "<op()><sp(20)>Say what you like!\nAs long as I bring you back, that's all that matters!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07561",
+      "target": "<op()><sp(20)>You know the enemy!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07562",
+      "target": "<op()><sp(20)>Yeah.\nA bit of history, way back.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07563",
+      "target": "<op()><sp(20)>Sweet, so sweet, sweeter than chocolate!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07564",
+      "target": "<sp(20)>It's no fun unless you try a lot harder!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07565",
+      "target": "<op()><sp(20)>So she really is fighting like it's a game!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'She' refers to Queen/Cynthia Lane (glossary: female), continuing the fight described as game-like."
+    },
+    {
+      "id": "dialogue_07566",
+      "target": "<op()><sp(20)>Another enemy that moves however it pleases!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07567",
+      "target": "<op()><sp(20)>I can't read those movements!\nDon't get too close!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07568",
+      "target": "<op()><sp(20)>Hmm.\nSo the two of you fight while talking it over.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07569",
+      "target": "<sp(20)>Does that actually work?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07570",
+      "target": "<op()><sp(20)>So that's what they call a Gundam?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07571",
+      "target": "<sp(20)>They say it's strong, but it's nothing much!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

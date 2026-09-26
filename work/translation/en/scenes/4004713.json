@@ -1,0 +1,867 @@
+{
+ "resource_id": 4004713,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 102,
+ "rows_examined": 102,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>If we don't stop Axis here, everyone back on Earth...!",
+   "notes": "'Axis' per glossary.json loc.axis; source has no color tag on this occurrence.",
+   "source_sha256": "13dc1622b6f231f65823378d963fd4604aafa1c8edd0e5a23667e967fbe93f36"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(10010,1)><speed(2)>Yeah... <color(4)>Linda<ce()> and my mom are down there too.",
+   "notes": "'Linda' = Linda Plato per dialogue/batch_00856_glossary_proposals.json and scene 4004673.json precedent.",
+   "source_sha256": "98c2d018f6bf95a77d8a87f82f68bf2d5db58265a37e724d9c1737b47c38777b"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(14010,1)><speed(2)>What's the evacuation situation on Earth like?",
+   "notes": "",
+   "source_sha256": "ebb52c3c412e3c5ee20147905e18578efcc491317cc3c85ee72d25fed0b79d1c"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>Unfortunately, only a handful of officials with the political pull to use shuttles managed to escape Earth.",
+   "notes": "",
+   "source_sha256": "32bd83ae5865767ac9246949910f71f7752954697a49ee860aef57700860eadb"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(25010,1)><speed(2)>Damn it... The higher-ups are always like this!",
+   "notes": "",
+   "source_sha256": "10318d641e2d17da8e73f351d41531ff44c9ca0a2132b58305c8870553b33ce4"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(17020,1)><speed(2)>So it's to protect our families and friends... All the more reason we can't lose.",
+   "notes": "",
+   "source_sha256": "f5dc44c9b11fe1195b2171c3e717512639c53bf8ba67e231356a0d8c7c53d273"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(5010,1)><speed(2)>What's wrong, <color(4)>Barrel<ce()>?",
+   "notes": "",
+   "source_sha256": "bbb7682dd097e7a55935854a79bc76d821c2281fac80f4b78d43f4e7cf66d88a"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1040,1)><speed(2)>Sorry, I don't know why... my hands won't stop shaking. Damn it, this has never happened before...!",
+   "notes": "'nanka' avoided literal 'it's just' phrasing (lowercase j).",
+   "source_sha256": "357b73adb46efc90f420a12b4eac4f6f4eceda3634bba3cb27309f8a4802cdea"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(5010,1)><speed(2)>It's only natural. This is that big an operation. But you don't have to carry the weight of it alone.",
+   "notes": "",
+   "source_sha256": "3eab56cabdc971c620e5a25744d326eb9ebb22744ea89b054ed9dc556a02b636"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Amuro<ce()>...",
+   "notes": "",
+   "source_sha256": "bbb805f2e6f1c43988df1f9104a641015aaf123e4b59821af2d276ff71999fc2"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(5010,1)><speed(2)>We're comrades... We'll get through this together, all of us.",
+   "notes": "",
+   "source_sha256": "2a157ac85f3b1202f49e1b65fdf163b66d3bd36102336ea82d6790512747fd9a"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1040,1)><speed(2)>I- I understand...!",
+   "notes": "No 'sir' added; source polite 'wakarimashita' has no address equivalent.",
+   "source_sha256": "1177cfede92e088948d9481e77e5e02aaebf8ffe85acbdf9e79a9bd598b0397f"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(1060,1)><speed(2)>How about it? Feeling calmer?",
+   "notes": "",
+   "source_sha256": "1859e9cf206b3bc2cdbee433fbf97d797bbf5a059b3f9f52810f4a3484b4e6a3"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(1040,1)><speed(2)>Yeah... This isn't the time to be scared. We're the ones who have to do this.",
+   "notes": "",
+   "source_sha256": "02e7b1d9150b60b79af85e97dfddae63ff05fe04de81d02d5ff37bfca3d965b0"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>All right, let's go!",
+   "notes": "",
+   "source_sha256": "584fb45cda6c13214ed3f0c4d5d8d9da181a511f8d6746f180f89a648c61d76a"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1020,2)><speed(2)>Looks like you've got your spirit back.",
+   "notes": "",
+   "source_sha256": "abe1c338b270820cf4ffbbfe6ac1900c5fadc20ef94a3bf6d782b564c7ec1b56"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,2)><speed(2)>Yes, he's more dependable than ever.",
+   "notes": "",
+   "source_sha256": "5b0b026507417b7ab885c3d3234f9eb882edf09e77fc673422ee8f3a3b12ff32"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1020,1)><speed(2)>I wish I had someone to sit in the cockpit with me too.",
+   "notes": "",
+   "source_sha256": "64345ac9abeab60edb16c637290c838db7c54bab7ca674fe7ff51fe978cb4f90"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,2)><speed(2)>Missing someone in particular?",
+   "notes": "",
+   "source_sha256": "2db1db3d62a9d91501a1c8e5d7cf159d389afbb96a8c2dd32c44c0e431e85b03"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1020,2)><speed(2)>Just a little... Not that this is the time to be saying that.",
+   "notes": "",
+   "source_sha256": "e5ac7e116ef1909147b867e0fbd1aa7b148facaddbc0657b0fa9b15acb6aa4ed"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1060,2)><speed(2)>Ahaha...!",
+   "notes": "",
+   "source_sha256": "86e4363601e0b556ced0155d5b6f33aea5c33822e2d54a30394a1cc5fe6c7320"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>, we're launching!",
+   "notes": "",
+   "source_sha256": "90e6a257fdeea450dde436268078179635a6e3f31a99bab9f9b15dc4228d10d6"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1060,1)><speed(2)>Roger!",
+   "notes": "",
+   "source_sha256": "ffb8080e634a055b952ee81e6bf7f0797deaffae66c09453e922dc7f9a9b3dab"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1020,1)><speed(2)><color(4)>Faye<ce()>! For the sake of the people waiting for us too...",
+   "notes": "",
+   "source_sha256": "9240e22c55a4fba4e5996cbcc4027acbc8f4f81cac57d5a23168a55d7a3b8056"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1060,1)><speed(2)>Right! Let's make absolutely sure this operation succeeds!",
+   "notes": "",
+   "source_sha256": "8265c473202fbee2e60ff5d0475d8044c92dd841748d4d3a906890864fe1b5c4"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(21020,1)><speed(2)>Why would a man like <color(5)>Char<ce()> pull something like this?",
+   "notes": "",
+   "source_sha256": "32a37cf1bbcab775cd275b6fb029818d9eb0d4b8f64b791db33b1dd3c5f8dbfe"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)><color(5)>Char<ce()> once fought for Zeon, to bring down the Zabi family who assassinated his father.",
+   "notes": "",
+   "source_sha256": "3bb510eb753d4d71c5ffd241eaac89a48995702d939f66f6edfdd565561b118a"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(5010,1)><speed(2)>At the same time, he grew more and more distrustful of the Federation ruling space.",
+   "notes": "'the Federation' (renbou) = the Earth Federation government per glossary.json org.earth_federation, distinct from the New Federation faction; no such faction is mentioned in this row.",
+   "source_sha256": "d6623a3a3caec16a6231f27d9d09564c7d51000ce8644704a408d9f987d12506"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(23030,1)><speed(2)>So basically, he's simply a selfish bastard.",
+   "notes": "'just' avoided (lowercase j); 'simply' substituted.",
+   "source_sha256": "2438174d6c646e9a18a74915ca9ab9dd24643a2be23b2de1f6930520c2ab2db8"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(5010,1)><speed(2)>He wants to awaken mankind. To that end, he doesn't think twice about dropping Axis.",
+   "notes": "Source has no color tag on this occurrence of Axis.",
+   "source_sha256": "073e8b6ef1897737242a72d09c39c749c90bcf4b2f6183c6f20145df7d63bf3b"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(17040,1)><speed(2)>So he too... is one more person bound by the word 'Newtype'.",
+   "notes": "'just' avoided (lowercase j).",
+   "source_sha256": "94fa12b8279b58c4c042c2f693397e3b7e780cc429cd233f9be5c752b9d2d67c"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(5010,1)><speed(2)>Yeah. I have to settle things with him.",
+   "notes": "",
+   "source_sha256": "4b5fa4e6e2ddc470a933ece44f5b21db8fe7f6675cf9ee92e6b7a66ef43131aa"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,1)><speed(2)>All right, everyone ready?",
+   "notes": "",
+   "source_sha256": "8eac29a750646eca1e88c352642b1f98e63ae2b2105997e7b450226dea46c1ee"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,1)><speed(2)>You bet.",
+   "notes": "",
+   "source_sha256": "4e32afbbd82cabeebb17c09efd5fc3a59334a78bce36a38d8bec49ea77ec42ae"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,1)><speed(2)>Anytime.",
+   "notes": "",
+   "source_sha256": "12aaf9000171db47a14a313bb485766847f0aeea8093da27af2654f82f3e8527"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(10020,2)><speed(2)>We protect Earth with our own hands. Let's go show them what we've got.",
+   "notes": "",
+   "source_sha256": "cc21eba07abcd70db3de1d5fdae14cc9fc82c88ab4698e943ebc21cca74f765d"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(10010,2)><speed(2)>Time to show them the power of the Dragonars!",
+   "notes": "",
+   "source_sha256": "960629c1adc3228aab6294605b2a57a9158b0782432185385d379f6665b2d817"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(10030,2)><speed(2)>Whoo! Nice! Every now and then, this kind of thing's good too!",
+   "notes": "",
+   "source_sha256": "51809198ad66049b5b060f435b8926f4c0822c54125c4a8cd3288b2619bdc9e3"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(25010,2)><speed(2)>All right, let's get going!",
+   "notes": "",
+   "source_sha256": "250dce58ace578bbfa103e954c573af38f9802c3595bcd7467d1ad89719cedaf"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(14030,1)><speed(2)>Launch prep all set?",
+   "notes": "",
+   "source_sha256": "428669bd1382edae39197a840b31cca72efe66b60b935dd862d131cfbdc7c4c6"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(14130,1)><speed(2)>Leave it to me.",
+   "notes": "",
+   "source_sha256": "a18cfa54f5be5d9cd9dfa3be5547ba8f3bea573195fe9af1f93cecc664302f58"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(14020,1)><speed(2)>Let's make sure everyone gets back safe.",
+   "notes": "",
+   "source_sha256": "7240e75afe76264e9449e871e053209fbc314274d4bde3b24f9078a5dde3c998"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(14010,1)><speed(2)>If we don't hold the line here... there's no tomorrow!",
+   "notes": "",
+   "source_sha256": "169529c7dec285de1446059ad801b081739128fd7926dbd4779988161e191dfa"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(25020,1)><speed(2)>This operation - we have to make it succeed, no matter what.",
+   "notes": "",
+   "source_sha256": "27f092b6b502cbc90972aa9cbc49df838784df944a888c43eb5376b1a10e9230"
+  },
+  {
+   "table": 1,
+   "slot": 145,
+   "text_id": 146,
+   "en": "<operator(14030,1)><speed(2)>All right, everyone - let's go in with everything we've got!",
+   "notes": "",
+   "source_sha256": "9c707d414e81922563db5a92275bbeaa9fd95478e85e862f6917eeee19f9d06d"
+  },
+  {
+   "table": 1,
+   "slot": 146,
+   "text_id": 147,
+   "en": "<operator(14010,1)><speed(2)>Yes!",
+   "notes": "",
+   "source_sha256": "12709e4ee5264eb8aee1f13e2151653d3a58d2739176bcd716114a93e60b2c2c"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(17040,1)><speed(2)>It's the same as back then... exactly the same. I...!",
+   "notes": "'just like back then' avoided (lowercase j); reworded.",
+   "source_sha256": "1fbfeffb52a8a6ec2cd3e0c6b77bd7e4aad941383c8572adf624d0035c5210d2"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17070,1)><speed(2)><color(4)>Jamil<ce()>... Please trust our friends... trust everyone.",
+   "notes": "",
+   "source_sha256": "b54c0954a495fc69f1505dffb95b392c18db639dd24eee04c27f550dfe306068"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(17010,1)><speed(2)>We won't let that mistake happen again. Not that tragedy.",
+   "notes": "",
+   "source_sha256": "e1781e89f1f82589560646a8fdf0c0b9329d787b7966c13b1e7837d519ccaa14"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(23010,1)><speed(2)>If we don't stop it here, I'll regret it for the rest of my life - wondering what we fought this far for.",
+   "notes": "",
+   "source_sha256": "35af046d409ecb080471bd57df56a8c4723cc259813f5b6998539d499cd4adb4"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(23020,1)><speed(2)><color(4)>Nirvash<ce()> entrusted us with the future. We can't let that trust go to waste!",
+   "notes": "",
+   "source_sha256": "5e51552f98c330b7f900809d3f687135165fae40fe42a5e7a9faf4daa3b091c9"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(17080,1)><speed(2)>Captain. Everyone's right.",
+   "notes": "",
+   "source_sha256": "8236c9d39251d650c01471b575a2d967c59229817d8ceeeccbc0d9fede54e8c7"
+  },
+  {
+   "table": 1,
+   "slot": 185,
+   "text_id": 186,
+   "en": "<operator(17040,1)><speed(2)>Yeah. So these 15 years don't end up meaning nothing... I'll fight.",
+   "notes": "",
+   "source_sha256": "5f435809762a28d236690b970140e8a328c0cebe4199dc2c6e5e3d661b772b60"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(23030,1)><speed(2)>This is the crunch! Get your heads in the game!",
+   "notes": "",
+   "source_sha256": "f68c7f8a50e8aea14f14f8ca20d43ea4dad4426658bc80f4efb05853f769f5e9"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(23010,1)><speed(2)>Right!",
+   "notes": "",
+   "source_sha256": "bae55872c838f3203debc7d55423b0fcc8e59bc98f4e63836e26e38a38806268"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(23040,1)><speed(2)><color(4)>Renton<ce()>, I'm counting on you to look after <color(4)>Eureka<ce()>.",
+   "notes": "",
+   "source_sha256": "78470f8136e17f837f771df984ce64ae30a48de4bc8f20091b7182f3922d107c"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(23010,1)><speed(2)>Got it!",
+   "notes": "",
+   "source_sha256": "1ebb1c16b8c4201fcc29f8d65b559aba784d0dac838bba0ffa3b4b117dc1f02e"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(23100,1)><speed(2)>...",
+   "notes": "Row is only ellipsis dots in source; rendered as '...'.",
+   "source_sha256": "dad8a696ac5e6b8f49ace98e044734e7e99e713fea53960c4fc907108bce9b39"
+  },
+  {
+   "table": 1,
+   "slot": 224,
+   "text_id": 225,
+   "en": "<operator(23100,1)><speed(2)>Somewhere along the way, <color(4)>Renton<ce()> became the one protecting <color(4)>Eureka<ce()>, huh.",
+   "notes": "",
+   "source_sha256": "71526d419a5d39bc644dd84b6c61c602f2422db49d585884966cb6af849f8c8d"
+  },
+  {
+   "table": 1,
+   "slot": 225,
+   "text_id": 226,
+   "en": "<operator(23020,2)><speed(2)>Yeah. <color(4)>Renton<ce()>'s gotten strong.",
+   "notes": "",
+   "source_sha256": "d7ebfb0b248d266b2385dd03243d58dcf7e6e88472f631672f430fa10bdcd859"
+  },
+  {
+   "table": 1,
+   "slot": 226,
+   "text_id": 227,
+   "en": "<operator(23010,2)><speed(2)>Y-you think so...? Ha ha ha.",
+   "notes": "",
+   "source_sha256": "1e268bc25d3b2631bc7546f48e465b3d4b1eaf8b0ff48d26340fdf1ba9373e38"
+  },
+  {
+   "table": 1,
+   "slot": 227,
+   "text_id": 228,
+   "en": "<operator(23030,1)><speed(2)>That's enough lovey-dovey stuff. Listen up, we're stopping this for sure!",
+   "notes": "",
+   "source_sha256": "5e580423c15db58f5e34387851d713587c0b82cacef896cc78a03a4c021c22ae"
+  },
+  {
+   "table": 1,
+   "slot": 228,
+   "text_id": 229,
+   "en": "<operator(23010,1)><speed(2)>Right! Let's go, <color(4)>Eureka<ce()>!",
+   "notes": "",
+   "source_sha256": "13d1825cd591bfbe1b16f6508532629f8e13d2d690c8cb430a46916d5fb3a29d"
+  },
+  {
+   "table": 1,
+   "slot": 229,
+   "text_id": 230,
+   "en": "<operator(23020,1)><speed(2)>Yeah!",
+   "notes": "",
+   "source_sha256": "639c4e299edec4fd82a93e385992a7914482d94577976a1945bca219a3a5a651"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(21030,1)><speed(2)><color(4)>Gainer<ce()>, are you nervous?",
+   "notes": "'-kun' dropped, consistent with established corpus practice.",
+   "source_sha256": "74f23cdd2f8fdc50aa1cfc27c67b018f146c119c2cce878f4a43123d772105a6"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(21010,1)><speed(2)>Yeah, a little... When I think about failing...",
+   "notes": "",
+   "source_sha256": "05ac83678dd3f0616a4b30bbcc7ffe5e2e024e1cb9656bf55aa712025d3279ca"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(21020,1)><speed(2)>These days, you're plenty of a king even outside the game.",
+   "notes": "",
+   "source_sha256": "8c8c5b5bf47b9e6f94b4b3490d76502fcf95cad038b58b7441c2d4dec4f10521"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(21150,2)><speed(2)>That's right. Shrinking back doesn't suit a king.",
+   "notes": "",
+   "source_sha256": "78bd1241dc71f52d8ccc4df8946f19c988909cedcd60ef6af7ac883a9a65bcf4"
+  },
+  {
+   "table": 1,
+   "slot": 263,
+   "text_id": 264,
+   "en": "<operator(21010,1)><speed(2)>...Yeah, you're right. I'll do my best!",
+   "notes": "",
+   "source_sha256": "e3b4c399d76ed49ea335cc800855d2ff43c2620981eca65f4bebc4f2362beb3a"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(21150,2)><speed(2)>Never thought I'd end up fighting alongside you again.",
+   "notes": "",
+   "source_sha256": "b3038c422ffecb74ea8225b4d09e8091eb467c3b140faa39a383558917bcc777"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(23200,1)><speed(2)>And in a place this far away, too, stopping some 'crisis for Earth'. Feels kind of strange.",
+   "notes": "",
+   "source_sha256": "4b41f1f668eea3ce234e766ddd1a65d281ee60b6600fec40d39790cca451dc46"
+  },
+  {
+   "table": 1,
+   "slot": 301,
+   "text_id": 302,
+   "en": "<operator(23200,1)><speed(2)>But I'm not the least bit worried.",
+   "notes": "",
+   "source_sha256": "8951d4810d1f2ac1384da80bf4ec32b92c500ad2c56b4c03aac9d8ae95c10e5a"
+  },
+  {
+   "table": 1,
+   "slot": 302,
+   "text_id": 303,
+   "en": "<operator(21150,2)><speed(2)>Huh... Seems like you've changed.",
+   "notes": "",
+   "source_sha256": "725fdc43e18a169e369ba3b51645c65e0170613a31696750af07fb9320c8715e"
+  },
+  {
+   "table": 1,
+   "slot": 303,
+   "text_id": 304,
+   "en": "<operator(23200,1)><speed(2)>I've got someone important by my side now.",
+   "notes": "",
+   "source_sha256": "3149df7655d227c894dd40eaf68cecc7e5fa03151a9829500b95476c67f9fc67"
+  },
+  {
+   "table": 1,
+   "slot": 304,
+   "text_id": 305,
+   "en": "<operator(21150,2)><speed(2)>Well, I've got my king too, you know!",
+   "notes": "",
+   "source_sha256": "38406d5cce9481a6654980a3b3b79c484a9e761a40ecd99dbba2d8736981729f"
+  },
+  {
+   "table": 1,
+   "slot": 305,
+   "text_id": 306,
+   "en": "<operator(23230,1)><speed(2)>Hey... enough fighting already, right?",
+   "notes": "",
+   "source_sha256": "92bba443b477d887165de296fbf4459aa589ab990e5bfae3006d5420addaaad3"
+  },
+  {
+   "table": 1,
+   "slot": 306,
+   "text_id": 307,
+   "en": "<operator(23200,1)><speed(2)>Heh heh... true enough.",
+   "notes": "",
+   "source_sha256": "d1d9ed2e308e54f99aa5a07b99c50845cc9f3e3bd71ca153512958565aef1df8"
+  },
+  {
+   "table": 1,
+   "slot": 307,
+   "text_id": 308,
+   "en": "<operator(21150,2)><speed(2)>Let's go!",
+   "notes": "",
+   "source_sha256": "e7ea3e0463221f5aed25691c502d61dcd9b17f9c76738323e04cbe8317e4c788"
+  },
+  {
+   "table": 1,
+   "slot": 339,
+   "text_id": 340,
+   "en": "<operator(19060,1)><speed(2)>This is where we hold the line. Don't you dare lose.",
+   "notes": "",
+   "source_sha256": "3558f892c3929a2e99c0d70953113d1693742af9aa5857db6a518a03ad63953d"
+  },
+  {
+   "table": 1,
+   "slot": 340,
+   "text_id": 341,
+   "en": "<operator(19030,1)><speed(2)>Yeah, we know!",
+   "notes": "",
+   "source_sha256": "50d74409caa3cdcadafd28361e6d5016b9614ff3c2b0e65fa26db7387ce4928e"
+  },
+  {
+   "table": 1,
+   "slot": 341,
+   "text_id": 342,
+   "en": "<operator(19020,1)><speed(2)>We protect Earth with the power of Getter...!",
+   "notes": "",
+   "source_sha256": "d1e5e0900d02a88ca55235f9f49f6632354b728d43af398ebb4c0487738f3033"
+  },
+  {
+   "table": 1,
+   "slot": 342,
+   "text_id": 343,
+   "en": "<operator(19010,1)><speed(2)>We combine everyone's strength...",
+   "notes": "",
+   "source_sha256": "fc0ef48e5ab4b29da692939e4fc50886d7d882514ede4d08cdbeff5a3b38e709"
+  },
+  {
+   "table": 1,
+   "slot": 379,
+   "text_id": 380,
+   "en": "<operator(12031,1)><speed(2)>Everyone, there's no need to hold back - go all out.",
+   "notes": "",
+   "source_sha256": "1e82c7b707dcb277c6e141a45f835dede76574c1ccfc53737624f6c738a9284e"
+  },
+  {
+   "table": 1,
+   "slot": 380,
+   "text_id": 381,
+   "en": "<operator(12061,2)><speed(2)>Okay! I'll blast away like crazy!",
+   "notes": "",
+   "source_sha256": "b334fcbe127fbad60083e73ea73776bab76c9291fa2747598fc9830353057bf1"
+  },
+  {
+   "table": 1,
+   "slot": 381,
+   "text_id": 382,
+   "en": "<operator(12071,1)><speed(2)>Roll up my sleeves and let loose... heh heh.",
+   "notes": "",
+   "source_sha256": "346f303044c5a93d9e63b4f8c33b04b1aa56ce335b36dbec4d66a1cae5ab4e5e"
+  },
+  {
+   "table": 1,
+   "slot": 419,
+   "text_id": 420,
+   "en": "<operator(12031,1)><speed(2)><color(4)>Ryoko<ce()>. Just this once, it's fine to go overboard. I'm counting on you.",
+   "notes": "'-san' dropped, consistent with established corpus practice.",
+   "source_sha256": "14de540ee248a20240b9243e1d307a455e37aaca874066d15972d6645c9f4ecd"
+  },
+  {
+   "table": 1,
+   "slot": 420,
+   "text_id": 421,
+   "en": "<operator(12051,2)><speed(2)>All right, time to raise some serious hell!",
+   "notes": "",
+   "source_sha256": "108a68a6b0a188465790db7ee31c898f1db1cb4807e545ba70879f698fa20bf1"
+  },
+  {
+   "table": 1,
+   "slot": 459,
+   "text_id": 460,
+   "en": "<operator(5010,1)><speed(2)><color(4)>Heero<ce()>, you ready?",
+   "notes": "",
+   "source_sha256": "5d0099fcb83a345a336f6b90c92698d53cded03b74ff72e2ffd39004ac32ea1a"
+  },
+  {
+   "table": 1,
+   "slot": 460,
+   "text_id": 461,
+   "en": "<operator(6011,1)><speed(2)>Yeah.",
+   "notes": "",
+   "source_sha256": "255ad54ed75985cb667fba0fedd165a9b8bf8b3f53e6f8adfbe556a04d482020"
+  },
+  {
+   "table": 1,
+   "slot": 461,
+   "text_id": 462,
+   "en": "<operator(6011,1)><speed(2)>He's trying to repeat history. A life taken right before my eyes... I won't watch that again.",
+   "notes": "Compressed to fit the 120-char limit while keeping the sense.",
+   "source_sha256": "bad80afdd920f440c4e01ce61ead9e1a6aae31fdcdf8c9a8a939caf26bad1405"
+  },
+  {
+   "table": 1,
+   "slot": 462,
+   "text_id": 463,
+   "en": "<operator(17040,1)><speed(2)>I feel the same. We have to believe people aren't so weak as to repeat history.",
+   "notes": "",
+   "source_sha256": "317a80978d3dfc289e011f0b649c328afbc95879b62c8f71132ea50b16f7dd8b"
+  },
+  {
+   "table": 1,
+   "slot": 463,
+   "text_id": 464,
+   "en": "<operator(23010,1)><speed(2)>If we don't stop it here, I'll regret it for the rest of my life - wondering what we fought this far for.",
+   "notes": "Identical source string to table1 slot 182; translated identically.",
+   "source_sha256": "35af046d409ecb080471bd57df56a8c4723cc259813f5b6998539d499cd4adb4"
+  },
+  {
+   "table": 1,
+   "slot": 464,
+   "text_id": 465,
+   "en": "<operator(23020,1)><speed(2)><color(4)>Nirvash<ce()> entrusted us with the future. We can't let that trust go to waste!",
+   "notes": "Identical source string to table1 slot 183; translated identically.",
+   "source_sha256": "5e51552f98c330b7f900809d3f687135165fae40fe42a5e7a9faf4daa3b091c9"
+  },
+  {
+   "table": 1,
+   "slot": 465,
+   "text_id": 466,
+   "en": "<operator(6011,1)><speed(2)>Mission understood. I won't let that girl be killed again...!",
+   "notes": "",
+   "source_sha256": "a7383816b3f0ddcf6be364496bf298fc8f9cf89414b9146e958bf75850a2cc52"
+  },
+  {
+   "table": 1,
+   "slot": 499,
+   "text_id": 500,
+   "en": "<operator(19050,1)><speed(2)><color(4)>Ryoma<ce()>... I'm counting on you.",
+   "notes": "",
+   "source_sha256": "4280463b95e611d267ef0b9e7984c0f4d8ff3ce7ca57502c510c58e2e77f4054"
+  },
+  {
+   "table": 1,
+   "slot": 500,
+   "text_id": 501,
+   "en": "<operator(19040,1)><speed(2)>You don't even have to tell me!! Meteor or planet, I'll smash it all to pieces!",
+   "notes": "",
+   "source_sha256": "38c7e2b84b2b2e8ed36a53fe3b5a487c8676cd5f6b1c519da345ccf431d11b77"
+  },
+  {
+   "table": 1,
+   "slot": 539,
+   "text_id": 540,
+   "en": "<operator(16010,1)><speed(2)>I can't afford to lose either. <color(4)>Luxe<ce()>, watch over me.",
+   "notes": "",
+   "source_sha256": "3f0c5ae4a6da9ee8fddef26607bcd70e959b018e021cc9c721fa88c5674df3a0"
+  },
+  {
+   "table": 1,
+   "slot": 540,
+   "text_id": 541,
+   "en": "<operator(16040,2)><speed(2)>Yes. I believe in <color(4)>Asap<ce()>.",
+   "notes": "",
+   "source_sha256": "d0f78bf22ad1a42117c8deac8147e376e7f7517ea8bc1984247bd7d228df23cc"
+  },
+  {
+   "table": 1,
+   "slot": 541,
+   "text_id": 542,
+   "en": "<operator(16040,2)><speed(2)><color(4)>Asap<ce()>... May the Wings of Rean guide you too.",
+   "notes": "'Wings of Rean' per glossary.json/character_names_021.json series title (Rean).",
+   "source_sha256": "332af44f2325a23e721dd3222afe788fc8c90205bfd231bb0ea3201f973ad9be"
+  },
+  {
+   "table": 1,
+   "slot": 542,
+   "text_id": 543,
+   "en": "<operator(16010,1)><speed(2)>Thank you.",
+   "notes": "",
+   "source_sha256": "370ea3c629cfbcc131759a306225eabef389a77bab52bd23010586c99e59d6a4"
+  },
+  {
+   "table": 1,
+   "slot": 579,
+   "text_id": 580,
+   "en": "<operator(12031,1)><speed(2)><color(4)>Akito<ce()>. Be careful.",
+   "notes": "'-san' dropped, consistent with established corpus practice.",
+   "source_sha256": "8bd8682c9243b402709771f73b301245fa324a2663f66a6fcdd6456fdfa6077e"
+  },
+  {
+   "table": 1,
+   "slot": 580,
+   "text_id": 581,
+   "en": "<operator(12011,1)><speed(2)>Yeah... I can't afford to lose the place I call home.",
+   "notes": "",
+   "source_sha256": "776f25e793811551d94b92e0a91db9e78ba16ceb36c3da33b12be13d3e7b937f"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 61,
+   "issue": "'renbou' (Federation) here = the Earth Federation government of Amuro's backstory (Char's motive), distinct from ACE3's own 'New Federation' faction; rendered plain 'the Federation' per glossary.json org.earth_federation, no faction name substituted."
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "issue": "'chikyuu no kiki tte yatsu' rendered with quoted 'crisis for Earth' to keep Anemone's dismissive/quoting tone; straight single quotes used per ASCII rule."
+  },
+  {
+   "table": 1,
+   "slot": 461,
+   "issue": "Heero's line compressed (dropped a repeated idea) to fit under 120 visible characters; core meaning (he won't watch history repeat, someone dying in front of him) kept."
+  },
+  {
+   "table": 1,
+   "slot": 463,
+   "issue": "This row and table1 slot 183/464 are verbatim repeats of the same Japanese string in two different sub-conversations (Renton/Eureka's resolve quoted twice in the source); translated identically both times rather than varied."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 102,
+  "rows_in_scene": 102,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "1/61 'renbou' (Federation, Char's UC backstory): the Earth Federation government of Amuro's/Char's backstory, distinct from ACE3's own 'New Federation' faction; bare 'the Federation' is correct per orchestrator ruling, no faction name substituted.",
+   "1/300 'chikyuu no kiki tte yatsu' rendered with quoted 'crisis for Earth' to keep Anemone's dismissive/quoting tone; straight single quotes used per ASCII rule. Accepted.",
+   "1/461 Heero's line compressed (dropped a repeated idea) to fit under 120 visible characters; core meaning (he won't watch history repeat, someone dying in front of him) kept. Verified it still matches the source's two key clauses.",
+   "1/182 and 1/463/1/464 are verbatim repeats of the same Japanese string in two different sub-conversations (Renton/Eureka's resolve quoted twice in source); translated identically both times rather than varied. Accepted, matches source repetition.",
+   "No lowercase j/q found outside locked names anywhere in the scene (checked mechanically); translator's deliberate substitutions (simply, reworded 'just like back then') hold up.",
+   "All <...> command tags verified identical and in source order for every row; no newlines; ASCII only; no bare %; all 102 rows within the 120 visible-char limit (checked mechanically against tools/scene_source.py output)."
+  ],
+  "remaining_uncertainties": [
+   "1/180 'shift wo... minna wo shinjite kudasai' (Tiffa to Jamil): source has no possessive on 'nakama' (comrades); EN reads 'trust our friends... trust everyone'. 'Our' is a defensible reading (Tiffa includes herself in the group) but 'your friends' is equally possible from the source alone - not resolvable without more context.",
+   "1/181 'ore-tachi wa nidoto ayamachi wo kurikaesasenai. Ano higeki wo.' rendered 'We won't let that mistake happen again. Not that tragedy.' Source likely uses 'ayamachi' and 'ano higeki' as appositives (two names for the same event) with an elided verb on the second clause, i.e. 'never again - not that tragedy [either]'. The EN reading works as an emphatic elliptical tag, but a reader could also parse 'Not that tragedy' as a contrast/correction, which would be a different shade of meaning. Left as-is since both readings converge on the same intent (never let it recur); flagging in case a proofreader reads it differently.",
+   "1/182 and 1/463 'ana ni made tatakattanda tte' (Renton, self-quote): sentence starts with implied-first-person 'ikou de todomenakereba isshou koukai suru' (I'll regret it for life) then continues '...tatakattanda tte' with no explicit subject. EN mixes 'I'll regret' (singular) with 'what we fought this far for' (plural) in the same sentence. Both pronouns are individually defensible (English rhetoric often mixes personal regret with collective effort), and the source never disambiguates, so left unedited per 'don't invent what the source omits' vs. 'don't rewrite what's merely different' - genuinely a coin flip. Flagging rather than fixing, since editing to a single consistent pronoun risks overriding an equally valid reading."
+  ]
+ }
+}

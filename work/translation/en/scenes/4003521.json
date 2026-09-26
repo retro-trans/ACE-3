@@ -1,0 +1,106 @@
+{
+ "resource_id": 4003521,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23040,1)><speed(2)><move(1,2,14)>Let me explain the operation<marker(1,2,14,0)> for you.<move(2,2,14)>",
+   "notes": "",
+   "source_sha256": "fa1e9b538fee75538a221e6b25253a3c8336031f106d01f38719a03bb0000b94"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23040,1)><speed(2)>The <color(4)>high priest<ce()> is <move(1,4,14)>aboard a <color(4)>train<ce()><marker(11,4,15,0)> that got out of the <book(54)>Domepolis<endbook()><move(2,4,14)><picture(64,2,14,0)><refer(2,14,4,15)><marker(30,5,14,0)>, but a <book(56)>Siberian Railway<endbook()> unit is chasing it.",
+   "notes": "",
+   "source_sha256": "f09e8715b5b384baf85cf46f9ec0ac684f4e6ad7ff6ac10b1ca75d765353d154"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23040,1)><speed(2)>Our goal is to cover the <color(4)>train<ce()> until <marker(42,3,0,0)>it <marker(42,5,0,0)>escapes <marker(42,10,0,0)>the operation area.",
+   "notes": "",
+   "source_sha256": "7a16f6446f154da518045a7b1629b85bb56ee1ba743f2f85449d6ba2afc7938f"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23040,1)><speed(2)>The enemy <color(5)>pursuit force<ce()><marker(20,2,6,0)> is sure to come and stop the <color(4)>train<ce()><marker(20,3,9,0)> in <marker(20,6,9,0)>its <marker(20,1,11,0)>tracks<picture(65,2,7,0)><refer(2,7,1,11)>, so take those guys out first.",
+   "notes": "",
+   "source_sha256": "f855e63c73d88bf4c6813a4b0965cbea4dc3b46912e5b550541a44f0952be776"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23040,1)><speed(2)>I think the <color(4)>train<ce()> will <color(6)>head for a safe route that is clear of enemies<ce()>, so don't let it go off in some weird direction.",
+   "notes": "",
+   "source_sha256": "7ee0979735868488b5f4a00106de734ad98c0b303042c3a6d339b30467139877"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23040,1)><speed(2)>There are also enemy <move(1,7,11)><color(5)>frontline bases<ce()><marker(26,9,2,0)><marker(26,3,3,0)><marker(26,7,8,0)><marker(26,7,11,0)> in the area.<marker(37,7,4,0)> If <danger(1)><move(2,7,11)><picture(66,30,14,0)><refer(30,14,7,11)>the <color(4)>train<ce()> heads toward one, it's in real danger, so watch out.",
+   "notes": "Plural bases: four type-26 markers in the source.",
+   "source_sha256": "efcaf5865356fef4153ea8351bb0898a757b5c50c0f2968fda8fa4da9cde4d99"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<delpic(30,7,1)><enemylist()><operator(23040,1)><speed(2)>Well then, I'm counting on you.",
+   "notes": "",
+   "source_sha256": "4243ab5ba6a91ad6c0a34333a62311fe8b815cc0047a28372f1d4a3384da5e1b"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 23,
+   "issue": "\"hen na houkou ni susumasenai you ni\" - causative: do not let (make) the train go in a wrong direction, i.e. the player steers it by clearing routes. Rendered \"don't let it go off in some weird direction\"."
+  },
+  {
+   "slot": 24,
+   "issue": "\"zensen kichi\" number not marked in source; plural chosen from the four base markers. \"frontline bases\" is descriptive, no locked term found."
+  },
+  {
+   "slot": 0,
+   "issue": "Title is \"New Federation\" although the pursuers are the Siberian Railway (its subordinate body); as in source."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker: 23040 Talho Yuki (casual register kept).",
+   "Slot 23 ruling: causative read correctly - the player must keep the train from going the wrong way by clearing routes; \"don't let it go off in some weird direction\" is right.",
+   "Slot 24 ruling: plural \"frontline bases\" is supported by the four type-26 markers; descriptive term, no locked term exists.",
+   "Slot 0 ruling: title \"New Federation\" kept as in source even though the pursuers are the Siberian Railway (its subordinate body per 4003060 slot 24).",
+   "Slot 20: \"high priest\" consistent with 4003060 and dialogue batch_01895. Command order and positions follow the source clause by clause.",
+   "Slot 22: \"ashidome wo shi ni kuru hazu\" -> \"is sure to come and stop the train in its tracks\" correct."
+  ],
+  "remaining_uncertainties": [
+   "Slot 24: the number of frontline bases is an inference from the markers.",
+   "Slot 22: three type-20 markers were spread over \"in its tracks\"; timing only checkable in a build."
+  ]
+ }
+}

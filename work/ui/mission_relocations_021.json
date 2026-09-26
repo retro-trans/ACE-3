@@ -1,0 +1,125 @@
+{
+  "description": "Structural relocation metadata required by the advanced mission builder; no game bytes.",
+  "rows": [
+    {
+      "resource_id": 6011,
+      "original_size": 6768,
+      "original_offset": 48,
+      "relocated_offset": 6784
+    },
+    {
+      "resource_id": 2002011,
+      "original_size": 6768,
+      "original_offset": 48,
+      "relocated_offset": 6784
+    },
+    {
+      "resource_id": 3200011,
+      "original_size": 6768,
+      "original_offset": 48,
+      "relocated_offset": 6784
+    },
+    {
+      "resource_id": 3201011,
+      "original_size": 6768,
+      "original_offset": 48,
+      "relocated_offset": 6784
+    },
+    {
+      "resource_id": 6020,
+      "original_size": 75232,
+      "original_offset": 63552,
+      "relocated_offset": 75232
+    },
+    {
+      "resource_id": 2002020,
+      "original_size": 380352,
+      "original_offset": 368672,
+      "relocated_offset": 380352
+    },
+    {
+      "resource_id": 3200020,
+      "original_size": 295008,
+      "original_offset": 283328,
+      "relocated_offset": 295008
+    },
+    {
+      "resource_id": 3201020,
+      "original_size": 57664,
+      "original_offset": 45984,
+      "relocated_offset": 57664
+    },
+    {
+      "resource_id": 6021,
+      "original_size": 4784,
+      "original_offset": 48,
+      "relocated_offset": 4800
+    },
+    {
+      "resource_id": 2002021,
+      "original_size": 4784,
+      "original_offset": 48,
+      "relocated_offset": 4800
+    },
+    {
+      "resource_id": 3200021,
+      "original_size": 4656,
+      "original_offset": 48,
+      "relocated_offset": 4672
+    },
+    {
+      "resource_id": 3201021,
+      "original_size": 4656,
+      "original_offset": 48,
+      "relocated_offset": 4672
+    },
+    {
+      "resource_id": 6030,
+      "original_size": 63520,
+      "original_offset": 57536,
+      "relocated_offset": 63520
+    },
+    {
+      "resource_id": 2002030,
+      "original_size": 334752,
+      "original_offset": 328768,
+      "relocated_offset": 334752
+    },
+    {
+      "resource_id": 3200030,
+      "original_size": 11968,
+      "original_offset": 5984,
+      "relocated_offset": 11968
+    },
+    {
+      "resource_id": 3201030,
+      "original_size": 11968,
+      "original_offset": 5984,
+      "relocated_offset": 11968
+    },
+    {
+      "resource_id": 6031,
+      "original_size": 69856,
+      "original_offset": 320,
+      "relocated_offset": 69856
+    },
+    {
+      "resource_id": 2002031,
+      "original_size": 341088,
+      "original_offset": 448,
+      "relocated_offset": 341088
+    },
+    {
+      "resource_id": 3200031,
+      "original_size": 241632,
+      "original_offset": 160,
+      "relocated_offset": 241632
+    },
+    {
+      "resource_id": 3201031,
+      "original_size": 38208,
+      "original_offset": 64,
+      "relocated_offset": 38208
+    }
+  ]
+}

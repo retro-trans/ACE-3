@@ -1,0 +1,528 @@
+{
+  "slice_start": 9894,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      9889,
+      9978
+    ]
+  ],
+  "rows_examined_count": 90,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_09894",
+      "target": "<op()><sp(20)>We too were born with power of our own.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Frost brothers' confession begins here (confirmed by 09896's 'Category F', matching later 09975-09982 narration)."
+    },
+    {
+      "id": "dialogue_09895",
+      "target": "<op()><sp(20)>But that power wasn't compatible\nwith the Flash System.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Flash System per encyclopedia_022.json / ui_028.json locked spelling."
+    },
+    {
+      "id": "dialogue_09896",
+      "target": "<op()><sp(20)>We were labeled Category F,\nand never recognized as Newtypes.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "'Category F' confirmed against Gundam Wiki (Olba Frost article): Frost brothers' Twins Synchronization was not sensitive to the Flash System, so UNE classified them Category F. See glossary proposals file. No <ed()> in source; box continues into 09897."
+    },
+    {
+      "id": "dialogue_09897",
+      "target": "<sp(20)>And the world simply pretended we didn't exist.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09896."
+    },
+    {
+      "id": "dialogue_09898",
+      "target": "<op()><sp(20)>Is that your reason for trying to change the world?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09899",
+      "target": "<op()><sp(20)>You couldn't possibly understand...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09900."
+    },
+    {
+      "id": "dialogue_09900",
+      "target": "<sp(20)>...the agony of holding power beyond human limits,\nyet never being recognized for it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09899."
+    },
+    {
+      "id": "dialogue_09901",
+      "target": "<op()><sp(20)>The humiliation we endured... and the despair...\ncan only be healed by this world's destruction.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09902",
+      "target": "<op()><sp(20)>And only after everything is destroyed\nwill a new order be built.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09903",
+      "target": "<op()><sp(20)>That's the righteous future we seek.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09904",
+      "target": "<op()><sp(20)>A selfish reason like that...!\nLike hell I'll accept it!!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09905-09907. New speaker (protests the brothers' ideology); identity not supplied since source gives none."
+    },
+    {
+      "id": "dialogue_09905",
+      "target": "<sp(20)>I won't accept the likes of you!!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09904."
+    },
+    {
+      "id": "dialogue_09906",
+      "target": "<sp(20)>Everyone carries pain and sorrow\nand keeps on living!!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09905."
+    },
+    {
+      "id": "dialogue_09907",
+      "target": "<sp(20)>I won't let you destroy the world\nover some selfish reason like that!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Closes the box begun at 09904."
+    },
+    {
+      "id": "dialogue_09908",
+      "target": "<op()><sp(20)>What would someone like you know?!\nAbout this suffering of ours!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09909",
+      "target": "<sp(20)>I won't let you destroy the world\nover some selfish reason like that!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source repeats the exact same line as 09907 verbatim (own box, no <op()>); translated identically rather than varied, per source repetition."
+    },
+    {
+      "id": "dialogue_09910",
+      "target": "<op()><sp(20)>Because the world ignored us,\nwe will destroy the world!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09911",
+      "target": "<op()><sp(20)>If only you two would touch D.O.M.E. as well...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Conditional/suggestive form ('\u89e6\u308c\u308c\u3070') kept as a wish rather than a command; addressee ('you two') inferred from the immediate Frost-brothers exchange, not from an explicit tag."
+    },
+    {
+      "id": "dialogue_09912",
+      "target": "<op()><sp(20)>There's no need for that.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09913",
+      "target": "<op()><sp(20)>We need you to intercept them.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Register shift to a combat order suggests a new speaker/context; no identity invented."
+    },
+    {
+      "id": "dialogue_09914",
+      "target": "<op()><sp(20)>Enemy reinforcements!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09915",
+      "target": "<op()><sp(20)>More enemy units incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09916",
+      "target": "<op()><sp(20)>Enemy reinforcements incoming! Stay alert!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source uses a full-width ideographic space as separator; rendered as a normal ASCII space/sentence break, no fullwidth punctuation carried into the target."
+    },
+    {
+      "id": "dialogue_09917",
+      "target": "<op()><sp(20)>New enemy ship confirmed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09918",
+      "target": "<op()><sp(20)>An enemy ship has appeared!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09919",
+      "target": "<op()><sp(20)>There's no operation time left!\nHurry!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Matches corpus precedent verbatim (batch_01586 dialogue_01586-adjacent 'There's no operation time left! Hurry!')."
+    },
+    {
+      "id": "dialogue_09920",
+      "target": "<on()><sp(20)>You've come a long way to get here,\nTiffa Adill.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Full name 'Tiffa Adill' per character_names_021.json locked spelling, used here since the source spells out the full name (D.O.M.E. addressing her formally)."
+    },
+    {
+      "id": "dialogue_09921",
+      "target": "<on()><sp(20)>Because everyone came to understand...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09922",
+      "target": "<on()><sp(20)>Though it seems some people refused, too.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09923",
+      "target": "<on()><sp(20)>Yes...\nThey want war more than they want the truth.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09924",
+      "target": "<on()><sp(20)>War, huh...\nPeople never tire of it, do they.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09925",
+      "target": "<on()><sp(20)>Those who worship Newtypes like gods.\nThose who'd seal them away and use their power.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09926",
+      "target": "<on()><sp(20)>Those who once held that power themselves.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09927",
+      "target": "<on()><sp(20)>Everyone grasps the word Newtype\nin their own way.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "No quotation marks added; source has none here (contrast 09963, which uses corner brackets in source)."
+    },
+    {
+      "id": "dialogue_09928",
+      "target": "<on()><sp(20)>And that's about to become\nthe trigger for yet another war.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09929",
+      "target": "<on()><sp(20)>But in a way,\nmaybe that's unavoidable.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09930",
+      "target": "<on()><sp(20)>After all, we're a generation bound together\nby the illusion called Newtype.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09931",
+      "target": "<on()><sp(20)>Are you saying Newtypes are an illusion...!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09932",
+      "target": "<on()><sp(20)>Isn't this power itself humanity's evolution...?\nIsn't that what's called the power of a Newtype?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09933",
+      "target": "<on()><sp(20)>I understand wanting to believe that,\nbut unfortunately, that's not it.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09934",
+      "target": "<on()><sp(20)>Power beyond human limits and humanity's evolution\nare two different things.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09935",
+      "target": "<on()><sp(20)>...Then give me an answer.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09936",
+      "target": "<on()><sp(20)>I fought believing\nthat I was a Newtype.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09937",
+      "target": "<on()><sp(20)>And I saw beyond time. I felt the future.\nAre you saying all of that was an illusion?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source uses a full-width ideographic space between the two sentences on the first line; rendered as a normal ASCII space."
+    },
+    {
+      "id": "dialogue_09938",
+      "target": "<on()><sp(20)>That's right... all of it was an illusion.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09939",
+      "target": "<on()><sp(20)>No matter what future you saw,\nunless you try to make it real...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09940",
+      "target": "<on()><sp(20)>...it will never be yours.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09941",
+      "target": "<on()><sp(20)>The age of wandering in search of Newtypes\nis already over.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09942",
+      "target": "<on()><sp(20)>And you're the ones who have to go\nand build a new future.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09943",
+      "target": "<on()><sp(20)>A new future...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09944",
+      "target": "<on()><sp(20)>You've been troubled by your own power, haven't you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressee is Tiffa, confirmed by her reply at 09945."
+    },
+    {
+      "id": "dialogue_09945",
+      "target": "<on()><sp(20)>Yes... I want to live as an ordinary person,\nwith Garrod.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Tiffa; both named parties (Tiffa implicitly, Garrod explicitly) are in the source text itself."
+    },
+    {
+      "id": "dialogue_09946",
+      "target": "<on()><sp(20)>Then simply cast aside the word Newtype.\nThat should grant your wish.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "No quotation marks added; source has none here."
+    },
+    {
+      "id": "dialogue_09947",
+      "target": "<on()><sp(20)>You've fought this whole time believing in the future.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09948",
+      "target": "<on()><sp(20)>That's exactly the power that will build a new era.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09949",
+      "target": "<on()><sp(20)>One more thing...\nI have to tell you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09950",
+      "target": "<on()><sp(20)>The Command Cluster, the core of the Scub Coral,\nis about to be destroyed.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Command Cluster / Scub Coral per ui_028.json and dialogs_options_018.json locked spellings; no book() tags in source here, so none added."
+    },
+    {
+      "id": "dialogue_09951",
+      "target": "<on()><sp(20)>By the hand of someone named Dewey.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Dewey (Novak) per character_names_021.json locked spelling; only the given name appears in source."
+    },
+    {
+      "id": "dialogue_09952",
+      "target": "<on()><sp(20)>If that happens, the Limit of Questions\nwill come.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Limit of Questions' per encyclopedia_021_b.json / encyclopedia_022.json locked spelling (\u30af\u30c0\u30f3\u306e\u9650\u754c)."
+    },
+    {
+      "id": "dialogue_09953",
+      "target": "<on()><sp(20)>The only way to avoid it\nis for the Scub Coral and humanity to merge.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09954",
+      "target": "<on()><sp(20)>What happens then?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09955",
+      "target": "<on()><sp(20)>Every being becomes one and the same,\nsurviving on as consciousness alone.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09956",
+      "target": "<on()><sp(20)>What do you think? Tiffa.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09957",
+      "target": "<on()><sp(20)>...As people, we want to live\nacknowledging each other's separate existence.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Tiffa (reply to 09956)."
+    },
+    {
+      "id": "dialogue_09958",
+      "target": "<on()><sp(20)>I understand.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09959",
+      "target": "<on()><sp(20)>I'll tell the Command Cluster to wait for you.\nThe rest is up to you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09960",
+      "target": "<on()><sp(20)>You're going to enter the Zone.\nThat's where the Scub is waiting for the moment of dialogue.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'the Zone' matches corpus convention (mission_terms_019.json, batch_03803); no book() tag here since source has none. 'Scub' (short form) matches batch_05943 precedent/proposal for book(69)."
+    },
+    {
+      "id": "dialogue_09961",
+      "target": "<on()><sp(20)>There...\nyou'll come to know the world's other face.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09962",
+      "target": "<on()><sp(20)>That's everything I can tell you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09963",
+      "target": "<on()><sp(20)>No one in this world truly deserves\nto be called a \"Newtype.\"<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Quotation marks used here because the source itself marks the word with corner brackets (\u300eNewtype\u300f); ASCII straight quotes used per format rules."
+    },
+    {
+      "id": "dialogue_09964",
+      "target": "<on()><sp(20)>And I'll be returning to where I came from, too.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09965",
+      "target": "<on()><sp(20)>The old age is already over...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09966",
+      "target": "<on()><sp(20)>Now... let's do it, brother.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker addresses 'brother' directly; per character_names_021.json note, Olba addresses Shagia as 'brother' (\u5144\u3055\u3093), matching this line and the 09970-09971 exchange, but no name is written into the target text itself."
+    },
+    {
+      "id": "dialogue_09967",
+      "target": "<on()><sp(20)>...We have no more business with the New Federation.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09968",
+      "target": "<on()><sp(20)>Glory to our world!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09969",
+      "target": "<on()><sp(20)>Course clear.\nAdvancing toward the designated point.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09970",
+      "target": "<on()><sp(20)>Olba!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Olba per character_names_021.json locked spelling (Olba Frost)."
+    },
+    {
+      "id": "dialogue_09971",
+      "target": "<on()><sp(20)>Brother!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply to 09970; per character_names_021.json, Olba addresses Shagia as 'brother', consistent with this exchange."
+    },
+    {
+      "id": "dialogue_09972",
+      "target": "<on()><sp(20)>What <book(46)>D.O.M.E.<endbook()> told us...\nBuild the future, huh... Let's do our best.",
+      "status": "meaning_reviewed",
+      "notes": "No ab()/ed()/off() in source (matches 09973-09991's tail pattern); none added."
+    },
+    {
+      "id": "dialogue_09973",
+      "target": "<on()><sp(20)>I'll go on living with <color(4)>Garrod<ce()>, with my own strength now.\nBecause that strength is something you gave me.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Tiffa (addressee of 09944-09945, whose 'own power' theme this closes). No ab()/ed()/off() in source; none added."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_09904",
+        "dialogue_09905",
+        "dialogue_09906",
+        "dialogue_09907",
+        "dialogue_09909",
+        "dialogue_09911",
+        "dialogue_09913"
+      ],
+      "note": "Untagged speakers protesting/replying to the Frost brothers' ideology and the combat-order rows around them; translated at face value, no identity invented."
+    },
+    {
+      "ids": [
+        "dialogue_09966",
+        "dialogue_09970",
+        "dialogue_09971"
+      ],
+      "note": "Speakers are the Frost brothers (Shagia/Olba) by inference from the glossary's 'Olba addresses Shagia as brother' note and the direct-address text itself; no name written into the target beyond what the source already states (Olba's name at 09970)."
+    },
+    {
+      "ids": [
+        "dialogue_09896"
+      ],
+      "note": "'Category F' not previously in project glossary/encyclopedia; researched and confirmed against the Gundam Wiki (Olba Frost article). Proposal recorded in batch_09894_glossary_proposals.json."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket command tokens preserved in exact source order, including rows with no closing <ed()>/<off()> that continue directly into the next row as in the source (09896-09897, 09899-09900, 09904-09907), and rows 09972-09973 which have no ab()/ed()/off() at all in the source, matching the tail pattern that continues into batch_09974.",
+    "meaning_review": "All rows independently reviewed for meaning against the Japanese source (tools/dialogue_corpus.py slice 9814 178 --context 15); two lowercase-j occurrences (dialogue_09897, dialogue_09946) were corrected. No meaning-changing mistranslations found; all rows set to meaning_reviewed.",
+    "fit": "Full meaning drafted first, without shortening for display; longest visible strings measured below 110 characters.",
+    "runtime": "Resource 6300 (Mission 24, 'Contact D.O.M.E.': Frost brothers' Category F confession, D.O.M.E.'s dialogue with Tiffa about Newtypes/Scub Coral/the Zone, brothers' final stand) scene continuity verified from the corpus's stored table order and text_id groupings via tools/dialogue_corpus.py; source Japanese read via console only, never written to disk; no in-game screenshot verification performed."
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "slice_start": 8191,
+  "slice_count": 24,
+  "rows_examined": [
+    [
+      8031,
+      8214
+    ]
+  ],
+  "rows_examined_count": 184,
+  "rows_in_slice": 24,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_08191",
+        "dialogue_08196",
+        "dialogue_08197",
+        "dialogue_08198"
+      ],
+      "note": "Eureka/Renton reunion dialogue continues from batch_08111's rows 8184-8190 (on()/off()-less color-tag format, no <ab()>/<ed()> present in source for this whole exchange); speaker alternation inferred from color(4) name-address pattern already established there, not re-guessed here."
+    },
+    {
+      "id": "dialogue_08202",
+      "note": "Line addressed to <color(4)>Faye<ce()> ('about what happened before') - speaker not tagged; left unattributed, no identity supplied."
+    },
+    {
+      "id": "dialogue_08210",
+      "note": "Speaker taking the recovered Double X inferred as Garrod (casual register, immediately followed by Jamil formally assigning him the GX in row 8211) but not tagged in source."
+    }
+  ],
+  "validation": {
+    "controls": "All original angle-bracket/color/book commands preserved in exact source order for every row, including book(37)/book(38)/book(45) and color(4)/color(6) spans; verified by script.",
+    "format": "No newline characters inserted; source line breaks merged into flowing sentences.",
+    "fit": "All rows verified <= 110 visible characters; full meaning kept, nothing shortened or dropped.",
+    "ascii": "ASCII-only verified by script; straight quotes/hyphens used; no bare percent signs; lowercase j/q avoided everywhere in this slice.",
+    "meaning_review": "Meaning-reviewed: 24/24 rows checked, no meaning fixes needed in this slice; all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_08191",
+      "target": "<on()><sp(20)>It's fine. You were with those two a moment ago, weren't you?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08192",
+      "target": "<on()><sp(20)>Yeah, <color(5)>Ray<ce()> and <color(5)>Charles<ce()> treated me like family...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08193",
+      "target": "<on()><sp(20)>I met all kinds of people, and all kinds of things happened.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08194",
+      "target": "<on()><sp(20)>They were fun days, but <color(4)>Eureka<ce()> wasn't there. I kept feeling like something was missing.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08195",
+      "target": "<on()><sp(20)>And that's when I... I realized it. That I need <color(4)>Eureka<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08196",
+      "target": "<on()><sp(20)><color(4)>Renton<ce()>...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08197",
+      "target": "<on()><sp(20)>You keep growing up more and more, don't you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08198",
+      "target": "<on()><sp(20)>We can't stay the way we are either. We need to change too...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08199",
+      "target": "<on()><sp(20)>Heh heh heh... Ha ha ha ha...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08200",
+      "target": "<on()><sp(20)>I see... so that's how it is. I understand now - what I need to do...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08201",
+      "target": "<on()><sp(20)><color(4)>Holland<ce()>... Let me carry some of that burden with you...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08202",
+      "target": "<on()><sp(20)><color(4)>Faye<ce()>. About what happened before...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08203",
+      "target": "<on()><sp(20)>Why?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08204",
+      "target": "<on()><sp(20)>Each and every one of them is fighting for something important.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08205",
+      "target": "<on()><sp(20)>... ...For something important... I see.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08206",
+      "target": "<on()><sp(20)>Captain. It seems the <book(38)>New Federation<endbook()> has abandoned <book(45)>Zonder Epta<endbook()> Island.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08207",
+      "target": "<on()><sp(20)>We've recovered the <color(6)>Double X<ce()> the enemy was using.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08208",
+      "target": "<on()><sp(20)><color(6)>Double X<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08209",
+      "target": "<on()><sp(20)>That's the <book(37)>GX<endbook()> I used to pilot. It seems the <book(38)>New Federation<endbook()> recovered and modified it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08210",
+      "target": "<on()><sp(20)>Might as well. Let's take it and put it to use.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08211",
+      "target": "<on()><sp(20)><color(4)>Garrod<ce()>, I'm leaving the <book(37)>GX<endbook()> to you. Make good use of it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08212",
+      "target": "<on()><sp(20)>Leave it to me. I can't afford to lose to <color(4)>Renton<ce()> or <color(4)>Barrel<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08213",
+      "target": "<on()><sp(20)>Everyone, I've got bad news. It seems <color(5)>Dewey<ce()> has started moving.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08214",
+      "target": "<on()><sp(20)>I see... So it's finally come.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slice_start": 856,
+  "slice_count": 80,
+  "reviewer": "translate_dialogue_241",
+  "rows_examined": [[841, 950]],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_type": "independent meaning review against ISO source and both adjacent contexts",
+  "corrections": [],
+  "uncertainties": [
+    {"ids": ["dialogue_00868", "dialogue_00877"], "note": "Japanese does not explicitly establish the number of approaching enemy units. The translations retain a generic contact report without adding identities."},
+    {"id": "dialogue_00899", "note": "The repeated vowel string is retained as a prolonged cry. Whether this is spoken content or unused placeholder data is unverified."},
+    {"id": "dialogue_00923", "note": "The source is an elliptical objection to something said during the tactical engagement. The exact triggering line is not established by adjacent storage order."},
+    {"id": "dialogue_00931", "note": "The source omits the verb for the evil shackles and the righteous sword. Sever is a context-supported completion of the metaphor, not an added plot event."},
+    {"id": "dialogue_00932", "note": "The source questions the object of liberation elliptically. What do you mean preserves the confused response without inventing who must be freed or what they must be freed from."},
+    {"note": "Terminology and rank variants are left to the project name pass. The 6000-series resource variants represented here remain unverified in runtime."}
+  ],
+  "result": "No meaning corrections required. All 80 translations reviewed against source, with 15 rows of context on each side. This review does not certify glossary finalization, display fit or runtime behavior."
+}

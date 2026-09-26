@@ -1,0 +1,515 @@
+{
+  "slice_start": 15688,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      15683,
+      15852
+    ]
+  ],
+  "rows_examined_count": 170,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "note": "Speakers are not tagged in source tables. Pilot assignment per resource follows the task's resource/pilot table plus character_names_021.json (gender/personality); a minority of rows within each resource are evidently ally/co-pilot banter (e.g. Eureka addressing Renton by name in the 2823010/2823012 Nirvash blocks) rather than the titular pilot's own line. No speaker identity or gender was invented for any unnamed addressee; second-person 'you' is used throughout for such lines, which is gender-neutral in English."
+    },
+    {
+      "note": "The hard byte budget (2x source Japanese character count - 2, capped at 72) is far tighter than the 110-character general dialogue guidance, and forced heavy compression on most rows (dropping secondary clauses such as 'somehow', 'together', explicit addressee names, etc.). No row's ending was dropped; only interior qualifiers were cut. All 379 rows fit within budget after compression; none required leaving a row untranslated or exceeding the limit."
+    },
+    {
+      "ids": [
+        "dialogue_15691"
+      ],
+      "note": "Per-row compression/interpretation choices; see each row's own 'notes' field for detail."
+    }
+  ],
+  "validation": {
+    "controls": "Programmatically verified for every row: the ordered list of <...> command tags in target equals the source's exactly, and the newline count matches the source.",
+    "fit": "Hard byte budget = min(2*source_ja_char_count-2, 72) visible ASCII characters, computed per row from the live ISO source (never cached to disk) and checked programmatically; every row in this batch is at or under budget. No row's ending was dropped; compression cut interior qualifiers/clauses only.",
+    "ascii": "All targets verified ASCII-only, no bare '%', no curly quotes/dashes, and no lowercase 'j' or 'q' glyph (locked names exempt; none occurred in this batch).",
+    "status": "All rows set to status draft, pending independent meaning review.",
+    "meaning_review": "Independent meaning review completed for all 80 rows (rows 15688-15690 resource 2822020 Athrun Zala; rows 15691-15767 resource 2823010 Nirvash/Renton and Eureka co-pilot banter); 3 meaning fixes applied (dialogue_15759, 15760, 15765: mutual/volitional 'let's go home' had been rendered as a command aimed only at the addressee, which is inconsistent with Renton and Eureka riding the same machine); all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_15688",
+      "target": "<op()><sp(20)>When does this truly end...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15689",
+      "target": "<op()><sp(20)>I'll fight for what I protect.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15690",
+      "target": "<op()><sp(20)>Justice, returning.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15691",
+      "target": "<op()><sp(20)>Don't beg - earn it, then it's given!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Stylized rallying-cry proverb (no established English rendering found in glossary); translated literally, three-part structure kept; heavily compressed to fit budget."
+    },
+    {
+      "id": "dialogue_15692",
+      "target": "<op()><sp(20)>Clear view!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15693",
+      "target": "<op()><sp(20)>I'll protect this and Eureka!\nWith the Amita Drive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15694",
+      "target": "<op()><sp(20)>It's fine! Renton can do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15695",
+      "target": "<op()><sp(20)>Back me up.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15696",
+      "target": "<op()><sp(20)>Your way now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15697",
+      "target": "<op()><sp(20)>Take that enemy, please!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15698",
+      "target": "<op()><sp(20)>Whoa, enemy!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15699",
+      "target": "<op()><sp(20)>Renton, calm down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15700",
+      "target": "<op()><sp(20)>On you, Nirvash!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15701",
+      "target": "<op()><sp(20)>Split their forces up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15702",
+      "target": "<op()><sp(20)>Eureka, okay?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15703",
+      "target": "<op()><sp(20)>Hang on, follow!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15704",
+      "target": "<op()><sp(20)>W-wait, isn't this bad?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15705",
+      "target": "<op()><sp(20)>We'll get shot down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15706",
+      "target": "<op()><sp(20)>We're fine, can go.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15707",
+      "target": "<op()><sp(20)>Bad, we're losing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15708",
+      "target": "<op()><sp(20)>It's not over yet!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15709",
+      "target": "<op()><sp(20)>Damn... I won't lose!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15710",
+      "target": "<op()><sp(20)>This is bad! Pushed back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15711",
+      "target": "<op()><sp(20)>Won't give up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15712",
+      "target": "<op()><sp(20)>This feels really bad...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15713",
+      "target": "<op()><sp(20)>Bad, really bad!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15714",
+      "target": "<op()><sp(20)>Let's go, Renton.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15715",
+      "target": "<op()><sp(20)>Ahead now.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15716",
+      "target": "<op()><sp(20)>Watch my back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15717",
+      "target": "<op()><sp(20)>Here we go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15718",
+      "target": "<op()><sp(20)>Go time!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15719",
+      "target": "<op()><sp(20)>Let's do our best!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15720",
+      "target": "<op()><sp(20)>For Eureka's sake...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15721",
+      "target": "<op()><sp(20)>All right!! Let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15722",
+      "target": "<op()><sp(20)>Please calm down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15723",
+      "target": "<op()><sp(20)>Losing momentum!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15724",
+      "target": "<op()><sp(20)>Pull it together!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15725",
+      "target": "<op()><sp(20)>Please! Hang in there!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15726",
+      "target": "<op()><sp(20)>Um, i-is this a prank?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15727",
+      "target": "<op()><sp(20)>Hey! Are you all right?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15728",
+      "target": "<op()><sp(20)>Hold on! You'll be fine!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15729",
+      "target": "<op()><sp(20)>Not what I heard...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15730",
+      "target": "<op()><sp(20)>I mean, don't you think\nyou could go more all-out...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15731",
+      "target": "<op()><sp(20)>Okay with losing like this?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15732",
+      "target": "<op()><sp(20)>Whoa! Amazing!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15733",
+      "target": "<op()><sp(20)>So amazing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15734",
+      "target": "<op()><sp(20)>Even Nirvash is happy!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15735",
+      "target": "<op()><sp(20)>Now that's it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15736",
+      "target": "<op()><sp(20)>So cool!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15737",
+      "target": "<op()><sp(20)>T-too amazing...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15738",
+      "target": "<op()><sp(20)>What was that?! Wow!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15739",
+      "target": "<op()><sp(20)>Being with you is calming.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15740",
+      "target": "<op()><sp(20)>Let's try too, Renton!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15741",
+      "target": "<op()><sp(20)>So clingy!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15742",
+      "target": "<op()><sp(20)>Reinforcements? No fair!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15743",
+      "target": "<op()><sp(20)>Huh?! Wait a sec!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15744",
+      "target": "<op()><sp(20)>So many showed up!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15745",
+      "target": "<op()><sp(20)>Still more?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15746",
+      "target": "<op()><sp(20)>That's enough already!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15747",
+      "target": "<op()><sp(20)>Ugh! Even more!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15748",
+      "target": "<op()><sp(20)>That's...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15749",
+      "target": "<op()><sp(20)>Is Nirvash scared?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15750",
+      "target": "<op()><sp(20)>Whoa, what's that?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15751",
+      "target": "<op()><sp(20)>Something crazy\nshowed up out of nowhere...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15752",
+      "target": "<op()><sp(20)>Renton, look!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15753",
+      "target": "<op()><sp(20)>Is this the boss's entrance?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15754",
+      "target": "<op()><sp(20)>Who are you?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15755",
+      "target": "<op()><sp(20)>We fight that thing?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15756",
+      "target": "<op()><sp(20)>It looks super strong...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15757",
+      "target": "<op()><sp(20)>C-could you handle that...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15758",
+      "target": "<op()><sp(20)>Well done, great work.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15759",
+      "target": "<op()><sp(20)>Let's go, Renton<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15760",
+      "target": "<op()><sp(20)>Let's go.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15761",
+      "target": "<op()><sp(20)>Nirvash says let's go home.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15762",
+      "target": "<op()><sp(20)>Nirvash, returning.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15763",
+      "target": "<op()><sp(20)>We're okay!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15764",
+      "target": "<op()><sp(20)>Thought we'd had it...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15765",
+      "target": "<op()><sp(20)>Let's go, Eureka<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15766",
+      "target": "<op()><sp(20)>Huh, is it over already?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15767",
+      "target": "<op()><sp(20)>Ugh, exhausting.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

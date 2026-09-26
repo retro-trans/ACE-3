@@ -1,0 +1,91 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 13193,
+  "slice_count": 80,
+  "rows_examined": [[13178, 13287]],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_13196",
+      "before": "Gwahaha, that's it, boys!\nCrush them completely!!",
+      "after": "Gwahaha, that's it, boys! Crush them completely!!",
+      "reason": "Shout rows must carry no newline (source line breaks are joined); rejoined into one line, verified within the row's byte budget (56)."
+    },
+    {
+      "id": "dialogue_13210",
+      "before": "Heh, how clever!",
+      "after": "Heh, real clever!",
+      "reason": "Source kozakashii mane wo is dismissive, mocking scorn at the enemy's trick, not sincere admiration; 'how clever!' reads as genuine praise, contradicting Gon Jem's crude, vicious personality."
+    },
+    {
+      "id": "dialogue_13212",
+      "before": "I won't diiiie!!\nNot until I kill you all!",
+      "after": "I won't diiiie!! Not until I kill you all!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (44)."
+    },
+    {
+      "id": "dialogue_13214",
+      "before": "You idiots,\nwhy wasn't I told?!",
+      "after": "You idiots, why wasn't I told?!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (40)."
+    },
+    {
+      "id": "dialogue_13241",
+      "before": "Stop them there!\nI've got enemies too!",
+      "after": "Stop them there! I've got enemies too!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (38, exact)."
+    },
+    {
+      "id": "dialogue_13259",
+      "before": "Attack, attack, attack!\nThat won't finish it!",
+      "after": "Attack, attack, attack! That won't finish it!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (46)."
+    },
+    {
+      "id": "dialogue_13260",
+      "before": "Calm down!\nCharging in like this is risky!",
+      "after": "Calm down! Charging in like this is risky!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (44)."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [13193, 13249],
+      "finding": "Gon Jem (Gilgazamune) taunts/orders checked against character_names_021.json (male; crude, vicious, greedy, loyal to subordinates); no invented identity or reversed meaning found beyond the tone issue fixed at 13210."
+    },
+    {
+      "rows": [13250, 13272],
+      "finding": "Hime Utsumiya (Hime Brain) lines checked against her caring/cheerful/empathetic profile; gender-neutral referents (e.g. 13254 'あいつ' -> 'it', 13296 'あの人' -> 'them') correctly avoid inventing gender."
+    },
+    {
+      "rows": [13193, 13272],
+      "finding": "Every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> command sequence verified identical and in order against the extracted source; no ASCII/j-q/110-char violations found."
+    },
+    {
+      "rows": [13193, 13272],
+      "finding": "No orchestrator terms_028.json decisions (Captain rank, Ixbrau, unidentified life-forms, Ruri/Jamil Captain) apply in this slice; none of those terms appear in the source."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_13199"],
+      "issue": "Translator's call to render fukuro no nezumi as 'cornered' upheld: idiomatic, no identity/gender invented, meaning preserved."
+    },
+    {
+      "ids": ["dialogue_13250", "dialogue_13270", "dialogue_13272"],
+      "issue": "Translator's rendering of Hime's Brain Powerd unit as 'Brain' (not literal 'Bren') upheld: matches locked unit_names_014_a.json spelling."
+    },
+    {
+      "ids": ["dialogue_13258"],
+      "issue": "Translator's neutral 'you' for unnamed sotchi addressee upheld: the addressee is not identified in this or the adjacent slice, so no gender/identity was invented."
+    }
+  ],
+  "validation": {
+    "controls": "Every row's command sequence re-verified programmatically against the source extraction for all 80 rows; unchanged.",
+    "format": "All rows confirmed newline-free after rejoining the 6 rows above; ASCII-only (except the locked fullwidth %) confirmed for all rows.",
+    "fit": "Per-row byte budget (2x source-JP-char-count - 2, capped at 72) recomputed from the console source extraction and verified <= budget for all 80 rows, including the 7 rows fixed above.",
+    "names": "No name-spelling changes needed; Gon Jem, Hime Utsumiya and their locked unit names (Gilgazamune, Hime Brain) match character_names_021.json and unit_names_014_a.json throughout."
+  }
+}

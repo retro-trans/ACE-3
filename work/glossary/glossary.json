@@ -1,0 +1,2623 @@
+{
+  "schema_version": "1.0",
+  "version": "0.1.6",
+  "game": "Another Century's Episode 3: The Final",
+  "target_language": "en",
+  "updated_on": "2026-09-18",
+  "coverage": "42 researched entries; opening tutorial names checked against the ISO. Later dialogue terminology proposals remain separate and are not all canonicalized.",
+  "series": [
+    {
+      "id": "ace_original",
+      "title": "Another Century's Episode Originals",
+      "participation": "original",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "gundam_x",
+      "title": "After War Gundam X",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "eureka_seven",
+      "title": "Eureka Seven",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "gundam_seed",
+      "title": "Mobile Suit Gundam SEED",
+      "participation": "units_only",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "macross_plus",
+      "title": "Macross Plus",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "getter_armageddon",
+      "title": "Getter Robo Armageddon",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "turn_a",
+      "title": "Turn A Gundam",
+      "participation": "units_only",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "king_gainer",
+      "title": "Overman King Gainer",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "gundam_0079",
+      "title": "Mobile Suit Gundam",
+      "participation": "units_only",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "nadesico_pod",
+      "title": "Martian Successor Nadesico: The Prince of Darkness",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "gundam_cca",
+      "title": "Mobile Suit Gundam: Char's Counterattack",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "dunbine",
+      "title": "Aura Battler Dunbine",
+      "participation": "units_only",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "dragonar",
+      "title": "Metal Armor Dragonar",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "brain_powerd",
+      "title": "Brain Powerd",
+      "participation": "units_only",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "gundam_wing_ew",
+      "title": "Gundam Wing: Endless Waltz",
+      "participation": "units_only",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "macross_dyrl",
+      "title": "Super Dimension Fortress Macross: Do You Remember Love?",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "g_gundam",
+      "title": "Mobile Fighter G Gundam",
+      "participation": "units_only",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "rean",
+      "title": "The Wings of Rean",
+      "participation": "story",
+      "source_ids": [
+        "ace_series"
+      ]
+    },
+    {
+      "id": "plamo_kyoshiro",
+      "title": "Plamo-Kyoshiro",
+      "participation": "secret_guest",
+      "source_ids": [
+        "ace_overview",
+        "ace_guide"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "char.barrel_orland",
+      "category": "character",
+      "series_id": "ace_original",
+      "continuity": "ACE3",
+      "name": {
+        "en": "Barrel Orland",
+        "ja": [
+          "バレル・オーランド"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "ace_mechs",
+          "original_names"
+        ],
+        "ja_source_ids": [
+          "ace_overview"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_overview",
+          "ace_mechs"
+        ],
+        "note": "Name and dialogue confirmed in the opening tutorial table (resource 6010 and three matching copies); Barrel also has a user screenshot."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "ace_overview"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "ace_story"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Complains about being drawn into fighting, but tends to go along.",
+          "status": "sourced",
+          "source_ids": [
+            "ace_story"
+          ]
+        },
+        "role": {
+          "value": "Civilian student who becomes an Ixbrau pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "ace_overview",
+            "ace_mechs"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Keep separate from Berkt; parallel-world identities are not interchangeable speaker labels."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.faye_rochenante",
+      "category": "character",
+      "series_id": "ace_original",
+      "continuity": "ACE3",
+      "name": {
+        "en": "Faye Rochenante",
+        "ja": [
+          "フェイ・ロシュナンテ"
+        ],
+        "decision": "provisional",
+        "en_source_ids": [
+          "ace_mechs"
+        ],
+        "ja_source_ids": [
+          "ace_overview"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "Fei Roshnante",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "original_names"
+          ]
+        },
+        {
+          "text": "Fei Roshnande",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "ace_guide"
+          ]
+        },
+        {
+          "text": "Fei Roshenade",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "londo_bell"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Name and dialogue confirmed in the opening tutorial table (resource 6010 and three matching copies); Barrel also has a user screenshot."
+      },
+      "profile": {
+        "gender": {
+          "value": "female",
+          "status": "sourced",
+          "source_ids": [
+            "ace_story"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "ace_story"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Supportive but firm with Barrel.",
+          "status": "sourced",
+          "source_ids": [
+            "ace_story"
+          ]
+        },
+        "role": {
+          "value": "Ixbrau copilot.",
+          "status": "sourced",
+          "source_ids": [
+            "ace_overview",
+            "ace_mechs"
+          ]
+        }
+      },
+      "translation_notes": [],
+      "open_questions": [
+        "Resolve competing English wiki spellings. Faye Rochenante is the current game-wiki choice, not an official localization claim."
+      ]
+    },
+    {
+      "id": "char.marina_carson",
+      "category": "character",
+      "series_id": "ace_original",
+      "continuity": "ACE3; returning ACE2 character",
+      "name": {
+        "en": "Marina Carson",
+        "ja": [
+          "マリナ・カーソン"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "marina",
+          "ace_mechs"
+        ],
+        "ja_source_ids": [
+          "ace_overview"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "female",
+          "status": "sourced",
+          "source_ids": [
+            "marina"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "marina"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [
+            "marina"
+          ]
+        },
+        "role": {
+          "value": "Gun Ark pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "ace_mechs"
+          ]
+        }
+      },
+      "translation_notes": [
+        "The biography source mostly describes ACE2; do not import its enemy status into every ACE3 scene."
+      ],
+      "open_questions": [
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "id": "char.berkt",
+      "category": "character",
+      "series_id": "ace_original",
+      "continuity": "ACE3",
+      "name": {
+        "en": "Berkt",
+        "ja": [
+          "ベルクト"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "berkt",
+          "ace_mechs"
+        ],
+        "ja_source_ids": [
+          "berkt_ja"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "berkt"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "berkt"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Reserved and emotionally guarded; deeply hostile toward Barrel.",
+          "status": "sourced",
+          "source_ids": [
+            "berkt_ja",
+            "berkt"
+          ]
+        },
+        "role": {
+          "value": "Officer of the New Federation.",
+          "status": "sourced",
+          "source_ids": [
+            "berkt_ja"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Keep a separate identity from Barrel even when the story connects them."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.ange_raver",
+      "category": "character",
+      "series_id": "ace_original",
+      "continuity": "ACE3",
+      "name": {
+        "en": "Ange Raver",
+        "ja": [
+          "アンジェ・レイヴァー"
+        ],
+        "decision": "provisional",
+        "en_source_ids": [
+          "original_names"
+        ],
+        "ja_source_ids": [
+          "ace_overview"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "アンジェ・レイバー",
+          "language": "ja",
+          "kind": "spelling",
+          "source_ids": [
+            "berkt_ja"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_overview"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "female",
+          "status": "sourced",
+          "source_ids": [
+            "ace_overview"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "ace_overview"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [
+            "ace_overview"
+          ]
+        },
+        "role": {
+          "value": "Pilot serving in Berkt's force.",
+          "status": "sourced",
+          "source_ids": [
+            "ace_overview"
+          ]
+        }
+      },
+      "translation_notes": [],
+      "open_questions": [
+        "Confirm the full name on a game screen; Japanese references differ in the surname's kana.",
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "id": "char.jill_bardona",
+      "category": "character",
+      "series_id": "ace_original",
+      "continuity": "ACE3",
+      "name": {
+        "en": "Jill Bardona",
+        "ja": [
+          "ジル・バルドナ"
+        ],
+        "decision": "provisional",
+        "en_source_ids": [
+          "original_names"
+        ],
+        "ja_source_ids": [
+          "ace_overview"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_overview"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "berkt_ja"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "berkt_ja"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [
+            "berkt_ja"
+          ]
+        },
+        "role": {
+          "value": "Developer of the drive.",
+          "status": "sourced",
+          "source_ids": [
+            "ace_overview"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Named in the story; no on-screen appearance claimed."
+      ],
+      "open_questions": [
+        "Verify the English romanization and its relationship to the drive's spelling.",
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "id": "char.garrod_ran",
+      "category": "character",
+      "series_id": "gundam_x",
+      "continuity": "After War Gundam X TV",
+      "name": {
+        "en": "Garrod Ran",
+        "ja": [
+          "ガロード・ラン"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "garrod"
+        ],
+        "ja_source_ids": [
+          "garrod"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "garrod"
+          ]
+        },
+        "nicknames": {
+          "value": [
+            "Gundam Boy"
+          ],
+          "status": "sourced",
+          "source_ids": [
+            "garrod"
+          ]
+        },
+        "personality": {
+          "value": "Resourceful and impulsive; grows more cooperative.",
+          "status": "sourced",
+          "source_ids": [
+            "garrod"
+          ]
+        },
+        "role": {
+          "value": "Gundam X and Double X pilot; scavenger.",
+          "status": "sourced",
+          "source_ids": [
+            "garrod"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Do not infer the addressee of a line solely from his relationship with Tiffa."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.tiffa_adill",
+      "category": "character",
+      "series_id": "gundam_x",
+      "continuity": "After War Gundam X TV",
+      "name": {
+        "en": "Tiffa Adill",
+        "ja": [
+          "ティファ・アディール"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "tiffa"
+        ],
+        "ja_source_ids": [
+          "tiffa"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "Tiffa Adil",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "garrod"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "franchise_context",
+        "source_ids": [],
+        "note": "Relevant series biography; ACE3 appearance not independently verified in this pass."
+      },
+      "profile": {
+        "gender": {
+          "value": "female",
+          "status": "sourced",
+          "source_ids": [
+            "tiffa"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "tiffa"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Initially withdrawn; gradually opens up to others.",
+          "status": "sourced",
+          "source_ids": [
+            "tiffa"
+          ]
+        },
+        "role": {
+          "value": "Psychically gifted member of the Freeden's company.",
+          "status": "sourced",
+          "source_ids": [
+            "tiffa"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Use the dedicated character page's Adill spelling; Adil occurs in another wiki article."
+      ],
+      "open_questions": [
+        "Locate her ACE3 dialogue or scene reference."
+      ]
+    },
+    {
+      "id": "char.jamil_neate",
+      "category": "character",
+      "series_id": "gundam_x",
+      "continuity": "After War Gundam X TV",
+      "name": {
+        "en": "Jamil Neate",
+        "ja": [
+          "ジャミル・ニート"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "jamil"
+        ],
+        "ja_source_ids": [
+          "jamil"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "franchise_context",
+        "source_ids": [],
+        "note": "Relevant series biography; ACE3 appearance not independently verified in this pass."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "jamil"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "jamil"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Serious, protective, and burdened by wartime trauma.",
+          "status": "sourced",
+          "source_ids": [
+            "jamil"
+          ]
+        },
+        "role": {
+          "value": "Captain of the Freeden; former Newtype pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "jamil"
+          ]
+        }
+      },
+      "translation_notes": [],
+      "open_questions": [
+        "Locate an ACE3 scene reference; do not infer playable status from the anime biography."
+      ]
+    },
+    {
+      "id": "char.renton_thurston",
+      "category": "character",
+      "series_id": "eureka_seven",
+      "continuity": "Eureka Seven 2005 TV",
+      "name": {
+        "en": "Renton Thurston",
+        "ja": [
+          "レントン・サーストン"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "renton"
+        ],
+        "ja_source_ids": [
+          "renton"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "renton"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "renton"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Idealistic and emotional; initially naive, later more responsible.",
+          "status": "sourced",
+          "source_ids": [
+            "renton"
+          ]
+        },
+        "role": {
+          "value": "Nirvash pilot with Eureka.",
+          "status": "sourced",
+          "source_ids": [
+            "renton"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Use the original TV-era character; exclude AO and Hi-Evolution biography details."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.eureka",
+      "category": "character",
+      "series_id": "eureka_seven",
+      "continuity": "Eureka Seven 2005 TV",
+      "name": {
+        "en": "Eureka",
+        "ja": [
+          "エウレカ"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "eureka"
+        ],
+        "ja_source_ids": [
+          "eureka"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "female",
+          "status": "sourced",
+          "source_ids": [
+            "eureka"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "eureka"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Initially blunt and socially distant; becomes more emotionally expressive.",
+          "status": "sourced",
+          "source_ids": [
+            "eureka"
+          ]
+        },
+        "role": {
+          "value": "Nirvash pilot and Gekkostate member.",
+          "status": "sourced",
+          "source_ids": [
+            "eureka"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Keep the single name for the ACE3-era profile; do not import sequel family names."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.holland_novak",
+      "category": "character",
+      "series_id": "eureka_seven",
+      "continuity": "Eureka Seven 2005 TV",
+      "name": {
+        "en": "Holland Novak",
+        "ja": [
+          "ホランド・ノヴァク"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "holland"
+        ],
+        "ja_source_ids": [
+          "holland"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "holland"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "holland"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Often short-tempered despite a relaxed public image.",
+          "status": "sourced",
+          "source_ids": [
+            "holland"
+          ]
+        },
+        "role": {
+          "value": "Gekkostate leader and LFO pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "holland"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Leadership does not make every imperative his dialogue; verify the speaker."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.anemone",
+      "category": "character",
+      "series_id": "eureka_seven",
+      "continuity": "Eureka Seven 2005 TV",
+      "name": {
+        "en": "Anemone",
+        "ja": [
+          "アネモネ"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "anemone"
+        ],
+        "ja_source_ids": [
+          "anemone"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "female",
+          "status": "sourced",
+          "source_ids": [
+            "anemone"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "anemone"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Volatile and outwardly harsh, with underlying loneliness.",
+          "status": "sourced",
+          "source_ids": [
+            "anemone"
+          ]
+        },
+        "role": {
+          "value": "Soldier and theEND pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "anemone",
+            "ace_guide"
+          ]
+        }
+      },
+      "translation_notes": [
+        "The source franchise's United Federation must not be silently substituted for ACE3's New Federation."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.amuro_ray",
+      "category": "character",
+      "series_id": "gundam_cca",
+      "continuity": "Char's Counterattack era; guest 0079 unit also exists",
+      "name": {
+        "en": "Amuro Ray",
+        "ja": [
+          "アムロ・レイ"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "amuro"
+        ],
+        "ja_source_ids": [
+          "amuro"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "amuro"
+          ]
+        },
+        "nicknames": {
+          "value": [
+            "White Devil"
+          ],
+          "status": "sourced",
+          "source_ids": [
+            "amuro"
+          ]
+        },
+        "personality": {
+          "value": "Compassionate; seeks a future for Earth rather than accepting Char's purge.",
+          "status": "sourced",
+          "source_ids": [
+            "amuro"
+          ]
+        },
+        "role": {
+          "value": "Londo Bell mobile suit squad commander.",
+          "status": "sourced",
+          "source_ids": [
+            "amuro"
+          ]
+        }
+      },
+      "translation_notes": [
+        "The CCA-era speaker and the 0079 guest-unit presentation require scene context.",
+        "Nicknames are reference facts, not mandatory replacements for personal names."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.char_aznable",
+      "category": "character",
+      "series_id": "gundam_cca",
+      "continuity": "Char's Counterattack era",
+      "name": {
+        "en": "Char Aznable",
+        "ja": [
+          "シャア・アズナブル"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "char"
+        ],
+        "ja_source_ids": [
+          "char"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "Quattro Bajeena",
+          "language": "en",
+          "kind": "other_identity",
+          "source_ids": [
+            "char"
+          ]
+        },
+        {
+          "text": "Casval Rem Deikun",
+          "language": "en",
+          "kind": "other_identity",
+          "source_ids": [
+            "char"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "char"
+          ]
+        },
+        "nicknames": {
+          "value": [
+            "Red Comet"
+          ],
+          "status": "sourced",
+          "source_ids": [
+            "char"
+          ]
+        },
+        "personality": {
+          "value": "Charismatic and calculating; can be ruthless.",
+          "status": "sourced",
+          "source_ids": [
+            "char"
+          ]
+        },
+        "role": {
+          "value": "Leader of the revived Neo Zeon.",
+          "status": "sourced",
+          "source_ids": [
+            "char"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Other identities remain distinct forms of address; never globally replace them with Char."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.bright_noa",
+      "category": "character",
+      "series_id": "gundam_cca",
+      "continuity": "Char's Counterattack era",
+      "name": {
+        "en": "Bright Noa",
+        "ja": [
+          "ブライト・ノア"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "bright"
+        ],
+        "ja_source_ids": [
+          "bright"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_wikipedia"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "bright"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "bright"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Disciplined, decisive, and guided by a strong sense of duty.",
+          "status": "sourced",
+          "source_ids": [
+            "bright"
+          ]
+        },
+        "role": {
+          "value": "Londo Bell commander and Ra Cailum captain.",
+          "status": "sourced",
+          "source_ids": [
+            "bright"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Do not import later promotions from Unicorn or Hathaway into ACE3."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.gainer_sanga",
+      "category": "character",
+      "series_id": "king_gainer",
+      "continuity": "Overman King Gainer TV",
+      "name": {
+        "en": "Gainer Sanga",
+        "ja": [
+          "ゲイナー・サンガ"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "king_gainer",
+          "master_names"
+        ],
+        "ja_source_ids": [
+          "master_names"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "king_gainer"
+          ]
+        },
+        "nicknames": {
+          "value": [
+            "King Gainer"
+          ],
+          "status": "sourced",
+          "source_ids": [
+            "king_gainer"
+          ]
+        },
+        "personality": {
+          "value": "Headstrong; initially reluctant to support the Exodus.",
+          "status": "sourced",
+          "source_ids": [
+            "king_gainer"
+          ]
+        },
+        "role": {
+          "value": "Student, gaming champion, and King Gainer pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "king_gainer"
+          ]
+        }
+      },
+      "translation_notes": [
+        "King Gainer can identify his gaming handle or his Overman; inspect the sentence."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.gain_bijou",
+      "category": "character",
+      "series_id": "king_gainer",
+      "continuity": "Overman King Gainer TV",
+      "name": {
+        "en": "Gain Bijou",
+        "ja": [
+          "ゲイン・ビジョウ"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "king_gainer",
+          "master_names"
+        ],
+        "ja_source_ids": [
+          "master_names"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "king_gainer"
+          ]
+        },
+        "nicknames": {
+          "value": [
+            "Black Southern Cross"
+          ],
+          "status": "sourced",
+          "source_ids": [
+            "king_gainer"
+          ]
+        },
+        "personality": {
+          "value": "Sociable away from combat; guarded about his past.",
+          "status": "sourced",
+          "source_ids": [
+            "king_gainer"
+          ]
+        },
+        "role": {
+          "value": "Exodus specialist and sniper.",
+          "status": "sourced",
+          "source_ids": [
+            "king_gainer"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Gain and Gainer are different people; short-name similarity must not trigger replacement."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.akito_tenkawa",
+      "category": "character",
+      "series_id": "nadesico_pod",
+      "continuity": "The Prince of Darkness film",
+      "name": {
+        "en": "Akito Tenkawa",
+        "ja": [
+          "テンカワ・アキト"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "akito"
+        ],
+        "ja_source_ids": [
+          "akito"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "akito"
+          ]
+        },
+        "nicknames": {
+          "value": [
+            "Prince of Darkness"
+          ],
+          "status": "sourced",
+          "source_ids": [
+            "akito"
+          ]
+        },
+        "personality": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [
+            "akito"
+          ]
+        },
+        "role": {
+          "value": "Black Sarena pilot; formerly a cook.",
+          "status": "sourced",
+          "source_ids": [
+            "akito"
+          ]
+        }
+      },
+      "translation_notes": [
+        "The general profile describes his TV personality; research film-specific behavior before prescribing tone."
+      ],
+      "open_questions": [
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "id": "char.ruri_hoshino",
+      "category": "character",
+      "series_id": "nadesico_pod",
+      "continuity": "The Prince of Darkness film",
+      "name": {
+        "en": "Ruri Hoshino",
+        "ja": [
+          "星野ルリ"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "ruri"
+        ],
+        "ja_source_ids": [
+          "ruri"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_overview"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "female",
+          "status": "sourced",
+          "source_ids": [
+            "ruri"
+          ]
+        },
+        "nicknames": {
+          "value": [
+            "Electronic Fairy"
+          ],
+          "status": "sourced",
+          "source_ids": [
+            "ruri"
+          ]
+        },
+        "personality": {
+          "value": "Deadpan and composed.",
+          "status": "sourced",
+          "source_ids": [
+            "ruri"
+          ]
+        },
+        "role": {
+          "value": "Captain of Nadesico B and later Nadesico C.",
+          "status": "sourced",
+          "source_ids": [
+            "ruri"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Japanese surname-first form in the profile is stored without the typographic space.",
+        "Electronic Fairy is one rendering of her epithet; the cited article also gives Electronic Spirit."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.ryoma_nagare",
+      "category": "character",
+      "series_id": "getter_armageddon",
+      "continuity": "Getter Robo Armageddon OVA",
+      "name": {
+        "en": "Ryoma Nagare",
+        "ja": [
+          "流竜馬"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "ryoma"
+        ],
+        "ja_source_ids": [
+          "ryoma"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "ryoma"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "ryoma"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Fierce, blunt, and justice-driven; anger can cloud his judgment.",
+          "status": "sourced",
+          "source_ids": [
+            "ryoma"
+          ]
+        },
+        "role": {
+          "value": "Veteran Getter Team pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "ryoma"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Use the Armageddon incarnation. The source specifically distinguishes it from the TV version's Ryo nickname."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.go_armageddon",
+      "category": "character",
+      "series_id": "getter_armageddon",
+      "continuity": "Getter Robo Armageddon OVA",
+      "name": {
+        "en": "Go",
+        "ja": [
+          "號"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "go"
+        ],
+        "ja_source_ids": [
+          "go"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "Go Saotome",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "go",
+            "ace_guide"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_guide"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "go"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "go"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Initially emotionally detached; strongly protective of Kei.",
+          "status": "sourced",
+          "source_ids": [
+            "go"
+          ]
+        },
+        "role": {
+          "value": "Artificially created pilot of Shin Getter Robo.",
+          "status": "sourced",
+          "source_ids": [
+            "go"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Do not conflate this character with Go Ichimonji from another Getter continuity.",
+        "Go is also an English verb; require character context for short-name matches."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.hikaru_ichijyo",
+      "category": "character",
+      "series_id": "macross_dyrl",
+      "continuity": "Do You Remember Love? film",
+      "name": {
+        "en": "Hikaru Ichijyo",
+        "ja": [
+          "一条輝"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "hikaru"
+        ],
+        "ja_source_ids": [
+          "hikaru"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "Hikaru Ichijo",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "hikaru"
+          ]
+        },
+        {
+          "text": "Ichijo Hikaru",
+          "language": "en",
+          "kind": "name_order",
+          "source_ids": [
+            "ace_mechs"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "hikaru"
+          ]
+        },
+        "nicknames": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [
+            "hikaru"
+          ],
+          "note": "Profile lists TV call signs, but their film/ACE3 applicability was not verified."
+        },
+        "personality": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [
+            "hikaru"
+          ]
+        },
+        "role": {
+          "value": "Valkyrie pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "hikaru"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Japanese full name is stored without the source's typographic space.",
+        "The mixed-continuity profile includes many TV call signs and traits; film applicability remains to be checked."
+      ],
+      "open_questions": [
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "id": "char.isamu_alva_dyson",
+      "category": "character",
+      "series_id": "macross_plus",
+      "continuity": "Macross Plus OVA / film",
+      "name": {
+        "en": "Isamu Alva Dyson",
+        "ja": [
+          "イサム・アルヴァ・ダイソン"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "isamu"
+        ],
+        "ja_source_ids": [
+          "isamu"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "Isamu Dyson",
+          "language": "en",
+          "kind": "short_form",
+          "source_ids": [
+            "ace_mechs"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "isamu"
+          ]
+        },
+        "nicknames": {
+          "value": [
+            "Alpha 1"
+          ],
+          "status": "sourced",
+          "source_ids": [
+            "isamu"
+          ]
+        },
+        "personality": {
+          "value": "Reckless, carefree, and resistant to authority.",
+          "status": "sourced",
+          "source_ids": [
+            "isamu"
+          ]
+        },
+        "role": {
+          "value": "YF-19 test pilot in Project Super Nova.",
+          "status": "sourced",
+          "source_ids": [
+            "isamu"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Exclude his later Frontier / S.M.S. affiliations from this profile."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.kaine_wakaba",
+      "category": "character",
+      "series_id": "dragonar",
+      "continuity": "Metal Armor Dragonar TV",
+      "name": {
+        "en": "Kaine Wakaba",
+        "ja": [
+          "ケーン・ワカバ"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "kaine"
+        ],
+        "ja_source_ids": [
+          "kaine"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "kaine"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "kaine"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": "Impulsive, excitable, and prone to rushing ahead.",
+          "status": "sourced",
+          "source_ids": [
+            "kaine"
+          ]
+        },
+        "role": {
+          "value": "Student turned Dragonar pilot.",
+          "status": "sourced",
+          "source_ids": [
+            "kaine",
+            "ace_mechs"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Use Kaine, matching the cited profile and ACE3 roster."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "char.asap_suzuki",
+      "category": "character",
+      "series_id": "rean",
+      "continuity": "The Wings of Rean 2006 anime",
+      "name": {
+        "en": "Asap Suzuki",
+        "ja": [
+          "エイサップ・鈴木",
+          "エイサップ鈴木"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "rean",
+          "ace_mechs"
+        ],
+        "ja_source_ids": [
+          "asap",
+          "rean"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_mechs"
+        ],
+        "note": "Listed in an ACE3 reference; not yet checked against the ISO or a captured scene."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "asap"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "asap"
+          ],
+          "note": "No nickname should be invented; an empty list does not prove none exists."
+        },
+        "personality": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [
+            "asap"
+          ]
+        },
+        "role": {
+          "value": "Nanajin pilot and Holy Warrior.",
+          "status": "sourced",
+          "source_ids": [
+            "rean"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Use Asap as the current cited English form; retain the anime incarnation rather than the earlier novels."
+      ],
+      "open_questions": [
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "id": "org.earth_federation",
+      "category": "organization",
+      "series_id": "ace_original",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Earth Federation",
+        "ja": [
+          "地球連邦"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "ace_wikipedia"
+        ],
+        "ja_source_ids": [
+          "ace_story"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_wikipedia",
+          "ace_story"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Government associated with the player-side military.",
+        "status": "sourced",
+        "source_ids": [
+          "ace_wikipedia",
+          "ace_story"
+        ]
+      },
+      "translation_notes": [
+        "Keep distinct from the New Federation; a bare Federation needs scene context.",
+        "Earth Federation Forces is the military, not an automatic synonym for the government."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "org.new_federation",
+      "category": "organization",
+      "series_id": "ace_original",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "New Federation",
+        "ja": [
+          "新連邦"
+        ],
+        "decision": "provisional",
+        "en_source_ids": [
+          "berkt_ja"
+        ],
+        "ja_source_ids": [
+          "berkt_ja"
+        ],
+        "en_basis": "project_translation_of_japanese"
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "berkt_ja"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Faction employing Berkt on the other Earth.",
+        "status": "sourced",
+        "source_ids": [
+          "berkt_ja"
+        ]
+      },
+      "translation_notes": [
+        "Literal working translation; English reference spelling remains to be established.",
+        "Do not automatically equate it with every source franchise's Federation."
+      ],
+      "open_questions": [
+        "Establish the faction's English name and exact game label."
+      ]
+    },
+    {
+      "id": "org.londo_bell",
+      "category": "organization",
+      "series_id": "gundam_cca",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Londo Bell",
+        "ja": [
+          "ロンド・ベル"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "londo_bell"
+        ],
+        "ja_source_ids": [
+          "londo_bell"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_story",
+          "ace_wikipedia"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Earth Federation special forces led by Bright Noa.",
+        "status": "sourced",
+        "source_ids": [
+          "londo_bell"
+        ]
+      },
+      "translation_notes": [
+        "Source-franchise command structure is context; confirm the speaker and command situation in ACE3."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "org.neo_zeon",
+      "category": "organization",
+      "series_id": "gundam_cca",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Neo Zeon",
+        "ja": [
+          "ネオ・ジオン"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "neo_zeon"
+        ],
+        "ja_source_ids": [
+          "neo_zeon"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "ネオジオン",
+          "language": "ja",
+          "kind": "spelling",
+          "source_ids": [
+            "ace_overview"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_overview"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Zeon successor faction; Char leads its CCA-era incarnation.",
+        "status": "sourced",
+        "source_ids": [
+          "neo_zeon"
+        ]
+      },
+      "translation_notes": [
+        "Char's faction, Haman's earlier faction, and the later Sleeves are distinct incarnations.",
+        "Do not expand every Neo Zeon label to Newborn Neo Zeon."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "org.gekkostate",
+      "category": "organization",
+      "series_id": "eureka_seven",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Gekkostate",
+        "ja": [
+          "ゲッコーステイト"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "gekkostate"
+        ],
+        "ja_source_ids": [
+          "gekkostate"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "franchise_context",
+        "source_ids": [],
+        "note": "Franchise context; appearance in ACE3 is not verified in this pass."
+      },
+      "description": {
+        "value": "Holland's outlaw group based aboard the Gekko.",
+        "status": "sourced",
+        "source_ids": [
+          "gekkostate"
+        ]
+      },
+      "translation_notes": [
+        "Gekkostate is the organization; Gekko is its ship."
+      ],
+      "open_questions": [
+        "Attach an ACE3 scene attestation for the organization label."
+      ]
+    },
+    {
+      "id": "org.siberian_railway",
+      "category": "organization",
+      "series_id": "king_gainer",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Siberian Railway",
+        "ja": [
+          "シベリア鉄道公社"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "king_gainer"
+        ],
+        "ja_source_ids": [
+          "siberian_railway"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "Siberian Railroad",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "king_gainer"
+          ]
+        },
+        {
+          "text": "Siberian Railroad Authority",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "king_gainer"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "franchise_context",
+        "source_ids": [],
+        "note": "Franchise context; appearance in ACE3 is not verified in this pass."
+      },
+      "description": {
+        "value": "Railway monopoly opposing the Exodus.",
+        "status": "sourced",
+        "source_ids": [
+          "king_gainer",
+          "siberian_railway"
+        ]
+      },
+      "translation_notes": [
+        "Company and armed security force are related but distinct labels."
+      ],
+      "open_questions": [
+        "Verify the ACE3 company and security-force labels separately."
+      ]
+    },
+    {
+      "id": "org.martian_successors",
+      "category": "organization",
+      "series_id": "nadesico_pod",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Martian Successors",
+        "ja": [
+          "火星の後継者"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "martian_successors"
+        ],
+        "ja_source_ids": [
+          "ace_overview"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_overview"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Antagonist faction from The Prince of Darkness.",
+        "status": "sourced",
+        "source_ids": [
+          "martian_successors"
+        ]
+      },
+      "translation_notes": [
+        "The faction name is not a generic label for people born on Mars."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "org.giganos",
+      "category": "organization",
+      "series_id": "dragonar",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Giganos",
+        "ja": [
+          "ギガノス"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "dragonar"
+        ],
+        "ja_source_ids": [
+          "ace_overview"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "United Lunar Empire Giganos",
+          "language": "en",
+          "kind": "spelling",
+          "source_ids": [
+            "dragonar"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_overview"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Lunar state from Dragonar; remnants appear in ACE3.",
+        "status": "sourced",
+        "source_ids": [
+          "dragonar",
+          "ace_overview"
+        ]
+      },
+      "translation_notes": [
+        "Use the short or full state name according to the source label, not a global expansion."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "loc.earth_a",
+      "category": "location",
+      "series_id": "ace_original",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Earth A",
+        "ja": [],
+        "decision": "provisional",
+        "en_source_ids": [
+          "ace_worlds"
+        ],
+        "ja_source_ids": [],
+        "en_basis": "reference_label"
+      },
+      "aliases": [
+        {
+          "text": "World A",
+          "language": "en",
+          "kind": "reference_label",
+          "source_ids": [
+            "ace_flow"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_worlds"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "One of the two Earths in the game; A is a reference label.",
+        "status": "sourced",
+        "source_ids": [
+          "ace_worlds"
+        ]
+      },
+      "translation_notes": [
+        "Do not replace 'this world' or 'the other world' with A/B without establishing the viewpoint."
+      ],
+      "open_questions": [
+        "Verify in-game terminology and A/B mapping; no Japanese A-label is claimed."
+      ]
+    },
+    {
+      "id": "loc.earth_b",
+      "category": "location",
+      "series_id": "ace_original",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Earth B",
+        "ja": [],
+        "decision": "provisional",
+        "en_source_ids": [
+          "ace_worlds"
+        ],
+        "ja_source_ids": [],
+        "en_basis": "reference_label"
+      },
+      "aliases": [
+        {
+          "text": "World B",
+          "language": "en",
+          "kind": "reference_label",
+          "source_ids": [
+            "ace_flow"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_worlds"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "One of the two Earths in the game; B is a reference label.",
+        "status": "sourced",
+        "source_ids": [
+          "ace_worlds"
+        ]
+      },
+      "translation_notes": [
+        "Do not assume 'the other world' always identifies Earth B."
+      ],
+      "open_questions": [
+        "Verify in-game terminology and A/B mapping; no Japanese B-label is claimed."
+      ]
+    },
+    {
+      "id": "loc.axis",
+      "category": "location",
+      "series_id": "gundam_cca",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Axis",
+        "ja": [
+          "アクシズ"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "amuro"
+        ],
+        "ja_source_ids": [
+          "berkt_ja"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "berkt_ja"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Asteroid involved in Char's attempted drop.",
+        "status": "sourced",
+        "source_ids": [
+          "amuro"
+        ]
+      },
+      "translation_notes": [
+        "Axis can also occur in faction names; inspect the referent."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "loc.amaterasu",
+      "category": "location",
+      "series_id": "nadesico_pod",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Amaterasu",
+        "ja": [
+          "アマテラス"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "ace_flow",
+          "nadesico_b"
+        ],
+        "ja_source_ids": [
+          "ace_flow"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_flow"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Terminal colony.",
+        "status": "sourced",
+        "source_ids": [
+          "nadesico_b"
+        ]
+      },
+      "translation_notes": [
+        "Mission 10A provides the ACE3 place-name attestation."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "loc.tresor",
+      "category": "location",
+      "series_id": "eureka_seven",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Tresor Research Institute",
+        "ja": [
+          "トレゾア技研"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "ace_flow"
+        ],
+        "ja_source_ids": [
+          "ace_flow"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_flow"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Research facility defended in mission 16.",
+        "status": "sourced",
+        "source_ids": [
+          "ace_flow"
+        ]
+      },
+      "translation_notes": [
+        "The English name follows the game wiki's mission label; check the rendered in-game form later."
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "loc.byston_well",
+      "category": "location",
+      "series_id": "rean",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Byston Well",
+        "ja": [
+          "バイストン・ウェル"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "rean"
+        ],
+        "ja_source_ids": [
+          "asap"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "franchise_context",
+        "source_ids": [],
+        "note": "Franchise context; appearance in ACE3 is not verified in this pass."
+      },
+      "description": {
+        "value": "Otherworldly setting associated with the Wings of Rean characters.",
+        "status": "sourced",
+        "source_ids": [
+          "rean"
+        ]
+      },
+      "translation_notes": [],
+      "open_questions": [
+        "Verify how ACE3 refers to this setting; do not assume an explorable stage."
+      ]
+    },
+    {
+      "id": "term.baldora_drive",
+      "category": "technology",
+      "series_id": "ace_original",
+      "continuity": "ACE3 / source franchise as noted",
+      "name": {
+        "en": "Baldora Drive",
+        "ja": [
+          "バルドナ・ドライブ"
+        ],
+        "decision": "provisional",
+        "en_source_ids": [
+          "ace_flow",
+          "ace_worlds"
+        ],
+        "ja_source_ids": [
+          "ace_flow",
+          "ace_overview"
+        ]
+      },
+      "aliases": [],
+      "game_presence": {
+        "status": "reference_confirmed",
+        "source_ids": [
+          "ace_flow"
+        ],
+        "note": "ACE3 reference attestation only; not checked in the ISO."
+      },
+      "description": {
+        "value": "Device connecting the game's two worlds.",
+        "status": "sourced",
+        "source_ids": [
+          "ace_worlds"
+        ]
+      },
+      "translation_notes": [
+        "The current English choice follows Akurasu; the Japanese name contains -dona, so the romanization remains disputed."
+      ],
+      "open_questions": [
+        "Resolve Baldora versus a -dona romanization using stronger name evidence; reconcile the developer's surname."
+      ]
+    },
+    {
+      "id": "char.light_newman",
+      "category": "character",
+      "series_id": "dragonar",
+      "continuity": "Metal Armor Dragonar; ACE3 scene rank not inferred.",
+      "name": {
+        "en": "Light Newman",
+        "ja": [
+          "ライト・ニューマン"
+        ],
+        "decision": "researched",
+        "en_source_ids": [
+          "dragonar_light_official"
+        ],
+        "ja_source_ids": [
+          "dragonar_light_official"
+        ]
+      },
+      "aliases": [
+        {
+          "text": "Light",
+          "language": "en",
+          "kind": "short_form",
+          "source_ids": [
+            "dragonar_light_official"
+          ]
+        },
+        {
+          "text": "ライト",
+          "language": "ja",
+          "kind": "short_form",
+          "source_ids": [
+            "dragonar_light_official"
+          ]
+        }
+      ],
+      "game_presence": {
+        "status": "franchise_context",
+        "source_ids": [
+          "dragonar_light_official"
+        ],
+        "note": "Short name occurs in ISO dialogue_00454. Full identity follows the Dragonar scene context; the linked page is a franchise profile."
+      },
+      "profile": {
+        "gender": {
+          "value": "male",
+          "status": "sourced",
+          "source_ids": [
+            "dragonar_light_official"
+          ]
+        },
+        "nicknames": {
+          "value": [],
+          "status": "not_found_in_reviewed_sources",
+          "source_ids": [
+            "dragonar_light_official"
+          ]
+        },
+        "personality": {
+          "value": "Cheerful and quick-thinking; often reins in his impulsive companions.",
+          "status": "sourced",
+          "source_ids": [
+            "dragonar_light_official"
+          ]
+        },
+        "role": {
+          "value": "Dragonar-3 pilot. Rank changes during the series; do not import an unstated rank into a game line.",
+          "status": "sourced",
+          "source_ids": [
+            "dragonar_light_official"
+          ]
+        }
+      },
+      "translation_notes": [
+        "Use Light when the source uses the short form.",
+        "Official profile describes him as a family son/heir; gender is not inferred from his name."
+      ],
+      "open_questions": []
+    }
+  ]
+}

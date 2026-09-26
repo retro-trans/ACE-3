@@ -1,0 +1,171 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 1266,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 1251,
+      "end": 1360
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_01285",
+      "before": "<op()><sp(20)>You people... You're after Tiffa for her strange power too, aren't you?!<ab(800)><ed()>",
+      "after": "<op()><sp(20)>You people... You're after Tiffa for her strange power, aren't you?!<ab(800)><ed()>",
+      "reason": "Source has no 'also/too' (no mo particle); 'too' asserted that a second party is likewise after Tiffa, which the line does not say. The translator flagged this themselves. The chase nuance stays in 'after'."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [
+        1273,
+        1274,
+        1304,
+        1338
+      ],
+      "finding": "kanchou (Ruri, Jamil) and the loanword kyaputen (Jamil, from the Freeden bridge) all rendered Captain per orchestrator decision. Names Ruri Hoshino, Jamil Neate, Nadesico B, Freeden, Londo Bell match the glossary."
+    },
+    {
+      "rows": [
+        1289,
+        1290,
+        1291,
+        1292
+      ],
+      "finding": "Roybea / Witz match character_names_021 (wiki page titles Roybea Loy, Witz Sou); Vulture/Vultures per glossary usage note."
+    },
+    {
+      "rows": [
+        1285,
+        1286,
+        1287,
+        1294
+      ],
+      "finding": "Translator's speaker reading (Garrod / Jamil / a freelance Vulture) is consistent with the source; no identity written into the English. The batch note on 1285 claimed the accusation is aimed at the player force; the replies in 1286-1287 come from the Freeden side, so the addressee is not settled and the note was neutralised. Target text works for either reading."
+    },
+    {
+      "rows": [
+        1293,
+        1294
+      ],
+      "finding": "'Our princess' kept without gender or name; 1294's refusal to hand over Tiffa supports the Tiffa-aboard-GX reading, and 1313-1317 confirm Tiffa is in the GX. Sarcasm toward the GX pilot remains possible; the English allows both."
+    },
+    {
+      "rows": [
+        1301
+      ],
+      "finding": "'we' retained: the line follows the Freeden-lost line 1300 in the polite Nadesico-bridge register, so the speaker's own side failing to arrive in time is the natural subject. Impersonal 'Too late, it seems...' would also be correct."
+    },
+    {
+      "rows": [
+        1302,
+        1303
+      ],
+      "finding": "1302 parallels dialogue_00735 (same source wording). 1303 kept bare: source does not say whose escorts. See uncertainties."
+    },
+    {
+      "rows": [
+        1304
+      ],
+      "finding": "Whiny desu-u register with kanchou fits the Nadesico B bridge (cf. 00740, Hari to Ruri). 'no time left' matches the source. Speaker not written in."
+    },
+    {
+      "rows": [
+        1317,
+        1324,
+        1325
+      ],
+      "finding": "'protect you' in 1317: Tiffa is the settled object from 1313-1316 and is named in 1324."
+    },
+    {
+      "rows": [
+        1327
+      ],
+      "finding": "Paired imperative is a faithful rendering of the bare 'complaints after surviving'."
+    },
+    {
+      "rows": [
+        1329
+      ],
+      "finding": "'mobile suit look-alikes' is an accurate rendering of mobile suit modoki; no glossary term exists."
+    },
+    {
+      "rows": [
+        1331,
+        1333,
+        1334,
+        1338
+      ],
+      "finding": "'unidentified life-forms' is the hyphenated corpus form; Invaders as in the glossary (Getter Robo)."
+    },
+    {
+      "rows": [
+        1341,
+        1342,
+        1343
+      ],
+      "finding": "'Is the moon out?' keeps the canonical Gundam X line and the repeat in 1343 mirrors it."
+    },
+    {
+      "rows": [
+        1345
+      ],
+      "finding": "Continues into 1346-1347 of the next slice (three-part shout); wording consistent with 1379."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        1285
+      ],
+      "issue": "Addressee not settled by the text: Freeden side (they answer in 1286-1287 and are the ones pursuing the GX) or the newly arrived Londo Bell force (Garrod apologises in 1407 for taking them for New Federation). English 'You people' fits both."
+    },
+    {
+      "rows": [
+        1293
+      ],
+      "issue": "Speaker untagged (wareware suggests Jamil, the teasing tone suggests one of the freelance Vultures). Not written in."
+    },
+    {
+      "rows": [
+        1295
+      ],
+      "issue": "Presumably a Londo Bell pilot reacting to the word Gundam. 'A Gundam... you say?' kept."
+    },
+    {
+      "rows": [
+        1303
+      ],
+      "issue": "Could be the allied Flail escort wiped out (slot order after 1302, leading to the time-pressure line 1304) or the enemy escort around the field weapon (1270) being cleared. Bare 'Escort force silenced!' is safe for both; needs an in-game trigger check to refine."
+    },
+    {
+      "rows": [
+        1326
+      ],
+      "issue": "'nobody told me' supplies 'me'; the verb form is inherently first person so it was left, but the speaker (probably Witz) is untagged."
+    },
+    {
+      "rows": [
+        1340
+      ],
+      "issue": "boku-tachi speaker not identified (Freeden bridge crewman or Hari). Left untagged."
+    },
+    {
+      "rows": [
+        1284,
+        1302
+      ],
+      "issue": "Flail is still a provisional transliteration (proposals_dialogue_00696); retained for central normalisation."
+    }
+  ],
+  "validation": {
+    "controls": "All <...> commands of every target re-checked equal in order to the ISO source after the edit, including rows lacking <ed()>.",
+    "format": "No newline in any target; ASCII only; 80 ids 01266-01345 present once each.",
+    "fit": "All rows <= 110 visible characters; the single fix shortened its row. No display-fit shortening performed.",
+    "runtime": "Runtime trigger order, speaker portraits and visual fit are not established by this meaning review."
+  }
+}

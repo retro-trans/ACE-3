@@ -1,0 +1,26 @@
+[
+  {
+    "term_romaji": "oora batoraa",
+    "en": "Aura Battler",
+    "source": "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine ; already used descriptively in work/glossary/character_names_021.json (e.g. \"pilot of the Aura Battler Nanajin\", \"Aura Battler pilot allied with Nie Given\")",
+    "why": "Row dialogue_02972 (\"Is this thing... an Aura Battler?\") is the first dialogue-table use of the generic Dunbine mecha-class term. It already appears informally in character_names_021.json role text but has no dedicated glossary term entry; proposing to lock \"Aura Battler\" formally so later scenes stay consistent."
+  },
+  {
+    "term_romaji": "oora roodo",
+    "en": "Aura Road",
+    "source": "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine (\"the only way to get there from Earth is through the Aura Road\")",
+    "why": "Row dialogue_03007 (\"We came from Byston Well, through the Aura Road\") names the passage connecting Earth and Byston Well. No prior project glossary entry exists for it; the source row does not book()-tag it, but future mission/encyclopedia text likely will."
+  },
+  {
+    "term_romaji": "Jakoba Aon",
+    "en": "Jacoba Aon",
+    "source": "https://boo.world/database/profile/108793/jacoba-aon-personality-type and general Dunbine/Byston Well fan-wiki consensus",
+    "why": "Row dialogue_02979 (\"before he's consumed by Jacoba Aon's wrath\") names the Byston Well deity/force Luxe fears her father is being swallowed by. Not previously in any project glossary file; spelling confirmed via web search rather than guessed."
+  },
+  {
+    "term_romaji": "komon-jin",
+    "en": "commoner (of Byston Well)",
+    "source": "none found; no Byston Well/Dunbine wiki page or project glossary entry defines this term",
+    "why": "Row dialogue_03017 (\"a surface-dweller father and a commoner mother from Byston Well\") uses コモン人, contrasting with 地上人 (surface-dweller). Translated literally as \"commoner\" (transliteration of English \"common\" + person) rather than inventing a lore-specific term such as \"native\"; confidence is low and this needs an orchestrator decision if the term recurs, since \"commoner\" could misleadingly suggest social class rather than world-of-origin."
+  }
+]

@@ -1,0 +1,86 @@
+{
+ "resource_id": 4003921,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)><move(1,7,14)>This mission<marker(1,7,14,0)> will have you carrying out<move(1,9,14)> a combined<marker(1,9,14,0)> operation with two units<move(2,10,14)>.",
+   "notes": "MEANING FIX: \"joint\" replaced with \"combined\" - lowercase j has no glyph in this font; no locked name involved.",
+   "source_sha256": "0799809d84ff0c0b65c5f81b0c3749410ff34ce5944360b3b74f2dd98a6d0888"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)><move(1,5,10)>The goal<marker(22,2,8,0)> is<marker(27,5,10,0)> to<marker(27,8,12,0)> secure<move(1,14,6)> every base<marker(22,14,6,0)> in the operation area<marker(22,10,10,0)>.<move(2,5,10)><picture(90,2,7,0)><refer(2,7,2,8)><picture(117,30,7,0)><refer(30,7,14,6)>",
+   "notes": "",
+   "source_sha256": "d572d523f12ddb9b54adafd11c19a0b04d967e65a071dc1d96e13f198f2a93ef"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)>Motherships<move(1,5,12)> are deployed<marker(3,5,12,0)> in the area<move(1,10,12)>. If one's <color(6)>sunk<marker(3,10,12,0)><ce()>, the operation's a <color(6)>failure<move(2,10,12)><picture(51,30,14,0)><refer(30,14,10,12)><picture(63,2,14,0)><refer(2,14,5,12)><ce()>, so keep fighting while covering them.",
+   "notes": "Compressed to fit 128 chars; full meaning (motherships deployed in the area, losing one fails the operation, fight while supporting) kept, nothing dropped.",
+   "source_sha256": "ecdc669f58dcc48c496942e628b26b4d373269e95939a7fd695254653454f872"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>The battle<marker(20,2,14,0)> situation<marker(20,4,14,0)> can<marker(20,14,12,0)> change<marker(20,14,14,0)> mid-fight<marker(37,2,5,0)>. Depending<marker(37,12,6,0)> on the situation, <danger(1)>let's split roles sensibly between the two units.",
+   "notes": "",
+   "source_sha256": "59847e6af13da8f0f0a92c899b1ef7fa623acde3b7f7c97d647844237aa03fe0"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>The mission time is limited, so please don't run over it.",
+   "notes": "",
+   "source_sha256": "4db65c09f11d0de071a53e47edb3c1dbc72470185bb9aabe3f545c71950811da"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)>Well then, good luck.",
+   "notes": "",
+   "source_sha256": "58d7051528652269ba8e010eb9b4090ce90e6dce537ddb2f024d1e706d356948"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "Visible text over 128 chars in the first full draft ('Motherships are deployed in the operation area. If one is sunk, the operation is a failure, so keep fighting while providing support.', 133 chars); compressed to 'Motherships are deployed in the area. If one's sunk, the operation's a failure, so keep fighting while covering them.' (117 chars) without dropping meaning."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 19,
+    "before": "...a joint<marker(1,9,14,0)> operation with two units...",
+    "after": "...a combined<marker(1,9,14,0)> operation with two units...",
+    "reason": "'joint' contains a lowercase j, which has no glyph in this font (project constraint); replaced with 'combined' (same meaning as the source, no locked name involved), keeping the marker in the same relative position."
+   }
+  ],
+  "checked_decisions": [
+   "Speaker 1060 = Faye Rochenante.",
+   "Slot 19-24 meaning verified against source: joint/combined two-unit operation, goal is to secure every base in the operation area, motherships deployed in the area (losing one fails the operation, keep fighting while covering them), battle situation can change mid-fight so split roles sensibly, mission time is limited, good luck.",
+   "Slot 20/21 tag order verified identical to source, including the two separate <color(6)> spans in slot 21 ('sunk' and 'failure') and their nested move/picture/refer clusters.",
+   "Slot 21: draft's own note documents compressing the sentence to fit under 128 visible chars without dropping meaning - verified length now 117 visible chars, well within limit.",
+   "All commands identical in count/order vs source in every row (verified programmatically, after the j-glyph fix); ASCII-only, no newline, 128-char limit respected, no lowercase j/q (after fix), no bare %."
+  ],
+  "remaining_uncertainties": []
+ }
+}

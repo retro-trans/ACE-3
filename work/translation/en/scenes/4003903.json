@@ -1,0 +1,69 @@
+{
+ "resource_id": 4003903,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 4,
+ "rows_examined": 4,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)><move(1,7,7)>This is a special<marker(1,7,7,0)> mission.<move(2,7,7)>",
+   "notes": "Identical wording/tags to sibling scene 4003903/4003904 (source rows byte-identical).",
+   "source_sha256": "8f7c46df42b140d86b0f8ec18af8a511884ac8974c039ee386269a32c1833e2c"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>Gathered<move(1,7,2)> in the operation area are <color(5)>enemy forces<ce()><marker(20,7,0,0)><marker(20,5,2,0)><marker(20,9,2,0)><marker(20,7,4,0)>; defeat<move(1,7,13)> only the set number<marker(20,7,15,0)><marker(20,5,13,0)><marker(20,9,13,0)><marker(20,7,11,0)>, please.",
+   "notes": "Very dense marker cluster (4+4); distributed across the two clauses in order, per the style of reviewed rows with similar clusters (e.g. 4003531 slot22).",
+   "source_sha256": "7ae4c9fa3dbe924602554fe89ec843aa5fd7a0c39a1d736e38594709731751f4"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)><move(1,2,7)>The number of <color(5)>enemy forces<ce()><marker(20,0,7,0)><marker(20,2,5,0)><marker(20,2,9,0)><marker(20,4,7,0)> is extremely large<move(1,13,7)>, and I don't think<marker(20,15,7,0)><marker(20,13,5,0)><marker(20,13,9,0)><marker(20,11,7,0)> we've faced<move(2,13,7)> combat on this scale before.",
+   "notes": "Dense marker cluster distributed across the sentence in order.",
+   "source_sha256": "f15ac28728dad27fadb3da22cda4f912ac30469033fb02fca0341ec8d95cb36c"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)><color(6)>This will likely be a war of attrition<ce()>, but please don't push yourself too hard.",
+   "notes": "",
+   "source_sha256": "c12ea20edd99421957b655f1516c673bb048580cec3e5b4d703945379d0167df"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Source rows for 4003903 and 4003904 are byte-identical; translated identically."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 4,
+  "rows_in_scene": 4,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 19,
+    "before": "<operator(1060,1)><speed(2)>This<move(1,7,7)> is a special<marker(1,7,7,0)> mission.<move(2,7,7)>",
+    "after": "<operator(1060,1)><speed(2)><move(1,7,7)>This is a special<marker(1,7,7,0)> mission.<move(2,7,7)>",
+    "reason": "Source places <move(1,7,7)> at the very start of the line, before any spoken text; draft had shifted it to after 'This'. Moved back to the start; command set/order unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "Speaker 1060 = Faye Rochenante.",
+   "Source rows for 4003903 and 4003904 are byte-identical (confirmed via tools/scene_source.py); translated identically as the draft notes, verified as correct: defeat only the set/prescribed number of enemy forces gathered in the operation area; the enemy numbers are extremely large, combat on this scale not experienced before; likely a war of attrition, don't push yourself too hard.",
+   "Slot 20/21 dense marker clusters (4+4 and 4+4) verified in order and count against source; distribution across the two clauses accepted per the dense-marker-cluster ruling.",
+   "All commands identical in count/order vs source in every row (verified programmatically, after the move-tag fix); ASCII-only, no newline, 128-char limit respected, no lowercase j/q, no bare %."
+  ],
+  "remaining_uncertainties": []
+ }
+}

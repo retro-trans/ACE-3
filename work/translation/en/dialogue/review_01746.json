@@ -1,0 +1,46 @@
+{
+  "reviewer":"independent_meaning_review_agent_01746",
+  "slice_start":1746,
+  "slice_count":80,
+  "rows_examined":[{"start":1726,"end":1845}],
+  "rows_examined_count":120,
+  "rows_in_slice":80,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[
+    {"id":"dialogue_01801","before":"<op()><sp(20)>and you can make a sharp turn toward the target.<ab(3000)><ed()>","after":"<op()><sp(20)>and you can make a quick turn toward the target.<ab(3000)><ed()>","reason":"Terminology, not meaning: orchestrator ruling to keep the released tutorial term. Released row dialogue_00562 (batch_00558, meaning_reviewed) renders the same double-tap-Dash manoeuvre as 'quick turn', and out-of-slice source row 1833 names it with the literal katakana for Quick Turn. Accepted q exception."},
+    {"id":"dialogue_01802","before":"<op()><sp(20)>Note that sharp turns also work while dashing.<ab(3000)><ed()>","after":"<op()><sp(20)>Note that quick turns also work while dashing.<ab(3000)><ed()>","reason":"Same term as 1801, same ruling."}
+  ],
+  "checked_decisions":[
+    {"rows":[1746,1747,1748],"finding":"The kid of 1741-1745 is not named until 1775; targets do not name or gender the kid. Passive in 1748 keeps the omitted object."},
+    {"rows":[1752,1753,1754,1755,1756,1757,1758],"finding":"Eureka's two-row line and Renton's confession match the source row by row; 'I could fly because it was you' and 'It has to be you' keep the source's emphasis; Amita Drive call kept."},
+    {"rows":[1759,1760,1761,1762],"finding":"Source rows really do lack <op()>; command lists equal the source. Operator announcements, polite register kept."},
+    {"rows":[1763,1765,1767,1768],"finding":"Seven Swell, Amita Drive, Nirvash, Gekko (ship) versus Gekkostate (organization) all match the glossary; book/color spans wrap the matching English words."},
+    {"rows":[1772],"finding":"Hearsay/inference ending (mitai) preserved as 'it seems'."},
+    {"rows":[1776],"finding":"Source says the number of small companions has gone up again; 'Yet another little companion' keeps 'again' without naming who the earlier ones are."},
+    {"rows":[1780,1781],"finding":"Saint Cruz matches opening_history_terms (provisional, flagged there as game-specific). 1781 is feminine speech in the source; target supplies no gender, only 'I', which the verb 'shiranai' makes safe."},
+    {"rows":[1785],"finding":"Direction of the claim checked: the meteorite belongs to THIS world and has some connection to OUR world. Not reversed."},
+    {"rows":[1787,1788],"finding":"Berkt and Hayato Jin match character_names_021. 'him' in 1788 is explicit kare in the source. 'in Japan' modifies Hayato as in the source."},
+    {"rows":[1789,1790,1791,1792,1793,1794],"finding":"Offer, acceptance, 'we're military' caution and Faye's argument follow the source order and direction. 1790 is a request (moraenai darou ka) and is rendered as one. Faye is the ACE3 original character; -san dropped per earlier batches."},
+    {"rows":[1796,1797,1798],"finding":"Gain Bijou and Domepolis match the glossary; 'hiding out' = senpuku; 1798 is a rough 'you'll have to come along', rendered so."},
+    {"rows":[1812,1813,1814],"finding":"Commander's order sequence: no more ground damage, intact recovery abandoned, destroy the satellite. Subjects left out as in the source."},
+    {"rows":[1815,1816,1817],"finding":"Marina monologue kept pronoun-free; source does not settle address versus wondering."}
+  ],
+  "uncertainties":[
+    {"rows":[1801,1802],"issue":"The ruling's condition is only loosely met: the released row writes lowercase 'a quick turn' as a common noun for kyuu-taan, not a capitalised manoeuvre name. I followed the released wording in lowercase. Row 1833 (next slice) has the literal katakana Quick Turn and should use the same term; whether to capitalise it there is a project-wide call. Font has no native-size lowercase q, so these two rows will show the substitute glyph."},
+    {"rows":[1782],"issue":"'So it's true...' for yappari; 'I knew it' / 'As I thought' would be closer, but nothing earlier in the scene contradicts the draft. Left."},
+    {"rows":[1787],"issue":"'The name's familiar' for kiita koto wa aru (have heard of). Source omits the object, so it could be the name or the person; draft reading accepted. Speaker untagged (New Federation knowledge suggests an other-Earth adult such as Jamil or Holland)."},
+    {"rows":[1788,1789,1790,1796,1797,1798],"issue":"Speakers inferred, not tagged: 1788-1790 use 'wareware' and formal male speech (likely Jamil); 1796-1798 use rough male speech (likely Holland, possibly a Getter pilot for 1796). Targets add nothing speaker-specific, so no change needed, but the speaker labels should come from the scene table, not from this review."},
+    {"rows":[1791],"issue":"'I agree.' for sou desu ne, which here is a soft 'Yes, indeed' before accepting. Not wrong; left."},
+    {"rows":[1793],"issue":"Source passive omits who was marked by the New Federation; draft supplies 'us'. The speaker argues for teaming up because of it, so 'us' is the natural reading; left."},
+    {"rows":[1815],"issue":"'still alive?' adds 'still', which the source does not have (ikite iru no ka). Harmless in context of a presumed-dead character; left as legacy material."},
+    {"rows":[1822],"issue":"Draft supplies 'it' (the satellite) as what might target 'us' and drops the trailing 'ga' (though). Several satellites exist in the mission, but 1821 speaks of one 'thing like this', so singular is defensible; left."},
+    {"rows":[1799,1825],"issue":"Resource 6051 (rows 1799-1825 and on to 1845) is an ACE2-style satellite mission with a Zeon fleet and Marina; agrees with the translator that it is legacy content and may never be shown."}
+  ],
+  "validation":{
+    "controls":"Console check after edits: ordered <...> command list of all 80 targets equals the ISO source's.",
+    "format":"No newline in any target; ASCII only; no percent sign; 80 ids dialogue_01746..dialogue_01825.",
+    "fit":"Longest visible text 90 characters (limit 110). No display-fit shortening performed by the reviewer.",
+    "glyphs":"Lowercase j only in locked name Gain Bijou; lowercase q only in 'quick turn' (1801, 1802) by orchestrator ruling.",
+    "runtime":"Runtime scene selection, speaker labels and visual fit are not established by this meaning review."
+  }
+}

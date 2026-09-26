@@ -1,0 +1,77 @@
+{
+ "resource_id": 4003902,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 5,
+ "rows_examined": 5,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)><move(1,8,12)>This is a special<marker(1,8,12,0)> mission.<move(2,8,12)>",
+   "notes": "Ace-pilot special-mission briefing; wording matches its sibling scene (same speaker, near-identical source). Reused wording matches sibling scene 4003920.",
+   "source_sha256": "d2281ccbe71031f4066ae1693c73bb4e00347eb099e82ba6e63f3de94fbb603c"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>In the operation area<move(1,8,8)>, <color(5)>ace<marker(22,8,6,0)> pilots<ce()> have gathered<marker(22,6,3,0)>.<marker(22,10,3,0)> Defeat every<marker(22,8,2,0)> one of them<move(2,8,8)>.",
+   "notes": "",
+   "source_sha256": "7f79394b325b0b509332ccc7ba465b0b640e2b480f3496979f6e74e6bea34832"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)>They're all formidable opponents<marker(48,8,8,0)><marker(48,6,5,0)>.<marker(48,10,5,0)> An<marker(48,8,4,0)> inexperienced pilot stands no chance of winning.",
+   "notes": "",
+   "source_sha256": "5e182edc6f1338f2a1031805a86cb9d41baec959804ca1d05d945e2d83086b1c"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>Even if you're confident in your skills... I think this will be harsher than any battle you've experienced so far.",
+   "notes": "",
+   "source_sha256": "e7e923bfe8f5e90a5459b4aab49d85528b38b683b4a6105cf3209361451de971"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>Please, be careful...",
+   "notes": "",
+   "source_sha256": "569944eb6ac79812c84b3c755072784c399d817f2c8cb65160371b871d0ce28f"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 19,
+   "issue": "Only tag difference from sibling scene 4003920 is the marker split on 'special' (single vs. double); wording kept identical."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 5,
+  "rows_in_scene": 5,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 19,
+    "before": "<operator(1060,1)><speed(2)>This<move(...)> is a special mission.",
+    "after": "<operator(1060,1)><speed(2)><move(...)>This is a special mission.",
+    "reason": "Source places the opening <move(...)> tag at the very start of the line, immediately after <speed(2)> and before any spoken text. The draft had shifted it to a mid-sentence position, after the first word 'This', which the source does not support (every other reviewed briefing-opener in the corpus keeps this tag at position zero). Moved the tag back to the start of the line; the set and order of commands is unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "Speaker 1060 = Faye Rochenante.",
+   "Slot 19-23 meaning verified against tools/scene_source.py output: special mission briefing, ace pilots gathered in the operation area, formidable opponents, harsher than any prior battle, be careful; wording matches sibling scene 4003920.",
+   "Slot 20/21 denser marker split (vs 4003901) verified in order and count against this scene's own source; distribution accepted as pacing, per the dense-marker-cluster ruling.",
+   "All commands identical in count/order vs source in every row (verified programmatically, after the move-tag fix); ASCII-only, no newline, 128-char limit respected, no lowercase j/q, no bare %."
+  ],
+  "remaining_uncertainties": []
+ }
+}

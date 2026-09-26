@@ -1,0 +1,134 @@
+{
+ "resource_id": 4003190,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 10,
+ "rows_examined": 10,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "16  Defend Tresor Institute",
+   "notes": "Released mission title reused.",
+   "source_sha256": "fb515ac5efb25dd4153e60c1d884d86541df79a9ceb0b3773c0bae1d3a5dfc79"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30110,1)><speed(2)>An old military connection got the <book(84)>Tresor Research Institute<endbook()> to help us. Repairs on the <color(4)>Gekko<ce()><thumbnail(176)> start shortly.",
+   "notes": "Tresor Research Institute per glossary.json (loc.tresor). Gekko per glossary.json Gekkostate entry ('Gekko is its ship'). Compressed to fit the 128-char limit.",
+   "source_sha256": "0d61712a434f8ef8592582c0f6e2adc9ab4d5f50459408e701d897a4838c7807"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30110,1)><speed(2)>But it looks like the <book(38)>New Federation<endbook()> already caught wind of it. They're headed this way.",
+   "notes": "",
+   "source_sha256": "6a06dfa797f262504827447837735d2fc36cbc7dc2bf73c2306e57baa01f13a7"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30110,1)><speed(2)>Normally there's no way they'd move this fast. It's probably that bastard <color(5)>Berkt<ce()><thumbnail(189)>'s doing.",
+   "notes": "Holland's rough register kept ('yarou', 'ah-none'); Berkt male per glossary.",
+   "source_sha256": "47324a93a6288f46165538ee845fb4bbd436e83f9bb6b7babda30b2e5df5dd69"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30110,1)><speed(2)>He probably figured we'd come back and got ready for it. Exactly the kind of thing that sly bastard would do.",
+   "notes": "'Exactly' used in place of 'Just' to avoid the j.",
+   "source_sha256": "f22b8089d29cdaebe8d308510c0655497b24d4e9ceaab54e2104aea63862d64e"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30110,1)><speed(2)>It's a good chance to hit them, but the <color(4)>Gekko<ce()> can't move. Still, no time for griping.",
+   "notes": "",
+   "source_sha256": "b6637ef3bc1be0f68cb0563c78b5309da7a6b39e5b29511808d95cba15909dbf"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>I need you to intercept them in the area and keep the enemy away from the <color(4)>Institute<ce()>.",
+   "notes": "'Institute' short for the Tresor Research Institute, matching the color(4) tag on kenkyuujo.",
+   "source_sha256": "cd18b3841f83c21f369742e21e82a601c2ac1fa53b2298d0b085db70f3250dd8"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30110,1)><speed(2)>We've gotten too conspicuous ourselves. The <book(38)>New Federation<endbook()>'s pursuit will likely grow fiercer from here.",
+   "notes": "",
+   "source_sha256": "baeaf7c9339facc102a290492eed7d4385c6e294a401b75dde7b6c91453c5fb0"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<topic()><operator(30060,1)><speed(2)>The <color(5)>Frost brothers<ce()>' <book(38)>New Federation<endbook()> main force<thumbnail(236)>, Intelligence's <color(5)>Dewey Novak<ce()> and his unit, <color(5)>Kids Munt<ce()>'s <book(56)>Siberian Railway<endbook()>...",
+   "notes": "Kids Munt: per English Wikipedia (Overman King Gainer), President of the Siberian Railway (orchestrator ruling; corrects the katakana Kizzu Munto reading, which is 'Kids' not 'Kizz'). Dewey Novak and Frost brothers already locked.",
+   "source_sha256": "8e689e40b6a029138563629b6178860fcf70a7b3091910fd36ab53d3beedb92a"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30060,1)><speed(2)>They're tough opponents. Whatever happens, don't let your guard down.",
+   "notes": "",
+   "source_sha256": "c38bf37b0d37763a72007f4e14b74f7b3feea6048bc90780476fcdb997b4be3d"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 24,
+   "issue": "'Institute' as a short stand-in for the Tresor Research Institute; no locked short form found."
+  },
+  {
+   "slot": 26,
+   "issue": "'Intelligence's Dewey Novak and his unit' for jouhoubu Dewey Novak no butai: source syntax is 'the unit of Intelligence[-department]'s Dewey Novak'; rendered so the color(5) span still wraps only 'Dewey Novak' as in source."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "Kizzu Munto",
+   "en": "Kids Munt",
+   "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+   "why": "President of the Siberian Railway ('Railroad King'), male; not previously in any project glossary file. English Wikipedia spelling 'Kids Munt' used (orchestrator ruling; wiki wins over silence in the corpus - katakana Kizzu is the standard rendering of 'Kids', not 'Kizz')."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 10,
+  "rows_in_scene": 10,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 26,
+    "before": "<topic()><operator(30060,1)><speed(2)>The <color(5)>Frost brothers<ce()>' <book(38)>New Federation<endbook()> main force<thumbnail(236)>, Intelligence's <color(5)>Dewey Novak<ce()> and his unit, <color(5)>Kizz Munt<ce()>'s <book(56)>Siberian Railway<endbook()>...",
+    "after": "<topic()><operator(30060,1)><speed(2)>The <color(5)>Frost brothers<ce()>' <book(38)>New Federation<endbook()> main force<thumbnail(236)>, Intelligence's <color(5)>Dewey Novak<ce()> and his unit, <color(5)>Kids Munt<ce()>'s <book(56)>Siberian Railway<endbook()>...",
+    "reason": "Orchestrator ruling: the Siberian Railway president's English Wikipedia (Overman King Gainer) name is 'Kids Munt', not the draft's guessed 'Kizz Munt' - the katakana 'Kizzu' is the standard rendering of English 'Kids'."
+   }
+  ],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"16  Defend Tresor Institute\".",
+   "All command tags checked against tools/scene_source.py output: identical set and order in every row.",
+   "Speakers verified via tools/speaker_lookup.py: 30110 Holland Novak, 30060 Jamil Neate; Holland's rough register ('ain't no way', 'that bastard') matches his established speech pattern.",
+   "Slot 24 'Institute' short form ruling: orchestrator confirmed acceptable; kept.",
+   "Slot 19 'Tresor Research Institute' / 'Gekko' match glossary.json.",
+   "Slot 21 'Berkt' matches glossary (male).",
+   "Lowercase j/q scan: none found."
+  ],
+  "remaining_uncertainties": [
+   "Slot 24: 'Institute' as a short stand-in for the Tresor Research Institute has no other locked short form to check it against.",
+   "Slot 26: 'Intelligence's Dewey Novak and his unit' keeps the color(5) span on only 'Dewey Novak' per source syntax; the exact scope of 'Intelligence' (a department name vs. a generic descriptor) is not fully settled by this scene alone."
+  ]
+ }
+}

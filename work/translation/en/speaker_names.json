@@ -1,0 +1,33 @@
+{
+  "version": "0.1.11",
+  "scope": "Glossary-backed short speaker labels in shared gameplay tables and scene actor records. Other speakers remain pending glossary research.",
+  "agent_do_not_touch": "These spellings are normalized from the glossary by build_speaker_patch.py. Do not change them during dialogue meaning reviews.",
+  "rows": [
+    {"glossary_id":"char.marina_carson","ids":[1020],"source":"マリナ","target":"Marina"},
+    {"glossary_id":"char.barrel_orland","ids":[1040,1041],"source":"バレル","target":"Barrel"},
+    {"glossary_id":"char.berkt","ids":[1050,1051],"source":"ベルクト","target":"Berkt"},
+    {"glossary_id":"char.faye_rochenante","ids":[1060],"source":"フェイ","target":"Faye"},
+    {"glossary_id":"char.ange_raver","ids":[1070],"source":"アンジェ","target":"Ange"},
+    {"glossary_id":"char.amuro_ray","ids":[5010,24010],"source":"アムロ","target":"Amuro"},
+    {"glossary_id":"char.char_aznable","ids":[5020],"source":"シャア","target":"Char"},
+    {"glossary_id":"char.bright_noa","ids":[5030],"source":"ブライト","target":"Bright"},
+    {"glossary_id":"char.kaine_wakaba","ids":[10010],"source":"ケーン","target":"Kaine"},
+    {"glossary_id":"char.light_newman","ids":[10030],"source":"ライト","target":"Light"},
+    {"glossary_id":"char.akito_tenkawa","ids":[12011,12012,12013],"source":"アキト","target":"Akito"},
+    {"glossary_id":"char.ruri_hoshino","ids":[12031],"source":"ルリ","target":"Ruri"},
+    {"glossary_id":"char.hikaru_ichijyo","ids":[14010],"source":"輝","target":"Hikaru"},
+    {"glossary_id":"char.asap_suzuki","ids":[16010],"source":"エイサップ","target":"Asap"},
+    {"glossary_id":"char.garrod_ran","ids":[17010],"source":"ガロード","target":"Garrod"},
+    {"glossary_id":"char.jamil_neate","ids":[17040],"source":"ジャミル","target":"Jamil"},
+    {"glossary_id":"char.tiffa_adill","ids":[17070],"source":"ティファ","target":"Tiffa"},
+    {"glossary_id":"char.go_armageddon","ids":[19010],"source":"號","target":"Go"},
+    {"glossary_id":"char.ryoma_nagare","ids":[19040,19041],"source":"竜馬","target":"Ryoma"},
+    {"glossary_id":"char.gainer_sanga","ids":[21010],"source":"ゲイナー","target":"Gainer"},
+    {"glossary_id":"char.gain_bijou","ids":[21020],"source":"ゲイン","target":"Gain"},
+    {"glossary_id":"char.renton_thurston","ids":[23010,23011,23012],"source":"レントン","target":"Renton"},
+    {"glossary_id":"char.eureka","ids":[23020,23021],"source":"エウレカ","target":"Eureka"},
+    {"glossary_id":"char.holland_novak","ids":[23030,23031],"source":"ホランド","target":"Holland"},
+    {"glossary_id":"char.anemone","ids":[23200],"source":"アネモネ","target":"Anemone"},
+    {"glossary_id":"char.isamu_alva_dyson","ids":[25010],"source":"イサム","target":"Isamu"}
+  ]
+}

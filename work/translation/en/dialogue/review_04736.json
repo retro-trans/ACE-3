@@ -1,0 +1,53 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 4736,
+  "slice_count": 62,
+  "rows_examined": [{"start": 4721, "end": 4812}],
+  "rows_examined_count": 92,
+  "rows_in_slice": 62,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_04746",
+      "before": "Hahaha...\nSo the one inside is just a little kid.",
+      "after": "Hahaha...\nSo the one inside is only a little kid.",
+      "reason": "'just' contains a lowercase j, which the game font cannot render at native size (project rule: avoid lowercase j/q outside locked names). Swapped for a synonym with identical meaning."
+    },
+    {
+      "id": "dialogue_04783",
+      "before": "It's not just the <book(48)>Shin Dragon<endbook()>.\nRight now, the world is facing a grave crisis.",
+      "after": "It's not only the <book(48)>Shin Dragon<endbook()>.\nRight now, the world is facing a grave crisis.",
+      "reason": "Same lowercase-j font constraint as dialogue_04746; 'not only' preserves the meaning exactly."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [4739, 4740, 4741, 4742],
+      "finding": "Translator's uncertainty confirmed: the call to Berkt (4739), the dismissive reply (4740), Ryoma's retaliation for the interrupted Saotome duel (4741), and Berkt's terse acceptance (4742, matching his glossary personality 'reserved, emotionally guarded') are all rendered without asserting a name beyond what each row's own text states. No change needed."
+    },
+    {
+      "rows": [4743, 4744, 4745, 4746, 4747, 4748, 4749, 4750],
+      "finding": "Translator's uncertainty confirmed: this is a separate simultaneous skirmish (an old LFO/Overman pilot revealed to be a child, interrupted by a third party naming Renton) sharing consecutive table slots with the Berkt/Ryoma thread. No pilot is named or gendered beyond 'Renton', which the source itself supplies. No change needed."
+    },
+    {
+      "rows": [4751, 4752, 4753, 4754, 4755],
+      "finding": "Translator's uncertainty confirmed: this exchange names Ryoma Nagare and describes an old-model Overman, consistent with a further simultaneous 1-on-1 pairing; the second speaker is correctly left unnamed since the source does not name them. No change needed."
+    },
+    {
+      "id": "dialogue_04771",
+      "finding": "Translator's uncertainty confirmed: 'those guys' has no identified referent in the source; kept neutral/unnamed as translated. No change needed."
+    },
+    {
+      "rows": [4763, 4765],
+      "finding": "Ruling applied per orchestrator guidance: '-dono' on Cynthia's name rendered as 'Lady Cynthia' is acceptable, used consistently across both occurrences (4763, 4765). No change needed."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran a throwaway script (scratchpad only, not committed) that re-fetched all 62 rows via tools/dialogue_corpus.py and compared the ordered list of <...> commands against each target: all 62 matched exactly, including rows with no <ab()>/<ed()> at all (4778-4797, the post-battle meeting-style exchange) and the row lacking <ed()> alone (4739, 4743, 4749, 4751), all correctly left as the source has them.",
+    "format": "All 62 targets contain the same newline count as their source row; no raw/extra newlines introduced.",
+    "fit": "All 62 targets are ASCII-only (no non-ASCII characters present) and <=110 visible characters (tags and newlines excluded), including the previously-compressed dialogue_04792 (three clauses, no content dropped).",
+    "fonts": "Checked all 62 targets for lowercase j/q outside locked names; found and fixed 2 (dialogue_04746, dialogue_04783 -- see meaning_fixes). No lowercase j/q remain.",
+    "glossary": "Names/ranks/terms re-checked against work/glossary/character_names_021.json, terms_028.json, unit_names_014_a/b.json, encyclopedia_021_a/b.json and encyclopedia_022.json: Ryoma Nagare, Benkei, Berkt, Renton, LFO, Deuteron Missile, Baldora Charge (distinct from the separately-locked Baldora Drive), Captain Hoshino (rank before name, per Ruri Hoshino's glossary role 'Captain of Nadesico B/C'; matches the 01073-convention already in use), Nadesico, Gekko (the ship, per meeting_terms_015.json) and 'Bloodman' (short form of Fixx Bloodman, already used in encyclopedia_022.json/encyclopedia_021_a.json and scene 4004573.json) all confirmed consistent with locked spellings. Scope confirmation: row 4797 is the last row of resource 6150 (Mission 12B); row 4798 begins resource 6151, a different scene, so this slice's 62-row END boundary is correct and no rows beyond it were reviewed."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "screenshots": [
+    {
+      "file": "source_1.png",
+      "build": "0.1.17"
+    }
+  ],
+  "screenshots_not_archived": "Captures the chat client did not save to disk are described under screens only.",
+  "screens": [
+    "Combat Records help",
+    "Combat Records by series",
+    "Free Mission label overflow",
+    "Game options",
+    "Sound options",
+    "Screen options"
+  ],
+  "content_rect": [
+    111,
+    0,
+    827,
+    620
+  ],
+  "pixels_per_font_unit": 1.29,
+  "menu_button_width_native": 130,
+  "option_button_width_native": 156,
+  "result_header_wrap_native": 140,
+  "dialog_width_native": 410,
+  "dialog_lines_seen": 10,
+  "dialog_capacity": 255,
+  "note": "Limits are screenshot measurements, not proven engine clipping limits."
+}

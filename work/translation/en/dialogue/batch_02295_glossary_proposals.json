@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "pointo A-5-3X",
+    "en": "Point A-5-3X",
+    "source": "game text (fullwidth alphanumerics in rows 2349, 2357)",
+    "why": "Location code given by Berkt for the second Baldora Drive; written in ASCII as A-5-3X."
+  },
+  {
+    "term_romaji": "juuryokuha",
+    "en": "gravity wave",
+    "source": "encyclopedia_022.json renders the Nadesico's juuryokuha-hou as Gravity Blast; no standalone term locked",
+    "why": "Row 2360 (gravity wave surges tied to the energy build-up); likely recurs in later Baldora Drive briefings."
+  }
+]

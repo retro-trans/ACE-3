@@ -1,0 +1,575 @@
+{
+  "slice_start": 1975,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1960,
+      2069
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_02044",
+        "dialogue_02038",
+        "dialogue_02039"
+      ],
+      "note": "The source uses the SAME katakana word for the drive (book 1) and for its developer's surname (2044), and the line's point is that the two match. Locked glossary spellings differ: 'Baldora Drive' vs 'Jill Bardona'. Locked spellings were used, which hides the link in English; the glossary should be unified (both provisional)."
+    },
+    {
+      "id": "dialogue_02042",
+      "note": "'B Plan' for the New Federation development programme named with the letter B; 'Project B' is the more natural English but contains the missing j glyph. See proposals."
+    },
+    {
+      "id": "dialogue_02042",
+      "note": "Speaker formerly belonged to the New Federation (candidates: Holland, Jamil); not tagged, line works for either."
+    },
+    {
+      "id": "dialogue_02050",
+      "note": "Berkt rendered 'him' per glossary gender (male). Speaker refers to Hayato familiarly; speaker not identified. 'he's the one with the details' - 'he' = Hayato."
+    },
+    {
+      "id": "dialogue_02018",
+      "note": "Source says the priest 'that (people are) after' is aboard 'that'; whose target the priest is (allies' objective or enemy's) is left open with 'everyone's after'. Vehicle not named in source."
+    },
+    {
+      "id": "dialogue_02021",
+      "note": "First half is an unfinished 'with this...'; second half is the bare organisation name plus an emphatic/derisive particle, shouted. Rendered as an attack shout; could also be read as exasperation at the Railway."
+    },
+    {
+      "ids": [
+        "dialogue_01984",
+        "dialogue_01985"
+      ],
+      "note": "1984 praises someone's performance without naming them; 1985 'we' supplied for natural English (relief that the train made it)."
+    },
+    {
+      "ids": [
+        "dialogue_01996",
+        "dialogue_01997",
+        "dialogue_01998",
+        "dialogue_01999",
+        "dialogue_02000",
+        "dialogue_02001"
+      ],
+      "note": "Per-character taunt exchanges with the Rushrod pilot; player-side speakers unidentified. 1996 'old geezer' renders a rude 'old man' term."
+    },
+    {
+      "ids": [
+        "dialogue_02002",
+        "dialogue_02003",
+        "dialogue_02004",
+        "dialogue_02005"
+      ],
+      "note": "2002-2003 are the Rushrod pilot facing an unfamiliar (other-world) machine; 2004/2005 replies by unidentified pilots."
+    },
+    {
+      "ids": [
+        "dialogue_02028",
+        "dialogue_02036",
+        "dialogue_02041",
+        "dialogue_02043"
+      ],
+      "note": "Long window lines compressed to fit 110 visible characters; 2028 (exactly 110) 'Your company would help' compresses 'it would help if you acted together with us'. 2041 clause order changed (development history before 'trump card') to keep the book span around New Federation in place."
+    },
+    {
+      "id": "dialogue_02043",
+      "note": "'the colonies' = the colony side (Gundam X Space Revolutionary Army context); organisation name not supplied because source does not give it."
+    },
+    {
+      "id": "dialogue_02030",
+      "note": "Two colour spans in source order: ship name first, personal name second; name in Western order per glossary (Ruri Hoshino)."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source from the ISO: all 80 equal.",
+    "fit": "No line breaks; longest visible text 110 characters (limit 110).",
+    "charset": "ASCII only; no bare percent sign; lowercase j/q only inside locked names.",
+    "resource": "All 80 rows belong to resource 6060 (Mission 06 'Support the Exodus').",
+    "meaning_review": "Independent meaning review done: all 80 rows compared with the ISO source (rows 1960-2069 read for context); 2 meaning fix(es) applied, see review_01975.json; all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_01975",
+      "target": "<op()><sp(20)>Wow! So? Who won?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01976",
+      "target": "<op()><sp(20)>It was a draw.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01977",
+      "target": "<op()><sp(20)>Eureka... I'm sorry about earlier.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01978",
+      "target": "<sp(20)>I wanted to talk with you more.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01979",
+      "target": "<op()><sp(20)>No, I'm the one who's sorry...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01980",
+      "target": "<sp(20)>For putting it that way...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01981",
+      "target": "<op()><sp(20)>They call it Siberia, but it's not the Siberia I know.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01982",
+      "target": "<sp(20)>What is going on...?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01983",
+      "target": "<op()><sp(20)>The train has left the operation area.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01984",
+      "target": "<op()><sp(20)>Amazing... To do this well.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Who is being praised is not stated."
+    },
+    {
+      "id": "dialogue_01985",
+      "target": "<op()><sp(20)>Having come this far, we can breathe easy.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01986",
+      "target": "<op()><sp(20)>I wouldn't be so sure.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01987",
+      "target": "<sp(20)>Here comes one that looks persistent.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01988",
+      "target": "<op()><sp(20)>Wh-what is that thing?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01989",
+      "target": "<op()><sp(20)>Well, another bizarre one's shown up.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01990",
+      "target": "<op()><sp(20)>Don't let its looks fool you, helpers. That's an Overman.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01991",
+      "target": "<sp(20)>It has an Overskill, so it's tough.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01992",
+      "target": "<op()><sp(20)>Exactly! Now hurry up and surrender!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01993",
+      "target": "<op()><sp(20)>Its flamethrower has a wide attack range. Be careful.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01994",
+      "target": "<op()><sp(20)>Careful or not, there's nothing you can do against this Rushrod!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01995",
+      "target": "<op()><sp(20)>Get a taste of the Overskill that stops time!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01996",
+      "target": "<op()><sp(20)>Let's take this old geezer down already!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01997",
+      "target": "<op()><sp(20)>Shut uuup!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01998",
+      "target": "<op()><sp(20)>Here comes a real pain.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01999",
+      "target": "<op()><sp(20)>What?! You say that to me, the toughest man in the Siberian Railway?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is the Rushrod pilot (glossary: Yassaba Jin, male)."
+    },
+    {
+      "id": "dialogue_02000",
+      "target": "<op()><sp(20)>So the Siberian Railway lets a guy like this rise up the ranks. Cold regions really are different.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02001",
+      "target": "<op()><sp(20)>Now you mock the Siberian Railway itself! Unforgivable!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02002",
+      "target": "<op()><sp(20)>Huh? Never seen this one before.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02003",
+      "target": "<sp(20)>Whatever - you're going down at my hands!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02004",
+      "target": "<op()><sp(20)>As if I'd make it that easy!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02005",
+      "target": "<op()><sp(20)>Wh-what is this guy?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02006",
+      "target": "<op()><sp(20)>Renton... be careful!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02007",
+      "target": "<op()><sp(20)>A child...?!<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02008",
+      "target": "<sp(20)>But if you're an enemy, I'll show no mercy!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02009",
+      "target": "<op()><sp(20)>Th-this guy is strong...!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02010",
+      "target": "<op()><sp(20)>Don't be fooled by appearances.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02011",
+      "target": "<sp(20)>But it's okay. The you of today can handle it if you stay calm.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02012",
+      "target": "<op()><sp(20)>G-got it...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02013",
+      "target": "<on()><sp(20)>Gain here... The high priest has been rescued.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02014",
+      "target": "<on()><sp(20)>Picked up an Overman during the escape; got a kid piloting it.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02015",
+      "target": "<on()><sp(20)>My name isn't 'kid'!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02016",
+      "target": "<on()><sp(20)>It's Gainer Sanga!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02017",
+      "target": "<on()><sp(20)>All units, we're heading out too.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02018",
+      "target": "<on()><sp(20)>The priest everyone's after is aboard that. Guard it well.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source says only 'that' for the vehicle; not expanded to 'train'."
+    },
+    {
+      "id": "dialogue_02019",
+      "target": "<on()><sp(20)>Gainer, don't get distracted.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02020",
+      "target": "<on()><sp(20)>I know!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02021",
+      "target": "<on()><sp(20)>This might work... Damn Siberian Railway!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Second half is a bare shout of the organisation's name with an emphatic particle; tone inferred."
+    },
+    {
+      "id": "dialogue_02022",
+      "target": "<on()><sp(20)>How dare you make such a fool of the Siberian Railway!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02023",
+      "target": "<on()><sp(20)>I'll stop time AND your breath, brat!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02024",
+      "target": "<on()><sp(20)>Wh-what?! This Rushrod, beaten?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02025",
+      "target": "<on()><sp(20)>I'll let you go for today... but I'll chase you to the ends of the earth!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02026",
+      "target": "<on()><sp(20)><color(4)>Gain<ce()>. The priest is with the <book(83)>Vodarac<endbook()> people now. They asked me to pass on their thanks.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02027",
+      "target": "<on()><sp(20)>So the <book(55)>Exodus<endbook()> is a success, safe and sound.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02028",
+      "target": "<on()><sp(20)>To the point: we need your strength. The fight with the <book(38)>New Federation<endbook()> is heating up. Your company would help.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02029",
+      "target": "<on()><sp(20)>Sure, if I'll do, I'll make myself useful. So, these are the guests I heard about?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02030",
+      "target": "<on()><sp(20)>I'm <color(4)>Nadesico<ce()> captain <color(4)>Ruri Hoshino<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02031",
+      "target": "<on()><sp(20)>Oho... A captain with a bright future ahead. A pleasure to meet you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02032",
+      "target": "<on()><sp(20)>Everyone, I've put together my own analysis of our situation from what we've learned so far.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02033",
+      "target": "<on()><sp(20)>I believe it's certain this is another world, with a history different from the one we live in.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02034",
+      "target": "<on()><sp(20)>Well, that's heavy talk right off the bat...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02035",
+      "target": "<on()><sp(20)>That hypothesis explains everything that has happened so far.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02036",
+      "target": "<on()><sp(20)>But some things remain unclear. The life-forms that appeared in our world... They originate from this world.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02037",
+      "target": "<on()><sp(20)>So there's some kind of connection...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02038",
+      "target": "<on()><sp(20)>My guess is that what created that connection was the <book(1)>Baldora Drive<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02039",
+      "target": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()>... I've heard of it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02040",
+      "target": "<on()><sp(20)>Huh? How come?!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02041",
+      "target": "<on()><sp(20)>Through certain channels. Development was tried once and failed - the <book(38)>New Federation<endbook()>'s trump card, right?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02042",
+      "target": "<on()><sp(20)>...You can't mean the B Plan? I heard of it back when I was with the <book(38)>New Federation<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "B Plan: see proposals."
+    },
+    {
+      "id": "dialogue_02043",
+      "target": "<on()><sp(20)>Right. A forbidden technology for instant travel over extreme distances, as a means of attacking the colonies.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02044",
+      "target": "<on()><sp(20)>Wasn't its developer someone named <color(6)>Bardona<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": "Locked glossary spellings: person 'Bardona' vs device 'Baldora Drive' - the source uses the identical word for both; see uncertainties."
+    },
+    {
+      "id": "dialogue_02045",
+      "target": "<on()><sp(20)>You're well informed. That's right.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02046",
+      "target": "<on()><sp(20)>So the same people and the same things exist in two entirely different worlds...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02047",
+      "target": "<on()><sp(20)>That's correct.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02048",
+      "target": "<on()><sp(20)>And when that <color(5)>black machine<ce()> appeared, we were thrown into this world.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02049",
+      "target": "<on()><sp(20)>Yes, that machine is our only lead.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02050",
+      "target": "<on()><sp(20)><color(5)>Berkt<ce()>, huh... <color(4)>Hayato<ce()> has fought him many times, so he's the one with the details.",
+      "status": "meaning_reviewed",
+      "notes": "Berkt is male per glossary."
+    },
+    {
+      "id": "dialogue_02051",
+      "target": "<on()><sp(20)>As it happens, word has come in from that very <color(4)>Hayato Jin<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02052",
+      "target": "<on()><sp(20)>It seems the <book(48)>Shin Dragon<endbook()> that was sleeping in Japan is about to awaken.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02053",
+      "target": "<on()><sp(20)><book(48)>Shin... Dragon<endbook()>? What's that?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02054",
+      "target": "<on()><sp(20)>A threat to the entire world. That's all you need to remember.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

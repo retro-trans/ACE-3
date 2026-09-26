@@ -1,0 +1,384 @@
+{
+ "resource_id": 4004643,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 44,
+ "rows_examined": 44,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21010,1)><speed(2)><color(4)>Eureka<ce()>'s a Coralian... she wasn't even human...",
+   "notes": "",
+   "source_sha256": "76a811a5c0dc541123f80a53af4ddc89fb8f3b8efe6d294c939f7160b628684e"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23020,1)><speed(2)><color(4)>Renton<ce()>... I'm sorry for hiding it...",
+   "notes": "",
+   "source_sha256": "eede3ab01af0c86e02461a4b6c5219796039bb1b90c7fb5769034017881ce9e9"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23020,1)><speed(2)>I didn't want <color(4)>Renton<ce()> to hate me...",
+   "notes": "",
+   "source_sha256": "6338179bce52b1000880a53f4dc024d8f2164204e1ecca1136221334f9eac4ee"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23010,2)><speed(2)>You were different from anyone else to me from the start. <color(4)>Eureka<ce()>, you're you.",
+   "notes": "",
+   "source_sha256": "a9c8e5f987ec81e9c565f21388e0dbb18fa514022b0f4c50b37580bd497780d9"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23010,2)><speed(2)>The girl I happened to fall for was a Coralian. That's all there is to it.",
+   "notes": "",
+   "source_sha256": "965270f5478e2ab4e576162ba0ad33dbc76c7da076a4fc73fc6f30823c16761e"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(17010,2)><speed(2)>Yeah, none of us care about something like that!",
+   "notes": "",
+   "source_sha256": "db1e17b911e0b016e51cba47ea405204efba4c4dadbf88aa9d6f79e6180faad0"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(25010,2)><speed(2)>We're a bunch of misfits to begin with. It's no big deal.",
+   "notes": "",
+   "source_sha256": "c8e7f1d2a400390e8978b9787852d984ae015378491bfa663cc76c8db39db283"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(23020,2)><speed(2)>Everyone... thank you.",
+   "notes": "",
+   "source_sha256": "e4a3f2f5794c0fbdc9245b4cb88054b16aab3e03d06b2442a9615e8f958821bd"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(23020,1)><speed(2)><color(4)>Renton<ce()>... um.",
+   "notes": "",
+   "source_sha256": "337cb239298d14fdbf0d1607c4c9c7eced389e11abf8f8d760e17fd79e2585eb"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(23010,1)><speed(2)>What?",
+   "notes": "",
+   "source_sha256": "f231bc3b55882f037bd64329e0203532db3d3109185f4a1fd4b8a53a580e0381"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(23020,2)><speed(2)>I want to be with <color(4)>Renton<ce()>. Forever, forever!",
+   "notes": "",
+   "source_sha256": "d3ec4db4a2cfc30a241814d6f52726939ce28399b1360129996fa201e9b798b1"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(23010,2)><speed(2)>Yeah, but there's still something we have to do. Let's go, <color(4)>Eureka<ce()>!",
+   "notes": "",
+   "source_sha256": "0c9e08c015d5127d1d816ebcb6f4e1f19afbe01211b18e0a5dda380cc78b07fc"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(23020,2)><speed(2)>Yeah!",
+   "notes": "",
+   "source_sha256": "0cbe5d05f30728de1adcf74a8d67be24f3e54a9146078afdce38c37d549a959e"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(5010,1)><speed(2)><color(4)>Barrel<ce()>, are you all right now?",
+   "notes": "",
+   "source_sha256": "8b2634c0316a23a6e6cb89d165523b289b0c1580b051dea7a079f610e8804690"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>Sorry to worry you. I'm fine now.",
+   "notes": "",
+   "source_sha256": "2d0690a7f56b342bb5721a6314ecec161b44e5dde265f95053584224344ac678"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>I'll... fight this through to the end.",
+   "notes": "",
+   "source_sha256": "eccba019922c21ad1784bc579c7d9808ea12e60e8eea94e1521b57d1033f87d3"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(5010,1)><speed(2)>Looks like you've grown. Maybe thanks to <color(4)>Faye<ce()>?",
+   "notes": "",
+   "source_sha256": "ffb80915cdb62a3789a66874077794c3b4edb7075d17ccf25851b10a67e7cfe3"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>I didn't do anything. <color(4)>Barrel<ce()> worked it out himself.",
+   "notes": "",
+   "source_sha256": "028c4ab03d523c8ec88e390b388d797ab75e3aaec12c3e2796651e537e09363a"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()> surely won't waver again.",
+   "notes": "",
+   "source_sha256": "af80e7c407642d57453235f50060dff7cf2f071be61ac3eb26b9598fd8e4293b"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(23100,1)><speed(2)>Still, that's awful. <color(5)>Dewey<ce()>, I mean.",
+   "notes": "",
+   "source_sha256": "472b74857f7703e25f005412d8a4f1370f1c614c513f7638f6ee617ced718825"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(23020,1)><speed(2)>...",
+   "notes": "Source row is an ellipsis only; rendered per brief.",
+   "source_sha256": "9dd721cab03cb78c43ab66ba5325f018b98ac7e4b28a33e40b5b707bfb22f588"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(23010,1)><speed(2)>With <color(4)>Eureka<ce()> being a Coralian, we could still talk like this and understand each other.",
+   "notes": "",
+   "source_sha256": "d6ed65ff30c57b4f6187d37baefd350ae589440684fa05a89567ebbb1e873077"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(23010,1)><speed(2)>There's no reason to destroy the Scub Coral!",
+   "notes": "",
+   "source_sha256": "d47a6493dd830622a22d7d853c810f5e8a87c16cdb254f73e5f4752a98db55c6"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(23030,1)><speed(2)>That's why we're the ones stopping it. What <color(5)>Dewey<ce()>'s doing...",
+   "notes": "",
+   "source_sha256": "3353610776ac53a741f8ec8ac9da5eaa6f73060b29502c97cc36e73cc8acc5d4"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(23030,1)><speed(2)>Brother... I will stop you, no matter what...",
+   "notes": "Holland addressing Dewey (off-screen), his older brother per glossary.",
+   "source_sha256": "5e7dee605d4a9a818cd8061559997ee46acc2a88abe797b81afeefd7783b87bc"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(19030,1)><speed(2)>To think they'd artificially bring out an <color(5)>Antibody Coralian<ce()>.",
+   "notes": "",
+   "source_sha256": "d1c4fe228f679124e82fe174447e5b2af2bf59a2fb0e257cf122a01002288c90"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(19030,1)><speed(2)>Actually going through with something like that, they can't be sane.",
+   "notes": "",
+   "source_sha256": "d09fc8b6bbbacd569ce61edf67aa6efa6c28dae5002b2303c9b8d9ef7e1292ed"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(19010,1)><speed(2)>Those who hold power show twisted thinking...",
+   "notes": "",
+   "source_sha256": "5978ce65f20a48c7140de21768cba2a802db4fb0f3dabb1f3268a1049a572e9c"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(1020,1)><speed(2)>Those with power going out of control -- same in every world, huh...",
+   "notes": "",
+   "source_sha256": "841d726a550ad4a88340fda279941da829a20b82a78ed36b59cd2dbd5a588d15"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17030,1)><speed(2)>Flip side is, even across different worlds, people are the same and can understand each other. Like you and me.",
+   "notes": "",
+   "source_sha256": "dd5b5428feda49cbd55a46957e6ff5a0517ff8452a8d9994d9e6f31481480b7f"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(1020,1)><speed(2)>...Aren't you steering this somewhere weird?",
+   "notes": "",
+   "source_sha256": "a8abd0e44a37b9dc685ebd22f5f3d7e5d23c41c3e78319df12f467314ff29a80"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(17030,2)><speed(2)>Ohh... tough crowd.",
+   "notes": "",
+   "source_sha256": "af0b2b54b730cb5f3b06a68dcbddbf33382ffe803eba53ae4bd8ebbf34727408"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(14030,1)><speed(2)>Gotta crush punks like that. Right, <color(4)>Hikaru<ce()>?",
+   "notes": "",
+   "source_sha256": "aa90987408be6dbc82daca2787d7046b62bf22625307109b79709fc253c0a6ea"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(14010,1)><speed(2)>Goes without saying. Let's hurry and get out there.",
+   "notes": "Source has Hikaru address Focker as 'senpai'; dropped per convention of dropping honorifics with no English equivalent.",
+   "source_sha256": "76730a5847260caba667a0c285a658c96ab51fc1fc1c312e8f3b8ba1efef6cea"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(14030,1)><speed(2)>Heh... look who's got some mouth now.",
+   "notes": "",
+   "source_sha256": "78aa5db25b11263f08caf5d05964a8d64ff4854234c87bbc6296b14f06dc2d39"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(19040,1)><speed(2)>Seems some interesting guy showed up on Earth while we were gone.",
+   "notes": "",
+   "source_sha256": "15377a34d1555617051dd66cead8979334b22ee3190fd6bde26214733363e3ba"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(19050,1)><speed(2)>Don't let your guard down, <color(4)>Ryoma<ce()>. He won't be easy to deal with.",
+   "notes": "",
+   "source_sha256": "268783642adc8c8f728be10e685c1afc8d52bb024983b4f853c39dd0da894fa1"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(19040,1)><speed(2)>I know that.",
+   "notes": "",
+   "source_sha256": "6d764a4994a3bdb0d1d4eae34556658fe43ce3d04e52b593f63780882bd335d5"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(16040,1)><speed(2)>How awful... this happens in the surface world...",
+   "notes": "",
+   "source_sha256": "e1c9561119de19fbd50c9eb625be5ab84142862cf7b8a59ffb8f2e532358776a"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(16010,1)><speed(2)>Different world or not, I can't forgive this... I'll stop it with <color(4)>Nanajin<ce()>, no matter what!",
+   "notes": "",
+   "source_sha256": "9976a1a5d9ecdb9f75dbc79f8a51c7266ab52695998383595bfca784a7116722"
+  },
+  {
+   "table": 1,
+   "slot": 339,
+   "text_id": 340,
+   "en": "<operator(10010,1)><speed(2)><color(4)>Akito<ce()>, was that okay? Leaving her behind to come here.",
+   "notes": "",
+   "source_sha256": "4f951d32e7e1f6d360d44e7cc78c22ff9d04586f6386d664616268952fe1e6da"
+  },
+  {
+   "table": 1,
+   "slot": 340,
+   "text_id": 341,
+   "en": "<operator(12011,1)><speed(2)>It's fine.",
+   "notes": "",
+   "source_sha256": "c512ab1eff1277073115c09f12ba1f80d1f58b79dca59e8493c97f8b94ea12bc"
+  },
+  {
+   "table": 1,
+   "slot": 341,
+   "text_id": 342,
+   "en": "<operator(12031,1)><speed(2)><color(4)>Akito<ce()>... I hope you two can meet again soon.",
+   "notes": "",
+   "source_sha256": "65adfedf77051b6d76f46f792b99ca9a771f0ec0a4042fd675dffdd9bb7cf4e2"
+  },
+  {
+   "table": 1,
+   "slot": 342,
+   "text_id": 343,
+   "en": "<operator(12011,1)><speed(2)>For now, I fight alongside these comrades. That's all.",
+   "notes": "",
+   "source_sha256": "5926ce18e182ea5bf42931ad1ab7d8a6c41ecef5f1d1cb5495ce67e68d78b7a0"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 259,
+   "issue": "'That interesting guy' Ryoma refers to is not named in this scene or resolvable from it; identity left unspecified as in the source."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 44,
+  "rows_in_scene": 44,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "table1 slot99 Holland's 'Brother... I will stop you, no matter what...' addressed to Dewey (off-screen): confirmed by glossary (Dewey is Holland's older brother). No change.",
+   "table1 slot220 Hikaru's line drops his 'senpai' address to Focker per convention of dropping honorifics with no English equivalent, per existing note. No change.",
+   "table1 slot60 ellipsis-only row ('……。'): rendered as bare '...' per existing note; left unchanged.",
+   "j/q rewording (mechanical, not a meaning change): table0 slot22 'you're just you'->'you're you', reworded to remove lowercase j per project rule; meaning unaffected. 'Nanajin' (table1 slot300) left unchanged as a locked glossary unit name despite containing a lowercase j."
+  ],
+  "remaining_uncertainties": [
+   "table1 slot259: the 'interesting guy' Ryoma says appeared on Earth is not named in this scene or resolvable from it; identity left unspecified as in the source."
+  ]
+ }
+}

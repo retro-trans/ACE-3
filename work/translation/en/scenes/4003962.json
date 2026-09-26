@@ -1,0 +1,142 @@
+{
+ "resource_id": 4003962,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 12,
+ "rows_examined": 12,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "History of the Other World",
+   "notes": "Archive topic 1.",
+   "source_sha256": "24e34d84bcc86eb9575372dc462ebba2262c25565ee73dffba5daedbfadca388"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "The Nadesico's Situation",
+   "notes": "Archive topic 2.",
+   "source_sha256": "b58269055c9e76cbc036b90d4b076809a6c186d31dffb094099677b9f52380d5"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<library(1)><operator(30030,1)><speed(2)>Let me tell you what was learned from talking with Capt. <color(4)>Jamil<ce()>. To start with the conclusion: this is Earth.",
+   "notes": "Locked name contains J (exempt).",
+   "source_sha256": "0f6a4e43b24c0d419851192ab4ad7f80696ca4ab2b0ca73623e13cec8448f7a7"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30030,1)><speed(2)>The year and the date matched<thumbnail(172)>, and the surrounding celestial bodies are those of Earth itself.",
+   "notes": "",
+   "source_sha256": "2a49f1a559f7d5b042ab2d712f7b9fc51ae270bac8dfd3cc91ec0d10eafcde92"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30030,1)><speed(2)>Hard as it is to believe, all that can be said is that this is \"somewhere else\", different from the Earth<thumbnail(173)> we live on.",
+   "notes": "",
+   "source_sha256": "f9b338aa3ece7ecd232f3dd5ec6effdd2fed9cfddda7fa987c0b9ffad58f3367"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30030,1)><speed(2)>To be honest, I am bewildered too... but right now, grasping the situation comes first.",
+   "notes": "",
+   "source_sha256": "88d60cf89f48649047104140eadc25961100d49db9d2ddaff74d1ddd51dbe83d"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>For the time being, while cooperating with Capt. <color(4)>Jamil<ce()>, we will gather information and look into a way to return.",
+   "notes": "",
+   "source_sha256": "1e81a3b25ea062fc9404cdd39d987f6702a7ca96381fa293e92a667291952faf"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<library(2)><topic()><operator(30080,1)><speed(2)>Your ship... Should we really call it the <color(4)>Nadesico<ce()>? It is a rather unusual name...",
+   "notes": "",
+   "source_sha256": "a1bfbbfe3acda9837832deab27cf200cefd016e56513c757553ac7f192226c06"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30080,1)><speed(2)>Well, never mind. There is something I should tell you.",
+   "notes": "",
+   "source_sha256": "22c31b8636434ea4081efe1cfdc74c5bebe1968848934540aa46365b0c8940d2"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30080,1)><speed(2)>This was learned by intercepting <book(38)>New Federation<endbook()> communications: it seems the <book(38)>New Federation<endbook()> had already<thumbnail(174)> marked you.",
+   "notes": "Active voice so both book spans precede the thumbnail as in source.",
+   "source_sha256": "afc91a42fd898ad05f866c84ca1c043f98a60a6b7b4d09ca49bf52d380622177"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30080,1)><speed(2)>If your story of having come from another world is true, it is extremely unnatural for word to get around this fast.",
+   "notes": "",
+   "source_sha256": "424c5ee4006d50fe704b0a2531ef77d77333d378b56bbeca7ac69861c4d00092"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<thumbdown()><operator(30080,1)><speed(2)>There may be someone in the <book(38)>New Federation<endbook()> who knows of you. Let us stay careful about information.",
+   "notes": "",
+   "source_sha256": "78b5615360a40c5edb5bdba8c1597c3cf4432f799ff1e5891691b43900aa282e"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 0,
+   "issue": "Archive titles \"History of the Other World\" / \"The Nadesico's Situation\": descriptive; width limit of the archive list unknown to me. Glossary note warns that \"the other world\" is viewpoint-dependent; here the viewpoint is the Nadesico crew's, so it means the world they arrived in."
+  },
+  {
+   "slot": 20,
+   "issue": "\"nengou ya hizuke wa icchi\" - matched (with ours); \"shuuhen no tentai no joukyou mo chikyuu sono mono\" -> surrounding celestial bodies are those of Earth itself."
+  },
+  {
+   "slot": 28,
+   "issue": "\"jouhou ni wa chuui wo haratte okimashou\" - either \"be careful with (our) information\" or \"pay attention to intel\"; kept open with \"stay careful about information\"."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 12,
+  "rows_in_scene": 12,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slots 0 and 1 are BOTH archive topic titles: <library(1)> (slot 19) opens topic 1 and <library(2)> (slot 24) opens topic 2. Neighbouring archives show the same layout (4003972 has three title slots 0-2; 4003982 and 4003992 have two). Both rows are translated and both are correct: slot 0 \"isekai no rekishi\" -> \"History of the Other World\", slot 1 \"Nadeshiko no joukyou\" -> \"The Nadesico's Situation\".",
+   "Speakers: 30030 Ruri Hoshino (slots 19-23), 30080 Sala Tyrrell (slots 24-28).",
+   "Slot 0 ruling: the glossary warns against mapping \"the other world\" to Earth A/B; the draft does not map it, so the warning is respected.",
+   "Slot 20 ruling: \"matched\" (with the Nadesico's own calendar) and \"celestial bodies are those of Earth itself\" are correct.",
+   "Slot 28 ruling: the source is ambiguous between guarding one's own information and watching incoming intel; \"stay careful about information\" keeps both, accepted.",
+   "\"Capt. Jamil\" follows the orchestrator decision for kanchou. Slot 26: active voice keeps both book spans before <thumbnail(174)> as in the source; meaning unchanged.",
+   "Slots 20, 21: <thumbnail> follows the same word as in the source."
+  ],
+  "remaining_uncertainties": [
+   "Slot 0: the topic text (slots 19-23) is about the Nadesico crew finding out this is a different Earth, not really \"history\"; the title is translated literally as the source has it.",
+   "Slot 24: \"Should we really call it\" supplies \"we\" (source has no subject; Sala could mean \"I\"). Left as harmless.",
+   "Slot 19: \"from talking with Capt. Jamil\" - literally \"from Capt. Jamil's account\"; same information, left.",
+   "Slot 21: \"yahari\" (after all) not rendered; no information lost, left.",
+   "Slots 0-1: visible width limit for archive list titles is not known (26 and 24 characters used)."
+  ]
+ }
+}

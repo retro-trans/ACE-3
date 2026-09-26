@@ -1,0 +1,80 @@
+{
+ "resource_id": 4003741,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)><move(1,10,15)>Now then, I'll<marker(1,10,15,0)> explain the operation.<move(2,8,15)><marker(3,8,15,0)><picture(97,2,14,0)><refer(2,14,8,15)>",
+   "notes": "",
+   "source_sha256": "29f4cc2a3de8fcd276245b56168f75a888f0e5ddc571e055029b738497ded52d"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)>Around the <book(1)>Baldora<marker(20,3,0,0)> Drive<marker(20,5,0,0)><marker(20,0,2,0)><marker(20,7,2,0)><endbook()>,<marker(20,7,4,0)> wipe<marker(20,0,6,0)> out<marker(20,3,6,0)> every<marker(20,14,6,0)> <color(5)>enemy<marker(20,8,8,0)> force<ce()> stationed<marker(20,3,10,0)> there<marker(20,10,10,0)>,<marker(20,1,12,0)> one<marker(20,5,12,0)> by<marker(20,12,12,0)> one<marker(20,8,13,0)>,<marker(20,10,13,0)> please<marker(20,13,14,0)>.",
+   "notes": "Baldora Drive locked (terms_028.json).",
+   "source_sha256": "3f2aa20d68411e4ffb84d442215eeb60669e7d5ec26efc37a90d04fbff9a34f3"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>It's<marker(5,2,2,0)> enough<marker(5,5,2,0)> if<marker(5,0,8,0)> you<marker(5,14,8,0)> thin<marker(5,7,10,0)> them<marker(5,1,14,0)> out<marker(5,5,14,0)> enough<marker(5,14,14,0)> to secure the area, but this operation is a <color(6)>race against the clock<ce()>.",
+   "notes": "",
+   "source_sha256": "e413cb210acac4f5887048f19b9ef72d5158c7214979f510be02081ef70c9499"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>If we're late, the operation won't go well. The<marker(37,5,8,0)> enemy<marker(37,10,6,0)> is going all-out<danger(1)> too, so keep pushing forward.",
+   "notes": "marker(37,5,8,0)/marker(37,10,6,0)/danger(1) moved from \"If we're late\" to \"The enemy is going all-out\": in the source these three tags sit inside the enemy-going-all-out clause (second sentence) and never touch the if-we're-late clause (first sentence); the draft had misattached them to the wrong sentence.",
+   "source_sha256": "e585d90c35b3f1002a565203da269342b4edb9dda3885be815df50070a226778"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<delpic(2,14,1)><enemylist()><operator(12031,1)><speed(2)>Everyone... I'm counting on you.",
+   "notes": "",
+   "source_sha256": "3f482f5e3aa79938d9c81d3df26e600168666a28c2a7c8012c25543155a0a213"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 22,
+    "before": "<operator(12031,1)><speed(2)>If<marker(37,5,8,0)> we're<marker(37,10,6,0)> late<danger(1)>, the operation won't go well. The enemy is going all-out too, so keep pushing forward.",
+    "after": "<operator(12031,1)><speed(2)>If we're late, the operation won't go well. The<marker(37,5,8,0)> enemy<marker(37,10,6,0)> is going all-out<danger(1)> too, so keep pushing forward.",
+    "reason": "Mid-sentence command misplacement: marker(37,5,8,0)/marker(37,10,6,0)/danger(1) are a sparse (non-dense) 3-tag group that in the source sits entirely inside the second sentence (the enemy is also mounting an all-out fight) and never touches the first sentence (if we're late...); the draft had attached all three to the wrong sentence (\"If we're late\"). Moved to the corresponding sentence, wording unchanged, tag order/count preserved."
+   }
+  ],
+  "checked_decisions": [
+   "New Federation slot 0 header matches glossary.json.",
+   "Speaker 12031 is Ruri Hoshino (speaker_lookup.py); briefing to the Nadesico crew throughout.",
+   "Baldora Drive (book(1), slot 20) kept per orchestrator ruling even though this row's source kana spells barudona rather than the barudora seen in scene 4003030 - book(1) is the same fixed glossary/encyclopedia entry either way, and terms_028.json's \"Baldora Drive / Baldora particles / Dr. Jill Bardona\" entry already treats these as the same locked facility name distinct from Dr. Bardona.",
+   "No mistranslation, reversed meaning, invented subject/added honorific, or dropped sentence ending found elsewhere; command tag order and count match the source exactly in every row (verified programmatically, before and after the slot 22 fix)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

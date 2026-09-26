@@ -1,0 +1,11 @@
+{
+  "batch": "dialogue_00161–00240",
+  "status": "proposals_for_orchestrator_review",
+  "entries": [
+    {"source":"ラー・カイラム","target":"Ra Cailum","category":"vessel","status":"researched","sources":["https://gundam.fandom.com/wiki/Ra_Cailum"],"note":"Wiki identifies the Japanese name and Bright Noa as captain."},
+    {"source":"ナデシコＢ","target":"Nadesico B","category":"vessel","status":"researched","sources":["https://nadesico.fandom.com/wiki/Ruri_Hoshino"],"note":"Profile lists NS-955B Nadesico B; body also uses Nadesico-B. Space variant selected for game text."},
+    {"source":"グラビティブラスト","target":"Gravity Blast","category":"weapon","status":"researched","sources":["https://nadesico.fandom.com/wiki/ND-001_Nadesico","https://srw.wiki.cre.jp/wiki/ナデシコB"],"note":"English franchise wiki calls weapon the gravity blast cannon; Japanese franchise-game wiki confirms Nadesico B's weapon."},
+    {"source":"連合宇宙軍","target":"United Space Forces","category":"organization","status":"provisional","sources":["https://nadeshiko.fandom.com/ja/wiki/機動戦艦ナデシコの登場組織","https://srw.wiki.cre.jp/wiki/劇場版_機動戦艦ナデシコ_-The_prince_of_darkness-"],"note":"Japanese sources explicitly distinguish the space branch from the other armed services and the movie's separate unified military. Exact official English branch name not verified. Do not automatically replace with the broader United Earth Armed Forces without checking."},
+    {"existing_glossary_id":"char.ruri_hoshino","source_alias":"ホシノ・ルリ","target":"Ruri Hoshino","status":"corpus_confirmed_alias","sources":["https://srw.wiki.cre.jp/wiki/ホシノ・ルリ"],"note":"Existing glossary has kanji variant only; corpus row 189 uses katakana variant."}
+  ]
+}

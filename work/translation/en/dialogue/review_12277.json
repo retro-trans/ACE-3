@@ -1,0 +1,26 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 12277,
+  "slice_count": 80,
+  "rows_examined": [{"start": 12262, "end": 12371}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [12330, 12331, 12332, 12335, 12336, 12339, 12340, 12341, 12342, 12344, 12350, 12351, 12359, 12363, 12364], "finding": "Resource 2801040 (Ixbrau) confirmed as the task's two-voice table (Barrel/Faye), not a third unnamed voice: Barrel's lines consistently use casual boku/よ endings ('フェイ、フォロー頼むよ', '食い止めなきゃ！'), Faye's use わ/です・careful-register endings ('固まりすぎると危险です！', '必ず活路はあるわ！'). This matches the glossary personalities (Barrel: complains but goes along; Faye: supportive but firm) and resolves the translator's own uncertainty -- the 'formal/polite' lines are simply Faye's register, not evidence of a third speaker."},
+    {"rows": [12331], "finding": "Source \\n between '君ならできる。' and '自信を持って。' correctly preserved in the target's single visible line."},
+    {"rows": [12329], "finding": "目的は果せた。こちらも引きあげる。 ('Goal met. We're pulling out too.') correctly kept as Berkt's own withdrawal, distinct from the Barrel/Faye table that starts at the very next row (12330); no cross-table addressee bleed."},
+    {"rows": [12277, 12356], "finding": "Scripted re-check: every row's tag sequence matches source order, every row's visible text is within min(72, 2*JP-2), zero non-ASCII, zero lowercase j/q -- confirms the batch's validation claims for all 80 rows."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_12321", "issue": "帰還する。 is a bare self-declarative ('[I'm] returning'), translated 'Return.' At only an 8-character budget (2*5-2), 'Return.' can be misread as a command to someone else rather than the pilot announcing their own withdrawal. No alternative wording that keeps the self-declarative sense (e.g. 'Returning.', 10 chars) fits the 8-char cap, so left as-is per the rule that a fix must never exceed the row's budget; flagging for awareness rather than forcing a worse-fitting change."},
+    {"id": "dialogue_12320", "issue": "あっけないとは、こういうことか。 (roughly 'so this is what anticlimactic/underwhelming means') is rendered 'So this is what \"easy\" means.' This shifts the nuance from 'over too fast to be satisfying' to a flat difficulty judgment. Both readings keep Berkt's dismissive tone and neither contradicts context, so left unfixed, but noting the nuance loss."}
+  ],
+  "validation": {
+    "controls": "Re-ran a throwaway script comparing every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> tag sequence against tools/dialogue_corpus.py's source output for all 80 rows: identical order, zero mismatches.",
+    "fit": "Re-checked every row's visible text against min(72, 2*sourceJPchars-2): zero rows over budget across all 80 rows.",
+    "format": "ASCII-only (plus the permitted fullwidth %) and zero lowercase j/q confirmed by script for all 80 rows.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

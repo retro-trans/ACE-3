@@ -1,0 +1,29 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14227,
+  "slice_count": 80,
+  "rows_examined": [{"start": 14212, "end": 14321}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {"id": "dialogue_14233", "before": "Comrades watch!", "after": "Watched by all!", "reason": "Source literally says 'your comrades are watching' (the speaker's allies are watching him, encouragement/pressure), not a command. 'Comrades watch!' reads as an imperative addressed to the comrades themselves, inverting who is doing the watching; the passive 'Watched by all!' keeps the same 16-character budget without the ambiguity."},
+    {"id": "dialogue_14293", "before": "If it bugs you, drop it!", "after": "If they bug you, beat 'em!", "reason": "Source literally says 'if the enemy is annoying, just defeat them' - it tells the addressee to fight back. 'Drop it' told them to disengage/give up instead, reversing the advice from fight to quit."}
+  ],
+  "checked_decisions": [
+    {"rows": [14227, 14258], "finding": "Rest of the Oukaou pilot's (Sakomizu) lines checked line by line; no other reversed meaning, wrong subject, or invented gender/identity found."},
+    {"rows": [14259, 14306], "finding": "Resource 2817010 (Garrod Ran, Gundam X) checked; consistently uses masculine 'ore' self-reference and repeatedly frames the fight around protecting Tiffa, matching the locked Garrod/Tiffa relationship in character_names_021.json."},
+    {"rows": [14264], "finding": "'Right or wrong, it makes no difference... I protect Tiffa!' correctly renders the source line 'justice or evil doesn't matter' while avoiding the letter j per the font constraint; meaning unchanged."},
+    {"rows": [14268], "finding": "'Even tough foes fall to us all!' compresses a conditional ('if we all take them on') into an assertion; this keeps the same rallying intent (unite and win) rather than reversing it, so left as phrasing."}
+  ],
+  "uncertainties": [
+    {"rows": [14233], "issue": "Flagged and fixed (see meaning_fixes) - the terse original phrasing was genuinely ambiguous about who is watching whom; worth a second look if the byte budget is ever relaxed for this row."},
+    {"rows": [14248], "issue": "Source literally says 'reinforcements have arrived, huh' compressed to 'More coming?' for budget; translator's own note confirmed correct, no further issue."}
+  ],
+  "validation": {
+    "controls": "Re-ran `python tools/dialogue_corpus.py slice 14227 80 --context 15` and compared every in-slice row's <...> commands against the target; all commands identical and in the same order as the source.",
+    "format": "No newlines in any target; source line breaks (e.g. 14230, 14232) correctly joined.",
+    "fit": "Recomputed the hard byte budget for both fixed rows and the heaviest compressions (14232, 14248): dialogue_14233 budget 16 (source 9 chars) - fix is 15 chars; dialogue_14293 budget 26 (source 14 chars) - fix is 26 chars; both fit exactly or with margin.",
+    "ascii": "All targets ASCII-only; no lowercase j/q found outside locked names."
+  }
+}

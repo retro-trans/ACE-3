@@ -1,0 +1,540 @@
+{
+  "slice_start": 14991,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      14991,
+      15070
+    ]
+  ],
+  "rows_examined_count": 80,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_14992",
+        "dialogue_15006"
+      ],
+      "note": "Two-line row addresses a named teammate (Ryoma/Hayato/Benkei) by name within a resource the task brief assigns to a single pilot. Translated literally as an in-shout exchange without reassigning speaker identity; flagging per DIALOGUE.md guidance to preserve uncertainty over inferring who speaks which line."
+    },
+    {
+      "id": "dialogue_15023",
+      "note": "Katakana reads like 'Getter Wiing'; no canonical Black Getter attack by this name was confirmed. Rendered literally as 'Getter Wing'; see glossary proposal."
+    },
+    {
+      "id": "dialogue_15040",
+      "note": "'machine-men' is a literal, unconfirmed rendering of the source's 'human-shaped machine' phrase for mobile suits; see glossary proposal."
+    },
+    {
+      "id": "dialogue_15053",
+      "note": "'Black History' sourced from gundam.fandom.com; not previously in glossary."
+    },
+    {
+      "id": "dialogue_15060",
+      "note": "'Lady Dianna' follows the -sama honorific convention already used for 'Lord Kids' in terms_028.json; Dianna Soreil sourced from gundam.fandom.com/Wikipedia, not previously in glossary."
+    },
+    {
+      "id": "dialogue_15065",
+      "note": "'machine-men'/'Turn A' rendering per proposal; see dialogue_15040."
+    },
+    {
+      "id": "dialogue_15067",
+      "note": "'machine-men' rendering per proposal; 'Mountain Cycle' sourced from gundam.fandom.com (System-∀-99 ∀ Gundam page)."
+    },
+    {
+      "id": "dialogue_15068",
+      "note": "Source names a 'VR helmet' cockpit-visor deployment before battle stations; dropped for the byte budget (30 chars total). Flagged rather than silently cut."
+    },
+    {
+      "id": "dialogue_15069",
+      "note": "'White Doll' is the Turn A Gundam's canonical nickname (gundam.fandom.com); not previously in glossary."
+    }
+  ],
+  "validation": {
+    "fit": "Each row's English visible length kept <= 2x(source visible-character count)-2, capped at 72 (per task's hard byte budget); no row exceeded its budget.",
+    "controls": "All angle-bracket commands (<op()>, <sp(20)>, <ab(1000)>, <ed()>) preserved in original order for every row; a single embedded newline kept exactly where the source had one, none added elsewhere.",
+    "meaning_review": "Independently meaning-reviewed against the Japanese source (tools/dialogue_corpus.py slice, context 15); no mistranslations, reversed meanings, wrong addressees/subjects, invented identity/gender, dropped sentence sense, or locked-spelling errors found. All rows promoted to meaning_reviewed; none left as draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_14991",
+      "target": "<op()><sp(20)>Looks like it's over...\nYeah, with you, Getter's unbeatable.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14992",
+      "target": "<op()><sp(20)>That wore me out.\nGetting old, Benkei.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14993",
+      "target": "<op()><sp(20)>Well done, everyone!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14994",
+      "target": "<op()><sp(20)>Let's all head back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14995",
+      "target": "<op()><sp(20)>Anyone hurt?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14996",
+      "target": "<op()><sp(20)>We made it through.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14997",
+      "target": "<op()><sp(20)>Phew, it's over.\nThat wore me out.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14998",
+      "target": "<op()><sp(20)>Mission's done.\nThe young ones wear me out.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14999",
+      "target": "<op()><sp(20)>I crawled back from hell.\nTrash like you won't beat me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15000",
+      "target": "<op()><sp(20)>I've seen hell itself...\nNothing tops that inferno!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15001",
+      "target": "<op()><sp(20)>I've come back again.\nTo wipe every one of you out...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15002",
+      "target": "<op()><sp(20)>Tch... am I slipping too?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15003",
+      "target": "<op()><sp(20)>Is that all you've got?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15004",
+      "target": "<op()><sp(20)>Impressive.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15005",
+      "target": "<op()><sp(20)>Let's go!\nThis brings back memories.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15006",
+      "target": "<op()><sp(20)>Benkei, you okay?\nRust doesn't matter... let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15007",
+      "target": "<op()><sp(20)>Impressive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15008",
+      "target": "<op()><sp(20)>Come out and we'll crush you all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15009",
+      "target": "<op()><sp(20)>Anyone wanting my blade, come!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15010",
+      "target": "<op()><sp(20)>Not enough, these guys!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15011",
+      "target": "<op()><sp(20)>Rusty or not, I won't lose!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15012",
+      "target": "<op()><sp(20)>13 years on, no one's topped me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15013",
+      "target": "<op()><sp(20)>What now?!\nThat all you got?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15014",
+      "target": "<op()><sp(20)>Don't mock me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15015",
+      "target": "<op()><sp(20)>All of you, come!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15016",
+      "target": "<op()><sp(20)>Got you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15017",
+      "target": "<op()><sp(20)>Wh-what now?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15018",
+      "target": "<op()><sp(20)>Get back! Danger!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15019",
+      "target": "<op()><sp(20)>Dying gets you nowhere!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15020",
+      "target": "<op()><sp(20)>Never meant to touch\nGetter again, but...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15021",
+      "target": "<op()><sp(20)>Getter Robo, go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15022",
+      "target": "<op()><sp(20)>Heh!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15023",
+      "target": "<op()><sp(20)>Getter Wing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Katakana reads like 'Getter Wiing'; no canonical Black Getter attack by this name was confirmed. Rendered literally as 'Getter Wing'; see glossary proposal."
+    },
+    {
+      "id": "dialogue_15024",
+      "target": "<op()><sp(20)>Keep that up out there...\nyou won't survive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15025",
+      "target": "<op()><sp(20)>Steady!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15026",
+      "target": "<op()><sp(20)>Don't waste time on this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15027",
+      "target": "<op()><sp(20)>Quit dawdling!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15028",
+      "target": "<op()><sp(20)>Someone to match me, huh!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15029",
+      "target": "<op()><sp(20)>Guess you need no backup.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15030",
+      "target": "<op()><sp(20)>Still here?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15031",
+      "target": "<op()><sp(20)>Shut up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15032",
+      "target": "<op()><sp(20)>You think you can stop me?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15033",
+      "target": "<op()><sp(20)>Crush you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15034",
+      "target": "<op()><sp(20)>Not ordinary... I'm itching!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15035",
+      "target": "<op()><sp(20)>Black Getter, going home.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15036",
+      "target": "<op()><sp(20)>That was nothing much...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15037",
+      "target": "<op()><sp(20)>Even in battle,\nyou should still think!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15038",
+      "target": "<op()><sp(20)>Why does everyone want to fight?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15039",
+      "target": "<op()><sp(20)>I don't fight to take lives!\nI fight to end the fighting!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15040",
+      "target": "<op()><sp(20)>This terrifying machine-men war,\ndoesn't it scare you at all?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'machine-men' is a literal, unconfirmed rendering of the source's 'human-shaped machine' phrase for mobile suits; see glossary proposal."
+    },
+    {
+      "id": "dialogue_15041",
+      "target": "<op()><sp(20)>I draw blades when angry!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15042",
+      "target": "<op()><sp(20)>I'll protect you all<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15043",
+      "target": "<op()><sp(20)>Tough one...\nEveryone, please be careful!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15044",
+      "target": "<op()><sp(20)>Please put down your weapons!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15045",
+      "target": "<op()><sp(20)>Please be careful.\nThe enemy's out for blood!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15046",
+      "target": "<op()><sp(20)>We have the edge,\nbut please don't get careless.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15047",
+      "target": "<op()><sp(20)>I'm fine.\nPlease focus on your own fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15048",
+      "target": "<op()><sp(20)>Everyone's so stubborn!\nWhat does fighting even accomplish?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15049",
+      "target": "<op()><sp(20)>Don't get hurt\nin a spot like this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15050",
+      "target": "<op()><sp(20)>Even as the Turn A Gundam,\nI don't know everything!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15051",
+      "target": "<op()><sp(20)>I'll leave it to you.\nLet's both do our best!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15052",
+      "target": "<op()><sp(20)>Our strength gap grows<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15053",
+      "target": "<op()><sp(20)>Just like Black History!\nThis can't be allowed!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Black History' sourced from gundam.fandom.com; not previously in glossary."
+    },
+    {
+      "id": "dialogue_15054",
+      "target": "<op()><sp(20)>Cornered, but still!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15055",
+      "target": "<op()><sp(20)>If dangerous, retreat now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15056",
+      "target": "<op()><sp(20)>Is everyone alright?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15057",
+      "target": "<op()><sp(20)>You okay? Don't overdo it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15058",
+      "target": "<op()><sp(20)>You're too slow!\nPlease hurry and finish!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15059",
+      "target": "<op()><sp(20)>At this rate we lose!\nWhat now...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15060",
+      "target": "<op()><sp(20)>Lady Dianna... please protect us!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Lady Dianna' follows the -sama honorific convention already used for 'Lord Kids' in terms_028.json; Dianna Soreil sourced from gundam.fandom.com/Wikipedia, not previously in glossary."
+    },
+    {
+      "id": "dialogue_15061",
+      "target": "<op()><sp(20)>If we lose, all's in danger!\nWe will win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15062",
+      "target": "<op()><sp(20)>Enemy incoming!\nRadar's got a hit!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15063",
+      "target": "<op()><sp(20)>I'll end this fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15064",
+      "target": "<op()><sp(20)>Why won't anyone try\nto understand Lady Dianna's view?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15065",
+      "target": "<op()><sp(20)>To stop this fight, I'll use\nthis machine called Turn A!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'machine-men'/'Turn A' rendering per proposal; see dialogue_15040."
+    },
+    {
+      "id": "dialogue_15066",
+      "target": "<op()><sp(20)>It's to save everyone.\nThis is my only fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15067",
+      "target": "<op()><sp(20)>This machine-man...\nWhich Mountain Cycle's it from?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'machine-men' rendering per proposal; 'Mountain Cycle' sourced from gundam.fandom.com (System-∀-99 ∀ Gundam page)."
+    },
+    {
+      "id": "dialogue_15068",
+      "target": "<op()><sp(20)>Enemy sighted.\nBattle stations!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source names a 'VR helmet' cockpit-visor deployment before battle stations; dropped for the byte budget (30 chars total). Flagged rather than silently cut."
+    },
+    {
+      "id": "dialogue_15069",
+      "target": "<op()><sp(20)>Alright! Let's go, White Doll!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'White Doll' is the Turn A Gundam's canonical nickname (gundam.fandom.com); not previously in glossary."
+    },
+    {
+      "id": "dialogue_15070",
+      "target": "<op()><sp(20)>Good luck, all.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

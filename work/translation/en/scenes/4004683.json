@@ -1,0 +1,598 @@
+{
+ "resource_id": 4004683,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 62,
+ "rows_examined": 62,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17010,1)><speed(2)>I wonder what on earth D.O.M.E. is trying to tell <color(4)>Tiffa<ce()>.",
+   "notes": "",
+   "source_sha256": "0bacdb00807f9c18135e009bca6c4a302e0ffd0c9d4b12831331e78120cf9e62"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17070,1)><speed(2)>I don't know either... I can't see what's coming... This has never happened before.",
+   "notes": "",
+   "source_sha256": "6cbee50d756f6c26091343a30acbc9574608acbea11e651b03fae5bdab7d98a6"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17010,1)><speed(2)><color(4)>Tiffa<ce()>'s an ordinary girl. She might be a Newtype, but to me, she's only a girl.",
+   "notes": "",
+   "source_sha256": "bb2535710d03db410b4e36d9aef32f43f7fd28bfa9ff20f9515f58037a4f3666"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17010,1)><speed(2)>Even if the Earth gets torn to pieces, I'll protect <color(4)>Tiffa<ce()>. I swear it.",
+   "notes": "",
+   "source_sha256": "b681e511f7865b403f4f852d970c4af5459933cebdc4adc606eff743cb591187"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17070,1)><speed(2)>Me too... No matter what happens, I won't leave <color(4)>Garrod<ce()>'s side.",
+   "notes": "",
+   "source_sha256": "dbb509956720eec9ab1c3d79126594fc00f8cb79237a236a8397c48371114658"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(17070,1)><speed(2)>Even after this fight ends, I'll still be with <color(4)>Garrod<ce()>.",
+   "notes": "",
+   "source_sha256": "15e6fa8be66179d28aba88185646f2c0e1b1c0401b048e685f9ab8bda525f4ca"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(17010,1)><speed(2)>I want to go all sorts of places. See all kinds of things, meet all kinds of people... and think it over.",
+   "notes": "",
+   "source_sha256": "714967233791a5f03ab4b7c27afb523458a253442413ad4c2bd8df07ba590201"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(17010,1)><speed(2)>About what future I'm really after.",
+   "notes": "Continuation of the previous row's thought (text id 26).",
+   "source_sha256": "afe651584341b7f8b2e7685707f70c4c2e962dd94b68d54a9b4020e9caa7dc76"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(17070,1)><speed(2)>Me too... For the first time, I thought \"I want more of my own power.\"",
+   "notes": "",
+   "source_sha256": "ee22992697684d2858a3eed9fe2a2c2fc08ff5b00ef5d262fc2640dc9629a24e"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(17070,1)><speed(2)>I want to protect... everyone's future.",
+   "notes": "",
+   "source_sha256": "b38c27bb66b3b4ad73470cbc395a163ff99e6cf70f433ac6632ea8b814929d18"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)>This is going to be the toughest operation yet. Brace yourself, <color(4)>Barrel<ce()>.",
+   "notes": "",
+   "source_sha256": "881a9d21d3199561a2f79d740eda9b4d015f4323929c35babacefc0c18a39109"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,2)><speed(2)>I'll be fine. As long as <color(4)>Faye<ce()>'s got my back.",
+   "notes": "",
+   "source_sha256": "9786020a2ff07bc8f2ec21b526d8fceb85766d536b7e0e68cba5fead520faa87"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,2)><speed(2)>You've gotten dependable.",
+   "notes": "",
+   "source_sha256": "ad10f9779364571588cd794c44ffa255bd348f8ac59720978f082ce097ebe272"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)>I sense something strange in this stretch of space. Not an unpleasant feeling, though. What could it be...?",
+   "notes": "",
+   "source_sha256": "bfa20dee1f2ee6b7b57bcf6384274ed2f5a0b42a4c5b3a11f272f1209f27d122"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(17070,1)><speed(2)><color(4)>Garrod<ce()>, promise me.",
+   "notes": "",
+   "source_sha256": "d11f9f31f32e7f38e9682abe835a006f2a8b4d299802d90ac41cc31724d2a693"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(17010,1)><speed(2)>Huh?",
+   "notes": "",
+   "source_sha256": "d2b9f1ea55bf0f6eee4abd0842bceb223083d8ac1bfce5b1777e4144f7af69f6"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(17070,1)><speed(2)>Promise me you won't die! Promise me we'll be together forever!",
+   "notes": "",
+   "source_sha256": "fab586b412a72157f154448ec41a4bead1685dc25ae2e29b16b13b87ef6a2119"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(17070,1)><speed(2)>Being alone again... I...",
+   "notes": "Source trails off after 'I' (watashi); rendered as a broken-off line rather than supplying a full clause.",
+   "source_sha256": "e0c72067eb33f44f21a126d40b1f6066ccd5f5fe23da8a46e524a301a0aefdaa"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(17010,1)><speed(2)>Yeah... of course.",
+   "notes": "",
+   "source_sha256": "dd5f539f466d1f39ebe21965b85f5f8bc016e73f1754d303425f166625ad66d0"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17030,1)><speed(2)>I'd kinda like to get a clear answer soon.",
+   "notes": "",
+   "source_sha256": "12129b1889ba2dcdca814df74bd00b6875b8e5661b42150f94011098f933c6c7"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(17030,1)><speed(2)>About you... I'm pretty serious here, you know.",
+   "notes": "",
+   "source_sha256": "2487b4a1863c968fae8838ca830704d77cfbf0ed14c4b03cb9d91fea33d002e9"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17080,1)><speed(2)>That... I've known for a while now.",
+   "notes": "",
+   "source_sha256": "1f424de6935c78faeecaabb82b29d6a52fc782e50e1ec55972ae671ec5bfbef7"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(17030,1)><speed(2)>I know you've got a lot going on too. You're waiting on that person's answer, aren't you?",
+   "notes": "'That person' (sono hito) is a third party Sala hasn't named; kept vague, no gender supplied.",
+   "source_sha256": "7077bee5585e77ee7154112c2883b83713332eac3e17a9efaffd586ee2b640ac"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(17030,1)><speed(2)>Then I guess all I can do is wait too... in this case.",
+   "notes": "",
+   "source_sha256": "c95f56b726a307f3edd4514aaa0fa378f75da1c2b5d7f556ac9e3dbfc67c7509"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(17080,1)><speed(2)>I'm sorry... I really am a coward, aren't I.",
+   "notes": "",
+   "source_sha256": "518267d987d370ac0b676c13d5c098861ccecc17e6a532f5ae7ea7c581708588"
+  },
+  {
+   "table": 1,
+   "slot": 145,
+   "text_id": 146,
+   "en": "<operator(17030,1)><speed(2)>But it's best to get a clear answer. If you die, it's all for nothing.",
+   "notes": "",
+   "source_sha256": "f65d1fb343fca7ce305643c1e0ec4d328c256713b573505e5a38502ae2465bb5"
+  },
+  {
+   "table": 1,
+   "slot": 146,
+   "text_id": 147,
+   "en": "<operator(17080,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "a8289b0623e48f33633bf213338c3f72f89ab11782d3ac1feb34535f6648247a"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(23020,2)><speed(2)><color(4)>Tiffa<ce()>. We'll back you up, so hang in there!",
+   "notes": "",
+   "source_sha256": "ec7c8f58c33bc9cff17b26c0ccbec8f5ea5c882f1199792ac4e7cc2dc3ba6773"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17070,1)><speed(2)>Thank you, <color(4)>Eureka<ce()>.",
+   "notes": "",
+   "source_sha256": "9db3f66fa6274a73233995e5b78a223101fc19926f335f2efc8e0c37de18ed6d"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(23020,2)><speed(2)>It must be hard, carrying a burden like this as only a girl... but we'll help however we can.",
+   "notes": "",
+   "source_sha256": "67603c0f380e492ab5a8cb9f76182acfbbdce394de26b5951d5afbda4e1587a4"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(17070,1)><speed(2)>I... never wanted this power. But now, I want more of it. For everyone's sake...",
+   "notes": "",
+   "source_sha256": "50b4e96dcf74ac40f19de89b693590661729939e6a18e622b90c2bdf49aebb60"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(23020,1)><speed(2)>Me too...",
+   "notes": "",
+   "source_sha256": "ec96217eb3b29b695e5c7c5d89f3871e00577b65bad3eca28abc7e300556c58e"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(23010,1)><speed(2)>All right, let's go!",
+   "notes": "",
+   "source_sha256": "8d64c7fba61e830924f998038ee6b934a6c46a6555b22f0b67eb473c4ae3a18a"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(23040,1)><speed(2)><color(4)>Holland<ce()>, bringing out even <color(4)>303<ce()>... Is it really necessary to go that far?",
+   "notes": "'303' = the unit Talho references (Terminus typeB303 'Devilfish', Holland's limiter-less LFO per glossary/unit_names_014_b.json); rendered as the bare number to match the source's own shorthand.",
+   "source_sha256": "a264985341636efe1bf52854b73e486a58921d17fa30cf59a7dfba3c33bf259e"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(23030,1)><speed(2)>There is... for me.",
+   "notes": "",
+   "source_sha256": "fdb9d746ac5f6e794413d87c55c9565e3e029dd1a180572bb488e6961aa75fe1"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(23030,1)><speed(2)>The Limit of Questions is close. We're out of time.",
+   "notes": "'Kudan no genkai' rendered 'Limit of Questions' per the locked term already used for this exact concept in dialogue batch_05943 (Eureka Seven fandom wiki page title, orchestrator-approved in review_05943.json).",
+   "source_sha256": "eadc548f949179691058adc074cb703b12313e0a3d7a58dccbfab328e4146525"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(23040,1)><speed(2)>Do you understand how dangerous CFS is? Your body will be wrecked!",
+   "notes": "",
+   "source_sha256": "f5f35d8ea13cc76026dc8c1ca9be3cd3e9c779c12ce622587a0a54879f2d1bcd"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(23040,1)><speed(2)>Riding a thing like that, of all things...!",
+   "notes": "",
+   "source_sha256": "076331dda58e3fcf26acdd3471cdf9d439fa6bb139d3fc6e1ce08bb2850657ff"
+  },
+  {
+   "table": 1,
+   "slot": 224,
+   "text_id": 225,
+   "en": "<operator(23030,1)><speed(2)>I know... Let me go, <color(4)>Talho<ce()>.",
+   "notes": "",
+   "source_sha256": "fded19137d0d59278b0f773589a2fd75a3a786a7309a278e392b2848398b553a"
+  },
+  {
+   "table": 1,
+   "slot": 225,
+   "text_id": 226,
+   "en": "<operator(23040,1)><speed(2)>If you're saying that, I won't stop you. Go win... <color(4)>Holland<ce()>.",
+   "notes": "",
+   "source_sha256": "621b0fad518db980e2d32f7a9a0b6b4bd6f8b1fc88b4d2d5bdd8e03280e3c65e"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(21150,1)><speed(2)>Same as ever, pulling stupid stunts. Those <color(5)>New Federation<ce()> types.",
+   "notes": "",
+   "source_sha256": "9e5495bd60c43d3c7c8594779b176ad64aac49410339c84f71ed7c5aa117792e"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(21010,1)><speed(2)><color(4)>Cynthia<ce()>, you okay? Looks like this is about to turn into a brutal fight.",
+   "notes": "",
+   "source_sha256": "db3192024f8d4562ac7d00d350d1567458c53f964825b819d42250b19c46a211"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(21150,1)><speed(2)>I'm no problem! I'll handle it fine. You're the one who should be careful, <color(4)>Gainer<ce()>.",
+   "notes": "",
+   "source_sha256": "2bef2ee4efc34544fca02ae61fd1a8da2336c495ace6a5bf50ed41f9e515f4b5"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(21030,1)><speed(2)>That's right. <color(4)>Garrod<ce()> and <color(4)>Renton<ce()> are both doing their best. Don't you lose!",
+   "notes": "",
+   "source_sha256": "cedb7095847f4d667ecc32dbd84fb6bb88288c8a2a0c969ce0cae2d13ad7762d"
+  },
+  {
+   "table": 1,
+   "slot": 263,
+   "text_id": 264,
+   "en": "<operator(21010,1)><speed(2)>I know!",
+   "notes": "",
+   "source_sha256": "be88748945e6deca6fd8ee0198759a5edb5dbadd91ce034cfa21db3fb143a388"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(17040,1)><speed(2)>Ever since I made that mistake... since I fired the Satellite Cannon, I've been searching for an answer.",
+   "notes": "",
+   "source_sha256": "41ff01376eeeeebd8de6bccf543dc42daacc38763c920836e3d52a8ad9293c43"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(17040,1)><speed(2)>Will I find that answer here...",
+   "notes": "",
+   "source_sha256": "3c568704bf337f45d521181df2b32771dc608d3177106c84866f9d1e76c90404"
+  },
+  {
+   "table": 1,
+   "slot": 301,
+   "text_id": 302,
+   "en": "<operator(21020,1)><speed(2)>Can't say, but you kept fighting yourself even while you doubted. That should be enough.",
+   "notes": "",
+   "source_sha256": "270a24512645b3e557e33a92b0d9432da4db53789e77e7ce4618d4602e30b369"
+  },
+  {
+   "table": 1,
+   "slot": 302,
+   "text_id": 303,
+   "en": "<operator(19050,1)><speed(2)>An answer isn't there to end something. It's there to begin one.",
+   "notes": "",
+   "source_sha256": "fc5affa441a5651bb116e22eaa56c85d4350791140455fae7e8749d1ab350090"
+  },
+  {
+   "table": 1,
+   "slot": 303,
+   "text_id": 304,
+   "en": "<operator(17040,1)><speed(2)>You're right... I'm going to find the heart I left behind fifteen years ago. This was my fight all along.",
+   "notes": "",
+   "source_sha256": "31cff3d4bd195405989556a1a7eb0a6a6780ca142fd5fb836d1b99e0be19fe44"
+  },
+  {
+   "table": 1,
+   "slot": 339,
+   "text_id": 340,
+   "en": "<operator(19060,1)><speed(2)>Something occurred to me. Back when we rode Getter and fought in the Moon Invader War...",
+   "notes": "'Moon Invader War' matches the locked encyclopedia_022 term for tsukimen Invader sensou.",
+   "source_sha256": "f15dd840b491b292c3865068810534dfa17f7b36a4bb9127353644f23e4958e9"
+  },
+  {
+   "table": 1,
+   "slot": 340,
+   "text_id": 341,
+   "en": "<operator(19050,1)><speed(2)>Yeah... so you were thinking it too. The Invaders that swarmed in never hit the microwave relay facility.",
+   "notes": "Abbreviated from 'microwave transmission facility' (encyclopedia_022 wording) to fit the 120-char limit; same D.O.M.E. facility.",
+   "source_sha256": "d68dcb7e7434a0205684794ea82292c4ae2d3abccd56236c6f28defd6f36468c"
+  },
+  {
+   "table": 1,
+   "slot": 341,
+   "text_id": 342,
+   "en": "<operator(19060,1)><speed(2)>Even though every other facility was nearly wiped out...",
+   "notes": "",
+   "source_sha256": "375926d8c47b733e5f50fb723f4710554e112fea1e2a9b26b0130a7bea3bfd82"
+  },
+  {
+   "table": 1,
+   "slot": 342,
+   "text_id": 343,
+   "en": "<operator(19020,1)><speed(2)>Doesn't look like it was only a coincidence.",
+   "notes": "",
+   "source_sha256": "f45cd84a9c3f2060101e9cc4f9fe74cc65e8ae5a776d7d98a52a5a1f56b3e6eb"
+  },
+  {
+   "table": 1,
+   "slot": 379,
+   "text_id": 380,
+   "en": "<operator(6011,1)><speed(2)>Are you scared?",
+   "notes": "",
+   "source_sha256": "301806c302887b7371f24e76e134b0af9712304f3aab74a06049e30522c8d76c"
+  },
+  {
+   "table": 1,
+   "slot": 380,
+   "text_id": 381,
+   "en": "<operator(17070,1)><speed(2)>A little. I've never wanted to do something on my own before.",
+   "notes": "",
+   "source_sha256": "e49a1724088bce78e9adb386098f2d8762a78988f09f94c161ccd23b45e17d6a"
+  },
+  {
+   "table": 1,
+   "slot": 381,
+   "text_id": 382,
+   "en": "<operator(6011,1)><speed(2)>Following your own feelings isn't wrong. Once you understand that, there shouldn't be any fear.",
+   "notes": "",
+   "source_sha256": "85c10a3fd430a1a9c224543cdaa503eb136194d39bb53246c0da8ae0ec90182d"
+  },
+  {
+   "table": 1,
+   "slot": 382,
+   "text_id": 383,
+   "en": "<operator(17070,1)><speed(2)>...Thank you.",
+   "notes": "",
+   "source_sha256": "c55eb804316d7ebd29d8cd34a47d494379d0515bb6ca22bfb5d10f848026cedf"
+  },
+  {
+   "table": 1,
+   "slot": 383,
+   "text_id": 384,
+   "en": "<operator(6011,1)><speed(2)><color(4)>Zero<ce()>, to see the future... let's go.",
+   "notes": "'Zero' = Heero's Wing Gundam Zero (locked unit name unit_names_014_a.json), addressed by its short callout as the source does.",
+   "source_sha256": "35efaaf589b399db722112523819b469fc68831f2ff8f6860a4d3b7f28cd1f1a"
+  },
+  {
+   "table": 1,
+   "slot": 419,
+   "text_id": 420,
+   "en": "<operator(19040,1)><speed(2)>I've come back. To the moon where it all began.",
+   "notes": "",
+   "source_sha256": "fcc54f74b433c4c6205abe1a499240f10ecb617f6080e1bb68382b43d2313dd3"
+  },
+  {
+   "table": 1,
+   "slot": 420,
+   "text_id": 421,
+   "en": "<operator(19050,1)><speed(2)>We fought here. To bring an end to the war with the Invaders. Didn't think that was only the beginning, though.",
+   "notes": "",
+   "source_sha256": "7e770dc855b5152645b18db09a332192e4d175b4f42a3c1890f0dd2d66939c36"
+  },
+  {
+   "table": 1,
+   "slot": 421,
+   "text_id": 422,
+   "en": "<operator(19060,1)><speed(2)>But this time, we end it for good. That's Dr. <color(5)>Saotome<ce()>'s dying wish.",
+   "notes": "Source colors only 'Saotome' (color(5), not the usual color(4) for a person) around 博士 the title 'Dr.'; tag scope preserved exactly as in source.",
+   "source_sha256": "47a5a799992cda874e18063cf0b368492d10dcf1aba05bfb71fa12b0c51adf52"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 219,
+   "issue": "'303' kept as the bare number; refers to Holland's unit Terminus typeB303 'Devilfish' per unit_names_014_b.json, not spelled out since the source itself only writes the number."
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "issue": "'that person' (sono hito) Sala is said to be waiting on is unnamed in the source; left vague, no gender assigned."
+  },
+  {
+   "table": 1,
+   "slot": 421,
+   "issue": "Source wraps only 'Saotome' in <color(5)>, not the usual <color(4)> for a character name and not including '博士'/'Dr.'; tag placement kept exactly as source."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "en": "303 (Terminus typeB303 / Devilfish)",
+   "note": "Holland's limiter-less LFO; matches glossary/unit_names_014_b.json 'Terminus typeB303'. Source line only writes the bare number '303', rendered as-is.",
+   "source": "https://eurekaseven.fandom.com/wiki/Terminus_B303"
+  },
+  {
+   "en": "CFS (Compact Feedback System)",
+   "note": "LFO piloting-assist system exclusive to Holland's craft; enhances skill but damages the pilot. Source uses the acronym directly (no expansion needed).",
+   "source": "https://eurekaseven.fandom.com/wiki/Compac_Feedback_System"
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 62,
+  "rows_in_scene": 62,
+  "meaning_fixes": [
+   {
+    "table": 0,
+    "slot": 19,
+    "before": "I wonder just what D.O.M.E. is trying to tell <color(4)>Tiffa<ce()>.",
+    "after": "I wonder what on earth D.O.M.E. is trying to tell <color(4)>Tiffa<ce()>.",
+    "reason": "Glyph fix: font has no native lowercase j/q; reworded 'just what' to 'what on earth' (matches source's 'ittai...nani wo'). Meaning unchanged."
+   },
+   {
+    "table": 0,
+    "slot": 21,
+    "before": "...but to me, she's just a girl.",
+    "after": "...but to me, she's only a girl.",
+    "reason": "Glyph fix: lowercase j in 'just' reworded to 'only'. Meaning unchanged (source: tada no onna no ko)."
+   },
+   {
+    "table": 1,
+    "slot": 102,
+    "before": "Being alone again... I just can't.",
+    "after": "Being alone again... I...",
+    "reason": "Meaning fix: source ('mou hitori ni naru no wa, watashi......') trails off after 'I' (watashi); the draft's 'I just can't' supplied a full clause, inventing content the source omits and contradicting the row's own note ('rendered as a broken-off line'). Also removes lowercase j."
+   },
+   {
+    "table": 1,
+    "slot": 181,
+    "before": "...carrying a burden like this as just a girl...",
+    "after": "...carrying a burden like this as only a girl...",
+    "reason": "Glyph fix: lowercase j reworded. Meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 342,
+    "before": "Doesn't look like it was just a coincidence.",
+    "after": "Doesn't look like it was only a coincidence.",
+    "reason": "Glyph fix: lowercase j reworded. Meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 420,
+    "before": "...Didn't think that was just the beginning, though.",
+    "after": "...Didn't think that was only the beginning, though.",
+    "reason": "Glyph fix: lowercase j reworded. Meaning unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "Table0 slots 19-28 (Garrod/Tiffa hangar talk) checked line-by-line against source; all match, no reversed meaning or invented subjects.",
+   "Table1 slot 219 ('303' kept bare per orchestrator ruling): source itself only writes the numeral (<color(4)>ホランド<ce()>、<color(4)>３０３<ce()>まで持ち出して), matching the released rendering exactly. Accepted.",
+   "Table1 slot 222-223 ('CFS' kept per orchestrator ruling): source uses the acronym directly (ＣＦＳの危険性). Accepted.",
+   "Table1 slot 340 ('microwave relay facility' per orchestrator ruling): source has 'maikurouEbu soushin shisetsu'; abbreviation noted in-row for the char limit. Accepted.",
+   "Table1 slot 221 'Limit of Questions' for 'Kudan no genkai': row's own note cites a prior orchestrator-approved locked term (batch_05943/review_05943.json) not present in this session's glossary files; not independently re-verifiable under the search-scope rule, so left as-is and flagged below.",
+   "Table1 slot 142 ('that person' left unnamed, no gender assigned): source 'sono hito' is genuinely unresolved in this scene; kept vague. Accepted.",
+   "Table1 slot 421 (Saotome wrapped in <color(5)> instead of the usual <color(4)>, and the tag excludes '博士'/'Dr.'): verified against source line exactly, tag scope matches character-for-character. Accepted, not a defect.",
+   "Speakers cross-checked via tools/speaker_lookup.py for all operator ids in both tables (Garrod 17010, Tiffa 17070, Faye 1060, Barrel 1040, Amuro 5010, Roybea 17030, Sala 17080, Eureka 23020, Talho 23040, Holland 23030, Cynthia 21150, Gainer 21010, Sara 21030, Jamil 17040, Gain 21020, Hayato 19050, Benkei 19060, Kei 19020, Heero 6011, Ryoma 19040); all addressees/subjects match source context.",
+   "Command tags (<operator>, <speed>, <color>/<ce()>) re-checked against source: identical set and order on every row."
+  ],
+  "remaining_uncertainties": [
+   "Table1 slot 221: 'Limit of Questions' locked-term citation (batch_05943/review_05943.json) could not be independently verified in this session; orchestrator should confirm that source exists and still matches.",
+   "Table1 slot 142: 'that person' Sala is waiting on remains unidentified in the source; left vague by design."
+  ]
+ }
+}

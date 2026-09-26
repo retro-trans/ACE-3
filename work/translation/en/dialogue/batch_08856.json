@@ -1,0 +1,301 @@
+{
+  "slice_start": 8856,
+  "slice_count": 36,
+  "rows_examined": [
+    [
+      8841,
+      8906
+    ]
+  ],
+  "rows_examined_count": 66,
+  "rows_in_slice": 36,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_08856",
+        "dialogue_08857",
+        "dialogue_08858",
+        "dialogue_08859",
+        "dialogue_08860",
+        "dialogue_08861",
+        "dialogue_08862",
+        "dialogue_08863",
+        "dialogue_08864",
+        "dialogue_08865",
+        "dialogue_08866",
+        "dialogue_08867",
+        "dialogue_08868",
+        "dialogue_08869",
+        "dialogue_08870",
+        "dialogue_08871",
+        "dialogue_08872",
+        "dialogue_08873",
+        "dialogue_08874",
+        "dialogue_08875",
+        "dialogue_08876",
+        "dialogue_08877",
+        "dialogue_08878",
+        "dialogue_08879",
+        "dialogue_08880",
+        "dialogue_08881",
+        "dialogue_08882",
+        "dialogue_08883",
+        "dialogue_08884",
+        "dialogue_08885",
+        "dialogue_08886",
+        "dialogue_08887",
+        "dialogue_08888",
+        "dialogue_08889",
+        "dialogue_08890",
+        "dialogue_08891"
+      ],
+      "note": "This entire exposition block (rows 8856-8891, a single continuous monologue/dialogue between Holland and others recapping Dewey's and Adroc/Saotome's backstory) has no <ab()> or <ed()> timing/dismiss commands anywhere in the source, unlike the surrounding combat rows - unusual for presented dialogue and possibly legacy or unused material per DIALOGUE.md's note about split instructions/legacy content interleaved with ACE3 resources. Preserved exactly as found; no commands added or removed. The scene switches resource (6260 -> 6261) immediately after row 8891, confirming this block's boundary."
+    },
+    {
+      "id": "dialogue_08857",
+      "note": "Compressed to fit the 110-character visible budget: 'once leaders of Predgio Towers' stands in for the fuller locked phrase '(the former) United Federation of Predgio Towers' (encyclopedia_021_a.json); the 'former' sense is carried by 'once' rather than repeating the full org name."
+    },
+    {
+      "ids": [
+        "dialogue_08862",
+        "dialogue_08863",
+        "dialogue_08870",
+        "dialogue_08873",
+        "dialogue_08883",
+        "dialogue_08885",
+        "dialogue_08887"
+      ],
+      "note": "English clause order rearranged from a literal reading so each row's <book()>/<color()> tag order matches the source exactly (tags must wrap the same words in the same left-to-right order); meaning was not changed by the reordering."
+    },
+    {
+      "id": "dialogue_08873",
+      "note": "Michiru (Dr. Saotome's daughter, whose death by the Invaders is referenced) was not previously in character_names_021.json; researched via the Getter Robo Wiki and proposed in batch_08856_glossary_proposals.json. Rendered as 'Michiru' only (no surname in the source line)."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command verified to match the source in exact order for all 36 rows; none dropped or reordered, including the absent <ab()>/<ed()> pattern across 8856-8891 (see uncertainty above).",
+    "format": "Original newline counts preserved for every row.",
+    "fit": "Full meaning kept; longest visible string checked <= 110 characters (rows 8857/8872/8881 compressed, see notes).",
+    "ascii": "ASCII-only, straight quotes, '...' ellipses, no bare '%'; lowercase j/q avoided (no locked-name exemptions needed in this batch).",
+    "terminology": "Locked spellings reused: Adroc (Thurston), Ageha Plan, the three Sages, Fixx Bloodman/Bloodman, Scub Coral, Nirvash, New Federation, Coralian/Antibody Coralian, Dr. Saotome, Invaders, Getter Rays, Shin Dragon, Archetype, Summer of Love, Deuteron Missile (all from encyclopedia_021_a/b.json, encyclopedia_022.json, character_names_021.json, mission_terms_019.json). New proposal: Michiru (see batch_08856_glossary_proposals.json).",
+    "meaning_review": "Independent review of 36 rows against original ISO; 66 rows examined (8841-8906). One meaning fix applied (08881: 'these two deaths and rampages' -> 'that death and that rampage', avoiding an implied second death that contradicts row 08876) - see review_08856.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_08856",
+      "target": "<on()><sp(20)>After <book(68)>Adroc<endbook()> died,\nhe took over the <book(78)>Ageha Plan<endbook()>,\nexactly as I told you.",
+      "status": "meaning_reviewed",
+      "notes": "Start of an extended exposition block (8856-8891) with no <ab()>/<ed()> timing commands anywhere in the source - unusual vs. surrounding combat lines; preserved exactly, flagged as possibly legacy/unused material per DIALOGUE.md."
+    },
+    {
+      "id": "dialogue_08857",
+      "target": "<on()><sp(20)>Pursuing the <book(78)>Ageha Plan<endbook()> his own way,\nhe drew the eye of the three Sages,\nonce leaders of Predgio Towers.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit 110 chars: 'once leaders of Predgio Towers' stands in for the fuller locked phrase 'the (former) United Federation of Predgio Towers' (encyclopedia_021_a.json) to stay under the visible-length budget."
+    },
+    {
+      "id": "dialogue_08858",
+      "target": "<on()><sp(20)>Around that time, I took <color(4)>Eureka<ce()>,\ndeserted the military with <color(4)>Talho<ce()> and others,\nand formed the <book(60)>Gekkostate<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08859",
+      "target": "<on()><sp(20)>To answer for my crime as his brother,\n<color(5)>Dewey<ce()> was imprisoned,\nand the <book(78)>Ageha Plan<endbook()> was sealed away with him.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08860",
+      "target": "<on()><sp(20)>However, <book(40)>Fixx Bloodman<endbook()>, who rose to power\nin place of the three Sages,\nsought to make contact with <color(5)>Dewey<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08861",
+      "target": "<on()><sp(20)>Seeking the annihilation of the <book(69)>Scub Coral<endbook()>\nand the power of the <book(61)>Nirvash<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08862",
+      "target": "<on()><sp(20)>And <color(5)>Dewey<ce()>, within the <book(38)>New Federation<endbook()>,\nwas given full authority over everything\nrelated to <book(72)>Coralians<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Clause order rearranged in English so the <color()>/<book()> tag order (Dewey, New Federation, Coralians) matches the source exactly; meaning unchanged."
+    },
+    {
+      "id": "dialogue_08863",
+      "target": "<on()><sp(20)>But <color(5)>Dewey<ce()>'s progress with the twisted\n<book(78)>Ageha Plan<endbook()> hides something that\n<book(40)>Bloodman<endbook()> shouldn't know about.",
+      "status": "meaning_reviewed",
+      "notes": "Clause order rearranged so tag order (Dewey, Ageha Plan, Bloodman) matches source; meaning unchanged."
+    },
+    {
+      "id": "dialogue_08864",
+      "target": "<on()><sp(20)>About that <book(78)>Ageha Plan<endbook()>, though -\nDr. <color(5)>Saotome<ce()> was involved\nin creating it too, wasn't he?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08865",
+      "target": "<on()><sp(20)>That's right.\nThe appearance of the <book(49)>Invaders<endbook()> was also\nsupposed to be recorded in the <book(78)>Ageha Plan<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08866",
+      "target": "<on()><sp(20)>But the current thinking is that the <book(49)>Invaders<endbook()>\nand <book(73)>Antibody Coralians<endbook()> are hostile to each other.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08867",
+      "target": "<on()><sp(20)>Aren't these two things contradictory?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08868",
+      "target": "<on()><sp(20)>Let's think about it chronologically.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08869",
+      "target": "<on()><sp(20)>At the time, there was a theory that\nthe <book(49)>Invaders<endbook()> and the <book(69)>Scub<endbook()> had some kind of connection.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08870",
+      "target": "<on()><sp(20)>Both Dr. <book(68)>Adroc<endbook()> and Dr. <color(5)>Saotome<ce()>\nwere researching the <book(69)>Scub Coral<endbook()>,\neach from the angle of their own specialty.",
+      "status": "meaning_reviewed",
+      "notes": "Tag order (Adroc, Saotome, Scub Coral) preserved via reordering."
+    },
+    {
+      "id": "dialogue_08871",
+      "target": "<on()><sp(20)>And the two of them worked together\nto create the <book(78)>Ageha Plan<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08872",
+      "target": "<on()><sp(20)>In the process, <book(68)>Adroc<endbook()> saw that\nthe <book(69)>Scub Coral<endbook()> might be intelligent,\nand that coexistence might be possible.",
+      "status": "meaning_reviewed",
+      "notes": "Rendered as 'saw that ... might be possible' (rather than 'found the possibility of') to fit the 110-char budget without cutting content."
+    },
+    {
+      "id": "dialogue_08873",
+      "target": "<on()><sp(20)>Meanwhile, because of the <book(49)>Invaders<endbook()>,\n<color(4)>Michiru<ce()> was lost, and Dr. <color(5)>Saotome<ce()>,\nhaving lost her, refused coexistence.",
+      "status": "meaning_reviewed",
+      "notes": "Michiru newly researched (Michiru Saotome, Dr. Saotome's late daughter, Getter Robo Wiki) - not previously in character_names_021.json; see batch_08856_glossary_proposals.json. Clause order rearranged so tag order (Invaders, Michiru, Saotome) matches source."
+    },
+    {
+      "id": "dialogue_08874",
+      "target": "<on()><sp(20)>The two of them clashed over that one point,\nand their relationship broke down.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08875",
+      "target": "<on()><sp(20)>The reason the <book(49)>Invaders<endbook()> were left a mystery,\nnot recorded in the <book(78)>Ageha Plan<endbook()>,\nwas Dr. <color(5)>Saotome<ce()>'s withdrawal...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08876",
+      "target": "<on()><sp(20)>And Dr. <color(5)>Saotome<ce()> immersed himself\nin research on <book(51)>Getter Rays<endbook()>, <book(48)>Shin Dragon<endbook()>,\nand the <book(49)>Invaders<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08877",
+      "target": "<on()><sp(20)>Meanwhile, <book(68)>Adroc<endbook()>, through his contact\nwith <color(4)>Eureka<ce()>, tried to propose\na new <book(78)>Ageha Plan<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08878",
+      "target": "<on()><sp(20)>The new <book(78)>Ageha Plan<endbook()> was supposed to become\na proposal that we should coexist\nwith the <book(69)>Scub Coral<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08879",
+      "target": "<on()><sp(20)>But before <book(68)>Adroc<endbook()> could make that proposal,\nthe Summer of Love\ntook his life.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08880",
+      "target": "<on()><sp(20)>Meanwhile, Dr. <color(5)>Saotome<ce()> activated <book(48)>Shin Dragon<endbook()>,\nand the <book(52)>Deuteron Missile<endbook()> incident occurred.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08881",
+      "target": "<on()><sp(20)>Because of that death and that rampage,\nmysteries remain in the <book(78)>Ageha Plan<endbook()>,\ndown to this day.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed ('down to this day') to fit 110 chars without dropping content. 'that death and that rampage' (was 'these two deaths and rampages' in the draft): source is one death (Adroc's) and one rampage (Saotome's Shin Dragon/Deuteron Missile incident, row 8880), not two deaths; Saotome is shown still alive and researching afterward in row 8876, so a plural 'two deaths' would contradict the surrounding rows."
+    },
+    {
+      "id": "dialogue_08882",
+      "target": "<on()><sp(20)>The connection between <book(72)>Coralians<endbook()> and <book(49)>Invaders<endbook()>\nhasn't been explained, has it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08883",
+      "target": "<on()><sp(20)>About that...\nFor a while now, whenever the <book(49)>Invaders<endbook()> appear,\nthe <book(61)>Nirvash<endbook()> has been reacting.",
+      "status": "meaning_reviewed",
+      "notes": "Clause order rearranged so tag order (Invaders, Nirvash) matches source."
+    },
+    {
+      "id": "dialogue_08884",
+      "target": "<on()><sp(20)>The <book(61)>Nirvash<endbook()> was showing emotion,\nlike it was angry.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08885",
+      "target": "<on()><sp(20)>The <book(61)>Nirvash<endbook()>'s skeleton,\nthe <book(67)>Archetype<endbook()>, was born\nfrom the <book(69)>Scub<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Clause order rearranged so tag order (Nirvash, Archetype, Scub) matches source."
+    },
+    {
+      "id": "dialogue_08886",
+      "target": "<on()><sp(20)>In other words, the <book(69)>Scub Coral<endbook()>\nand the <book(49)>Invaders<endbook()> have some kind of connection.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08887",
+      "target": "<on()><sp(20)>But to the <book(69)>Scub<endbook()>, the <book(49)>Invaders<endbook()> are\nan unwelcome presence.",
+      "status": "meaning_reviewed",
+      "notes": "Clause order rearranged so tag order (Scub, Invaders) matches source."
+    },
+    {
+      "id": "dialogue_08888",
+      "target": "<on()><sp(20)>That's as far as\nwhat's known for now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08889",
+      "target": "<on()><sp(20)>...I think that's about it.\nA report has arrived that\nthe <book(48)>Shin Dragon<endbook()> has appeared.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08890",
+      "target": "<on()><sp(20)>Fast...!\nIs its rate of evolution accelerating!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08891",
+      "target": "<on()><sp(20)>We can't let that thing run loose any longer!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

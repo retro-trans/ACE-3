@@ -1,0 +1,56 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 12537,
+  "slice_count": 80,
+  "rows_examined": [{"start": 12522, "end": 12631}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_12560",
+      "before": "We'll know soon.",
+      "after": "It'll be clear soon.",
+      "reason": "Source (勝敗はすぐにわかるさ) has no personal subject at all (\"the outcome will become clear soon\"); 'We'll' invented a collective identity not in the source, and Gyunei's other lines in this resource are consistently solo/self-referential (俺), not team-inclusive. Changed to a neutral construction that invents no subject."
+    },
+    {
+      "id": "dialogue_12570",
+      "before": "That damage won't explode.",
+      "after": "That won't explode, you're fine.",
+      "reason": "Source (その損傷なら爆発しない、大丈夫だ。) ends with an explicit reassurance (大丈夫だ, \"you're fine\") that was dropped from the target. Restored it; the row's 32-character budget had room."
+    },
+    {
+      "id": "dialogue_12601",
+      "before": "I won't lose to this!",
+      "after": "I won't let this guy!",
+      "reason": "Source (こんな奴に、やらせるか！) is a rhetorical denial of the enemy's success (\"will I let a guy like this pull it off?!\"), matching the same やらせる/やらせるもんか pattern used elsewhere in this same resource (dialogue_12539, 12591, both kept as \"won't allow/let\"). The prior translation reframed it as the speaker's own risk of losing, which is a different claim. Corrected to keep the enemy as the one being denied."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [12537, 12540, 12562], "finding": "Locked pilot name spelling 'Gyunei'/'Gyunei Guss' matches glossary (character_names_021.json); no change needed."},
+    {"rows": [12558], "finding": "'Quess' spelling matches glossary short form; no change."},
+    {"rows": [12554], "finding": "Ambiguity noted separately under uncertainties; left as-is."},
+    {"rows": [12595], "finding": "大佐 (Colonel) vs 総帥 (Char's rank) contrast compressed to generic 'rank' under an extreme byte budget (row allows ~20 visible chars); 'Colonel'/'Supreme Commander' both would not fit. Not a locked-term violation (only 大尉→Captain, Ixbrau, unidentified life-forms, and 艦長 for Ruri/Jamil are locked per terms_028.json); acceptable compression, no fix."},
+    {"rows": [12542, 12565], "finding": "Several first-person self-declarations (やらせるかよっ, 追い込む, やってやる) were rendered as bare imperatives ('Corner them fast!', 'All right, go!'). Reviewed as acceptable register compression consistent with this game's terse combat-bark style (both still concern the same action/object as the source); not treated as a wrong-addressee error since no different party is implicated."},
+    {"rows": [12604, 12563, 12580, 12586], "finding": "Very short HUD/bark lines (budget 6-10 visible chars) drop explicit objects (e.g. 'enemy', 'mission') that are recoverable from context; forced by the byte budget, not a meaning error."}
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_12554",
+      "issue": "Source \"こんなことじゃ大佐に……！\" is an ellipsis with 大佐 (Colonel) in dative case, most likely completing something like \"[I can't face] the Colonel [like this]\" (self-directed shame), whereas the current target 'The Colonel will...!' reads as if the Colonel is the grammatical subject of an implied future action. Could not verify the intended completion from surrounding rows (no continuation exists; this is a one-off elliptical bark) and a clearer fix could not be made to fit the row's 20-character budget with confidence. Left as-is; flagging per BASE_RULES rather than forcing an unverified change."
+    },
+    {
+      "id": "dialogue_12613",
+      "issue": "'psycommu' term (サイコミュ) is not yet in the project glossary; translator's choice matches established Gundam franchise English usage (also used consistently in batch_12617). Ruling: acceptable, recommend adding to glossary but not a meaning error."
+    },
+    {
+      "issue": "General: this whole resource group (2805050 Jagd Doga/Gyunei Guss, 2805051 Jagd Doga/Quess Paraya, start of 2806012 Heero Yuy) carries an unusually tight byte budget (min(72, 2*source_chars-2)); heavy compression throughout is expected and was not treated as an error except where noted above."
+    }
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(1000)>/<ed()> command tags checked identical and in original order against the console-dumped source for all 80 rows plus 30 rows of context; no tags altered by the 3 fixes.",
+    "format": "No newlines in any row (source has none in this slice); ASCII-only confirmed for all targets including the 3 edited rows.",
+    "fit": "All 3 edited rows re-measured against the row's own min(72, 2*source_ja_chars-2) budget: dialogue_12560 20/20, dialogue_12570 32/32, dialogue_12601 21/22. All other rows unchanged from the translator's already-verified fit.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit in-game are not established by this meaning review."
+  }
+}

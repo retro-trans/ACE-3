@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "Kudan no Genkai",
+    "en": "Limit of Questions",
+    "source": "work/translation/en/dialogue/batch_05943.json and batch_05943_glossary_proposals.json (book(77)); Eureka Seven fandom wiki article for this concept",
+    "why": "book(77) (クダンの限界) recurs at dialogue_07942 in this slice. Not present in any of the four named glossary files, only in an earlier dialogue batch's own proposal; reusing the existing wiki-sourced rendering exactly rather than re-deriving it, and re-flagging it here so it gets picked up in the pending glossary consolidation noted in docs/DIALOGUE.md."
+  },
+  {
+    "term_romaji": "Adorokku Sasuton",
+    "en": "Adroc Thurston",
+    "source": "work/translation/en/encyclopedia_022.json and encyclopedia_021_b.json (book(68))",
+    "why": "book(68) (アドロック・サーストン) appears at dialogue_07944 in this slice. Spelling 'Adroc Thurston' (no k) is already established in the encyclopedia records permitted by the task brief; flagging here since it is not yet in any of the four named glossary/*.json files and could otherwise be mis-typed as 'Adrock'."
+  }
+]

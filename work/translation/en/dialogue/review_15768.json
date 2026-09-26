@@ -1,0 +1,34 @@
+{
+  "reviewer": "independent_review_shouts_agent",
+  "slice_start": 15768,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15753, "end": 15862}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "resource_boundaries_in_slice": [
+    {"rows": [15768, 15822], "resource": 2823012, "pilot": "Renton (Nirvash spec3, sole pilot -- not the dual-pilot 2823010 resource)"},
+    {"rows": [15823, 15847], "resource": 2823020, "pilot": "Anemone (Nirvash theEND)"}
+  ],
+  "meaning_fixes": [
+    {
+      "id": "dialogue_15776",
+      "before": "I made that promise!",
+      "after": "I swore to push on!",
+      "reason": "Translator flagged uncertainty: source 'tsuranuku tte yakusoku shitanda!' pairs 'yakusoku' (promise/swore) with 'tsuranuku' (lit. 'pierce through', figuratively 'carry it through / see it to the end'); no named attack/technique matches 'tsuranuku' in the glossary, so it is Renton's resolve, not a move name. 'I made that promise!' dropped the 'carry it through' content entirely, leaving only a vague 'that promise' with no recoverable referent. Fixed to 'I swore to push on!' (19 chars, under the 20-char budget), which keeps both the vow and the 'see it through' sense."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [15769], "finding": "'Matte-cha dame da, kyousuccha dame da!' ('can't wait, can't beg!') echoes the Eureka Seven motto's 'don't beg' theme; translated as 'Can't wait, can't beg!', an accurate parallel-structure rendering, consistent with terms_028.json's note on the motto without needing its exact (much longer) official wording."},
+    {"rows": [15787], "finding": "'Ikite kaeru tte yakusoku shite kudasai!' ('please promise you'll come back alive!') is Renton (sole pilot of this resource) addressing this request outward, e.g. to Eureka or an ally, not a request made of himself; translation 'Promise you'll return alive!' correctly keeps the outward address."},
+    {"rows": [15810], "finding": "Translator flagged 'dokkara datte koi!' (lit. 'come from anywhere!') rendered as the idiom 'Bring it on!' to fit an 18-char budget. Ruling: acceptable -- preserves the defiant challenge without reversing meaning."},
+    {"rows": [15840, 15879, 15895, 15901, 15902, 15904], "finding": "Locked unit name 'theEND' (lowercase 'the' + uppercase 'END') is preserved correctly in every occurrence in the Anemone portion of this slice, matching unit_names_014_b.json ('Nirvash theEND')."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-checked command-tag order and newline counts against the freshly re-sliced source for all 80 rows; the one edited row (dialogue_15776) keeps its original <op()><sp(20)>...<ab(1000)><ed()> tag sequence.",
+    "fit": "Recomputed the hard budget min(72, 2*source_ja_char_count-2) for the fixed row from the live source: dialogue_15776 19/20, under budget.",
+    "ascii": "No new non-ASCII characters, curly quotes/dashes, bare '%', or lowercase j/q introduced by the fix.",
+    "status": "All 80 rows set to meaning_reviewed; none left as draft."
+  }
+}

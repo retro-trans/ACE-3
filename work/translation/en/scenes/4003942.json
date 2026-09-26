@@ -1,0 +1,156 @@
+{
+ "resource_id": 4003942,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 12,
+ "rows_examined": 12,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Unidentified Life-forms",
+   "notes": "",
+   "source_sha256": "1433d4de598735fcf3267b18875c4026697299f2090acabe759883eb1db70381"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<library(1)><operator(30030,1)><speed(2)>Two types of <color(5)>unidentified life-forms<ce()> have been confirmed so far.",
+   "notes": "",
+   "source_sha256": "a5e4c886a96be8fb412721632f3ff655b7750af63645cf26870e900af2527ecc"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30030,1)><speed(2)>Type A, which appeared at Saint Cruz, and Type B, which was confirmed in the last sortie.",
+   "notes": "",
+   "source_sha256": "9487cc03736e5717a1650412178e1916af6d5ff27418b3bee39ed986675d33dd"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30030,1)><speed(2)>The trait of Type A<thumbnail(158)> is that it mainly targets humans when it attacks.",
+   "notes": "",
+   "source_sha256": "ba2a560aa98f821322e66e2f1e2eb29d95566349bc2036a6c67641b8fa9e247a"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30030,1)><speed(2)>Also, once a certain amount of time has passed, it always calcifies and ceases activity.",
+   "notes": "",
+   "source_sha256": "3307e97b8efaebcf7adbcb39ffc9991fdab1ad9f9e53cd7d7b0d4bb9cf538b16"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30030,1)><speed(2)>Type B<thumbnail(159)> never ceases activity, and it destroys indiscriminately.",
+   "notes": "",
+   "source_sha256": "13c789951f02627258a17d82dd2fc396e39482e7ff3b45a5658ffd8d439d3652"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30030,1)><speed(2)>It has the ability to parasitize machines and can even control weapons.",
+   "notes": "",
+   "source_sha256": "28c9d8907c545145e3ecfb3724ec271f18cb849e5d3e7cd75322f11aba07ed70"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30030,1)><speed(2)>Why such differences exist is not known, but there are also things they have in common.",
+   "notes": "",
+   "source_sha256": "5e12a15bfcf39b9563d8f789621873bf99bf5cb9512c96dc63458fbc3655acc7"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30030,1)><speed(2)>They emerge from meteorites<thumbnail(160)> that arrive from beyond the atmosphere. But those meteorites go unobserved until right before that.",
+   "notes": "",
+   "source_sha256": "cca0ce77031b81b781b11d4aafd8e2b41100302969f607a0fafce3c8a2cc2955"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30030,1)><speed(2)>In other words, they appear suddenly... It is thought they were arriving through some kind of spatial transfer technology.",
+   "notes": "",
+   "source_sha256": "e48d844cacfc463abec283e09cf3600673e9100b3391d7cdf66e0bfedbc1c3d1"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30030,1)><speed(2)>But since no boson particles or fold reactions are detected, it does not seem to be any existing technology.",
+   "notes": "Boosu ryuushi rendered boson particles (Nadesico term).",
+   "source_sha256": "bbaf4f3f1a7a700d8463e8d1bcabfba51a7bf29010b752220650293609947d73"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>That is about all that is known for now. If the operation goes smoothly, we may learn something more.",
+   "notes": "",
+   "source_sha256": "211ad8f4fef2564347db15d3499dbbdbae7c596ff4231ec7e39af3d0868b0646"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 0,
+   "issue": "Archive title \"Unidentified Life-forms\" follows meeting 4003020 wording; the released mission title uses \"Unknown Lifeform\". Title width limit for the archive screen unknown to me."
+  },
+  {
+   "slot": 28,
+   "issue": "\"boson particles\" for boosu ryuushi; see glossary_proposals."
+  },
+  {
+   "slot": 27,
+   "issue": "\"spatial transfer\" for kuukan ten-i; Encyclopedia uses \"space-leap\" for kuukan chouyaku (a different word), so I kept them distinct."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "boosu ryuushi",
+   "en": "boson particles",
+   "source": "https://nadesico.fandom.com/wiki/ND-001_Nadesico ; https://en.namu.wiki/w/%EB%B3%B4%EC%86%90%20%EC%A0%90%ED%94%84",
+   "why": "Nadesico Boson Jump by-product particles; English Nadesico sources say boson particles."
+  },
+  {
+   "ja_reading_romaji": "A taipu / B taipu",
+   "en": "Type A / Type B",
+   "source": "none; descriptive",
+   "why": "Classification of the unidentified life-forms."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 12,
+  "rows_in_scene": 12,
+  "meaning_fixes": [
+   {
+    "slot": 21,
+    "before": "<operator(30030,1)><speed(2)>The main trait of Type A<thumbnail(158)> is that it targets humans when it attacks.",
+    "after": "<operator(30030,1)><speed(2)>The trait of Type A<thumbnail(158)> is that it mainly targets humans when it attacks.",
+    "reason": "\"omo ni\" is an adverb on \"targets humans\" (mainly targets humans), not an adjective on \"trait\" (that would be \"omo na tokuchou\"). The contrast with Type B's indiscriminate destruction in slot 23 depends on it."
+   }
+  ],
+  "checked_decisions": [
+   "Slot 28 ruling: \"boson particles\" for \"boosu ryuushi\" (Bose particles = bosons, the Nadesico Boson Jump by-product) is correct.",
+   "Slot 27 ruling: \"spatial transfer\" for \"kuukan ten-i\" is correct and rightly kept distinct from \"space leap\" (kuukan chouyaku); same wording as 4003952 slot 20.",
+   "Slots 22 and 26 agree with released 4003020 wording (calcify, meteorites from beyond the atmosphere).",
+   "\"Saint Cruz\" matches the glossary."
+  ],
+  "remaining_uncertainties": [
+   "Slot 0: archive title \"Unidentified Life-forms\" differs from the mission title wording \"Unknown Lifeform\"; the archive list width limit is unknown to me - not verified.",
+   "Slot 21: my fix rests on reading \"omo ni\" adverbially; I am confident, but the word order (\"tokuchou wa omo ni ... koto\") does allow the looser reading \"the trait is, chiefly, that ...\"."
+  ]
+ }
+}

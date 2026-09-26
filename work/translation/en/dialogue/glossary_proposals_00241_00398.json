@@ -1,0 +1,79 @@
+{
+  "status": "research proposals for orchestrator; central glossary unchanged",
+  "researched_on": "2026-09-18",
+  "entries": [
+    {
+      "proposed_id": "char.light_newman",
+      "name_en": "Light Newman",
+      "short_name_en": "Light",
+      "source_rows": [454],
+      "gender": {"value": "male", "source": "https://srw.m.wiki.cre.jp/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%BB%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3"},
+      "nickname": {"value": null, "status": "not found in reviewed sources"},
+      "personality": "Cheerful and quick-thinking; often restrains his impulsive companions.",
+      "position": "Dragonar-3 pilot. His rank changes during the original series, so do not import a rank into an unspecified game scene.",
+      "source": "https://www.dragonar.net/character/e02.php",
+      "evidence": "Official series page explicitly prints Light Newman in English and describes the personality and pilot role."
+    },
+    {
+      "proposed_id": "char.lucrezia_noin",
+      "name_en": "Lucrezia Noin",
+      "short_name_en": "Noin",
+      "source_rows": [264],
+      "gender": "female",
+      "nickname": "Noin is her preferred form of address; Preventer Fire is a later identity, not interchangeable in every scene.",
+      "personality": "Mature, idealistic, protective and loyal to Zechs; dislikes war.",
+      "position": "OZ pilot and instructor, later defender of the Sanc Kingdom.",
+      "source": "https://gundam.fandom.com/wiki/Lucrezia_Noin",
+      "evidence": "Wiki profile and personality section returned in web search. Direct page fetch returned 402; search extraction supplied full relevant text."
+    },
+    {
+      "proposed_id": "char.relena_peacecraft",
+      "name_en": "Relena Peacecraft",
+      "aliases": ["Relena Darlian", "Queen Relena"],
+      "source_rows": [271, 273, 279, 281, 284],
+      "gender": "female",
+      "personality": "Kind and increasingly mature; committed to pacifism.",
+      "position": "Princess and ruler of the Sanc Kingdom; later positions depend on the scene's continuity.",
+      "source": "https://gundam.fandom.com/wiki/Relena_Darlian",
+      "evidence": "Wiki profile explicitly identifies real name, gender and role. Preserve Peacecraft in the introduction because the source uses that surname."
+    },
+    {
+      "proposed_id": "char.zechs_merquise",
+      "name_en": "Zechs Merquise",
+      "short_name_en": "Zechs",
+      "aliases": ["Milliardo Peacecraft", "Lightning Count"],
+      "source_rows": [254, 262, 302, 306],
+      "gender": "male, supported by the wiki's brother relationship and male pronouns",
+      "personality": "Chivalrous conduct toward defeated rivals is documented; fuller personality profile remains to research.",
+      "position": "Former OZ ace; White Fang leader in this source scene.",
+      "source": "https://gundam.fandom.com/wiki/Zechs_Merquise",
+      "evidence": "Wiki spelling Merquise is used; one official anniversary article uses Marquise, so the repo's wiki-preference rule resolves that disagreement. Short Zechs is unaffected."
+    },
+    {
+      "proposed_id": "org.white_fang",
+      "name_en": "White Fang",
+      "source_rows": [251, 252, 256, 259, 288],
+      "source": "https://gundam.fandom.com/wiki/White_Fang",
+      "evidence": "Canonical Gundam Wiki faction title."
+    },
+    {
+      "proposed_id": "loc.sanc_kingdom",
+      "name_en": "Sanc Kingdom",
+      "source_rows": [275],
+      "source": "https://gundam.fandom.com/wiki/After_Colony_Nations_and_Factions",
+      "evidence": "Wiki's named entry describes the pacifist nation."
+    },
+    {
+      "proposed_id": "unit.aries",
+      "name_en": "Aries",
+      "source_rows": [294],
+      "source": "https://gundam.fandom.com/wiki/OZ-07AMS_Aries",
+      "evidence": "Canonical model title and source spelling correspond."
+    }
+  ],
+  "pending": [
+    "UCE and E2: retain literal Latin codes; no expansion inferred.",
+    "OZ is supported by the researched character and unit pages, but central organization profile is not drafted here.",
+    "Nadesico and Ra Cailum already have proposals from the neighboring batch."
+  ]
+}

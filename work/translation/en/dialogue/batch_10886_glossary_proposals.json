@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "fanneru",
+    "en": "Funnel",
+    "source": "https://gundam.fandom.com/wiki/Funnel",
+    "why": "Named in dialogue_11007 ('That unit... is it carrying Funnels?') as the remote wireless weapon pods used by Newtype pilots (Char/Neo Zeon Jagd Doga units in this mission). Standard, unambiguous Gundam-franchise term; not previously present in any project glossary file."
+  },
+  {
+    "term_romaji": "sousui",
+    "en": "Marshal",
+    "source": "work/glossary/character_names_021.json (char Char Aznable entry: 'Rank in CCA is Marshal (Supreme Commander/Leader)')",
+    "why": "First dialogue occurrence of Char's Neo Zeon title (dialogue_10930, 'People who can't even grasp the Marshal's ideal!'). The character glossary already notes the rank as 'Marshal' but with the alternate reading 'Supreme Commander/Leader' left open; this batch locks in 'Marshal' for consistency and flags it for central confirmation. Recommend keeping it visually/lexically distinct from the unrelated title 'Colonel' (taisa), which the same mission uses for Char's older AEUG-era rank (dialogue_11004-11021, 11033) and which the source itself contrasts directly at row 11063 ('Colonel or Marshal, it doesn't matter')."
+  }
+]

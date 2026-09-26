@@ -1,0 +1,27 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 5863,
+  "slice_count": 80,
+  "rows_examined": [{"start": 5848, "end": 5957}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [5897, 5898, 5899, 5900, 5901, 5902, 5903], "finding": "Unnamed New Federation officer's role text (personally entrusted with command by Commander Bloodman, distrustful of Siberian Railway/Izumo after repeated failures) correctly left unattributed; text never tags a speaker and Berkt is discussed as a third party two rows later (5910), so he cannot be this speaker."},
+    {"rows": [5901], "finding": "'Commander Bloodman' confirmed against character_names_021.json/encyclopedia entries: locked short form of Fixx Bloodman, leader of the New Federation regime."},
+    {"rows": [5904, 5906, 5907, 5908, 5909, 5910], "finding": "'Captain Jurgens' (5904) correctly identified as the addressee via the locked ship-captain title (character_names_021.json: 'Captain Jurgens' is the wiki heading for the Izumo's captain); the opposing voice pushing for immediate theEND deployment is left unattributed since no tag/name appears in the source rows, though it plausibly corresponds to Dominic's established role per review_01666.json."},
+    {"rows": [5905], "finding": "Fullwidth source 'ｔｈｅＥＮＤ' rendered 'theEND' to match the already-locked unit name Nirvash theEND (unit_names_014_b.json). Orchestrator ruling: theEND is locked and this rendering is accepted."},
+    {"rows": [5902], "finding": "'イズモ隊' (Izumo squad/unit) rendered 'the Izumo', matching the ship-name-as-unit convention already used for Jurgens' ship in batch_01666.json ('Izumo, prepare to withdraw!')."},
+    {"rows": [5920, 5921, 5923, 5925, 5927], "finding": "Anemone (named, female, locked) correctly voiced as the pilot upset at being kept out of combat; the unnamed handler voice (5922, 5924, 5926) worried about reporting her death to Colonel Dewey is left unattributed but plausibly Dominic per his glossary role ('Anemone's handler'). No identity invented in the visible text."},
+    {"rows": [5924], "finding": "'デューイ大佐' rendered 'Colonel Dewey'. Orchestrator ruling: 'Colonel Dewey' is accepted; the translator's flagged rank uncertainty is resolved."},
+    {"rows": [5934, 5935, 5936, 5937, 5938, 5939, 5940], "finding": "The cloaking Overman (5934-5937) is never named in the source text of this slice and is correctly kept as 'that Overman'/'him' in 5938-5940 rather than guessing an identity. 5938's source is オーバースキル ('Overskill', the ability, distinct from オーバーマン 'Overman' the machine in 5934) -- 'Jamil, that Overskill is a real problem' correctly distinguishes the ability from the unit and matches the existing corpus spelling 'Overskill' (hud_labels.json, review_04398.json, batch_04398.json)."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "All <...> commands (op/sp/ab/ed and bare tags) checked in order against the source for all 80 rows; none altered, reordered, or dropped (script-verified via tag-token extraction).",
+    "format": "Newline counts match the source for every row (script-verified).",
+    "fit": "Longest visible text is under 110 characters for every row (script-verified); no shortening was needed for meaning.",
+    "ascii": "ASCII-only for every row, no fullwidth characters remaining; no lowercase j/q anywhere in the slice (script-verified)."
+  }
+}

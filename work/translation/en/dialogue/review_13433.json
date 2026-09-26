@@ -1,0 +1,73 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 13433,
+  "slice_count": 70,
+  "rows_examined": [[13418, 13517]],
+  "rows_examined_count": 100,
+  "rows_in_slice": 70,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_13453",
+      "before": "Something's here...!",
+      "after": "What kind of guy...!",
+      "reason": "Source (nante yatsu ga kitanda) specifically exclaims about the opponent as a person ('what a guy has shown up'), not an impersonal presence; 'something' drops the reference to a formidable pilot. Same byte budget (20, exact)."
+    },
+    {
+      "id": "dialogue_13467",
+      "before": "Focus on your foe.\nDon't worry about me.",
+      "after": "Focus on your foe. Don't worry about me.",
+      "reason": "Shout rows must carry no newline (source line breaks are joined); rejoined into one line, fits budget (40, exact)."
+    },
+    {
+      "id": "dialogue_13478",
+      "before": "Still got more.",
+      "after": "Got more in you?",
+      "reason": "Source (mada yareru darou) is a tag-question addressed to an ally ('you can still do it, can't you'), matching the parallel slot-50 lines in the sibling pilot resources (e.g. 13368 'shikkari yatte moraou' -> instruction to an ally). 'Still got more.' reads as an ambiguous self-referential statement instead. Fits the same budget (16, exact)."
+    },
+    {
+      "id": "dialogue_13498",
+      "before": "Return now.",
+      "after": "Returning.",
+      "reason": "Source (kikan suru) is a first-person self-report ('I'm heading back'), not a command to someone else; 'Return now.' turned it into an imperative directed outward, inconsistent with the parallel self-declarative line at 13500 ('Falling back')."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [13433, 13458],
+      "finding": "Tail of Quincy Issa's block; no reversed meaning beyond the 13453 fix above."
+    },
+    {
+      "rows": [13459, 13502],
+      "finding": "Akito Tenkawa (Black Sarena) lines checked; character_names_021.json lists his personality as null (only role 'Black Sarena pilot, the Prince of Darkness' is given). The translator's cold, clipped register is a reasonable inference from that film persona and is not contradicted by any locked characterization, so it is kept; the two fixes above (13478, 13498) were about addressee/subject accuracy, not about this inferred tone."
+    },
+    {
+      "rows": [13433, 13502],
+      "finding": "Every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> command sequence verified identical and in order; no ASCII/j-q/110-char violations found."
+    },
+    {
+      "rows": [13433, 13502],
+      "finding": "No orchestrator terms_028.json decisions (Captain rank, Ixbrau, unidentified life-forms, Ruri/Jamil Captain) apply in this slice; none of those terms appear in the source."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_13458"],
+      "issue": "Translator's compression of Return! to 'Back!' (6-char budget) upheld: tone preserved."
+    },
+    {
+      "ids": ["dialogue_13466"],
+      "issue": "Translator's imperative rendering ('Don't be reckless. Don't die.') for the source's unstated 'I don't want to lose you' upheld: correctly avoids supplying an invented I/you subject or gender, per BASE_RULES."
+    },
+    {
+      "ids": ["dialogue_13459", "dialogue_13460", "dialogue_13461", "dialogue_13462", "dialogue_13463", "dialogue_13470", "dialogue_13471", "dialogue_13472", "dialogue_13473", "dialogue_13479", "dialogue_13483", "dialogue_13491", "dialogue_13500"],
+      "issue": "Translator's note on Akito/Black Sarena's inferred cold, clipped tone (personality field null in glossary) upheld as reasonable and non-contradictory; flagged again here per BASE_RULES ('an uncertainty reported is worth more than a clean report') rather than resolved with new sourcing."
+    }
+  ],
+  "validation": {
+    "controls": "Every row's command sequence re-verified programmatically against the source extraction for all 70 rows; unchanged.",
+    "format": "All rows confirmed newline-free after rejoining the 1 row above; ASCII-only (except the locked fullwidth %) confirmed for all rows.",
+    "fit": "Per-row byte budget recomputed from the console source extraction and verified <= budget for all 70 rows, including the 4 rows fixed above.",
+    "names": "No name-spelling changes needed; Quincy Issa/Baronz and Akito Tenkawa/Black Sarena match character_names_021.json and unit_names_014_a.json throughout."
+  }
+}

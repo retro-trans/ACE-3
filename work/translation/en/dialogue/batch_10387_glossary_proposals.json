@@ -1,0 +1,32 @@
+[
+  {
+    "term_romaji": "tawā",
+    "en": "Tower",
+    "source": "work/translation/en/encyclopedia_022.json (existing entry: source \"タワー\" -> en \"Tower\")",
+    "why": "Used throughout dialogue_10385-10442 as the proper name of one of the mission's escorted motherships (it can be 'abandoned' like a vessel, alongside the Gekko/Nadesico/Izumo). The exact katakana string already has an established literal translation in encyclopedia_022.json, so that spelling was reused for consistency, but its source-franchise/backstory context could not be independently confirmed (its neighboring encyclopedia entries mix Getter Robo Armageddon and King Gainer terms, which may just reflect adjacent table slots rather than a thematic grouping). Proposing it be formally added to work/glossary/*.json as a ship/proper-noun entry once its origin is confirmed."
+  },
+  {
+    "term_romaji": "bentorōru",
+    "en": "Vent Roll",
+    "source": null,
+    "why": "First appears at dialogue_10404 ('左下、ベントロールに被弾！'), a damage-report line for one of the escorted ships. No matching English term could be confirmed via Eureka Seven wiki searches (which only described the Gekko's general Trapar-based flight, not this specific part name). Kept as a literal transliteration pending a better source; flagged provisional."
+  },
+  {
+    "term_romaji": "vi āru efu",
+    "en": "VRF",
+    "source": null,
+    "why": "First appears at dialogue_10405 ('右二番、ＶＲＦ脱落、揚力２５％低下！'), immediately after the Vent Roll damage report, and is already Roman letters in the source (full-width). Kept as bare 'VRF' with no expansion since no source confirms what the initialism stands for; flagged alongside Vent Roll as the same ship's components."
+  },
+  {
+    "term_romaji": "tsui no mono",
+    "en": "the paired ones",
+    "source": "https://eurekaseven.fandom.com/wiki/Norb ; https://eurekaseven.fandom.com/wiki/Humanoid_Coralians",
+    "why": "First and only appearance at dialogue_10426 ('以前、私たちは対の者としてゾーンを突破しようとした。'), in a monologue inferred to be Sakuya's (see uncertainties in batch_10387.json), recalling her and Norb's earlier failed attempt to cross into the Zone. The wiki sources describe the Vodarac's plan of 'pairing Sakuya up with a human partner' to cross the Great Wall, but no fixed English term for 対の者 itself was found, so a descriptive rendering was used. Proposing this be reviewed/locked if the phrase recurs elsewhere in the corpus."
+  },
+  {
+    "term_romaji": "pororokka",
+    "en": "Pororoca",
+    "source": "https://en.wikipedia.org/wiki/Pororoca",
+    "why": "Appears at dialogue_10449 ('ノルブさんの言ってたポロロッカ……。'), referencing a phenomenon Norb had described. Pororoca is a real-world Amazon tidal-bore term already lexicalized in English (used in-franchise for the surge that opens a path into the Zone); rendered as the standard English spelling/proper noun rather than a new coinage."
+  }
+]

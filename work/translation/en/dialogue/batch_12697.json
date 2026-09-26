@@ -1,0 +1,514 @@
+{
+  "slice_start": 12697,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      12682,
+      12791
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "id": "dialogue_12737",
+      "note": "Locked term 'Aura Power' (encyclopedia_022.json) could not fit this row's hard byte budget (20 chars for 10 source chars); compressed to generic 'power'. Flagging since it departs from the locked term."
+    },
+    {
+      "ids": [
+        "dialogue_12723"
+      ],
+      "note": "Avoided gendering the unnamed enemy pilot ('him' -> 'it') to fit budget without inventing identity."
+    },
+    {
+      "note": "This entire slice (battle shouts, resources 2805050/2805051/2806012/2807010/2807020/2807030) carries an unusually tight hard byte budget (2x source Japanese chars - 2, max 72). Many short rows required heavy compression/paraphrase rather than literal translation; only the most significant compressions are flagged individually above. All rows meet the budget and keep command tags/order identical to source."
+    }
+  ],
+  "rows": [
+    {
+      "id": "dialogue_12697",
+      "target": "<op()><sp(20)>What... what am I even doing?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12698",
+      "target": "<op()><sp(20)>We're clearly losing.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12699",
+      "target": "<op()><sp(20)>This looks rough.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12700",
+      "target": "<op()><sp(20)>Beginning the op.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12701",
+      "target": "<op()><sp(20)>All normal.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12702",
+      "target": "<op()><sp(20)>Target locked.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12703",
+      "target": "<op()><sp(20)>No slack.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12704",
+      "target": "<op()><sp(20)>Target confirmed, op begins.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12705",
+      "target": "<op()><sp(20)>Hold on.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12706",
+      "target": "<op()><sp(20)>You're still fine.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12707",
+      "target": "<op()><sp(20)>Fight to survive.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12708",
+      "target": "<op()><sp(20)>You can go on.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed ('you can go on') for the hard byte budget; core encouragement retained."
+    },
+    {
+      "id": "dialogue_12709",
+      "target": "<op()><sp(20)>Fight on. No other way.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12710",
+      "target": "<op()><sp(20)>With that skill, you'll manage.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12711",
+      "target": "<op()><sp(20)>I trust you now.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Paraphrased from 'you deserve trust' to 'I trust you now' to fit budget; polarity/meaning preserved."
+    },
+    {
+      "id": "dialogue_12712",
+      "target": "<op()><sp(20)>Your skill seems reliable.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12713",
+      "target": "<op()><sp(20)>Nice.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12714",
+      "target": "<op()><sp(20)>Enemy found. Destroying now.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12715",
+      "target": "<op()><sp(20)>Roger. Destroying.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12716",
+      "target": "<op()><sp(20)>More coming.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12717",
+      "target": "<op()><sp(20)>Target set. Destroying.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12718",
+      "target": "<op()><sp(20)>This far exceeds projections...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12719",
+      "target": "<op()><sp(20)>Reinforcements found. Wiping them out.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12720",
+      "target": "<op()><sp(20)>That one's good, careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12721",
+      "target": "<op()><sp(20)>...Here.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12722",
+      "target": "<op()><sp(20)>...Strong, careful.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12723",
+      "target": "<op()><sp(20)>Roger. Ending it.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'him' avoided; kept genderless ('it') for the unnamed enemy pilot."
+    },
+    {
+      "id": "dialogue_12724",
+      "target": "<op()><sp(20)>Data confirms a threat.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12725",
+      "target": "<op()><sp(20)>Done.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12726",
+      "target": "<op()><sp(20)>Tactical clear, now strategic level.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Format fix: source line break joined into one line per the shout-specific no-newline rule (was reproduced as two lines)."
+    },
+    {
+      "id": "dialogue_12727",
+      "target": "<op()><sp(20)>Mission done. Returning.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12728",
+      "target": "<op()><sp(20)>This is the only way I know.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12729",
+      "target": "<op()><sp(20)>How many more fights...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12730",
+      "target": "<op()><sp(20)>Objective clear. Return.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12731",
+      "target": "<op()><sp(20)>Go behind? No, haste means losing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Format fix: source line break joined into one line per the shout-specific no-newline rule (was reproduced as two lines)."
+    },
+    {
+      "id": "dialogue_12732",
+      "target": "<op()><sp(20)>If you truly won't let me...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12733",
+      "target": "<op()><sp(20)>Enemy power's rising too, be careful!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Format fix: source line break joined into one line per the shout-specific no-newline rule (was reproduced as two lines)."
+    },
+    {
+      "id": "dialogue_12734",
+      "target": "<op()><sp(20)>Go down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12735",
+      "target": "<op()><sp(20)>I must stop it here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12736",
+      "target": "<op()><sp(20)>No sense of right, helping villains, fool!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Heavily compressed two-line insult; core meaning (foolish person blindly helping villains) kept, phrasing simplified under budget. Format fix: source line break joined into one line per the shout-specific no-newline rule."
+    },
+    {
+      "id": "dialogue_12737",
+      "target": "<op()><sp(20)>If only I had power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Locked term 'Aura Power' (see encyclopedia_022.json) had to be dropped to generic 'power' to fit the hard byte budget for this row."
+    },
+    {
+      "id": "dialogue_12738",
+      "target": "<op()><sp(20)>Move it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12739",
+      "target": "<op()><sp(20)>Can't allow it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12740",
+      "target": "<op()><sp(20)>This Dunbine can!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12741",
+      "target": "<op()><sp(20)>Sorry... what's with you?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12742",
+      "target": "<op()><sp(20)>A bit risky...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12743",
+      "target": "<op()><sp(20)>I can fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12744",
+      "target": "<op()><sp(20)>Even the Dunbine struggles...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12745",
+      "target": "<op()><sp(20)>Come, let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12746",
+      "target": "<op()><sp(20)>Do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12747",
+      "target": "<op()><sp(20)>Trust me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12748",
+      "target": "<op()><sp(20)>Cover you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12749",
+      "target": "<op()><sp(20)>Clear your mind!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12750",
+      "target": "<op()><sp(20)>I must hold here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12751",
+      "target": "<op()><sp(20)>Not lost yet!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12752",
+      "target": "<op()><sp(20)>I'm fine, can fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12753",
+      "target": "<op()><sp(20)>Don't quit!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12754",
+      "target": "<op()><sp(20)>Impressive. Can I count on you now?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12755",
+      "target": "<op()><sp(20)>Impressive work.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12756",
+      "target": "<op()><sp(20)>Amazing power, reliable.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12757",
+      "target": "<op()><sp(20)>I stand corrected.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12758",
+      "target": "<op()><sp(20)>With you, losing feels unlikely.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Paraphrased ('losing feels unlikely') to fit budget; polarity of 'I don't feel like we'd lose' preserved."
+    },
+    {
+      "id": "dialogue_12759",
+      "target": "<op()><sp(20)>Backup! How many?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12760",
+      "target": "<op()><sp(20)>More!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12761",
+      "target": "<op()><sp(20)>Backup signal...?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12762",
+      "target": "<op()><sp(20)>Is this backup...?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12763",
+      "target": "<op()><sp(20)>Foes coming!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12764",
+      "target": "<op()><sp(20)>Careful! It's tough!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12765",
+      "target": "<op()><sp(20)>Alert!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12766",
+      "target": "<op()><sp(20)>Not the same, careful!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12767",
+      "target": "<op()><sp(20)>Not like the others!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12768",
+      "target": "<op()><sp(20)>I won't lose to this...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12769",
+      "target": "<op()><sp(20)>Is everyone unhurt?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12770",
+      "target": "<op()><sp(20)>Did we... do it...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12771",
+      "target": "<op()><sp(20)>Glad we're safe.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to 'Glad we're safe'; original omits explicit subject, English needs one, kept neutral/plural per BASE_RULES."
+    },
+    {
+      "id": "dialogue_12772",
+      "target": "<op()><sp(20)>Go back now.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12773",
+      "target": "<op()><sp(20)>Guess it's over...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12774",
+      "target": "<op()><sp(20)>Taking it down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12775",
+      "target": "<op()><sp(20)>Sorry, no luck for you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12776",
+      "target": "<op()><sp(20)>This is nothing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently meaning-reviewed 2026-09-24 (rows_examined 12682-12791). No meaning fixes required; 4 format fixes (dialogue_12726, 12731, 12733, 12736, joining reproduced source line-breaks per the shout no-newline rule); all 80 rows set to meaning_reviewed.",
+    "fit": "All 80 rows verified programmatically against the hard byte budget (visible English length <= min(72, 2*source_ja_chars-2)); several rows required heavy compression, flagged in uncertainties/notes.",
+    "controls": "All original <...> command tags preserved, in original order, for every row; verified programmatically against the source. No newlines added beyond the source's own line breaks (rows 12696, 12726, 12731, 12733, 12736, 12789, 12792, 12802, 12818, 12837, 12843). ASCII-only output verified programmatically."
+  }
+}

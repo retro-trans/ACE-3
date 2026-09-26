@@ -1,0 +1,213 @@
+{
+ "resource_id": 4003030,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 19,
+ "rows_examined": 19,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "03  Capture Baldora Drive",
+   "notes": "Released mission title reused.",
+   "source_sha256": "38b23ffce04c5860e50f55aeadc5b975407c6e7efb9f4091d3c1618b14bbb175"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30050,1)><speed(2)>Do you remember the <color(5)>mobile weapons<ce()> that appeared at Saint Cruz?",
+   "notes": "",
+   "source_sha256": "af247e1b9d4d547b16e4f550a1436c4f2948132f1418e15ff7a28d3d0817e6de"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30050,1)><speed(2)>A report came in moments ago: that unit has been located. It is at sea in the Cecilia Islands<thumbnail(161)>.",
+   "notes": "Avoided \"just\" (no j glyph).",
+   "source_sha256": "9f517fbb8edca4ab474e827612eb3eb5b324654be61f439a70f6b57465a8e239"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30050,1)><speed(2)>They are thought to be tied to the <color(5)>unidentified life-forms<ce()>. Their showing up in those waters can be no coincidence.",
+   "notes": "",
+   "source_sha256": "d575a99963437983adb3123424ae52ec7b9f2f1c4dc0b15b3f1573c19823e745"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30050,1)><speed(2)>In those waters lies a facility the <book(9)>Federation<endbook()> developed in the past, called the \"<book(1)>Baldora Drive<endbook()>\"<thumbnail(162)>.",
+   "notes": "",
+   "source_sha256": "51cb4e80577a4992aef747141783ae4de365133f2d03c665dfc1032d2a2d4a67"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30050,1)><speed(2)>It was being developed as a groundbreaking technology to achieve ultra-long-range space leaps.",
+   "notes": "",
+   "source_sha256": "a12bfb073b7deac7e109a2db2bd8233de56a2ff68cd0eb1f4c989d51fe5c0212"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30050,1)><speed(2)>But... it was shut down 17 years ago, when it caused a large-scale runaway accident.",
+   "notes": "",
+   "source_sha256": "8bdeda2d63b65a3cbc39b8fcc0a1bf9ef2f81e69df301c848201dc9ba15206e6"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30050,1)><speed(2)>Newer technologies such as the <color(6)>Boson Jump<ce()> and fold had also taken its place, and so development was halted.",
+   "notes": "Boson Jump capitalised as in Encyclopedia; fold lowercase as in Encyclopedia Macross entry.",
+   "source_sha256": "e0dde6613ad6993bb28c13a4762e0c39d7464fdefa6f23582a57515d85cf8baa"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30050,1)><speed(2)>And even its existence was erased from history... A thing with a dark past, so to speak.",
+   "notes": "",
+   "source_sha256": "c3cf6c54970e55c226d6af6a47fe1c286c506ec824139ff059875be0764e653a"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30050,1)><speed(2)>What this mysterious force is after there is not certain.",
+   "notes": "",
+   "source_sha256": "2d71b9bef9203b60073bae828ea64458adabca57ea1004a780bb4bed737d65bd"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30050,1)><speed(2)>But a distinctive energy signature<thumbnail(163)> is being detected from a facility that should be long abandoned.",
+   "notes": "",
+   "source_sha256": "5e3220522ba34a1b94b5a910b39762a32d634060f34deee0196748b11d5a0d39"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30050,1)><speed(2)>We need to investigate the <book(1)>Baldora Drive<endbook()> and determine what it is that is happening now.",
+   "notes": "",
+   "source_sha256": "40c9f0abeb5963e4c6cab39ecc02b1cb93283ba191cddb3ed96c36f5ce596e0d"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30050,1)><speed(2)>Caution is called for here...",
+   "notes": "Source has no subject; impersonal construction kept.",
+   "source_sha256": "bf9027c00a48635afaf38f19c68133343aba35d8389bfbc2050ff39924d408d3"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30050,1)><speed(2)>Oh, yes. A <book(9)>Federation<endbook()> forces <book(19)>Dragoon<endbook()> unit will accompany this operation. I am counting on you!",
+   "notes": "",
+   "source_sha256": "4505cfb53ad9dd55d73558898a5ad13b0f996ff1809eff23d9dfae41df94a918"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<topic()><operator(30030,1)><speed(2)>We will now begin the operation to capture the area around the <book(1)>Baldora Drive<endbook()>.",
+   "notes": "",
+   "source_sha256": "385209f96ca57cfb4db569307c67e9a1bf570d7350b0fd3659bc0941a7ae08b8"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30030,1)><speed(2)>If this operation goes well, I think the investigation will move forward too, so I am counting on you.",
+   "notes": "",
+   "source_sha256": "90f0f8162a18db9fa0be5b7921ee1af8844bc5e9a516ab41d1b252599a2d5376"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<thumbdown()><topic()><operator(30000,1)><speed(2)><color(4)>Barrel<ce()>, the <color(4)>Ixbrau<ce()>'s refit parts<thumbnail(164)> have arrived.",
+   "notes": "Ixbrau per unit_names_014_a (scene 4003020 still has older Exbrau).",
+   "source_sha256": "671cb8f673ee9729f13709424d9afd7583f8db8155d5df320f0a80a2db5a68e1"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(30000,1)><speed(2)>Refitting with these parts greatly boosts close-combat ability. On the other hand, shooting performance drops.",
+   "notes": "",
+   "source_sha256": "7caace0180120b696b5fc152e59714a102bbadfedd19137268fb36109d01d886"
+  },
+  {
+   "table": 1,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(30000,1)><speed(2)>Think carefully about what suits you when you choose.",
+   "notes": "",
+   "source_sha256": "7e81b533deb2023d1f2f977205e4b81db0ac88d55c8840cfe74751639c0a3dea"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Cecilia Islands is unsourced (not in any glossary, no English source found); see glossary_proposals. Also \"in the waters of / off\" the islands: source says \"on the sea of the Cecilia Islands\"."
+  },
+  {
+   "slot": 34,
+   "issue": "Used Ixbrau (unit_names_014_a, brief) although released scene 4003020 and meeting_terms_015 still say Exbrau; one of them needs a script pass."
+  },
+  {
+   "slot": 34,
+   "issue": "\"refit parts\" for kansou-you parts: no locked project term found for kansou (form change parts); check against the hangar/UI wording."
+  },
+  {
+   "slot": 32,
+   "issue": "Seiatsu rendered \"capture\" to match the released mission title; \"secure/suppress\" would also be valid."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "Seshiria shotou",
+   "en": "Cecilia Islands",
+   "source": "none found (searched web for ACE3 + Cecilia; superrobotwars.fandom.com/wiki/Another_Century%27s_Episode_3_THE_FINAL has no location names)",
+   "why": "Game-original location of the Baldora Drive (mission 03). Standard romanisation of the katakana; provisional like Saint Cruz."
+  },
+  {
+   "ja_reading_romaji": "kansou (kansou-you paatsu)",
+   "en": "refit (refit parts)",
+   "source": "none; descriptive",
+   "why": "Ixbrau form-change parts; needs one project-wide term."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 19,
+  "rows_in_scene": 19,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"03  Capture Baldora Drive\".",
+   "Slot 20 ruling: \"Cecilia Islands\" is in no glossary file; plain romanisation of the katakana, kept as provisional - orchestrator should add it to the glossary. \"at sea in the Cecilia Islands\" is an acceptable reading of \"Seshiria shotou no kaijou\".",
+   "Slot 34 ruling: \"Ixbrau\" kept per orchestrator decision and unit_names_014_a. Released scene 4003020 slot 33 still prints \"Exbrau\" and needs the name-script pass.",
+   "Slot 34 ruling: \"refit parts\" - no locked term for \"kansou\" exists in any glossary or UI file (searched); the descriptive rendering is correct in meaning, kept.",
+   "Slot 32 ruling: \"capture\" kept - consistent with the mission title and meeting_briefing_015 \"Capture all target bases\".",
+   "Slot 31: \"Dragoon\" matches unit_names_014_a; \"Federation\" and \"Boson Jump\" match released usage.",
+   "Speakers: 30050 Kouichiro Misumaru, 30030 Ruri Hoshino, 30000 Faye Rochenante; Faye addresses Barrel (named in slot 34)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: \"Cecilia Islands\" spelling has no English source; provisional.",
+   "Slot 34: \"refit parts\" has no project-wide term yet; if the hangar UI later names the form-change function differently, align this row and slot 35.",
+   "Slot 36: \"what suits you\" for \"jibun no tekisei\" (your own aptitude) is slightly loose; left."
+  ]
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "resource_id": 4003711,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 10,
+ "rows_examined": 10,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17040,1)><speed(2)><move(1,15,10)>I'll<marker(1,15,10,1)> explain<marker(3,14,8,0)>.<move(2,13,10)><picture(63,30,14,0)><refer(30,14,14,8)>",
+   "notes": "",
+   "source_sha256": "9b824ea2f98390784490676e329d741f5e576546013f0bd0c1e41fb302985c3c"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17040,1)><speed(2)>The enemy's home base, <book(45)>Zonder Epta<endbook()> Island<move(1,6,9)>. Capturing the <color(5)>target<ce()><marker(27,6,9,0)> here is this time's goal.<move(2,6,9)><picture(108,2,7,0)><refer(2,7,6,9)>",
+   "notes": "Zonder Epta locked (meeting_terms_015.json, encyclopedia_022.json, hud_labels.json).",
+   "source_sha256": "f4112fd03c6f5a607ed86fcae885dc3398afc5c8d167d1e6d3f2adc9ac66e0e1"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17040,1)><speed(2)>But it seems <book(45)>Zonder Epta<endbook()> Island is guarded by <book(38)>New Federation<endbook()> executives<move(1,8,9)> - the <color(5)>Frost brothers<ce()><marker(22,8,9,0)>.<move(2,8,9)><picture(109,30,7,0)><refer(30,7,8,9)>",
+   "notes": "Frost brothers (lowercase b) per the locked glossary spelling (mission_terms_019.json \"en\": \"Frost brothers\") and reviewed dialogue scenes 4003140/4003190, which both use lowercase \"brothers\" in running prose; \"Frost Brothers\" (capital B) is only used as a title-case screen header in ui_028.json.",
+   "source_sha256": "e0b8ece3db3a1feeb63bcbf2ea58c51f01a1cf263fc95387ed89bf81a864408d"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17040,1)><speed(2)>They're a tough opponent.<marker(37,4,9,0)> A frontal<danger(1)> assault would mean a hard fight.",
+   "notes": "",
+   "source_sha256": "447531a5a9294c810aa5cabdfc2744b379a150deef8a74df74a68c2d6f0ab0ed"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17040,1)><speed(2)>Since<marker(20,5,3,0)> enemy<marker(20,12,4,0)> elites<marker(20,3,5,0)> are<marker(20,2,10,0)> massed<marker(20,9,12,0)> at<marker(20,6,13,0)> the center, a frontal push isn't wise - we should spread their forces thin instead.",
+   "notes": "",
+   "source_sha256": "515329440e3c57fb6247348ca25fe00f4aefcc6aa3e51af9f5a3eabc2dcf2753"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(17040,1)><speed(2)>Each<marker(5,5,0,0)> unit<marker(5,0,11,0)>, first<marker(5,14,4,0)>, go<marker(5,2,7,0)> capture<marker(5,5,14,0)> the<marker(5,9,14,0)> <color(5)>targets<ce()> scattered<marker(26,5,5,0)> around<marker(26,10,4,0)> the<marker(26,4,12,0)> area<marker(26,7,12,0)>.",
+   "notes": "",
+   "source_sha256": "642c0d5e0e91ff36ee95ed50516a9bcd144400336dad4a51f37f66656b7d38ef"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(17040,1)><speed(2)>That should draw the forces concentrated in the center out, letting us thin their strength.",
+   "notes": "",
+   "source_sha256": "4119eb048bca51bb58f8b84ba93bf477674536ed68e42e4831827f67686289e0"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<delpic(2,7,1)><enemylist()><operator(17040,1)><speed(2)>Anyway, fight in a way that keeps the risk low. I'm counting on you.",
+   "notes": "",
+   "source_sha256": "3f4d2d0608442d1dccbfb7eed7beaca364b7f3b6709747efd66801046edc472b"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(23040,1)><speed(2)>This time, neither <color(4)>Renton<ce()> nor <color(4)>Eureka<ce()> is here, so the <book(61)>Nirvash<endbook()> can't come out. Keep that in mind.",
+   "notes": "Renton, Eureka, Nirvash all locked (character_names_021.json, reviewed scene 4003120).",
+   "source_sha256": "ec54e20641a3fe4430acf4cea1d81e01557fc43177c7389c3786dd27f5fb92e5"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 10,
+  "rows_in_scene": 10,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 21,
+    "before": "<operator(17040,1)><speed(2)>But it seems <book(45)>Zonder Epta<endbook()> Island is guarded by <book(38)>New Federation<endbook()> executives<move(1,8,9)> - the <color(5)>Frost Brothers<ce()><marker(22,8,9,0)>.<move(2,8,9)><picture(109,30,7,0)><refer(30,7,8,9)>",
+    "after": "<operator(17040,1)><speed(2)>But it seems <book(45)>Zonder Epta<endbook()> Island is guarded by <book(38)>New Federation<endbook()> executives<move(1,8,9)> - the <color(5)>Frost brothers<ce()><marker(22,8,9,0)>.<move(2,8,9)><picture(109,30,7,0)><refer(30,7,8,9)>",
+    "reason": "Wrong spelling vs. glossary: mission_terms_019.json locks \"Frost brothers\" (lowercase b), and reviewed dialogue scenes 4003140/4003190 both use lowercase \"brothers\" in running prose. \"Frost Brothers\" (capital B) is a title-case screen header only (ui_028.json), not the dialogue-text spelling."
+   }
+  ],
+  "checked_decisions": [
+   "New Federation slot 0 header matches glossary.json.",
+   "Speakers: 17040 Jamil Neate (slots 19-26), 23040 Talho Yuki (slot 27) - speaker_lookup.py confirms.",
+   "Zonder Epta (book(45)) matches meeting_terms_015.json/encyclopedia_022.json/hud_labels.json.",
+   "Renton, Eureka, Nirvash (slot 27) all match character_names_021.json and reviewed scene 4003120; Talho's casual register (no invented gendered honorific) kept.",
+   "kyoten (base/objective marker) rendered \"target(s)\" in slots 20/24 - consistent with the corpus-wide HUD term for this same word (see 4003691 slot 20 fix); no change needed here since this file already used \"target\".",
+   "No reversed meaning, invented subject/added honorific, or dropped sentence ending found elsewhere; command tag order and count match the source exactly in every row (verified programmatically, before and after the slot 21 fix)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "note": "Shared rows first indexed in leftover ACE2 scenes but also used by live scenes. Stock combat shouts translated and checked by the orchestrator.",
+ "rows_examined": [
+  [
+   1866,
+   1866
+  ],
+  [
+   3422,
+   3422
+  ]
+ ],
+ "rows_examined_count": 2,
+ "rows_in_slice": 2,
+ "uncertainties": [],
+ "validation": {
+  "meaning_review": "Orchestrator: one-row stock shout (yaraseru ka = I won't let you / like I'd let you), commands unchanged."
+ },
+ "rows": [
+  {
+   "id": "dialogue_01866",
+   "target": "<op()><sp(20)>Like I'd let you!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Shared string reused by mission 09B."
+  },
+  {
+   "id": "dialogue_03422",
+   "target": "<op()><sp(20)>What!?<ab(100)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Shared string (nani!?) reused by mission 15 scene 2002180, text id 175."
+  }
+ ]
+}

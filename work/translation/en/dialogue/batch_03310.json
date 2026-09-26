@@ -1,0 +1,390 @@
+{
+  "slice_start": 3310,
+  "slice_count": 56,
+  "rows_examined": [
+    [
+      3295,
+      3380
+    ]
+  ],
+  "rows_examined_count": 86,
+  "rows_in_slice": 56,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_03310",
+        "dialogue_03335"
+      ],
+      "note": "Rows 3310-3335 continue Mission 10A's combat: Amaterasu falls, Londo Bell (Amuro Ray, Renton, Garrod and allies) arrives and engages Neo Zeon/Giganos/coup forces including a funnel-using Cyber Newtype pilot. Speakers are untagged; 'Renton' and 'Garrod' are the only characters named by the source itself (rows 3330, 3334), so no other identity was assigned to the surrounding lines."
+    },
+    {
+      "ids": [
+        "dialogue_03316",
+        "dialogue_03332",
+        "dialogue_03333"
+      ],
+      "note": "'強化人間' (kyouka ningen, lit. 'enhanced human') rendered 'Cyber Newtype' to match the project's existing description of this exact archetype for Gyunei Guss (character_names_021: 'Neo Zeon Cyber Newtype mobile suit pilot'). This is the term's first appearance in dialogue; recorded as a glossary proposal (batch_03310_glossary_proposals.json) so later batches use the same rendering rather than 'Enhanced Human'."
+    },
+    {
+      "ids": [
+        "dialogue_03336",
+        "dialogue_03365"
+      ],
+      "note": "Rows 3336-3344 (<on()> radio chatter, undecided ship/side) and 3345-3365 (<on()> conference) shift to a debrief that reads as a joint bridge scene between the Nadesico B (Ruri, Harry) and the Gekko-Go (Talho, and by implication Holland/Eureka Seven crew); the source does not state which single ship this is, so no vessel name was added to any target. The closing line 3365 ('I'm coming along too, my post is gone anyway') is unattributed; contextually it may be the mercenary/contractor character introduced at rows 3252-3259, but this was not written into the target."
+    },
+    {
+      "ids": [
+        "dialogue_03349",
+        "dialogue_03357",
+        "dialogue_03359"
+      ],
+      "note": "Several conference lines have no explicit subject in the source ('drew power', 'made off with it', 'this is worse than expected'); English supplies 'he'/'the enemy'/'this' only where the antecedent (Berkt, or the situation) is unambiguous from the immediately preceding line, per the no-invented-subject rule."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source via tools/dialogue_corpus.py slice: all equal (see self-check output).",
+    "format": "No newlines in any target (source's own \\n line breaks removed; the builder re-wraps at render time, matching corpus convention e.g. batch_02375). ASCII only; no bare percent sign.",
+    "fit": "Longest visible text is 108 characters (limit 110); no over-limit rows.",
+    "glyphs": "Lowercase j/q avoided where a natural synonym existed; none remain outside locked names/terms (Jovian Federation, Neo Zeon, Boson Jump/Jumper).",
+    "ids": "56/56 ids present, none duplicated (dialogue_03310-dialogue_03365).",
+    "meaning_review": "All 56 rows meaning-reviewed by independent_review_dialogue_agent (review_03310.json); 1 meaning fix applied at dialogue_03310 (invented you-addressee removed)."
+  },
+  "rows": [
+    {
+      "id": "dialogue_03310",
+      "target": "<sp(20)>They were alive! And now they are going to be left to die again!? Damn it!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03311",
+      "target": "<sp(20)>The black machine has made its escape.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03312",
+      "target": "<op()><sp(20)>The Martian Successors have succeeded in seizing Amaterasu.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03313",
+      "target": "<sp(20)>All units, mop up the surrounding area!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03314",
+      "target": "<op()><sp(20)>There are strong ones over there! It's Londo Bell.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03315",
+      "target": "<op()><sp(20)>What!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03316",
+      "target": "<op()><sp(20)>This sensation... a Cyber Newtype!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Kyouka ningen' rendered 'Cyber Newtype' to match the existing project description of this same enemy archetype (character_names_021, Gyunei Guss: 'Neo Zeon Cyber Newtype mobile suit pilot'). First dialogue occurrence; proposal filed."
+    },
+    {
+      "id": "dialogue_03317",
+      "target": "<op()><sp(20)>A Newtype-exclusive mobile suit?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Newtype' capitalized per established corpus usage (batch_01073, batch_01426, character_names_021)."
+    },
+    {
+      "id": "dialogue_03318",
+      "target": "<op()><sp(20)>That unit appears to use funnels.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "'Funnel(s)' lowercase, treated as a common technical noun like the corpus's lowercase 'mobile suit'."
+    },
+    {
+      "id": "dialogue_03319",
+      "target": "<op()><sp(20)>If the enemy launches funnels, switch your lock and shoot them down.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03320",
+      "target": "<op()><sp(20)>Hokushin's unit has succeeded in securing the target.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Hokushin per character_names_021 (locked, Martian Successors' assassination-unit leader)."
+    },
+    {
+      "id": "dialogue_03321",
+      "target": "<op()><sp(20)>Hmph... I don't like them, but their skill isn't half bad.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03322",
+      "target": "<op()><sp(20)>Amuro Ray!?<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03323",
+      "target": "<sp(20)>Fufufu... Perfect...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03324",
+      "target": "<sp(20)>I'll defeat you here and surpass the Colonel!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Taisa' (Colonel) kept as an unnamed rank/title, not expanded to 'Char Aznable': source does not name him, only Neo Zeon lore implies the referent."
+    },
+    {
+      "id": "dialogue_03325",
+      "target": "<op()><sp(20)>Are you two working together!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03326",
+      "target": "<op()><sp(20)>Don't lump us, the proud Neo Zeon, in with coup forces!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Coup forces' (kuudetaa seiryoku) kept generic; no specific faction name is given by the source for this rival group."
+    },
+    {
+      "id": "dialogue_03327",
+      "target": "<op()><sp(20)>What's fun about doing something like this!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03328",
+      "target": "<op()><sp(20)>A kid is piloting that thing!? Don't talk nonsense!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03329",
+      "target": "<op()><sp(20)>Wh-what did you say!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03330",
+      "target": "<op()><sp(20)>Renton! Don't take his bait!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03331",
+      "target": "<op()><sp(20)>Damn! This one's strong!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03332",
+      "target": "<op()><sp(20)>Don't underestimate a Cyber Newtype!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Second 'Cyber Newtype' occurrence, same term decision as 3316."
+    },
+    {
+      "id": "dialogue_03333",
+      "target": "<op()><sp(20)>Cyber Newtype or whatever, I'll beat you to a pulp!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03334",
+      "target": "<op()><sp(20)>Garrod, be careful. He has a power that should not exist.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'He' matches the source's own 'kare' for this same Cyber Newtype enemy; not inferred from a name."
+    },
+    {
+      "id": "dialogue_03335",
+      "target": "<op()><sp(20)>Please drive the enemy off.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03336",
+      "target": "<on()><sp(20)>Captain, gravity wave response from far off!! This is... a Gravity Blast!?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03337",
+      "target": "<on()><sp(20)>Target... confirmed.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03338",
+      "target": "<on()><sp(20)>Not bad, for the Federation!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03339",
+      "target": "<on()><sp(20)>Damn it!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03340",
+      "target": "<on()><sp(20)>Withdrawing!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03341",
+      "target": "<on()><sp(20)>Captain! A different type of response from Amaterasu's direction.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03342",
+      "target": "<on()><sp(20)>That is...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03343",
+      "target": "<on()><sp(20)>All units, return immediately.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03344",
+      "target": "<on()><sp(20)>We'll continue the pursuit. Target: Berkt.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Berkt' plain text here (no color tag in source at this row, unlike 3345/3350/3364); tag omitted to match source exactly."
+    },
+    {
+      "id": "dialogue_03345",
+      "target": "<on()><sp(20)>To think I was so distracted by the enemy in front of me that I missed <color(5)>Berkt<ce()>...",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not identified; addressee color(5) Berkt is the locked antagonist name."
+    },
+    {
+      "id": "dialogue_03346",
+      "target": "<on()><sp(20)>Still, exactly as predicted, he's shown himself here too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03347",
+      "target": "<on()><sp(20)><color(4)>Talho<ce()>. The <book(2)>Baldora Charge<endbook()>?",
+      "status": "meaning_reviewed",
+      "notes": "Talho Yuki (Eureka Seven, Gekko-Go helmsman) per character_names_021; en_short 'Talho'. Honorific -san dropped per corpus convention."
+    },
+    {
+      "id": "dialogue_03348",
+      "target": "<on()><sp(20)>It's climbing.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03349",
+      "target": "<on()><sp(20)>So he's drawing power from that facility called <book(26)>Amaterasu<endbook()>. What a shameless little thief.",
+      "status": "meaning_reviewed",
+      "notes": "'He' refers back to Berkt (locked male, character_names_021); not an invented gender."
+    },
+    {
+      "id": "dialogue_03350",
+      "target": "<on()><sp(20)><color(4)>Harry<ce()>. What's <color(5)>Berkt<ce()> doing?",
+      "status": "meaning_reviewed",
+      "notes": "Harry per character_names_021 en_short and existing corpus usage (batch_01073 color(4)>Harry<ce()); honorific -kun dropped."
+    },
+    {
+      "id": "dialogue_03351",
+      "target": "<on()><sp(20)>He seems to be heading for Earth... but our ship is faster. We're well within pursuit range.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03352",
+      "target": "<on()><sp(20)>We'll engage the moment we get a lock. Everyone, please be ready.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03353",
+      "target": "<on()><sp(20)>Captain <color(4)>Hoshino<ce()>. I know the timing is bad, but I'd like an explanation for what happened back there.",
+      "status": "meaning_reviewed",
+      "notes": "'Hoshino' + rank reordered to natural English 'Captain Hoshino,' with the color(4) tag kept only around the name span, matching the corpus precedent in review_01073 ('Lieutenant <color(4)>Dyson<ce()>')."
+    },
+    {
+      "id": "dialogue_03354",
+      "target": "<on()><sp(20)>What was hidden inside <book(26)>Amaterasu<endbook()> was a <book(28)>Ruins Unit<endbook()> excavated on Mars long ago.",
+      "status": "meaning_reviewed",
+      "notes": "Ruins Unit / Amaterasu book() terms per encyclopedia_022 entries (book(28), book(26))."
+    },
+    {
+      "id": "dialogue_03355",
+      "target": "<on()><sp(20)>This unit's true identity is a black box for the <book(30)>Boson Jump<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Boson Jump book(30) per encyclopedia_022."
+    },
+    {
+      "id": "dialogue_03356",
+      "target": "<on()><sp(20)>With this, anything can be freely teleported through space, at any time.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03357",
+      "target": "<on()><sp(20)>So the enemy made off with something that convenient.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03358",
+      "target": "<on()><sp(20)>And <book(12)>Neo Zeon<endbook()>, the former <book(18)>Giganos<endbook()>, and the <book(29)>Martian Successors<endbook()> have banded together, trying to make use of it?",
+      "status": "meaning_reviewed",
+      "notes": "Neo Zeon/Giganos/Martian Successors book(12)/book(18)/book(29) per encyclopedia_022; 'joined' avoided ('banded together') per the lowercase-j guidance."
+    },
+    {
+      "id": "dialogue_03359",
+      "target": "<on()><sp(20)>This is worse than I expected...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03360",
+      "target": "<on()><sp(20)>But that black machine we saw at <book(26)>Amaterasu<endbook()>... who was that...?",
+      "status": "meaning_reviewed",
+      "notes": "Speaker does not name the pilot; the black machine referent is left as 'that black machine', matching source ambiguity before the reveal in 3361."
+    },
+    {
+      "id": "dialogue_03361",
+      "target": "<on()><sp(20)>That's <color(4)>Akito<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03362",
+      "target": "<on()><sp(20)>He used to be a crewmate of ours on the <color(4)>Nadesico<ce()>... <color(4)>Akito Tenkawa<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Akito Tenkawa per character_names_021 en_full (project's given-name-first order used even though source says 'Tenkawa Akito' surname-first); 'he' matches the source's own masculine pronoun for Akito."
+    },
+    {
+      "id": "dialogue_03363",
+      "target": "<on()><sp(20)>Wha-!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03364",
+      "target": "<on()><sp(20)>...Let's save that story for later, inside. Right now, pursuing <color(5)>Berkt<ce()> comes first.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03365",
+      "target": "<on()><sp(20)>I'm coming along too. My post is gone anyway!",
+      "status": "meaning_reviewed",
+      "notes": "'Job'/'workplace' rendered 'post' to avoid the lowercase j in 'job'; speaker is self-referential ('ore'), not a gender assigned to a third party."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 6763,
+  "slice_count": 70,
+  "rows_examined": [{"start": 6748, "end": 6857}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 70,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_06763",
+      "before": "Barrel, don't engage her...",
+      "after": "Barrel, don't engage...",
+      "reason": "Orchestrator ruling: the unnamed pilot in Berkt's unit (continuing from batch_06683, first appears dialogue_06753) has no name in this scene and her gender was inferred only from feminine sentence-final particles; such a pilot must stay pronoun-free in English. Source (バレル、相手にしてはダメ……。) has no explicit object either, so dropping 'her' also matches the source's own omission rather than inventing a referent."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [6764, 6766, 6768, 6769], "finding": "'he/his' in Barrel's musing refers to Berkt (locked male character), confirmed by the explicit pronoun 'kare' (彼) at dialogue_06768 ('あなたは彼とは違うわ' / 'You're not like him') and by Berkt being named by both sides just before (6749-6758) and after; not an invented gender."},
+    {"rows": [6767, 6771, 6772, 6780], "finding": "Unnamed Berkt-unit pilot's remaining lines in this slice are already pronoun-free (first-person or no pronoun); consistent with the fix applied to dialogue_06763 and to dialogue_06762 in the prior batch."},
+    {"rows": [6790], "finding": "Speaker addresses Akito by surname alone ('Tenkawa') rather than given name/full name used elsewhere in the scene; kept as 'Tenkawa' rather than normalized, preserving the deliberate shift in address. Not a mistranslation."},
+    {"rows": [6801, 6807, 6808, 6813, 6814], "finding": "book()-wrapped locked terms (Martian Successors, Nergal, Boson Jump) reproduce the exact source spans; Distortion Field matches the orchestrator's accepted term and the batch's own glossary proposal."},
+    {"rows": [6810], "finding": "'Yurika' matches existing corpus usage (proposals_dialogue_00776.json) for Yurika Misumaru; consistent with prior established spelling, no change needed."},
+    {"rows": [6822, 6823, 6824], "finding": "'he' pronouns referring to Berkt (color(5) tag, distinct from color(4) used for Ruri/Akito/Faye/Barrel) are correctly gendered per the locked glossary entry (Berkt, male)."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_06763", "dialogue_06767", "dialogue_06771", "dialogue_06772", "dialogue_06780"],
+      "issue": "Translator flagged the unnamed Berkt-unit pilot's gender as resting only on feminine sentence-final particles. Ruling: keep pronoun-free per orchestrator instruction; only dialogue_06763 needed an actual pronoun removed (fixed above), the other four rows were already pronoun-free."
+    },
+    {
+      "ids": ["dialogue_06764", "dialogue_06766", "dialogue_06768", "dialogue_06769"],
+      "issue": "Translator was unsure whether 'he/his' in Barrel's musing referred to Berkt or to the enemy pilot Barrel had just been fighting. Ruling: confirmed as Berkt via the explicit 彼 ('him') at dialogue_06768 and the surrounding named references; no change needed, already correct."
+    },
+    {
+      "id": "dialogue_06812",
+      "issue": "'Captain Hoshino' assumes the speaker means Ruri Hoshino (locked as the Nadesico's captain). Ruling: consistent with the orchestrator's rule that 6238長 (kanchou) for both Ruri and Jamil is 'Captain', and with Ruri Hoshino's locked glossary role; no change needed."
+    },
+    {
+      "id": "dialogue_06814",
+      "issue": "Translator flagged that the locked spelling 'Gekko' (月光号) cites the Eureka Seven wiki's Gekkostate ship as its source even though this row is a Nadesico-side scene, a possible source/context mismatch worth the orchestrator's attention for the glossary entry itself. Ruling: per explicit orchestrator instruction, 'Gekko' stays as written; no change to the translation. The citation-mismatch concern is about the glossary file's sourcing, not this row's meaning, and is left for the orchestrator/glossary maintainers."
+    },
+    {
+      "id": "dialogue_06810",
+      "issue": "'Yurika' matched to existing corpus usage rather than independently re-researched. Ruling: acceptable; consistent usage takes priority absent a conflicting decision, no change needed."
+    }
+  ],
+  "validation": {
+    "controls": "For all 70 rows, every <...> command reproduced in the same order as source (verified programmatically against tools/dialogue_corpus.py slice 6763 70 --context 0); no command was added, dropped, or reordered by the one meaning fix.",
+    "format": "Newline count in each target matches the source's \\n count exactly for all 70 rows (checked programmatically); no manual line-wraps introduced.",
+    "fit": "All 70 rows have visible text (tags and \\n stripped) at or under 110 characters, including dialogue_06826 (previously compressed by the translator, meaning retained) and the one edited row.",
+    "ascii": "All 70 targets are ASCII-only except the accepted fullwidth percent sign (none appear in this slice); no stray lowercase j/q found outside locked names."
+  }
+}

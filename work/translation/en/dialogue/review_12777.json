@@ -1,0 +1,90 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 12777,
+  "slice_count": 98,
+  "rows_examined": [{"start": 12762, "end": 12889}],
+  "rows_examined_count": 128,
+  "rows_in_slice": 98,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_12812",
+      "before": "Show, watch!",
+      "after": "Show, coming!",
+      "reason": "Source (ショウ、来るよ！) is a warning that something is approaching, not a generic call to pay attention. The prior translation dropped the actual informational content (an incoming threat). Restored within the row's 14-character budget."
+    },
+    {
+      "id": "dialogue_12828",
+      "before": "I will win!",
+      "after": "I must win!",
+      "reason": "Source (私は勝ちたい！) expresses a desire/need (\"I want to win\"), not a confident assertion of the outcome. Black Knight's profile is 'a proud rival fixated on Show', and the desperate-need framing fits that better than a flat victory boast. 'I must win!' is the closest fit inside the row's 12-character budget (a literal 'I want to win!' does not fit)."
+    },
+    {
+      "id": "dialogue_12841",
+      "before": "I won't let it end here!",
+      "after": "I can't end here!",
+      "reason": "Source (ここで終わるわけにはいかん！) is self-referential (\"I cannot be finished/defeated here\"); the prior translation introduced an ambiguous 'it' as the thing ending, rather than the speaker's own fate. Corrected to keep the speaker as subject."
+    },
+    {
+      "id": "dialogue_12789",
+      "before": "Damn it!\\nIs our strength not enough?!",
+      "after": "Damn it! Is our strength not enough?!",
+      "reason": "Format fix, not a meaning change: source row contains a line break, but the shout-specific rule requires source line breaks to be joined into one line (no newline allowed in this table type). Joined into one line; fits the row's 44-character budget (37/44)."
+    },
+    {
+      "id": "dialogue_12792",
+      "before": "Your skill,\\nshow me what you've got.",
+      "after": "Your skill, show me what you've got.",
+      "reason": "Format fix (same no-newline rule as above). Joined into one line; fits the row's 40-character budget (36/40)."
+    },
+    {
+      "id": "dialogue_12802",
+      "before": "If it's like this,\\nmaybe I should take the lead?",
+      "after": "If it's like this, maybe I should take the lead?",
+      "reason": "Format fix (same no-newline rule as above). Joined into one line; fits the row's 48-character budget exactly (48/48)."
+    },
+    {
+      "id": "dialogue_12818",
+      "before": "Not like before...\\nSomething truly evil.",
+      "after": "Not like before... something truly evil.",
+      "reason": "Format fix (same no-newline rule as above). Joined into one line; fits the row's 44-character budget (40/44)."
+    },
+    {
+      "id": "dialogue_12837",
+      "before": "Don't panic.\\nYou'll only waste your energy.",
+      "after": "Don't panic, you'll only waste your energy.",
+      "reason": "Format fix (same no-newline rule as above). Joined into one line; fits the row's 46-character budget (43/46)."
+    },
+    {
+      "id": "dialogue_12843",
+      "before": "With this Zwarth,\\nanything's possible!",
+      "after": "With this Zwarth, anything's possible!",
+      "reason": "Format fix (same no-newline rule as above). Joined into one line; fits the row's 38-character budget exactly (38/38)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [12826, 12843, 12871], "finding": "'Zwarth' locked mecha spelling matches work/translation/en/unit_names_014_a.json (source ズワァース). 'Black Knight' title kept literal and the true identity (Burn Bunnings) left concealed, matching character_names_021.json's note that the label is a title to be kept hidden."},
+    {"rows": [12835, 12860, 12863], "finding": "Contemptuous nickname 蟉トンボ ('mosquito-dragonfly') consistently rendered as 'gnat(s)' across all three occurrences; consistent, not flagged."},
+    {"rows": [12831, 12862], "finding": "小賢しい consistently rendered 'clever' both times it occurs; deliberate consistent choice, left as-is rather than substituting a harsher synonym."},
+    {"rows": [12846, 12866], "finding": "勝負だ consistently rendered 'Fight!' both times (rather than 'Duel!'/'Showdown!'); consistent existing choice, not treated as an error."},
+    {"rows": [12777, 12812, 12813, 12819], "finding": "'Show' name spelling matches glossary; dialogue directed at him by name preserved correctly, no addressee confusion."}
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_12871",
+      "issue": "'Yarf' (ヤルフの神, a deity name in Black Knight's line) — re-checked during this review; no confirming source found in English or Japanese references for Aura Battler Dunbine/Byston Well mythology beyond what the translator already found. Provisional romanization left as-is; recommend the orchestrator research this name before it locks."
+    },
+    {
+      "issue": "The batch file's own uncertainties list a set of two-line rows (dialogue_12736, 12789, 12792, 12802, 12818, 12837, 12843) as tight-budget compressions; dialogue_12736 belongs to the neighboring batch_12697 slice (12697-12776), not this one — flagging as a stray cross-reference in the translator's metadata, not a translation error, and left untouched since it's outside this review's scope to edit that file."
+    },
+    {
+      "issue": "General: this resource group (2807020 Billbine/Show Zama, 2807030 Zwarth/Black Knight) carries the same tight byte budget as the rest of this batch group; heavy compression is expected and was not treated as an error except where fixed above."
+    }
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(1000)>/<ed()> command tags checked identical and in original order against the console-dumped source for all 98 rows plus 30 rows of context; unchanged by the 3 fixes.",
+    "format": "Found rows 12789, 12792, 12802, 12818, 12837, 12843 reproducing the source's own internal line breaks as two-line targets, violating the shout-specific no-newline rule; all 6 joined into single lines (see meaning_fixes). No other rows in this slice had newlines. ASCII-only confirmed for all targets.",
+    "fit": "The 3 meaning fixes re-measured against the row's own min(72, 2*source_ja_chars-2) budget: dialogue_12812 13/14, dialogue_12828 11/12, dialogue_12841 17/26. The 6 newline-joined rows re-measured per meaning_fixes above. All other rows unchanged from the translator's already-verified fit. All 98 rows re-verified programmatically post-edit: command tags match source in order, no newlines, ASCII-only, and each row is within its shout budget.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit in-game are not established by this meaning review."
+  }
+}

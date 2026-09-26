@@ -1,0 +1,537 @@
+{
+ "resource_id": 4004573,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 52,
+ "rows_examined": 52,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(14030,1)><speed(2)>That <color(5)>Berkt<ce()> guy is a real pain. To think he can move the boss's own forces...",
+   "notes": "",
+   "source_sha256": "cf152f0669ccb7c0a0514f7be2e904c879079507be6d0cb88627e31367ccf4d4"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17040,1)><speed(2)>That's what you'd expect from a <color(5)>New Federation<ce()> executive. He must've put in a word with <color(5)>Bloodman<ce()>.",
+   "notes": "'Bloodman' used as short form of the locked 'Fixx Bloodman' (encyclopedia_021_a/022); no dialogue precedent yet for the short form.",
+   "source_sha256": "02f94666989b9686330fb87121fa1ded77b43040808a25877e73c721199d8006"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21020,1)><speed(2)>So they decided it was too dangerous to leave us running free.",
+   "notes": "",
+   "source_sha256": "47904b7c9b5e4aadf795508afa308255cf14d62af5f553c9ceadc3c9fa6fe817"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)>Guess that makes us the most troublesome elite unit the <color(5)>New Federation<ce()>'s got to deal with.",
+   "notes": "",
+   "source_sha256": "5d1b4d289526f831a764167290d8c1528a6dc43d58c5c7ba287d33bcac46fde1"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)><color(5)>Berkt<ce()>...",
+   "notes": "",
+   "source_sha256": "cfae7cbab89950d7f2a50755773683e0ca40bd9fab8f673b5260e10590c7e973"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)>Still bothered by it, <color(4)>Barrel<ce()>?",
+   "notes": "",
+   "source_sha256": "7d234c072dc42999477668acac19099bcb3c76173913932d10b0ac6e839f26a6"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1040,1)><speed(2)>When I saw him... I felt it. That he's someone almost exactly like me.",
+   "notes": "",
+   "source_sha256": "c7fa423fb76135b06a20caa2248833ee67ddae2fdcf317c623768a7131213aec"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1060,1)><speed(2)>But what he's trying to do...",
+   "notes": "",
+   "source_sha256": "915056cbd0c0dcdee5739969257d5065232b606d2df5d9a4c0b5fab27b635688"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1040,1)><speed(2)>I know he's a bad guy. But... somehow I'm scared to find out more about him.",
+   "notes": "",
+   "source_sha256": "10aa24b092a21fac8f152e900cadee729ffd1266b6d2029ffc7890829fef5451"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1040,1)><speed(2)>...Makes me wonder if it's really okay to keep fighting like this.",
+   "notes": "",
+   "source_sha256": "ab563a0ca50fdbd2eadfc941bcfc3deca8c1b3d527274faa9499e47727030e22"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(19010,1)><speed(2)>Don't look away.",
+   "notes": "",
+   "source_sha256": "d19129bd9a870ee417bfb743ed858ba11c2aeac22cf3b38780183f4ffb8452ff"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1040,1)><speed(2)>Huh?",
+   "notes": "",
+   "source_sha256": "aeadadca6aaeb2d598e43b4b36b8c99acead4b248ec834545e2074cacdfeaa75"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(23030,1)><speed(2)>That's right. If it really bothers you, then chase him down. Don't beg for it - go after it yourself.",
+   "notes": "Echoes but is not identical to the locked Eureka Seven motto; this source line ('nedaruna, motomeru nda') is shorter and distinct, translated on its own terms.",
+   "source_sha256": "f58e6b7503fcbe269dca48ec2de7170a5772efb2bf421ee754f9c1ea4c7a31d0"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(1040,1)><speed(2)>Yes...",
+   "notes": "",
+   "source_sha256": "a012aa55b0cace7f1afe7453c3a6724e391286679831277c02f3642a7cbec05b"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "fb30e184b45d61c67fee14e6e32ca822a6d23e1e0039744963416ea1e98c2cd1"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23010,1)><speed(2)>I don't really know what to say, but...",
+   "notes": "",
+   "source_sha256": "c51154ca8811a34be62524808ae6753037e07b799ad16afb680d23a00c82ff5c"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21010,1)><speed(2)>No matter what happens, we're on your side. Just know that much, okay?",
+   "notes": "",
+   "source_sha256": "d524a66c7b887071d2a7f42209daf4b1e88295d6af9c339b8491b4ff13affc37"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17010,1)><speed(2)>Don't know anything about his deal, but you're you.",
+   "notes": "",
+   "source_sha256": "919c4a140cb8b31d840172307169159c6ee8add1538e9363982f422e5bffc436"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,2)><speed(2)>...Thanks. With everyone here, I feel like I can keep fighting.",
+   "notes": "",
+   "source_sha256": "a96b940787d18c7612715dfa2f79c3c8c7d52c21a6c12d451299c527fab0a0c9"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)>Boys and their friendship, huh...",
+   "notes": "",
+   "source_sha256": "f65e528bc241df4d8b90e558aac3f1ba16001d638b4a4745165a16504095b111"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(23010,1)><speed(2)>We have to protect the <color(4)>Gekko<ce()> no matter what!",
+   "notes": "",
+   "source_sha256": "70a24e244c03cda2212e4017ab49ef88a2824cdd30db64454f59423e588b65dc"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(23020,1)><speed(2)>Yeah...",
+   "notes": "",
+   "source_sha256": "a31163fd943cde0f01fb3be5b9019b448bad3eacc3bf0b330a5e4974f7a6c6f4"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(23010,1)><speed(2)>...Is the <color(4)>Nirvash<ce()> still not doing well?",
+   "notes": "",
+   "source_sha256": "fe7bb440d2e952ec254b50e8657d51ef05e301233e403a8669101b55234d6a19"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(23020,1)><speed(2)>Yeah. If we could, I wanted to get it looked at first.",
+   "notes": "",
+   "source_sha256": "e8ec222e947a76116829b5eb6b45540af43ba8f7f24ee318262243d3e07ddf16"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(23010,1)><speed(2)>But the enemy's...",
+   "notes": "",
+   "source_sha256": "821f9a21a1a179abcf87242955b6861ec3fa1059c63083cb09fc2c0e45e9f86c"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(23020,1)><speed(2)>I know. I'll ask it to hang in there through this fight somehow.",
+   "notes": "",
+   "source_sha256": "b9096cbecc7d8335c6abf72e79cf0bb9afa8011a7cb8e04ada94cc3b8958f779"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(23010,1)><speed(2)>Let's get this fight over with fast and get the <color(4)>Nirvash<ce()> looked at properly.",
+   "notes": "",
+   "source_sha256": "ca55ed8eae69926e711206a20eb7e9a6cd3bb827dd43be3ac0301332d928e5fe"
+  },
+  {
+   "table": 1,
+   "slot": 66,
+   "text_id": 67,
+   "en": "<operator(23020,1)><speed(2)>Yeah.",
+   "notes": "",
+   "source_sha256": "a5bcd467ca3a166b279a24d12949c51266084520036a0aff78360561c07de5df"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(19030,1)><speed(2)>And here I thought we'd get a breather! Give me a break, seriously!",
+   "notes": "",
+   "source_sha256": "05d518b6a964b53284f7868e812dae6e3f442a8cfa4b45112419cd81acbfcfe7"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(19020,1)><speed(2)>Then let's hurry up and finish it off.",
+   "notes": "",
+   "source_sha256": "d2f2fd29be905f697ff3c9d740d61c40f86d5fbc29b5efa82226eacc36a0c725"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(19030,1)><speed(2)>Like it's gonna be that easy!?",
+   "notes": "",
+   "source_sha256": "4cb24c6ab8451b73a571367ccec75437be706f9e6b3e5f17603186e6e1725a6d"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(19060,1)><speed(2)>No, <color(4)>Kei<ce()>'s right. Drag this out and the <color(4)>Gekko<ce()>'s in danger. Let's finish it fast!",
+   "notes": "",
+   "source_sha256": "08f0d9c20d950163fe27e8bae12915a9ab75b9807c320c20d63388a4df934de7"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(19030,1)><speed(2)>Yeah, yeah. Geez... the old man's soft on <color(4)>Kei<ce()>. Textbook doting parent, that guy.",
+   "notes": "",
+   "source_sha256": "517e5f5560f3ee42d4c9c75a833d1155a643c1f29dd7c6f034685b82e740bcee"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(19060,1)><speed(2)>You say something!?",
+   "notes": "",
+   "source_sha256": "62cad998fe649152b1d4731fdf3eda213081dc73b2166c6276823429fffe9c01"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(12061,2)><speed(2)>Just occurred to me, but there's a lot of interesting machines in this world, huh?",
+   "notes": "",
+   "source_sha256": "4f52441db6f2b72a814618a0eb0a36596f60fa905ec3b9bab2fc31390f113112"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(19030,1)><speed(2)>Guess you're right about that. I mean, <color(4)>Shin Getter<ce()> combines AND transforms.",
+   "notes": "",
+   "source_sha256": "b5e9e0f56524c6465abbcf52c3123fb366ecb2903c75fb77f939e3e4955baad2"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(12061,1)><speed(2)>Lucky~! So cool, exactly like Gekiganger! Wish the <color(4)>Aestivalis<ce()> could at least combine too.",
+   "notes": "",
+   "source_sha256": "1412147dd4d0daa3248ceb6bb2223e41634e6af3b2d3313eacbbfefc828d2120"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(12071,1)><speed(2)>If it could... now that'd be a real blessing.",
+   "notes": "Source line reads as wordplay (Izumi is written as an incurable punster); exact pun not recoverable, meaning kept plain.",
+   "source_sha256": "a407b0449e5d78c78983c023c132e9f9a817e7d02b30ebcf4d063e35cf5dcf45"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(6011,1)><speed(2)>KLF flight path prediction, repurposing <color(4)>Nirvash<ce()> data.",
+   "notes": "Speaker id 6011 resolves to Heero Yuy; these lines read as a terse onboard-computer readout, matching his stoic voice.",
+   "source_sha256": "3e22bf0ccbe8789e6ca6a98fb97f55bceb3289034bd89d73efd730ed1351e4ef"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(6011,1)><speed(2)>For <color(5)>New Federation<ce()> mass-production types, reusing <color(4)>Terminus<ce()> data with a 30 percent downward correction applied.",
+   "notes": "",
+   "source_sha256": "b4f361bf56fb11139113b07cb46f0e8aa44ea3eeb325ffeae0951b557fe5fb21"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(6011,1)><speed(2)>The black KLF... applying <color(4)>Nirvash<ce()> sample values across all its data.",
+   "notes": "'KLF' left untranslated, parallel to how 'LFO' is kept elsewhere; no locked expansion or spelling found.",
+   "source_sha256": "c28286867d836edb3b4730fef20e59c4a932e2f6281751e9349f23fccd73bbbf"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(6011,1)><speed(2)>Correction complete. Saving data. ...Combat prep, complete.",
+   "notes": "",
+   "source_sha256": "a9df46d8a890a7242b06ee0954c308d21bc5ffa4c353511c90f0b5e30ba6f4d1"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(23100,1)><speed(2)>It's your first time in another world - aren't you even a little surprised?",
+   "notes": "",
+   "source_sha256": "a507e438f12b5527cfcd36e33987e8c46be98ce75e74535787966cc62925b4d8"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(6011,1)><speed(2)>I do what needs doing... that's all.",
+   "notes": "",
+   "source_sha256": "4f5732c3ac3e660001d0affafef5257b3c3bb7c8c641d8efd7f119cdef694c26"
+  },
+  {
+   "table": 1,
+   "slot": 185,
+   "text_id": 186,
+   "en": "<operator(23100,1)><speed(2)>Tch, you're no fun~!",
+   "notes": "",
+   "source_sha256": "016ad66b1f4a7694715a08703e5814b374a29a4395fcf3eb3869305a8e2eb4fb"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(14010,1)><speed(2)>So this is the other world, huh... Feels like something out of sci-fi.",
+   "notes": "",
+   "source_sha256": "abbb289c17d362f2aa96c009bdafc6ddd1b967a3bdb4054db152301113efdf6a"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(14030,1)><speed(2)>No kidding. Being this different, it feels like we landed on another planet.",
+   "notes": "",
+   "source_sha256": "fa35171aee829808fb4640f2a285767bbeb66368dbf063b7db9f5402cc5522a5"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(14010,1)><speed(2)><color(4)>Marina<ce()>, you look pretty down.",
+   "notes": "",
+   "source_sha256": "f5e15f570d5c6456fe3d85d2330fe84b5ab533e97be2b572941778666bee674e"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(1020,1)><speed(2)>It's only that... it brought back the last war. I didn't want to fight again...",
+   "notes": "",
+   "source_sha256": "7328d7527516243f79422237144cdfab5b37dbeb71298c3d70a1fe71e60eb50a"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(14010,1)><speed(2)>But we have to get through it. To grab a better future.",
+   "notes": "",
+   "source_sha256": "3682f66a2058d880a0c5140b57d2ce6b2837cc4cd43e2257dc109b0cf6a7644b"
+  },
+  {
+   "table": 1,
+   "slot": 224,
+   "text_id": 225,
+   "en": "<operator(1020,1)><speed(2)>...Yeah, you're right!",
+   "notes": "",
+   "source_sha256": "57d8961b08f11905718c81d96a909a88ed849f39b9ea8ed7f0c4a633f7fe73bd"
+  },
+  {
+   "table": 1,
+   "slot": 225,
+   "text_id": 226,
+   "en": "<operator(14030,1)><speed(2)>Let's give this so-called <color(5)>New Federation<ce()> a proper greeting!",
+   "notes": "",
+   "source_sha256": "cb5365dbd7e52a1f3ac91a840b1b7fd79a38d5465c266e63adffa501e5e34679"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 20,
+   "issue": "'Bloodman' as short form of the locked 'Fixx Bloodman': no dialogue precedent, only encyclopedia full-name entries."
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "issue": "Holland's line is a shorter, different phrasing from the locked full Eureka Seven motto ('Don't beg for things. Do it yourself...'); translated on its own rather than substituting the locked wording."
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "issue": "Izumi's source line appears to be a pun (she is written as an incurable punster); rendered plainly as 'a real blessing'."
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "issue": "Speaker id 6011 resolves to Heero Yuy via speaker_lookup.py; rows read like an onboard AI/computer readout rather than ordinary speech, kept literal and terse to match."
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "issue": "'KLF' left untranslated (parallel to 'LFO' elsewhere in the corpus); no locked expansion or spelling found in the glossary files."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 52,
+  "rows_in_scene": 52,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 220,
+    "before": "No kidding. This different, feels like we landed on another planet.",
+    "after": "No kidding. Being this different, it feels like we landed on another planet.",
+    "reason": "dangling comparative left the sentence unparseable ('This different, feels like...'); source ('koko made chigau to betsu no hoshi ni kita miteeda ga na') says being this different makes it feel like landing on another planet - fixed the construction, meaning unchanged."
+   }
+  ],
+  "format_fixes": [
+   {
+    "table": 0,
+    "slot": 21,
+    "before": "So they judged it too dangerous to leave us running free.",
+    "after": "So they decided it was too dangerous to leave us running free.",
+    "reason": "lowercase j in 'judged'"
+   },
+   {
+    "table": 1,
+    "slot": 64,
+    "before": "I know. I'll ask it to just hang in there through this fight somehow.",
+    "after": "I know. I'll ask it to hang in there through this fight somehow.",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 65,
+    "before": "Let's just get this fight over with and get the Nirvash looked at properly.",
+    "after": "Let's get this fight over with fast and get the Nirvash looked at properly.",
+    "reason": "lowercase j (first pass introduced 'quickly', which has a lowercase q; caught on re-check and reworded again)"
+   },
+   {
+    "table": 1,
+    "slot": 100,
+    "before": "Then let's just hurry up and finish it off.",
+    "after": "Then let's hurry up and finish it off.",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 141,
+    "before": "Lucky~! So cool, just like Gekiganger! ...",
+    "after": "Lucky~! So cool, exactly like Gekiganger! ...",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 179,
+    "before": "KLF flight trajectory prediction, repurposing Nirvash data.",
+    "after": "KLF flight path prediction, repurposing Nirvash data.",
+    "reason": "lowercase j in 'trajectory'"
+   },
+   {
+    "table": 1,
+    "slot": 180,
+    "before": "...with a -30% correction applied.",
+    "after": "...with a 30 percent downward correction applied.",
+    "reason": "bare ASCII % is not allowed; percent must be spelled out per corpus precedent (4003080)"
+   },
+   {
+    "table": 1,
+    "slot": 222,
+    "before": "It's just... it brought back the last war...",
+    "after": "It's only that... it brought back the last war...",
+    "reason": "lowercase j"
+   }
+  ],
+  "checked_decisions": [
+   "Table 0 slot 20: 'Bloodman' as short form of the locked 'Fixx Bloodman' ruled acceptable by the orchestrator; kept.",
+   "Table 0 slot 31: Holland's line ('sonna wa nedaruna, motomeru nda') is a shorter, distinct paraphrase of the locked Eureka Seven motto, not the motto itself; ruled that such a line is translated on its own terms rather than substituting the locked wording. Kept as translated.",
+   "Table 1 slot 179-182: speaker id 6011 resolved via speaker_lookup.py to Heero Yuy; terse onboard-computer-readout register matches his character and is kept.",
+   "Table 1 slot 181: 'KLF' kept as an untranslated acronym per orchestrator ruling (parallel to 'LFO' elsewhere); no locked expansion exists.",
+   "Table 1 slot 142: Izumi's source line reads as wordplay (she is written as an incurable punster); the exact pun is not recoverable in English, meaning kept plain ('a real blessing'). Accepted.",
+   "Unit/character name spellings (Berkt, New Federation, Nirvash, Terminus, Gekko, Gekkostate, Aestivalis, Shin Getter, Marina, Barrel, Faye, Kaine, Tapp, Renton, Eureka) verified against glossary/character_names_021.json and unit_names_014_a/b.json; no mismatches.",
+   "Full scan for lowercase j/q outside locked names: 8 rows reworded (7 for lowercase j, 1 'judged'); 1 row had a bare ASCII '%' spelled out as 'percent'. No lowercase q found."
+  ],
+  "remaining_uncertainties": [
+   "Table 1 slot 142: Izumi's pun could not be reproduced in English; rendered as plain meaning."
+  ]
+ }
+}

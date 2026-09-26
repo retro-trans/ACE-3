@@ -1,0 +1,431 @@
+{
+ "resource_id": 4004463,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 50,
+ "rows_examined": 50,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17010,1)><speed(2)>Feels weird that the <color(4)>Federation<ce()> is on our side in this world.",
+   "notes": "",
+   "source_sha256": "118ead2240606f44d90928f76e9f2054828de5f15a48e5ac941ebb5a99f2c222"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)>The history is different.",
+   "notes": "",
+   "source_sha256": "9f2afca19e1e6bb90f81d6d416d9ee4f5435f5c21345b9c69d9fba741f903cbb"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>There have been several large wars, but today's <color(4)>Federation<ce()> exists as a peacekeeping body.",
+   "notes": "",
+   "source_sha256": "ed82b27c1e8abb52bd01033437ff64d01ac71254c89673de4085572c4992b107"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>Not that it is without problems...",
+   "notes": "",
+   "source_sha256": "ba429726145b29355515f775342500402dce5c877bb4de146ed4a4aa28cdc9e0"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17010,1)><speed(2)>I'd say not starting wars themselves already makes them better.",
+   "notes": "",
+   "source_sha256": "ab958cfbdb0cd64f2ce484df3f806b9a569486aa9efbd9e4c4c6d25cfc8359d7"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(21020,1)><speed(2)>Never thought it'd turn into something this big. I only half believed the talk of another world.",
+   "notes": "",
+   "source_sha256": "67ca727ef2fd7c31e05f8ee3ca58c443342dab0fb51048501ae9a701a400fda4"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23030,1)><speed(2)>Each of us has our own goal. But unless we clear this situation, we can't even pursue those goals.",
+   "notes": "",
+   "source_sha256": "6bc2ecde8b31b52e4e4d0785454fd961eeadc8a314302207eb0b51ab708ec75c"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(17040,1)><speed(2)>If we combine our strength, we can face any crisis. For now, we should work together on this.",
+   "notes": "",
+   "source_sha256": "20613a0323d8d0d17ca7517e86e75d398dcfddc3fec3d9f15303405226d6a4f8"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12140,1)><speed(2)>But... was it really right to come back to this side?",
+   "notes": "",
+   "source_sha256": "80e46fa06376887bfa35261f95a685008f50a09e327bb448ed17729390a51b8c"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(17040,1)><speed(2)>In this situation, it was the right call. It will take time for <color(5)>Shin Dragon<ce()> to store up Getter Rays again.",
+   "notes": "",
+   "source_sha256": "d50c84b6f7a8cd6cc24aa0262cf7e8f80791cf0f5ff306467c761ffcaddf954e"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1060,1)><speed(2)>If he went out of his way to tell us where the <color(6)>Baldora Drive<ce()> is, there must be something on this side too.",
+   "notes": "'He' is explicit in the source (kare); from context = Berkt (next rows).",
+   "source_sha256": "8e73e4fcc8ae8d64c98f9c4140e2c69b339b5b5e6a0ee7982bb182e35ee0858c"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1060,1)><speed(2)>? <color(4)>Barrel<ce()>... is something wrong?",
+   "notes": "",
+   "source_sha256": "354f4da56a9401abaf56ef79ac838593c2107f035dd69acf4dc7a2a5c3b90f6b"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(1040,1)><speed(2)>That man <color(5)>Berkt<ce()> seemed to know me. What does it mean...",
+   "notes": "",
+   "source_sha256": "3177285e885259e46e16b924bd5a479cf701c72f4e955117b04d0936930d9052"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(1060,1)><speed(2)>I heard that too. Does it bother you?",
+   "notes": "",
+   "source_sha256": "fc9b87542429fa229eabb26d7e5e9e2af06c6873155356af4535476baca4bc98"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(1040,1)><speed(2)>Of course it does.",
+   "notes": "",
+   "source_sha256": "f19c11153c495b681ee5c910c7fdfa1eddb4ae6e8fb80ef0903aa39d44c503a8"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(1060,1)><speed(2)>I do understand, but keep it to yourself for now.",
+   "notes": "",
+   "source_sha256": "d522e6f12c454ada73732e84f1463d794124f210d04920a54d9b8ed484f19bc7"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(1060,1)><speed(2)>More importantly, this is your first combat in space, so be more careful than usual.",
+   "notes": "",
+   "source_sha256": "36f5fbba63b790ee46a6197641c7a119126e82356f8cecd68c40c0e322728081"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(5010,1)><speed(2)><color(4)>Barrel<ce()>. Assume you won't be able to leave the ship for a while.",
+   "notes": "",
+   "source_sha256": "4b09fea339c647bcf8eeab5f370507e5e049018068429d25b146bac03f8721d0"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>I had a feeling... Not that I was getting my hopes up.",
+   "notes": "",
+   "source_sha256": "46beb59aa9e607caa7531a16010312c3d346d1761eae6807930798ab0b8aad6e"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21020,1)><speed(2)>You going to be okay like that? Even <color(4)>Gainer<ce()> has more drive than you.",
+   "notes": "",
+   "source_sha256": "8db82c218777591862d2433e8772148de50c50f75a6a62fe8802af5d3ae13e62"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>I'm still not used to fighting, but what else can I do? When I'm told the world is in danger...",
+   "notes": "",
+   "source_sha256": "736f8165497eee500b55f7400a5ad6864e55a3381e0ab166a819ecff55583c56"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23030,1)><speed(2)>No other choice, huh... For now, isn't that good enough?",
+   "notes": "",
+   "source_sha256": "fd7135836d21de255c2cf2a444101c99b592f6d4c34431c248b853342e30cff3"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>. Let me say this much: there is meaning in you being here.",
+   "notes": "",
+   "source_sha256": "b8093e4376452d672d660cfe87049dbf86c11b7b9a98e6aebd8da5587f585be9"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1040,1)><speed(2)>Yeah... I'm a little uneasy, but I'll manage somehow. If I'm doing something wrong, tell me.",
+   "notes": "",
+   "source_sha256": "222266d18f1b26b928654331dd951fc52c9b406eec4d1535beb1afc1e0f63c59"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1060,2)><speed(2)>You're getting dependable.",
+   "notes": "",
+   "source_sha256": "82c88016778d9846b2e26fe39b0be3f891cfc493bbe8f0e03cb42b29729857d0"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)>Lt. Cmdr. <color(4)>Hoshino<ce()>, still no idea who the enemy attacking <color(4)>Shirahime<ce()> is?",
+   "notes": "shousa = Lt. Cmdr. per meeting_terms_015.",
+   "source_sha256": "f0322145a2101b5832431c593f450e4c170ae5f19ea182356fe1d11f46e0e135"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(12031,1)><speed(2)>We do not know yet.",
+   "notes": "",
+   "source_sha256": "41b29cc1f2fca1c67ae7011daf92b7b26e90399f5f7c719323bd908eaf34e103"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(5010,1)><speed(2)>To think an enemy like this went unnoticed...",
+   "notes": "Source omits who overlooked the enemy; passive keeps that open.",
+   "source_sha256": "ccd464ca4bfcf85d12798617b802a79399da9613629cb578be3d625425acd997"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(25010,2)><speed(2)>First time in space since the frontier patrol, huh. Heh... I'm itching to go!",
+   "notes": "'frontier patrol' is a plain rendering of Isamu's former posting; no locked term found.",
+   "source_sha256": "49551c2f751d134b66a7756f8b8c15d7849392dec4e56acd4115d2986f6d8e3d"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,1)><speed(2)>We come back and it's the same old routine. Depressing.",
+   "notes": "",
+   "source_sha256": "5b9cbc189dfa89b6df8ced02713a0f3d06594f4e38d3c9033b75a724d918d8d8"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,1)><speed(2)>Nothing to do but call it fate.",
+   "notes": "",
+   "source_sha256": "1f99abb154ca41cc8b08cdb420c960b83dbdc466f6efa1813a4f3f7cc0a3d935"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(10010,1)><speed(2)>We gotta hurry up and nab this <color(5)>Berkt<ce()> guy!",
+   "notes": "",
+   "source_sha256": "876af975477a989d4178772525424638775a2f7d9632ffbeb46e734ac699806d"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17010,1)><speed(2)>So this is space... This is the other world...",
+   "notes": "",
+   "source_sha256": "17ba5213c0b178b21169cb7e347cc8eec0be8cd959d79591a765fe856e785b8f"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(17030,1)><speed(2)>Who knew guarding the <color(4)>Freeden<ce()> would turn into a trip like this.",
+   "notes": "",
+   "source_sha256": "7d2f6069f859248c5f557dbf1e87f7957b59e1855f29384ca892b134006b8e2e"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17020,1)><speed(2)>Wish it were plain sightseeing. But things being what they are, it can't be helped.",
+   "notes": "",
+   "source_sha256": "3ed0a077a8915b4f77c74895595df6723237f6cd7bacdaa7d3e25777b9b02c29"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(17010,1)><speed(2)>Right. We take down <color(5)>Berkt<ce()> and the <color(5)>New Federation<ce()> with him, and protect <color(4)>Tiffa<ce()>. That's why we can't lose.",
+   "notes": "",
+   "source_sha256": "e65f76eca3e0f092311b94fb438ae34872069fb35d6d4374b102da6eccc074ce"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(23010,1)><speed(2)>I wonder if LFOs work over here too...",
+   "notes": "",
+   "source_sha256": "5499f434c421916a3c8e45f0aed9b28214635212a287e654bbf9085fac3a6f82"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(23030,1)><speed(2)>I had it looked into earlier, and altered Trapar was detected over here too.",
+   "notes": "",
+   "source_sha256": "a54a3b7edb5cce3a63cd1909c0f68f6a1a568eb5957a98624318cc73701a753a"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(23020,1)><speed(2)>What does that mean...?",
+   "notes": "",
+   "source_sha256": "8c864afe63297eae619717b3a51a450f1aaa47ee044350394254e6badc7cde4d"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(23030,1)><speed(2)>It seems fragments of the Scub have been falling onto this Earth.",
+   "notes": "",
+   "source_sha256": "16ab8baf2dc9cc727ff373c7078f1092b0b389310328718d532ee9d200cf2dea"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(23040,1)><speed(2)>The two worlds are starting to connect... and this is the proof.",
+   "notes": "",
+   "source_sha256": "bfca5fb94a729274c1974e05a72b6ae8d7d0e664cd44f16a78d9b54591473e0c"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(21010,1)><speed(2)>We really are in another world, aren't we.",
+   "notes": "",
+   "source_sha256": "56174bcf921aea2ba4edb99c2e4907a72d54616feb501f896e630f39cef87e66"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(21030,1)><speed(2)>Being in space, it doesn't really feel like another world, though.",
+   "notes": "",
+   "source_sha256": "aa58e425d6d77b7d5fefd17a04c49528d81d8bf5d42e74ba6b070aae72cf3fd7"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(21010,1)><speed(2)>We came all this way... and we can't go down to the surface?",
+   "notes": "",
+   "source_sha256": "c6dc201144917c52b8c337f454fd32a78d509a8ad1953f07217d435b33719c87"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(21020,1)><speed(2)>You can sightsee at your leisure later. The work has to get done first.",
+   "notes": "",
+   "source_sha256": "f80d7acb46b54c81bef2c85b7f016fafb23a4f1161b4dac6c7c12c77844f679b"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(19030,1)><speed(2)>Getter isn't supposed to run without Getter Rays, right...",
+   "notes": "",
+   "source_sha256": "e465b3963ff3fa8da3d1844e808d70c57b5a958d8542c6e37711224ebf2be2ac"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(19030,1)><speed(2)>But you know, the power output is surprisingly steady...",
+   "notes": "",
+   "source_sha256": "0c4c2e5054073db1d9ceb7e2167a384d1ed06326a98b91eae532269416269d6b"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(19010,1)><speed(2)>Getter Rays exist. On this Earth too.",
+   "notes": "",
+   "source_sha256": "3de7afca7328be6e52abdb46e4a20607691e1f4ee4b6ee2656f7aa175ac732f3"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(19020,1)><speed(2)>Captain <color(4)>Ruri<ce()> said earlier that Getter Rays may be coming through the <color(6)>Baldora Drive<ce()> too.",
+   "notes": "",
+   "source_sha256": "dcf67cecca5b3b3f0ef215ef4e02e524a83b222f1e0d98078823f3d43bb39096"
+  },
+  {
+   "table": 1,
+   "slot": 263,
+   "text_id": 264,
+   "en": "<operator(19030,1)><speed(2)>No matter where you go, there's no escaping Getter, huh. <color(4)>Hayato<ce()> was right...",
+   "notes": "Source has a polite -san on Hayato; dropped.",
+   "source_sha256": "ea1e9d3aaf6ed4b2b6d84ca13214f9ece41b584346f7a5d7f033a05e1edaceb9"
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 50,
+  "rows_in_scene": 50,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/29 (text id 30) 'he' = explicit 'kare' in source; Berkt from the following rows. Accepted.",
+   "1/59 (text id 60) 'shousa' = 'Lt. Cmdr. Hoshino': matches meeting_terms_015 and reviewed 4003040. Accepted.",
+   "1/61 (text id 62) passive 'went unnoticed' keeps the omitted subject open. Accepted.",
+   "1/99 (text id 100) 'frontier patrol' for 'henkyou keibitai': no locked term in glossary files; plain rendering, lower-case. Accepted.",
+   "1/19 (text id 20) 'leave the ship' for 'orirarenai': same verb Barrel uses in 4004453 1/23 ('kono fune wo oriru'), so 'leave the ship' is the right sense. Accepted.",
+   "1/142 (text id 143) 'Berkt tte yatsu goto New Federation wo taoshite': 'take down Berkt and the New Federation with him' keeps 'goto' (together with). 'New Federation' kept per orchestrator decision.",
+   "1/262 (text id 263) 'Captain Ruri': ship captain = 'Captain' per orchestrator decision. Accepted.",
+   "1/263 (text id 264) '-san' on Hayato dropped. Accepted.",
+   "Names checked: Federation, Shin Dragon, Baldora Drive, Berkt, Gainer, Hoshino, Shirahime (matches encyclopedia_022), Freeden, Tiffa, Trapar (matches encyclopedia), Scub, LFO, Getter Rays."
+  ],
+  "remaining_uncertainties": [
+   "0/35 (text id 36) 'this is your first combat in space': source has no possessor ('chuuiki sentou wa hajimete nan dakara'). Faye is speaking to Barrel and tells him to be careful, so 'your' is the natural reading, but it could be the whole group's first. Left.",
+   "1/142 (text id 143): 'We take down...' supplies 'we'; source is subjectless resolve by Garrod ('...mamoru n da'). 'I' is equally possible. Left.",
+   "1/182 (text id 183) 'falling onto this Earth' for 'hirai shite iru' (come flying to): acceptable, left."
+  ]
+ }
+}

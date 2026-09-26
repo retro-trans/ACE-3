@@ -1,0 +1,115 @@
+{
+ "resource_id": 4003661,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 10,
+ "rows_examined": 10,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Ex-Giganos",
+   "notes": "Enemy faction name.",
+   "source_sha256": "65683b603e21202a3a4d9432a6049611b423a9f3246526359de74bc632018a26"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Hojo Army",
+   "notes": "Enemy faction name; locked (character_names_021.json, ACE3-English-0.1.29 caption \"Hojo Army\").",
+   "source_sha256": "0de69e0082333eef7973fc16cddf897cb5b4de1cf036341b189d37097dc8c91a"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)><move(1,10,7)>I will now explain<marker(2,10,7,1)> this<marker(3,8,5,0)> operation<marker(3,10,9,0)>.<move(2,6,10)><picture(97,2,7,0)><refer(2,7,8,5)><picture(63,30,14,0)><refer(30,14,10,9)>",
+   "notes": "",
+   "source_sha256": "d7331c3544e1a8fc408a61ce61ee6bce1ce359921984fdd3a3f288a11d5bc3c5"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)>Currently, around <book(15)>Lhasa<endbook()> here<marker(20,5,0,0)>,<marker(20,8,2,0)> not only <color(5)>Sakomizu's army<marker(20,11,3,0)><marker(20,3,5,0)><ce()> but<marker(20,13,5,0)> also<marker(20,13,9,0)> units<marker(20,8,12,0)> of the former <book(18)>Giganos<marker(20,10,13,0)><marker(20,12,12,0)><endbook()> have<marker(20,3,10,0)> been<marker(20,1,12,0)> confirmed<marker(20,0,14,0)>.",
+   "notes": "\"Sakomizu's army\" (Sakomizu-gun) is the field name of the faction titled \"Hojo Army\" in slot 1; both refer to King Sakomizu's forces.",
+   "source_sha256": "6c58272d40ac37a5f8a69792608237d173a42a5077b2e267db4b039544acaef5"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>The<move(1,1,5)> <book(9)>Federation<endbook()> bases in the area<marker(27,3,2,0)> have<marker(27,1,5,0)> already<marker(27,3,8,0)> been captured<move(2,1,5)>, and the situation is very dire.",
+   "notes": "",
+   "source_sha256": "551d6512d79e4d5352560d20bd33e76e47f35d42520c11edc7a32dc67bd3dfdb"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>Please recapture all these<move(1,10,14)> <book(9)>Federation<endbook()> bases within the operation area<marker(27,8,13,0)>,<marker(27,10,14,0)> and<marker(27,12,13,0)> free them from the enemy's hands.<move(2,10,14)>",
+   "notes": "",
+   "source_sha256": "88ed011fedb0372cbd760509f09da1393da20e9ad8c92b4b564d6cfee72bbea8"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)><move(1,6,5)>Also, the <book(9)>Federation<marker(7,6,5,0)><endbook()> will send<move(1,10,11)> a cutting-edge <color(6)>experimental unit<ce()><marker(7,10,11,0)> as support.<move(2,10,11)> But it seems to be<picture(99,2,14,0)><refer(2,14,10,11)> a tricky one...<marker(5,8,0,0)><marker(5,14,7,0)>",
+   "notes": "",
+   "source_sha256": "5501e669b3472403ca8e21587454fbb82df8690726a6dd10356fe14586585d62"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)><move(1,10,4)>Apparently, from the <color(4)>control facility<ce()><marker(13,10,4,0)>, it receives<move(1,12,6)> a correction program<marker(13,12,6,0)> that boosts its performance.<move(2,13,5)><picture(100,30,7,0)><refer(30,7,10,4)>",
+   "notes": "\"control facility\" for seigyo shisetsu matches hud_labels.json \"Retake the control facility\".",
+   "source_sha256": "e076c964927b2eec3ab4081f48585dbb9b8ef324c7d3206107b4d8ae7bcf1f2d"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)>In other words, if the <color(4)>control facility<ce()> falls to the enemy, its performance will <color(6)>drop drastically<ce()>, so please be careful.",
+   "notes": "",
+   "source_sha256": "290fea5e890f43fc6f6e1100ec67e45499928a4538463350b7e4af05b48acc2f"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>Well then, I am counting on you.",
+   "notes": "",
+   "source_sha256": "34cca82d43edfb73ce1fe1cf06d8274412a2a70127a3062f2b44b7e8d10e4073"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 10,
+  "rows_in_scene": 10,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 21,
+    "before": "<operator(12031,1)><speed(2)>The<move(1,1,5)> <book(9)>Federation<endbook()> bases in the area<marker(27,3,2,0)> have<marker(27,1,5,0)> already<marker(27,3,8,0)> been captured<move(2,1,5)>, and the situation is quite dire.",
+    "after": "<operator(12031,1)><speed(2)>The<move(1,1,5)> <book(9)>Federation<endbook()> bases in the area<marker(27,3,2,0)> have<marker(27,1,5,0)> already<marker(27,3,8,0)> been captured<move(2,1,5)>, and the situation is very dire.",
+    "reason": "Game font has no native-size lowercase q glyph (project constraint); 'quite' contains q. Replaced with 'very', no change to meaning."
+   }
+  ],
+  "checked_decisions": [
+   "'Hojo Army' accepted per this task's ruling; matches character_names_021.json's 'Hojo' faction entry (Sakomizu's kingdom/army) plus the descriptive '-gun' (army) suffix present in source, and the note's cited prior release caption.",
+   "'Ex-Giganos' verified against locked spelling.",
+   "'control facility' for seigyo shisetsu verified consistent with hud_labels.json 'Retake the control facility'.",
+   "Slot 20's 'Sakomizu's army' (field name) vs slot 1's 'Hojo Army' (faction title) distinction is explained correctly in the row note; both refer to the same faction (King Sakomizu's forces per character_names_021.json).",
+   "Speaker 12031 verified via speaker_lookup.py as Ruri Hoshino.",
+   "Slot 1 'Hojo' contains a lowercase j; accepted as a locked name exception per the project's j/q constraint and this task's ruling.",
+   "All commands verified identical in count and order versus source for every row; ASCII-only, no newline, 128-visible-char limit verified for every row; one bare-q violation found and fixed (slot 21), no others."
+  ],
+  "remaining_uncertainties": []
+ }
+}

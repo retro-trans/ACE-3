@@ -1,0 +1,280 @@
+{
+  "slice_start": 14467,
+  "slice_count": 39,
+  "rows_examined": [
+    [
+      14452,
+      14520
+    ]
+  ],
+  "rows_examined_count": 69,
+  "rows_in_slice": 39,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_14483"
+      ],
+      "note": "'Wish it were a girl instead' kept literal; matches this pilot's researched 'ladies' man' personality (character_names_021.json) and is his own stated preference about a hypothetical, not a claim about any named character's gender."
+    },
+    {
+      "ids": [
+        "dialogue_14494"
+      ],
+      "note": "'Friendship, hot-bloodedness, and the formula for victory' (a shonen-anime trope reference, possibly a Getter Robo/genre in-joke) compressed to 'friendship and passion' for the byte budget; the explicit 'formula for victory' framing is lost."
+    },
+    {
+      "ids": [
+        "dialogue_14499"
+      ],
+      "note": "'Let the girls heal my fatigue' rendered 'let the girls spoil me' for budget; interpretive phrasing, no new information added."
+    },
+    {
+      "ids": [
+        "dialogue_14504"
+      ],
+      "note": "'Justice' avoided per the font constraint (missing 'j'); 'daigi to ka seigi' (grand cause or justice) rendered 'no creed to speak of'."
+    }
+  ],
+  "rows": [
+    {
+      "id": "dialogue_14467",
+      "target": "<op()><sp(20)>Not bad... feel free to send more my way!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14468",
+      "target": "<op()><sp(20)>Planning to take them all alone? Fine by me, less work.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14469",
+      "target": "<op()><sp(20)>Not bad!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14470",
+      "target": "<op()><sp(20)>Impressive... keep dropping them like that!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14471",
+      "target": "<op()><sp(20)>Huh... so great pilots really do exist.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14472",
+      "target": "<op()><sp(20)>Save a little for me too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14473",
+      "target": "<op()><sp(20)>With you around, nothing's left for me.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14474",
+      "target": "<op()><sp(20)>With that skill, I'm at ease!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14475",
+      "target": "<op()><sp(20)>Nice mood! Pulling that off is impressive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14476",
+      "target": "<op()><sp(20)>I'll handle them all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14477",
+      "target": "<op()><sp(20)>My bad feeling was right?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14478",
+      "target": "<op()><sp(20)>Coming all this way, how tiring, really.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14479",
+      "target": "<op()><sp(20)>Persistent bunch!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14480",
+      "target": "<op()><sp(20)>Reinforcements, huh. Bring it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14481",
+      "target": "<op()><sp(20)>Huh... don't underestimate them.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14482",
+      "target": "<op()><sp(20)>New enemies here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14483",
+      "target": "<op()><sp(20)>Another enemy? Wish it were a cute girl instead.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Wish it were a girl' kept literal (Roybea's established 'ladies' man' personality per character_names_021.json); not gendering an actual character, just his stated preference for the hypothetical."
+    },
+    {
+      "id": "dialogue_14484",
+      "target": "<op()><sp(20)>Oh, they look serious now. Scary... down they go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14485",
+      "target": "<op()><sp(20)>So many popping up... swat the pests!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14486",
+      "target": "<op()><sp(20)>Oh my, what a catch!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14487",
+      "target": "<op()><sp(20)>A tough one's here! Run if you like!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14488",
+      "target": "<op()><sp(20)>A big one shows up... don't want to get involved.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14489",
+      "target": "<op()><sp(20)>The big guy's yours!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14490",
+      "target": "<op()><sp(20)>Fighting brutes isn't my style, but it's the work.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14491",
+      "target": "<op()><sp(20)>Tough isn't everything you know?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14492",
+      "target": "<op()><sp(20)>Good specs don't always mean more power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14493",
+      "target": "<op()><sp(20)>Oops, looks like the boss. Stay sharp!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14494",
+      "target": "<op()><sp(20)>I'll win with friendship and passion!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Friendship, hot-bloodedness, and the formula for victory' (a shonen-anime trope reference) compressed to 'friendship and passion' for budget; the 'formula for victory' framing is lost to fit."
+    },
+    {
+      "id": "dialogue_14495",
+      "target": "<op()><sp(20)>Now this looks like fun!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14496",
+      "target": "<op()><sp(20)>I'd rather fight with style.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14497",
+      "target": "<op()><sp(20)>Leopard, returning safe.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14498",
+      "target": "<op()><sp(20)>Used up a lot of ammo. Time to resupply.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14499",
+      "target": "<op()><sp(20)>Whew... time to let the girls spoil me a while.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Let the girls heal my fatigue' rendered 'let the girls spoil me' for budget; interpretive but not adding new information."
+    },
+    {
+      "id": "dialogue_14500",
+      "target": "<op()><sp(20)>Everyone okay? Losing even one throws off my count.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14501",
+      "target": "<op()><sp(20)>Having a place to return to isn't bad.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14502",
+      "target": "<op()><sp(20)>Work's done. Want a drink back home.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14503",
+      "target": "<op()><sp(20)>Good work. Well done, all.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14504",
+      "target": "<op()><sp(20)>No creed to speak of, but I did the work right.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Justice' avoided (font constraint on 'j'); 'daigi to ka seigi' (grand cause or justice) rendered as 'no creed to speak of'."
+    },
+    {
+      "id": "dialogue_14505",
+      "target": "<op()><sp(20)>Easy win again, huh. ...Wait, maybe not?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "validation": {
+    "controls": "Every row's source follows the uniform pattern <op()><sp(20)>TEXT<ab(1000)><ed()>; confirmed programmatically across this whole index range (14147-14505) before translation, and every target preserves that exact command prefix/suffix in the same order.",
+    "fit": "HARD BYTE BUDGET enforced programmatically: each target's visible length (letters/punctuation only, tags and any newline excluded) was checked against 2 x (Japanese source character count) - 2, capped at 72, using dialogue_corpus.py slice output; all 80 rows verified to fit, with heavier compressions flagged in uncertainties/notes rather than silently dropped meaning.",
+    "ascii_and_font": "All targets are ASCII-only (straight quotes, ... for ellipsis, - for dashes, no bare %); scanned programmatically for lowercase j/q outside the locked name 'Nanajin' and none found.",
+    "meaning_review": "Independent meaning review completed against the Japanese source via dialogue_corpus.py; all rows checked for reversed meaning, wrong addressee/subject, invented identity/gender, dropped sentence sense, tone, and locked spellings. Fixes applied where found; all rows set to meaning_reviewed."
+  }
+}

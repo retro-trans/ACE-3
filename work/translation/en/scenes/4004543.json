@@ -1,0 +1,490 @@
+{
+ "resource_id": 4004543,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 52,
+ "rows_examined": 52,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(10010,1)><speed(2)>The higher-ups are hopeless. Underestimating the enemy is exactly why we're in this mess.",
+   "notes": "",
+   "source_sha256": "f98b6236113a4600107248f5720191491bcc6f73f6583b3328d31a0358cdb907"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(5010,1)><speed(2)>Still, this move came too fast. It was probably planned carefully in advance.",
+   "notes": "",
+   "source_sha256": "5cba310b8ea4c27fad65dad2ece0661f64f908c9d298c953b9eff811ca4615fb"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17040,1)><speed(2)>But once they've gained a means to freely space-leap, this was bound to happen.",
+   "notes": "'space-leap' per locked encyclopedia term for kuukan choyaku (distinct from 'spatial transfer').",
+   "source_sha256": "850275410784a917041338777493ca9ea2b95857ce910d81dffba6d33ff5276d"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(10030,1)><speed(2)>You've got no direct stake in this, so there's no reason you have to help... but I'm asking for your cooperation here.",
+   "notes": "Speaker id 10030 resolves to Light Newman; the blunt register ('antatachi', sentence-final 'wa') differs from Light's usual diligent tone elsewhere, but the tag is kept per brief.",
+   "source_sha256": "646a45c892185ebd062410ad1988121ece5bbef8567a04ece9c0a023632dca5f"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23030,2)><speed(2)>You lot have helped us out plenty too. Call it even.",
+   "notes": "",
+   "source_sha256": "623e7548755fb476c93eee86e73b2236e58f4eaf338269590c29761f5b31bffb"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(21020,1)><speed(2)>That's right. We're all bound to the same fate now.",
+   "notes": "",
+   "source_sha256": "7fb48336713ace9431dd3138d1c793700818b9219e7bc3cc42d5220a1a9f8375"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(17010,2)><speed(2)>That's right! With a lineup like this, nothing to be afraid of!",
+   "notes": "",
+   "source_sha256": "49dcd9e345efbb86dd2831f732c8a65a8b047456d0485f0c66b1e96cf5bdf235"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(17040,1)><speed(2)>Good spirits are one thing, but you never know what a battle will bring. Be careful out there.",
+   "notes": "",
+   "source_sha256": "c859ee944650462818f5d0ce5bf56831075ba7d3881007cb036ab8e4702fa2bb"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1040,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "fb30e184b45d61c67fee14e6e32ca822a6d23e1e0039744963416ea1e98c2cd1"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>... Is <color(5)>Berkt<ce()> on your mind?",
+   "notes": "",
+   "source_sha256": "40a02f6dc63d272613ef88706abe12a9e49ffa06dec2c7624bbd0b921b2acb77"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1040,1)><speed(2)>Yeah. Leaving him alone seems dangerous too.",
+   "notes": "",
+   "source_sha256": "6ab77606517ab243d53e75a9b538901ad3ab1e8c8fd85755d2adc3d0855d7e22"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1060,1)><speed(2)>I get that he's on your mind, but let's focus on the fight ahead.",
+   "notes": "",
+   "source_sha256": "8f436f67da4bc87a9dcb0863f6aad153f9c98cc282a1c33f2b56b9b148d51a55"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(1040,1)><speed(2)>Of course, I know that.",
+   "notes": "",
+   "source_sha256": "db430d2159f2597ec7bbb94fa1698c587c59b538a903591fb4cab92ea073f6b9"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,2)><speed(2)>Compared to when we started, <color(4)>Barrel<ce()>'s gotten a lot more dependable.",
+   "notes": "",
+   "source_sha256": "cde66fcea7da107ce03e536f4c7c3b910164a5dd97e409563a2982ba1b627fff"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>Huh? T-that's not...",
+   "notes": "",
+   "source_sha256": "e6a496005affa6d08ab07bdd8a8b58892ac97e7262b57f82f242582da22fbb09"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(5010,1)><speed(2)>That's right. His results so far prove it.",
+   "notes": "",
+   "source_sha256": "308579db601bcbc4abfb2c5b8c2535cd7b38d2ae00fd6409bfa31c3bb2cdcab1"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,2)><speed(2)>His performance has improved by leaps and bounds, after all.",
+   "notes": "",
+   "source_sha256": "7265b8f3c9873168af16defb6690a570eff26a4e8ad35880859589a67d50fd0f"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)>Is that so?",
+   "notes": "",
+   "source_sha256": "4f8b5d7ab0e5a0e895a7baf9826d19d680eeabd96b81591640974412cf59aa79"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(5010,1)><speed(2)><color(4)>Barrel<ce()> must have had the aptitude for piloting. And he was a good match for the machine too.",
+   "notes": "",
+   "source_sha256": "6e5c7c0f842f8387028356657d94e1906d2531a98a34ae16a85648f4e3d58f31"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1040,1)><speed(2)>I'm glad to hear you say that.",
+   "notes": "",
+   "source_sha256": "dfb71359f871b5a763d93108b12c3d631e6639451225a613cd2c74576fafc0be"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(25010,1)><speed(2)>Enough chit-chat already! Let me deploy already!",
+   "notes": "",
+   "source_sha256": "ff28cf691103fac1ccc985f5a7eaf8a531a2fd45e2563de2f75dd5be16c85dac"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(10010,1)><speed(2)>Hey, don't rush it.",
+   "notes": "",
+   "source_sha256": "c12fe42a2c6ec9c524f675bbce9ff17748094d6418f563065aaf337aa904c5ef"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(25010,1)><speed(2)>If not now, then when?!",
+   "notes": "",
+   "source_sha256": "9120f2a97758a51211997bd3b360e654bb9411d7f727b711c02abff5bcd267a2"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(21020,1)><speed(2)>He's really worked up.",
+   "notes": "",
+   "source_sha256": "5193c14007cb36e76f02acffd57afa8b404907125812662f8697aaee74223f0d"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(5010,1)><speed(2)>That's simply how he gets himself fired up.",
+   "notes": "",
+   "source_sha256": "546908fc8b5989b0f5e189ba9b1abd0613442bb6841675a3a32f9860d5ebc3d2"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(5010,1)><speed(2)>It's not a way I can get used to... but I understand how he feels.",
+   "notes": "",
+   "source_sha256": "4e54e603afb7ca7495a5c99493c1cfb76db861789d0a74e316763d5ea4644167"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,1)><speed(2)>Hey, were the Gundams from that other world originally built for space combat too?",
+   "notes": "",
+   "source_sha256": "8610d051659760864a1b17f83a47d39e6f2a28dbbb626289ffda097d086461cf"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(17040,1)><speed(2)>That's right. <color(4)>GX<ce()> was built as the trump card to defend Earth from the colony forces.",
+   "notes": "'GX' kept as the abbreviated in-line form of the locked 'Gundam X'; no prior corpus precedent for the shorthand, flagged.",
+   "source_sha256": "e2063525f5719c112275b270650479d1fa0e469728fceead8b14f4180352859b"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10020,1)><speed(2)><color(4)>Leopard<ce()> and <color(4)>Airmaster<ce()> too?",
+   "notes": "",
+   "source_sha256": "4311aff55a73a783d952cd2d4cbacc781041b20ac89ed1131e5c693ac1f6907e"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(17030,1)><speed(2)>Seems that way. By the time we got hold of them, they'd already been modified for ground use, though.",
+   "notes": "",
+   "source_sha256": "0ec37d59a346272631019e70a4fcb09dd7230b29d5a1b1f779206a2d88b60d55"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(17020,1)><speed(2)>A hired Vulture heading up into space - couldn't imagine that back in our world.",
+   "notes": "'Vulture' = locked freelance mobile-suit-rider role term per character_names_021.",
+   "source_sha256": "6b12e40cf82412ab781e867c870fdae2df0d21e7d31577054d3fad6fc3e8cc8c"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(17010,2)><speed(2)>So we've got an aptitude for space combat, huh. All right, let's give it our all!",
+   "notes": "",
+   "source_sha256": "5f2ccf4de46ea7d6eecf0e49ccea45790127c39121c2bb6737294bdd366c06db"
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "text_id": 106,
+   "en": "<operator(17070,1)><speed(2)><color(4)>Garrod<ce()>... don't push yourself... Come back safe...",
+   "notes": "",
+   "source_sha256": "cef0b369df8afd3ce965dd49d4069356636fa0328518d018950a1404b2194095"
+  },
+  {
+   "table": 1,
+   "slot": 106,
+   "text_id": 107,
+   "en": "<operator(17010,2)><speed(2)>No worries! With <color(4)>Tiffa<ce()> here, I'm unbeatable!",
+   "notes": "",
+   "source_sha256": "d717830276976de8104eb35d7cf8bb16fcbb753dd4cf81eebc9e1fa7c0d5531b"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(23010,2)><speed(2)>All right! Let's do this!",
+   "notes": "",
+   "source_sha256": "77addbc579c381c797448ade001aa8829431060be6a28a81b270835389cf1c77"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(23040,1)><speed(2)>Getting fired up is fine, but don't go and screw up trying too hard.",
+   "notes": "",
+   "source_sha256": "fde0a0c837ec092b1e211ecb39e74f46d4116e5e8eecb5e0521cf45e6def7c2b"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(23010,2)><speed(2)>I know, but... as a guy, not getting fired up in a situation like this would be weird, right... <color(4)>Eureka<ce()>?",
+   "notes": "",
+   "source_sha256": "8e2a9479eb6d33364599e78df11e02e0e3fad41ea7facc1cfc6536844b83c45e"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(23020,1)><speed(2)>Fired up...?",
+   "notes": "Eureka takes Renton's 'fired up' (moeru) literally, matching her blunt/distant personality per glossary.",
+   "source_sha256": "6d4cf9bc3b62b8da12f5f6556fdeb77c81190af0c2d0ace2f651ef69fdedd179"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(23010,1)><speed(2)>Ah, right... never mind if you don't get it. Yeah...",
+   "notes": "",
+   "source_sha256": "14f4638ba20c8c1f5498a5b07ab6b89b729298792c9a44b06f718f0446131392"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(23030,1)><speed(2)><color(4)>Eureka<ce()>, it's an environment you're not used to. Don't push yourself.",
+   "notes": "",
+   "source_sha256": "2d9d8a125cea35392271d56559c07fbbdb40793e4daa7279f0877b34f40a1a5b"
+  },
+  {
+   "table": 1,
+   "slot": 145,
+   "text_id": 146,
+   "en": "<operator(23020,1)><speed(2)>Yeah.",
+   "notes": "",
+   "source_sha256": "a5bcd467ca3a166b279a24d12949c51266084520036a0aff78360561c07de5df"
+  },
+  {
+   "table": 1,
+   "slot": 146,
+   "text_id": 147,
+   "en": "<operator(23030,1)><speed(2)>Well, I'm not used to this place either.",
+   "notes": "",
+   "source_sha256": "be435a6fc2946de019d147e3e08577b9936d7417d6ca2fb8aad9962e127f8318"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(21010,1)><speed(2)>Once we get through this, it's goodbye to space, huh.",
+   "notes": "",
+   "source_sha256": "f3881645bfa15b10e9b86a5df8528ee755f7b4372ccfbbbfe32a9a244d26ad3b"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(21020,2)><speed(2)>Missing solid ground, <color(4)>Gainer<ce()>?",
+   "notes": "'-kun' dropped per corpus convention.",
+   "source_sha256": "a9f705624169830aea4a44289211f30183bc1d5c1bdf41aee57e21c4226693c2"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(21010,1)><speed(2)>Well, a little... What about you?",
+   "notes": "",
+   "source_sha256": "5a7bd73f03733e4293d32570ee68ccf0f91da7ddb4f5a5db8a833c842cde7746"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(21020,2)><speed(2)>Yeah, I miss it. No chance for the ladies to dress up out here.",
+   "notes": "",
+   "source_sha256": "87d3b4ac3b16ef3c051f01fa1ff03d40e0bad7a9feb6d48d890135ce1cb78610"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(21010,1)><speed(2)>That's a pretty impure reason to have, isn't it?",
+   "notes": "",
+   "source_sha256": "790e13f716771c05db10d194ed680aa0681b9ceed4daf9115a09e30c0012c1ba"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(19020,1)><speed(2)>Is <color(4)>Macross<ce()> really that amazing?",
+   "notes": "",
+   "source_sha256": "d7be01e2a8b801ab7fcde8984bd7542d203896d6d4538801a2ec6bd02816d593"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(10030,1)><speed(2)>It's a massive ship over 1,200 meters long, with a whole city built inside.",
+   "notes": "",
+   "source_sha256": "5d11ea5d5d142e5bb6b2f7f33d76f21cb1ca6021fe3f7652ed81a0a577fe6f9e"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(10020,1)><speed(2)>And that <color(4)>Macross<ce()> is what gave rise to the superstar idol, <color(4)>Lynn Minmay<ce()>.",
+   "notes": "'Lynn Minmay' per locked encyclopedia_021_a spelling (Macross wiki).",
+   "source_sha256": "042f36354abc34cd1f046ecc77f6c5aa5ede74b0765c8165c23bc76abf779f60"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(1040,1)><speed(2)>It was <color(4)>Lynn Minmay<ce()>'s song that defeated <color(5)>Boddole Zer<ce()> and ended the war three years ago, right?",
+   "notes": "'Boddole Zer' per locked encyclopedia spelling. 'the war three years ago' kept casual/lowercase; source does not use the encyclopedia's proper title here.",
+   "source_sha256": "86ce1919fc863a63caae10afb90a20bdbc94b0959433895859195f8ad9cd0c8e"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(17020,1)><speed(2)>But turning even that into a military weapon... the enemy sure seems desperate.",
+   "notes": "",
+   "source_sha256": "12eecca1a5dd2d8f2bdc87245fe9653fd5ec0f272fc0343515c8829673c5117e"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 21,
+   "issue": "'space-leap' per locked encyclopedia term for kuukan choyaku (distinct from 'spatial transfer')."
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "issue": "Speaker id 10030 resolves to Light Newman; the blunt register ('antatachi', sentence-final 'wa') differs from Light's usual diligent tone elsewhere, but the tag is kept per brief."
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "issue": "'GX' kept as the abbreviated in-line form of the locked 'Gundam X'; no prior corpus precedent for the shorthand, flagged."
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "issue": "'Vulture' = locked freelance mobile-suit-rider role term per character_names_021."
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "issue": "Eureka takes Renton's 'fired up' (moeru) literally, matching her blunt/distant personality per glossary."
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "issue": "'-kun' dropped per corpus convention."
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "issue": "'Lynn Minmay' per locked encyclopedia_021_a spelling (Macross wiki)."
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "issue": "'Boddole Zer' per locked encyclopedia spelling. 'the war three years ago' kept casual/lowercase; source does not use the encyclopedia's proper title here."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 52,
+  "rows_in_scene": 52,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/21 'space-leap' for 'kuukan choyaku': verified distinct from terms_028's 'spatial transfer' (kuukan ten'i) and matches the Encyclopedia's own 'space leap' wording. Accepted.",
+   "0/22 speaker 10030 (Light Newman) blunt register: tag kept per brief (speaker tags are never changed even when the source data looks mis-tagged); translation is faithful to the source's blunt wording regardless. Accepted, flagged below.",
+   "1/100 'GX' as inline shorthand for the locked 'Gundam X': ruled fine per orchestrator decision; corpus precedent confirmed in mission 10B scene 4003130. Accepted.",
+   "1/103 'Vulture' matches the locked freelance-MS-rider term (character_names_021 entry 33). Accepted.",
+   "1/142 Eureka taking 'moeru' ('fired up') literally: matches her blunt/distant personality per glossary entry 80. Accepted.",
+   "1/180 '-kun' dropped on Gainer per corpus convention. Accepted.",
+   "1/221 'Lynn Minmay' spelling verified against encyclopedia_021_a.json. Accepted.",
+   "1/222 'Boddole Zer' verified against encyclopedia_021_a.json; 'the war three years ago' kept lowercase per orchestrator ruling and confirmed against the Encyclopedia's own phrasing ('the war fought three years ago', lowercase). Accepted.",
+   "Checked every row's speaker id against speaker_lookup.py and character_names_021/glossary.json for gender and role; no mismatches (e.g. Tiffa correctly resolves as speaker 17070, gender-appropriate 'he'/'his' for Barrel, Amuro).",
+   "Scanned all 52 rows for lowercase j/q outside locked names: none found.",
+   "Re-ran the console check: all <...> commands identical and in source order, no newlines, ASCII only, all visible text <=120 chars, no bare %."
+  ],
+  "remaining_uncertainties": [
+   "0/22: Light Newman's line ('antatachi', sentence-final 'wa') reads more blunt/casual than her diligent tone elsewhere in the corpus. Could not verify from this scene alone whether this is intentional characterization or a speaker-id mismatch in the source data; per brief the tag was kept and the translation follows the source faithfully either way."
+  ]
+ }
+}

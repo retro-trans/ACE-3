@@ -1,0 +1,531 @@
+{
+  "slice_start": 10637,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      10622,
+      10731
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_10657"
+      ],
+      "note": "'This ship is to be abandoned' does not name which ship; inferred to be the Gekko from the immediately preceding rows (10654-10656) but the source itself never states it explicitly."
+    },
+    {
+      "ids": [
+        "dialogue_10660",
+        "dialogue_10690"
+      ],
+      "note": "Speaker not identified by source (no color tag); generic Gekkostate-style dialogue, no identity/gender invented."
+    },
+    {
+      "id": "dialogue_10668",
+      "note": "'0100/0140' is a literal rendering of the source's numeric sensor/position reading (two full-width numbers joined by a possessive particle); the exact real-world notation convention it represents is not confirmed."
+    },
+    {
+      "ids": [
+        "dialogue_10685",
+        "dialogue_10686"
+      ],
+      "note": "Speaker mapping (Renton then Eureka) inferred from the 'we met' theme continued at 10693-10699, but no color tag confirms it."
+    },
+    {
+      "id": "dialogue_10705",
+      "note": "'I... Can... Fly!' is a phonetic reading of the source's elongated katakana; matches a widely cited iconic Nirvash line but is not verified against an official English localization."
+    }
+  ],
+  "validation": {
+    "commands": "All source <...> commands reproduced in the same order for every row (self-checked against a hand-extracted tag list per row); includes rows without <ed()> (10639-10647, 10649, 10664, 10671, 10675, 10678-10679, 10682, 10690, 10693-10698, 10702, 10706-10707) matching the source exactly.",
+    "format": "Line-break (\\n) counts kept identical to source for every row; no raw newlines or stray whitespace introduced beyond the source's own breaks.",
+    "fit": "Full meaning drafted for every row; longest combined visible text checked programmatically and kept at or under 110 characters (no row was pre-shortened).",
+    "glossary": "Locked terms used: Antibody Coralian, Command Cluster, Amita Drive, Nirvash (mission_terms_019.json / encyclopedia_022.json); Gekko for the source's ship name (meeting_terms_015.json); Garrod Ran/Tiffa Adill, Gainer Sanga/Sara Kodama (character_names_021.json). Main guns / AAM follow existing corpus convention (batch_01506, batch_01586, batch_05614). No new terms proposed.",
+    "meaning_review": "Independently re-checked against the source for all 80 rows (context 10622-10731): no mistranslation, reversed meaning, wrong addressee, or invented subject/gender/information found; all translator uncertainties confirmed as correctly left ambiguous. All rows set to meaning_reviewed; see review_10637.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_10637",
+      "target": "<op()><sp(20)>Alright, let's push through here!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10638",
+      "target": "<op()><sp(20)>Th-this number...\nit's not normal!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10639",
+      "target": "<op()><sp(20)>I have something precious to me.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10640",
+      "target": "<sp(20)>Renton, and my friends...\nI love you all. I love you.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10641",
+      "target": "<sp(20)>My precious ones, my friends.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10642",
+      "target": "<sp(20)>To me, who had nothing,\nthey taught me so many things.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10643",
+      "target": "<sp(20)>They accepted all of me, who had nothing.\nThey let me be myself.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10644",
+      "target": "<sp(20)>What I love most, and want to protect above all.\nEveryone, and Renton...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10645",
+      "target": "<sp(20)>But if wishing for that means\nlosing what's precious to me...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10646",
+      "target": "<sp(20)>If wishing for that means the planet\neveryone lives on disappears... then I'll stop wishing.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10647",
+      "target": "<sp(20)>But if it's allowed,\nI want to see everyone again.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10648",
+      "target": "<sp(20)>I want to see you, I want to see you, Renton...!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10649",
+      "target": "<op()><sp(20)>We should prioritize taking down\nthe large types first.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10650",
+      "target": "<sp(20)>Once those are gone, the small types\nwill disappear on their own.<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10651",
+      "target": "<op()><sp(20)>I don't want to defeat them,\nbut for now, there's no other way.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10652",
+      "target": "<op()><sp(20)>That's the large type.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10653",
+      "target": "<op()><sp(20)>This is getting a little dangerous...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10654",
+      "target": "<op()><sp(20)>The Gekko's in trouble!!\nGo cover it!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Gekko per meeting_terms_015.json entry for this ship's name."
+    },
+    {
+      "id": "dialogue_10655",
+      "target": "<op()><sp(20)>Holland...!!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10656",
+      "target": "<op()><sp(20)>Even with me right there...\ndamn it...<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/addressee not named in source; kept neutral."
+    },
+    {
+      "id": "dialogue_10657",
+      "target": "<op()><sp(20)>This ship is to be abandoned.\nAll hands, evacuate the ship.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Ship not explicitly named 'Gekko' in this row; follows 10654-10656 (Gekko takes damage, Holland reacted to) without asserting identity beyond source."
+    },
+    {
+      "id": "dialogue_10658",
+      "target": "<op()><sp(20)>Antibody Coralian confirmed!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Antibody Coralian per mission_terms_019.json / encyclopedia_022.json."
+    },
+    {
+      "id": "dialogue_10659",
+      "target": "<op()><sp(20)>No way... right on our shortest course...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10660",
+      "target": "<op()><sp(20)>Even so, I'll bring Renton\nand Eureka together!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/addressee (presumably a Gekkostate pilot) not named in source."
+    },
+    {
+      "id": "dialogue_10661",
+      "target": "<op()><sp(20)>I'll fight too!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10662",
+      "target": "<op()><sp(20)>Don't worry, leave the fighting to us.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10663",
+      "target": "<op()><sp(20)>But!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10664",
+      "target": "<op()><sp(20)>All you need to think about\nis Eureka.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "'You two' renders the source's plural second-person address; no identity/gender invented for the addressees."
+    },
+    {
+      "id": "dialogue_10665",
+      "target": "<sp(20)>Trust us, Renton.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10666",
+      "target": "<op()><sp(20)>Proximity alert!\nMinimum clearance is only 250 meters!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10667",
+      "target": "<op()><sp(20)>Don't worry about it! Go!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10668",
+      "target": "<op()><sp(20)>Antibody Coralian confirmed!\n0100/0140, the 999th corridor!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'0100/0140' renders the source's two-number sensor/grid reading literally; exact military notation convention not verified."
+    },
+    {
+      "id": "dialogue_10669",
+      "target": "<op()><sp(20)>What did you say!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10670",
+      "target": "<op()><sp(20)>No time to hesitate.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10671",
+      "target": "<op()><sp(20)>I know!\nOrder: combat formation!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "'Combat formation' for the source's katakana loanword (konbatto foomeeshon); no existing glossary entry, plain translation, not proposed as a locked term."
+    },
+    {
+      "id": "dialogue_10672",
+      "target": "<sp(20)>After a full salvo from the main guns and AAMs,\nwe'll punch through the middle with the boosters!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Main guns per established convention (batch_01506/01586/05614); AAM kept as the source's own full-width Roman-letter acronym."
+    },
+    {
+      "id": "dialogue_10673",
+      "target": "<op()><sp(20)>Direct hit to the aft starboard!\nRight booster pressure dropping!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'aft starboard' for the source's naval term for the ship's right-rear side (using the word for 'starboard'); distinguished from the plain 'right booster' phrase later in the same row, which uses only the ordinary word for 'right', not the naval term."
+    },
+    {
+      "id": "dialogue_10674",
+      "target": "<op()><sp(20)>AAMs, zero rounds left!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10675",
+      "target": "<op()><sp(20)>All we have left is the homing laser...\nHigh-speed evasion! Faster!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10676",
+      "target": "<op()><sp(20)>If we break now, it's all over.\nThere's a way to win - there has to be!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10677",
+      "target": "<op()><sp(20)>Garrod, for the two of them...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Tiffa Adill per character_names_021.json; addressing Garrod Ran."
+    },
+    {
+      "id": "dialogue_10678",
+      "target": "<op()><sp(20)>I know, Tiffa!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Garrod Ran per character_names_021.json."
+    },
+    {
+      "id": "dialogue_10679",
+      "target": "<sp(20)>Renton and Eureka\nfought for us.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10680",
+      "target": "<sp(20)>Now it's my turn to fight for them!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10681",
+      "target": "<op()><sp(20)>If the same thing happened to me as Eureka...\nwould you fight for me too, Gainer?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Sara Kodama (gender: female per character_names_021.json) addressing Gainer Sanga."
+    },
+    {
+      "id": "dialogue_10682",
+      "target": "<op()><sp(20)>Of course I would!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10683",
+      "target": "<sp(20)>I-I always think of Sara first.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Gainer Sanga per character_names_021.json; 'Sara' kept as spoken (not replaced with 'you') to match source's third-person phrasing about her."
+    },
+    {
+      "id": "dialogue_10684",
+      "target": "<op()><sp(20)>That makes me happy!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10685",
+      "target": "<op()><sp(20)>This fight of mine\nbegan with an Antibody Coralian.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/addressee inferred as Renton from the following row's 'and that's how we met' reply (matches the Renton/Eureka meeting-origin theme, echoed later at 10693-10699); not asserted with certainty since no speaker tag exists."
+    },
+    {
+      "id": "dialogue_10686",
+      "target": "<op()><sp(20)>And that's how we met.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "See dialogue_10685 uncertainty; likely Eureka's reply completing the exchange."
+    },
+    {
+      "id": "dialogue_10687",
+      "target": "<op()><sp(20)>I don't know what's ahead in this fight.\nBut we can get through it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10688",
+      "target": "<op()><sp(20)>You're right!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10689",
+      "target": "<op()><sp(20)>Everyone...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10690",
+      "target": "<op()><sp(20)>No need to worry.\nEveryone's fighting for you two.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not identified by source; generic reassurance to Renton/Eureka."
+    },
+    {
+      "id": "dialogue_10691",
+      "target": "<sp(20)>Make sure you come back.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10692",
+      "target": "<op()><sp(20)>We've reached the target point!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10693",
+      "target": "<op()><sp(20)>Listen, Nirvash.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Nirvash per unit_names_014_b.json (slot 365 is 'Nirvash spec3', but this row's source text is the plain unit name with no spec3 qualifier, so 'spec3' is not added here)."
+    },
+    {
+      "id": "dialogue_10694",
+      "target": "<sp(20)>Since you and I met,\na lot has happened, huh.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10695",
+      "target": "<sp(20)>Those are precious memories to me.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10696",
+      "target": "<sp(20)>But Eureka was always there beside me.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10697",
+      "target": "<sp(20)>But... but...!\nPlease, Nirvash!<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10698",
+      "target": "<sp(20)>I don't want it to end like this!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10699",
+      "target": "<sp(20)>I need Eureka by my side--!!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10700",
+      "target": "<op()><sp(20)>The Amita Drive responded.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Amita Drive per encyclopedia_022.json (no book-tag wrapper in source for this row)."
+    },
+    {
+      "id": "dialogue_10701",
+      "target": "<op()><sp(20)>Antibody Coralians are still increasing!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10702",
+      "target": "<op()><sp(20)>Go on, Renton.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10703",
+      "target": "<sp(20)>Go and take back the woman you love.\nYou're a man, aren't you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10704",
+      "target": "<op()><sp(20)>Yeah!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10705",
+      "target": "<op()><sp(20)>I... Can... Fly!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'I... Can... Fly!' renders the source's elongated katakana 'a-i...kya-n...fura-i' as a phonetic spelling of the English words 'I can fly', matching the iconic Nirvash line referenced by multiple Eureka Seven fan wikis; not independently confirmed against an official English release."
+    },
+    {
+      "id": "dialogue_10706",
+      "target": "<op()><sp(20)>Sorry, Eureka.\nI have to defeat your kind.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Renton addressing Eureka; 'your kind' avoids asserting further identity beyond 'Coralian' already established for Eureka in glossary."
+    },
+    {
+      "id": "dialogue_10707",
+      "target": "<sp(20)>If that's a sin,\nthen I'll bear it.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10708",
+      "target": "<sp(20)>Even so, I still have to\nget to Eureka--!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10709",
+      "target": "<op()><sp(20)>Antibody Coralians around the Command Cluster!\nTheir number is...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Command Cluster per encyclopedia_022.json; no book tag in this row's source."
+    },
+    {
+      "id": "dialogue_10710",
+      "target": "<op()><sp(20)>Forget the number!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10711",
+      "target": "<op()><sp(20)>That's right... take them all down!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10712",
+      "target": "<op()><sp(20)>Open the way for the two of them!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10713",
+      "target": "<op()><sp(20)>Thank you, everyone...\nI'm going to Eureka.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10714",
+      "target": "<op()><sp(20)>Make sure you bring Eureka back!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10715",
+      "target": "<op()><sp(20)>I'll be waiting, Renton!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10716",
+      "target": "<op()><sp(20)>You'd better not come back empty-handed!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+ "reviewer": "independent_meaning_review_shouts_agent",
+ "slice_start": 13115,
+ "slice_count": 78,
+ "rows_examined": [{"start": 13100, "end": 13207}],
+ "rows_examined_count": 108,
+ "rows_in_slice": 78,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [
+  {
+   "id": "dialogue_13131",
+   "before": "Trust your skill.",
+   "after": "I'll trust in you.",
+   "reason": "The source line has Meio himself doing the trusting (volitional form of 'to believe/trust' = 'I will trust'), not commanding the ally to trust themselves. The draft reversed the subject of the trusting. Fits the 18-char budget."
+  },
+  {
+   "id": "dialogue_13136",
+   "before": "Thanks",
+   "after": "Good.",
+   "reason": "The source line is a superior's terse commendation ('well done'/'good work'), not an expression of gratitude. 'Thanks' casts proud commander Meio (character_names_021.json: 'calm, proud, charismatic soldier') as thanking a subordinate, contradicting his tone. 'Good.' keeps the commendation register within the 6-char budget."
+  },
+  {
+   "id": "dialogue_13153",
+   "before": "Going home!",
+   "after": "Home, alive!",
+   "reason": "The source line specifically asserts Min will return ALIVE -- a defiant survival boast fitting her fierce personality (character_names_021.json). 'Going home!' dropped that assertion entirely, though 'Home, alive!' fits the same 12-char budget and restores it."
+  }
+ ],
+ "format_fixes": [
+  {"id": "dialogue_13173", "before": "Heh, I like young ones,<LF>so plucky and bold!", "after": "Heh, I like young ones, so plucky and bold!", "reason": "Shout rows must have NO newline in the target (source line breaks are joined); the draft kept the source's embedded line break as a literal newline (shown here as <LF>). Joined into one line, still within the 46-char budget."},
+  {"id": "dialogue_13176", "before": "My work here<LF>isn't done yet!", "after": "My work here isn't done yet!", "reason": "Same newline-join fix as 13173; still within the 40-char budget."},
+  {"id": "dialogue_13184", "before": "A hell of a guy showed up...!<LF>Don't slip up!", "after": "A hell of a guy showed up...! Don't slip up!", "reason": "Same newline-join fix as 13173; still within the 46-char budget."},
+  {"id": "dialogue_13188", "before": "Well done.<LF>Hurry back!", "after": "Well done. Hurry back!", "reason": "Same newline-join fix as 13173; still within the 34-char budget."}
+ ],
+ "checked_decisions": [
+  {"rows": [13137], "finding": "The source line (I won't forget this time's performance/service) is compressed to 'I won't forget this...!' under a 26-char budget; drops the explicit 'your service' object but keeps Meio as the one remembering and the ally as the one being remembered -- no subject/addressee reversal."},
+  {"rows": [13140], "finding": "The source line is correctly read via the ironic combat sense of a verb meaning to 'lovingly' rough someone up (not literal affection); 'I'll work you over!' matches Min's fierce/rough personality (character_names_021.json) and avoids a false-affection mistranslation."},
+  {"rows": [13188], "finding": "The source's plural addressee marker ('you all') is dropped in 'Well done.' but the line is still clearly addressed to a group returning from battle in context (row 13135's 'All units, return.' precedes it); not a meaning-critical loss."}
+ ],
+ "uncertainties": [
+  {"id": "dialogue_13191", "issue": "The source line ('Alright, heading back!') is compressed to 'Back we go!' under a 12-char hard budget, dropping the leading interjection framing; core retreat meaning kept. Left as-is -- the interjection carries no distinct propositional content."},
+  {"id": "dialogue_13178", "issue": "The source line specifies the addressee as male, a detail confirmed by the source itself (not an invented gender per BASE_RULES, since the source itself states it); 'Nobody likes a pest!' generalizes it away for budget reasons (22-char budget). Flagging since it's a real detail loss, though not a factual error (nothing invented, just omitted)."}
+ ],
+ "validation": {
+  "controls": "All <op()><sp(20)>...<ab(1000)><ed()> command sequences re-checked against the console source dump for rows 13115-13192; identical and in the same order in every row, including all fixed rows.",
+  "fit": "Re-verified the row's hard budget (min(72, 2*source_chars-2)) for every row and for all replacement strings (13131: 18/18 chars; 13136: 5/6 chars; 13153: 12/12 chars; plus the 4 newline-joined rows); no row exceeds its budget.",
+  "format": "Found and fixed 4 rows (13173, 13176, 13184, 13188) that kept a literal newline in the target mirroring the source's own line break; joined into single lines per the shout-specific 'no newline' rule. Re-ran the check after fixing: 0 rows with newlines remain in this batch. All ASCII (no lowercase j/q outside locked names, none present here).",
+  "runtime": "Visual fit at runtime beyond the byte-budget formula is not established by this meaning review."
+ }
+}

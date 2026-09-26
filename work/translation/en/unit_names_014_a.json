@@ -1,0 +1,755 @@
+{
+  "version": "0.1.14",
+  "table_id": 3000,
+  "source_bundle": 4002050,
+  "source_iso": "ACE3-English-0.1.13.iso",
+  "review": {
+    "status": "meaning_reviewed",
+    "reviewer": "unit_names_014_a",
+    "rows_examined": 106,
+    "rows_in_slice": 80,
+    "scope": "First 80 consecutive non-null unit roster rows; all 106 read for neighboring variants. Checked source forms against ACE3 mech roster and cited franchise sources. Parent independent review pending.",
+    "uncertainties": [
+      "Red Nanajin versus Akka Nanajin naming convention; game-wiki spelling retained.",
+      "Millia versus Milia and Fokker versus Focker are source variations; ACE3 wiki spelling retained.",
+      "No in-game width validation performed by translator."
+    ],
+    "independent_review": "notice_review_014: all 197 roster and variant rows checked; no model/pilot/form swaps. Compact Akito C., Hi-Mob., and GW approved; full_en retains full names."
+  },
+  "rows": [
+    {
+      "slot": 0,
+      "source": "ガンアーク",
+      "en": "Gun Ark",
+      "full_en": "Gun Ark",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 1,
+      "source": "ブラッドアーク",
+      "en": "Blood Ark",
+      "full_en": "Blood Ark",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 2,
+      "source": "イクスブラウ",
+      "en": "Ixbrau",
+      "full_en": "Ixbrau",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 3,
+      "source": "イクスブラウ　ｆｏｒｍ－Ｂ",
+      "en": "Ixbrau form-B",
+      "full_en": "Ixbrau form-B",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 4,
+      "source": "イクスブラウ　ｆｏｒｍ－Ｇ",
+      "en": "Ixbrau form-G",
+      "full_en": "Ixbrau form-G",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 5,
+      "source": "イクスブラウ　ｆｏｒｍ－Ｔ",
+      "en": "Ixbrau form-T",
+      "full_en": "Ixbrau form-T",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 6,
+      "source": "イクスブラウ　ｆｏｒｍ－Ｈ",
+      "en": "Ixbrau form-H",
+      "full_en": "Ixbrau form-H",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 12,
+      "source": "グレイブアーク",
+      "en": "Grave Ark",
+      "full_en": "Grave Ark",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 13,
+      "source": "グレイブアーク・ファントム",
+      "en": "Grave Ark Phantom",
+      "full_en": "Grave Ark Phantom",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 14,
+      "source": "νガンダム",
+      "en": "nu Gundam",
+      "full_en": "nu Gundam",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 15,
+      "source": "νガンダム（ＨＷＳ）",
+      "en": "nu Gundam (HWS)",
+      "full_en": "nu Gundam (HWS)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 24,
+      "source": "リ・ガズィ",
+      "en": "Re-GZ",
+      "full_en": "Re-GZ",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 34,
+      "source": "サザビー",
+      "en": "Sazabi",
+      "full_en": "Sazabi",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 35,
+      "source": "ヤクト・ドーガ（ギュネイ）",
+      "en": "Jagd Doga (Gyunei)",
+      "full_en": "Jagd Doga (Gyunei)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 36,
+      "source": "ヤクト・ドーガ（クェス）",
+      "en": "Jagd Doga (Quess)",
+      "full_en": "Jagd Doga (Quess)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 37,
+      "source": "リ・ガズィ（ＢＷＳ）",
+      "en": "Re-GZ (BWS)",
+      "full_en": "Re-GZ (BWS)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 38,
+      "source": "ウイングガンダムゼロ",
+      "en": "Wing Gundam Zero",
+      "full_en": "Wing Gundam Zero",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 39,
+      "source": "ダンバイン",
+      "en": "Dunbine",
+      "full_en": "Dunbine",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ],
+      "note": "The ACE3 wiki English heading Dunbine is correct, but its adjacent Japanese parenthesis erroneously repeats Billbine; the extracted Japanese source unambiguously says Dunbine."
+    },
+    {
+      "slot": 49,
+      "source": "ビルバイン",
+      "en": "Billbine",
+      "full_en": "Billbine",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 50,
+      "source": "ビルバイン　迷彩カラー",
+      "en": "Billbine (Camouflage)",
+      "full_en": "Billbine (Camouflage)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 59,
+      "source": "ズワァース",
+      "en": "Zwarth",
+      "full_en": "Zwarth",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 69,
+      "source": "レプラカーン",
+      "en": "Leprechaun",
+      "full_en": "Leprechaun",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database",
+        "https://tamashiiweb.com/item/672?wovn=en"
+      ]
+    },
+    {
+      "slot": 70,
+      "source": "ドラグナー１型カスタム",
+      "en": "Dragonar-1 Custom",
+      "full_en": "Dragonar-1 Custom",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 80,
+      "source": "ドラグナー２型カスタム",
+      "en": "Dragonar-2 Custom",
+      "full_en": "Dragonar-2 Custom",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 90,
+      "source": "ドラグナー３型（後期型）",
+      "en": "Dragonar-3 (Late Model)",
+      "full_en": "Dragonar-3 (Late Model)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 98,
+      "source": "ファルゲン・マッフ",
+      "en": "Falguen MAFFU",
+      "full_en": "Falguen MAFFU",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 100,
+      "source": "ファルゲンカスタム",
+      "en": "Falguen Custom",
+      "full_en": "Falguen Custom",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 101,
+      "source": "スターク・ダイン",
+      "en": "Stark Deins",
+      "full_en": "Stark Deins",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database",
+        "https://roboken.sunrise-world.net/reference/detail/?id=1641"
+      ]
+    },
+    {
+      "slot": 102,
+      "source": "ギルガザムネ",
+      "en": "Gilgazamune",
+      "full_en": "Gilgazamune",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 103,
+      "source": "ドラグーン",
+      "en": "Dragoon",
+      "full_en": "Dragoon",
+      "sources": [
+        "https://www.dragonar.net/mechanics/e04.php"
+      ]
+    },
+    {
+      "slot": 104,
+      "source": "ヒメ・ブレン",
+      "en": "Hime Brain",
+      "full_en": "Hime Brain",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 114,
+      "source": "ユウ・ブレン",
+      "en": "Yuu Brain",
+      "full_en": "Yuu Brain",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 115,
+      "source": "ネリー・ブレン",
+      "en": "Nelly Brain",
+      "full_en": "Nelly Brain",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 124,
+      "source": "ジョナサン・バロンズゥ",
+      "en": "Jonathan Baronz",
+      "full_en": "Jonathan Baronz",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 125,
+      "source": "クインシィ・バロンズゥ",
+      "en": "Quincy Baronz",
+      "full_en": "Quincy Baronz",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 126,
+      "source": "ブラックサレナ",
+      "en": "Black Sarena",
+      "full_en": "Black Sarena",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database",
+        "https://www.goodsmile.com/en/product/22012/MODEROID%2BBlack%2BSarena"
+      ]
+    },
+    {
+      "slot": 136,
+      "source": "エステバリス（アキト専用機）",
+      "en": "Aestivalis (Akito C.)",
+      "full_en": "Aestivalis (Akito Custom)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 146,
+      "source": "エステバリスＣ（リョーコ）",
+      "en": "Aestivalis C (Ryoko)",
+      "full_en": "Aestivalis Custom (Ryoko)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 156,
+      "source": "エステバリスＣ（ヒカル）",
+      "en": "Aestivalis C (Hikaru)",
+      "full_en": "Aestivalis Custom (Hikaru)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 166,
+      "source": "エステバリスＣ（イズミ）",
+      "en": "Aestivalis C (Izumi)",
+      "full_en": "Aestivalis Custom (Izumi)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 176,
+      "source": "アルストロメリア",
+      "en": "Alstroemeria",
+      "full_en": "Alstroemeria",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 177,
+      "source": "夜天光",
+      "en": "Yatenko",
+      "full_en": "Yatenko",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 178,
+      "source": "高機動型ブラックサレナ",
+      "en": "Hi-Mob. Black Sarena",
+      "full_en": "High Mobility Black Sarena",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 179,
+      "source": "ＶＦ－１Ａ・輝",
+      "en": "VF-1A (Hikaru)",
+      "full_en": "VF-1A (Hikaru)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 180,
+      "source": "ＶＦ－１Ａ（Ｓ）・輝",
+      "en": "VF-1A(S) (Hikaru)",
+      "full_en": "VF-1A(S) (Hikaru)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 189,
+      "source": "ＶＦ－１Ａ・マックス",
+      "en": "VF-1A (Max)",
+      "full_en": "VF-1A (Max)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 190,
+      "source": "ＶＦ－１Ａ（Ｓ）・マックス",
+      "en": "VF-1A(S) (Max)",
+      "full_en": "VF-1A(S) (Max)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 199,
+      "source": "ＶＦ－１Ｓ・輝",
+      "en": "VF-1S (Hikaru)",
+      "full_en": "VF-1S (Hikaru)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 200,
+      "source": "ＶＦ－１Ｓ（Ｓ）・輝",
+      "en": "VF-1S(S) (Hikaru)",
+      "full_en": "VF-1S(S) (Hikaru)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 209,
+      "source": "ＶＦ－１Ｓ・マックス",
+      "en": "VF-1S (Max)",
+      "full_en": "VF-1S (Max)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 210,
+      "source": "ＶＦ－１Ｓ（Ｓ）・マックス",
+      "en": "VF-1S(S) (Max)",
+      "full_en": "VF-1S(S) (Max)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 219,
+      "source": "ＶＦ－１Ｓ・フォッカー",
+      "en": "VF-1S (Fokker)",
+      "full_en": "VF-1S (Fokker)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 220,
+      "source": "ＶＦ－１Ｓ（Ｓ）・フォッカー",
+      "en": "VF-1S(S) (Fokker)",
+      "full_en": "VF-1S(S) (Fokker)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 229,
+      "source": "アーマードバルキリー",
+      "en": "Armored Valkyrie",
+      "full_en": "Armored Valkyrie",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 239,
+      "source": "ＶＦ－１Ｊ",
+      "en": "VF-1J",
+      "full_en": "VF-1J",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 249,
+      "source": "クァドラン・ロー（マックス）",
+      "en": "Queadluun-Rau (Max)",
+      "full_en": "Queadluun-Rau (Max)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 250,
+      "source": "クァドラン・ロー（ミリア）",
+      "en": "Queadluun-Rau (Millia)",
+      "full_en": "Queadluun-Rau (Millia)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ],
+      "note": "Millia follows the ACE3 roster. Other Macross references use Milia; normalization remains an editorial consistency decision, not an official localization claim."
+    },
+    {
+      "slot": 251,
+      "source": "ゴッドガンダム",
+      "en": "God Gundam",
+      "full_en": "God Gundam",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 260,
+      "source": "マスターガンダム",
+      "en": "Master Gundam",
+      "full_en": "Master Gundam",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 261,
+      "source": "ナナジン",
+      "en": "Nanajin",
+      "full_en": "Nanajin",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 262,
+      "source": "アッカナナジン",
+      "en": "Red Nanajin",
+      "full_en": "Red Nanajin",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database",
+        "https://www.rean-wings.net/prod_i6.html",
+        "https://www.siliconera.com/heroman-and-many-other-mecha-in-the-mix-for-super-robot-taisen-ux/"
+      ],
+      "note": "ACE3-specific roster uses Red Nanajin; alternate transliteration Akka Nanajin is separately attested. Red Nanajin follows the game wiki per project policy."
+    },
+    {
+      "slot": 271,
+      "source": "オウカオー",
+      "en": "Oukaou",
+      "full_en": "Oukaou",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 272,
+      "source": "ガンダムＸ",
+      "en": "Gundam X",
+      "full_en": "Gundam X",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 273,
+      "source": "ガンダムＸディバイダー",
+      "en": "Gundam X Divider",
+      "full_en": "Gundam X Divider",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 282,
+      "source": "ガンダムＤＸ",
+      "en": "Gundam DX",
+      "full_en": "Gundam DX",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 283,
+      "source": "ガンダムＤＸ（Ｇファルコン）",
+      "en": "Gundam DX (G-Falcon)",
+      "full_en": "Gundam DX (G-Falcon)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 292,
+      "source": "ガンダムエアマスター",
+      "en": "Gundam Airmaster",
+      "full_en": "Gundam Airmaster",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 302,
+      "source": "ガンダムレオパルド",
+      "en": "Gundam Leopard",
+      "full_en": "Gundam Leopard",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 312,
+      "source": "ガンダムヴァサーゴ",
+      "en": "Gundam Virsago",
+      "full_en": "Gundam Virsago",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 313,
+      "source": "ガンダムヴァサーゴ　ＣＢ",
+      "en": "Gundam Virsago CB",
+      "full_en": "Gundam Virsago CB",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 322,
+      "source": "ガンダムアシュタロン",
+      "en": "Gundam Ashtaron",
+      "full_en": "Gundam Ashtaron",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 323,
+      "source": "ガンダムアシュタロン　ＨＣ",
+      "en": "Gundam Ashtaron HC",
+      "full_en": "Gundam Ashtaron HC",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 324,
+      "source": "真ゲッター１（號）",
+      "en": "Shin Getter-1 (Go)",
+      "full_en": "Shin Getter-1 (Go)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ],
+      "note": "Source selection-table name explicitly says Getter-1 for each of these slots; preserve it even though combat transformations can use Getter-2 or Getter-3."
+    },
+    {
+      "slot": 325,
+      "source": "真ゲッター１（號）",
+      "en": "Shin Getter-1 (Go)",
+      "full_en": "Shin Getter-1 (Go)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ],
+      "note": "Source selection-table name explicitly says Getter-1 for each of these slots; preserve it even though combat transformations can use Getter-2 or Getter-3."
+    },
+    {
+      "slot": 326,
+      "source": "真ゲッター１（號）",
+      "en": "Shin Getter-1 (Go)",
+      "full_en": "Shin Getter-1 (Go)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ],
+      "note": "Source selection-table name explicitly says Getter-1 for each of these slots; preserve it even though combat transformations can use Getter-2 or Getter-3."
+    },
+    {
+      "slot": 327,
+      "source": "真ゲッター１（竜馬）",
+      "en": "Shin Getter-1 (Ryoma)",
+      "full_en": "Shin Getter-1 (Ryoma)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ],
+      "note": "Source selection-table name explicitly says Getter-1 for each of these slots; preserve it even though combat transformations can use Getter-2 or Getter-3."
+    },
+    {
+      "slot": 328,
+      "source": "真ゲッター１（竜馬）",
+      "en": "Shin Getter-1 (Ryoma)",
+      "full_en": "Shin Getter-1 (Ryoma)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ],
+      "note": "Source selection-table name explicitly says Getter-1 for each of these slots; preserve it even though combat transformations can use Getter-2 or Getter-3."
+    },
+    {
+      "slot": 329,
+      "source": "真ゲッター１（竜馬）",
+      "en": "Shin Getter-1 (Ryoma)",
+      "full_en": "Shin Getter-1 (Ryoma)",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ],
+      "note": "Source selection-table name explicitly says Getter-1 for each of these slots; preserve it even though combat transformations can use Getter-2 or Getter-3."
+    },
+    {
+      "slot": 334,
+      "source": "ブラックゲッター",
+      "en": "Black Getter",
+      "full_en": "Black Getter",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    },
+    {
+      "slot": 335,
+      "source": "∀ガンダム",
+      "en": "Turn A Gundam",
+      "full_en": "Turn A Gundam",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database"
+      ]
+    }
+  ]
+}

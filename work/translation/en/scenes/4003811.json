@@ -1,0 +1,79 @@
+{
+ "resource_id": 4003811,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 7,
+ "rows_examined": 7,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "NO DATA",
+   "notes": "",
+   "source_sha256": "1187a1c8c01e16d2c1d8245214d11ffa88ee84f3c4c4460fbdc466a82361c480"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(19050,1)><speed(2)><move(1,8,3)>We're detecting an unprecedentedly massive heat source<marker(44,8,3,0)> ahead. It's probably... <color(5)>Berkt<ce()>.<move(2,8,3)>",
+   "notes": "",
+   "source_sha256": "d869075a146c05eba13952215c2e06b1840e25412c69763340645a34b6409c74"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(19050,1)><speed(2)>Our final<move(1,8,13)> battle<marker(1,8,13,0)> is to eliminate it.<move(2,8,13)>",
+   "notes": "",
+   "source_sha256": "6f97e0f5bdc5448c40034c9f16c5cc8548aafacff55d7e735087c6682b469211"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(19050,1)><speed(2)>Everyone... I'm counting on you.",
+   "notes": "",
+   "source_sha256": "f321a1b46bf732c39e80e0dce5289fccc0a16f7cf0201cd9f45204d1a981e234"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17040,1)><speed(2)>Make sure you all come back alive. That is part of the operation too.",
+   "notes": "",
+   "source_sha256": "43a6f5a22f2ae6b4c119d8d6b4e8fba00737dba91abb76b9ca8e2a8e6cb78065"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)>That is right. We should be able to do this.",
+   "notes": "",
+   "source_sha256": "925ae7119522a1843070fbae9315caab56510d90a6ee095704035e3dc91cb972"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>Please... be careful.",
+   "notes": "",
+   "source_sha256": "037ff8ecccf0d546fb259e435188b65744cd347775469834dcd2ee61cb9b6814"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 7,
+  "rows_in_scene": 7,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 'NO DATA' is a placeholder title, unchanged.",
+   "Speakers verified: 19050 = Hayato Jin, 17040 = Jamil Neate, 12031 = Ruri Hoshino (speaker_lookup.py); tags left unchanged per project rule regardless.",
+   "Slots 19-24 checked word-for-word against source: heat-source/Berkt detection, 'final battle', 'come back alive' as part of the operation, and Ruri's closing lines all match; no reversed meaning, no invented subject, no dropped clause endings."
+  ],
+  "remaining_uncertainties": []
+ }
+}

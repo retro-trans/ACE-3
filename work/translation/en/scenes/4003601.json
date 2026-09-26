@@ -1,0 +1,90 @@
+{
+ "resource_id": 4003601,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 7,
+ "rows_examined": 7,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21030,1)><speed(2)><move(1,3,7)>I will explain this operation<marker(2,3,7,0)> to<marker(11,7,7,0)> you now.<move(2,3,7)><picture(80,30,7,0)><refer(30,7,7,7)>",
+   "notes": "",
+   "source_sha256": "1066ed3113b4907176376f4452ab97277a898552d5f9b758e4b910180f4df83f"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21030,1)><speed(2)><move(1,7,4)>Find<marker(27,3,2,0)> the enemy's<marker(27,7,4,0)> <color(5)>ba<marker(27,10,3,0)>ses<ce()> within the operation area, and <move(1,7,11)>capture<marker(27,10,10,0)> every<marker(27,7,11,0)> last<marker(27,4,12,0)> one.<move(2,10,3)><picture(83,2,14,0)><refer(2,14,10,10)>",
+   "notes": "",
+   "source_sha256": "e513c539f8a21c1107901ec0a7da9a971a0ea75db2c8096b41d47feeda1a879a"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21030,1)><speed(2)>But<marker(20,0,0,0)> I<marker(20,5,4,0)> don't<marker(20,13,0,0)><marker(20,14,2,0)> think<marker(20,14,12,0)><marker(20,13,14,0)> they'll<marker(20,6,9,0)> simply<marker(37,12,5,0)> back down,<danger(1)> so I think the <color(4)>bases we've captured<ce()> are what they'll <color(6)>come to retake<ce()>.",
+   "notes": "Reworded 'just quietly give up' to 'simply back down' to avoid lowercase j/q glyphs; marker tag kept in the same place. Meaning ('won't meekly yield') preserved.",
+   "source_sha256": "4100450ecdca793d1ee3eb9517cbb75e1d893468b7a26271f706d24568dc0c19"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(21030,1)><speed(2)><color(4)>The bases we've captured<ce()> will be <move(1,9,6)>guarded by the <book(6)>Flail<endbook()> unit<marker(7,9,6,0)>, but if <move(1,8,9)>it<marker(7,8,9,0)> gets taken out, the <color(5)>base<ce()> will<move(2,6,9)><picture(84,30,14,0)><refer(30,14,8,9)> be retaken.",
+   "notes": "",
+   "source_sha256": "025edf82c404dbb7b46cae70ef34fc9292c47fac4963763442ac9858fcba80ef"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(21030,1)><speed(2)>To keep that from happening, please capture all the <color(5)>bases<ce()> as fast as you can!",
+   "notes": "Reworded to avoid a j/q glyph (quickly -> fast).",
+   "source_sha256": "0c33e18b258ee3ecc05d88cdf08851f29e754a2012543e3d38472da80c6973e7"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<delpic(2,7,1)><enemylist()><operator(21030,1)><speed(2)>Well then, I am counting on you!",
+   "notes": "",
+   "source_sha256": "ed10bada565e0a517b24c3c56d4f85a5713c821bae9b275e73c765ddc64cc9f6"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 22,
+   "issue": "Source's second \"the captured bases\" is singular (kyoten, not seiatsu shita kyoten); kept singular 'the base' for the second mention to mirror that distinction, meaning the base that lost its guard is retaken (not all of them)."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 7,
+  "rows_in_scene": 7,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker 21030 = Sara Kodama (all rows); matches source, not altered.",
+   "Slot 0 title 'New Federation' for source 'Shin Renpou': locked, unchanged.",
+   "Slot 20 'subete seiatsu shite kudasai' -> 'capture every last one': source has explicit 'subete' (all/every), so 'every last one' is supported here (contrast with 4003581 slot21, fixed separately, whose source has no 'subete').",
+   "Slot 21: reworded 'just quietly give up' to 'simply back down' to remove lowercase j/q glyphs, per orchestrator ruling; meaning ('won't meekly yield') preserved, marker tag kept in place.",
+   "Slot 22 uncertainty accepted: the source's second 'kyoten' (base) drops the 'seiatsu shita' (captured) modifier used on the first mention, so singular 'the base' for the second mention correctly reads as 'whichever base loses its Flail guard gets retaken', not 'all bases at once'. Kept as translator drafted; listed below as a remaining uncertainty for visibility.",
+   "Slot 23: reworded 'as quickly as you can' to 'as fast as you can' to remove the lowercase q glyph, per orchestrator ruling; meaning unchanged.",
+   "Command tags: identical set and order versus source in every row (verified programmatically, including after the slot 21/23 edits); visible lengths all within the 128-char limit; no bare %, no newline, ASCII only."
+  ],
+  "remaining_uncertainties": [
+   "Slot 22: singular 'the base' for the second, unmodified 'kyoten' is a defensible but not certain reading (that a single base is retaken when its own Flail guard falls, rather than all captured bases); left as drafted."
+  ]
+ }
+}

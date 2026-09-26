@@ -1,0 +1,20 @@
+[
+  {
+    "term_romaji": "bento roru (ベントロール)",
+    "en": "Vent Roll",
+    "source": "dialogue_03901",
+    "why": "Unidentified Gekko/ship control-surface part hit by enemy fire in the same line as a rudder loss and steering-efficiency drop. No hit in work/glossary, work/translation/en, or an English-language web search for an Eureka Seven ship part by this name. Transliterated as a proper part name pending confirmation; treat as provisional."
+  },
+  {
+    "term_romaji": "ra-da- (ラーダー)",
+    "en": "Rudder",
+    "source": "dialogue_03901",
+    "why": "Katakana spelling differs from both the standard 'radar' (レーダー) and 'rudder' (ラダー) transliterations. Rendered as 'Rudder' because the same sentence pairs its loss with a steering-efficiency drop, but this is inferred from context, not attested; flag for confirmation before treating as locked."
+  },
+  {
+    "term_romaji": "oba-man batoru (オーバーマンバトル)",
+    "en": "Overman battle",
+    "source": "dialogue_03888",
+    "why": "Line compares an enemy's speed unfavorably to 'Overman battles'. 'Overman' is otherwise attested in this corpus only as the King Gainer mecha type; no Eureka Seven-side or ACE3-specific source was found for this compound term. Transliterated literally (borrowing the existing 'Overman' spelling) rather than inventing a new coinage; flag for orchestrator review since this may be an intentional ACE3 crossover reference or may need a different rendering."
+  }
+]

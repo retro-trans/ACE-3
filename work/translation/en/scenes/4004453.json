@@ -1,0 +1,437 @@
+{
+ "resource_id": 4004453,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 51,
+ "rows_examined": 51,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(19020,2)><speed(2)>Hey, hey, are you the people who supposedly came from a faraway world?",
+   "notes": "",
+   "source_sha256": "e260279c6175741a743aaf027f6c8910d40821d66db76662f6ccf1591583d2ea"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(19020,2)><speed(2)>I pilot <color(4)>Shin Getter-2<ce()>. I'm <color(4)>Kei<ce()>. Let's beat <color(5)>Shin Dragon<ce()> with our own hands and bring peace back fast.",
+   "notes": "Unit name placed before the personal name so the colored spans stay in source order.",
+   "source_sha256": "4238744fefe9c48c0c9cf7908fa0d3e8f6fc36174c8db855e041255bba231a5f"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(19020,2)><speed(2)>Let me introduce the other two. The pilot of <color(4)>Shin Getter-1<ce()> is <color(4)>Go<ce()>.",
+   "notes": "",
+   "source_sha256": "258fafe058bc34a655948c9b1e60ebad9acf4959f06be9f06bd0b528113ce9fe"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(19010,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "7efdbd81c372afc82d4f59eeb6b89a29b03518b0df865d4546e6bd4d41a9aae1"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(19030,2)><speed(2)>I'm <color(4)>Gai<ce()>. I pilot <color(4)>Shin Getter-3<ce()>.",
+   "notes": "",
+   "source_sha256": "379f8c0148b730cae9cf6eea91e6f1a76cfe1c65ef64cd6ea8cba020c11ae15f"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(19060,1)><speed(2)>I'm <color(4)>Benkei<ce()>. I used to be a Getter pilot, but these days I back these three up.",
+   "notes": "",
+   "source_sha256": "2038015d187491371b57365b4b1cc3235cc4bf7537400b5a5b18becaaba27e7c"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(19060,1)><speed(2)>They haven't been piloting long, but I'm counting on you. Look after my daughter <color(4)>Kei<ce()> too.",
+   "notes": "",
+   "source_sha256": "603db1baf409d6b53caa09ebc6af9742cb8038ebd1abdbaf55b571bbc1e1c8f4"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(5010,1)><speed(2)>Sure. Glad to have you with us.",
+   "notes": "",
+   "source_sha256": "255fb96d4efdde6eb496708f124355feac10a775b2da9c7c86c8b3757874f284"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(10020,1)><speed(2)>Still, this <color(4)>Shin Getter<ce()> is one heck of a machine... man.",
+   "notes": "",
+   "source_sha256": "5302a3c821dd7a4765b5700db16395e559693fdf703bef819a36190bd83e4062"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1040,1)><speed(2)>Hey, <color(4)>Faye<ce()>. When are we going to be able to catch this <color(5)>Berkt<ce()> guy?",
+   "notes": "",
+   "source_sha256": "77bccde6b83be1cfece74706dfacc377d318a9af748d1d571622fedc5d20af74"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>, right now you need to focus on the operation.",
+   "notes": "",
+   "source_sha256": "f6a0fbe2c8361fffa7f83b26c6635d1dfd94f82a0503ad0449aca1f9da09ccd7"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1040,1)><speed(2)>But if we keep doing things like this, we'll never get to go home.",
+   "notes": "",
+   "source_sha256": "125a03a110a7916234318f849fa97f4d718c3f9dad691439333f19d80baa947e"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(12031,1)><speed(2)>Ensign <color(4)>Barrel<ce()>. I have already explained why our cooperation matters, have I not?",
+   "notes": "shoui = Ensign per the project's rank notes (Ensign/Lieutenant convention); no reviewed row with Barrel's rank found to confirm.",
+   "source_sha256": "2abdb242021dafcbd1324f084926f6510b0a6a808d3a8e4d91d5baa7c93c80d2"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(1040,1)><speed(2)>...I know that.",
+   "notes": "",
+   "source_sha256": "4ee4401dc37b3c3079a9ef516bf87ee69aa47a1244a7f90029d034b7a62a595e"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(1060,1)><speed(2)>You should be that agreeable from the start.",
+   "notes": "",
+   "source_sha256": "836d4d91142e500163da07a4ea7369d3a8008f8cd2fbfdf06daff8df7fbf51de"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17010,1)><speed(2)><color(4)>Gainer<ce()>, was it? So you ended up dragged into this too.",
+   "notes": "",
+   "source_sha256": "29f4328de27434dceab1061d540bb319776534a7f71ef553aefab92439dd412c"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21010,1)><speed(2)>I don't intend to stay in a place like this for long.",
+   "notes": "",
+   "source_sha256": "a2528938ee5949da03c67e1c82831ab1b1f5a93e18a6e7709074f8c665365bc1"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>Yeah, of course not...",
+   "notes": "Barrel sympathizing with Gainer's wish to leave.",
+   "source_sha256": "5de05e828bb8bcae2f394cbda700b362472a28ec2250582eb57043bbbe452214"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>Feel like you're looking at yourself from a little while ago?",
+   "notes": "",
+   "source_sha256": "f9f58ce94cc6faa2c1cca96ed5ec0e3d4483e27837f00254a9a5092db79e6915"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)>I'm getting off this ship too once we get back!",
+   "notes": "",
+   "source_sha256": "39b612e075d3c02c7c174e29d92d3cff98623d324c74bf37d88c2fcec0a936f8"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)>The <color(5)>Invaders<ce()> gather at <color(5)>Shin Dragon<ce()> in search of Getter Rays... huh.",
+   "notes": "",
+   "source_sha256": "d6bf76ebc0d5a9a728da8f0a2ff5649397337eec2f6f86e689bf77e1a53acbb9"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>In other words, it's also a chance to wipe out both at once.",
+   "notes": "",
+   "source_sha256": "f94b43826c309129b860fb5e78107200a7c5e8df83d51bdf1f62b843e033676f"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(25010,1)><speed(2)>I'm getting tired of fighting those monsters anyway. I'd like to finish them off right about now.",
+   "notes": "",
+   "source_sha256": "0e59ad71f164f5f5968db058a7c7c302fa836fc2c15a73d076549c3f00a62097"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(19060,1)><speed(2)>Don't... underestimate them.",
+   "notes": "",
+   "source_sha256": "176da1e04a99820910ab6984535b35ea8caf54c39bd01daba442ccd00a7d3baf"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(19060,1)><speed(2)><color(4)>Hayato<ce()> and I once rode Getter and fought them to the death on the lunar surface.",
+   "notes": "",
+   "source_sha256": "6e4bd33c0d7f5ef842b0af1c778a20f0cd9ff003dbcaa816c7833552a12d5d62"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(19060,1)><speed(2)>But when we thought we had destroyed them, they revived and showed themselves before us again...",
+   "notes": "",
+   "source_sha256": "2a140a26cb8cc53d63b54aec70a84741df36d425efdea789c7e37d7e265c0c78"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(19050,1)><speed(2)>And even now they fly around as if they own the place, wreaking all the destruction they can.",
+   "notes": "",
+   "source_sha256": "f5955e47684fa61f2082c7711b171cf24854ff24b248a1baa64c503f2a15a16c"
+  },
+  {
+   "table": 1,
+   "slot": 66,
+   "text_id": 67,
+   "en": "<operator(25010,1)><speed(2)>Being scared won't get us anywhere. We only have to smash 'em, right?!",
+   "notes": "",
+   "source_sha256": "b46acf9e4f6fa0b0949da39939827d47be75ba2ce8c2a66ceadf7bdacd99abb0"
+  },
+  {
+   "table": 1,
+   "slot": 67,
+   "text_id": 68,
+   "en": "<operator(19050,1)><speed(2)>Heh... exactly. It's reassuring to have a man like you around.",
+   "notes": "",
+   "source_sha256": "88e5d7147059ecd109ca3f1cdcb031b5eee0daa243b5f3af93a268f6b36a2e18"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(19020,1)><speed(2)><color(5)>Shin Dragon<ce()> and the <color(5)>Invaders<ce()>... I will never forgive them.",
+   "notes": "",
+   "source_sha256": "d03e54646c0b6d380e4c98950db6b5967a98566483faeacad27508ccd97f3e83"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,1)><speed(2)>That's some heavy talk. What happened?",
+   "notes": "",
+   "source_sha256": "9649036bbe85bd782e6fc6feae73c008e3d4c8db2bd2ecfcb8aeed7ab8e3c548"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(19030,1)><speed(2)>Thanks to <color(5)>Shin Dragon<ce()>, we were forced to live a dark, harsh life in an underground shelter.",
+   "notes": "",
+   "source_sha256": "817e7d957f6e39164554e501d6c874e579a68dc65556f6a26b7536773672b736"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(19020,1)><speed(2)>That's not all. We lived in constant terror, always cowering at their shadow.",
+   "notes": "",
+   "source_sha256": "d061546aa0b0d6ade8372c50a2896f6dc63d88a6bb885c6892b3b84e05e3ad89"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(10030,1)><speed(2)>Man, you've been through something awful...",
+   "notes": "",
+   "source_sha256": "eeaf003e3926df31fdcaab879a106036c5a623204b844e6400b6e87dfae7cb30"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(10010,1)><speed(2)>We're gonna lend you a hand too!",
+   "notes": "",
+   "source_sha256": "e07c7418ab40454da0d3a47ffa295d189f24e8383fb01446ee4037186fb7b356"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17010,1)><speed(2)>...I wonder if <color(4)>Tiffa<ce()> is okay.",
+   "notes": "",
+   "source_sha256": "419ccec9b8e050bf070b0307a111d92738fa6ad152476251f31d9c0df7ec876a"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(17030,1)><speed(2)>What's up, <color(4)>Garrod<ce()>?",
+   "notes": "",
+   "source_sha256": "4b78c25e2edb329aaf17a9b0d386de2419a2567fd33b8a12796e37941be4aeac"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17010,1)><speed(2)>She's anxious - says she had a bad dream.",
+   "notes": "",
+   "source_sha256": "0ad419afdba3ef0f1bc5773392ab7408045977ee892bcc43a40d8eb5d06cf28c"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(5010,1)><speed(2)>True... I have something like a bad feeling myself.",
+   "notes": "",
+   "source_sha256": "188bfe7a945f50ec2492c74d4fef9eff13d6458174ef9969b0f407a71075cbe8"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(17020,1)><speed(2)>You're a Newtype too, right?",
+   "notes": "",
+   "source_sha256": "9f2d2bea333d1ca42c5fa87c3e5b1ceaa1629b043e96cf88b75440a516d66ef1"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(5010,1)><speed(2)>I can't see the future or anything like that.",
+   "notes": "",
+   "source_sha256": "054aeb454b21b328a5d382a478a1c37eeb9366c96eb0837a6286c7b046b0aca7"
+  },
+  {
+   "table": 1,
+   "slot": 145,
+   "text_id": 146,
+   "en": "<operator(17010,1)><speed(2)>So even among Newtypes, there are all kinds.",
+   "notes": "",
+   "source_sha256": "d02bc9f42bf08480253ea9d5887a7c293a31adc162d8cdf73e6553a2ce97504f"
+  },
+  {
+   "table": 1,
+   "slot": 146,
+   "text_id": 147,
+   "en": "<operator(5010,1)><speed(2)>...Take good care of <color(4)>Tiffa<ce()>, <color(4)>Garrod<ce()>.",
+   "notes": "",
+   "source_sha256": "2d8d63778d9bafc002303b818e8a9cf950cbc1d3793168457d2ccbccf10b6e25"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(23030,1)><speed(2)>...<color(4)>Eureka<ce()>, is something wrong?",
+   "notes": "",
+   "source_sha256": "a795cb47a204fbfca3a15f87add71a08b331de418d8813d6f458cbb7fdeb7b54"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(23020,1)><speed(2)>This child... the <color(4)>Nirvash<ce()> is angry. A silent, yet very strong anger...",
+   "notes": "",
+   "source_sha256": "7be4d42edbdf891f176a91d948b154c2bc9117e3e3ee2de2392a57446aafbef7"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(23010,1)><speed(2)>The <color(4)>Nirvash<ce()>? You mean it's sensing something?",
+   "notes": "",
+   "source_sha256": "b15ef058b1f39ee5c46db639955773560bc3ef4ba90bcf1f89ee15d540b18ce5"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(21030,1)><speed(2)><color(4)>Gainer<ce()>, are you still grumbling? You're a boy, aren't you?!",
+   "notes": "",
+   "source_sha256": "2f7936b656d4425ff8864ea5b8bfed62d04e28d86282b76754cdcb0b1653aca8"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(21010,1)><speed(2)>My parents had nothing to do with Exodus... and the pro-Exodus crowd killed them!",
+   "notes": "",
+   "source_sha256": "9510f09c7171be4ac3b20c1b7f6601a70e40b75d80a3ca6a4e40a4b36fbe650e"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(21020,1)><speed(2)>You have my sympathy, kid... But if you don't fight, everyone dies. <color(4)>Sara<ce()> there is no exception.",
+   "notes": "",
+   "source_sha256": "c8082a80b0615a1894f2ba692d2163f8c743c863efcfafca4e8461c691254059"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(21010,1)><speed(2)>I... hate Exodus, but I hate seeing the people around me get hurt even more.",
+   "notes": "",
+   "source_sha256": "0df2571348bb363a56efb8484d0abd3eda7d26ab29da42e6cf5174eb02900abf"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(21010,1)><speed(2)>I've got no choice, so I'll fight... but <color(4)>Gain<ce()>! It's not for your sake, got it?!",
+   "notes": "Source uses a polite -san on Gain; dropped, as no honorific convention for Gain was found in reviewed rows.",
+   "source_sha256": "5bf7daa9941b7eed96ba1ab6d52380708ab1b133070c47535c49c00f8013a7e2"
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 51,
+  "rows_in_scene": 51,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/31 (text id 32) 'Ensign Barrel': source rank word is 'shoui' (Barrel + shoui). Glossary files (glossary.json char.barrel_orland, character_names_021.json) record NO rank for Barrel - role is 'civilian student who becomes an Ixbrau pilot'. The rank is nevertheless real in the game: a disc scan finds the same 'Barrel shoui' in mission dialogue resources 6280 and 6450 (and their copies 2002280/2002450/3200280/3200450/3201280/3201450), spoken when he is asked to shut down the Baldora Drive. The project's reviewed convention renders shoui as 'Ensign' (dialogue_00608, 'Ensign Uraki' in dialogue_00623/00625/01542) and chuui as 'Lieutenant', and Ruri's own rank uses the naval mapping (Lt. Cmdr.). 'Ensign' kept.",
+   "0/20 unit name before personal name so the two color spans stay in source order (Shin Getter-2, then Kei): command order verified identical. Accepted.",
+   "0/24 'these three' for 'koitsura': the number is not in the source but is fixed by the scene (Go, Kei, Gai just introduced). Left; merely different.",
+   "0/25 'Look after my daughter Kei too': source 'musume no Kei mo yoroshiku na'. Accepted.",
+   "1/21 (text id 22) Barrel 'yappari sou da yo na' rendered 'Yeah, of course not...': agrees with Gainer's 'I do not intend to stay long'; Faye's next line ('like looking at yourself a while ago?') confirms sympathy reading. Accepted.",
+   "1/141 (text id 142) 'She's anxious': referent is Tiffa (named one row earlier), female in the glossary. Accepted.",
+   "1/223 (text id 224) '-san' on Gain dropped: no honorific convention in reviewed scenes; tone (grudging, polite 'arimasen kara ne') still readable. Accepted.",
+   "Names checked against glossary/unit files: Shin Getter-1/-2/-3, Shin Dragon, Invaders, Getter Rays, Berkt, Tiffa, Garrod, Nirvash, Gainer, Gain, Sara, Exodus, Hayato, Benkei, Go, Kei, Gai."
+  ],
+  "remaining_uncertainties": [
+   "0/31: Barrel's rank is absent from every glossary file; suggest the orchestrator add 'Ensign (shoui), field rank used by Ruri and mission dialogue' to char.barrel_orland so later slices (resources 6280/6450) render it the same way.",
+   "1/63 (text id 64) 'fought them to the death': source 'shitou wo kurihirogeta' = waged a desperate/deadly battle; nobody died to the end. Close enough idiomatically, left."
+  ]
+ }
+}

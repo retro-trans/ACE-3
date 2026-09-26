@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "kokoro no koe",
+    "en": "heart's voice",
+    "source": "dialogue_07414/07418/07422/07480/07482/07483 (resource 6230, mission 17B); character_names_021.json entry for Kashmir Valle's Planetta Overman",
+    "why": "Recurring name for Planetta's mind-reading Overskill ability (it 'hears' pilots' inner thoughts and predicts their moves); no existing glossary entry fixes an English rendering, and it recurs across many rows in this scene, so a locked term would help later batches touching the same ability stay consistent."
+  },
+  {
+    "term_romaji": "jisou heiki",
+    "en": "mobile weapon",
+    "source": "work/translation/en/hud_labels.json mission 2002190 (same mission, resource 6230): 'Info: Mobile weapon stopped charging', 'Info: Base and mobile weapon captured'",
+    "why": "Term already fixed by the HUD strings for this exact mission, but not present in any of the four listed glossary files (glossary.json, character_names_021.json, mission_terms_019.json, meeting_terms_015.json). Recording it so future dialogue batches touching resource 6230/6231 or similar self-propelled-weapon missions reuse 'mobile weapon' instead of a literal 'self-propelled weapon'."
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "version": "0.1.36",
+  "screenshots": [
+    {
+      "file": "ally_support.png",
+      "dimensions": [
+        1441,
+        949
+      ],
+      "reference_display_bounds": [
+        288,
+        681,
+        1038,
+        867
+      ],
+      "bounds_note": "Approximate highlighted region in supplied rendered screenshot; not engine coordinates.",
+      "state": "before_0.1.36"
+    },
+    {
+      "file": "player_ability.png",
+      "dimensions": [
+        1411,
+        969
+      ],
+      "reference_display_bounds": [
+        277,
+        709,
+        702,
+        785
+      ],
+      "bounds_note": "Approximate highlighted region in supplied rendered screenshot; not engine coordinates.",
+      "state": "before_0.1.36"
+    },
+    {
+      "file": "pause_map.png",
+      "dimensions": [
+        1273,
+        880
+      ],
+      "reference_display_bounds": [
+        35,
+        544,
+        648,
+        857
+      ],
+      "bounds_note": "Approximate highlighted region in supplied rendered screenshot; not engine coordinates.",
+      "state": "before_0.1.36"
+    },
+    {
+      "file": "command_list.png",
+      "dimensions": [
+        1455,
+        931
+      ],
+      "reference_display_bounds": [
+        50,
+        140,
+        1332,
+        736
+      ],
+      "bounds_note": "Approximate highlighted region in supplied rendered screenshot; not engine coordinates.",
+      "state": "before_0.1.36"
+    }
+  ],
+  "engine_limits": {
+    "ability_support": 280,
+    "command_label": 410,
+    "map_name": 280
+  },
+  "runtime_verified": false
+}

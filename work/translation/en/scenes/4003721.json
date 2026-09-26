@@ -1,0 +1,114 @@
+{
+ "resource_id": 4003721,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Antibody Coralian",
+   "notes": "Enemy faction name; locked (mission_terms_019.json, matches reviewed scenes 4003581/4003591/4003651).",
+   "source_sha256": "be07d861e355f817558610fcf4647e1f698c65809e0152c9918f169e499a3421"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23040,1)><speed(2)><move(1,7,11)>I'll<marker(1,7,11,0)> explain the operation.<move(2,3,12)>",
+   "notes": "",
+   "source_sha256": "a01965d23829273c3243532c150b37782add2af2271281562bf227ebb2cb6f0c"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23040,1)><speed(2)>There<move(1,6,8)> are a few <book(38)>New Federation<endbook()> bases<marker(13,4,10,0)> in<marker(13,6,8,0)> the<marker(13,8,7,0)> operation<move(1,10,11)> area<marker(13,10,9,0)>, and<marker(13,10,11,0)> civilians<marker(13,8,13,0)> who fled the city are taking refuge in some of them.<move(2,3,8)><picture(110,2,7,0)><refer(2,7,4,10)>",
+   "notes": "",
+   "source_sha256": "01cfbc96d837dee9f70a131d65cd20c8bc3acad10b44859eb3d5ba446f16b0f9"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23040,1)><speed(2)>Right now, this base is under attack by the <book(73)>Antibody<marker(20,3,1,0)> Coralian<marker(20,1,2,0)><marker(20,13,2,0)><marker(20,13,4,0)><endbook()>. If<marker(20,6,5,0)> it<marker(20,4,6,0)> falls<marker(20,11,7,0)>, the<marker(20,2,8,0)> damage<marker(20,1,11,0)> will<marker(20,11,13,0)> be<marker(20,5,14,0)> serious<marker(20,9,14,0)>.",
+   "notes": "",
+   "source_sha256": "ae2ed229f20a2b7164ce6f07636818bfefe4f0c021cc80f84bf332a3e47b8472"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23040,1)><speed(2)>Protect every <color(4)>target<ce()> from the <book(73)>Antibody Coralian<endbook()>'s hands. Don't let a single one slip through.",
+   "notes": "",
+   "source_sha256": "80017f6078517b96a031faa540b15210d920c3682973e192edf8a591c092784b"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23040,1)><speed(2)>The <book(38)>New Federation<endbook()> has<marker(26,6,2,0)> attacked<marker(26,14,9,0)> too<marker(26,14,11,0)>. They don't care<marker(37,12,10,0)> about civilians<danger(1)> - they mean to burn the whole area down, <book(72)>Coralian<endbook()> and all.",
+   "notes": "",
+   "source_sha256": "6d140bfbdfa2b228931ed753940687b1314590c34fafdfea1367f8fccbfc60d0"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23040,1)><speed(2)>We can't let those people have their way. We'll intercept the <book(38)>New Federation<endbook()> right along with them.",
+   "notes": "",
+   "source_sha256": "ac7bb11d81d335ff698f27671c046c1ed44ec29ce9b3673f22d8e9e538c8fa6f"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)>Since the enemy is out in force this time, we'll deploy a support unit to repair the <book(6)>Flail<endbook()> unit.<picture(111,30,7,0)>",
+   "notes": "",
+   "source_sha256": "ededc6cec44db9f4ee78ddeb30bf25818362d04471d488f8a48c57773ed33ce4"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>We'll deploy it as soon as it's ready, so please hold out somehow until then.",
+   "notes": "",
+   "source_sha256": "0f176443360965325b8a2983d9f29ef04056adff13a5510c82c1edb31be5b8d2"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12031,1)><speed(2)>This time, the <color(4)>mothership<ce()> will stay off the front line and provide rear support. Feel free to fight all out.",
+   "notes": "",
+   "source_sha256": "4f31cbebe839870599d9ce8cb9cb29414b1806fe0c4fed5d6de35b9cefeb3ebb"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "New Federation and Antibody Coralian slot 0/1 headers match glossary.json/mission_terms_019.json and reviewed scenes 4003581/4003591/4003651.",
+   "Speakers: 23040 Talho Yuki (slots 19-24), 12031 Ruri Hoshino (slots 25-27) - speaker_lookup.py confirms.",
+   "'Coralian' alone (slot 23, book(72)) matches mission_terms_019.json/encyclopedia_022.json as the short form of Antibody Coralian.",
+   "'mothership' (slot 27) lowercase matches established usage in encyclopedia_022.json body text and terms_028.json.",
+   "danger(1) in slot 23 sits between marker(37,12,10,0) and book(72) exactly as required by the tag-order constraint; its attachment to \"civilians\" is the closest available position to the source's sentence-boundary placement, not a placement error.",
+   "No mistranslation, reversed meaning, invented subject/added honorific, or dropped sentence ending found; command tag order and count match the source exactly in every row (verified programmatically)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

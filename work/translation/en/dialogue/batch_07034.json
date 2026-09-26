@@ -1,0 +1,540 @@
+{
+  "slice_start": 7034,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      7019,
+      7128
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_07034",
+      "target": "<op()><sp(20)>Don't let any oncoming enemies through from here!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07035",
+      "target": "<op()><sp(20)>We'll mark the targets on your radar.\nPlease don't let them pass through the operation area.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07036",
+      "target": "<op()><sp(20)>Leave the small fry nearby to the Dragoon.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Dragoon is the locked unit name (unit_names_014_a.json / encyclopedia_022.json slot 19)."
+    },
+    {
+      "id": "dialogue_07037",
+      "target": "<op()><sp(20)>Harry.\nI'm leaving all of the Nadesico C's systems to you.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Harry = locked nickname for Hari Makibi (character_names_021.json); -kun honorific dropped per project convention."
+    },
+    {
+      "id": "dialogue_07038",
+      "target": "<op()><sp(20)>Eh?! All of it?!\nWeren't you only asking me to back you up?!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07039",
+      "target": "<op()><sp(20)>No good. I'm about to seize control\nof enemy systems across all of Mars.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07040",
+      "target": "<op()><sp(20)>I can't cover the ship as well.\nI'm entrusting the Nadesico C to you.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07041",
+      "target": "<op()><sp(20)>B-but...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07042",
+      "target": "<op()><sp(20)>Harry!\nIf you're a man, show the captain you admire what you're made of!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07043",
+      "target": "<op()><sp(20)>This is... quite a number of them!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07044",
+      "target": "<op()><sp(20)>If they lose this place, they've nowhere left to retreat to.\nSo this is their last, desperate stand...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit; full meaning (nowhere to fall back to / desperate resistance) retained."
+    },
+    {
+      "id": "dialogue_07045",
+      "target": "<op()><sp(20)>Harry, keep watch in all directions here too.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07046",
+      "target": "<op()><sp(20)>Yes!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07047",
+      "target": "<op()><sp(20)>What is this?!\nNo matter which way I look, it's nothing but enemies!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07048",
+      "target": "<op()><sp(20)>Don't go panicking\nin front of Eureka.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Eureka locked (character_names_021.json); -chan honorific dropped. No <ed()> in source; not added."
+    },
+    {
+      "id": "dialogue_07049",
+      "target": "<sp(20)>You might end up disliked, you know~?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of prior row (no <op()> in source, matching)."
+    },
+    {
+      "id": "dialogue_07050",
+      "target": "<op()><sp(20)>Daaammit! Fine, I'll do it!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07051",
+      "target": "<op()><sp(20)>Trust in the Nirvash.\nI'm sure we can do this.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Nirvash locked unit name (unit_names_014_b.json)."
+    },
+    {
+      "id": "dialogue_07052",
+      "target": "<op()><sp(20)>System takeover at fifty percent.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07053",
+      "target": "<op()><sp(20)>System takeover entering its final stage.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07054",
+      "target": "<op()><sp(20)>Just a little more.\nPlease hold out a bit longer.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07055",
+      "target": "<op()><sp(20)>Allied forces are struggling...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07056",
+      "target": "<op()><sp(20)>Allied forces are struggling!<ab(1800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07057",
+      "target": "<op()><sp(20)>Allies have been taken out...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07058",
+      "target": "<op()><sp(20)>Reinforcements have appeared from the enemy base!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07059",
+      "target": "<op()><sp(20)>Enemy forces are closing in!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07060",
+      "target": "<op()><sp(20)>We're about to be broken through by enemy forces!\nIntercept them immediately!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07061",
+      "target": "<op()><sp(20)>Enemy forces have broken through!\nThe Nadesico is...!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07062",
+      "target": "<op()><sp(20)>I can't believe it didn't hold...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07063",
+      "target": "<op()><sp(20)>The enemy is retreating!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07064",
+      "target": "<op()><sp(20)>Well done.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07065",
+      "target": "<op()><sp(20)>System takeover complete.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07066",
+      "target": "<op()><sp(20)>You there! Don't leave your posts!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07067",
+      "target": "<op()><sp(20)>N-no, the unit's moving on its own!\nI-I've lost control!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07068",
+      "target": "<op()><sp(20)>This one's out of control too!!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07069",
+      "target": "<op()><sp(20)>And so, every enemy in Martian space\nhad its systems seized by Ruri...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Ruri locked (character_names_021.json, Ruri Hoshino); -chan honorific dropped."
+    },
+    {
+      "id": "dialogue_07070",
+      "target": "<op()><sp(20)>Impressive, as expected from the Electronic Fairy.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Electronic Fairy is Ruri's locked nickname (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_07071",
+      "target": "<op()><sp(20)>Are you sure this was really the right call?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07072",
+      "target": "<op()><sp(20)>A surprise attack by Boson Jump is a double-edged sword.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Boson Jump locked term (opening_history_terms.json / encyclopedia_022.json)."
+    },
+    {
+      "id": "dialogue_07073",
+      "target": "<op()><sp(20)>The moment the Amaterasu went down,\nour odds of winning were fifty-fifty.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Amaterasu locked ship name (glossary.json)."
+    },
+    {
+      "id": "dialogue_07074",
+      "target": "<op()><sp(20)>The instant an A-class Jumper turned out\nto be alive on the Federation's side, our win was...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "A-class Jumper follows encyclopedia_022.json slot 26 definition (biological Boson Jumper classes)."
+    },
+    {
+      "id": "dialogue_07075",
+      "target": "<op()><sp(20)>Such is the karma of one who lives by duty.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unclear; kept unattributed. 'duty' used for gi/giri to match this scene's recurring theme (see 7087/7095/7116/7118)."
+    },
+    {
+      "id": "dialogue_07076",
+      "target": "<op()><sp(20)>...So you've shown up, huh!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07077",
+      "target": "<op()><sp(20)>Damn it! You're really going to turn against us, no matter what?!\nGuess there's no choice but to fight, then!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07078",
+      "target": "<op()><sp(20)>That red unit is capable of\na solo Boson Jump.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'that red unit' left unidentified; no pilot identity guessed."
+    },
+    {
+      "id": "dialogue_07079",
+      "target": "<op()><sp(20)>Stay calm, and focus your attacks\nright after it makes a Boson Jump.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07080",
+      "target": "<op()><sp(20)>What in the world is going on?!\nTo think we'd end up enemies again!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07081",
+      "target": "<op()><sp(20)>It's because I'm still a soldier of Giganos!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Giganos locked faction name (glossary.json)."
+    },
+    {
+      "id": "dialogue_07082",
+      "target": "<op()><sp(20)>Fighting for my Giganos comrades\nis my duty as a soldier!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07083",
+      "target": "<op()><sp(20)>Even if that means facing you all!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07084",
+      "target": "<op()><sp(20)>You've truly come this far...\nI've seen a person's tenacity firsthand.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07085",
+      "target": "<op()><sp(20)>Please reconsider!\nI don't want to fight Linda's big brother!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Linda referenced only as a relation (Meio Plato's sister per character_names_021.json); -chan honorific dropped, no separate name lock needed here."
+    },
+    {
+      "id": "dialogue_07086",
+      "target": "<op()><sp(20)>No more arguing!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into next row."
+    },
+    {
+      "id": "dialogue_07087",
+      "target": "<sp(20)>I serve a greater cause now!\nI won't let a man ruled by sentiment stop me!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of prior row (no <op()>, matching source)."
+    },
+    {
+      "id": "dialogue_07088",
+      "target": "<op()><sp(20)>So that's how it is...\nThen... I'll stop you, whatever it takes!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07089",
+      "target": "<op()><sp(20)>Do we really need to fight each other?!\nMeio Plato!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meio Plato locked (character_names_021.json: Maiyo Plato -> Meio Plato)."
+    },
+    {
+      "id": "dialogue_07090",
+      "target": "<op()><sp(20)>I'm still a soldier of Giganos!\nI won't go easy on you either!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07091",
+      "target": "<op()><sp(20)>\"I won't go easy on you,\" huh? Quite the greeting!\nThen I'll come at you seriously, too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07092",
+      "target": "<op()><sp(20)>Meio Plato!\nStop giving Char your help!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Char = locked short form of Char Aznable (glossary.json). No <ed()> in source; continues into next row."
+    },
+    {
+      "id": "dialogue_07093",
+      "target": "<sp(20)>He's trying to trigger a nuclear winter\nand cool the whole Earth down!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of prior row (no <op()>, matching source)."
+    },
+    {
+      "id": "dialogue_07094",
+      "target": "<op()><sp(20)>That is certainly not my true intent.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into next row."
+    },
+    {
+      "id": "dialogue_07095",
+      "target": "<sp(20)>But I have a duty I must see through!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of prior row (no <op()>, matching source)."
+    },
+    {
+      "id": "dialogue_07096",
+      "target": "<op()><sp(20)>It's been a while, Blue Hawk!\nLet's have another match!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Blue Hawk = Meio Plato's locked nickname 'Blue Hawk of Giganos' (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_07097",
+      "target": "<op()><sp(20)>I'd heard you retired\nfrom the front lines!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07098",
+      "target": "<op()><sp(20)>Did you think this person would be satisfied just teaching?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent of 'this person' left unresolved; no identity guessed."
+    },
+    {
+      "id": "dialogue_07099",
+      "target": "<op()><sp(20)>You've disappointed me, Plato!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07100",
+      "target": "<op()><sp(20)>That's my line!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into next row."
+    },
+    {
+      "id": "dialogue_07101",
+      "target": "<sp(20)>For just a moment, I hoped\nthe people of Earth might change...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of prior row (no <op()>/<ed()>, matching source)."
+    },
+    {
+      "id": "dialogue_07102",
+      "target": "<sp(20)>But nothing changed at all!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of prior row (no <op()>, matching source)."
+    },
+    {
+      "id": "dialogue_07103",
+      "target": "<op()><sp(20)>All you're doing\nis creating more sorrowful soldiers.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07104",
+      "target": "<op()><sp(20)>I don't need your input!\nI have my own way of doing things!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07105",
+      "target": "<op()><sp(20)>I don't know your circumstances.\nAnd I don't want to.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into next row."
+    },
+    {
+      "id": "dialogue_07106",
+      "target": "<sp(20)>But if you get in my way, I'll shoot you down.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of prior row (no <op()>, matching source)."
+    },
+    {
+      "id": "dialogue_07107",
+      "target": "<op()><sp(20)>Heh, you get straight to the point!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07108",
+      "target": "<op()><sp(20)>You must be afraid. You must be frustrated.\nEven if you clad yourself in armor...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into next row."
+    },
+    {
+      "id": "dialogue_07109",
+      "target": "<sp(20)>It can't protect the weakness in your heart!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of prior row (no <op()>, matching source)."
+    },
+    {
+      "id": "dialogue_07110",
+      "target": "<op()><sp(20)>Let's settle this...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07111",
+      "target": "<op()><sp(20)>That's some tough-looking reinforcement.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07112",
+      "target": "<op()><sp(20)>Allied reinforcements are entering the operation area.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07113",
+      "target": "<op()><sp(20)>I'm sending reinforcements now.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_07075"
+      ],
+      "note": "Speaker of 'Such is the karma of one who lives by duty' not identified from neighbours; kept unattributed. Rendered 'duty' for gi/giri to stay consistent with Meio Plato's recurring theme later in the scene (7087, 7095, 7116, 7118), but the speaker here is not confirmed to be Meio himself."
+    },
+    {
+      "ids": [
+        "dialogue_07098"
+      ],
+      "note": "'Did you think this person would be satisfied just teaching?' - referent of 'this person' (kono hito) is not resolved from context; likely refers to Kaine Wakaba (implying he became an instructor) but not asserted. No identity or gender invented for the speaker either."
+    },
+    {
+      "ids": [
+        "dialogue_07048",
+        "dialogue_07049",
+        "dialogue_07050",
+        "dialogue_07051"
+      ],
+      "note": "Eureka Seven cast banter (row addresses 'Eureka'); speakers not individually attributed, no gender assumptions made beyond the named character Eureka herself (already locked female)."
+    },
+    {
+      "ids": [
+        "dialogue_07078"
+      ],
+      "note": "'that red unit' (sono akai kitai) capable of solo Boson Jump is not identified with a pilot name; likely Char-related given surrounding rows (7092) mention Char directly, but left unnamed as in source."
+    },
+    {
+      "ids": [
+        "dialogue_07085",
+        "dialogue_07089",
+        "dialogue_07092",
+        "dialogue_07096",
+        "dialogue_07099"
+      ],
+      "note": "Multiple unnamed speakers address Meio Plato ('Blue Hawk', 'Linda's big brother') across this stretch; at least two distinct addressors are implied (one pleading, one hostile) but the corpus does not tag speakers, so no name/gender was assigned beyond Meio Plato himself."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket tokens (<op()>, <sp(20)>, <ab(n)>, <ed()>) preserved in exact source order for all 80 rows; rows with no <op()> (7049, 7087, 7093, 7095, 7101, 7102, 7106, 7109) and rows with no <ed()> (7048, 7086, 7092, 7094, 7100, 7101, 7105, 7108) were left exactly as in source, not normalized.",
+    "format": "Newline counts match source exactly for every row. ASCII-only text; straight quotes and '...' ellipses used; tilde in 7049 is standard ASCII.",
+    "fit": "Full meaning drafted first; 7044, 7074 compressed for length while keeping full meaning; all rows checked at or under ~110 visible characters.",
+    "glossary": "Names/terms taken from character_names_021.json (Harry, Eureka, Ruri, Meio Plato/Meio, Blue Hawk, Kaine Wakaba context), glossary.json (Giganos, Amaterasu, Char Aznable), unit_names_014_a/b.json (Dragoon, Nirvash), opening_history_terms.json/encyclopedia_022.json (Boson Jump, A-class Jumper). No unresolved proper nouns required a new proposal in this slice.",
+    "meaning_review": "Independently meaning-reviewed in review_07034.json (rows 7019-7128, 110 examined); no mistranslations found, no meaning fixes required. All 80 rows set to meaning_reviewed. Berkt/Yurika Misumaru namings not applicable to this slice."
+  }
+}

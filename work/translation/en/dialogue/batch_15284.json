@@ -1,0 +1,557 @@
+{
+ "slice_start": 15284,
+ "slice_count": 80,
+ "rows_examined": [
+  [
+   15269,
+   15378
+  ]
+ ],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "uncertainties": [
+  {
+   "rows": [
+    15284
+   ],
+   "issue": "Final line of resource 2821010 (King Gainer, pilot Gainer Sanga); a plain return-to-base radio call, no ambiguity."
+  },
+  {
+   "rows": [
+    15285,
+    15313,
+    15314,
+    15315,
+    15316,
+    15318,
+    15322,
+    15333,
+    15357,
+    15361
+   ],
+   "issue": "Rows 15285-15363 are resource 2821040 (Power Golem), single pilot Asuham Boone per the <op()> convention; boastful/obsessive registration (self-naming, third-person bravado, subordinate-scolding) follows his locked personality in character_names_021.json ('Obsessive; descends into homicidal madness')."
+  },
+  {
+   "rows": [
+    15313
+   ],
+   "issue": "Source romaji 'Rondon Ima' researched via web search (not in any glossary file): 'London IMA' = the International Monitoring Agency governing the Domepolises in Overman King Gainer (Wikipedia/Grokipedia synopsis). Rendered 'London IMA' (acronym capitalized) rather than literal 'London Ima'; flagged for orchestrator confirmation and glossary lock."
+  },
+  {
+   "rows": [
+    15296,
+    15298,
+    15314
+   ],
+   "issue": "Source romaji 'Goreemu' (bare, without the 'Power' prefix) kept as short 'Golem', reusing the locked unit name 'Power Golem' (unit_names_014_b.json) rather than the wiki's unrelated 'Golame' romanization, per the project rule that an already-locked project spelling wins."
+  },
+  {
+   "rows": [
+    15318
+   ],
+   "issue": "Source idiom 'yasetemo karetemo' (roughly 'even worn thin/withered, still...') rendered as 'Even down on our luck, we're still Saint Regan' to keep the self-deprecating-but-proud tone rather than a literal 'thin or withered'."
+  },
+  {
+   "rows": [
+    15319,
+    15320,
+    15321,
+    15322,
+    15323,
+    15324,
+    15325,
+    15326
+   ],
+   "issue": "Asuham addresses an unnamed subordinate pilot ('you'/'your'); no gender or identity assumed for that addressee."
+  }
+ ],
+ "validation": {
+  "controls": "All angle-bracket commands verified identical and same order as source for every row.",
+  "format": "No manual line breaks inserted; builder auto-wraps per battle-shout format rule.",
+  "fit": "Every row's visible English length checked against 2*(JP visible chars)-2, capped at 72, from a fresh dialogue_corpus.py slice read.",
+  "byte_budget": "Pilot battle-shout hard byte budget enforced per-row (see script check); none exceeded.",
+  "meaning_review": "Independent meaning review complete: 80/80 rows checked (Gainer Sanga tail + Power Golem / Asuham Boone, resource 2821040); no meaning fixes required, all rows set to meaning_reviewed."
+ },
+ "rows": [
+  {
+   "id": "dialogue_15284",
+   "target": "<op()><sp(20)>Gainer Sanga, returning to base.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15285",
+   "target": "<op()><sp(20)>Sink, you fools!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15286",
+   "target": "<op()><sp(20)>Just shoot already.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15287",
+   "target": "<op()><sp(20)>Ha ha, what a pathetic sight!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15288",
+   "target": "<op()><sp(20)>Frustrating, isn't it? Pathetic, hm?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15289",
+   "target": "<op()><sp(20)>Pretty miserable, huh? Heh heh, ha ha ha.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15290",
+   "target": "<op()><sp(20)>If you won't stop attacking, I'll use force!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15291",
+   "target": "<op()><sp(20)>I won't let something like this get in my way!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15292",
+   "target": "<op()><sp(20)>There you are!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15293",
+   "target": "<op()><sp(20)>I won't allow it!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15294",
+   "target": "<op()><sp(20)>Move aside!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15295",
+   "target": "<op()><sp(20)>Nothing but vulgar fools swaying the world with force!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15296",
+   "target": "<op()><sp(20)>Don't think brute force can match a Golem!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15297",
+   "target": "<op()><sp(20)>Don't mock me!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15298",
+   "target": "<op()><sp(20)>When it comes to Golems, I have the edge on you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15299",
+   "target": "<op()><sp(20)>Heh, so you took the bait.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15300",
+   "target": "<op()><sp(20)>Still haven't noticed? You're already halfway in the grave!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15301",
+   "target": "<op()><sp(20)>You vile wretch!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15302",
+   "target": "<op()><sp(20)>Everything so far has gone as planned!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15303",
+   "target": "<op()><sp(20)>What a waste of movement these fools are making!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15304",
+   "target": "<op()><sp(20)>Oh, how foolish!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15305",
+   "target": "<op()><sp(20)>Defense alone won't win!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15306",
+   "target": "<op()><sp(20)>Enjoy it while you still can!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15307",
+   "target": "<op()><sp(20)>Out of tricks, are you? What now...?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15308",
+   "target": "<op()><sp(20)>Too slow, all of you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15309",
+   "target": "<op()><sp(20)>Even faster than before!!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15310",
+   "target": "<op()><sp(20)>Defeat, of all things... I will absolutely not allow it!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15311",
+   "target": "<op()><sp(20)>Sacrifice is part of war.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15312",
+   "target": "<op()><sp(20)>Stop whining!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15313",
+   "target": "<op()><sp(20)>In the name of London IMA, I'll crush you right here!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15314",
+   "target": "<op()><sp(20)>My Power Golem will crush you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15315",
+   "target": "<op()><sp(20)>In the name of Saint Regan, I'll punish you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15316",
+   "target": "<op()><sp(20)>I am Asuham Boone!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15317",
+   "target": "<op()><sp(20)>Today I'll settle years of grudges!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15318",
+   "target": "<op()><sp(20)>Down on our luck, but still Saint Regan! Learn our strength!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15319",
+   "target": "<op()><sp(20)>What are you doing!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15320",
+   "target": "<op()><sp(20)>Get a grip!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15321",
+   "target": "<op()><sp(20)>You're not that soft, are you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15322",
+   "target": "<op()><sp(20)>I am the one who needs your power!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15323",
+   "target": "<op()><sp(20)>What are you doing!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15324",
+   "target": "<op()><sp(20)>Get your spirit back!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15325",
+   "target": "<op()><sp(20)>Are you sure you can move like that!?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15326",
+   "target": "<op()><sp(20)>You can do it if you try!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15327",
+   "target": "<op()><sp(20)>Good attitude!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15328",
+   "target": "<op()><sp(20)>You should've done that from the start.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15329",
+   "target": "<op()><sp(20)>I see, a fine attitude indeed.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15330",
+   "target": "<op()><sp(20)>That's quite the resolve, for someone like you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15331",
+   "target": "<op()><sp(20)>Ha ha ha! Amazing. To think you had this much power!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15332",
+   "target": "<op()><sp(20)>Something to be proud of!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15333",
+   "target": "<op()><sp(20)>As expected of my subordinate!!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15334",
+   "target": "<op()><sp(20)>Is that their way of doing things?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15335",
+   "target": "<op()><sp(20)>All you know is turf, as if time itself froze for you.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15336",
+   "target": "<op()><sp(20)>You came! You villains!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15337",
+   "target": "<op()><sp(20)>Wasted time is unpleasant.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15338",
+   "target": "<op()><sp(20)>It's oddly noisy.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15339",
+   "target": "<op()><sp(20)>Now, of all--!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15340",
+   "target": "<op()><sp(20)>I see, so that's how it is. Fascinating... fascinating!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15341",
+   "target": "<op()><sp(20)>Stop repeating this futile act and just obey me already!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15342",
+   "target": "<op()><sp(20)>You small fry! I won't let you interfere!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15343",
+   "target": "<op()><sp(20)>What's this? A fresh swarm of them!?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15344",
+   "target": "<op()><sp(20)>Seems I must settle things with this one.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15345",
+   "target": "<op()><sp(20)>No choice left, it seems... then I'll fight!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15346",
+   "target": "<op()><sp(20)>Heh, I mean you no harm. Surrender quietly!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15347",
+   "target": "<op()><sp(20)>As is my way, I'll strike you down with these hands!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15348",
+   "target": "<op()><sp(20)>Don't let your guard down, this one's not like the rest!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15349",
+   "target": "<op()><sp(20)>Showing up now, of all times--!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15350",
+   "target": "<op()><sp(20)>This one's special! You understand, right!?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15351",
+   "target": "<op()><sp(20)>Oh... those specs interest my side a great deal.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15352",
+   "target": "<op()><sp(20)>We won't treat it roughly, so surrender to us!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15353",
+   "target": "<op()><sp(20)>Amazing, I can feel such amazing power!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15354",
+   "target": "<op()><sp(20)>Heh, far too easy.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15355",
+   "target": "<op()><sp(20)>Heh heh, I've won! Should've fought like this from the start!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15356",
+   "target": "<op()><sp(20)>When things go well, they go this smoothly, it seems.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15357",
+   "target": "<op()><sp(20)>Did you think you could beat me?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15358",
+   "target": "<op()><sp(20)>So you've given up, huh?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15359",
+   "target": "<op()><sp(20)>Ha ha ha ha! With this victory, my heart is clear skies!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15360",
+   "target": "<op()><sp(20)>Hmph, surrender at the start and this trouble was needless...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15361",
+   "target": "<op()><sp(20)>Without my efforts there'd be no victory. Be grateful.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15362",
+   "target": "<op()><sp(20)>Satisfied with this win? Refocus for the next operation.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15363",
+   "target": "<op()><sp(20)>I'll turn the tables on you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  }
+ ]
+}

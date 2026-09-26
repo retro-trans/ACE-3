@@ -1,0 +1,28 @@
+{
+  "reviewer": "independent_meaning_review_mission23_agent",
+  "slice_start": 9775,
+  "slice_count": 39,
+  "rows_examined": [{"start": 9760, "end": 9828}],
+  "rows_examined_count": 69,
+  "rows_in_slice": 39,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [9775, 9776, 9778, 9780, 9782, 9784, 9787, 9788], "finding": "Continuation of the Scub Coral/Limit of Questions/Great Wall lore exchange begun in batch_09695.json (dialogue_09767 onward); all book-id terms (Scub Coral=69, Limit of Questions=77, Command Cluster=80, Great Wall=79) are consistent with both the previous batch and encyclopedia_022.json's locked text_ids - no drift between the two drafting agents."},
+    {"rows": [9792, 9794], "finding": "'Compac'/'Compac Drive' short/long form usage matches the precedent cited (batch_10457.json) and encyclopedia_022.json's 'Compac Drive' entry; consistent terminology."},
+    {"rows": [9800, 9802, 9803, 9804], "finding": "D.O.M.E. rendering and 'microwave transmission facility' phrasing match character_names_021.json's role text ('lunar microwave facility D.O.M.E.') - no invented detail."},
+    {"rows": [9806, 9807], "finding": "'Space Rev. Army' and 'Bloodman' short forms match encyclopedia_022.json text_id 42 and the orchestrator's prior 'Fixx Bloodman' shortening ruling respectively; consistent with usage elsewhere in the corpus."},
+    {"rows": [9813], "finding": "Capitalized 'King' for Cynthia's nickname of Gainer is consistent with dialogue_09710 (batch_09695.json) and the overall king/King ruling applied identically by both drafting agents across all three batches."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_09775", "dialogue_09776", "dialogue_09777", "dialogue_09778", "dialogue_09779", "dialogue_09780", "dialogue_09781", "dialogue_09782", "dialogue_09783", "dialogue_09784", "dialogue_09785", "dialogue_09786", "dialogue_09787", "dialogue_09788", "dialogue_09789", "dialogue_09790", "dialogue_09791", "dialogue_09792", "dialogue_09793", "dialogue_09794", "dialogue_09795", "dialogue_09796", "dialogue_09797", "dialogue_09798", "dialogue_09799"], "issue": "Continuation of the unlabeled lore exchange from batch_09695.json; no per-row speaker tags in the source table. Same caveat applies and is genuinely unresolvable from the source alone; no identity was invented in the translation."},
+    {"ids": ["dialogue_09804"], "issue": "'Microwave transmission facility' for the moon site is a literal rendering that matches D.O.M.E.'s existing glossary role text; accepted as is."},
+    {"ids": ["dialogue_09805", "dialogue_09806", "dialogue_09809", "dialogue_09810", "dialogue_09811", "dialogue_09812", "dialogue_09813"], "issue": "Unlabeled bridge/crew scene (Captain, a reporting officer, Cynthia rejoining); no speaker tags in source. Rendered neutrally without inventing identities beyond each line's own pronouns/vocatives - correct handling, cannot be resolved further from this slice."}
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(n)>/<ed()>/<on()>/<off()>/<color(n)>/<ce()>/<book(n)>/<endbook()> tokens re-checked programmatically against a fresh tools/dialogue_corpus.py slice for all 39 rows: identical presence, values and order in every row.",
+    "format": "Newline (\\n) counts match the source exactly for every row (checked programmatically).",
+    "fit": "All visible strings (tags stripped) are <=110 chars (checked programmatically).",
+    "ascii": "No non-ASCII characters found outside the fullwidth percent exception (none needed here); no lowercase j/q found in visible text (checked programmatically)."
+  }
+}

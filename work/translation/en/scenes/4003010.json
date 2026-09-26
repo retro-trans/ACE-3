@@ -1,0 +1,72 @@
+{
+ "resource_id": 4003010,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 5,
+ "rows_examined": 5,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "01  Probe Unknown Lifeform",
+   "notes": "Released mission title reused.",
+   "source_sha256": "bcd4484615b3e0942d1c56d935737d8dbd9f4dd78d3c3e5c0bb8ddcf6fb2ac23"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30010,1)><speed(2)>Right now, Saint Cruz is under attack by those <color(5)>life-forms<ce()><thumbnail(151)>.",
+   "notes": "",
+   "source_sha256": "6b7c479227f321990c009de8f7685636f4ac3c58996a098728dc613ec687b640"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30010,1)><speed(2)>To think they would appear right as the investigation began...",
+   "notes": "Subject of \"came to investigate\" omitted in source; kept impersonal.",
+   "source_sha256": "c6d090c7d25e61e2041a93edbf437fe844cd729c204c3bf7c17d69e7adaebe2d"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30010,1)><speed(2)>Our forces<thumbnail(150)> are not enough, but there is no choice. We move out to rescue the civilians at once.",
+   "notes": "",
+   "source_sha256": "094d9fe32ce062c3ec845ac93dda4f2ac0d656e434437499d77b1e861a4c3527"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<thumbdown()><operator(30010,1)><speed(2)>Little is known about the targets yet. Be very careful out there.",
+   "notes": "",
+   "source_sha256": "f3dc9fbc6aa89d8bcad593c95541dc1272f16aec060832ea991e391054c79fc8"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 19,
+   "issue": "Saint Cruz is a provisional glossary spelling (opening_history_terms)."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 5,
+  "rows_in_scene": 5,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"01  Probe Unknown Lifeform\".",
+   "Slot 19 ruling: \"Saint Cruz\" matches glossary location.saint_cruz and the released corpus; keep.",
+   "Slot 20: \"right as the investigation began\" for \"chousa ni kita yasaki ni\" (right as [unstated] came to investigate): subjectless, acceptable, left.",
+   "Speaker 30010 = Amuro Ray; thumbnail positions (after life-forms, after forces) match source."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: source is \"right as [unstated] came to investigate\"; draft says \"right as the investigation began\". Close, subjectless, left alone.",
+   "Slot 22: \"mokuhyou\" rendered \"the targets\" (plural); number is unmarked in the source."
+  ]
+ }
+}

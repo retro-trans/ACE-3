@@ -1,0 +1,532 @@
+{
+ "resource_id": 4004563,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 51,
+ "rows_examined": 51,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(14010,1)><speed(2)>I was prepared for it, but... I never thought we'd really have to fire on the <color(5)>Macross<ce()>.",
+   "notes": "",
+   "source_sha256": "7d1d38b7d95547af6afddbf7e5d86b2075e05ef3eacc37808a9b641d58220314"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(14010,1)><speed(2)>Is there really no way but to destroy it? If there's anything we could do...",
+   "notes": "",
+   "source_sha256": "14973fa1afc0963729735afe5730d417475b32ffb08b0cf70280751215340ffb"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(14030,1)><speed(2)><color(4)>Hikaru<ce()>! Don't go spouting soft-hearted nonsense!",
+   "notes": "",
+   "source_sha256": "d24a22206c5fd52a7d5cc54a08e8694df8f88cd23b3c603df22e40b565396dfe"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(14010,1)><speed(2)>F-Focker?",
+   "notes": "Source '-senpai' address to Focker rendered as the stammered name; no corpus precedent for this pair.",
+   "source_sha256": "2cc3b0b2a243b9167b918d90fb039f2a413a6cf88a6990e1499872350979bec6"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(14030,1)><speed(2)>The <color(5)>Macross<ce()> now would point its guns at you and me both, without hesitation.",
+   "notes": "",
+   "source_sha256": "7a3cc21b7b4c1aa6d612724aefcb4067485acbdc59c9102d2a97af6782e7a5d8"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(14030,1)><speed(2)>That's not all! It'll hurt civilians too! Is that what you want to happen?!",
+   "notes": "",
+   "source_sha256": "9bb15c899d10fc9d3778b0a5a6f42077f9e7b3725b5e9fc4804ed670e181f5cb"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(14010,1)><speed(2)>...Sorry, Focker. Hesitating at a time like this...",
+   "notes": "",
+   "source_sha256": "bd00ef7a846128595f4f22bc22e03bbd4b88b7e3ec887a12966588d3d60bde8f"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(14030,1)><speed(2)>...It's not like I want to do this either. But protecting people's safety is our duty.",
+   "notes": "",
+   "source_sha256": "8d5124b4a972e3a8730e3b87dfae4d5c4bd9ff814510c043da1183a2c7143e0e"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(14030,1)><speed(2)>Say something spineless like that again and you won't hear the end of it!",
+   "notes": "",
+   "source_sha256": "844503d699d941302d6cc81a5d96bb6cc775ce5ff5bd0ae8bd31c1988d99eeea"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(14010,1)><speed(2)>Yes!!",
+   "notes": "",
+   "source_sha256": "ba9d4c70bf29d93c3520f2d3aa2cda563df9fe895d665a701b9291087985ba97"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(21010,1)><speed(2)>But can we really beat something like that?",
+   "notes": "",
+   "source_sha256": "916e51b7cf947c32962927bb5a453779e6609660bf9cf7308bd1f71988b89c04"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(14030,1)><speed(2)>Whether we can or not isn't the point! We do it!",
+   "notes": "",
+   "source_sha256": "ab908d453922adc297b877ef79c222aa0ec3798dfe60e5bfda9a4e50972ed953"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(23030,2)><speed(2)>Now that's a good line, coming from you.",
+   "notes": "",
+   "source_sha256": "4c2aab42b0c1751e63f7e58e068771f8d4f869af2bcc61c109e8b3cd81d0bd22"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(14030,1)><speed(2)>I'd like to get friendly from here on... heh, shame we don't have the time.",
+   "notes": "",
+   "source_sha256": "1658de8f41d656bc0c2fae42dbeaa77847e1c92837a65b4b30e15cf64b239d78"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(14010,1)><speed(2)>...Let's go!",
+   "notes": "",
+   "source_sha256": "7ce18badcb647ba87e32f8a6b3462175aca8526601a8724314e252489168ad86"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)><color(5)>Macross<ce()>, as in THE <color(4)>Macross<ce()>? The one that took down <color(5)>Boddole Zer<ce()>... Can we really beat something like that?",
+   "notes": "",
+   "source_sha256": "9f2bf391d0144d7431191be1a2388b2936a261ba55c5aed1a3540500789cfb3e"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1020,1)><speed(2)>As an ally it was reassuring, but... seeing it as an enemy is terrifying.",
+   "notes": "",
+   "source_sha256": "b18c63ef89633c24a02108d87a34602c3e26e8cf46ed2ea55e0b54edc4c1a524"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>...",
+   "notes": "",
+   "source_sha256": "0a61db6800a43295bc0c73435409bd9ded9805fa9ba3ec619375b301aac78dfa"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>I know. There's no choice but to do it.",
+   "notes": "",
+   "source_sha256": "cac678b8c786afcb59587817de1ef51edfb423caa0d473f146d7927991ed7ab2"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,2)><speed(2)>You're starting to sound dependable.",
+   "notes": "",
+   "source_sha256": "82c88016778d9846b2e26fe39b0be3f891cfc493bbe8f0e03cb42b29729857d0"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(25010,1)><speed(2)>This kill's mine...!",
+   "notes": "",
+   "source_sha256": "c76f95205817b13f697d1ea30813ab19bd8b06883c0a53a2b6d0f5074ca175f3"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(25020,1)><speed(2)>You act without thinking things through way too much. But that's also your strength.",
+   "notes": "",
+   "source_sha256": "c272e74a8985e2102da146629de3947f347bfcdffd5ec612734b01578f869c89"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(25010,1)><speed(2)>Heh... Not something I want to hear from you.",
+   "notes": "",
+   "source_sha256": "7682b1e4417c565fb9fc4b15cfb3c774d5a136383b01f9d20086476548ca65f5"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(25010,1)><speed(2)>Damn it! That's my kill.",
+   "notes": "",
+   "source_sha256": "6492243136f6c4e351f432ee9fc42f796ac20feb17f737c8a878f47c98466f18"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(25020,1)><speed(2)>This one's mine. Step aside.",
+   "notes": "",
+   "source_sha256": "d57b9913bdba6514963dc7e05e11ebb268639431d1bb17f39c71b8556130f89b"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(25010,1)><speed(2)>Don't you dare die before we settle this!!",
+   "notes": "",
+   "source_sha256": "d2740e2d7d24e760eecc7103a62bebe01826dc68de123d54a850c3d8b21f6bd3"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17010,1)><speed(2)>A ship that amazing, seems like a waste to simply wreck it.",
+   "notes": "",
+   "source_sha256": "6ae4f9155bbeb1a789abd2eaf645d9a0e569877d7110bf03c5eb9bffe3b5a93c"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(17010,1)><speed(2)>Bet it'd fetch a real good price if we put it up for sale...",
+   "notes": "",
+   "source_sha256": "775282525215c593a4669ac47768d378f216c319fce5db28be126fa4c9d9893d"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17020,1)><speed(2)>What, what? Thinking back to your old trade at a time like this?",
+   "notes": "",
+   "source_sha256": "c22c88eb478801404a09a38d0398e5b408c8177f3f30da86b017f4a23c8f2daa"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(17080,1)><speed(2)>Hold on, what are you saying at a time like this? If we leave this alone, it's not only us who...",
+   "notes": "",
+   "source_sha256": "f5aeab1e03737f60f5333c9a01a6e42639f5afcb8ebaf011907119e87f15070e"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(17010,1)><speed(2)>I-I know! I was only kidding!",
+   "notes": "",
+   "source_sha256": "70f98ce9e4825c5ddd41c7c2121fe72022464a4a9304b37c3b68159ac4c3c3ca"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(17030,1)><speed(2)>Still as straight-laced as ever.",
+   "notes": "",
+   "source_sha256": "76677acb65cee1523ca0269319af89dcd72a1b90704aeb79f343d33d5d2534af"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(23020,1)><speed(2)>What's wrong... <color(4)>Renton<ce()>?",
+   "notes": "",
+   "source_sha256": "8ff79510868de25f11147f0bde1a5f15580f243421ecf1d9a98bb52bedf64f31"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(23010,1)><speed(2)>Yeah... it's only that this world has so many amazing things in it.",
+   "notes": "",
+   "source_sha256": "8013bf712e9e8b62dc52490be4b0ee72d1429753864b045e6400f388e8b58bfa"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(23010,1)><speed(2)>It's not exactly battle nerves... it's more like one surprise after another. Bad timing to feel that way, maybe.",
+   "notes": "'musha-burui' (nervous excitement before a fight) rendered as 'battle nerves'.",
+   "source_sha256": "e41f2dbe5b7d0abc12a32d618f99d12db1b526da53dae56b520654680fd0a64e"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(23100,2)><speed(2)>Glad you're part of <color(4)>Gekkostate<ce()> now, aren't you?",
+   "notes": "",
+   "source_sha256": "55b8d32f9e85649eab1235429706c82d0fe189c8e3b115501ecaf1add2985c51"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(23010,2)><speed(2)>Though it's mostly nothing but chores.",
+   "notes": "",
+   "source_sha256": "3abb128be29b72b7c72641600530237b155f32691e6e3f97d92f0b594a2ba6e5"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(23020,2)><speed(2)>Heh...",
+   "notes": "",
+   "source_sha256": "4b73bfbf59f161cadf9de0e072a7651d6eaf85676bdb3c2b5787aead5bebd646"
+  },
+  {
+   "table": 1,
+   "slot": 185,
+   "text_id": 186,
+   "en": "<operator(23030,1)><speed(2)>You've gotten some backtalk in you, kid. Let's move out.",
+   "notes": "",
+   "source_sha256": "5954b6bb982ac0c4eb96cb44f646c31da209cdd05a2f50d7daa19ad25d1cc21b"
+  },
+  {
+   "table": 1,
+   "slot": 186,
+   "text_id": 187,
+   "en": "<operator(23010,1)><speed(2)>Right!!",
+   "notes": "",
+   "source_sha256": "96b456f28c7237f1b8dfc67e5d2e2b3324dd351b0636bc14a97627c4a1628004"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(21020,1)><speed(2)>So the enemy's something out of the ordinary, huh.",
+   "notes": "",
+   "source_sha256": "b39f10ab3cd177e0fb3cfd44abcc3c2d28a999951e46ed676eb6f75b93b738bf"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(21030,1)><speed(2)>Can we even fight something like that?",
+   "notes": "",
+   "source_sha256": "9f084353e5479f1f6e25b73be9d8a5544bd75107aeeb5c6292ed67b4d7f76de5"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(21010,1)><speed(2)>It's a crazy situation, but if it's something we have to do, then we simply have to do it.",
+   "notes": "",
+   "source_sha256": "2002f8ebbff8dd12f5382af6dd7177fd873d743179f1ec848fdf2153aa080134"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(21020,2)><speed(2)>Sounds like you're growing into your own, <color(4)>Gainer<ce()>.",
+   "notes": "",
+   "source_sha256": "e2450293c441ced3a7f878c23009e1f037bb582a04101465c03dbe52e2135434"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(19030,1)><speed(2)>Can't believe there's a transforming robot even bigger than Getter Robo.",
+   "notes": "",
+   "source_sha256": "f139b1347086916f0ac742b84fa768a1d59f5171c0751c4191478a8d57a3e5a6"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(10030,1)><speed(2)>More like a battleship than a robot, though.",
+   "notes": "",
+   "source_sha256": "30d7afd8c0f7c953227623e4a4b0b4e5797900ba5bd4d7015894c3c466556c6a"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(19010,1)><speed(2)>That much power... It must never fall into the hands of anyone who'd misuse it.",
+   "notes": "",
+   "source_sha256": "a0e6388cfabf8d025994013ea0028467d8e2ea4cce40a837c9bb087e98b61f11"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(19020,1)><speed(2)>Yeah... We can't let this Earth end up like ours.",
+   "notes": "",
+   "source_sha256": "f0d57b755d5b7f246eab1e1d4f91b2939f6afab577b8db64827421508d315447"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(12051,1)><speed(2)>Apple or whatever, don't matter - we only gotta smash it, right?",
+   "notes": "",
+   "source_sha256": "981c3d575925359a19414936af720b84cbdd7335ff90f5459e7ead5f794979fe"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(12061,2)><speed(2)>It's <color(5)>Sharon Apple<ce()>. Honestly, <color(4)>Ryoko<ce()>, you're still hopeless with celebrity trivia.",
+   "notes": "",
+   "source_sha256": "bbd8facf2450687917f03792e02887e86e6c1959d3592c8d41c5d6f17bd9d730"
+  },
+  {
+   "table": 1,
+   "slot": 301,
+   "text_id": 302,
+   "en": "<operator(12051,2)><speed(2)>Shut it! Let's get moving already!",
+   "notes": "",
+   "source_sha256": "d0f4ad9b25d9e3b6f6943f98d6651b5fd841089c5d0cd4b52411d9c091d260cf"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 22,
+   "issue": "'-senpai' address to Focker has no corpus precedent for this pair; rendered as a stammered name ('F-Focker?') rather than inventing a title."
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "issue": "'job' replaced with 'duty' (soft j/q avoidance); meaning unchanged."
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "issue": "'...it's not only us who' trails off as in source; referent left implicit (the ship/crew)."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 51,
+  "rows_in_scene": 51,
+  "meaning_fixes": [],
+  "format_fixes": [
+   {
+    "table": 1,
+    "slot": 22,
+    "before": "I know. We just have to do it.",
+    "after": "I know. There's no choice but to do it.",
+    "reason": "lowercase j (font has no lowercase j/q glyph)"
+   },
+   {
+    "table": 1,
+    "slot": 139,
+    "before": "A ship that amazing, seems like a waste to just wreck it.",
+    "after": "A ship that amazing, seems like a waste to simply wreck it.",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 142,
+    "before": "...it's not just us who...",
+    "after": "...it's not only us who...",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 143,
+    "before": "I-I know! It was a joke!",
+    "after": "I-I know! I was only kidding!",
+    "reason": "lowercase j in 'joke'"
+   },
+   {
+    "table": 1,
+    "slot": 180,
+    "before": "Yeah... it's just, this world has so many amazing things in it.",
+    "after": "Yeah... it's only that this world has so many amazing things in it.",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 181,
+    "before": "...it's just, one surprise after another...",
+    "after": "...it's more like one surprise after another...",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 182,
+    "before": "Glad you joined Gekkostate, aren't you?",
+    "after": "Glad you're part of Gekkostate now, aren't you?",
+    "reason": "lowercase j in 'joined'"
+   },
+   {
+    "table": 1,
+    "slot": 183,
+    "before": "Though it's mostly just chores.",
+    "after": "Though it's mostly nothing but chores.",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 221,
+    "before": "...then we just have to do it.",
+    "after": "...then we simply have to do it.",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 299,
+    "before": "...we just gotta smash it, right?",
+    "after": "...we only gotta smash it, right?",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 301,
+    "before": "Shut it! Let's just get moving!",
+    "after": "Shut it! Let's get moving already!",
+    "reason": "lowercase j"
+   }
+  ],
+  "checked_decisions": [
+   "Table 0 slot 22/25: '-senpai' address to Focker rendered as stammered name/plain name ('F-Focker?', 'Focker') with no honorific; no corpus precedent for this pair, accepted as the project's standing convention of dropping honorifics.",
+   "Table 0 slot 26: 'job' already replaced with 'duty' to avoid lowercase j; correct application of the font constraint, meaning unchanged.",
+   "All 34 speaker ids resolved via speaker_lookup.py (Hikaru Ichijyo, Focker, Gainer, Holland, Barrel, Marina, Faye, Isamu, Guld, Garrod, Witz, Sala, Roybea, Renton, Eureka, Gidget, Gain, Sara, Gai, Light, Go, Kei, Ryoko, Hikaru Amano); table 0 slot 29 speaker 21010 (Gainer) mixed into the Macross-crew conversation is per source data and left untouched per the never-change-speaker-tags rule.",
+   "'Boddole Zer' spelling (table 1 slot 19) verified against encyclopedia_021_a.json and the 4004393/4004543 corpus precedent.",
+   "Command tags (<color>, <thumbnail> not present here; only <color>/<ce>) checked in source order for every row; none needed repositioning.",
+   "Full scan for lowercase j/q outside locked names: 11 rows contained lowercase j ('just', 'joke', 'joined'); all reworded without changing meaning. No lowercase q found. No locked name in this scene contains j/q."
+  ],
+  "remaining_uncertainties": [
+   "Table 0 slot 22/25: no honorific precedent exists yet for Hikaru Ichijyo -> Focker; if a later scene establishes a different convention, revisit.",
+   "Table 1 slot 142: Sala's line trails off before naming who else is at risk beyond 'us'; referent (the ship/crew) inferred from context, not stated."
+  ]
+ }
+}

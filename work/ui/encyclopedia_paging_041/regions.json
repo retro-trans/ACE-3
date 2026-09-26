@@ -1,0 +1,20 @@
+{
+  "version": "0.1.41",
+  "menu_bundles": [4002050, 4002054, 4002057],
+  "body_table": 3019,
+  "example_text_id": 35,
+  "example_name": "Zentradi",
+  "screenshots": ["zentradi_page1_before.png", "zentradi_page2_before.png"],
+  "body_region_approx_first_capture": {"x": 380, "y": 292, "width": 810, "height": 438},
+  "observed_page_stride_lines": 8,
+  "capacity_setter_va": "0x2b6fb0",
+  "capacity_call_va": "0x2f47c4",
+  "capacity_argument_va": "0x2f47c8",
+  "capacity_argument": 190,
+  "reproduced_cutoff_visible_characters": 189,
+  "safe_page_visible_characters_excluding_newlines": 180,
+  "max_page_characters_including_newlines": 187,
+  "line_width_limit": 443,
+  "modification": "Page-break whitespace only. Original words, links and line widths preserved.",
+  "runtime_verified": false
+}

@@ -1,0 +1,436 @@
+{
+  "slice_start": 10717,
+  "slice_count": 65,
+  "rows_examined": [
+    [
+      10702,
+      10796
+    ]
+  ],
+  "rows_examined_count": 95,
+  "rows_in_slice": 65,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_10733",
+        "dialogue_10734",
+        "dialogue_10758",
+        "dialogue_10761",
+        "dialogue_10765",
+        "dialogue_10767"
+      ],
+      "note": "Several rows in the post-battle epilogue (slots 152-197) have no color tag identifying the speaker. Renton/Eureka are inferred where context strongly implies them (pronoun style, continuation of the preceding exchange); other speakers (a self-described scholar, a returning crew) are left unnamed and gender-neutral rather than guessed."
+    },
+    {
+      "ids": [
+        "dialogue_10746",
+        "dialogue_10747",
+        "dialogue_10748"
+      ],
+      "note": "Same 'I... Can... Fly!' phonetic reading as dialogue_10705, here split across three separate timed rows; see that row's note."
+    },
+    {
+      "id": "dialogue_10756",
+      "note": "'Your old man' is left unnamed; consistent with Renton's father Adroc Thurston per glossary, but the speaker and addressee are not tagged in source."
+    }
+  ],
+  "validation": {
+    "commands": "All source <...> commands reproduced in the same order for every row (self-checked against a hand-extracted tag list per row); rows 10756-10781 preserve the source's total absence of <ab()>/<ed()>/<off()> rather than adding any; dialogue_10725 preserves the source's missing <ed()> and trailing literal newline.",
+    "format": "Line-break (\\n) counts kept identical to source for every row.",
+    "fit": "Full meaning drafted for every row; longest combined visible text checked programmatically and kept at or under 110 characters (no row was pre-shortened).",
+    "glossary": "Locked terms used: Nirvash, Command Cluster, Limit of Questions, Scub (encyclopedia_022.json, matching batch_05943.json precedent for the short 'Scub' vs 'Scub Coral'), Char, Neo Zeon, Federation, Axis, Ra Cailum (character_names_021.json / encyclopedia_022.json). No new terms proposed.",
+    "meaning_review": "Independently re-checked against the source for all 65 rows (context 10702-10796): no mistranslation, reversed meaning, wrong addressee, or invented subject/gender/information found; all translator uncertainties confirmed as correctly left ambiguous. Two rows (10761, 10779) had their target text edited to remove a disallowed lowercase j (\"just now\" -> \"a moment ago\"; \"object\" -> \"disagree\") with meaning preserved; row 10765 re-measured at exactly 110 visible characters (newlines excluded from the count) and needed no change. All rows set to meaning_reviewed; see review_10717.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_10717",
+      "target": "<op()><sp(20)>Eurekaaaaa--!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10718",
+      "target": "<op()><sp(20)>The Nirvash has\nbroken into the Command Cluster!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10719",
+      "target": "<op()><sp(20)>Can't we tell what's happening inside?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10720",
+      "target": "<op()><sp(20)>The two of them... have made contact.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10721",
+      "target": "<op()><sp(20)>Tiffa, can you tell?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10722",
+      "target": "<op()><sp(20)>Eureka... I came to see you.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10723",
+      "target": "<sp(20)>Don't you dare say goodbye.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10724",
+      "target": "<op()><sp(20)>You came... you really came.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10725",
+      "target": "<op()><sp(20)>I promised, didn't I?<ab(100)>\n",
+      "status": "meaning_reviewed",
+      "notes": "Source row lacks a closing <ed()> and instead has a literal trailing newline after <ab(100)>, matching this project's convention of preserving rather than repairing malformed/incomplete source commands (see docs/DIALOGUE.md)."
+    },
+    {
+      "id": "dialogue_10726",
+      "target": "<sp(20)>That I'd always protect you.\nThat I'd be with you forever.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10727",
+      "target": "<op()><sp(20)>But I... can't go back anymore.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10728",
+      "target": "<sp(20)>If I go back, the world will...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10729",
+      "target": "<op()><sp(20)>If you choose to stop being a Coralian\nto protect this world...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10730",
+      "target": "<sp(20)>then I'll stop being human too.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10731",
+      "target": "<sp(20)>This planet, where I got to meet you, matters to me,\nand so does everyone living on it.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10732",
+      "target": "<sp(20)>But I don't want to lose you for that.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10733",
+      "target": "<op()><sp(20)>Let's become one, Eureka.\nI won't let you be alone.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker inferred as Renton from the vocative address to Eureka and continuation of the preceding Amita Drive/Nirvash exchange (10726-10732); not asserted with certainty."
+    },
+    {
+      "id": "dialogue_10734",
+      "target": "<op()><sp(20)>If I'm with Renton, I can bear it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker inferred as Eureka (reply completing the exchange); not asserted with certainty."
+    },
+    {
+      "id": "dialogue_10735",
+      "target": "<op()><sp(20)>The Command Cluster has started to collapse!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10736",
+      "target": "<op()><sp(20)>Renton, did he actually do it!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10737",
+      "target": "<op()><sp(20)>Everyone, they did it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10738",
+      "target": "<op()><sp(20)>Th-the escort unit's been wiped out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10739",
+      "target": "<on()><sp(20)>Kyaah!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10740",
+      "target": "<on()><sp(20)>Whoa!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10741",
+      "target": "<on()><sp(20)>Eek!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10742",
+      "target": "<on()><sp(20)>A direct hit!?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10743",
+      "target": "<on()><sp(20)>No, wait!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10744",
+      "target": "<on()><sp(20)>What is that thing?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10745",
+      "target": "<on()><sp(20)>It's the Nirvash.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10746",
+      "target": "<on()><sp(20)>I...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Split rendering of the same 'I... Can... Fly!' line as 10705 (see that row's note), here spread across three separate rows/timings."
+    },
+    {
+      "id": "dialogue_10747",
+      "target": "<on()><sp(20)>Can...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "See dialogue_10746 note."
+    },
+    {
+      "id": "dialogue_10748",
+      "target": "<on()><sp(20)>Fly!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "See dialogue_10746 note."
+    },
+    {
+      "id": "dialogue_10749",
+      "target": "<on()><sp(20)>I can hear the Nirvash's voice...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10750",
+      "target": "<on()><sp(20)>It's still lending us its strength.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10751",
+      "target": "<on()><sp(20)>Everyone...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10752",
+      "target": "<on()><sp(20)>The Nirvash told us.\nThe Limit of Questions has been averted.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Limit of Questions per encyclopedia_022.json; this row's source has no book tag around the term."
+    },
+    {
+      "id": "dialogue_10753",
+      "target": "<on()><sp(20)>Our Earth has been saved!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10754",
+      "target": "<on()><sp(20)>Renton, let's go home.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10755",
+      "target": "<on()><sp(20)>Yeah, to our place.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10756",
+      "target": "<on()><sp(20)>You've become a real hero.\nMore of one than your old man.",
+      "status": "meaning_reviewed",
+      "notes": "Rows 10756-10781 (slot 185 onward) all lack <ab()>/<ed()>/<off()> commands entirely in the source; preserved as-is rather than adding commands the source omits. Speaker not identified; 'your old man' is consistent with Renton's father Adroc Thurston (glossary: 'father of Renton Thurston') without asserting who is speaking."
+    },
+    {
+      "id": "dialogue_10757",
+      "target": "<on()><sp(20)>That's not true... it's thanks to everyone.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10758",
+      "target": "<on()><sp(20)>I... when I was alone, I heard everyone's voices.\nThey were such warm voices.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker inferred as Eureka from context (post-battle reflection continuing 10754-10757); not asserted with certainty."
+    },
+    {
+      "id": "dialogue_10759",
+      "target": "<on()><sp(20)>I want to stay with everyone from now on too.\nThat's okay, isn't it, <color(4)>Renton<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": "Renton per character_names_021.json; speaker (likely Eureka) not tagged by source."
+    },
+    {
+      "id": "dialogue_10760",
+      "target": "<on()><sp(20)>Of course it is!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10761",
+      "target": "<on()><sp(20)><color(4)>Renton<ce()>, <color(4)>Eureka<ce()>...\nWhat did the <book(61)>Nirvash<endbook()> say to you\nin that battle a moment ago?",
+      "status": "meaning_reviewed",
+      "notes": "Renton and Eureka per character_names_021.json; asking speaker not identified by source (possibly a researcher/scholar figure, confirmed by 'I'm a scholar' in 10765), no name/gender invented."
+    },
+    {
+      "id": "dialogue_10762",
+      "target": "<on()><sp(20)>The <book(61)>Nirvash<endbook()> heard our voices, and said\nit would become the <book(80)>Command Cluster<endbook()>\nin our place.",
+      "status": "meaning_reviewed",
+      "notes": "Nirvash / Command Cluster per encyclopedia_022.json; speaker uses the masculine first-person pronoun 'boku', consistent with Renton."
+    },
+    {
+      "id": "dialogue_10763",
+      "target": "<on()><sp(20)>That way, the <book(77)>Limit of Questions<endbook()>\nwouldn't happen...",
+      "status": "meaning_reviewed",
+      "notes": "Limit of Questions per encyclopedia_022.json; book(77) wrap matches source."
+    },
+    {
+      "id": "dialogue_10764",
+      "target": "<on()><sp(20)>Until our fight is over...\nit told us it would\nlend us its strength until then.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker uses polite '-desu' register, consistent with Eureka's established speech pattern elsewhere in this scene (e.g. 10640-10648)."
+    },
+    {
+      "id": "dialogue_10765",
+      "target": "<on()><sp(20)>I'm a scholar - I don't care to believe in miracles...\nbut given the outcome,\nyour feelings bore fruit, you two.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker self-identifies as a scholar ('I'm a scholar'); not matched to a named glossary character in this slice, kept unnamed/gender-neutral."
+    },
+    {
+      "id": "dialogue_10766",
+      "target": "<on()><sp(20)>Let me thank everyone again.\nThe mediation with the <book(69)>Scub<endbook()>... is over.",
+      "status": "meaning_reviewed",
+      "notes": "Scub per existing precedent (batch_05943.json uses book(69)>Scub<endbook() for the source's bare short form, distinct from the full 'Scub Coral')."
+    },
+    {
+      "id": "dialogue_10767",
+      "target": "<on()><sp(20)>Thanks to that, we too\nwere able to return to our own Earth.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/group not identified; 'our own Earth' implies a crew that traveled from elsewhere (consistent with Nadesico C's presence in this mission per task scope), not asserted as fact."
+    },
+    {
+      "id": "dialogue_10768",
+      "target": "<on()><sp(20)>I wanted this to be\na happy ending, but...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10769",
+      "target": "<on()><sp(20)>At this point, bring on whatever you've got.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10770",
+      "target": "<on()><sp(20)>While we were away,\nsomething serious has happened.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10771",
+      "target": "<on()><sp(20)><color(5)>Char<ce()>!?",
+      "status": "meaning_reviewed",
+      "notes": "Char (Aznable) per character_names_021.json."
+    },
+    {
+      "id": "dialogue_10772",
+      "target": "<on()><sp(20)>I knew it...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10773",
+      "target": "<on()><sp(20)>It seems <book(12)>Neo Zeon<endbook()> bought an asteroid from the\n<book(9)>Federation<endbook()> and has begun an operation to drop\n<book(14)>Axis<endbook()> onto Earth.",
+      "status": "meaning_reviewed",
+      "notes": "Neo Zeon / Federation / Axis per encyclopedia_022.json; book-tag order (12, 9, 14) reordered in translation to preserve the source's exact tag sequence while keeping natural English word order."
+    },
+    {
+      "id": "dialogue_10774",
+      "target": "<on()><sp(20)>We warned them again and again...\nthose people up top!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10775",
+      "target": "<on()><sp(20)><book(14)>Axis<endbook()> has already begun moving\ntoward Earth.\nThere's not a moment to lose.",
+      "status": "meaning_reviewed",
+      "notes": "Axis per encyclopedia_022.json."
+    },
+    {
+      "id": "dialogue_10776",
+      "target": "<on()><sp(20)>We'll rendezvous with the <book(11)>Ra Cailum<endbook()> right away,\nthen begin the operation.",
+      "status": "meaning_reviewed",
+      "notes": "Ra Cailum per encyclopedia_022.json."
+    },
+    {
+      "id": "dialogue_10777",
+      "target": "<on()><sp(20)>We're coming too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10778",
+      "target": "<on()><sp(20)>Yeah, we've got a debt to repay.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10779",
+      "target": "<on()><sp(20)>No one's going to disagree.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10780",
+      "target": "<on()><sp(20)>We're seeing this through to the end.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10781",
+      "target": "<on()><sp(20)>Everyone...\nI look forward to your continued support.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

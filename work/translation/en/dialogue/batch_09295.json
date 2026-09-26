@@ -1,0 +1,525 @@
+{
+  "slice_start": 9295,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      9280,
+      9389
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_09295",
+      "target": "<op()><sp(20)>Everyone believes in tomorrow!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Barrel, countering Berkt's nihilism; not tagged in source."
+    },
+    {
+      "id": "dialogue_09296",
+      "target": "<op()><sp(20)>Through this fight,\nI found hope, in the form of Barrel.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker uses formal 'watashi'; not identified by name. Left as first person, no gender/identity invented."
+    },
+    {
+      "id": "dialogue_09297",
+      "target": "<sp(20)>And I'll build a future together with everyone!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09298",
+      "target": "<op()><sp(20)>Even that...\nis about to vanish, very soon!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Berkt, dismissing the hope described in 9296-9297."
+    },
+    {
+      "id": "dialogue_09299",
+      "target": "<op()><sp(20)>This new model... it's strong!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09300",
+      "target": "<op()><sp(20)>Barrel!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09301",
+      "target": "<op()><sp(20)>I'm different from before too.\nI'll make it work somehow!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09302",
+      "target": "<op()><sp(20)>That's the spirit.\nCome on!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09303",
+      "target": "<op()><sp(20)>There's a unit like this in the Ark series!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Ark series (proposed term, see glossary proposals) covers the Gun Ark/Blood Ark/Grave Ark family already locked in unit_names_014."
+    },
+    {
+      "id": "dialogue_09304",
+      "target": "<op()><sp(20)>So, the original Gun Ark.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Gun Ark = locked unit name (unit_names_014_a)."
+    },
+    {
+      "id": "dialogue_09305",
+      "target": "<sp(20)>Let me show you I'm not your enemy.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09306",
+      "target": "<op()><sp(20)>Don't get carried away!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09307",
+      "target": "<on()><sp(20)>Already, that much...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09308",
+      "target": "<on()><sp(20)>This is the critical moment.\nEveryone, let's go.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09309",
+      "target": "<on()><sp(20)>Berkt...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09310",
+      "target": "<on()><sp(20)>We did it!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09311",
+      "target": "<on()><sp(20)>Ensign Barrel.\nPlease shut down the Baldora Drive.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09312",
+      "target": "<on()><sp(20)>Now... Barrel.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09313",
+      "target": "<on()><sp(20)>Right...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09314",
+      "target": "<on()><sp(20)>Everyone, hurry!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09315",
+      "target": "<on()><sp(20)>The Nadesico will now enter the wormhole\nand return home.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09316",
+      "target": "<on()><sp(20)>All units, return to the Nadesico immediately.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09317",
+      "target": "<on()><sp(20)>Leave the rest of the enemy to us!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09318",
+      "target": "<on()><sp(20)>Faye...\nAre you sure about this?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09319",
+      "target": "<on()><sp(20)>Direct hit!\nEngine section damaged!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09320",
+      "target": "<on()><sp(20)>...Berkt!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09321",
+      "target": "<on()><sp(20)>...Even if I fought\nbelieving in something like a future...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Berkt, continued in 9322; not tagged."
+    },
+    {
+      "id": "dialogue_09322",
+      "target": "<on()><sp(20)>There are things that can't be overcome.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09323",
+      "target": "<on()><sp(20)>I won't let you go!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/addressee unclear; kept neutral, no identity invented."
+    },
+    {
+      "id": "dialogue_09324",
+      "target": "<on()><sp(20)>You sure used me well...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Bitter remark; addressee (whoever manipulated the speaker) not named in source, none invented."
+    },
+    {
+      "id": "dialogue_09325",
+      "target": "<on()><sp(20)>...How careless of me... I'd forgotten.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unidentified; not assumed to be any named character."
+    },
+    {
+      "id": "dialogue_09326",
+      "target": "<on()><sp(20)>The wormhole has... completely vanished...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09327",
+      "target": "<on()><sp(20)>Y-you're kidding, right?\nDoes that mean... we can't go back?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09328",
+      "target": "<on()><sp(20)>Faye!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09329",
+      "target": "<on()><sp(20)>Yeah... there's no longer any way back...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09330",
+      "target": "<on()><sp(20)>Baldora Drive shutdown confirmed.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09331",
+      "target": "<on()><sp(20)>Let this be a farewell offering...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Tamuke' (offering to the dead); speaker/addressee not confirmed, likely Barrel regarding Berkt."
+    },
+    {
+      "id": "dialogue_09332",
+      "target": "<on()><sp(20)>Ngh...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09333",
+      "target": "<on()><sp(20)>Berk...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source name is cut off mid-word (Berukuto -> Beruku); rendered as a matching cut-off 'Berk...' rather than completing the name."
+    },
+    {
+      "id": "dialogue_09334",
+      "target": "<on()><sp(20)>...Guess this is goodbye to this world too.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09335",
+      "target": "<on()><sp(20)>The rest is...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09336",
+      "target": "<on()><sp(20)>To think the day would come to see this unit's true worth...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09337",
+      "target": "<on()><sp(20)>Damn it!\nRight in front of us, and it comes to this...!",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no trailing <ab()>/<off()>; preserved as-is (matches earlier reviewed examples of open-ended rows)."
+    },
+    {
+      "id": "dialogue_09338",
+      "target": "<on()><sp(20)>Are we... really unable to go back anymore?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09339",
+      "target": "<on()><sp(20)>...Unfortunately, yes.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09340",
+      "target": "<on()><sp(20)>I'm sorry.\nIf we hadn't let our guard down...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09341",
+      "target": "<on()><sp(20)>Regretting it now won't get us anywhere.\nFor now, let's sort out our situation\nand think of a solution.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09342",
+      "target": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()> has stopped,\nand we managed to prevent the <book(3)>wormhole<endbook()> from opening.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09343",
+      "target": "<on()><sp(20)>But the <book(1)>Baldora Drive<endbook()> was destroyed.\nIt can never be started again.\nIn other words... we can't go home.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09344",
+      "target": "<on()><sp(20)>So the only silver lining\nis that we stopped the <book(1)>Baldora Drive<endbook()>...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09345",
+      "target": "<on()><sp(20)>But... there's still\nthe other <book(1)>Baldora Drive<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09346",
+      "target": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()> on the other world...!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09347",
+      "target": "<on()><sp(20)>The door that used to open from both sides\nhas become one-way, it seems.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09348",
+      "target": "<on()><sp(20)>If the <book(1)>Baldora Drive<endbook()> on the other side\nreaches full operation, the <book(3)>wormhole<endbook()>\nshould open again.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09349",
+      "target": "<on()><sp(20)>It'll be slower,\nbut linking the spaces should be possible with only one side.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09350",
+      "target": "<on()><sp(20)>So unless we stop that one too,\nthis won't be a real solution.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09351",
+      "target": "<on()><sp(20)>Even so, there's nothing we can do from this side...\nThat's the situation.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09352",
+      "target": "<on()><sp(20)>Even knowing that much,\nis there really nothing we can do?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09353",
+      "target": "<on()><sp(20)>No, there isn't.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09354",
+      "target": "<on()><sp(20)><color(5)>Berkt<ce()>... I wonder if he made it back to the other side?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09355",
+      "target": "<on()><sp(20)>I don't know...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09356",
+      "target": "<on()><sp(20)>If he managed to cross over there...\nhe can take his time opening the <book(3)>wormhole<endbook()>\nfrom that side.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09357",
+      "target": "<on()><sp(20)>Because we can't go back to that side.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09358",
+      "target": "<on()><sp(20)>We don't even know what <color(5)>Char<ce()>\nmight do...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09359",
+      "target": "<on()><sp(20)>Couldn't we contact the other side\nand get them to send help?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09360",
+      "target": "<on()><sp(20)>That's not possible.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09361",
+      "target": "<on()><sp(20)>So there's no way, then...\nCaptain, isn't there anything you can do!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09362",
+      "target": "<on()><sp(20)>...I'm sorry.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09363",
+      "target": "<on()><sp(20)>No way...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09364",
+      "target": "<on()><sp(20)>Sorry to bring this up now, but...\n<color(4)>Holland<ce()>. Word came in that <color(6)>Norb<ce()>\nhas been captured by the <book(38)>New Federation<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09365",
+      "target": "<on()><sp(20)>I hear he's been temporarily imprisoned\nat <book(59)>Liman Megalopolis<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Liman Megalopolis rendering matches encyclopedia_022.json."
+    },
+    {
+      "id": "dialogue_09366",
+      "target": "<on()><sp(20)>What...!?\n<color(6)>Norb<ce()>...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09367",
+      "target": "<on()><sp(20)>...If we're doing this, now's our only chance.\nEveryone, listen up.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09368",
+      "target": "<on()><sp(20)>From here, I want <book(60)>Gekkostate<endbook()>\nto head out and rescue the <book(83)>Vodarac<endbook()> high priest,\n<color(6)>Norb<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "high priest = locked rendering of kousou (terms_028); reordered clause to keep book(83) before color(6), matching source command order."
+    },
+    {
+      "id": "dialogue_09369",
+      "target": "<on()><sp(20)><color(6)>Norb<ce()> is essential to negotiations\nwith the <book(72)>Coralians<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09370",
+      "target": "<on()><sp(20)>He's held by the <book(38)>New Federation<endbook()> for now,\nbut moved to <book(38)>New Federation<endbook()> HQ,\nwe'd never reach him again.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09371",
+      "target": "<on()><sp(20)>I've searched for him for years.\nThis is our only chance to save him.\nEveryone, lend me your strength.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09372",
+      "target": "<on()><sp(20)>Why bring this up now, of all times...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09373",
+      "target": "<on()><sp(20)>For us, it's not 'of all times.'\nThough I get where we stand right now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09374",
+      "target": "<on()><sp(20)>This is a fight too.\nThe kind fought to protect the world.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_09296",
+        "dialogue_09321",
+        "dialogue_09323",
+        "dialogue_09324",
+        "dialogue_09325",
+        "dialogue_09331"
+      ],
+      "note": "Several rows in the Berkt death/aftermath sequence are not speaker-tagged (formal 'watashi' narration, bitter asides, a farewell line). Translated literally in first person / neutral address; no character name or gender assigned beyond what is grammatically certain."
+    },
+    {
+      "id": "dialogue_09333",
+      "note": "Source name is visibly cut off mid-word (matches 'Berkt' truncated before the final syllable); rendered as a similarly truncated 'Berk...' rather than restoring the full name, since the source itself is incomplete."
+    },
+    {
+      "id": "dialogue_09368",
+      "note": "Reworded to 'the Vodarac high priest, Norb' (rather than 'a person named Norb, the Vodarac high priest') so that the book(83)/color(6) command order in English matches the source's book(83) before color(6) order exactly."
+    },
+    {
+      "id": "dialogue_09303",
+      "note": "'Ark series' proposed as a plain descriptive term (see batch_09295_glossary_proposals.json); not previously locked, covers the existing Gun Ark/Blood Ark/Grave Ark family."
+    }
+  ],
+  "validation": {
+    "controls": "All source commands (on/off/sp/ab/color/ce/book/endbook) preserved in exact source order per row, including several rows (9337-9374) that end with no closing <ab()>/<off()> in the source -- left unclosed to match.",
+    "fit": "All rows drafted in full; longest visible strings stay well under the 110-character budget.",
+    "translation": "First-pass draft translation, independent meaning review pending; status left as draft per task instructions.",
+    "meaning_review": "Independent review of 80 rows against original ISO; 110 examined 9280-9389. No meaning fixes needed; all rows verified. See review_09295.json."
+  }
+}

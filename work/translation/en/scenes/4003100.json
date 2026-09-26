@@ -1,0 +1,108 @@
+{
+ "resource_id": 4003100,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 9,
+ "rows_examined": 9,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "10A Defend Amaterasu",
+   "notes": "Released mission title reused (missions_019).",
+   "source_sha256": "384ed5d311ac16a1f1b6a3ac4778caa226fb70c2bffcfcb051a8606e9b940f6f"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30030,1)><speed(2)>Everyone, it seems our read on this was right on the mark. The force that appeared at <book(25)>Shirahime<endbook()> has shown up again.",
+   "notes": "Shirahime locked (encyclopedia_022).",
+   "source_sha256": "2c45877d91a96f95432fb9270ed2d597ff03876293c7505f179ffe682228037c"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30030,1)><speed(2)>Right now, \"<book(26)>Amaterasu<endbook()><thumbnail(210)>\" is under their attack, and its main computer has gone out of control. In short, it is in chaos.",
+   "notes": "Amaterasu locked (encyclopedia_022).",
+   "source_sha256": "222b82d4ef2bd48354981930244662856d672471c239ec22ee74dd0a3bf319be"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30030,1)><speed(2)>Also, a <color(5)>ship of unknown affiliation<ce()>, seemingly a separate force, has appeared and is fighting them.",
+   "notes": "\"ship of unknown affiliation\" matches the corpus's established \"unit of unknown affiliation\" form. Orchestrator: shortened to fit three lines. Orchestrator: shortened to fit three lines.",
+   "source_sha256": "e7be305c458234ff041b762c60eaa389a36307c161f22a1c327f1d3f70bd1194"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30030,1)><speed(2)>Given the situation, I doubt it is an ally... but we will stay wary of this force while we intercept the enemy.",
+   "notes": "",
+   "source_sha256": "a8e0ef604657768d7c075f8e3c1d4c2d769cf77e0e4c47e829b16d261afc73c7"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<thumbdown()><topic()><operator(30030,1)><speed(2)>Forces of <book(12)>Neo Zeon<endbook()> and the former <book(18)>Giganos<endbook()> have also been confirmed.",
+   "notes": "",
+   "source_sha256": "c2da00392a7f5ffcc301e2f0ddecccafa486360586f7f4463b351dc8ac6c9612"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30030,1)><speed(2)>Why they are here is unclear, but we too will likely have to fight them. Enemies all around, but I am counting on you.",
+   "notes": "",
+   "source_sha256": "255e2a0a0a8810863ca9764855ed299300ad04e1b6ac9014d5233cd128f4ea65"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<topic()><operator(30030,1)><speed(2)>Oh, right. This mission will also include the <book(26)>Amaterasu<endbook()> defense unit's leader, <color(4)>Ryoko Subaru<ce()><thumbnail(211)>.",
+   "notes": "Ryoko Subaru (given-family order) per character_names_021 en_full; -san honorific dropped per project convention.",
+   "source_sha256": "c63ca8bcd4981ed601baa84ac6951aec914ef8d36bb6e86524c55f7d061aab41"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30030,1)><speed(2)>It is something of a nostalgic reunion... but the situation allows no delay. Please hurry your preparations.",
+   "notes": "",
+   "source_sha256": "b281d497fb2876a5adb62cf4303bb2a82c062c832c95be826828104be0404271"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "\"kare-ra to wa betsu no seiryoku to omowareru\" (thought to be a separate force from them) - gender/identity of the ship's crew not settled by the source; kept impersonal, no pronoun supplied."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 9,
+  "rows_in_scene": 9,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"10A Defend Amaterasu\".",
+   "Speaker confirmed via speaker_lookup: 30030 Ruri Hoshino is the sole speaker for the whole scene.",
+   "Amaterasu / Shirahime / Neo Zeon / Giganos spellings match glossary.json, character_names_021.json and encyclopedia_022.json.",
+   "Slot 25 \"Ryoko Subaru\" for source katakana Subaru-Ryouko: matches character_names_021 en_full exactly (glossary entry already fixes the given-family English word order); -san honorific dropped per project convention.",
+   "Slot 21 \"ship of unknown affiliation\" for shozoku fumei-kan: matches the corpus's established \"unit of unknown affiliation\" pattern (translator's own note, spot-checked against encyclopedia/dialogue usage of shozoku fumei).",
+   "Slot 21 ruling: gender/identity of the unknown ship's crew is not settled by the source; kept impersonal with no invented pronoun. Correct per project rule against inferring gender/subject.",
+   "Command-tag audit: every row's <...> tokens compared programmatically against tools/scene_source.py output for this resource - identical tokens, identical order.",
+   "Format audit: no non-ASCII characters, no literal newlines, no bare '%', no lowercase j/q anywhere in the file, all visible text under the 128-char limit (scripted check)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 19: EN adds \"again\" (\"has shown up again\") where the source literally only says \"has appeared\" (arawaremashita); justified by context (same force that hit Shirahime is now reappearing at Amaterasu) but is a small inferred addition, not present in the source sentence itself.",
+   "Slot 21: source has \"sude ni\" (already) engaging them; EN's \"is engaging them\" drops the \"already\" nuance (the fight was in progress before this report, not simultaneous with it). Minor detail loss, not a reversal; left."
+  ]
+ }
+}

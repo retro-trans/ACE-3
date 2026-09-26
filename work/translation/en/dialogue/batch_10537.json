@@ -1,0 +1,489 @@
+{
+  "slice_start": 10537,
+  "slice_count": 70,
+  "rows_examined": [
+    [
+      10522,
+      10627
+    ]
+  ],
+  "rows_examined_count": 106,
+  "rows_in_slice": 70,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_10541",
+        "dialogue_10543"
+      ],
+      "note": "Speaker who volunteers to save Anemone is not named; the following row identifies 'Dominic' being spotted, so this is plausibly Dominic's own line, but that is inferred from adjacency, not a name tag on the line itself."
+    },
+    {
+      "ids": [
+        "dialogue_10545",
+        "dialogue_10546",
+        "dialogue_10547"
+      ],
+      "note": "Speaker inferred as Holland: 'my brother' (ani-san) fits only Holland among the named cast (Dewey Novak is established in the glossary as Holland's older brother), and dialogue_10548 addresses 'Holland' directly, implying it replies to this speaker."
+    },
+    {
+      "ids": [
+        "dialogue_10548",
+        "dialogue_10549",
+        "dialogue_10551",
+        "dialogue_10553",
+        "dialogue_10558",
+        "dialogue_10566",
+        "dialogue_10573",
+        "dialogue_10577",
+        "dialogue_10579"
+      ],
+      "note": "Feminine/polite sentence endings across this debrief exchange were not assigned to a specific named character beyond what the <color()> name tags already state; no identity invented where the source leaves the speaker untagged."
+    },
+    {
+      "ids": [
+        "dialogue_10586"
+      ],
+      "note": "'taisa' rendered as 'Colonel' (standard rank translation for Dewey, matching terms_028.json's general rank convention note); no glossary entry locks this specific rank word."
+    },
+    {
+      "ids": [
+        "dialogue_10592"
+      ],
+      "note": "'CFS' kept as an untranslated acronym (no expansion given in source or glossary); flagged as a glossary candidate, not resolved here."
+    },
+    {
+      "ids": [
+        "dialogue_10527_carryover"
+      ],
+      "note": "Not a row in this batch; noted for the reviewer that dialogue_10537-10538 continue Dewey's monologue begun at dialogue_10534-10536 in batch_10457.json (open text box across the batch boundary, no <op()>/<on()> at the start of dialogue_10537)."
+    }
+  ],
+  "validation": {
+    "controls": "All angle-bracket commands (<on()>/<op()>, <sp(20)>, <ab(n)>, <ed()>, <color(n)>/<ce()>, <book(n)>/<endbook()>) preserved in the source's exact order for every row, including rows with no <ab()>/<ed()> at all (dialogue_10545-10606, a continuous meeting-style exchange that advances on player input rather than a timer) and rows where the text box stays open across two rows (dialogue_10543-10544, dialogue_10520-10521 style pattern carried over). Verified with a throwaway self-check script comparing each row's command list against tools/dialogue_corpus.py slice output; no Japanese source text was written to disk.",
+    "fit": "Full meaning drafted first; the longest lore-exposition rows (e.g. dialogue_10559, dialogue_10584, dialogue_10604) were recompressed to stay <=110 visible characters without dropping content.",
+    "ascii": "ASCII-only; no lowercase j/q required by any row in this slice; no bare % encountered.",
+    "meaning_review": "Independently meaning-reviewed: 70 of 70 rows examined against original ISO with 20 rows of surrounding context (10522-10611). Nine rows had constraint violations left over from the rate-limit interruption (tag order, missing line breaks, over-length lines, one unnecessary lowercase j) and were fixed in place; no meaning changes were needed. All rows set to meaning_reviewed. See review_10537.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_10537",
+      "target": "<sp(20)>The Scub has destroyed our own order,\nshattering our dignity beyond repair.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues Dewey's open monologue from dialogue_10536 in batch_10457.json (no <op()>/<on()> opener in source)."
+    },
+    {
+      "id": "dialogue_10538",
+      "target": "<sp(20)>After all of that, why should\nthis planet even go on living?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Closes the monologue begun in batch_10457.json."
+    },
+    {
+      "id": "dialogue_10539",
+      "target": "<op()><sp(20)>If you want to die that badly, go die alone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reads as Holland's retort to Dewey."
+    },
+    {
+      "id": "dialogue_10540",
+      "target": "<op()><sp(20)>Sorry, but I happen to be the lonely type...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reads as Dewey's reply, implying he does not intend to die alone."
+    },
+    {
+      "id": "dialogue_10541",
+      "target": "<op()><sp(20)>I'll go save Anemone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties."
+    },
+    {
+      "id": "dialogue_10542",
+      "target": "<op()><sp(20)>Idiot... don't you dare die.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply to dialogue_10541; speaker not named."
+    },
+    {
+      "id": "dialogue_10543",
+      "target": "<op()><sp(20)>Is that... Dominic?!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Text box stays open into dialogue_10544."
+    },
+    {
+      "id": "dialogue_10544",
+      "target": "<sp(20)>Wait!! I'm coming now!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10543; reads as Anemone's line, reaching toward Dominic."
+    },
+    {
+      "id": "dialogue_10545",
+      "target": "<on()><sp(20)>I realized far too late.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<ed()> in source; this begins a continuous meeting-style exchange running through dialogue_10606. See uncertainties for speaker inference."
+    },
+    {
+      "id": "dialogue_10546",
+      "target": "<on()><sp(20)>I couldn't save my brother.\nEverything was already too late.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10547",
+      "target": "<on()><sp(20)>Yeah. Everything, too late.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10548",
+      "target": "<on()><sp(20)>We were too late in everything we did,\n<color(4)>Holland<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Addresses Holland directly, implying the previous three rows are his."
+    },
+    {
+      "id": "dialogue_10549",
+      "target": "<on()><sp(20)>Who'd have thought our Earth\nwas the <book(76)>Promised Land<endbook()>...",
+      "status": "meaning_reviewed",
+      "notes": "'Promised Land' matches encyclopedia_022.json's locked rendering; book(76) link kept exactly as in source."
+    },
+    {
+      "id": "dialogue_10550",
+      "target": "<on()><sp(20)>So this is what <book(46)>D.O.M.E.<endbook()> and <color(4)>Norb<ce()>'s words\nreally meant.",
+      "status": "meaning_reviewed",
+      "notes": "D.O.M.E. and Norb spellings match character_names_021.json."
+    },
+    {
+      "id": "dialogue_10551",
+      "target": "<on()><sp(20)>The world's other face...\nthat was our world, after all.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10552",
+      "target": "<on()><sp(20)>What's the reason it turned out that way?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10553",
+      "target": "<on()><sp(20)>There's probably some guesswork mixed in,\nbut... let me think it through.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10554",
+      "target": "<on()><sp(20)>It all began with an accident\nduring the <book(1)>Baldora Drive<endbook()> activation test... the Cecilia tragedy.",
+      "status": "meaning_reviewed",
+      "notes": "Baldora Drive locked per terms_028.json; 'Cecilia' matches the locked 'Cecilia Islands' place name, composed here with the plain word 'tragedy' (no separate glossary entry exists for this exact phrase)."
+    },
+    {
+      "id": "dialogue_10555",
+      "target": "<on()><sp(20)>That became the branch point,\nand two entirely different worlds were born.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10556",
+      "target": "<on()><sp(20)>And ever since, the two worlds\nhave walked different histories.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10557",
+      "target": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()> turned out to be a device\nthat connected the two branched-off worlds.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10558",
+      "target": "<on()><sp(20)>So that's why <color(6)>Jill Bardona<ce()>\nwas in our world.",
+      "status": "meaning_reviewed",
+      "notes": "Jill Bardona spelling matches glossary.json/terms_028.json."
+    },
+    {
+      "id": "dialogue_10559",
+      "target": "<on()><sp(20)>The <book(69)>Scub Coral<endbook()> had to protect itself\nfrom the <book(49)>Invaders<endbook()>' hands,\nso as not to bring on the <book(77)>Limit of Questions<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit the visible-character budget."
+    },
+    {
+      "id": "dialogue_10560",
+      "target": "<on()><sp(20)>So it moved its core, the <book(80)>Command Cluster<endbook()>,\nto the other world.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10561",
+      "target": "<on()><sp(20)>How?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10562",
+      "target": "<on()><sp(20)>The Cecilia tragedy...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10563",
+      "target": "<on()><sp(20)>Probably. Once a connection formed\nbetween the two worlds,\nthe <book(69)>Scub<endbook()> wanted to keep it that way.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10564",
+      "target": "<on()><sp(20)>The <book(75)>Zone<endbook()> was the wall\nseparating the two worlds.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10565",
+      "target": "<on()><sp(20)>So the <book(80)>Command Cluster<endbook()>, the ringleader,\nwas in our world all along,\nwhile controlling the <book(69)>Scub<endbook()> elsewhere?",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: reworded to bring visible length to <=110 chars (was 116) while keeping tag order/newline count matching source."
+    },
+    {
+      "id": "dialogue_10566",
+      "target": "<on()><sp(20)>That's how it works out.\nThe <book(80)>Command Cluster<endbook()> was hiding itself\ninside our own Earth.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10567",
+      "target": "<on()><sp(20)>So that's...\nthe truth behind the two worlds.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10568",
+      "target": "<on()><sp(20)>Worlds that share the same root,\nyet turned out completely different.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10569",
+      "target": "<on()><sp(20)>Histories that diverged so greatly,\nall depending on whether the <book(69)>Scub Coral<endbook()> existed.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10570",
+      "target": "<on()><sp(20)>Please wait.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10571",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": "Confirms dialogue_10570 is spoken by Barrel."
+    },
+    {
+      "id": "dialogue_10572",
+      "target": "<on()><sp(20)>So it really was because I was the key...\nthat's why there are two of us.",
+      "status": "meaning_reviewed",
+      "notes": "Barrel connecting his own role as 'the key' to his parallel-world double Berkt."
+    },
+    {
+      "id": "dialogue_10573",
+      "target": "<on()><sp(20)>That's the most reasonable conclusion.\nThe one being who branched off...\nat the time of the Cecilia tragedy.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10574",
+      "target": "<on()><sp(20)><color(5)>Berkt<ce()>'s hatred for <color(4)>Barrel<ce()>\nmight stem from that.",
+      "status": "meaning_reviewed",
+      "notes": "Berkt spelling matches character_names_021.json (ACE3-original, male)."
+    },
+    {
+      "id": "dialogue_10575",
+      "target": "<on()><sp(20)>He's lived a hard life.\nThat gap with <color(4)>Barrel<ce()> shaped him,\nuntil he came to think of destroying the world...",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: reworded to bring visible length to <=110 chars (was 119) while keeping tag order/newline count matching source."
+    },
+    {
+      "id": "dialogue_10576",
+      "target": "<on()><sp(20)>But... I can't believe someone\nwho's the same person as me would think that way.",
+      "status": "meaning_reviewed",
+      "notes": "Barrel reacting to the explanation of Berkt as his branched-off counterpart."
+    },
+    {
+      "id": "dialogue_10577",
+      "target": "<on()><sp(20)>People's thinking changes when their circumstances do.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10578",
+      "target": "<on()><sp(20)>But...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10579",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>, there's something more important right now.\nIt's about <color(4)>Eureka<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Shifts the conversation topic to Eureka, leading into the following rows."
+    },
+    {
+      "id": "dialogue_10580",
+      "target": "<on()><sp(20)>What... happened to <color(4)>Eureka<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": "Barrel asking, continuing from dialogue_10579."
+    },
+    {
+      "id": "dialogue_10581",
+      "target": "<on()><sp(20)>She became\nthe proxy <book(80)>Command Cluster<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "'Proxy Command Cluster' for daiko shirei kuraSuta -- a stand-in core distinct from the original, destroyed Command Cluster. Meaning-reviewed: restored the line break present in source (target had 0 newlines vs source 1)."
+    },
+    {
+      "id": "dialogue_10582",
+      "target": "<on()><sp(20)>The proxy <book(80)>Command Cluster<endbook()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10583",
+      "target": "<on()><sp(20)>After the <book(80)>Command Cluster<endbook()> is gone,\nit stands in as the core of the <book(69)>Scub<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: reordered so <book(80)> Command Cluster precedes <book(69)> Scub, matching source tag order (was reversed)."
+    },
+    {
+      "id": "dialogue_10584",
+      "target": "<on()><sp(20)><color(5)>Dewey<ce()> knew the <book(80)>Command Cluster<endbook()>'s destruction\nwouldn't trigger the <book(77)>Limit of Questions<endbook()>\nright away.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit the visible-character budget; retains the meaning that Dewey anticipated a delay before the Limit of Questions would occur."
+    },
+    {
+      "id": "dialogue_10585",
+      "target": "<on()><sp(20)>Because the <book(69)>Scub Coral<endbook()> wants to survive too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10586",
+      "target": "<on()><sp(20)>So the Colonel tried to turn either <color(4)>Eureka<ce()>\nor me into the proxy\n<book(80)>Command Cluster<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "'Taisa' rendered as 'Colonel'; see uncertainties. Meaning-reviewed: restored second line break present in source (target had 1 newline vs source 2)."
+    },
+    {
+      "id": "dialogue_10587",
+      "target": "<on()><sp(20)>Built into <color(4)>Eureka<ce()> and <color(4)>Anemone<ce()>'s collars\nwas a self-destruct program\ndesigned to destroy the <book(69)>Scub<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "'Kubiwa' (collar) rendered literally; matches the canon control-collar devices worn by Eureka and Anemone."
+    },
+    {
+      "id": "dialogue_10588",
+      "target": "<on()><sp(20)>The <book(80)>Command Cluster<endbook()>--\n<color(4)>Anemone<ce()> or <color(4)>Eureka<ce()>, whichever--\nwas how the Colonel meant to feed it into the <book(69)>Scub<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: reordered tags to match source (book(80) before the color names before book(69), was reversed), shortened to <=110 chars (was 121), restored missing newline, and used 'feed' instead of 'inject' to avoid the lowercase j the font lacks a native glyph for."
+    },
+    {
+      "id": "dialogue_10589",
+      "target": "<on()><sp(20)>So activating that program would trigger\nthe <book(69)>Scub<endbook()>'s self-destruction,\nand bring on the <book(77)>Limit of Questions<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10590",
+      "target": "<on()><sp(20)>But how did <color(5)>Dewey<ce()>\nrig that up?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10591",
+      "target": "<on()><sp(20)><color(4)>Eureka<ce()> and the others' collars were,\nsomehow, wired directly\nto <color(5)>Dewey<ce()>'s heart and lungs.",
+      "status": "meaning_reviewed",
+      "notes": "'Shinpai kinou' (cardiopulmonary function) rendered as 'heart and lungs' for readability."
+    },
+    {
+      "id": "dialogue_10592",
+      "target": "<on()><sp(20)>Probably some kind of <book(70)>Trapar<endbook()> reverse-transfer system,\nadapted from CFS technology.",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties: CFS kept as an untranslated acronym; Trapar matches encyclopedia_022.json."
+    },
+    {
+      "id": "dialogue_10593",
+      "target": "<on()><sp(20)>He'd rigged it so that his own death\nwould serve as the trigger\nfor the self-destruct program.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10594",
+      "target": "<on()><sp(20)>As long as the Colonel lived, nothing happened,\nbut if anything befell him,\nthe world was set to be destroyed.",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: reworded to bring visible length to <=110 chars (was 112)."
+    },
+    {
+      "id": "dialogue_10595",
+      "target": "<on()><sp(20)>So <color(5)>Dewey<ce()> had prepared\nfor both a winning scenario\nand a losing one.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10596",
+      "target": "<on()><sp(20)>Even after his death,\nwe're still dancing\nin the palm of his hand.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10597",
+      "target": "<on()><sp(20)>So we couldn't keep\nour promise to <book(46)>D.O.M.E.<endbook()>...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10598",
+      "target": "<on()><sp(20)>No... there's still hope.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10599",
+      "target": "<on()><sp(20)>That's right.\n<color(4)>Tiffa<ce()> is correct.",
+      "status": "meaning_reviewed",
+      "notes": "Tiffa spelling matches existing corpus usage (batch_03803)."
+    },
+    {
+      "id": "dialogue_10600",
+      "target": "<on()><sp(20)>Given how thoroughly the plan was prepared,\nwhy hasn't the <book(77)>Limit of Questions<endbook()> happened...\nwhat's the reason?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10601",
+      "target": "<on()><sp(20)>I think it's because <color(4)>Eureka<ce()>\nis refusing to become\nthe <book(80)>Command Cluster<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10602",
+      "target": "<on()><sp(20)>If <color(4)>Eureka<ce()> becomes the <book(80)>Command Cluster<endbook()>,\nthe self-destruct program triggers,\nand the <book(69)>Scub<endbook()> starts to self-destruct.",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: reworded to bring visible length to <=110 chars (was 112)."
+    },
+    {
+      "id": "dialogue_10603",
+      "target": "<on()><sp(20)>And then the <book(77)>Limit of Questions<endbook()> arrives.\nA well-made script, isn't it...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10604",
+      "target": "<on()><sp(20)>But having lost its <book(80)>Command Cluster<endbook()>, the <book(69)>Scub<endbook()>\nwants <color(4)>Eureka<ce()> for itself.\nWe have to hurry.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit the visible-character budget. Meaning-reviewed: reordered so <book(80)> Command Cluster precedes <book(69)> Scub, matching source tag order (was reversed)."
+    },
+    {
+      "id": "dialogue_10605",
+      "target": "<on()><sp(20)>So that means we can still save <color(4)>Eureka<ce()> now.\n...That's how it is.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10606",
+      "target": "<on()><sp(20)>I'm... going.\nI'm going to see <color(4)>Eureka<ce()>!",
+      "status": "meaning_reviewed",
+      "notes": "Casual 'ore' confirms Barrel as speaker, resolving to act on dialogue_10605. Last row of resource 6311 in this slice; dialogue_10607 onward belongs to unrelated resources 6312+ (a different mission's opening-history montage) and is out of scope for this batch."
+    }
+  ]
+}

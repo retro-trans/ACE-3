@@ -1,0 +1,92 @@
+{
+ "resource_id": 4003541,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 7,
+ "rows_examined": 7,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "NO DATA",
+   "notes": "",
+   "source_sha256": "1187a1c8c01e16d2c1d8245214d11ffa88ee84f3c4c4460fbdc466a82361c480"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(5010,1)><speed(2)><move(1,8,11)>I will explain the operation<marker(1,8,11,0)>, so listen up.<move(2,8,11)>",
+   "notes": "",
+   "source_sha256": "688ffea3d8c3622c89ea507bfff82ac8152ae2a5a39dcd9feb5c12baeaec9e9b"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(5010,1)><speed(2)>Deployed within the operation area are <move(1,8,7)>unidentified <color(5)>enemies<ce()><marker(22,8,7,0)>; eliminate them all.<move(2,8,7)><picture(71,30,7,0)><refer(30,7,8,7)>",
+   "notes": "Source has no subject; imperative.",
+   "source_sha256": "1d1c88dea66f8f2b1a9005062c56517442be6af7e78e4e25674246b70832e466"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(5010,1)><speed(2)>The <color(5)>enemy<ce()>'s identity is still not known, so anything could happen.<marker(48,8,9,0)> Do not forget to stay alert to your surroundings.",
+   "notes": "",
+   "source_sha256": "b452761ad289942c5fe9ba38c158eafc1eddbfdc93d9643dea0bd2888e9c3a36"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(5010,1)><speed(2)><color(5)>Reinforcements<ce()> and the like are possible too, so take great care.",
+   "notes": "",
+   "source_sha256": "f79610662dd08bb7fb69e40ffba94d288a54fd160bc22f22f070021de1329fd2"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<delpic(30,7,1)><enemylist()><operator(5010,1)><speed(2)>This time it will be <color(6)>combat in space<ce()>. I expect space is a first for some of you, so go into it with care.",
+   "notes": "",
+   "source_sha256": "0db35d18e822fb0c5d437522e25ed73e75a84051e37c3749558699457b247325"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>This time the <color(4)>mothership<ce()> will not go out to the front and will provide rear support. Please go ahead and fight all out.",
+   "notes": "Mothership as in mission_terms.",
+   "source_sha256": "4f31cbebe839870599d9ce8cb9cb29414b1806fe0c4fed5d6de35b9cefeb3ebb"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 23,
+   "issue": "\"chuuiki sentou\" rendered \"combat in space\"; no locked UI term for space stages found."
+  },
+  {
+   "slot": 24,
+   "issue": "Playful \"tatakacchatte kudasai\" toned to \"go ahead and fight all out\"."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 7,
+  "rows_in_scene": 7,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speakers: 5010 Amuro Ray (slots 19-23), 12031 Ruri Hoshino (slot 24). No rank is mentioned in this scene.",
+   "Slot 0 \"NO DATA\" is already Latin text (full-width) in the source, kept.",
+   "Slot 23 ruling: \"combat in space\" for chuuiki sentou accepted; no locked UI term found in mission_terms_019 / deployment_terms_017.",
+   "Slot 24 ruling: \"go ahead and fight all out\" carries the playful tatakacchatte kudasai well enough for Ruri's deadpan voice; \"mothership\" matches mission_terms.",
+   "Slot 20: imperative for the subjectless \"subete haijo suru\" follows BASE_RULES."
+  ],
+  "remaining_uncertainties": [
+   "Slot 23: if a UI term for space stages is fixed later, align this row."
+  ]
+ }
+}

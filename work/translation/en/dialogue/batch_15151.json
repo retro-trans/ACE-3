@@ -1,0 +1,338 @@
+{
+  "slice_start": 15151,
+  "slice_count": 53,
+  "rows_examined": [
+    [
+      15151,
+      15203
+    ]
+  ],
+  "rows_examined_count": 53,
+  "rows_in_slice": 53,
+  "uncertainties": [],
+  "validation": {
+    "fit": "Each row's English visible length kept <= 2x(source visible-character count)-2, capped at 72 (per task's hard byte budget); no row exceeded its budget.",
+    "controls": "All angle-bracket commands (<op()>, <sp(20)>, <ab(1000)>, <ed()>) preserved in original order for every row; a single embedded newline kept exactly where the source had one, none added elsewhere.",
+    "meaning_review": "Independently meaning-reviewed against the Japanese source (tools/dialogue_corpus.py slice, context 15); no mistranslations, reversed meanings, wrong addressees/subjects, invented identity/gender, dropped sentence sense, or locked-spelling errors found. All rows promoted to meaning_reviewed; none left as draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_15151",
+      "target": "<op()><sp(20)>Turn X trembles with thrill!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15152",
+      "target": "<op()><sp(20)>Hahahahaha!\nAt last! The moment is finally here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15153",
+      "target": "<op()><sp(20)>Turn X, voice my bitter\ngrudge!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15154",
+      "target": "<op()><sp(20)>It begins, it begins!\nTurn X... awaken!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15155",
+      "target": "<op()><sp(20)>Ku, that's it?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15156",
+      "target": "<op()><sp(20)>Feeble!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15157",
+      "target": "<op()><sp(20)>What a disappointment!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15158",
+      "target": "<op()><sp(20)>What?! Ghingham's men\nshouldn't be this weak!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15159",
+      "target": "<op()><sp(20)>Tch... I read you wrong.\nThought you had more in you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15160",
+      "target": "<op()><sp(20)>Too sluggish!\nFind life in death!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15161",
+      "target": "<op()><sp(20)>That's it? Just playing around?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15162",
+      "target": "<op()><sp(20)>Nothing ventured,\nnothing gained, I'd say!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15163",
+      "target": "<op()><sp(20)>A samurai bears some pain!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15164",
+      "target": "<op()><sp(20)>Not bad...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15165",
+      "target": "<op()><sp(20)>Interesting...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15166",
+      "target": "<op()><sp(20)>Might let you serve House Ghingham.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15167",
+      "target": "<op()><sp(20)>Good skill.\nNow I want you dead!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15168",
+      "target": "<op()><sp(20)>Oh... not bad!\nAlive, you'd be a problem!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15169",
+      "target": "<op()><sp(20)>I want you dead now!\nKukuku, that's praise!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15170",
+      "target": "<op()><sp(20)>Not too bad!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15171",
+      "target": "<op()><sp(20)>You... not bad!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15172",
+      "target": "<op()><sp(20)>I like a capable one.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15173",
+      "target": "<op()><sp(20)>You bear a warrior's soul too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15174",
+      "target": "<op()><sp(20)>...More?\nI'll scatter them!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15175",
+      "target": "<op()><sp(20)>More of you?!\nSmall fry should only fall!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15176",
+      "target": "<op()><sp(20)>Fresh ones... let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15177",
+      "target": "<op()><sp(20)>Fools, back again!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15178",
+      "target": "<op()><sp(20)>Reinforcements?! Good training!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15179",
+      "target": "<op()><sp(20)>Those who want death, come!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15180",
+      "target": "<op()><sp(20)>Ants swarming are still only ants!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15181",
+      "target": "<op()><sp(20)>Numbers alone won't fell Turn X!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15182",
+      "target": "<op()><sp(20)>Grunts by the thousand aren't samurai!\nI'll show the difference!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15183",
+      "target": "<op()><sp(20)>No need to hesitate\ncrushing a gnat!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15184",
+      "target": "<op()><sp(20)>Your misfortune was facing Turn X!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15185",
+      "target": "<op()><sp(20)>Enemy boss?!\nJust more prey!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15186",
+      "target": "<op()><sp(20)>Turn X says\nto strike him down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15187",
+      "target": "<op()><sp(20)>Turn X reacts to this one!\nA big one?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15188",
+      "target": "<op()><sp(20)>I feel it...\nThis one's different!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15189",
+      "target": "<op()><sp(20)>Beating you may ease\nTurn X's wounds a little!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15190",
+      "target": "<op()><sp(20)>You'll be Ghingham's cornerstone of glory!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15191",
+      "target": "<op()><sp(20)>If you lead, I want a duel!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15192",
+      "target": "<op()><sp(20)>If you're the boss,\nshow your worth!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15193",
+      "target": "<op()><sp(20)>Fuhahahaha!\nTurn X is glad to meet a big one!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15194",
+      "target": "<op()><sp(20)>Is this all? Feels lacking, no?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15195",
+      "target": "<op()><sp(20)>2000 years of Ghingham ambition\nwon't be filled by this fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15196",
+      "target": "<op()><sp(20)>Not bad, I'd say.\nCall it a test, then.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15197",
+      "target": "<op()><sp(20)>That was fun\nHope next time's soon.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15198",
+      "target": "<op()><sp(20)>...Done already?\nNot enough!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15199",
+      "target": "<op()><sp(20)>Hmph... not even a warm-up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15200",
+      "target": "<op()><sp(20)>Neither Turn X nor I are pleased!\nI wish to fight more!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15201",
+      "target": "<op()><sp(20)>So this is war!\nWar, is it?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15202",
+      "target": "<op()><sp(20)>This, Gym Ghingham's power...\n2000 years mean nothing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15203",
+      "target": "<op()><sp(20)>Not much of a foe,\nbut it served as a test for Turn X...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

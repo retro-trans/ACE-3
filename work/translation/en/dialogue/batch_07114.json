@@ -1,0 +1,302 @@
+{
+  "slice_start": 7114,
+  "slice_count": 40,
+  "rows_examined": [
+    [
+      7099,
+      7208
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 40,
+  "rows": [
+    {
+      "id": "dialogue_07114",
+      "target": "<op()><sp(20)>Enemy reinforcements incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07115",
+      "target": "<on()><sp(20)>Let's settle this.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07116",
+      "target": "<on()><sp(20)>This is the last duty I have left to fulfill.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07117",
+      "target": "<on()><sp(20)>Ngh... Is this as far as I go?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07118",
+      "target": "<on()><sp(20)>I've fulfilled my duty...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07119",
+      "target": "<on()><sp(20)>Guh...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07120",
+      "target": "<on()><sp(20)>Well done...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07121",
+      "target": "<on()><sp(20)>Everyone, good work out there.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source; not added, matching the open-ended row convention (cf. batch_01073 row 1102)."
+    },
+    {
+      "id": "dialogue_07122",
+      "target": "<on()><sp(20)>...<color(4)>Akito<ce()>.\nWe've safely secured <color(4)>Yurika<ce()>.\nArrangements will be made to move her to Earth.",
+      "status": "meaning_reviewed",
+      "notes": "Akito Tenkawa locked (character_names_021.json). Yurika Misumaru accepted by meaning review per orchestrator ruling (Nadesico wiki); proposal recorded in work/translation/en/dialogue/batch_07114_glossary_proposals.json but not yet merged into a glossary file. -san honorifics dropped on both names per project convention. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07123",
+      "target": "<on()><sp(20)>...I see.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07124",
+      "target": "<on()><sp(20)>...Thank goodness!",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source; speaker not asserted."
+    },
+    {
+      "id": "dialogue_07125",
+      "target": "<on()><sp(20)><color(4)>Akito<ce()>.\nPlease don't go anywhere else, ever again.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07126",
+      "target": "<on()><sp(20)>...Understood.\nI'll help out as much as I can.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07127",
+      "target": "<on()><sp(20)>...Thank you...<color(4)>Akito<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07128",
+      "target": "<on()><sp(20)><color(4)>Yurika<ce()> is back too, so\nI guess it's a happy ending all around!",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07129",
+      "target": "<on()><sp(20)>But her first words after waking up were,\n\"Everyone's gotten so old,\" you know.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source; straight quotes used per ASCII rule."
+    },
+    {
+      "id": "dialogue_07130",
+      "target": "<on()><sp(20)>That usual scatterbrained joke put me at ease.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07131",
+      "target": "<on()><sp(20)>Captain <color(4)>Hoshino<ce()>.\nSorry to bring this up right now, but...\n<book(12)>Neo Zeon<endbook()> has offered peace to the <book(9)>Federation<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Hoshino (Ruri), Neo Zeon and Federation are locked (character_names_021.json / glossary.json). Compressed from literal 'an inelegant report' to fit length; core meaning (apology for timing, peace offer) retained. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07132",
+      "target": "<on()><sp(20)>Since we've become the only real force\nleft opposing the <book(9)>Federation<endbook()>,\nit's a sound decision, politically.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07133",
+      "target": "<on()><sp(20)>Right.\nI hear a peace conference will be held soon, too.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07134",
+      "target": "<on()><sp(20)>So this world's story has a happy ending,\nwhich means you can chase after <color(5)>Berkt<ce()>\nwithout any worries now?",
+      "status": "meaning_reviewed",
+      "notes": "Berkt confirmed via meaning review against existing glossary entry char.berkt (work/glossary/glossary.json); spelling 'Berkt' is correct as drafted. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07135",
+      "target": "<on()><sp(20)>Then let me go back for a while.\nThe trouble here has settled,\nand <color(5)>Berkt<ce()>'s likely to appear over there.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit length; both clauses (local trouble resolved / high chance of Berkt appearing) retained. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07136",
+      "target": "<on()><sp(20)>That's true.\nThe <book(38)>New Federation<endbook()> should've moved by now, too.\nI'm curious about the <book(48)>Shin Dragon<endbook()> too.",
+      "status": "meaning_reviewed",
+      "notes": "New Federation locked over wiki's 'New UNE' per terms_028.json orchestrator decision; Shin Dragon locked per encyclopedia_022.json. Compressed to fit length. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07137",
+      "target": "<on()><sp(20)>Understood.\nLet's head over to that side, then.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07138",
+      "target": "<on()><sp(20)>What's wrong, <color(4)>Kaine<ce()>?\nYou look troubled. That's not like you.",
+      "status": "meaning_reviewed",
+      "notes": "Kaine Wakaba locked (character_names_021.json). No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07139",
+      "target": "<on()><sp(20)>I'm worried about <color(5)>Meio<ce()>.\nI wonder how he's doing...",
+      "status": "meaning_reviewed",
+      "notes": "Meio = Meio Plato's locked short form. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07140",
+      "target": "<on()><sp(20)>The day will come to settle things eventually.\nKeep it to yourself until then.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07141",
+      "target": "<on()><sp(20)><color(4)>Faye<ce()>.\nAbout when we get back to Earth...",
+      "status": "meaning_reviewed",
+      "notes": "Faye Rochenante locked original character (AGENTS.md / prior batches). No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07142",
+      "target": "<on()><sp(20)>...What will you do?",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07143",
+      "target": "<on()><sp(20)>I think I'll keep going after all.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07144",
+      "target": "<on()><sp(20)>Are you really sure about that?",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07145",
+      "target": "<on()><sp(20)>...Before I came here,\nI was just a high schooler, and I hated things\nlike the military and soldiers.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not named in source but matches Barrel Orland's established backstory/voice (young original character); kept as spoken without inventing an explicit name. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07146",
+      "target": "<on()><sp(20)>Actually, I still hate them, even now.\nBut... I like the people here.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07147",
+      "target": "<on()><sp(20)><color(4)>Akito<ce()> was the same way, too...\nEveryone here fights for something important to them.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07148",
+      "target": "<on()><sp(20)>What matters differs for each person...\nbut beyond that lies one shared goal:\nprotecting everyone's world.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit length; full meaning retained. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07149",
+      "target": "<on()><sp(20)>I want to find\nwhat's important to me, too... and fight for it.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07150",
+      "target": "<on()><sp(20)>Honestly, I'm still unsure what I can do,\nbut... I just want to be of use.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07151",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>...\nI understand.\nIf that's how you feel, I'll do anything I can.",
+      "status": "meaning_reviewed",
+      "notes": "Barrel Orland locked original character. Speaker not named but matches Faye's voice replying to Barrel; not asserted in the visible text. No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07152",
+      "target": "<on()><sp(20)>Yeah...\nLet's keep working together from here on.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    },
+    {
+      "id": "dialogue_07153",
+      "target": "<on()><sp(20)>...\n...For something important, huh.",
+      "status": "meaning_reviewed",
+      "notes": "No <ab()>/<off()> in source."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_07121",
+        "dialogue_07122",
+        "dialogue_07123",
+        "dialogue_07124",
+        "dialogue_07125",
+        "dialogue_07126",
+        "dialogue_07127",
+        "dialogue_07128",
+        "dialogue_07129",
+        "dialogue_07130"
+      ],
+      "note": "Post-mission Nadesico epilogue exchange (Akito rescuing Yurika). Speaker mapping between Ruri Hoshino and other bridge crew is not tagged in the corpus; lines are translated without asserting which named character speaks each one, beyond the two people directly addressed by name (Akito, Yurika)."
+    },
+    {
+      "ids": [
+        "dialogue_07145",
+        "dialogue_07146",
+        "dialogue_07147",
+        "dialogue_07148",
+        "dialogue_07149",
+        "dialogue_07150",
+        "dialogue_07153"
+      ],
+      "note": "First-person monologue (a former high-schooler who dislikes the military but fights for the people here) strongly matches Barrel Orland's established voice/backstory, and dialogue_07151 addresses 'Barrel' directly in reply, but the monologue rows themselves do not name the speaker, so no name was inserted into the visible text."
+    },
+    {
+      "id": "dialogue_07151",
+      "note": "Reply to Barrel is not explicitly attributed; likely Faye Rochenante given the preceding Faye/Barrel exchange (7141-7144), but not asserted in the visible text."
+    },
+    {
+      "ids": [
+        "dialogue_07134",
+        "dialogue_07135",
+        "dialogue_07139"
+      ],
+      "note": "Berkt is treated as the already-established original character name from AGENTS.md/prior scenes; no separate glossary.json or character_names_021.json entry was found during this slice's research, so this is flagged for orchestrator confirmation rather than a fresh proposal."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket and book/color-scope tokens (<on()>, <sp(20)>, <ab(n)>, <off()>, <color(n)>/<ce()>, <book(n)>/<endbook()>) preserved in exact source order for all 40 rows. Rows 7121-7153 have no <ab()>/<off()> in source (open-ended dialogue box) and none was added, matching the precedent in batch_01073 row 1102.",
+    "format": "Newline counts match source exactly for every row. ASCII-only text; straight quotes used for the quoted line in 7129.",
+    "fit": "Full meaning drafted first; 7131, 7132, 7135, 7136, 7148 compressed for length while keeping full meaning; all rows checked at or under ~110 visible characters.",
+    "glossary": "Akito Tenkawa, Kaine Wakaba, Meio/Meio Plato, Faye, Barrel, Hoshino/Ruri, Neo Zeon, Federation, New Federation, Shin Dragon taken from character_names_021.json, glossary.json and encyclopedia_022.json. Yurika Misumaru was not found in any glossary file; researched and proposed in batch_07114_glossary_proposals.json.",
+    "meaning_review": "Independently meaning-reviewed in review_07114.json (rows 7099-7168, 70 examined); no mistranslations found, no meaning fixes required. All 40 rows set to meaning_reviewed. Berkt confirmed against existing glossary entry char.berkt (glossary.json); Yurika Misumaru confirmed per orchestrator ruling (Nadesico wiki) though not yet added to any glossary file."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "reviewer": "independent_meaning_review_3629_agent",
+  "slice_start": 3629,
+  "slice_count": 75,
+  "rows_examined": [
+    {
+      "start": 3614,
+      "end": 3718
+    }
+  ],
+  "rows_examined_count": 105,
+  "rows_in_slice": 75,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [3629, 3630],
+      "finding": "Pronoun register shift ('僕' vs Berkt's earlier '私' in dialogue_03611 of the previous slice) is real in the source but has no consequence for the English target, since neither row required a pronoun choice. No identity was asserted either way."
+    },
+    {
+      "rows": [3635, 3636, 3637, 3638, 3639, 3640, 3641, 3642, 3643, 3644, 3645],
+      "finding": "This argument is untagged in the source. Reading the condescending replies as Berkt (matches his glossary personality: reserved, hostile toward Barrel) and the accusing lines as an ally is plausible and consistent with the later echo at dialogue_03679, but no name is written into any of these targets, so the ambiguity carries no meaning risk."
+    },
+    {
+      "rows": [3654, 3655, 3656, 3657, 3658, 3659, 3660, 3661, 3662, 3663, 3664, 3665, 3666],
+      "finding": "Heero's arrival and Berkt's taunting withdrawal are untagged. The condescension/'not letting the opponent die easily' lines read as Berkt on tone and match his established personality; again no name is asserted in the target text."
+    },
+    {
+      "rows": [3633, 3688, 3689, 3690, 3692, 3694],
+      "finding": "バルドナ rendered 'Baldora' (Baldora Charge / Baldora Drive) matches terms_028.json's locked spelling. The coexisting 'Bardona' spelling used for the character Dr. Jill Bardona is a separate, already-flagged open question for the user (terms_028.json entry 'Baldora Drive / Baldora particles / Dr. Jill Bardona'); unifying it is out of scope for this slice and was correctly left alone."
+    },
+    {
+      "rows": [3673],
+      "finding": "<book(38)>New Federation<endbook()> confirmed against glossary.json (org.new_federation, preferred over wiki 'New UNE') and the task's own ruling. <book(48)>Shin Dragon<endbook()> confirmed verbatim against encyclopedia_022.json's existing rendering of 真ドラゴン (not a literal 'True Dragon')."
+    },
+    {
+      "rows": [3702],
+      "finding": "<book(29)>Martian Successors<endbook()> confirmed against glossary.json's 'researched' decision for 火星の後継者, correctly not the 'Successors of Mars' variant also on record there."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_03701"],
+      "issue": "Target 'headquarters' contains a lowercase 'q' outside a locked name. This is a known, already-precedented pattern: review_02643.json, review_02948.json and review_03028.json each ruled that common words like 'headquarters'/'question'/'just' are a font/glyph-coverage matter for a dedicated pass, not a meaning-review fix, since the word already appears unavoidably throughout the finalized corpus (e.g. batch_01895, batch_02375, batch_04398 use 'HQ'; batch_00776/02643/02868/02948/03028 use 'headquarters'). Not rewritten here to avoid changing register for a glyph-only reason; flagged again for the dedicated pass."
+    }
+  ],
+  "validation": {
+    "controls": "Re-ran tools/dialogue_corpus.py slice 3629 75 --context 15 and diffed the ordered <...> command list of every target against the source: all 75 rows equal, including the malformed <on()>-before-text/<sp(20)>-after-text order at dialogue_03661 and the unclosed boxes at dialogue_03635 and dialogue_03640, plus the open-ended post-battle rows dialogue_03667-03703 (no closing commands in source).",
+    "format": "No newlines in any target; ASCII only except locked-name markup; no bare percent sign.",
+    "fit": "Longest visible text remains 98 characters (limit 110); no over-limit rows.",
+    "runtime": "Runtime scene selection, font coverage, and on-screen visual fit are not established by this meaning review."
+  }
+}

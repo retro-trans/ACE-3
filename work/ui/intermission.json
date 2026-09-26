@@ -1,0 +1,81 @@
+{
+  "version": "0.1.14",
+  "runtime_verified": false,
+  "screenshots": [
+    {
+      "path": "screenshots\\intermission-help-original.png",
+      "source_path": "codex-clipboard-e1dc22c9-6016-4be0-aaf1-9dbd9a374f27.png",
+      "sha256": "e2ecdd030f0bd329cabd292e109cb42dd4aedd611f64dbe1181d4942fa91907e",
+      "size": [
+        1050,
+        620
+      ]
+    },
+    {
+      "path": "screenshots\\intermission-units-original.png",
+      "source_path": "codex-clipboard-4a7647a5-6336-4042-908e-fb30f90708a6.png",
+      "sha256": "dc1b2dbe30cdbc580a79e1bf8a81a022019276eed771b3068bcd0821cb13ce2b",
+      "size": [
+        1050,
+        620
+      ]
+    },
+    {
+      "path": "screenshots\\intermission-controls-original.png",
+      "source_path": "codex-clipboard-cb5b33d2-9db7-48e5-b3b6-c9a137c4e2b6.png",
+      "sha256": "81ed8e1102f114f685824351f6a494d6131b67e1c0f89ee495d041dce2781d2c",
+      "size": [
+        1050,
+        620
+      ]
+    },
+    {
+      "path": "screenshots\\intermission-menu-original.png",
+      "source_path": "codex-clipboard-34f2b86d-b2fd-4869-b376-a388a55c20f8.png",
+      "sha256": "07c9602fbfc05909109a298828fa324fb62fbd8ed9f7bcbee939c5c6b705446c",
+      "size": [
+        1050,
+        620
+      ]
+    }
+  ],
+  "observed_ui": {
+    "coordinate_system": "640x480 normalized game viewport",
+    "notice_text_bounds_approx": [
+      208,
+      183,
+      410,
+      120
+    ],
+    "notice_max_visible_lines": 6,
+    "shared_dialog_capacity": 255,
+    "notice_record_bytes_including_terminator": 64,
+    "runtime_roster_resource": 100204,
+    "runtime_roster_count": 103,
+    "runtime_name_lookup": "3077; IDs 19010-19012 use 3025",
+    "status": "Source screenshots only; output still needs in-game visual confirmation."
+  },
+  "resources": {
+    "menu_help": "3004 already translated in0.1.13; inherited unchanged",
+    "notices": {
+      "table_id": 3069,
+      "bundle_ids": [
+        4002050,
+        4002054,
+        4002057
+      ],
+      "rows_reviewed": 21,
+      "language_rows_changed": 14
+    },
+    "unit_names": {
+      "table_ids": [
+        3000,
+        3025,
+        3077
+      ],
+      "roster_rows": 106,
+      "additional_variant_rows": 91
+    }
+  },
+  "font_limitation": "Nanajin retains the existing small lowercase-j fallback. Exhaustive source scan:25 font instances/8 unique fonts across10344 resources; no native19/20px lowercasej exists."
+}

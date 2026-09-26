@@ -1,0 +1,20 @@
+[
+  {
+    "term_romaji": "Kudan (\u30af\u30c0\u30f3)",
+    "en": "Kudan",
+    "source": "dialogue_11273, dialogue_11316",
+    "why": "Recurring unresearched term ('Kudan's Limit', \u30af\u30c0\u30f3\u306e\u9650\u754c) central to this scene's stakes (a land/world-ending threshold). No project glossary entry and no confirmed ACE3, Wings of Rean, or Getter Robo Armageddon source; likely references the Japanese folklore prophetic beast 'kudan', but that link is unconfirmed for this game's continuity. Kept as a literal romanized proper noun; needs orchestrator research before locking."
+  },
+  {
+    "term_romaji": "Saiko Fureemu (\u30b5\u30a4\u30b3\u30d5\u30ec\u30fc\u30e0)",
+    "en": "Psychoframe",
+    "source": "dialogue_11303",
+    "why": "Gundam Char's Counterattack technology, spoken of by the Amuro-coded speaker in this scene. English sources are inconsistent (Psycho-Frame per the Gundam Wiki page title; a Gundam-official rendering cited on fan forums as 'psyco-frame' without the h). No existing project lock. Recorded so a single spelling can be chosen centrally."
+  },
+  {
+    "term_romaji": "Oobaa Sensu (\u30aa\u30fc\u30d0\u30fc\u30bb\u30f3\u30b9)",
+    "en": "Over Sense",
+    "source": "dialogue_11323",
+    "why": "Overman King Gainer term for Gainer's awakened intuitive combat sense. Not covered by the English Wikipedia article (which only documents 'Overskills') and not in the project glossary. Kept literal, matching the already-locked 'Over-' compounds (Overman, Overskill, Overdevil) in terms_028.json/mission_terms_019.json; needs a stronger source to confirm or replace."
+  }
+]

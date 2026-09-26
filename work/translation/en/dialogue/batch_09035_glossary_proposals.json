@@ -1,0 +1,8 @@
+[
+  {
+    "term_romaji": "Barudona Chaaji",
+    "en": "Baldora Charge",
+    "source": "in-corpus (dialogue_09088, resource 6270, mission 21, <book(2)> link)",
+    "why": "New term describing a critical-level power buildup tied to the Baldora Drive/Jill Bardona plot thread. terms_028.json already locks \"Baldora Drive / Baldora particles / Dr. Jill Bardona\" as an intentionally inconsistent Baldora-vs-Bardona spelling pair; this proposal follows the same pattern, rendering the book(2) term as \"Baldora Charge\" (device/energy term, Baldora spelling) rather than \"Bardona Charge\" (person spelling). No independent wiki source exists since this is an ACE3-original device name; flagging for orchestrator confirmation alongside the still-open Baldora/Bardona unification question noted in terms_028.json."
+  }
+]

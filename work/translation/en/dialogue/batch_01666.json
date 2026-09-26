@@ -1,0 +1,584 @@
+{
+  "slice_start": 1666,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1651,
+      1760
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_01678",
+        "dialogue_01686"
+      ],
+      "note": "Jouhou-bu rendered as 'Intelligence' (department). No locked term exists; Eureka Seven wiki calls Dominic an intelligence officer. See proposals file."
+    },
+    {
+      "id": "dialogue_01681",
+      "note": "'Zokubutsu' (vulgar, worldly person) rendered 'Philistine'. Muttered by the rebuked officer about the captain; speaker untagged."
+    },
+    {
+      "id": "dialogue_01687",
+      "note": "Fragment 'to/by a former Vulture...' with the verb cut off. Context (1685-1688) suggests Jurgens resenting help or a lecture from Shagia, but the omitted verb is unknown; rendered 'From a Vulture upstart...'. Calling the Frost brothers ex-Vultures is ACE3's own setting, not Gundam X canon."
+    },
+    {
+      "id": "dialogue_01689",
+      "note": "'Izumo-kan' could be the captain addressing his own ship/crew ('Izumo, prepare to withdraw') or a statement that the Izumo will prepare to withdraw. Read as an order to the ship."
+    },
+    {
+      "id": "dialogue_01691",
+      "note": "Number of Dewey's subordinates aboard is unmarked in Japanese; 'one of' chosen because 1678-1679 show a single intelligence officer (Dominic). Alternative: 'Dewey's people should be on that ship.'"
+    },
+    {
+      "ids": [
+        "dialogue_01698",
+        "dialogue_01699",
+        "dialogue_01700",
+        "dialogue_01711"
+      ],
+      "note": "1711 quotes the Eureka Seven motto; the official English dub wording is used ('Don't beg for things. Do it yourself, or else you won't get anything'). The Japanese literally says 'Don't beg, win it, and then it shall be given', so the dub inverts the last clause. 1698-1700 paraphrase the motto and are translated literally ('Begging won't do / I'm going out to win it myself'). Reviewer may prefer the literal motto: 'Don't beg for it. Earn it, and it shall be given... huh.'"
+    },
+    {
+      "ids": [
+        "dialogue_01701",
+        "dialogue_01745"
+      ],
+      "note": "Drawn-out English 'I can fly' in kana; rendered as stretched English. Avoids lowercase j/q."
+    },
+    {
+      "id": "dialogue_01705",
+      "note": "Literally 'my younger brother was in your care the other day' (sarcastic courtesy before a fight). 'The other day' implies an earlier meeting with the younger brother; rows 261+ may belong to a later/alternate encounter than rows 131-137."
+    },
+    {
+      "id": "dialogue_01710",
+      "note": "Object ('that kid', 1709) omitted in source; passive used. 1696 calls the kid Adroc's son, so 'him' would also be supported."
+    },
+    {
+      "ids": [
+        "dialogue_01713",
+        "dialogue_01715",
+        "dialogue_01716",
+        "dialogue_01717",
+        "dialogue_01718"
+      ],
+      "note": "Enemy ace lines using formal first person, read as the elder Frost brother answering 1714 (YF-19 charge) and taunting the GX pilot; untagged, no names added."
+    },
+    {
+      "id": "dialogue_01723",
+      "note": "Plain-form declaration 'will destroy all targets' with no subject; imperative used to avoid inventing 'I/we'."
+    },
+    {
+      "ids": [
+        "dialogue_01724",
+        "dialogue_01725",
+        "dialogue_01732",
+        "dialogue_01733",
+        "dialogue_01734",
+        "dialogue_01735",
+        "dialogue_01736",
+        "dialogue_01737"
+      ],
+      "note": "<on()> event-scene lines (text ids 301-321) are stored in table order; several are bare interjections with no settled speaker. 1725's subject is omitted ('must link up with Holland soon'); kept subjectless."
+    },
+    {
+      "id": "dialogue_01742",
+      "note": "'Ending at 14 years' = the speaker's age; rendered 'over after 14 years'."
+    },
+    {
+      "id": "dialogue_01691",
+      "note": "95 visible characters; within limit, <ab(1000)>."
+    }
+  ],
+  "validation": {
+    "controls": "Self-check: ordered <...> command list of every target equals the source's (80/80).",
+    "fit": "No line breaks; longest visible text 95 characters (limit 110).",
+    "ascii": "ASCII only; no bare percent; no lowercase j/q outside locked names.",
+    "meaning_review": "Independent meaning review done: 80/80 rows compared with the source, 3 rows changed (1699, 1700 motto echo aligned with the official dub wording kept in 1711; 1705 idiom); all rows meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_01666",
+      "target": "<op()><sp(20)>The terrain around here is strange, isn't it...<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01667",
+      "target": "<op()><sp(20)>It seems to be the Scub Coral that Jamil mentioned.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Polite honorific on Jamil dropped."
+    },
+    {
+      "id": "dialogue_01668",
+      "target": "<sp(20)>Harry. Please analyze the composition of the terrain.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Harry nickname per earlier batches."
+    },
+    {
+      "id": "dialogue_01669",
+      "target": "<op()><sp(20)>Holland! Haven't you reached Eureka yet?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01670",
+      "target": "<op()><sp(20)>I'm in the middle of a fight! A nasty one's got hold of me.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01671",
+      "target": "<op()><sp(20)>Hey... pull yourself together!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01672",
+      "target": "<op()><sp(20)>Shut up! You make sure the Gekko doesn't get shot down!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01673",
+      "target": "<op()><sp(20)>What?! I'll be fine without you telling me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01674",
+      "target": "<op()><sp(20)>Oh boy... There they go again...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01675",
+      "target": "<op()><sp(20)>So that's them. The mystery group from the report.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01676",
+      "target": "<op()><sp(20)>A ship called... the Nadesico, was it?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01677",
+      "target": "<op()><sp(20)>The KLF unit seems to be struggling. Send out reinforcements!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01678",
+      "target": "<op()><sp(20)>Captain Jurgens. As Intelligence, I cannot condone this action!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker identified by the reply in 1679."
+    },
+    {
+      "id": "dialogue_01679",
+      "target": "<op()><sp(20)>Watch your mouth, Intelligence Officer Dominic!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01680",
+      "target": "<sp(20)>On the battlefield, our Air Force's command authority takes priority.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01681",
+      "target": "<op()><sp(20)>Kh... Philistine.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01682",
+      "target": "<op()><sp(20)>Captain Jurgens, you seem to be at a disadvantage.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01683",
+      "target": "<op()><sp(20)>Shagia Frost!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01684",
+      "target": "<op()><sp(20)>Please leave this to us and withdraw.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01685",
+      "target": "<op()><sp(20)>I have no need of your help!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01686",
+      "target": "<op()><sp(20)>Don't bring Intelligence's feuds onto the battlefield!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01687",
+      "target": "<op()><sp(20)>From a Vulture upstart...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Trailing fragment; see uncertainties."
+    },
+    {
+      "id": "dialogue_01688",
+      "target": "<op()><sp(20)>I'd rather you simply thanked us.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01689",
+      "target": "<op()><sp(20)>Thanks for the support. Izumo, prepare to withdraw!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Izumo = Jurgens' ship (character_names_021 role text)."
+    },
+    {
+      "id": "dialogue_01690",
+      "target": "<op()><sp(20)>Are you sure, Brother?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01691",
+      "target": "<op()><sp(20)>One of Dewey's subordinates should be on that ship. Having them owe us a favor is no bad thing.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Number of subordinates not marked in source."
+    },
+    {
+      "id": "dialogue_01692",
+      "target": "<op()><sp(20)>Huh... hey, hold on!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01693",
+      "target": "<op()><sp(20)>What's wrong?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01694",
+      "target": "<op()><sp(20)>Someone on a ref board is approaching the Nirvash!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01695",
+      "target": "<op()><sp(20)>What did you say?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01696",
+      "target": "<op()><sp(20)>...That's Adroc's son!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01697",
+      "target": "<op()><sp(20)>That's...?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01698",
+      "target": "<op()><sp(20)>Waiting won't do.<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01699",
+      "target": "<sp(20)>Begging for things won't do.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Echoes the motto quoted in 1711."
+    },
+    {
+      "id": "dialogue_01700",
+      "target": "<sp(20)>Right now, I'm going out to do it myself!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01701",
+      "target": "<sp(20)>Aaai, caaan... flyyyyy!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source is English ('I can fly') drawn out in kana."
+    },
+    {
+      "id": "dialogue_01702",
+      "target": "<op()><sp(20)>That kid?! Hurry, Nirvash!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01703",
+      "target": "<op()><sp(20)>Targets successfully cleared out.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01704",
+      "target": "<op()><sp(20)>Brother. Take out that Nadesico bunch too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01705",
+      "target": "<op()><sp(20)>Thank you for looking after my younger brother the other day.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Sarcastic courtesy (sewa ni natta) rendered as an ironic thank-you; reviewer fix."
+    },
+    {
+      "id": "dialogue_01706",
+      "target": "<op()><sp(20)>The older brother this time?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01707",
+      "target": "<op()><sp(20)>That machine excels at ranged combat. Watch out for its high-output shots.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01708",
+      "target": "<sp(20)>Fight as close in as you can, and don't let it attack you one-sidedly!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01709",
+      "target": "<op()><sp(20)>Gidget, what about that kid from before?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01710",
+      "target": "<op()><sp(20)>Recovered by the Nirvash.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01711",
+      "target": "<op()><sp(20)>Don't beg for things. Do it yourself, or else you won't get anything... huh.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Official English dub wording of the series motto; see uncertainties for the literal reading."
+    },
+    {
+      "id": "dialogue_01712",
+      "target": "<op()><sp(20)>This one... moves strangely!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01713",
+      "target": "<op()><sp(20)>Attacking me? How reckless.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01714",
+      "target": "<op()><sp(20)>Can you dodge my charge?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01715",
+      "target": "<op()><sp(20)>A spirited machine.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01716",
+      "target": "<sp(20)>But I cannot afford to lose either.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01717",
+      "target": "<op()><sp(20)>The GX... I wondered how skilled you would be, but...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01718",
+      "target": "<sp(20)>Moves that lean on the machine's performance... The pilot seems to be nothing special.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01719",
+      "target": "<op()><sp(20)>Damn! You and your big mouth!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01720",
+      "target": "<op()><sp(20)>Barrel! The enemy has powerful ranged attacks.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01721",
+      "target": "<sp(20)>When a warning appears, put evasion first!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01722",
+      "target": "<op()><sp(20)>I know!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01723",
+      "target": "<op()><sp(20)>Destroy all targets!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source is a declaration with no subject; imperative keeps it open."
+    },
+    {
+      "id": "dialogue_01724",
+      "target": "<on()><sp(20)>...So persistent!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "<on()> block 301-321: event-scene lines."
+    },
+    {
+      "id": "dialogue_01725",
+      "target": "<on()><sp(20)>Have to link up with Holland soon...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject omitted in source."
+    },
+    {
+      "id": "dialogue_01726",
+      "target": "<on()><sp(20)>The enemy is operating with that location as a base.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01727",
+      "target": "<on()><sp(20)>Please secure it.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01728",
+      "target": "<on()><sp(20)>Show me what you people can do.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01729",
+      "target": "<on()><sp(20)>Brother!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01730",
+      "target": "<on()><sp(20)>Impossible...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01731",
+      "target": "<on()><sp(20)>Olba, we're withdrawing.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01732",
+      "target": "<on()><sp(20)>Mm...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01733",
+      "target": "<on()><sp(20)>Hah...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01734",
+      "target": "<on()><sp(20)>Huh...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01735",
+      "target": "<on()><sp(20)>Heeey!! What's wrong?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01736",
+      "target": "<on()><sp(20)>What?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01737",
+      "target": "<on()><sp(20)>Whoa, whoa!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01738",
+      "target": "<on()><sp(20)>Uwaaaaaaaaah!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01739",
+      "target": "<on()><sp(20)>Gnnnnnnngh!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01740",
+      "target": "<on()><sp(20)>Huh... why won't it move? Why?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01741",
+      "target": "<on()><sp(20)>Hold on, is my life ending right here?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01742",
+      "target": "<on()><sp(20)>It's over after 14 years?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01743",
+      "target": "<on()><sp(20)>Uwaaaaaaaaaah!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01744",
+      "target": "<on()><sp(20)>It's all right... trust me.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01745",
+      "target": "<on()><sp(20)>Aaai, caaan... flyyyyy!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Same text as 1701."
+    }
+  ]
+}

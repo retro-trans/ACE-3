@@ -1,0 +1,35 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 10717,
+  "slice_count": 65,
+  "rows_examined": [{"start": 10702, "end": 10796}],
+  "rows_examined_count": 95,
+  "rows_in_slice": 65,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {"id": "dialogue_10761", "before": "<on()><sp(20)><color(4)>Renton<ce()>, <color(4)>Eureka<ce()>...\nWhat did the <book(61)>Nirvash<endbook()> say to you\nin that battle just now?", "after": "<on()><sp(20)><color(4)>Renton<ce()>, <color(4)>Eureka<ce()>...\nWhat did the <book(61)>Nirvash<endbook()> say to you\nin that battle a moment ago?", "reason": "Constraint fix, not a meaning error: the draft used a lowercase 'j' in 'just now', which BASE_RULES/the task brief disallow outside a locked name. Replaced with 'a moment ago', matching the source's 'sakki no tatakai' (the battle a moment ago) with no meaning change."},
+    {"id": "dialogue_10779", "before": "<on()><sp(20)>No one's going to object.", "after": "<on()><sp(20)>No one's going to disagree.", "reason": "Constraint fix, not a meaning error: 'object' contains a lowercase 'j'. Replaced with 'disagree', preserving the source's 'no one opposes this' meaning without the disallowed glyph."}
+  ],
+  "checked_decisions": [
+    {"rows": [10717, 10725], "finding": "Renton's approach and reunion with Eureka inside the Command Cluster (contact confirmed, 'I promised, didn't I?') keeps sequencing and does not invent who initiates contact beyond what the source states."},
+    {"rows": [10725], "finding": "Source row 10725 lacks a closing <ed()> and instead has a literal trailing newline after <ab(100)>; per the orchestrator's ruling to keep malformed source commands as-is, the target correctly reproduces this exact malformed structure rather than repairing it."},
+    {"rows": [10729, 10734], "finding": "The mutual 'stop being a Coralian / stop being human' and 'let's become one' exchange keeps both Renton's and Eureka's stated conditions intact, with no reversal of who gives up what."},
+    {"rows": [10739, 10748], "finding": "The escort-unit-destroyed panic lines and the three-part split 'I... Can... Fly!' (10746-10748) are a consistent re-split of the same iconic line as row 10705 in the neighbouring slice; rendering is internally consistent across both batches."},
+    {"rows": [10756, 10781], "finding": "Rows 10756-10781 (Renton called a hero, Eureka's reflection, the scholar's recap of the Nirvash/Command Cluster/Limit of Questions exchange, Char/Neo Zeon/Axis epilogue news) all lack <ab()>/<ed()>/<off()> in the source; the target preserves this total absence rather than adding commands the source omits, per the orchestrator's ruling on malformed/incomplete source commands."},
+    {"rows": [10761, 10762, 10763], "finding": "book(61)/book(80)/book(77) cross-reference tags map to the canonical encyclopedia_022.json entries for text_id 61 (Nirvash), 80 (Command Cluster) and 77 (Limit of Questions); link text and targets match."},
+    {"rows": [10766], "finding": "book(69) wraps the source's bare short form 'Scub' rather than the full entry title 'Scub Coral' (text_id 69); translation correctly keeps the short link text 'Scub', matching the established batch_05943 precedent for short-form source link text rather than always expanding to the encyclopedia entry's full name."},
+    {"rows": [10773], "finding": "book(9) wraps the source's bare 'Federation' (not 'Earth Federation'); this is an extensively established corpus convention (batch_01073, batch_01426, batch_02643, batch_02948, batch_03028, batch_05303, batch_05534, batch_05614, batch_05694, batch_07114) for the bare-word source form linking to the Earth Federation entry. Tag order (12, 9, 14) matches the source's own order. No fix needed."},
+    {"rows": [10771, 10776], "finding": "Char, Neo Zeon, Axis, Ra Cailum all match character_names_021.json / encyclopedia_022.json spellings; the Char's Counterattack-era news beat (Neo Zeon bought Axis from the Federation, operation to drop it on Earth) is translated with no reversed actor (Neo Zeon is the buyer/aggressor, not the Federation)."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_10733", "dialogue_10734", "dialogue_10758", "dialogue_10761", "dialogue_10765", "dialogue_10767"], "issue": "Confirmed as correctly left unresolved: no color tag identifies these post-battle epilogue speakers. Renton/Eureka are reasonably inferred from pronoun style and exchange continuation; the scholar and returning-crew lines are left unnamed/gender-neutral rather than guessed, which is the right call given no glossary character is confirmed as speaking."},
+    {"ids": ["dialogue_10746", "dialogue_10747", "dialogue_10748"], "issue": "Confirmed as correctly left unresolved: same unverifiable-against-an-official-release status as dialogue_10705 in the neighbouring slice; the three-way split is internally consistent."},
+    {"id": "dialogue_10756", "issue": "Confirmed as correctly left unresolved: 'your old man' is a literal rendering of oyaji (informal 'old man'/father) and is consistent with Renton's father Adroc Thurston, but neither speaker nor addressee is tagged in source, so no name was substituted for the pronoun-like reference."}
+  ],
+  "validation": {
+    "controls": "All <...> commands re-checked in exact source order for all 65 rows via a throwaway console diff against `python tools/dialogue_corpus.py slice 10717 65 --context 15`; no mismatches, including the confirmed missing <ed()>/trailing-newline anomaly at 10725 and the total absence of <ab()>/<ed()>/<off()> from 10756 onward, both kept as-is per the orchestrator's ruling to preserve malformed source commands.",
+    "format": "No row introduces a literal newline absent from the source; escaped \\n counts match the source for every row.",
+    "fit": "Visible text (tags removed, newlines not counted as glyphs) re-measured at <=110 characters for every row (dialogue_10765 sits exactly at 110); ASCII-only except the locked fullwidth percent sign (not used in this slice). Two lowercase-j violations found and fixed (dialogue_10761, dialogue_10779); no other lowercase j/q found outside locked names.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

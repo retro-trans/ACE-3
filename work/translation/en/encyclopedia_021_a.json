@@ -1,0 +1,683 @@
+{
+ "slice": [
+  1,
+  44
+ ],
+ "rows_in_slice": 44,
+ "rows_examined": 44,
+ "entries": [
+  {
+   "id": 1,
+   "name_en": "Baldora Drive",
+   "body_en": "A facility built by a government body that preceded the <book(9)>Earth Federation<endbook()> to achieve ultra-long-range space-leap technology.\n\nIts basis is the \"Baldora particle,\" an unknown elementary particle found by R&D scientist Jill Bardona.\n\nResearch reached a practical level, but on the eve of completion the facility ran wild and all involved vanished.\n\nSince then its development had been frozen and its very existence erased from official records.",
+   "notes": "Locked spellings disagree and now sit side by side: Baldora Drive / \"Baldora particle\" (follows the Drive) vs Jill Bardona (the particle is named after this person in the source). Kept both as instructed. Compressed: \"in order to realize\" -> \"to achieve\"; last paragraph uses \"its\" instead of repeating the Drive name."
+  },
+  {
+   "id": 2,
+   "name_en": "Baldora Charge",
+   "body_en": "The progress of the <book(3)>Wormhole<endbook()>'s opening, calculated from the observed amount of Baldora particles.\n\nWhen this value reaches 100％, the <book(1)>Baldora Drive<endbook()> is predicted to be fully active and the wormhole fully open.",
+   "notes": "Fullwidth percent sign used."
+  },
+  {
+   "id": 3,
+   "name_en": "Wormhole",
+   "body_en": "A tunnel-like entity linking different space-times. It arose when the <book(1)>Baldora Drive<endbook()> was started and keeps expanding as the <book(2)>Baldora Charge<endbook()> rises.\n\nWhile it is opening, the link is unstable, so the two spaces do not affect each other. Once it is fully open, however, the two spaces will be physically connected, and the two Earths are predicted to collapse under the influence of gravity.",
+   "notes": "Source does not say whose gravity; kept as \"the influence of gravity\"."
+  },
+  {
+   "id": 4,
+   "name_en": "First Defense War",
+   "body_en": "A defensive war fought three years ago against extraterrestrial forces.\n\nIt became a large-scale conflict that drew in the <book(35)>Zentradi<endbook()> fleet, the Jovian Federation and invaders from other star systems.\n\nIn the final battle with the <book(35)>Zentradi<endbook()> fleet led by Boddole Zer, the song of Earth's diva Lynn Minmay brought the war to an end.\n\nFor details, see:\n\"Another Century's Episode 2\"",
+   "notes": "Event name reused exactly from opening_history.json (\"First Defense War\"); note proposals_dialogue_01073 has the variant \"First Defensive War\". Boddole Zer / Lynn Minmay per Macross wiki. Reference title kept on its own line."
+  },
+  {
+   "id": 5,
+   "name_en": "Gun Ark",
+   "body_en": "A mobile weapon developed before the <book(4)>First Defense War<endbook()>.\n\nIt carried the \"Guardian System,\" which remotely controlled defense cannons built with overtechnology, but after the war the system itself was scrapped and use of the unit was frozen.",
+   "notes": "\"Guardian System\" is a literal rendering of the ACE2/ACE3 original term (provisional)."
+  },
+  {
+   "id": 6,
+   "name_en": "Flail",
+   "body_en": "An unmanned unit for local warfare developed by an <book(9)>Earth Federation<endbook()> weapons lab. Being unmanned, its combat ability is low, but its low cost and a chronic shortage of personnel have led to wide adoption across the Federation Forces.",
+   "notes": "\"Flail\" is the existing provisional project spelling (proposals_dialogue_00696)."
+  },
+  {
+   "id": 7,
+   "name_en": "Field Generator",
+   "body_en": "A combat support weapon that deploys a particle field over a set area and damages enemy units that enter it.",
+   "notes": "\"particle field\" per mission_terms_019."
+  },
+  {
+   "id": 8,
+   "name_en": "Self-Propelled Gun",
+   "body_en": "A self-propelled gun for local warfare. Its output matches or exceeds that of a warship's main gun.",
+   "notes": "Name is 21 characters; if it overflows 220 units, fallback \"Self-Propelled Gun\" (18) or \"SP Weapon\"."
+  },
+  {
+   "id": 9,
+   "name_en": "Earth Federation",
+   "body_en": "A united government set up after the <book(4)>First Defense War<endbook()>.\n\nBuilt on the UCE, it took in the Britai fleet and the Meltrandi, who had made peace, and the post-coup Jovian Federation.\n\nMuch remains unchanged from the old regime, such as oppressive policies toward Spacenoids and an insufficient response to <book(35)>Zentradi<endbook()> immigrants.",
+   "notes": "\"united government\" chosen for the source's \"joint/combined government\" to avoid lowercase j. Britai: Macross wiki page title is \"Vrlitwhai Kridanik\" with \"Britai Kridanik\" as stated pronunciation/alias; used Britai to match the project's Macross spellings. Meltrandi per character_names_021."
+  },
+  {
+   "id": 10,
+   "name_en": "Londo Bell",
+   "body_en": "A Federation Forces auxiliary force set up to keep order in the Earth Sphere when the military was reorganized after the <book(4)>First Defense War<endbook()>.\n\nIn peacetime it acts on Federation Forces orders, but it also has authority to act at its own discretion. Lately a specially formed unit with Amuro Ray as platoon leader had been on ground duty to probe the rash of mysterious small meteorite falls.\n\nIts supreme commander is Kouichiro Misumaru.",
+   "notes": "\"auxiliary force\" follows opening_history.json. The source sentence is \"currently ... had been assigned\" (present framing, past verb); rendered \"Lately ... had been on ground duty\". \"judgment\" avoided (lowercase j) -> \"discretion\"; \"squad\"/\"frequent\" avoided (lowercase q) -> \"platoon leader\", \"rash of\"."
+  },
+  {
+   "id": 11,
+   "name_en": "Ra Cailum",
+   "body_en": "One of the main ships of <book(10)>Londo Bell<endbook()>.\n\nA mainstay vessel that stresses gunnery and mobile suit operation. Acting apart from the Nadesico, it is tasked with suppressing anti-Federation forces around Earth.\n\nIts captain is Bright Noa.",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "name_en": "Neo Zeon",
+   "body_en": "An anti-Federation organization founded by Char Aznable.\n\nChar, its supreme leader, held that the oppression of Spacenoids, unchanged even after the war, and the turmoil brought to the Earth Sphere stem from the ego of Earth's humanity, which cannot fully become Newtypes, and resolved to build up strength independently. An army of Char's own was organized, backed by the power of like-minded people.",
+   "notes": "No gendered pronoun used."
+  },
+  {
+   "id": 13,
+   "name_en": "5th Luna",
+   "body_en": "An asteroid that was used by the <book(9)>Earth Federation<endbook()> government as a resource satellite.",
+   "notes": "Gundam wiki page title is \"Fifth Luna\" but its lead gives \"5th Luna\" first; the source itself writes \"5th\" in Latin characters, so \"5th Luna\" kept."
+  },
+  {
+   "id": 14,
+   "name_en": "Axis",
+   "body_en": "A space fortress that the Principality of Zeon once made from an asteroid in order to gather resources. It can also travel through space on nuclear pulse engines.\n\nIt is now under the control of the <book(9)>Earth Federation<endbook()> government.",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "name_en": "Lhasa",
+   "body_en": "A city on Earth. The HQ of the <book(9)>Earth Federation<endbook()> government is located here.",
+   "notes": "\"HQ\" used to avoid the lowercase q of the full word (missions_019 also uses \"Federation HQ\")."
+  },
+  {
+   "id": 16,
+   "name_en": "Anaheim",
+   "body_en": "A giant conglomerate based on the Moon that makes and sells products in many fields.\n\nBeyond home appliances, ships and aircraft, it also takes on production of military hardware such as spaceships and mobile suits.\n\nIt holds to a neutral stance, siding with no faction.",
+   "notes": "Full name in the franchise is Anaheim Electronics; source label is just \"Anaheim\"."
+  },
+  {
+   "id": 17,
+   "name_en": "Sweetwater",
+   "body_en": "A colony built to house refugees.\n\nChar Aznable was welcomed as this colony's savior, and so it became the base of <book(12)>Neo Zeon<endbook()>.",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "name_en": "Giganos",
+   "body_en": "A lunar empire founded in the past by Moon settlers to resist Earth's oppression.\n\nIn the <book(4)>First Defense War<endbook()> it held the upper hand early on but was defeated in the end.\n\nAfter the war it was absorbed under the reorganized <book(9)>Earth Federation<endbook()> government. But with the oppression of Spacenoids unchanged and slow action on employment for ex-Giganos soldiers, many unhappy with the Federation have left its forces, and an anti-government faction is taking shape.",
+   "notes": "Compressed the long final sentence; all facts kept (unchanged Spacenoid oppression, slow response to ex-Giganos soldiers' employment problem, many leaving the Federation Forces, anti-government faction organizing)."
+  },
+  {
+   "id": 19,
+   "name_en": "Dragoon",
+   "body_en": "A mass-production Metal Armor that became the main weapon of the <book(9)>Earth Federation<endbook()> Forces after the war.\n\nThe latest model, developed by integrating the capabilities of the three Dragonar units.",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "name_en": "Nadesico B",
+   "body_en": "One of the main ships of <book(10)>Londo Bell<endbook()>. It is the second generation of the Nadesico, which served with distinction in the last war.\n\nLike the old Nadesico, it carries functions based on Martian lost technology, such as the Distortion Field (a dimensional-distortion barrier) and Gravity Blast (a gravity-wave cannon), and Omoikane has been transplanted to it as well.\n\nIts captain is Lt. Cmdr. Ruri Hoshino.",
+   "notes": "Rank follows meeting_terms_015 (\"Lt. Cmdr.\")."
+  },
+  {
+   "id": 21,
+   "name_en": "Nadesico C",
+   "body_en": "The successor to the <book(20)>Nadesico B<endbook()>. It is fitted with a solo <book(30)>Boson Jump<endbook()> function, and its overall performance has been greatly enhanced.\n\nIts captain is Lt. Cmdr. Ruri Hoshino.",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "name_en": "The Tenkawas",
+   "body_en": "Refers to Yurika Misumaru, who captained the battleship Nadesico that served with distinction in the <book(4)>First Defense War<endbook()>, and Akito Tenkawa, its cook and pilot.\n\nAfter the war, both died in a shuttle explosion during their honeymoon.",
+   "notes": "Name is literally \"Mr. and Mrs. Tenkawa\"; shortened to \"The Tenkawas\"."
+  },
+  {
+   "id": 23,
+   "name_en": "Hisago Plan",
+   "body_en": "A development plan for a transport network using <book(30)>Boson Jump<endbook()> technology.\n\nIt would build routes across the solar system with the <book(30)>Boson Jump<endbook()>, which can cross ultra-long distances in an instant; once realized, it is expected to bring dramatic advances in space transportation.",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "name_en": "Terminal Colony",
+   "body_en": "A terminal facility built as a hub of the <book(23)>Hisago Plan<endbook()> transport network.\n\nUsed as a waypoint on battleship Jump routes, for temporary berthing and so on.",
+   "notes": "\"Jump\" capitalized as the technical term (also avoids lowercase j)."
+  },
+  {
+   "id": 25,
+   "name_en": "Shirahime",
+   "body_en": "One of the <book(24)>Terminal Colonies<endbook()> built under the <book(23)>Hisago Plan<endbook()>.",
+   "notes": "Tag 24 inflected to plural. Shirahime is a plain romanization (provisional)."
+  },
+  {
+   "id": 26,
+   "name_en": "Amaterasu",
+   "body_en": "The <book(24)>Terminal Colony<endbook()> at the core of the <book(23)>Hisago Plan<endbook()>.\n\nIt is normally open to the public and can be toured.",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "name_en": "Jumper",
+   "body_en": "A person capable of a biological <book(30)>Boson Jump<endbook()>.\n\nThose who must go through a gate called a Chulip in order to Jump are defined as B-class, and those able to Jump on their own as A-class.",
+   "notes": "Chulip per Nadesico wiki (Dimensional Leap Gate page)."
+  },
+  {
+   "id": 28,
+   "name_en": "Ruins Unit",
+   "body_en": "The control system needed for the <book(30)>Boson Jump<endbook()>.\n\nIt was discarded after the fight with the Jovian Federation in the <book(4)>First Defense War<endbook()>.",
+   "notes": "Source uses the short form of \"Jovian Federation\"; expanded. \"Ruins Unit\" is literal (provisional); missions_019 already renders the same word as \"Ruins\"."
+  },
+  {
+   "id": 29,
+   "name_en": "Martian Successors",
+   "body_en": "A coup group founded by ex-Jovian Federation officer Haruki Kusakabe.\n\nOpposed to the merger of the <book(9)>Earth Federation<endbook()> and the Jovian Federation, it rose up to revive the latter, taking along the many ex-Jovian members inside the <book(9)>Earth Federation<endbook()>.\n\nIt secretly drove the <book(23)>Hisago Plan<endbook()>, counting from the start on seizing the <book(30)>Boson Jump<endbook()> system to offset its small forces. That is also why it abducted Akito and other A-class <book(27)>Jumpers<endbook()>.",
+   "notes": "Six link tags cost about 125 characters, so the prose is tightly compressed; no fact dropped. Source says \"former Jovian Federation military man\"; \"officer\" used (Kusakabe was a vice admiral per opening_history_terms)."
+  },
+  {
+   "id": 30,
+   "name_en": "Boson Jump",
+   "body_en": "A means of teleportation using ancient Martian technology.\n\nIt is in fact travel through space-time, but no means of controlling travel through time has been established yet.\n\nOnly <book(27)>Jumpers<endbook()> can make biological Jumps, and for now people of B-class or below can Jump only via the <book(23)>Hisago Plan<endbook()>.\n\nAn accurate Jump needs an A-class <book(27)>Jumper<endbook()> or a device called a Chulip.",
+   "notes": "opening_history.json locks sentence-case \"boson jump\"; here the term is the entry name inside link tags, so it is capitalized \"Boson Jump\" (which also avoids lowercase j). Orchestrator to reconcile if needed."
+  },
+  {
+   "id": 31,
+   "name_en": "Nergal Heavy Ind.",
+   "body_en": "The largest corporate group in the Asian sphere. Its scale gives it a strong voice even with the <book(9)>Earth Federation<endbook()>.\n\nIt is also deeply involved in Mars development, and used Martian technology to develop the Nadesico and the Aestivalis.",
+   "notes": "Full name \"Nergal Heavy Industries\" (23 chars) abbreviated to fit the name field."
+  },
+  {
+   "id": 32,
+   "name_en": "Iwato",
+   "body_en": "The central point of the <book(23)>Hisago Plan<endbook()>, located in the Martian polar cap ruins.",
+   "notes": "Iwato is a plain romanization (provisional)."
+  },
+  {
+   "id": 33,
+   "name_en": "Macross",
+   "body_en": "A battleship restored with Earth technology from an alien warship that fell to Earth in the past.\n\nIt carries mechanisms impossible with existing technology, such as a space-leap navigation method called fold and a variable structure that transforms into Attack mode.\n\nIt served on the front line in the <book(4)>First Defense War<endbook()>, but retired when the new battleship Megaroad entered service, and now remains in <book(88)>Macross City<endbook()> as a symbol of peace.",
+   "notes": "\"Attack mode\" per Macross wiki SDF-1 page (Macross Mecha Manual calls it Storm Attacker mode)."
+  },
+  {
+   "id": 34,
+   "name_en": "Valkyrie",
+   "body_en": "A humanoid mobile weapon with a three-stage variable mechanism.\n\nIt transforms among the fighter-plane Fighter mode, the humanoid Battroid mode and the in-between GERWALK mode, which lets it handle any battle situation.\n\nIt served as the mainstay of the last war, and many versions have been developed since.",
+   "notes": "GERWALK spelled out per Macross wiki; project unit names abbreviate it \"GW\"."
+  },
+  {
+   "id": 35,
+   "name_en": "Zentradi",
+   "body_en": "A race naturalized on Earth after the <book(4)>First Defense War<endbook()>. Once a race of giants skilled in combat, they were reduced in size upon naturalization.\n\nHowever, because of the <book(9)>Earth Federation<endbook()>'s insufficient immigration policy and their innate fighting instinct, riots by some immigrants break out often and have become a social problem.",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "name_en": "Byston Well",
+   "body_en": "A world that exists between the sea and the land.\n\nIt is said to be a place of repose where souls whose lives on Upper Earth have ended rest until they are reborn.\n\nIt is sustained by the \"Aura Power\" that living things emit, and the humanoid mobile weapons that run on it are called Aura Machines.",
+   "notes": "\"Upper Earth\" is the established English Dunbine term for the surface world."
+  },
+  {
+   "id": 37,
+   "name_en": "GX-9900",
+   "body_en": "A mobile suit for Newtype use bearing the model number GX-9900.\n\nIt was fielded as the Earth side's decisive weapon in the war waged between Earth and the colonies.\n\nIt has the Satellite Cannon, a high-output cannon fired by receiving microwaves from a lunar facility.",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "name_en": "New Federation",
+   "body_en": "The Earth government led by <book(40)>Fixx Bloodman<endbook()>.\n\nOnce an organization called the United Federation of Predgio Towers, it shifted to the current regime with the rise of <book(40)>Fixx Bloodman<endbook()>.\n\nIt seeks to root out the <book(42)>Space Rev. Army<endbook()> and aims to place both Earth and the colonies under its own rule.\n\nTo that end it is pushing a rapid military buildup, such as securing Newtypes and turning unknown technology to military use.",
+   "notes": "\"New Federation\" per main glossary (provisional); character_names_021 lists the Gundam X wiki form \"New United Nations Earth / New UNE\" for the same label - conflict to be settled by the orchestrator. The prior body is ACE3's blend of Eureka Seven's tower-state government; the source writes it with the \"federation\" suffix rather than the anime's \"union\" suffix, and the Eureka Seven wiki name \"United Federation of Predgio Towers\" was used (provisional). Tag 42 uses the shortened entry name."
+  },
+  {
+   "id": 39,
+   "name_en": "Vulture",
+   "body_en": "General name for groups seen since the 7th Space War. As they scavenge and sell off abandoned military hardware, they are likened to vultures and so named.\n\nThey are usually armed with battleships, MS, etc., and some hire bodyguards or mercenaries.\n\nAs most are outlaws or near-robbers, they are generally ill regarded. The Freeden, which only peddles goods, and <book(60)>Gekkostate<endbook()>, the charismatic ref board group that puts out the magazine \"ray=out\", are generally seen as Vultures too.",
+   "notes": "Heavily compressed to fit 17 lines; all facts kept. Magazine title \"ray=out\" kept as in source (Latin in the original). \"ref board\" per Eureka Seven wiki."
+  },
+  {
+   "id": 40,
+   "name_en": "Fixx Bloodman",
+   "body_en": "The current supreme ruler of the <book(38)>New Federation<endbook()>.\n\nAlso led the Federation Reconstruction Committee formed after the 7th Space War.\n\nOusted the three Sages who headed the United Federation of Predgio Towers and declared the founding of the <book(38)>New Federation<endbook()> government in its place.",
+   "notes": "Subjectless sentences kept to avoid pronouns. \"Federation Reconstruction Committee\" is a literal rendering (provisional). \"three Sages\" per Eureka Seven wiki (Sage Council of three Sages)."
+  },
+  {
+   "id": 41,
+   "name_en": "Sea of Lorelei",
+   "body_en": "A sea area where, superstition has it, ships' instruments go haywire and the ships are sent to the bottom.\n\nIt is so called after the Lorelei legend.",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "name_en": "Space Rev. Army",
+   "body_en": "The colony rebel army that fought for independence and self-rule from Earth during the 7th Space War.\n\nAfter fierce fighting, it dropped many uninhabited colonies on Earth, causing enormous damage.\n\nEven now it remains opposed to the Earth side and is preparing to invade Earth.",
+   "notes": "Full name \"Space Revolutionary Army\" (24 chars) does not fit the name field; abbreviated. The same short form is used inside link tags in entry 38."
+  },
+  {
+   "id": 43,
+   "name_en": "L System",
+   "body_en": "A weapon that disables electronic devices within a set range. It was developed by the old Federation Forces.\n\nBuilt into the system is the hatred of Lucille Liliant, a Newtype whose mind was shattered during the war.",
+   "notes": "Gundam wiki writes \"L System\" without a hyphen (character_names_021 role text had \"L-System\"). Lucille Liliant per character_names_021 / wiki."
+  },
+  {
+   "id": 44,
+   "name_en": "G-Bit",
+   "body_en": "Unmanned bit mobile suits developed for Gundams fitted with the Flash System.\n\nSteered by a Newtype's mental waves, they let a single Newtype remotely operate a whole unit's worth of mobile weapons at once.",
+   "notes": ""
+  }
+ ],
+ "new_terms": [
+  {
+   "source": "バルドナ粒子",
+   "en": "Baldora particle",
+   "series": "ACE3 original",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "バルドナ・チャージ",
+   "en": "Baldora Charge",
+   "series": "ACE3 original",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "ガーディアン・システム",
+   "en": "Guardian System",
+   "series": "ACE2/ACE3 original",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "フィールドジェネレータ",
+   "en": "Field Generator",
+   "series": "ACE3 original",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "自走兵器",
+   "en": "Self-Propelled Weapon",
+   "series": "ACE3 original",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "ボドルザー",
+   "en": "Boddole Zer",
+   "series": "Macross",
+   "sources": [
+    "https://macross.fandom.com/wiki/Golg_Boddole_Zer"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "リン・ミンメイ",
+   "en": "Lynn Minmay",
+   "series": "Macross",
+   "sources": [
+    "https://macross.fandom.com/wiki/Lynn_Minmay"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ブリタイ",
+   "en": "Britai",
+   "series": "Macross",
+   "sources": [
+    "https://macross.fandom.com/wiki/Vrlitwhai_Kridanik"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "メルトランディ",
+   "en": "Meltrandi",
+   "series": "Macross",
+   "sources": [
+    "https://macross.fandom.com/wiki/Zentradi"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "強攻型",
+   "en": "Attack mode",
+   "series": "Macross",
+   "sources": [
+    "https://macross.fandom.com/wiki/SDF-1_Macross"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "フォールド",
+   "en": "fold",
+   "series": "Macross",
+   "sources": [
+    "https://macross.fandom.com/wiki/SDF-1_Macross"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ガウォーク",
+   "en": "GERWALK",
+   "series": "Macross",
+   "sources": [
+    "https://macross.fandom.com/wiki/Variable_Fighter"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "バトロイド",
+   "en": "Battroid",
+   "series": "Macross",
+   "sources": [
+    "https://macross.fandom.com/wiki/Variable_Fighter"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ラー・カイラム",
+   "en": "Ra Cailum",
+   "series": "Gundam CCA",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Ra_Cailum"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "５ｔｈルナ",
+   "en": "5th Luna",
+   "series": "Gundam CCA",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Fifth_Luna"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ラサ",
+   "en": "Lhasa",
+   "series": "Gundam CCA",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Lhasa"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "アナハイム",
+   "en": "Anaheim",
+   "series": "Gundam CCA",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Anaheim_Electronics"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ジオン公国",
+   "en": "Principality of Zeon",
+   "series": "Gundam UC",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Principality_of_Zeon"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ミスマル・ユリカ",
+   "en": "Yurika Misumaru",
+   "series": "Nadesico",
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Yurika_Misumaru"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "チューリップ",
+   "en": "Chulip",
+   "series": "Nadesico",
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Dimensional_Leap_Gate"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ディストーションフィールド",
+   "en": "Distortion Field",
+   "series": "Nadesico",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Martian_Successor_Nadesico"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "オモイカネ",
+   "en": "Omoikane",
+   "series": "Nadesico",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Martian_Successor_Nadesico"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ネルガル重工",
+   "en": "Nergal Heavy Industries",
+   "series": "Nadesico",
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Nergal_Heavy_Industries"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ジャンパー",
+   "en": "Jumper (A-class / B-class)",
+   "series": "Nadesico",
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Akito_Tenkawa"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ターミナルコロニー",
+   "en": "Terminal Colony",
+   "series": "Nadesico",
+   "sources": [
+    "https://azureflame.info/episode-guides/martian-successor-nadesico/prince-of-darkness/"
+   ],
+   "status": "provisional"
+  },
+  {
+   "source": "シラヒメ",
+   "en": "Shirahime",
+   "series": "Nadesico",
+   "sources": [
+    "https://azureflame.info/episode-guides/martian-successor-nadesico/prince-of-darkness/"
+   ],
+   "status": "provisional"
+  },
+  {
+   "source": "イワト",
+   "en": "Iwato",
+   "series": "Nadesico",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "遺跡ユニット",
+   "en": "Ruins Unit",
+   "series": "Nadesico",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "オーラ力",
+   "en": "Aura Power",
+   "series": "Dunbine",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "オーラマシン",
+   "en": "Aura Machine",
+   "series": "Dunbine",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "地上界",
+   "en": "Upper Earth",
+   "series": "Dunbine",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "サテライトキャノン",
+   "en": "Satellite Cannon",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Satellite_System"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "フィクス・ブラッドマン",
+   "en": "Fixx Bloodman",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Fixx_Bloodman"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "第７次宇宙戦争",
+   "en": "7th Space War",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/7th_Space_War"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "宇宙革命軍",
+   "en": "Space Revolutionary Army (name field: Space Rev. Army)",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Space_Revolutionary_Army"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ローレライの海",
+   "en": "Sea of Lorelei",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/After_War_locations"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "Ｌシステム",
+   "en": "L System",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/7th_Space_War"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "フラッシュシステム",
+   "en": "Flash System",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Flash_System"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ビットモビルスーツ",
+   "en": "bit mobile suit",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Bit_Mobile_Suit"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "連邦再生委員会",
+   "en": "Federation Reconstruction Committee",
+   "series": "Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/New_United_Nations_Earth_Officers"
+   ],
+   "status": "provisional"
+  },
+  {
+   "source": "塔州連邦",
+   "en": "United Federation of Predgio Towers",
+   "series": "Eureka Seven / ACE3 blend",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/United_Federation"
+   ],
+   "status": "provisional"
+  },
+  {
+   "source": "三賢人",
+   "en": "the three Sages",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/The_Sage_Council"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "リフボード",
+   "en": "ref board",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Gekkostate",
+    "https://eurekaseven.fandom.com/wiki/Lifting"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ray=out",
+   "en": "ray=out",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Ray%3Dout"
+   ],
+   "status": "researched"
+  }
+ ],
+ "uncertainties": [
+  "1: Baldora Drive / Baldora particle vs Jill Bardona - locked spellings disagree and now appear in the same entry (the particle is named after the scientist). Kept as instructed.",
+  "4: 'First Defense War' reused from opening_history.json; proposals_dialogue_01073 has 'First Defensive War' - corpus may need a name-script pass.",
+  "9/38/40: 'New Federation' (main glossary, provisional) vs 'New United Nations Earth / New UNE' (character_names_021, Gundam X wiki). Used New Federation because ACE3's body is a blend of Gundam X and Eureka Seven governments.",
+  "38/40: the predecessor state is written in the source with a 'federation' suffix, not Eureka Seven's usual 'union' suffix; rendered with the Eureka Seven wiki name 'United Federation of Predgio Towers' (provisional). Translator of 45-88 may meet the same body; please reconcile.",
+  "9: Britai used instead of the Macross wiki page title 'Vrlitwhai' (wiki gives Britai as pronunciation/alias).",
+  "10: the source mixes 'currently' with a past-tense verb for Amuro's ground unit; rendered 'Lately ... had been on ground duty'.",
+  "13: '5th Luna' (source writes 5th in Latin; wiki lead gives both, page title 'Fifth Luna').",
+  "30 and all Nadesico entries: 'Boson Jump' and bare 'Jump' capitalized as technical terms (opening_history.json has sentence-case 'boson jump'); capital J also sidesteps the missing lowercase j glyph.",
+  "20/21: rank rendered 'Lt. Cmdr.' per meeting_terms_015 (contextual translation).",
+  "28: 'Ruins Unit' literal; the anime's own device is usually called the calculation/computation unit of the Ruins - provisional.",
+  "8/31/42: name fields - 'Self-Propelled Weapon' is 21 chars (fallback 'Self-Propelled Gun'); 'Nergal Heavy Ind.' and 'Space Rev. Army' are abbreviations of names that exceed 22 chars. Tag text for 42 inside entry 38 uses the abbreviated name.",
+  "Link-tag text uses the entry name's capitalization even mid-sentence (e.g. 'the Wormhole's opening'); untagged mentions are lower-case where they are common nouns.",
+  "Line-count check assumed greedy wrapping at 40 visible characters with tags contributing only their inner text; if the build tool counts differently, entries 1, 10, 18, 29, 38, 39 are the closest to the 17-line limit."
+ ],
+ "post_draft_edits": [
+  "List labels 8, 71, 84 shortened to fit the 220-unit label in both fonts; link texts follow."
+ ],
+ "review": {
+  "status": "meaning_reviewed",
+  "entries_examined": 44,
+  "entries_in_slice": 44,
+  "result": "No mistranslation, dropped fact, wrong number or invented gender; soft fixes applied."
+ }
+}

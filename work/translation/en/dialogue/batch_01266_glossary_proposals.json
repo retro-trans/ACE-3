@@ -1,0 +1,26 @@
+[
+  {
+    "term_romaji": "fiirudo tenkai heiki",
+    "en": "field-deploying weapon",
+    "source": "dialogue_01269 (resource 6040, Mission 04); no glossary or mission_terms entry found",
+    "why": "Mission gimmick unit that projects the defensive field; descriptive common noun, not a proper name. Proposed so later rows and mission text use one wording."
+  },
+  {
+    "term_romaji": "bougyo fiirudo",
+    "en": "defensive field",
+    "source": "dialogue_01269, dialogue_01271 (resource 6040)",
+    "why": "Distinct from the locked 'particle field' (ryuushi fiirudo, mission_terms_019); the two must not be merged because 1271 and 1272 report them dropping separately."
+  },
+  {
+    "term_romaji": "mobiru suutsu modoki",
+    "en": "mobile suit look-alikes",
+    "source": "dialogue_01329 (resource 6040)",
+    "why": "Londo Bell-side description of the other world's mass-production machines ('pseudo mobile suits'). Not a proper noun; listed only so a reviewer can normalise if the phrase recurs."
+  },
+  {
+    "term_romaji": "mikakunin seimeitai",
+    "en": "unidentified life-forms",
+    "source": "dialogue_01331; existing rendering in work/translation/en/meeting_briefing_015.json",
+    "why": "Already used in the briefing text but absent from work/glossary; proposed for locking (hyphenated, plural) because 1333 plays on the word 'unidentified' against the locked 'Invaders'."
+  }
+]

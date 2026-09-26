@@ -1,0 +1,2189 @@
+{
+  "schema_version": "1.0",
+  "version": "0.1.5",
+  "recorded_on": "2026-09-18",
+  "source": "Seven user-provided screenshots",
+  "coordinate_system": {
+    "origin": "top-left of full source screenshot",
+    "unit": "screenshot pixels",
+    "rectangle": "x, y, width, height; right/bottom exclusive",
+    "conversion_to_viewport": "Subtract game_viewport.x/y from the screenshot coordinate.",
+    "native_game_resolution": null,
+    "notes": [
+      "Do not treat the 1050x620 capture size or estimated 827x619 viewport as native PS2 rendering resolution.",
+      "candidate_area rectangles are layout estimates. Actual clipping, font metrics, padding, and maximum character counts are unknown."
+    ]
+  },
+  "translation_file": "work/translation/en/ui.json",
+  "transcription_notes": [
+    "Source labels are manually read from pixels; punctuation and spaces are normalized where exact encoding cannot be determined.",
+    "Button and arrow glyphs are separate graphical controls. Their encoded representation is unknown.",
+    "Portrait identity and speaker identity have not been inferred.",
+    "Only foreground functional UI is cataloged. Decorative background lettering and dimmed underlying controls are not a complete text inventory."
+  ],
+  "text_limits": {
+    "status": "unmeasured_in_engine",
+    "max_characters": null,
+    "max_bytes": null,
+    "english_render_fit": "0.1.4: glyph fix confirmed, persistent menu truncation reported. 0.1.5 capacity fix pending game test.",
+    "line_break_encoding": "LF (0x0A), verified in game text resources"
+  },
+  "screens": [
+    {
+      "id": "load_confirmation",
+      "title": "Load confirmation",
+      "user_image_number": 1,
+      "image": "screenshots/01_load_confirmation.png",
+      "source_attachment_basename": "codex-clipboard-e165dbf4-316a-4c47-83b0-22d79b6bf1ec.png",
+      "sha256": "5940b125758b0cc6cf6a941c64bab5eee9b66df43dd69d8ab9966b82a9a7da93",
+      "image_size": {
+        "width": 1050,
+        "height": 620
+      },
+      "game_viewport": {
+        "x": 111,
+        "y": 1,
+        "width": 827,
+        "height": 619,
+        "method": "visual estimate supported by pixel boundary samples",
+        "uncertainty_px": 1
+      },
+      "state": "Blue confirmation modal over the main menu.",
+      "regions": [
+        {
+          "id": "lc.panel",
+          "kind": "panel",
+          "bounds": {
+            "x": 111,
+            "y": 154,
+            "width": 827,
+            "height": 312
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "boundary_kind": "visible_panel"
+        },
+        {
+          "id": "lc.title",
+          "kind": "text",
+          "bounds": {
+            "x": 514,
+            "y": 159,
+            "width": 46,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "dialog.confirm_title",
+          "alignment": "center",
+          "observed_text": "確認",
+          "observed_line_count": 1,
+          "notes": [
+            "Title and notice icon form a centered group; expansion behavior is unknown."
+          ]
+        },
+        {
+          "id": "lc.title_icon",
+          "kind": "icon",
+          "bounds": {
+            "x": 490,
+            "y": 160,
+            "width": 22,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "icon_id": "confirmation_notice",
+          "meaning": "notice symbol; preserve as graphic"
+        },
+        {
+          "id": "lc.portrait",
+          "kind": "portrait",
+          "bounds": {
+            "x": 175,
+            "y": 225,
+            "width": 125,
+            "height": 167
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "identity": null,
+          "identity_status": "unidentified_from_this_capture"
+        },
+        {
+          "id": "lc.message",
+          "kind": "text",
+          "bounds": {
+            "x": 379,
+            "y": 296,
+            "width": 319,
+            "height": 28
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "load.confirm_question",
+          "alignment": "left",
+          "candidate_area": {
+            "x": 379,
+            "y": 226,
+            "width": 533,
+            "height": 183
+          },
+          "notes": [
+            "Area excludes portrait; available width is estimated, not the renderer's clipping limit."
+          ],
+          "observed_text": "セーブデータをロードしますか？",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lc.yes",
+          "kind": "text",
+          "bounds": {
+            "x": 429,
+            "y": 435,
+            "width": 44,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.yes",
+          "alignment": "center",
+          "observed_text": "はい",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lc.no",
+          "kind": "text",
+          "bounds": {
+            "x": 524,
+            "y": 435,
+            "width": 63,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.no",
+          "alignment": "center",
+          "observed_text": "いいえ",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lc.controls",
+          "kind": "control_group",
+          "bounds": {
+            "x": 429,
+            "y": 432,
+            "width": 193,
+            "height": 28
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "candidate_area": {
+            "x": 390,
+            "y": 432,
+            "width": 268,
+            "height": 28
+          },
+          "notes": [
+            "Includes labels, punctuation, and button glyphs."
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "action": "yes",
+          "text_region": "lc.yes",
+          "button": "circle",
+          "display_symbol": "○"
+        },
+        {
+          "action": "no",
+          "text_region": "lc.no",
+          "button": "cross",
+          "display_symbol": "×"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "no_save_data",
+      "title": "No save data warning",
+      "user_image_number": 2,
+      "image": "screenshots/02_no_save_data.png",
+      "source_attachment_basename": "codex-clipboard-6c8a927e-e74c-45e7-babb-4d96c4188801.png",
+      "sha256": "f6e5d4602c7324d202a0e1ece650b91d972c27b5b26521a0f93ea53b2bf37bae",
+      "image_size": {
+        "width": 1050,
+        "height": 620
+      },
+      "game_viewport": {
+        "x": 111,
+        "y": 1,
+        "width": 827,
+        "height": 619,
+        "method": "visual estimate supported by pixel boundary samples",
+        "uncertainty_px": 1
+      },
+      "state": "Red warning modal over an empty load list.",
+      "regions": [
+        {
+          "id": "ns.panel",
+          "kind": "panel",
+          "bounds": {
+            "x": 111,
+            "y": 154,
+            "width": 827,
+            "height": 312
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "boundary_kind": "visible_panel"
+        },
+        {
+          "id": "ns.title",
+          "kind": "text",
+          "bounds": {
+            "x": 514,
+            "y": 159,
+            "width": 46,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "dialog.warning_title",
+          "alignment": "center",
+          "observed_text": "警告",
+          "observed_line_count": 1,
+          "notes": [
+            "Title and notice icon form a centered group; expansion behavior is unknown."
+          ]
+        },
+        {
+          "id": "ns.title_icon",
+          "kind": "icon",
+          "bounds": {
+            "x": 490,
+            "y": 160,
+            "width": 22,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "icon_id": "warning_notice",
+          "meaning": "warning symbol; preserve as graphic"
+        },
+        {
+          "id": "ns.portrait",
+          "kind": "portrait",
+          "bounds": {
+            "x": 175,
+            "y": 225,
+            "width": 125,
+            "height": 167
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "identity": null,
+          "identity_status": "unidentified_from_this_capture"
+        },
+        {
+          "id": "ns.message",
+          "kind": "text",
+          "bounds": {
+            "x": 379,
+            "y": 284,
+            "width": 484,
+            "height": 51
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "load.no_save_data",
+          "alignment": "left",
+          "observed_line_advance_px": 24,
+          "candidate_area": {
+            "x": 379,
+            "y": 226,
+            "width": 533,
+            "height": 183
+          },
+          "notes": [
+            "Two lines are visible. This does not establish a two-line engine limit."
+          ],
+          "observed_text": "メモリーカード差込口1のメモリーカード（PS2）に\nセーブデータがありません。",
+          "observed_line_count": 2
+        },
+        {
+          "id": "ns.ok",
+          "kind": "text",
+          "bounds": {
+            "x": 483,
+            "y": 433,
+            "width": 51,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.warning_ok",
+          "alignment": "center",
+          "observed_text": "決定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "ns.controls",
+          "kind": "control_group",
+          "bounds": {
+            "x": 481,
+            "y": 431,
+            "width": 89,
+            "height": 30
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "candidate_area": {
+            "x": 410,
+            "y": 432,
+            "width": 229,
+            "height": 28
+          }
+        }
+      ],
+      "controls": [
+        {
+          "action": "acknowledge",
+          "text_region": "ns.ok",
+          "button": "circle",
+          "display_symbol": "○"
+        }
+      ],
+      "notes": [
+        "Desktop pointer is visible at the far right, outside the estimated game viewport. Original capture is retained."
+      ]
+    },
+    {
+      "id": "load_menu",
+      "title": "Load list",
+      "user_image_number": 3,
+      "image": "screenshots/03_load_menu.png",
+      "source_attachment_basename": "codex-clipboard-9ee98c52-87c8-40d8-9d3e-ff95bf3f80de.png",
+      "sha256": "16daf6b9949c198ec4f3982a8d4a0a2ec67b26ea72ea300b2dae2dbc1e0a3023",
+      "image_size": {
+        "width": 1050,
+        "height": 620
+      },
+      "game_viewport": {
+        "x": 111,
+        "y": 1,
+        "width": 827,
+        "height": 619,
+        "method": "visual estimate supported by pixel boundary samples",
+        "uncertainty_px": 1
+      },
+      "state": "Empty load list with the first of five visible rows highlighted.",
+      "regions": [
+        {
+          "id": "lm.title",
+          "kind": "text",
+          "bounds": {
+            "x": 137,
+            "y": 21,
+            "width": 80,
+            "height": 28
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "menu.load",
+          "alignment": "left",
+          "candidate_area": {
+            "x": 138,
+            "y": 16,
+            "width": 450,
+            "height": 38
+          },
+          "observed_text": "ロード",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lm.table",
+          "kind": "table",
+          "bounds": {
+            "x": 111,
+            "y": 104,
+            "width": 808,
+            "height": 418
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "visible_rows": 5,
+          "data_present": false,
+          "notes": [
+            "All save-data fields are blank; content lengths and runtime values are unknown."
+          ]
+        },
+        {
+          "id": "lm.column_number",
+          "kind": "text",
+          "bounds": {
+            "x": 150,
+            "y": 86,
+            "width": 39,
+            "height": 16
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "load.column.number",
+          "alignment": "left",
+          "existing_english": true,
+          "observed_text": "No.",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lm.column_mission",
+          "kind": "text",
+          "bounds": {
+            "x": 216,
+            "y": 86,
+            "width": 82,
+            "height": 16
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "load.column.mission",
+          "alignment": "left",
+          "existing_english": true,
+          "observed_text": "MISSION",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lm.column_difficulty",
+          "kind": "text",
+          "bounds": {
+            "x": 601,
+            "y": 86,
+            "width": 120,
+            "height": 16
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "load.column.difficulty",
+          "alignment": "left",
+          "existing_english": true,
+          "observed_text": "DIFFICULTY",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lm.column_unit",
+          "kind": "text",
+          "bounds": {
+            "x": 735,
+            "y": 86,
+            "width": 47,
+            "height": 16
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "load.column.unit",
+          "alignment": "left",
+          "existing_english": true,
+          "observed_text": "UNIT",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lm.column_playtime",
+          "kind": "text",
+          "bounds": {
+            "x": 800,
+            "y": 86,
+            "width": 101,
+            "height": 16
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "load.column.playtime",
+          "alignment": "left",
+          "existing_english": true,
+          "observed_text": "PLAYTIME",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lm.help",
+          "kind": "text",
+          "bounds": {
+            "x": 138,
+            "y": 532,
+            "width": 377,
+            "height": 29
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "load.help",
+          "alignment": "left",
+          "candidate_area": {
+            "x": 138,
+            "y": 530,
+            "width": 776,
+            "height": 34
+          },
+          "observed_text": "ロードするデータを選んでください",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lm.back",
+          "kind": "text",
+          "bounds": {
+            "x": 854,
+            "y": 572,
+            "width": 43,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.back",
+          "alignment": "right",
+          "candidate_area": {
+            "x": 811,
+            "y": 573,
+            "width": 86,
+            "height": 24
+          },
+          "observed_text": "戻る",
+          "observed_line_count": 1
+        },
+        {
+          "id": "lm.back_controls",
+          "kind": "control_group",
+          "bounds": {
+            "x": 852,
+            "y": 571,
+            "width": 71,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "notes": [
+            "Cross glyph is outside the label's text bounds."
+          ]
+        },
+        {
+          "id": "lm.scroll_up",
+          "kind": "icon",
+          "bounds": {
+            "x": 500,
+            "y": 107,
+            "width": 27,
+            "height": 16
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "icon_id": "scroll_up"
+        },
+        {
+          "id": "lm.scroll_down",
+          "kind": "icon",
+          "bounds": {
+            "x": 500,
+            "y": 502,
+            "width": 27,
+            "height": 17
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "icon_id": "scroll_down"
+        }
+      ],
+      "controls": [
+        {
+          "action": "back",
+          "text_region": "lm.back",
+          "button": "cross",
+          "display_symbol": "×"
+        }
+      ],
+      "notes": [],
+      "table_geometry": {
+        "bounds": {
+          "x": 111,
+          "y": 104,
+          "width": 808,
+          "height": 418
+        },
+        "data_columns": [
+          {
+            "id": "number",
+            "x": 111,
+            "width": 98,
+            "measurement": "visible divider-based estimate, not a text-box limit"
+          },
+          {
+            "id": "mission",
+            "x": 216,
+            "width": 374,
+            "measurement": "visible divider-based estimate, not a text-box limit"
+          },
+          {
+            "id": "difficulty",
+            "x": 598,
+            "width": 129,
+            "measurement": "visible divider-based estimate, not a text-box limit"
+          },
+          {
+            "id": "unit",
+            "x": 735,
+            "width": 54,
+            "measurement": "visible divider-based estimate, not a text-box limit"
+          },
+          {
+            "id": "playtime",
+            "x": 797,
+            "width": 113,
+            "measurement": "visible divider-based estimate, not a text-box limit"
+          }
+        ],
+        "row_bounds": [
+          {
+            "row_index": 0,
+            "bounds": {
+              "x": 111,
+              "y": 126,
+              "width": 800,
+              "height": 74
+            },
+            "empty": true
+          },
+          {
+            "row_index": 1,
+            "bounds": {
+              "x": 111,
+              "y": 200,
+              "width": 800,
+              "height": 75
+            },
+            "empty": true
+          },
+          {
+            "row_index": 2,
+            "bounds": {
+              "x": 111,
+              "y": 275,
+              "width": 800,
+              "height": 75
+            },
+            "empty": true
+          },
+          {
+            "row_index": 3,
+            "bounds": {
+              "x": 111,
+              "y": 350,
+              "width": 800,
+              "height": 75
+            },
+            "empty": true
+          },
+          {
+            "row_index": 4,
+            "bounds": {
+              "x": 111,
+              "y": 425,
+              "width": 800,
+              "height": 75
+            },
+            "empty": true
+          }
+        ],
+        "selected_row_index": 0
+      }
+    },
+    {
+      "id": "main_menu",
+      "title": "Main menu",
+      "user_image_number": 4,
+      "image": "screenshots/04_main_menu.png",
+      "source_attachment_basename": "codex-clipboard-1ff565fe-01c4-47f7-aa63-b5e16602e3cf.png",
+      "sha256": "67d61df90d2668e4ac8f8d3f6b4817245c228d12022d3b8eeee8b33d9a1e7ddd",
+      "image_size": {
+        "width": 1050,
+        "height": 620
+      },
+      "game_viewport": {
+        "x": 111,
+        "y": 1,
+        "width": 827,
+        "height": 619,
+        "method": "visual estimate supported by pixel boundary samples",
+        "uncertainty_px": 1
+      },
+      "state": "Campaign selected; Load is the second visible option.",
+      "regions": [
+        {
+          "id": "mm.title",
+          "kind": "text",
+          "bounds": {
+            "x": 479,
+            "y": 153,
+            "width": 92,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "main.title",
+          "alignment": "center",
+          "candidate_area": {
+            "x": 390,
+            "y": 149,
+            "width": 270,
+            "height": 34
+          },
+          "observed_text": "メニュー",
+          "observed_line_count": 1
+        },
+        {
+          "id": "mm.options_panel",
+          "kind": "panel",
+          "bounds": {
+            "x": 388,
+            "y": 195,
+            "width": 275,
+            "height": 296
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "notes": [
+            "Panel height is not evidence of additional options. Only two choices are visible."
+          ]
+        },
+        {
+          "id": "mm.campaign",
+          "kind": "text",
+          "bounds": {
+            "x": 457,
+            "y": 291,
+            "width": 137,
+            "height": 29
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "main.campaign",
+          "alignment": "center",
+          "selected": true,
+          "candidate_area": {
+            "x": 408,
+            "y": 292,
+            "width": 236,
+            "height": 30
+          },
+          "observed_text": "キャンペーン",
+          "observed_line_count": 1
+        },
+        {
+          "id": "mm.load",
+          "kind": "text",
+          "bounds": {
+            "x": 493,
+            "y": 350,
+            "width": 69,
+            "height": 29
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "menu.load",
+          "alignment": "center",
+          "candidate_area": {
+            "x": 408,
+            "y": 351,
+            "width": 236,
+            "height": 29
+          },
+          "observed_text": "ロード",
+          "observed_line_count": 1
+        },
+        {
+          "id": "mm.help",
+          "kind": "text",
+          "bounds": {
+            "x": 139,
+            "y": 532,
+            "width": 329,
+            "height": 29
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "main.campaign_help",
+          "alignment": "left",
+          "candidate_area": {
+            "x": 138,
+            "y": 530,
+            "width": 776,
+            "height": 34
+          },
+          "observed_text": "キャンペーンを新しく始めます",
+          "observed_line_count": 1
+        },
+        {
+          "id": "mm.select",
+          "kind": "text",
+          "bounds": {
+            "x": 738,
+            "y": 572,
+            "width": 45,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.select",
+          "alignment": "right",
+          "observed_text": "選択",
+          "observed_line_count": 1
+        },
+        {
+          "id": "mm.select_icons",
+          "kind": "icon",
+          "bounds": {
+            "x": 794,
+            "y": 572,
+            "width": 36,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "icon_id": "vertical_direction_glyphs",
+          "visual_order": [
+            "down",
+            "up"
+          ],
+          "notes": [
+            "Preserve actual directional sprites; text symbols are only documentation."
+          ]
+        },
+        {
+          "id": "mm.confirm",
+          "kind": "text",
+          "bounds": {
+            "x": 848,
+            "y": 572,
+            "width": 45,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.confirm",
+          "alignment": "right",
+          "observed_text": "決定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "mm.controls",
+          "kind": "control_group",
+          "bounds": {
+            "x": 737,
+            "y": 571,
+            "width": 186,
+            "height": 29
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "candidate_area": {
+            "x": 642,
+            "y": 571,
+            "width": 281,
+            "height": 29
+          }
+        }
+      ],
+      "controls": [
+        {
+          "action": "select_option",
+          "text_region": "mm.select",
+          "buttons": [
+            "direction_down",
+            "direction_up"
+          ],
+          "display_symbols": [
+            "↓",
+            "↑"
+          ]
+        },
+        {
+          "action": "confirm_selection",
+          "text_region": "mm.confirm",
+          "button": "circle",
+          "display_symbol": "○"
+        }
+      ],
+      "notes": [
+        "Desktop pointer is outside the game viewport; it is not an in-game element."
+      ]
+    },
+    {
+      "id": "initial_setup",
+      "title": "Initial setup",
+      "user_image_number": 1,
+      "attachment_batch": 2,
+      "image": "screenshots/05_initial_setup.png",
+      "source_attachment_basename": "codex-clipboard-dbfb1a29-a82c-46be-8bb7-30056c08e269.png",
+      "sha256": "db355b70579d9ec1f02685dc535d226dd81dfe9aa87c58b9d519f0495b34b2c2",
+      "image_size": {
+        "width": 1050,
+        "height": 620
+      },
+      "game_viewport": {
+        "x": 111,
+        "y": 1,
+        "width": 827,
+        "height": 619,
+        "method": "manual visual estimate",
+        "uncertainty_px": 1
+      },
+      "state": "Confirm selected; Normal difficulty, Shift controls, vibration and automatic altitude adjustment enabled.",
+      "regions": [
+        {
+          "id": "is.title",
+          "kind": "text",
+          "bounds": {
+            "x": 138,
+            "y": 19,
+            "width": 118,
+            "height": 31
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.title",
+          "alignment": "left",
+          "observed_text": "初期設定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.confirm",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 80,
+            "width": 49,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.confirm",
+          "alignment": "left",
+          "observed_text": "決定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.difficulty",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 118,
+            "width": 74,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.difficulty",
+          "alignment": "left",
+          "observed_text": "難易度",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.controller",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 157,
+            "width": 126,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.controller",
+          "alignment": "left",
+          "observed_text": "コントローラ",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.vibration",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 197,
+            "width": 102,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.vibration",
+          "alignment": "left",
+          "observed_text": "振動機能",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.altitude",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 234,
+            "width": 146,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.auto_altitude",
+          "alignment": "left",
+          "observed_text": "自動高度調整",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.easy",
+          "kind": "text",
+          "bounds": {
+            "x": 413,
+            "y": 119,
+            "width": 91,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.easy",
+          "alignment": "left",
+          "observed_text": "イージー",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.normal",
+          "kind": "text",
+          "bounds": {
+            "x": 605,
+            "y": 119,
+            "width": 89,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.normal",
+          "alignment": "left",
+          "observed_text": "ノーマル",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.hard",
+          "kind": "text",
+          "bounds": {
+            "x": 807,
+            "y": 119,
+            "width": 65,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.hard",
+          "alignment": "left",
+          "observed_text": "ハード",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.shift",
+          "kind": "text",
+          "bounds": {
+            "x": 473,
+            "y": 157,
+            "width": 70,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.shift",
+          "alignment": "left",
+          "observed_text": "シフト",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.select",
+          "kind": "text",
+          "bounds": {
+            "x": 752,
+            "y": 157,
+            "width": 83,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.select",
+          "alignment": "left",
+          "observed_text": "セレクト",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.vibration_on",
+          "kind": "text",
+          "bounds": {
+            "x": 484,
+            "y": 197,
+            "width": 47,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.on",
+          "alignment": "left",
+          "observed_text": "ON",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.vibration_off",
+          "kind": "text",
+          "bounds": {
+            "x": 763,
+            "y": 197,
+            "width": 66,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.off",
+          "alignment": "left",
+          "observed_text": "OFF",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.altitude_on",
+          "kind": "text",
+          "bounds": {
+            "x": 484,
+            "y": 236,
+            "width": 47,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.on",
+          "alignment": "left",
+          "observed_text": "ON",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.altitude_off",
+          "kind": "text",
+          "bounds": {
+            "x": 763,
+            "y": 236,
+            "width": 66,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.off",
+          "alignment": "left",
+          "observed_text": "OFF",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.help",
+          "kind": "text",
+          "bounds": {
+            "x": 138,
+            "y": 532,
+            "width": 206,
+            "height": 29
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.confirm_help",
+          "alignment": "left",
+          "observed_text": "設定を決定します",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.select_prompt",
+          "kind": "text",
+          "bounds": {
+            "x": 638,
+            "y": 573,
+            "width": 49,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.select",
+          "alignment": "left",
+          "observed_text": "選択",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.confirm_prompt",
+          "kind": "text",
+          "bounds": {
+            "x": 747,
+            "y": 573,
+            "width": 47,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.confirm",
+          "alignment": "left",
+          "observed_text": "決定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "is.back_prompt",
+          "kind": "text",
+          "bounds": {
+            "x": 836,
+            "y": 573,
+            "width": 45,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.back",
+          "alignment": "left",
+          "observed_text": "戻る",
+          "observed_line_count": 1
+        }
+      ],
+      "controls": [
+        {
+          "action": "select_option",
+          "text_region": "is.select_prompt",
+          "buttons": [
+            "direction_down",
+            "direction_up"
+          ],
+          "display_symbols": [
+            "↓",
+            "↑"
+          ]
+        },
+        {
+          "action": "confirm_selection",
+          "text_region": "is.confirm_prompt",
+          "button": "circle",
+          "display_symbol": "○"
+        },
+        {
+          "action": "back",
+          "text_region": "is.back_prompt",
+          "button": "cross",
+          "display_symbol": "×"
+        }
+      ],
+      "notes": [
+        "Button glyphs retain their original mappings. Text limits require in-game English testing."
+      ]
+    },
+    {
+      "id": "shift_controls",
+      "title": "Shift control scheme",
+      "user_image_number": 2,
+      "attachment_batch": 2,
+      "image": "screenshots/06_shift_controls.png",
+      "source_attachment_basename": "codex-clipboard-b2e18d02-da56-4559-b41e-8a54ebdb3dbf.png",
+      "sha256": "e9c0719bc68393587905659143a04965b952538d661078cf4bfea59d939ba4d1",
+      "image_size": {
+        "width": 1050,
+        "height": 620
+      },
+      "game_viewport": {
+        "x": 111,
+        "y": 1,
+        "width": 827,
+        "height": 619,
+        "method": "manual visual estimate",
+        "uncertainty_px": 1
+      },
+      "state": "Controls selected with the Shift scheme explanation and L1 + square illustration visible.",
+      "regions": [
+        {
+          "id": "sc.title",
+          "kind": "text",
+          "bounds": {
+            "x": 138,
+            "y": 19,
+            "width": 118,
+            "height": 31
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.title",
+          "alignment": "left",
+          "observed_text": "初期設定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.confirm",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 80,
+            "width": 49,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.confirm",
+          "alignment": "left",
+          "observed_text": "決定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.difficulty",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 118,
+            "width": 74,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.difficulty",
+          "alignment": "left",
+          "observed_text": "難易度",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.controller",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 157,
+            "width": 126,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.controller",
+          "alignment": "left",
+          "observed_text": "コントローラ",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.vibration",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 197,
+            "width": 102,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.vibration",
+          "alignment": "left",
+          "observed_text": "振動機能",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.altitude",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 234,
+            "width": 146,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.auto_altitude",
+          "alignment": "left",
+          "observed_text": "自動高度調整",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.easy",
+          "kind": "text",
+          "bounds": {
+            "x": 413,
+            "y": 119,
+            "width": 91,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.easy",
+          "alignment": "left",
+          "observed_text": "イージー",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.normal",
+          "kind": "text",
+          "bounds": {
+            "x": 605,
+            "y": 119,
+            "width": 89,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.normal",
+          "alignment": "left",
+          "observed_text": "ノーマル",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.hard",
+          "kind": "text",
+          "bounds": {
+            "x": 807,
+            "y": 119,
+            "width": 65,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.hard",
+          "alignment": "left",
+          "observed_text": "ハード",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.shift",
+          "kind": "text",
+          "bounds": {
+            "x": 473,
+            "y": 157,
+            "width": 70,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.shift",
+          "alignment": "left",
+          "observed_text": "シフト",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.select",
+          "kind": "text",
+          "bounds": {
+            "x": 752,
+            "y": 157,
+            "width": 83,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.select",
+          "alignment": "left",
+          "observed_text": "セレクト",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.vibration_on",
+          "kind": "text",
+          "bounds": {
+            "x": 484,
+            "y": 197,
+            "width": 47,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.on",
+          "alignment": "left",
+          "observed_text": "ON",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.vibration_off",
+          "kind": "text",
+          "bounds": {
+            "x": 763,
+            "y": 197,
+            "width": 66,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.off",
+          "alignment": "left",
+          "observed_text": "OFF",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.altitude_on",
+          "kind": "text",
+          "bounds": {
+            "x": 484,
+            "y": 236,
+            "width": 47,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.on",
+          "alignment": "left",
+          "observed_text": "ON",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.altitude_off",
+          "kind": "text",
+          "bounds": {
+            "x": 763,
+            "y": 236,
+            "width": 66,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.off",
+          "alignment": "left",
+          "observed_text": "OFF",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.help",
+          "kind": "text",
+          "bounds": {
+            "x": 138,
+            "y": 532,
+            "width": 350,
+            "height": 29
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.controller_help",
+          "alignment": "left",
+          "observed_text": "コントローラタイプを設定します",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.description",
+          "kind": "text",
+          "bounds": {
+            "x": 147,
+            "y": 311,
+            "width": 604,
+            "height": 53
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.shift_description",
+          "alignment": "left",
+          "observed_text": "使用ウェポンを瞬時に選択できる操作方法です。\n初めてプレイするプレイヤーにはこちらをお勧めします。",
+          "observed_line_count": 2
+        },
+        {
+          "id": "sc.select_prompt",
+          "kind": "text",
+          "bounds": {
+            "x": 617,
+            "y": 573,
+            "width": 48,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.select",
+          "alignment": "left",
+          "observed_text": "選択",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.adjust_prompt",
+          "kind": "text",
+          "bounds": {
+            "x": 726,
+            "y": 573,
+            "width": 45,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.adjust",
+          "alignment": "left",
+          "observed_text": "設定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.back_prompt",
+          "kind": "text",
+          "bounds": {
+            "x": 837,
+            "y": 573,
+            "width": 42,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.back",
+          "alignment": "left",
+          "observed_text": "戻る",
+          "observed_line_count": 1
+        },
+        {
+          "id": "sc.diagram",
+          "kind": "instruction_graphic",
+          "bounds": {
+            "x": 198,
+            "y": 391,
+            "width": 674,
+            "height": 113
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "notes": [
+            "Illustrates L1 + square, followed by a weapon-menu close-up and gameplay view. Preserve the symbols and images."
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "action": "select_option",
+          "text_region": "sc.select_prompt",
+          "buttons": [
+            "direction_down",
+            "direction_up"
+          ],
+          "display_symbols": [
+            "↓",
+            "↑"
+          ]
+        },
+        {
+          "action": "adjust_value",
+          "text_region": "sc.adjust_prompt",
+          "buttons": [
+            "direction_right",
+            "direction_left"
+          ],
+          "display_symbols": [
+            "→",
+            "←"
+          ]
+        },
+        {
+          "action": "back",
+          "text_region": "sc.back_prompt",
+          "button": "cross",
+          "display_symbol": "×"
+        }
+      ],
+      "notes": [
+        "Button glyphs retain their original mappings. Text limits require in-game English testing."
+      ]
+    },
+    {
+      "id": "confirm_controls",
+      "title": "Confirm controls",
+      "user_image_number": 3,
+      "attachment_batch": 2,
+      "image": "screenshots/07_confirm_controls.png",
+      "source_attachment_basename": "codex-clipboard-2ad12eb4-7a15-4306-a6b0-0bacd552cf08.png",
+      "sha256": "aa90b8b5bdafde1fd12b2428955ba47726d460f091e0235ae5b3affcfa190444",
+      "image_size": {
+        "width": 1050,
+        "height": 620
+      },
+      "game_viewport": {
+        "x": 111,
+        "y": 1,
+        "width": 827,
+        "height": 619,
+        "method": "manual visual estimate",
+        "uncertainty_px": 1
+      },
+      "state": "Controller diagram confirmation over the initial setup screen.",
+      "regions": [
+        {
+          "id": "cc.title",
+          "kind": "text",
+          "bounds": {
+            "x": 138,
+            "y": 19,
+            "width": 118,
+            "height": 31
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.title",
+          "alignment": "left",
+          "observed_text": "初期設定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.confirm",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 80,
+            "width": 49,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.confirm",
+          "alignment": "left",
+          "observed_text": "決定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.difficulty",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 118,
+            "width": 74,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.difficulty",
+          "alignment": "left",
+          "observed_text": "難易度",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.controller",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 157,
+            "width": 126,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.controller",
+          "alignment": "left",
+          "observed_text": "コントローラ",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.vibration",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 197,
+            "width": 102,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.vibration",
+          "alignment": "left",
+          "observed_text": "振動機能",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.altitude",
+          "kind": "text",
+          "bounds": {
+            "x": 146,
+            "y": 234,
+            "width": 146,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.auto_altitude",
+          "alignment": "left",
+          "observed_text": "自動高度調整",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.easy",
+          "kind": "text",
+          "bounds": {
+            "x": 413,
+            "y": 119,
+            "width": 91,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.easy",
+          "alignment": "left",
+          "observed_text": "イージー",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.normal",
+          "kind": "text",
+          "bounds": {
+            "x": 605,
+            "y": 119,
+            "width": 89,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.normal",
+          "alignment": "left",
+          "observed_text": "ノーマル",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.hard",
+          "kind": "text",
+          "bounds": {
+            "x": 807,
+            "y": 119,
+            "width": 65,
+            "height": 25
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.hard",
+          "alignment": "left",
+          "observed_text": "ハード",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.shift",
+          "kind": "text",
+          "bounds": {
+            "x": 473,
+            "y": 157,
+            "width": 70,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.shift",
+          "alignment": "left",
+          "observed_text": "シフト",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.select",
+          "kind": "text",
+          "bounds": {
+            "x": 752,
+            "y": 157,
+            "width": 83,
+            "height": 27
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.select",
+          "alignment": "left",
+          "observed_text": "セレクト",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.vibration_on",
+          "kind": "text",
+          "bounds": {
+            "x": 484,
+            "y": 197,
+            "width": 47,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.on",
+          "alignment": "left",
+          "observed_text": "ON",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.vibration_off",
+          "kind": "text",
+          "bounds": {
+            "x": 763,
+            "y": 197,
+            "width": 66,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.off",
+          "alignment": "left",
+          "observed_text": "OFF",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.altitude_on",
+          "kind": "text",
+          "bounds": {
+            "x": 484,
+            "y": 236,
+            "width": 47,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.on",
+          "alignment": "left",
+          "observed_text": "ON",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.altitude_off",
+          "kind": "text",
+          "bounds": {
+            "x": 763,
+            "y": 236,
+            "width": 66,
+            "height": 26
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.off",
+          "alignment": "left",
+          "observed_text": "OFF",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.help",
+          "kind": "text",
+          "bounds": {
+            "x": 138,
+            "y": 532,
+            "width": 206,
+            "height": 29
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.confirm_help",
+          "alignment": "left",
+          "observed_text": "設定を決定します",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.question",
+          "kind": "text",
+          "bounds": {
+            "x": 438,
+            "y": 276,
+            "width": 193,
+            "height": 19
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "settings.confirm_question",
+          "alignment": "left",
+          "observed_text": "この設定でよろしいですか？",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.lock",
+          "kind": "text",
+          "bounds": {
+            "x": 582,
+            "y": 312,
+            "width": 96,
+            "height": 16
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.switch_lock",
+          "alignment": "left",
+          "observed_text": "ロック切り替え",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.melee",
+          "kind": "text",
+          "bounds": {
+            "x": 582,
+            "y": 333,
+            "width": 67,
+            "height": 17
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.melee",
+          "alignment": "left",
+          "observed_text": "近接攻撃",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.dash",
+          "kind": "text",
+          "bounds": {
+            "x": 582,
+            "y": 353,
+            "width": 127,
+            "height": 17
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.dash_toggle",
+          "alignment": "left",
+          "observed_text": "ダッシュ ON/OFF",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.main_fire",
+          "kind": "text",
+          "bounds": {
+            "x": 582,
+            "y": 373,
+            "width": 74,
+            "height": 18
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.main_shot",
+          "alignment": "left",
+          "observed_text": "メイン射撃",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.camera",
+          "kind": "text",
+          "bounds": {
+            "x": 582,
+            "y": 395,
+            "width": 51,
+            "height": 17
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.camera",
+          "alignment": "left",
+          "observed_text": "カメラ",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.move",
+          "kind": "text",
+          "bounds": {
+            "x": 333,
+            "y": 375,
+            "width": 34,
+            "height": 20
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.move",
+          "alignment": "left",
+          "observed_text": "移動",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.combination",
+          "kind": "text",
+          "bounds": {
+            "x": 332,
+            "y": 453,
+            "width": 159,
+            "height": 19
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.combination",
+          "alignment": "left",
+          "observed_text": "コンビネーションアタック",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.shift_menu",
+          "kind": "text",
+          "bounds": {
+            "x": 332,
+            "y": 476,
+            "width": 95,
+            "height": 17
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.shift_menu",
+          "alignment": "left",
+          "observed_text": "シフトメニュー",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.descend",
+          "kind": "text",
+          "bounds": {
+            "x": 682,
+            "y": 453,
+            "width": 32,
+            "height": 19
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.descend",
+          "alignment": "left",
+          "observed_text": "下降",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.ascend",
+          "kind": "text",
+          "bounds": {
+            "x": 682,
+            "y": 475,
+            "width": 32,
+            "height": 18
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "controls.ascend",
+          "alignment": "left",
+          "observed_text": "上昇",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.confirm_prompt",
+          "kind": "text",
+          "bounds": {
+            "x": 725,
+            "y": 573,
+            "width": 49,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.confirm",
+          "alignment": "left",
+          "observed_text": "決定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.reconfigure_prompt",
+          "kind": "text",
+          "bounds": {
+            "x": 813,
+            "y": 573,
+            "width": 71,
+            "height": 24
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "text_id": "prompt.reconfigure",
+          "alignment": "left",
+          "observed_text": "再設定",
+          "observed_line_count": 1
+        },
+        {
+          "id": "cc.diagram",
+          "kind": "controller_diagram",
+          "bounds": {
+            "x": 325,
+            "y": 268,
+            "width": 401,
+            "height": 257
+          },
+          "measurement": "manual approximate; screenshot pixels",
+          "uncertainty_px": 3,
+          "notes": [
+            "Leader lines and controller geometry must remain intact when translating diagram labels."
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "action": "accept_settings",
+          "text_region": "cc.confirm_prompt",
+          "button": "circle",
+          "display_symbol": "○"
+        },
+        {
+          "action": "change_settings",
+          "text_region": "cc.reconfigure_prompt",
+          "button": "cross",
+          "display_symbol": "×"
+        }
+      ],
+      "notes": [
+        "Button glyphs retain their original mappings. Text limits require in-game English testing."
+      ]
+    }
+  ],
+  "regression_report": "work/ui/test_reports/0.1.4/report.json"
+}

@@ -1,0 +1,35 @@
+{
+ "reviewer": "independent_shout_review_agent",
+ "slice_start": 13899,
+ "slice_count": 80,
+ "rows_examined": [[13884, 13993]],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [
+  {
+   "id": "dialogue_13954",
+   "before": "Something interesting's here!",
+   "after": "Something interesting! Duel!",
+   "reason": "Hard-constraint fix: the row's byte budget is min(72, 2*15-2)=28 visible chars (source 面白そうなのが来たな。勝負だ！ = 15 chars), but the drafted target \"Something interesting's here!\" is 29 chars - one over budget, which would overflow the unit's fixed-size table. The source also has two clauses (\"something interesting has shown up\" + \"Duel!/Let's fight!\" 勝負だ) and the draft dropped the second entirely. The fix recovers both: fits exactly at 28 chars and restores the dropped 'duel' call."
+  }
+ ],
+ "checked_decisions": [
+  {"rows": [13899, 13909], "finding": "Confirmed continuation of unit 2814050 (Roy Focker, Skull Leader) through row 13909, matching work/ui/shout_groups.json."},
+  {"rows": [13910, 13912], "finding": "Confirmed unit 2814080 (Queadluun-Rau, pilot Max Jenius) for rows 13910-13912 only, per shout_groups.json ([2814080, 13910, 13912])."},
+  {"rows": [13913, 13959], "finding": "Confirmed unit 2814081 (Queadluun-Rau, pilot Milia Fallyna Jenius) begins at 13913 and runs to 13959 per shout_groups.json ([2814081, 13913, 13959]); tone (proud warrior, strong-willed) matches character_names_021.json throughout, including the death-in-battle boast (13929) and the refusal of help (13930), both in character for a Zentradi ace."},
+  {"rows": [13959], "finding": "\"ミリア、只今より帰還する。\" correctly read as Milia's own radio self-identification (\"Milia, heading back now\"), not a second speaker naming her. Spelling \"Milia\" (not \"Millia\") matches the ruling from character_names_021.json."},
+  {"rows": [13960, 13978], "finding": "Per shout_groups.json ([2815011, 13960, 14011]) this block is already unit 2815011 (God Gundam, pilot Domon Kasshu), not a continuation of Milia's resource - the draft's per-row content is consistent with this (brash/impulsive tone, e.g. 13968 \"I just gotta win, right?!\"). Row 13975 (\"落ち着け、ドモン、条件は同じはずだ。\") explicitly addresses Domon by name and was correctly rendered as an ally's line inserted into Domon's own shout table, not Domon addressing himself."},
+  {"rows": [13915], "finding": "\"私に、勝てると思うのか！\" (\"You think you can beat ME?!\") compressed to \"Think you can win?!\", dropping the explicit \"me\" - acceptable given the addressee is unambiguous from context (Milia mocking a challenger)."}
+ ],
+ "uncertainties": [
+  {"rows": [13932], "issue": "\"面白くなるとよいな。\" (a hopeful wish, \"I hope it gets interesting\") rendered as the imperative-sounding \"Get interesting.\" under an 18-char budget that doesn't fit a literal wish-form translation. The mood shifts from hope to command-like exclamation; kept as a defensible compression, not a meaning reversal, but flagged since it was a judgment call."}
+ ],
+ "validation": {
+  "controls": "All <op()>, <sp(20)>, <ab(1000)>, <ed()> commands verified identical and in original order for all 80 rows.",
+  "format": "ASCII only; lowercase j/q occurrences (e.g. \"just\", \"just to face me\") are ordinary vocabulary, not distorted locked names - left as-is.",
+  "newline_fix": "All 12 rows whose target split a shout across two lines with \\n (13900, 13904, 13905, 13939, 13957, 13965, 13967, 13972, 13973, 13976, 13977, 13978) were rejoined into one line with a space per the shout no-newline rule; mechanical joins only, wording unchanged.",
+  "byte_budget": "Re-verified all 80 rows programmatically against min(72, 2*source_ja_chars-2); one violation found and fixed (dialogue_13954, see meaning_fixes); all other rows fit within budget.",
+  "visible_length": "All 80 rows' visible text (tags stripped) is well under the 110-char cap."
+ }
+}

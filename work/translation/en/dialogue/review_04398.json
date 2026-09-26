@@ -1,0 +1,65 @@
+{
+  "reviewer": "independent_meaning_review_04398_agent",
+  "slice_start": 4398,
+  "slice_count": 80,
+  "rows_examined": [{"start": 4383, "end": 4492}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_04435",
+      "before": "<op()><sp(20)>The Siberian Railway... they're the dome police.<ab(500)><ed()>",
+      "after": "<op()><sp(20)>The Siberian Railway... they're the Domepolis police.<ab(500)><ed()>",
+      "reason": "The source word romanized as 'Domu Porisu' is a locked corpus proper noun, already translated 'Domepolis' with a King Gainer Wikipedia source in work/translation/en/encyclopedia_021_b.json and encyclopedia_022.json. The draft read it as a plain adjective ('dome') describing a generic 'police' force instead of using the established name; restored it."
+    },
+    {
+      "id": "dialogue_04441",
+      "before": "<sp(20)>We don't know its size or numbers,\nbut please be careful, everyone!<ab(800)><ed()>",
+      "after": "<sp(20)>We don't know its composition or numbers,\nbut please be careful, everyone!<ab(800)><ed()>",
+      "reason": "The source word romanized 'kousei' means composition/makeup (what units the force is made of), not size. Translating it as 'size' duplicated the following word for 'numbers' and lost the distinct piece of information the source gives."
+    },
+    {
+      "id": "dialogue_04457",
+      "before": "<op()><sp(20)>What is that, an invader?!<ab(300)><ed()>",
+      "after": "<op()><sp(20)>What is that, an Invader?!<ab(300)><ed()>",
+      "reason": "The source word 'Invader' (katakana loanword) is a proper-noun faction from this game's own Getter Robo Armageddon lore: encyclopedia_022.json translates the linked book(49) term as 'Invaders', tied to the 'Moon Invader War' and Dr. Saotome's Shin Dragon -- the same Shin Dragon that reactivates at the end of this mission (row 4530). Lowercasing it turned a named-faction jab into a generic insult; capitalized to match the established term."
+    },
+    {
+      "id": "dialogue_04476",
+      "before": "<op()><sp(20)>Typical man, playing dumb when it's convenient!<ab(500)><ed()>",
+      "after": "<op()><sp(20)>Typical man, playing dumb when it's inconvenient!<ab(500)><ed()>",
+      "reason": "The source phrase means 'when it becomes inconvenient (for him)', not 'convenient'. The draft inverted the condition under which the man feigns ignorance -- a reversed-meaning error."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [4400, 4401, 4402, 4403], "finding": "Gekko ship-name usage confirmed consistent with the locked glossary spelling; no meaning issue."},
+    {"rows": [4420, 4421, 4422, 4423, 4424], "finding": "Siberian Railway Overman pursuer's dialogue confirmed coherent; speaker kept nameless/gender-neutral since the source never names him in this row range."},
+    {"rows": [4425, 4426, 4427, 4428, 4429, 4430], "finding": "Turn-taking re-verified via the <ab()>/<ed()> continuation markers: 4425-4426 is the pursuer blaming Gain for the Exodus (one box); 4427 is Gain retorting he can't afford to be caught (new box, separate speaker); 4428 is the pursuer's threat naming Gain's 'Black Southern Cross' nickname; 4429-4430 is the pursuer retreating after failing twice and vowing to catch them. No reversal or misattribution found."},
+    {"rows": [4448, 4468], "finding": "Row 4448's idiom for being fired/dismissed is correctly rendered as 'you'll be fired', kept distinct from the literal neck-breaking threat in row 4468 ('I'll snap that neck of yours'); the draft's own note comparing the two is confirmed correct."},
+    {"rows": [4453, 4454], "finding": "One continuous display box: Boone argues the 'womanizer' label is simplistic, then gives his name, 'Asuham Boone!' -- confirmed as self-introduction, not a third party naming him."},
+    {"rows": [4459, 4460, 4461], "finding": "The unidentified enemy at 4455-4459 is kept as 'its'/gender-neutral (pilot not yet revealed); by 4460-4461 it is confirmed to be Asuham Boone's Power Golem, whose Overskill (one word, per ruling) is superhuman strength. No premature gendering or invented identity found."},
+    {"rows": [4444], "finding": "Source row ends with the malformed, unpaired <ed(500)> (no matching <ab()>); kept exactly as in the source per the ruling to preserve malformed commands rather than repair them."},
+    {"rows": [4470, 4472, 4474], "finding": "Karin is referred to only as 'Karin' / 'my sister' in this slice's actual dialogue text; the fuller identification 'Karin Boone, Asuham's sister' is glossary-level research, not text present in these rows, so no dialogue text needed to change to match the accepted full name."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_04422", "dialogue_04431"],
+      "issue": "The Siberian Railway Overman pursuer in 4420-4431 is never named in the source text itself. The role fits Yassaba Jin (Siberian Railway squad commander, character_names_021.json) but this cannot be confirmed from this row range alone; kept gender-neutral ('that guy', 'they') as the draft already did. Not resolved by this review."
+    },
+    {
+      "id": "dialogue_04435",
+      "issue": "The 'Domepolis' fix is based on cross-referencing already-translated encyclopedia files (encyclopedia_021_b.json, encyclopedia_022.json) rather than the glossary files named in the task brief (terms_028.json, unit_names_014_a/b.json, character_names_021.json), where 'Domepolis' does not currently appear. Recommend adding 'Domepolis' to terms_028.json centrally so future dialogue slices use it consistently."
+    },
+    {
+      "id": "dialogue_04521 (neighbouring batch_04478)",
+      "issue": "The task's ruling accepts 'Kids Munt' (King Gainer Wikipedia spelling), which batch_04478 already uses. However, work/translation/en/encyclopedia_022.json currently translates the same name as 'Kizz Munt' in two places (the Siberian Railway description). This is an existing corpus inconsistency outside this slice's scope (a different resource table); flagged for central reconciliation rather than edited here."
+    }
+  ],
+  "validation": {
+    "controls": "All <...> commands re-checked against the Japanese source in exact order for all 80 rows, including the malformed unpaired <ed(500)> in row 4444 and the rows that intentionally omit <op()>/<ed()> because they continue an adjacent row's display box (4425-4426, 4429-4430, 4440-4441, 4446-4447, 4451-4454, 4453-4454, 4466-4467, 4469-4470, 4477-4478). No command was added, removed, or reordered by the 4 meaning fixes.",
+    "format": "Newline counts unchanged for every row, including the 4 rows edited.",
+    "fit": "All 80 rows remain ASCII, single- or double-line combat/dialogue alerts well under the 110-character visible-text budget; the longest edited line ('The Siberian Railway... they're the Domepolis police.') is 54 visible characters.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

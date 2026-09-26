@@ -1,0 +1,113 @@
+{
+ "resource_id": 4003731,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Invaders",
+   "notes": "Enemy faction name; locked (book(49), matches reviewed scene 4003070).",
+   "source_sha256": "bad937080a191d3c74fd1929393b0ccae481947d4ec3beb2139063e7a3b6954b"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(19050,1)><speed(2)><move(1,7,13)>I'll<marker(1,7,13,0)> explain the operation.<move(2,7,2)>",
+   "notes": "",
+   "source_sha256": "e240ae983606933d22436842f3dfd40b9464fc6e6dc88793db2fa7aafbe924b2"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(19050,1)><speed(2)>This time's goal is one thing alone<move(1,7,7)>: destroy the evolved <book(48)>Shin Dragon<endbook()><marker(27,7,7,0)>.<move(2,7,7)><picture(112,2,7,0)><refer(2,7,7,7)>",
+   "notes": "",
+   "source_sha256": "6ac5b1c9903ad531ef2b1a56ecf17bf61fbdfaa15b89430d2639f199fe4de080"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(19050,1)><speed(2)>By the power of <book(51)>Getter Rays<endbook()>, it has evolved into something with power like nothing before.",
+   "notes": "",
+   "source_sha256": "0187edb6eac1f381df07e534a5777bcbec1f85b3bc826ca8628e30f052c2606e"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(19050,1)><speed(2)>Expect it to unleash <color(6)>high-firepower attacks<ce()> even from very far off.<danger(1)> It's extremely dangerous, so watch yourselves.",
+   "notes": "",
+   "source_sha256": "e4bdde62ccf14512fd2a953fb71d5e7f025eeeeade1ddfa0705f2b40d30f9e86"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(19050,1)><speed(2)>Drawn to the <book(51)>Getter Rays<endbook()>, many <book(49)>Invaders<endbook()><marker(22,3,3,0)> have<marker(22,6,4,0)> also<marker(22,13,5,0)> been<marker(22,10,6,0)> confirmed<marker(22,1,8,0)> nearby<marker(22,4,8,0)> as<marker(22,6,11,0)> well.<picture(113,30,7,0)><refer(30,7,13,5)>",
+   "notes": "",
+   "source_sha256": "803ab721a0427ce1eeb83aa1d7dfecdd63a1203a1c1a7db89cb2534a6fecb65e"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(19050,1)><speed(2)>By defeating these <book(49)>Invaders<endbook()>, we can cut down the <book(51)>Getter Rays<endbook()> flooding the operation area.",
+   "notes": "",
+   "source_sha256": "5e50d15d3c6c20a164847446ecd7b37e79f2b6d221bce1724e73e3f342c33635"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(19050,1)><speed(2)>That should also leave the <book(48)>Shin Dragon<endbook()> <color(6)>weakened<ce()>.",
+   "notes": "Reordered so 'Shin Dragon' precedes 'weakened', keeping book(48) before color(6) as in source.",
+   "source_sha256": "641ac889b9c9e8ad5f6ba7f9c102996843b711e5a888290d7321f76c837bd1a7"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(19050,1)><speed(2)>First, sweep out the <book(49)>Invaders<endbook()>,<marker(5,1,13,0)> then<marker(5,4,11,0)> watch<marker(5,13,13,0)> the <book(48)>Shin Dragon<endbook()> for a <color(6)>chance to destroy it<ce()>.",
+   "notes": "",
+   "source_sha256": "e14286585d1527beb376ee38d6dff65226c7b5b085fcb822fe079343ab8ca009"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<delpic(2,7,1)><enemylist()><operator(19050,1)><speed(2)>I'm counting on you... everyone.",
+   "notes": "",
+   "source_sha256": "d6342487b51b23c6d1d8492edf6acb4d3d9a4107c52d0326ce8fa7f09adba442"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(12031,1)><speed(2)>This time, the <color(4)>mothership<ce()> will stay off the front line and provide rear support. Feel free to fight all out.",
+   "notes": "Same line as 4003721 slot 27.",
+   "source_sha256": "4f31cbebe839870599d9ce8cb9cb29414b1806fe0c4fed5d6de35b9cefeb3ebb"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Invaders slot 0 header matches glossary.json (book(49)) and reviewed scene 4003070.",
+   "Speakers: 19050 Hayato Jin (slots 19-27), 12031 Ruri Hoshino (slot 28) - speaker_lookup.py confirms.",
+   "Shin Dragon (book(48)), Getter Rays (book(51)) match encyclopedia_022.json/mission_terms_019.json; 'mothership' (slot 28) matches established lowercase usage and is the identical line to reviewed-batch sibling scene 4003721 slot 27.",
+   "Slot 25 book(48)/color(6) tag order kept exactly as source (Shin Dragon before 'weakened') per the row's own note - not a meaning issue.",
+   "No mistranslation, reversed meaning, invented subject/added honorific, or dropped sentence ending found; command tag order and count match the source exactly in every row (verified programmatically)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

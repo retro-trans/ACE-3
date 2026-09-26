@@ -1,0 +1,35 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 8856,
+  "slice_count": 36,
+  "rows_examined": [{"start": 8841, "end": 8906}],
+  "rows_examined_count": 66,
+  "rows_in_slice": 36,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_08881",
+      "before": "<on()><sp(20)>Because of these two deaths and rampages,\nmysteries remain in the <book(78)>Ageha Plan<endbook()>,\ndown to this day.",
+      "after": "<on()><sp(20)>Because of that death and that rampage,\nmysteries remain in the <book(78)>Ageha Plan<endbook()>,\ndown to this day.",
+      "reason": "Source is 'kono ryounin no shi to bousou' - one death (Adroc's, row 8879, Summer of Love) and one rampage (Saotome's Shin Dragon / Deuteron Missile incident, row 8880), attributed jointly to 'these two [people]', not two deaths and multiple rampages. The draft's plural 'these two deaths and rampages' implies Saotome also died, which contradicts row 8876 (Saotome immersed himself in further research afterward, i.e. survived). Singular 'that death and that rampage' keeps the one-each reading without changing tag order or newline count."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [8856, 8891], "finding": "Entire block has no <ab()>/<ed()> timing commands anywhere in the source, unlike surrounding combat rows; verified this is a genuine source property (not a draft omission) and that the scene's resource id changes from 6260 to 6261 immediately after row 8891. Preserved as-is; no commands added or removed, consistent with the constraint to keep commands identical and in source order."},
+    {"rows": [8862, 8863, 8870, 8873, 8883, 8885, 8887], "finding": "English clause order rearranged from a literal reading so each row's <book()>/<color()> tag order matches the source's left-to-right order exactly (e.g. 8862: Dewey, New Federation, Coralians). Spot-checked each against the source; meaning unchanged by the reordering."},
+    {"id": "dialogue_08859", "finding": "'To answer for my crime as his brother, Dewey was imprisoned' - verified against source ('jittei de aru ore no tsumi no sekinin o torasare'): the speaker (Holland) describes himself as Dewey's actual younger brother, so 'his brother' correctly refers back to Dewey (Holland is younger, per franchise canon and row 8858's admission of deserting with Eureka). Not a pronoun error; left as drafted."},
+    {"id": "dialogue_08863", "finding": "'...hides something that Bloodman shouldn't know about' for 'shiranai hazu da' (Bloodman presumably/surely doesn't know) - the English is ambiguous between an epistemic and a deontic reading, but context (Bloodman being kept in the dark) resolves it the same way either way; not a meaning error, left as drafted."},
+    {"id": "dialogue_08873", "finding": "'Michiru' (no surname in the source line, as drafted) checked against the batch's glossary proposal (batch_08856_glossary_proposals.json): Michiru Saotome, Dr. Saotome's late daughter, Getter Robo Armageddon, sourced to the Getter Robo Wiki. This is a different franchise character from Eureka Seven's cast (the exposition block crosses over Getter Robo terms - Getter Rays, Shin Dragon - with Eureka Seven's Ageha Plan/Scub Coral material), consistent with the game's multi-series roster seen in terms_028.json/character_names_021.json. 'Michiru' accepted per orchestrator ruling."}
+  ],
+  "uncertainties": [
+    {"rows": [8856, 8857, 8858, 8859, 8860, 8861, 8862, 8863, 8864, 8865, 8866, 8867, 8868, 8869, 8870, 8871, 8872, 8873, 8874, 8875, 8876, 8877, 8878, 8879, 8880, 8881, 8882, 8883, 8884, 8885, 8886, 8887, 8888, 8889, 8890, 8891], "issue": "Ruled: the absent <ab()>/<ed()> pattern across this whole block is a genuine source property confirmed by the resource-id boundary at 8891/8892, not a draft error; correctly preserved rather than 'fixed'. Per the task brief, this timing-free block is still inserted as-is."},
+    {"id": "dialogue_08857", "issue": "Ruled: 'once leaders of Predgio Towers' compression for the locked 'the (former) United Federation of Predgio Towers' (encyclopedia_021_a.json) is acceptable - the 'former' sense survives via 'once' and the row stays under the 110-char visible budget; not a meaning loss."},
+    {"id": "dialogue_08873", "issue": "Ruled: Michiru research and rendering (given name only, no surname, matching the source row) accepted. See checked_decisions."}
+  ],
+  "validation": {
+    "commands": "All 36 rows' angle-bracket commands re-checked against tools/dialogue_corpus.py output for this slice (8856-8891); identical and in source order, including the absent <ab()>/<ed()> pattern.",
+    "format": "Newline count per row matches the source exactly for all 36 rows.",
+    "fit": "Visible text (tags stripped) checked <= 110 characters for every row, including the compressed rows (8857, 8872, 8881).",
+    "ascii": "All rows ASCII-only; no stray non-ASCII characters found."
+  }
+}

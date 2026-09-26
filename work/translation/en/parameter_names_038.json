@@ -1,0 +1,2024 @@
+{
+  "version": "0.1.38",
+  "category": "model_parameter_names",
+  "source_file": "work/ui/remaining_labels_038/model_parameter_names.json",
+  "review": {
+    "rows_examined": 177,
+    "rows_in_slice": 177,
+    "complete": true,
+    "uncertain_rows": [
+      5,
+      23,
+      59,
+      61,
+      62,
+      63,
+      67,
+      69,
+      70,
+      71,
+      73,
+      74,
+      75,
+      80,
+      86,
+      128,
+      129,
+      132,
+      133,
+      134,
+      135,
+      137,
+      138,
+      139,
+      141,
+      142,
+      143,
+      145,
+      147,
+      148,
+      149,
+      158,
+      160,
+      168,
+      172,
+      174,
+      175,
+      176
+    ],
+    "policy": "Canonical FNM identity wins over stale PRM development labels; preserve legible state qualifiers. Missing qualifiers are not invented. BR and GW/FI are explicit mode abbreviations.",
+    "font_iso": "work/output/ACE3-English-0.1.37.iso",
+    "font_resource_id": 2500,
+    "font_bundles": [
+      1200000,
+      1200001,
+      1200002,
+      1200003,
+      1200004,
+      1200005,
+      1200006,
+      1200007,
+      1200011,
+      4002050,
+      4002051,
+      4002052,
+      4002053,
+      4002054,
+      4002057
+    ],
+    "max_cp932_bytes": 31,
+    "max_width": 355
+  },
+  "changelog": [
+    {
+      "version": "0.1.38",
+      "change": "Translate and review all 177 model PRM name slots, retaining known forms, moods and transform modes; record truncated-source and canonical-name discrepancies."
+    }
+  ],
+  "rows": [
+    {
+      "resource_id": 2801011,
+      "chunk_offset": 746832,
+      "source": "ガンアーク\n（マリナ機）",
+      "en": "Gun Ark (Marina)",
+      "full_en": "Gun Ark (Marina)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 209
+    },
+    {
+      "resource_id": 2801012,
+      "chunk_offset": 735328,
+      "source": "ガンアーク\n（ベルクト機）",
+      "en": "Blood Ark (Berkt)",
+      "full_en": "Blood Ark (Berkt)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "PRM still calls this Gun Ark (Berkt); canonical FNM roster identity Blood Ark takes precedence. Pilot qualifier retained."
+      ],
+      "width": 210
+    },
+    {
+      "resource_id": 2801040,
+      "chunk_offset": 759072,
+      "source": "イクスブラウ",
+      "en": "Ixbrau",
+      "full_en": "Ixbrau",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 76
+    },
+    {
+      "resource_id": 2801041,
+      "chunk_offset": 784960,
+      "source": "イクスブラウ\nform-B",
+      "en": "Ixbrau form-B",
+      "full_en": "Ixbrau form-B",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 163
+    },
+    {
+      "resource_id": 2801042,
+      "chunk_offset": 842688,
+      "source": "イクスブラウ\nform-G",
+      "en": "Ixbrau form-G",
+      "full_en": "Ixbrau form-G",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 164
+    },
+    {
+      "resource_id": 2801042,
+      "chunk_offset": 844864,
+      "source": "イクスブラウ\nform-G\n（",
+      "en": "Ixbrau form-G",
+      "full_en": "Ixbrau form-G",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source ends at an opening parenthesis. The missing qualifier cannot be identified; no variant invented."
+      ],
+      "width": 164
+    },
+    {
+      "resource_id": 2801043,
+      "chunk_offset": 771376,
+      "source": "イクスブラウ\nform-T",
+      "en": "Ixbrau form-T",
+      "full_en": "Ixbrau form-T",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 164
+    },
+    {
+      "resource_id": 2801044,
+      "chunk_offset": 793120,
+      "source": "イクスブラウ\nform-H",
+      "en": "Ixbrau form-H",
+      "full_en": "Ixbrau form-H",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 165
+    },
+    {
+      "resource_id": 2801050,
+      "chunk_offset": 553904,
+      "source": "ブラストアーク\n（第一形態）",
+      "en": "Grave Ark (Form 1)",
+      "full_en": "Grave Ark (Form 1)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source development name Blast Ark replaced by canonical Grave Ark; first-form qualifier retained."
+      ],
+      "width": 227
+    },
+    {
+      "resource_id": 2801051,
+      "chunk_offset": 533648,
+      "source": "ブラストアーク\n（第二形態）",
+      "en": "Grave Ark Phantom (Form 2)",
+      "full_en": "Grave Ark Phantom (Form 2)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source development name Blast Ark replaced by canonical Grave Ark Phantom; second-form qualifier retained."
+      ],
+      "width": 336
+    },
+    {
+      "resource_id": 2805010,
+      "chunk_offset": 725968,
+      "source": "νガンダム",
+      "en": "nu Gundam",
+      "full_en": "nu Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 132
+    },
+    {
+      "resource_id": 2805011,
+      "chunk_offset": 730208,
+      "source": "νガンダム\n（HWS）",
+      "en": "nu Gundam (HWS)",
+      "full_en": "nu Gundam (HWS)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 214
+    },
+    {
+      "resource_id": 2805020,
+      "chunk_offset": 815472,
+      "source": "Re-GZ",
+      "en": "Re-GZ",
+      "full_en": "Re-GZ",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 66
+    },
+    {
+      "resource_id": 2805030,
+      "chunk_offset": 654848,
+      "source": "サザビー",
+      "en": "Sazabi",
+      "full_en": "Sazabi",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 75
+    },
+    {
+      "resource_id": 2805040,
+      "chunk_offset": 403840,
+      "source": "α-アジール",
+      "en": "Alpha Azieru",
+      "full_en": "Alpha Azieru",
+      "status": "meaning_reviewed",
+      "notes": [
+        "No FNM name supplied; existing map_names_036 glossary identity."
+      ],
+      "width": 155
+    },
+    {
+      "resource_id": 2805050,
+      "chunk_offset": 667904,
+      "source": "ヤクト・ドーガ\n（ギュネイ）",
+      "en": "Jagd Doga (Gyunei)",
+      "full_en": "Jagd Doga (Gyunei)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 231
+    },
+    {
+      "resource_id": 2805051,
+      "chunk_offset": 681600,
+      "source": "ヤクト・ドーガ\n（クエス）",
+      "en": "Jagd Doga (Quess)",
+      "full_en": "Jagd Doga (Quess)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 213
+    },
+    {
+      "resource_id": 2806012,
+      "chunk_offset": 801248,
+      "source": "ウイングガンダム\nゼロカスタム",
+      "en": "Wing Gundam Zero Custom",
+      "full_en": "Wing Gundam Zero Custom",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Custom qualifier is explicit in PRM and retained alongside canonical base identity."
+      ],
+      "width": 311
+    },
+    {
+      "resource_id": 2807010,
+      "chunk_offset": 588992,
+      "source": "ダンバイン",
+      "en": "Dunbine",
+      "full_en": "Dunbine",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 96
+    },
+    {
+      "resource_id": 2807020,
+      "chunk_offset": 680944,
+      "source": "ビルバイン",
+      "en": "Billbine",
+      "full_en": "Billbine",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 92
+    },
+    {
+      "resource_id": 2807021,
+      "chunk_offset": 680256,
+      "source": "ビルバイン迷彩",
+      "en": "Billbine (Camouflage)",
+      "full_en": "Billbine (Camouflage)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 257
+    },
+    {
+      "resource_id": 2807030,
+      "chunk_offset": 556336,
+      "source": "ズワァース",
+      "en": "Zwarth",
+      "full_en": "Zwarth",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 79
+    },
+    {
+      "resource_id": 2807040,
+      "chunk_offset": 552624,
+      "source": "レプラカーン",
+      "en": "Leprechaun",
+      "full_en": "Leprechaun",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 133
+    },
+    {
+      "resource_id": 2810010,
+      "chunk_offset": 646944,
+      "source": "ドラグナー１（地上）",
+      "en": "Dragonar-1 (Lifter, Ground)",
+      "full_en": "Dragonar-1 (Lifter, Ground)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Canonical roster identifies Lifter version; PRM explicitly says Ground. Both retained; runtime applicability of Ground needs verification."
+      ],
+      "width": 323
+    },
+    {
+      "resource_id": 2810012,
+      "chunk_offset": 601920,
+      "source": "D-1カスタム",
+      "en": "Dragonar-1 Custom",
+      "full_en": "Dragonar-1 Custom",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 218
+    },
+    {
+      "resource_id": 2810022,
+      "chunk_offset": 735536,
+      "source": "D-2カスタム",
+      "en": "Dragonar-2 Custom",
+      "full_en": "Dragonar-2 Custom",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 219
+    },
+    {
+      "resource_id": 2810032,
+      "chunk_offset": 656656,
+      "source": "D-3カスタム",
+      "en": "Dragonar-3 (Late Model)",
+      "full_en": "Dragonar-3 (Late Model)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Canonical FNM identity takes precedence over the older PRM development designation."
+      ],
+      "width": 283
+    },
+    {
+      "resource_id": 2810040,
+      "chunk_offset": 629248,
+      "source": "ファルゲン・マッフ",
+      "en": "Falguen MAFFU",
+      "full_en": "Falguen MAFFU",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 186
+    },
+    {
+      "resource_id": 2810042,
+      "chunk_offset": 700288,
+      "source": "ネオファルゲン",
+      "en": "Falguen Custom",
+      "full_en": "Falguen Custom",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Canonical FNM identity takes precedence over the older PRM development designation."
+      ],
+      "width": 186
+    },
+    {
+      "resource_id": 2810080,
+      "chunk_offset": 646672,
+      "source": "スタークダイン",
+      "en": "Stark Deins",
+      "full_en": "Stark Deins",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 135
+    },
+    {
+      "resource_id": 2810120,
+      "chunk_offset": 693904,
+      "source": "ギルガザムネ",
+      "en": "Gilgazamune",
+      "full_en": "Gilgazamune",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 147
+    },
+    {
+      "resource_id": 2810120,
+      "chunk_offset": 696080,
+      "source": "ギルガザムネ\n（ＣＦＳアップ）",
+      "en": "Gilgazamune (CFS Up)",
+      "full_en": "Gilgazamune (CFS Up)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 263
+    },
+    {
+      "resource_id": 2810120,
+      "chunk_offset": 698256,
+      "source": "ギルガザムネ\n（ＣＦＳダウン）",
+      "en": "Gilgazamune (CFS Down)",
+      "full_en": "Gilgazamune (CFS Down)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 293
+    },
+    {
+      "resource_id": 2810140,
+      "chunk_offset": 217440,
+      "source": "ドラグーン",
+      "en": "Dragoon",
+      "full_en": "Dragoon",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 95
+    },
+    {
+      "resource_id": 2811010,
+      "chunk_offset": 662528,
+      "source": "ヒメブレン",
+      "en": "Hime Brain",
+      "full_en": "Hime Brain",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 130
+    },
+    {
+      "resource_id": 2811010,
+      "chunk_offset": 664704,
+      "source": "ヒメブレンご機嫌",
+      "en": "Hime Brain (Good Mood)",
+      "full_en": "Hime Brain (Good Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 285
+    },
+    {
+      "resource_id": 2811010,
+      "chunk_offset": 666880,
+      "source": "ヒメブレン不機嫌",
+      "en": "Hime Brain (Bad Mood)",
+      "full_en": "Hime Brain (Bad Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 271
+    },
+    {
+      "resource_id": 2811020,
+      "chunk_offset": 663440,
+      "source": "ユウブレン",
+      "en": "Yuu Brain",
+      "full_en": "Yuu Brain",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 120
+    },
+    {
+      "resource_id": 2811020,
+      "chunk_offset": 665616,
+      "source": "ユウブレンご機嫌",
+      "en": "Yuu Brain (Good Mood)",
+      "full_en": "Yuu Brain (Good Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 275
+    },
+    {
+      "resource_id": 2811020,
+      "chunk_offset": 667792,
+      "source": "ユウブレン不機嫌",
+      "en": "Yuu Brain (Bad Mood)",
+      "full_en": "Yuu Brain (Bad Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 261
+    },
+    {
+      "resource_id": 2811021,
+      "chunk_offset": 633360,
+      "source": "ネリーブレン",
+      "en": "Nelly Brain",
+      "full_en": "Nelly Brain",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 135
+    },
+    {
+      "resource_id": 2811021,
+      "chunk_offset": 635536,
+      "source": "ネリーブレンご機嫌",
+      "en": "Nelly Brain (Good Mood)",
+      "full_en": "Nelly Brain (Good Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 290
+    },
+    {
+      "resource_id": 2811021,
+      "chunk_offset": 637712,
+      "source": "ネリーブレン不機嫌",
+      "en": "Nelly Brain (Bad Mood)",
+      "full_en": "Nelly Brain (Bad Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 276
+    },
+    {
+      "resource_id": 2811030,
+      "chunk_offset": 707568,
+      "source": "バロンズー",
+      "en": "Jonathan Baronz",
+      "full_en": "Jonathan Baronz",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 193
+    },
+    {
+      "resource_id": 2811030,
+      "chunk_offset": 709744,
+      "source": "バロンズーご機嫌",
+      "en": "Jonathan Baronz (Good Mood)",
+      "full_en": "Jonathan Baronz (Good Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 348
+    },
+    {
+      "resource_id": 2811030,
+      "chunk_offset": 711920,
+      "source": "バロンズー不機嫌",
+      "en": "Jonathan Baronz (Bad Mood)",
+      "full_en": "Jonathan Baronz (Bad Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 334
+    },
+    {
+      "resource_id": 2811031,
+      "chunk_offset": 708048,
+      "source": "クインシーバロン",
+      "en": "Quincy Baronz",
+      "full_en": "Quincy Baronz",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 170
+    },
+    {
+      "resource_id": 2811031,
+      "chunk_offset": 710224,
+      "source": "クインシーバロンご機嫌",
+      "en": "Quincy Baronz (Good Mood)",
+      "full_en": "Quincy Baronz (Good Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 325
+    },
+    {
+      "resource_id": 2811031,
+      "chunk_offset": 712400,
+      "source": "クインシーバロン不機嫌",
+      "en": "Quincy Baronz (Bad Mood)",
+      "full_en": "Quincy Baronz (Bad Mood)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 311
+    },
+    {
+      "resource_id": 2812200,
+      "chunk_offset": 536208,
+      "source": "ブラックサレナ",
+      "en": "Black Sarena",
+      "full_en": "Black Sarena",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 151
+    },
+    {
+      "resource_id": 2812210,
+      "chunk_offset": 674560,
+      "source": "エステバリス\n（アキト）",
+      "en": "Aestivalis (Akito C.)",
+      "full_en": "Aestivalis (Akito Custom)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "C. explicitly abbreviates Custom, following the canonical roster display."
+      ],
+      "width": 246
+    },
+    {
+      "resource_id": 2812220,
+      "chunk_offset": 590432,
+      "source": "エステカスタム\n（リョーコ）",
+      "en": "Aestivalis C (Ryoko)",
+      "full_en": "Aestivalis Custom (Ryoko)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "C explicitly abbreviates Custom, following the canonical roster display."
+      ],
+      "width": 241
+    },
+    {
+      "resource_id": 2812230,
+      "chunk_offset": 595648,
+      "source": "エステカスタム\n（ヒカル）",
+      "en": "Aestivalis C (Hikaru)",
+      "full_en": "Aestivalis Custom (Hikaru)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "C explicitly abbreviates Custom, following the canonical roster display."
+      ],
+      "width": 249
+    },
+    {
+      "resource_id": 2812240,
+      "chunk_offset": 591552,
+      "source": "エステカスタム\n（イズミ）",
+      "en": "Aestivalis C (Izumi)",
+      "full_en": "Aestivalis Custom (Izumi)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "C explicitly abbreviates Custom, following the canonical roster display."
+      ],
+      "width": 234
+    },
+    {
+      "resource_id": 2812250,
+      "chunk_offset": 611072,
+      "source": "アルストロメリア",
+      "en": "Alstroemeria",
+      "full_en": "Alstroemeria",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 148
+    },
+    {
+      "resource_id": 2812270,
+      "chunk_offset": 447024,
+      "source": "夜天光",
+      "en": "Yatenko",
+      "full_en": "Yatenko",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 94
+    },
+    {
+      "resource_id": 2814010,
+      "chunk_offset": 1110544,
+      "source": "VF-1A\n輝\nＢＲ",
+      "en": "VF-1A (Hikaru) BR",
+      "full_en": "VF-1A (Hikaru) Battroid",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR abbreviates Battroid. PRM BR mode retained."
+      ],
+      "width": 220
+    },
+    {
+      "resource_id": 2814010,
+      "chunk_offset": 1112720,
+      "source": "VF-1A\n輝\nＧＷ／ＦＩ",
+      "en": "VF-1A (Hikaru) GW/FI",
+      "full_en": "VF-1A (Hikaru) GERWALK/Fighter",
+      "status": "meaning_reviewed",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. PRM combined mode retained."
+      ],
+      "width": 264
+    },
+    {
+      "resource_id": 2814011,
+      "chunk_offset": 1136976,
+      "source": "VF-1A（S）\n輝\nＢＲ",
+      "en": "VF-1A(S) (Hikaru) BR",
+      "full_en": "VF-1A(S) (Hikaru) Battroid",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR abbreviates Battroid. PRM BR mode retained."
+      ],
+      "width": 255
+    },
+    {
+      "resource_id": 2814011,
+      "chunk_offset": 1139152,
+      "source": "VF-1A（S）\n輝\nＧＷ／Ｆ",
+      "en": "VF-1A(S) (Hikaru) GW/FI",
+      "full_en": "VF-1A(S) (Hikaru) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. Mode suffix is truncated; parallel complete VF entries support the shared GW/FI mode."
+      ],
+      "width": 298
+    },
+    {
+      "resource_id": 2814020,
+      "chunk_offset": 1110768,
+      "source": "VF-1A\nマックス\nＢＲ",
+      "en": "VF-1A (Max) BR",
+      "full_en": "VF-1A (Max) Battroid",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR abbreviates Battroid. PRM BR mode retained."
+      ],
+      "width": 186
+    },
+    {
+      "resource_id": 2814020,
+      "chunk_offset": 1112944,
+      "source": "VF-1A\nマックス\nＧＷ／Ｆ",
+      "en": "VF-1A (Max) GW/FI",
+      "full_en": "VF-1A (Max) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. Mode suffix is truncated; parallel complete VF entries support the shared GW/FI mode."
+      ],
+      "width": 231
+    },
+    {
+      "resource_id": 2814021,
+      "chunk_offset": 1137056,
+      "source": "VF-1A（S）\nマックス\nＢ",
+      "en": "VF-1A(S) (Max) BR",
+      "full_en": "VF-1A(S) (Max) Battroid",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "BR abbreviates Battroid. Mode source truncated to B; parallel complete VF entries support BR."
+      ],
+      "width": 221
+    },
+    {
+      "resource_id": 2814021,
+      "chunk_offset": 1139232,
+      "source": "VF-1A（S）\nマックス\nＧ",
+      "en": "VF-1A(S) (Max) GW/FI",
+      "full_en": "VF-1A(S) (Max) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. Mode suffix is truncated; parallel complete VF entries support the shared GW/FI mode."
+      ],
+      "width": 265
+    },
+    {
+      "resource_id": 2814030,
+      "chunk_offset": 1116736,
+      "source": "VF-1S\n輝\nＢＲ",
+      "en": "VF-1S (Hikaru) BR",
+      "full_en": "VF-1S (Hikaru) Battroid",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR abbreviates Battroid. PRM BR mode retained."
+      ],
+      "width": 216
+    },
+    {
+      "resource_id": 2814030,
+      "chunk_offset": 1118912,
+      "source": "VF-1S\n輝\nＧＷ／ＦＩ",
+      "en": "VF-1S (Hikaru) GW/FI",
+      "full_en": "VF-1S (Hikaru) GERWALK/Fighter",
+      "status": "meaning_reviewed",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. PRM combined mode retained."
+      ],
+      "width": 259
+    },
+    {
+      "resource_id": 2814031,
+      "chunk_offset": 1143664,
+      "source": "VF-1S（S）\n輝\nＢＲ",
+      "en": "VF-1S(S) (Hikaru) BR",
+      "full_en": "VF-1S(S) (Hikaru) Battroid",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR abbreviates Battroid. PRM BR mode retained."
+      ],
+      "width": 251
+    },
+    {
+      "resource_id": 2814031,
+      "chunk_offset": 1145840,
+      "source": "VF-1S（S）\n輝\nＧＷ／Ｆ",
+      "en": "VF-1S(S) (Hikaru) GW/FI",
+      "full_en": "VF-1S(S) (Hikaru) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. Mode suffix is truncated; parallel complete VF entries support the shared GW/FI mode."
+      ],
+      "width": 293
+    },
+    {
+      "resource_id": 2814040,
+      "chunk_offset": 1116912,
+      "source": "VF-1S\nマックス\nＢＲ",
+      "en": "VF-1S (Max) BR",
+      "full_en": "VF-1S (Max) Battroid",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR abbreviates Battroid. PRM BR mode retained."
+      ],
+      "width": 182
+    },
+    {
+      "resource_id": 2814040,
+      "chunk_offset": 1119088,
+      "source": "VF-1S\nマックス\nＧＷ／Ｆ",
+      "en": "VF-1S (Max) GW/FI",
+      "full_en": "VF-1S (Max) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. Mode suffix is truncated; parallel complete VF entries support the shared GW/FI mode."
+      ],
+      "width": 226
+    },
+    {
+      "resource_id": 2814041,
+      "chunk_offset": 1143840,
+      "source": "VF-1S（S）\nマックス\nＢ",
+      "en": "VF-1S(S) (Max) BR",
+      "full_en": "VF-1S(S) (Max) Battroid",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "BR abbreviates Battroid. Mode source truncated to B; parallel complete VF entries support BR."
+      ],
+      "width": 217
+    },
+    {
+      "resource_id": 2814041,
+      "chunk_offset": 1146016,
+      "source": "VF-1S（S）\nマックス\nＧ",
+      "en": "VF-1S(S) (Max) GW/FI",
+      "full_en": "VF-1S(S) (Max) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. Mode suffix is truncated; parallel complete VF entries support the shared GW/FI mode."
+      ],
+      "width": 260
+    },
+    {
+      "resource_id": 2814050,
+      "chunk_offset": 1116608,
+      "source": "VF-1S\nフォッカー\nＢＲ",
+      "en": "VF-1S (Fokker) BR",
+      "full_en": "VF-1S (Fokker) Battroid",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR abbreviates Battroid. PRM BR mode retained."
+      ],
+      "width": 216
+    },
+    {
+      "resource_id": 2814050,
+      "chunk_offset": 1118784,
+      "source": "VF-1S\nフォッカー\nＧＷ／",
+      "en": "VF-1S (Fokker) GW/FI",
+      "full_en": "VF-1S (Fokker) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "GW/FI abbreviates GERWALK/Fighter. Mode suffix is truncated; parallel complete VF entries support the shared GW/FI mode."
+      ],
+      "width": 260
+    },
+    {
+      "resource_id": 2814051,
+      "chunk_offset": 1144016,
+      "source": "VF-1S（S）\nフォッカー\n",
+      "en": "VF-1S(S) (Fokker)",
+      "full_en": "VF-1S(S) (Fokker)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source truncates before the transform-mode label. Neither BR nor GW/FI is visible; retained only the reliably known canonical unit identity."
+      ],
+      "width": 210
+    },
+    {
+      "resource_id": 2814051,
+      "chunk_offset": 1146192,
+      "source": "VF-1S（S）\nフォッカー\n",
+      "en": "VF-1S(S) (Fokker)",
+      "full_en": "VF-1S(S) (Fokker)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source truncates before the transform-mode label. Neither BR nor GW/FI is visible; retained only the reliably known canonical unit identity."
+      ],
+      "width": 210
+    },
+    {
+      "resource_id": 2814060,
+      "chunk_offset": 569296,
+      "source": "アーマードバルキリー",
+      "en": "Armored Valkyrie",
+      "full_en": "Armored Valkyrie",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 208
+    },
+    {
+      "resource_id": 2814070,
+      "chunk_offset": 1059904,
+      "source": "VF-1J\nＢＲ",
+      "en": "VF-1J BR",
+      "full_en": "VF-1J Battroid",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR=Battroid; GW/FI=GERWALK/Fighter."
+      ],
+      "width": 103
+    },
+    {
+      "resource_id": 2814070,
+      "chunk_offset": 1062080,
+      "source": "VF-1J\nＧＷ／ＦＩ",
+      "en": "VF-1J GW/FI",
+      "full_en": "VF-1J GERWALK/Fighter",
+      "status": "meaning_reviewed",
+      "notes": [
+        "BR=Battroid; GW/FI=GERWALK/Fighter."
+      ],
+      "width": 150
+    },
+    {
+      "resource_id": 2814080,
+      "chunk_offset": 610592,
+      "source": "クァドラン・ロー",
+      "en": "Queadluun-Rau (Max)",
+      "full_en": "Queadluun-Rau (Max)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Canonical FNM supplies the Max pilot identity absent from this PRM label."
+      ],
+      "width": 251
+    },
+    {
+      "resource_id": 2814081,
+      "chunk_offset": 610592,
+      "source": "クァドラン・ロ-マックス",
+      "en": "Queadluun-Rau (Millia)",
+      "full_en": "Queadluun-Rau (Millia)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "PRM says Max, but canonical FNM identifies Millia. Canonical identity takes precedence; stale PRM pilot mismatch flagged."
+      ],
+      "width": 273
+    },
+    {
+      "resource_id": 2814400,
+      "chunk_offset": 309504,
+      "source": "YF-19",
+      "en": "YF-19",
+      "full_en": "YF-19",
+      "status": "meaning_reviewed",
+      "notes": [
+        "No FNM supplied; existing glossary identity YF-19. No Battroid qualifier added when absent."
+      ],
+      "width": 64
+    },
+    {
+      "resource_id": 2814400,
+      "chunk_offset": 311680,
+      "source": "YF-19/\nGW　ＦＩ",
+      "en": "YF-19 GW/FI",
+      "full_en": "YF-19 GERWALK/Fighter",
+      "status": "meaning_reviewed",
+      "notes": [
+        "No FNM supplied; existing glossary identity YF-19. No Battroid qualifier added when absent."
+      ],
+      "width": 151
+    },
+    {
+      "resource_id": 2814410,
+      "chunk_offset": 895392,
+      "source": "YF-21",
+      "en": "YF-21",
+      "full_en": "YF-21",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 64
+    },
+    {
+      "resource_id": 2814410,
+      "chunk_offset": 897568,
+      "source": "YF-21/\nGW FI",
+      "en": "YF-21 GW/FI",
+      "full_en": "YF-21 GERWALK/Fighter",
+      "status": "meaning_reviewed",
+      "notes": [
+        "GW/FI abbreviates the source combined GERWALK/Fighter label."
+      ],
+      "width": 151
+    },
+    {
+      "resource_id": 2814410,
+      "chunk_offset": 899744,
+      "source": "YF-21\n（弾道予測時）",
+      "en": "YF-21 (Trajectory Prediction)",
+      "full_en": "YF-21 (Trajectory Prediction)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Literal source qualifier: during trajectory prediction."
+      ],
+      "width": 341
+    },
+    {
+      "resource_id": 2814410,
+      "chunk_offset": 901920,
+      "source": "YF-21/\nGW FI\n（弾",
+      "en": "YF-21 GW/FI (Traj. Pred.)",
+      "full_en": "YF-21 GERWALK/Fighter (Trajectory Prediction)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Traj. Pred. abbreviates Trajectory Prediction. Source qualifier truncates after its first character; the adjacent complete YF-21 prediction row supports this paired mode, but inference is flagged."
+      ],
+      "width": 308
+    },
+    {
+      "resource_id": 2814420,
+      "chunk_offset": 145040,
+      "source": "ゴースト",
+      "en": "Ghost",
+      "full_en": "Ghost",
+      "status": "meaning_reviewed",
+      "notes": [
+        "No FNM supplied; map_names_036 locks Ghost. Source does not specify X-9."
+      ],
+      "width": 64
+    },
+    {
+      "resource_id": 2815011,
+      "chunk_offset": 678272,
+      "source": "ゴッドガンダム",
+      "en": "God Gundam",
+      "full_en": "God Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 145
+    },
+    {
+      "resource_id": 2815011,
+      "chunk_offset": 680448,
+      "source": "ゴッドガンダム明鏡止水",
+      "en": "God Gundam (Meikyo Shisui)",
+      "full_en": "God Gundam (Meikyo Shisui)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 339
+    },
+    {
+      "resource_id": 2815020,
+      "chunk_offset": 632320,
+      "source": "マスターガンダム",
+      "en": "Master Gundam",
+      "full_en": "Master Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 177
+    },
+    {
+      "resource_id": 2815020,
+      "chunk_offset": 634496,
+      "source": "マスターガンダム明鏡止水",
+      "en": "Master Gundam Meikyo Shisui",
+      "full_en": "Master Gundam (Meikyo Shisui)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Parentheses omitted to fit the 355-unit width; name and full mode retained."
+      ],
+      "width": 350
+    },
+    {
+      "resource_id": 2816010,
+      "chunk_offset": 859232,
+      "source": "ナナジン",
+      "en": "Nanajin",
+      "full_en": "Nanajin",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 87
+    },
+    {
+      "resource_id": 2816010,
+      "chunk_offset": 861408,
+      "source": "ナナジン\nリーンの翼状態",
+      "en": "Nanajin (Wings of Rean)",
+      "full_en": "Nanajin (Wings of Rean)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 287
+    },
+    {
+      "resource_id": 2816011,
+      "chunk_offset": 859232,
+      "source": "アッカナナジン",
+      "en": "Red Nanajin",
+      "full_en": "Red Nanajin",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 139
+    },
+    {
+      "resource_id": 2816011,
+      "chunk_offset": 861408,
+      "source": "アッカナナジン\nリーンの翼状態",
+      "en": "Red Nanajin (Wings of Rean)",
+      "full_en": "Red Nanajin (Wings of Rean)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 339
+    },
+    {
+      "resource_id": 2816020,
+      "chunk_offset": 794128,
+      "source": "オウカオー",
+      "en": "Oukaou",
+      "full_en": "Oukaou",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 86
+    },
+    {
+      "resource_id": 2816020,
+      "chunk_offset": 796304,
+      "source": "オウカオー\nリーンの翼状態",
+      "en": "Oukaou (Wings of Rean)",
+      "full_en": "Oukaou (Wings of Rean)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 286
+    },
+    {
+      "resource_id": 2817010,
+      "chunk_offset": 716336,
+      "source": "ガンダムＸ",
+      "en": "Gundam X",
+      "full_en": "Gundam X",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 119
+    },
+    {
+      "resource_id": 2817011,
+      "chunk_offset": 838624,
+      "source": "ガンダムＸ\nディバイダー",
+      "en": "Gundam X Divider",
+      "full_en": "Gundam X Divider",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 212
+    },
+    {
+      "resource_id": 2817020,
+      "chunk_offset": 704736,
+      "source": "ガンダムＤX",
+      "en": "Gundam DX",
+      "full_en": "Gundam DX",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 135
+    },
+    {
+      "resource_id": 2817021,
+      "chunk_offset": 841056,
+      "source": "ガンダムＤX\nＧファルコン",
+      "en": "Gundam DX (G-Falcon)",
+      "full_en": "Gundam DX (G-Falcon)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 267
+    },
+    {
+      "resource_id": 2817030,
+      "chunk_offset": 711968,
+      "source": "ガンダムエアマスター",
+      "en": "Gundam Airmaster",
+      "full_en": "Gundam Airmaster",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 216
+    },
+    {
+      "resource_id": 2817040,
+      "chunk_offset": 698448,
+      "source": "ガンダムレオパルド",
+      "en": "Gundam Leopard",
+      "full_en": "Gundam Leopard",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 194
+    },
+    {
+      "resource_id": 2817050,
+      "chunk_offset": 726304,
+      "source": "ガンダムヴァサーゴ",
+      "en": "Gundam Virsago",
+      "full_en": "Gundam Virsago",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 190
+    },
+    {
+      "resource_id": 2817051,
+      "chunk_offset": 766976,
+      "source": "ガンダムヴァサーゴ\nチェストブ",
+      "en": "Gundam Virsago CB",
+      "full_en": "Gundam Virsago Chest Break",
+      "status": "meaning_reviewed",
+      "notes": [
+        "CB=Chest Break, established by canonical glossary. Truncated PRM suffix identified by that canonical variant."
+      ],
+      "width": 230
+    },
+    {
+      "resource_id": 2817060,
+      "chunk_offset": 856160,
+      "source": "ガンダムアシュタロン",
+      "en": "Gundam Ashtaron",
+      "full_en": "Gundam Ashtaron",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 207
+    },
+    {
+      "resource_id": 2817061,
+      "chunk_offset": 840768,
+      "source": "ガンダムアシュタロン\nハーミッ",
+      "en": "Gundam Ashtaron HC",
+      "full_en": "Gundam Ashtaron Hermit Crab",
+      "status": "meaning_reviewed",
+      "notes": [
+        "HC=Hermit Crab, established by canonical glossary. Truncated PRM suffix identified by that canonical variant."
+      ],
+      "width": 249
+    },
+    {
+      "resource_id": 2819010,
+      "chunk_offset": 426784,
+      "source": "真ゲッター1",
+      "en": "Shin Getter-1 (Go)",
+      "full_en": "Shin Getter-1 (Go)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 212
+    },
+    {
+      "resource_id": 2819011,
+      "chunk_offset": 440288,
+      "source": "真ゲッター2",
+      "en": "Shin Getter-2 (Kei)",
+      "full_en": "Shin Getter-2 (Kei)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 222
+    },
+    {
+      "resource_id": 2819012,
+      "chunk_offset": 400656,
+      "source": "真ゲッター3",
+      "en": "Shin Getter-3 (Gai)",
+      "full_en": "Shin Getter-3 (Gai)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 222
+    },
+    {
+      "resource_id": 2819013,
+      "chunk_offset": 475968,
+      "source": "真ゲッター1竜馬",
+      "en": "Shin Getter-1 (Ryoma)",
+      "full_en": "Shin Getter-1 (Ryoma)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 259
+    },
+    {
+      "resource_id": 2819014,
+      "chunk_offset": 458464,
+      "source": "真ゲッター2隼人",
+      "en": "Shin Getter-2 (Hayato)",
+      "full_en": "Shin Getter-2 (Hayato)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 265
+    },
+    {
+      "resource_id": 2819015,
+      "chunk_offset": 405792,
+      "source": "真ゲッター3弁慶",
+      "en": "Shin Getter-3 (Benkei)",
+      "full_en": "Shin Getter-3 (Benkei)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 261
+    },
+    {
+      "resource_id": 2819020,
+      "chunk_offset": 575360,
+      "source": "ブラックゲッター",
+      "en": "Black Getter",
+      "full_en": "Black Getter",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 144
+    },
+    {
+      "resource_id": 2820010,
+      "chunk_offset": 776480,
+      "source": "∀ガンダム",
+      "en": "Turn A Gundam",
+      "full_en": "Turn A Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 187
+    },
+    {
+      "resource_id": 2820010,
+      "chunk_offset": 778656,
+      "source": "∀ガンダム\n（月光蝶）",
+      "en": "Turn A (Moonlight Butterfly)",
+      "full_en": "Turn A Gundam (Moonlight Butterfly)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Canonical Turn A Gundam base shortened to Turn A so the complete Moonlight Butterfly mode fits the PRM byte and width limits."
+      ],
+      "width": 349
+    },
+    {
+      "resource_id": 2820020,
+      "chunk_offset": 630592,
+      "source": "ターンX",
+      "en": "Turn X",
+      "full_en": "Turn X",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 84
+    },
+    {
+      "resource_id": 2820020,
+      "chunk_offset": 632768,
+      "source": "ターンX\n（月光蝶）",
+      "en": "Turn X (Moonlight Butterfly)",
+      "full_en": "Turn X (Moonlight Butterfly)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 348
+    },
+    {
+      "resource_id": 2821010,
+      "chunk_offset": 849648,
+      "source": "キングゲイナー",
+      "en": "King Gainer",
+      "full_en": "King Gainer",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 141
+    },
+    {
+      "resource_id": 2821010,
+      "chunk_offset": 851824,
+      "source": "キングゲイナー\n（加速）",
+      "en": "King Gainer (Acceleration)",
+      "full_en": "King Gainer (Acceleration)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 318
+    },
+    {
+      "resource_id": 2821040,
+      "chunk_offset": 589920,
+      "source": "パワーゴレーム",
+      "en": "Power Golem",
+      "full_en": "Power Golem",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 146
+    },
+    {
+      "resource_id": 2821090,
+      "chunk_offset": 882320,
+      "source": "ドミネーター",
+      "en": "Dominator",
+      "full_en": "Dominator",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 119
+    },
+    {
+      "resource_id": 2821090,
+      "chunk_offset": 884496,
+      "source": "ドミネーター\n（卵型）",
+      "en": "Dominator (Egg Form)",
+      "full_en": "Dominator (Egg Form)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source says egg-shaped form. No mapping to a different named form is assumed."
+      ],
+      "width": 261
+    },
+    {
+      "resource_id": 2821120,
+      "chunk_offset": 629808,
+      "source": "エンペランザ",
+      "en": "Emperanza",
+      "full_en": "Emperanza",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 124
+    },
+    {
+      "resource_id": 2821200,
+      "chunk_offset": 939248,
+      "source": "ガチコ",
+      "en": "Gachiko",
+      "full_en": "Gachiko",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 91
+    },
+    {
+      "resource_id": 2822010,
+      "chunk_offset": 716992,
+      "source": "フリーダムガンダム",
+      "en": "Freedom Gundam",
+      "full_en": "Freedom Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 198
+    },
+    {
+      "resource_id": 2822010,
+      "chunk_offset": 719168,
+      "source": "フリーダムガンダム\n【種割】",
+      "en": "Freedom Gundam (SEED)",
+      "full_en": "Freedom Gundam (SEED)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source seed-burst qualifier rendered using the established SEED ability name."
+      ],
+      "width": 289
+    },
+    {
+      "resource_id": 2822011,
+      "chunk_offset": 872448,
+      "source": "フリーダムガンダム\n（ミーティ",
+      "en": "Freedom Gundam (Meteor)",
+      "full_en": "Freedom Gundam (Meteor)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Meteor expanded from canonical M and visible PRM prefix. Source truncates inside Meteor; any subsequent qualifier is unknown and not reconstructed."
+      ],
+      "width": 305
+    },
+    {
+      "resource_id": 2822011,
+      "chunk_offset": 874624,
+      "source": "フリーダムガンダム\n（ミーティ",
+      "en": "Freedom Gundam (Meteor)",
+      "full_en": "Freedom Gundam (Meteor)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Meteor expanded from canonical M and visible PRM prefix. Source truncates inside Meteor; any subsequent qualifier is unknown and not reconstructed."
+      ],
+      "width": 305
+    },
+    {
+      "resource_id": 2822020,
+      "chunk_offset": 723216,
+      "source": "ジャスティスガンダム",
+      "en": "Justice Gundam",
+      "full_en": "Justice Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 182
+    },
+    {
+      "resource_id": 2822020,
+      "chunk_offset": 725392,
+      "source": "ジャスティスガンダム\n【種割】",
+      "en": "Justice Gundam (SEED)",
+      "full_en": "Justice Gundam (SEED)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source seed-burst qualifier rendered using the established SEED ability name."
+      ],
+      "width": 273
+    },
+    {
+      "resource_id": 2822020,
+      "chunk_offset": 727568,
+      "source": "ジャスティスガンダム\nファトゥ",
+      "en": "Justice Gundam (Fatum-00)",
+      "full_en": "Justice Gundam (Fatum-00)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Visible Fatu- prefix resolves to Fatum-00 from this unit command list. Source truncates before any state qualifier, so no launch/riding/SEED state is invented."
+      ],
+      "width": 319
+    },
+    {
+      "resource_id": 2822020,
+      "chunk_offset": 729744,
+      "source": "ジャスティスガンダム\nファトゥ",
+      "en": "Justice Gundam (Fatum-00)",
+      "full_en": "Justice Gundam (Fatum-00)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Visible Fatu- prefix resolves to Fatum-00 from this unit command list. Source truncates before any state qualifier, so no launch/riding/SEED state is invented."
+      ],
+      "width": 319
+    },
+    {
+      "resource_id": 2822021,
+      "chunk_offset": 710976,
+      "source": "ジャスティスガンダム\n（ミーテ",
+      "en": "Justice Gundam (Meteor)",
+      "full_en": "Justice Gundam (Meteor)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Meteor expanded from canonical M and visible PRM prefix. Source truncates inside Meteor; any subsequent qualifier is unknown and not reconstructed."
+      ],
+      "width": 289
+    },
+    {
+      "resource_id": 2822021,
+      "chunk_offset": 713152,
+      "source": "ジャスティスガンダム\n（ミーテ",
+      "en": "Justice Gundam (Meteor)",
+      "full_en": "Justice Gundam (Meteor)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Meteor expanded from canonical M and visible PRM prefix. Source truncates inside Meteor; any subsequent qualifier is unknown and not reconstructed."
+      ],
+      "width": 289
+    },
+    {
+      "resource_id": 2823010,
+      "chunk_offset": 1031616,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO",
+      "full_en": "Nirvash typeZERO",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 207
+    },
+    {
+      "resource_id": 2823010,
+      "chunk_offset": 1033792,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO",
+      "full_en": "Nirvash typeZERO",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 207
+    },
+    {
+      "resource_id": 2823010,
+      "chunk_offset": 1035968,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO",
+      "full_en": "Nirvash typeZERO",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 207
+    },
+    {
+      "resource_id": 2823010,
+      "chunk_offset": 1038144,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO",
+      "full_en": "Nirvash typeZERO",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 207
+    },
+    {
+      "resource_id": 2823011,
+      "chunk_offset": 1093776,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO spec2",
+      "full_en": "Nirvash typeZERO spec2",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 278
+    },
+    {
+      "resource_id": 2823011,
+      "chunk_offset": 1095952,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO spec2",
+      "full_en": "Nirvash typeZERO spec2",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 278
+    },
+    {
+      "resource_id": 2823011,
+      "chunk_offset": 1098128,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO spec2",
+      "full_en": "Nirvash typeZERO spec2",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 278
+    },
+    {
+      "resource_id": 2823011,
+      "chunk_offset": 1100304,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO spec2",
+      "full_en": "Nirvash typeZERO spec2",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 278
+    },
+    {
+      "resource_id": 2823012,
+      "chunk_offset": 756704,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO spec3",
+      "full_en": "Nirvash typeZERO spec3",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 278
+    },
+    {
+      "resource_id": 2823012,
+      "chunk_offset": 758880,
+      "source": "ニルバーシュZero\ntype",
+      "en": "Nirvash typeZERO spec3",
+      "full_en": "Nirvash typeZERO spec3",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 278
+    },
+    {
+      "resource_id": 2823019,
+      "chunk_offset": 400656,
+      "source": "ニルバーシュ\ntypeZero",
+      "en": "Nirvash typeZERO",
+      "full_en": "Nirvash typeZERO",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source contains only the typeZERO identity (or a cut-off reordered prefix). Canonical FNM supplies spec version where present; no unseen Vehicle/Flight/Seven Swell qualifier inferred."
+      ],
+      "width": 207
+    },
+    {
+      "resource_id": 2823020,
+      "chunk_offset": 1033552,
+      "source": "ニルバーシュ\ntypeTheE",
+      "en": "Nirvash theEND",
+      "full_en": "Nirvash theEND",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Cut-off typeTheE prefix resolves to canonical theEND. Any additional state is missing and not invented."
+      ],
+      "width": 181
+    },
+    {
+      "resource_id": 2823020,
+      "chunk_offset": 1035728,
+      "source": "ニルバーシュ\ntypeTheE",
+      "en": "Nirvash theEND",
+      "full_en": "Nirvash theEND",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Cut-off typeTheE prefix resolves to canonical theEND. Any additional state is missing and not invented."
+      ],
+      "width": 181
+    },
+    {
+      "resource_id": 2823020,
+      "chunk_offset": 1037904,
+      "source": "ターミナスR909\nCFSダウ",
+      "en": "Nirvash theEND (CFS Down)",
+      "full_en": "Nirvash theEND (CFS Down)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "PRM has a stale Terminus R909 base name; canonical FNM theEND takes precedence. CFS Down is legible except final syllable and retained. Applicability to theEND is uncertain."
+      ],
+      "width": 327
+    },
+    {
+      "resource_id": 2823030,
+      "chunk_offset": 847088,
+      "source": "ターミナスB303",
+      "en": "Terminus B303",
+      "full_en": "Terminus B303",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source B303 model code retained with canonical Terminus spelling."
+      ],
+      "width": 170
+    },
+    {
+      "resource_id": 2823030,
+      "chunk_offset": 849264,
+      "source": "ターミナスB303\nCFSアッ",
+      "en": "Terminus B303 (CFS Up)",
+      "full_en": "Terminus B303 (CFS Up)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source B303 model code retained with canonical Terminus spelling. Truncated CFS suffix unambiguously identifies (CFS Up)."
+      ],
+      "width": 286
+    },
+    {
+      "resource_id": 2823030,
+      "chunk_offset": 851440,
+      "source": "ターミナスB303\nCFSダウ",
+      "en": "Terminus B303 (CFS Down)",
+      "full_en": "Terminus B303 (CFS Down)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source B303 model code retained with canonical Terminus spelling. Truncated CFS suffix unambiguously identifies (CFS Down)."
+      ],
+      "width": 316
+    },
+    {
+      "resource_id": 2823040,
+      "chunk_offset": 911072,
+      "source": "ターミナスR909",
+      "en": "Terminus R909",
+      "full_en": "Terminus R909",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source R909 model code retained with canonical Terminus spelling."
+      ],
+      "width": 171
+    },
+    {
+      "resource_id": 2823040,
+      "chunk_offset": 913248,
+      "source": "ターミナスR909\n（ビークル",
+      "en": "Terminus R909 (Vehicle)",
+      "full_en": "Terminus R909 (Vehicle)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source R909 model code retained with canonical Terminus spelling. Cut-off Vehicle prefix is supported by the existing glossary variant."
+      ],
+      "width": 287
+    },
+    {
+      "resource_id": 2823040,
+      "chunk_offset": 915424,
+      "source": "ターミナスR909\nCFSアッ",
+      "en": "Terminus R909 (CFS Up)",
+      "full_en": "Terminus R909 (CFS Up)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source R909 model code retained with canonical Terminus spelling."
+      ],
+      "width": 287
+    },
+    {
+      "resource_id": 2823040,
+      "chunk_offset": 917600,
+      "source": "ターミナスR909\nCFSダウ",
+      "en": "Terminus R909 (CFS Down)",
+      "full_en": "Terminus R909 (CFS Down)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Source R909 model code retained with canonical Terminus spelling."
+      ],
+      "width": 317
+    },
+    {
+      "resource_id": 2823070,
+      "chunk_offset": 802688,
+      "source": "スピアヘッド\n（チャールズ機）",
+      "en": "Spearhead (Charles)",
+      "full_en": "Spearhead (Charles)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 233
+    },
+    {
+      "resource_id": 2823070,
+      "chunk_offset": 804864,
+      "source": "スピアヘッド\n（チャールズ機）",
+      "en": "Spearhead (Charles)",
+      "full_en": "Spearhead (Charles)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source ends after the same complete pilot label as the preceding row; possible mode suffix is not present. No unseen transformation qualifier added."
+      ],
+      "width": 233
+    },
+    {
+      "resource_id": 2823071,
+      "chunk_offset": 796848,
+      "source": "スピアヘッド\n（レイ機）",
+      "en": "Spearhead (Ray)",
+      "full_en": "Spearhead (Ray)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 192
+    },
+    {
+      "resource_id": 2823071,
+      "chunk_offset": 799024,
+      "source": "スピアヘッド\n（レイ機）\nサー",
+      "en": "Spearhead (Ray)",
+      "full_en": "Spearhead (Ray)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source truncates at a sa- prefix after the Ray pilot label. The qualifier cannot be identified reliably; no surf/other mode invented."
+      ],
+      "width": 192
+    },
+    {
+      "resource_id": 2824010,
+      "chunk_offset": 615824,
+      "source": "ガンダム",
+      "en": "Gundam",
+      "full_en": "Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 92
+    },
+    {
+      "resource_id": 2824011,
+      "chunk_offset": 660080,
+      "source": "フルアーマーガンダム",
+      "en": "Full Armor Gundam",
+      "full_en": "Full Armor Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 232
+    },
+    {
+      "resource_id": 2824012,
+      "chunk_offset": 723488,
+      "source": "パーフェクトガンダム",
+      "en": "Perfect Gundam",
+      "full_en": "Perfect Gundam",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 184
+    },
+    {
+      "resource_id": 2824013,
+      "chunk_offset": 603984,
+      "source": "ガンダム\n（狂四郎）",
+      "en": "Gundam (Kyoshiro)",
+      "full_en": "Gundam (Kyoshiro)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 226
+    },
+    {
+      "resource_id": 2825010,
+      "chunk_offset": 1050304,
+      "source": "YF-19",
+      "en": "YF-19",
+      "full_en": "YF-19",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 64
+    },
+    {
+      "resource_id": 2825010,
+      "chunk_offset": 1052480,
+      "source": "YF-19/\nGW　ＦＩ",
+      "en": "YF-19 GW/FI",
+      "full_en": "YF-19 GERWALK/Fighter",
+      "status": "meaning_reviewed",
+      "notes": [
+        "GW/FI abbreviates the source combined GERWALK/Fighter label."
+      ],
+      "width": 151
+    },
+    {
+      "resource_id": 2825011,
+      "chunk_offset": 1056032,
+      "source": "YF-19ファストパック",
+      "en": "YF-19 (FAST Pack)",
+      "full_en": "YF-19 (FAST Pack)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 220
+    },
+    {
+      "resource_id": 2825011,
+      "chunk_offset": 1058208,
+      "source": "YF-19ファストパック/\nG",
+      "en": "YF-19 (FAST Pack) GW/FI",
+      "full_en": "YF-19 (FAST Pack) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source mode truncates to G; parallel YF rows support the shared GW/FI label. Any additional qualifier is missing, including possible prediction state; not reconstructed."
+      ],
+      "width": 303
+    },
+    {
+      "resource_id": 2825020,
+      "chunk_offset": 950544,
+      "source": "YF-21",
+      "en": "YF-21",
+      "full_en": "YF-21",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 64
+    },
+    {
+      "resource_id": 2825020,
+      "chunk_offset": 952720,
+      "source": "YF-21/\nGW FI",
+      "en": "YF-21 GW/FI",
+      "full_en": "YF-21 GERWALK/Fighter",
+      "status": "meaning_reviewed",
+      "notes": [
+        "GW/FI abbreviates the source combined GERWALK/Fighter label."
+      ],
+      "width": 151
+    },
+    {
+      "resource_id": 2825020,
+      "chunk_offset": 954896,
+      "source": "YF-21\n（弾道予測時）",
+      "en": "YF-21 (Trajectory Prediction)",
+      "full_en": "YF-21 (Trajectory Prediction)",
+      "status": "meaning_reviewed",
+      "notes": [
+        "Literal source qualifier: during trajectory prediction."
+      ],
+      "width": 341
+    },
+    {
+      "resource_id": 2825020,
+      "chunk_offset": 957072,
+      "source": "YF-21/\nGW FI\n（弾",
+      "en": "YF-21 GW/FI (Traj. Pred.)",
+      "full_en": "YF-21 GERWALK/Fighter (Trajectory Prediction)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Traj. Pred. abbreviates Trajectory Prediction. Source qualifier truncates after its first character; the adjacent complete YF-21 prediction row supports this paired mode, but inference is flagged."
+      ],
+      "width": 308
+    },
+    {
+      "resource_id": 2825021,
+      "chunk_offset": 954800,
+      "source": "YF-21ファストパック",
+      "en": "YF-21 (FAST Pack)",
+      "full_en": "YF-21 (FAST Pack)",
+      "status": "meaning_reviewed",
+      "notes": [],
+      "width": 220
+    },
+    {
+      "resource_id": 2825021,
+      "chunk_offset": 956976,
+      "source": "YF-21ファストパック/\nG",
+      "en": "YF-21 (FAST Pack) GW/FI",
+      "full_en": "YF-21 (FAST Pack) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source mode truncates to G; parallel YF rows support the shared GW/FI label. Any additional qualifier is missing, including possible prediction state; not reconstructed."
+      ],
+      "width": 303
+    },
+    {
+      "resource_id": 2825021,
+      "chunk_offset": 959152,
+      "source": "YF-21ファストパック\n（弾",
+      "en": "YF-21 FAST Pack, Traj. Pred.",
+      "full_en": "YF-21 (FAST Pack, Trajectory Prediction)",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source qualifier truncates after its first character; complete plain YF-21 prediction rows support Trajectory Prediction. Traj. Pred. explicitly abbreviates it; inference flagged."
+      ],
+      "width": 344
+    },
+    {
+      "resource_id": 2825021,
+      "chunk_offset": 961328,
+      "source": "YF-21ファストパック/\nG",
+      "en": "YF-21 (FAST Pack) GW/FI",
+      "full_en": "YF-21 (FAST Pack) GERWALK/Fighter",
+      "status": "reviewed_with_uncertainty",
+      "notes": [
+        "Source mode truncates to G; parallel YF rows support the shared GW/FI label. Any additional qualifier is missing, including possible prediction state; not reconstructed."
+      ],
+      "width": 303
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "slice_start": 1506,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1491,
+      1600
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_01517",
+        "dialogue_01530"
+      ],
+      "note": "Rows 1517-1530 are developer placeholders; the source reference mark is not ASCII and was replaced with '*'. 'GP02' written in plain ASCII (source mixes full/half-width digits)."
+    },
+    {
+      "ids": [
+        "dialogue_01512",
+        "dialogue_01513",
+        "dialogue_01514",
+        "dialogue_01515",
+        "dialogue_01516"
+      ],
+      "note": "on()/off() event lines; 1512 and 1514-1515 read as Gato, 1513 and 1516 as the pursuing side, but speakers are untagged. 1515 grammatically completes 1514."
+    },
+    {
+      "id": "dialogue_01531",
+      "note": "Whose skill is being weighed (one or many) is unstated; kept without pronoun."
+    },
+    {
+      "ids": [
+        "dialogue_01535",
+        "dialogue_01538",
+        "dialogue_01539",
+        "dialogue_01540",
+        "dialogue_01541"
+      ],
+      "note": "The unknown machine/pilot (Marina is only asked about, not confirmed) is kept gender-neutral: 'that one', 'who could it be'."
+    },
+    {
+      "id": "dialogue_01536",
+      "note": "Whose aim is disturbed (ship's guns vs. the orbital shooter) is not stated; 'the aim' used. 1537 replies 'fire anyway'."
+    },
+    {
+      "id": "dialogue_01569",
+      "note": "Literally 'open the main guns'; rendered as the order to open fire. Could also mean uncover/ready the main guns."
+    },
+    {
+      "id": "dialogue_01571",
+      "note": "'that' stands for 'the one we know about'; nothing like 'again' added."
+    },
+    {
+      "id": "dialogue_01578",
+      "note": "Verb omitted in source; English kept as a fragment. Speaker appears to be a lunar (Giganos) or Zeon-side soldier."
+    },
+    {
+      "ids": [
+        "dialogue_01574",
+        "dialogue_01581"
+      ],
+      "note": "Ranks: 'Major Gato', 'Captain Plato' (army-style mapping, same as Captain Burning in batch 1073). Central rank normalization pending. 'Major' contains lowercase j."
+    },
+    {
+      "id": "dialogue_01567",
+      "note": "Source row contains commands only, no text; left empty."
+    },
+    {
+      "ids": [
+        "dialogue_01506",
+        "dialogue_01585"
+      ],
+      "note": "Resources 6041-6043 read like legacy Another Century's Episode 2 mission data (Tak, Burning, Uraki/Gato and Unit 2, Jovian Lizards, UCE) stored among ACE3 tables; translated faithfully without forcing them into the ACE3 Mission 04 storyline."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target equals the source's (script-checked).",
+    "fit": "No line breaks; longest visible text 82 chars; over-110 rows: none.",
+    "ascii": "ASCII only; no bare percent sign. Lowercase j/q only in locked names/ranks (Jamil, Jovian, Major).",
+    "meaning_review": "Independent meaning review done (review_01506.json): 80/80 rows examined, 1 meaning fix, all rows meaning_reviewed, none left draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_01506",
+      "target": "<op()><sp(20)>Not bad... Nightmare of Solomon.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01507",
+      "target": "<op()><sp(20)>Ngh! A blunder!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01508",
+      "target": "<op()><sp(20)>Unskilled as you are, come as many times as you like - it ends the same!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01509",
+      "target": "<op()><sp(20)>Ngh! What an opponent!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01510",
+      "target": "<op()><sp(20)>Gato! Give it up!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01511",
+      "target": "<op()><sp(20)>Ngh... Losing ground?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is the one being pushed back; subject left out as in source."
+    },
+    {
+      "id": "dialogue_01512",
+      "target": "<on()><sp(20)>Them yet again! Not twice, but a third time!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01513",
+      "target": "<on()><sp(20)>The base's artillery unit?!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01514",
+      "target": "<on()><sp(20)>Remember this!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01515",
+      "target": "<on()><sp(20)>All who block Zeon's revival will one day, without fail, be buried by my hand!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues 1514 (content of what is to be remembered)."
+    },
+    {
+      "id": "dialogue_01516",
+      "target": "<on()><sp(20)>Continue the pursuit!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01517",
+      "target": "<op()><sp(20)>* Mission briefing<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally. Source reference mark replaced by ASCII *."
+    },
+    {
+      "id": "dialogue_01518",
+      "target": "<op()><sp(20)>* Praise<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01519",
+      "target": "<op()><sp(20)>* Praise for meeting the success condition<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01520",
+      "target": "<op()><sp(20)>* Encouragement: hang in there<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01521",
+      "target": "<op()><sp(20)>* Urged to hurry (for dire moments)<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01522",
+      "target": "<op()><sp(20)>* Notice: new enemy (GP02) approaching<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01523",
+      "target": "<op()><sp(20)>* Scolded: time is up, mission failed<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01524",
+      "target": "<op()><sp(20)>* Praise * Notice: (GP02) approaching<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally. Two placeholder items on separate source lines."
+    },
+    {
+      "id": "dialogue_01525",
+      "target": "<op()><sp(20)>* Notice: mission update<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01526",
+      "target": "<op()><sp(20)>* Banter between Gato and the pilot<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01527",
+      "target": "<op()><sp(20)>* Gato acknowledges the player<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01528",
+      "target": "<op()><sp(20)>Hang in there and stop the GP02<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01529",
+      "target": "<op()><sp(20)>* Gato retreat voice (normal)<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01530",
+      "target": "<op()><sp(20)>* Gato retreat voice (secret)<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder describing the intended voice line, not spoken dialogue; translated literally."
+    },
+    {
+      "id": "dialogue_01531",
+      "target": "<on()><sp(20)>Now then, how much skill, I wonder.<ab(700)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Whose skill is not stated."
+    },
+    {
+      "id": "dialogue_01532",
+      "target": "<on()><sp(20)>H-high-energy reading from above!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01533",
+      "target": "<on()><sp(20)>What is this... from outside the atmosphere?!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01534",
+      "target": "<on()><sp(20)>It can't be... with this precision?!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01535",
+      "target": "<on()><sp(20)>...That machine...!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01536",
+      "target": "<on()><sp(20)>Enemy fire is throwing off the aim!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01537",
+      "target": "<on()><sp(20)>Never mind, fire!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01538",
+      "target": "<on()><sp(20)>Marina! Is that you, Marina?!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01539",
+      "target": "<on()><sp(20)>Well, is it?! Answer me!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01540",
+      "target": "<on()><sp(20)>...So that one runs too.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Unidentified party kept gender-neutral."
+    },
+    {
+      "id": "dialogue_01541",
+      "target": "<on()><sp(20)>That machine... Who could it be?<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01542",
+      "target": "<on()><sp(20)>Ensign Uraki...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01543",
+      "target": "<op()><sp(20)>Many enemy units approaching the ship!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01544",
+      "target": "<op()><sp(20)>Never mind. Advance.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01545",
+      "target": "<op()><sp(20)>All units, clear out nearby enemies fast! We can't hold out that long here either!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01546",
+      "target": "<op()><sp(20)>New contacts confirmed!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01547",
+      "target": "<op()><sp(20)>More enemies still coming!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01548",
+      "target": "<op()><sp(20)>New enemy readings!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01549",
+      "target": "<op()><sp(20)>M-more enemies...<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01550",
+      "target": "<op()><sp(20)>Damn, there's no end to them...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01551",
+      "target": "<op()><sp(20)>Heat source confirmed at one o'clock!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01552",
+      "target": "<op()><sp(20)>Fresh enemies...!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01553",
+      "target": "<op()><sp(20)>Th-they're monsters!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning review: neutral pronoun, referent untagged."
+    },
+    {
+      "id": "dialogue_01554",
+      "target": "<op()><sp(20)>Starboard hit!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01555",
+      "target": "<op()><sp(20)>Damage to the ship is spreading!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01556",
+      "target": "<op()><sp(20)>Hold course!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01557",
+      "target": "<op()><sp(20)>Port side hit!<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01558",
+      "target": "<op()><sp(20)>Mmph...<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01559",
+      "target": "<op()><sp(20)>...You've got to be kidding!<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01560",
+      "target": "<sp(20)>That's Giganos's ace, Meio Plato!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01561",
+      "target": "<op()><sp(20)>I've heard the rumors. The Blue Hawk of Giganos.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01562",
+      "target": "<op()><sp(20)>...They mean business.<ab(600)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01563",
+      "target": "<sp(20)>This enemy won't go down easily! Take every care!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01564",
+      "target": "<op()><sp(20)>No other enemies, then. The ship will keep advancing.<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01565",
+      "target": "<op()><sp(20)>...Can't go any further?! No choice! Fall back!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01566",
+      "target": "<op()><sp(20)>Main guns have the enemy base in range.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01567",
+      "target": "<op()><sp(20)><ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no visible text; left empty."
+    },
+    {
+      "id": "dialogue_01568",
+      "target": "<op()><sp(20)>That's... an HLV!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01569",
+      "target": "<op()><sp(20)>Main guns, open fire!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01570",
+      "target": "<op()><sp(20)>W-wait, please! A machine closing fast from the rear...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01571",
+      "target": "<sp(20)>I-it's that unit of unknown affiliation!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'that' = the one already known to the crew."
+    },
+    {
+      "id": "dialogue_01572",
+      "target": "<op()><sp(20)>What?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01573",
+      "target": "<op()><sp(20)>They're here!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01574",
+      "target": "<op()><sp(20)>Protect Major Gato!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01575",
+      "target": "<op()><sp(20)>You will never get past here!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01576",
+      "target": "<op()><sp(20)>Second defense line has been breached!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01577",
+      "target": "<op()><sp(20)>Hold out!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01578",
+      "target": "<op()><sp(20)>Not to the likes of Earth's lot!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Verb omitted in source (implied: we won't lose to...)."
+    },
+    {
+      "id": "dialogue_01579",
+      "target": "<op()><sp(20)>Over half wiped out!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01580",
+      "target": "<op()><sp(20)>Not yet! Show them our pride!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01581",
+      "target": "<op()><sp(20)>Captain Plato. My heartfelt thanks for your cooperation in this operation.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01582",
+      "target": "<op()><sp(20)>We are comrades resisting the UCE's tyranny. Lending support is only natural.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01583",
+      "target": "<sp(20)>Captain, at this rate...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01584",
+      "target": "<op()><sp(20)>Are you all right?! Hang in there!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01585",
+      "target": "<op()><sp(20)>J-Jovian Lizards have appeared!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

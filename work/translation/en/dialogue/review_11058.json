@@ -1,0 +1,35 @@
+{
+  "reviewer":"independent_meaning_review_mission28_stop_axis_agent",
+  "slice_start":11058,
+  "slice_count":80,
+  "rows_examined":[{"start":11043,"end":11152}],
+  "rows_examined_count":110,
+  "rows_in_slice":80,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[],
+  "checked_decisions":[
+    {"rows":[11058,11059,11060,11062,11064,11065,11068,11069,11070,11073,11074,11075,11076,11077,11081,11082,11084],"finding":"Untagged combat exchange between Quess and unnamed pilots correctly left speaker-neutral; the 'girl' identity is only supplied at 11075/11084 because the source itself says 女の子 there. No gender or identity invented beyond the source."},
+    {"rows":[11079,11080,11083,11085],"finding":"Telepathic/Newtype layer kept speaker-neutral; no antagonist identity guessed."},
+    {"rows":[11063,11067,11070,11097,11109],"finding":"Colonel/Marshal (大佐/総帥) applied to Char per orchestrator ruling; consistent across all five occurrences in this slice."},
+    {"rows":[11093],"finding":"'King' (King Gainer nickname) retained, unnamed speaker not further identified, matching the source's own restraint."},
+    {"rows":[11099],"finding":"'Funnel' capitalized per orchestrator ruling for this scene."},
+    {"rows":[11109],"finding":"'purge' for shukusei (粛清) confirmed register-appropriate, not literal criminal 'punish'."},
+    {"rows":[11114],"finding":"'Anaheim' and 'Psycho-Frame' match encyclopedia_022.json usage (Anaheim, text_id 16) and the orchestrator's Psycho-Frame ruling."},
+    {"rows":[11118],"finding":"'Lalah' (full form 'Lalah Sune') accepted per ruling; no conflicting existing glossary entry found (confirmed by scoped search)."},
+    {"rows":[11130],"finding":"Formal 'you' (貴君) addressee correctly left unnamed; plausibly Bright Noa from context but not asserted, matching BASE_RULES on not supplying what the source omits."},
+    {"rows":[11134],"finding":"'Federation Forces' (連邦軍) matches encyclopedia_022.json usage."}
+  ],
+  "uncertainties":[
+    {"rows":[11079],"issue":"'Don't barge into someone's mind on your own!' renders 人の中に入ってこないで with a generic third-person 'someone's' rather than a reflexive 'my'; both readings preserve the meaning (violation of the speaker's own mind), kept as drafted."},
+    {"rows":[11066],"issue":"'Let's take down the Gundam!' for ガンダムを仕留めるんだ is ambiguous between a command directed at Quess and a joint declarative; both readings support the same in-scene action (covering fire, target the Gundam), kept as drafted."},
+    {"rows":[11154],"issue":"'Let's see how far you can go' for どこまでやれるかな infers the addressee as 'you' (the attacking opponent) from the reply structure; the Japanese is impersonal enough that a self-directed reading ('I wonder how far I can go') is not fully excluded, but the exchange only makes sense as a response to the preceding threat, so the 'you' reading was kept."},
+    {"rows":[11135,11139],"issue":"仲間 is rendered 'comrades' at 11135 (this batch) and 'friends' at 11139 (batch_11138, same scene/speaker group, 4 rows later); a tone-consistency variance, not a meaning error, so left unchanged per BASE_RULES ('leave what is merely different'). Flagged here since it spans two files."}
+  ],
+  "validation":{
+    "controls":"All <op()>/<sp(20)>/<ab(n)>/<ed()> command sequences checked programmatically against the ISO source for exact match and order across all 80 rows; no mismatches.",
+    "format":"No raw carriage returns; \\n line-break counts match source for every row.",
+    "fit":"Visible text (tags stripped) <=110 characters for all 80 rows; longest rows are 11083/11117 at 99-101 visible characters. No sentence-final content dropped.",
+    "ascii":"ASCII-only confirmed for all 80 rows (no fullwidth characters present in this slice).",
+    "runtime":"Runtime scene selection, font coverage and visual fit are not established by this meaning review."
+  }
+}

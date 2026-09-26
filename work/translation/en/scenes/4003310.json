@@ -1,0 +1,203 @@
+{
+ "resource_id": 4003310,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 18,
+ "rows_examined": 18,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "25  Enter the Zone",
+   "notes": "Released mission title reused (missions_019.json slot 300).",
+   "source_sha256": "8e3e4d8319608404d00ce6a42d98de394282a47267edf4dc361958cd16400d99"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30130,1)><speed(2)>Let me explain the <book(76)>Promised Land<endbook()> to you all.",
+   "notes": "Promised Land = book(76) per encyclopedia_022 text_id 76.",
+   "source_sha256": "8d1d9e11012b48c8ded0196010b016ca5db02f0b16b7653365d5c7f9113079d2"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30130,1)><speed(2)>The <book(69)>Scub Coral<endbook()><thumbnail(284)> that forms this Earth's land has been wounded by repeated wars, and has given rise to <book(73)>Antibody Coralians<endbook()>.",
+   "notes": "Scub Coral / Antibody Coralian per mission_terms_019/encyclopedia_022.",
+   "source_sha256": "9b7f4cbb2408b21ffec37ef376b8db8a110cb1e1e91a1cb581520dc3235a8997"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30130,1)><speed(2)>Those <book(73)>Antibody Coralians<endbook()>, driven by <book(51)>Getter Rays<endbook()>, become <book(49)>Invaders<endbook()>, and they keep eroding the <book(69)>Scub Coral<endbook()>.",
+   "notes": "Reordered clause (driven by ... become ...) to keep the four book tags in source order 73,51,49,69.",
+   "source_sha256": "958c988f46fae8096a7aabd4e81253f50042ef7bb5e8a2c0664736ff547ff07b"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30130,1)><speed(2)>Fearing annihilation from this chain of destruction, the will of the <book(69)>Scub Coral<endbook()> fled to the <book(76)>Promised Land<endbook()>.",
+   "notes": "",
+   "source_sha256": "a19f4547a92a2248a873b3e3fd5542a576129ab0ce2f118a8d08ed3e81a94f26"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30130,1)><speed(2)>The <book(76)>Promised Land<endbook()> lies beyond the <book(75)>Zone<endbook()>, and there it longs for dialogue with <color(4)>Eureka<ce()> and her counterpart... <color(4)>Renton<ce()>.",
+   "notes": "'the Zone' lowercase mid-sentence per encyclopedia_022 body convention.",
+   "source_sha256": "b5f6d01dcea7a095beb0e99fd05e3b46345537c12b1c011f68c7c8ffac64fda9"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<thumbdown()><operator(30130,1)><speed(2)>...At last, that time has come.",
+   "notes": "",
+   "source_sha256": "9ebde7820f394e2b4929ed35f599c9b928a37d0908004783c9a335daf908381b"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<topic()><operator(30110,1)><speed(2)>By making contact with <book(46)>D.O.M.E.<endbook()>, we gained the possibility of dialogue with the <book(69)>Scub Coral<endbook()>.",
+   "notes": "D.O.M.E. spelling per character_names_021.json.",
+   "source_sha256": "1a9e94b79e32ec8fe814fd891ea64a0591ca5afc55e44f4e51a74eff6522c173"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30110,1)><speed(2)>But meanwhile, <color(5)>Dewey<ce()><thumbnail(194)> seized control of the <book(38)>New Federation<endbook()>. And the ground attacks by <book(81)>Orange<endbook()> stopped.",
+   "notes": "Dewey per character_names_021 (Dewey Novak, en_short Dewey).",
+   "source_sha256": "bdcbacd6503179e70ed5c8a16a9fffda1b002abad7d005a441bc6de5516b68dd"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30110,1)><speed(2)><color(5)>Dewey<ce()> must have grasped where the <book(69)>Scub Coral<endbook()>'s core, the <book(80)>Command Cluster<endbook()>, lies.",
+   "notes": "Reworded so book(69) precedes book(80), matching source tag order.",
+   "source_sha256": "6d6d3e819719dca45fb848f1df3ad04ba3e09f235e3824b27a8a61255fad2e82"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30110,1)><speed(2)>The <book(80)>Command Cluster<endbook()> lies beyond<thumbnail(285)> the <book(79)>Great Wall<endbook()> we're headed for.",
+   "notes": "",
+   "source_sha256": "25310fbaa69de624a37bf2a3966594eb73ea1a0451b0fbb7a95c137089df3fe3"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30110,1)><speed(2)><color(5)>Dewey<ce()>'s aim is to destroy the <book(80)>Command Cluster<endbook()>. If he does, Earth hits the <book(77)>Limit of Questions<endbook()> and collapses.",
+   "notes": "'Limit of Questions' = locked rendering of Kudan no Genkai (per 4004663.json / batch_05943 orchestrator ruling); source contains book(77). Orchestrator: shortened to fit three lines.",
+   "source_sha256": "e61b42e247a28d0bb6560020b74cd46a74865292a215ad8cd7c002dc7f4ab600"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>Before <color(5)>Dewey<ce()> can beat us to it, we will enter the <book(75)>Zone<endbook()>, no matter what.",
+   "notes": "",
+   "source_sha256": "5daaf88d3fd96462de363c80dc3ac5135b70e05c53a231bff9c9c3e4bfcfc300"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<topic()><operator(30130,1)><speed(2)>From here, I will go meet <color(4)>Sakuya<ce()>, and together we will bring about the Pororoca.",
+   "notes": "-sama honorific on Sakuya dropped per project convention (honorifics dropped elsewhere, e.g. 4003070/-san, 4003200/-kun); see uncertainties.",
+   "source_sha256": "4e1ecd01016b15f3813e04b91462920e6df2cb33af41b9f41a005b9900a8622a"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30130,1)><speed(2)>Through the Pororoca, the barrier stretched over the <book(79)>Great Wall<endbook()><thumbnail(276)> will temporarily reverse, opening a path.",
+   "notes": "Pororoca researched (see glossary_proposals).",
+   "source_sha256": "a4639f54f27eda585ec2991f367d2479cc56a15b33d709318506b63d77e073e1"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30130,1)><speed(2)>Beyond it, connected to the <book(76)>Promised Land<endbook()>, lies the <book(75)>Zone<endbook()>. The ones to open that path are <color(4)>Renton<ce()>, <color(4)>Eureka<ce()>... you two.",
+   "notes": "Restructured so book(76) precedes book(75), matching source tag order.",
+   "source_sha256": "367a6801247e887004b7a2a962b97e275d828ff8aa3cf61eedb2527d07146558"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<thumbdown()><topic()><operator(30110,1)><speed(2)>Once <color(4)>Norb<ce()> and <color(4)>Sakuya<ce()> open the <book(75)>Zone<endbook()>, <color(4)>Renton<ce()> and <color(4)>Eureka<ce()> will lead us into the <book(75)>Zone<endbook()>, and every ship breaks through.",
+   "notes": "",
+   "source_sha256": "1597978a216ab3c6691f303e91b5e6f255a066695457161f83333d2657c05c5e"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(30110,1)><speed(2)>This is a more dangerous operation than any we've faced, but we will absolutely make it succeed... and win our future!",
+   "notes": "",
+   "source_sha256": "8ff133fea2a00683ae8c35edc1ebe87aa0c6217042da17a23835bec7a6bf8c8d"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "book(69) here wraps the full source word for 'Scub Coral', unlike scene 4003320 where book(69) wraps the shortened word for 'Scub' (per corpus precedent batch_05943.json); rendered accordingly per the actual source word each time."
+  },
+  {
+   "slot": 21,
+   "issue": "Clause reordered ('driven by Getter Rays, become Invaders') to keep the four command tags (73,51,49,69) in the same order as the source; meaning unchanged."
+  },
+  {
+   "slot": 28,
+   "issue": "'headed for' placed after the Great Wall tag, with thumbnail(285) sitting between 'beyond' and 'the Great Wall' as in the source; reads slightly compressed."
+  },
+  {
+   "slot": 31,
+   "issue": "Source honorific '-sama' on Sakuya dropped to match project convention of dropping -san/-kun elsewhere (4003070, 4003200); no reviewed precedent found specifically for Sakuya, whom the Vodarac revere, so 'Lady Sakuya' would also be defensible. Flagging for orchestrator call."
+  },
+  {
+   "slot": 33,
+   "issue": "Sentence restructured so 'the Promised Land' (book 76) precedes 'the Zone' (book 75), matching source order, at the cost of a slightly less direct English clause ('Beyond it, connected to the Promised Land, lies the Zone')."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "pororokka",
+   "en": "Pororoca",
+   "source": "https://eurekaseven.fandom.com/wiki/The_Great_Wall ; https://en.wikipedia.org/wiki/Pororoca",
+   "why": "Norb and Sakuya's power to temporarily reverse the Great Wall's barrier so Renton and Eureka can pass through, named after the real Amazon tidal-bore phenomenon; not wrapped in a <book> tag in the source, so treated as a plain researched term rather than a locked book id. No prior project glossary entry found."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 18,
+  "rows_in_scene": 18,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 '25  Enter the Zone' (slot 300).",
+   "All names verified against glossary: Norb (30130), Holland Novak (30110), Dewey/Dewey Novak, Sakuya, D.O.M.E., New Federation (orchestrator decision) all match.",
+   "Slot 31 ruling: Sakuya without the '-sama' honorific accepted per orchestrator ruling; no fix needed.",
+   "Slot 32/33 ruling: 'Pororoca' spelling accepted per orchestrator ruling; no fix needed.",
+   "Slots 21/27/33 tag reorderings (book ids 73/51/49/69, 69/80, 76/75) checked against source tag order and each keeps the source's command order while preserving meaning.",
+   "Slot 28 thumbnail(285) placement checked: sits immediately before the Great Wall mention in both source and English, matching source position; phrasing is compressed but not wrong.",
+   "Command lists, ASCII-only, no newline, and 128-char visible-length limit re-verified for all 18 rows with a throwaway script comparing to tools/scene_source.py output; all pass.",
+   "No lowercase j/q found outside locked names."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: book(69) here wraps the full source word (Scub Coral); no meaning issue, just flagging the corpus has both a full-word and shortened-word usage of book(69) across scenes (see 4003320).",
+   "Slot 28: 'lies beyond the Great Wall we're headed for' is a slightly compressed rendering of the source's two-clause sentence; meaning is intact."
+  ]
+ }
+}

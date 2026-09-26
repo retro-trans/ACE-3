@@ -1,0 +1,221 @@
+{
+ "resource_id": 4003070,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 21,
+ "rows_examined": 21,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "07  Destroy Shin Dragon",
+   "notes": "Released mission title reused.",
+   "source_sha256": "b97947bbf99e2fc81377ffbd6186b2457498cb160dfa998e8252e949c4154cff"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30090,1)><speed(2)>I serve as captain of the <color(4)>Tower<ce()>. I am <color(4)>Hayato Jin<ce()>.",
+   "notes": "Two sentences to keep the Tower span before the name span.",
+   "source_sha256": "c8f0f0c17072544f5138e3f3727d38ab02be0e9060fb0602d6c4a3f643676c89"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30090,1)><speed(2)>Capt. <color(4)>Hoshino<ce()>. I have heard about you and your people. I gather you want information on <color(5)>Berkt<ce()>, but...",
+   "notes": "kanchou -> Capt. (ship captain), although Ruri's rank is Lt. Cmdr. elsewhere.",
+   "source_sha256": "07d346cc73ed18b5ca9c99bee4c3abc2eeef5570c32c0cddb58b1df547c00c8b"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30090,1)><speed(2)>Right now we must move into the operation at once. First, let me explain the <book(48)>Shin Dragon<endbook()>.",
+   "notes": "",
+   "source_sha256": "ddc9fa86c0999ebddbcc63e596ad051abfdaf73af034bb4e2bdaecef9f163f8e"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<topic()><operator(30090,1)><speed(2)>The <book(48)>Shin Dragon<endbook()> is a weapon built by the developer of <book(47)>Getter Robo<endbook()>, Dr. <color(5)>Saotome<ce()><thumbnail(190)>.",
+   "notes": "",
+   "source_sha256": "c34119592cae5b5bd364e50ae191d974c5c100332d1ee6492c31dd3de038aed3"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30090,1)><speed(2)><color(5)>Saotome<ce()> vanished, and even now, 13 years after it was built, its true nature is still not known.",
+   "notes": "",
+   "source_sha256": "6876d58cd836e4c179616356dbeceb1aebfba04e3adb16e47df44abb38715218"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30090,1)><speed(2)>Apart from the fact that a vast amount of <book(51)>Getter Rays<endbook()> is stored up inside it, that is.",
+   "notes": "",
+   "source_sha256": "d356596e16d95155f74952284f6f8986d3ea60fc6fbb0f88626f594e66d5216f"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30090,1)><speed(2)>The <book(49)>Invaders<endbook()><thumbnail(159)> you saw... By nature they seek <book(51)>Getter Rays<endbook()> and come swarming to the <book(48)>Shin Dragon<endbook()>.",
+   "notes": "",
+   "source_sha256": "5cbf1a3e09004e9107461ee12be2230f0fb86a55a052dd623ec873d03e1843aa"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30090,1)><speed(2)>In other words, as long as the <book(48)>Shin Dragon<endbook()> is there, the <book(49)>Invaders<endbook()>' invasion of Earth will never stop.",
+   "notes": "",
+   "source_sha256": "58717553d3c54217a5d2f10835ad6d43b1c63c8838493e85b29bdd0ff2bee18f"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30090,1)><speed(2)>The <book(49)>Invaders<endbook()> are a threat that will lead the world to ruin. The <book(48)>Shin Dragon<endbook()>, their breeding ground, has to be removed.",
+   "notes": "",
+   "source_sha256": "72f9532a30c7b96e17867f6861a0cb5fe29a96e661a19265b96ae3c9eeb3f2fe"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30090,1)><speed(2)>Moments ago, an abnormal energy reading was detected around the <book(48)>Shin Dragon<endbook()>. ...Something is about to happen.",
+   "notes": "Orchestrator: shortened opening clause to fit three lines; meaning unchanged.",
+   "source_sha256": "d42c049bdde97d3c5c13469873808aa5bb53e6856c2acbecfc94c53ea1651aee"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30090,1)><speed(2)>Our operation this time is to destroy the <book(48)>Shin Dragon<endbook()>. I ask for your cooperation.",
+   "notes": "",
+   "source_sha256": "8368784aca3104c58b991fd1f057dd0f270cbf54b47d6e38bc01a9adafe95d35"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<topic()><thumbdown()><operator(30090,1)><speed(2)>Let me also tell you a little about <color(5)>Berkt<ce()>.",
+   "notes": "",
+   "source_sha256": "d1aaa919ff2386169558d709111b7c83c9b9838dd01b5abdeaa4f17406114f69"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30090,1)><speed(2)>He<thumbnail(191)> is a senior <book(38)>New Federation<endbook()> officer whose special duty is to investigate and capture the <book(48)>Shin Dragon<endbook()>.",
+   "notes": "Berkt is male per glossary.json.",
+   "source_sha256": "48e0e3688ac31362f4a0c37c0d6aad7b6443b255fc1de3d707e0e9d4add5fe70"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30090,1)><speed(2)>His force is made up of <color(5)>mobile weapons<ce()> all its own, and we too have fought it a number of times by now.",
+   "notes": "",
+   "source_sha256": "8c7c5d1322fd20b1f0305003d2d1c69e1485c289bbe8581de089bb945b9ec2b0"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30090,1)><speed(2)>But to be honest, what kind of person he is remains largely unknown.",
+   "notes": "",
+   "source_sha256": "bda45e62cd0904298d6d682e3e88c564baf51ed59f894f73e7f25625f744fe87"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30090,1)><speed(2)>...That you are people from another world is, frankly, not something easy to believe right away.",
+   "notes": "",
+   "source_sha256": "c69f6edf73c2b08d5fe227f3be928bcebabed264083fe548b57ee0dd5284d767"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(30090,1)><speed(2)>Still, if you mean to go after <color(5)>Berkt<ce()> to find a lead on that, we will cooperate. Our interests align.",
+   "notes": "",
+   "source_sha256": "e0f4670bf2bd5a0e41d3292d2deeeb259c5496c1f6bab7cdedd2645580c6ffcc"
+  },
+  {
+   "table": 1,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)><color(4)>Hayato<ce()> is right. Let us cooperate with the operation here.",
+   "notes": "Honorific -san dropped.",
+   "source_sha256": "a35bfd0e0ee61fdb66de298b5be91b36c29b0a63c22bcef39525bfe9323a9932"
+  },
+  {
+   "table": 1,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<topic()><operator(30090,1)><speed(2)>Also, <book(47)>Shin Getter<endbook()><thumbnail(192)> will take part in this operation.",
+   "notes": "Shin Getter per unit names/encyclopedia.",
+   "source_sha256": "e594243d309cc7e57ac2dd271de8b40f4770f474745ff4d03e45691d60b99236"
+  },
+  {
+   "table": 1,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(30090,1)><speed(2)>The pilots are <color(4)>Go<ce()>, <color(4)>Kei<ce()> and <color(4)>Gai<ce()>, three in all. They are a handful, but please look after them.",
+   "notes": "",
+   "source_sha256": "234b81587d462b8c1b7e9afc9c2f0a7dca321366e36ddc164baf08654f26d356"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "\"Hoshino kanchou\" -> \"Capt. Hoshino\" (ship's captain); scene 4003040 has Amuro call her \"Lt. Cmdr. Hoshino\" (shousa). Different source words, kept distinct. \"anata-tachi no koto\" -> \"you and your people\"."
+  },
+  {
+   "slot": 31,
+   "issue": "\"kanbu\" rendered \"senior officer\" (glossary role: \"Officer of the New Federation\"); \"executive\" also possible."
+  },
+  {
+   "slot": 36,
+   "issue": "\"Hayato-san\" rendered bare \"Hayato\"; no project convention for -san found in the finished scenes."
+  },
+  {
+   "slot": 37,
+   "issue": "book(47) wraps \"Getter Robo\" in slot 22 and \"Shin Getter\" here, as in the source (two different words under the same book id)."
+  },
+  {
+   "slot": 38,
+   "issue": "\"kuse no aru renchuu\" -> \"a handful\" (avoids the q of \"quirky\")."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 21,
+  "rows_in_scene": 21,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"07  Destroy Shin Dragon\".",
+   "Speakers: 30090 Hayato Jin (all but slot 36), 30030 Ruri Hoshino (slot 36).",
+   "Slot 20 ruling: \"Capt. Hoshino\" follows the orchestrator decision (ship captains are Captain); the source word is kanchou, so it does not conflict with \"Lt. Cmdr.\" (shousa) in 4003040. \"you and your people\" for anata-tachi accepted.",
+   "Slot 31 ruling: \"senior ... officer\" for kanbu accepted; agrees with glossary role \"Officer of the New Federation\". \"He\" is sourced (kare) and Berkt is male in glossary.json. <thumbnail> directly after the pronoun as in the source.",
+   "Slot 36 ruling: dropping -san accepted; reviewed hangar scenes 4004393 and 4004453 also drop it, so this is the de facto project convention.",
+   "Slot 37 ruling: book(47) wrapping \"Getter Robo\" (slot 22) and \"Shin Getter\" (slot 37) mirrors the source; both spellings match unit_names_014 / encyclopedia.",
+   "Slot 38 ruling: \"a handful\" is a fair rendering of kuse no aru renchuu and avoids the q glyph.",
+   "Slot 22: <thumbnail> follows \"Dr. Saotome\" as in the source (after hakase). Slot 25: <thumbnail> follows Invaders.",
+   "Shin Dragon, Getter Rays, Invaders, Tower, Hayato Jin, Berkt, Saotome, Go/Kei/Gai match glossary / encyclopedia spellings."
+  ],
+  "remaining_uncertainties": [
+   "Slot 38: \"yoroshiku tanomu\" rendered \"please look after them\"; could equally be \"I am counting on you\". Both fit, left.",
+   "Slot 29: \"kyouryoku wo negaitai\" -> \"I ask for your cooperation\" supplies \"I\"; Hayato is the only possible asker, left."
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+[
+ {
+  "term_romaji": "Rasshuroddo",
+  "en": "Rushrod",
+  "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer ; https://mmecha.fandom.com/wiki/Siberian_Mecha",
+  "why": "Yassaba Jin's time-stopping Overman; spelling already used in character_names_021 role text but absent from unit-name tables."
+ },
+ {
+  "term_romaji": "oobaasukiru",
+  "en": "Overskill",
+  "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+  "why": "Already used in encyclopedia_022 ('Overskills'); recorded so it is locked for dialogue."
+ },
+ {
+  "term_romaji": "B keikaku",
+  "en": "B Plan",
+  "source": "project translation (ACE3-original term)",
+  "why": "New Federation codename for the Baldora Drive development (row 2042). 'Project B' is equally valid but needs the missing j glyph."
+ },
+ {
+  "term_romaji": "Barudona (surname, as colour-6 keyword)",
+  "en": "Bardona",
+  "source": "work/glossary/glossary.json (Jill Bardona, provisional) vs (Baldora Drive, provisional)",
+  "why": "Row 2044 ties the developer's surname to the drive's name; the source word is identical, so the two locked spellings should be unified by the orchestrator."
+ },
+ {
+  "term_romaji": "Shibe-tetsu",
+  "en": "Sibe-Rail",
+  "source": "see batch_01895 proposals",
+  "why": "Same coinage, used in row 2000.",
+  "status": "withdrawn by review: use Siberian Railway"
+ }
+]

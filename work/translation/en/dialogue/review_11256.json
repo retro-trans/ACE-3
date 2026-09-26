@@ -1,0 +1,35 @@
+{
+  "reviewer": "independent_meaning_review_baldora2_agent",
+  "slice_start": 11256,
+  "slice_count": 80,
+  "rows_examined": [{"start": 11241, "end": 11350}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"ids": ["dialogue_11273", "dialogue_11316"], "finding": "クダンの限界 already rendered 'Limit of Questions' by the interrupted prior reviewer; ruling confirmed and left unchanged."},
+    {"ids": ["dialogue_11303"], "finding": "サイコフレーム already rendered 'Psycho-Frame' by the interrupted prior reviewer; ruling confirmed and left unchanged."},
+    {"ids": ["dialogue_11323"], "finding": "オーバーセンス already rendered one-word 'Oversense' by the interrupted prior reviewer; ruling confirmed and left unchanged."},
+    {"ids": ["dialogue_11278"], "finding": "'our father Bardona' correctly keeps Dr. Jill Bardona's locked surname distinct from the locked 'Baldora Drive' spelling per terms_028.json's open-question note; no change."},
+    {"ids": ["dialogue_11256", "dialogue_11335"], "finding": "No 大尉/イクスブラウ/生命体/艦長 terms occur in this slice; orchestrator decisions on Captain/Ixbrau/unidentified life-forms had nothing to apply here."},
+    {"ids": ["dialogue_11258", "dialogue_11260", "dialogue_11328"], "finding": "Go (號, the Shin Getter core/pilot) kept distinct from the verb 'go' with no collision; spelling matches unit_names_014_a.json."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_11256", "dialogue_11257", "dialogue_11265", "dialogue_11266", "dialogue_11267", "dialogue_11268", "dialogue_11269", "dialogue_11281", "dialogue_11296", "dialogue_11300", "dialogue_11301"],
+      "issue": "Speakers are untagged in the source tables. Checked against adjacent rows and the identity split confirmed at dialogue_11277 ('I am not Barrel'); no speaker identity or gender was invented for lines without a named addressee. Ruling: translator's approach upheld, no fix needed."
+    },
+    {
+      "id": "dialogue_11265",
+      "issue": "おめでとう。お前たちの成果だ。 rendered 'Congratulations. This is your own doing.' Considered whether this drops the positive sense of 成果 (achievement/fruit of effort), but the line is spoken sarcastically (ironic congratulations for having enabled the merging catastrophe), and 'your own doing' preserves that ironic-blame reading without reversing it. Ruling: kept as-is."
+    }
+  ],
+  "validation": {
+    "commands": "Re-checked every row's <...> command sequence against the source corpus (tools/dialogue_corpus.py slice 11256 80 --context 15) with a throwaway script; all 80 rows match in exact order, including rows with no closing <ed()> that continue into the next row as in the source.",
+    "format": "No newline-count mismatches; all visible text (tags removed) is ASCII except the locked fullwidth percent sign (none occur in this slice); longest visible line stayed under 110 characters.",
+    "fit": "No display-fit shortening was needed; full-meaning drafts already fit.",
+    "runtime": "Resource 6350 (mission 29, 'Stop the Baldora Drive 2') scene continuity re-verified from stored table order and text_id groupings; no in-game screenshot verification performed.",
+    "names": "Berkt, Barrel, Faye, Bardona, Baldora Drive, New Federation, Getter Rays, Shin Getter, Shin Dragon, Go, Nirvash, Overdevil, Gainer, Exodus, Newtype, Limit of Questions, Psycho-Frame, and Oversense all confirmed against work/glossary/*.json and the task's locked-term rulings; no misspellings found."
+  }
+}

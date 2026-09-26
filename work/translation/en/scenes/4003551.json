@@ -1,0 +1,107 @@
+{
+ "resource_id": 4003551,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 9,
+ "rows_examined": 9,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Ex-Giganos",
+   "notes": "Faction name; 'Ex-' per names_023.json's Ex-Giganos Officer/Soldier.",
+   "source_sha256": "65683b603e21202a3a4d9432a6049611b423a9f3246526359de74bc632018a26"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Neo Zeon",
+   "notes": "Faction name; locked (character_names_021.json).",
+   "source_sha256": "3bea7d40814c0138b23f0465fc01b3a5772def14191961aee8237f4650610d09"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)><move(1,7,14)>There's no time<marker(1,7,14,0)>, so I will briefly <move(1,8,13)>explain.<marker(3,8,13,0)><move(2,8,13)><picture(51,30,14,0)><refer(30,14,8,13)>",
+   "notes": "",
+   "source_sha256": "90d7c0c607046529afcffee952128bc5a442be2825192e590f3e7fa717bb7b06"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)>This time's<marker(20,0,5,0)><marker(20,0,7,0)> enemy<marker(20,7,7,0)><marker(20,9,7,0)> is a mixed unit<marker(20,14,6,0)><marker(20,14,7,0)><marker(20,14,8,0)><marker(20,14,9,0)> of <book(12)>Neo<marker(20,6,10,0)><marker(20,10,10,0)> Zeon<marker(20,12,11,0)><endbook()><marker(20,2,13,0)> and <book(18)>Giganos<marker(20,14,12,0)><marker(20,12,14,0)><endbook()> remnants.",
+   "notes": "",
+   "source_sha256": "a17f67ebf115019ef2457c1969eec9a303cd037dd6ea8210e50e26caab88a3c4"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>Please take out the <move(1,4,4)><color(5)>ta<marker(22,3,4,0)><marker(22,5,4,0)>rgets<ce()> <move(1,12,2)>deployed<marker(22,11,2,0)><marker(22,13,2,0)> in the operation area.<move(2,13,2)><picture(73,2,7,0)><picture(74,2,14,0)><refer(2,7,3,4)><refer(2,14,5,4)>",
+   "notes": "",
+   "source_sha256": "652fc1c82d0619a086fa878e0b024c77bc5dfc991922f60b8d2abca8b46a2a07"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>The surrounding area is already secured. An Ex-<book(18)>Giganos<endbook()> self-propelled gun, the <move(1,8,2)><color(6)>Infinite Mobile Cannon<ce()>,<marker(37,8,2,0)> is deployed inside it.<danger(1)><move(2,8,2)><picture(72,30,7,0)><refer(30,7,8,2)>",
+   "notes": "Infinite Mobile Cannon per mission_terms_019.json (provisional, no official English name).",
+   "source_sha256": "13af64f24b3c44b5f3fe6ecb65d801b680b30a86fd1d361a6f905aacac3644b6"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)>The <book(9)>Federation<endbook()>'s <book(19)>Dragoon<endbook()> corps<marker(5,4,9,0)> has<marker(5,7,11,0)> already<marker(5,3,12,0)> sortied<marker(5,11,12,0)>, but is struggling against the long-range fire.",
+   "notes": "Orchestrator: shortened to fit three lines.",
+   "source_sha256": "b0a558afb56b91744adbdd79a6d17a0e6ab1c09d6fa9d0304df5a722dfd68ba5"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>If we make it a priority, I think we can keep our allies' losses from growing.",
+   "notes": "",
+   "source_sha256": "8950e756669ab2c0c7866858d894a298dd0d55731fb426f37e7bd0d94e00c37f"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>Well then, I am counting on you.",
+   "notes": "",
+   "source_sha256": "1014fc4fe1dc4e17cba312f8baab4a70d18227759b18f2a68d52c90a7c432853"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 0,
+   "issue": "\"旧ギガノス\" title rendered \"Ex-Giganos\" by analogy with names_023.json's reviewed \"旧ギガノス士官\" -> \"Ex-Giganos Officer\" / \"旧ギガノス兵\" -> \"Ex-Giganos Soldier\"; no bare \"旧ギガノス\" title exists elsewhere to confirm."
+  },
+  {
+   "slot": 22,
+   "issue": "Full first draft (\"The surrounding area has already been suppressed, and inside the operation area, an Ex-Giganos self-propelled gun, the Infinite Mobile Cannon, has been deployed.\") was 161 chars, over the 128 limit; compressed to 125 chars, keeping every fact."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 9,
+  "rows_in_scene": 9,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker 12031 = Ruri Hoshino (all rows); tone/imperative register consistent with her other briefings.",
+   "Slot 0 title 'Ex-Giganos' for source title 'kyuu Giganosu': accepted per orchestrator ruling.",
+   "Slot 22 compression to 125 visible chars (limit 128) keeps every fact from the source (surrounding area secured; Ex-Giganos self-propelled gun 'Infinite Mobile Cannon' deployed inside the operation area); 'Infinite Mobile Cannon' matches mission_terms_019.json.",
+   "Slot 23 'kore no enkyori hougeki' (its long-range bombardment): 'its' correctly refers back to the enemy, not the Dragoon corps; not reversed.",
+   "'Dragoon' matches unit_names_014_a.json; 'Federation' matches released usage.",
+   "Command tags: identical set and order versus source in every row (verified programmatically); no bare %, no newline, ASCII only, no lowercase j/q found."
+  ],
+  "remaining_uncertainties": []
+ }
+}

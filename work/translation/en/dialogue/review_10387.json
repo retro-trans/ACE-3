@@ -1,0 +1,27 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 10387,
+  "slice_count": 70,
+  "rows_examined": [{"start": 10372, "end": 10471}],
+  "rows_examined_count": 100,
+  "rows_in_slice": 70,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [10425, 10426, 10427, 10428, 10429, 10430], "finding": "Confirmed: dialogue_10430 ('サクヤ……') addresses the preceding speaker as Sakuya by name, and character_names_021.json's Sakuya entry ('long isolated; in love with Norb') plus 'the paired ones' framing supports the translator's inference that 10425-10429 is Sakuya speaking to Norb. Correct call."},
+    {"rows": [10398], "finding": "Confirmed: 'ハーリー君' -> 'Harry' matches character_names_021.json's Hari Makibi entry (nickname Harry, bridge assistant who 'adores Ruri'), consistent with a superior giving him an order about the protective unit."},
+    {"rows": [10387, 10388, 10409, 10410, 10411, 10442], "finding": "'Tower' (タワー) correctly identified as a separate escorted mothership from the Gekko (月光号), reusing the spelling already present in encyclopedia_022.json. Consistent usage throughout the slice."},
+    {"rows": [10404, 10405], "finding": "Vent Roll/VRF kept as provisional, source-less renderings; reasonable given no confirmable English term exists, correctly flagged as glossary candidates rather than guessed."}
+  ],
+  "uncertainties": [
+    {"rows": [10426], "issue": "'対の者' rendered as the descriptive 'the paired ones'; no fixed corpus term exists. Ruling: acceptable pending a future glossary decision."},
+    {"rows": [10404, 10405], "issue": "Vent Roll/VRF have no confirmed source. Ruling: acceptable as provisional/flagged terms; not a meaning defect."}
+  ],
+  "validation": {
+    "controls": "Re-checked every <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()> command (including the run of <on()>...<off()> lines at dialogue_10448-10456) against tools/dialogue_corpus.py slice output for all 70 rows; identical and in the same order as source in every row.",
+    "format": "Newline counts match source for all 70 rows.",
+    "fit": "All rows <=110 visible characters; ASCII-only except the fullwidth percent sign at dialogue_10405 ('25%'); no lowercase j/q found.",
+    "meaning": "Compared all 70 rows against the Japanese source (context 10372-10471). No mistranslation, reversed meaning, wrong addressee/subject, invented information, dropped sentence endings, or tone contradiction found. No target fields changed.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

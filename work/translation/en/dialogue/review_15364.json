@@ -1,0 +1,31 @@
+{
+  "reviewer": "independent_translate_dialogue_shouts_agent",
+  "slice_start": 15364,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15349, "end": 15458}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [15364, 15365], "finding": "Correct tail lines of resource 2821040 (Power Golem / Asuham Boone), continuing the boastful/commanding voice used in batch_15284.json before the Dominator block begins."},
+    {"rows": [15366, 15367, 15370, 15374, 15387, 15388, 15404, 15409, 15423, 15430], "finding": "Cynthia Lane's whimsical, game-obsessed register ('New game, start!', 'Game Over', 'Continue', teasing 'as expected, I could love you!') matches character_names_021.json ('Whimsical; treats everything as a game; candy-loving'); katakana loanwords for game vocabulary map cleanly onto the English gaming terms."},
+    {"rows": [15412, 15413, 15418, 15428], "finding": "Several lines shift the source's third-person plural (あいつら/どいつもこいつも, 'them/those guys') to direct second-person address ('you all', 'you small-timers'). Unlike row 15335 in the previous batch, here the referent is unambiguously the group Cynthia is actively fighting (the newly-arrived reinforcements she is taunting face to face), so the person shift does not change who is being addressed; no fix needed."},
+    {"rows": [15430], "finding": "'ゲイナー君' (Gainer-kun) rendered plainly as 'Gainer', dropping the diminutive suffix; matches the locked pilot name (Gainer Sanga, en_short 'Gainer') and Cynthia's established online-gaming-friend relationship with him per character_names_021.json. No nickname invented."},
+    {"rows": [15439, 15440, 15441, 15442, 15443], "finding": "Resource boundary at row 15439 correctly identified as the start of 2821120 (Emperanza-Gachiko / Gain Bijou) per shout_groups.json; only 5 rows fall in this slice, remainder continues in batch_15444.json."},
+    {"rows": [15443], "finding": "Idiom 'お礼参り' rendered as 'thank-you visit' (ironic retaliation) preserves Gain's dry, wisecracking tone rather than flattening to plain 'revenge'; 'Yapan' reused from the locked 'Yapan Exodus' usage in character_names_021.json / terms_028.json."}
+  ],
+  "uncertainties": [
+    {"rows": [15364, 15365], "issue": "Ruling on translator's uncertainty: upheld. Correct continuation of Asuham Boone's voice."},
+    {"rows": [15366, 15367, 15370, 15374, 15387, 15388, 15404, 15409, 15423, 15430], "issue": "Ruling on translator's uncertainty: upheld. Register matches Cynthia Lane's locked personality."},
+    {"rows": [15430], "issue": "Ruling on translator's uncertainty: upheld. Dropping '-kun' for 'Gainer' is standard localization practice and matches the locked short name; no separate diminutive convention exists in the glossary to preserve instead."},
+    {"rows": [15439, 15440, 15441, 15442, 15443], "issue": "Ruling on translator's uncertainty: upheld. Resource/pilot boundary correctly identified; slice-crossing noted for the next batch."},
+    {"rows": [15443], "issue": "Ruling on translator's uncertainty: upheld. Idiom and locked 'Yapan' term both correctly handled."}
+  ],
+  "validation": {
+    "controls": "Re-ran tools/dialogue_corpus.py slice 15364 80 and diffed every <...> command against each target in order; all identical, no newline in any target.",
+    "format": "All 80 targets ASCII-only; visible text (tags stripped) at or under 110 chars for every row.",
+    "fit": "Per-row hard byte budget was validated by the translator's own script per the batch file; not independently re-measured here since this was a meaning-only review.",
+    "runtime": "Runtime scene selection and font coverage are not established by this meaning review."
+  }
+}

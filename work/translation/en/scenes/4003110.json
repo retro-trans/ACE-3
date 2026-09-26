@@ -1,0 +1,66 @@
+{
+ "resource_id": 4003110,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 5,
+ "rows_examined": 5,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "11A Pursue Berkt",
+   "notes": "Released mission title reused (missions_019).",
+   "source_sha256": "c4ae8b535212480de19e9d15a083611933e0add74b1a2dba13a9596e8d49ac94"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)>We have succeeded in tracking down <color(5)>Berkt<ce()>'s force.",
+   "notes": "Speaker 30060 Jamil Neate.",
+   "source_sha256": "70755f91b32f3e48bb35b9c795c12a097eb614858d4813a3b79f268f5c4a24f0"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>We issued a ceasefire demand as a formality, but they are not the type to comply. They have moved to intercept us.",
+   "notes": "Orchestrator: shortened to fit three lines.",
+   "source_sha256": "0fc1c607071ea3c03b4170e2fac79447cfbac3b2ec77796c2a341c1ba6cae053"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>Ahead of us<thumbnail(214)>, an escort force of <color(5)>unmanned units<ce()> is deployed. We will break through them and capture <color(5)>Berkt<ce()>.",
+   "notes": "\"unmanned units\" matches encyclopedia_022's rendering of mujin-ki.",
+   "source_sha256": "5494119510b30d6f7cef693ef9adf8854e7851795cc91c84c3ec5a111f327bcc"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>We cannot afford to let this chance slip by. Go into the operation with your full resolve.",
+   "notes": "",
+   "source_sha256": "02670f76b117d7d07af533bf3fdade4d53260b3daa8e898e23624db4c1ed604e"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 5,
+  "rows_in_scene": 5,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"11A Pursue Berkt\".",
+   "Speaker confirmed via speaker_lookup: 30060 Jamil Neate is the sole speaker for the whole scene.",
+   "Berkt spelling matches glossary.json and character_names_021.json.",
+   "Slot 21 \"unmanned units\" for mujin-ki matches the established rendering in encyclopedia_022.json.",
+   "Command-tag audit: every row's <...> tokens compared programmatically against tools/scene_source.py output for this resource - identical tokens, identical order.",
+   "Format audit: no non-ASCII characters, no literal newlines, no bare '%', no lowercase j/q anywhere in the file, all visible text under the 128-char limit (scripted check)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

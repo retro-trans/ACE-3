@@ -1,0 +1,2047 @@
+{
+  "version": "0.1.36",
+  "review_status": "meaning_reviewed_with_documented_naming_uncertainties",
+  "entries": [
+    {
+      "source": "ブラッドアーク",
+      "en": "Blood Ark",
+      "full_en": "Blood Ark",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Blood Ark"
+    },
+    {
+      "source": "グレイブアーク",
+      "en": "Grave Ark",
+      "full_en": "Grave Ark",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Grave Ark"
+    },
+    {
+      "source": "グレイブアーク・ファントム",
+      "en": "Grave Ark Phantom",
+      "full_en": "Grave Ark Phantom",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Grave Ark Phantom"
+    },
+    {
+      "source": "リスニル",
+      "en": "Risnir",
+      "full_en": "Risnir",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://ja.wikipedia.org/wiki/Another_Century%27s_Episode"
+      ],
+      "display_en": "Risnir"
+    },
+    {
+      "source": "グノスト",
+      "en": "Gnost",
+      "full_en": "Gnost",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://ja.wikipedia.org/wiki/Another_Century%27s_Episode"
+      ],
+      "note": "Gnost spelling from ACE original-unit reference.",
+      "display_en": "Gnost"
+    },
+    {
+      "source": "タントール",
+      "en": "Tannthor",
+      "full_en": "Tannthor",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://ja.wikipedia.org/wiki/Another_Century%27s_Episode"
+      ],
+      "display_en": "Tannthor"
+    },
+    {
+      "source": "スコル",
+      "en": "Skoll",
+      "full_en": "Skoll",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://ja.wikipedia.org/wiki/Another_Century%27s_Episode"
+      ],
+      "display_en": "Skoll"
+    },
+    {
+      "source": "シアスィ",
+      "en": "Thiassi",
+      "full_en": "Thiassi",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://ja.wikipedia.org/wiki/Another_Century%27s_Episode"
+      ],
+      "display_en": "Thiassi"
+    },
+    {
+      "source": "ハーラル",
+      "en": "Harald",
+      "full_en": "Harald",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://ja.wikipedia.org/wiki/Another_Century%27s_Episode"
+      ],
+      "display_en": "Harald"
+    },
+    {
+      "source": "レーヴェ",
+      "en": "Lowe",
+      "full_en": "Lowe",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://akurasu.net/wiki/Units_List/Banpresto_Originals/Unit_Descriptions"
+      ],
+      "display_en": "Lowe"
+    },
+    {
+      "source": "ヴァーゲ",
+      "en": "Waage",
+      "full_en": "Waage",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Waage"
+    },
+    {
+      "source": "シュティーア",
+      "en": "Stier",
+      "full_en": "Stier",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Stier"
+    },
+    {
+      "source": "ザロム",
+      "en": "Zarom",
+      "full_en": "Zarom",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Zarom"
+    },
+    {
+      "source": "ザロムD",
+      "en": "Zarom D",
+      "full_en": "Zarom D",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Zarom D"
+    },
+    {
+      "source": "グリゴリ－０１",
+      "en": "Grigori-01",
+      "full_en": "Grigori-01",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-01"
+    },
+    {
+      "source": "グリゴリ－０６",
+      "en": "Grigori-06",
+      "full_en": "Grigori-06",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-06"
+    },
+    {
+      "source": "グリゴリ－０９",
+      "en": "Grigori-09",
+      "full_en": "Grigori-09",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-09"
+    },
+    {
+      "source": "グリゴリ－Ａ１５",
+      "en": "Grigori-A15",
+      "full_en": "Grigori-A15",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-A15"
+    },
+    {
+      "source": "グリゴリ－Ａ２０",
+      "en": "Grigori-A20",
+      "full_en": "Grigori-A20",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-A20"
+    },
+    {
+      "source": "エリゴル",
+      "en": "Eligor",
+      "full_en": "Eligor",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://akurasu.net/wiki/Units_List/Banpresto_Originals/Unit_Descriptions"
+      ],
+      "display_en": "Eligor"
+    },
+    {
+      "source": "エリゴルカスタム",
+      "en": "Eligor Custom",
+      "full_en": "Eligor Custom",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://akurasu.net/wiki/Units_List/Banpresto_Originals/Unit_Descriptions"
+      ],
+      "display_en": "Eligor Custom"
+    },
+    {
+      "source": "サザビー",
+      "en": "Sazabi",
+      "full_en": "Sazabi",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Sazabi"
+    },
+    {
+      "source": "α・アジール",
+      "en": "Alpha Azieru",
+      "full_en": "Alpha Azieru",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Alpha Azieru"
+    },
+    {
+      "source": "ヤクト・ドーガ（ギュネイ）",
+      "en": "Jagd Doga (Gyunei)",
+      "full_en": "Jagd Doga (Gyunei)",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Jagd Doga (Gyunei)"
+    },
+    {
+      "source": "ヤクト・ドーガ（クェス）",
+      "en": "Jagd Doga (Quess)",
+      "full_en": "Jagd Doga (Quess)",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Jagd Doga (Quess)"
+    },
+    {
+      "source": "ギラ・ドーガ",
+      "en": "Geara Doga",
+      "full_en": "Geara Doga",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Geara Doga"
+    },
+    {
+      "source": "ファルゲン",
+      "en": "Falguen",
+      "full_en": "Falguen",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Falguen"
+    },
+    {
+      "source": "ファルゲンカスタム",
+      "en": "Falguen Custom",
+      "full_en": "Falguen Custom",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Falguen Custom"
+    },
+    {
+      "source": "ゲルフ・マッフ",
+      "en": "Gelf MAFFU",
+      "full_en": "Gelf MAFFU",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Gelf MAFFU"
+    },
+    {
+      "source": "ゲルフ",
+      "en": "Gelf",
+      "full_en": "Gelf",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Gelf"
+    },
+    {
+      "source": "ヤクトゲルフ・マッフ",
+      "en": "Jagd Gelf MAFFU",
+      "full_en": "Jagd Gelf MAFFU",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g13.php"
+      ],
+      "display_en": "Jagd Gelf MAFFU"
+    },
+    {
+      "source": "ヤクトゲルフ",
+      "en": "Jagd Gelf",
+      "full_en": "Jagd Gelf",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g13.php"
+      ],
+      "display_en": "Jagd Gelf"
+    },
+    {
+      "source": "レビゲルフ・マッフ",
+      "en": "Reb Gelf MAFFU",
+      "full_en": "Reb Gelf MAFFU",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g14.php"
+      ],
+      "display_en": "Reb Gelf MAFFU"
+    },
+    {
+      "source": "レビゲルフ",
+      "en": "Reb Gelf",
+      "full_en": "Reb Gelf",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g14.php"
+      ],
+      "display_en": "Reb Gelf"
+    },
+    {
+      "source": "スターク・ダイン",
+      "en": "Stark Deins",
+      "full_en": "Stark Deins",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Stark Deins"
+    },
+    {
+      "source": "スターク・ゲバイ",
+      "en": "Stark Gewei",
+      "full_en": "Stark Gewei",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Stark Gewei"
+    },
+    {
+      "source": "スターク・ダウツェン",
+      "en": "Stark Dauzehn",
+      "full_en": "Stark Dauzehn",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Stark Dauzehn"
+    },
+    {
+      "source": "スターク・ガンドーラ",
+      "en": "Stark Gan-Dolla",
+      "full_en": "Stark Gan-Dolla",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Stark Gan-Dolla"
+    },
+    {
+      "source": "ギルガザムネ",
+      "en": "Gilgazamune",
+      "full_en": "Gilgazamune",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gilgazamune"
+    },
+    {
+      "source": "ギルガザムネ（量産機）",
+      "en": "Gilgazamune (Mass Production Model)",
+      "full_en": "Gilgazamune (Mass Production Model)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Gilgazamune MP"
+    },
+    {
+      "source": "ゲイザム",
+      "en": "Geizum",
+      "full_en": "Geizum",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g15.php"
+      ],
+      "display_en": "Geizum"
+    },
+    {
+      "source": "ドラグーン",
+      "en": "Dragoon",
+      "full_en": "Dragoon",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Dragoon"
+    },
+    {
+      "source": "ダイン・マッフ",
+      "en": "Deins MAFFU",
+      "full_en": "Deins MAFFU",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Deins MAFFU"
+    },
+    {
+      "source": "ダイン",
+      "en": "Deins",
+      "full_en": "Deins",
+      "status": "primary_English_supported",
+      "provisional": false,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g03.php"
+      ],
+      "display_en": "Deins"
+    },
+    {
+      "source": "ゲバイ・マッフ",
+      "en": "Gewei MAFFU",
+      "full_en": "Gewei MAFFU",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Gewei MAFFU"
+    },
+    {
+      "source": "ゲバイ",
+      "en": "Gewei",
+      "full_en": "Gewei",
+      "status": "primary_English_supported",
+      "provisional": false,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g04.php"
+      ],
+      "display_en": "Gewei"
+    },
+    {
+      "source": "ゲバイ・マッフＳＰ",
+      "en": "Gewei MAFFU SP",
+      "full_en": "Gewei MAFFU SP",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Gewei MAFFU SP"
+    },
+    {
+      "source": "ゲバイＳＰ",
+      "en": "Gewei SP",
+      "full_en": "Gewei SP",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Gewei SP"
+    },
+    {
+      "source": "ダウツェン",
+      "en": "Dauzehn",
+      "full_en": "Dauzehn",
+      "status": "primary_English_supported",
+      "provisional": false,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g09.php"
+      ],
+      "display_en": "Dauzehn"
+    },
+    {
+      "source": "ズワイ",
+      "en": "Zuwai",
+      "full_en": "Zuwai",
+      "status": "primary_English_supported",
+      "provisional": false,
+      "sources": [
+        "https://www.dragonar.net/mechanics/g12.php"
+      ],
+      "display_en": "Zuwai"
+    },
+    {
+      "source": "マジン",
+      "en": "Majin",
+      "full_en": "Majin",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Majin"
+    },
+    {
+      "source": "夜天光",
+      "en": "Yatenko",
+      "full_en": "Yatenko",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Yatenko"
+    },
+    {
+      "source": "積尸気",
+      "en": "Shakushiki",
+      "full_en": "Shakushiki",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Shakushiki"
+    },
+    {
+      "source": "六連",
+      "en": "Rokuren",
+      "full_en": "Rokuren",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Rokuren"
+    },
+    {
+      "source": "クァドラン・ロー",
+      "en": "Queadluun-Rau",
+      "full_en": "Queadluun-Rau",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Queadluun-Rau"
+    },
+    {
+      "source": "ヌージャデル・ガー",
+      "en": "Nousjadeul-Ger",
+      "full_en": "Nousjadeul-Ger",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Nousjadeul-Ger"
+    },
+    {
+      "source": "リガード",
+      "en": "Regult",
+      "full_en": "Regult",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Regult"
+    },
+    {
+      "source": "グラージ",
+      "en": "Glaug",
+      "full_en": "Glaug",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Glaug"
+    },
+    {
+      "source": "オウカオー",
+      "en": "Oukaou",
+      "full_en": "Oukaou",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Oukaou"
+    },
+    {
+      "source": "ドハツ・オウカオー",
+      "en": "Dohatsu Oukaou",
+      "full_en": "Dohatsu Oukaou",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Dohatsu Oukaou"
+    },
+    {
+      "source": "ライデン",
+      "en": "Raiden",
+      "full_en": "Raiden",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Raiden"
+    },
+    {
+      "source": "ガンダムヴァサーゴ",
+      "en": "Gundam Virsago",
+      "full_en": "Gundam Virsago",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gundam Virsago"
+    },
+    {
+      "source": "ガンダムヴァサーゴ　チェストブレイク",
+      "en": "Gundam Virsago Chest Break",
+      "full_en": "Gundam Virsago Chest Break",
+      "status": "locked_project; compact_display",
+      "provisional": false,
+      "display_en": "Gundam Virsago CB"
+    },
+    {
+      "source": "ガンダムアシュタロン",
+      "en": "Gundam Ashtaron",
+      "full_en": "Gundam Ashtaron",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gundam Ashtaron"
+    },
+    {
+      "source": "ガンダムアシュタロン　ハーミットクラブ",
+      "en": "Gundam Ashtaron Hermit Crab",
+      "full_en": "Gundam Ashtaron Hermit Crab",
+      "status": "locked_project; compact_display",
+      "provisional": false,
+      "display_en": "Gundam Ashtaron HC"
+    },
+    {
+      "source": "ドートレス",
+      "en": "Daughtress",
+      "full_en": "Daughtress",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Daughtress"
+    },
+    {
+      "source": "ドートレス・ウェポン",
+      "en": "Daughtress Weapon",
+      "full_en": "Daughtress Weapon",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Daughtress Weapon"
+    },
+    {
+      "source": "ドートレス・コマンド",
+      "en": "Daughtress Command",
+      "full_en": "Daughtress Command",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Daughtress Command"
+    },
+    {
+      "source": "ドートレス・フライヤー",
+      "en": "Daughtress Flyer",
+      "full_en": "Daughtress Flyer",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Daughtress Flyer"
+    },
+    {
+      "source": "Ｇビット（Ｄ．Ｏ．Ｍ．Ｅ．）",
+      "en": "G-Bit (D.O.M.E.)",
+      "full_en": "G-Bit (D.O.M.E.)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "G-Bit (D.O.M.E.)"
+    },
+    {
+      "source": "Ｇビット",
+      "en": "G-Bit",
+      "full_en": "G-Bit",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "G-Bit"
+    },
+    {
+      "source": "真ドラゴン　第二形態",
+      "en": "Shin Dragon (Form 2)",
+      "full_en": "Shin Dragon (Form 2)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Shin Dragon (Form 2)"
+    },
+    {
+      "source": "真ドラゴン　最終形態",
+      "en": "Shin Dragon (Final)",
+      "full_en": "Shin Dragon (Final)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Shin Dragon (Final)"
+    },
+    {
+      "source": "ゲッタードラゴン",
+      "en": "Getter Dragon",
+      "full_en": "Getter Dragon",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Getter Dragon"
+    },
+    {
+      "source": "メタルビースト",
+      "en": "Metal Beast",
+      "full_en": "Metal Beast",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Metal Beast"
+    },
+    {
+      "source": "アンダーゴレーム",
+      "en": "Under Golem",
+      "full_en": "Under Golem",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.king-gainer.net/machine/"
+      ],
+      "display_en": "Under Golem"
+    },
+    {
+      "source": "パワーゴレーム",
+      "en": "Power Golem",
+      "full_en": "Power Golem",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Power Golem"
+    },
+    {
+      "source": "ラッシュロッド",
+      "en": "Rushrod",
+      "full_en": "Rushrod",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.king-gainer.net/machine/"
+      ],
+      "display_en": "Rushrod"
+    },
+    {
+      "source": "ブラックメール",
+      "en": "Blackmail",
+      "full_en": "Blackmail",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.king-gainer.net/machine/"
+      ],
+      "display_en": "Blackmail"
+    },
+    {
+      "source": "ドミネーター",
+      "en": "Dominator",
+      "full_en": "Dominator",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Dominator"
+    },
+    {
+      "source": "ブラックドミ",
+      "en": "Black Domi",
+      "full_en": "Black Domi",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.king-gainer.net/machine/"
+      ],
+      "display_en": "Black Domi"
+    },
+    {
+      "source": "ドミネーター（アスハム）",
+      "en": "Dominator (Asuham)",
+      "full_en": "Dominator (Asuham)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Dominator (Asuham)"
+    },
+    {
+      "source": "プラネッタ",
+      "en": "Planetta",
+      "full_en": "Planetta",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Planetta"
+    },
+    {
+      "source": "オーバーデビル",
+      "en": "Overdevil",
+      "full_en": "Overdevil",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Overdevil"
+    },
+    {
+      "source": "ドーベック",
+      "en": "Dobeck",
+      "full_en": "Dobeck",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://www.king-gainer.net/machine/"
+      ],
+      "note": "Game has Dobeck (ドーベック); official site has ドーベッグ. Provisional English Dobeck matches established fan spelling; Japanese source unchanged.",
+      "display_en": "Dobeck"
+    },
+    {
+      "source": "オーバーデビル　Ｂ",
+      "en": "Overdevil B",
+      "full_en": "Overdevil B",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Overdevil B"
+    },
+    {
+      "source": "オーバーデビル　Ｃ",
+      "en": "Overdevil C",
+      "full_en": "Overdevil C",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Overdevil C"
+    },
+    {
+      "source": "ニルバーシュ ｔｙｐｅｔｈｅＥＮＤ",
+      "en": "Nirvash typetheEND",
+      "full_en": "Nirvash typetheEND",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Nirvash typetheEND"
+    },
+    {
+      "source": "スピアヘッド（チャールズ）",
+      "en": "Spearhead (Charles)",
+      "full_en": "Spearhead (Charles)",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Spearhead (Charles)"
+    },
+    {
+      "source": "スピアヘッド（レイ）",
+      "en": "Spearhead (Ray)",
+      "full_en": "Spearhead (Ray)",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Spearhead (Ray)"
+    },
+    {
+      "source": "モンスーノ　ｔｙｐｅ１０",
+      "en": "Monsuno type10",
+      "full_en": "Monsuno type10",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Monsuno type10"
+    },
+    {
+      "source": "モンスーノ　ｔｙｐｅ２０",
+      "en": "Monsuno type20",
+      "full_en": "Monsuno type20",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Monsuno type20"
+    },
+    {
+      "source": "モンスーノ　ｔｙｐｅ１０　ビークルモード",
+      "en": "Monsuno type10 Vehicle Mode",
+      "full_en": "Monsuno type10 Vehicle Mode",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Monsuno 10 Vehicle"
+    },
+    {
+      "source": "モンスーノ　ｔｙｐｅ２０　ビークルモード",
+      "en": "Monsuno type20 Vehicle Mode",
+      "full_en": "Monsuno type20 Vehicle Mode",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Monsuno 20 Vehicle"
+    },
+    {
+      "source": "ゴースト　Ｘ－９",
+      "en": "Ghost X-9",
+      "full_en": "Ghost X-9",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Ghost X-9"
+    },
+    {
+      "source": "自機バスターアーク用リフレクタービット",
+      "en": "Reflector Bit for Player Buster Ark",
+      "full_en": "Reflector Bit for Player Buster Ark",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Player B.Ark Refl. Bit"
+    },
+    {
+      "source": "敵バスターアーク用リフレクタービット",
+      "en": "Reflector Bit for Enemy Buster Ark",
+      "full_en": "Reflector Bit for Enemy Buster Ark",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Enemy B.Ark Refl. Bit"
+    },
+    {
+      "source": "ヘリ（マシンガン）",
+      "en": "Helicopter (Machine Gun)",
+      "full_en": "Helicopter (Machine Gun)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Helicopter (MG)"
+    },
+    {
+      "source": "戦車",
+      "en": "Tank",
+      "full_en": "Tank",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Tank"
+    },
+    {
+      "source": "MLRS",
+      "en": "MLRS",
+      "full_en": "MLRS",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "MLRS"
+    },
+    {
+      "source": "無限機動キャノン　主砲　かめい",
+      "en": "Tracked Cannon Main Gun (Temporary Name)",
+      "full_en": "Tracked Cannon Main Gun (Temporary Name)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Source temporary-name placeholder, not untranslated content.",
+      "display_en": "Tracked Main (Temp.)"
+    },
+    {
+      "source": "無限機動キャノン　副砲１　かめい",
+      "en": "Tracked Cannon Secondary Gun 1 (Temporary Name)",
+      "full_en": "Tracked Cannon Secondary Gun 1 (Temporary Name)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Source temporary-name placeholder, not untranslated content.",
+      "display_en": "Tracked Sub 1 (Temp.)"
+    },
+    {
+      "source": "無限機動キャノン　副砲２　かめい",
+      "en": "Tracked Cannon Secondary Gun 2 (Temporary Name)",
+      "full_en": "Tracked Cannon Secondary Gun 2 (Temporary Name)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Source temporary-name placeholder, not untranslated content.",
+      "display_en": "Tracked Sub 2 (Temp.)"
+    },
+    {
+      "source": "フレイル",
+      "en": "Flail",
+      "full_en": "Flail",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Flail"
+    },
+    {
+      "source": "フレイル　宇宙型",
+      "en": "Flail (Space)",
+      "full_en": "Flail (Space)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Flail (Space)"
+    },
+    {
+      "source": "フレイル　局地戦型",
+      "en": "Flail (Local Combat)",
+      "full_en": "Flail (Local Combat)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Flail (Local Combat)"
+    },
+    {
+      "source": "ベルクト艦　魚雷発射管　かめい",
+      "en": "Berkt's Ship Torpedo Tube (Temporary Name)",
+      "full_en": "Berkt's Ship Torpedo Tube (Temporary Name)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Source temporary-name placeholder, not untranslated content.",
+      "display_en": "Berkt Torp. Tube (Temp.)"
+    },
+    {
+      "source": "オリジナル友軍艦　レーザー砲　かめい",
+      "en": "Original Allied Ship Laser Cannon (Temporary Name)",
+      "full_en": "Original Allied Ship Laser Cannon (Temporary Name)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Source temporary-name placeholder, not untranslated content.",
+      "display_en": "Ally Laser (Temp.)"
+    },
+    {
+      "source": "オリジナル友軍艦　ミサイル発射管　かめい",
+      "en": "Original Allied Ship Missile Tube (Temporary Name)",
+      "full_en": "Original Allied Ship Missile Tube (Temporary Name)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Source temporary-name placeholder, not untranslated content.",
+      "display_en": "Ally Msl. Tube (Temp.)"
+    },
+    {
+      "source": "クレープス",
+      "en": "Krebs",
+      "full_en": "Krebs",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Krebs"
+    },
+    {
+      "source": "ファンネル",
+      "en": "Funnel",
+      "full_en": "Funnel",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Funnel"
+    },
+    {
+      "source": "ドロ",
+      "en": "Doro",
+      "full_en": "Doro",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Doro"
+    },
+    {
+      "source": "タンギー",
+      "en": "Tangi",
+      "full_en": "Tangi",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Tangi"
+    },
+    {
+      "source": "バッタ",
+      "en": "Batta",
+      "full_en": "Batta",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Batta"
+    },
+    {
+      "source": "ミサイル",
+      "en": "Missile",
+      "full_en": "Missile",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Missile"
+    },
+    {
+      "source": "ナデシコＢ",
+      "en": "Nadesico B",
+      "full_en": "Nadesico B",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Nadesico B"
+    },
+    {
+      "source": "ナデシコＣ　",
+      "en": "Nadesico C",
+      "full_en": "Nadesico C",
+      "status": "normalized_locked_project",
+      "provisional": false,
+      "display_en": "Nadesico C"
+    },
+    {
+      "source": "空戦ポッド",
+      "en": "Aerial Combat Pod",
+      "full_en": "Aerial Combat Pod",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Aerial Combat Pod"
+    },
+    {
+      "source": "空戦ポット",
+      "en": "Aerial Combat Pod",
+      "full_en": "Aerial Combat Pod",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Source has ポット, apparently a typo for adjacent identical category 空戦ポッド. Both rendered Aerial Combat Pod.",
+      "display_en": "Aerial Combat Pod"
+    },
+    {
+      "source": "重攻撃機",
+      "en": "Heavy Attack Craft",
+      "full_en": "Heavy Attack Craft",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Heavy Attack Craft"
+    },
+    {
+      "source": "ターゲットドローン",
+      "en": "Target Drone",
+      "full_en": "Target Drone",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Target Drone"
+    },
+    {
+      "source": "衛星砲",
+      "en": "Satellite Cannon",
+      "full_en": "Satellite Cannon",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Satellite Cannon"
+    },
+    {
+      "source": "ピケット艦",
+      "en": "Picket Ship",
+      "full_en": "Picket Ship",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Picket Ship"
+    },
+    {
+      "source": "フリーデン",
+      "en": "Freeden",
+      "full_en": "Freeden",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Freeden (Gundam X ship), not Frieden.",
+      "display_en": "Freeden"
+    },
+    {
+      "source": "インベーダーＡ（小）",
+      "en": "Invader A (S)",
+      "full_en": "Invader A (S)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader A (S)"
+    },
+    {
+      "source": "インベーダーＡ（中）",
+      "en": "Invader A (M)",
+      "full_en": "Invader A (M)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader A (M)"
+    },
+    {
+      "source": "インベーダーＡ（大）",
+      "en": "Invader A (L)",
+      "full_en": "Invader A (L)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader A (L)"
+    },
+    {
+      "source": "インベーダーＢ（小）",
+      "en": "Invader B (S)",
+      "full_en": "Invader B (S)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader B (S)"
+    },
+    {
+      "source": "インベーダーＢ（中）",
+      "en": "Invader B (M)",
+      "full_en": "Invader B (M)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader B (M)"
+    },
+    {
+      "source": "インベーダーＢ（大）",
+      "en": "Invader B (L)",
+      "full_en": "Invader B (L)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader B (L)"
+    },
+    {
+      "source": "インベーダーＣ（小）",
+      "en": "Invader C (S)",
+      "full_en": "Invader C (S)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader C (S)"
+    },
+    {
+      "source": "インベーダーＣ（中）",
+      "en": "Invader C (M)",
+      "full_en": "Invader C (M)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader C (M)"
+    },
+    {
+      "source": "インベーダーＣ（大）",
+      "en": "Invader C (L)",
+      "full_en": "Invader C (L)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Invader C (L)"
+    },
+    {
+      "source": "ブーメラン",
+      "en": "Boomerang",
+      "full_en": "Boomerang",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Boomerang"
+    },
+    {
+      "source": "抗体コーラリアンＡ（小）",
+      "en": "Antibody Coralian A (Small)",
+      "full_en": "Antibody Coralian A (Small)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian A-S"
+    },
+    {
+      "source": "抗体コーラリアンＡ（中）",
+      "en": "Antibody Coralian A (Medium)",
+      "full_en": "Antibody Coralian A (Medium)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian A-M"
+    },
+    {
+      "source": "抗体コーラリアンＡ（大）",
+      "en": "Antibody Coralian A (Large)",
+      "full_en": "Antibody Coralian A (Large)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian A-L"
+    },
+    {
+      "source": "抗体コーラリアンＢ（小）",
+      "en": "Antibody Coralian B (Small)",
+      "full_en": "Antibody Coralian B (Small)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian B-S"
+    },
+    {
+      "source": "抗体コーラリアンＢ（中）",
+      "en": "Antibody Coralian B (Medium)",
+      "full_en": "Antibody Coralian B (Medium)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian B-M"
+    },
+    {
+      "source": "抗体コーラリアンＢ（大）",
+      "en": "Antibody Coralian B (Large)",
+      "full_en": "Antibody Coralian B (Large)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian B-L"
+    },
+    {
+      "source": "抗体コーラリアンＣ（小）",
+      "en": "Antibody Coralian C (Small)",
+      "full_en": "Antibody Coralian C (Small)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian C-S"
+    },
+    {
+      "source": "抗体コーラリアンＣ（中）",
+      "en": "Antibody Coralian C (Medium)",
+      "full_en": "Antibody Coralian C (Medium)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian C-M"
+    },
+    {
+      "source": "抗体コーラリアンＣ（大）",
+      "en": "Antibody Coralian C (Large)",
+      "full_en": "Antibody Coralian C (Large)",
+      "status": "literal_variant",
+      "provisional": false,
+      "display_en": "Antibody Coralian C-L"
+    },
+    {
+      "source": "月光号",
+      "en": "Gekko",
+      "full_en": "Gekko",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gekko"
+    },
+    {
+      "source": "セプティン",
+      "en": "Septin",
+      "full_en": "Septin",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "sources": [
+        "https://akurasu.net/wiki/Units_List/Banpresto_Originals/Unit_Descriptions"
+      ],
+      "display_en": "Septin"
+    },
+    {
+      "source": "クレイド",
+      "en": "Clade",
+      "full_en": "Clade",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Provisional Clade; no relevant external spelling confirmed.",
+      "display_en": "Clade"
+    },
+    {
+      "source": "ロングレンジキャノン",
+      "en": "Long-Range Cannon",
+      "full_en": "Long-Range Cannon",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Long-Range Cannon"
+    },
+    {
+      "source": "ラー・カイラム",
+      "en": "Ra Cailum",
+      "full_en": "Ra Cailum",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Ra Cailum"
+    },
+    {
+      "source": "クラップ級軽巡洋艦",
+      "en": "Clop-class Light Cruiser",
+      "full_en": "Clop-class Light Cruiser",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Clop Light Cruiser"
+    },
+    {
+      "source": "レウルーラ",
+      "en": "Rewloola",
+      "full_en": "Rewloola",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Rewloola"
+    },
+    {
+      "source": "ムサカ級軽巡洋艦",
+      "en": "Musaka-class Light Cruiser",
+      "full_en": "Musaka-class Light Cruiser",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Musaka Light Cruiser"
+    },
+    {
+      "source": "アマゾン",
+      "en": "Amazon",
+      "full_en": "Amazon",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Amazon"
+    },
+    {
+      "source": "輸送哨戒機",
+      "en": "Transport Patrol Craft",
+      "full_en": "Transport Patrol Craft",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Transport Patrol Craft"
+    },
+    {
+      "source": "フンボルト",
+      "en": "Humboldt",
+      "full_en": "Humboldt",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Humboldt"
+    },
+    {
+      "source": "宇宙高速艇",
+      "en": "Fast Space Boat",
+      "full_en": "Fast Space Boat",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Fast Space Boat"
+    },
+    {
+      "source": "無限機動砲",
+      "en": "Tracked Cannon",
+      "full_en": "Tracked Cannon",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Literal game source uses 機動; live scene equivalent uses 軌道. Tracked Cannon follows the unambiguous tracked-vehicle label.",
+      "display_en": "Tracked Cannon"
+    },
+    {
+      "source": "ナデシコＣ",
+      "en": "Nadesico C",
+      "full_en": "Nadesico C",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Nadesico C"
+    },
+    {
+      "source": "木連型駆逐艦",
+      "en": "Jovian-type Destroyer",
+      "full_en": "Jovian-type Destroyer",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Jovian Destroyer"
+    },
+    {
+      "source": "ピケット艦Ｂ",
+      "en": "Picket Ship B",
+      "full_en": "Picket Ship B",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Picket Ship B"
+    },
+    {
+      "source": "マクロス",
+      "en": "Macross",
+      "full_en": "Macross",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Macross"
+    },
+    {
+      "source": "新連邦軍超大型輸送機",
+      "en": "New Federation Forces Superheavy Transport Aircraft",
+      "full_en": "New Federation Forces Superheavy Transport Aircraft",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "NF Superheavy Transp."
+    },
+    {
+      "source": "ドリテア護衛艦",
+      "en": "Doritea Escort Ship",
+      "full_en": "Doritea Escort Ship",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Provisional Doritea; exact established English ship spelling not confirmed.",
+      "display_en": "Doritea Escort"
+    },
+    {
+      "source": "テンザン級陸上戦艦",
+      "en": "Tenzan-class Land Battleship",
+      "full_en": "Tenzan-class Land Battleship",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Tenzan Land Battleship"
+    },
+    {
+      "source": "タワー",
+      "en": "Tower",
+      "full_en": "Tower",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Tower"
+    },
+    {
+      "source": "列車",
+      "en": "Train",
+      "full_en": "Train",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Train"
+    },
+    {
+      "source": "銀河号",
+      "en": "Ginga",
+      "full_en": "Ginga",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Ginga is a proper ship name, not a generic galaxy.",
+      "display_en": "Ginga"
+    },
+    {
+      "source": "ローランド",
+      "en": "Roland",
+      "full_en": "Roland",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Provisional Roland; game label is retained, not substituted with Izumo-class without evidence.",
+      "display_en": "Roland"
+    },
+    {
+      "source": "ミサイル艦",
+      "en": "Missile Ship",
+      "full_en": "Missile Ship",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Missile Ship"
+    },
+    {
+      "source": "イクスブラウ",
+      "en": "Ixbrau",
+      "full_en": "Ixbrau",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Ixbrau"
+    },
+    {
+      "source": "タップ",
+      "en": "Tapp",
+      "full_en": "Tapp",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Tapp"
+    },
+    {
+      "source": "ハーリー",
+      "en": "Harry",
+      "full_en": "Harry",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Harry"
+    },
+    {
+      "source": "ガルド",
+      "en": "Guld",
+      "full_en": "Guld",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Guld"
+    },
+    {
+      "source": "ベルクト艦　魚雷発射管",
+      "en": "Berkt's Ship Torpedo Tube",
+      "full_en": "Berkt's Ship Torpedo Tube",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Berkt Torpedo Tube"
+    },
+    {
+      "source": "ガンダムＸ",
+      "en": "Gundam X",
+      "full_en": "Gundam X",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gundam X"
+    },
+    {
+      "source": "ガンダムレオパルド",
+      "en": "Gundam Leopard",
+      "full_en": "Gundam Leopard",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gundam Leopard"
+    },
+    {
+      "source": "ガンダムエアマスター",
+      "en": "Gundam Airmaster",
+      "full_en": "Gundam Airmaster",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gundam Airmaster"
+    },
+    {
+      "source": "インベーダー",
+      "en": "Invaders",
+      "full_en": "Invaders",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Invaders"
+    },
+    {
+      "source": "ウィッツ",
+      "en": "Witz",
+      "full_en": "Witz",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Witz"
+    },
+    {
+      "source": "ロアビィ",
+      "en": "Roybea",
+      "full_en": "Roybea",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Roybea"
+    },
+    {
+      "source": "サラ",
+      "en": "Sala",
+      "full_en": "Sala",
+      "status": "locked_project",
+      "provisional": false,
+      "note": "Locked source lookup yields Sala. No pilot/name rewriting performed.",
+      "display_en": "Sala"
+    },
+    {
+      "source": "シャギア",
+      "en": "Shagia",
+      "full_en": "Shagia",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Shagia"
+    },
+    {
+      "source": "オルバ",
+      "en": "Olba",
+      "full_en": "Olba",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Olba"
+    },
+    {
+      "source": "ニルバーシュ",
+      "en": "Nirvash",
+      "full_en": "Nirvash",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Nirvash"
+    },
+    {
+      "source": "タルホ",
+      "en": "Talho",
+      "full_en": "Talho",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Talho"
+    },
+    {
+      "source": "ギジェット",
+      "en": "Gidget",
+      "full_en": "Gidget",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gidget"
+    },
+    {
+      "source": "ドミニク",
+      "en": "Dominic",
+      "full_en": "Dominic",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Dominic"
+    },
+    {
+      "source": "ユルゲンス",
+      "en": "Jurgens",
+      "full_en": "Jurgens",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Jurgens"
+    },
+    {
+      "source": "キングゲイナー",
+      "en": "King Gainer",
+      "full_en": "King Gainer",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "King Gainer"
+    },
+    {
+      "source": "ヤッサバ",
+      "en": "Yassaba",
+      "full_en": "Yassaba",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Yassaba"
+    },
+    {
+      "source": "ドートレス（インベーダー）",
+      "en": "Daughtress (Invader)",
+      "full_en": "Daughtress (Invader)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Daughtress (Invader)"
+    },
+    {
+      "source": "グリゴリ０１",
+      "en": "Grigori-01",
+      "full_en": "Grigori-01",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-01"
+    },
+    {
+      "source": "真ゲッター１",
+      "en": "Shin Getter-1",
+      "full_en": "Shin Getter-1",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Shin Getter-1"
+    },
+    {
+      "source": "大型輸送機（インベーダー）",
+      "en": "Heavy Transport Aircraft (Invader)",
+      "full_en": "Heavy Transport Aircraft (Invader)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Hvy. Transp. (Invader)"
+    },
+    {
+      "source": "渓",
+      "en": "Kei",
+      "full_en": "Kei",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Kei"
+    },
+    {
+      "source": "凱",
+      "en": "Gai",
+      "full_en": "Gai",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gai"
+    },
+    {
+      "source": "隼人",
+      "en": "Hayato",
+      "full_en": "Hayato",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Hayato"
+    },
+    {
+      "source": "弁慶",
+      "en": "Benkei",
+      "full_en": "Benkei",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Benkei"
+    },
+    {
+      "source": "早乙女",
+      "en": "Dr. Saotome",
+      "full_en": "Dr. Saotome",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Dr. Saotome"
+    },
+    {
+      "source": "マイヨ",
+      "en": "Meio",
+      "full_en": "Meio",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Meio"
+    },
+    {
+      "source": "北辰",
+      "en": "Hokushin",
+      "full_en": "Hokushin",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Hokushin"
+    },
+    {
+      "source": "無限軌道砲",
+      "en": "Tracked Cannon",
+      "full_en": "Tracked Cannon",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Tracked Cannon"
+    },
+    {
+      "source": "リュクス",
+      "en": "Luxe",
+      "full_en": "Luxe",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Luxe"
+    },
+    {
+      "source": "サコミズ",
+      "en": "Sakomizu",
+      "full_en": "Sakomizu",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Sakomizu"
+    },
+    {
+      "source": "ギュネイ",
+      "en": "Gyunei",
+      "full_en": "Gyunei",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Gyunei"
+    },
+    {
+      "source": "リョーコ",
+      "en": "Ryoko",
+      "full_en": "Ryoko",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Ryoko"
+    },
+    {
+      "source": "グリゴリ０６",
+      "en": "Grigori-06",
+      "full_en": "Grigori-06",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-06"
+    },
+    {
+      "source": "ウイングガンダムゼロ",
+      "en": "Wing Gundam Zero",
+      "full_en": "Wing Gundam Zero",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Wing Gundam Zero"
+    },
+    {
+      "source": "ヒイロ",
+      "en": "Heero",
+      "full_en": "Heero",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Heero"
+    },
+    {
+      "source": "抗体コーラリアン",
+      "en": "Antibody Coralian",
+      "full_en": "Antibody Coralian",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Antibody Coralian"
+    },
+    {
+      "source": "ルチル",
+      "en": "Lucille Liliant",
+      "full_en": "Lucille Liliant",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Lucille Liliant"
+    },
+    {
+      "source": "アスハム",
+      "en": "Asuham",
+      "full_en": "Asuham",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Asuham"
+    },
+    {
+      "source": "シンシア",
+      "en": "Cynthia",
+      "full_en": "Cynthia",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Cynthia"
+    },
+    {
+      "source": "ブラックゲッター",
+      "en": "Black Getter",
+      "full_en": "Black Getter",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Black Getter"
+    },
+    {
+      "source": "オリジナル友軍艦　レーザー砲",
+      "en": "Original Allied Ship Laser Cannon",
+      "full_en": "Original Allied Ship Laser Cannon",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Allied Ship Laser"
+    },
+    {
+      "source": "オリジナル友軍艦　ミサイル発射管",
+      "en": "Original Allied Ship Missile Tube",
+      "full_en": "Original Allied Ship Missile Tube",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Ally Ship Missile Tube"
+    },
+    {
+      "source": "ゴースト",
+      "en": "Ghost",
+      "full_en": "Ghost",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Ghost"
+    },
+    {
+      "source": "輝",
+      "en": "Hikaru",
+      "full_en": "Hikaru",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Hikaru"
+    },
+    {
+      "source": "マックス",
+      "en": "Max",
+      "full_en": "Max",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Max"
+    },
+    {
+      "source": "フォッカー",
+      "en": "Focker",
+      "full_en": "Focker",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Focker"
+    },
+    {
+      "source": "ヒカル",
+      "en": "Hikaru",
+      "full_en": "Hikaru",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Hikaru"
+    },
+    {
+      "source": "ナナジン",
+      "en": "Nanajin",
+      "full_en": "Nanajin",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Nanajin"
+    },
+    {
+      "source": "イネス",
+      "en": "Inez",
+      "full_en": "Inez",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Inez"
+    },
+    {
+      "source": "グリゴリ０９",
+      "en": "Grigori-09",
+      "full_en": "Grigori-09",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-09"
+    },
+    {
+      "source": "レズン",
+      "en": "Rezin",
+      "full_en": "Rezin",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Rezin"
+    },
+    {
+      "source": "イズミ",
+      "en": "Izumi",
+      "full_en": "Izumi",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Izumi"
+    },
+    {
+      "source": "月臣",
+      "en": "Tsukiomi",
+      "full_en": "Tsukiomi",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Tsukiomi"
+    },
+    {
+      "source": "無限機動キャノン　主砲",
+      "en": "Tracked Cannon Main Gun",
+      "full_en": "Tracked Cannon Main Gun",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Tracked Main Gun"
+    },
+    {
+      "source": "無限機動キャノン　ふく砲",
+      "en": "Tracked Cannon Secondary Gun",
+      "full_en": "Tracked Cannon Secondary Gun",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Tracked Secondary Gun"
+    },
+    {
+      "source": "カシマル",
+      "en": "Kashmir",
+      "full_en": "Kashmir",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Kashmir"
+    },
+    {
+      "source": "グリゴリＡ２０",
+      "en": "Grigori-A20",
+      "full_en": "Grigori-A20",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-A20"
+    },
+    {
+      "source": "チャールズ",
+      "en": "Charles",
+      "full_en": "Charles",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Charles"
+    },
+    {
+      "source": "レイ",
+      "en": "Ray",
+      "full_en": "Ray",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Ray"
+    },
+    {
+      "source": "デューイ",
+      "en": "Dewey",
+      "full_en": "Dewey",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Dewey"
+    },
+    {
+      "source": "ベア",
+      "en": "Bear",
+      "full_en": "Bear",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Bear"
+    },
+    {
+      "source": "真ドラゴン",
+      "en": "Shin Dragon",
+      "full_en": "Shin Dragon",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Shin Dragon"
+    },
+    {
+      "source": "ガンダムヴァサーゴＣＢ",
+      "en": "Gundam Virsago Chest Break",
+      "full_en": "Gundam Virsago Chest Break",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Gundam Virsago CB"
+    },
+    {
+      "source": "ガンダムアシュタロンＨＣ",
+      "en": "Gundam Ashtaron Hermit Crab",
+      "full_en": "Gundam Ashtaron Hermit Crab",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Gundam Ashtaron HC"
+    },
+    {
+      "source": "ノルブ",
+      "en": "Norb",
+      "full_en": "Norb",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Norb"
+    },
+    {
+      "source": "サクヤ",
+      "en": "Sakuya",
+      "full_en": "Sakuya",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Sakuya"
+    },
+    {
+      "source": "アドラス",
+      "en": "Adras",
+      "full_en": "Adras",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "note": "Provisional Adras; source scene label identity not yet confirmed.",
+      "display_en": "Adras"
+    },
+    {
+      "source": "抗体コーラリアン（大）",
+      "en": "Antibody Coralian (Large)",
+      "full_en": "Antibody Coralian (Large)",
+      "status": "provisional_or_literal",
+      "provisional": true,
+      "display_en": "Antibody Coralian (L)"
+    },
+    {
+      "source": "クェス",
+      "en": "Quess",
+      "full_en": "Quess",
+      "status": "locked_project",
+      "provisional": false,
+      "display_en": "Quess"
+    },
+    {
+      "source": "グリゴリＡ１５",
+      "en": "Grigori-A15",
+      "full_en": "Grigori-A15",
+      "status": "researched_family",
+      "provisional": false,
+      "display_en": "Grigori-A15"
+    }
+  ],
+  "do_not_touch_names": [
+    "Berkt",
+    "Rushrod",
+    "Seven Swell",
+    "Ark Rifle",
+    "Ion Bullet Rifle",
+    "Slit Wafer"
+  ]
+}

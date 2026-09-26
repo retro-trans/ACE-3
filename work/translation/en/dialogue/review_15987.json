@@ -1,0 +1,25 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 15987,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15972, "end": 16081}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [15987, 15988, 15989], "finding": "Confirmed against work/ui/shout_groups.json: 2823030 (Terminus 303) and 2823040 (Terminus 909) are both Holland Novak switching machines; the near-duplicate return lines (ぐ……３０３、帰還する……！ / たいしたこたぁなかったな。 / ９０９、帰還する！) are correctly mirrored, matching the source's own near-repetition. No fix needed."},
+    {"rows": [15990, 16066], "finding": "Checked work/glossary/character_names_021.json: Charles Beams (resource 2823070) has no personality field on record ('No personality description in opened sources'). The translator's inferred laid-back, cocky mercenary tone is consistent with every line reviewed in this slice (景気よくいこうぜ, 腕が鰦ったわけじゃねーだろうな？, 帰ってメシにしようぜ). Reasonable, not a fix candidate."},
+    {"rows": [16024], "finding": "そんなんで生き残れるほど甘くはないぜ？ is a statement in the source; target 'You won't survive like that?' turns it into a rhetorical question. Same taunting sense preserved (challenging the target's approach), not a reversal; left as phrasing."},
+    {"rows": [16043], "finding": "簡単には見逃しちゃくれねーか - subject is 'you (won't let me go)'; target 'Not letting this slide easy!' keeps the subject implicit rather than reassigning it, which is consistent with source ambiguity. No fix needed."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "All rows share the identical command sequence <op()><sp(20)>...<ab(1000)><ed()> in the same order as the source; verified against tools/dialogue_corpus.py slice 15987 80 --context 15 for every row in this slice plus 15 rows of context each side.",
+    "format": "No newlines in any target; no multi-line source rows in this slice required joining.",
+    "ascii": "ASCII only, no bare lowercase j/q outside locked names (none needed), no unintended fullwidth characters.",
+    "fit": "Every row's visible text re-checked against min(72, 2*source_japanese_char_count - 2); all rows pass with no meaning fix required.",
+    "names": "No character or unit names appear in this slice's visible text.",
+    "meaning_review": "Independent meaning review completed for all 80 rows; 0 rows received a meaning fix; every row set to 'meaning_reviewed'."
+  }
+}

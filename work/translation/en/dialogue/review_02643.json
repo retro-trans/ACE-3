@@ -1,0 +1,35 @@
+{
+  "reviewer": "independent_meaning_review_dialogue_2643_agent",
+  "slice_start": 2643,
+  "slice_count": 60,
+  "rows_examined": [{"start": 2628, "end": 2717}],
+  "rows_examined_count": 90,
+  "rows_in_slice": 60,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {"id": "dialogue_02683", "before": "<on()><sp(20)>Missing since the <book(4)>Defensive War<endbook()> two years ago,\neven <book(9)>Federation<endbook()> forces\nhad no lead on him.", "after": "<on()><sp(20)>Missing since the <book(4)>First Defensive War<endbook()> two years ago,\neven <book(9)>Federation<endbook()> forces\nhad no lead on him.", "reason": "Source drops the 第一次 (First) prefix here (bare 防衛戦争), but book(4) is the exact book id already locked to 'First Defensive War' at dialogue_01111 (batch_01073, reviewed in review_01073.json), where the source spells it out in full (第一次防衛戦争). A book id is a link to one specific encyclopedia entry, so the same id occurring with an abbreviated Japanese reference confirms this is the same war, satisfying the orchestrator's rule to keep 'First Defensive War' when context clearly points to the same event. Resolves the translator's own flagged uncertainty in favor of the locked term."}
+  ],
+  "checked_decisions": [
+    {"rows": [2643, 2644, 2645, 2646, 2649, 2651, 2652, 2653, 2654, 2655, 2656], "finding": "Untagged allies/bystanders reacting to Meio Plato confirmed: no identity or gender invented; 'he'/'that one' correctly resolve to Meio Plato, already named in the previous slice (2622-2623)."},
+    {"rows": [2648], "finding": "実の妹 ('his own/real sister') correctly left unnamed. character_names_021.json names Meio Plato's sister 'Linda' only in his role-description metadata, not in any spoken line reviewed so far; supplying the name here would be inventing information the source dialogue itself omits."},
+    {"rows": [2659, 2660, 2661, 2662, 2663, 2664, 2665], "finding": "Branch/route lines for the Meio Plato encounter (time-out at 2658, new-enemy branch 2659-2660, solo-declaration branch 2661-2662, plea-not-to-fight branch 2663-2664, player choice at 2665) translated literally per-line without merging into a single storyline or assuming which branch is canon. Confirmed reasonable; this is a scene-mapping question, not a translation defect."},
+    {"rows": [2666], "finding": "Scene break into the untimed post-mission <on()> conference (resource 6080, text ids 501-653, no <ab>/<off>) confirmed against the source table offsets, matching the same pattern already documented for rows 2375-2437 in batch_02375."},
+    {"rows": [2679], "finding": "司令 ('the commander') correctly kept generic rather than re-inserting 'Misumaru' (named two rows earlier at 2668); the source itself does not repeat the name, and the referent is inferable from the immediately preceding lines."},
+    {"rows": [2693], "finding": "'That drone' (例の無人機) checked against the full corpus for any earlier 無人機/drone reference tied to Berkt or this arc; none exists in the reviewed dialogue (only an unrelated 'support drones' line far later, batch_03883). The antecedent is genuinely unresolvable from available context; kept vague as the translator did, which is the correct call rather than guessing."},
+    {"rows": [2691], "finding": "'Baldora Charge' for book(2) checked against the corpus: book(2) consistently maps to 'Baldora Charge' elsewhere (batch_02375, batch_03310, batch_04736), distinct from book(1) 'Baldora Drive'. Term choice is correct and consistent; the translator's flagged question of whether the two concepts should eventually be unified is a standing open item in terms_028.json, not a meaning error here."},
+    {"rows": [2672, 2673, 2678], "finding": "'One Year War', 'Red Comet', and Char Aznable's characterization checked against character_names_021.json (nickname 'The Red Comet', role Neo Zeon leader) and the orchestrator's acceptance of 'One Year War'; no discrepancy."},
+    {"rows": [2669, 2673, 2685], "finding": "color(5)/book(12) command order for Char Aznable / Neo Zeon / Zeon Army references checked against source and reproduced in the same order in each row."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_02693"], "issue": "Carried forward from the translator: 'that drone' (例の無人機) has no resolvable antecedent anywhere in the corpus reviewed so far. Left vague; if an earlier batch not yet translated establishes this drone, whoever translates it should cross-check this row."},
+    {"ids": ["dialogue_02691"], "issue": "Carried forward from the translator and terms_028.json: whether 'Baldora Charge' (book 2) and 'Baldora Drive' (book 1) / 'Baldora particles' should ultimately be unified is an open orchestrator question, not resolved by this review."},
+    {"ids": ["dialogue_02644", "dialogue_02646", "dialogue_02652"], "issue": "'him'/'he' inserted for Meio Plato where the Japanese omits the object/subject (e.g. 戦いたくはない has no stated object). Accepted because the immediately surrounding rows (2642-2647) unambiguously establish Meio Plato as the referent, not because a subject was invented from nothing."},
+    {"ids": ["dialogue_02661", "dialogue_02666", "dialogue_02668", "dialogue_02686", "dialogue_02687", "dialogue_02692", "dialogue_02701"], "issue": "Rows contain lowercase j or q outside a locked name (e.g. 'journey', 'insult', 'injury', 'joint', 'headquarters', 'chase', 'just'). Not rewritten: this is a meaning-only pass and rewriting purely to avoid a glyph risks changing register without a meaning gain; the already-reviewed batch_01073 corpus tolerates the same pattern. Flagging for a dedicated font/style pass."}
+  ],
+  "validation": {
+    "controls": "Every source <...> command reproduced in the same order for all 60 rows, including color(4)/color(5)/book(2)/book(4)/book(9)/book(12)/book(18)/book(38)/book(48)/endbook()/ce() spans, verified programmatically against a fresh tools/dialogue_corpus.py slice; the one meaning fix (2683) kept the book(4) id and command order unchanged.",
+    "format": "No raw carriage returns; \\n line-break counts unchanged from source (verified per row).",
+    "fit": "Visible text (tags and \\n removed) checked <=110 characters for every row, including after the 2683 fix (93 characters).",
+    "runtime": "Runtime scene selection, font glyph coverage, and on-screen visual fit are not established by this meaning review."
+  }
+}

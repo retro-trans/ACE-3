@@ -1,0 +1,62 @@
+{
+  "slice_start": 11416,
+  "slice_count": 5,
+  "rows_examined": [
+    [
+      11401,
+      11435
+    ]
+  ],
+  "rows_examined_count": 35,
+  "rows_in_slice": 5,
+  "rows": [
+    {
+      "id": "dialogue_11416",
+      "target": "<on()><sp(20)>So what will you do?\nAfter you stop the Baldora Drive.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11417",
+      "target": "<on()><sp(20)>You've got a plan, right?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11418",
+      "target": "<on()><sp(20)>...There's no such thing.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11419",
+      "target": "<on()><sp(20)>W-wait a second!\n...Then...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11420",
+      "target": "<on()><sp(20)>I'll stick with you just a little longer.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_11416",
+        "dialogue_11417",
+        "dialogue_11418",
+        "dialogue_11419",
+        "dialogue_11420"
+      ],
+      "note": "Continuation of the unlabeled Barrel/Faye farewell exchange begun at 11402-11409 (context rows); no new speaker identity invented beyond what those rows already establish by direct address."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket command tokens preserved in exact source order, including rows with no closing <ed()> which continue directly into the following row as in the source (e.g. 11261-11263, 11266, 11269-11270, 11272-11274, 11279, 11282-11284, 11289, 11292, 11294, 11301, 11305, 11309, 11311-11312, 11318, 11326, 11330, 11337, 11347, 11392).",
+    "meaning_review": "Independent meaning review performed; all 5 rows in slice examined and set to meaning_reviewed (none left as draft).",
+    "fit": "Full meaning drafted first, without shortening for display; longest visible strings measured below 110 characters.",
+    "runtime": "Resource 6350 (mission 29, 'Stop the Baldora Drive 2') scene continuity verified from the corpus's stored table order and text_id groupings; no in-game screenshot verification performed."
+  }
+}

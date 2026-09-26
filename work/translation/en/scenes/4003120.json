@@ -1,0 +1,158 @@
+{
+ "resource_id": 4003120,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 15,
+ "rows_examined": 15,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "09B Coralian Contact",
+   "notes": "Released mission title reused (missions_019.json text_id 120).",
+   "source_sha256": "203e7faaff98553c1b167b7eb845964a469fe1f6c9fb30621147bedd6eeb087e"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)>Our immediate goal is to determine <color(5)>Berkt<ce()>'s whereabouts.",
+   "notes": "\"goal\" per locked term (avoids j in \"objective\").",
+   "source_sha256": "82c1a66f71e054b34d306802c323f252babf9d060c42b5c182847d08a8d11771"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>The <book(48)>Shin Dragon<endbook()><thumbnail(193)>, our lead on that, is currently being searched for by <color(4)>Hayato<ce()>.",
+   "notes": "",
+   "source_sha256": "f3b73a77790789a6f98571738e8775a1bfc1980e9b5909a1dcccc18794739d30"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>First we would like to link up with <color(4)>Hayato<ce()>... but there is something we must do before that.",
+   "notes": "",
+   "source_sha256": "f27e5e4cf81bffbffca6c24e34aa3d57e9bdce7f0519279342ef61d9dae0939d"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<thumbdown()><operator(30060,1)><speed(2)>For the details, I will leave it to <color(4)>Holland<ce()>.",
+   "notes": "",
+   "source_sha256": "ddb1c0f75c7b2805e952a9defb65cc644b0155ccf4cb017274641d2441701c8e"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<topic()><operator(30110,1)><speed(2)>Just a moment ago, a <book(72)>Coralian<endbook()><thumbnail(217)> was confirmed in the airspace nearby. We want to make contact with it.",
+   "notes": "",
+   "source_sha256": "e5af2815bac1f7d27e62b0390d702283b59e1e7e7b6179baf1db25d6937b1b4d"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30110,1)><speed(2)>Some of you may not know, but the <book(72)>Coralian<endbook()> means a great deal to us.",
+   "notes": "",
+   "source_sha256": "42c603da14a1a72e1f60b1fcd0843abb9e250c4c3a6c1d8c0d3c88e70918a178"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30110,1)><speed(2)>Now is not yet the time to tell you everything. I know I am asking a lot, but please cooperate with us.",
+   "notes": "Orchestrator: reworded to avoid a j/q glyph.",
+   "source_sha256": "fa3094208945daa1452ce4f87859b80f98eb2e6593256c933cd31ea983e2370b"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30110,1)><speed(2)>The <book(72)>Coralian<endbook()> showed up at a spot<thumbnail(216)> where <book(38)>New Federation<endbook()> forces are also confirmed - probably to investigate too.",
+   "notes": "",
+   "source_sha256": "0816a5766fd35186e54d5281ac7bfb2377f360e65d52cf6d6263385dfb36ab78"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30110,1)><speed(2)>This operation's goal is to send the <book(61)>Nirvash<endbook()> into the <book(72)>Coralian<endbook()>. For that, we will fight the <book(38)>New Federation<endbook()>.",
+   "notes": "\"goal\" per locked term.",
+   "source_sha256": "a7d5e3fce4c8f6636c3a88f1f16d0970538832cfd387af831eaca5a837e901ca"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30110,1)><speed(2)>I understand the situation we are in. But this is a matter we in <book(60)>Gekkostate<endbook()> absolutely cannot back down on.",
+   "notes": "",
+   "source_sha256": "3f23bf4c6f3e363f8553b609f2aa335578751491c7373bfc727f1a7815ddb702"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>If you do not like it, feel free to sit this operation out.",
+   "notes": "",
+   "source_sha256": "c93bf73205e022e5aa595205276cc6ec6df0b2b034d6e8d2b74133d9bf58942d"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<topic()><operator(30060,1)><speed(2)>Sorry to ask so suddenly, but I would like to ask for your cooperation as well.",
+   "notes": "Orchestrator: reworded to avoid a j/q glyph.",
+   "source_sha256": "1e35c826cc491c7852db532870b2bffe56c3141811c791dd9d795192ad8b7bdf"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30060,1)><speed(2)>I do not know the <book(72)>Coralian<endbook()> well myself either, but <color(4)>Holland<ce()> is a comrade who shares our goal.",
+   "notes": "",
+   "source_sha256": "8a327f8fa1794bf609e88971a94e6cd69c3da635a61c490d283d7c8319ff528d"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30060,1)><speed(2)>That contact with the <book(72)>Coralian<endbook()> will lead to the world's stability is <color(4)>Holland<ce()>'s claim, and I want to trust it.",
+   "notes": "",
+   "source_sha256": "fb18b367ddeaa33cfabfe9a97028770f5f197532b0a16e282cf4fcf059553c50"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 22,
+   "issue": "\"kuwashiku wa Holland kara tanomu\" literally \"as for details, I ask [it] from Holland\"; rendered as Jamil handing the explanation over to Holland, which the following row (topic-marked Holland speech) confirms."
+  },
+  {
+   "slot": 26,
+   "issue": "Word order: source puts the thumbnail-marked location clause before the New Federation clause; kept the thumbnail on \"the spot\" as in the source rather than moving it to the very end."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 15,
+  "rows_in_scene": 15,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 text_id 120 \"09B Coralian Contact\".",
+   "Slot 22 ruling: \"kuwashiku wa Holland kara tanomu\" rendered as Jamil handing the explanation to Holland; confirmed by the following topic-marked Holland speech (slot 23). Accepted.",
+   "Slot 26 ruling: thumbnail(216) kept attached to \"a spot\" as in the source word order, not moved to sentence end; command order verified identical to source. Accepted.",
+   "Speakers: 30060 Jamil Neate, 30110 Holland Novak (speaker_lookup.py); both match glossary character_names_021.json and read consistently with their established personalities (Jamil formal/apologetic, Holland blunt/rough).",
+   "Coralian, Nirvash, Gekkostate, New Federation, Berkt, Shin Dragon all match glossary/mission_terms_019/unit_names spellings.",
+   "All <...> command sequences verified identical and in the same order as source (scripted diff); all rows ASCII, no newlines, no bare %, visible length under 128 chars."
+  ],
+  "remaining_uncertainties": [
+   "Slot 22: \"kuwashiku wa Holland kara tanomu\" - exact idiom (\"I'll leave it to Holland\" vs \"ask Holland\") not fully resolvable from grammar alone, though the following row settles the intended action.",
+   "Words containing lowercase j/q appear in slots 25 (\"just\") and 30 (\"request\"); pre-existing wording, left untouched per scope (meaning-only edits) - flagging for a possible glyph-avoidance script pass, as done manually in 4003030."
+  ]
+ }
+}

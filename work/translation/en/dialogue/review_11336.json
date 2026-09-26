@@ -1,0 +1,40 @@
+{
+  "reviewer": "independent_meaning_review_baldora2_agent",
+  "slice_start": 11336,
+  "slice_count": 80,
+  "rows_examined": [{"start": 11321, "end": 11430}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_11372",
+      "before": "It's coming...",
+      "after": "It's here...",
+      "reason": "Source is 来た……。 (past tense, 'has arrived/come'), and the immediately following shocked line (な……。あれは……！, 'Wh... What is that...!') reacts to something already visible, not something still approaching. The future-oriented 'It's coming...' undersold that the thing has already manifested; changed to the arrival sense 'It's here...' to match the tense and the reaction that follows."
+    }
+  ],
+  "checked_decisions": [
+    {"ids": ["dialogue_11357", "dialogue_11358", "dialogue_11359"], "finding": "最後部 (rearmost section) rendered 'tail section'; orchestrator ruling for this task accepts 'tail section', consistent with the explicit 尾 ('tail') wording in the following attack-instruction rows 11360-11363. No change needed."},
+    {"ids": ["dialogue_11378", "dialogue_11391"], "finding": "Nonverbal screams rendered phonetically ('Gaaaaaah!!', 'Waaaaaah!!'), matching length/emphasis rather than inventing words; consistent with prior corpus practice."},
+    {"ids": ["dialogue_11392", "dialogue_11393"], "finding": "Distortion Field and Gravity Blast match the locked Nadesico spellings (encyclopedia_021_a.json / proposals_dialogue_00161.json); Harry matches the established nickname for Hari Makibi (character_names_021.json)."},
+    {"ids": ["dialogue_11345", "dialogue_11347"], "finding": "Rough/casual register (てめえ, ぶっ殺してやるぜ) kept, consistent with the same speaker's register elsewhere in this scene (11305-11306)."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_11336", "dialogue_11340", "dialogue_11353", "dialogue_11384", "dialogue_11386", "dialogue_11387", "dialogue_11388"],
+      "issue": "Speakers/addressees are untagged in the source. Checked against named addressees (Barrel, Berkt) and the identity split established at dialogue_11277; no new identity or gender invented. Ruling: upheld as-is."
+    },
+    {
+      "id": "dialogue_11372",
+      "issue": "Referent of 来た (it/that) is not named in the source; kept general ('It's here...') rather than inventing what has arrived. See meaning_fixes above for the tense correction on the same row."
+    }
+  ],
+  "validation": {
+    "commands": "Re-checked every row's <...> command sequence against the source corpus (tools/dialogue_corpus.py slice 11336 80 --context 15) with a throwaway script; all 80 rows match in exact order, including rows with no closing <ed()> that continue into the next row as in the source.",
+    "format": "No newline-count mismatches; all visible text (tags removed) is ASCII except the locked fullwidth percent sign (none occur in this slice); longest visible line stayed under 110 characters.",
+    "fit": "No display-fit shortening was needed beyond the one meaning fix above, which is also within budget.",
+    "runtime": "Resource 6350 (mission 29, 'Stop the Baldora Drive 2') scene continuity re-verified from stored table order and text_id groupings; no in-game screenshot verification performed.",
+    "names": "Berkt, Barrel, Faye, Shin Dragon, Getter Rays, Coralian, Newtype, Harry (Hari Makibi), Distortion Field, Gravity Blast, Baldora Drive confirmed against work/glossary/*.json; no misspellings found."
+  }
+}

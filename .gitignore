@@ -1,0 +1,32 @@
+# Local game data, binaries, releases and backups are never committed.
+*.iso
+*.chd
+*.bin
+*.cue
+*.elf
+*.ps2
+*.PSS
+*.pss
+*.exe
+*.xdelta
+*.zip
+*.bundle
+*.mp4
+*.flac
+*.m2v
+*.png
+*.log
+work/output/
+work/release/
+work/ui/assets/
+work/ui/screenshots/
+work/ui/test_reports/
+.env
+.env.*
+work/build/
+*.p2s
+__pycache__/
+*.pyc
+.claude/
+# Locally generated Japanese/English review pages and editable exports
+work/local/

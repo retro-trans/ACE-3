@@ -1,0 +1,562 @@
+{
+  "slice_start": 8776,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      8761,
+      8870
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_08781",
+        "dialogue_08782",
+        "dialogue_08783",
+        "dialogue_08784",
+        "dialogue_08785",
+        "dialogue_08786",
+        "dialogue_08787",
+        "dialogue_08788",
+        "dialogue_08789",
+        "dialogue_08790",
+        "dialogue_08796",
+        "dialogue_08802",
+        "dialogue_08803",
+        "dialogue_08804",
+        "dialogue_08805",
+        "dialogue_08806",
+        "dialogue_08807",
+        "dialogue_08808",
+        "dialogue_08809",
+        "dialogue_08819",
+        "dialogue_08820",
+        "dialogue_08821",
+        "dialogue_08829",
+        "dialogue_08830",
+        "dialogue_08831",
+        "dialogue_08832",
+        "dialogue_08833",
+        "dialogue_08834",
+        "dialogue_08835",
+        "dialogue_08836"
+      ],
+      "note": "Battle banter between Cynthia Lane ('Queen') and a second, unnamed combatant/rival is not attributed row-by-row in the source; no participant name was invented beyond what a row itself states (e.g. 'Queen' only where the source itself uses it)."
+    },
+    {
+      "id": "dialogue_08796",
+      "note": "'Everyone's amazing, aren't they.' - speaker not tagged; kept as a neutral, unattributed observation."
+    },
+    {
+      "ids": [
+        "dialogue_08792",
+        "dialogue_08825"
+      ],
+      "note": "Kids-sama again rendered 'Lord Kids', consistent with batch_08696.json; see batch_08696_glossary_proposals.json."
+    },
+    {
+      "id": "dialogue_08827",
+      "note": "Fullwidth 'the END' rendered with the locked ASCII unit-name spelling 'theEND' (unit_names_014_b.json: 'Nirvash theEND')."
+    },
+    {
+      "ids": [
+        "dialogue_08848",
+        "dialogue_08849",
+        "dialogue_08850"
+      ],
+      "note": "Dominic is addressed by name in row 8849, but row 8850's reply ('I... can't do that!') is not itself tagged to him; not asserted as his line beyond what the source shows."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command verified to match the source in exact order for all 80 rows; none dropped or reordered.",
+    "format": "Original newline counts preserved for every row.",
+    "fit": "Full meaning kept; longest visible string checked <= 110 characters.",
+    "ascii": "ASCII-only, straight quotes, '...' ellipses, no bare '%'; lowercase j/q avoided except the locked/established names 'Queen' and 'Kids'.",
+    "terminology": "Reused character_names_021.json (Cynthia Lane, Anemone, Dominic Sorel, Gainer Sanga, Eureka, Dewey Novak) and unit_names_014_b.json ('theEND'); 'Lord Kids' proposal carried over from batch_08696.",
+    "meaning_review": "Independent review of 80 rows against original ISO; 110 rows examined (8761-8870). One meaning fix applied (Lord Kizz -> Lord Kids, rows 08792/08825: the Siberian Railway president's name is Kids Munt, not Kizz Munt) - see review_08776.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_08776",
+      "target": "<op()><sp(20)>Can you hear me, Queen!!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressed to 'Queen' (Cynthia Lane's callsign); confirmed by her reply next row."
+    },
+    {
+      "id": "dialogue_08777",
+      "target": "<op()><sp(20)>I'm Cynthia Lane!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08778",
+      "target": "<op()><sp(20)>Cynthia, why are you fighting!\nGames should be enough!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08779",
+      "target": "<op()><sp(20)>Stop fighting!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08780",
+      "target": "<op()><sp(20)>Gainer...<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08781",
+      "target": "<op()><sp(20)>Is that your rival?\nMy rival is definitely stronger.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08782",
+      "target": "<op()><sp(20)>Gainer is the Game Champ, you know.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08783",
+      "target": "<op()><sp(20)>Being good at games\ndoesn't mean you're strong in battle.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08784",
+      "target": "<op()><sp(20)>Then why don't you try fighting.\nI'm sure you can't win.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08785",
+      "target": "<op()><sp(20)>C'mon, here we go!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08786",
+      "target": "<op()><sp(20)>Don't butt in!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08787",
+      "target": "<sp(20)>I'm the one who's going to\nkill them all!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08788",
+      "target": "<op()><sp(20)>What are you talking about!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08789",
+      "target": "<sp(20)>I'm not letting you hog\nsuch a fun playmate all to yourself!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08790",
+      "target": "<op()><sp(20)>Prey goes to whoever gets there first!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08791",
+      "target": "<op()><sp(20)>Hey, don't get the wrong idea.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08792",
+      "target": "<sp(20)>If Lord Kids hadn't told me to,\nI'd never team up with someone like you.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kids-sama as 'Lord Kids', consistent with 8769/8771."
+    },
+    {
+      "id": "dialogue_08793",
+      "target": "<op()><sp(20)>Oh, we're on the same page!\nIf it weren't Dewey's orders, neither would I!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08794",
+      "target": "<op()><sp(20)>Looks like we can't be friends.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08795",
+      "target": "<op()><sp(20)>Friends?\nI'd turn that down myself!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08796",
+      "target": "<op()><sp(20)>Everyone's amazing, aren't they.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08797",
+      "target": "<on()><sp(20)>Now then, let the game begin!!<ab(300)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08798",
+      "target": "<on()><sp(20)>Play for real today!<ab(300)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08799",
+      "target": "<on()><sp(20)>No way... me, struggling like this!<ab(300)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08800",
+      "target": "<on()><sp(20)>Anemone!<ab(300)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08801",
+      "target": "<on()><sp(20)>Ngh...!<ab(300)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08802",
+      "target": "<op()><sp(20)>You're still not fighting for real, are you.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08803",
+      "target": "<sp(20)>Playing's no fun unless you're serious.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08804",
+      "target": "<op()><sp(20)>This isn't play! Not for me!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08805",
+      "target": "<op()><sp(20)>You keep silent and watch!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08806",
+      "target": "<op()><sp(20)>Pushing me, the Queen, aside,\nyou're trying to have all the fun yourself!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'the Queen' = Cynthia Lane's own callsign, self-referential."
+    },
+    {
+      "id": "dialogue_08807",
+      "target": "<op()><sp(20)>Hmph, don't kid yourself\nthinking this is a game!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08808",
+      "target": "<op()><sp(20)>Getting all serious, how silly.\nYou've got to have fun in a fight.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08809",
+      "target": "<op()><sp(20)>I'm not carefree\nlike you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08810",
+      "target": "<op()><sp(20)>Why do you have it in\nfor that Eureka girl?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08811",
+      "target": "<op()><sp(20)>Dewey really wanted that girl.\nI'm only a substitute made to replace her...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08812",
+      "target": "<sp(20)>Unless I defeat that Eureka,\nI can never become the real thing!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08813",
+      "target": "<op()><sp(20)>That's still no reason\nit's okay to hurt Eureka!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08814",
+      "target": "<op()><sp(20)>Poor thing...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08815",
+      "target": "<op()><sp(20)>Why are you the one pitying me!?\n...Unforgivable.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08816",
+      "target": "<sp(20)>Why aren't I you,\nand why aren't you me!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08817",
+      "target": "<op()><sp(20)>Aw geez, she's broken.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08818",
+      "target": "<op()><sp(20)>I won't forgive this... I'll kill you!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08819",
+      "target": "<op()><sp(20)>You're dawdling and I can't focus!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08820",
+      "target": "<sp(20)>This is finally my stage,\nso don't get in the way!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08821",
+      "target": "<op()><sp(20)>Ugh, so noisy.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08822",
+      "target": "<op()><sp(20)>Gainer... not bad!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08823",
+      "target": "<op()><sp(20)>Stop this fight!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08824",
+      "target": "<sp(20)>There shouldn't be any need to do this!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08825",
+      "target": "<op()><sp(20)>I can't defy Lord Kids!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kids-sama as 'Lord Kids'."
+    },
+    {
+      "id": "dialogue_08826",
+      "target": "<op()><sp(20)>That doesn't matter!\nIsn't this your own problem!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08827",
+      "target": "<op()><sp(20)>Welcome, theEND look-alike.\nI'll rough you up.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'theEND' uses the locked unit-name spelling (Nirvash theEND, unit_names_014_b.json) for the source's fullwidth 'the END'."
+    },
+    {
+      "id": "dialogue_08828",
+      "target": "<op()><sp(20)>Like I'll let you!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08829",
+      "target": "<op()><sp(20)>This thing, its power has increased!?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08830",
+      "target": "<sp(20)>But I have to win!\nEspecially against you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08831",
+      "target": "<op()><sp(20)>If I can only keep these two from coordinating!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08832",
+      "target": "<op()><sp(20)>This enemy... is strong!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08833",
+      "target": "<op()><sp(20)>Going this far against us!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08834",
+      "target": "<op()><sp(20)>I'm the vanguard, you're the rearguard!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08835",
+      "target": "<op()><sp(20)>Don't decide that on your own!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08836",
+      "target": "<op()><sp(20)>I have to beat these guys!\nCooperate a little, would you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08837",
+      "target": "<op()><sp(20)>Sounds like there's something going on.\nBut we've got our own reasons too.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08838",
+      "target": "<sp(20)>We won't hold back taking you down!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08839",
+      "target": "<op()><sp(20)>Retreat, Anemone!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08840",
+      "target": "<op()><sp(20)>No!!\nAbsolutely not!!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08841",
+      "target": "<sp(20)>I can still fight!!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08842",
+      "target": "<op()><sp(20)>I can't win the game anymore...!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08843",
+      "target": "<op()><sp(20)>Bye-bye.\nThat's what you get for butting in!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08844",
+      "target": "<sp(20)>From here on, it's my stage.\nWatch me, Dewey!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08845",
+      "target": "<op()><sp(20)>Hahaha!\nFinally I can have fun alone!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08846",
+      "target": "<op()><sp(20)>This... this can't be!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08847",
+      "target": "<sp(20)>Dewey's going to abandon me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08848",
+      "target": "<op()><sp(20)>So Anemone's fallen.\nIt's about time for that one too...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08849",
+      "target": "<sp(20)>Dominic, bring a replacement.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08850",
+      "target": "<op()><sp(20)>I... can't do that!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08851",
+      "target": "<op()><sp(20)>Formidable-looking reinforcements.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08852",
+      "target": "<op()><sp(20)>We'll intercept them!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08853",
+      "target": "<op()><sp(20)>Deploying reinforcements!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08854",
+      "target": "<on()><sp(20)>Well done, everyone.\nThanks to that, damage was kept to a minimum.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08855",
+      "target": "<on()><sp(20)>My big brother...\nI need to tell you about\n<color(5)>Dewey Novak<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

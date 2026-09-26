@@ -1,0 +1,46 @@
+{
+  "batch": "dialogue_00776-00855",
+  "status": "proposals_for_orchestrator_review",
+  "entries": [
+    {
+      "target": "X-9 Ghost",
+      "category": "unit",
+      "source_row": 822,
+      "status": "researched",
+      "sources": ["https://macross.fandom.com/wiki/X-9_Ghost"],
+      "note": "Franchise wiki title. Alternative Ghost X-9 word order exists in Macross Compendium; use X-9 Ghost consistently."
+    },
+    {
+      "target": "Kouichiro Misumaru",
+      "short_name": "Misumaru",
+      "category": "character",
+      "source_row": 818,
+      "status": "name_and_role_researched_profile_incomplete",
+      "profile": {
+        "gender": "male, identified as Yurika's father in the cited episode synopsis",
+        "nicknames": [],
+        "nicknames_status": "not found in reviewed source",
+        "personality": null,
+        "personality_status": "not sufficiently researched",
+        "position": "UE Forces admiral; source line uses general command title rather than specific admiral rank."
+      },
+      "sources": ["https://nadesico.fandom.com/wiki/To_Go_Like_a_Man"],
+      "note": "Dialogue draft uses Commander Misumaru without adding his first name."
+    },
+    {
+      "target": "Lieutenant Commander",
+      "category": "rank",
+      "applies_to": "Ruri Hoshino, movie era",
+      "source_rows": [807, 828],
+      "status": "researched_secondary_reference",
+      "sources": ["https://en.wikipedia.org/wiki/Martian_Successor_Nadesico:_The_Motion_Picture_%E2%80%93_Prince_of_Darkness", "https://www.absoluteanime.com/nadesico/ruri"],
+      "note": "Naval rank equivalent of the source rank. Distinguish captain as ship command role. Do not globally apply naval rank names to Federation ground/combat pilots."
+    }
+  ],
+  "cross_batch": [
+    "Use researched Harry nickname rather than Hari in row776 after independent meaning fixes, following proposals_dialogue_00696.json.",
+    "Guld, Zentradi and Project Super Nova are already researched in proposals_dialogue_00696.json.",
+    "Nirvash spelling is already present in the main glossary's Renton and Eureka profiles.",
+    "Baldora Drive is explicitly provisional in the main glossary. Source row819 calls it an abandoned experimental facility; preserve the sentence's actual referent."
+  ]
+}

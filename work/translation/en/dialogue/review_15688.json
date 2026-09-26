@@ -1,0 +1,45 @@
+{
+  "reviewer": "independent_review_shouts_agent",
+  "slice_start": 15688,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15673, "end": 15782}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "resource_boundaries_in_slice": [
+    {"rows": [15688, 15690], "resource": 2822020, "pilot": "Athrun Zala (Justice Gundam)"},
+    {"rows": [15691, 15767], "resource": 2823010, "pilot": "Nirvash / Renton and Eureka (co-pilot banter, lines split by evident speaker)"}
+  ],
+  "meaning_fixes": [
+    {
+      "id": "dialogue_15759",
+      "before": "Renton, go home.",
+      "after": "Let's go, Renton",
+      "reason": "Source 'Renton, kaerou.' uses the volitional 'kaerou' ('let's go home'), i.e. Eureka inviting Renton to go home together -- not a command sending him off alone. 'Renton, go home.' reverses this to an imperative aimed only at Renton, which is nonsensical besides (they are co-pilots in the same machine). Fixed to 'Let's go, Renton' (16 chars, exactly at the 16-char budget with the trailing period dropped)."
+    },
+    {
+      "id": "dialogue_15760",
+      "before": "Go home now.",
+      "after": "Let's go.",
+      "reason": "Source 'Issho ni kaerou.' ('let's go home together') continues the same volitional as the preceding row. 'Go home now.' again turns it into a command directed outward. Fixed to 'Let's go.' (9 chars, under the 12-char budget), restoring the mutual/inclusive sense."
+    },
+    {
+      "id": "dialogue_15765",
+      "before": "Go home, Eureka.",
+      "after": "Let's go, Eureka",
+      "reason": "Source 'Kaerou, Eureka.' is Renton's volitional invitation ('let's go home, Eureka'), not an order for Eureka to leave without him -- they share the same cockpit. Fixed to 'Let's go, Eureka' (16 chars, exactly at the 16-char budget with the trailing period dropped), matching the correctly-rendered 'Nirvash says let's go home.' one row later (dialogue_15761) that this trio leads into."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [15717], "finding": "Source 'Ikuyo Eureka!' names Eureka explicitly ('Let's go, Eureka!'); translation 'Here we go!' drops the name. This is the batch's own pre-flagged, accepted compression pattern (dropping explicit addressee names to fit budget) rather than a wrong-addressee error -- no wrong name was substituted, and 14-char budget genuinely could not fit 'Let's go, Eureka!' (17 chars). Left as is."},
+    {"rows": [15691], "finding": "'Don't beg - earn it, then it's given!' is the translator's compressed rendering of a proverb-style shout ('kyousuru na, kachitore, sasureba ataeraren!'), distinct from (though thematically consistent with) the longer 'official dub' Eureka Seven motto recorded in terms_028.json ('Don't beg for things. Do it yourself, or else you won't get anything.'). That longer wording cannot fit the 38-char hard budget here and belongs to a different, fuller line elsewhere in the corpus; the shout's own 3-part structure (don't beg / earn it / then it's given) is translated faithfully. No conflict with locked terminology; translator's uncertainty resolved, no fix needed."},
+    {"rows": [15741], "finding": "'...shitsukoi!' ('...persistent/won't let up!', typically said of a foe that keeps attacking) rendered as 'So clingy!'. Slightly different register (clingy implies attachment rather than combat tenacity) but both convey exasperation at something that won't let go; not a clear reversal, left as phrased."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-checked command-tag order and newline counts against the freshly re-sliced source for all 80 rows; the three edited rows keep their original <op()><sp(20)>...<ab(1000)><ed()> tag sequence.",
+    "fit": "Recomputed the hard budget min(72, 2*source_ja_char_count-2) for each fixed row from the live source: dialogue_15759 16/16, dialogue_15760 9/12, dialogue_15765 16/16 -- all at or under budget.",
+    "ascii": "No new non-ASCII characters, curly quotes/dashes, bare '%', or lowercase j/q introduced by the fixes.",
+    "status": "All 80 rows set to meaning_reviewed; none left as draft."
+  }
+}

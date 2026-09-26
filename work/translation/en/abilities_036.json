@@ -1,0 +1,2787 @@
+{
+  "version": "0.1.36",
+  "table_id": 3079,
+  "source_iso": "work/output/ACE3-English-0.1.35.iso",
+  "canonical_bundle": 4002050,
+  "review": {
+    "status": "meaning_reviewed",
+    "rows_examined": 338,
+    "rows_in_slice": 338,
+    "method": "All non-null UI rows read; paired support names/categories/triggers compared by IDs offset 100. Existing project glossary consulted. Official franchise naming consulted where available. Draft pending orchestrator review.",
+    "notes": [
+      "Preserved 43 ability names, 25 developer placeholder descriptions, 90 support names, 90 support categories, and 90 support triggers.",
+      "Fullwidth percent signs preserve source glyph style and avoid introducing printf sequences. No runtime placeholders exist in this table.",
+      "Developer placeholder text is translated literally, not replaced with invented ability effects.",
+      "Native font widths are recorded only; fitting and runtime validation remain with orchestrator.",
+      "Source パッセル differs from canonical バッセル; proposed Bassel is explicitly flagged."
+    ],
+    "corrections_applied": [
+      "review_abilities_036:141 Cannon restored as Cn.,175 Ark",
+      "Existing encyclopedia term Seven Swell",
+      "Explicit width abbreviations on106/141; AP Repair on206"
+    ],
+    "independent_report": "review_abilities_036.json",
+    "resolution": "Review corrections applied; licensed-name uncertainties retained. Bassel ownership resolved by Justice command context."
+  },
+  "rows": [
+    {
+      "slot": 0,
+      "text_id": 1,
+      "source": "飛行変形",
+      "en": "Flight Transformation",
+      "category": "ability",
+      "width": 221
+    },
+    {
+      "slot": 1,
+      "text_id": 2,
+      "source": "３段変形",
+      "en": "3-Stage Transformation",
+      "category": "ability",
+      "width": 228
+    },
+    {
+      "slot": 2,
+      "text_id": 3,
+      "source": "ゲッターチェンジ",
+      "en": "Getter Change",
+      "category": "ability",
+      "width": 141
+    },
+    {
+      "slot": 3,
+      "text_id": 4,
+      "source": "ＢＷＳ",
+      "en": "BWS",
+      "category": "ability",
+      "width": 46
+    },
+    {
+      "slot": 4,
+      "text_id": 5,
+      "source": "ビークル変形",
+      "en": "Vehicle Transformation",
+      "category": "ability",
+      "width": 233
+    },
+    {
+      "slot": 5,
+      "text_id": 6,
+      "source": "着脱装甲",
+      "en": "Removable Armor",
+      "category": "ability",
+      "width": 176
+    },
+    {
+      "slot": 6,
+      "text_id": 7,
+      "source": "離脱装甲",
+      "en": "Armor Purge",
+      "category": "ability",
+      "width": 129
+    },
+    {
+      "slot": 7,
+      "text_id": 8,
+      "source": "追加装甲",
+      "en": "Additional Armor",
+      "category": "ability",
+      "width": 177
+    },
+    {
+      "slot": 8,
+      "text_id": 9,
+      "source": "明鏡止水",
+      "en": "Meikyo Shisui",
+      "category": "ability",
+      "width": 135
+    },
+    {
+      "slot": 9,
+      "text_id": 10,
+      "source": "リーンの翼",
+      "en": "Wings of Rean",
+      "category": "ability",
+      "width": 143
+    },
+    {
+      "slot": 10,
+      "text_id": 11,
+      "source": "セブンスウェル",
+      "en": "Seven Swell",
+      "category": "ability",
+      "width": 135,
+      "full_en": "Seven Swell"
+    },
+    {
+      "slot": 11,
+      "text_id": 12,
+      "source": "ＢＤＩシステム",
+      "en": "BDI System",
+      "category": "ability",
+      "width": 114
+    },
+    {
+      "slot": 12,
+      "text_id": 13,
+      "source": "オーバースキル・加速",
+      "en": "Overskill: Acceleration",
+      "category": "ability",
+      "width": 227
+    },
+    {
+      "slot": 13,
+      "text_id": 14,
+      "source": "ＣＦＳ",
+      "en": "CFS",
+      "category": "ability",
+      "width": 41
+    },
+    {
+      "slot": 14,
+      "text_id": 15,
+      "source": "バイオフィードバックシステム",
+      "en": "Biofeedback System",
+      "category": "ability",
+      "width": 195
+    },
+    {
+      "slot": 15,
+      "text_id": 16,
+      "source": "プラモスピリット",
+      "en": "Plamo Spirit",
+      "category": "ability",
+      "width": 121
+    },
+    {
+      "slot": 16,
+      "text_id": 17,
+      "source": "スラスター",
+      "en": "Thrusters",
+      "category": "ability",
+      "width": 94
+    },
+    {
+      "slot": 17,
+      "text_id": 18,
+      "source": "グライダー",
+      "en": "Glider",
+      "category": "ability",
+      "width": 61
+    },
+    {
+      "slot": 18,
+      "text_id": 19,
+      "source": "ＬＦＯ",
+      "en": "LFO",
+      "category": "ability",
+      "width": 42
+    },
+    {
+      "slot": 19,
+      "text_id": 20,
+      "source": "ローラーダッシュ",
+      "en": "Roller Dash",
+      "category": "ability",
+      "width": 112
+    },
+    {
+      "slot": 20,
+      "text_id": 21,
+      "source": "バイタルジャンプ",
+      "en": "Vital Jump",
+      "category": "ability",
+      "width": 109
+    },
+    {
+      "slot": 21,
+      "text_id": 22,
+      "source": "ビームコーティング",
+      "en": "Beam Coating",
+      "category": "ability",
+      "width": 137
+    },
+    {
+      "slot": 22,
+      "text_id": 23,
+      "source": "機嫌",
+      "en": "Mood",
+      "category": "ability",
+      "width": 50
+    },
+    {
+      "slot": 23,
+      "text_id": 24,
+      "source": "オーガニックエナジー",
+      "en": "Organic Energy",
+      "category": "ability",
+      "width": 152
+    },
+    {
+      "slot": 24,
+      "text_id": 25,
+      "source": "ナノスキン",
+      "en": "Nanoskin",
+      "category": "ability",
+      "width": 91
+    },
+    {
+      "slot": 25,
+      "text_id": 26,
+      "source": "オーラ力",
+      "en": "Aura Power",
+      "category": "ability",
+      "width": 119
+    },
+    {
+      "slot": 26,
+      "text_id": 27,
+      "source": "ゴッドシャドー",
+      "en": "God Shadow",
+      "category": "ability",
+      "width": 121
+    },
+    {
+      "slot": 27,
+      "text_id": 28,
+      "source": "地上ダッシュ",
+      "en": "Ground Dash",
+      "category": "ability",
+      "width": 126
+    },
+    {
+      "slot": 28,
+      "text_id": 29,
+      "source": "分離回避",
+      "en": "Separation Evasion",
+      "category": "ability",
+      "width": 184
+    },
+    {
+      "slot": 29,
+      "text_id": 30,
+      "source": "ＳＥＥＤ",
+      "en": "SEED",
+      "category": "ability",
+      "width": 51
+    },
+    {
+      "slot": 30,
+      "text_id": 31,
+      "source": "サイコミュ",
+      "en": "Psycommu",
+      "category": "ability",
+      "width": 103
+    },
+    {
+      "slot": 31,
+      "text_id": 32,
+      "source": "ボソンジャンプ",
+      "en": "Boson Jump",
+      "category": "ability",
+      "width": 117
+    },
+    {
+      "slot": 32,
+      "text_id": 33,
+      "source": "サテライトシステム",
+      "en": "Satellite System",
+      "category": "ability",
+      "width": 155
+    },
+    {
+      "slot": 33,
+      "text_id": 34,
+      "source": "月光蝶",
+      "en": "Moonlight Butterfly",
+      "category": "ability",
+      "width": 195
+    },
+    {
+      "slot": 34,
+      "text_id": 35,
+      "source": "オーバースキル・怪力",
+      "en": "Overskill: Super Strength",
+      "category": "ability",
+      "width": 247
+    },
+    {
+      "slot": 35,
+      "text_id": 36,
+      "source": "オーバースキル・変形",
+      "en": "Overskill: Transformation",
+      "category": "ability",
+      "width": 256
+    },
+    {
+      "slot": 36,
+      "text_id": 37,
+      "source": "Ｇファルコン着脱",
+      "en": "G-Falcon Attach/Detach",
+      "category": "ability",
+      "width": 247
+    },
+    {
+      "slot": 37,
+      "text_id": 38,
+      "source": "ミーティア着脱",
+      "en": "METEOR Attach/Detach",
+      "category": "ability",
+      "width": 245
+    },
+    {
+      "slot": 38,
+      "text_id": 39,
+      "source": "ハイマニューバ",
+      "en": "High Maneuver",
+      "category": "ability",
+      "width": 148
+    },
+    {
+      "slot": 39,
+      "text_id": 40,
+      "source": "ウイングキャリバー",
+      "en": "Wing Caliber",
+      "category": "ability",
+      "width": 130
+    },
+    {
+      "slot": 40,
+      "text_id": 41,
+      "source": "ＭＡ形態",
+      "en": "MA Mode",
+      "category": "ability",
+      "width": 91
+    },
+    {
+      "slot": 41,
+      "text_id": 42,
+      "source": "浄化",
+      "en": "Purification",
+      "category": "ability",
+      "width": 117
+    },
+    {
+      "slot": 42,
+      "text_id": 43,
+      "source": "自律兵装",
+      "en": "Autonomous Weapons",
+      "category": "ability",
+      "width": 213
+    },
+    {
+      "slot": 50,
+      "text_id": 51,
+      "source": "飛行変形の説明",
+      "en": "Flight Transformation description",
+      "category": "developer_placeholder",
+      "width": 335
+    },
+    {
+      "slot": 51,
+      "text_id": 52,
+      "source": "３段変形の説明",
+      "en": "3-Stage Transformation description",
+      "category": "developer_placeholder",
+      "width": 342
+    },
+    {
+      "slot": 52,
+      "text_id": 53,
+      "source": "ゲッターチェンジの説明",
+      "en": "Getter Change description",
+      "category": "developer_placeholder",
+      "width": 255
+    },
+    {
+      "slot": 53,
+      "text_id": 54,
+      "source": "ＢＷＳの説明",
+      "en": "BWS description",
+      "category": "developer_placeholder",
+      "width": 160
+    },
+    {
+      "slot": 54,
+      "text_id": 55,
+      "source": "ビークル変形の説明",
+      "en": "Vehicle Transformation description",
+      "category": "developer_placeholder",
+      "width": 347
+    },
+    {
+      "slot": 55,
+      "text_id": 56,
+      "source": "着脱装甲の説明",
+      "en": "Removable Armor description",
+      "category": "developer_placeholder",
+      "width": 290
+    },
+    {
+      "slot": 56,
+      "text_id": 57,
+      "source": "離脱装甲の説明",
+      "en": "Armor Purge description",
+      "category": "developer_placeholder",
+      "width": 243
+    },
+    {
+      "slot": 57,
+      "text_id": 58,
+      "source": "追加装甲の説明",
+      "en": "Additional Armor description",
+      "category": "developer_placeholder",
+      "width": 291
+    },
+    {
+      "slot": 58,
+      "text_id": 59,
+      "source": "明鏡止水の説明",
+      "en": "Meikyo Shisui description",
+      "category": "developer_placeholder",
+      "width": 249
+    },
+    {
+      "slot": 59,
+      "text_id": 60,
+      "source": "リーンの翼の説明",
+      "en": "Wings of Rean description",
+      "category": "developer_placeholder",
+      "width": 257
+    },
+    {
+      "slot": 60,
+      "text_id": 61,
+      "source": "ぱわーあっぷ（かり）の説明",
+      "en": "Power-Up (Tentative) description",
+      "category": "developer_placeholder",
+      "note": "Developer placeholder: source is power-up (temporary name), not a description of Seventh Swell. Preserve placeholder rather than invent functionality.",
+      "width": 325
+    },
+    {
+      "slot": 61,
+      "text_id": 62,
+      "source": "ＢＤＩシステムの説明",
+      "en": "BDI System description",
+      "category": "developer_placeholder",
+      "width": 228
+    },
+    {
+      "slot": 62,
+      "text_id": 63,
+      "source": "オーバースキル・加速の説明",
+      "en": "Overskill: Acceleration description",
+      "category": "developer_placeholder",
+      "width": 341
+    },
+    {
+      "slot": 63,
+      "text_id": 64,
+      "source": "ＣＦＳの説明",
+      "en": "CFS description",
+      "category": "developer_placeholder",
+      "width": 155
+    },
+    {
+      "slot": 64,
+      "text_id": 65,
+      "source": "思考コントロールシステムの説明",
+      "en": "Thought Control System description",
+      "category": "developer_placeholder",
+      "note": "Developer placeholder says Thought Control System, unlike ability 15 Biofeedback System. Preserve the source mismatch.",
+      "width": 354
+    },
+    {
+      "slot": 65,
+      "text_id": 66,
+      "source": "プラモスピリットの説明",
+      "en": "Plamo Spirit description",
+      "category": "developer_placeholder",
+      "width": 235
+    },
+    {
+      "slot": 66,
+      "text_id": 67,
+      "source": "スラスタの説明",
+      "en": "Thrusters description",
+      "category": "developer_placeholder",
+      "width": 208
+    },
+    {
+      "slot": 67,
+      "text_id": 68,
+      "source": "グライダの説明",
+      "en": "Glider description",
+      "category": "developer_placeholder",
+      "width": 175
+    },
+    {
+      "slot": 68,
+      "text_id": 69,
+      "source": "ＬＦＯの説明の説明",
+      "en": "LFO description description",
+      "category": "developer_placeholder",
+      "note": "Source repeats description twice; preserve this developer placeholder as written.",
+      "width": 270
+    },
+    {
+      "slot": 69,
+      "text_id": 70,
+      "source": "ローラーダッシュの説明",
+      "en": "Roller Dash description",
+      "category": "developer_placeholder",
+      "width": 226
+    },
+    {
+      "slot": 70,
+      "text_id": 71,
+      "source": "バイタルジャンプの説明",
+      "en": "Vital Jump description",
+      "category": "developer_placeholder",
+      "width": 223
+    },
+    {
+      "slot": 71,
+      "text_id": 72,
+      "source": "ビームコーティングの説明",
+      "en": "Beam Coating description",
+      "category": "developer_placeholder",
+      "width": 251
+    },
+    {
+      "slot": 72,
+      "text_id": 73,
+      "source": "機嫌の説明",
+      "en": "Mood description",
+      "category": "developer_placeholder",
+      "width": 164
+    },
+    {
+      "slot": 73,
+      "text_id": 74,
+      "source": "オーガニックエナジーの説明",
+      "en": "Organic Energy description",
+      "category": "developer_placeholder",
+      "width": 266
+    },
+    {
+      "slot": 74,
+      "text_id": 75,
+      "source": "ナノスキンの説明",
+      "en": "Nanoskin description",
+      "category": "developer_placeholder",
+      "width": 205
+    },
+    {
+      "slot": 100,
+      "text_id": 101,
+      "source": "Ｉフィールド",
+      "en": "I-Field",
+      "category": "support_move",
+      "width": 66
+    },
+    {
+      "slot": 101,
+      "text_id": 102,
+      "source": "オーガニックエナジー",
+      "en": "Organic Energy",
+      "category": "support_move",
+      "width": 152
+    },
+    {
+      "slot": 102,
+      "text_id": 103,
+      "source": "怨念",
+      "en": "Grudge",
+      "category": "support_move",
+      "note": "Grudge is a proper support name here. Do not expand into a gameplay claim beyond its Attack Boost category.",
+      "width": 71
+    },
+    {
+      "slot": 103,
+      "text_id": 104,
+      "source": "かく乱",
+      "en": "Diversion",
+      "category": "support_move",
+      "note": "Diversion diverts enemy attacks toward the ally; category is Draw Enemy Fire, not homing weapon guidance.",
+      "width": 91
+    },
+    {
+      "slot": 104,
+      "text_id": 105,
+      "source": "ダミー・バルーン",
+      "en": "Dummy Balloon",
+      "category": "support_move",
+      "width": 155
+    },
+    {
+      "slot": 105,
+      "text_id": 106,
+      "source": "ナノスキン／月光蝶",
+      "en": "Nanoskin/Moonlight Bfly.",
+      "category": "support_move",
+      "note": "Bfly. abbreviates Butterfly in narrow support field.",
+      "width": 321,
+      "full_en": "Nanoskin / Moonlight Butterfly"
+    },
+    {
+      "slot": 106,
+      "text_id": 107,
+      "source": "ビルバインバリア",
+      "en": "Billbine Barrier",
+      "category": "support_move",
+      "width": 155
+    },
+    {
+      "slot": 107,
+      "text_id": 108,
+      "source": "ファンネル",
+      "en": "Funnels",
+      "category": "support_move",
+      "width": 77
+    },
+    {
+      "slot": 108,
+      "text_id": 109,
+      "source": "ディスパーションセイバー",
+      "en": "Dispersion Saber",
+      "category": "support_move",
+      "width": 160
+    },
+    {
+      "slot": 109,
+      "text_id": 110,
+      "source": "フィン・ファンネル",
+      "en": "Fin Funnels",
+      "category": "support_move",
+      "width": 119
+    },
+    {
+      "slot": 110,
+      "text_id": 111,
+      "source": "プラモスピリット",
+      "en": "Plamo Spirit",
+      "category": "support_move",
+      "width": 121
+    },
+    {
+      "slot": 112,
+      "text_id": 113,
+      "source": "ノーマルミサイル",
+      "en": "Normal Missiles",
+      "category": "support_move",
+      "width": 154
+    },
+    {
+      "slot": 113,
+      "text_id": 114,
+      "source": "反応弾",
+      "en": "Reaction Warheads",
+      "category": "support_move",
+      "width": 185
+    },
+    {
+      "slot": 114,
+      "text_id": 115,
+      "source": "マイクロミサイル",
+      "en": "Micro Missiles",
+      "category": "support_move",
+      "width": 135
+    },
+    {
+      "slot": 115,
+      "text_id": 116,
+      "source": "マイクロ＆ホーミングミサイル",
+      "en": "Micro & Homing Missiles",
+      "category": "support_move",
+      "width": 244
+    },
+    {
+      "slot": 116,
+      "text_id": 117,
+      "source": "ノーマルミサイル",
+      "en": "Normal Missiles",
+      "category": "support_move",
+      "width": 154
+    },
+    {
+      "slot": 117,
+      "text_id": 118,
+      "source": "反応弾",
+      "en": "Reaction Warheads",
+      "category": "support_move",
+      "width": 185
+    },
+    {
+      "slot": 118,
+      "text_id": 119,
+      "source": "全弾発射",
+      "en": "Full Salvo",
+      "category": "support_move",
+      "width": 101
+    },
+    {
+      "slot": 119,
+      "text_id": 120,
+      "source": "インパクトキャノン",
+      "en": "Impact Cannon",
+      "category": "support_move",
+      "width": 147
+    },
+    {
+      "slot": 120,
+      "text_id": 121,
+      "source": "スピンレーザーソード",
+      "en": "Spin Laser Sword",
+      "category": "support_move",
+      "width": 169
+    },
+    {
+      "slot": 121,
+      "text_id": 122,
+      "source": "２２０ｍｍレールキャノン",
+      "en": "220mm Rail Cannon",
+      "category": "support_move",
+      "width": 193
+    },
+    {
+      "slot": 122,
+      "text_id": 123,
+      "source": "フルオープンシュート",
+      "en": "Full Open Shoot",
+      "category": "support_move",
+      "width": 157
+    },
+    {
+      "slot": 123,
+      "text_id": 124,
+      "source": "ハッキング",
+      "en": "Hacking",
+      "category": "support_move",
+      "width": 81
+    },
+    {
+      "slot": 124,
+      "text_id": 125,
+      "source": "フルオープンシュート",
+      "en": "Full Open Shoot",
+      "category": "support_move",
+      "width": 157
+    },
+    {
+      "slot": 125,
+      "text_id": 126,
+      "source": "ジャマー",
+      "en": "Jammer",
+      "category": "support_move",
+      "width": 75
+    },
+    {
+      "slot": 126,
+      "text_id": 127,
+      "source": "大型巡航ミサイル",
+      "en": "Large Cruise Missile",
+      "category": "support_move",
+      "width": 198
+    },
+    {
+      "slot": 127,
+      "text_id": 128,
+      "source": "デュアルミサイル",
+      "en": "Dual Missiles",
+      "category": "support_move",
+      "width": 126
+    },
+    {
+      "slot": 128,
+      "text_id": 129,
+      "source": "対ＭＡハンドグレネード",
+      "en": "Anti-MA Hand Grenade",
+      "category": "support_move",
+      "width": 233
+    },
+    {
+      "slot": 129,
+      "text_id": 130,
+      "source": "爆熱ゴッドフィンガー",
+      "en": "Erupting God Finger",
+      "category": "support_move",
+      "width": 204
+    },
+    {
+      "slot": 130,
+      "text_id": 131,
+      "source": "ダークネスフィンガー",
+      "en": "Darkness Finger",
+      "category": "support_move",
+      "width": 159
+    },
+    {
+      "slot": 131,
+      "text_id": 132,
+      "source": "マイクロミサイル",
+      "en": "Micro Missiles",
+      "category": "support_move",
+      "width": 135
+    },
+    {
+      "slot": 132,
+      "text_id": 133,
+      "source": "ローリングバスターライフル",
+      "en": "Rolling Buster Rifle",
+      "category": "support_move",
+      "width": 196
+    },
+    {
+      "slot": 133,
+      "text_id": 134,
+      "source": "サテライトキャノン",
+      "en": "Satellite Cannon",
+      "category": "support_move",
+      "width": 160
+    },
+    {
+      "slot": 134,
+      "text_id": 135,
+      "source": "ディバイダー",
+      "en": "Divider",
+      "category": "support_move",
+      "width": 71
+    },
+    {
+      "slot": 135,
+      "text_id": 136,
+      "source": "ツイン・サテライトキャノン",
+      "en": "Twin Satellite Cannon",
+      "category": "support_move",
+      "width": 220
+    },
+    {
+      "slot": 136,
+      "text_id": 137,
+      "source": "赤外線ホーミングミサイル",
+      "en": "IR Homing Missiles",
+      "category": "support_move",
+      "full_en": "Infrared Homing Missiles",
+      "note": "IR abbreviates Infrared; full meaning retained in full_en.",
+      "width": 189
+    },
+    {
+      "slot": 137,
+      "text_id": 138,
+      "source": "バスターライフル乱射",
+      "en": "Buster Rifle Barrage",
+      "category": "support_move",
+      "width": 203
+    },
+    {
+      "slot": 138,
+      "text_id": 139,
+      "source": "一斉射撃",
+      "en": "Full Barrage",
+      "category": "support_move",
+      "width": 126
+    },
+    {
+      "slot": 139,
+      "text_id": 140,
+      "source": "メガソニック砲（拡散）",
+      "en": "Mega Sonic Cannon (Spread)",
+      "category": "support_move",
+      "width": 275
+    },
+    {
+      "slot": 140,
+      "text_id": 141,
+      "source": "トリプルメガソニック砲（収束）",
+      "en": "Tri. Mega Sonic Cn.(Focus)",
+      "category": "support_move",
+      "full_en": "Triple Mega Sonic Cannon (Focused)",
+      "note": "Explicit abbreviations: Tri.=Triple, Cn.=Cannon, Focus=Focused, to fit the narrow support field.",
+      "width": 277
+    },
+    {
+      "slot": 141,
+      "text_id": 142,
+      "source": "アトミックシザース",
+      "en": "Atomic Scissors",
+      "category": "support_move",
+      "width": 154
+    },
+    {
+      "slot": 142,
+      "text_id": 143,
+      "source": "ギガンティックシザース",
+      "en": "Gigantic Scissors",
+      "category": "support_move",
+      "width": 166
+    },
+    {
+      "slot": 143,
+      "text_id": 144,
+      "source": "スリットウエハー",
+      "en": "Slit Wafer",
+      "category": "support_move",
+      "width": 100,
+      "naming_note": "Akurasu Support Skills uses Slit Wafer; Mech Database says Slit Waver. Retain source-compatible Wafer consistently; fan-reference spelling remains provisional."
+    },
+    {
+      "slot": 144,
+      "text_id": 145,
+      "source": "錫杖鳴らし",
+      "en": "Ringing the Staff",
+      "category": "support_move",
+      "full_en": "Ringing the Ringed Staff",
+      "note": "This is ringing the Buddhist ringed staff (shakujo); literal display name. Exact licensed English move name unconfirmed.",
+      "width": 170
+    },
+    {
+      "slot": 145,
+      "text_id": 146,
+      "source": "ストナーサンシャイン",
+      "en": "Stoner Sunshine",
+      "category": "support_move",
+      "width": 154
+    },
+    {
+      "slot": 146,
+      "text_id": 147,
+      "source": "プラズマドリルハリケーン",
+      "en": "Plasma Drill Hurricane",
+      "category": "support_move",
+      "width": 226
+    },
+    {
+      "slot": 147,
+      "text_id": 148,
+      "source": "大雪山おろし",
+      "en": "Daisetsuzan Oroshi",
+      "category": "support_move",
+      "note": "Named Getter technique; transliterated Daisetsuzan Oroshi (Great Snow Mountain Wind), not replaced by a generic throw.",
+      "width": 185
+    },
+    {
+      "slot": 148,
+      "text_id": 149,
+      "source": "ゲッタービーム",
+      "en": "Getter Beam",
+      "category": "support_move",
+      "width": 122
+    },
+    {
+      "slot": 149,
+      "text_id": 150,
+      "source": "オーバーフリーズ",
+      "en": "Overfreeze",
+      "category": "support_move",
+      "width": 105
+    },
+    {
+      "slot": 150,
+      "text_id": 151,
+      "source": "ブラックホールラケット",
+      "en": "Black Hole Racket",
+      "category": "support_move",
+      "width": 181
+    },
+    {
+      "slot": 151,
+      "text_id": 152,
+      "source": "一斉攻撃",
+      "en": "All-Out Attack",
+      "category": "support_move",
+      "width": 147
+    },
+    {
+      "slot": 152,
+      "text_id": 153,
+      "source": "投げ",
+      "en": "Throw",
+      "category": "support_move",
+      "width": 65
+    },
+    {
+      "slot": 153,
+      "text_id": 154,
+      "source": "ハイマット・フルバースト",
+      "en": "HiMAT Full Burst",
+      "category": "support_move",
+      "width": 184
+    },
+    {
+      "slot": 154,
+      "text_id": 155,
+      "source": "全武装一斉発射",
+      "en": "All-Weapons Salvo",
+      "category": "support_move",
+      "width": 182
+    },
+    {
+      "slot": 155,
+      "text_id": 156,
+      "source": "パッセル",
+      "en": "Bassel",
+      "category": "support_move",
+      "note": "Game source has パッセル (Passel), apparently a typo for Justice Gundam weapon バッセル (Bassel). Canonical weapon identity should be checked against command list and owner.",
+      "width": 61
+    },
+    {
+      "slot": 156,
+      "text_id": 157,
+      "source": "セブンスウェル",
+      "en": "Seven Swell",
+      "category": "support_move",
+      "width": 135,
+      "full_en": "Seven Swell"
+    },
+    {
+      "slot": 157,
+      "text_id": 158,
+      "source": "セブンスペクトラル",
+      "en": "Seventh Spectral",
+      "category": "support_move",
+      "width": 160
+    },
+    {
+      "slot": 158,
+      "text_id": 159,
+      "source": "スペクトラスコピーモード",
+      "en": "Spectroscopy Mode",
+      "category": "support_move",
+      "width": 181
+    },
+    {
+      "slot": 159,
+      "text_id": 160,
+      "source": "カットバックドロップターン",
+      "en": "Cutback Drop Turn",
+      "category": "support_move",
+      "width": 190
+    },
+    {
+      "slot": 160,
+      "text_id": 161,
+      "source": "体当たり",
+      "en": "Body Slam",
+      "category": "support_move",
+      "width": 105
+    },
+    {
+      "slot": 161,
+      "text_id": 162,
+      "source": "バスクード・クライシス",
+      "en": "Vascud Crisis",
+      "category": "support_move",
+      "note": "Vascud Crisis is a provisional Roman spelling of バスクード・クライシス; no primary English source confirmed.",
+      "width": 135
+    },
+    {
+      "slot": 162,
+      "text_id": 163,
+      "source": "スピア",
+      "en": "Spear",
+      "category": "support_move",
+      "width": 52
+    },
+    {
+      "slot": 163,
+      "text_id": 164,
+      "source": "ハイパー・ハンマー",
+      "en": "Hyper Hammer",
+      "category": "support_move",
+      "width": 149
+    },
+    {
+      "slot": 164,
+      "text_id": 165,
+      "source": "ミサイルベイ",
+      "en": "Missile Bay",
+      "category": "support_move",
+      "width": 112
+    },
+    {
+      "slot": 165,
+      "text_id": 166,
+      "source": "オーラ斬り",
+      "en": "Aura Slash",
+      "category": "support_move",
+      "width": 108
+    },
+    {
+      "slot": 166,
+      "text_id": 167,
+      "source": "散華（二刀）",
+      "en": "Sanka (Dual Swords)",
+      "category": "support_move",
+      "note": "Sanka is the named slash technique; Dual Swords preserves 二刀. Exact licensed English attack name unconfirmed.",
+      "width": 200
+    },
+    {
+      "slot": 167,
+      "text_id": 168,
+      "source": "スティールワイヤー",
+      "en": "Steel Wire",
+      "category": "support_move",
+      "width": 100
+    },
+    {
+      "slot": 168,
+      "text_id": 169,
+      "source": "ツーハンデッドブレーカー",
+      "en": "Two-Handed Breaker",
+      "category": "support_move",
+      "width": 208
+    },
+    {
+      "slot": 169,
+      "text_id": 170,
+      "source": "プラズマコーティングモード",
+      "en": "Plasma Coating Mode",
+      "category": "support_move",
+      "width": 210
+    },
+    {
+      "slot": 170,
+      "text_id": 171,
+      "source": "ハイブリッドオープン",
+      "en": "Hybrid Open",
+      "category": "support_move",
+      "width": 125
+    },
+    {
+      "slot": 171,
+      "text_id": 172,
+      "source": "グレイブキャノン",
+      "en": "Grave Cannon",
+      "category": "support_move",
+      "note": "Grave Cannon provisional, following locked Grave Ark unit spelling. Japanese グレイブ could alternatively be Glaive.",
+      "width": 139
+    },
+    {
+      "slot": 172,
+      "text_id": 173,
+      "source": "エナジーシェイブ",
+      "en": "Energy Shave",
+      "category": "support_move",
+      "note": "Energy Shave literal transliteration; official Roman spelling unconfirmed.",
+      "width": 133
+    },
+    {
+      "slot": 173,
+      "text_id": 174,
+      "source": "デモニックダークネス",
+      "en": "Demonic Darkness",
+      "category": "support_move",
+      "width": 175
+    },
+    {
+      "slot": 174,
+      "text_id": 175,
+      "source": "アークライフル（チャージ）",
+      "en": "Ark Rifle (Charged)",
+      "category": "support_move",
+      "width": 195,
+      "full_en": "Ark Rifle (Charged)"
+    },
+    {
+      "slot": 175,
+      "text_id": 176,
+      "source": "かく乱",
+      "en": "Diversion",
+      "category": "support_move",
+      "width": 91
+    },
+    {
+      "slot": 176,
+      "text_id": 177,
+      "source": "ファンネル",
+      "en": "Funnels",
+      "category": "support_move",
+      "width": 77
+    },
+    {
+      "slot": 177,
+      "text_id": 178,
+      "source": "ファンネル",
+      "en": "Funnels",
+      "category": "support_move",
+      "width": 77
+    },
+    {
+      "slot": 178,
+      "text_id": 179,
+      "source": "ビルバインバリア",
+      "en": "Billbine Barrier",
+      "category": "support_move",
+      "width": 155
+    },
+    {
+      "slot": 179,
+      "text_id": 180,
+      "source": "かく乱",
+      "en": "Diversion",
+      "category": "support_move",
+      "width": 91
+    },
+    {
+      "slot": 180,
+      "text_id": 181,
+      "source": "かく乱",
+      "en": "Diversion",
+      "category": "support_move",
+      "width": 91
+    },
+    {
+      "slot": 181,
+      "text_id": 182,
+      "source": "かく乱",
+      "en": "Diversion",
+      "category": "support_move",
+      "width": 91
+    },
+    {
+      "slot": 182,
+      "text_id": 183,
+      "source": "かく乱",
+      "en": "Diversion",
+      "category": "support_move",
+      "width": 91
+    },
+    {
+      "slot": 183,
+      "text_id": 184,
+      "source": "ディストーションフィールド",
+      "en": "Distortion Field",
+      "category": "support_move",
+      "width": 155
+    },
+    {
+      "slot": 184,
+      "text_id": 185,
+      "source": "ディストーションフィールド",
+      "en": "Distortion Field",
+      "category": "support_move",
+      "width": 155
+    },
+    {
+      "slot": 185,
+      "text_id": 186,
+      "source": "ディストーションフィールド",
+      "en": "Distortion Field",
+      "category": "support_move",
+      "width": 155
+    },
+    {
+      "slot": 186,
+      "text_id": 187,
+      "source": "一斉射撃",
+      "en": "Full Barrage",
+      "category": "support_move",
+      "width": 126
+    },
+    {
+      "slot": 187,
+      "text_id": 188,
+      "source": "ミサイルランチャー",
+      "en": "Missile Launcher",
+      "category": "support_move",
+      "width": 162
+    },
+    {
+      "slot": 188,
+      "text_id": 189,
+      "source": "全武装一斉発射",
+      "en": "All-Weapons Salvo",
+      "category": "support_move",
+      "width": 182
+    },
+    {
+      "slot": 189,
+      "text_id": 190,
+      "source": "デコイ",
+      "en": "Decoy",
+      "category": "support_move",
+      "width": 58
+    },
+    {
+      "slot": 190,
+      "text_id": 191,
+      "source": "ガトリングガンポッド",
+      "en": "Gatling Gun Pod",
+      "category": "support_move",
+      "width": 166
+    },
+    {
+      "slot": 200,
+      "text_id": 201,
+      "source": "バリア付加",
+      "en": "Barrier",
+      "category": "support_category",
+      "width": 70
+    },
+    {
+      "slot": 201,
+      "text_id": 202,
+      "source": "ＡＰ修復",
+      "en": "AP Recovery",
+      "category": "support_category",
+      "width": 129
+    },
+    {
+      "slot": 202,
+      "text_id": 203,
+      "source": "攻撃力アップ",
+      "en": "Attack Boost",
+      "category": "support_category",
+      "width": 129
+    },
+    {
+      "slot": 203,
+      "text_id": 204,
+      "source": "攻撃誘導",
+      "en": "Draw Enemy Fire",
+      "category": "support_category",
+      "width": 173
+    },
+    {
+      "slot": 204,
+      "text_id": 205,
+      "source": "ダミー",
+      "en": "Dummy",
+      "category": "support_category",
+      "width": 73
+    },
+    {
+      "slot": 205,
+      "text_id": 206,
+      "source": "ＡＰ修復／範囲攻撃",
+      "en": "AP Repair / Area Attack",
+      "category": "support_category",
+      "width": 287,
+      "full_en": "AP Recovery / Area Attack"
+    },
+    {
+      "slot": 206,
+      "text_id": 207,
+      "source": "バリア付加",
+      "en": "Barrier",
+      "category": "support_category",
+      "width": 70
+    },
+    {
+      "slot": 207,
+      "text_id": 208,
+      "source": "援護兵器",
+      "en": "Support Weapon",
+      "category": "support_category",
+      "width": 156
+    },
+    {
+      "slot": 208,
+      "text_id": 209,
+      "source": "援護兵器",
+      "en": "Support Weapon",
+      "category": "support_category",
+      "width": 156
+    },
+    {
+      "slot": 209,
+      "text_id": 210,
+      "source": "援護兵器",
+      "en": "Support Weapon",
+      "category": "support_category",
+      "width": 156
+    },
+    {
+      "slot": 210,
+      "text_id": 211,
+      "source": "ＡＰ修復",
+      "en": "AP Recovery",
+      "category": "support_category",
+      "width": 129
+    },
+    {
+      "slot": 212,
+      "text_id": 213,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 213,
+      "text_id": 214,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 214,
+      "text_id": 215,
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "category": "support_category",
+      "width": 177
+    },
+    {
+      "slot": 215,
+      "text_id": 216,
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "category": "support_category",
+      "width": 177
+    },
+    {
+      "slot": 216,
+      "text_id": 217,
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "category": "support_category",
+      "width": 177
+    },
+    {
+      "slot": 217,
+      "text_id": 218,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 218,
+      "text_id": 219,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 219,
+      "text_id": 220,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 220,
+      "text_id": 221,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 221,
+      "text_id": 222,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 222,
+      "text_id": 223,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 223,
+      "text_id": 224,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 224,
+      "text_id": 225,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 225,
+      "text_id": 226,
+      "source": "ジャマー",
+      "en": "Jammer",
+      "category": "support_category",
+      "width": 75
+    },
+    {
+      "slot": 226,
+      "text_id": 227,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 227,
+      "text_id": 228,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 228,
+      "text_id": 229,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 229,
+      "text_id": 230,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 230,
+      "text_id": 231,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 231,
+      "text_id": 232,
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "category": "support_category",
+      "width": 177
+    },
+    {
+      "slot": 232,
+      "text_id": 233,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 233,
+      "text_id": 234,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 234,
+      "text_id": 235,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 235,
+      "text_id": 236,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 236,
+      "text_id": 237,
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "category": "support_category",
+      "width": 177
+    },
+    {
+      "slot": 237,
+      "text_id": 238,
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "category": "support_category",
+      "width": 177
+    },
+    {
+      "slot": 238,
+      "text_id": 239,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 239,
+      "text_id": 240,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 240,
+      "text_id": 241,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 241,
+      "text_id": 242,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 242,
+      "text_id": 243,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 243,
+      "text_id": 244,
+      "source": "マヒ攻撃",
+      "en": "Paralysis Attack",
+      "category": "support_category",
+      "width": 165
+    },
+    {
+      "slot": 244,
+      "text_id": 245,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 245,
+      "text_id": 246,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 246,
+      "text_id": 247,
+      "source": "―",
+      "en": "―",
+      "category": "support_category",
+      "width": 20
+    },
+    {
+      "slot": 247,
+      "text_id": 248,
+      "source": "―",
+      "en": "―",
+      "category": "support_category",
+      "width": 20
+    },
+    {
+      "slot": 248,
+      "text_id": 249,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 249,
+      "text_id": 250,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 250,
+      "text_id": 251,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 251,
+      "text_id": 252,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 252,
+      "text_id": 253,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 253,
+      "text_id": 254,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 254,
+      "text_id": 255,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 255,
+      "text_id": 256,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 256,
+      "text_id": 257,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 257,
+      "text_id": 258,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 258,
+      "text_id": 259,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 259,
+      "text_id": 260,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 260,
+      "text_id": 261,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 261,
+      "text_id": 262,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 262,
+      "text_id": 263,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 263,
+      "text_id": 264,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 264,
+      "text_id": 265,
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "category": "support_category",
+      "width": 177
+    },
+    {
+      "slot": 265,
+      "text_id": 266,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 266,
+      "text_id": 267,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 267,
+      "text_id": 268,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 268,
+      "text_id": 269,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 269,
+      "text_id": 270,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 270,
+      "text_id": 271,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 271,
+      "text_id": 272,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 272,
+      "text_id": 273,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 273,
+      "text_id": 274,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 274,
+      "text_id": 275,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 275,
+      "text_id": 276,
+      "source": "攻撃誘導",
+      "en": "Draw Enemy Fire",
+      "category": "support_category",
+      "width": 173
+    },
+    {
+      "slot": 276,
+      "text_id": 277,
+      "source": "援護兵器",
+      "en": "Support Weapon",
+      "category": "support_category",
+      "width": 156
+    },
+    {
+      "slot": 277,
+      "text_id": 278,
+      "source": "援護兵器",
+      "en": "Support Weapon",
+      "category": "support_category",
+      "width": 156
+    },
+    {
+      "slot": 278,
+      "text_id": 279,
+      "source": "バリア付加",
+      "en": "Barrier",
+      "category": "support_category",
+      "width": 70
+    },
+    {
+      "slot": 279,
+      "text_id": 280,
+      "source": "攻撃誘導",
+      "en": "Draw Enemy Fire",
+      "category": "support_category",
+      "width": 173
+    },
+    {
+      "slot": 280,
+      "text_id": 281,
+      "source": "攻撃誘導",
+      "en": "Draw Enemy Fire",
+      "category": "support_category",
+      "width": 173
+    },
+    {
+      "slot": 281,
+      "text_id": 282,
+      "source": "攻撃誘導",
+      "en": "Draw Enemy Fire",
+      "category": "support_category",
+      "width": 173
+    },
+    {
+      "slot": 282,
+      "text_id": 283,
+      "source": "攻撃誘導",
+      "en": "Draw Enemy Fire",
+      "category": "support_category",
+      "width": 173
+    },
+    {
+      "slot": 283,
+      "text_id": 284,
+      "source": "バリア付加",
+      "en": "Barrier",
+      "category": "support_category",
+      "width": 70
+    },
+    {
+      "slot": 284,
+      "text_id": 285,
+      "source": "バリア付加",
+      "en": "Barrier",
+      "category": "support_category",
+      "width": 70
+    },
+    {
+      "slot": 285,
+      "text_id": 286,
+      "source": "バリア付加",
+      "en": "Barrier",
+      "category": "support_category",
+      "width": 70
+    },
+    {
+      "slot": 286,
+      "text_id": 287,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 287,
+      "text_id": 288,
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "category": "support_category",
+      "width": 177
+    },
+    {
+      "slot": 288,
+      "text_id": 289,
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "category": "support_category",
+      "width": 123
+    },
+    {
+      "slot": 289,
+      "text_id": 290,
+      "source": "攻撃誘導",
+      "en": "Draw Enemy Fire",
+      "category": "support_category",
+      "width": 173
+    },
+    {
+      "slot": 290,
+      "text_id": 291,
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "category": "support_category",
+      "width": 206
+    },
+    {
+      "slot": 300,
+      "text_id": 301,
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "category": "support_trigger",
+      "full_en": "When player AP is 30％ or less",
+      "width": 220
+    },
+    {
+      "slot": 301,
+      "text_id": 302,
+      "source": "常時使用",
+      "en": "Always active",
+      "category": "support_trigger",
+      "full_en": "Used constantly",
+      "width": 141
+    },
+    {
+      "slot": 302,
+      "text_id": 303,
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "category": "support_trigger",
+      "full_en": "When player AP is 30％ or less",
+      "width": 220
+    },
+    {
+      "slot": 303,
+      "text_id": 304,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "full_en": "Used against powerful enemies",
+      "width": 229
+    },
+    {
+      "slot": 304,
+      "text_id": 305,
+      "source": "プレイヤーがコンボを受けた時",
+      "en": "Player hit by a combo",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 305,
+      "text_id": 306,
+      "source": "常時使用／ＡＰ１０％以下",
+      "en": "Always / AP 10％ or less",
+      "category": "support_trigger",
+      "note": "Paired Nanoskin/Moonlight Butterfly: ongoing AP recovery / area attack when AP is 10％ or less. Source does not repeat Player here.",
+      "width": 258
+    },
+    {
+      "slot": 306,
+      "text_id": 307,
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "category": "support_trigger",
+      "width": 221
+    },
+    {
+      "slot": 307,
+      "text_id": 308,
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "category": "support_trigger",
+      "width": 221
+    },
+    {
+      "slot": 308,
+      "text_id": 309,
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "category": "support_trigger",
+      "width": 221
+    },
+    {
+      "slot": 309,
+      "text_id": 310,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 310,
+      "text_id": 311,
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "category": "support_trigger",
+      "width": 221
+    },
+    {
+      "slot": 312,
+      "text_id": 313,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 313,
+      "text_id": 314,
+      "source": "プレイヤーＡＰ１０％以下",
+      "en": "Player AP 10％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 314,
+      "text_id": 315,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 315,
+      "text_id": 316,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 316,
+      "text_id": 317,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 317,
+      "text_id": 318,
+      "source": "プレイヤーＡＰ１０％以下",
+      "en": "Player AP 10％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 318,
+      "text_id": 319,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 319,
+      "text_id": 320,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 320,
+      "text_id": 321,
+      "source": "プレイヤーがコンボを受けた時",
+      "en": "Player hit by a combo",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 321,
+      "text_id": 322,
+      "source": "プレイヤーが近接攻撃使用時",
+      "en": "Player uses melee",
+      "category": "support_trigger",
+      "width": 174
+    },
+    {
+      "slot": 322,
+      "text_id": 323,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 323,
+      "text_id": 324,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 324,
+      "text_id": 325,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 325,
+      "text_id": 326,
+      "source": "プレイヤーＡＰ１０％以下",
+      "en": "Player AP 10％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 326,
+      "text_id": 327,
+      "source": "プレイヤーＡＰ１０％以下",
+      "en": "Player AP 10％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 327,
+      "text_id": 328,
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 328,
+      "text_id": 329,
+      "source": "プレイヤーが近接攻撃使用時",
+      "en": "Player uses melee",
+      "category": "support_trigger",
+      "width": 174
+    },
+    {
+      "slot": 329,
+      "text_id": 330,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 330,
+      "text_id": 331,
+      "source": "プレイヤーがコンボを受けた時",
+      "en": "Player hit by a combo",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 331,
+      "text_id": 332,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 332,
+      "text_id": 333,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 333,
+      "text_id": 334,
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 334,
+      "text_id": 335,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 335,
+      "text_id": 336,
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "category": "support_trigger",
+      "width": 221
+    },
+    {
+      "slot": 336,
+      "text_id": 337,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 337,
+      "text_id": 338,
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "category": "support_trigger",
+      "width": 221
+    },
+    {
+      "slot": 338,
+      "text_id": 339,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 339,
+      "text_id": 340,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 340,
+      "text_id": 341,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 341,
+      "text_id": 342,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 342,
+      "text_id": 343,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 343,
+      "text_id": 344,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 344,
+      "text_id": 345,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 345,
+      "text_id": 346,
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 346,
+      "text_id": 347,
+      "source": "―",
+      "en": "―",
+      "category": "support_trigger",
+      "width": 20
+    },
+    {
+      "slot": 347,
+      "text_id": 348,
+      "source": "―",
+      "en": "―",
+      "category": "support_trigger",
+      "width": 20
+    },
+    {
+      "slot": 348,
+      "text_id": 349,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 349,
+      "text_id": 350,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 350,
+      "text_id": 351,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 351,
+      "text_id": 352,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 352,
+      "text_id": 353,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 353,
+      "text_id": 354,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 354,
+      "text_id": 355,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 355,
+      "text_id": 356,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 356,
+      "text_id": 357,
+      "source": "プレイヤーＡＰ１０％以下",
+      "en": "Player AP 10％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 357,
+      "text_id": 358,
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 358,
+      "text_id": 359,
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "category": "support_trigger",
+      "width": 221
+    },
+    {
+      "slot": 359,
+      "text_id": 360,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 360,
+      "text_id": 361,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 361,
+      "text_id": 362,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 362,
+      "text_id": 363,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 363,
+      "text_id": 364,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 364,
+      "text_id": 365,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 365,
+      "text_id": 366,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 366,
+      "text_id": 367,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 367,
+      "text_id": 368,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 368,
+      "text_id": 369,
+      "source": "プレイヤーがコンボを受けた時",
+      "en": "Player hit by a combo",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 369,
+      "text_id": 370,
+      "source": "プレイヤーＡＰ１０％以下",
+      "en": "Player AP 10％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 370,
+      "text_id": 371,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 371,
+      "text_id": 372,
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "category": "support_trigger",
+      "width": 221
+    },
+    {
+      "slot": 372,
+      "text_id": 373,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 373,
+      "text_id": 374,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 374,
+      "text_id": 375,
+      "source": "プレイヤーがコンボを受けた時",
+      "en": "Player hit by a combo",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 375,
+      "text_id": 376,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 376,
+      "text_id": 377,
+      "source": "プレイヤーがコンボを受けた時",
+      "en": "Player hit by a combo",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 377,
+      "text_id": 378,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 378,
+      "text_id": 379,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 379,
+      "text_id": 380,
+      "source": "プレイヤーがコンボを受けた時",
+      "en": "Player hit by a combo",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 380,
+      "text_id": 381,
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 381,
+      "text_id": 382,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 382,
+      "text_id": 383,
+      "source": "プレイヤーにミサイル発射時",
+      "en": "Missiles fired at player",
+      "category": "support_trigger",
+      "note": "に marks the player as the target of the missiles, not their launcher.",
+      "width": 225
+    },
+    {
+      "slot": 383,
+      "text_id": 384,
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "category": "support_trigger",
+      "width": 220
+    },
+    {
+      "slot": 384,
+      "text_id": 385,
+      "source": "プレイヤーにミサイル発射時",
+      "en": "Missiles fired at player",
+      "category": "support_trigger",
+      "note": "に marks the player as the target of the missiles, not their launcher.",
+      "width": 225
+    },
+    {
+      "slot": 385,
+      "text_id": 386,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 386,
+      "text_id": 387,
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "category": "support_trigger",
+      "width": 229
+    },
+    {
+      "slot": 387,
+      "text_id": 388,
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "Player surrounded",
+      "category": "support_trigger",
+      "full_en": "When the player is surrounded by enemies",
+      "width": 180
+    },
+    {
+      "slot": 388,
+      "text_id": 389,
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "category": "support_trigger",
+      "width": 269
+    },
+    {
+      "slot": 389,
+      "text_id": 390,
+      "source": "プレイヤーにミサイル発射時",
+      "en": "Missiles fired at player",
+      "category": "support_trigger",
+      "note": "に marks the player as the target of the missiles, not their launcher.",
+      "width": 225
+    },
+    {
+      "slot": 390,
+      "text_id": 391,
+      "source": "プレイヤーにミサイル発射時",
+      "en": "Missiles fired at player",
+      "category": "support_trigger",
+      "note": "に marks the player as the target of the missiles, not their launcher.",
+      "width": 225
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "slice_start": 2563,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      2548,
+      2657
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_02618",
+        "dialogue_02619",
+        "dialogue_02620"
+      ],
+      "note": "Voice-only taunt before the Blue Hawk of Giganos (Meio Plato) is visually identified in 2621-2624. Speaker not named yet at this point in the table, so no identity was assumed for these three rows; 'that one' (romaji: yatsu) kept gender-neutral."
+    },
+    {
+      "ids": [
+        "dialogue_02643",
+        "dialogue_02644",
+        "dialogue_02645",
+        "dialogue_02646"
+      ],
+      "note": "Unnamed allies reassuring/reluctant about fighting Meio Plato. No speaker identity or gender assigned; 'he'/'him' refers to Meio Plato, already named by the preceding rows, not an inferred subject."
+    },
+    {
+      "id": "dialogue_02620",
+      "note": "Source pronoun (romaji: yatsu, 'that one/that guy') kept as gender-neutral 'that one' rather than 'he', since the referent (revealed one row later as Meio Plato) is not yet named at this point in the table."
+    },
+    {
+      "ids": [
+        "dialogue_02593",
+        "dialogue_02603"
+      ],
+      "note": "Squad/waypoint callsigns Yamabuki, Orange Vermilion, Red, Blue, Point R are not in any glossary file and have no apparent wiki source; treated as ACE3-original color-based unit callsigns for the Shirahime defense force and translated literally. See glossary proposal file."
+    },
+    {
+      "ids": [
+        "dialogue_02564",
+        "dialogue_02579",
+        "dialogue_02580",
+        "dialogue_02581",
+        "dialogue_02583"
+      ],
+      "note": "Source term (romaji: Giganos-gun, 'Giganos military') rendered 'Giganos army'/'Giganos-army' by analogy with existing corpus phrasing ('Giganos forces', batch_01426); no row here uses a book/color tag around it."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independent meaning review completed against the live ISO source via tools/dialogue_corpus.py; see review_02563.json.",
+    "fit": "Full meaning kept; no row was shortened to force a fit. Visible text (tags excluded) checked to stay <=110 characters for every row.",
+    "controls": "Every source <...> command reproduced in the same order for every row; only op()/on()/sp(20)/ab(n)/ed()/off() appear in this slice (no color/book/freezemouth spans)."
+  },
+  "rows": [
+    {
+      "id": "dialogue_02563",
+      "target": "<op()><sp(20)>Multiple enemy force signatures confirmed.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02564",
+      "target": "<op()><sp(20)>On top of unidentified units...\nformer Giganos-army Metal Armors!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Metal Armor(s)' matches locked corpus term."
+    },
+    {
+      "id": "dialogue_02565",
+      "target": "<op()><sp(20)>Why is Giganos here!?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02566",
+      "target": "<op()><sp(20)>...Save the shock for later!\nWe're engaging!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02567",
+      "target": "<op()><sp(20)>Those with no combat experience in space,\nlisten up.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02568",
+      "target": "<op()><sp(20)>In space, your unit can rotate a full 360 degrees,\nso you'll need to adjust its pitch.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02569",
+      "target": "<op()><sp(20)>Use this input to rotate your unit\ntoward the direction you want to go.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02570",
+      "target": "<op()><sp(20)>Enemy ship confirmed! It's closing in!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02571",
+      "target": "<op()><sp(20)>Sending target positions to all units.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02572",
+      "target": "<sp(20)>Head in the indicated direction\nand destroy the enemy ship.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02573",
+      "target": "<op()><sp(20)>Did you copy?\nHead in the direction the marker indicates.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02574",
+      "target": "<sp(20)>In space, mastering the quick turn\nis important.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "'quick turn' matches locked tutorial term (terms_028.json) even though this row uses the kana form."
+    },
+    {
+      "id": "dialogue_02575",
+      "target": "<sp(20)>If you can pull off a quick turn while dashing,\nyou'll gain the advantage in battle.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Source says 'kyuusoku taan' (rapid turn) rather than the katakana loanword term in 2574; read as the same dash-turn mechanic (matches batch_01746's 'quick turns also work while dashing')."
+    },
+    {
+      "id": "dialogue_02576",
+      "target": "<sp(20)>You probably won't get used to it right away,\nbut keep it in mind.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02577",
+      "target": "<op()><sp(20)>What exactly is Giganos, anyway?\nI don't get it at all.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02578",
+      "target": "<op()><sp(20)>It's a military nation that once\nwaged war against Earth.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02579",
+      "target": "<op()><sp(20)>And here it's supposedly long gone.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02580",
+      "target": "<op()><sp(20)>The forces of a nation that vanished have shown themselves again.\nSomething's going on here.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02581",
+      "target": "<op()><sp(20)>What is the true identity of that force\ntraveling with the Giganos army?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02582",
+      "target": "<op()><sp(20)>Omoikane has no data on it either.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Omoikane matches encyclopedia_021_a.json/encyclopedia_022.json."
+    },
+    {
+      "id": "dialogue_02583",
+      "target": "<op()><sp(20)>The mysterious enemy and the Giganos army...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02584",
+      "target": "<sp(20)>I wonder what the connection could be...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02585",
+      "target": "<op()><sp(20)>What's the situation at Shirahime?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Shirahime matches encyclopedia_021_a.json/encyclopedia_022.json and scene 4004463."
+    },
+    {
+      "id": "dialogue_02586",
+      "target": "<op()><sp(20)>The defense network is being breached one after another!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02587",
+      "target": "<op()><sp(20)>Damn... we need to hurry.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02588",
+      "target": "<op()><sp(20)>A transmission has come in from the Shirahime defense force.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02589",
+      "target": "<op()><sp(20)>This is the Shirahime defense force!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02590",
+      "target": "<sp(20)>The first and second alert lines\nhave already been breached!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02591",
+      "target": "<op()><sp(20)>Waaaaugh!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02592",
+      "target": "<op()><sp(20)>First and second squads wiped out!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02593",
+      "target": "<op()><sp(20)>Orange Vermilion, hold your position;\nRed, fall back to Point R!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unlocked callsigns; see uncertainties and glossary proposal."
+    },
+    {
+      "id": "dialogue_02594",
+      "target": "<op()><sp(20)>Gwah, waaah!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02595",
+      "target": "<op()><sp(20)>Shirahime, Shirahime, please respond!<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02596",
+      "target": "<sp(20)>...The transmission's been cut.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02597",
+      "target": "<op()><sp(20)>There's still a chance survivors remain.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02598",
+      "target": "<sp(20)>Wipe out the Metal Armors surrounding Shirahime\nand the mysterious mobile weapon unit.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02599",
+      "target": "<op()><sp(20)>All of Shirahime's researchers are dead!<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02600",
+      "target": "<sp(20)>As for the intruders...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02601",
+      "target": "<op()><sp(20)>It's classified.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02602",
+      "target": "<op()><sp(20)>Ugh, waaaugh!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02603",
+      "target": "<op()><sp(20)>Yamabuki Squad, back up Blue!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unlocked callsigns; see uncertainties and glossary proposal."
+    },
+    {
+      "id": "dialogue_02604",
+      "target": "<op()><sp(20)>Damn it!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02605",
+      "target": "<op()><sp(20)>These things are fast!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02606",
+      "target": "<op()><sp(20)>Watch out!\nMetal Armors excel at high-speed combat.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02607",
+      "target": "<op()><sp(20)>Stop scurrying around!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02608",
+      "target": "<op()><sp(20)>This is a type I've never faced before!\nKind of a bad matchup...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02609",
+      "target": "<op()><sp(20)>Mysterious enemy or enemy from the past,\nmakes no difference to us.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02610",
+      "target": "<op()><sp(20)>Being the enemy is reason enough.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02611",
+      "target": "<op()><sp(20)>Eureka, how's the Nirvash holding up?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Eureka/Nirvash spellings match character_names_021.json and unit_names_014_b.json."
+    },
+    {
+      "id": "dialogue_02612",
+      "target": "<op()><sp(20)>It's fine, seems like it handles\nthe same even in this world.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Eureka is glossary-locked female; no pronoun needed since source has none."
+    },
+    {
+      "id": "dialogue_02613",
+      "target": "<op()><sp(20)>Don't let your guard down, you two!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02614",
+      "target": "<op()><sp(20)>I can't tell which way it's facing!\nWhat an awkward thing to fight!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02615",
+      "target": "<op()><sp(20)>If it gets dangerous, fall back\nand get a read on the enemy's position!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02616",
+      "target": "<op()><sp(20)>New enemy ship confirmed!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02617",
+      "target": "<op()><sp(20)>Please intercept the enemy.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02618",
+      "target": "<op()><sp(20)>Too late, avenger; you're still unripe.\nPerish.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unidentified at this point; see uncertainties."
+    },
+    {
+      "id": "dialogue_02619",
+      "target": "<sp(20)>Our objective has already been achieved.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02620",
+      "target": "<sp(20)>Now, let's see what that one's skill is worth.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source pronoun (romaji: yatsu) kept as gender-neutral 'that one'; see uncertainties."
+    },
+    {
+      "id": "dialogue_02621",
+      "target": "<op()><sp(20)>Hey, hey, don't tell me...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02622",
+      "target": "<op()><sp(20)>The Blue Hawk of Giganos!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Nickname matches character_names_021.json / batch_01506."
+    },
+    {
+      "id": "dialogue_02623",
+      "target": "<op()><sp(20)>Meio Plato... why is he here!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Full name matches character_names_021.json (en_full 'Meio Plato')."
+    },
+    {
+      "id": "dialogue_02624",
+      "target": "<op()><sp(20)>Meio...?<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02625",
+      "target": "<op()><sp(20)>You there, Londo Bell!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Londo Bell matches glossary.json/character_names_021.json."
+    },
+    {
+      "id": "dialogue_02626",
+      "target": "<sp(20)>Why won't you use that power for the sake of justice!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02627",
+      "target": "<op()><sp(20)>All units, intercept.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02628",
+      "target": "<op()><sp(20)>Is that all right?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02629",
+      "target": "<op()><sp(20)>Yes.\nThere doesn't seem to be room to talk him down.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02630",
+      "target": "<sp(20)>It's a highly maneuverable unit, so be careful.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02631",
+      "target": "<op()><sp(20)>Is it really... you, Meio!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02632",
+      "target": "<op()><sp(20)>To overthrow the Federation that keeps tormenting the people of space,\nI have risen again.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Bare 'Federation' (no book tag in source, unlike 2672/2676/2687)."
+    },
+    {
+      "id": "dialogue_02633",
+      "target": "<sp(20)>Whoever stands in my way,\nno matter how many, I will strike down!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02634",
+      "target": "<op()><sp(20)>Meio, weren't we comrades\nwho fought together!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02635",
+      "target": "<op()><sp(20)>For Earth's sake, I once took up the sword alongside you.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02636",
+      "target": "<sp(20)>But did the Federation change after that battle!?<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02637",
+      "target": "<sp(20)>Bureaucrats who, as ever, think only\nof their own self-preservation and prosperity.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02638",
+      "target": "<sp(20)>The suffering inflicted on those living in space\nhasn't eased in the slightest.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02639",
+      "target": "<sp(20)>I rose up for their sake!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02640",
+      "target": "<op()><sp(20)>Even so... like this!?<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02641",
+      "target": "<op()><sp(20)>Enough talk!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02642",
+      "target": "<op()><sp(20)>Th-the Blue Hawk of Giganos...?\nIsn't that supposed to be a legend?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

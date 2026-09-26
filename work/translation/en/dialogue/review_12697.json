@@ -1,0 +1,58 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 12697,
+  "slice_count": 80,
+  "rows_examined": [{"start": 12682, "end": 12791}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_12726",
+      "before": "Tactical clear.\\nNow strategic level.",
+      "after": "Tactical clear, now strategic level.",
+      "reason": "Format fix, not a meaning change: source row contains a line break, but the shout-specific rule requires source line breaks to be joined into one line (no newline allowed in this table type). Joined into one line; fits the row's 42-character budget (36/42)."
+    },
+    {
+      "id": "dialogue_12731",
+      "before": "Go behind?\\nNo, haste means losing!",
+      "after": "Go behind? No, haste means losing!",
+      "reason": "Format fix (same no-newline rule as above). Joined into one line; fits the row's 36-character budget (34/36)."
+    },
+    {
+      "id": "dialogue_12733",
+      "before": "Enemy power's rising too...\\nBe careful!",
+      "after": "Enemy power's rising too, be careful!",
+      "reason": "Format fix (same no-newline rule as above). Joined into one line; fits the row's 40-character budget (37/40)."
+    },
+    {
+      "id": "dialogue_12736",
+      "before": "No sense of right,\\nhelping villains, fool!",
+      "after": "No sense of right, helping villains, fool!",
+      "reason": "Format fix (same no-newline rule as above). Joined into one line; fits the row's 42-character budget exactly (42/42)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [12700, 12727, 12730], "finding": "Heero Yuy's mission-report lines translated consistently ('op'/'mission'/'returning'); no meaning drift."},
+    {"rows": [12731, 12733, 12736, 12740, 12744], "finding": "'Dunbine' locked mecha spelling matches work/translation/en/unit_names_014_a.json; Marvel Frozen's feminine lines (わ/ね endings) correctly rendered with no invented gendered pronouns for third parties."},
+    {"rows": [12737], "finding": "Locked term 'Aura Power' (encyclopedia_022.json) could not fit the row's 20-character budget (an explicit 'Aura Power' phrase alone runs to ~25 chars in any natural sentence); translator's compression to generic 'power' verified as the best available compromise, not a fix."},
+    {"rows": [12723], "finding": "Confirmed translator correctly avoided gendering the unnamed enemy pilot ('him' -> 'it') per BASE_RULES; no change needed."},
+    {"rows": [12783, 12791], "finding": "Polarity shifts from 'won't lose' to 'I win'/'not yet' reviewed; both remain within the same defiant-bravado register as the source and don't reverse the outcome being claimed (no assertion of an outcome the source contradicts), so left as phrasing differences, not fixes."},
+    {"rows": [12774, 12778, 12792], "finding": "'Show' pilot name spelling matches glossary short form (Show Zama); Marvel/ally lines addressing him by name correctly preserved."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_12721"],
+      "issue": "'……来たか。' (\"so it's arrived\") compressed to '...Here.' — checked against the same pattern used elsewhere in this corpus for identical short arrival-barks (e.g. dialogue_12811 '来たっ！' -> 'Here!'); ruled consistent with established convention for this resource group, not an isolated error."
+    },
+    {
+      "issue": "General: this slice (rest of 2806012 Heero Yuy, all of 2807010 Dunbine/Marvel Frozen, start of 2807020 Billbine/Show Zama) carries the same tight byte budget as the rest of this batch group; heavy compression is expected and was not treated as an error."
+    }
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(1000)>/<ed()> command tags checked identical and in original order against the console-dumped source for all 80 rows plus 30 rows of context; no edits made in this batch.",
+    "format": "Found rows 12726, 12731, 12733, 12736 reproducing the source's own internal line breaks as two-line targets, violating the shout-specific no-newline rule; all 4 joined into single lines (see meaning_fixes). No other rows in this slice had newlines. ASCII-only confirmed for all targets.",
+    "fit": "The 4 newline-joined rows re-measured against their own min(72, 2*source_ja_chars-2) budgets (see meaning_fixes for each). All other rows unchanged from the translator's already-verified fit. All 80 rows re-verified programmatically post-edit: command tags match source in order, no newlines, ASCII-only, and each row is within its shout budget.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit in-game are not established by this meaning review."
+  }
+}

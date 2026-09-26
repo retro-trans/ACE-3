@@ -1,0 +1,514 @@
+{
+  "slice_start": 478,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      463,
+      572
+    ]
+  ],
+  "rows": [
+    {
+      "id": "dialogue_00478",
+      "target": "<on()><sp(20)>Please let this be the end of it!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00479",
+      "target": "<on()><sp(20)>...Yes, both are safe.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source specifies two people without expressly including the speaker."
+    },
+    {
+      "id": "dialogue_00480",
+      "target": "<on()><sp(20)>Yes...\nDetention would be advisable for the time being.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source omits detainee. Kept implicit instead of deciding whether custody applies to Barrel alone or both people."
+    },
+    {
+      "id": "dialogue_00481",
+      "target": "<on()><sp(20)>Understood.\nI'll bring them back to the ship.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source omits person being brought back; neutral 'them' preserves uncertainty of identity and number."
+    },
+    {
+      "id": "dialogue_00482",
+      "target": "<on()><sp(20)>You've had a hard day,\nBarrel...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Existing glossary first name."
+    },
+    {
+      "id": "dialogue_00483",
+      "target": "<on()><sp(20)>...So tired you fell asleep, huh?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues addressing Barrel from preceding row."
+    },
+    {
+      "id": "dialogue_00484",
+      "target": "<on()><sp(20)>......<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Silent pause retained."
+    },
+    {
+      "id": "dialogue_00485",
+      "target": "<on()><sp(20)>For now, just rest...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00486",
+      "target": "<op()><sp(20)>The surrounding area is clear...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Completion of local enemy sweep."
+    },
+    {
+      "id": "dialogue_00487",
+      "target": "<op()><sp(20)>Hah... hah... Is it over...?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Exhausted breathing, not laughter; next row silent."
+    },
+    {
+      "id": "dialogue_00488",
+      "target": "<op()><sp(20)>...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00489",
+      "target": "<op()><sp(20)>This is D-3.\nUnidentified unit type spotted!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "D-3 callsign preserved; no pilot name inferred."
+    },
+    {
+      "id": "dialogue_00490",
+      "target": "<op()><sp(20)>...What are these things?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00491",
+      "target": "<op()><sp(20)>A-are these... allies?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00492",
+      "target": "<op()><sp(20)>All units!\nThey're enemies! Be careful!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00493",
+      "target": "<op()><sp(20)>You heard that, right?\nWe're going to intercept them.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Copilot instructs pilot after enemy identification; shared action clear from reply about occupants."
+    },
+    {
+      "id": "dialogue_00494",
+      "target": "<op()><sp(20)>B-but...\nAren't there people inside those things?!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00495",
+      "target": "<sp(20)>Give me a break already!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00496",
+      "target": "<op()><sp(20)>...If you don't defeat the enemy,\neven more people will get hurt.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00497",
+      "target": "<sp(20)>Above all... your own life is in danger.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00498",
+      "target": "<op()><sp(20)>Even so...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00499",
+      "target": "<op()><sp(20)>It's all right.\nThose are unmanned.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Answer to concern about enemy occupants in row494."
+    },
+    {
+      "id": "dialogue_00500",
+      "target": "<op()><sp(20)>How do you know?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00501",
+      "target": "<op()><sp(20)>Trust me.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00502",
+      "target": "<op()><sp(20)>This is D-3. The monsters suddenly vanished!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source does not distinguish singular/plural; plural follows earlier group references."
+    },
+    {
+      "id": "dialogue_00503",
+      "target": "<op()><sp(20)>Vanished?! What do you mean?!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00504",
+      "target": "<op()><sp(20)>Stay focused!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00505",
+      "target": "<op()><sp(20)>...Hah... hah...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Labored breathing."
+    },
+    {
+      "id": "dialogue_00506",
+      "target": "<op()><sp(20)>Just a little more.\nI know you can do it.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00507",
+      "target": "<op()><sp(20)>You're just saying that...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Dismissal of reassurance, answered by admission of fear next row."
+    },
+    {
+      "id": "dialogue_00508",
+      "target": "<op()><sp(20)>I have to tell myself that. I'm scared too.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Preserves reason for reassurance and speaker's own fear."
+    },
+    {
+      "id": "dialogue_00509",
+      "target": "<op()><sp(20)>Enemy sweep complete...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00510",
+      "target": "<op()><sp(20)>...Hah... ugh...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Exhausted breathing and groan."
+    },
+    {
+      "id": "dialogue_00511",
+      "target": "<op()><sp(20)>...To think you could do this much.\nI'm impressed.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Positive surprise at combat performance, not a claim of prior experience."
+    },
+    {
+      "id": "dialogue_00512",
+      "target": "<op()><sp(20)>Faye!\nThe rest of them are heading your way!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Existing glossary Faye Rochenante fixes first-name spelling."
+    },
+    {
+      "id": "dialogue_00513",
+      "target": "<op()><sp(20)>...There are still more?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00514",
+      "target": "<op()><sp(20)>Ugh...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00515",
+      "target": "<op()><sp(20)>...Please!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Object of plea remains unstated."
+    },
+    {
+      "id": "dialogue_00516",
+      "target": "<op()><sp(20)>Ugh... ngh...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00517",
+      "target": "<sp(20)>Quit?",
+      "status": "meaning_reviewed",
+      "notes": "System prompt; source does not specify what is being ended."
+    },
+    {
+      "id": "dialogue_00518",
+      "target": "<op()><sp(20)>Press △ to lock on.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Button icon preserved."
+    },
+    {
+      "id": "dialogue_00519",
+      "target": "<op()><sp(20)>Press □ to use your main weapon.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Button icon preserved."
+    },
+    {
+      "id": "dialogue_00520",
+      "target": "<op()><sp(20)>Press ○ for a melee attack.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Button icon preserved."
+    },
+    {
+      "id": "dialogue_00521",
+      "target": "<op()><sp(20)>Press L1 to access your sub-weapons.<ab(5000)>",
+      "status": "meaning_reviewed",
+      "notes": "Following rows distinguish Select and Shift controls. L1 opens selection or held mode, not necessarily firing directly."
+    },
+    {
+      "id": "dialogue_00522",
+      "target": "<sp(20)>Use up and down on the directional buttons to choose a weapon,\nthen press □ to confirm.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Select control mode; button icon preserved."
+    },
+    {
+      "id": "dialogue_00523",
+      "target": "<sp(20)>Hold L1 and press the button\nshown for the weapon on the weapon panel.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Shift control mode. Holding L1 explicitly required by source."
+    },
+    {
+      "id": "dialogue_00524",
+      "target": "<op()><sp(20)>Press R1 to ascend\nand R2 to descend.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00525",
+      "target": "<op()><sp(20)>Press × to toggle\ndash on or off.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Button icon preserved."
+    },
+    {
+      "id": "dialogue_00526",
+      "target": "<op()><sp(20)>Flick the left stick to evade.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00527",
+      "target": "<op()><sp(20)>Press R1 or R2 in quick succession\nto evade upward or downward.<ab(5000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source says consecutive input without specifying count; not expanded to double-tap."
+    },
+    {
+      "id": "dialogue_00528",
+      "target": "<op()><sp(20)>Deploying the target units.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Following exercise uses distributed targets; speaker unspecified."
+    },
+    {
+      "id": "dialogue_00529",
+      "target": "<op()><sp(20)>All right, let's begin.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00530",
+      "target": "<sp(20)>You seem to have had some combat training,\nbut I'll go over the basics again here.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": "Addresses trainees collectively; no instructor identity guessed."
+    },
+    {
+      "id": "dialogue_00531",
+      "target": "<sp(20)>That's how I do things.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00532",
+      "target": "<op()><sp(20)>First, try locking on to a target.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00533",
+      "target": "<sp(20)>All you have to do is press the lock-on button.<ab(700)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00534",
+      "target": "<sp(20)>You won't get anywhere in combat if you can't do that.<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00535",
+      "target": "<op()><sp(20)>Next, attack the target you've locked on to.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00536",
+      "target": "<sp(20)>Try using your main weapon.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00537",
+      "target": "<op()><sp(20)>Good. Anyone can manage this much.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00538",
+      "target": "<sp(20)>These are the basics. Don't ever forget them.<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00539",
+      "target": "<op()><sp(20)>Next, try a melee attack.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00540",
+      "target": "<sp(20)>The marker changes when you get close to the target.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00541",
+      "target": "<sp(20)>That's the signal that you're within attack range.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00542",
+      "target": "<sp(20)>Try landing a series of hits.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00543",
+      "target": "<op()><sp(20)>Good. Next is how to use your sub-weapons.<ab(700)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00544",
+      "target": "<sp(20)>Press the sub-weapon button to bring up\na selection menu at the bottom right of the screen.<ab(900)>",
+      "status": "meaning_reviewed",
+      "notes": "Select mode instructions 543–547."
+    },
+    {
+      "id": "dialogue_00545",
+      "target": "<sp(20)>Use further button inputs to select a weapon.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Source does not name particular button in this line; explicit up/down guidance is row522."
+    },
+    {
+      "id": "dialogue_00546",
+      "target": "<sp(20)>Once you've chosen a weapon,\npress the main weapon button.<ab(700)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00547",
+      "target": "<sp(20)>After that, you use it just like the main weapon.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00548",
+      "target": "<op()><sp(20)>Good. Next is how to use your sub-weapons.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00549",
+      "target": "<sp(20)>Press the sub-weapon button\nto switch attacks to sub-weapon mode.<ab(700)>",
+      "status": "meaning_reviewed",
+      "notes": "Shift mode instructions 548–552."
+    },
+    {
+      "id": "dialogue_00550",
+      "target": "<sp(20)>Then press the button shown on the weapon panel\nat the bottom right of the screen...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Sentence continues in row551."
+    },
+    {
+      "id": "dialogue_00551",
+      "target": "<sp(20)>...to use that sub-weapon.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Completes row550; no omitted instruction."
+    },
+    {
+      "id": "dialogue_00552",
+      "target": "<sp(20)>You can't use it once you release\nthe sub-weapon button, so remember that.<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Hold requirement explicit; must not imply toggle."
+    },
+    {
+      "id": "dialogue_00553",
+      "target": "<op()><sp(20)>Looks like you've got weapon handling down.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00554",
+      "target": "<sp(20)>Next, let's run through all the movement controls.<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00555",
+      "target": "<op()><sp(20)>Try destroying the targets while moving up and down.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00556",
+      "target": "<sp(20)>I've spread the targets out. Move up and down\nto match their altitude.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": "Instructor's positioning of targets and trainee instruction explicit in context."
+    },
+    {
+      "id": "dialogue_00557",
+      "target": "<sp(20)>This is another basic part of combat.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_00480",
+        "dialogue_00481"
+      ],
+      "note": "Detention exchange does not name the detainee or person returning to the ship. Draft leaves detainee implicit and uses neutral them for transport; no unsupported gender or number assigned."
+    },
+    {
+      "id": "dialogue_00502",
+      "note": "Source does not mark monster count; plural follows group references in surrounding combat lines."
+    },
+    {
+      "id": "dialogue_00517",
+      "note": "Generic end/quit prompt. No object such as mission or tutorial added because prompt alone does not establish one."
+    },
+    {
+      "id": "dialogue_00527",
+      "note": "Consecutive R1/R2 inputs retained without specifying an exact count; gameplay testing may establish double tap."
+    }
+  ],
+  "independent_review": "review_00478.json"
+}

@@ -1,0 +1,327 @@
+{
+ "resource_id": 4003260,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 35,
+ "rows_examined": 35,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "20  Repel Antibody Coralians",
+   "notes": "Released mission title reused verbatim from missions_019.json (two spaces, no branch letter, as in that source).",
+   "source_sha256": "6d1dd1de68cba200ec3f0f814a0f732d9564375925bd04560202b1efa01f1dd9"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30120,1)><speed(2)>A <book(38)>New Federation<endbook()> executive, <color(5)>Dewey Novak<ce()><thumbnail(194)>, has finally made his move.",
+   "notes": "Speaker 30120 = Talho Yuki. Dewey Novak per character_names_021.json.",
+   "source_sha256": "57322e4b96251a42002df5404b53b82d6d7116696215688ed7e90cea5c8aa825"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30120,1)><speed(2)>We've gotten word that <book(73)>Antibody Coralians<endbook()> have appeared up ahead. This is <color(5)>Dewey<ce()>'s doing too.",
+   "notes": "Antibody Coralian per mission_terms_019.json (sourced, matches this mission's title).",
+   "source_sha256": "c09ad69e5b499b5997dcb3986db11b715068a96e9fec90cb85c88afb64bb2129"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30110,1)><speed(2)><book(38)>New Federation<endbook()>'s <color(5)>Dewey<ce()> is pushing forward the <book(78)>Ageha Plan<endbook()>. Let me tell you about it.",
+   "notes": "Speaker 30110 = Holland Novak. Ageha Plan per encyclopedia_021_b.json / eurekaseven.fandom.com/wiki/Ageha_Plan lock. Sentence reordered (New Federation, Dewey, Ageha Plan) to keep the book()/color() tags in source order.",
+   "source_sha256": "284469af014c15500ee47d6dc59b6a59916c25d55267a2524428140ba9ffed82"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30110,1)><speed(2)>The <book(78)>Ageha Plan<endbook()> is a document put forward by the hero of the past, <book(68)>Adroc Thurston<endbook()>, concerning the <book(72)>Coralians<endbook()>.",
+   "notes": "Adroc Thurston per character_names_021/glossary.json. Reordered (Adroc before Coralians) to match source tag order.",
+   "source_sha256": "67a8bd5801970b3a688d4bfd79fe7a0e7b45c1cae9c8fd7217f47a9df254cca5"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30110,1)><speed(2)>It laid out the damage the <book(69)>Scub Coral<endbook()> could do to humanity and Earth, and the mechanism behind it.",
+   "notes": "Scub Coral per encyclopedia_021_b/022 lock.",
+   "source_sha256": "dfd6cf9404601e782e8e75b19142a83bb1224861140c3135b20890f801529953"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30110,1)><speed(2)>At the time, some theorized the <book(49)>Invaders<endbook()> - once among the unidentified life-forms - might have come from the <book(69)>Scub<endbook()>.",
+   "notes": "'unidentified life-forms' is the locked hyphenated corpus rendering of the source's own 'nazo no seimeitai' (terms_028.json).",
+   "source_sha256": "50ab04146e990467c314c782e96fcc1deb3b41f1cc585d28a7134cb48f23ea48"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30110,1)><speed(2)>So <book(68)>Adroc<endbook()> turned to the leading authority on <book(49)>Invaders<endbook()> and <book(51)>Getter Rays<endbook()> research, Dr. <color(5)>Saotome<ce()><thumbnail(261)>, and asked for his help.",
+   "notes": "Reordered (Adroc, Invaders, Getter Ray, then Saotome) to match source tag order; thumbnail kept right after 'Dr. Saotome' as in the reviewed scene 4003070.json precedent.",
+   "source_sha256": "824fb266ac35b9bf04c0ac9daefde454c00ab2541d6bae76d8d85043964f3c86"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30110,1)><speed(2)>Together the two of them advanced research on the <book(69)>Scub<endbook()> and drew up the <book(78)>Ageha Plan<endbook()>.",
+   "notes": "",
+   "source_sha256": "d2cdd42258db638945f96255d216a0b7acd97c6ca167e9a035e1361adec379f5"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30110,1)><speed(2)>But partway through the research, something caused <book(68)>Adroc<endbook()> and <color(5)>Saotome<ce()> to fall out.",
+   "notes": "",
+   "source_sha256": "1ccac3f3d8b1e6e7d989838452a9132452f3f9388569dbc10c0ce3f86288aefc"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30110,1)><speed(2)>As a result, the connection between the <book(49)>Invaders<endbook()> and the <book(69)>Scub<endbook()> was never fully worked out.",
+   "notes": "",
+   "source_sha256": "ae06fc7b73043c5e1dc317b5ceab0ec52dac8d8200cc412b2784acc47402d80b"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>All that came clear was that the <book(72)>Coralians<endbook()>' existence could trigger the <book(77)>Limit of Questions<endbook()> and destroy the world.",
+   "notes": "'Limit of Questions' for Kudan no Genkai per encyclopedia_021_b.json / batch_05943 dialogue lock.",
+   "source_sha256": "9023fe8ff2955760d187fbaef5c5a5d3c6ed488374fae9769bd7cec3c551b6f9"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30110,1)><speed(2)>But believing the hypothesis that <book(72)>Coralians<endbook()> had intelligence, <book(68)>Adroc<endbook()> secretly realized something.",
+   "notes": "'secretly' used instead of 'quietly' to avoid the lowercase q. Reordered (Coralians before Adroc) to match source tag order.",
+   "source_sha256": "fed06b8dc48455a07a01d38d9e6a3e329aa606c4eeeb1a9c619ba777a3e9514e"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30110,1)><speed(2)>It was the possibility that talking with the <book(69)>Scub Coral<endbook()> might open a path to coexistence.",
+   "notes": "",
+   "source_sha256": "ea0f98704dcd9f2d3c98da88b33084527372c4d284f70aa505d685df168648d8"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30110,1)><speed(2)>But the Federation of that time saw the <book(72)>Coralians<endbook()> as far too dangerous.",
+   "notes": "Source just says 'the Federation of that era' without specifying New Federation vs. its predecessor; left generic rather than supplying which.",
+   "source_sha256": "3911f43b099ef7a57daab0f2be482e399e35d2603b401b95c3d91436b7b158fd"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30110,1)><speed(2)>As a result, they turned the <book(78)>Ageha Plan<endbook()> into a manual for wiping out the <book(69)>Scub Coral<endbook()>.",
+   "notes": "",
+   "source_sha256": "3b2e496b5e74d02ef9ff0a2d34094c0fac01c7d44ee8aba218df39db97de20b6"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30110,1)><speed(2)>The <book(78)>Ageha Plan<endbook()> laid out all sorts of possibilities for the <book(69)>Scub<endbook()>, but it also planted fear in humanity.",
+   "notes": "",
+   "source_sha256": "de4c05f5dbf35557f02b84cabd46bff56c5f91e6dd074d5ef869683ee5fd267b"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(30110,1)><speed(2)>Eliminate them, or live alongside them... The path humanity should take toward the <book(72)>Coralians<endbook()> was split.",
+   "notes": "",
+   "source_sha256": "9bf94d2d26e95d42e5f469c8df50ddb7501f9ce61af4a38d5334928af80aad5b"
+  },
+  {
+   "table": 1,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(30120,1)><speed(2)><book(68)>Adroc<endbook()> was certain of it - certain that <book(72)>Coralians<endbook()> were intelligent beings. That's why he sought coexistence.",
+   "notes": "Speaker switches back to 30120 Talho Yuki.",
+   "source_sha256": "eba07804e90837035abfdc1efe13dd22e59ea7fe74644f425918466964f4b8f4"
+  },
+  {
+   "table": 1,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(30120,1)><speed(2)>What backed that up was the appearance of a humanoid Coralian.",
+   "notes": "Source leaves 'Coralian' unwrapped here (no book() tag on this occurrence); matched exactly.",
+   "source_sha256": "8d33acd62cc05c380455e27c1e82ba81c187952c81d5ab9b6d6e1f47df7242f0"
+  },
+  {
+   "table": 1,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(30120,1)><speed(2)>That humanoid Coralian is none other than... <color(4)>Eureka<ce()><thumbnail(259)>.",
+   "notes": "Source again leaves 'Coralian' unwrapped here; matched exactly.",
+   "source_sha256": "0d8930f76232e542e21a7504989b5c5dc443a24376420df670f98b5da9b70048"
+  },
+  {
+   "table": 1,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(30120,1)><speed(2)>But... <book(68)>Adroc<endbook()> died in the Summer of Love, and the <book(78)>Ageha Plan<endbook()> was sealed away by the United Federation of Predgio Towers.",
+   "notes": "'Summer of Love' per encyclopedia_021_b.json (Saotome's entry). 'United Federation of Predgio Towers' for Toushuu Renpou per encyclopedia_021_a.json lock, also used in reviewed scene 4004673.json.",
+   "source_sha256": "7121689ccb390c045b4be0dc667f301b06a98c39386af5b221df1778a41f307c"
+  },
+  {
+   "table": 1,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(30120,1)><speed(2)>After that, with <book(40)>Bloodman<endbook()>'s backing, <color(5)>Dewey<ce()> made his comeback and secured his position in today's <book(38)>New Federation<endbook()>.",
+   "notes": "'Bloodman' as the short form of the locked 'Fixx Bloodman' was ruled acceptable by the orchestrator (scene 4004573.json); source itself only says 'Bloodman' here. Reordered (Bloodman, Dewey, New Federation) to match source tag order. Orchestrator: shortened to fit three lines.",
+   "source_sha256": "b86d426919074c159c16c95197f9f3b1d053c57ca5385f0bf441d1b71e22c0fe"
+  },
+  {
+   "table": 1,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<operator(30120,1)><speed(2)>Using the power he gained by rallying support against the <book(72)>Coralians<endbook()>, he's finally moved to carry out the <book(78)>Ageha Plan<endbook()>.",
+   "notes": "",
+   "source_sha256": "6d4d9dcdfa0dcd0806bcdb803d565f96bbee2ffbdedc600646f355189757baf7"
+  },
+  {
+   "table": 1,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<operator(30110,1)><speed(2)><color(5)>Dewey<ce()>'s real goal is to use the <book(78)>Ageha Plan<endbook()> and wipe out the <book(69)>Scub Coral<endbook()>.",
+   "notes": "'goal' used per terms_028.json orchestrator decision (in place of 'objective').",
+   "source_sha256": "b1c58aadefbfba24d3733d8e42b82bed79e9ad336fe149b7cc31e8a567c47f0b"
+  },
+  {
+   "table": 1,
+   "slot": 43,
+   "text_id": 44,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>But the <book(69)>Scub Coral<endbook()> is this Earth's new land, a being we should be living alongside.",
+   "notes": "",
+   "source_sha256": "0220f29c526d95ced7aa3fe95868adf0836e986bbe2eb19599eb952ff67eef01"
+  },
+  {
+   "table": 1,
+   "slot": 44,
+   "text_id": 45,
+   "en": "<operator(30110,1)><speed(2)>No matter what, we have to stop my brother... no, <color(5)>Dewey<ce()>'s actions.",
+   "notes": "Holland catches himself calling Dewey 'brother'; character_names_021.json confirms Dewey is 'Holland's older brother'.",
+   "source_sha256": "2087c501bccc1a10883dd80fd50dfe187b577995ab84e39d25476573b7d30533"
+  },
+  {
+   "table": 1,
+   "slot": 45,
+   "text_id": 46,
+   "en": "<operator(30140,1)><speed(2)>The one <color(5)>Dewey<ce()> started, \"<book(82)>Operation Orange<endbook()>,\"<thumbnail(264)> means firing crust-penetrating bombs into the ground, into the <book(69)>Scub<endbook()>.",
+   "notes": "Speaker 30140 = Greg Egan. Operation Orange per encyclopedia_021_b/022 lock; straight quotes for the source's brackets. Reordered (Dewey before the operation name) to match source tag order.",
+   "source_sha256": "c8c71e44aca567a0c9cb1bbf7672a42012a4a2eec711ada6b965d08c6e2e18c1"
+  },
+  {
+   "table": 1,
+   "slot": 46,
+   "text_id": 47,
+   "en": "<operator(30140,1)><speed(2)><color(5)>Dewey<ce()> is using <book(81)>Orange<endbook()> to pin down the <book(69)>Scub Coral<endbook()>'s nerve center - the <book(80)>Command Cluster<endbook()>.",
+   "notes": "Orange (bare, the bomb) and Command Cluster per encyclopedia_021_b/022 lock. Reordered (Scub Coral before Command Cluster) to match source tag order.",
+   "source_sha256": "17d4fb71664f47abe2d0da501d6c2b0e1ecfdb73c89dcb15577bd17efd75e4af"
+  },
+  {
+   "table": 1,
+   "slot": 47,
+   "text_id": 48,
+   "en": "<operator(30140,1)><speed(2)>The <book(80)>Command Cluster<endbook()> is the <book(69)>Scub Coral<endbook()>'s collective will... you might call it its brain.",
+   "notes": "",
+   "source_sha256": "75df70caec6933330f0ce3bf6008dc56a0623eff9ba7420df4608f326416067f"
+  },
+  {
+   "table": 1,
+   "slot": 48,
+   "text_id": 49,
+   "en": "<operator(30140,1)><speed(2)><color(5)>Dewey<ce()> probably means to destroy the <book(80)>Command Cluster<endbook()> and wipe out the <book(72)>Coralians<endbook()>.",
+   "notes": "",
+   "source_sha256": "45d863b49c433b8e2dd0f955e8ddc3d3476bf74c6c61883061a3f3b4b98e6735"
+  },
+  {
+   "table": 1,
+   "slot": 49,
+   "text_id": 50,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>But when the <book(69)>Scub<endbook()> is attacked, it spawns <book(73)>Antibody Coralians<endbook()> - to protect itself.",
+   "notes": "Speaker switches back to 30110 Holland Novak.",
+   "source_sha256": "8f8819d276107357349927599dda30e0a6b6036b640aa1c0c1e01f4cefd77819"
+  },
+  {
+   "table": 1,
+   "slot": 50,
+   "text_id": 51,
+   "en": "<operator(30110,1)><speed(2)>And you already know what the <book(73)>Antibody Coralians<endbook()> that appear will do.",
+   "notes": "",
+   "source_sha256": "7544550e27d55cbd8c4cf3bc580056e4c85107b955e9c4e454b23c073f684c21"
+  },
+  {
+   "table": 1,
+   "slot": 51,
+   "text_id": 52,
+   "en": "<operator(30110,1)><speed(2)>If we leave <color(5)>Dewey<ce()> be like this, the world is ruined. Everyone... I need your help.",
+   "notes": "",
+   "source_sha256": "858c219960aba0c41efaea56cb8ee90734eac83558165af7d77c4b85063ecfd0"
+  },
+  {
+   "table": 1,
+   "slot": 52,
+   "text_id": 53,
+   "en": "<operator(30110,1)><speed(2)>We're heading out to rescue the people under attack by the <book(73)>Antibody Coralians<endbook()>.",
+   "notes": "",
+   "source_sha256": "cc21c3754ad5138cfca4ba7019ceb35188dd3755648be065efa316bc79aea945"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 32,
+   "issue": "'The Federation of that time' (touji no renpou) is left generic since the source doesn't say New Federation vs. the pre-coup United Federation of Predgio Towers explicitly at this point of the flashback (only slot 39 names Predgio Towers outright)."
+  },
+  {
+   "note": "Several rows in this scene (21, 22, 25, 30, 40, 45, 46) needed English word order reshuffled from the most natural phrasing so every book()/color() tag stays in the exact source sequence per the hard format rule; flagged in case a reviewer prefers a looser reading of 'same order' for pure apposition (e.g. 'the Command Cluster, the Scub Coral's nerve center')."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 35,
+  "rows_in_scene": 35,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 25,
+    "before": "So <book(68)>Adroc<endbook()> turned to the leading authority on <book(49)>Invaders<endbook()> and <book(51)>Getter Ray<endbook()> research, Dr. <color(5)>Saotome<ce()><thumbnail(261)>, and asked for his help.",
+    "after": "So <book(68)>Adroc<endbook()> turned to the leading authority on <book(49)>Invaders<endbook()> and <book(51)>Getter Rays<endbook()> research, Dr. <color(5)>Saotome<ce()><thumbnail(261)>, and asked for his help.",
+    "reason": "Name-spelling inconsistency: every other book(51) occurrence in the corpus (encyclopedia_021_b.json, encyclopedia_022.json, scenes 4003070/4003150/4003240/4003270/4003310/4003731, dialogue batches 02295/02375/06023/07926) renders the locked term as 'Getter Rays' (plural); this row was the only one using the singular 'Getter Ray'. Fixed to match the corpus-wide spelling."
+   }
+  ],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019.json '20  Repel Antibody Coralians' (two spaces, no branch letter).",
+   "Speakers confirmed via tools/speaker_lookup.py: 30120 Talho Yuki (slots 19-20, 36-41), 30110 Holland Novak (slots 21-35, 42-52), 30140 Greg Egan (slots 45-48).",
+   "Slot 44 'my brother... no, Dewey's actions' correctly kept as Holland's self-correction; character_names_021.json confirms Dewey is Holland's older brother.",
+   "Slot 32 ruling: 'the Federation of that time' correctly left generic (not 'New Federation') since the source's flashback only names 'touji no renpou' without specifying which federation; Predgio Towers is only named afterward, at slot 39.",
+   "Reshuffled rows flagged by the translator (slots 21, 22, 25, 30, 40, 45, 46) individually re-translated from the source and checked against the corpus (see tools/scene_source.py output): in every case the word-order change is apposition/clause reordering only and the source meaning (who does what to whom) survives intact.",
+   "'Getter Rays' (slot 25) is the only name-spelling problem found this pass; scanned the rest of the corpus's book(51) occurrences (21 other rows) and only this row differed, so the fix is isolated to this row.",
+   "'Predgio Towers', 'Scub Coral', 'Command Cluster', 'Ageha Plan', 'Operation Orange', 'Antibody Coralian(s)', 'Bloodman' spellings all checked against encyclopedia_021_a/b.json, encyclopedia_022.json and mission_terms_019.json - all consistent.",
+   "Tag sequence verified identical and in source order for every row via a throwaway script comparing tools/scene_source.py output against each row's en field (checked again after the slot 25 fix).",
+   "No lowercase j/q found outside locked names ('secretly' and 'quietly' avoidance at slot 30 already correct in the draft); no bare %; no newlines; ASCII only; all rows within the 128 visible-char limit (max 128 at slot 40)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 32: 'the Federation of that time' is deliberately left ambiguous between the pre-coup United Federation of Predgio Towers and any interim regime, matching the source's own vagueness at that point of the flashback."
+  ]
+ }
+}

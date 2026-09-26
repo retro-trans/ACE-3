@@ -1,0 +1,540 @@
+{
+  "slice_start": 8111,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      8031,
+      8214
+    ]
+  ],
+  "rows_examined_count": 184,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_08126"
+      ],
+      "note": "'the swan' (\u767d\u9ce5) has no locked glossary term; kept literal, meaning/referent (likely a poetic reference to the arriving Nirvash or Freeden/Gekko forces) not invented."
+    },
+    {
+      "ids": [
+        "dialogue_08143",
+        "dialogue_08144",
+        "dialogue_08145",
+        "dialogue_08151",
+        "dialogue_08152",
+        "dialogue_08153",
+        "dialogue_08154",
+        "dialogue_08155",
+        "dialogue_08156"
+      ],
+      "note": "on()/off() block of unattributed observer lines reacting to the Nirvash's power-up; no speaker name is tagged in source, so no identity or gender was supplied for 'that person'/'the one paired with it' in row 8154 and 'that kid' in row 8155."
+    },
+    {
+      "id": "dialogue_08157",
+      "note": "'Yararechimatta' left as a collective 'we've been taken down' since the attacked party is not specified in-row."
+    },
+    {
+      "ids": [
+        "dialogue_08162",
+        "dialogue_08164",
+        "dialogue_08165",
+        "dialogue_08166"
+      ],
+      "note": "Speaker inferred to be Dewey Novak from the 'former SOF' / 'brother' / Holland-directed taunt content matching his locked glossary role, but the source text itself carries no speaker tag; row 8165's 'golden bough' references Frazer's 'The Golden Bough', Dewey's canonical favorite book (confirmed by web research), not a glossary-locked term - flagged for glossary consolidation."
+    },
+    {
+      "id": "dialogue_08172",
+      "note": "Speaker (female, addressing GX-9900 dismissively) not confirmed; kept ungendered in surrounding context beyond the line itself, no name inserted."
+    }
+  ],
+  "validation": {
+    "controls": "All original angle-bracket commands preserved in exact source order for every row, including the on()/off() broadcast pairs and color(4)/color(5) name spans; verified by script.",
+    "format": "No newline characters inserted; source line breaks merged into flowing sentences.",
+    "fit": "All rows verified <= 110 visible characters; full meaning kept, nothing shortened or dropped.",
+    "ascii": "ASCII-only verified by script; straight quotes/hyphens used; no bare percent signs; lowercase j/q avoided everywhere in this slice.",
+    "meaning_review": "Meaning-reviewed: 80/80 rows checked, 2 meaning fixes applied (dialogue_08116, dialogue_08157 - invented \"we\" subject contradicted immediately adjacent context); all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_08111",
+      "target": "<op()><sp(20)>It's too late for me to ask you to take me back.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08112",
+      "target": "<sp(20)>All I wanted was to see Eureka - to see Eureka!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08113",
+      "target": "<op()><sp(20)>Listen to you talk now...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08114",
+      "target": "<op()><sp(20)>Where's Eureka?!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08115",
+      "target": "<op()><sp(20)>She went out after you.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08116",
+      "target": "<sp(20)>She went dark somewhere around here...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08117",
+      "target": "<op()><sp(20)>F-for my sake...! I'm going to save Eureka!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08118",
+      "target": "<op()><sp(20)>The Nirvash's performance is climbing.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08119",
+      "target": "<op()><sp(20)>Right!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08120",
+      "target": "<op()><sp(20)>Eureka!!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08121",
+      "target": "<op()><sp(20)>Renton!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08122",
+      "target": "<op()><sp(20)>Eureka has been rescued!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08123",
+      "target": "<sp(20)>Renton... I could only do this because it's you. It has to be you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08124",
+      "target": "<op()><sp(20)>I... Renton...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08125",
+      "target": "<op()><sp(20)>Doing something so reckless... all on your own like that...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08126",
+      "target": "<op()><sp(20)>It seems the swan has finally come... Olba.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08127",
+      "target": "<op()><sp(20)>I know, brother. We're moving up to the next stage.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08128",
+      "target": "<sp(20)>Using it all as a stepping stone.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08129",
+      "target": "<op()><sp(20)>The Gundam-type is retreating!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08130",
+      "target": "<op()><sp(20)>Get back here!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08131",
+      "target": "<op()><sp(20)>Garrod! Don't chase them too far!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08132",
+      "target": "<op()><sp(20)>'Welcome back'...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08133",
+      "target": "<op()><sp(20)>Huh?<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08134",
+      "target": "<op()><sp(20)>That's what the Nirvash is telling me.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08135",
+      "target": "<op()><sp(20)>I'm back. Sorry for leaving you alone.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08136",
+      "target": "<op()><sp(20)>Hold on! Renton, you said you were alone...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08137",
+      "target": "<op()><sp(20)>I meant the Nirvash.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08138",
+      "target": "<op()><sp(20)>Flying around the battlefield showing mercy, huh. You'll get yourself killed, Renton - you're too kind.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08139",
+      "target": "<op()><sp(20)>Holland, could that be...?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08140",
+      "target": "<op()><sp(20)>No... that's not any Seven Swell.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08141",
+      "target": "<sp(20)>No way... not that little kid.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08142",
+      "target": "<sp(20)>I don't want to admit it... I can't admit it. What... what is this feeling...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08143",
+      "target": "<on()><sp(20)>I didn't expect them to come here.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08144",
+      "target": "<on()><sp(20)>But it saves me the trouble.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08145",
+      "target": "<on()><sp(20)>I'll bring them down right here.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08146",
+      "target": "<on()><sp(20)>Damn! These guys!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08147",
+      "target": "<on()><sp(20)>These guys... they've gotten better.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08148",
+      "target": "<on()><sp(20)>Eureka... I won't hesitate anymore.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08149",
+      "target": "<on()><sp(20)>Hey, Renton, let's go together!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08150",
+      "target": "<on()><sp(20)>Yeah!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08151",
+      "target": "<on()><sp(20)>That power from the Nirvash...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08152",
+      "target": "<on()><sp(20)>typeZERO... what did you do?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08153",
+      "target": "<on()><sp(20)>That is...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08154",
+      "target": "<on()><sp(20)>So that's the one paired with it...?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08155",
+      "target": "<on()><sp(20)>That kid found what they were looking for.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08156",
+      "target": "<on()><sp(20)>Ah...! But since you've become an enemy, I won't hold back!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08157",
+      "target": "<on()><sp(20)>I've been taken down?!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08158",
+      "target": "<on()><sp(20)>Ngh!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08159",
+      "target": "<on()><sp(20)>Ray, that's enough. Fall back.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08160",
+      "target": "<on()><sp(20)>Charles... I love you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08161",
+      "target": "<op()><sp(20)>Charles!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08162",
+      "target": "<op()><sp(20)>As former heads of SOF Units One and Two, let's settle this.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08163",
+      "target": "<op()><sp(20)>I won't let them touch those two...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08164",
+      "target": "<op()><sp(20)>I realized it the moment I met that person.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08165",
+      "target": "<sp(20)>The one who inherits the king's right, the one who inherits the golden bough the king left behind...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08166",
+      "target": "<sp(20)>Too bad it wasn't you, Holland.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08167",
+      "target": "<op()><sp(20)>Shut up...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08168",
+      "target": "<op()><sp(20)>Charles, there's a skilled one here!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08169",
+      "target": "<op()><sp(20)>Interesting!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08170",
+      "target": "<op()><sp(20)>These guys... they're real veterans!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08171",
+      "target": "<op()><sp(20)>Damn it, these guys are too fast!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08172",
+      "target": "<op()><sp(20)>GX-9900... far too much machine for a kid's toy.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08173",
+      "target": "<op()><sp(20)>I'll bring it down no matter what!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08174",
+      "target": "<op()><sp(20)>Renton, are you all right?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08175",
+      "target": "<op()><sp(20)>Sorry for worrying you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08176",
+      "target": "<op()><sp(20)>One of Renton's friends? Then let's give you a proper welcome!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08177",
+      "target": "<op()><sp(20)>I won't go down that easily!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08178",
+      "target": "<op()><sp(20)>Charles!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08179",
+      "target": "<sp(20)>Renton is... leaving...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08180",
+      "target": "<op()><sp(20)>Our son is leaving the nest.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08181",
+      "target": "<op()><sp(20)>We should send him off with a smile.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08182",
+      "target": "<op()><sp(20)>Let's take control of the base.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08183",
+      "target": "<op()><sp(20)>All units, intercept formation!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08184",
+      "target": "<on()><sp(20)><color(4)>Eureka<ce()>... I'm back.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08185",
+      "target": "<on()><sp(20)>I've wanted to talk with <color(4)>Renton<ce()> for so long.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08186",
+      "target": "<on()><sp(20)>I've got a lot I want <color(4)>Eureka<ce()> to hear too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08187",
+      "target": "<on()><sp(20)>Hey... <color(4)>Renton<ce()>. While you were gone, I thought about a lot of things.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08188",
+      "target": "<on()><sp(20)>I met a lot of people too. And I finally figured out what matters most to me.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08189",
+      "target": "<on()><sp(20)>I think I understand too... what matters most to me.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08190",
+      "target": "<on()><sp(20)>I'm sorry... I never apologized for leaving without a word.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "version": "0.1.6",
+  "updated_on": "2026-09-18",
+  "entry_questions": [
+    {
+      "entry_id": "char.faye_rochenante",
+      "questions": [
+        "Resolve competing English wiki spellings. Faye Rochenante is the current game-wiki choice, not an official localization claim."
+      ]
+    },
+    {
+      "entry_id": "char.marina_carson",
+      "questions": [
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "entry_id": "char.ange_raver",
+      "questions": [
+        "Confirm the full name on a game screen; Japanese references differ in the surname's kana.",
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "entry_id": "char.jill_bardona",
+      "questions": [
+        "Verify the English romanization and its relationship to the drive's spelling.",
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "entry_id": "char.tiffa_adill",
+      "questions": [
+        "Locate her ACE3 dialogue or scene reference."
+      ]
+    },
+    {
+      "entry_id": "char.jamil_neate",
+      "questions": [
+        "Locate an ACE3 scene reference; do not infer playable status from the anime biography."
+      ]
+    },
+    {
+      "entry_id": "char.akito_tenkawa",
+      "questions": [
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "entry_id": "char.hikaru_ichijyo",
+      "questions": [
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "entry_id": "char.asap_suzuki",
+      "questions": [
+        "Find a continuity-specific source for personality before using it to guide tone."
+      ]
+    },
+    {
+      "entry_id": "org.new_federation",
+      "questions": [
+        "Establish the faction's English name and exact game label."
+      ]
+    },
+    {
+      "entry_id": "org.gekkostate",
+      "questions": [
+        "Attach an ACE3 scene attestation for the organization label."
+      ]
+    },
+    {
+      "entry_id": "org.siberian_railway",
+      "questions": [
+        "Verify the ACE3 company and security-force labels separately."
+      ]
+    },
+    {
+      "entry_id": "loc.earth_a",
+      "questions": [
+        "Verify in-game terminology and A/B mapping; no Japanese A-label is claimed."
+      ]
+    },
+    {
+      "entry_id": "loc.earth_b",
+      "questions": [
+        "Verify in-game terminology and A/B mapping; no Japanese B-label is claimed."
+      ]
+    },
+    {
+      "entry_id": "loc.byston_well",
+      "questions": [
+        "Verify how ACE3 refers to this setting; do not assume an explorable stage."
+      ]
+    },
+    {
+      "entry_id": "term.baldora_drive",
+      "questions": [
+        "Resolve Baldora versus a -dona romanization using stronger name evidence; reconcile the developer's surname."
+      ]
+    }
+  ],
+  "next_batches": [
+    {
+      "priority": 1,
+      "id": "resolve_original_names",
+      "task": "Resolve provisional original-character and drive spellings against stronger game-specific references; preserve all documented variants."
+    },
+    {
+      "priority": 1,
+      "id": "game_attestation",
+      "task": "Inspect character/name tables or captured UI to attach exact game spellings and speaker IDs. Keep only short labels and metadata in the repository; do not dump extensive Japanese dialogue."
+    },
+    {
+      "priority": 2,
+      "id": "remaining_story_cast",
+      "task": "Expand the remaining playable pilots, antagonists, bridge crews, and recurring supporting characters from the represented story series."
+    },
+    {
+      "priority": 2,
+      "id": "guest_cast",
+      "task": "Research unit-only and secret guest series separately. A playable guest does not prove participation in story scenes.",
+      "series_ids": [
+        "gundam_seed",
+        "turn_a",
+        "gundam_0079",
+        "dunbine",
+        "brain_powerd",
+        "gundam_wing_ew",
+        "g_gundam",
+        "plamo_kyoshiro"
+      ]
+    },
+    {
+      "priority": 2,
+      "id": "factions_places",
+      "task": "Expand factions, locations, ships, and mecha from actual mission and UI labels; preserve distinctions between similarly named governments."
+    },
+    {
+      "priority": 2,
+      "id": "text_fit",
+      "task": "Measure rendered label limits using captured game UI. No byte budget, character limit, or nickname abbreviation has been guessed for this release."
+    }
+  ]
+}

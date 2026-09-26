@@ -1,0 +1,1830 @@
+{
+  "schema_version": "1.0",
+  "version": "0.1.5",
+  "language": "en",
+  "source_catalog": "work/ui/ui_catalog.json",
+  "status": "0.1.10 inserts both complete controller diagrams. 0.1.9 label/pause repairs retained. New diagram previews checked; in-game test stopped by user and remains pending.",
+  "entries": [
+    {
+      "id": "dialog.confirm_title",
+      "source_language": "ja",
+      "source_text": "確認",
+      "target_text": "Confirm",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 10,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824258,
+          "mapping_id": "dialog.confirm"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 12,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824258,
+          "mapping_id": "dialog.confirm"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 17,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824258,
+          "mapping_id": "dialog.confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 10,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306306,
+          "mapping_id": "dialog.confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 12,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306306,
+          "mapping_id": "dialog.confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 17,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306306,
+          "mapping_id": "dialog.confirm"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "load.confirm_question",
+      "source_language": "ja",
+      "source_text": "セーブデータをロードしますか？",
+      "target_text": "Load save data?",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3036,
+          "slot": 1,
+          "iso_table_offset": 999832992,
+          "patched_string_offset": 999833248,
+          "mapping_id": "load.question"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3036,
+          "slot": 1,
+          "iso_table_offset": 1016315040,
+          "patched_string_offset": 1016315296,
+          "mapping_id": "load.question"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "prompt.yes",
+      "source_language": "ja",
+      "source_text": "はい",
+      "target_text": "Yes",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 0,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824204,
+          "mapping_id": "prompt.yes_no"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 0,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306252,
+          "mapping_id": "prompt.yes_no"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "prompt.no",
+      "source_language": "ja",
+      "source_text": "いいえ",
+      "target_text": "No",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 0,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824204,
+          "mapping_id": "prompt.yes_no"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 0,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306252,
+          "mapping_id": "prompt.yes_no"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "dialog.warning_title",
+      "source_language": "ja",
+      "source_text": "警告",
+      "target_text": "Warning",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 11,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824268,
+          "mapping_id": "dialog.warning"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 11,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306316,
+          "mapping_id": "dialog.warning"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "load.no_save_data",
+      "source_language": "ja",
+      "source_text": "メモリーカード差込口1のメモリーカード（PS2）に\nセーブデータがありません。",
+      "target_text": "No save data on the memory card (PS2) in memory card slot 1.",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "PS2 and slot 1 are visible and preserved. No runtime placeholder or embedded control code can be inferred from pixels.",
+        "The source newline is observed on screen; proposed target wrapping is a layout suggestion, not an encoded newline."
+      ],
+      "proposed_display_lines": [
+        "No save data on the memory card (PS2)",
+        "in memory card slot 1."
+      ],
+      "meaning_check": "Preserves missing save data, memory card (PS2), and memory card slot 1.",
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3041,
+          "slot": 42,
+          "iso_table_offset": 999836736,
+          "patched_string_offset": 999838567,
+          "mapping_id": "no_save_data"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3041,
+          "slot": 42,
+          "iso_table_offset": 1016318784,
+          "patched_string_offset": 1016320615,
+          "mapping_id": "no_save_data"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "prompt.warning_ok",
+      "source_language": "ja",
+      "source_text": "決定",
+      "target_text": "OK",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Acknowledges the warning. The main menu uses Confirm for the same Japanese label in a different context."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 1,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824218,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 2,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824218,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 3,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824218,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 4,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824218,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 5,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824218,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3084,
+          "slot": 6,
+          "iso_table_offset": 1001823968,
+          "patched_string_offset": 1001824218,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 1,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306266,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 2,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306266,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 3,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306266,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 4,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306266,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 5,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306266,
+          "mapping_id": "prompt.ok"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3084,
+          "slot": 6,
+          "iso_table_offset": 1018306016,
+          "patched_string_offset": 1018306266,
+          "mapping_id": "prompt.ok"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "menu.load",
+      "source_language": "ja",
+      "source_text": "ロード",
+      "target_text": "Load",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3036,
+          "slot": 10,
+          "iso_table_offset": 999832992,
+          "patched_string_offset": 999833343,
+          "mapping_id": "menu.load"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3043,
+          "slot": 10,
+          "iso_table_offset": 999839552,
+          "patched_string_offset": 999840130,
+          "mapping_id": "menu.load"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3036,
+          "slot": 10,
+          "iso_table_offset": 1016315040,
+          "patched_string_offset": 1016315391,
+          "mapping_id": "menu.load"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3043,
+          "slot": 10,
+          "iso_table_offset": 1016321600,
+          "patched_string_offset": 1016322178,
+          "mapping_id": "menu.load"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "load.column.number",
+      "source_language": "en",
+      "source_text": "No.",
+      "target_text": "No.",
+      "status": "already_english",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [],
+      "insertion_status": "already_english_unchanged"
+    },
+    {
+      "id": "load.column.mission",
+      "source_language": "en",
+      "source_text": "MISSION",
+      "target_text": "MISSION",
+      "status": "already_english",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [],
+      "insertion_status": "already_english_unchanged"
+    },
+    {
+      "id": "load.column.difficulty",
+      "source_language": "en",
+      "source_text": "DIFFICULTY",
+      "target_text": "DIFFICULTY",
+      "status": "already_english",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [],
+      "insertion_status": "already_english_unchanged"
+    },
+    {
+      "id": "load.column.unit",
+      "source_language": "en",
+      "source_text": "UNIT",
+      "target_text": "UNIT",
+      "status": "already_english",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [],
+      "insertion_status": "already_english_unchanged"
+    },
+    {
+      "id": "load.column.playtime",
+      "source_language": "en",
+      "source_text": "PLAYTIME",
+      "target_text": "PLAYTIME",
+      "status": "already_english",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [],
+      "insertion_status": "already_english_unchanged"
+    },
+    {
+      "id": "load.help",
+      "source_language": "ja",
+      "source_text": "ロードするデータを選んでください",
+      "target_text": "Select the save data to load.",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3043,
+          "slot": 14,
+          "iso_table_offset": 999839552,
+          "patched_string_offset": 999840145,
+          "mapping_id": "load.help"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3043,
+          "slot": 14,
+          "iso_table_offset": 1016321600,
+          "patched_string_offset": 1016322193,
+          "mapping_id": "load.help"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "prompt.back",
+      "source_language": "ja",
+      "source_text": "戻る",
+      "target_text": "Back",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3043,
+          "slot": 0,
+          "iso_table_offset": 999839552,
+          "patched_string_offset": 999840084,
+          "mapping_id": "prompt.select_back_confirm"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3043,
+          "slot": 1,
+          "iso_table_offset": 999839552,
+          "patched_string_offset": 999840117,
+          "mapping_id": "prompt.back"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 3,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001799990,
+          "mapping_id": "settings.select_confirm_back"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 4,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800023,
+          "mapping_id": "settings.select_adjust_back"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3043,
+          "slot": 0,
+          "iso_table_offset": 1016321600,
+          "patched_string_offset": 1016322132,
+          "mapping_id": "prompt.select_back_confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3043,
+          "slot": 1,
+          "iso_table_offset": 1016321600,
+          "patched_string_offset": 1016322165,
+          "mapping_id": "prompt.back"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 3,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282038,
+          "mapping_id": "settings.select_confirm_back"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 4,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282071,
+          "mapping_id": "settings.select_adjust_back"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "main.title",
+      "source_language": "ja",
+      "source_text": "メニュー",
+      "target_text": "Menu",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3036,
+          "slot": 4,
+          "iso_table_offset": 999832992,
+          "patched_string_offset": 999833288,
+          "mapping_id": "main.title"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3036,
+          "slot": 4,
+          "iso_table_offset": 1016315040,
+          "patched_string_offset": 1016315336,
+          "mapping_id": "main.title"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "main.campaign",
+      "source_language": "ja",
+      "source_text": "キャンペーン",
+      "target_text": "Campaign",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3036,
+          "slot": 5,
+          "iso_table_offset": 999832992,
+          "patched_string_offset": 999833293,
+          "mapping_id": "main.campaign"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3036,
+          "slot": 5,
+          "iso_table_offset": 1016315040,
+          "patched_string_offset": 1016315341,
+          "mapping_id": "main.campaign"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "main.campaign_help",
+      "source_language": "ja",
+      "source_text": "キャンペーンを新しく始めます",
+      "target_text": "Start a new campaign.",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3036,
+          "slot": 12,
+          "iso_table_offset": 999832992,
+          "patched_string_offset": 999833348,
+          "mapping_id": "main.campaign_help"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3036,
+          "slot": 12,
+          "iso_table_offset": 1016315040,
+          "patched_string_offset": 1016315396,
+          "mapping_id": "main.campaign_help"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "prompt.select",
+      "source_language": "ja",
+      "source_text": "選択",
+      "target_text": "Select",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3036,
+          "slot": 2,
+          "iso_table_offset": 999832992,
+          "patched_string_offset": 999833264,
+          "mapping_id": "prompt.select_confirm"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3043,
+          "slot": 0,
+          "iso_table_offset": 999839552,
+          "patched_string_offset": 999840084,
+          "mapping_id": "prompt.select_back_confirm"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 3,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001799990,
+          "mapping_id": "settings.select_confirm_back"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 4,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800023,
+          "mapping_id": "settings.select_adjust_back"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3036,
+          "slot": 2,
+          "iso_table_offset": 1016315040,
+          "patched_string_offset": 1016315312,
+          "mapping_id": "prompt.select_confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3043,
+          "slot": 0,
+          "iso_table_offset": 1016321600,
+          "patched_string_offset": 1016322132,
+          "mapping_id": "prompt.select_back_confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 3,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282038,
+          "mapping_id": "settings.select_confirm_back"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 4,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282071,
+          "mapping_id": "settings.select_adjust_back"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "prompt.confirm",
+      "source_language": "ja",
+      "source_text": "決定",
+      "target_text": "Confirm",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3036,
+          "slot": 2,
+          "iso_table_offset": 999832992,
+          "patched_string_offset": 999833264,
+          "mapping_id": "prompt.select_confirm"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3043,
+          "slot": 0,
+          "iso_table_offset": 999839552,
+          "patched_string_offset": 999840084,
+          "mapping_id": "prompt.select_back_confirm"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 3,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001799990,
+          "mapping_id": "settings.select_confirm_back"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 5,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800054,
+          "mapping_id": "settings.confirm_reconfigure"
+        },
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 20,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800420,
+          "mapping_id": "prompt.confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3036,
+          "slot": 2,
+          "iso_table_offset": 1016315040,
+          "patched_string_offset": 1016315312,
+          "mapping_id": "prompt.select_confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3043,
+          "slot": 0,
+          "iso_table_offset": 1016321600,
+          "patched_string_offset": 1016322132,
+          "mapping_id": "prompt.select_back_confirm"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 3,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282038,
+          "mapping_id": "settings.select_confirm_back"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 5,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282102,
+          "mapping_id": "settings.confirm_reconfigure"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 20,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282468,
+          "mapping_id": "prompt.confirm"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.title",
+      "source_language": "ja",
+      "source_text": "初期設定",
+      "target_text": "Initial Setup",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 0,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001799976,
+          "mapping_id": "settings.title"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 0,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282024,
+          "mapping_id": "settings.title"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.difficulty",
+      "source_language": "ja",
+      "source_text": "難易度",
+      "target_text": "Difficulty",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 21,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800428,
+          "mapping_id": "settings.difficulty"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 21,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282476,
+          "mapping_id": "settings.difficulty"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.controller",
+      "source_language": "ja",
+      "source_text": "コントローラ",
+      "target_text": "Controls",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 22,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800439,
+          "mapping_id": "settings.controller"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 22,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282487,
+          "mapping_id": "settings.controller"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.vibration",
+      "source_language": "ja",
+      "source_text": "振動機能",
+      "target_text": "Vibration",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 23,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800448,
+          "mapping_id": "settings.vibration"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 23,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282496,
+          "mapping_id": "settings.vibration"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.auto_altitude",
+      "source_language": "ja",
+      "source_text": "自動高度調整",
+      "target_text": "Auto Altitude",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 79,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800848,
+          "mapping_id": "settings.auto_altitude"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 79,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282896,
+          "mapping_id": "settings.auto_altitude"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.easy",
+      "source_language": "ja",
+      "source_text": "イージー",
+      "target_text": "Easy",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 40,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800653,
+          "mapping_id": "settings.easy"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 40,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282701,
+          "mapping_id": "settings.easy"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.normal",
+      "source_language": "ja",
+      "source_text": "ノーマル",
+      "target_text": "Normal",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 41,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800658,
+          "mapping_id": "settings.normal"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 41,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282706,
+          "mapping_id": "settings.normal"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.hard",
+      "source_language": "ja",
+      "source_text": "ハード",
+      "target_text": "Hard",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 42,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800665,
+          "mapping_id": "settings.hard"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 42,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282713,
+          "mapping_id": "settings.hard"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.shift",
+      "source_language": "ja",
+      "source_text": "シフト",
+      "target_text": "Shift",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 50,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800679,
+          "mapping_id": "settings.shift"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 50,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282727,
+          "mapping_id": "settings.shift"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.select",
+      "source_language": "ja",
+      "source_text": "セレクト",
+      "target_text": "Select",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 51,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800685,
+          "mapping_id": "settings.select"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 51,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282733,
+          "mapping_id": "settings.select"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.on",
+      "source_language": "en",
+      "source_text": "ON",
+      "target_text": "ON",
+      "status": "already_english",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 60,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800692,
+          "mapping_id": "settings.on"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 60,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282740,
+          "mapping_id": "settings.on"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.off",
+      "source_language": "en",
+      "source_text": "OFF",
+      "target_text": "OFF",
+      "status": "already_english",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 61,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800695,
+          "mapping_id": "settings.off"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 61,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282743,
+          "mapping_id": "settings.off"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.confirm_help",
+      "source_language": "ja",
+      "source_text": "設定を決定します",
+      "target_text": "Apply these settings.",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 30,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800458,
+          "mapping_id": "settings.confirm_help"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 30,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282506,
+          "mapping_id": "settings.confirm_help"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.controller_help",
+      "source_language": "ja",
+      "source_text": "コントローラタイプを設定します",
+      "target_text": "Choose a control scheme.",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 32,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800508,
+          "mapping_id": "settings.controller_help"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 32,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282556,
+          "mapping_id": "settings.controller_help"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.shift_description",
+      "source_language": "ja",
+      "source_text": "使用ウェポンを瞬時に選択できる操作方法です。\n初めてプレイするプレイヤーにはこちらをお勧めします。",
+      "target_text": "This control scheme lets you select weapons instantly.\nRecommended for first-time players.",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 70,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800699,
+          "mapping_id": "settings.shift_description"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 70,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282747,
+          "mapping_id": "settings.shift_description"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "settings.confirm_question",
+      "source_language": "ja",
+      "source_text": "この設定でよろしいですか？",
+      "target_text": "Use these settings?",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            71,
+            7,
+            151,
+            19
+          ],
+          "display_text": "Use these settings?",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            71,
+            7,
+            151,
+            19
+          ],
+          "display_text": "Use these settings?",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "prompt.adjust",
+      "source_language": "ja",
+      "source_text": "設定",
+      "target_text": "Set",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Use Set for the left/right setting action; lowercase j has no source-font glyph."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 4,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800023,
+          "mapping_id": "settings.select_adjust_back"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 4,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282071,
+          "mapping_id": "settings.select_adjust_back"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "prompt.reconfigure",
+      "source_language": "ja",
+      "source_text": "再設定",
+      "target_text": "Change Settings",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002050,
+          "table_id": 3065,
+          "slot": 5,
+          "iso_table_offset": 1001799264,
+          "patched_string_offset": 1001800054,
+          "mapping_id": "settings.confirm_reconfigure"
+        },
+        {
+          "bundle_id": 4002057,
+          "table_id": 3065,
+          "slot": 5,
+          "iso_table_offset": 1018281312,
+          "patched_string_offset": 1018282102,
+          "mapping_id": "settings.confirm_reconfigure"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.switch_lock",
+      "source_language": "ja",
+      "source_text": "ロック切り替え",
+      "target_text": "Switch Target",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            164,
+            44,
+            88,
+            18
+          ],
+          "display_text": "Switch Target",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            164,
+            44,
+            88,
+            18
+          ],
+          "display_text": "Switch Target",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.melee",
+      "source_language": "ja",
+      "source_text": "近接攻撃",
+      "target_text": "Melee Attack",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            164,
+            65,
+            88,
+            17
+          ],
+          "display_text": "Melee Attack",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            164,
+            65,
+            88,
+            17
+          ],
+          "display_text": "Melee Attack",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.dash_toggle",
+      "source_language": "ja",
+      "source_text": "ダッシュ ON/OFF",
+      "target_text": "Dash ON/OFF",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            164,
+            86,
+            88,
+            17
+          ],
+          "display_text": "Dash ON/OFF",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            164,
+            86,
+            88,
+            17
+          ],
+          "display_text": "Dash ON/OFF",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.main_shot",
+      "source_language": "ja",
+      "source_text": "メイン射撃",
+      "target_text": "Main Fire",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            164,
+            107,
+            88,
+            16
+          ],
+          "display_text": "Main Fire",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.camera",
+      "source_language": "ja",
+      "source_text": "カメラ",
+      "target_text": "Camera",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            164,
+            127,
+            88,
+            17
+          ],
+          "display_text": "Camera",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            164,
+            127,
+            88,
+            17
+          ],
+          "display_text": "Camera",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.move",
+      "source_language": "ja",
+      "source_text": "移動",
+      "target_text": "Move",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            5,
+            107,
+            22,
+            18
+          ],
+          "display_text": "Move",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            5,
+            107,
+            22,
+            18
+          ],
+          "display_text": "Move",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.combination",
+      "source_language": "ja",
+      "source_text": "コンビネーションアタック",
+      "target_text": "Combination Attack",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            4,
+            185,
+            109,
+            17
+          ],
+          "display_text": "Combination Attack",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            4,
+            185,
+            109,
+            17
+          ],
+          "display_text": "Combination Attack",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.shift_menu",
+      "source_language": "ja",
+      "source_text": "シフトメニュー",
+      "target_text": "Shift Menu",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            4,
+            206,
+            109,
+            18
+          ],
+          "display_text": "Shift Menu",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.descend",
+      "source_language": "ja",
+      "source_text": "下降",
+      "target_text": "Descend",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            231,
+            185,
+            20,
+            18
+          ],
+          "display_text": "Down",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            231,
+            185,
+            20,
+            18
+          ],
+          "display_text": "Down",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    },
+    {
+      "id": "controls.ascend",
+      "source_language": "ja",
+      "source_text": "上昇",
+      "target_text": "Ascend",
+      "status": "translated",
+      "source_basis": "manual_screenshot_transcription",
+      "game_string_id": null,
+      "game_offset": null,
+      "control_codes": null,
+      "notes": [
+        "Baked controller-diagram texture; inserted in 0.1.10 using existing game glyphs. In-game verification pending."
+      ],
+      "game_resource_refs": [
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50512,
+          "iso_texture_offset": 1492287008,
+          "rectangle": [
+            231,
+            206,
+            20,
+            18
+          ],
+          "display_text": "Up",
+          "build_version": "0.1.10"
+        },
+        {
+          "bundle_id": 4002056,
+          "texture_id": 50513,
+          "iso_texture_offset": 1492353600,
+          "rectangle": [
+            231,
+            206,
+            20,
+            18
+          ],
+          "display_text": "Up",
+          "build_version": "0.1.10"
+        }
+      ],
+      "insertion_status": "inserted_in_test_iso"
+    }
+  ],
+  "review": {
+    "completed_on": "2026-09-18",
+    "basis": "Compared the visible Japanese UI text and screen context with the English wording.",
+    "scope": "41 Japanese UI strings across seven screenshots; 7 existing English labels retained.",
+    "in_game_fit": "untested"
+  },
+  "game_build": {
+    "version": "0.1.10",
+    "path": "work/output/ACE3-English-0.1.10.iso",
+    "sha256": "6e8ab72ddae6f061e212fe899a1f87c1d5c12579ae6955ace71ec1d79bfe3ecf",
+    "in_game_validation": "New diagrams not verified in-game; Computer Use stopped with physical Escape."
+  }
+}

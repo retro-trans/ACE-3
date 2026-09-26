@@ -1,0 +1,9 @@
+{
+  "version": "0.1.38",
+  "coordinate_space": "user screenshot pixels; approximate visible text bounds",
+  "screens": [
+    {"file":"retry_before.png","width":1302,"height":883,"region":[450,600,480,60],"category":"shared confirmation footer","resource_ids":[90202,101032,103000,4000000],"table_id":8031,"text_ids":[10,11]},
+    {"file":"results_before.png","width":1378,"height":1012,"region":[300,700,260,50],"category":"player unit name","model_resource":2801040,"chunk":"PRM","field_offset":759088,"field_bytes":32},
+    {"file":"recruit_before.png","width":1380,"height":949,"region":[480,705,480,145],"category":"recruitment abilities","menu_resources":[4002050,4002053,4002054,4002057],"table_id":3079,"text_ids":[23,21,24],"status":"already English in active 0.1.37 tables; runtime check pending"}
+  ]
+}

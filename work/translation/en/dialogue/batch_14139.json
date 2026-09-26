@@ -1,0 +1,77 @@
+{
+ "slice_start": 14139,
+ "slice_count": 8,
+ "rows_examined": [
+  [
+   14124,
+   14153
+  ]
+ ],
+ "rows_examined_count": 30,
+ "rows_in_slice": 8,
+ "uncertainties": [
+  {
+   "ids": [
+    "dialogue_14139",
+    "dialogue_14146"
+   ],
+   "note": "Final 8 rows of unit 2815020 (Master Gundam, pilot Master Asia); resource ends cleanly at row 14146 - context rows 14147-14153 confirm the next resource (2816010, a different unit/pilot) begins immediately after, so no boundary ambiguity. After-context beyond row 14153 was not fetched since it belongs entirely to the next unit and was unnecessary to disambiguate this slice's rows."
+  }
+ ],
+ "validation": {
+  "byte_budget": "Every row's visible English text checked programmatically against 2x(source Japanese character count)-2, capped at 72; all rows in this batch fit within budget (see per-row notes for rows where this forced meaning compression).",
+  "controls": "All original angle-bracket commands (<op()>, <sp(20)>, <ab(N)>, <ed()>) preserved in exact source order for every row, including non-default <ab()> values where present.",
+  "format": "ASCII only; no line breaks added beyond the source's own \\n; no bare % characters used.",
+  "review": "Independent meaning review completed (review_14139.json); no meaning fixes required; all multi-line targets joined to single lines per the shout no-newline rule; all 8 rows are status \"meaning_reviewed\"."
+ },
+ "rows": [
+  {
+   "id": "dialogue_14139",
+   "target": "<op()><sp(20)>I'll stop you by force!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14140",
+   "target": "<op()><sp(20)>You're no use to this Earth anymore!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14141",
+   "target": "<op()><sp(20)>This is the moment...!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14142",
+   "target": "<op()><sp(20)>It's as good as me driving off their whole army! Ha ha ha ha!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14143",
+   "target": "<op()><sp(20)>Listen! Don't rest on this victory - let's grow stronger!<ab(1001)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14144",
+   "target": "<op()><sp(20)>Beating me is simply impossible. Ha ha ha ha!<ab(1001)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14145",
+   "target": "<op()><sp(20)>To think you'd try that!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14146",
+   "target": "<op()><sp(20)>Crush their reinforcements! Attack!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14387,
+  "slice_count": 80,
+  "rows_examined": [{"start": 14372, "end": 14481}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {"id": "dialogue_14444", "before": "Cool your head a bit!", "after": "I need to cool down!", "reason": "Source is self-directed (the pilot admitting he himself needs to calm down), part of a run of self-directed laments about a losing position ('what a mess', 'this is rough', 'this is bad'). Translating it as a command aimed at someone else changes the addressee from the speaker to an unnamed listener."}
+  ],
+  "checked_decisions": [
+    {"rows": [14387, 14422], "finding": "Remaining Witz Sou (Gundam Airmaster) lines checked line by line; no other reversed meaning or wrong subject found."},
+    {"rows": [14423, 14466], "finding": "Resource 2817040 (Roybea Loy, Gundam Leopard) checked line by line; polite/dandy-ish register ('yo', 'ne' sentence endings, feminine-flavored speech) matches the locked 'professional pilot and ladies' man' personality in character_names_021.json without inventing new claims."},
+    {"rows": [14396, 14439], "finding": "Both rows correctly avoid the word 'just' per the font's missing lowercase j, without changing meaning, matching the translator's own notes."},
+    {"rows": [14406], "finding": "The tooth-and-nail idiom for welcoming a worthy opponent is compressed to 'a real challenge!' - the imagery is lost but the sense (welcomes a strong enemy) is kept, matching the translator's note."},
+    {"rows": [14418], "finding": "The self-correcting joke ('a hundred... no, a thousand men's worth') is compressed to 'a thousand men's worth'; the hyperbolic boast survives even though the comedic escalation is lost, matching the translator's note."}
+  ],
+  "uncertainties": [
+    {"rows": [14408], "issue": "'This weak won't stop the Airmaster!' is grammatically awkward English for 'an enemy this weak won't stop the Airmaster', but the meaning itself is not reversed or wrong; left as phrasing rather than a meaning fix."}
+  ],
+  "validation": {
+    "controls": "Re-ran `python tools/dialogue_corpus.py slice 14387 80 --context 15` and compared every in-slice row's <...> commands against the target; all commands identical and in the same order as the source.",
+    "format": "No newlines in any target; source line breaks (e.g. 14403, 14404, 14416) correctly joined.",
+    "fit": "Recomputed the hard byte budget for the fixed row: dialogue_14444 budget 24 (source 13 chars) - fix is 20 chars, well within budget.",
+    "ascii": "All targets ASCII-only; no lowercase j/q found outside locked names, and the two rows that specifically avoid 'just' for the font constraint were re-checked."
+  }
+}

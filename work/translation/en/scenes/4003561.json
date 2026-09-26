@@ -1,0 +1,120 @@
+{
+ "resource_id": 4003561,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Ex-Giganos",
+   "notes": "Faction name; same as 4003551 slot 0.",
+   "source_sha256": "65683b603e21202a3a4d9432a6049611b423a9f3246526359de74bc632018a26"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Neo Zeon",
+   "notes": "Faction name.",
+   "source_sha256": "3bea7d40814c0138b23f0465fc01b3a5772def14191961aee8237f4650610d09"
+  },
+  {
+   "table": 1,
+   "slot": 2,
+   "text_id": 3,
+   "en": "???",
+   "notes": "Unknown-faction placeholder.",
+   "source_sha256": "864e5e1f0b9d10790bfe488eaaa526b3e243476b72430c2f1c91d6f1506104ff"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(5010,1)><speed(2)><move(1,9,12)>I will explain the operation<marker(1,9,12,0)>, so listen up.<move(2,9,12)>",
+   "notes": "Same construction as 4003541 slot19 (identical phrasing, same speaker).",
+   "source_sha256": "05880b61fed20b02b127456166b31b1e959948665c19d02e4aa66c4f7d74e351"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(5010,1)><speed(2)>Attack <move(1,5,0)>the fleet<marker(25,4,0,0)><marker(25,7,0,0)> deployed<marker(48,4,2,0)><marker(48,7,2,0)> within the operation area,<move(1,12,5)> and<marker(25,11,5,0)><marker(25,13,4,0)> destroy<marker(48,11,7,0)><marker(48,13,6,0)> every <move(1,7,6)><color(5)>enemy ship<ce()><marker(25,6,6,0)><marker(25,8,7,0)><marker(48,6,8,0)><marker(48,8,9,0)>.<move(2,10,0)><picture(76,2,7,0)><refer(2,7,4,0)><picture(77,30,7,0)><refer(30,7,7,0)><picture(78,30,14,0)><refer(30,14,13,4)>",
+   "notes": "",
+   "source_sha256": "0233c7ff15f489f184356edf3e9852eaa7f618c204c2b494990e9da6713b8774"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(5010,1)><speed(2)>Follow the direction indicator to the <color(5)>target<ce()>'s position.",
+   "notes": "\"direction indicator\" for houkou shiji; no locked term found for the HUD direction cue.",
+   "source_sha256": "15605759d18938eb8fb47e75bc8faf7a6fbd2e76974b438a7abdb64d36df9baf"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(5010,1)><speed(2)>One more thing: an unidentified ship has been found outside the zone. It's bombarding the force that seized the colony.",
+   "notes": "",
+   "source_sha256": "3163e0f4e98a31f4edeb379c5784a60de86c40d40a5b832ef28b7234c4c8fc23"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(5010,1)><speed(2)>The bombardment<marker(40,9,2,0)> passes through the operation zone; get caught in it and you'll take heavy damage.",
+   "notes": "",
+   "source_sha256": "e308390a870d156b00629748224a59413120e58aa2c21e91b4329dfa5c47d79f"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(5010,1)><speed(2)>When the bombardment is coming, I'll send a <color(6)>warning<ce()>. Once the <color(6)>warning<ce()> comes, focus entirely on <color(6)>evasive action<ce()>.",
+   "notes": "",
+   "source_sha256": "814dc03eb28f79aca2df3d966df961a811f8332257e31ceb272efe937d039b73"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<delpic(30,14,1)><enemylist()><operator(5010,1)><speed(2)>Be extra careful, all right?",
+   "notes": "",
+   "source_sha256": "722e5ee41d6ec277d83295540a0ca7d98fd24bfea5d674784aa9a76c95000863"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12031,1)><speed(2)>This time, the <color(4)>mothership<ce()> will not go out to the front and will provide rear support. Please go ahead and fight all out.",
+   "notes": "Identical source line to 4003541 slot24; reused its released wording.",
+   "source_sha256": "4f31cbebe839870599d9ce8cb9cb29414b1806fe0c4fed5d6de35b9cefeb3ebb"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "\"houkou shiji\" (direction indicator/marker on the HUD) has no locked term anywhere in the corpus; rendered descriptively."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speakers: 5010 = Amuro Ray (slots 19-25), 12031 = Ruri Hoshino (slot 26); matches source operator tags, not altered.",
+   "Slot 21 'direction indicator' for 'houkou shiji': accepted per orchestrator ruling as an acceptable descriptive term (no locked term exists for this HUD cue).",
+   "Slot 22 'kono fune wa koronii wo senkyo shita seiryoku ni taishite hougeki wo okonatte iru' -> \"It's bombarding the force that seized the colony\": source leaves the identity/allegiance of that force unstated; kept unstated in English (no invented subject).",
+   "Slot 26 speaker id 12031 (Ruri) matches source exactly; not a mis-tag despite the abrupt handoff from Amuro.",
+   "Command tags: identical set and order versus source in every row (verified programmatically); visible lengths all within the 128-char limit; no bare %, no newline, ASCII only, no lowercase j/q found."
+  ],
+  "remaining_uncertainties": [
+   "Slot 21: 'direction indicator' remains a descriptive rendering with no locked project term for 'houkou shiji'; flag if the hangar/HUD UI text later gives this a fixed name."
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "resource_id": 4003320,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "26  Rescue Eureka 2",
+   "notes": "Released mission title reused (missions_019.json slot 310).",
+   "source_sha256": "6a436865472a8bfffbd63e8a56e8a0db675072511787616887eee2b825c79ae1"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30110,1)><speed(2)>Listen, we have only one goal.",
+   "notes": "'goal' per orchestrator decision (terms_028/glossary preference for 'goal' over 'objective'); avoided 'just' (lowercase j).",
+   "source_sha256": "3ac11586b1f90aa594de87cf7d8873a588c437c9faffa1f6b2e23f5e5fb7720f"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30110,1)><speed(2)>The <book(80)>Command Cluster<endbook()> is <color(4)>Eureka<ce()><thumbnail(286)>: we contact her and once more mediate between humanity and the <book(69)>Scub<endbook()>.",
+   "notes": "book(69) wraps the shortened source word (Scub, not Scub Coral) here, rendered 'Scub' per corpus precedent (batch_05943.json). Restructured to keep book(80) before the Eureka/thumbnail span, matching source tag order. Orchestrator: shortened to fit three lines.",
+   "source_sha256": "ba8d0468930fae035dc5283929d93559a0f78c9551e48a4fa145f0c9d0a8b823"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30110,1)><speed(2)>To that end, we will break through the swarm of <book(73)>Antibody Coralians<endbook()> deployed in the area, and deliver <color(4)>Renton<ce()> to <color(4)>Eureka<ce()>'s side.",
+   "notes": "",
+   "source_sha256": "7d9630416d774ae4e607d884e38eb68ba626cd10f63d8e78f3e8e3e6610eca5a"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30110,1)><speed(2)>The <book(61)>Nirvash<endbook()> will stand by. <color(4)>Renton<ce()><thumbnail(269)>, the moment a breach opens, push through to where <color(4)>Eureka<ce()> is.",
+   "notes": "",
+   "source_sha256": "4b8f9749baa00cc2d799f00c6df96d021539379426fc44b483b774ea13c7739b"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30110,1)><speed(2)>The signal <color(4)>Eureka<ce()> is sending is growing weaker by the moment. We don't know how much longer <color(4)>Eureka<ce()> can go on being <color(4)>Eureka<ce()>.",
+   "notes": "",
+   "source_sha256": "e4bbf769112ab640228423529b1901ea4e5a55f600e84f6bdb9f77d7c729de6f"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30110,1)><speed(2)>The only one who can bring <color(4)>Eureka<ce()> back is <color(4)>Renton<ce()>... only you. I'm counting on you.",
+   "notes": "",
+   "source_sha256": "3cfaef47a9db753b68527d7c0d085c24cae08650f082a9c9bd7cb82eb527ddbc"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>Everyone... one more push. Let's carry out mediation with the <book(69)>Scub<endbook()> and save the world!",
+   "notes": "Avoided 'just' (lowercase j) for 'mou hitoiki'.",
+   "source_sha256": "685a40b983ac81e054dc5ac14baec02a10fa608c2fccedf326e92bdc863f6484"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Source clause (literally 'Eureka, who has become the Command Cluster') restructured as 'The Command Cluster is Eureka' (colon construction) to keep book(80) before the Eureka color span and thumbnail(286), matching source tag order; less literal than the alternative."
+  },
+  {
+   "slot": 20,
+   "issue": "book(69) wraps the bare, shortened source word (not the full 'Scub Coral' word); rendered 'Scub' per the one corpus precedent found (batch_05943.json, not yet reviewed), distinct from 'Scub Coral' used for the full word elsewhere (e.g. 4003310). Flagging since batch_05943 is unreviewed."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 '26  Rescue Eureka 2' (slot 310).",
+   "Speaker 30110 = Holland Novak throughout, matches speaker_lookup.",
+   "Slot 20 ruling: book(69) here is bound to the source's shortened word 'スカブ' (not the full 'スカブコーラル'), so 'Scub' is the literally correct rendering for this row; not a mistranslation.",
+   "Slot 20 'The Command Cluster is Eureka: we will make contact with her...' restructuring checked against source ('Eureka, who has become the Command Cluster'); identity relationship (Eureka = Command Cluster) is preserved, only word order changed to keep book(80) before the Eureka/thumbnail span in command order.",
+   "Command lists, ASCII-only, no newline, and 128-char visible-length limit re-verified for all 8 rows; all pass.",
+   "No lowercase j/q found outside locked names."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: 'Scub' vs 'Scub Coral' for book(69) is literally correct here (source uses the shortened word), but the project should confirm the two forms are meant to differ by row rather than converge on one term, since batch_05943 (the only other precedent) is itself unreviewed."
+  ]
+ }
+}

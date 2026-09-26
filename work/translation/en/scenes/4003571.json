@@ -1,0 +1,73 @@
+{
+ "resource_id": 4003571,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Invaders",
+   "notes": "Faction name; locked (4003531, 4003070).",
+   "source_sha256": "bad937080a191d3c74fd1929393b0ccae481947d4ec3beb2139063e7a3b6954b"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23030,1)><speed(2)><move(1,7,12)>Let me give you a fast rundown of the operation<marker(1,7,12,0)>.<move(2,7,12)>",
+   "notes": "Reworded to avoid a j/q glyph (quick -> fast).",
+   "source_sha256": "041e42ccd2839720608a816f5a04b2d444c8f1fcdb77c6db06216f51fa54bb42"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23030,1)><speed(2)><move(1,9,14)><color(4)>The Gekko<ce()> will move to<marker(11,9,14,0)> within its main gun's range.<move(1,9,1)> Cover it until it reaches <color(6)>the target point<ce()><marker(42,9,1,0)>.<move(2,9,1)><line(16,9,14,9,1)><picture(80,30,7,0)><refer(30,7,9,14)>",
+   "notes": "",
+   "source_sha256": "74a6d31777ecdea22a615cc545aba99a6ca84a13b32dda17eb67fee1587b7adc"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23030,1)><speed(2)>Along the route, <color(5)>enemies<ce()><marker(20,10,8,0)> have<marker(20,5,7,0)> been<marker(20,4,12,0)> confirmed<marker(20,12,12,0)> in numbers.<marker(48,10,9,0)> These<marker(45,6,8,0)> guys<marker(32,5,12,0)> need<marker(6,11,12,0)> to be crushed early.",
+   "notes": "",
+   "source_sha256": "1f4a2bf7625b0f9df6d8b7cc7bcc331e33983226370bff8956e5d55c089d0baf"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)><color(4)>The Gekko<ce()>'s <color(6)>position is shown by the direction indicator<ce()>. Don't lose track of it.",
+   "notes": "Orchestrator: shortened to fit three lines.",
+   "source_sha256": "f74905ccff170b2d90f0c3639e8653014a1bcb6b9a5ceb2e9d48642ba4f4831e"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<delpic(30,7,1)><enemylist()><operator(23030,1)><speed(2)>All right, let's move out.",
+   "notes": "",
+   "source_sha256": "88ad6059c6f86a90c9d1be4a620ce4ad3a5454637d2273f47fe9604809174e82"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker 23030 = Holland Novak (all rows); gruff, casual register (zo, nda) matches his established voice.",
+   "Slot 0 title 'Invaders' for source title 'Inbeedaa': locked per prior use in 4003531/4003070; unchanged.",
+   "Slot 22 'ichi wa houkou shiji de dasu' -> 'position will be shown by the direction indicator': accepted per orchestrator ruling on 'direction indicator'.",
+   "Slot 19: reworded 'a quick rundown' to 'a fast rundown' to remove the lowercase j/q glyph, per orchestrator ruling; meaning unchanged.",
+   "Command tags: identical set and order versus source in every row (verified programmatically, including after the slot 19 edit); visible lengths all within the 128-char limit; no bare %, no newline, ASCII only."
+  ],
+  "remaining_uncertainties": []
+ }
+}

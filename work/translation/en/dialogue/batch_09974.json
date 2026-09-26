@@ -1,0 +1,142 @@
+{
+  "slice_start": 9974,
+  "slice_count": 18,
+  "rows_examined": [
+    [
+      9964,
+      10001
+    ]
+  ],
+  "rows_examined_count": 38,
+  "rows_in_slice": 18,
+  "rows": [
+    {
+      "id": "dialogue_09974",
+      "target": "<on()><sp(20)>Heh, heh heh...",
+      "status": "meaning_reviewed",
+      "notes": "No ab()/ed()/off() in source, matching the tail pattern begun at 09972 in the previous batch."
+    },
+    {
+      "id": "dialogue_09975",
+      "target": "<on()><sp(20)>Those two were led around\nby the word Newtype.",
+      "status": "meaning_reviewed",
+      "notes": "No quotation marks added; source has none here (contrast 09963 in batch_09894, which uses corner brackets in source)."
+    },
+    {
+      "id": "dialogue_09976",
+      "target": "<on()><sp(20)>Trapped by the old age's curse,\nwith no one to save their hearts.\nMaybe that was their misfortune.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09977",
+      "target": "<on()><sp(20)>Someone once taught me\nthat a Newtype is humanity's evolution.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09978",
+      "target": "<on()><sp(20)>A Newtype is human too.\nNo matter how much power they hold,\na human can never become more than human.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09979",
+      "target": "<on()><sp(20)><color(4)>Garrod<ce()>'s words are right:\na person's worth is shown by how they live.",
+      "status": "meaning_reviewed",
+      "notes": "Garrod per glossary locked spelling (Garrod Ran); color(4) span kept exactly around his name as in source."
+    },
+    {
+      "id": "dialogue_09980",
+      "target": "<on()><sp(20)>That's right... that kind of strength\nis exactly what's needed from here on.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09981",
+      "target": "<on()><sp(20)>The <book(38)>New Federation<endbook()> suffered heavy losses in this battle,\nand its leader, <book(40)>Fixx Bloodman<endbook()>, died as well.",
+      "status": "meaning_reviewed",
+      "notes": "New Federation (book 38) and Fixx Bloodman (book 40, double-x spelling) per encyclopedia_022.json locked spellings/book ids."
+    },
+    {
+      "id": "dialogue_09982",
+      "target": "<on()><sp(20)>Now that the <color(5)>Frost brothers<ce()> and <color(5)>Berkt<ce()> are gone too,\nit's <color(5)>Dewey Novak<ce()> who holds real power.",
+      "status": "meaning_reviewed",
+      "notes": "Frost brothers / Berkt / Dewey Novak per glossary locked spellings; color(5) spans kept exactly as in source."
+    },
+    {
+      "id": "dialogue_09983",
+      "target": "<on()><sp(20)>We've got to stop him.\nWe're running out of time...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09984",
+      "target": "<on()><sp(20)>Thanks to <book(46)>D.O.M.E.<endbook()>, the <book(80)>Command Cluster<endbook()>\ncalled off its order to wake the <book(69)>Scub<endbook()>.\nGuess that means coming here meant something.",
+      "status": "meaning_reviewed",
+      "notes": "D.O.M.E. (book 46), Command Cluster (book 80), Scub short form (book 69) all match locked encyclopedia spellings/book ids for those ids."
+    },
+    {
+      "id": "dialogue_09985",
+      "target": "<on()><sp(20)><book(46)>D.O.M.E.<endbook()> spoke of a plunge\ninto <book(75)>the Zone<endbook()>...\nGuess we've got no choice but to do it.",
+      "status": "meaning_reviewed",
+      "notes": "book(75) rendered 'the Zone' inside the span, matching the existing dialogue precedent at batch_03883 for the same book id."
+    },
+    {
+      "id": "dialogue_09986",
+      "target": "<on()><sp(20)>Right, from here we head back to Earth,\ntoward the <book(79)>Great Wall<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Great Wall (book 79) per encyclopedia_021_b.json / encyclopedia_022.json locked spelling."
+    },
+    {
+      "id": "dialogue_09987",
+      "target": "<on()><sp(20)>Now that the dialogue with <book(46)>D.O.M.E.<endbook()> is over,\nthe <book(69)>Scub Coral<endbook()> is waiting for the time of mediation.",
+      "status": "meaning_reviewed",
+      "notes": "Full form 'Scub Coral' used here since source spells out \u30b9\u30ab\u30d6\u30b3\u30fc\u30e9\u30eb (not the short \u30b9\u30ab\u30d6), still under book id 69 per dialogs_options_018.json / encyclopedia_021_b.json."
+    },
+    {
+      "id": "dialogue_09988",
+      "target": "<on()><sp(20)>Beyond the <book(79)>Great Wall<endbook()> lies\nthe <book(76)>Promised Land<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Promised Land (book 76) per encyclopedia_021_b.json / encyclopedia_022.json locked spelling (bare 'Promised Land'; 'The Promised Land' is the separate UI list-name form per encyclopedia_021_b notes)."
+    },
+    {
+      "id": "dialogue_09989",
+      "target": "<on()><sp(20)>That's where we'll send\n<color(4)>Renton<ce()> and <color(4)>Eureka<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Renton (Renton Thurston) and Eureka per glossary locked spellings; color(4) spans kept exactly as in source."
+    },
+    {
+      "id": "dialogue_09990",
+      "target": "<on()><sp(20)>Dialogue with the <book(69)>Scub<endbook()>\nis the key to building this world's future.",
+      "status": "meaning_reviewed",
+      "notes": "Scub short form (book 69) matches batch_05943 precedent/proposal."
+    },
+    {
+      "id": "dialogue_09991",
+      "target": "<on()><sp(20)>Everyone... I'm counting on you.",
+      "status": "meaning_reviewed",
+      "notes": "Last row of resource 6300; row 09992 switches to resource 6302 (a different tutorial-style table), confirming the scene boundary."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_09974",
+        "dialogue_09975",
+        "dialogue_09976",
+        "dialogue_09977",
+        "dialogue_09978",
+        "dialogue_09980",
+        "dialogue_09983"
+      ],
+      "note": "Speaker is untagged throughout this closing narration; by elimination and tone (reflecting on the Frost brothers, quoting Garrod, then shifting to 'we've got to stop him' about Dewey) it reads as Jamil or another Freeden-side character, but no name is written into the target text since the source gives none."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket command tokens preserved in exact source order. None of this batch's rows have ab()/ed()/off() commands in the source (consistent with the tail pattern begun at row 09972 in batch_09894); none were added.",
+    "meaning_review": "All rows independently reviewed for meaning against the Japanese source (tools/dialogue_corpus.py slice 9814 178 --context 15); one command-order defect found and fixed (dialogue_09985: book(46)/book(75) tags were swapped relative to source order). No other meaning-changing mistranslations found; all rows set to meaning_reviewed.",
+    "fit": "Full meaning drafted first, without shortening for display; longest visible strings measured below 110 characters.",
+    "runtime": "Resource 6300 (Mission 24, 'Contact D.O.M.E.') closing narration: Frost brothers' fate, D.O.M.E.'s effect on the Command Cluster, and the send-off toward the Zone/Great Wall/Promised Land for Renton and Eureka. Scene continuity verified from the corpus's stored table order and text_id groupings via tools/dialogue_corpus.py; confirmed the scene ends at row 9991 (row 9992 belongs to resource 6302). Source Japanese read via console only, never written to disk; no in-game screenshot verification performed."
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "slice_start": 3629,
+  "slice_count": 75,
+  "rows_examined": [
+    [
+      3614,
+      3718
+    ]
+  ],
+  "rows_examined_count": 105,
+  "rows_in_slice": 75,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_03629",
+        "dialogue_03630"
+      ],
+      "note": "dialogue_03629 uses the pronoun 'boku', inconsistent with Berkt's earlier formal 'watashi' register at dialogue_03611 (previous slice). Unclear whether dialogue_03629-03630 are both Berkt (register shift) or an unnamed speaker responding to the 'Can you hear me, Berkt!?' callout at dialogue_03628 (previous slice). No pronoun choice was required in English either way, so nothing was asserted."
+    },
+    {
+      "ids": [
+        "dialogue_03635",
+        "dialogue_03636",
+        "dialogue_03637",
+        "dialogue_03638",
+        "dialogue_03639",
+        "dialogue_03640",
+        "dialogue_03641",
+        "dialogue_03642",
+        "dialogue_03643",
+        "dialogue_03644",
+        "dialogue_03645"
+      ],
+      "note": "This argument is not speaker-tagged. The condescending replies (dialogue_03637, 03639, 03643, 03645) are read as Berkt on voice/personality match with his glossary profile ('reserved, emotionally guarded; hostile toward Barrel'); the accusing lines are read as an ally, plausibly Barrel given the 'people you want to protect' theme echoed later at dialogue_03679. No name was written into any of these targets."
+    },
+    {
+      "ids": [
+        "dialogue_03654",
+        "dialogue_03655",
+        "dialogue_03656",
+        "dialogue_03657",
+        "dialogue_03658",
+        "dialogue_03659",
+        "dialogue_03660",
+        "dialogue_03661",
+        "dialogue_03662",
+        "dialogue_03663",
+        "dialogue_03664",
+        "dialogue_03665",
+        "dialogue_03666"
+      ],
+      "note": "Heero's mid-battle arrival and Berkt's taunting withdrawal are told through untagged lines. dialogue_03660, 03661, 03664 and 03665 are read as Berkt (condescension, then a chilling remark about not letting the opponent die easily) on tone, not an explicit tag."
+    },
+    {
+      "ids": [
+        "dialogue_03633",
+        "dialogue_03688",
+        "dialogue_03689",
+        "dialogue_03690",
+        "dialogue_03692",
+        "dialogue_03694"
+      ],
+      "note": "\u30d0\u30eb\u30c9\u30ca rendered 'Baldora' (Baldora Charge / Baldora Drive) per terms_028.json's locked spelling, which coexists with the separately locked 'Bardona' spelling for the character Dr. Jill Bardona. The project notes this inconsistency as an open question for the user; not unified here."
+    },
+    {
+      "ids": [
+        "dialogue_03673"
+      ],
+      "note": "<book(38)> wraps the locked term 'New Federation' (org.new_federation in glossary.json, which the project notes explicitly prefers over the wiki form 'New UNE'); <book(48)> wraps 'Shin Dragon', matching the established encyclopedia_022.json rendering of \u771f\u30c9\u30e9\u30b4\u30f3 rather than a literal 'True Dragon'."
+    },
+    {
+      "ids": [
+        "dialogue_03702"
+      ],
+      "note": "<book(29)> wraps 'Martian Successors', the glossary's locked en_full/en_short for \u706b\u661f\u306e\u5f8c\u7d99\u8005 (character_names_021.json), not the variant 'Successors of Mars' also listed there."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared against the source via tools/dialogue_corpus.py slice 3629 75 --context 15: all equal, including the unusual <on()>-before-text, <sp(20)>-after-text order preserved verbatim at dialogue_03661, and the unclosed boxes at dialogue_03635 and dialogue_03640.",
+    "format": "No newlines in any target; source's own line breaks are joined with a space, matching current corpus convention (e.g. batch_03310). ASCII only; no bare percent sign; straight quotes only.",
+    "fit": "Longest visible text is 98 characters (limit 110); no over-limit rows.",
+    "glyphs": "Lowercase j/q avoided where a natural synonym existed (e.g. 'exactly right' not 'quite right', 'changed a lot' not 'changed quite a bit', 'goal' not 'objective'); none remain outside locked names.",
+    "ids": "75/75 ids present (dialogue_03629-dialogue_03703), none duplicated, none overlapping batch_03549.json.",
+    "meaning_review": "75/75 rows checked against tools/dialogue_corpus.py slice 3629 75 --context 15; no meaning errors found; all rows confirmed correct.",
+    "resource": "All 75 rows belong to resource 6110 (Mission 11A, 'Pursue Berkt'); rows 3667-3703 are the post-battle debrief conversation (no <ab()>/<off()> closing commands in source, preserved as open-ended)."
+  },
+  "rows": [
+    {
+      "id": "dialogue_03629",
+      "target": "<sp(20)>How did you know my name? Answer me!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties re: speaker/register."
+    },
+    {
+      "id": "dialogue_03630",
+      "target": "<op()><sp(20)>...I don't know the likes of you.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03631",
+      "target": "<op()><sp(20)>This is...!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03632",
+      "target": "<op()><sp(20)>What's wrong, Harry?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Honorific -kun dropped, matching project convention of plain locked names."
+    },
+    {
+      "id": "dialogue_03633",
+      "target": "<op()><sp(20)>The Baldora Charge is fluctuating wildly!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03634",
+      "target": "<op()><sp(20)>Fluctuating? It's... unstable?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03635",
+      "target": "<op()><sp(20)>What you're trying to do...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03636",
+      "target": "<sp(20)>There's not a single person who wants something like that!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03637",
+      "target": "<op()><sp(20)>There's one right here...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03638",
+      "target": "<op()><sp(20)>Why would you think that way!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03639",
+      "target": "<op()><sp(20)>Think it over with that empty head of yours.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03640",
+      "target": "<op()><sp(20)>Don't screw with me, you...!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03641",
+      "target": "<sp(20)>People you want to protect, things that matter... Don't you understand any of that!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03642",
+      "target": "<op()><sp(20)>So you're the guy I've heard about...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03643",
+      "target": "<op()><sp(20)>Whatever rumor that might be...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03644",
+      "target": "<op()><sp(20)>That you're an irredeemable piece of trash!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03645",
+      "target": "<op()><sp(20)>Playing the hero, are we... How laughable.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03646",
+      "target": "<op()><sp(20)>A new enemy has appeared!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03647",
+      "target": "<op()><sp(20)>Yeah, that's the spirit!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03648",
+      "target": "<op()><sp(20)>This is getting too serious to relax.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03649",
+      "target": "<op()><sp(20)>Running out of time after coming this far...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03650",
+      "target": "<op()><sp(20)>All units, intercept formation!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03651",
+      "target": "<op()><sp(20)>Enemy reinforcements! Please be careful!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03652",
+      "target": "<op()><sp(20)>E-enemy reinforcements incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03653",
+      "target": "<op()><sp(20)>Reinforcements! Stay alert!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03654",
+      "target": "<on()><sp(20)>That is...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03655",
+      "target": "<on()><sp(20)>Heero, is that you?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03656",
+      "target": "<on()><sp(20)>Heero?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03657",
+      "target": "<on()><sp(20)>Leave the ones around me to me.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03658",
+      "target": "<on()><sp(20)>This is urgent, so please.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03659",
+      "target": "<on()><sp(20)>Mission understood.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03660",
+      "target": "<on()><sp(20)>Even a ragtag group like this can entertain me.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Read as Berkt; see uncertainties."
+    },
+    {
+      "id": "dialogue_03661",
+      "target": "<on()>This much should be enough...<sp(20)><ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source's malformed command order (<on()> before text, <sp(20)> after) preserved verbatim."
+    },
+    {
+      "id": "dialogue_03662",
+      "target": "<on()><sp(20)>Wait! Are you running away!?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03663",
+      "target": "<on()><sp(20)>Running away?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03664",
+      "target": "<on()><sp(20)>That's not exactly right.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03665",
+      "target": "<on()><sp(20)>I can't have you dying so easily...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Read as Berkt; see uncertainties."
+    },
+    {
+      "id": "dialogue_03666",
+      "target": "<on()><sp(20)>W-what's that supposed to mean...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03667",
+      "target": "<on()><sp(20)>...I've got a grasp on the situation.",
+      "status": "meaning_reviewed",
+      "notes": "No closing command in source; preserved as open-ended, matching batch_01073's rows 1102-1103 convention."
+    },
+    {
+      "id": "dialogue_03668",
+      "target": "<on()><sp(20)>Will you come with us again?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03669",
+      "target": "<on()><sp(20)>That's why I came here.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03670",
+      "target": "<on()><sp(20)>Putting an end to the history of conflict... is what I need to do now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03671",
+      "target": "<on()><sp(20)>I let <color(5)>Berkt<ce()> slip away again. ...Damn it!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03672",
+      "target": "<on()><sp(20)>But it's become clear that he's active in this world as well.",
+      "status": "meaning_reviewed",
+      "notes": "Pronoun uses Berkt's glossary-sourced gender (male)."
+    },
+    {
+      "id": "dialogue_03673",
+      "target": "<on()><sp(20)><color(5)>Berkt<ce()> is an officer of the <book(38)>New Federation<endbook()>. His mission is to secure the <book(48)>Shin Dragon<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Locked terms; see uncertainties."
+    },
+    {
+      "id": "dialogue_03674",
+      "target": "<on()><sp(20)>But he's clearly acting on his own agenda.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03675",
+      "target": "<on()><sp(20)>Would that mean that behind his official mission, he's pursuing some personal goal of his own?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03676",
+      "target": "<on()><sp(20)>It doesn't seem like the <book(48)>Shin Dragon<endbook()> is all he's after.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03677",
+      "target": "<on()><sp(20)>Then let's search everywhere for him!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03678",
+      "target": "<on()><sp(20)>...<color(4)>Barrel<ce()>. There will be another chance for sure.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03679",
+      "target": "<on()><sp(20)>Take that feeling and unleash it on him next time you meet.",
+      "status": "meaning_reviewed",
+      "notes": "'Him' refers to Berkt, Barrel's established rival."
+    },
+    {
+      "id": "dialogue_03680",
+      "target": "<on()><sp(20)>Still, you've changed a lot for someone who hated fighting so much.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03681",
+      "target": "<on()><sp(20)>...No, I still hate it, even now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03682",
+      "target": "<on()><sp(20)>But given the situation... if I can use my own strength to stop something this awful, I want to.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03683",
+      "target": "<on()><sp(20)>More than anything... I want to know about that man.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03684",
+      "target": "<on()><sp(20)>Same here. A hero who saves the world from crisis, huh!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03685",
+      "target": "<on()><sp(20)>I don't think it's that simple, but... given the situation, I guess it can't be helped.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03686",
+      "target": "<on()><sp(20)>That's right, this is everyone's problem!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03687",
+      "target": "<on()><sp(20)>Heh... You've gotten pretty reliable before I knew it, you little ones.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03688",
+      "target": "<on()><sp(20)>By the way... We've obtained some interesting data regarding the <book(2)>Baldora Charge<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03689",
+      "target": "<on()><sp(20)>When that <color(5)>black unit<ce()> took damage, we confirmed a disturbance in the <book(2)>Baldora Charge<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03690",
+      "target": "<on()><sp(20)>It's proof that the <color(5)>black Gun Ark<ce()> itself is a being involved with the <book(1)>Baldora Drive<endbook()>...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03691",
+      "target": "<on()><sp(20)>That's a hypothesis we could form, yes.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03692",
+      "target": "<on()><sp(20)>For example, the <color(5)>black Gun Ark<ce()> could be the key to the <book(1)>Baldora Drive<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03693",
+      "target": "<on()><sp(20)>That unit... is the key?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03694",
+      "target": "<on()><sp(20)>Yes. If we could capture that unit, we might be able to stop the <book(1)>Baldora Drive<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03695",
+      "target": "<on()><sp(20)>Really!? Is that true!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03696",
+      "target": "<on()><sp(20)>It's only a guess. But given everything we know so far, it's worth betting on.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03697",
+      "target": "<on()><sp(20)>It looked remotely operated, all right. Makes sense if the facility was run from that unit.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03698",
+      "target": "<on()><sp(20)>So then, securing that unit, the activation key, is our goal?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03699",
+      "target": "<on()><sp(20)>That's right.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03700",
+      "target": "<on()><sp(20)>All right, let's go after it already!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03701",
+      "target": "<on()><sp(20)>That's what I'd like to do, but... Bad news has come in from headquarters.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03702",
+      "target": "<on()><sp(20)><book(33)>Macross<endbook()> has reportedly been seized by the <book(29)>Martian Successors<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Locked term; see uncertainties."
+    },
+    {
+      "id": "dialogue_03703",
+      "target": "<on()><sp(20)>What did you say!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

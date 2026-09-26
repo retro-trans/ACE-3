@@ -1,0 +1,87 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 13273,
+  "slice_count": 80,
+  "rows_examined": [[13258, 13367]],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_13276",
+      "before": "Calm down. You can do this.\nHave confidence.",
+      "after": "Calm down. You can do this. Have confidence.",
+      "reason": "Shout rows must carry no newline (source line breaks are joined); rejoined into one line, fits the row's byte budget (52)."
+    },
+    {
+      "id": "dialogue_13277",
+      "before": "Handle it better,\nor that's simply cruel!",
+      "after": "Handle it better, or that's simply cruel!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (46)."
+    },
+    {
+      "id": "dialogue_13279",
+      "before": "You spoiled little coward!\nGet it together!",
+      "after": "You spoiled little coward! Get it together!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (44)."
+    },
+    {
+      "id": "dialogue_13298",
+      "before": "You fought and you're alive!\nWell done!",
+      "after": "You fought and you're alive! Well done!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (42)."
+    },
+    {
+      "id": "dialogue_13308",
+      "before": "I won't let you\nhurt my friends!",
+      "after": "I won't let you hurt my friends!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (44)."
+    },
+    {
+      "id": "dialogue_13316",
+      "before": "Get too carried away\nand you'll get badly hurt!",
+      "after": "Get too carried away, you'll get badly hurt!",
+      "reason": "No-newline shout constraint; joining with 'and' kept overran the budget by 1 char (47 vs 46), so 'and' was replaced with a comma to fit while keeping the same meaning."
+    },
+    {
+      "id": "dialogue_13342",
+      "before": "Looks like Brain\napproves of you too.",
+      "after": "Looks like Brain approves of you too.",
+      "reason": "No-newline shout constraint; rejoined, fits budget (40)."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [13273, 13307],
+      "finding": "Hime Utsumiya (Hime Brain) block continues correctly; 'Brain' naming consistent, no invented gender for ambiguous referents (e.g. 13296 'あの人' -> 'them')."
+    },
+    {
+      "rows": [13308, 13352],
+      "finding": "Yuu Isami (Yuu Brain) lines checked against his lone-wolf, values-life profile; no reversed meaning or invented subject found."
+    },
+    {
+      "rows": [13273, 13352],
+      "finding": "Every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> command sequence verified identical and in order; no ASCII/j-q/110-char violations found."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_13285"],
+      "issue": "Translator's compression to 'More' (source zouen?, 4-char budget) upheld: no shorter English word carries the meaning better within the hard limit."
+    },
+    {
+      "ids": ["dialogue_13287"],
+      "issue": "Translator's '?!' placeholder for teki? (2-char budget) upheld: no English word fits; documented as an acknowledged lexical gap, not a meaning error."
+    },
+    {
+      "ids": ["dialogue_13341", "dialogue_13343"],
+      "issue": "Translator's neutral 'you' for anta with no confirmed referent upheld after checking the adjacent context (13338-13352); the addressee (possibly Brain, possibly an ally) is not settled by either neighboring slice, so no identity was invented."
+    }
+  ],
+  "validation": {
+    "controls": "Every row's command sequence re-verified programmatically against the source extraction for all 80 rows; unchanged.",
+    "format": "All rows confirmed newline-free after rejoining the 7 rows above; ASCII-only (except the locked fullwidth %) confirmed for all rows.",
+    "fit": "Per-row byte budget recomputed from the console source extraction and verified <= budget for all 80 rows, including the 7 rows fixed above.",
+    "names": "No name-spelling changes needed; Hime Utsumiya, Yuu Isami and their locked unit name 'Brain' match character_names_021.json and unit_names_014_a.json throughout."
+  }
+}

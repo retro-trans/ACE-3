@@ -1,0 +1,530 @@
+{
+  "slice_start": 11336,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      11321,
+      11430
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_11336",
+      "target": "<sp(20)>You should see the future too!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues 11335 directly (no <op()>), same unresolved speaker."
+    },
+    {
+      "id": "dialogue_11337",
+      "target": "<op()><sp(20)>Those who cannot seize it become the weak.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11338",
+      "target": "<sp(20)>Do you intend to live\nclinging to something that might never come?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11339",
+      "target": "<op()><sp(20)>That's exactly why people struggle!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11340",
+      "target": "<op()><sp(20)>I have always fought those who carry a just cause.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "New exchange (text_id 243); speaker/addressee not identified from context."
+    },
+    {
+      "id": "dialogue_11341",
+      "target": "<sp(20)>Words guide people, and that becomes strength.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11342",
+      "target": "<sp(20)>You, who wield power without that,\ndon't even come close to them.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11343",
+      "target": "<op()><sp(20)>Are you saying that without a just cause, one is weak?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11344",
+      "target": "<op()><sp(20)>As you are now, you can't beat me.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11345",
+      "target": "<op()><sp(20)>Just like the old man's dying wish,\nI'm gonna kill you dead!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Casual/rough register (てめえ, ぶっ殺してやるぜ) kept in the Barrel-coded speaking style used elsewhere in this scene (e.g. 11305-11306)."
+    },
+    {
+      "id": "dialogue_11346",
+      "target": "<op()><sp(20)>So that's the dying wish\nof the man who made the Shin Dragon and gave me the Getter Rays!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11347",
+      "target": "<op()><sp(20)>Neither the Shin Dragon nor the Getter Rays\nwere ever for your sake!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11348",
+      "target": "<sp(20)>They existed for the sake of humanity!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11349",
+      "target": "<op()><sp(20)>Denying that lie you all believe in\nis my final task.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11350",
+      "target": "<op()><sp(20)>Why... can you go that far?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11351",
+      "target": "<op()><sp(20)>It's already over.\nNo matter what you do, it's over!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11352",
+      "target": "<op()><sp(20)>Ruin is right around the corner!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11353",
+      "target": "<op()><sp(20)>Barrel...\nIf only I had never known you!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addresses Barrel by name; speaker most likely Berkt per the identity split established at 11277, kept unlabeled in the row itself."
+    },
+    {
+      "id": "dialogue_11354",
+      "target": "<op()><sp(20)>Energy readings in the head are decreasing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Operator/HUD alert line, resource 6350 combat commentary (matches the style of prior tutorial/mission alert rows)."
+    },
+    {
+      "id": "dialogue_11355",
+      "target": "<op()><sp(20)>The Shin Dragon's head has stopped functioning!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11356",
+      "target": "<op()><sp(20)>Energy readings in the head are dropping!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Politer-register duplicate of 11354 (alternate operator line for the same event); kept distinct wording as in source."
+    },
+    {
+      "id": "dialogue_11357",
+      "target": "<op()><sp(20)>Energy readings in the tail section are decreasing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "最後部 (rearmost section) rendered as 'tail section', matching the head/tail attack instructions later in this same slice (11360-11363)."
+    },
+    {
+      "id": "dialogue_11358",
+      "target": "<op()><sp(20)>The Shin Dragon's tail section has stopped functioning!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11359",
+      "target": "<op()><sp(20)>Energy readings in the tail section are dropping!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11360",
+      "target": "<op()><sp(20)>Attack the head up front!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11361",
+      "target": "<op()><sp(20)>Attack the tail in back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11362",
+      "target": "<op()><sp(20)>Please attack the head up front.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11363",
+      "target": "<op()><sp(20)>Please attack the tail in back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11364",
+      "target": "<op()><sp(20)>Now!\nAttack the main body at the center!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11365",
+      "target": "<op()><sp(20)>Readings dropping.\nNow is your chance to attack the main body.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11366",
+      "target": "<op()><sp(20)>Launch an attack on the main body!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11367",
+      "target": "<op()><sp(20)>Attack the main body!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11368",
+      "target": "<op()><sp(20)>The Shin Dragon's readings are rising again?!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11369",
+      "target": "<op()><sp(20)>The Shin Dragon is active again.\nBe careful.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11370",
+      "target": "<op()><sp(20)>It's moving again!\nBe careful!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11371",
+      "target": "<op()><sp(20)>The readings came back...\nIs that thing invincible?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11372",
+      "target": "<on()><sp(20)>It's here...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Cutscene portrait dialogue resumes (text_id 301); referent of 'it' unspecified in source, kept general rather than invented. Meaning review: source uses past-tense 来た (has arrived), and the shocked follow-up line (あれは……！, 'what is that') reacts to something already visible, not still approaching; changed from future-oriented 'It's coming...' to 'It's here...'."
+    },
+    {
+      "id": "dialogue_11373",
+      "target": "<on()><sp(20)>Wh...\nWhat is that...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11374",
+      "target": "<on()><sp(20)>The two worlds have already become connected.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11375",
+      "target": "<on()><sp(20)>What awaits is the end of everything.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11376",
+      "target": "<on()><sp(20)>Shin Dragon...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11377",
+      "target": "<on()><sp(20)>Nothing you do matters anymore...\nLet's end this.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11378",
+      "target": "<on()><sp(20)>Gaaaaaah!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Nonverbal scream (がああぁぁぁーーー) rendered phonetically, matching length/emphasis rather than inventing words."
+    },
+    {
+      "id": "dialogue_11379",
+      "target": "<on()><sp(20)>Berkt!!!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Berkt is the locked spelling (glossary.json char.berkt); elongated name-shout."
+    },
+    {
+      "id": "dialogue_11380",
+      "target": "<on()><sp(20)>Barrel, it's dangerous!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11381",
+      "target": "<on()><sp(20)>Get out of there!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11382",
+      "target": "<on()><sp(20)>It's already... over.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11383",
+      "target": "<on()><sp(20)>It's not over!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11384",
+      "target": "<on()><sp(20)>One of us was always going to be denied.\nYou must have known that.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "どちらか (either one) refers to the Barrel/Berkt duality established earlier in this scene (11277); no third identity introduced."
+    },
+    {
+      "id": "dialogue_11385",
+      "target": "<on()><sp(20)>Like I care about that.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11386",
+      "target": "<on()><sp(20)>We're not the same, are we?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11387",
+      "target": "<on()><sp(20)>I am me.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11388",
+      "target": "<on()><sp(20)>You are... you!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11389",
+      "target": "<on()><sp(20)>Yeah...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11390",
+      "target": "<on()><sp(20)>Then... from here on, this is a path that's yours alone.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11391",
+      "target": "<on()><sp(20)>Waaaaaah!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Nonverbal scream, rendered phonetically as in 11378."
+    },
+    {
+      "id": "dialogue_11392",
+      "target": "<op()><sp(20)>Deploying the Distortion Field.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Distortion Field is the locked Nadesico ship-system spelling (encyclopedia_021_a.json, batch_06763_glossary_proposals.json)."
+    },
+    {
+      "id": "dialogue_11393",
+      "target": "<sp(20)>Harry. The Gravity Blast, if you please.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Harry is the established nickname (character_names_021.json Hari Makibi; used throughout the corpus e.g. batch_00993). Gravity Blast is the locked weapon spelling (proposals_dialogue_00161.json)."
+    },
+    {
+      "id": "dialogue_11394",
+      "target": "<op()><sp(20)>All units, hold the line!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11395",
+      "target": "<op()><sp(20)>Main gun, prepare to fire!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11396",
+      "target": "<op()><sp(20)>Please... protect everyone.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11397",
+      "target": "<op()><sp(20)>C-Captain! At this rate--!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Stammer kept as in prior corpus precedent (e.g. batch_00993 dialogue_01053)."
+    },
+    {
+      "id": "dialogue_11398",
+      "target": "<op()><sp(20)>Everyone, hold on!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11399",
+      "target": "<on()><sp(20)>So... is this the end...?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11400",
+      "target": "<on()><sp(20)>No.\nStopping the Baldora Drive still remains.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Baldora Drive is the locked spelling (terms_028.json)."
+    },
+    {
+      "id": "dialogue_11401",
+      "target": "<on()><sp(20)>If that stops,\nthe connection between the two worlds will be completely severed.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11402",
+      "target": "<on()><sp(20)>This is goodbye, then.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11403",
+      "target": "<on()><sp(20)>Right, we need to get back\nbefore Barrel arrives.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11404",
+      "target": "<on()><sp(20)>Barrel, let's go.\nOne last job.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11405",
+      "target": "<on()><sp(20)>Faye, you need to get off here.\nOtherwise... you won't be able to go back.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11406",
+      "target": "<on()><sp(20)>There's no time to get back to the ship.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11407",
+      "target": "<on()><sp(20)>But...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11408",
+      "target": "<on()><sp(20)>It's all right, I have one idea.\nLet's go.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11409",
+      "target": "<on()><sp(20)>Okay... got it.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11410",
+      "target": "<on()><sp(20)><ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source has no visible text between the tags; reproduced as-is, nothing added."
+    },
+    {
+      "id": "dialogue_11411",
+      "target": "<on()><sp(20)>Coralians, Newtypes, and all sorts...\nthey were all such interesting people.\nIt's a shame to let them go.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Coralian and Newtype are locked/established spellings (mission_terms_019.json; character_names_021.json)."
+    },
+    {
+      "id": "dialogue_11412",
+      "target": "<on()><sp(20)>I can't hear everyone's voices anymore...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11413",
+      "target": "<on()><sp(20)>Seems like they're gone.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11414",
+      "target": "<on()><sp(20)>Looks like we'll be saying goodbye soon too...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11415",
+      "target": "<on()><sp(20)>I see it.\nJust a little further.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_11336",
+        "dialogue_11340",
+        "dialogue_11353",
+        "dialogue_11372",
+        "dialogue_11384",
+        "dialogue_11386",
+        "dialogue_11387",
+        "dialogue_11388"
+      ],
+      "note": "Speakers/addressees are not tagged in the source. Lines were translated from content, named addressees (Barrel, Berkt), and the identity-split established earlier in this scene (dialogue_11277) only; no new identity or gender was invented."
+    },
+    {
+      "ids": [
+        "dialogue_11378",
+        "dialogue_11391"
+      ],
+      "note": "Nonverbal screams rendered phonetically rather than replaced with descriptive text, matching prior corpus practice for wordless exclamations."
+    },
+    {
+      "ids": [
+        "dialogue_11357",
+        "dialogue_11358",
+        "dialogue_11359"
+      ],
+      "note": "最後部 ('rearmost section') rendered as 'tail section' to match the explicit 尾 ('tail') wording used for the same target in the following attack-instruction rows (11360-11363); not independently confirmed as the game's own label for this part."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket command tokens preserved in exact source order, including rows with no closing <ed()> which continue directly into the following row as in the source (e.g. 11261-11263, 11266, 11269-11270, 11272-11274, 11279, 11282-11284, 11289, 11292, 11294, 11301, 11305, 11309, 11311-11312, 11318, 11326, 11330, 11337, 11347, 11392).",
+    "meaning_review": "Independent meaning review performed; all 80 rows in slice examined and set to meaning_reviewed (none left as draft).",
+    "fit": "Full meaning drafted first, without shortening for display; longest visible strings measured below 110 characters.",
+    "runtime": "Resource 6350 (mission 29, 'Stop the Baldora Drive 2') scene continuity verified from the corpus's stored table order and text_id groupings; no in-game screenshot verification performed."
+  }
+}

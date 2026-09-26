@@ -1,0 +1,107 @@
+{
+ "resource_id": 4003180,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 9,
+ "rows_examined": 9,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "15  Destroy the Macross",
+   "notes": "Released mission title reused.",
+   "source_sha256": "a909e795202af3f8f065ab62dee0a91d743d126d4855e502971bfcda5563c73e"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30050,1)><speed(2)>Everyone, I have bad news.",
+   "notes": "",
+   "source_sha256": "b13f0b043f4a0f60fe63d4a57377e3a3152a766a9c1dadeb486d755a3b1e9178"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30050,1)><speed(2)>A moment ago, the network takeover rate by <book(87)>Sharon Apple<endbook()><thumbnail(230)> passed <color(6)>90 percent<ce()>.",
+   "notes": "Percent spelled out per 4003080 precedent (no bare %).",
+   "source_sha256": "c649a50fb2891a698c1f30234f0c203d02dcb75bb8e52e53bf351ee3de510d8d"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30050,1)><speed(2)>To keep the damage from spreading any further, <color(4)>Command<ce()> has ruled that sinking the <book(33)>Macross<endbook()> cannot be helped.",
+   "notes": "'Command' for shireibu; no locked precedent found for this term.",
+   "source_sha256": "32e689ba6d51d28496ac46d570e735a9d5f98f1c6087fc95c166f871c5ada596"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30050,1)><speed(2)>That we must sink the <book(4)>First Defense War<endbook()>'s decorated ship, the <book(33)>Macross<endbook()>, with our own hands is a matter of the deepest regret.",
+   "notes": "Source book(4) span here omits 'dai-ichiji' ('First'), unlike 4003160 slot 28; rendered per the locked book(4) term 'First Defense War' regardless, for corpus consistency.",
+   "source_sha256": "96ca87de66b99b5e5c0220e3a8798bd4b1e39bd4f6fe08e9b18a7cb5d967e3ad"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<thumbdown()><operator(30050,1)><speed(2)>But there is no other way to escape the present crisis.",
+   "notes": "",
+   "source_sha256": "cfa8a169a797227061114936f9d0a94baca818ea6cc3bff9fe7caba7cc3a6eec"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30050,1)><speed(2)>Begin the attack immediately!",
+   "notes": "",
+   "source_sha256": "deef020c1e314de262afc4d4bddbed732b0f6c62bba42081dd4093ede585874e"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<topic()><operator(30000,1)><speed(2)><color(4)>Barrel<ce()>. We've received new armor parts for the <color(4)>Ixbrau<ce()><thumbnail(289)>.",
+   "notes": "'Armor parts' (gaisou parts) kept distinct from the 'additional parts' (tsuika parts) of 4003160; different source term.",
+   "source_sha256": "d4a018e33a884012e01f8d92d8253748f9781c35832dd065974d338c7050b01b"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30000,1)><speed(2)>As before, please switch between this and the other armor parts as needed.",
+   "notes": "",
+   "source_sha256": "e3320f2cceda0bc6d225652478fdced995c4a364f5ad0166cb5951dc60ce79a2"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "'Command' for shireibu (the entity that orders the Macross sunk) has no locked project term; kept capitalized as a proper-noun-like body, matching the color(4) tag."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 9,
+  "rows_in_scene": 9,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"15  Destroy the Macross\".",
+   "All command tags checked against tools/scene_source.py output: identical set and order in every row.",
+   "Speakers verified via tools/speaker_lookup.py: 30050 Kouichiro Misumaru, 30000 Faye Rochenante; consistent with content and register.",
+   "Slot 20 '90 percent' spelled out, no bare %: correct per project rule and 4003080 precedent.",
+   "Slot 21 'Command' for shireibu: orchestrator confirmed acceptable; kept.",
+   "Slot 22 book(4) 'First Defense War': this row's source span omits 'dai-ichiji' ('First'), unlike 4003160 slot 28 which includes it; both correctly render as the one locked book(4) term for corpus consistency.",
+   "Slot 25-26 'armor parts' (gaisou parts) correctly kept distinct from the 'additional parts' (tsuika parts, 4003160) and 'refit parts' (kansou parts, 4003030) - three different Ixbrau part sets with three different Japanese source terms.",
+   "Lowercase j/q scan: none found."
+  ],
+  "remaining_uncertainties": [
+   "Slot 21: 'Command' for shireibu has no locked project term beyond this ruling; if a later scene names this body differently, reconcile."
+  ]
+ }
+}

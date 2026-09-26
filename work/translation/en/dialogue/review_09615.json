@@ -1,0 +1,36 @@
+{
+  "reviewer": "independent_meaning_review_mission23_agent",
+  "slice_start": 9615,
+  "slice_count": 80,
+  "rows_examined": [{"start": 9600, "end": 9709}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_09649",
+      "before": "A king, huh... how pathetic.\nYou sound exactly like someone else I know.",
+      "after": "A king, huh... how pathetic.\nYou sound exactly like someone out there.",
+      "reason": "Source 'どこかの誰かにそっくりだぜ' is deliberately vague ('just like someone, somewhere'); the draft's 'someone else I know' invents a claim of personal acquaintance the source does not make. Restored the vagueness."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [9627, 9691, 9694], "finding": "-dono honorific on Cynthia rendered 'Lady Cynthia'. Translator flagged this as having 'no established project convention' - that is out of date: batch_04736.json/review_04736.json already ruled 'Lady Cynthia' acceptable and used it consistently at rows 4763/4765. This batch's usage matches that prior ruling; no change needed, uncertainty resolved."},
+    {"rows": [9641, 9642], "finding": "Gekko (Eureka Seven's ship) appearing as an allied mothership in this King Gainer battle is consistent with the game's crossover premise and the locked glossary spelling (meeting_terms_015.json); not an error."},
+    {"rows": [9654], "finding": "'Not as long as I have the Overdevil!' continues the previous row's 'I haven't lost yet' - read together this is the idiomatic 'I won't [lose], not as long as I have the Overdevil,' matching the source's conditional. Not a reversal."},
+    {"rows": [9644, 9646, 9647, 9648, 9649, 9650, 9651, 9652, 9653, 9654], "finding": "Boss-fight exchange between Gain, the Overdevil pilot, and Asuham is untagged in the source table. Vocatives ('Gain!', 'Asuham!') kept literal; no speaker identity invented beyond what each line's own address terms supply."},
+    {"rows": [9670], "finding": "'Don't beg for things. Do it yourself, or else you won't get anything. That's us, Gekkostate!' matches the official Eureka Seven dub motto locked in terms_028.json verbatim, and matches the same wording already used at dialogue_01711 (batch_01666.json)."},
+    {"rows": [9660], "finding": "'ray=out' spelling (source ｒａｙ＝ｏｕｔ normalized to ASCII) matches the magazine name as already translated in encyclopedia_022.json (text_ids ~1429/3118)."},
+    {"rows": [9663, 9664, 9666], "finding": "'Priest Norb' for the -shi honorific on Norb is consistent with his established glossary role ('Vodarac priest', character_names_021.json); the honorific is correctly dropped later (batch_09695.json rows 9762-9774) once the source itself switches to informal address, which matches the register shift in the Japanese."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_09648", "dialogue_09649", "dialogue_09650", "dialogue_09651", "dialogue_09652", "dialogue_09653", "dialogue_09654"], "issue": "Speakers in this confrontation (Gain, the Overdevil pilot, Asuham) are not tagged in the source table; ruling above confirms the translator's literal, non-inventive handling is correct and no further resolution is possible from the source alone."},
+    {"ids": ["dialogue_09655"], "issue": "'Ginga' (Dewey's flagship) and the coinages 'Overfreeze'/'Oversense' are noted in this batch's file as recorded in 'batch_09615_glossary_proposals.json', but that file does not exist anywhere in work/glossary or work/translation - the coinages were apparently never actually filed. The English choices themselves are fine (consistent with locked Overheat/Overskill/Overman and unproblematic transliteration of 銀河号), but the paper trail is missing; flagging for the orchestrator to either create that proposals file retroactively or correct the note."}
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(n)>/<ed()> tokens re-checked programmatically against a fresh tools/dialogue_corpus.py slice for all 80 rows: identical presence, values and order in every row, including rows missing <op()>/<ed()> where the source omits them.",
+    "format": "Newline (\\n) counts match the source exactly for every row (checked programmatically).",
+    "fit": "All visible strings (tags stripped) are <=110 chars (checked programmatically); longest is well under the limit.",
+    "ascii": "No non-ASCII characters found outside the fullwidth percent exception (none needed here); no lowercase j/q found in visible text (checked programmatically)."
+  }
+}

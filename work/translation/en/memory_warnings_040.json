@@ -1,0 +1,143 @@
+{
+  "version": "0.1.40",
+  "base": "ACE3-English-0.1.39.iso",
+  "source_bundle": 4002050,
+  "font_resource": 2500,
+  "line_limit": 3,
+  "max_width_native_units": 520,
+  "rows": [
+    {
+      "table_id": 3041,
+      "text_id": 1,
+      "source_current": "Checking the memory card (PS2)\nin slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "source_original": "メモリーカード差込口１のメモリーカード（ＰＳ２）をチェックしています。\n電源を切ったり、メモリーカード（ＰＳ２）を抜き差ししないでください。",
+      "target": "Checking memory card (PS2) in slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "status": "meaning_reviewed",
+      "scope": "operation_warning",
+      "widths": [
+        382,
+        345,
+        339
+      ],
+      "notes": "Retains operation, slot 1, memory card (PS2), power-off prohibition and card insertion/removal prohibition. Only removes the article before the first card reference and combines the location with the operation."
+    },
+    {
+      "table_id": 3041,
+      "text_id": 3,
+      "source_current": "No memory card (PS2) in slot 1.\nTo create save data for this game, a\nmemory card (PS2) with at least 110 KB\nof free space is needed.\nContinue playing?",
+      "source_original": "メモリーカード差込口１にメモリーカード（ＰＳ２）が\n差し込まれていません。\nこのゲームのセーブデータを作成するには、\n１１０ＫＢ以上の空き容量がある\nメモリーカード（ＰＳ２）が必要です。\nこのままゲームをプレイしますか？",
+      "target": "No memory card (PS2) in slot 1.\nCreating save data needs at least 110 KB free.\nContinue playing?",
+      "status": "meaning_reviewed",
+      "scope": "related_overflow_recommendation",
+      "widths": [
+        320,
+        462,
+        178
+      ],
+      "notes": "Complete three-line alternative for a related long confirmation/error. Preserves slot 1, PS2 card and at least 110 KB free; preserves Continue playing question when present. Applying this is recommended for consistency, but this panel was not shown in the supplied screenshot."
+    },
+    {
+      "table_id": 3041,
+      "text_id": 5,
+      "source_current": "The memory card (PS2) in slot 1 does not\nhave enough free space.\nTo create save data for this game, a\nmemory card (PS2) with at least 110 KB\nof free space is needed.\nContinue playing?",
+      "source_original": "メモリーカード差込口１のメモリーカード（ＰＳ２）の\n空き容量が不足しています。\nこのゲームのセーブデータを作成するには、\n１１０ＫＢ以上の空き容量がある\nメモリーカード（ＰＳ２）が必要です。\nこのままゲームをプレイしますか？",
+      "target": "Not enough free space on the memory card (PS2)\nin slot 1. Save data needs at least 110 KB free.\nContinue playing?",
+      "status": "meaning_reviewed",
+      "scope": "related_overflow_recommendation",
+      "widths": [
+        479,
+        472,
+        178
+      ],
+      "notes": "Complete three-line alternative for a related long confirmation/error. Preserves slot 1, PS2 card and at least 110 KB free; preserves Continue playing question when present. Applying this is recommended for consistency, but this panel was not shown in the supplied screenshot."
+    },
+    {
+      "table_id": 3041,
+      "text_id": 19,
+      "source_current": "The memory card (PS2) in slot 1 does not\nhave enough free space.\nInsert a memory card (PS2) with at least\n110 KB of free space.",
+      "source_original": "メモリーカード差込口１のメモリーカード（ＰＳ２）の\n空き容量が不足しています。１１０ＫＢ以上の\n空き容量があるメモリーカード（ＰＳ２）を\n差し込んでください。",
+      "target": "Not enough free space on the memory card (PS2)\nin slot 1. Insert a memory card (PS2)\nwith at least 110 KB free.",
+      "status": "meaning_reviewed",
+      "scope": "related_overflow_recommendation",
+      "widths": [
+        479,
+        368,
+        261
+      ],
+      "notes": "Complete three-line alternative for a related long confirmation/error. Preserves slot 1, PS2 card and at least 110 KB free; preserves Continue playing question when present. Applying this is recommended for consistency, but this panel was not shown in the supplied screenshot."
+    },
+    {
+      "table_id": 3041,
+      "text_id": 28,
+      "source_current": "Formatting the memory card (PS2)\nin slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "source_original": "メモリーカード差込口１のメモリーカード（ＰＳ２）を\nフォーマットしています。\n電源を切ったり、メモリーカード（ＰＳ２）を抜き差ししないでください。",
+      "target": "Formatting memory card (PS2) in slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "status": "meaning_reviewed",
+      "scope": "operation_warning",
+      "widths": [
+        402,
+        345,
+        339
+      ],
+      "notes": "Retains operation, slot 1, memory card (PS2), power-off prohibition and card insertion/removal prohibition. Only removes the article before the first card reference and combines the location with the operation."
+    },
+    {
+      "table_id": 3041,
+      "text_id": 29,
+      "source_current": "Saving to the memory card (PS2)\nin slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "source_original": "メモリーカード差込口１のメモリーカード（ＰＳ２）にセーブしています。\n電源を切ったり、メモリーカード（ＰＳ２）を抜き差ししないでください。",
+      "target": "Saving to memory card (PS2) in slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "status": "meaning_reviewed",
+      "scope": "operation_warning",
+      "widths": [
+        384,
+        345,
+        339
+      ],
+      "notes": "Retains operation, slot 1, memory card (PS2), power-off prohibition and card insertion/removal prohibition. Only removes the article before the first card reference and combines the location with the operation."
+    },
+    {
+      "table_id": 3041,
+      "text_id": 31,
+      "source_current": "The memory card (PS2) in slot 1 does not\nhave enough free space.\nTo create save data for this game, a\nmemory card (PS2) with at least 110 KB\nof free space is needed.",
+      "source_original": "メモリーカード差込口１のメモリーカード（ＰＳ２）の\n空き容量が不足しています。\nこのゲームのセーブデータを作成するには、\n１１０ＫＢ以上の空き容量がある\nメモリーカード（ＰＳ２）が必要です。",
+      "target": "Not enough free space on the memory card (PS2)\nin slot 1. Creating save data requires\na memory card (PS2) with at least 110 KB free.",
+      "status": "meaning_reviewed",
+      "scope": "related_overflow_recommendation",
+      "widths": [
+        479,
+        371,
+        472
+      ],
+      "notes": "Complete three-line alternative for a related long confirmation/error. Preserves slot 1, PS2 card and at least 110 KB free; preserves Continue playing question when present. Applying this is recommended for consistency, but this panel was not shown in the supplied screenshot."
+    },
+    {
+      "table_id": 3041,
+      "text_id": 48,
+      "source_current": "Loading from the memory card (PS2)\nin slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "source_original": "メモリーカード差込口１のメモリーカード（ＰＳ２）からロードしています。\n電源を切ったり、メモリーカード（ＰＳ２）を抜き差ししないでください。",
+      "target": "Loading from memory card (PS2) in slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "status": "meaning_reviewed",
+      "scope": "operation_warning",
+      "widths": [
+        424,
+        345,
+        339
+      ],
+      "notes": "Retains operation, slot 1, memory card (PS2), power-off prohibition and card insertion/removal prohibition. Only removes the article before the first card reference and combines the location with the operation."
+    }
+  ],
+  "review": {
+    "status": "meaning_reviewed",
+    "rows_examined": 42,
+    "rows_in_category": 42,
+    "operation_warning_rows": 4,
+    "related_overflow_rows": 4,
+    "changed_rows": 8,
+    "method": "Compared all active table 3041 rows in the original disc and 0.1.39. All eight rows with more than three lines have complete alternatives measured with the active menu font.",
+    "uncertainties": [
+      "The supplied screenshot proves three visible lines for the checking message. The actual line capacity of related confirmation/error panels has not been observed; their reflows are recommendations.",
+      "Width limit 520 is supplied by parent for this review; all proposed lines are <= 481 units."
+    ]
+  }
+}

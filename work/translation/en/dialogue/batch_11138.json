@@ -1,0 +1,552 @@
+{
+  "slice_start": 11138,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      11123,
+      11232
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_11143",
+        "dialogue_11144",
+        "dialogue_11145",
+        "dialogue_11147"
+      ],
+      "note": "King Sakomizu / 5th Luna are locked spellings (character_names_021.json, encyclopedia_021_a.json) applied to this Wings of Rean-linked exchange."
+    },
+    {
+      "ids": [
+        "dialogue_11148",
+        "dialogue_11149",
+        "dialogue_11150",
+        "dialogue_11151",
+        "dialogue_11152",
+        "dialogue_11153"
+      ],
+      "note": "Unnamed young speaker addresses Char as 'the great evil king'; kept as a literal, rhetorical address rather than an invented formal title."
+    },
+    {
+      "ids": [
+        "dialogue_11191",
+        "dialogue_11192",
+        "dialogue_11193",
+        "dialogue_11194",
+        "dialogue_11195",
+        "dialogue_11196",
+        "dialogue_11197",
+        "dialogue_11198",
+        "dialogue_11199",
+        "dialogue_11200",
+        "dialogue_11201",
+        "dialogue_11203",
+        "dialogue_11206",
+        "dialogue_11209"
+      ],
+      "note": "Ensemble battle-join sequence (crossover cast rallying against Char); only characters explicitly named in the source text (Go, Tapp, Light, Eureka, Faye) are named in translation, other reaction lines left speaker-neutral."
+    },
+    {
+      "id": "dialogue_11190",
+      "note": "'nu Gundam' kept lowercase at sentence-start per locked unit spelling (unit_names_014_a.json)."
+    },
+    {
+      "id": "dialogue_11202",
+      "note": "Honorific '-san' on Amuro's name rendered 'Mr. Amuro' to preserve the distinction from other speakers' plain 'Amuro'."
+    },
+    {
+      "id": "dialogue_11210",
+      "note": "'Psycho-Frame' applied per orchestrator ruling; batch_11256 (later scene) uses the same spelling."
+    }
+  ],
+  "validation": {
+    "meaning_review": "All 80 rows independently meaning-reviewed against the ISO source (context rows 11123-11232); no meaning fixes required, all rows set to meaning_reviewed. See review_11138.json.",
+    "fit": "Full meaning retained; no sentence-final content dropped. Longest visible row measured <=110 characters.",
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()> command sequences preserved in source order; validated programmatically (tag list source vs target) for all 80 rows."
+  },
+  "rows": [
+    {
+      "id": "dialogue_11138",
+      "target": "<sp(20)>Being used while protecting people\nis so much better than hurting people to avoid being used!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11139",
+      "target": "<op()><sp(20)>We simply trust each other.\nBecause we're friends.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11140",
+      "target": "<op()><sp(20)>You probably wouldn't understand that!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11141",
+      "target": "<op()><sp(20)>I've been underestimated.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11142",
+      "target": "<op()><sp(20)>I don't want to hear some old man's speech!\nIf I take you down, it's over!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11143",
+      "target": "<op()><sp(20)>This is the Earth that King Sakomizu\nprotected with his life.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "King Sakomizu = locked nickname of Shinjiro Sakomizu (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_11144",
+      "target": "<sp(20)>Because of you, King Sakomizu...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11145",
+      "target": "<sp(20)>He stopped the 5th Luna\nat the cost of his own life!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "5th Luna is the locked encyclopedia_021_a.json spelling."
+    },
+    {
+      "id": "dialogue_11146",
+      "target": "<op()><sp(20)>That's nothing but the delusion\nof someone who didn't know this world's reality.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11147",
+      "target": "<op()><sp(20)>That's not true!\nI won't let King Sakomizu's wish go to waste!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11148",
+      "target": "<op()><sp(20)>So you've finally shown up!\nThe great evil king, Char Aznable!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "'great evil king' addressed rhetorically to Char by an unnamed young speaker; translated literally, no title invented beyond source."
+    },
+    {
+      "id": "dialogue_11149",
+      "target": "<sp(20)>I'll beat you\nand make this a happy ending!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11150",
+      "target": "<op()><sp(20)>Unfortunately, reality doesn't\ngo the way stories do.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11151",
+      "target": "<op()><sp(20)>I won't ask why you're doing this.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11152",
+      "target": "<op()><sp(20)>Even if I answered, it seems you wouldn't accept it anyway.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11153",
+      "target": "<op()><sp(20)>That's right.\nSo I'll silently bring you down!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11154",
+      "target": "<op()><sp(20)>Let's see how far you can go.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11155",
+      "target": "<op()><sp(20)>So you're Char Aznable!\nFinally, I get to cross blades with you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11156",
+      "target": "<op()><sp(20)>Show me\nhow good you really are!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11157",
+      "target": "<op()><sp(20)>Unless I defeat you,\nthis chain of battles won't end.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11158",
+      "target": "<op()><sp(20)>If you want to end the fighting,\nwhy won't you cooperate with me?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11159",
+      "target": "<op()><sp(20)>Doing something like this won't end the conflict.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11160",
+      "target": "<sp(20)>All you're doing\nis sowing the seeds of new hatred.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11161",
+      "target": "<sp(20)>To stop that... I will kill you.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11162",
+      "target": "<op()><sp(20)>Is that machine some kind of monster...!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11163",
+      "target": "<op()><sp(20)>Every unit that can launch, get out there!\nThere's no time left!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11164",
+      "target": "<op()><sp(20)>Report the damage status!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11165",
+      "target": "<op()><sp(20)>Port side, the barrage is too thin! What are you doing!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11166",
+      "target": "<op()><sp(20)>This is nonsense!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11167",
+      "target": "<op()><sp(20)>Wh-a direct hit...!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11168",
+      "target": "<op()><sp(20)>This is bad, at this rate...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11169",
+      "target": "<op()><sp(20)>Come on! Move more!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11170",
+      "target": "<on()><sp(20)>The Alpha Azieru?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Alpha Azieru per terms_028.json / orchestrator ruling."
+    },
+    {
+      "id": "dialogue_11171",
+      "target": "<on()><sp(20)>Heh heh, here it comes, here it comes!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11172",
+      "target": "<on()><sp(20)>Don't get carried away, Quess.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11173",
+      "target": "<on()><sp(20)>You've got plenty to do, don't you?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11174",
+      "target": "<on()><sp(20)>What? There's someone in my way.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11175",
+      "target": "<on()><sp(20)>Quess!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11176",
+      "target": "<on()><sp(20)>What!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11177",
+      "target": "<on()><sp(20)>A direct hit!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11178",
+      "target": "<on()><sp(20)>Here it comes.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11179",
+      "target": "<on()><sp(20)>I won't let you get any closer to Axis!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11180",
+      "target": "<on()><sp(20)>You think I'll let you escape!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11181",
+      "target": "<on()><sp(20)>I've been caught!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11182",
+      "target": "<on()><sp(20)>Char...!!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11183",
+      "target": "<on()><sp(20)>Heh... heh heh heh, hahahahahaha!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11184",
+      "target": "<on()><sp(20)>What are you laughing about?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11185",
+      "target": "<on()><sp(20)>This makes me the winner.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11186",
+      "target": "<on()><sp(20)>I've calculated it - Axis's rear section\nwill be pulled down by Earth's gravity.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Restates Char's earlier boast from dialogue_11100 almost verbatim; phrasing kept consistent between the two occurrences."
+    },
+    {
+      "id": "dialogue_11187",
+      "target": "<on()><sp(20)>You all tried too hard for your own good.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11188",
+      "target": "<on()><sp(20)>Don't mess with me!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11189",
+      "target": "<on()><sp(20)>Stop this foolishness!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11190",
+      "target": "<on()><sp(20)>The nu Gundam isn't only for show!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "nu Gundam kept lowercase per unit_names_014_a.json, even though the line begins with it."
+    },
+    {
+      "id": "dialogue_11191",
+      "target": "<on()><sp(20)>...This... I can't leave this alone!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11192",
+      "target": "<on()><sp(20)>Alright!\nGuess I'll lend a hand!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11193",
+      "target": "<on()><sp(20)>Go!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Go' is the locked spelling for the Shin Getter's artificial pilot/machine (per batch_11256 note); named directly in source."
+    },
+    {
+      "id": "dialogue_11194",
+      "target": "<on()><sp(20)>...Yeah!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11195",
+      "target": "<on()><sp(20)>We're going too!\nTapp! Light!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Tapp'/'Light' (Tapp Oceano, Light Newman; character_names_021.json), named directly in source."
+    },
+    {
+      "id": "dialogue_11196",
+      "target": "<on()><sp(20)>Alright!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11197",
+      "target": "<on()><sp(20)>Leave it to us!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11198",
+      "target": "<on()><sp(20)>Stop it!\nDon't get dragged into this!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11199",
+      "target": "<on()><sp(20)>Get back, don't come any closer!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11200",
+      "target": "<on()><sp(20)>It's about whether the Earth is ruined or not.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11201",
+      "target": "<on()><sp(20)>It's worth a shot!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11202",
+      "target": "<on()><sp(20)>I can't stand it\nif Mr. Amuro's the only one who gets to look cool!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source name carries the -san honorific, rendered 'Mr. Amuro' to distinguish this speaker's address from other characters who call him plain 'Amuro' elsewhere in this scene."
+    },
+    {
+      "id": "dialogue_11203",
+      "target": "<on()><sp(20)>Whatever I do is my own business, isn't it!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11204",
+      "target": "<on()><sp(20)>As long as I'm with Eureka, nothing scares me!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Eureka named directly in source; kept as locked spelling (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_11205",
+      "target": "<on()><sp(20)>Me too!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11206",
+      "target": "<on()><sp(20)>It's impossible! Everyone, get back!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11207",
+      "target": "<on()><sp(20)>I... want to fight until the end!\nIs that alright, Faye?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressee 'Faye' named directly in source; matches locked Faye Rochenante."
+    },
+    {
+      "id": "dialogue_11208",
+      "target": "<on()><sp(20)>Of course.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11209",
+      "target": "<on()><sp(20)>That's enough, everyone stop!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11210",
+      "target": "<on()><sp(20)>Th-this is... Psycho-Frame resonance.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Psycho-Frame per orchestrator ruling (Gundam wiki spelling)."
+    },
+    {
+      "id": "dialogue_11211",
+      "target": "<on()><sp(20)>Is it overloading\nfrom too many people's wills concentrating on it?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11212",
+      "target": "<on()><sp(20)>Tch...\nGuess it won't be that easy...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11213",
+      "target": "<on()><sp(20)>I don't want to die yet...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11214",
+      "target": "<on()><sp(20)>Not yet...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11215",
+      "target": "<on()><sp(20)>But, I already...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11216",
+      "target": "<on()><sp(20)>...You mustn't give up...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11217",
+      "target": "<on()><sp(20)>...Thank you.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "version": "0.1.38",
+  "base": "ACE3-English-0.1.37.iso",
+  "resource_id": 90202,
+  "table_id": 8031,
+  "category": "Shared restart, quit, versus confirmations and button prompts",
+  "status": "meaning_reviewed",
+  "complete": true,
+  "review": {
+    "status": "meaning_reviewed",
+    "rows_in_scope": 8,
+    "rows_examined": 8,
+    "text_ids_examined": [1, 2, 3, 4, 5, 10, 11, 12],
+    "method": "Read all populated rows directly from resource 90202/table 8031 in the base ISO, draft complete meaning, then wrap and review each English row against its source. Check CP932 and both active native gameplay font variants across resources 1200000-1200007.",
+    "font_width_limit": 400,
+    "line_limit": 4,
+    "font_reference_resources": [1200000, 1200002],
+    "font_variant_groups": [[1200000, 1200001, 1200004, 1200005, 1200006, 1200007], [1200002, 1200003]],
+    "uncertainties": [],
+    "notes": [
+      "Row 2 retains the source's explicit if-not-saved condition; it does not invent a checkpoint, automatic save, or extra warning for the restart row.",
+      "Row 2's blank paragraph separator is removed to fit four lines, retaining both the save warning and the quit-to-title question.",
+      "Player qualifiers, blank separator lines, confirmation question and button glyphs are preserved.",
+      "Canonical Confirm:○ requires 10 CP932 bytes versus 8 source bytes. Compact the complete table rather than abbreviating Confirm. The target string pool including all terminators is 264 bytes, versus 316 source bytes; the existing 416-byte table can contain the compacted pool."
+    ]
+  },
+  "changelog": [
+    "0.1.38: Meaning-reviewed every populated shared confirmation row in table 8031, including the Retry Yes/No footer."
+  ],
+  "rows": [
+    {
+      "slot": 0,
+      "text_id": 1,
+      "source": "ミッションの最初からやり直しますか？",
+      "full_draft": "Restart the mission from the beginning?",
+      "en": "Restart the mission\nfrom the start?",
+      "status": "meaning_reviewed",
+      "source_bytes": 36,
+      "target_bytes": 35,
+      "widths": [221, 173],
+      "widths_game20": [209, 176],
+      "notes": "Retains restarting the mission from its beginning. No unsaved-progress warning is added. Two-line wrap avoids the 402-unit unwrapped width."
+    },
+    {
+      "slot": 1,
+      "text_id": 2,
+      "source": "ゲームをセーブしていない場合は、\n今までのゲーム内容が消えてしまいます。\n\nゲームを終了して、タイトルに戻りますか？",
+      "full_draft": "If you have not saved the game, your progress so far will be lost. Quit the game and return to the title screen?",
+      "en": "If you have not saved,\nyour progress will be lost.\nQuit the game and return\nto the title screen?",
+      "status": "meaning_reviewed",
+      "source_bytes": 113,
+      "target_bytes": 96,
+      "widths": [249, 296, 285, 215],
+      "widths_game20": [239, 289, 275, 210],
+      "notes": "Keeps the conditional save warning, loss of progress, quitting the game and return to title. 'Progress' conveys the accumulated game state; no invented checkpoint or autosave meaning."
+    },
+    {
+      "slot": 2,
+      "text_id": 3,
+      "source": "対戦を終了します。\nよろしいですか？",
+      "full_draft": "This will end the match. Are you sure?",
+      "en": "End the match?\nAre you sure?",
+      "status": "meaning_reviewed",
+      "source_bytes": 35,
+      "target_bytes": 28,
+      "widths": [175, 159],
+      "widths_game20": [173, 163],
+      "notes": "Retains ending the versus match and the explicit confirmation question."
+    },
+    {
+      "slot": 3,
+      "text_id": 4,
+      "source": "プレイヤー１\n\n対戦を終了します。\nよろしいですか？",
+      "full_draft": "Player 1\n\nThis will end the match.\nAre you sure?",
+      "en": "Player 1\n\nEnd the match?\nAre you sure?",
+      "status": "meaning_reviewed",
+      "source_bytes": 49,
+      "target_bytes": 38,
+      "widths": [92, 0, 175, 159],
+      "widths_game20": [87, 0, 173, 163],
+      "notes": "Player 1 qualifier and blank separator preserved without assigning an unsupported role to the player."
+    },
+    {
+      "slot": 4,
+      "text_id": 5,
+      "source": "プレイヤー２\n\n対戦を終了します。\nよろしいですか？",
+      "full_draft": "Player 2\n\nThis will end the match.\nAre you sure?",
+      "en": "Player 2\n\nEnd the match?\nAre you sure?",
+      "status": "meaning_reviewed",
+      "source_bytes": 49,
+      "target_bytes": 38,
+      "widths": [92, 0, 175, 159],
+      "widths_game20": [88, 0, 173, 163],
+      "notes": "Player 2 qualifier and blank separator preserved without assigning an unsupported role to the player."
+    },
+    {
+      "slot": 9,
+      "text_id": 10,
+      "source": "はい：○",
+      "full_draft": "Yes:○",
+      "en": "Yes:○",
+      "status": "meaning_reviewed",
+      "source_bytes": 8,
+      "target_bytes": 6,
+      "widths": [68],
+      "widths_game20": [66],
+      "notes": "Canonical Yes wording and circle button glyph retained."
+    },
+    {
+      "slot": 10,
+      "text_id": 11,
+      "source": "いいえ：×",
+      "full_draft": "No:×",
+      "en": "No:×",
+      "status": "meaning_reviewed",
+      "source_bytes": 10,
+      "target_bytes": 5,
+      "widths": [54],
+      "widths_game20": [53],
+      "notes": "Canonical No wording and cross button glyph retained."
+    },
+    {
+      "slot": 11,
+      "text_id": 12,
+      "source": "決定：○",
+      "full_draft": "Confirm:○",
+      "en": "Confirm:○",
+      "status": "meaning_reviewed",
+      "source_bytes": 8,
+      "target_bytes": 10,
+      "widths": [120],
+      "widths_game20": [114],
+      "notes": "Canonical Confirm wording and circle button glyph retained. Requires complete-table pool compaction because this row alone grows by two bytes."
+    }
+  ]
+}

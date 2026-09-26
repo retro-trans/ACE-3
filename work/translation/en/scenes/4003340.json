@@ -1,0 +1,81 @@
+{
+ "resource_id": 4003340,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 7,
+ "rows_examined": 7,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "28  Stop Axis 2",
+   "notes": "Released mission title reused (missions_019.json slot 330).",
+   "source_sha256": "193fbac639869090a77fe85b743b613d3f0beb515ce8f66f1f786e12c6718210"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)>The situation is as you can see. <book(14)>Axis<endbook()>'s rear half<thumbnail(290)> has been pulled by Earth's gravity and begun to fall.",
+   "notes": "Restructured so book(14) precedes thumbnail(290), matching source tag order.",
+   "source_sha256": "ed31c74d015a62e81065355dc37ea549e9d17eaf4682d661931db4aec23e04a6"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>It has already passed the point of no return for stopping it; at this rate, it can only fall to the surface.",
+   "notes": "",
+   "source_sha256": "b2d95ebfe51f3c237e0eb2af0bc2108afe5ee66604feb38c7938efcfe4bfd7af"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>The battle between the <book(9)>Federation<endbook()> forces and <book(12)>Neo Zeon<endbook()> is still ongoing, and the <book(9)>Federation<endbook()> forces have no strength to spare.",
+   "notes": "book(9) wraps bare 'Federation' here (not 'Earth Federation'), per running-text convention (e.g. 4003030).",
+   "source_sha256": "6899c148219fba476b636cb4990c1794ca19bb223718cc69b365db3ee022692a"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>The only ones close to <book(14)>Axis<endbook()> who could possibly stop the fall are us<thumbnail(291)>.",
+   "notes": "Restructured so book(14) precedes thumbnail(291), matching source tag order.",
+   "source_sha256": "ad45aeca4bb03375b83e5e55a49090447c2df9f2affae701f57ed90c263a6676"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>From here, we begin a second attack aimed at <book(14)>Axis<endbook()>'s rear section. This is our last chance.",
+   "notes": "",
+   "source_sha256": "9688bba2f96de04547a7c5fc5ec6974993cacfe835e421b7bed9ade52209cd91"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<thumbdown()><operator(30060,1)><speed(2)>This will be a fight where we stake our lives. But... everyone, come back alive, no matter what.",
+   "notes": "",
+   "source_sha256": "bde3944695c8d2b7e869c5ee8bab51fb47f586b158bd12be48af7105eccf5015"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 7,
+  "rows_in_scene": 7,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 '28  Stop Axis 2' (slot 330).",
+   "Speaker 30060 = Jamil Neate throughout, matches speaker_lookup.",
+   "All rows checked line-by-line against source; meaning, addressee and command order all correct.",
+   "Command lists, ASCII-only, no newline, and 128-char visible-length limit re-verified for all 7 rows; all pass.",
+   "No lowercase j/q found outside locked names."
+  ],
+  "remaining_uncertainties": []
+ }
+}

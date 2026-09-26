@@ -1,0 +1,19 @@
+{
+  "version": "0.1.11",
+  "image": "screenshots/speaker-name-untranslated.png",
+  "source": "codex-clipboard-8ef2bea4-0bd8-4ee9-8981-50e6e7211772.png",
+  "sha256": "92af5ab9bcb8bf06a88b82ae5e175b52392ff4af63ca8dd18090e01e22b59a81",
+  "image_size": [1050, 620],
+  "viewport": [111, 1, 827, 619],
+  "speaker_region": [318, 33, 100, 27],
+  "region_status": "Approximate bounds of the reported name, not a measured renderer clipping limit.",
+  "source_label": "バレル",
+  "target_label": "Barrel",
+  "glossary_id": "char.barrel_orland",
+  "character_ids": [1040, 1041],
+  "shared_table_id": 3021,
+  "shared_bundles": [1200000,1200001,1200002,1200003,1200004,1200005,1200006,1200007],
+  "tutorial_scene_id": 2002010,
+  "translation_manifest": "../translation/en/speaker_names.json",
+  "runtime_verified": false
+}

@@ -1,0 +1,544 @@
+{
+  "slice_start": 9814,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      9799,
+      9908
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_09814",
+      "target": "<op()><sp(20)>New Federation and Space Revolutionary Army forces\nhave begun fighting nearby.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "New Federation / Space Revolutionary Army per character_names_021.json locked full forms; no book() tag added since source has none here."
+    },
+    {
+      "id": "dialogue_09815",
+      "target": "<op()><sp(20)>Cover the mothership\nuntil it reaches the target point.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'mothership' lowercase and 'target point' per corpus dialogue convention (batch_05223, batch_03549)."
+    },
+    {
+      "id": "dialogue_09816",
+      "target": "<op()><sp(20)>Transmitting nearby enemy ship positions.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09817",
+      "target": "<op()><sp(20)>Many enemy fighters will launch from those ships,\nso it's best to strike them early.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09818",
+      "target": "<op()><sp(20)>For allied ship positions,\nplease follow the blue direction markers.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09819",
+      "target": "<op()><sp(20)>C-Captain!\nA vessel of unknown affiliation has appeared in the combat zone.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09820."
+    },
+    {
+      "id": "dialogue_09820",
+      "target": "<sp(20)>No way!\nTh-they mean to break through the center!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box opened at 09819 (no <op()> in source)."
+    },
+    {
+      "id": "dialogue_09821",
+      "target": "<op()><sp(20)>Th-this is...\nDon't tell me their target is D.O.M.E. too...?<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09822-09823."
+    },
+    {
+      "id": "dialogue_09822",
+      "target": "<sp(20)>All hands, be advised!\nThe unit of unknown affiliation is not a friendly!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box opened at 09821 (no <op()>); box continues into 09823."
+    },
+    {
+      "id": "dialogue_09823",
+      "target": "<sp(20)>Destroy it,\nalong with the unit that emerged from D.O.M.E.!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'\u6483\u7834\u3055\u308c\u305f\u3057' archaic order form rendered as a direct imperative; closes the box begun at 09821."
+    },
+    {
+      "id": "dialogue_09824",
+      "target": "<op()><sp(20)>Mobile suit launch confirmed\nfrom the microwave transmission facility!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09825",
+      "target": "<op()><sp(20)>This is... a G-Bit!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "G-Bit per mission_terms_019.json locked spelling."
+    },
+    {
+      "id": "dialogue_09826",
+      "target": "<op()><sp(20)>A relic of some old war, huh.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source's 'old war' left generic; not equated with any specific named war since source does not specify one."
+    },
+    {
+      "id": "dialogue_09827",
+      "target": "<op()><sp(20)>The G-Bit has begun its attack.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09828",
+      "target": "<op()><sp(20)>Looks like it's moving on automatic control\nto protect D.O.M.E.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09829",
+      "target": "<op()><sp(20)>All units, intercept the attacking G-Bits too!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09830",
+      "target": "<op()><sp(20)>Th-things are starting to get dicey, huh?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09831",
+      "target": "<op()><sp(20)>Th-the Nadesico is in danger!\nPlease provide cover!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source says bare 'Nadesico' (no B/C suffix); kept as-is, not supplying a specific hull letter the source omits."
+    },
+    {
+      "id": "dialogue_09832",
+      "target": "<op()><sp(20)>We won't make it at this rate!\nPlease hurry!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09833",
+      "target": "<op()><sp(20)>No way!!\nTime's up...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Time's up' matches corpus mission-fail phrasing (batch_00993, batch_04656)."
+    },
+    {
+      "id": "dialogue_09834",
+      "target": "<op()><sp(20)>We've passed through the operation area.\nAppreciate the cover.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'operation area' matches corpus convention."
+    },
+    {
+      "id": "dialogue_09835",
+      "target": "<op()><sp(20)>You mean to pursue us!?<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09836",
+      "target": "<op()><sp(20)>Sending the target's position.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09837",
+      "target": "<op()><sp(20)>We let the enemy break through!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09838",
+      "target": "<op()><sp(20)>Ngh... the enemy's attack...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Sentence left unfinished as in source; not completing the thought for it."
+    },
+    {
+      "id": "dialogue_09839",
+      "target": "<op()><sp(20)>Don't let them break through any further!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09840",
+      "target": "<op()><sp(20)>Garrod... I can't... anymore...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Named addressee (Garrod) is in the source text itself; no speaker identity invented."
+    },
+    {
+      "id": "dialogue_09841",
+      "target": "<op()><sp(20)>Tiffa...?\nTIFFAAAAAA!!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Tiffa per character_names_021.json locked spelling (Tiffa Adill / Tiffa), not the wiki-variant 'Tifa'."
+    },
+    {
+      "id": "dialogue_09842",
+      "target": "<op()><sp(20)>All units, annihilate the enemy!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09843",
+      "target": "<op()><sp(20)>Fighting all the way out here?!\nEarth's in danger!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressee unnamed in source; no identity invented."
+    },
+    {
+      "id": "dialogue_09844",
+      "target": "<op()><sp(20)>It's pointless... Garrod.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Named addressee (Garrod) is in the source text itself; speaker not identified beyond that."
+    },
+    {
+      "id": "dialogue_09845",
+      "target": "<op()><sp(20)>Damn it... guess we've got no choice but to fight!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09846",
+      "target": "<op()><sp(20)>Enemies wall to wall, huh!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09847",
+      "target": "<op()><sp(20)>With this many around, I don't know where to look.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09848",
+      "target": "<op()><sp(20)>But we're clearing the way for Jamil and the others!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Jamil per character_names_021.json locked spelling (Jamil Neate)."
+    },
+    {
+      "id": "dialogue_09849",
+      "target": "<op()><sp(20)>Yeah... let's make this a big show!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09850",
+      "target": "<op()><sp(20)>Don't let the enemy land on the moon!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09851."
+    },
+    {
+      "id": "dialogue_09851",
+      "target": "<sp(20)>Show those Newtype supremacists\nthe true meaning of what's right!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box opened at 09850 (no <op()> in source). Speaker/faction of this combat bark is untagged; translated at face value without assigning it to either side."
+    },
+    {
+      "id": "dialogue_09852",
+      "target": "<op()><sp(20)>Victory smiles on whoever claims the moon!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09853",
+      "target": "<op()><sp(20)>Bring the hammer down on the Oldtypes!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Oldtype/Newtype are standard Gundam-franchise terms, kept as-is."
+    },
+    {
+      "id": "dialogue_09854",
+      "target": "<op()><sp(20)>What's with them... getting all serious like that.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09855",
+      "target": "<op()><sp(20)>Cynthia, don't let your guard down!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Cynthia per character_names_021.json locked spelling (Cynthia Lane)."
+    },
+    {
+      "id": "dialogue_09856",
+      "target": "<op()><sp(20)>They truly are fools...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent of 'they' left as in source (unnamed); no identity supplied."
+    },
+    {
+      "id": "dialogue_09857",
+      "target": "<op()><sp(20)>Brother, it seems the time has come.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/addressee untagged; content and later 09966/09970-09971 exchange point to the Frost brothers (Shagia/Olba), but no name is written into this row's text since the source itself has none here."
+    },
+    {
+      "id": "dialogue_09858",
+      "target": "<op()><sp(20)>Now the stage is set.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09859-09860."
+    },
+    {
+      "id": "dialogue_09859",
+      "target": "<sp(20)>What we seek\nisn't being a Newtype.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09858 (no <op()>); box continues into 09860."
+    },
+    {
+      "id": "dialogue_09860",
+      "target": "<sp(20)>Just power.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Closes the box begun at 09858."
+    },
+    {
+      "id": "dialogue_09861",
+      "target": "<op()><sp(20)>We've arrived at D.O.M.E.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09862",
+      "target": "<op()><sp(20)>A G-Bit is approaching the shuttle\ncarrying the Captain and Tiffa!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'the Captain' kept as an unnamed title as in source; likely Jamil given the Freeden/Tiffa context, but no name is supplied since the source doesn't give one."
+    },
+    {
+      "id": "dialogue_09863",
+      "target": "<op()><sp(20)>Tiffa!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09864",
+      "target": "<op()><sp(20)>Wait.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09865."
+    },
+    {
+      "id": "dialogue_09865",
+      "target": "<sp(20)>This mobile suit has no intention of fighting.\nIt's trying to guide us...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09864 (no <op()>)."
+    },
+    {
+      "id": "dialogue_09866",
+      "target": "<op()><sp(20)>From here, we'll follow the G-Bit's lead\ninto the microwave transmission facility.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09867",
+      "target": "<op()><sp(20)>So that unit was protecting D.O.M.E.\nAvoiding a fight with it was the right call...<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09868",
+      "target": "<op()><sp(20)>This light...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09869",
+      "target": "<op()><sp(20)>So this is D.O.M.E....<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09870."
+    },
+    {
+      "id": "dialogue_09870",
+      "target": "<sp(20)>A will that endures even after the body is gone -\nwhat they call the First Newtype...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'First Newtype' per character_names_021.json D.O.M.E. entry ('The First Newtype: a dissected man...'). Continues the box from 09869."
+    },
+    {
+      "id": "dialogue_09871",
+      "target": "<op()><sp(20)>So this is the place Tiffa was searching for.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09872",
+      "target": "<op()><sp(20)>Yes...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09873",
+      "target": "<op()><sp(20)>D.O.M.E....\nPlease, feel my heart...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09874."
+    },
+    {
+      "id": "dialogue_09874",
+      "target": "<sp(20)>And please, reveal everything.<ab(2000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09873."
+    },
+    {
+      "id": "dialogue_09875",
+      "target": "<op()><sp(20)>I am D.O.M.E....\none once called a Newtype...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "D.O.M.E. speaks of itself with no gendered pronoun needed in this line; glossary notes 'male/neutral narrator voice' for cases where a pronoun is unavoidable elsewhere."
+    },
+    {
+      "id": "dialogue_09876",
+      "target": "<op()><sp(20)>The victor is neither the New Federation\nnor the Space Revolutionary Army.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09877."
+    },
+    {
+      "id": "dialogue_09877",
+      "target": "<sp(20)>It's us - the brothers!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09876; 'brothers' matches the source's own self-identification, not an invented label."
+    },
+    {
+      "id": "dialogue_09878",
+      "target": "<op()><sp(20)>The Satellite System\nhas been placed under that Gundam's control!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Satellite System' per encyclopedia_021_b.json locked spelling."
+    },
+    {
+      "id": "dialogue_09879",
+      "target": "<op()><sp(20)>No way...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09880",
+      "target": "<op()><sp(20)>Are they trying to repeat the nightmare from fifteen years ago?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Specific event of '15 years ago' not named since source doesn't name it."
+    },
+    {
+      "id": "dialogue_09881",
+      "target": "<op()><sp(20)>What does this mean?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09882",
+      "target": "<op()><sp(20)>They mean to drop a colony again\nand wipe out the Earth!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09883",
+      "target": "<op()><sp(20)>Is this the war you wanted?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09884",
+      "target": "<op()><sp(20)>That's right... to change the world,\nthis is the best way.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09885",
+      "target": "<op()><sp(20)>We have to set things right.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09886."
+    },
+    {
+      "id": "dialogue_09886",
+      "target": "<sp(20)>The powerless Oldtypes.\nAnd the Newtypes who hold power too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09885."
+    },
+    {
+      "id": "dialogue_09887",
+      "target": "<op()><sp(20)>That's right... the ones who truly deserve recognition are...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Sentence deliberately left unfinished as in source; completed dramatically by 09888's own separate box, not merged into one sentence."
+    },
+    {
+      "id": "dialogue_09888",
+      "target": "<op()><sp(20)>Only us!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09889",
+      "target": "<op()><sp(20)>I can feel the hatred in their hearts...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09890. Referent 'their' left as in source, no identity supplied."
+    },
+    {
+      "id": "dialogue_09890",
+      "target": "<sp(20)>Enough hatred to destroy the world\nand still have more to spare...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09889."
+    },
+    {
+      "id": "dialogue_09891",
+      "target": "<op()><sp(20)>Why!?<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; box continues into 09892."
+    },
+    {
+      "id": "dialogue_09892",
+      "target": "<sp(20)>Why are you so determined\nto change the world?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the box from 09891."
+    },
+    {
+      "id": "dialogue_09893",
+      "target": "<op()><sp(20)>To make you understand that we're the ones\nwho belong at the center of the world!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_09819",
+        "dialogue_09820",
+        "dialogue_09821",
+        "dialogue_09822",
+        "dialogue_09823",
+        "dialogue_09830",
+        "dialogue_09835",
+        "dialogue_09838",
+        "dialogue_09843",
+        "dialogue_09850",
+        "dialogue_09851",
+        "dialogue_09852",
+        "dialogue_09853",
+        "dialogue_09854",
+        "dialogue_09856"
+      ],
+      "note": "Rapid-fire combat/alert barks with untagged speakers on both the New Federation and Space Revolutionary Army sides. Translated at face value without assigning lines to a faction or inventing a speaker identity beyond what the source text itself states."
+    },
+    {
+      "ids": [
+        "dialogue_09857",
+        "dialogue_09858",
+        "dialogue_09859",
+        "dialogue_09860"
+      ],
+      "note": "Untagged 'brother' exchange, read from later context (09966, 09970-09971) as the Frost brothers (Shagia/Olba) setting up the climax, but no name is written into these rows since the source gives none here."
+    },
+    {
+      "ids": [
+        "dialogue_09831"
+      ],
+      "note": "Source says bare 'Nadesico' with no hull letter; not resolved to 'Nadesico C' since the source omits it, even though the scene (resource 6300, mission with Nadesico C per task briefing) suggests that reading."
+    },
+    {
+      "ids": [
+        "dialogue_09862",
+        "dialogue_09920"
+      ],
+      "note": "'the Captain' kept as an unnamed title; likely Jamil (Freeden's captain, escorting Tiffa) given the Gundam X plot, but the source itself never names him, so no name was supplied."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket command tokens preserved in exact source order, including rows with no closing <ed()> that continue directly into the next row as in the source (09819-09823, 09850-09851, 09858-09860, 09864-09865, 09869-09870, 09873-09874, 09876-09877, 09885-09886, 09889-09890, 09891-09892).",
+    "meaning_review": "All rows independently reviewed for meaning against the Japanese source (tools/dialogue_corpus.py slice 9814 178 --context 15); one command-order defect (dialogue_09985, in the neighboring batch_09974) and three lowercase-j occurrences (dialogue_09851 here; dialogue_09897/09946 in batch_09894) were found and corrected. No meaning-changing mistranslations found in this batch's own rows; all set to meaning_reviewed.",
+    "fit": "Full meaning drafted first, without shortening for display; longest visible strings measured below 110 characters.",
+    "runtime": "Resource 6300 (Mission 24, 'Contact D.O.M.E.': New Federation vs. Space Revolutionary Army battle, G-Bits defending D.O.M.E., the Frost brothers' reveal) scene continuity verified from the corpus's stored table order and text_id groupings via tools/dialogue_corpus.py; source Japanese read via console only, never written to disk; no in-game screenshot verification performed."
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "term_romaji": "Kizz-sama",
+    "en": "Lord Kids",
+    "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer (King Gainer Wikipedia article: Siberian Railway president is 'Kids Munt')",
+    "why": "Kids Munt (President of the Siberian Railway) is addressed with the honorific -sama by two Siberian Railway pilots (rows 8769/8771/8792/8825), and one row (8770) explicitly jokes about the honorific itself ('calling that creepy old man sama'). 'Lord' carries the same excessive-deference joke as the honorific.",
+    "correction": "ORCHESTRATOR RULING (meaning review of batches 08696/08776): the katakana is Kizzu, which is 'Kids', not 'Kizz'. This proposal originally read 'Lord Kizz' / 'Kizz Munt', matching a spelling in work/translation/en/encyclopedia_021_b.json and encyclopedia_022.json that was itself marked UNCERTAIN there (not sourced from any project file at the time). Per the King Gainer Wikipedia article, the correct name is 'Kids Munt'; dialogue rows 8769, 8771, 8792, 8825 have been corrected to 'Lord Kids' accordingly. The two encyclopedia files still say 'Kizz Munt' and were left untouched (out of scope for this dialogue review) - they should be corrected by whoever owns that file, and any other 'Kizz' occurrences in the corpus should be scanned for and fixed to 'Kids' per BASE_RULES."
+  }
+]

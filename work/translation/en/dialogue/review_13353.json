@@ -1,0 +1,105 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 13353,
+  "slice_count": 80,
+  "rows_examined": [[13338, 13447]],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_13353",
+      "before": "That's not right!",
+      "after": "That's different!",
+      "reason": "Source (are wa chigau zo) continues the 'this one's not an ordinary enemy' thread from the two preceding lines (13351-13352): it flags the enemy as unusual/different, not that something is factually incorrect. 'Not right' reads as a judgment of wrongness rather than describing the opponent as unusual."
+    },
+    {
+      "id": "dialogue_13356",
+      "before": "Pulling this off-\nis that our strength?",
+      "after": "Pulling this off- is that our strength?",
+      "reason": "Shout rows must carry no newline (source line breaks are joined); rejoined into one line, fits budget (42)."
+    },
+    {
+      "id": "dialogue_13360",
+      "before": "Waltzing out here like that-\nyou powerless fool!",
+      "after": "Waltzing out here like that- you powerless fool!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (50)."
+    },
+    {
+      "id": "dialogue_13362",
+      "before": "Hahaha, guys like these?!",
+      "after": "Hahaha, guys like these!",
+      "reason": "Source (konna yatsura nanka) is a dismissive assertion ('guys like these are nothing to me'), not a surprised question; the '?!' introduced an uncertain/startled tone contradicting Jonathan's aggressive, competitive personality."
+    },
+    {
+      "id": "dialogue_13378",
+      "before": "Like this,\nI must rethink tactics!",
+      "after": "Like this, I must rethink tactics!",
+      "reason": "No-newline shout constraint; rejoined, fits budget (40)."
+    },
+    {
+      "id": "dialogue_13401",
+      "before": "Finally showed up.\nThought you ran off.",
+      "after": "Finally showed up. Thought you fled.",
+      "reason": "No-newline shout constraint; joining as written overran the budget by 1 char (39 vs 38), so 'ran off' was shortened to 'fled' (same meaning) to fit."
+    },
+    {
+      "id": "dialogue_13403",
+      "before": "An enemy that tough\nis worth taking down, right?",
+      "after": "An enemy that tough is worth taking down, right?",
+      "reason": "No-newline shout constraint; rejoined, fits budget (48, exact)."
+    },
+    {
+      "id": "dialogue_13410",
+      "before": "Even I know\nwhen it's time to fall back.",
+      "after": "Even I know when it's time to fall back.",
+      "reason": "No-newline shout constraint; rejoined, fits budget (42)."
+    },
+    {
+      "id": "dialogue_13413",
+      "before": "Go silently, I won't attack.\nI'll let it go.",
+      "after": "Go silently, I won't attack. I'll let it go.",
+      "reason": "No-newline shout constraint; rejoined, fits budget (44, exact)."
+    },
+    {
+      "id": "dialogue_13419",
+      "before": "You okay?\nDon't drop your guard.",
+      "after": "You okay? Don't drop your guard.",
+      "reason": "No-newline shout constraint; rejoined, fits budget (38)."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [13353, 13359],
+      "finding": "Tail of Yuu Isami's block; no reversed meaning beyond the 13353 fix above."
+    },
+    {
+      "rows": [13360, 13410],
+      "finding": "Jonathan Glenn (Jonathan Baronz) taunts/reactions checked against his aggressive, bitter, competitive profile; no invented identity or gender (e.g. 13360's 'power-less one' rendered as 'fool', not a named/gendered target)."
+    },
+    {
+      "rows": [13411, 13432],
+      "finding": "Quincy Issa (Quincy Baronz) lines checked against her brash, cold profile; first-person female markers (atashi) correctly preserved without over- or under-stating gender elsewhere."
+    },
+    {
+      "rows": [13353, 13432],
+      "finding": "Every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> command sequence verified identical and in order; no ASCII/j-q/110-char violations found."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_13366", "dialogue_13385", "dialogue_13430"],
+      "issue": "Translator's heavy compressions under 4-6 char budgets ('Go!', 'Naive!', 'Go!') upheld: tone preserved, no shorter alternative carries more meaning."
+    },
+    {
+      "ids": ["dialogue_13389", "dialogue_13390", "dialogue_13391", "dialogue_13392"],
+      "issue": "Translator's neutral 'you'/'your' for Jonathan's omae with no named referent in this slice upheld after checking context; likely aimed at a rival (Yuu) but not confirmed within this or the adjacent slice, so no identity was invented."
+    }
+  ],
+  "validation": {
+    "controls": "Every row's command sequence re-verified programmatically against the source extraction for all 80 rows; unchanged.",
+    "format": "All rows confirmed newline-free after rejoining the 8 rows above; ASCII-only (except the locked fullwidth %) confirmed for all rows.",
+    "fit": "Per-row byte budget recomputed from the console source extraction and verified <= budget for all 80 rows, including the 10 rows fixed above.",
+    "names": "No name-spelling changes needed; Jonathan Glenn/Baronz and Quincy Issa/Baronz match character_names_021.json and unit_names_014_a.json throughout."
+  }
+}

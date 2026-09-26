@@ -1,0 +1,53 @@
+{
+  "slice_start": 5694,
+  "slice_count": 21,
+  "rows_examined": [
+    [5679, 5729]
+  ],
+  "rows_examined_count": 51,
+  "rows_in_slice": 21,
+  "uncertainties": [
+    {
+      "ids": ["dialogue_05694", "dialogue_05695", "dialogue_05697", "dialogue_05699", "dialogue_05705", "dialogue_05707", "dialogue_05709", "dialogue_05712"],
+      "note": "Speaker not tagged; several rows carry female sentence-final particles (wa/wane), matching the ongoing Inez explanation from the previous slice, but no name is stated in this row range itself, so no identity beyond that grammatical cue was assumed."
+    },
+    {
+      "ids": ["dialogue_05708", "dialogue_05711"],
+      "note": "'He'/'him'/'them' for Berkt's side is supplied only because the immediately surrounding rows (05693, 05706, 05710) unambiguously keep the same referent; no new antecedent invented."
+    },
+    {
+      "ids": ["dialogue_05713"],
+      "note": "Speaker piloting the <book(61)>Nirvash<endbook()> uses 'we'/'-neh' (male-coded casual speech, matching Renton or another Gekkostate pilot per glossary.json), but the row itself does not name a speaker, so no name was inserted."
+    }
+  ],
+  "validation": {
+    "fit": "Full meaning drafted for every row; longest row (dialogue_05699) is about 105 visible characters, under the 110 limit.",
+    "controls": "Every source <...> command reproduced in the same order; this whole slice is the untimed post-battle conference continuing from the previous slice (no <ab>/<off> commands in the source), matching exactly.",
+    "format": "Line-break (\\n) counts kept identical to source for every row.",
+    "glossary": "Locked terms used: Baldora Drive/Baldora Charge/Wormhole (encyclopedia_022.json book1/book2/book3), Boson Jump (book30), Federation (book9, bare-word form), Berkt (color5, character_names_021.json), Gekko (color4, meeting_terms_015.json), Nirvash (book61, unit_names_014_b.json). No new terms proposed; this closes out resource 6180 (Mission 15, 'Destroy the Macross').",
+    "meaning_review": "Independent meaning review of all 21 rows against the Japanese source (dialogue_corpus.py slice 5694 21 --context 15): no mistranslation, reversed meaning, or invented identity found, including the 'he'/'him' referent (Berkt) carried over from the preceding slice and confirmed within this slice at dialogue_05706/dialogue_05710. All rows set to meaning_reviewed; no fixes were required in this batch."
+  },
+  "rows": [
+    {"id": "dialogue_05694", "target": "<on()><sp(20)>No, it's not something he'd give up so easily.\nI'd guess our prediction was simply off.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05695", "target": "<on()><sp(20)>It means we're back to the beginning.", "status": "meaning_reviewed", "notes": "'the beginning' avoids the lowercase q in 'square'."},
+    {"id": "dialogue_05696", "target": "<on()><sp(20)>Damn it all.\nSo there's nothing we can do...?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05697", "target": "<on()><sp(20)>That's not entirely true.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05698", "target": "<on()><sp(20)><color(4)>Inez<ce()>, do you have some idea?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05699", "target": "<on()><sp(20)>I went digging through records left inside\nthe <book(9)>Federation<endbook()>...\nand there's a part I could work out from them.", "status": "meaning_reviewed", "notes": "Federation bare-word form per batch_01426/02643 book(9) precedent."},
+    {"id": "dialogue_05700", "target": "<on()><sp(20)>First, for the <book(1)>Baldora Drive<endbook()> to complete\nits function, it has to pass through\nseveral stages.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05701", "target": "<on()><sp(20)>The first stage: activation to open\nthe <book(3)>Wormhole<endbook()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05702", "target": "<on()><sp(20)>The second stage: absorbing <book(2)>Baldora Charge<endbook()>\nto widen the <book(3)>Wormhole<endbook()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05703", "target": "<on()><sp(20)>That's what he was doing when we\nfirst ran into him, right?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05704", "target": "<on()><sp(20)>That's right.\nAnd the third stage is the <book(3)>Wormhole<endbook()>'s\nfull deployment.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05705", "target": "<on()><sp(20)>To move to each stage, access is\nneeded every single time.", "status": "meaning_reviewed", "notes": "'needed' avoids the lowercase q in 'required'."},
+    {"id": "dialogue_05706", "target": "<on()><sp(20)>Meaning... he still holds the key.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05707", "target": "<on()><sp(20)>That's right.\nThough I don't know exactly what it is...", "status": "meaning_reviewed", "notes": "'exactly' avoids the lowercase j in 'just'."},
+    {"id": "dialogue_05708", "target": "<on()><sp(20)>At least that means we still have\na reason to chase him.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05709", "target": "<on()><sp(20)>But we don't have much time to spare.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05710", "target": "<on()><sp(20)>A report from the <book(9)>Federation<endbook()> forces says\n<color(5)>Berkt<ce()> and the others vanished into\nthe <book(3)>Wormhole<endbook()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05711", "target": "<on()><sp(20)>Chasing them now is probably our best move.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05712", "target": "<on()><sp(20)>The <color(4)>Gekko<ce()> took a real beating too.\nIt can't sail any further without repairs.", "status": "meaning_reviewed", "notes": "'It' used for the ship rather than 'she' since no gendered convention for ships is attested in the reviewed corpus; 'a real beating' avoids the lowercase q in 'quite'."},
+    {"id": "dialogue_05713", "target": "<on()><sp(20)>The <book(61)>Nirvash<endbook()> isn't doing so well either...\nWe can't fix these on our end.\nMind if we head back for now?", "status": "meaning_reviewed", "notes": "Nirvash per unit_names_014_b.json; 'for now' avoids the lowercase j in 'just'."},
+    {"id": "dialogue_05714", "target": "<on()><sp(20)>Understood.\nLet's head for the <book(1)>Baldora Drive<endbook()>.", "status": "meaning_reviewed", "notes": ""}
+  ]
+}

@@ -1,0 +1,140 @@
+{
+ "resource_id": 4003916,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 13,
+ "rows_examined": 13,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Antibody Coralian",
+   "notes": "Faction name; locked (per mission_terms_019.json, researched).",
+   "source_sha256": "be07d861e355f817558610fcf4647e1f698c65809e0152c9918f169e499a3421"
+  },
+  {
+   "table": 1,
+   "slot": 2,
+   "text_id": 3,
+   "en": "Invaders",
+   "notes": "Faction name; locked (per Encyclopedia).",
+   "source_sha256": "bad937080a191d3c74fd1929393b0ccae481947d4ec3beb2139063e7a3b6954b"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23040,1)><speed(2)><move(1,8,15)>Let me explain the operation<marker(1,7,15,0)><marker(1,9,15,0)>.<move(2,7,15)>",
+   "notes": "",
+   "source_sha256": "403d2f9caa17513e641a168c00e8b89c3b34cbcdebd1c19cffed24beade9a611"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23040,1)><speed(2)>The operation's goal<move(1,14,1)> is to wipe out the <color(5)>targets<ce()><marker(22,10,0,0)>, all of them<marker(22,12,0,0)>.<marker(22,14,1,0)> But<marker(22,14,4,0)> this time, it doesn't look<move(2,15,0)><picture(118,30,6,0)><refer(30,6,10,1)><picture(119,30,10,0)><refer(30,10,15,2)> like it'll be easy.",
+   "notes": "",
+   "source_sha256": "7bb7f5871316147dce62756fb5dea6fd8a5edf7a8fca328813e0ae4ee2bfacda"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23040,1)><speed(2)><color(5)>Dewey<ce()> has mobilized the full strength of the <book(38)>New Federation<endbook()> forces<marker(26,3,1,0)>,<marker(20,4,4,0)> and<marker(26,6,5,0)> a<marker(20,12,8,0)> considerable<marker(26,5,10,0)> number<marker(26,3,11,0)> of<marker(26,8,11,0)> enemies<marker(20,12,11,0)> are<marker(20,2,13,0)> deployed<marker(26,4,13,0)> nearby<marker(26,14,13,0)>.",
+   "notes": "Dewey Novak, locked male per character_names_021.json; dense marker cluster distributed across the sentence in order.",
+   "source_sha256": "bb3d88186217f3527366a8dd3e74fd81d69fbd7cccd09115fb4e0c5fce0f4dac"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23040,1)><speed(2)><book(7)>Particle field weapons<endbook()><marker(37,6,2,0)> have<marker(37,10,2,0)> been<marker(37,12,3,0)> deployed<marker(37,9,4,0)> in<marker(37,11,5,0)> large<marker(37,2,8,0)> numbers<marker(37,6,8,0)>, forming<marker(37,10,8,0)> a<marker(37,14,8,0)> defense<marker(37,1,11,0)> line<marker(37,10,11,0)> we<marker(37,14,11,0)> absolutely<marker(37,6,13,0)> cannot break through.",
+   "notes": "book(7) wraps the full phrase 'particle field weapon(s)' here (unlike slots 23/25 where it wraps a shorter span), per source; 'particle field' term locked per mission_terms_019.json.",
+   "source_sha256": "692e368efb0258352822aab379e4eb3bdb2bd8f80959a88ef66f63905e80671f"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23040,1)><speed(2)>Unless we break through the <book(7)>particle field<endbook()><danger(1)>, we can't take down the <color(5)>targets<ce()>, but disabling it the way we usually do looks hard...",
+   "notes": "",
+   "source_sha256": "5818fb53c14a011c72bdf0e751694515227c52febde54ec610b69713322f23d6"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23040,1)><speed(2)>So it seems we've got no choice but to pull out our trump card here.",
+   "notes": "",
+   "source_sha256": "dc8c526a06a1b74b437eb5257043b728360b80f8971d45706eeb5229b96ed7f2"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23040,1)><speed(2)>We'll<move(1,0,4)> send every <color(4)>ship<ce()><marker(3,0,4,0)> to the front<move(1,2,15)> and<marker(3,2,15,0)> clear the <book(7)>field weapons<endbook()> with<move(1,12,13)> one big barrage. Cover <color(4)>each<marker(3,12,13,0)> mothership's<ce()> advance<move(2,12,14)><picture(97,2,6,0)><refer(2,6,0,5)><picture(69,2,10,0)><refer(2,10,2,15)><picture(63,30,14,0)><refer(30,14,12,14)>.",
+   "notes": "book(7) wraps only 'field weapon(s)' here (source drops the 'particle' half), per source. Compressed from a longer first draft to keep well under 128 visible chars.",
+   "source_sha256": "3cdfe2c18ff512f5724d2eb0c8097a83ecf22b1135c222ebcb7e2f30f8c5675f"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12031,1)><speed(2)>It's a high-risk method, but given the time we have, there's no other way.",
+   "notes": "",
+   "source_sha256": "ba3699f1babea64053569b9d1e2d5bc267a49b4984c5e8e35d65e6b6086173b8"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12031,1)><speed(2)>If damage to <color(4)>each ship<ce()> gets too severe, we'll send in a <color(4)>drone unit<ce()><picture(124,2,14,0)> to set up a temporary field.",
+   "notes": "'drone unit' for mujinki butai matches the descriptive rendering used in reviewed scene 4003631 slot 23 for the same source phrase.",
+   "source_sha256": "b0c11d3e5bfbc38d1dfe61a5c1a2a744f7245638b84ea4cba3905a1d24e51ac1"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>This time it'll be a fairly long battle. Please be careful.",
+   "notes": "",
+   "source_sha256": "919852765bb7b9c954a2084593601537c69779d85b35523f0825e057279d3db7"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 0,
+   "issue": "Three faction titles combined (New Federation/Antibody Coralian/Invaders); no dedup match found among the five reference reviewed scenes -- this exact three-faction combination and body text (Dewey's particle-field defense line) do not appear there, so translated fresh."
+  },
+  {
+   "slot": 22,
+   "issue": "Two rows earlier translated 'particle field weapon(s)' with a book(7) span of varying width (whole phrase here, 'particle field' alone in slot 23, 'field weapon(s)' alone in slot 25); each row's book span width kept matching its own source exactly."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 13,
+  "rows_in_scene": 13,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker 23040 = Talho Yuki (slots 19-25), 12031 = Ruri Hoshino (slots 26-28).",
+   "'New Federation'/'Antibody Coralian'/'Invaders' match locked spellings; 'Dewey' verified male per character_names_021.json (Dewey Novak).",
+   "Slot 20: a first read appeared to show an extra marker(22,14,4,0) with no source counterpart; re-verified directly against tools/scene_source.py raw output and confirmed the source row does contain marker(22,14,4,0) (the initial manual transcription had dropped it) - draft is correct as written, left unchanged.",
+   "Slot 21: 11-marker dense cluster verified in exact order and count against source (Dewey has mobilized the full strength of the New Federation forces, and a considerable number of enemies are deployed nearby); <color(5)> correctly wraps 'Dewey' and <book(38)> correctly wraps 'New Federation', matching the source spans.",
+   "Slot 22/25: <book(7)> span width verified per-row against source - wraps the full 'particle field weapon(s)' phrase in slot 22, 'particle field' alone in slot 23, and 'field weapon(s)' alone in slot 25, matching each row's own source exactly, as the draft notes.",
+   "Slot 27: 'drone unit' for the source's unmanned-machine-unit phrase is consistent with the descriptive rendering used in reviewed scene 4003631 slot 23 for the same source phrase.",
+   "All commands identical in count/order vs source in every row (verified programmatically); ASCII-only, no newline, 128-char limit respected, no lowercase j/q, no bare %."
+  ],
+  "remaining_uncertainties": []
+ }
+}

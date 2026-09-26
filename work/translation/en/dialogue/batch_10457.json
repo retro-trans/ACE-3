@@ -1,0 +1,552 @@
+{
+  "slice_start": 10457,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      10442,
+      10551
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_10462"
+      ],
+      "note": "Speaker of the rhetorical question ('Is a thing like that truly necessary for the world you want?') is not settled by the immediate context; could be a subordinate questioning Dewey's order to fire Oratorio No. 8, or Dewey's own rhetorical aside. Translated without assigning a specific speaker."
+    },
+    {
+      "ids": [
+        "dialogue_10471"
+      ],
+      "note": "Line uses masculine 'boku' pronoun distinct from the adjacent 'ore' lines (Renton) and 'watashi' (Eureka); speaker not identified by name in this slice, so no character identity assigned."
+    },
+    {
+      "ids": [
+        "dialogue_10475",
+        "dialogue_10476"
+      ],
+      "note": "'that girl' and 'that rider' both plausibly refer to Eureka, relayed secondhand by another crew member quoting the Nirvash; kept literal rather than collapsing into a single referent."
+    },
+    {
+      "ids": [
+        "dialogue_10486"
+      ],
+      "note": "Short gasp/reaction syllable with no clear speaker tag; rendered as a neutral reaction ('...Huh?') rather than assigning identity."
+    },
+    {
+      "ids": [
+        "dialogue_10522",
+        "dialogue_10523",
+        "dialogue_10524"
+      ],
+      "note": "Speaker resolved as Anemone from the following row (dialogue_10525) directly addressing 'Anemone' by name; 'that person' she says is nowhere to be found is not identified further (left as 'that person', no gender/name supplied)."
+    },
+    {
+      "ids": [
+        "dialogue_10479",
+        "dialogue_10480",
+        "dialogue_10481",
+        "dialogue_10482",
+        "dialogue_10483"
+      ],
+      "note": "Poetic first-person monologue (likely Eureka) that reads like it may echo an anime insert song's imagery; translated independently from the Japanese meaning in original wording, not copied from any existing English lyric translation."
+    },
+    {
+      "ids": [
+        "dialogue_10459",
+        "dialogue_10461"
+      ],
+      "note": "'Ultimate' (katakana loanword, source: arutimetto) kept capitalized as a named power-output level for Oratorio No. 8; no existing glossary entry found for this specific usage. See glossary proposal."
+    }
+  ],
+  "validation": {
+    "controls": "All angle-bracket commands (<op()>/<on()>, <sp(20)>, <ab(n)>, <ed()>/<off()>) preserved in the source's exact order for every row, including rows where the source omits <op()>/<on()> or <ed()> because the text box stays open across adjacent rows (e.g. dialogue_10459-10461, dialogue_10475-10476, dialogue_10479-10483, dialogue_10520-10521, dialogue_10522-10524, dialogue_10526-10527, dialogue_10528-10529, dialogue_10534-10536). Verified with a throwaway self-check script comparing each row's command list against tools/dialogue_corpus.py slice output; no Japanese source text was written to disk.",
+    "fit": "Full meaning drafted first; longest visible rows recompressed to stay <=110 characters (e.g. dialogue_10533 combat-relay style compressed to 86 visible characters); all rows in slice at or under budget.",
+    "ascii": "ASCII-only; no lowercase j/q required by any row in this slice; no bare % encountered.",
+    "meaning_review": "Independently meaning-reviewed: 80 of 80 rows examined against original ISO with 30 rows of surrounding context (10442-10551). Three fixes applied (dialogue_10527 gender fix; dialogue_10487, dialogue_10524 reworded to drop an unnecessary lowercase j). All rows set to meaning_reviewed. See review_10457.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_10457",
+      "target": "<op()><sp(20)>Th-that thing... was that on Earth?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10458",
+      "target": "<op()><sp(20)>Maybe it's showing itself now\nthat we've entered the Zone.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10459",
+      "target": "<op()><sp(20)>Oratorio No. 8 is ready to fire\nan Ultimate sweep on the target beacon.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Oratorio No. 8 researched (Eureka Seven Wiki): United Federation orbital weapon used against the Command Cluster; kept 'No. 8' matching source's fullwidth 'No8' rather than spelling out 'Number'. Text box stays open into dialogue_10460 (no <ed()> in source)."
+    },
+    {
+      "id": "dialogue_10460",
+      "target": "<sp(20)>But are you sure about this?<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues open text box from dialogue_10459 (no <op()>); stays open into dialogue_10461."
+    },
+    {
+      "id": "dialogue_10461",
+      "target": "<sp(20)>At Ultimate output,\nthe unit itself will be destroyed, though.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Honntai' (the unit/main body) rendered as 'the unit itself'; not specified whether this is Oratorio No. 8 or its orbital platform."
+    },
+    {
+      "id": "dialogue_10462",
+      "target": "<op()><sp(20)>Is a thing like that truly necessary for the world you want?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties: speaker not settled."
+    },
+    {
+      "id": "dialogue_10463",
+      "target": "<op()><sp(20)>The Command Cluster...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Trailing shock reaction as in source; implies the Command Cluster has just been destroyed by Oratorio No. 8."
+    },
+    {
+      "id": "dialogue_10464",
+      "target": "<op()><sp(20)>Daaamn it!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Elongated exclamation ('chikushoo') rendered with a stretched vowel to keep the same rough tone."
+    },
+    {
+      "id": "dialogue_10465",
+      "target": "<op()><sp(20)>A Kute-class has appeared in the distance!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kute-class matches existing corpus usage (batch_03803)."
+    },
+    {
+      "id": "dialogue_10466",
+      "target": "<op()><sp(20)>Everyone, Antibody Coralians are appearing!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10467",
+      "target": "<op()><sp(20)>...Is this the start of the Limit of Questions?!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "'Limit of Questions' (Kudan no Genkai) taken from encyclopedia_022.json's locked rendering of the same source term. Text box stays open into dialogue_10468."
+    },
+    {
+      "id": "dialogue_10468",
+      "target": "<sp(20)>Now that the Command Cluster is lost,\nis there nothing left for us but to perish?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues open text box from dialogue_10467 (no <op()> in source)."
+    },
+    {
+      "id": "dialogue_10469",
+      "target": "<op()><sp(20)>...I won't give up.\nAs long as Eureka's with us, there's still hope!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker uses casual masculine 'ore', consistent with Renton's established voice; following row's reply names Renton, confirming this speaker."
+    },
+    {
+      "id": "dialogue_10470",
+      "target": "<op()><sp(20)>I have... Renton, too!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply names Renton directly, identifying this as Eureka's line answering dialogue_10469."
+    },
+    {
+      "id": "dialogue_10471",
+      "target": "<op()><sp(20)>We've fought off adversity before.\nThis time will be no different!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties: speaker (masculine 'boku') not identified."
+    },
+    {
+      "id": "dialogue_10472",
+      "target": "<op()><sp(20)>I'll protect my own Earth too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Casual 'ore'; no speaker name given, left unassigned."
+    },
+    {
+      "id": "dialogue_10473",
+      "target": "<op()><sp(20)>Holland... what good does it do if you give up?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addresses Holland by name; speaker not further identified but feminine sentence ending is consistent with Talho."
+    },
+    {
+      "id": "dialogue_10474",
+      "target": "<op()><sp(20)>...Maybe there's still something we can do.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reads as Holland's resolve returning after being challenged in dialogue_10473."
+    },
+    {
+      "id": "dialogue_10475",
+      "target": "<op()><sp(20)>Renton, it's saying that girl is in pain...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties. Text box stays open into dialogue_10476."
+    },
+    {
+      "id": "dialogue_10476",
+      "target": "<sp(20)>Nirvash is saying it wants you\nto listen to that rider's voice!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10475; 'Nirvash' identified as the one relaying the message, matching source's explicit mention."
+    },
+    {
+      "id": "dialogue_10477",
+      "target": "<op()><sp(20)>But that LFO... it's the Command Cluster...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10478",
+      "target": "<op()><sp(20)>Please... Renton.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Pleading first-person address; likely Eureka based on surrounding context, not asserted outright."
+    },
+    {
+      "id": "dialogue_10479",
+      "target": "<op()><sp(20)>If I were told I could live\nwithout hurting anyone,<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties: poetic monologue, rows 10479-10483. Text box stays open through dialogue_10483 (no <ed()> until then)."
+    },
+    {
+      "id": "dialogue_10480",
+      "target": "<sp(20)>...I'd tie back my wind-blown hair,\ntake one great step forward,<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10479."
+    },
+    {
+      "id": "dialogue_10481",
+      "target": "<sp(20)>and go meet you with my head held high.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10480."
+    },
+    {
+      "id": "dialogue_10482",
+      "target": "<sp(20)>I want to live...\nto say thank you.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues the monologue; new sentence."
+    },
+    {
+      "id": "dialogue_10483",
+      "target": "<sp(20)>I want to live...\nto send so many feelings your way.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Closes the monologue begun at dialogue_10479."
+    },
+    {
+      "id": "dialogue_10484",
+      "target": "<on()><sp(20)>I'm not scared. Not if I'm with Renton.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Fullwidth space in source rendered as a normal space/sentence break."
+    },
+    {
+      "id": "dialogue_10485",
+      "target": "<on()><sp(20)>Neither am I.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Ore mo da' agrees with the preceding negative statement ('not scared'), so rendered as 'Neither am I' rather than a literal 'me too'."
+    },
+    {
+      "id": "dialogue_10486",
+      "target": "<on()><sp(20)>...Huh?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Short gasp of realization preceding 'did we just enter the Zone?!'; see uncertainties."
+    },
+    {
+      "id": "dialogue_10487",
+      "target": "<on()><sp(20)>Did we enter the Zone?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: dropped 'just' (not in source, and avoids the lowercase j the font lacks a native glyph for)."
+    },
+    {
+      "id": "dialogue_10488",
+      "target": "<on()><sp(20)>Where... where are we?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10489",
+      "target": "<on()><sp(20)>This is... our Earth...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10490",
+      "target": "<on()><sp(20)>...What does that mean?\nIs that really true?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10491",
+      "target": "<on()><sp(20)>There's no mistake.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10492",
+      "target": "<on()><sp(20)>...This is... the Promised Land...?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Promised Land' matches encyclopedia_022.json's locked rendering; source has no <book()> tag on this occurrence so none was added."
+    },
+    {
+      "id": "dialogue_10493",
+      "target": "<on()><sp(20)>Holland, look at that!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10494",
+      "target": "<on()><sp(20)>So that's the Command Cluster.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Command Cluster' matches encyclopedia_022.json's locked rendering."
+    },
+    {
+      "id": "dialogue_10495",
+      "target": "<on()><sp(20)>That bastard Dewey...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10496",
+      "target": "<on()><sp(20)>That's...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10497",
+      "target": "<on()><sp(20)>Anemoneeeee!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Elongated name shout rendered with repeated vowels, matching source's elongation."
+    },
+    {
+      "id": "dialogue_10498",
+      "target": "<on()><sp(20)>Dominic... Dominic!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10499",
+      "target": "<on()><sp(20)>You came for me... you saved me!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10500",
+      "target": "<on()><sp(20)>I embedded the Compac in this body\nand became one with the world.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'Compac' short form matches encyclopedia_022.json's 'Compac Drive'."
+    },
+    {
+      "id": "dialogue_10501",
+      "target": "<on()><sp(20)>My life is, in other words,\nthis world itself.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10502",
+      "target": "<on()><sp(20)>I go with this planet's dignity!\nThis is the beginning of a new Earth!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10503",
+      "target": "<on()><sp(20)>A-ah... ah...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10504",
+      "target": "<on()><sp(20)>Eureka!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10505",
+      "target": "<on()><sp(20)>No... please, Nirvash!\nSave everyone!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10506",
+      "target": "<on()><sp(20)>I... can't keep my promise...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10507",
+      "target": "<on()><sp(20)>I'm sorry... Renton.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10508",
+      "target": "<on()><sp(20)>Bye-bye.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10509",
+      "target": "<on()><sp(20)>Eureka...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10510",
+      "target": "<on()><sp(20)>Eurekaaaaaaaaaa!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Elongated name shout rendered with repeated vowels, matching source's elongation."
+    },
+    {
+      "id": "dialogue_10511",
+      "target": "<on()><sp(20)>Now! Fire the main cannon!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Fullwidth space in source rendered as a normal sentence break."
+    },
+    {
+      "id": "dialogue_10512",
+      "target": "<on()><sp(20)>Everyone, hold on tight!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10513",
+      "target": "<on()><sp(20)>Th-the ship can't hold!\nWe're going down!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10514",
+      "target": "<on()><sp(20)>Is this the end.\nBut...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10515",
+      "target": "<on()><sp(20)>Whoa... whoa!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10516",
+      "target": "<on()><sp(20)>What's wrong, Nirvash?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10517",
+      "target": "<op()><sp(20)>You can say it!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Table order shifts to a different text_id group here (400+); read as continuing the dialogue_10475-10483 exchange about Eureka's suppressed wish to live."
+    },
+    {
+      "id": "dialogue_10518",
+      "target": "<op()><sp(20)>I want to live...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10519",
+      "target": "<op()><sp(20)>I wish I'd never noticed...\nthis feeling...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10520",
+      "target": "<op()><sp(20)>It's okay to live.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Text box stays open into dialogue_10521 (no <ed()> in source)."
+    },
+    {
+      "id": "dialogue_10521",
+      "target": "<sp(20)>Nobody ever said\nyou're not allowed to live!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10520."
+    },
+    {
+      "id": "dialogue_10522",
+      "target": "<op()><sp(20)>Uuh... but it hurts!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties: identified as Anemone from dialogue_10525 naming her. Text box stays open into dialogue_10523."
+    },
+    {
+      "id": "dialogue_10523",
+      "target": "<sp(20)>That person is nowhere to be found!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10522; referent left as 'that person', no identity/gender supplied. Text box stays open into dialogue_10524."
+    },
+    {
+      "id": "dialogue_10524",
+      "target": "<sp(20)>That's not... that's not...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10523. Meaning-reviewed: reworded 'that's just...' to 'that's not...' to avoid the lowercase j the font lacks a native glyph for; meaning (protest/denial trailing off) unchanged."
+    },
+    {
+      "id": "dialogue_10525",
+      "target": "<op()><sp(20)>It'll get through, I know it will, Anemone!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Direct address of 'Anemone' confirms the preceding three rows are addressed to her."
+    },
+    {
+      "id": "dialogue_10526",
+      "target": "<op()><sp(20)>No... Eureka...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Reply names Eureka, confirming Anemone as this speaker. Text box stays open into dialogue_10527."
+    },
+    {
+      "id": "dialogue_10527",
+      "target": "<sp(20)>There's no way it can reach them anymore.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10526; the referent (the same 'that person' from dialogue_10523) is not named in source, so the pronoun was made gender-neutral instead of guessing Dominic or anyone else; meaning-reviewed."
+    },
+    {
+      "id": "dialogue_10528",
+      "target": "<op()><sp(20)>Dewey!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Text box stays open into dialogue_10529."
+    },
+    {
+      "id": "dialogue_10529",
+      "target": "<sp(20)>Do you even know\nwhat the hell you're doing?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10528; rough address ('temee') suggests Holland confronting Dewey, not asserted by name tag."
+    },
+    {
+      "id": "dialogue_10530",
+      "target": "<op()><sp(20)>I'm only trying to protect human dignity!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reads as Dewey's reply to the preceding confrontation."
+    },
+    {
+      "id": "dialogue_10531",
+      "target": "<op()><sp(20)>What dignity is there in destroying the Earth?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10532",
+      "target": "<op()><sp(20)>By atoning, I protect human dignity,\nand I mean to protect this planet's dignity too.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reads as Dewey continuing his self-justification."
+    },
+    {
+      "id": "dialogue_10533",
+      "target": "<op()><sp(20)>A man who climbed all the way\nto supreme commander... and you're this small-minded?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit the visible-character budget; retains full meaning (mocking Dewey's petty smallness despite his rank)."
+    },
+    {
+      "id": "dialogue_10534",
+      "target": "<op()><sp(20)>If the Scub had never come to this planet...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Reads as Dewey continuing his monologue after being mocked. Text box stays open through dialogue_10536 into the next batch."
+    },
+    {
+      "id": "dialogue_10535",
+      "target": "<sp(20)>the beings called Invaders would never have come to be,\nand humanity would never have been threatened.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10534. 'Invaders' matches encyclopedia_022.json's locked rendering."
+    },
+    {
+      "id": "dialogue_10536",
+      "target": "<sp(20)>Because the Scub exists, the world is constantly\nexposed to the danger of reaching the Limit of Questions.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues dialogue_10535; text box stays open across the batch boundary into dialogue_10537 (see batch_10537.json)."
+    }
+  ]
+}

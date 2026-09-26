@@ -1,0 +1,77 @@
+{
+  "version": "0.1.36",
+  "reviewer": "review_abilities_036",
+  "input": "work/translation/en/abilities_036.json",
+  "input_sha256": "d8dbf9f87581c8696ea4bea1383254b4c4dbb8200eb85f75a3e0c1a51f0b6967",
+  "status": "meaning_review_complete_with_corrections_and_naming_uncertainties",
+  "approved": false,
+  "approval_scope": "All source meanings examined. Apply corrections, resolve or explicitly retain provisional names, then perform fit and runtime checks. This report does not certify runtime fit or all licensed Roman spellings.",
+  "rows_in_slice": 338,
+  "rows_examined": 338,
+  "counts": {
+    "ability": 43,
+    "developer_placeholder": 25,
+    "support_move": 90,
+    "support_category": 90,
+    "support_trigger": 90,
+    "support_triples_compared": 90
+  },
+  "method": "Read every Japanese/English row. Compare support name/category/trigger triples at ID offsets 100. Read the ability glossary, its notes and source links, and existing unit-name glossary spellings. Correct meaning loss and documented term inconsistency only; preserve valid alternative wording.",
+  "corrections": [
+    {
+      "text_id": 141,
+      "source": "トリプルメガソニック砲（収束）",
+      "old_en": "Triple Mega Sonic (Focused)",
+      "en": "Triple Mega Sonic Cannon (Focused)",
+      "reason": "Cannon is present in the source and omitted from the draft display. The draft's full_en correctly retains it, but keeping it only in metadata does not preserve the displayed weapon name. Parent may apply an explicit abbreviation after fitting; do not silently drop the weapon type.",
+      "fitting": "Full meaning first; parent owns display abbreviation and width verification."
+    },
+    {
+      "text_id": 175,
+      "source": "アークライフル（チャージ）",
+      "old_en": "Arc Rifle (Charged)",
+      "en": "Ark Rifle (Charged)",
+      "reason": "Parent relayed the command-list review's owner-context identification as Gun Ark's Ark Rifle. Keep the support name consistent with the same weapon's command-list spelling and the locked Gun Ark spelling.",
+      "evidence": "Parent message: command reviewer compared the ACE3 Akurasu database and Gun Ark command context. Existing glossary unit_names_014_b.json uses Gun Ark. This row's official English weapon spelling was not independently verified by this reviewer.",
+      "name_script_order": "Apply agent meaning edits first, then normalize this spelling consistently in the ability glossary and command corpus."
+    }
+  ],
+  "verified_interpretations": [
+    "All AP thresholds use or less, preserving the inclusive Japanese 以下. Do not fit them as below.",
+    "Trigger IDs 383, 385, 390 and 391 describe missiles fired at the player; the player is the target, not the launcher.",
+    "IDs 106/206/306 preserve two paired effects and conditions: ongoing AP recovery and an area attack when AP is 10 percent or less. Source 306 does not explicitly repeat player; the English does not invent it.",
+    "ID 153 is simply Throw, source 投げ. ID 148 is the named Daisetsuzan Oroshi; it should not become a generic throw. Paired 247/248 and 347/348 are literal dash entries and should remain dashes.",
+    "Source developer descriptions 51-75 are placeholders; ID 61's tentative power-up and ID 65's Thought Control System should not be replaced by fabricated effects. ID 69 repeats description in the source, which the draft preserves.",
+    "Attack category Draw Enemy Fire agrees with paired diversion/decoy support names; it must not become weapon homing guidance.",
+    "Wing Caliber, G-Falcon, High Maneuver and Plamo Spirit agree with existing project glossary spellings; no stylistic rename requested.",
+    "Player surrounded and Player uses melee are compact but preserve their respective combat conditions. No meaning-only rewrite requested."
+  ],
+  "uncertainties": [
+    {
+      "text_id": 156,
+      "source": "パッセル",
+      "current_en": "Bassel",
+      "status": "awaiting_game_owner_context",
+      "reason": "The game's パッセル literally yields Passel. Official Gundam material confirms Justice Gundam has バッセル, but a similar-looking name alone does not prove this row is that weapon. Adjacent Freedom/METEOR-related support names suggest Justice context without conclusively establishing the owner.",
+      "primary_source": "https://www.gundam.info/news/gunpla/news_gunpla_20080910_1858p.html",
+      "additional_primary_source": "https://www.bandai.co.jp/candy/gundam/gframe/faPb02/guide.pdf",
+      "recommendation": "Resolve owner to Justice Gundam via game data or matching command-list context before normalizing to Bassel. If unresolved, retain explicit provisional status rather than calling it a confirmed typo."
+    },
+    {
+      "text_ids": [16, 21, 40, 109, 123, 125, 144, 145, 148, 158, 159, 162, 167, 169, 172, 173],
+      "status": "provisional_licensed_spelling",
+      "reason": "Translations/transliterations are consistent with the source reading and existing project terms where present. No independent primary English source was confirmed for every specialized move name. Preserve the glossary's provisional labels; do not represent these as universally licensed English forms. Specific unresolved forms include Vascud Crisis, Grave Cannon and Energy Shave."
+    },
+    {
+      "text_id": 145,
+      "status": "acceptable_compact_translation",
+      "reason": "Ringing the Staff refers specifically to the Buddhist ringed staff (shakujo). The draft's full_en records Ringing the Ringed Staff. No correction required unless visual context introduces a different kind of staff; exact licensed move name remains unconfirmed."
+    }
+  ],
+  "not_examined": [
+    "Binary unit-owner relationship for support 156 (awaiting parent)",
+    "In-game rendering, text fitting and memory safety",
+    "Authoritative licensed English spellings for every franchise move"
+  ],
+  "files_edited": ["work/translation/en/review_abilities_036.json"]
+}

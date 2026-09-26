@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "oobaa sukiru",
+    "en": "Overskill",
+    "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer ; https://mecha.fandom.com/wiki/Overman_King_Gainer",
+    "why": "Special ability unique to each Overman (biomechanical mecha) in the King Gainer series (e.g. King Gainer's Overfreeze/Overheat). Established fan/wiki romanization is the single word 'Overskill'. Used in dialogue_15209 ('With Overskill!')."
+  },
+  {
+    "term_romaji": "oobaaman batoru",
+    "en": "Overman Battle",
+    "source": "Compositional: locked term 'Overman' (unit_names_014_b.json / character_names_021.json) + literal 'Battle'; no dedicated wiki/official source found for this exact compound as a standalone term.",
+    "why": "Appears twice in resource 2821010 (dialogue_15248, dialogue_15254) as King Gainer's pilot Gainer inviting/praising a mecha duel. Translated literally rather than guessed idiomatically; flagged for orchestrator confirmation since it is not a proper noun already in the glossary."
+  }
+]

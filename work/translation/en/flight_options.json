@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "version": "0.1.13",
+  "language": "en",
+  "source_iso": "ACE3-English-0.1.12.iso",
+  "categories": [
+    {
+      "table_id": 3068,
+      "category": "Options menu and save/load help",
+      "source_bundle_id": 4002050,
+      "source_table_sha256": "b44089a3fdc8eca7878a0c1a2f3117f68444eba960c9d1af9dfeb462b56f9a0b",
+      "slot_count": 60,
+      "rows": [
+        {
+          "slot": 0,
+          "source": "選択：㊤㊦　戻る：×　決定：○",
+          "en": "Select:㊤㊦ Back:× Confirm:○"
+        },
+        {
+          "slot": 2,
+          "source": "オプション",
+          "en": "Options"
+        },
+        {
+          "slot": 3,
+          "source": "セーブ",
+          "en": "Save"
+        },
+        {
+          "slot": 4,
+          "source": "ロード",
+          "en": "Load"
+        },
+        {
+          "slot": 5,
+          "source": "ゲーム",
+          "en": "Game"
+        },
+        {
+          "slot": 6,
+          "source": "コントローラ",
+          "en": "Controls"
+        },
+        {
+          "slot": 7,
+          "source": "サウンド",
+          "en": "Sound"
+        },
+        {
+          "slot": 8,
+          "source": "スクリーン",
+          "en": "Screen"
+        },
+        {
+          "slot": 9,
+          "source": "ゲームをセーブします",
+          "en": "Save your game."
+        },
+        {
+          "slot": 10,
+          "source": "ゲームをロードします",
+          "en": "Load your game."
+        },
+        {
+          "slot": 11,
+          "source": "ゲームのプレイ環境を変更します",
+          "en": "Change gameplay settings."
+        },
+        {
+          "slot": 12,
+          "source": "コントローラの設定を変更します",
+          "en": "Change controller settings."
+        },
+        {
+          "slot": 13,
+          "source": "サウンドの設定を変更します",
+          "en": "Change sound settings."
+        },
+        {
+          "slot": 14,
+          "source": "テレビ画面の設定を変更します",
+          "en": "Change screen settings."
+        },
+        {
+          "slot": 19,
+          "source": "初期設定に戻します。\nよろしいですか？",
+          "en": "Restore the default settings?"
+        },
+        {
+          "slot": 30,
+          "source": "ここではデータのセーブ／ロードや\nゲームオプションの変更が行えます。",
+          "en": "Save or load game data\nand change game options here."
+        },
+        {
+          "slot": 31,
+          "source": "設定する項目を選んでください。",
+          "en": "Select an item to configure."
+        }
+      ]
+    },
+    {
+      "table_id": 3071,
+      "category": "Controller options, flight modes, radar, camera and vibration",
+      "source_bundle_id": 4002050,
+      "source_table_sha256": "d1810d917f36aed8595379f918727fab8bb1a73566ccb50132c816d2c7599719",
+      "slot_count": 62,
+      "rows": [
+        {
+          "slot": 0,
+          "source": "選択：㊤㊦　設定：㊧㊨　戻る：×",
+          "en": "Select:㊤㊦ Set:㊧㊨ Back:×"
+        },
+        {
+          "slot": 1,
+          "source": "選択：㊤㊦　戻る：×　決定：○",
+          "en": "Select:㊤㊦ Back:× Confirm:○"
+        },
+        {
+          "slot": 3,
+          "source": "コントローラ",
+          "en": "Controls"
+        },
+        {
+          "slot": 4,
+          "source": "コントローラタイプ",
+          "en": "Control Scheme"
+        },
+        {
+          "slot": 5,
+          "source": "フライトタイプ",
+          "en": "Flight Type"
+        },
+        {
+          "slot": 6,
+          "source": "レーダー操作",
+          "en": "Radar Control"
+        },
+        {
+          "slot": 7,
+          "source": "カメラ操作",
+          "en": "Camera Control"
+        },
+        {
+          "slot": 8,
+          "source": "振動機能",
+          "en": "Vibration"
+        },
+        {
+          "slot": 9,
+          "source": "キーアサイン",
+          "en": "Button Mapping"
+        },
+        {
+          "slot": 10,
+          "source": "初期設定に戻す",
+          "en": "Restore Defaults"
+        },
+        {
+          "slot": 13,
+          "source": "シフトタイプ",
+          "en": "Shift"
+        },
+        {
+          "slot": 14,
+          "source": "セレクトタイプ",
+          "en": "Select"
+        },
+        {
+          "slot": 16,
+          "source": "イージー",
+          "en": "Easy"
+        },
+        {
+          "slot": 17,
+          "source": "フライト",
+          "en": "Flight"
+        },
+        {
+          "slot": 18,
+          "source": "イージーリバース",
+          "en": "Easy Rev."
+        },
+        {
+          "slot": 19,
+          "source": "フライトリバース",
+          "en": "Flight Rev."
+        },
+        {
+          "slot": 21,
+          "source": "セミオート",
+          "en": "Semi-Auto"
+        },
+        {
+          "slot": 22,
+          "source": "マニュアル",
+          "en": "Manual"
+        },
+        {
+          "slot": 24,
+          "source": "通常",
+          "en": "Normal"
+        },
+        {
+          "slot": 25,
+          "source": "上下リバース",
+          "en": "Invert Y"
+        },
+        {
+          "slot": 26,
+          "source": "リバース",
+          "en": "Invert X/Y"
+        },
+        {
+          "slot": 28,
+          "source": "ＯＮ",
+          "en": "ON"
+        },
+        {
+          "slot": 29,
+          "source": "ＯＦＦ",
+          "en": "OFF"
+        },
+        {
+          "slot": 31,
+          "source": "シフトボタンを押しながらウェポンを選択する操作です",
+          "en": "Hold the Shift button to select a weapon."
+        },
+        {
+          "slot": 32,
+          "source": "ボタンを押してウェポンを切り替える操作です",
+          "en": "Press a button to cycle weapons."
+        },
+        {
+          "slot": 34,
+          "source": "飛行操作を簡易操作にします",
+          "en": "Use simplified flight controls."
+        },
+        {
+          "slot": 35,
+          "source": "飛行操作をピッチ／ロールにします",
+          "en": "Use pitch and roll flight controls."
+        },
+        {
+          "slot": 36,
+          "source": "飛行操作を簡易操作（リバース）にします",
+          "en": "Use simplified flight controls with inverted pitch."
+        },
+        {
+          "slot": 37,
+          "source": "飛行操作をピッチ／ロール（リバース）にします",
+          "en": "Use pitch and roll flight controls with inverted pitch."
+        },
+        {
+          "slot": 39,
+          "source": "レーダーの拡大、縮小を自動で行います",
+          "en": "Automatically zoom the radar in and out."
+        },
+        {
+          "slot": 40,
+          "source": "レーダーの拡大、縮小を方向キーで切り替えます",
+          "en": "Use the directional buttons to change radar zoom."
+        },
+        {
+          "slot": 42,
+          "source": "入力方向にカメラを移動します",
+          "en": "Move the camera in the direction you input."
+        },
+        {
+          "slot": 43,
+          "source": "上下をリバースにしてカメラを移動します",
+          "en": "Invert vertical camera movement."
+        },
+        {
+          "slot": 44,
+          "source": "上下左右をリバースにしてカメラを移動します",
+          "en": "Invert vertical and horizontal camera movement."
+        },
+        {
+          "slot": 46,
+          "source": "コントローラの振動機能をＯＮにします",
+          "en": "Turn controller vibration ON."
+        },
+        {
+          "slot": 47,
+          "source": "コントローラの振動機能をＯＦＦにします",
+          "en": "Turn controller vibration OFF."
+        },
+        {
+          "slot": 55,
+          "source": "コントローラのボタン設定を変更します",
+          "en": "Change controller button assignments."
+        },
+        {
+          "slot": 57,
+          "source": "初期設定に戻します",
+          "en": "Restore the default settings."
+        },
+        {
+          "slot": 60,
+          "source": "㍉初期設定確認",
+          "en": "㍉Restore Defaults"
+        },
+        {
+          "slot": 61,
+          "source": "初期設定に戻します。\nよろしいですか？",
+          "en": "Restore the default settings?"
+        }
+      ]
+    },
+    {
+      "table_id": 3092,
+      "category": "Initial flight controls setup and all four mode help panels",
+      "source_bundle_id": 4002050,
+      "source_table_sha256": "54c55e952283e34b819c05d71875a88461d49bfcc7143117dcf8620550a2e33b",
+      "slot_count": 168,
+      "rows": [
+        {
+          "slot": 0,
+          "source": "飛行操作初期設定",
+          "en": "Flight Controls Setup"
+        },
+        {
+          "slot": 4,
+          "source": "選択：㊤㊦　決定：○　戻る：×",
+          "en": "Select:㊤㊦ Confirm:○ Back:×"
+        },
+        {
+          "slot": 5,
+          "source": "選択：㊤㊦　設定：㊧㊨　戻る：×",
+          "en": "Select:㊤㊦ Set:㊧㊨ Back:×"
+        },
+        {
+          "slot": 10,
+          "source": "飛行操作が可能なユニットを入手しました。\n飛行形態の操作設定を行いますか？",
+          "en": "You obtained a unit with flight controls.\nSet up its flight mode controls now?"
+        },
+        {
+          "slot": 11,
+          "source": "インターミッションに戻ります。\nよろしいですか？",
+          "en": "Return to Intermission?"
+        },
+        {
+          "slot": 20,
+          "source": "決定",
+          "en": "Confirm"
+        },
+        {
+          "slot": 21,
+          "source": "フライトタイプ",
+          "en": "Flight Type"
+        },
+        {
+          "slot": 30,
+          "source": "操作タイプを決定します。",
+          "en": "Confirm the control scheme."
+        },
+        {
+          "slot": 31,
+          "source": "操作タイプを選択します。",
+          "en": "Select a control scheme."
+        },
+        {
+          "slot": 40,
+          "source": "イージー",
+          "en": "Easy"
+        },
+        {
+          "slot": 41,
+          "source": "フライト",
+          "en": "Flight"
+        },
+        {
+          "slot": 42,
+          "source": "イージーリバース",
+          "en": "Easy Rev."
+        },
+        {
+          "slot": 43,
+          "source": "フライトリバース",
+          "en": "Flight Rev."
+        },
+        {
+          "slot": 50,
+          "source": "自動的にユニットが水平に戻る操作方法です。\n\n左スティックを左右に倒すと\nユニットが旋回します。\n左スティックを放すと水平に戻ります。\n\n⑮：　旋回／上昇／下降\n③：　左水平移動（ラダー）\n⑦：　右水平移動（ラダー）\n③×２：　左回避\n⑦×２：　右回避",
+          "en": "Automatically returns to level flight.\n\nLeft stick left/right: Turn.\nRelease the stick to level out.\n\n⑮: Turn / Ascend / Descend\n③: Slide left (rudder)\n⑦: Slide right (rudder)\n③×２: Evade left\n⑦×２: Evade right"
+        },
+        {
+          "slot": 51,
+          "source": "向きを自在に変えられる操作方法です。\n\n左スティックを左右に倒すと\nユニットが回転（ロール）します。\n左スティックを前後に倒すと\n上昇（ピッチアップ）／下降（ピッチダウン）します。\n\n⑮：　旋回／上昇／下降\n③：　左水平移動（ラダー）\n⑦：　右水平移動（ラダー）\n③×２：　左回避\n⑦×２：　右回避",
+          "en": "The unit can face any direction.\n\nLeft stick left/right: Roll.\nForward/back: Ascend/descend\n(pitch up/down).\n\n⑮: Turn / Ascend / Descend\n③: Slide left (rudder)\n⑦: Slide right (rudder)\n③×２: Evade left\n⑦×２: Evade right"
+        },
+        {
+          "slot": 52,
+          "source": "上昇下降がリバースのイージー操作です。\n\n左スティックを上に倒すと下降、\n下に倒すと上昇します。\n\n⑮：　旋回／上昇／下降\n③：　左水平移動（ラダー）\n⑦：　右水平移動（ラダー）\n③×２：　左回避\n⑦×２：　右回避",
+          "en": "Easy controls with inverted pitch.\n\nLeft stick up: Descend.\nLeft stick down: Ascend.\n\n⑮: Turn / Ascend / Descend\n③: Slide left (rudder)\n⑦: Slide right (rudder)\n③×２: Evade left\n⑦×２: Evade right"
+        },
+        {
+          "slot": 53,
+          "source": "上昇下降がリバースのフライト操作です。\n\n左スティックを上に倒すと下降、\n下に倒すと上昇します。\n\n⑮：　旋回／上昇／下降\n③：　左水平移動（ラダー）\n⑦：　右水平移動（ラダー）\n③×２：　左回避\n⑦×２：　右回避",
+          "en": "Flight controls with inverted pitch.\n\nLeft stick up: Descend.\nLeft stick down: Ascend.\n\n⑮: Turn / Ascend / Descend\n③: Slide left (rudder)\n⑦: Slide right (rudder)\n③×２: Evade left\n⑦×２: Evade right"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "meaning_reviewed",
+    "reviewer": "flight_translation_013",
+    "rows_in_scope": 74,
+    "rows_examined": 74,
+    "method": "Compared each target to all non-null source rows in the complete three UI categories; checked paired control descriptions and all four flight-mode variants. Preserved each icon and double-tap marker. No character names introduced.",
+    "terminology": [
+      "Controls, Shift, Select, Ascend and Descend match existing translated setup and controller diagrams.",
+      "Easy Rev. and Flight Rev. abbreviate reversed vertical input, stated explicitly in their help.",
+      "Invert Y and Invert X/Y mean vertical-only and vertical-plus-horizontal camera inversion respectively.",
+      "Slide left/right (rudder) retains both horizontal movement and the original rudder terminology."
+    ],
+    "uncertainties": [
+      "Flight Type means the flight control scheme, not a different unit transformation.",
+      "The compact Forward/back line inherits Left stick from the immediately preceding line; no specific up-versus-down mapping is invented for normal Flight mode."
+    ],
+    "fit_status": "All 74 targets pass font 2500 character coverage after native aliases. Flight help character counts are 208/216/192/194 and maximum native-font line widths are 373/330/339/354 (original 373/405/339/332). Longest controller footer is 533 units. Renderer capacity, actual widget geometry and in-game layout remain the builder responsibility."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slice_start": 478,
+  "slice_count": 80,
+  "reviewer": "translate_dialogue_241",
+  "rows_examined": [[463, 572]],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_type": "independent meaning review against ISO source and both adjacent contexts",
+  "corrections": [],
+  "uncertainties": [
+    {"ids": ["dialogue_00480", "dialogue_00481"], "note": "The source does not identify the detainee or transport passenger explicitly. The neutral draft does not infer number or gender; retain until speaker/event mapping is available."},
+    {"id": "dialogue_00502", "note": "Plural monsters is consistent with surrounding group references, but grammatical number is implicit in the source."},
+    {"id": "dialogue_00517", "note": "Generic Quit? prompt appropriately avoids inventing a mission/tutorial object."},
+    {"id": "dialogue_00527", "note": "Consecutive vertical-evasion button inputs are translated without an invented count. Exact gameplay button behavior remains to verify."},
+    {"ids": ["dialogue_00543", "dialogue_00544", "dialogue_00545", "dialogue_00546", "dialogue_00547", "dialogue_00548", "dialogue_00549", "dialogue_00550", "dialogue_00551", "dialogue_00552"], "note": "Alternate Select and Shift control branches remain distinct. The release-to-disable requirement in row552 is correctly retained; do not normalize both branches as toggle controls."}
+  ],
+  "result": "No meaning corrections required. Full explanation is retained across split rows 550-551. Reviewed status does not certify layout fit or runtime presentation."
+}

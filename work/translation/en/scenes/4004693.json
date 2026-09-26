@@ -1,0 +1,340 @@
+{
+ "resource_id": 4004693,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 35,
+ "rows_examined": 35,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23010,1)><speed(2)>This <color(4)>Sakuya<ce()>... what kind of person is she?",
+   "notes": "",
+   "source_sha256": "5e8fd9b041c48280a37f4576ac40507551240f9de309992e906a18ebbef3e53e"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23290,1)><speed(2)>A girl, a humanoid Coralian, found by the Vodarac and revered as a saint.",
+   "notes": "",
+   "source_sha256": "e6ddb2c9116d0bcc55e582ea2425d0f0cd9315c303277e55ea9d82d21956124d"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23020,1)><speed(2)>The same as me...? What's she doing now?",
+   "notes": "",
+   "source_sha256": "c4809d492e6014a96b75bbdbf18cac99720dd5399653d8103eb4872165911bc2"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23290,1)><speed(2)>She sleeps deep within the Vodara Shrine, guarding the Great Wall with a barrier.",
+   "notes": "'Vodara Shrine' for the source's plain 'Vodara-guu'; see glossary_proposals.",
+   "source_sha256": "d9311bfe5ee6caa359198e25fd5aa6ce951055675cae9516d7b7bee00b153ea5"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23290,1)><speed(2)>When she reverses that barrier, it triggers a phenomenon called Porolocca.",
+   "notes": "'Porolocca' spelling; see glossary_proposals.",
+   "source_sha256": "bcbee75558bbfd87a65a5cd202ea540e932b28c9f1e4047ebedb70c392b9057f"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23290,1)><speed(2)>That's what makes it possible for you to enter the Zone.",
+   "notes": "",
+   "source_sha256": "e4233d6907d2ead144632849061c1ce8bb73af7324fcc14139734bc636d241d9"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23010,1)><speed(2)>So you're saying you're the only one who can wake <color(4)>Sakuya<ce()>, <color(4)>Norb<ce()>?",
+   "notes": "",
+   "source_sha256": "dfe77aa521749738fa9a73d32fb2e10aefe0f57e449c60016ee2a8abc082edc1"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(23290,1)><speed(2)>Mm... yeah, more or less.",
+   "notes": "",
+   "source_sha256": "bb321ba3f62b6cfb01d7e6ce36723f65cceb4c0bbfe2af906d9a6e1e05966428"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1040,1)><speed(2)>I wonder what this \"promised land\" even is.",
+   "notes": "No locked term found for 'yakusoku no chi'; plain rendering.",
+   "source_sha256": "2ac19be948465c5e0c5d8180fc1f1e9713c3ba03c6adca2d3e922eec5fdeb0cd"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(17070,1)><speed(2)>We already hold the key... let's trust what D.O.M.E. told us.",
+   "notes": "",
+   "source_sha256": "3e963961c53f8c63d70bc600a41872a0f7e7d2db1546657ee398ce3e9827afe3"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>We have to open the way for <color(4)>Eureka<ce()> and the others, no matter what.",
+   "notes": "",
+   "source_sha256": "ed52480a374dd398ccecb80abc3603f6bd72587780875fa9b9b0e883df659742"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>Yeah... This time, we stop the <color(5)>New Federation<ce()>.",
+   "notes": "",
+   "source_sha256": "c96fd289b0fdbd4f2c1c2dca3f2184937a045111884fd12502ef1005bbe8a3f8"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)>But... what we're doing now won't really solve anything.",
+   "notes": "",
+   "source_sha256": "e1c1c302331b4e75ffb49b0567b892c1f371458bee079ef354b98a17de8c3477"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>...",
+   "notes": "",
+   "source_sha256": "dd3f294c40eb6e661f5c6ad5dd0d39db13c39aafc8035648a67cf8376ffaddff"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>But at least we want to stop this world from being destroyed.",
+   "notes": "",
+   "source_sha256": "16824f7fc286d67c11a2f91b17e7c622c45342452d2c7636e5cc21a2de14d01d"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>No. Both, right? <color(4)>Faye<ce()>. We're definitely getting home.",
+   "notes": "",
+   "source_sha256": "ecd99f6002bc36cf2f38edbe04999d894afdf41f42ce064b0a8f9a9e92273e42"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1060,1)><speed(2)>Right... you're right.",
+   "notes": "",
+   "source_sha256": "a445b307518eb8c8a5a52464c18d769565af20fc8de42a5db43919bbf6edfe39"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(17010,2)><speed(2)><color(4)>Renton<ce()>, do your best! We've got your back.",
+   "notes": "",
+   "source_sha256": "046e355c52dd0f23c6b1021b92ef86da7ec5e6b5dd000806415c0a4fd92f99ee"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(21010,1)><speed(2)>Kinda annoying to have the good part stolen from us, though.",
+   "notes": "",
+   "source_sha256": "03db8abcdd153c42a4e54b5cfe952d8f0b8701f3ea7139f56dc34d73d9502dba"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(23010,2)><speed(2)>Thanks, <color(4)>Garrod<ce()>, <color(4)>Gainer<ce()>.",
+   "notes": "",
+   "source_sha256": "0e29a55da5481514be6ed481e894559221adeb3f01a1f5024f0f4ae5536b8031"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(23020,1)><speed(2)>But... I'm a little worried.",
+   "notes": "",
+   "source_sha256": "c6e08870eef702e2edae61bc74347d66a3ecff0d6b1824222ae9287952f609e1"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(17070,1)><speed(2)><color(4)>Eureka<ce()>... simply believe in <color(4)>Renton<ce()>. Do that, and it'll definitely be fine.",
+   "notes": "",
+   "source_sha256": "e682d8f55d6b5bf034d4a8ddddf374911bb1816cd05f9e06bc30bfe28bba811f"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(23020,2)><speed(2)><color(4)>Tiffa<ce()>... okay! I'll believe in <color(4)>Renton<ce()>... in everyone!",
+   "notes": "",
+   "source_sha256": "a8d7b7c0c6e717df17fbb1cb2f4cabe31f26c37bbf188544a19969e14c7f3889"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(23010,1)><speed(2)>Let's go, <color(4)>Eureka<ce()>, for everyone's sake!!",
+   "notes": "",
+   "source_sha256": "2ea21f9f3cf7a7ca51d22e9d8589709992ee05d665901cc3a24dc7db54ef526b"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(23040,1)><speed(2)><color(4)>Renton<ce()>, <color(4)>Eureka<ce()>, listen up. You two are our hope for the future. So... we're counting on you.",
+   "notes": "",
+   "source_sha256": "5443aa7b7652c541060943ab1e11f240007620ca12ac6048c9e3a8ec9c942e91"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(23010,1)><speed(2)><color(4)>Talho<ce()>...",
+   "notes": "",
+   "source_sha256": "cff10f2914691fbf28b4f357b9d9aa15ec641d4c725388fd8f7f750443d94281"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(23030,1)><speed(2)><color(4)>Eureka<ce()>. No matter what happens, trust <color(4)>Renton<ce()>.",
+   "notes": "",
+   "source_sha256": "b6cd784f95499f7a7d40ee808d849ce4003cc048782a033f0bfafabfb6497956"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(23030,1)><speed(2)>We'll open up the way into the Zone for you, no matter what.",
+   "notes": "",
+   "source_sha256": "bbd320c8e3c20d91960fa000723038774f195dfcf483adec958f7dd2e8730ad4"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(23020,1)><speed(2)>Understood...",
+   "notes": "",
+   "source_sha256": "3853246d0f4e8e94da27e52d604928c5dd688288ea39a57eb3c75417c210fef9"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(23030,1)><speed(2)>I'm counting on both of you!",
+   "notes": "",
+   "source_sha256": "602920b2cbc21fcd9f88268b23bec91274d566f9f11f3f6600dad9f06cb87ee7"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(23040,1)><speed(2)><color(4)>Holland<ce()>... are you really sure about this?",
+   "notes": "",
+   "source_sha256": "455f227e43be4744829bc5c305dd4b37e2b98434d57b7969fb991aa82fc1dae6"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(23030,1)><speed(2)>Of course. I've decided I'm the one who'll bring down <color(5)>Dewey<ce()>.",
+   "notes": "Source colors 'Dewey' with color(5) (as with 'Saotome' in 4004683); tag scope kept as-is.",
+   "source_sha256": "db07097637aa6ba2ca4cb8c45ec4f13dc9b111a7040894c7d5fa4c1d1840285e"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17040,1)><speed(2)>But he's your only living relative, isn't he?",
+   "notes": "",
+   "source_sha256": "a177c1f0bf2268b69da6d80dd080b3a863dd5f46ce030427c725c04d682fd3fb"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(23030,1)><speed(2)>That's exactly why. Stopping him is my duty as his little brother.",
+   "notes": "",
+   "source_sha256": "ac65e908ea50b3c7dce70ca9f7802f414694c92f703baf1d9319928f18efef75"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(21020,1)><speed(2)>Understood. Then I won't say anything more.",
+   "notes": "",
+   "source_sha256": "8eef9fac7e7d08f5bfa3a7ffdc4fb4b87c763e3daa90bba61db9de91ee0bd873"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 22,
+   "issue": "'Vodara Shrine' (Vodara-guu) is a plain rendering, distinct from the locked 'Vodarac' (the faith/people); no prior corpus use found."
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "issue": "Source colors 'Dewey' with <color(5)> rather than the usual <color(4)> for character names (matches the same pattern on 'Saotome' in 4004683); tag scope kept exactly as source."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "en": "Porolocca",
+   "note": "The Eureka Seven anime's own spelling (with two c's) of the tidal-bore phenomenon referenced by 'pororoca'; used for the barrier-reversal event Norb describes.",
+   "source": "https://eurekaseven.fandom.com/wiki/Star_Dancer"
+  },
+  {
+   "en": "Vodara Shrine",
+   "note": "Where Sakuya sleeps, guarding the Great Wall; English wiki material calls it the 'Vodara shrine'.",
+   "source": "https://eurekaseven.fandom.com/wiki/Sakuya"
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 35,
+  "rows_in_scene": 35,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 63,
+    "before": "<color(4)>Eureka<ce()>... just believe in <color(4)>Renton<ce()>. Do that, and it'll definitely be fine.",
+    "after": "<color(4)>Eureka<ce()>... simply believe in <color(4)>Renton<ce()>. Do that, and it'll definitely be fine.",
+    "reason": "Glyph fix: font has no native lowercase j/q; reworded 'just' to 'simply'. Meaning unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "Table0 slots 19-28 (Sakuya/Norb/Vodara exposition) checked line-by-line against source; all match.",
+   "'Porolocca' (table0 slot 23) kept per orchestrator ruling: source uses the katakana 'Pororokka' directly for the barrier-reversal phenomenon Norb describes. Accepted.",
+   "'Vodara Shrine' (table0 slot 22) kept per orchestrator ruling for source 'Vodara-guu'. Accepted.",
+   "Table1 slot 99 ('we're counting on you' for source's subject-omitted 'tanonda wa yo'): the preceding clause already establishes a collective 'our future' (watashitachi no mirai), so a plural 'we' is a defensible smoothing rather than an invented subject; left as merely different, not fixed.",
+   "Table1 slot 140 (Dewey wrapped in <color(5)> instead of the usual <color(4)>): verified against source line exactly, matches the same pattern already reviewed on 'Saotome' in 4004683; tag scope correct. Accepted, not a defect.",
+   "Speakers cross-checked via tools/speaker_lookup.py for all operator ids in both tables (Renton 23010, Norb 23290, Eureka 23020, Barrel 1040, Tiffa 17070, Faye 1060, Garrod 17010, Gainer 21010, Talho 23040, Holland 23030, Jamil 17040, Gain 21020); all addressees/subjects match source context. 'She' for Sakuya (table0 slot 21) is safe: Sakuya is established as a girl in the immediately preceding line, not inferred from a name.",
+   "Command tags (<operator>, <speed>, <color>/<ce()>) re-checked against source: identical set and order on every row."
+  ],
+  "remaining_uncertainties": [
+   "Table1 slot 99: whether 'tanonda wa yo' is Talho speaking only for herself ('I'm counting on you') or for the group ('we') is not settled by the source; 'we' kept as the more natural reading given the preceding 'our future'.",
+   "Table0 slot 22: 'Vodara Shrine' for 'Vodara-guu' has only wiki support, no prior in-corpus usage; kept as ruled, provisional."
+  ]
+ }
+}

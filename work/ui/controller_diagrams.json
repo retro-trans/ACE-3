@@ -1,0 +1,26 @@
+{
+  "version": "0.1.10",
+  "bundle_id": 4002056,
+  "texture_size": [256,256],
+  "pixel_format": "PSMT8, unswizzled transfer; original 256-color palette retained",
+  "assets": [
+    {"texture_id":50512,"scheme":"Shift","source":"assets/source/50512.png","overrides":{}},
+    {"texture_id":50513,"scheme":"Select","source":"assets/source/50513.png","overrides":{"controls.main_shot":"controls.fire","controls.shift_menu":"controls.select_menu"}}
+  ],
+  "regions": [
+    {"id":"settings.confirm_question","rectangle":[71,7,151,19]},
+    {"id":"controls.switch_lock","rectangle":[164,44,88,18]},
+    {"id":"controls.melee","rectangle":[164,65,88,17]},
+    {"id":"controls.dash_toggle","rectangle":[164,86,88,17]},
+    {"id":"controls.main_shot","rectangle":[164,107,88,16]},
+    {"id":"controls.camera","rectangle":[164,127,88,17]},
+    {"id":"controls.move","rectangle":[5,107,22,18]},
+    {"id":"controls.combination","rectangle":[4,185,109,17]},
+    {"id":"controls.shift_menu","rectangle":[4,206,109,18]},
+    {"id":"controls.descend","rectangle":[231,185,20,18]},
+    {"id":"controls.ascend","rectangle":[231,206,20,18]}
+  ],
+  "related_assets_reviewed": [50514,50515,50516,50517],
+  "related_assets_note": "Only button symbols, gameplay illustrations and existing English HUD text; no Japanese captions to replace.",
+  "preserved": ["controller artwork","button symbols","leader lines","question icon","panel border","texture headers","palette bytes","archive extents"]
+}

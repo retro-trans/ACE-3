@@ -1,0 +1,29 @@
+{
+ "reviewer": "independent_meaning_review_shouts_agent",
+ "slice_start": 13035,
+ "slice_count": 80,
+ "rows_examined": [{"start": 13020, "end": 13129}],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [],
+ "format_fixes": [
+  {"id": "dialogue_13088", "before": "My ideals<LF>won't crumble here!", "after": "My ideals won't crumble here!", "reason": "Shout rows must have NO newline in the target (source line breaks are joined); the draft kept the source's embedded line break as a literal newline (shown here as <LF>). Joined into one line, still within the 40-char budget."},
+  {"id": "dialogue_13093", "before": "Let the enemy go,<LF>and we hand them momentum.", "after": "Let the enemy go, and we hand them momentum.", "reason": "Same newline-join fix as 13088; exactly fills the 44-char budget."},
+  {"id": "dialogue_13103", "before": "Focus on the battle!<LF>This isn't decided yet!", "after": "Focus on the battle! This isn't decided yet!", "reason": "Same newline-join fix as 13088; still within the 48-char budget."}
+ ],
+ "checked_decisions": [
+  {"rows": [13035], "finding": "The source line (watch/track the enemy's position) is compressed to 'Track the enemy!' under a 22-char budget; the 'position' object is generalized but the vigilance instruction is intact -- not a reversal."},
+  {"rows": [13092], "finding": "The source line (as long as I'm here, I won't let the enemy have its way) is rendered as 'While I stand, none shall pass.'; the idiom keeps Meio as the one resisting and the enemy as the one denied passage -- correct subject and sense."},
+  {"rows": [13096], "finding": "The source line (don't underestimate the enemy) is compressed to 'No contempt.' under a 12-char hard budget; terse but not a meaning error -- it still reads as a command against contempt, addressee (the enemy, implicitly) unchanged."}
+ ],
+ "uncertainties": [
+  {"id": "dialogue_13096", "issue": "'No contempt.' is grammatically terse enough that a reader could parse it as a description ('[I feel] no contempt') rather than a command ('[show] no contempt'); left as-is since an equally terse alternative ('Don't scoff!') isn't clearly more correct, just differently phrased, and BASE_RULES says not to rewrite merely-different phrasing."}
+ ],
+ "validation": {
+  "controls": "All <op()><sp(20)>...<ab(1000)><ed()> command sequences re-checked against the console source dump for rows 13035-13114; identical and in the same order in every row.",
+  "fit": "Re-verified the row's hard budget (min(72, 2*source_chars-2)) for every row, including the 3 newline-joined rows; no row exceeds its budget.",
+  "format": "Found and fixed 3 rows (13088, 13093, 13103) that kept a literal newline in the target mirroring the source's own line break; joined into single lines per the shout-specific 'no newline' rule. Re-ran the check after fixing: 0 rows with newlines remain in this batch. All ASCII (no lowercase j/q outside locked names, none present here).",
+  "runtime": "Visual fit at runtime beyond the byte-budget formula is not established by this meaning review."
+ }
+}

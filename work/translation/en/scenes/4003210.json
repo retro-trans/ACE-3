@@ -1,0 +1,98 @@
+{
+ "resource_id": 4003210,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "18A Neo Zeon Fleet",
+   "notes": "Released mission title reused from missions_019.json (slot 200); style matches other lettered-mission scenes (e.g. 4003100 '10A Defend Amaterasu').",
+   "source_sha256": "b9d737cc65cd749e6790683f23015cfe8c37098cca64b5c52b5324ed09750295"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)>Up ahead, I have confirmed a <book(12)>Neo Zeon<endbook()> fleet<thumbnail(243)> heading for the lunar surface.",
+   "notes": "Speaker 30060 = Jamil Neate (speaker_lookup.py).",
+   "source_sha256": "52dbce5a4276100eff35970e5c8503628899c5a721707e92aa266548149f775d"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>They have likely caught wind of our movements - <book(12)>Neo Zeon<endbook()> and the rest of the <color(5)>Tripartite Alliance<ce()> mean to hold us back.",
+   "notes": "'Tripartite Alliance' for 'sansha rengou' (three-party alliance) - no corpus/glossary precedent found; see glossary_proposals.",
+   "source_sha256": "f70009d056bb2cb7a30ef8af09484d1ea2f78664f4505a628ab7ec3b20368921"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>The <book(21)>Nadesico C<endbook()><thumbnail(232)>, which went on ahead, is berthed at <book(31)>Nergal<endbook()>'s lunar dock, undergoing final tuning.",
+   "notes": "Nadesico C / Nergal match encyclopedia_022.json. 'making final adjustments' reworded to 'undergoing final tuning' (no lowercase j).",
+   "source_sha256": "da9b5f3587b9cc800badf824febbf6bb23339a0bf39453334ff2b069b0d56781"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>At this rate, the <color(4)>Nadesico<ce()> will be in danger. We will stop them from reaching the moon, whatever it takes.",
+   "notes": "",
+   "source_sha256": "d7a08b7da5db8e922ab6cbc90a759d216f1b8cfb4663eb918994d6fbdaa90321"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<thumbdown()><operator(30060,1)><speed(2)>All units, begin launch preparations at once!",
+   "notes": "",
+   "source_sha256": "16db8a7429b4e32d2baf6d53ec26a7531c3ec21ca4de35cc4a87e2fdfb818db6"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "'sansha rengou' (three-party/tripartite alliance) has no prior appearance anywhere in work/translation or work/glossary; likely names the combined Neo Zeon + former Giganos + other hostile forces seen elsewhere in this mission arc (cf. 4003200), but no scene explicitly enumerates the three parties. Rendered 'Tripartite Alliance' as a plausible in-universe term name; orchestrator should confirm or rename if a different term is later established."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "sansha rengou",
+   "en": "Tripartite Alliance",
+   "source": "none found (searched work/glossary and work/translation/en; no ACE3/SRW wiki page identifies this alliance by name)",
+   "why": "Color(5)-highlighted enemy-alliance term first appearing in scene 4003210 (mission 18A); needs a project-wide decision if it recurs."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 21,
+    "before": "<operator(30060,1)><speed(2)>The <book(21)>Nadesico C<endbook()><thumbnail(232)>, which went on ahead, is berthed at <book(31)>Nergal<endbook()>'s lunar dock, making final adjustments.",
+    "after": "<operator(30060,1)><speed(2)>The <book(21)>Nadesico C<endbook()><thumbnail(232)>, which went on ahead, is berthed at <book(31)>Nergal<endbook()>'s lunar dock, undergoing final tuning.",
+    "reason": "'adjustments' contains a lowercase j; reworded to 'undergoing final tuning' with no meaning change (constraint fix, not a meaning error)."
+   }
+  ],
+  "checked_decisions": [
+   "Slot 0 title '18A Neo Zeon Fleet' matches missions_019.json category 3055 slot 200 exactly.",
+   "All 6 rows compared against source: no mistranslation, reversed meaning, wrong addressee, invented subject/info, dropped endings, tone contradiction or misspelled name found.",
+   "Speaker 30060 = Jamil Neate (speaker_lookup.py).",
+   "Ruling applied: 'Tripartite Alliance' for 'sansha rengou' (slot 20) is accepted. Checked 4003200 (mission 17A, same story arc, reviewed in this same pass): it individually names three hostile forces - Neo Zeon, a former Giganos unit acting with Neo Zeon, and Sakomizu's (otherworldly) army - and nowhere states there are only one or two hostile factions. Nothing in 4003200 contradicts a three-party alliance reading, so 'Tripartite Alliance' stands.",
+   "Slot 22: 'them' (they will stop them from reaching the moon) correctly refers back to the Neo Zeon fleet of slot 19/20, not to the Nadesico crew; addressee/subject not reversed.",
+   "All <operator>/<speed>/<color>/<ce>/<book>/<endbook>/<thumbnail>/<thumbdown> commands verified identical and in the same order as the source for every row.",
+   "Names verified: Neo Zeon, Nadesico C, Nergal all consistent with encyclopedia_022.json usage elsewhere in the corpus.",
+   "Re-ran throwaway console check after the edit: all rows ASCII-only, no newlines, no bare %, no lowercase j/q, all visible text under 128 chars, all command tags identical in order to source."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: 'sansha rengou' (Tripartite Alliance) still has no scene that explicitly enumerates and names all three member parties together in one place; the reading that Neo Zeon + former Giganos + Sakomizu's forces form the trio is inferred from the surrounding mission arc (4003200), not stated outright anywhere. Orchestrator should confirm if a later scene defines it differently."
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 4656,
+  "slice_count": 80,
+  "rows_examined": [{"start": 4641, "end": 4750}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_04690",
+      "before": "Hmph, it's just more small fry.",
+      "after": "Hmph, it's only more small fry.",
+      "reason": "'just' contains a lowercase j, which the game font cannot render at native size (project rule: avoid lowercase j/q outside locked names). Swapped for a synonym with identical meaning."
+    },
+    {
+      "id": "dialogue_04695",
+      "before": "A fight this fun\nisn't something you get to experience just anywhere.",
+      "after": "A fight this fun\nisn't something you get to experience anywhere else.",
+      "reason": "Same lowercase-j font constraint as dialogue_04690; reworded to keep the meaning ('not available elsewhere') without the letter."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [4665, 4666, 4667, 4668, 4669, 4726, 4729, 4730, 4731],
+      "finding": "Translator's uncertainty confirmed and ruled acceptable: Ryoma/Hayato/Benkei vs. the Invader-controlled Saotome trade taunts across these rows with speakers untagged in the table. Every line's addressee is either self-evident from content (an insult replied to with an insult) or fixed by the following row's <color()>-tagged reply (4730 names Ryoma, Hayato and Benkei directly; 4731 names Berkt). No name or identity is invented beyond what the source already fixes. No change needed."
+    },
+    {
+      "rows": [4692, 4697, 4698],
+      "finding": "Translator's uncertainty confirmed: 'she' in 4697/4698 refers to Cynthia, named two rows earlier in 4692 (glossary: Cynthia Lane, female). This is a carried-over referent, not an invented gender. No change needed."
+    },
+    {
+      "rows": [4723],
+      "finding": "Translator's uncertainty confirmed, with an added note: the omitted subject of 'とっくに離脱しちゃったわ' could grammatically be first person (the speaker herself, if 4723 is Cynthia's own voice replying to Gainer's 4722 call) rather than third person. Both readings are defensible from the table order alone; the existing target ('She pulled out a while ago already') picks the third-person reading, which stays consistent with the established referent (Cynthia) and does not invent a new identity or gender either way. Left as-is; flagging the residual ambiguity rather than rewriting on a guess."
+    },
+    {
+      "rows": [4733, 4734, 4735],
+      "finding": "Translator's uncertainty confirmed: the speaker after the Shin Dragon withdraws (4732) is not named in-line. The English correctly avoids asserting a name. (Note: the batch's own uncertainty note describes Berkt as 'commanding Blood Ark forces per glossary' -- the glossary entry for Berkt actually says 'Officer of the New Federation', not Blood Ark; this is a discrepancy in the translator's internal reasoning only, not in the translated English text, so no target line needed correction.)"
+    },
+    {
+      "rows": [4728],
+      "finding": "'He's here!!' for a source line with no explicit subject, immediately followed by the name 'Berkt', is grounded by that following word rather than guessed ahead of it. Consistent with the project rule against inventing identity. No change needed."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran a throwaway script (scratchpad only, not committed) that re-fetched all 80 rows via tools/dialogue_corpus.py and compared the ordered list of <...> commands against each target: all 80 matched exactly, including rows lacking <ed()> in the source (4662, 4668, 4671, 4672, 4693, 4729, 4730, 4735), which were correctly left without it.",
+    "format": "All 80 targets contain the same newline count as their source row; no raw/extra newlines introduced.",
+    "fit": "All 80 targets are ASCII-only (no non-ASCII characters present) and <=110 visible characters (tags and newlines excluded). No row required further shortening.",
+    "fonts": "Checked all 80 targets for lowercase j/q outside locked names; found and fixed 2 (dialogue_04690, dialogue_04695 -- see meaning_fixes). No lowercase j/q remain.",
+    "glossary": "Names/ranks/terms re-checked against work/glossary/character_names_021.json, terms_028.json, unit_names_014_a/b.json: Ryoma, Hayato, Benkei, Saotome, Gainer, Cynthia, Berkt all match locked spellings; no renames needed."
+  }
+}

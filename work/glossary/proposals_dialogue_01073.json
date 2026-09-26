@@ -1,0 +1,14 @@
+{
+  "batch":"dialogue_01073–01152",
+  "status":"proposals_for_orchestrator_review",
+  "entries":[
+    {"source":"第一次防衛戦争","target":"First Defensive War","category":"event","status":"researched","sources":["https://en.wikipedia.org/wiki/Another_Century%27s_Episode_3%3A_The_Final"]},
+    {"source":"ガンアーク","target":"Gun Ark","category":"unit_type","status":"researched","sources":["https://en.wikipedia.org/wiki/Another_Century%27s_Episode_2"],"note":"Also appears in existing Marina Carson glossary profile."},
+    {"source":"アンチボディ","target":"Antibody","category":"unit_type","status":"researched","sources":["https://www.brainpowered.jp/antibody/"],"note":"Official anime site uses ANTIBODY heading and defines living mecha category. English plural Antibodies."},
+    {"source":"プレート","target":"Plate","category":"object","status":"researched","sources":["https://www.brainpowered.jp/antibody/"],"note":"Short form of Organic Plate in Brain Powerd context; do not expand when source uses short form."},
+    {"source":"ノヴィス・ノア","target":"Novis Noah","category":"vessel","status":"researched","sources":["https://www.mahq.net/category/brain-powerd/","https://www.absoluteanime.com/brain_powered/"],"aliases":["ノヴィス、ノア"],"note":"Comma in source1131 separates parts of a single vessel name."},
+    {"source":"リクレイマー","target":"Reclaimer","category":"organization_member","status":"researched","sources":["https://www.absoluteanime.com/brain_powered/","https://www.brainpowered.jp/antibody/"],"note":"Plural Reclaimers for group."},
+    {"source":"バニング","target":"Burning","canonical_full_name":"South Burning","category":"character","status":"researched","profile":{"gender":"male","nicknames":[],"nicknames_status":"not_found_in_reviewed_sources","personality":"Veteran mentor and tactician; no broader personality conclusion required for this slice.","position":"Earth Federation mobile-suit pilot and platoon leader aboard Albion; Captain."},"sources":["https://gundam.fandom.com/wiki/South_Burning","https://anipike.asie.pl/arch/1999/14/eeeb44e96dae50b62f1f6edbb7ff57/gundam.anime.net/chara/gundam0083.html"],"note":"Some English adaptations use Lieutenant for the same Japanese rank; central glossary should choose consistent service mapping."},
+    {"source":"ユウ・ブレン","target":"Yu Brain","category":"unit","status":"researched","sources":["https://www.hlj.com/moderoid-yu-brain-brain-powerd-gsc16118"],"note":"Licensed Good Smile model product description identifies Yu Isami's living machine as Yu Brain. Addressed machine rather than pilot."}
+  ]
+}

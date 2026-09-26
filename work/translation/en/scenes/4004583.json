@@ -1,0 +1,577 @@
+{
+ "resource_id": 4004583,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 61,
+ "rows_examined": 61,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)>Before we deploy, please say a word to everyone.",
+   "notes": "",
+   "source_sha256": "175183565847437ca03f639f796c9dcb3b6978999ed7c6b42fc380cc85bc45fd"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(16010,1)><speed(2)>Um... since some of you I'm meeting for the first time, let me introduce myself.",
+   "notes": "",
+   "source_sha256": "b15b1cc78496318d37964b11fa64059fc45671e61e2173fa3a3930c7e7385652"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(16010,1)><speed(2)>Pilot of the <color(4)>Nanajin<ce()>, <color(4)>Asap Suzuki<ce()>.",
+   "notes": "'Nanajin no pilot, Asap Suzuki desu' reordered to keep the two color-tagged terms in source order rather than the usual English self-intro order.",
+   "source_sha256": "4ece5973384a110891537f1957b9e5499d816062f9898c05f610f2dc63d541ca"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(16010,1)><speed(2)>I was sent from the present day to Byston Well... and came back to the surface together with King <color(5)>Sakomizu<ce()>.",
+   "notes": "",
+   "source_sha256": "ac6a7842db5a1269600345b8a06a142039db0c0a334c5ff5da9ff85b2229110b"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(16010,1)><speed(2)>Since I came back to the surface, Commander <color(4)>Misumaru<ce()> has protected me, but I've decided to help everyone.",
+   "notes": "Orchestrator: shortened to fit three lines.",
+   "source_sha256": "14a3580ba1856ca6b6b8d40c535515fec092df04a3e49f4d6c1ccde1843f1d40"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(16010,1)><speed(2)>Commander <color(4)>Misumaru<ce()> was against it, but we bear some responsibility for this too. I want to stop King <color(5)>Sakomizu<ce()>.",
+   "notes": "",
+   "source_sha256": "1b18bf3d187c4740d566d5da3b0ff0ccc8ebb111c3fc559be847749c99ca23e1"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(16040,1)><speed(2)>My father was driven to despair by how much the surface world, his homeland, had changed.",
+   "notes": "",
+   "source_sha256": "dff99aba6c125d034f214349256976f1c3b9ad8bd514c707a4838c4fbcc76d15"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(16040,1)><speed(2)>And now, believing he must destroy today's surface and build a new world, he's attacking it.",
+   "notes": "",
+   "source_sha256": "8aca2a841c3c4a64a601cd61f402d2a8501f9d30fdf0466b63d6306933507e97"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(16040,1)><speed(2)>Right now my father is possessed by delusion. Please, lend us your strength.",
+   "notes": "",
+   "source_sha256": "6a099dc6bb451425897a2161b566d9910816cfa80b144a8d9c7c1dbaa7b8417c"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(14030,1)><speed(2)>Of course. This is our problem too.",
+   "notes": "",
+   "source_sha256": "0ba39259920fc0cdad30559317f3c3355e091377c36d11c56d77b536411053fc"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(17010,1)><speed(2)>Still, though. Something about this doesn't sit right with me at all!",
+   "notes": "",
+   "source_sha256": "db0bb674ef1195dc6cff144ee735bd1439c0d014c50fae4b3d7293c814867971"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(17010,1)><speed(2)>Even with these so-called Holy Warriors attacking, is it really okay to simply leave 5th Luna alone?",
+   "notes": "",
+   "source_sha256": "3307d8869f2d4e968d56a7c5f0b7e9c0a9e8cf91aa944e2f399ce4794475a48a"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(5010,1)><speed(2)>They've got the <color(4)>Ra Cailum<ce()> over there. We simply have to trust <color(4)>Bright<ce()>.",
+   "notes": "",
+   "source_sha256": "dbc4967c5e667cbed2d1f4a67100a3f3d0bd0bd99995190eb6da798e75235e09"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(12031,1)><speed(2)>You're right. Let's do what we can do.",
+   "notes": "",
+   "source_sha256": "710d8f1a3af40a3ef0768281b60c808b051b4317877152977ef6c35a198f292a"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(12031,1)><speed(2)>Once we've stopped the <color(5)>Sakomizu army<ce()>, let's head straight to reinforce them.",
+   "notes": "",
+   "source_sha256": "49ad67cfcf81ecff80e14bed2bd6b95f9d542fe226b3125ae755fbd1bab462cb"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>, you look listless. This is an important part, so get your head in the game.",
+   "notes": "",
+   "source_sha256": "7214e666fd9122f5b52789471960717785001b2aa9eff256e51500216588b687"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>...I know. Quit talking to me like you're my guardian!",
+   "notes": "",
+   "source_sha256": "7dd5a1d2ad8d53c2d0d46781725ff73d9dd81a494499765b3fbc6ad483c7f7e2"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)>...Fine, as long as you know.",
+   "notes": "",
+   "source_sha256": "2bbdaa01bbf24a6f7b0b3969f745c97a1c61442e00317711a205249c83f9921f"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>Ah... sorry. I can't help thinking about him...",
+   "notes": "",
+   "source_sha256": "4671934bb406fd82ae0b98b2e56aa4add97291cbe26f87bbae11c3dff5c18dfc"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>Sorry for nagging you too.",
+   "notes": "",
+   "source_sha256": "4bc433ef26ce2261e7f71d9b57328d276388e14480982baab5fd80cbb108a797"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(21010,1)><speed(2)><color(4)>Amuro<ce()>, you fought a guy named <color(5)>Char<ce()> back in the day, right? What kind of person was he?",
+   "notes": "",
+   "source_sha256": "c7846fa333d394e0c1f5e60e0efe2f4460331de58dc0e2d3c7a4f6c092e2efaf"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>...A sharp man. No, a man who's too sharp. He thinks about too many things.",
+   "notes": "",
+   "source_sha256": "fed31a32b3e79fa5d6c21f442cf441fd2bba8df3b7b9f0f5932ba4383f51737b"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(5010,1)><speed(2)>That's probably why he can't stand the way the world is now.",
+   "notes": "",
+   "source_sha256": "4a0d472ba6f818163734ada779fc13f9906e2b10816589cbd2f099b432ab237a"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(21010,1)><speed(2)>If <color(4)>Amuro<ce()> says so, he must really be something.",
+   "notes": "",
+   "source_sha256": "090c1c2c4996685885bc5f0edd68e86441ef6fcb9340dc2354c634f8c2d472d4"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,1)><speed(2)>Prioritizing their own safety over the whole Earth, huh. Big shots are hopeless.",
+   "notes": "",
+   "source_sha256": "5e5d36581a28d6ce9f5590f9c4b8800f952065fcfafc11ccd807c62c9427faac"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10010,1)><speed(2)>Makes you feel kind of... empty, being a soldier.",
+   "notes": "",
+   "source_sha256": "e051fdf886c838934eab52cdad903430f119f0197f5424d38b61b17d69b17a6a"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,1)><speed(2)>Huh?!",
+   "notes": "",
+   "source_sha256": "0cb9f1ba78b29445528f4845ae599f4b9125621d151330ae5dc9bb1f0ea00146"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(23010,1)><speed(2)>Wh-whaaat!?",
+   "notes": "",
+   "source_sha256": "08c00981d316af89a53b16ab2f6d053acafb7e5993079e778b8c06d9890f9d87"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(10010,1)><speed(2)>D-did I say something wrong!?",
+   "notes": "",
+   "source_sha256": "f218d580106963a35b069154e5cc0151b5baba999f807748e6672d48bce8a9ab"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(10020,1)><speed(2)>Nah. What you're saying actually makes sense, I think?",
+   "notes": "",
+   "source_sha256": "24756d35a36b3eed89d99bfddd9abefd4b51723f8823f664176c543fad58b6ea"
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "text_id": 106,
+   "en": "<operator(23010,1)><speed(2)><color(4)>Kaine<ce()>, saying something that sensible...",
+   "notes": "",
+   "source_sha256": "8342957916be241739ed3fd2e0ce5becf90be4f039971553b240785503e73fce"
+  },
+  {
+   "table": 1,
+   "slot": 106,
+   "text_id": 107,
+   "en": "<operator(10010,1)><speed(2)>Y-y-you guys, I swear...!!",
+   "notes": "",
+   "source_sha256": "fb04c775221b1440cd36240b3616028ded61ec1c688f269be09c016c1b7afced"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(25010,1)><speed(2)>What's up with old man <color(4)>Misumaru<ce()>? That wishy-washy attitude!",
+   "notes": "",
+   "source_sha256": "1b7c576ee39891b9aacd863c3cdb1c75d5eb28d65ed366e5a5f28915c1b68ec4"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(25010,1)><speed(2)>Where'd all that pointless bravado of his go, huh?",
+   "notes": "",
+   "source_sha256": "a3fd1b1dd49c9c7b3c0b9eb533de9d3d95fe0b6e9bf0987248ad90b25d5c85dd"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(25020,1)><speed(2)>Can't be helped. He has to pass down orders he can't make sense of himself.",
+   "notes": "",
+   "source_sha256": "b111e4e4d0232d98414efc47c11b58171557430fe23d0a13ef1057ecf3924b81"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(25020,1)><speed(2)>Though someone like you probably wouldn't get that.",
+   "notes": "",
+   "source_sha256": "dd621aef932af76eebcede236ea9edb01f36f977cbb8c551dfb378073ac9d976"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(25010,1)><speed(2)>Fine by me if I don't get it! Fighting's what I'm suited for anyway!",
+   "notes": "",
+   "source_sha256": "a1cde630be62893de6de8075ce8d7d55f46412a0a1e024ad0219b1e2ba316d87"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(17010,1)><speed(2)><color(4)>Tiffa<ce()>, aren't you scared?",
+   "notes": "",
+   "source_sha256": "304269b83568bf2582583896f8da0af40074045bbd6c685e06b93cba1aa38cbe"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17070,1)><speed(2)>I'm all right.",
+   "notes": "",
+   "source_sha256": "08a4a96366ce8518703e0b14eebf5d317f37d6da85712c57833f4fbddce65ac6"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(17030,1)><speed(2)>Can't say I feel the same. Not with a plan like this.",
+   "notes": "",
+   "source_sha256": "3f8ba4cc6ad4e7a0a3d74f034a80b81f655caad42aec01ddd649e33768b68970"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(17020,1)><speed(2)>Yeah... I've got a bad feeling about this.",
+   "notes": "",
+   "source_sha256": "1967597771763b9f3be7944a02d88fa7ed4e51dae31ce8a34eae115597af9082"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(17070,1)><speed(2)>It's all right.",
+   "notes": "",
+   "source_sha256": "0679ed31a53461e5171f1e1b226c2fe766617363476d4b4ae96d4593a83c8ed6"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(17070,1)><speed(2)>I can sense a great light... A very warm light...",
+   "notes": "",
+   "source_sha256": "fe9c04ceaecf6978828d4fadd6023c9183072242a66555a271058f0776296f2f"
+  },
+  {
+   "table": 1,
+   "slot": 185,
+   "text_id": 186,
+   "en": "<operator(17070,1)><speed(2)>It will protect us.",
+   "notes": "",
+   "source_sha256": "e1c8d6f28824c41cc75b2640aa7478c5780ac0e10c4e7501113e1588a3317bd8"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(23010,1)><speed(2)>An Aura Battler... how does it even move?",
+   "notes": "",
+   "source_sha256": "cfad290740a44120c0f28e374aa7d76524b2d0e29dd883e69c168b0a965c254d"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(12091,1)><speed(2)>Artificial skeleton, Byston Well creature muscle for the frame, crustacean shell for the armor.",
+   "notes": "Long 3-line source row compressed to fit the 120-char visible limit; full meaning (artificial skeleton, Byston Well creature muscle, crustacean-shell armor) kept.",
+   "source_sha256": "bc223575d182f80122d777317538fbcf81e332371dee9043f337ccdfc0188050"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(12091,1)><speed(2)>So it has a mechanism that's almost organic enough to call it a living thing.",
+   "notes": "",
+   "source_sha256": "a8332e4ccff3f5d5468e30963cdc24ce50ddfd53dab45c3bd7b41e0504dedd0b"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(21010,1)><speed(2)>Is <color(5)>Char<ce()> really that strong? <color(4)>Amuro<ce()> gets so fired up whenever it comes to him.",
+   "notes": "",
+   "source_sha256": "8d28c8f72213d28ef847e47fd1ee71f3c15059b23d1c88add725ad14a893cbc1"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(21030,1)><speed(2)>They're rivals, apparently. Sounds like there's a lot of history between them too.",
+   "notes": "",
+   "source_sha256": "9ae3422b7587ee183ff6652851d3d2854415b5d6ef8fca30cd37584c11f392fb"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(21010,1)><speed(2)>So basically... he fought <color(4)>Amuro<ce()> for the throne. Sounds like a real terrifying opponent.",
+   "notes": "",
+   "source_sha256": "6e72624554735ca4cf1b5addf21ec33b3e2ff36c617edee58ae66ceb3d5d204c"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(19020,1)><speed(2)>Basically we need to finish this fast and go take care of <color(5)>Char<ce()>, right?",
+   "notes": "",
+   "source_sha256": "0bc80e41fade7bfce03164d196c697b8392aae418a5e7030a1228581dc1d68f9"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(19030,1)><speed(2)>Like it's gonna be that easy. This is why people call you simple-minded!",
+   "notes": "",
+   "source_sha256": "1c833f7bd831a0e9632824bc3b64dab6f975da7a152508f8b7231862a16ea082"
+  },
+  {
+   "table": 1,
+   "slot": 301,
+   "text_id": 302,
+   "en": "<operator(19020,1)><speed(2)>What!? Who're you calling simple-minded!",
+   "notes": "",
+   "source_sha256": "42670c116584b7bb2c9f3a282ec4b493354438ecaada51b4d73545b41ea6a822"
+  },
+  {
+   "table": 1,
+   "slot": 302,
+   "text_id": 303,
+   "en": "<operator(19010,1)><speed(2)>We can't afford to underestimate them.",
+   "notes": "",
+   "source_sha256": "31fc75e8d72ac39dc8afeb6fef2a80dab46ca38c79e41d9466ecd3b60e7d9728"
+  },
+  {
+   "table": 1,
+   "slot": 303,
+   "text_id": 304,
+   "en": "<operator(19020,1)><speed(2)>Ugh...",
+   "notes": "",
+   "source_sha256": "206b2d200bcc65a4ef83f7a5a1745bd5c9806743c7c0637fd789c3048fbe8852"
+  },
+  {
+   "table": 1,
+   "slot": 304,
+   "text_id": 305,
+   "en": "<operator(19030,1)><speed(2)>See, told you!",
+   "notes": "",
+   "source_sha256": "1ca3dad1f5309ae21633aacd1682e6680b5e4058d28585fbda42124197217a7a"
+  },
+  {
+   "table": 1,
+   "slot": 305,
+   "text_id": 306,
+   "en": "<operator(19010,1)><speed(2)>Still, if you ask me which is the bigger threat right now... I'd have to say <color(5)>Neo Zeon<ce()>.",
+   "notes": "",
+   "source_sha256": "85d5f65110599fc3039177aa51a2b024e33b57d15c458f8ea06ee875171812e3"
+  },
+  {
+   "table": 1,
+   "slot": 306,
+   "text_id": 307,
+   "en": "<operator(19020,1)><speed(2)>See, told you!",
+   "notes": "",
+   "source_sha256": "7d2f2196f5825ce646350444b022c2cdc639f5060ff33d2dac0a093642ec00bd"
+  },
+  {
+   "table": 1,
+   "slot": 307,
+   "text_id": 308,
+   "en": "<operator(19010,1)><speed(2)>So... I'll take down both of them.",
+   "notes": "",
+   "source_sha256": "8cec2b0fc0b294e710f8f7c531aa466f16446164baafe782c35431fe5092256b"
+  },
+  {
+   "table": 1,
+   "slot": 339,
+   "text_id": 340,
+   "en": "<operator(16040,1)><speed(2)><color(4)>Asap<ce()>, please be careful.",
+   "notes": "",
+   "source_sha256": "560e7a1e0bb8e62af1eb779d78cdad8b4a552206bea5912d9ce81450063b5a84"
+  },
+  {
+   "table": 1,
+   "slot": 340,
+   "text_id": 341,
+   "en": "<operator(16010,1)><speed(2)>I'll be fine, <color(4)>Luxe<ce()>.",
+   "notes": "",
+   "source_sha256": "e47a027d9556442e7d3b0a4de3ce286cf63a80d2dc491ab39f04314f1d2d8af1"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 220,
+   "issue": "Long source row (3 lines) compressed to fit the 120-char visible limit; full meaning kept (artificial skeleton, Byston Well creature muscle for structure, crustacean shell for armor)."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 61,
+  "rows_in_scene": 61,
+  "meaning_fixes": [
+   {
+    "table": 0,
+    "slot": 19,
+    "before": "Before we deploy, could I get a word from everyone.",
+    "after": "Before we deploy, please say a word to everyone.",
+    "reason": "reversed direction of the request: source ('minasan e hitokoto onegai shimasu') has Ruri asking someone (Asap, who speaks next and introduces himself) to say a word TO everyone, not asking to receive a word FROM everyone; the old phrasing had Ruri as the recipient instead of the person being invited to speak."
+   }
+  ],
+  "format_fixes": [
+   {
+    "table": 0,
+    "slot": 29,
+    "before": "Still, though. Something about this just doesn't sit right with me!",
+    "after": "Still, though. Something about this doesn't sit right with me at all!",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 0,
+    "slot": 30,
+    "before": "...is it really okay to just leave 5th Luna alone?",
+    "after": "...is it really okay to simply leave 5th Luna alone?",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 0,
+    "slot": 31,
+    "before": "...We just have to trust Bright.",
+    "after": "...We simply have to trust Bright.",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 0,
+    "slot": 32,
+    "before": "You're right. Let's just do what we can do.",
+    "after": "You're right. Let's do what we can do.",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 22,
+    "before": "Ah... sorry. I just can't stop thinking about him...",
+    "after": "Ah... sorry. I can't help thinking about him...",
+    "reason": "lowercase j"
+   },
+   {
+    "table": 1,
+    "slot": 299,
+    "before": "Basically we just gotta finish this fast and go take care of Char, right?",
+    "after": "Basically we need to finish this fast and go take care of Char, right?",
+    "reason": "lowercase j"
+   }
+  ],
+  "checked_decisions": [
+   "Table 0 slot 19-24: Ruri's opening line corrected (see meaning_fixes); confirmed by Asap's reply ('let me introduce myself') which only makes sense if Ruri asked him, not the reverse.",
+   "Table 0 slot 21: 'Nanajin' kept as the locked exception name (contains j, per project rule that locked names like Nanajin are the accepted exception to the no-lowercase-j/q rule).",
+   "Table 1 slot 220-221: long 3-line source row compressed to fit the 120-char limit; all three elements (artificial skeleton, Byston Well creature muscle, crustacean-shell armor) kept. Accepted.",
+   "Table 1 slot 261-262: 'sugoi aite' (lit. 'amazing/formidable opponent') rendered 'a real terrifying opponent'; kept - 'terrifying' is a standard English rendering for a formidable combat opponent and matches Gainer's awed-but-wary tone toward Char.",
+   "Names verified against glossary: Char Aznable/Char, Ra Cailum, Bright, Neo Zeon, Amuro, Asap Suzuki, Luxe Sakomizu, King Sakomizu, Tiffa Adill/Tiffa, Nanajin, Holy Warrior(s), Sakomizu army - all match character_names_021.json/glossary.json.",
+   "'5th Luna' kept in digit form, mirroring the source's own fullwidth-digit romanized formatting; no glossary entry exists to confirm an alternate spelling (e.g. 'Fifth Luna').",
+   "Commander Misumaru's title kept as 'Commander' (not 'Captain'), consistent with corpus precedent (4004403) and distinct from the orchestrator's 'Captain' ruling for Amuro/ship captains.",
+   "Full scan for lowercase j/q outside locked names: 6 rows reworded (all lowercase j); 'Nanajin' correctly left as the locked exception. No lowercase q found."
+  ],
+  "remaining_uncertainties": [
+   "Table 1 slot 220: the compressed rendering of Inez's 3-line technical explanation is a paraphrase for length; all factual content is kept but the phrasing is condensed.",
+   "'5th Luna' spelling is unconfirmed by any glossary source; kept as a literal, source-faithful transliteration."
+  ]
+ }
+}

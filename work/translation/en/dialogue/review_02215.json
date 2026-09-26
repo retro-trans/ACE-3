@@ -1,0 +1,156 @@
+{
+  "reviewer": "independent_meaning_review_agent_m07",
+  "slice_start": 2215,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 2200,
+      "end": 2309
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [
+        2215,
+        2216,
+        2217,
+        2218,
+        2219
+      ],
+      "finding": "Text ids 114-118 form one exchange: Saotome (elderly 'oran' speech, 'oroka' echoed in 2216/2219) - retort - Saotome to a singular 'omae'. 'Earth's last day' (chikyuu) here is kept distinct from 'the world's last day' (sekai) of 2214/2271, as in the source. No connective links 2215 to 2214."
+    },
+    {
+      "rows": [
+        2236,
+        2237,
+        2238,
+        2244,
+        2264
+      ],
+      "finding": "Translator doubt on the number of 'kan': plural 'ships' accepted. 2209 'kakukan' and 2278 'kakukan ga sen'iki wo toppa' show several ships advance (Tower, Nadesico and Gekko each have damage lines)."
+    },
+    {
+      "rows": [
+        2240,
+        2247
+      ],
+      "finding": "'kyoten' = 'base' accepted; it is already the corpus form in reviewed rows 993-1032 and 1603-1633 (capture a base)."
+    },
+    {
+      "rows": [
+        2241,
+        2242,
+        2243,
+        2245
+      ],
+      "finding": "Generic operator rows; 'particle field' matches reviewed rows 1267-1307. Translated faithfully whether or not used in this mission."
+    },
+    {
+      "rows": [
+        2248,
+        2249,
+        2250,
+        2251,
+        2252,
+        2253,
+        2254,
+        2255,
+        2256,
+        2257,
+        2258,
+        2259
+      ],
+      "finding": "Alternative ship-damage / ship-loss lines; no speaker or gender asserted. 2252-2253 kept subjectless. 2258 'Captain' per orchestrator decision."
+    },
+    {
+      "rows": [
+        2267,
+        2268,
+        2270,
+        2272
+      ],
+      "finding": "'Genki' matches the alias in character_names_021; 'daughter' only where the source says musume (2270, 2272, 2276, 2281), 'child' where it says wagako (2266, 2267, 2269)."
+    },
+    {
+      "rows": [
+        2273,
+        2277
+      ],
+      "finding": "'oyaji' = 'Dad' accepted. 2277 is unambiguously Kei's; 2273 is addressed to the same person, who answers in 2274-2276."
+    },
+    {
+      "rows": [
+        2275
+      ],
+      "finding": "Supplied 'you' accepted: 2276 (same window, no <ed()> between) has 'omae'."
+    },
+    {
+      "rows": [
+        2286,
+        2287,
+        2288
+      ],
+      "finding": "Unnamed manned unit not named; 2288 passive 'seen' keeps the unstated observer open. 'Saint Cruz' matches glossary."
+    },
+    {
+      "rows": [
+        2232,
+        2290,
+        2293
+      ],
+      "finding": "Zentradi and Getter Rays spellings match glossary/corpus."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2212
+      ],
+      "issue": "(Row belongs to batch_02135, not edited.) 'Saotome-me...' plus plain '...kuratta hazu da' reads as a mutter about Saotome in the third person, which Saotome then answers theatrically in 2213 ('I told you I would not die'). The current 'Saotome, damn you... should have hit you head-on' asserts direct address. Suggested ambiguity-keeping form: 'Damn that Saotome... The Deuteron Missile should have been a direct hit.'"
+    },
+    {
+      "rows": [
+        2214,
+        2215,
+        2216
+      ],
+      "issue": "2213-2214 (ids 112-113) close with <ed()> and answer 2212; 2215 opens a new window with <op()> and starts the separate exchange 114-118. Same speaker (Saotome) but separate exchanges, possibly separate triggers. The apparent contradiction (witness the world's last day vs avert Earth's last day) is in the source and is preserved."
+    },
+    {
+      "rows": [
+        2232
+      ],
+      "issue": "'we fought' supplies a subject the source omits (izen ni tatakatta); harmless because the speaker is an allied pilot, left as is."
+    },
+    {
+      "rows": [
+        2269
+      ],
+      "issue": "Echo of Saotome's 'wagako'. 'My child...?' works as a quoted echo; if the speaker is a third party 'His child...?' would be more natural. Speaker untagged, left."
+    },
+    {
+      "rows": [
+        2291,
+        2292
+      ],
+      "issue": "'ano kitai' rendered singular ('that machine', 'It may have'); the recap in 2374 says 'ano mujinki', rendered plural 'Those unmanned units'. Number is not recoverable from the source; the two rows disagree in English only."
+    },
+    {
+      "rows": [
+        2244,
+        2246
+      ],
+      "issue": "Whose escort units (escort sent to the ships' rear / escort wiped out) is not stated; elsewhere 'goei butai' is also the enemy force guarding a base (1270). Kept neutral."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered angle-bracket command list of every target re-compared with the ISO source (dialogue_corpus.py slice) after review: all equal.",
+    "format": "No newlines; ASCII only; 80 ids present and in order.",
+    "fit": "Visible length <= 110 on every row; no display-fit shortening performed by the review.",
+    "runtime": "Runtime scene selection, speaker portraits, font coverage and visual fit are not established by this meaning review."
+  }
+}

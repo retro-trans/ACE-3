@@ -1,0 +1,95 @@
+{
+ "resource_id": 4003681,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Ex-Giganos",
+   "notes": "Enemy faction name; matches locked 'Ex-Giganos' (names_023.json 'Ex-Giganos Officer/Soldier'; reused verbatim in reviewed scenes 4003551/4003561/4003621/4003631/4003641/4003661).",
+   "source_sha256": "65683b603e21202a3a4d9432a6049611b423a9f3246526359de74bc632018a26"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Martian Successors",
+   "notes": "Enemy faction name; locked (character_names_021.json org.martian_successors; reused in reviewed scenes 4003621/4003631/4003641/4003671 and mission scene 4003220).",
+   "source_sha256": "500e92e9224d8dfd58259b586443249e799aa4eac1dfd201c19fe394fcc79b60"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)><move(1,7,13)>Now then, I will<marker(1,7,13,0)> explain the operation.<move(2,7,13)>",
+   "notes": "",
+   "source_sha256": "a7805f6fdb4aac56fa55f61d269bab46ff7156e3562b9a1e8bcaab26dea3288d"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)><move(1,3,6)>The enemy's defense<marker(22,8,4,0)> force<marker(22,0,5,0)> is<marker(22,4,5,0)> deployed<marker(22,6,7,0)> across<marker(22,1,8,0)> the<marker(22,4,9,0)> whole<move(1,10,7)> operation<marker(22,15,4,0)> area<marker(22,11,5,0)>.<marker(22,13,6,0)> Looks<marker(22,9,7,0)> like<marker(22,14,7,0)> they<marker(22,12,9,0)> mean<move(1,8,1)> to<marker(26,4,1,0)> fight<marker(26,3,2,0)> an<marker(26,9,0,0)> all-out<marker(26,8,1,0)> war<marker(26,13,1,0)>.<marker(26,14,2,0)><move(2,8,4)><picture(102,2,7,0)><refer(2,7,1,8)><picture(103,30,7,0)><refer(30,7,15,4)>",
+   "notes": "Dense 26-tag marker cluster distributed proportionally across the two clauses rather than mapped word-for-word, per the style of reviewed rows with similar clusters (e.g. 4003581 slot 21).",
+   "source_sha256": "528ff840802f572d6b18d0dd81d3881134c1caf745d06f3e2717c0975b7ad181"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>I am about to access <book(32)>Iwato<endbook()>'s main computer, so in the meantime the <color(4)>Nadesico<ce()> will be left thin on defense.",
+   "notes": "Iwato locked (encyclopedia_022.json id 32, encyclopedia_021_a.json).",
+   "source_sha256": "0333a9c9ce2a5f7880ddf7b630b19ab6b62f0ce5dfb6ccd4f683c142ffc3e4be"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>For<marker(48,0,6,0)> a<marker(48,1,9,0)> while<marker(48,4,6,0)>, hold<marker(48,4,10,0)> off<marker(48,6,8,0)> the<marker(48,8,5,0)> enemy's<marker(48,9,8,0)> advance<marker(48,11,6,0)>, so the <color(6)>operation<marker(48,12,10,0)> area<marker(48,13,7,0)> doesn't<marker(48,14,8,0)> get<line(43,0,14,15,14)> breached<marker(48,15,5,0)><ce()>.",
+   "notes": "",
+   "source_sha256": "729b42ed39a18b652a382ea15cba2347829966578a0f05d043ae6611a0bbd468"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)>If<marker(5,1,12,0)> even<marker(5,4,13,0)> a little slips through, the <color(4)>Nadesico<marker(5,6,11,0)><ce()> will<marker(5,9,11,0)> be<marker(5,12,13,0)> put in danger<marker(5,14,11,0)>.",
+   "notes": "",
+   "source_sha256": "24f02f3e9895f85e3f8daf1501820c33640dbf893b4eac4db08884efe93a5c82"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>This will likely be a tough fight, but I'm counting on all of you.",
+   "notes": "",
+   "source_sha256": "24d45529036afc1948b56074197713519b7cd7d6821abf6f98c68608d33add0f"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "26-tag marker cluster spread across the sentence without a strict word-for-word mapping; same approach accepted in reviewed scene 4003581 slot 21."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Ex-Giganos and Martian Successors slot 0/1 header names match names_023.json / character_names_021.json.",
+   "Speaker 12031 is Ruri Hoshino (speaker_lookup.py); all lines are her briefing to the Nadesico crew, no wrong-addressee issue.",
+   "Slot 20: dense 26-tag marker cluster distributed across the two-clause sentence rather than mapped word-for-word; ruled acceptable per orchestrator guidance and consistent with reviewed scene 4003581 slot 21.",
+   "No mistranslation, reversed meaning, invented subject/added honorific, or dropped sentence ending found in any row; command tag order and count match the source exactly in every row (verified programmatically)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: the 26-tag marker cluster's exact per-character mapping to the source cannot be fully verified word-for-word, only that the count/order match and the distribution is proportionate; left as in the draft per the accepted style."
+  ]
+ }
+}

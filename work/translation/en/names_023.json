@@ -1,0 +1,3442 @@
+{
+ "version": "0.1.23",
+ "review": {
+  "status": "meaning_reviewed",
+  "method": "Glossary lookup only: every label comes from glossary.json, character_names_021.json, speaker_names.json or the generic-label list in tools/prepare_names_023.py. No free translation."
+ },
+ "agent_do_not_touch": "Name spellings are normalized by script from the glossary. Do not change them during dialogue reviews.",
+ "categories": [
+  {
+   "table_id": 3014,
+   "reference_bundle": 4002050,
+   "complete": true,
+   "category": "full names",
+   "rows": [
+    {
+     "slot": 0,
+     "text_id": 1020,
+     "source": "マリナ・カーソン",
+     "en": "Marina Carson",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 11,
+     "text_id": 1050,
+     "source": "ベルクト",
+     "en": "Berkt",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 12,
+     "text_id": 1051,
+     "source": "ベルクト",
+     "en": "Berkt",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 31,
+     "text_id": 1070,
+     "source": "アンジェ・レイヴァー",
+     "en": "Ange Raver",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 42,
+     "text_id": 5020,
+     "source": "シャア・アズナブル",
+     "en": "Char Aznable",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 52,
+     "text_id": 5030,
+     "source": "ブライト・ノア",
+     "en": "Bright Noa",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 53,
+     "text_id": 5080,
+     "source": "クェス・パラヤ",
+     "en": "Quess Paraya",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 63,
+     "text_id": 5090,
+     "source": "ギュネイ・ガス",
+     "en": "Gyunei Guss",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 64,
+     "text_id": 6011,
+     "source": "ヒイロ・ユイ",
+     "en": "Heero Yuy",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 65,
+     "text_id": 7010,
+     "source": "ショウ・ザマ",
+     "en": "Show Zama",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 66,
+     "text_id": 7030,
+     "source": "マーベル・フローズン",
+     "en": "Marvel Frozen",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 67,
+     "text_id": 7100,
+     "source": "ジェリル・クチビ",
+     "en": "Jeryll Coochibie",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 68,
+     "text_id": 7120,
+     "source": "黒騎士",
+     "en": "Black Knight",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 69,
+     "text_id": 10010,
+     "source": "ケーン・ワカバ",
+     "en": "Kaine Wakaba",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 79,
+     "text_id": 10020,
+     "source": "タップ・オセアノ",
+     "en": "Tapp Oceano",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 89,
+     "text_id": 10030,
+     "source": "ライト・ニューマン",
+     "en": "Light Newman",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 99,
+     "text_id": 10040,
+     "source": "マイヨ・プラート",
+     "en": "Meio Plato",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 100,
+     "text_id": 10110,
+     "source": "グン・ジェム",
+     "en": "Gon Jem",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 110,
+     "text_id": 10120,
+     "source": "リー・スー・ミン",
+     "en": "Lee Sue Min",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 111,
+     "text_id": 11010,
+     "source": "宇都宮比瑪",
+     "en": "Hime Utsumiya",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 121,
+     "text_id": 11020,
+     "source": "伊佐未勇",
+     "en": "Yuu Isami",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 122,
+     "text_id": 11120,
+     "source": "ジョナサン・グレーン",
+     "en": "Jonathan Glenn",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 132,
+     "text_id": 11130,
+     "source": "クインシィ・イッサー",
+     "en": "Quincy Issa",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 133,
+     "text_id": 12011,
+     "source": "テンカワ・アキト",
+     "en": "Akito Tenkawa",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 134,
+     "text_id": 12031,
+     "source": "ホシノ・ルリ",
+     "en": "Ruri Hoshino",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 135,
+     "text_id": 12051,
+     "source": "スバル・リョーコ",
+     "en": "Ryoko Subaru",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 145,
+     "text_id": 12061,
+     "source": "アマノ・ヒカル",
+     "en": "Hikaru Amano",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 155,
+     "text_id": 12071,
+     "source": "マキ・イズミ",
+     "en": "Izumi Maki",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 156,
+     "text_id": 12091,
+     "source": "イネス・フレサンジュ",
+     "en": "Inez Fressange",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 167,
+     "text_id": 12121,
+     "source": "月臣元一朗",
+     "en": "Genichiro Tsukiomi",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 168,
+     "text_id": 12140,
+     "source": "マキビ・ハリ",
+     "en": "Hari Makibi",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 178,
+     "text_id": 12150,
+     "source": "北辰",
+     "en": "Hokushin",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 179,
+     "text_id": 14010,
+     "source": "一条輝",
+     "en": "Hikaru Ichijyo",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 189,
+     "text_id": 14020,
+     "source": "マクシミリアン・ジーナス",
+     "en": "Maximilian Jenius",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 190,
+     "text_id": 14021,
+     "source": "マクシミリアン・ジーナス",
+     "en": "Maximilian Jenius",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 199,
+     "text_id": 14030,
+     "source": "ロイ・フォッカー",
+     "en": "Roy Focker",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 200,
+     "text_id": 14130,
+     "source": "ミリア・ファリーナ・ジーナス",
+     "en": "Milia Fallyna Jenius",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 201,
+     "text_id": 15010,
+     "source": "ドモン・カッシュ",
+     "en": "Domon Kasshu",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 202,
+     "text_id": 15060,
+     "source": "東方不敗",
+     "en": "Master Asia",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 203,
+     "text_id": 16010,
+     "source": "エイサップ・鈴木",
+     "en": "Asap Suzuki",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 204,
+     "text_id": 16040,
+     "source": "リュクス・サコミズ",
+     "en": "Luxe Sakomizu",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 205,
+     "text_id": 16060,
+     "source": "シンジロウ・サコミズ",
+     "en": "Shinjiro Sakomizu",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 206,
+     "text_id": 17010,
+     "source": "ガロード・ラン",
+     "en": "Garrod Ran",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 216,
+     "text_id": 17020,
+     "source": "ウィッツ・スー",
+     "en": "Witz Sou",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 226,
+     "text_id": 17030,
+     "source": "ロアビィ・ロイ",
+     "en": "Roybea Loy",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 236,
+     "text_id": 17040,
+     "source": "ジャミル・ニート",
+     "en": "Jamil Neate",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 237,
+     "text_id": 17070,
+     "source": "ティファ・アディール",
+     "en": "Tiffa Adill",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 238,
+     "text_id": 17071,
+     "source": "ルチル",
+     "en": "Lucille Liliant",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 247,
+     "text_id": 17080,
+     "source": "サラ・タイレル",
+     "en": "Sala Tyrrell",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 248,
+     "text_id": 17160,
+     "source": "シャギア・フロスト",
+     "en": "Shagia Frost",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 258,
+     "text_id": 17170,
+     "source": "オルバ・フロスト",
+     "en": "Olba Frost",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 260,
+     "text_id": 19010,
+     "source": "號",
+     "en": "Go",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 270,
+     "text_id": 19020,
+     "source": "渓",
+     "en": "Kei",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 280,
+     "text_id": 19030,
+     "source": "凱",
+     "en": "Gai",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 290,
+     "text_id": 19040,
+     "source": "流竜馬",
+     "en": "Ryoma Nagare",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 291,
+     "text_id": 19041,
+     "source": "流竜馬",
+     "en": "Ryoma Nagare",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 300,
+     "text_id": 19050,
+     "source": "神隼人",
+     "en": "Hayato Jin",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 310,
+     "text_id": 19060,
+     "source": "車弁慶",
+     "en": "Benkei Kuruma",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 311,
+     "text_id": 19100,
+     "source": "早乙女",
+     "en": "Dr. Saotome",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 312,
+     "text_id": 20010,
+     "source": "ロラン・セアック",
+     "en": "Loran Cehack",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 313,
+     "text_id": 20110,
+     "source": "ギム・ギンガナム",
+     "en": "Gym Ghingham",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 314,
+     "text_id": 21010,
+     "source": "ゲイナー・サンガ",
+     "en": "Gainer Sanga",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 324,
+     "text_id": 21020,
+     "source": "ゲイン・ビジョウ",
+     "en": "Gain Bijou",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 334,
+     "text_id": 21030,
+     "source": "サラ・コダマ",
+     "en": "Sara Kodama",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 335,
+     "text_id": 21130,
+     "source": "ヤッサバ・ジン",
+     "en": "Yassaba Jin",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 345,
+     "text_id": 21140,
+     "source": "アスハム・ブーン",
+     "en": "Asuham Boone",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 355,
+     "text_id": 21150,
+     "source": "シンシア・レーン",
+     "en": "Cynthia Lane",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 365,
+     "text_id": 21160,
+     "source": "カシマル・バーレ",
+     "en": "Kashmir Valle",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 366,
+     "text_id": 22010,
+     "source": "キラ・ヤマト",
+     "en": "Kira Yamato",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 367,
+     "text_id": 22100,
+     "source": "アスラン・ザラ",
+     "en": "Athrun Zala",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 368,
+     "text_id": 23010,
+     "source": "レントン・サーストン",
+     "en": "Renton Thurston",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 378,
+     "text_id": 23020,
+     "source": "エウレカ",
+     "en": "Eureka",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 388,
+     "text_id": 23030,
+     "source": "ホランド・ノヴァク",
+     "en": "Holland Novak",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 398,
+     "text_id": 23040,
+     "source": "タルホ・ユーキ",
+     "en": "Talho Yuki",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 399,
+     "text_id": 23100,
+     "source": "ギジェット",
+     "en": "Gidget",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 400,
+     "text_id": 23200,
+     "source": "アネモネ",
+     "en": "Anemone",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 410,
+     "text_id": 23210,
+     "source": "チャールズ・ビームス",
+     "en": "Charles Beams",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 420,
+     "text_id": 23220,
+     "source": "レイ・ビームス",
+     "en": "Ray Beams",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 430,
+     "text_id": 23230,
+     "source": "ドミニク・ソレル",
+     "en": "Dominic Sorel",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 440,
+     "text_id": 23240,
+     "source": "ユルゲンス",
+     "en": "Jurgens",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 450,
+     "text_id": 23250,
+     "source": "デューイ・ノヴァク",
+     "en": "Dewey Novak",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 451,
+     "text_id": 23290,
+     "source": "ノルブ",
+     "en": "Norb",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 461,
+     "text_id": 23300,
+     "source": "サクヤ",
+     "en": "Sakuya",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 471,
+     "text_id": 23310,
+     "source": "グレッグ・ベア・イーガン",
+     "en": "Greg Egan",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 473,
+     "text_id": 24300,
+     "source": "京田四郎",
+     "en": "Shiro Kyoda",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 474,
+     "text_id": 25010,
+     "source": "イサム・ダイソン",
+     "en": "Isamu Alva Dyson",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 484,
+     "text_id": 25020,
+     "source": "ガルド・ゴア・ボーマン",
+     "en": "Guld Goa Bowman",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 505,
+     "text_id": 30020,
+     "source": "ブライト・ノア",
+     "en": "Bright Noa",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 515,
+     "text_id": 30030,
+     "source": "ホシノ・ルリ",
+     "en": "Ruri Hoshino",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 525,
+     "text_id": 30040,
+     "source": "イネス・フレサンジュ",
+     "en": "Inez Fressange",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 545,
+     "text_id": 30060,
+     "source": "ジャミル・ニート",
+     "en": "Jamil Neate",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 555,
+     "text_id": 30070,
+     "source": "ティファ・アディール",
+     "en": "Tiffa Adill",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 565,
+     "text_id": 30080,
+     "source": "サラ・タイレル",
+     "en": "Sala Tyrrell",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 575,
+     "text_id": 30090,
+     "source": "神隼人",
+     "en": "Hayato Jin",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 585,
+     "text_id": 30100,
+     "source": "ゲイン・ビジョウ",
+     "en": "Gain Bijou",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 595,
+     "text_id": 30110,
+     "source": "ホランド・ノヴァク",
+     "en": "Holland Novak",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 605,
+     "text_id": 30120,
+     "source": "タルホ・ユーキ",
+     "en": "Talho Yuki",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 615,
+     "text_id": 30130,
+     "source": "ノルブ",
+     "en": "Norb",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 625,
+     "text_id": 30140,
+     "source": "グレッグ・ベア・イーガン",
+     "en": "Greg Egan",
+     "dialog": false,
+     "limit": 230
+    },
+    {
+     "slot": 635,
+     "text_id": 30150,
+     "source": "竜馬",
+     "en": "Ryoma",
+     "dialog": false,
+     "limit": 230
+    }
+   ]
+  },
+  {
+   "table_id": 3026,
+   "reference_bundle": 4002053,
+   "complete": true,
+   "category": "short names",
+   "rows": [
+    {
+     "slot": 0,
+     "text_id": 1020,
+     "source": "マリナ",
+     "en": "Marina",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 1,
+     "text_id": 1040,
+     "source": "バレル",
+     "en": "Barrel",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 11,
+     "text_id": 1050,
+     "source": "ベルクト",
+     "en": "Berkt",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 12,
+     "text_id": 1051,
+     "source": "ベルクト",
+     "en": "Berkt",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 21,
+     "text_id": 1060,
+     "source": "フェイ",
+     "en": "Faye",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 31,
+     "text_id": 1070,
+     "source": "アンジェ",
+     "en": "Ange",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 32,
+     "text_id": 5010,
+     "source": "アムロ",
+     "en": "Amuro",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 42,
+     "text_id": 5020,
+     "source": "シャア",
+     "en": "Char",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 52,
+     "text_id": 5030,
+     "source": "ブライト",
+     "en": "Bright",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 53,
+     "text_id": 5080,
+     "source": "クェス",
+     "en": "Quess",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 63,
+     "text_id": 5090,
+     "source": "ギュネイ",
+     "en": "Gyunei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 64,
+     "text_id": 6011,
+     "source": "ヒイロ",
+     "en": "Heero",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 65,
+     "text_id": 7010,
+     "source": "ショウ",
+     "en": "Show",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 66,
+     "text_id": 7030,
+     "source": "マーベル",
+     "en": "Marvel",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 67,
+     "text_id": 7100,
+     "source": "ジェリル",
+     "en": "Jeryll",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 68,
+     "text_id": 7120,
+     "source": "黒騎士",
+     "en": "Black Knight",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 69,
+     "text_id": 10010,
+     "source": "ケーン",
+     "en": "Kaine",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 79,
+     "text_id": 10020,
+     "source": "タップ",
+     "en": "Tapp",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 89,
+     "text_id": 10030,
+     "source": "ライト",
+     "en": "Light",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 99,
+     "text_id": 10040,
+     "source": "マイヨ",
+     "en": "Meio",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 100,
+     "text_id": 10110,
+     "source": "グン・ジェム",
+     "en": "Gon Jem",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 110,
+     "text_id": 10120,
+     "source": "ミン",
+     "en": "Min",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 111,
+     "text_id": 11010,
+     "source": "比瑪",
+     "en": "Hime",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 121,
+     "text_id": 11020,
+     "source": "勇",
+     "en": "Yuu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 122,
+     "text_id": 11120,
+     "source": "ジョナサン",
+     "en": "Jonathan",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 132,
+     "text_id": 11130,
+     "source": "クインシィ",
+     "en": "Quincy",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 133,
+     "text_id": 12011,
+     "source": "アキト",
+     "en": "Akito",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 134,
+     "text_id": 12031,
+     "source": "ルリ",
+     "en": "Ruri",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 135,
+     "text_id": 12051,
+     "source": "リョーコ",
+     "en": "Ryoko",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 145,
+     "text_id": 12061,
+     "source": "ヒカル",
+     "en": "Hikaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 155,
+     "text_id": 12071,
+     "source": "イズミ",
+     "en": "Izumi",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 156,
+     "text_id": 12091,
+     "source": "イネス",
+     "en": "Inez",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 166,
+     "text_id": 12101,
+     "source": "ミスマル",
+     "en": "Misumaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 167,
+     "text_id": 12121,
+     "source": "月臣",
+     "en": "Tsukiomi",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 168,
+     "text_id": 12140,
+     "source": "ハーリー",
+     "en": "Harry",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 178,
+     "text_id": 12150,
+     "source": "北辰",
+     "en": "Hokushin",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 179,
+     "text_id": 14010,
+     "source": "輝",
+     "en": "Hikaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 189,
+     "text_id": 14020,
+     "source": "マックス",
+     "en": "Max",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 190,
+     "text_id": 14021,
+     "source": "マックス",
+     "en": "Max",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 199,
+     "text_id": 14030,
+     "source": "フォッカー",
+     "en": "Focker",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 200,
+     "text_id": 14130,
+     "source": "ミリア",
+     "en": "Milia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 201,
+     "text_id": 15010,
+     "source": "ドモン",
+     "en": "Domon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 202,
+     "text_id": 15060,
+     "source": "東方不敗",
+     "en": "Master Asia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 203,
+     "text_id": 16010,
+     "source": "エイサップ",
+     "en": "Asap",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 204,
+     "text_id": 16040,
+     "source": "リュクス",
+     "en": "Luxe",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 205,
+     "text_id": 16060,
+     "source": "サコミズ",
+     "en": "Sakomizu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 206,
+     "text_id": 17010,
+     "source": "ガロード",
+     "en": "Garrod",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 216,
+     "text_id": 17020,
+     "source": "ウィッツ",
+     "en": "Witz",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 226,
+     "text_id": 17030,
+     "source": "ロアビィ",
+     "en": "Roybea",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 236,
+     "text_id": 17040,
+     "source": "ジャミル",
+     "en": "Jamil",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 237,
+     "text_id": 17070,
+     "source": "ティファ",
+     "en": "Tiffa",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 238,
+     "text_id": 17071,
+     "source": "ルチル",
+     "en": "Lucille",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 247,
+     "text_id": 17080,
+     "source": "サラ",
+     "en": "Sala",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 248,
+     "text_id": 17160,
+     "source": "シャギア",
+     "en": "Shagia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 258,
+     "text_id": 17170,
+     "source": "オルバ",
+     "en": "Olba",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 260,
+     "text_id": 19010,
+     "source": "號",
+     "en": "Go",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 270,
+     "text_id": 19020,
+     "source": "渓",
+     "en": "Kei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 280,
+     "text_id": 19030,
+     "source": "凱",
+     "en": "Gai",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 290,
+     "text_id": 19040,
+     "source": "竜馬",
+     "en": "Ryoma",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 300,
+     "text_id": 19050,
+     "source": "隼人",
+     "en": "Hayato",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 310,
+     "text_id": 19060,
+     "source": "弁慶",
+     "en": "Benkei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 311,
+     "text_id": 19100,
+     "source": "早乙女",
+     "en": "Saotome",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 312,
+     "text_id": 20010,
+     "source": "ロラン",
+     "en": "Loran",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 313,
+     "text_id": 20110,
+     "source": "ギム",
+     "en": "Gym",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 314,
+     "text_id": 21010,
+     "source": "ゲイナー",
+     "en": "Gainer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 324,
+     "text_id": 21020,
+     "source": "ゲイン",
+     "en": "Gain",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 334,
+     "text_id": 21030,
+     "source": "サラ",
+     "en": "Sara",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 335,
+     "text_id": 21130,
+     "source": "ヤッサバ",
+     "en": "Yassaba",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 345,
+     "text_id": 21140,
+     "source": "アスハム",
+     "en": "Asuham",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 355,
+     "text_id": 21150,
+     "source": "シンシア",
+     "en": "Cynthia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 365,
+     "text_id": 21160,
+     "source": "カシマル",
+     "en": "Kashmir",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 366,
+     "text_id": 22010,
+     "source": "キラ",
+     "en": "Kira",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 367,
+     "text_id": 22100,
+     "source": "アスラン",
+     "en": "Athrun",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 368,
+     "text_id": 23010,
+     "source": "レントン",
+     "en": "Renton",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 378,
+     "text_id": 23020,
+     "source": "エウレカ",
+     "en": "Eureka",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 388,
+     "text_id": 23030,
+     "source": "ホランド",
+     "en": "Holland",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 398,
+     "text_id": 23040,
+     "source": "タルホ",
+     "en": "Talho",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 399,
+     "text_id": 23100,
+     "source": "ギジェット",
+     "en": "Gidget",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 400,
+     "text_id": 23200,
+     "source": "アネモネ",
+     "en": "Anemone",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 410,
+     "text_id": 23210,
+     "source": "チャールズ",
+     "en": "Charles",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 420,
+     "text_id": 23220,
+     "source": "レイ",
+     "en": "Ray",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 430,
+     "text_id": 23230,
+     "source": "ドミニク",
+     "en": "Dominic",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 440,
+     "text_id": 23240,
+     "source": "ユルゲンス",
+     "en": "Jurgens",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 450,
+     "text_id": 23250,
+     "source": "デューイ",
+     "en": "Dewey",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 451,
+     "text_id": 23290,
+     "source": "ノルブ",
+     "en": "Norb",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 461,
+     "text_id": 23300,
+     "source": "サクヤ",
+     "en": "Sakuya",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 471,
+     "text_id": 23310,
+     "source": "ベア",
+     "en": "Bear",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 472,
+     "text_id": 24010,
+     "source": "アムロ",
+     "en": "Amuro",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 473,
+     "text_id": 24300,
+     "source": "狂四郎",
+     "en": "Kyoshiro",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 474,
+     "text_id": 25010,
+     "source": "イサム",
+     "en": "Isamu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 484,
+     "text_id": 25020,
+     "source": "ガルド",
+     "en": "Guld",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 485,
+     "text_id": 30000,
+     "source": "フェイ",
+     "en": "Faye",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 495,
+     "text_id": 30010,
+     "source": "アムロ",
+     "en": "Amuro",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 505,
+     "text_id": 30020,
+     "source": "ブライト",
+     "en": "Bright",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 515,
+     "text_id": 30030,
+     "source": "ルリ",
+     "en": "Ruri",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 525,
+     "text_id": 30040,
+     "source": "イネス",
+     "en": "Inez",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 535,
+     "text_id": 30050,
+     "source": "ミスマル",
+     "en": "Misumaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 545,
+     "text_id": 30060,
+     "source": "ジャミル",
+     "en": "Jamil",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 555,
+     "text_id": 30070,
+     "source": "ティファ",
+     "en": "Tiffa",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 565,
+     "text_id": 30080,
+     "source": "サラ",
+     "en": "Sara",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 575,
+     "text_id": 30090,
+     "source": "隼人",
+     "en": "Hayato",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 585,
+     "text_id": 30100,
+     "source": "ゲイン",
+     "en": "Gain",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 595,
+     "text_id": 30110,
+     "source": "ホランド",
+     "en": "Holland",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 605,
+     "text_id": 30120,
+     "source": "タルホ",
+     "en": "Talho",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 615,
+     "text_id": 30130,
+     "source": "ノルブ",
+     "en": "Norb",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 625,
+     "text_id": 30140,
+     "source": "ベア",
+     "en": "Bear",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 635,
+     "text_id": 30150,
+     "source": "竜馬",
+     "en": "Ryoma",
+     "dialog": false,
+     "limit": 220
+    }
+   ]
+  },
+  {
+   "table_id": 3074,
+   "reference_bundle": 4002054,
+   "complete": true,
+   "category": "short names",
+   "rows": [
+    {
+     "slot": 0,
+     "text_id": 1020,
+     "source": "マリナ",
+     "en": "Marina",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 1,
+     "text_id": 1040,
+     "source": "バレル",
+     "en": "Barrel",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 2,
+     "text_id": 1041,
+     "source": "バレル",
+     "en": "Barrel",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 11,
+     "text_id": 1050,
+     "source": "ベルクト",
+     "en": "Berkt",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 12,
+     "text_id": 1051,
+     "source": "ベルクト",
+     "en": "Berkt",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 21,
+     "text_id": 1060,
+     "source": "フェイ",
+     "en": "Faye",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 31,
+     "text_id": 1070,
+     "source": "アンジェ",
+     "en": "Ange",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 32,
+     "text_id": 1500,
+     "source": "オペレーター",
+     "en": "Operator",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 42,
+     "text_id": 1510,
+     "source": "放送",
+     "en": "Broadcast",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 52,
+     "text_id": 1520,
+     "source": "レポーター",
+     "en": "Reporter",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 62,
+     "text_id": 1530,
+     "source": "システム",
+     "en": "System",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 63,
+     "text_id": 1900,
+     "source": "敵士官",
+     "en": "Enemy Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 64,
+     "text_id": 1901,
+     "source": "敵兵士",
+     "en": "Enemy Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 73,
+     "text_id": 1910,
+     "source": "友軍士官",
+     "en": "Allied Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 74,
+     "text_id": 1911,
+     "source": "友軍兵",
+     "en": "Allied Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 76,
+     "text_id": 5010,
+     "source": "アムロ",
+     "en": "Amuro",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 86,
+     "text_id": 5020,
+     "source": "シャア",
+     "en": "Char",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 96,
+     "text_id": 5030,
+     "source": "ブライト",
+     "en": "Bright",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 97,
+     "text_id": 5080,
+     "source": "クェス",
+     "en": "Quess",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 107,
+     "text_id": 5090,
+     "source": "ギュネイ",
+     "en": "Gyunei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 108,
+     "text_id": 5110,
+     "source": "レズン",
+     "en": "Rezin",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 109,
+     "text_id": 5900,
+     "source": "連邦軍士官",
+     "en": "Fed. Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 110,
+     "text_id": 5901,
+     "source": "連邦兵",
+     "en": "Fed. Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 119,
+     "text_id": 5910,
+     "source": "ネオ・ジオン士官",
+     "en": "Neo Zeon Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 120,
+     "text_id": 5911,
+     "source": "ネオ・ジオン兵",
+     "en": "Neo Zeon Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 121,
+     "text_id": 6011,
+     "source": "ヒイロ",
+     "en": "Heero",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 122,
+     "text_id": 7010,
+     "source": "ショウ",
+     "en": "Show",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 132,
+     "text_id": 7020,
+     "source": "チャム",
+     "en": "Cham",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 142,
+     "text_id": 7030,
+     "source": "マーベル",
+     "en": "Marvel",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 143,
+     "text_id": 7100,
+     "source": "ジェリル",
+     "en": "Jeryll",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 144,
+     "text_id": 7120,
+     "source": "黒騎士",
+     "en": "Black Knight",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 145,
+     "text_id": 10010,
+     "source": "ケーン",
+     "en": "Kaine",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 155,
+     "text_id": 10020,
+     "source": "タップ",
+     "en": "Tapp",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 165,
+     "text_id": 10030,
+     "source": "ライト",
+     "en": "Light",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 175,
+     "text_id": 10040,
+     "source": "マイヨ",
+     "en": "Meio",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 176,
+     "text_id": 10110,
+     "source": "グン・ジェム",
+     "en": "Gon Jem",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 186,
+     "text_id": 10120,
+     "source": "ミン",
+     "en": "Min",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 187,
+     "text_id": 10900,
+     "source": "旧ギガノス士官",
+     "en": "Ex-Giganos Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 188,
+     "text_id": 10901,
+     "source": "旧ギガノス兵",
+     "en": "Ex-Giganos Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 189,
+     "text_id": 11010,
+     "source": "比瑪",
+     "en": "Hime",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 199,
+     "text_id": 11020,
+     "source": "勇",
+     "en": "Yuu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 200,
+     "text_id": 11120,
+     "source": "ジョナサン",
+     "en": "Jonathan",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 210,
+     "text_id": 11130,
+     "source": "クインシィ",
+     "en": "Quincy",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 211,
+     "text_id": 12011,
+     "source": "アキト",
+     "en": "Akito",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 212,
+     "text_id": 12012,
+     "source": "アキト",
+     "en": "Akito",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 213,
+     "text_id": 12013,
+     "source": "アキト",
+     "en": "Akito",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 214,
+     "text_id": 12031,
+     "source": "ルリ",
+     "en": "Ruri",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 215,
+     "text_id": 12051,
+     "source": "リョーコ",
+     "en": "Ryoko",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 225,
+     "text_id": 12061,
+     "source": "ヒカル",
+     "en": "Hikaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 235,
+     "text_id": 12071,
+     "source": "イズミ",
+     "en": "Izumi",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 236,
+     "text_id": 12091,
+     "source": "イネス",
+     "en": "Inez",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 246,
+     "text_id": 12101,
+     "source": "ミスマル",
+     "en": "Misumaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 247,
+     "text_id": 12121,
+     "source": "月臣",
+     "en": "Tsukiomi",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 248,
+     "text_id": 12140,
+     "source": "ハーリー",
+     "en": "Harry",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 258,
+     "text_id": 12150,
+     "source": "北辰",
+     "en": "Hokushin",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 259,
+     "text_id": 12900,
+     "source": "火星の後継者",
+     "en": "Martian Successor",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 260,
+     "text_id": 12901,
+     "source": "火星の後継者",
+     "en": "Martian Successor",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 261,
+     "text_id": 14010,
+     "source": "輝",
+     "en": "Hikaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 271,
+     "text_id": 14020,
+     "source": "マックス",
+     "en": "Max",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 272,
+     "text_id": 14021,
+     "source": "マックス",
+     "en": "Max",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 281,
+     "text_id": 14030,
+     "source": "フォッカー",
+     "en": "Focker",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 282,
+     "text_id": 14130,
+     "source": "ミリア",
+     "en": "Milia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 283,
+     "text_id": 15010,
+     "source": "ドモン",
+     "en": "Domon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 284,
+     "text_id": 15060,
+     "source": "東方不敗",
+     "en": "Master Asia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 285,
+     "text_id": 16010,
+     "source": "エイサップ",
+     "en": "Asap",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 286,
+     "text_id": 16040,
+     "source": "リュクス",
+     "en": "Luxe",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 287,
+     "text_id": 16060,
+     "source": "サコミズ",
+     "en": "Sakomizu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 288,
+     "text_id": 16900,
+     "source": "ホウジョウ士官",
+     "en": "Hojo Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 289,
+     "text_id": 16901,
+     "source": "ホウジョウ兵",
+     "en": "Hojo Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 290,
+     "text_id": 17010,
+     "source": "ガロード",
+     "en": "Garrod",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 300,
+     "text_id": 17020,
+     "source": "ウィッツ",
+     "en": "Witz",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 310,
+     "text_id": 17030,
+     "source": "ロアビィ",
+     "en": "Roybea",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 320,
+     "text_id": 17040,
+     "source": "ジャミル",
+     "en": "Jamil",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 321,
+     "text_id": 17070,
+     "source": "ティファ",
+     "en": "Tiffa",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 322,
+     "text_id": 17071,
+     "source": "ルチル",
+     "en": "Lucille",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 331,
+     "text_id": 17080,
+     "source": "サラ",
+     "en": "Sala",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 332,
+     "text_id": 17160,
+     "source": "シャギア",
+     "en": "Shagia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 342,
+     "text_id": 17170,
+     "source": "オルバ",
+     "en": "Olba",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 344,
+     "text_id": 17900,
+     "source": "新連邦士官",
+     "en": "New Fed. Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 345,
+     "text_id": 17901,
+     "source": "新連邦兵",
+     "en": "New Fed. Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 354,
+     "text_id": 17910,
+     "source": "宇宙革命軍士官",
+     "en": "Space Rev. Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 355,
+     "text_id": 17911,
+     "source": "宇宙革命軍兵",
+     "en": "Space Rev. Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 364,
+     "text_id": 17920,
+     "source": "バルチャー兵",
+     "en": "Vulture",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 365,
+     "text_id": 19010,
+     "source": "號",
+     "en": "Go",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 375,
+     "text_id": 19020,
+     "source": "渓",
+     "en": "Kei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 385,
+     "text_id": 19030,
+     "source": "凱",
+     "en": "Gai",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 395,
+     "text_id": 19040,
+     "source": "竜馬",
+     "en": "Ryoma",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 396,
+     "text_id": 19041,
+     "source": "竜馬",
+     "en": "Ryoma",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 405,
+     "text_id": 19050,
+     "source": "隼人",
+     "en": "Hayato",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 406,
+     "text_id": 19051,
+     "source": "隼人",
+     "en": "Hayato",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 415,
+     "text_id": 19060,
+     "source": "弁慶",
+     "en": "Benkei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 416,
+     "text_id": 19100,
+     "source": "早乙女",
+     "en": "Saotome",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 417,
+     "text_id": 20010,
+     "source": "ロラン",
+     "en": "Loran",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 418,
+     "text_id": 20110,
+     "source": "ギンガナム",
+     "en": "Ghingham",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 419,
+     "text_id": 21010,
+     "source": "ゲイナー",
+     "en": "Gainer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 429,
+     "text_id": 21020,
+     "source": "ゲイン",
+     "en": "Gain",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 439,
+     "text_id": 21030,
+     "source": "サラ",
+     "en": "Sara",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 449,
+     "text_id": 21040,
+     "source": "アナ姫",
+     "en": "Princess Ana",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 450,
+     "text_id": 21130,
+     "source": "ヤッサバ",
+     "en": "Yassaba",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 460,
+     "text_id": 21140,
+     "source": "アスハム",
+     "en": "Asuham",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 470,
+     "text_id": 21150,
+     "source": "シンシア",
+     "en": "Cynthia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 480,
+     "text_id": 21160,
+     "source": "カシマル",
+     "en": "Kashmir",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 481,
+     "text_id": 22010,
+     "source": "キラ",
+     "en": "Kira",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 482,
+     "text_id": 22100,
+     "source": "アスラン",
+     "en": "Athrun",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 483,
+     "text_id": 23010,
+     "source": "レントン",
+     "en": "Renton",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 484,
+     "text_id": 23011,
+     "source": "レントン",
+     "en": "Renton",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 485,
+     "text_id": 23012,
+     "source": "レントン",
+     "en": "Renton",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 493,
+     "text_id": 23020,
+     "source": "エウレカ",
+     "en": "Eureka",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 494,
+     "text_id": 23021,
+     "source": "エウレカ",
+     "en": "Eureka",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 503,
+     "text_id": 23030,
+     "source": "ホランド",
+     "en": "Holland",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 504,
+     "text_id": 23031,
+     "source": "ホランド",
+     "en": "Holland",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 513,
+     "text_id": 23040,
+     "source": "タルホ",
+     "en": "Talho",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 514,
+     "text_id": 23100,
+     "source": "ギジェット",
+     "en": "Gidget",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 515,
+     "text_id": 23150,
+     "source": "ミーシャ",
+     "en": "Mischa",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 516,
+     "text_id": 23200,
+     "source": "アネモネ",
+     "en": "Anemone",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 526,
+     "text_id": 23210,
+     "source": "チャールズ",
+     "en": "Charles",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 536,
+     "text_id": 23220,
+     "source": "レイ",
+     "en": "Ray",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 546,
+     "text_id": 23230,
+     "source": "ドミニク",
+     "en": "Dominic",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 556,
+     "text_id": 23240,
+     "source": "ユルゲンス",
+     "en": "Jurgens",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 566,
+     "text_id": 23250,
+     "source": "デューイ",
+     "en": "Dewey",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 567,
+     "text_id": 23290,
+     "source": "ノルブ",
+     "en": "Norb",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 577,
+     "text_id": 23300,
+     "source": "サクヤ",
+     "en": "Sakuya",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 587,
+     "text_id": 23310,
+     "source": "ベア",
+     "en": "Bear",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 588,
+     "text_id": 24010,
+     "source": "アムロ",
+     "en": "Amuro",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 589,
+     "text_id": 24300,
+     "source": "狂四郎",
+     "en": "Kyoshiro",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 590,
+     "text_id": 25010,
+     "source": "イサム",
+     "en": "Isamu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 600,
+     "text_id": 25020,
+     "source": "ガルド",
+     "en": "Guld",
+     "dialog": false,
+     "limit": 220
+    }
+   ]
+  },
+  {
+   "table_id": 3021,
+   "reference_bundle": 1200000,
+   "complete": true,
+   "category": "short names",
+   "rows": [
+    {
+     "slot": 32,
+     "text_id": 1500,
+     "source": "オペレーター",
+     "en": "Operator",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 42,
+     "text_id": 1510,
+     "source": "放送",
+     "en": "Broadcast",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 52,
+     "text_id": 1520,
+     "source": "レポーター",
+     "en": "Reporter",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 62,
+     "text_id": 1530,
+     "source": "システム",
+     "en": "System",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 63,
+     "text_id": 1900,
+     "source": "敵士官",
+     "en": "Enemy Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 64,
+     "text_id": 1901,
+     "source": "敵兵士",
+     "en": "Enemy Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 73,
+     "text_id": 1910,
+     "source": "友軍士官",
+     "en": "Allied Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 74,
+     "text_id": 1911,
+     "source": "友軍兵",
+     "en": "Allied Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 97,
+     "text_id": 5080,
+     "source": "クェス",
+     "en": "Quess",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 107,
+     "text_id": 5090,
+     "source": "ギュネイ",
+     "en": "Gyunei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 108,
+     "text_id": 5110,
+     "source": "レズン",
+     "en": "Rezin",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 109,
+     "text_id": 5900,
+     "source": "連邦軍士官",
+     "en": "Fed. Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 110,
+     "text_id": 5901,
+     "source": "連邦兵",
+     "en": "Fed. Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 119,
+     "text_id": 5910,
+     "source": "ネオ・ジオン士官",
+     "en": "Neo Zeon Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 120,
+     "text_id": 5911,
+     "source": "ネオ・ジオン兵",
+     "en": "Neo Zeon Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 121,
+     "text_id": 6011,
+     "source": "ヒイロ",
+     "en": "Heero",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 122,
+     "text_id": 7010,
+     "source": "ショウ",
+     "en": "Show",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 132,
+     "text_id": 7020,
+     "source": "チャム",
+     "en": "Cham",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 142,
+     "text_id": 7030,
+     "source": "マーベル",
+     "en": "Marvel",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 143,
+     "text_id": 7100,
+     "source": "ジェリル",
+     "en": "Jeryll",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 144,
+     "text_id": 7120,
+     "source": "黒騎士",
+     "en": "Black Knight",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 155,
+     "text_id": 10020,
+     "source": "タップ",
+     "en": "Tapp",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 175,
+     "text_id": 10040,
+     "source": "マイヨ",
+     "en": "Meio",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 176,
+     "text_id": 10110,
+     "source": "グン・ジェム",
+     "en": "Gon Jem",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 186,
+     "text_id": 10120,
+     "source": "ミン",
+     "en": "Min",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 187,
+     "text_id": 10900,
+     "source": "旧ギガノス士官",
+     "en": "Ex-Giganos Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 188,
+     "text_id": 10901,
+     "source": "旧ギガノス兵",
+     "en": "Ex-Giganos Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 189,
+     "text_id": 11010,
+     "source": "比瑪",
+     "en": "Hime",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 199,
+     "text_id": 11020,
+     "source": "勇",
+     "en": "Yuu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 200,
+     "text_id": 11120,
+     "source": "ジョナサン",
+     "en": "Jonathan",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 210,
+     "text_id": 11130,
+     "source": "クインシィ",
+     "en": "Quincy",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 215,
+     "text_id": 12051,
+     "source": "リョーコ",
+     "en": "Ryoko",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 225,
+     "text_id": 12061,
+     "source": "ヒカル",
+     "en": "Hikaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 235,
+     "text_id": 12071,
+     "source": "イズミ",
+     "en": "Izumi",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 236,
+     "text_id": 12091,
+     "source": "イネス",
+     "en": "Inez",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 246,
+     "text_id": 12101,
+     "source": "ミスマル",
+     "en": "Misumaru",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 247,
+     "text_id": 12121,
+     "source": "月臣",
+     "en": "Tsukiomi",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 248,
+     "text_id": 12140,
+     "source": "ハーリー",
+     "en": "Harry",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 258,
+     "text_id": 12150,
+     "source": "北辰",
+     "en": "Hokushin",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 259,
+     "text_id": 12900,
+     "source": "火星の後継者",
+     "en": "Martian Successor",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 260,
+     "text_id": 12901,
+     "source": "火星の後継者",
+     "en": "Martian Successor",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 271,
+     "text_id": 14020,
+     "source": "マックス",
+     "en": "Max",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 272,
+     "text_id": 14021,
+     "source": "マックス",
+     "en": "Max",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 281,
+     "text_id": 14030,
+     "source": "フォッカー",
+     "en": "Focker",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 282,
+     "text_id": 14130,
+     "source": "ミリア",
+     "en": "Milia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 283,
+     "text_id": 15010,
+     "source": "ドモン",
+     "en": "Domon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 284,
+     "text_id": 15060,
+     "source": "東方不敗",
+     "en": "Master Asia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 286,
+     "text_id": 16040,
+     "source": "リュクス",
+     "en": "Luxe",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 287,
+     "text_id": 16060,
+     "source": "サコミズ",
+     "en": "Sakomizu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 288,
+     "text_id": 16900,
+     "source": "ホウジョウ士官",
+     "en": "Hojo Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 289,
+     "text_id": 16901,
+     "source": "ホウジョウ兵",
+     "en": "Hojo Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 300,
+     "text_id": 17020,
+     "source": "ウィッツ",
+     "en": "Witz",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 310,
+     "text_id": 17030,
+     "source": "ロアビィ",
+     "en": "Roybea",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 322,
+     "text_id": 17071,
+     "source": "ルチル",
+     "en": "Lucille",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 331,
+     "text_id": 17080,
+     "source": "サラ",
+     "en": "Sala",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 332,
+     "text_id": 17160,
+     "source": "シャギア",
+     "en": "Shagia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 342,
+     "text_id": 17170,
+     "source": "オルバ",
+     "en": "Olba",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 344,
+     "text_id": 17900,
+     "source": "新連邦士官",
+     "en": "New Fed. Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 345,
+     "text_id": 17901,
+     "source": "新連邦兵",
+     "en": "New Fed. Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 354,
+     "text_id": 17910,
+     "source": "宇宙革命軍士官",
+     "en": "Space Rev. Officer",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 355,
+     "text_id": 17911,
+     "source": "宇宙革命軍兵",
+     "en": "Space Rev. Soldier",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 364,
+     "text_id": 17920,
+     "source": "バルチャー兵",
+     "en": "Vulture",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 375,
+     "text_id": 19020,
+     "source": "渓",
+     "en": "Kei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 385,
+     "text_id": 19030,
+     "source": "凱",
+     "en": "Gai",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 405,
+     "text_id": 19050,
+     "source": "隼人",
+     "en": "Hayato",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 406,
+     "text_id": 19051,
+     "source": "隼人",
+     "en": "Hayato",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 415,
+     "text_id": 19060,
+     "source": "弁慶",
+     "en": "Benkei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 416,
+     "text_id": 19100,
+     "source": "早乙女",
+     "en": "Saotome",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 417,
+     "text_id": 20010,
+     "source": "ロラン",
+     "en": "Loran",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 418,
+     "text_id": 20110,
+     "source": "ギンガナム",
+     "en": "Ghingham",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 439,
+     "text_id": 21030,
+     "source": "サラ",
+     "en": "Sara",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 449,
+     "text_id": 21040,
+     "source": "アナ姫",
+     "en": "Princess Ana",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 450,
+     "text_id": 21130,
+     "source": "ヤッサバ",
+     "en": "Yassaba",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 460,
+     "text_id": 21140,
+     "source": "アスハム",
+     "en": "Asuham",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 470,
+     "text_id": 21150,
+     "source": "シンシア",
+     "en": "Cynthia",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 480,
+     "text_id": 21160,
+     "source": "カシマル",
+     "en": "Kashmir",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 481,
+     "text_id": 22010,
+     "source": "キラ",
+     "en": "Kira",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 482,
+     "text_id": 22100,
+     "source": "アスラン",
+     "en": "Athrun",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 513,
+     "text_id": 23040,
+     "source": "タルホ",
+     "en": "Talho",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 514,
+     "text_id": 23100,
+     "source": "ギジェット",
+     "en": "Gidget",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 515,
+     "text_id": 23150,
+     "source": "ミーシャ",
+     "en": "Mischa",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 526,
+     "text_id": 23210,
+     "source": "チャールズ",
+     "en": "Charles",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 536,
+     "text_id": 23220,
+     "source": "レイ",
+     "en": "Ray",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 546,
+     "text_id": 23230,
+     "source": "ドミニク",
+     "en": "Dominic",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 556,
+     "text_id": 23240,
+     "source": "ユルゲンス",
+     "en": "Jurgens",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 566,
+     "text_id": 23250,
+     "source": "デューイ",
+     "en": "Dewey",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 567,
+     "text_id": 23290,
+     "source": "ノルブ",
+     "en": "Norb",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 577,
+     "text_id": 23300,
+     "source": "サクヤ",
+     "en": "Sakuya",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 587,
+     "text_id": 23310,
+     "source": "ベア",
+     "en": "Bear",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 589,
+     "text_id": 24300,
+     "source": "狂四郎",
+     "en": "Kyoshiro",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 600,
+     "text_id": 25020,
+     "source": "ガルド",
+     "en": "Guld",
+     "dialog": false,
+     "limit": 220
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+{
+ "resource_id": 4004603,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 40,
+ "rows_examined": 40,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)>...<color(4)>Akito<ce()>.",
+   "notes": "",
+   "source_sha256": "cf0ba230cd44dc7107b16eadf23aff01e959bf55793b35ce946c9449e349de5c"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12011,1)><speed(2)>What is it?",
+   "notes": "",
+   "source_sha256": "0a1eaf7d588e782de8b3ed97c07646a3708034092c333ddfaa864a2b9f53c4fc"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>Please make sure you save <color(4)>Yurika<ce()>.",
+   "notes": "",
+   "source_sha256": "2d28d85d6ac4924502b0520315781ab978bda841bc71231063ac37c8d353546a"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12011,1)><speed(2)>...Of course.",
+   "notes": "",
+   "source_sha256": "5b57d51312f684a638d516bedf9a3fef9d5f22bf0c3d9e0e5556ee324a9d9312"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)>...<color(4)>Akito<ce()>. After you save <color(4)>Yurika<ce()>... what will you do?",
+   "notes": "",
+   "source_sha256": "12663b4982ab51978d8620c4f7493898daf59cb89da3d1962ca67656545e9ffd"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12011,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "5bfc977f4f608cd09acb56171ad6977887ba2ecbcbd1de63bcc72f69218ed757"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)><color(4)>Akito<ce()>, please come back, no matter what. Otherwise, I'll chase you to the ends of the earth.",
+   "notes": "",
+   "source_sha256": "ecb1cda4d1cc11b51071348a6f68ec1aaeb5c626957a9fd3ed5c9f1331132f7a"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12011,1)><speed(2)>It's all right... <color(4)>Ruri<ce()>.",
+   "notes": "",
+   "source_sha256": "83051c98c5b37c639c0500ba52cc68685422f54c7f92427bd25204fe8ce26bbc"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>, about the other day...",
+   "notes": "",
+   "source_sha256": "871950b678e51812433b34f3c853af4f0b66d827031ff759417c78ca19a625f6"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>I really think...",
+   "notes": "",
+   "source_sha256": "c65da09dbae254c90d23b2b94795258fced72165e12e038c67315fc70db3e2d0"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)>Wait, <color(4)>Barrel<ce()>. You don't need to say it now.",
+   "notes": "",
+   "source_sha256": "74a6076bc3894b7da6df4317e827b5ab7d0865e048f13e3f2cd6af73bfda05e3"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>Why?",
+   "notes": "",
+   "source_sha256": "afde54a1299c099489c15f39393ef057157512eac0a38ee3178f25a3d9a08d6d"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>I want you focused on the fight. Your safety comes first right now.",
+   "notes": "",
+   "source_sha256": "d17b591235c1342e9b1a58c217e79caf5a57c9a313b5f2084d60a021a5637bf9"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)>Don't be anxious. I'll back you up.",
+   "notes": "",
+   "source_sha256": "28cdc41721f0af79856785bf29de7afd91a6c99d04f5c21f0f37844065fe0991"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1040,2)><speed(2)>...Thanks.",
+   "notes": "",
+   "source_sha256": "585644838d84d72c356d5abc5cf51be3b631532c84494d5a96aea50b02735918"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(10010,1)><speed(2)>So <color(5)>Giganos<ce()> is here too... I wonder how that guy's doing.",
+   "notes": "",
+   "source_sha256": "a7464102749fbdd8abd5a47c6412e2b59f6fbd2b0195c4f686fc53fc494b1a6e"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(10030,1)><speed(2)><color(5)>Maiyo<ce()>?",
+   "notes": "",
+   "source_sha256": "948eeb6621ee99a1fdcaf3d238bbd8dacbfe20dbe720b0b8991c6c2403beabdc"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(10020,1)><speed(2)>Rough spot for you too, huh, <color(4)>Kaine<ce()>.",
+   "notes": "",
+   "source_sha256": "8ba64e1ef96861b523dc673b84fab53f71d9a06325298e8016e0501bb125ea3e"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(21020,1)><speed(2)>Yeah, yeah... I know that feeling all too well.",
+   "notes": "",
+   "source_sha256": "9a7c908b17c5c1bce6b4eb3e4c308f2ed1673e3cca7b94e68eee472ec0791633"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(10010,1)><speed(2)>You too, <color(4)>Gain<ce()>? How come?",
+   "notes": "",
+   "source_sha256": "adf195dd27924f18cc0841d81288c73f0da0a8438e79282652b512bbf856fe26"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(21030,1)><speed(2)>Something happened, apparently, with the sister of a <color(5)>Siberian Railway<ce()> guy named <color(5)>Asuham<ce()>, back in the day.",
+   "notes": "",
+   "source_sha256": "f102c6ecd78eff7ddb36ab82320e173a6c84d0df88eaf8c34dc8a1cb106fb197"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(10030,1)><speed(2)>Man, <color(4)>Gain<ce()> really is...",
+   "notes": "Trailing thought left open, as in source ('Gain no danna wa...').",
+   "source_sha256": "c63e31c2732a14f54047f8155d32a41e26fadad1c7bd2392ccef5d438769bb55"
+  },
+  {
+   "table": 1,
+   "slot": 66,
+   "text_id": 67,
+   "en": "<operator(10020,1)><speed(2)>Feels like he brought it on himself, huh.",
+   "notes": "",
+   "source_sha256": "da76b3eecfae9ae577ed9a7769f1fbac039347284b82e330144dc930bc95460e"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(23010,1)><speed(2)>M-Mars, huh... That's a planet way out past Earth, right? That's amazing...",
+   "notes": "",
+   "source_sha256": "9a30e7d048c00c93518637268d386a2bb71f77e3566ff137f235c9b3af933ab8"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(12071,1)><speed(2)>Well, it's nothing but rocks and snow, though.",
+   "notes": "",
+   "source_sha256": "c78c54b5f2d589e1afa08691cb1e642d15479d34f98dbf25bf9af97678a16603"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(21010,1)><speed(2)>Guess that's not too different from Siberia, then.",
+   "notes": "",
+   "source_sha256": "fedd5f16d62088efe60ca56c149fce6c783e360fabade5c9e99f194e4b9a54fb"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(17010,2)><speed(2)>Doesn't matter. That's a man's romance right there!",
+   "notes": "",
+   "source_sha256": "403063a33d6d83c62046715f95130a8b78c4baaf0111ba52f2c05cae1cb94181"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(23010,1)><speed(2)>But this isn't the time to get excited.",
+   "notes": "",
+   "source_sha256": "f9cb7c5be1dd701383da19a0eb3623341cf4a914aaae30327660f95e94841dff"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(17010,1)><speed(2)>He's been fighting alone to save the person he loves. We ought to lend a hand.",
+   "notes": "",
+   "source_sha256": "f22687581d0ff229be107b093b2c05bbeb4492e54f581a5de5bf5968e5b77cc1"
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "text_id": 106,
+   "en": "<operator(21010,1)><speed(2)>Don't have to tell me twice.",
+   "notes": "",
+   "source_sha256": "16729871d9565390a5fb69d95e43e26be35968a01ab0b387820f06e531102c44"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(12140,1)><speed(2)>Haah...",
+   "notes": "",
+   "source_sha256": "c3577a19f5561fda492d9743337b6929eb5e667c7ee4b5339673dc1cd13454fb"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(1060,1)><speed(2)>What's wrong? You seem down, <color(4)>Harry<ce()>.",
+   "notes": "",
+   "source_sha256": "2f3234a177131af2f73ff759e34513cd8d058fa5efdd04e32a004eb6db921a0d"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(12140,1)><speed(2)>N-no! It's nothing...",
+   "notes": "",
+   "source_sha256": "d17e2c20d121553979e36d7613cd7431a72d133e24ced98d33087d263703ae60"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(12061,1)><speed(2)>Oh, that! It's because <color(4)>Ruri<ce()>'s been so wrapped up worrying about <color(4)>Akito<ce()>...",
+   "notes": "",
+   "source_sha256": "61099cb8b9b1bcc49caf01616c9b4f7b8c9f8829a7428a62ed9f3b3694d77d44"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(12071,1)><speed(2)>Heh-heh... <color(4)>Harry<ce()>'s heartbroken, sighing away...",
+   "notes": "",
+   "source_sha256": "66a37fb57532ebf939f26b920453673e357ef3c3fa214b6f9513b069caf419bc"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(23040,1)><speed(2)>You can talk about that in a situation like this... That's impressive, in its own way...",
+   "notes": "",
+   "source_sha256": "224a8fcf2c357df5228857c7b69ccb7f79c28e1f7fb724a004933916f6cc6cd4"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(14010,1)><speed(2)>Getting split up in the middle of a honeymoon trip... that's really too sad.",
+   "notes": "",
+   "source_sha256": "208acccf00a91718f3b04a8fbd36d7b2d1e4c37e595ec28d406d0a7f0c00a800"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(14030,1)><speed(2)>Gotta help out a guy who's fighting for the woman he loves.",
+   "notes": "",
+   "source_sha256": "5e48442743df2714c39eea175da6276a68b00f2f43df3071776f8e80a50fa520"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(16040,1)><speed(2)>Being parted from family... is a sad thing. <color(4)>Asap<ce()>, please make sure you bring him back.",
+   "notes": "Object of 'bring back' omitted in source; inferred as King Sakomizu (Luxe's father) from scene 4004583 context.",
+   "source_sha256": "69f6f7811f5a26ec8c49c421a016c36d2dab1f63d2794fc9340b390fe0734a3b"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(16010,1)><speed(2)>...I know. <color(4)>Luxe<ce()>, leave it to me!",
+   "notes": "",
+   "source_sha256": "be79cd04e2dc7f3af219dd5870636d291c3ada2b8e25ac29de118958a41cd953"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 65,
+   "issue": "'Gain no danna wa...' trails off in source; kept trailing as 'Man, Gain really is...' without supplying the missing predicate."
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "issue": "Object of 'tsurete modoshite agete kudasai' (bring back) is omitted in source. Luxe is the King's daughter (established in preceding scene 4004583, not part of this task); 'him' inferred as King Sakomizu. Flag if a different referent was intended."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 40,
+  "rows_in_scene": 40,
+  "meaning_fixes": [],
+  "glyph_fixes": [
+   {
+    "table": 1,
+    "slot": 219,
+    "before": "that's just too sad.",
+    "after": "that's really too sad.",
+    "reason": "font has no native-size lowercase j/q; 'just' -> 'really', meaning unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "1/65 'Gain no danna wa...' trailing off, rendered 'Man, Gain really is...': source itself leaves the predicate unstated; no invented completion. Accepted.",
+   "1/259 object of 'bring back' (Asap being asked by Luxe): verified against preceding scene 4004583 with tools/scene_source.py. That scene establishes Luxe as King Sakomizu's daughter and frames the party's goal as stopping/confronting her father (16040/Luxe at 0/25-27: her father despaired over the changed surface world and is now attacking it out of obsession, please lend your strength; 12031/Ruri at 0/32-33: once we stop the Sakomizu army, let's reinforce). This is the only 'family member to be brought back' setup in either scene, so 'him' = King Sakomizu is supported by 4004583 and is kept."
+  ],
+  "remaining_uncertainties": [
+   "1/259: 4004583 supports 'him' = King Sakomizu but never states the referent explicitly in so many words (Japanese omits the object entirely, as noted by the original translator); flagged for awareness though the inference is well-grounded."
+  ]
+ }
+}

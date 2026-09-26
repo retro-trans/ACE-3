@@ -1,0 +1,106 @@
+{
+ "resource_id": 4003531,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Invaders",
+   "notes": "Enemy faction name, as in Encyclopedia.",
+   "source_sha256": "bad937080a191d3c74fd1929393b0ccae481947d4ec3beb2139063e7a3b6954b"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(19050,1)><speed(2)><move(1,6,12)>I will now explain the operation<marker(1,6,12,0)> details.<move(2,6,12)>",
+   "notes": "",
+   "source_sha256": "1441c611f72c54fd971f65bb419e37c67bfd8f026e9b68e0f804a5e4c316e44b"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(19050,1)><speed(2)>There is no time, so <move(1,7,10)>here <color(4)>each ship<ce()><marker(3,7,10,0)><marker(42,6,0,0)> will force its way through <move(1,10,10)>and bring the <book(48)><marker(3,10,10,0)><marker(42,9,0,0)>Shin Dragon<endbook()> within the <color(4)>ships<ce()>' range.<line(14,7,10,7,2)><line(14,10,10,10,2)><move(2,10,10)><picture(63,2,7,0)><refer(2,7,7,10)><picture(69,30,14,0)><refer(30,14,10,10)>",
+   "notes": "Markers that sit inside the book span in the source are kept inside it, before the name.",
+   "source_sha256": "b6df2be283c851c22fdd18cf0684b352970a188d5020689d2f14bfff9d1c1a4c"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(19050,1)><speed(2)>On <color(4)>each ship<ce()>'s course there are <move(1,8,5)><color(5)>targets<ce()><marker(22,6,3,0)><marker(22,8,3,0)><marker(22,10,3,0)><marker(22,12,3,0)>. Destroy <marker(22,6,5,0)><marker(22,8,5,0)><marker(22,11,5,0)>them all <marker(22,6,7,0)><marker(22,9,7,0)><marker(22,11,7,0)>and support the <color(4)>ships<ce()>' advance.<move(2,8,5)><picture(67,30,6,0)><refer(30,6,12,3)><picture(68,30,10,0)><refer(30,10,11,5)>",
+   "notes": "",
+   "source_sha256": "c626b0f100878e2a6edc4504d6d1f14659d67ac74f320d27f822cde24165713e"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(19050,1)><speed(2)>The enemy <marker(20,6,14,0)><marker(20,7,14,0)><marker(20,8,14,0)>numbers <marker(20,9,14,0)><marker(20,10,14,0)><marker(20,11,14,0)>are large, <marker(20,2,0,0)><marker(20,3,3,0)>and the defense net <marker(26,2,7,0)><marker(20,4,7,0)>is very <marker(20,2,9,0)>thick<marker(20,13,10,0)>. <marker(20,0,14,0)><marker(20,1,13,0)>Expect to be targeted <marker(20,14,14,0)>from every direction.",
+   "notes": "Source has no subject for \"be targeted\"; imperative keeps it open.",
+   "source_sha256": "79991f32d00c9898ad687e69ab24f1fe890b8d82935c484990381acf3c467a7b"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(19050,1)><speed(2)>There is no leeway to take on <marker(37,11,0,0)>every <marker(37,13,6,0)>one<danger(1)>, so look only ahead of the <color(4)>ships<ce()> and hit the <color(5)>units<ce()> there. <color(6)>Breaking through comes first<ce()>.",
+   "notes": "Word order chosen so the ship span precedes the units span as in source.",
+   "source_sha256": "411e81e40e402e3f7eeb0eaba9bf5807f27025c23aa308fe0836d3fc093a62cf"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)><book(6)>Flail<endbook()> units<marker(5,7,13,0)> will <marker(5,10,13,0)>be <marker(5,13,11,0)>deployed <marker(5,0,9,0)>in the <marker(5,0,3,0)>surrounding area. They will at least slow the enemy<picture(70,2,14,0)><refer(2,14,7,13)>, so please support them if you can.",
+   "notes": "Passive: source does not say who deploys them.",
+   "source_sha256": "6016acb7176db332a96c8274f4176d4e3df158ddd49f64a5e059a505ae9407e2"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<delpic(30,16,1)><enemylist()><operator(19050,1)><speed(2)>Now then, begin your sortie preparations.",
+   "notes": "",
+   "source_sha256": "0d2253eba6313e86a463a23ff8f8573358b4d94965a48bf5f570ac9a18e55798"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "\"kakkan\" = each ship (the motherships; at least the Tower and the Nadesico per the two marker sets). \"kan no shatei ni osameru\" -> bring within the ships' (weapon) range."
+  },
+  {
+   "slot": 22,
+   "issue": "Ten markers distributed by phrase to mimic the source pacing; exact timing unverifiable without a build."
+  },
+  {
+   "slot": 24,
+   "issue": "\"Flail\" is only a provisional glossary term (proposals_dialogue_00696 + Encyclopedia title); used as is. \"yoyuu ga areba engo\" compressed to \"support them if you can\" to fit 128."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speakers: 19050 Hayato Jin (slots 19-23, 25), 12031 Ruri Hoshino (slot 24).",
+   "Slot 20 ruling: \"kakkan\" = each (mother)ship, the two marker sets confirm two ships; \"within the ships' range\" correct.",
+   "Slot 22 ruling: marker distribution by phrase accepted; order identical.",
+   "Slot 24 ruling: \"Flail\" matches encyclopedia_021_a/022 and released dialogue; provisional glossary status noted. \"support them if you can\" keeps yoyuu ga areba; nothing lost. Passive keeps the unnamed deployer open. \"at least slow the enemy\" renders the contrastive wa correctly.",
+   "Slot 23: reordering (ships before units) keeps the meaning \"only hit the units in front of the ships\"; <danger(1)> stays inside the first clause as in the source.",
+   "Slot 0 \"Invaders\" matches the encyclopedia."
+  ],
+  "remaining_uncertainties": [
+   "Slot 22: ten markers, timing only checkable in a build.",
+   "Slot 24: \"Flail\" is still provisional in the glossary."
+  ]
+ }
+}

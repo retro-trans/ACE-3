@@ -1,0 +1,155 @@
+{
+ "resource_id": 4003300,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 15,
+ "rows_examined": 15,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "24  Contact D.O.M.E.",
+   "notes": "Released mission title reused (missions_019.json slot 290).",
+   "source_sha256": "fc8ed812a60775fd2d1c96c2a7baada5169d0f808ac8327e94f240ff9284cec0"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)>Following <color(4)>Tiffa<ce()> and <color(4)>Norb<ce()>'s words, we have come all the way to the moon.",
+   "notes": "",
+   "source_sha256": "ac7aa8bc108376873ddfc14d2213e8a6011b35135d0887406558d6f96819521f"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>We will now head to the microwave transmission facility on the lunar surface, and make contact with <book(46)>D.O.M.E.<endbook()><thumbnail(280)>.",
+   "notes": "'microwave facility' matches D.O.M.E.'s role text in character_names_021.json.",
+   "source_sha256": "482867163800acfaab4f2ac92ecdd9e845adc2588c07f7f3351a99a6f29a7659"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>Now, 15 years after the 7th Space War... the <book(38)>New Federation<endbook()> and the <book(42)>Space Rev. Army<endbook()> have plunged into an all-out clash.",
+   "notes": "'7th Space War' and '15 years' match released usage (batch_01346.json, encyclopedia_022.json). Compressed 'full-scale armed clash' to 'an all-out clash' to stay well under the 128-char limit.",
+   "source_sha256": "f423d01775011933cb3f32a10203d9f77bf51bce2f5e9bec56c16d179bd44832"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>Their goal is also <book(46)>D.O.M.E.<endbook()> We must make contact with <book(46)>D.O.M.E.<endbook()> before they do.",
+   "notes": "'goal' for mokuteki avoids the letter j (objective).",
+   "source_sha256": "4150be95f64b73630cd426ec634ccaf5cbc8fe50b82401c1d44d533f9860d2c7"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>We do not know what <book(46)>D.O.M.E.<endbook()> truly is. But it should hold one answer we are looking for.",
+   "notes": "",
+   "source_sha256": "ad0afbbeb8e28225ba32845991196757bbfdbac39ee13c3bbdcebd0711b938a4"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30070,1)><speed(2)>I heard the voice of <book(46)>D.O.M.E.<endbook()>",
+   "notes": "Tiffa is female per character_names_021.json.",
+   "source_sha256": "769c5ee08111d9df52c145c812ec8cb4d9bf37c686c91959ac1a72cff9c1cf53"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30070,1)><speed(2)>In that dream, <book(46)>D.O.M.E.<endbook()> said it would tell me this world's secret.",
+   "notes": "",
+   "source_sha256": "894155ba40b8cf60b913d6f88aade855cdb64726e3916e9757567bacfeb8ccdf"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30070,1)><speed(2)>Whether that is the same as what <color(4)>Norb<ce()><thumbnail(275)> teaches, I do not know.",
+   "notes": "",
+   "source_sha256": "c587915a46b2f4870bc4f02c760a5ec5ee5889c25951180b7138f3bba5e2f872"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30070,1)><speed(2)>But going to <book(46)>D.O.M.E.<endbook()> should let us take a big step toward dialogue with the <book(69)>Scub<endbook()> too.",
+   "notes": "book(69) rendered short 'Scub' (not 'Scub Coral') because the source itself abbreviates to スカブ here, matching dialogue/batch_05943.json's convention for the same short form.",
+   "source_sha256": "61ad7479f7605b73bdd270a0780ac0f44d9544d1c0d60198fad96fbc90f7e122"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30060,1)><speed(2)>To <book(46)>D.O.M.E.<endbook()><thumbnail(281)>, <color(4)>Tiffa<ce()> and I will go. Everyone, I am counting on you.",
+   "notes": "Reordered to keep D.O.M.E. before Tiffa, matching source tag order.",
+   "source_sha256": "d194aedd63ce3f581d3f76f4b98f019519d282608ed91ae1c07fad65cb286dc5"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30060,1)><speed(2)>One last thing to add: we have one more goal besides <book(46)>D.O.M.E.<endbook()>",
+   "notes": "",
+   "source_sha256": "ea9c7d341d7b4f4989b5986c34a7f6b2caf5823b7bfc48d5e7931d8df416c9e7"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<thumbdown()><operator(30060,1)><speed(2)>That goal is to survive. If you die, you lose - do not forget it!",
+   "notes": "",
+   "source_sha256": "ddf961d249bb836d742f9de61cd26d8a41cf44c3e64bd1ca05446de4e6c3ffa3"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<topic()><operator(30110,1)><speed(2)>Starting with this battle, I will pilot the <color(4)>Terminus type303<ce()><thumbnail(282)>.",
+   "notes": "'Terminus type303' by analogy with unit_names_014_b.json's 'Terminus typeB303' / 'Terminus typeR909' (source has no letter suffix here, unlike those two); no exact prior lock found for the plain 'type303' form.",
+   "source_sha256": "0a6003582e4effb6d6df7a85a1eb341df5e703f6b8f06747316378d9838ad51b"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30110,1)><speed(2)>This unit is a heavy load on its pilot, but I can't be worrying about that. ...I will fight it through, no matter what.",
+   "notes": "",
+   "source_sha256": "07c3f70eeecdba98a82584aa007335d76fe99c4eff4f1b2024f40945c81b25e5"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 31,
+   "issue": "'Terminus type303' has no exact prior lock (unit_names_014_b.json only has the letter-suffixed 'Terminus typeB303' / 'Terminus typeR909' forms and the bare 'Terminus 303'); rendered by the same pattern. Flag for a unit-name script pass if the letterless form later gets its own locked entry."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 15,
+  "rows_in_scene": 15,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019.json slot 290 '24  Contact D.O.M.E.'.",
+   "Speakers via speaker_lookup.py: 30060 Jamil Neate, 30070 Tiffa Adill, 30110 Holland Novak; speaker tags unchanged.",
+   "Tiffa is female per character_names_021.json; slots 24-27 correctly kept in her voice, no gender invented.",
+   "'D.O.M.E.', 'New Federation', 'Scub' (short form matching source's own abbreviation スカブ here, per translator's note and dialogue/batch_05943.json convention) all correct.",
+   "Slot 21 'Space Rev. Army' inside the <book(42)> tag matches the locked in-line short gloss for book(42) in encyclopedia_022.json (text_id 42), distinct from the untagged full-form 'Space Revolutionary Army' used where the source itself carries no book() tag (e.g. dialogue/batch_09814.json) - correct usage, not an inconsistency.",
+   "Slot 28 'Tiffa and I' vs literal source order 'I and Tiffa' (私とティファ) is ordinary English word-order idiom, not a reversed meaning; the book()/color() tag order for D.O.M.E./Tiffa is preserved identical to source.",
+   "Orchestrator ruling applied as given: 'Terminus type303' (slot 31) accepted; matches the unit_names_014_b.json pattern for 'Terminus typeB303'/'Terminus typeR909' with no letter suffix present in this source line.",
+   "All rows: command tags identical and in source order, ASCII only, no newline, no bare %, visible length under 128, no lowercase j/q (re-checked with a throwaway script against tools/scene_source.py output)."
+  ],
+  "remaining_uncertainties": [
+   "'Terminus type303' (letterless form) still has no dedicated unit_names_014_b.json entry of its own; if one is added later, a name-script pass should confirm this row matches it."
+  ]
+ }
+}

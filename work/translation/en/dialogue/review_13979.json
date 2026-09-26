@@ -1,0 +1,41 @@
+{
+ "reviewer": "independent_shout_review_agent",
+ "slice_start": 13979,
+ "slice_count": 80,
+ "rows_examined": [[13964, 14073]],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [
+  {
+   "id": "dialogue_13995",
+   "before": "You can!",
+   "after": "Skilled!",
+   "reason": "Source (できるな！) is praise for the opponent's ability, paired with the preceding row's \"やるな！\" -> \"Nice!\". \"You can!\" reads as an unfinished encouragement (\"you can [do it]\") rather than an acknowledgement of skill, and is ambiguous/awkward standing alone as a combat bark. \"Skilled!\" unambiguously conveys the intended praise and is the same length (8 chars), fitting the same budget (8)."
+  },
+  {
+   "id": "dialogue_14009",
+   "before": "One less obstacle now.",
+   "after": "No more obstacles now.",
+   "reason": "Source (これで邪魔はいなくなった。) states the obstacles/interference are entirely gone (\"there's no more interference now\"), not merely reduced by one. \"One less obstacle\" implies partial progress with more still remaining, understating the source's complete resolution. Fix fits budget (24 chars allowed, fix is 22)."
+  }
+ ],
+ "checked_decisions": [
+  {"rows": [13979, 14011], "finding": "Confirmed unit 2815011 (God Gundam, pilot Domon Kasshu) for this range per work/ui/shout_groups.json; brash/impulsive tone matches character_names_021.json throughout."},
+  {"rows": [13985, 14005], "finding": "Both instances of the G Gundam announcer catchphrase (\"ガンダムファイト！！レディ...ゴー！！\") correctly identified and rendered with matching extended vowels for the longer second instance; abbreviation of the full announcer line to fit budget is expected compression, phrase remains recognizable."},
+  {"rows": [14012, 14146], "finding": "Confirmed unit 2815020 (Master Gundam, pilot Master Asia / Undefeated of the East) begins at 14012 per shout_groups.json; the archaic \"washi\" first-person and commanding verb forms are consistently rendered as an imperious register rather than literal archaic English, matching character_names_021.json (stoic, strict) - reasonable, no natural English equivalent exists."},
+  {"rows": [14029, 14030, 14031], "finding": "Master Asia's philosophical combat-strategy lines are heavily compressed under tight budgets; row 14031's drop of the specific martial terms 正法/キホウ (orthodox/unorthodox tactics) to generic \"method\" is a forced, budget-driven simplification, not a reversal. Accepted; flagged by the translator for future glossary attention if these terms recur elsewhere."},
+  {"rows": [14042], "finding": "Master Gundam's name-reveal line drops the restated title \"Undefeated of the East\" (already established at 14048/14074/14092) to fit budget - acceptable, no information lost that isn't recoverable from context."},
+  {"rows": [14010], "finding": "\"ふっ、ちょっと来るのが早すぎたかな。\" has an omitted subject (could be self-reflective \"I got here too early\" or a taunt \"you came too soon\"); translator's self-referential reading is plausible given the surrounding withdraw/mission-end lines (14007-14011) and was kept as an ambiguity rather than assuming a taunt-to-opponent framing."}
+ ],
+ "uncertainties": [
+  {"rows": [14010], "issue": "Subject of \"来るのが早すぎた\" (who came too early - self or opponent) is not settled by context; translator's self-referential choice (\"Heh, got here a bit too early\") is defensible but not provably the only reading. Left as-is."}
+ ],
+ "validation": {
+  "controls": "All <op()>, <sp(20)>, <ab(1000)>, <ed()> commands verified identical and in original order for all 80 rows.",
+  "format": "ASCII only; lowercase j/q occurrences (e.g. \"jump\", \"just\", \"lackeys\") are ordinary vocabulary, not distorted locked names - left as-is.",
+  "newline_fix": "All 23 rows whose target split a shout across two lines with \\n (13981, 13985, 13990, 13999, 14000, 14005, 14008, 14013, 14029, 14030, 14031, 14036, 14037, 14039, 14042, 14043, 14046, 14047, 14048, 14052, 14053, 14055, 14056) were rejoined into one line with a space per the shout no-newline rule; mechanical joins only, wording unchanged except where noted above.",
+  "byte_budget": "Re-verified all 80 rows programmatically against min(72, 2*source_ja_chars-2); all rows fit within budget after the two meaning fixes.",
+  "visible_length": "All 80 rows' visible text (tags stripped) is well under the 110-char cap."
+ }
+}

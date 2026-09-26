@@ -1,0 +1,463 @@
+{
+ "resource_id": 4004483,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 53,
+ "rows_examined": 53,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12051,1)><speed(2)>...Sure are a lot of unfamiliar faces around here! I'm <color(4)>Ryoko Subaru<ce()>! Nice to meet you!",
+   "notes": "",
+   "source_sha256": "1f0097773447eafd6ca947875fc59bb146eff319e531e9b30925fd683060e7b9"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)>It's been a while, <color(4)>Ryoko<ce()>.",
+   "notes": "Polite '-san' on Ryoko dropped, per project convention.",
+   "source_sha256": "b2b7c0b45b163ccfb93293f7450606c9a74d9ddcd645062f96ad096c85d5f307"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12051,1)><speed(2)>Yeah... two years, huh. You look well.",
+   "notes": "",
+   "source_sha256": "712a72529fea441965692a48e5774c1856119da9c2698b9c59498da539cff10b"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12140,1)><speed(2)>Aaargh, no good!!",
+   "notes": "",
+   "source_sha256": "94af23ba3ecb159ac959e7c191a6172eaa667b09316bbebbb6cf8e477ac8b796"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12140,1)><speed(2)>The <color(4)>Amaterasu<ce()>'s computers are fighting each other!",
+   "notes": "",
+   "source_sha256": "9745155427670eeafb03147c7f3336d13c9cbda5b2c74f631ba37df6598477a0"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12140,1)><speed(2)>I can't make heads or tails of it!!",
+   "notes": "",
+   "source_sha256": "a09dd3edf6eb35e6f5ac89ac1f1c70fd6633b4a549984f3433de725df3262c18"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)>But you managed to peek at some of the data, right?",
+   "notes": "",
+   "source_sha256": "14b9abbda47ef542deccced2efb27e44005a48d51870b6f05cf02e9069296ab3"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12140,1)><speed(2)>Yeah... something's off! There's a block that's not in the official blueprints, and this data too...!",
+   "notes": "",
+   "source_sha256": "d87413a839c9755f1d7ca00b85dd344bb3685690855659f1bbfd8bfc94fe159a"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12031,1)><speed(2)>Boson Jump experiment, specimen list... Just as I thought. So there's a reason we were attacked, after all.",
+   "notes": "'higensha' (test subject) rendered 'specimen' to avoid the lowercase j in 'subject'.",
+   "source_sha256": "73d2aa9a59b99b65bc1685617734892a1d00dfc98a86d9c98b611dfc2da347c9"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(12051,2)><speed(2)>Hey! You're hacking someone else's system, aren't you?!",
+   "notes": "",
+   "source_sha256": "aa46ac53a64e2a672f3da14559b79942f9c745b022ac2588fc83e7bca4d552af"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(12031,1)><speed(2)>It's an emergency. Oh, and by the way, the one actually responsible is this <color(4)>Harry<ce()> here...",
+   "notes": "'-kun' on Harry dropped, per project convention.",
+   "source_sha256": "7cbcb897febc7ea80a321242c8cb313a9b6cede29dfaf9de5a0d8982ecf529c3"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(12140,1)><speed(2)>C-Captain, that's harsh!",
+   "notes": "",
+   "source_sha256": "fcfb5d1fb31f48f65120e34f3a1ac8a7d01ad62382f700dced9c31489d64972c"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(12031,1)><speed(2)>...? <color(4)>Harry<ce()>, what's that on the screen?",
+   "notes": "",
+   "source_sha256": "77033077ccea9fe7bc0f9a14fef263a25da5c1c408beb6c9ec34e380bbac3907"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(12140,1)><speed(2)>Huh...? Is this... a warning message...?",
+   "notes": "",
+   "source_sha256": "eba31859c9d7dad8c8a3bff72e0dc4711df4b9d9bfc22d310fe06f13e52d069c"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(12012,1)><speed(2)>OTIKA OTIKA OTIKA OTIKA OTIKA OTIKA OTIKA OTIKA OTIKA",
+   "notes": "Source is full-width Latin 'OTIKA' repeated 9x, no real Japanese; kept verbatim since it reads as AKITO reversed (speaker id 12012 resolves to the short label 'Akito' with no full name), a foreshadowing device, not translatable text.",
+   "source_sha256": "d1d03646e69f70667c8e92e074fe23e990b11dd6d850eb2b5cfdbef0c4f28acb"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(12051,2)><speed(2)>Whoa?! What is this... gibberish text everywhere?!",
+   "notes": "",
+   "source_sha256": "89cf7b7902e97b3fd9381deb4e36a6a2a0395ea390840e676f441e65cd8f9905"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(12031,1)><speed(2)>This is...",
+   "notes": "",
+   "source_sha256": "772f4fc68181db5d00c74886e645c41127f517d2775f4fbec24fbbd724180969"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(12140,1)><speed(2)>What is this?! It's flooding us with access attempts!",
+   "notes": "",
+   "source_sha256": "1953faf2e3cdaac1db3eea58b1443dad210222d21b49b206a5b71e15c2e31f2a"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(12031,1)><speed(2)>...Anyway, let's launch, for now.",
+   "notes": "",
+   "source_sha256": "ee1a0eb4ca750e1a3a76c1100916f4a94f8748eb8489ea8188b50c49908148e4"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>The Hisago Plan is that thing that's always on the news, isn't it?",
+   "notes": "",
+   "source_sha256": "b6100d16e0c37aadef1183c66d2ad34c219bb679218808cab81e0e92468a0c18"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>Sorry, I don't really know it. I don't watch much TV.",
+   "notes": "",
+   "source_sha256": "edaa21ffef32e84479198c583197109ac4e5493b26d9bbcffa22e1244063c58d"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>Really? I thought it was famous.",
+   "notes": "",
+   "source_sha256": "77344b6182da0e63600f0ba5cba89335e0d7491e64751c5e1a36b80795bd6873"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>But to think a fight could break out even in a place like that... War really has begun, hasn't it...",
+   "notes": "",
+   "source_sha256": "56a1d9834601af61d58c2789a5740ce39b0cdd545f0962b51c86c452df864353"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)>What in the world is going on...?",
+   "notes": "",
+   "source_sha256": "74a825daedff6f40ee8e9655ec4e3963b2ef295cb092f6ab22fefa4486007f2e"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(12031,1)><speed(2)>It seems the <color(4)>Amaterasu<ce()> has an unofficial block that isn't disclosed even to the military.",
+   "notes": "",
+   "source_sha256": "aa51ad7626beedaeff14aca180bc74fb86bebccde336d99294a1ea64546d80e3"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(12031,1)><speed(2)>Over these two years, A-class Jumpers keep vanishing or meeting accidents, one after another.",
+   "notes": "",
+   "source_sha256": "4c437f17f852416a2ea1b91acc26deff1796064bee2ccb2ab51538ab335d0059"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(5010,1)><speed(2)>So something suspicious is being hidden, is that it...",
+   "notes": "",
+   "source_sha256": "608303d55b7c492be69316fb55991029f1c18a968db1e816f7e3587b596d345b"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,2)><speed(2)>Heheh, what a big operation's come our way!",
+   "notes": "",
+   "source_sha256": "15b4e332366d22c730885806987c9c1ee6c5461f6c7fe130cf14154b331ef355"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,2)><speed(2)>Let's show 'em what we've got - time for the <color(4)>Dragonar Team<ce()> to shine!",
+   "notes": "",
+   "source_sha256": "cfdd5528cf0ae929aa4644c87e4d1e56a4cf0378189231d0da713696d0ddd9ce"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,2)><speed(2)>In that case, leave it to me. I'll back you both up properly.",
+   "notes": "",
+   "source_sha256": "8e6bdd62eb743cd52f85e4f830b4b5ce634303a7b86884e4da3b0bd383d4f2e7"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(25010,2)><speed(2)>Hey kid, are you used to it yet?",
+   "notes": "",
+   "source_sha256": "d9bed4895a907caab1bcf685ad57718294d2ef66aa47fe44860781601e3c0d16"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(23010,1)><speed(2)>...Huh?! Uh, well, not really, still...",
+   "notes": "",
+   "source_sha256": "2d1c9575325494185361dbe010d8cb22da5be6204088a69601ead6304f2b8ca3"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(23020,2)><speed(2)>It's okay, <color(4)>Renton<ce()>. <color(4)>Nirvash<ce()> says it's fine too.",
+   "notes": "",
+   "source_sha256": "341d5a5ee11fedaa9ce6d0a1bdadecafd6160dbb4f9e920052d40e07c60aad9b"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(23030,1)><speed(2)>Just don't drag <color(4)>Eureka<ce()> down.",
+   "notes": "",
+   "source_sha256": "32415e5f4cdecf5112fcacff64be1771dd2f64a910457b664b2cb6e9c4bb3684"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(23010,1)><speed(2)>I-I know! I'll show you I can fly it right!",
+   "notes": "",
+   "source_sha256": "4666b456c866b85f89f3e42578e9b3266845e49cea654668626c512b2707fdbc"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(21010,1)><speed(2)>Ugh, why do I have to do this...!",
+   "notes": "",
+   "source_sha256": "11c10cc86c80753ef66e25138663e331e147000873dc599645223008fc3a95f1"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17010,1)><speed(2)>Is this really the time to be whining?!",
+   "notes": "",
+   "source_sha256": "52c6faa6b1e4644a983fd37f276d349be399df7ddc6ca91f90386bd86f608e66"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(21020,1)><speed(2)><color(4)>Garrod<ce()>'s right. A man's got times he simply has to do it... or something like that.",
+   "notes": "",
+   "source_sha256": "6268819699667115eef061931d2f18ac95e57aad794e122dea3d661fea499ed6"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(21010,1)><speed(2)>That makes it sound like I'm some kind of coward!",
+   "notes": "",
+   "source_sha256": "34f5353eaf47d2f48b6aea2124f4e78c6c7483d88dcbcb12849ae83bf85435a9"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(21010,1)><speed(2)>I'm a man! I'll get it done!",
+   "notes": "",
+   "source_sha256": "468e2c83cc37780c3e249d96b93a89ef3d4d99d14e6f340c27a667f932effe91"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(17020,1)><speed(2)>Ever since we got here, it's nothing but people we don't know a thing about. Doesn't sit right with me.",
+   "notes": "",
+   "source_sha256": "a3820d8565b3ccf5fb3c880421cb6cf6f2ef104c7dcd1cf493d8f263c95601f4"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(25010,1)><speed(2)>We're not that different ourselves. We're a ragtag bunch too.",
+   "notes": "",
+   "source_sha256": "b3daf4d3d0fed9c0e14f3bdb946c13bb4c13692d082221447f9cca2ad8e37415"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(19020,1)><speed(2)>The people over here are something else, building a thing like this.",
+   "notes": "",
+   "source_sha256": "0dde403b808e8b429c354c94c0cc33b64879513808a5661f73db55003d052809"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(19030,1)><speed(2)>Now I get why the <color(4)>Nadesico<ce()> is that strong...",
+   "notes": "",
+   "source_sha256": "041233a8c25f311de4cab36a4123bfb276b628c6f3df45b112498475e0aa1925"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(19010,1)><speed(2)>This isn't the time to be impressed... The enemy is one even the <color(4)>Nadesico<ce()> senses as a threat.",
+   "notes": "",
+   "source_sha256": "7cb1bc83b092df9154fb01785ff0a6c71fd510b55f3bc4000c5196758ed9dd0e"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(19020,1)><speed(2)>I know. Let's go!",
+   "notes": "",
+   "source_sha256": "aab0aa6fd1e255ebef3edccd6fed9ad87102ad0055a26519dcc7462c4df198e2"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(12051,1)><speed(2)>Still, there sure are a lot of new faces. Even Gundams I've never seen before...",
+   "notes": "",
+   "source_sha256": "c92c951992c4cb9dbc18a91e7b692b94552ac7684663b15acebbcdf87860e5ee"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(17030,2)><speed(2)>Heh, she's pretty cute. Maybe we can have a nice long talk later...",
+   "notes": "",
+   "source_sha256": "fcd8ced642db9a553c6c37f22b4312858af76447ca50b4da217082888854bfa8"
+  },
+  {
+   "table": 1,
+   "slot": 301,
+   "text_id": 302,
+   "en": "<operator(5010,1)><speed(2)>What are the other two up to?",
+   "notes": "",
+   "source_sha256": "0dfb5bc4a38519b1967d3e4beed574c44b84e0b980324d2e0a55288f169e0d42"
+  },
+  {
+   "table": 1,
+   "slot": 302,
+   "text_id": 303,
+   "en": "<operator(12031,1)><speed(2)><color(4)>Hikaru<ce()> is a manga artist, and <color(4)>Izumi<ce()> runs a bar, from what I hear.",
+   "notes": "'-san' on both names dropped, per project convention.",
+   "source_sha256": "13cdef10bb58dfa655e857d1ea4bd3b7f717ecdcfb011b293656373c75431083"
+  },
+  {
+   "table": 1,
+   "slot": 303,
+   "text_id": 304,
+   "en": "<operator(23010,1)><speed(2)>What are you all talking about?",
+   "notes": "",
+   "source_sha256": "3ad2340880cdcdae9ea5303149cfe1a50a46133d276e6af7af7736649265ccc4"
+  },
+  {
+   "table": 1,
+   "slot": 304,
+   "text_id": 305,
+   "en": "<operator(12140,1)><speed(2)>We're talking about the pilots who used to ride the old <color(4)>Nadesico<ce()>.",
+   "notes": "",
+   "source_sha256": "456540476410a433dfa577383e3d861e65daaf4fe9179dd24d7449c9659ce9bc"
+  },
+  {
+   "table": 1,
+   "slot": 305,
+   "text_id": 306,
+   "en": "<operator(21010,1)><speed(2)>I wonder what kind of people they really were...",
+   "notes": "",
+   "source_sha256": "7bc5e370a793b9392a359c645f3c20ca3a9efd22ef4f16a94306d90a8770e2a9"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 33,
+   "issue": "Garbled 'OTIKA' warning text kept verbatim (not translated) - it is Latin script already and its point is spelling AKITO backward; speaker id 12012 has only a short label 'Akito' in the game's own speaker table, confirming the reading."
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "issue": "'garoodo no iu toori da na. otoko nya yaraneba naran toki ga aru...tte na' - Gain paraphrasing/quoting a saying; rendered as his own remark referencing Garrod's line."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 53,
+  "rows_in_scene": 53,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/33 garbled fullwidth 'OTIKA' row kept verbatim per ruling; it is Latin script (AKITO reversed), not translatable Japanese text.",
+   "0/19 'Ryoko Subaru' name order matches character_names_021.json en_full exactly.",
+   "Every row (0/19-38, 1/19-22, 1/59-62, 1/99-101, 1/139-143, 1/179-183, 1/219-220, 1/259-262, 1/299-305) compared line by line against the Japanese source; all match in meaning, subject/addressee, and tag order.",
+   "Names checked against glossary: Ryoko Subaru, Amaterasu, Harry, Hisago Plan (opening_history_terms.json), Dragonar Team, Renton, Nirvash, Eureka, Garrod Ran, Nadesico, Hikaru Ichijyo, Izumi Maki - all match.",
+   "1/181 Gain's paraphrase of Garrod's saying kept as his own remark, per translator's uncertainty; accepted as a faithful rendering of the quoting structure."
+  ],
+  "remaining_uncertainties": [
+   "0/33: OTIKA row is intentionally garbled/untranslatable text; kept verbatim per ruling.",
+   "1/181: whether Gain is quoting Garrod verbatim or paraphrasing is not fully settled by the source; current phrasing (referencing Garrod's line) is a safe reading."
+  ]
+ }
+}

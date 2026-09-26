@@ -1,0 +1,87 @@
+{
+ "resource_id": 4003230,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "17B Repel Pursuit Force 2",
+   "notes": "Released mission title reused verbatim from missions_019.json (17B has no English/source Part 1 either, per that file's review notes).",
+   "source_sha256": "6b8f5b16750e9508e6190542aa22830215fcf5df9a6446c6e562c16f9ed28a9f"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30090,1)><speed(2)>Now that you're with us, we head for New York, where the <book(48)>Shin Dragon<endbook()><thumbnail(250)> is. We can't let the <book(48)>Shin Dragon<endbook()> run loose any longer.",
+   "notes": "Speaker 30090 = Hayato Jin. Kept the source's second book(48) Shin Dragon mention as its own tag (rather than collapsing to a pronoun) so both angle-bracket commands survive in order. Orchestrator: shortened to fit three lines.",
+   "source_sha256": "b06299f893bacc7cf5bc309691e290c100e2fedb9dbd378ad4929c6370fc3ea0"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30090,1)><speed(2)>With the <book(2)>Baldora Charge<endbook()> advancing too, we also need to pin down where <color(5)>Berkt<ce()> is. This allows no room for complacency.",
+   "notes": "book(2) Baldora Charge per encyclopedia_021_a.json lock (also used for the wormhole's progress meter).",
+   "source_sha256": "a41c71eca55798ba609fca38e43dfb4676a31ef758899f1b46540ad33f4400af"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<thumbdown()><topic()><operator(30100,1)><speed(2)>Trouble's cropped up again... We tripped the <book(38)>New Federation<endbook()>'s tracking net<thumbnail(251)>. The <book(56)>Siberian Railway<endbook()> lies in wait ahead.",
+   "notes": "Speaker 30100 = Gain Bijou. Shibe-tetsu (source's shortened nickname for the Siberian Railway) rendered as the full locked name per terms_028.json.",
+   "source_sha256": "5aa0da3c6bc4b665574a88fd201970c54e85dd1b40091dcfaa67bad84e33f0c1"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30100,1)><speed(2)>We'd like to shake them off and head straight for the <book(48)>Shin Dragon<endbook()>, but it looks like they've come prepared for us too.",
+   "notes": "",
+   "source_sha256": "3749adb9bd6e026e24c0bb34defd1e997bd6ba397f0f3c79ef61c9b38d725a35"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<thumbdown()><operator(30100,1)><speed(2)>Best to take them on here and clear the threat at our backs. No time to waste, so let's finish this fast.",
+   "notes": "",
+   "source_sha256": "8a13b388d1b8b3cda5592997b9d97ab332a9dc2e5f68e071cd524902a6542da3"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "'This allows no room for complacency' (yodan wo yurusan joukyou da) has no stated subject in the source; kept impersonal rather than supplying 'we'/'it's'."
+  },
+  {
+   "slot": 19,
+   "issue": "Compressed 'so soon after you joined us' to 'now that you're with us' to remove 'joined' (lowercase j) and fit the length limit; meaning (this is their first joint operation) preserved."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019.json '17B Repel Pursuit Force 2'.",
+   "Slot 19-23 speaker 30090 confirmed Hayato Jin, 30100 confirmed Gain Bijou via tools/speaker_lookup.py.",
+   "Slot 19 'Now that you're with us' for the dropped 'so soon after joining' reading: meaning (this is the first joint operation) preserved; no lowercase j introduced.",
+   "Slot 20 'This allows no room for complacency' correctly left subjectless, matching the source's subjectless 'yodan wo yurusan joukyou da'.",
+   "Slot 22 'they've come prepared for us too' is a reasonable rendering of 'sono nari no junbi' (prepared accordingly); not an invented addition given context (they are readying to intercept the party).",
+   "Tag sequence (operator/speed/book/color/thumbnail/thumbdown/topic) verified identical and in source order for every row via a throwaway script comparing tools/scene_source.py output against each row's en field.",
+   "No lowercase j/q found outside locked names; no bare %; no newlines; ASCII only; all rows <=128 visible chars (max 128 at slot 19)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: no stated subject for 'no room for complacency' in the source; impersonal construction kept as in the draft.",
+   "Slot 19: 'joined' compressed to 'now that you're with us' to avoid the lowercase j and fit length; meaning judged preserved."
+  ]
+ }
+}

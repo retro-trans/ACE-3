@@ -1,0 +1,12 @@
+{
+  "batch":"dialogue_00696–00775",
+  "status":"proposals_for_orchestrator_review",
+  "entries":[
+    {"source":"ガルド・ボーマン","target":"Guld Bowman","canonical_full_name":"Guld Goa Bowman","category":"character","status":"researched","profile":{"gender":"male","nicknames":[],"nicknames_status":"not_found_in_reviewed_sources","personality":"Brilliant, quick-tempered and intensely competitive with Isamu.","position":"General Galaxy researcher and YF-21 test pilot; civilian Special A rank."},"sources":["https://macross.anime.net/wiki/Guld_Goa_Bowman","https://tamashiiweb.com/item/14740/?wovn=en"],"note":"Corpus uses shortened name without Goa; proposed alias, not replacement of full canonical name."},
+    {"source":"マキビ・ハリ","target":"Hari Makibi","category":"character","status":"researched","profile":{"gender":"male","nicknames":[{"source":"ハーリー","target":"Harry"}],"personality":"Emotional and sensitive young operator who admires Ruri.","position":"Ensign and bridge officer aboard Nadesico B; assistant to the executive officer."},"sources":["https://nadesico.fandom.com/wiki/Hari_Makibi","https://srw.wiki.cre.jp/wiki/マキビ・ハリ","https://nadesico.fandom.com/wiki/Super_Robot_Wars_V"],"note":"Japanese reference confirms nickname; English franchise wiki uses Harry in scenario account."},
+    {"source":"スーパー・ノヴァ計画","target":"Project Super Nova","category":"project","status":"researched","sources":["https://macross.fandom.com/wiki/Project_Super_Nova","https://macross.anime.net/wiki/YF-21"]},
+    {"source":"ゼントラーディ","target":"Zentradi","category":"people","status":"researched","sources":["https://macross.anime.net/wiki/Guld_Goa_Bowman","https://macross.anime.net/fallacies/errata/robotech_faq/5/"],"note":"Use Macross spelling Zentradi, distinguish Robotech spelling Zentraedi."},
+    {"source":"バルキリー","target":"Valkyrie","category":"unit_type","status":"provisional","sources":["https://macross.fandom.com/wiki/YF-21"],"note":"Generic variable-fighter nickname, not an instruction to rename YF-19 or YF-21 designations."},
+    {"source":"フレイル","target":"Flail","category":"unit_type","status":"provisional","sources":[],"corpus_evidence":["dialogue_00735","dialogue_00736","dialogue_00750","dialogue_00751","dialogue_00752"],"note":"Multiple exact Japanese and English web searches found no reliable matching model entry. Draft transliteration only. Corpus clearly identifies allied unmanned support machines."}
+  ]
+}

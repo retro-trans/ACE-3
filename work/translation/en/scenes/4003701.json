@@ -1,0 +1,112 @@
+{
+ "resource_id": 4003701,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 10,
+ "rows_examined": 10,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Invaders",
+   "notes": "Enemy faction name; locked (book(49), matches reviewed scene 4003070).",
+   "source_sha256": "bad937080a191d3c74fd1929393b0ccae481947d4ec3beb2139063e7a3b6954b"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(19050,1)><speed(2)><move(1,5,10)>I'll<marker(1,7,11,0)> explain<marker(3,5,8,0)> the operation.<move(2,8,9)><picture(69,2,7,0)><refer(2,7,5,8)>",
+   "notes": "",
+   "source_sha256": "3807f86bd37fae488e8aa4a0b47accf2d0cdc0d53732b3f687f36c6e98b9560c"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(19050,1)><speed(2)>The <book(48)>Shin<move(1,0,4)> Dragon<marker(22,1,1,0)><marker(22,1,3,0)><endbook()>'s surrounding<move(1,11,0)> <color(5)>targets<marker(22,10,0,0)><marker(22,13,2,0)><ce()><marker(22,13,4,0)> are what<move(1,8,5)> we need to wipe out<marker(22,8,6,0)> this time.<move(2,6,5)><picture(107,30,7,0)><refer(30,7,10,0)>",
+   "notes": "Shin Dragon per reviewed scene 4003070/4003581.",
+   "source_sha256": "c612311687995047dcb3198c89b32fbaafa08bd664e197a36b612436fd9e3bfc"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(19050,1)><speed(2)>The enemy<marker(20,5,3,0)> seems<marker(20,8,3,0)> to<marker(20,11,4,0)> have<marker(20,11,2,0)> made<marker(20,2,5,0)> careful<marker(20,1,8,0)> preparations<marker(20,1,10,0)>. In<marker(20,8,10,0)> the<marker(20,12,10,0)> operation<marker(20,10,12,0)> area<marker(20,12,12,0)>, enemy<marker(20,5,13,0)>-caused <color(6)>interference<ce()> is underway.",
+   "notes": "jamming (jamingu) rendered 'interference' to avoid the lowercase j; matches the project's own established term for the same mechanic (missions_019.json 'Disable all interference areas' / hud_labels.json 'ends interference').",
+   "source_sha256": "9929e879cb79f139468b08cb10c921eb7e667a13ff86ba534cf82739b6b76d64"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(19050,1)><speed(2)>Radar won't work in some areas hit by <color(6)>interference<ce()><danger(1)>. You won't be able to spot what's around.",
+   "notes": "See slot 21 note on 'interference' for jamingu.",
+   "source_sha256": "1026502543757e5ad463a7794c5004ae2491809f0e1048881129841a2a1d2dcc"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(19050,1)><speed(2)>First, the <color(6)>interference<ce()><move(1,5,2)> traces<marker(38,3,3,0)> to<marker(38,5,1,0)> a <color(6)>facility<ce()><move(1,5,12)>; capture<marker(38,3,10,0)> it<marker(38,7,13,0)>,<move(1,7,7)> restore<marker(38,10,5,0)> radar<marker(38,10,8,0)> function<marker(38,7,7,0)>.<move(2,8,6)><picture(106,30,14,0)><refer(30,14,10,8)> Move fast.",
+   "notes": "See slot 21 note on 'interference' for jamingu.",
+   "source_sha256": "8dd6e39166fc1b0efe376f18de8d2c54e28f06838ff23925e1421d66a08abeec"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>A heat signature that looks like <color(5)>reinforcements<ce()> has also been confirmed approaching from far away.",
+   "notes": "",
+   "source_sha256": "5ad092b1f7d769b6a1a83cb54487147302fb142121bdc1a99707c31538d3dc08"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)>Since their arrival is expected right in the middle of the operation, we'll have the <book(6)>Flail<endbook()> unit<marker(5,5,5,0)> deployed<marker(5,8,12,0)> ahead of time<marker(5,5,11,0)>.<picture(84,2,14,0)><refer(2,14,5,11)>",
+   "notes": "Flail per reviewed scene 4003591.",
+   "source_sha256": "77852248282163faa1c9f998d2e93d345e666437e767853cc12777cc4915660b"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<delpic(2,7,1)><enemylist()><operator(19050,1)><speed(2)>Everyone, I'm counting on you.",
+   "notes": "",
+   "source_sha256": "822686d5497b99b66e0342e1071b8e5c49c2ac57369c4a0e196ad9df4be04c82"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "Rendered jamingu (jamming) as 'interference' throughout this scene (slots 21-23) rather than 'jamming', to avoid the lowercase j; the project's own HUD/mission text already uses 'interference' for the same radar-disabling mechanic (missions_019.json, hud_labels.json), so this is a terminology choice, not just a spelling workaround. Flag if the project prefers keeping 'jamming' as in scene 4004433."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 10,
+  "rows_in_scene": 10,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "New Federation and Invaders slot 0/1 headers match glossary.json/reviewed scene 4003070.",
+   "Speakers: 19050 Hayato Jin (slots 19-23, 26), 12031 Ruri Hoshino (slots 24-25) - speaker_lookup.py confirms; no wrong-addressee issue.",
+   "Ruling applied: 'interference' for jamingu/jamingu is the project term - kept as-is in slots 21-23 per orchestrator ruling.",
+   "Shin Dragon (book(48)) matches reviewed scenes 4003070/4003581; Flail (book(6)) matches reviewed scene 4003591.",
+   "No mistranslation, reversed meaning, invented subject/added honorific, or dropped sentence ending found; command tag order and count match the source exactly in every row (verified programmatically)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 21 uncertainty (interference vs jamming terminology) - resolved by orchestrator ruling: 'interference' is the project term, kept."
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "0.1.13",
+  "entries": [
+    {
+      "id": "wing_gundam_zero_custom",
+      "ja": "ウィングガンダムゼロカスタム",
+      "en": "Wing Gundam Zero Custom",
+      "type": "unit",
+      "status": "source_verified",
+      "sources": [
+        "https://tamashiiweb.com/item/67/?wovn=en",
+        "https://satellite.bandai-hobby.net/For_Oversea_Customer/images/pdf/GNC_web_2023.pdf"
+      ],
+      "note": "Bandai's English product name verifies the older Custom spelling used by the game. Do not substitute the newer EW label in this source-specific results field."
+    },
+    {
+      "id": "recovery_device",
+      "ja": "リカバリーデバイス",
+      "en": "Recovery Device",
+      "type": "module",
+      "status": "provisional_literal_translation",
+      "sources": [],
+      "source_location": "DATA.BIN / 4002051 / 3001 / slot5",
+      "note": "Literal English loanword rendering. No external English naming authority found; item function is not inferred."
+    },
+    {"id":"unit_recruitment","ja":"ユニット編入","en":"Add Units","status":"meaning_reviewed_ui"},
+    {"id":"flight_type","ja":"フライトタイプ","en":"Flight Type","status":"meaning_reviewed_ui"},
+    {"id":"easy_reverse","ja":"イージーリバース","en":"Easy Rev.","meaning":"Easy controls with inverted pitch","status":"meaning_reviewed_ui"},
+    {"id":"flight_reverse","ja":"フライトリバース","en":"Flight Rev.","meaning":"Flight controls with inverted pitch","status":"meaning_reviewed_ui"}
+  ]
+}

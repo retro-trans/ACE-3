@@ -1,0 +1,188 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 1346,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 1331,
+      "end": 1440
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [
+        1346,
+        1347
+      ],
+      "finding": "Three-part shout continuing 1344-1345. 'I won't let you die' accepted: Tiffa is aboard the GX (1293-1294, 1313-1317, 1404) and the line reproduces the Gundam X scene where the omitted object is Tiffa. Leading 'And' is only a rhythm link; harmless."
+    },
+    {
+      "rows": [
+        1350,
+        1363
+      ],
+      "finding": "chijou -> 'the surface', chikyuu -> 'the Earth': the source distinction is kept and both are correct."
+    },
+    {
+      "rows": [
+        1351,
+        1370
+      ],
+      "finding": "Berkt is male in character_names_021 and his report is named in 1351; 'His report' in 1370 (yatsu no houkoku, spoken by the other Frost brother about the same report) is a settled referent, not an invented gender."
+    },
+    {
+      "rows": [
+        1352,
+        1353,
+        1354,
+        1355
+      ],
+      "finding": "Gundam Ashtaron matches unit names; boku marks the younger Frost brother but no name was written in. Claws / transformation advice accurate."
+    },
+    {
+      "rows": [
+        1358
+      ],
+      "finding": "'Too easy.' is an accurate rendering of tawai mo nai."
+    },
+    {
+      "rows": [
+        1369
+      ],
+      "finding": "Kept open as the translator intended; 1370 (same enemy pilot, 'this machine') supports the enemy appraising the player machine."
+    },
+    {
+      "rows": [
+        1376,
+        1377
+      ],
+      "finding": "'Kill them all, for all I care' + 'We only need to bring back that girl' together carry the source; commander untagged."
+    },
+    {
+      "rows": [
+        1383
+      ],
+      "finding": "jama shinai! is the bare-negative command form ('no getting in the way!'), so the imperative is right; a self-directed 'we won't interfere' is not a natural reading after 'Move, move, move!'."
+    },
+    {
+      "rows": [
+        1384
+      ],
+      "finding": "Tiffa Adill matches the glossary (wiki title), not the 'Adil' variant."
+    },
+    {
+      "rows": [
+        1386,
+        1394
+      ],
+      "finding": "1386 'They're coming' is fixed by the appositive 'companions...'. 1394 'It's coming!' accepted: it follows the Satellite System activation 1392-1393 and precedes the firing shout 1395, matching the anime beat where Tiffa announces the microwave; see uncertainties."
+    },
+    {
+      "rows": [
+        1390,
+        1400
+      ],
+      "finding": "Fragment kept in 1390; 'losing to' in 1400 is the minimal completion of the omitted passive and the brothers' retreat in 1401-1402 confirms it."
+    },
+    {
+      "rows": [
+        1397,
+        1398,
+        1401,
+        1402
+      ],
+      "finding": "Olba per glossary; niisan -> Brother; watashi/boku split between the brothers preserved in register."
+    },
+    {
+      "rows": [
+        1403,
+        1404,
+        1405,
+        1406,
+        1407
+      ],
+      "finding": "color/book commands in source order. 1405 active voice keeps agent (that boy) and patient (Tiffa). 1407 'New Federation too' reflects the source mo."
+    },
+    {
+      "rows": [
+        1412,
+        1413
+      ],
+      "finding": "GX-9900, 7th Space War, 15 years ago all preserved."
+    },
+    {
+      "rows": [
+        1415,
+        1418
+      ],
+      "finding": "Jamil kanchou -> 'Captain Jamil' per orchestrator decision."
+    },
+    {
+      "rows": [
+        1424,
+        1425,
+        1426
+      ],
+      "finding": "1426 answers with 'Faye, ...', so 1424-1425 are Faye to the captain; explicit watashitachi in 1424 licenses 'we' in 1425."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        1347
+      ],
+      "issue": "Object of shinaseru is inferred (Tiffa). If the orchestrator wants zero inference, 'No one dies here!' is the neutral alternative."
+    },
+    {
+      "rows": [
+        1350,
+        1351
+      ],
+      "issue": "Speaker untagged; content (Berkt's report, watashi register in 1398) suggests the elder Frost brother. Not written in."
+    },
+    {
+      "rows": [
+        1371
+      ],
+      "issue": "Tag 'is it?' softens a flat taunt (mikakedaoshi mo ii tokoro = 'all show and nothing more'). Meaning intact, left as phrased."
+    },
+    {
+      "rows": [
+        1374
+      ],
+      "issue": "doko no kitai = 'whose / where that machine is from'; 'whose machine' accepted."
+    },
+    {
+      "rows": [
+        1394
+      ],
+      "issue": "If the in-game cutscene shows the Londo Bell arrival at this point rather than the microwave beam, this should read 'They're coming!'. Cannot be settled from text alone; row passed on the scene-order evidence."
+    },
+    {
+      "rows": [
+        1403,
+        1412,
+        1422,
+        1424
+      ],
+      "issue": "Longest rows of the slice (post-mission window text, three source lines each); within 110 visible characters but wrapping should be checked in-game."
+    },
+    {
+      "rows": [
+        1405,
+        1407
+      ],
+      "issue": "'New Federation' follows the project glossary rather than the wiki's 'New UNE'; centralized terminology issue, not changed here."
+    }
+  ],
+  "validation": {
+    "controls": "All <...> commands of every target re-checked equal in order to the ISO source, including color/book pairs and rows without <ab()>.",
+    "format": "No newline in any target; ASCII only; 80 ids 01346-01425 present once each.",
+    "fit": "All rows <= 110 visible characters. No display-fit shortening performed.",
+    "runtime": "Cutscene staging (row 1394 referent), speaker portraits and visual fit are not established by this meaning review."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14307,
+  "slice_count": 80,
+  "rows_examined": [{"start": 14292, "end": 14401}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {"id": "dialogue_14340", "before": "Attack from above!", "after": "I'll hit from above!", "reason": "Source is a first-person boast (the pilot saying he himself will take the enemy from above); the imperative 'Attack from above!' shifts the subject from the speaker to an unspecified addressee, reading as a command to allies rather than a statement about the speaker's own move."},
+    {"id": "dialogue_14345", "before": "I'll shoot you down!", "after": "Down you go! Bring it!", "reason": "Source has two clauses, a boast ('I'll shoot you down') followed by a taunt ('come at me'). The second clause was dropped entirely rather than compressed, losing the challenge. Both clauses now fit within the row's budget."}
+  ],
+  "checked_decisions": [
+    {"rows": [14307, 14339], "finding": "Remaining Garrod Ran (Gundam X) lines checked line by line; consistent with the Tiffa-protection motive established in the 14259-14306 range, no reversed meaning found."},
+    {"rows": [14340, 14386], "finding": "Resource 2817030 (Witz Sou, Gundam Airmaster) checked line by line aside from the two fixed rows; masculine 'ore' self-reference and headstrong/short-tempered register match the locked personality in character_names_021.json."},
+    {"rows": [14360], "issue_resolved": "'jirihin' (transliterated katakana in the translator's uncertainty note) is the common word 'jiri-hin' (a slow, grinding decline / losing battle of attrition), not obscure slang. 'Bad, losing ground.' is an accurate rendering; the translator's flagged uncertainty is resolved with no fix needed."},
+    {"rows": [14329], "finding": "'One glance and I know it's strong! I'll do it!' correctly keeps both the acknowledgment of the enemy's strength and the resolve to fight, matching the translator's own compression note."}
+  ],
+  "uncertainties": [
+    {"rows": [14347], "issue": "'I'm this battlefield's star! Fear the wrong guy!' compresses a longer warning not to mistake who to be afraid of; read as 'you're afraid of the wrong person (it should be me)', which matches the source's intent, but the phrasing is terse enough that it could be misread as a literal command. Left as is - fixing it further would require exceeding a tight budget for a case that isn't a clear reversal."}
+  ],
+  "validation": {
+    "controls": "Re-ran `python tools/dialogue_corpus.py slice 14307 80 --context 15` and compared every in-slice row's <...> commands against the target; all commands identical and in the same order as the source.",
+    "format": "No newlines in any target; source line breaks (e.g. 14331, 14344) correctly joined.",
+    "fit": "Recomputed the hard byte budget for both fixed rows: dialogue_14340 budget 20 (source 11 chars) - fix is 20 chars; dialogue_14345 budget 24 (source 13 chars) - fix is 22 chars. Both fit.",
+    "ascii": "All targets ASCII-only; no lowercase j/q found outside locked names."
+  }
+}

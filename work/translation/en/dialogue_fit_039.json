@@ -1,0 +1,281 @@
+{
+  "version": "0.1.39",
+  "scope": "Meaning-preserving display compression for the 15 communication-window rows that exceed three lines after tag-safe reflow.",
+  "base": "ACE3-English-0.1.38.iso",
+  "font_resource": 1200000,
+  "font_id": 2500,
+  "width": 460,
+  "max_lines": 3,
+  "review": {
+    "rows_in_scope": 15,
+    "rows_reviewed": 15,
+    "rows_examined": 70,
+    "examined_ids": [
+      "dialogue_00812",
+      "dialogue_00813",
+      "dialogue_00814",
+      "dialogue_00815",
+      "dialogue_00816",
+      "dialogue_00817",
+      "dialogue_00818",
+      "dialogue_00819",
+      "dialogue_00820",
+      "dialogue_00821",
+      "dialogue_00831",
+      "dialogue_00832",
+      "dialogue_00833",
+      "dialogue_00834",
+      "dialogue_00835",
+      "dialogue_01430",
+      "dialogue_01431",
+      "dialogue_01432",
+      "dialogue_01433",
+      "dialogue_01434",
+      "dialogue_02670",
+      "dialogue_02671",
+      "dialogue_02672",
+      "dialogue_02673",
+      "dialogue_02674",
+      "dialogue_03036",
+      "dialogue_03037",
+      "dialogue_03038",
+      "dialogue_03039",
+      "dialogue_03040",
+      "dialogue_04312",
+      "dialogue_04313",
+      "dialogue_04314",
+      "dialogue_04315",
+      "dialogue_04316",
+      "dialogue_06024",
+      "dialogue_06025",
+      "dialogue_06026",
+      "dialogue_06027",
+      "dialogue_06028",
+      "dialogue_06800",
+      "dialogue_06801",
+      "dialogue_06802",
+      "dialogue_06803",
+      "dialogue_06804",
+      "dialogue_08873",
+      "dialogue_08874",
+      "dialogue_08875",
+      "dialogue_08876",
+      "dialogue_08877",
+      "dialogue_09776",
+      "dialogue_09777",
+      "dialogue_09778",
+      "dialogue_09779",
+      "dialogue_09780",
+      "dialogue_09785",
+      "dialogue_09786",
+      "dialogue_09787",
+      "dialogue_09788",
+      "dialogue_09789",
+      "dialogue_09982",
+      "dialogue_09983",
+      "dialogue_09984",
+      "dialogue_09985",
+      "dialogue_09986",
+      "dialogue_10598",
+      "dialogue_10599",
+      "dialogue_10600",
+      "dialogue_10601",
+      "dialogue_10602"
+    ],
+    "source": "Japanese read directly from original ISO using dialogue_index.json offsets; reviewed existing full English drafts and two adjacent rows on either side.",
+    "checks": [
+      "All original tags preserved in exact sequence against index commands.",
+      "All 15 rows fit three lines at 460 font units; book/color spans do not split.",
+      "Locked linked terms and names retained.",
+      "No source script exported."
+    ]
+  },
+  "rows": [
+    {
+      "id": "dialogue_00814",
+      "target": "<on()><sp(20)>Only residue from those life-forms was\nin the cockpits. It had apparently\nseeped into the electronics and parts.",
+      "status": "meaning_reviewed",
+      "source_sha256": "6fd178879843f02c6c9b5ad9a6c9a738bcb8ad5016c1fdc338d0edad358a69d1",
+      "widths": [
+        442,
+        384,
+        430
+      ],
+      "notes": "Keeps the cockpit residue, infiltration into electronics/parts, and reported uncertainty. Compresses the full reviewed draft without removing its conclusion."
+    },
+    {
+      "id": "dialogue_00818",
+      "target": "<on()><sp(20)>Cmdr. <color(4)>Misumaru<ce()> reports finding a\npossible link to this incident. It is still\nonly a theory.",
+      "status": "meaning_reviewed",
+      "source_sha256": "8e21250c44cd329d9d4d48c3243afd6d19b96b0151282e9014405d346ec0df81",
+      "widths": [
+        389,
+        442,
+        165
+      ],
+      "notes": "Abbreviates Commander to Cmdr.; retains the reported discovery, possible connection, and hypothesis status."
+    },
+    {
+      "id": "dialogue_00819",
+      "target": "<on()><sp(20)>Reportedly, an abandoned test site\ncalled the <book(1)>Baldora Drive<endbook()>. We're heading\nthere at once.",
+      "status": "meaning_reviewed",
+      "source_sha256": "274a99cec8c497fb784bbb4bc8e43b8cf99d48c5c3da16572a2dab367fa80730",
+      "widths": [
+        391,
+        454,
+        161
+      ],
+      "notes": "Compresses experimental facility to test site and retains hearsay and immediate departure. Locked Baldora Drive spelling retained."
+    },
+    {
+      "id": "dialogue_00833",
+      "target": "<on()><sp(20)>\"<color(4)>Barrel Orland<ce()>. As of today, under\nwartime special provisions, you are\nappointed a 2nd Lt. in <book(10)>Londo Bell<endbook()>.\"",
+      "status": "meaning_reviewed",
+      "source_sha256": "0ca2d99c7cf30a2cc84ca4dfb4684f028e9688467b51e642e612208afad89021",
+      "widths": [
+        390,
+        399,
+        400
+      ],
+      "notes": "Retains effective today, special wartime provisions, appointment as second lieutenant, Barrel Orland, and linked Londo Bell. Abbreviates rank to 2nd Lt.; Londo Bell is visible on line 3."
+    },
+    {
+      "id": "dialogue_01432",
+      "target": "<on()><sp(20)>Those were <book(38)>New Federation<endbook()> troops. The\n<book(38)>New Federation<endbook()> rules this Earth by\nmilitary force.",
+      "status": "meaning_reviewed",
+      "source_sha256": "593d86a94838f07b9ad52368b21442702b7d06c6879f0dd20bf17771882d5ca6",
+      "widths": [
+        452,
+        398,
+        172
+      ],
+      "notes": "Retains both New Federation links, identity of the earlier troops, and military rule over this Earth; avoids adding a subject for the earlier fighting."
+    },
+    {
+      "id": "dialogue_02672",
+      "target": "<on()><sp(20)>The One Year War was fought between\n<book(9)>Earth Federation<endbook()> forces and the\n<color(5)>Zeon Army<ce()>.",
+      "status": "meaning_reviewed",
+      "source_sha256": "62c877e86feadf3abf96d3a86791d99c0107fd38d5c9bd10a322ae0399ead2f0",
+      "widths": [
+        433,
+        365,
+        136
+      ],
+      "notes": "Retains the historical One Year War and both opposing forces. Removes only redundant wording that it was a war."
+    },
+    {
+      "id": "dialogue_03038",
+      "target": "<on()><sp(20)>The unit from the recent <book(25)>Shirahime<endbook()>\nattack was reportedly seen at other\ncolonies too.",
+      "status": "meaning_reviewed",
+      "source_sha256": "cc2174f576ddf70804c84adb9fe82bd0a5758e1b8a24249b309767b1bd8b08d6",
+      "widths": [
+        404,
+        401,
+        147
+      ],
+      "notes": "Retains the recent Shirahime attack, same unit, other colonies, and report qualification."
+    },
+    {
+      "id": "dialogue_04314",
+      "target": "<on()><sp(20)>In the last war, the <book(42)>Space Rev. Army<endbook()>\nused a colony drop as its trump card to\ndemand Earth's surrender.",
+      "status": "meaning_reviewed",
+      "source_sha256": "8b61e05e963101cac36158b43f5f8f06b771b8185417771d26cfefd650abbf46",
+      "widths": [
+        416,
+        447,
+        310
+      ],
+      "notes": "Retains the last war, colony-drop trump card, and demand for Earth's surrender. Locked Space Rev. Army abbreviation retained."
+    },
+    {
+      "id": "dialogue_06026",
+      "target": "<on()><sp(20)>Vast reserves of <book(51)>Getter Rays<endbook()> are\nreported in a newly sighted\n<book(48)>Shin Dragon<endbook()>. <color(5)>Berkt<ce()> may appear there.",
+      "status": "meaning_reviewed",
+      "source_sha256": "4e55cb23174ba1d347bff7e5757990d0f551fc12a8bf8b395efa2cb7ded5b307",
+      "widths": [
+        369,
+        311,
+        434
+      ],
+      "notes": "Retains the newly appeared Shin Dragon, vast Getter Rays reserves, report qualification, and possibility of Berkt appearing there."
+    },
+    {
+      "id": "dialogue_06802",
+      "target": "<on()><sp(20)>Since then, my body glows faintly when\nmy emotions run high. Like a comic,\nright?",
+      "status": "meaning_reviewed",
+      "source_sha256": "c672771cd43a68f7d27674b4541edf970b7e4208b4dc59b54d4470e9cf35a92f",
+      "widths": [
+        447,
+        414,
+        68
+      ],
+      "notes": "Preserves onset after the previous line's experiments, emotional trigger, bodily glow, and comic comparison. Restores the source's faint glow nuance."
+    },
+    {
+      "id": "dialogue_08875",
+      "target": "<on()><sp(20)>The <book(49)>Invaders<endbook()> stayed a mystery, absent\nfrom the <book(78)>Ageha Plan<endbook()>, because Dr.\n<color(5)>Saotome<ce()> withdrew...",
+      "status": "meaning_reviewed",
+      "source_sha256": "79e2f03e26540803cb49c836d36d6d8b601163317da59b5887e120fb49dfc5f5",
+      "widths": [
+        436,
+        377,
+        241
+      ],
+      "notes": "Retains the Invaders' absence from the Ageha Plan, their mystery, and Saotome's withdrawal as its cause."
+    },
+    {
+      "id": "dialogue_09778",
+      "target": "<on()><sp(20)>The <book(69)>Scub Coral<endbook()> lies dormant, so it stays\nbelow the <book(77)>Limit of Questions<endbook()>... That\nwas my theory.",
+      "status": "meaning_reviewed",
+      "source_sha256": "ceea688f0fb3f168d6491e8fb5ac3e1222c70ef392a17591c604b1b20faad314",
+      "widths": [
+        449,
+        421,
+        178
+      ],
+      "notes": "Retains the speaker's hypothesis: dormancy is why Scub Coral has not crossed the Limit of Questions."
+    },
+    {
+      "id": "dialogue_09787",
+      "target": "<on()><sp(20)>The <book(77)>Limit of Questions<endbook()> began then. But\nthe <book(69)>Scub<endbook()> quickly went dormant to stop\nit.",
+      "status": "meaning_reviewed",
+      "source_sha256": "09ed3582fde581d78670b0d1b4e3080cf7ae484a04a055847d5d50ae415b4f89",
+      "widths": [
+        449,
+        434,
+        31
+      ],
+      "notes": "Retains the onset and emergency return to dormancy. The following line explains that prevention was incomplete, leaving a residual affected space; no claim of complete prevention is added."
+    },
+    {
+      "id": "dialogue_09984",
+      "target": "<on()><sp(20)>Thanks to <book(46)>D.O.M.E.<endbook()>, the\n<book(80)>Command Cluster<endbook()> canceled its <book(69)>Scub<endbook()> wake\norder. Our trip paid off.",
+      "status": "meaning_reviewed",
+      "source_sha256": "3cdd6ccfaaaad4ab5c1484775aafd078c70b03cb0bb0bf113cf42a7926f4bda4",
+      "widths": [
+        281,
+        458,
+        285
+      ],
+      "notes": "Retains D.O.M.E.'s causal role, the Command Cluster's cancellation of the Scub awakening order, and the value of coming here. Wake order abbreviates order to end dormancy."
+    },
+    {
+      "id": "dialogue_10600",
+      "target": "<on()><sp(20)>Despite all the plan's preparations, the\n<book(77)>Limit of Questions<endbook()> hasn't happened...\nWhy?",
+      "status": "meaning_reviewed",
+      "source_sha256": "a53ca4ad01509832f1f5f8e497cba191995f7d85b4320303e81900f187c4fe85",
+      "widths": [
+        440,
+        442,
+        61
+      ],
+      "notes": "Retains the contradiction between extensive preparation and the Limit of Questions not occurring, plus the question asking why."
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_09787",
+      "note": "The source says the event began and was then prevented. The next line explicitly says prevention was incomplete. The shortened display text preserves this sequence; it should not be paraphrased to imply the event never began."
+    }
+  ]
+}

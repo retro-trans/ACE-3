@@ -1,0 +1,29 @@
+{
+  "reviewer": "independent_meaning_review_mission23_agent",
+  "slice_start": 9695,
+  "slice_count": 80,
+  "rows_examined": [{"start": 9680, "end": 9789}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [9696, 9710, 9813], "finding": "Lowercase 'king' for the villain's own kanji ambition ('私は王となる') versus capitalized 'King' for the source's katakana kingu (Cynthia's nickname for Gainer) is applied consistently across this batch and matches dialogue_09649/09683 in batch_09615.json and the established 'King Gainer' nickname convention (batch_04478.json, character_names_021.json). Ruling accepted per task brief; consistent across both drafting agents."},
+    {"rows": [9699, 9707, 9711, 9731, 9733, 9742], "finding": "Pronoun-gender fills ('her heart', 'beat her', 'that Overskill of hers') all resolve to Cynthia, who is the explicit, already-named referent two rows earlier in every case (e.g. 9698 'Cynthia playing tricks' before 9699's 'her heart'). Not an invented gender - the antecedent is textually settled."},
+    {"rows": [9722, 9723, 9724, 9725], "finding": "Bystander interrupting an Eureka/Renton exchange; none of the four rows are speaker-tagged in the source. Translation keeps the interrupting lines (9722/9723) unassigned to any named speaker, matching the source's own ambiguity - correct handling."},
+    {"rows": [9752, 9758], "finding": "'Overheat' used consistently as the counter-move to the Overdevil's 'Overfreeze', matching the analogous-coinage pattern (Overskill/Overman/Overheat) already used in batch_09615.json."},
+    {"rows": [9767, 9768, 9770, 9773], "finding": "Book-id lore terms (Invaders=49, Operation Orange=82, Scub=69, Limit of Questions=77, Antibody Coralians=73, Command Cluster=80) all match encyclopedia_022.json's locked text_ids; no drift from batch_09615.json's earlier 'Scub Coral'/'Command Cluster' usage was found (that pair first appears later, in batch_09775.json, and is consistent there too)."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_09745"], "issue": "Source addresses 'Gain-san'; speaker/addressee context is not settled by neighbouring rows (scene shifts to on()/off() portrait dialogue right after the battle). 'Mr. Gain' for -san matches existing corpus practice; identity of the speaker genuinely cannot be resolved from this slice or the adjacent ones."},
+    {"ids": ["dialogue_09760", "dialogue_09762", "dialogue_09763", "dialogue_09764", "dialogue_09765", "dialogue_09766"], "issue": "Post-battle reunion between an unnamed speaker and Norb ('old man'/'kid'). Translator's inference that this is likely Holland (Eureka Seven canon: Norb is Holland's old teacher) is reasonable but was correctly kept out of the translated text itself - only the notes speculate. No fix needed; genuinely unresolvable from the source table alone."},
+    {"ids": ["dialogue_09769", "dialogue_09798"], "issue": "Source first-person 'ore' kept as 'I' without inventing a name; likely Norb given the surrounding lore monologue but not confirmed by an explicit tag. Correct handling - left as is."},
+    {"ids": ["dialogue_09767", "dialogue_09768", "dialogue_09769", "dialogue_09770", "dialogue_09771", "dialogue_09772", "dialogue_09773", "dialogue_09774"], "issue": "Extended Scub Coral/Limit of Questions/Operation Orange lore exchange has no per-row speaker tags; the Q&A structure (polite -masu/-desu questioner vs. Norb's blunt answers) is implied but not disambiguated in the translation, matching what the source itself supports."}
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(n)>/<ed()>/<on()>/<off()>/<color(n)>/<ce()>/<book(n)>/<endbook()> tokens re-checked programmatically against a fresh tools/dialogue_corpus.py slice for all 80 rows: identical presence, values and order in every row.",
+    "format": "Newline (\\n) counts match the source exactly for every row (checked programmatically).",
+    "fit": "All visible strings (tags stripped) are <=110 chars (checked programmatically).",
+    "ascii": "No non-ASCII characters found outside the fullwidth percent exception (none needed here); no lowercase j/q found in visible text (checked programmatically)."
+  }
+}

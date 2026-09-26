@@ -1,0 +1,25 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 15907,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15892, "end": 16001}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [15919], "finding": "'Not bad waves today!' for 今日の波は悪くねえな！ is literal and fits Holland/Gekkostate's surfing motif; not a generic idiom substitution. Kept as-is."},
+    {"rows": [15963], "finding": "'Where from?!' for どっから来やがった！？ drops the implied 'you' but the challenge/surprise sense survives; budget (20) leaves little room and the compression does not reverse or misattribute meaning."},
+    {"rows": [15950], "finding": "足ひっぱんじゃねーって言ってんだろ - source omits the object of 'drag down'; target's 'us' (team) is a defensible reading for a squad leader's line, not an invented specific identity."},
+    {"rows": [15957], "finding": "へっ、見直したぜ literally 'I've reconsidered/gained respect for you'; target 'Heh, fair enough' softens the reassessment nuance but stays within the same grudging-praise register as neighboring lines (15952-15959) and is not a reversal. Left as phrasing choice, not a fix."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "All rows share the identical command sequence <op()><sp(20)>...<ab(1000)><ed()> in the same order as the source; verified against tools/dialogue_corpus.py slice 15907 80 --context 15 for every row in this slice plus 15 rows of context each side.",
+    "format": "No newlines in any target; source \\n line breaks (row 15914) correctly joined.",
+    "ascii": "ASCII only, no bare lowercase j/q outside locked names (none needed), no fullwidth characters other than the allowed percent sign (none used).",
+    "fit": "Every row's visible text re-checked against min(72, 2*source_japanese_char_count - 2); all rows pass with no meaning fix required.",
+    "names": "No character or unit names appear in this slice's visible text other than 'Holland' (row 15980), which matches the locked glossary spelling (char list, en_short 'Holland').",
+    "meaning_review": "Independent meaning review completed for all 80 rows; 0 rows received a meaning fix; every row set to 'meaning_reviewed'."
+  }
+}

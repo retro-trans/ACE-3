@@ -1,0 +1,628 @@
+{
+  "slice_start": 12777,
+  "slice_count": 98,
+  "rows_examined": [
+    [
+      12762,
+      12889
+    ]
+  ],
+  "rows_examined_count": 128,
+  "rows_in_slice": 98,
+  "uncertainties": [
+    {
+      "id": "dialogue_12871",
+      "note": "'Yarf' (\u30e4\u30eb\u30d5\u306e\u795e) is an unresearched deity name from Black Knight's line; no confirming source found in English or Japanese wikis for Aura Battler Dunbine/Byston Well mythology. Used a literal, provisional romanization. See batch_12777_glossary_proposals.json."
+    },
+    {
+      "ids": [
+        "dialogue_12736",
+        "dialogue_12789",
+        "dialogue_12792",
+        "dialogue_12802",
+        "dialogue_12818",
+        "dialogue_12837",
+        "dialogue_12843"
+      ],
+      "note": "Two-line rows with tight combined byte budgets; compressed for length while preserving each line's core meaning and the source's own line break."
+    },
+    {
+      "note": "This entire slice (battle shouts, resources 2805050/2805051/2806012/2807010/2807020/2807030) carries an unusually tight hard byte budget (2x source Japanese chars - 2, max 72). Many short rows required heavy compression/paraphrase rather than literal translation; only the most significant compressions are flagged individually above. All rows meet the budget and keep command tags/order identical to source."
+    }
+  ],
+  "rows": [
+    {
+      "id": "dialogue_12777",
+      "target": "<op()><sp(20)>Why won't you use that power for good?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12778",
+      "target": "<op()><sp(20)>Show, right!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12779",
+      "target": "<op()><sp(20)>Show! Show!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12780",
+      "target": "<op()><sp(20)>Run!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12781",
+      "target": "<op()><sp(20)>Don't get cocky!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12782",
+      "target": "<op()><sp(20)>Good! Right there!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12783",
+      "target": "<op()><sp(20)>In raw strength, I win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12784",
+      "target": "<op()><sp(20)>One hit will finish!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12785",
+      "target": "<op()><sp(20)>Together, this is nothing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12786",
+      "target": "<op()><sp(20)>Hit!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12787",
+      "target": "<op()><sp(20)>Why is this happening?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12788",
+      "target": "<op()><sp(20)>Honestly! Everyone's so selfish!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12789",
+      "target": "<op()><sp(20)>Damn it! Is our strength not enough?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Format fix: source line break joined into one line per the shout-specific no-newline rule (was reproduced as two lines)."
+    },
+    {
+      "id": "dialogue_12790",
+      "target": "<op()><sp(20)>I won't lose...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12791",
+      "target": "<op()><sp(20)>Losing... but not yet!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12792",
+      "target": "<op()><sp(20)>Your skill, show me what you've got.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Rephrased naturally ('show me what you've got') to fit budget while preserving the challenge. Format fix: source line break joined into one line per the shout-specific no-newline rule."
+    },
+    {
+      "id": "dialogue_12793",
+      "target": "<op()><sp(20)>Cover!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12794",
+      "target": "<op()><sp(20)>Let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12795",
+      "target": "<op()><sp(20)>Show! Take 'em down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12796",
+      "target": "<op()><sp(20)>All I can do is fight.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12797",
+      "target": "<op()><sp(20)>We can do this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12798",
+      "target": "<op()><sp(20)>We haven't lost yet!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12799",
+      "target": "<op()><sp(20)>Okay?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12800",
+      "target": "<op()><sp(20)>Calm down! You can do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12801",
+      "target": "<op()><sp(20)>Don't rush!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12802",
+      "target": "<op()><sp(20)>If it's like this, maybe I should take the lead?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'I' as speaker retained since source explicitly uses \u79c1 (self-reference), not invented. Format fix: source line break joined into one line per the shout-specific no-newline rule."
+    },
+    {
+      "id": "dialogue_12803",
+      "target": "<op()><sp(20)>That skill's enough alone.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12804",
+      "target": "<op()><sp(20)>A reliable comrade in battle.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12805",
+      "target": "<op()><sp(20)>Not bad at all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12806",
+      "target": "<op()><sp(20)>You're something.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12807",
+      "target": "<op()><sp(20)>Safe with you here.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12808",
+      "target": "<op()><sp(20)>Incoming!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12809",
+      "target": "<op()><sp(20)>How long can it hold...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12810",
+      "target": "<op()><sp(20)>Go, go, go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12811",
+      "target": "<op()><sp(20)>Here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12812",
+      "target": "<op()><sp(20)>Show, coming!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: source is a warning that something is approaching (来るよ), not a generic \"watch!\"; restored the incoming-threat content within budget."
+    },
+    {
+      "id": "dialogue_12813",
+      "target": "<op()><sp(20)>Show! Reinforcements are near!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12814",
+      "target": "<op()><sp(20)>Never seen that one.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12815",
+      "target": "<op()><sp(20)>Not like the others.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12816",
+      "target": "<op()><sp(20)>This power...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12817",
+      "target": "<op()><sp(20)>Not the same!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12818",
+      "target": "<op()><sp(20)>Not like before... something truly evil.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed; 'something truly evil' keeps the source's ominous, ungendered description of the enemy. Format fix: source line break joined into one line per the shout-specific no-newline rule."
+    },
+    {
+      "id": "dialogue_12819",
+      "target": "<op()><sp(20)>Aaah! Show, hurry, finish it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12820",
+      "target": "<op()><sp(20)>Everyone ok?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12821",
+      "target": "<op()><sp(20)>Is it over?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12822",
+      "target": "<op()><sp(20)>Guess we managed.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12823",
+      "target": "<op()><sp(20)>...We did it?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12824",
+      "target": "<op()><sp(20)>Okay?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12825",
+      "target": "<op()><sp(20)>Safe, good... let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12826",
+      "target": "<op()><sp(20)>Know your own weakness.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12827",
+      "target": "<op()><sp(20)>I won't let you look good!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12828",
+      "target": "<op()><sp(20)>I must win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: 勝ちたい is a desire (\"I want to win\"), not a confident assertion of victory; changed from 'I will win!' to keep the neediness fitting Black Knight's fixation on Show, closest fit under budget."
+    },
+    {
+      "id": "dialogue_12829",
+      "target": "<op()><sp(20)>You overrated me.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12830",
+      "target": "<op()><sp(20)>Got you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12831",
+      "target": "<op()><sp(20)>Needlessly clever...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12832",
+      "target": "<op()><sp(20)>No escape!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12833",
+      "target": "<op()><sp(20)>Never!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12834",
+      "target": "<op()><sp(20)>Heaven sides with me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12835",
+      "target": "<op()><sp(20)>I won't fall to gnats!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12836",
+      "target": "<op()><sp(20)>Follow!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12837",
+      "target": "<op()><sp(20)>Don't panic, you'll only waste your energy.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Format fix: source line break joined into one line per the shout-specific no-newline rule (was reproduced as two lines)."
+    },
+    {
+      "id": "dialogue_12838",
+      "target": "<op()><sp(20)>Why not fall?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12839",
+      "target": "<op()><sp(20)>Ngh... losing like this?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12840",
+      "target": "<op()><sp(20)>A good result outweighs shame!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Paraphrased ('a good result outweighs shame') to fit budget; source's 'even a moment's humiliation' compressed but polarity kept."
+    },
+    {
+      "id": "dialogue_12841",
+      "target": "<op()><sp(20)>I can't end here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning-reviewed: source (ここで終わるわけにはいかん) is self-referential (\"I can't be finished here\"), not about an ambiguous 'it' ending; restored the speaker as subject."
+    },
+    {
+      "id": "dialogue_12842",
+      "target": "<op()><sp(20)>Let's go. They seem fully ready.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12843",
+      "target": "<op()><sp(20)>With this Zwarth, anything's possible!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Format fix: source line break joined into one line per the shout-specific no-newline rule (was reproduced as two lines)."
+    },
+    {
+      "id": "dialogue_12844",
+      "target": "<op()><sp(20)>Let's go!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12845",
+      "target": "<op()><sp(20)>With our strength...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12846",
+      "target": "<op()><sp(20)>Fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12847",
+      "target": "<op()><sp(20)>Stay out of my way.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12848",
+      "target": "<op()><sp(20)>What's wrong with you?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Combined two rhetorical questions into one to fit budget; addressee not gendered."
+    },
+    {
+      "id": "dialogue_12849",
+      "target": "<op()><sp(20)>Watch it.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Heavily compressed ('Watch it.') from 'don't underestimate the enemy' under an extremely tight 10-character budget; flagged as a large compression."
+    },
+    {
+      "id": "dialogue_12850",
+      "target": "<op()><sp(20)>Is it simply beyond you?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12851",
+      "target": "<op()><sp(20)>Dull fighting.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12852",
+      "target": "<op()><sp(20)>Thought you'd do more.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12853",
+      "target": "<op()><sp(20)>Endure now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12854",
+      "target": "<op()><sp(20)>That skill might match mine.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Paraphrased 'match mine' for 'fight as an equal'; meaning kept."
+    },
+    {
+      "id": "dialogue_12855",
+      "target": "<op()><sp(20)>Fine skill.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12856",
+      "target": "<op()><sp(20)>You have power.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12857",
+      "target": "<op()><sp(20)>Impressive. I admit.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12858",
+      "target": "<op()><sp(20)>I admire your power.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12859",
+      "target": "<op()><sp(20)>More?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12860",
+      "target": "<op()><sp(20)>Damn gnat, going down.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12861",
+      "target": "<op()><sp(20)>New foe?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12862",
+      "target": "<op()><sp(20)>Clever!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12863",
+      "target": "<op()><sp(20)>More gnats coming?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12864",
+      "target": "<op()><sp(20)>Let me see your power well.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12865",
+      "target": "<op()><sp(20)>Strong one...?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12866",
+      "target": "<op()><sp(20)>Fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12867",
+      "target": "<op()><sp(20)>Worthy opponent. Here I come!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12868",
+      "target": "<op()><sp(20)>Don't underrate.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12869",
+      "target": "<op()><sp(20)>Admirable work, I'd say.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Paraphrased 'I'd say' for 'I'll go so far as to say'; meaning kept."
+    },
+    {
+      "id": "dialogue_12870",
+      "target": "<op()><sp(20)>Good time. Withdrawing.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12871",
+      "target": "<op()><sp(20)>Yarf's decree, is it...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Yarf' is an unverified romanization of \u30e4\u30eb\u30d5 (no wiki/source found for this Aura Battler Dunbine deity); see glossary_proposals. Provisional."
+    },
+    {
+      "id": "dialogue_12872",
+      "target": "<op()><sp(20)>Over. Going back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12873",
+      "target": "<op()><sp(20)>Seems I still have luck.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_12874",
+      "target": "<op()><sp(20)>For now, keep winning.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently meaning-reviewed 2026-09-24 (rows_examined 12762-12889). 3 meaning fixes applied (dialogue_12812, dialogue_12828, dialogue_12841); 6 format fixes (dialogue_12789, 12792, 12802, 12818, 12837, 12843, joining reproduced source line-breaks per the shout no-newline rule); all 98 rows set to meaning_reviewed.",
+    "fit": "All 98 rows verified programmatically against the hard byte budget (visible English length <= min(72, 2*source_ja_chars-2)); several rows required heavy compression, flagged in uncertainties/notes.",
+    "controls": "All original <...> command tags preserved, in original order, for every row; verified programmatically against the source. No newlines added beyond the source's own line breaks (rows 12696, 12726, 12731, 12733, 12736, 12789, 12792, 12802, 12818, 12837, 12843). ASCII-only output verified programmatically."
+  }
+}

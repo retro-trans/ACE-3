@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "Omega Ichi",
+    "en": "Omega 1",
+    "source": "dialogue_16447, resource 2825020 (unit YF-21, pilot Guld Goa Bowman) battle shout, spoken when reporting return to base",
+    "why": "Appears to be Guld's flight/squadron radio callsign. No existing glossary entry found for an 'Omega' callsign in character_names_021.json or unit_names_014_a/b.json; proposing to lock as 'Omega 1' for consistency if it recurs."
+  },
+  {
+    "term_romaji": "rouhi (uncertain reading)",
+    "en": "unclear -- needs verification",
+    "source": "dialogue_16423, resource 2825020 (unit YF-21, pilot Guld Goa Bowman) battle shout: '(mudana) ROUHI da na' ('what a wasted ROUHI')",
+    "why": "The katakana word does not match a recognized Japanese term in context. It may be a stylized rendering of a cost/effort word (labor cost / wasted expenditure), or a corrupted/garbled string, matching this corpus's known technical pitfall of mangled glyphs (see ACE3 technical-pitfalls notes). Translated generically as 'What a waste.' in batch_16373.json pending orchestrator or source-audio verification before locking a spelling."
+  }
+]

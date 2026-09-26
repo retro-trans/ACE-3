@@ -1,0 +1,667 @@
+{
+ "slice": [
+  45,
+  88
+ ],
+ "rows_in_slice": 44,
+ "rows_examined": 51,
+ "entries": [
+  {
+   "id": 45,
+   "name_en": "Zonder Epta",
+   "body_en": "A man-made island owned by the <book(38)>New Federation<endbook()>.\n\nRumor has it that new weapons are being researched there.",
+   "notes": "Name locked (meeting_terms_015). Tag 38 uses glossary.json 'New Federation' (provisional there; character_names_021 has 'New UNE' as speaker tag) - reconcile with slice A."
+  },
+  {
+   "id": 46,
+   "name_en": "D.O.M.E.",
+   "body_en": "A mysterious base facility on the Moon. A legacy of the old era is said to be sealed inside.\n\nIt is also the facility that beams microwaves to the Gundam X's Satellite System.",
+   "notes": "'Satellite System' per Gundam wiki usage; not in project files."
+  },
+  {
+   "id": 47,
+   "name_en": "Shin Getter",
+   "body_en": "A large robot that can transform into three forms.\n\nIt had lain dormant at the Saotome Institute, used by no one, ever since the <book(52)>Deuteron Missile<endbook()> incident, until Go, Kei and Gai reactivated it.",
+   "notes": "'Saotome Institute' per Getter Robo wiki (Wikipedia episode title uses 'Saotome Laboratory')."
+  },
+  {
+   "id": 48,
+   "name_en": "Shin Dragon",
+   "body_en": "The form taken by many Getter Robo G units that combined and evolved. Dr. Saotome developed it to prepare for the coming revival of the <book(49)>Invaders<endbook()>.\n\nThe personality of whoever is aboard greatly influences its evolution, so it shows differing forms.\n\nAccording to Dr. Saotome it is a means of averting \"the last day of the world,\" but nothing is known of the truth.",
+   "notes": "Source says just 'Getter G'; expanded to 'Getter Robo G' (wiki name of the unit). 'the last day of the world' is the literal rendering of the OVA's Japanese subtitle."
+  },
+  {
+   "id": 49,
+   "name_en": "Invaders",
+   "body_en": "Mysterious life forms that came from space seeking <book(51)>Getter Rays<endbook()>, their energy source.\n\nTheir armed forms are called Metal Beasts. By merging with inorganic or organic matter, they take on its functions.",
+   "notes": "Plural per wiki. 'Metal Beast' locked in mission_terms_019."
+  },
+  {
+   "id": 50,
+   "name_en": "Tower",
+   "body_en": "A huge mobile fortress commanded by Hayato Jin. It is powered by a Getter reactor.",
+   "notes": "'Getter reactor' for the Getter core/furnace; provisional wording."
+  },
+  {
+   "id": 51,
+   "name_en": "Getter Rays",
+   "body_en": "A radiation-like substance that serves as the main power source of Getter Robo.\n\nDr. Saotome is the only person to have succeeded in converting Getter Rays into energy.",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "name_en": "Deuteron Missile",
+   "body_en": "A destructive weapon used in the <book(53)>Moon Invader War<endbook()> 13 years ago.\n\nDr. Saotome, thought slain by Ryoma, revived with the <book(49)>Invaders<endbook()> and fought humanity with his own <book(48)>Shin Dragon<endbook()>. Fearing <book(48)>Shin Dragon<endbook()>, humans chose this weapon. 1/3 of the world, mainly the Far East, was expected to fall, but the hero <book(68)>Adroc Thurston<endbook()> set off a <book(62)>Seven Swell<endbook()>, halting it and a simultaneous abnormal <book(70)>Trapar<endbook()> surge, limiting the ruin to Japan.",
+   "notes": "COMPRESSED to fit 560 chars (7 tags): the source repeats '13 years ago' at the start of para 2; the repeat was dropped (fact kept in para 1); 'succeeded in holding the damage to the minimum, the destruction of Japan' condensed to 'limiting the ruin to Japan'; 'developed by himself' condensed to 'his own'. 'Deuteron Missile' per official SRW30 English site. What exactly Adroc 'contained' is left as 'it' - the source has no explicit object (missile blast/destruction implied)."
+  },
+  {
+   "id": 53,
+   "name_en": "Moon Invader War",
+   "body_en": "A past war on the Moon between humanity and the <book(49)>Invaders<endbook()>.\n\nIt ended in victory for humanity thanks to the feats of the Getter Team - Ryoma Nagare, Hayato Jin and Musashi Tomoe - and the <book(52)>Deuteron Missile<endbook()>.",
+   "notes": "Provisional name: literal rendering of ACE3's term. The Getter wikis call the OVA's conflict the 'Moon Wars'. 'Musashi Tomoe' per Wikipedia (not in project files)."
+  },
+  {
+   "id": 54,
+   "name_en": "Domepolis",
+   "body_en": "Sealed cities found in the Siberia region.\n\nThey were built for life in a harsh natural environment where towers cannot be built and air routes cannot be set up.\n\nNoting that their nature makes escape hard, the <book(38)>New Federation<endbook()> uses them as facilities to isolate political prisoners and thought criminals such as <book(83)>Vodarac<endbook()> believers.",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "name_en": "Exodus",
+   "body_en": "The act by which people living in a <book(54)>Domepolis<endbook()> flee to richer lands.\n\nThe <book(38)>New Federation<endbook()> defines this as a grave crime, and those who plot an Exodus are put under watch by the <book(56)>Siberian Railway<endbook()>.",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "name_en": "Siberian Railway",
+   "body_en": "A body under the <book(38)>New Federation<endbook()> that governs the <book(54)>Domepolises<endbook()> of the Siberia region. Its president is Kids Munt.\n\nBy laying a rail network across a world ruined by the 7th Space War, rail boomed as a means of transport, but it declined in no time once air routes were developed using <book(70)>Trapar<endbook()>.\n\nToday it is granted autonomy over the <book(54)>Domepolises<endbook()> of the Siberia region.",
+   "notes": "UNCERTAIN: brief lists 'Siberian Railroad' but glossary.json canonical is 'Siberian Railway' (alias Railroad); Wikipedia uses both. Followed glossary. 'Kizz Munt' per Wikipedia (not in project files). '7th Space War' matches released English."
+  },
+  {
+   "id": 57,
+   "name_en": "Silhouette Machine",
+   "body_en": "Humanoid mobile weapons driven by a power unit called a Silhouette Engine.\n\nThey are in wide use for industry, construction, transport and many other purposes; armed combat types are used mainly by the <book(56)>Siberian Railway<endbook()>.",
+   "notes": "'Silhouette Machine' per Wikipedia; 'Silhouette Engine' is a direct rendering, not attested on the English pages checked."
+  },
+  {
+   "id": 58,
+   "name_en": "Overman",
+   "body_en": "General term for <book(57)>Silhouette Machines<endbook()> that can use Overskills.\n\nTheir inner structure is often close to a living creature's, with organic-looking Metal Muscle fitted over the skeleton. By wearing outer armor called an Overcoat, they can also activate special abilities called Overskills.\n\nWhen running they also emit high energy called a Photon Mat; by controlling it freely, it can be applied to flight, inertia control, attack and defense.",
+   "notes": "Overskill/Overcoat per Wikipedia; Photon Mat per Tamashii product page; 'Metal Muscle' is a direct rendering (provisional)."
+  },
+  {
+   "id": 59,
+   "name_en": "Liman Megalopolis",
+   "body_en": "A huge city where the <book(56)>Siberian Railway<endbook()> has its head office. It is also the hub of the rail network that spreads across the world.",
+   "notes": "PROVISIONAL romanization ('Liman'); no English source found. 'head office' chosen to avoid lowercase q in 'headquarters'."
+  },
+  {
+   "id": 60,
+   "name_en": "Gekkostate",
+   "body_en": "An anti-government group led by Holland. Charismatic figures in the world of ref boards, they work to raise awareness by publishing the magazine \"ray=out\".\n\nThe core members, Holland included, are ex-military, and their mothership is the Gekko, a state-of-the-art cruiser seized when they deserted the military.",
+   "notes": "'ref board', 'ray=out', 'Gekko' per Eureka Seven wiki / project glossary."
+  },
+  {
+   "id": 61,
+   "name_en": "Nirvash",
+   "body_en": "The first <book(65)>LFO<endbook()> ever excavated. It was once deployed with a military special forces unit, but Holland seized it along with the Gekko when he deserted.\n\nIt has a side-by-side two-seat cockpit and by nature will not accept any pilot other than certain people such as Eureka.\n\nIts formal name is Nirvash typeZERO, given because it was the first <book(65)>LFO<endbook()> excavated in the world.",
+   "notes": "'he' for Holland (male per glossary)."
+  },
+  {
+   "id": 62,
+   "name_en": "Seven Swell",
+   "body_en": "A mysterious phenomenon caused by the <book(61)>Nirvash<endbook()> when fitted with the <book(63)>Amita Drive<endbook()>.\n\nOnce triggered, amid seven-colored light, <book(70)>Trapar<endbook()> surges abnormally, followed by a reversal that wipes out all the surrounding <book(70)>Trapar<endbook()>.",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "name_en": "Amita Drive",
+   "body_en": "An expansion part for the <book(64)>Compac Drive<endbook()>, exclusive to the <book(61)>Nirvash<endbook()>. It can feed the will of the <book(65)>LFO<endbook()> back to a person.\n\nIt is said that with this fitted, the <book(61)>Nirvash<endbook()> attains enlightenment and reaches its true awakening.",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "name_en": "Compac Drive",
+   "body_en": "A device that links human and machine, and the control unit used to run an <book(65)>LFO<endbook()>.\n\nIt uses a natural stone formed from Scub and can absorb energy from <book(70)>Trapar<endbook()>.\n\nConnecting it to an <book(65)>LFO<endbook()> and feeding in energy makes the <book(65)>LFO<endbook()> operate.",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "name_en": "LFO",
+   "body_en": "Humanoid mobile machines that use ref boards.\n\nThey can fly by riding waves of <book(70)>Trapar<endbook()>, or travel on the ground in vehicle mode.\n\nThey are relics excavated from underground, fitted with armor, control units and so on to make them pilotable.\n\nLFO stands for\nLight Finding Operation.",
+   "notes": "Last two lines kept as separate lines (list-like in source)."
+  },
+  {
+   "id": 66,
+   "name_en": "KLF",
+   "body_en": "<book(65)>LFOs<endbook()> used as the main weapon of the <book(38)>New Federation<endbook()>. Designed and developed from the <book(61)>Nirvash<endbook()> typeZERO.\n\nKLF stands for\nKraft Light Fighter.",
+   "notes": "Last two lines kept as separate lines."
+  },
+  {
+   "id": 67,
+   "name_en": "Archetype",
+   "body_en": "Relics excavated from underground. They form the core of a <book(66)>KLF<endbook()>.\n\nFitted with armor and the like and modified so that people can pilot them, they become <book(65)>LFOs<endbook()> and <book(66)>KLFs<endbook()>.\n\nThe oldest Archetype is the one used in the <book(61)>Nirvash<endbook()> typeZERO.",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "name_en": "Adroc Thurston",
+   "body_en": "The leading authority on <book(69)>Scub Coral<endbook()> research. He studied the <book(61)>Nirvash<endbook()> and Eureka. He is also the father of Renton Thurston.\n\nDuring the <book(52)>Deuteron Missile<endbook()> incident, to stop the Summer of Love, an abnormal <book(70)>Trapar<endbook()> outbreak that occurred at the same time, he held down the damage at the cost of his own life. He is therefore regarded as the hero who saved humanity.",
+   "notes": "Spelling 'Adroc' per Eureka Seven wiki (Wikipedia also lists 'Adrock'). Male per source ('father'). 'Summer of Love' per wiki."
+  },
+  {
+   "id": 69,
+   "name_en": "Scub Coral",
+   "body_en": "New land that rises out of the ground with crustal movement. It covers most of the Earth's surface.\n\nScub upheavals cause damage such as the destruction of inhabited areas, so Pile Bunkers are driven into the ground to suppress them.\n\nWhile seen as a threat to humanity, it is also said to exist in order to heal the wounded land.\n\nAlso called \"Scub\" for short.",
+   "notes": "'Pile Bunkers' per Eureka Seven wiki."
+  },
+  {
+   "id": 70,
+   "name_en": "Trapar",
+   "body_en": "Special particles that flow out of the <book(69)>Scub Coral<endbook()> and fill the atmosphere.\n\nTheir repulsive force lets things float, so air routes called ley lines form, and they are widely used as a means of flight for ref boards, aerial battleships and more.",
+   "notes": "'ley lines' is the usual English E7 term; not verified on the wiki (search returned nothing) - provisional."
+  },
+  {
+   "id": 71,
+   "name_en": "Scub Mind Theory",
+   "body_en": "The theory that the <book(69)>Scub Coral<endbook()> is a life form possessing intelligence. Put forward by <book(68)>Adroc Thurston<endbook()> and Dr. Greg \"Bear\" Egan.\n\nIt rests on the inference that crustal movement, <book(72)>Coralians<endbook()> and the like are reactions to the actions of humanity.",
+   "notes": "Name shortened to 22 chars (literal: 'Scub Coral Intelligent Life Form Hypothesis'). Dr. Greg \"Bear\" Egan per Eureka Seven wiki; character_names_021 has en_full 'Greg Egan', en_short 'Bear'."
+  },
+  {
+   "id": 72,
+   "name_en": "Coralian",
+   "body_en": "Beings that are the <book(69)>Scub Coral<endbook()> changed into various forms.\n\nMany kinds have been confirmed, such as gaseous or cloud-like ones and ones shaped like living creatures; because of this diversity, some researchers argue that they are intelligent life.",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "name_en": "Antibody Coralian",
+   "body_en": "General term for <book(72)>Coralians<endbook()> that by nature attack humans.\n\nVarious types have been confirmed, but why they appear is unknown. A set time after appearing, they cease activity and calcify.",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "name_en": "Kute-class Coralian",
+   "body_en": "A giant cloud-like <book(72)>Coralian<endbook()>.\n\nIt spans tens of kilometers, and the flows of <book(70)>Trapar<endbook()> all rush toward its center at once and stream out. It is also linked to the appearance of <book(73)>Antibody Coralians<endbook()>, and it is active for only 1246 seconds. It may also appear as a result of strong physical damage to the <book(69)>Scub Coral<endbook()>.\n\n\nInside the cloud a space called <book(75)>the Zone<endbook()> is said to spread out.",
+   "notes": "Source has a double blank line before the last paragraph; preserved. The Trapar-flow sentence is a close rendering of an unclear source sentence (flows head to the centre all at once, then flow out)."
+  },
+  {
+   "id": 75,
+   "name_en": "The Zone",
+   "body_en": "A special region that arises where <book(70)>Trapar<endbook()> density is high.",
+   "notes": "Locked as 'the Zone' (mission_terms_019); capitalised 'The' as list name only."
+  },
+  {
+   "id": 76,
+   "name_en": "Promised Land",
+   "body_en": "The place where dialogue with the Scub is said to take place.\n\nThe <book(80)>Command Cluster<endbook()> is also said to be there, but the details are unknown.",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "name_en": "Limit of Questions",
+   "body_en": "The phenomenon in which the physical universe reaches its limit and collapses, and the theory of it.\n\nIt is based on the idea that the total amount of intelligent life, humans included, that can exist is fixed in advance, and that the universe itself collapses when that capacity is exceeded. It is thought to occur when the vast dormant Scub awakens.\n\nAt the <book(79)>Great Wall<endbook()>, the same phenomenon can be seen on a small scale.",
+   "notes": "Name per Eureka Seven wiki (it notes the Japanese-version name is 'Limit of Life'). Only a capital Q, so no font issue."
+  },
+  {
+   "id": 78,
+   "name_en": "Ageha Plan",
+   "body_en": "A plan document on the <book(69)>Scub Coral<endbook()> drawn up by <book(68)>Adroc Thurston<endbook()> and Dr. Saotome.\n\nIt sets out predictions from the awakening of the <book(61)>Nirvash<endbook()> to the <book(77)>Limit of Questions<endbook()> that could follow.\n\nDr. Saotome left during the drafting, so the link between the Scub and the <book(49)>Invaders<endbook()> remained a mystery.\n\nIt also records the <book(71)>Scub Mind Theory<endbook()> of <book(68)>Adroc Thurston<endbook()>, and Dewey now uses it for the plan to wipe out the Scub.",
+   "notes": "'Ageha Plan' per Eureka Seven wiki."
+  },
+  {
+   "id": 79,
+   "name_en": "Great Wall",
+   "body_en": "The place where the <book(69)>Scub Coral<endbook()> and humanity are said to hold dialogue. It is thought to be the path to saving this world, and the place that those who are a pair of human and <book(72)>Coralian<endbook()> should head for.\n\nMasses of erupted <book(70)>Trapar<endbook()> swirl like clouds, and a special space spreads out where none of the laws of physics apply.",
+   "notes": "'a pair of human and Coralian' is a close rendering of an oblique source phrase."
+  },
+  {
+   "id": 80,
+   "name_en": "Command Cluster",
+   "body_en": "The nerve center that controls the <book(69)>Scub Coral<endbook()>.",
+   "notes": "'Command Cluster' per Wikipedia / Eureka Seven wiki."
+  },
+  {
+   "id": 81,
+   "name_en": "Orange",
+   "body_en": "A crust-penetrating bomb fired from high altitude deep into the Scub. It was developed to stimulate the <book(72)>Coralians<endbook()>.",
+   "notes": "'Orange' per Eureka Seven wiki episode pages (Star Dancer)."
+  },
+  {
+   "id": 82,
+   "name_en": "Operation Orange",
+   "body_en": "A plan to destroy the Scub and awaken the <book(69)>Scub Coral<endbook()> by dropping <book(81)>Orange<endbook()> crust-penetrating bombs from high altitude.\n\nIts aim is thought to be pinpointing the location of the <book(80)>Command Cluster<endbook()>, the nerve center of the <book(69)>Scub Coral<endbook()>.",
+   "notes": "Name is a direct rendering; no wiki page for the operation. Provisional."
+  },
+  {
+   "id": 83,
+   "name_en": "Vodarac",
+   "body_en": "A religious organization whose head temple is the Vodara Shrine. It opposes suppressing the Scub and advocates living as the Scub wills.\n\nBecause some extremists resist government oppression with repeated acts of terrorism, it is generally regarded as an anti-government organization.",
+   "notes": "'Vodara Shrine' per Eureka Seven wiki (Vodarac page). 'opposes' used to avoid lowercase j in 'rejects'."
+  },
+  {
+   "id": 84,
+   "name_en": "Tresor Institute",
+   "body_en": "A military technology research body of the <book(38)>New Federation<endbook()>.\n\nIt studied the excavated <book(67)>Archetypes<endbook()> and put the <book(65)>LFO<endbook()> into practical use.",
+   "notes": "Locked name 'Tresor Research Institute' is 25 chars; abbreviated to fit the ~22-char list limit."
+  },
+  {
+   "id": 85,
+   "name_en": "Project Super Nova",
+   "body_en": "A trial held by the <book(9)>Earth Federation<endbook()> Forces to select the next-generation <book(34)>Valkyrie<endbook()>.\n\nArms makers were each made to develop prototypes, and the two machines left at the end of the selection were the YF-19 and YF-21.",
+   "notes": "LOWERCASE j in locked name 'Project Super Nova' (name_en)."
+  },
+  {
+   "id": 86,
+   "name_en": "Ghost X-9",
+   "body_en": "An unmanned fighter developed in strict secrecy by the Federation behind <book(85)>Project Super Nova<endbook()>.\n\nWith no need to allow for a pilot, it shows the high performance only an unmanned craft can, in acceleration, mobility, awareness of its surroundings and more.",
+   "notes": "LOWERCASE j inside locked tag name 'Project Super Nova'."
+  },
+  {
+   "id": 87,
+   "name_en": "Sharon Apple",
+   "body_en": "The most popular diva in the Earth Sphere. In truth, a virtual idol created by computer technology.\n\nOfficially the idol was planned to commemorate the founding of the <book(9)>Earth Federation<endbook()> government, but the real purpose is said to be reuse as the AI of a weapon under secret development.",
+   "notes": "Pronouns avoided. 'Earth Sphere' matches released English."
+  },
+  {
+   "id": 88,
+   "name_en": "Macross City",
+   "body_en": "A city that keeps the <book(33)>Macross<endbook()>, retired from service after the <book(4)>First Defense War<endbook()>, at its center as a symbol of peace.",
+   "notes": "Tag 4 uses 'First Defense War' (opening_history_terms); some dialogue files use 'First Defensive War' - reconcile with slice A."
+  }
+ ],
+ "new_terms": [
+  {
+   "source": "重陽子ミサイル",
+   "en": "Deuteron Missile",
+   "series": "Getter Robo Armageddon",
+   "sources": [
+    "https://srw30-thirty.suparobo.jp/en/character/char15/"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "月面インベーダー戦争",
+   "en": "Moon Invader War",
+   "series": "Getter Robo Armageddon / ACE3",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Getter_Robo_Armageddon",
+    "https://getterrobo.fandom.com/wiki/Getter_Robo_Armageddon"
+   ],
+   "status": "provisional"
+  },
+  {
+   "source": "インベーダー",
+   "en": "Invaders",
+   "series": "Getter Robo Armageddon",
+   "sources": [
+    "https://getterrobo.fandom.com/wiki/Invaders"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ゲッター線",
+   "en": "Getter Rays",
+   "series": "Getter Robo Armageddon",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Getter_Robo_Armageddon"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "タワー",
+   "en": "Tower",
+   "series": "Getter Robo Armageddon",
+   "sources": [
+    "https://getterrobo.fandom.com/wiki/Tower"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "早乙女研究所",
+   "en": "Saotome Institute",
+   "series": "Getter Robo Armageddon",
+   "sources": [
+    "https://getterrobo.fandom.com/wiki/Dr._Saotome_(Armageddon)"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "巴武蔵",
+   "en": "Musashi Tomoe",
+   "series": "Getter Robo Armageddon",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Getter_Robo_Armageddon"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ゲッター炉心",
+   "en": "Getter reactor",
+   "series": "Getter Robo Armageddon",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "ドームポリス",
+   "en": "Domepolis",
+   "series": "Overman King Gainer",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "シルエット・マシン",
+   "en": "Silhouette Machine",
+   "series": "Overman King Gainer",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "シルエットエンジン",
+   "en": "Silhouette Engine",
+   "series": "Overman King Gainer",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "オーバースキル",
+   "en": "Overskill",
+   "series": "Overman King Gainer",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "オーバーコート",
+   "en": "Overcoat",
+   "series": "Overman King Gainer",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "フォトンマット",
+   "en": "Photon Mat",
+   "series": "Overman King Gainer",
+   "sources": [
+    "https://tamashiiweb.com/item/13085/?wovn=en"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "メタル・マッスル",
+   "en": "Metal Muscle",
+   "series": "Overman King Gainer",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "キッズ・ムント",
+   "en": "Kids Munt",
+   "series": "Overman King Gainer",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "リマン・メガロポリス",
+   "en": "Liman Megalopolis",
+   "series": "Overman King Gainer",
+   "sources": [
+    "https://ja.wikipedia.org/wiki/OVERMAN%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%82%A4%E3%83%8A%E3%83%BC"
+   ],
+   "status": "provisional"
+  },
+  {
+   "source": "スカブコーラル",
+   "en": "Scub Coral",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Scub_Coral"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "トラパー",
+   "en": "Trapar",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Transparence_light_particle"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "クダンの限界",
+   "en": "Limit of Questions",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Limit_of_Questions"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "アゲハ構想",
+   "en": "Ageha Plan",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Ageha_Plan"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "グレートウォール",
+   "en": "Great Wall",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/The_Great_Wall"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "司令クラスター",
+   "en": "Command Cluster",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Command_Cluster"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "クテ級コーラリアン",
+   "en": "Kute-class Coralian",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Kute-class_Coralian"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "アドロック・サーストン",
+   "en": "Adroc Thurston",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Adroc_Thurston"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "コンパク・ドライヴ",
+   "en": "Compac Drive",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Compac_Drive"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "アミタ・ドライヴ",
+   "en": "Amita Drive",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Amita_Drive"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "セブンスウェル",
+   "en": "Seven Swell",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Seven_Swell_Phenomenon"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "アーキタイプ",
+   "en": "Archetype",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Archetype"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ＬＦＯ",
+   "en": "LFO (Light Finding Operation)",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Light_Finding_Operation"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "ＫＬＦ",
+   "en": "KLF (Kraft Light Fighter)",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Kraft_Light_Fighter"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "サマー・オブ・ラブ",
+   "en": "Summer of Love",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/The_First_Summer_of_Love"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "パイルバンカー",
+   "en": "Pile Bunker",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Pile_Bunkers"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "リフボード",
+   "en": "ref board",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Eureka_Seven",
+    "https://eurekaseven.fandom.com/wiki/Kraft_Light_Fighter"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "レイライン",
+   "en": "ley line",
+   "series": "Eureka Seven",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "オレンジ",
+   "en": "Orange",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Star_Dancer"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "オレンジ作戦",
+   "en": "Operation Orange",
+   "series": "Eureka Seven / ACE3",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "ヴォダラ宮",
+   "en": "Vodara Shrine",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Vodarac"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "約束の地",
+   "en": "Promised Land",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Star_Dancer"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "グレッグ・ベア・イーガン",
+   "en": "Dr. Greg \"Bear\" Egan",
+   "series": "Eureka Seven",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Limit_of_Questions"
+   ],
+   "status": "researched"
+  },
+  {
+   "source": "スカブコーラル知性体仮説",
+   "en": "Scub Coral Mind Theory",
+   "series": "Eureka Seven / ACE3",
+   "sources": [],
+   "status": "provisional"
+  },
+  {
+   "source": "サテライトシステム",
+   "en": "Satellite System",
+   "series": "After War Gundam X",
+   "sources": [
+    "https://gundam.fandom.com/wiki/GX-9900_Gundam_X"
+   ],
+   "status": "provisional"
+  }
+ ],
+ "uncertainties": [
+  "56/55/57/59: brief says 'Siberian Railroad' but glossary.json canonical is 'Siberian Railway' (Railroad listed as alias); Wikipedia uses both. Used 'Siberian Railway' everywhere (name and tags) - one global replace if the other is preferred.",
+  "Tag 38 rendered 'New Federation' (glossary.json, provisional) rather than 'New UNE' (character_names_021 speaker tag). Tag 4 rendered 'First Defense War' (opening_history) though dialogue batches use 'First Defensive War'. Tags 9/33/34 rendered Earth Federation / Macross / Valkyrie.",
+  "85/86: locked name 'Project Super Nova' contains lowercase j.",
+  "59: 'Liman Megalopolis' romanization unverified (no English source found).",
+  "53: 'Moon Invader War' is a literal rendering; franchise wikis call the OVA conflict the 'Moon Wars'. Entry 52 says the missile was used 'in' that war 13 years ago while also describing the Shin Dragon incident - translated as written.",
+  "52: compressed (dropped the repeated '13 years ago'); object of what Adroc contained kept vague as in source.",
+  "58: 'Metal Muscle' and 57: 'Silhouette Engine' are direct renderings, not attested in English sources checked (series term is usually 'Muscle Engine' for Overmen, but the game text says Metal Muscle).",
+  "74: unclear source sentence about Trapar flows heading to the center and streaming out; double blank line preserved.",
+  "79: 'those who are a pair of human and Coralian' - oblique source phrase rendered closely.",
+  "84: name abbreviated to 'Tresor Research Inst.' to fit the list width.",
+  "75: list name 'The Zone' vs tag text 'the Zone'.",
+  "Name widths were checked by character count only (<=22), not against the 220-unit font metric."
+ ],
+ "post_draft_edits": [
+  "List labels 8, 71, 84 shortened to fit the 220-unit label in both fonts; link texts follow."
+ ],
+ "review": {
+  "status": "meaning_reviewed",
+  "entries_examined": 44,
+  "entries_in_slice": 44,
+  "result": "No mistranslation, dropped fact, wrong number or invented gender; soft fixes applied."
+ }
+}

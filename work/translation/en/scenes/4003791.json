@@ -1,0 +1,124 @@
+{
+ "resource_id": 4003791,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Ex-Giganos",
+   "notes": "Enemy faction name; matches locked 'Ex-Giganos' (names_023.json 'Ex-Giganos Officer/Soldier'; reused verbatim in reviewed scenes 4003631/4003661/4003681/etc.).",
+   "source_sha256": "65683b603e21202a3a4d9432a6049611b423a9f3246526359de74bc632018a26"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Neo Zeon",
+   "notes": "Enemy faction name.",
+   "source_sha256": "3bea7d40814c0138b23f0465fc01b3a5772def14191961aee8237f4650610d09"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)><move(1,3,15)>Let me explain the operation<marker(1,3,15,0)>.<move(2,3,15)>",
+   "notes": "",
+   "source_sha256": "2e768236371db4624584221ccb76d73a5989903ba040c5bb050530b802763433"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)>We plan to approach <book(14)>Axis<endbook()>, plant a bomb inside <book(14)>Axis<endbook()>, and carry out its destruction.",
+   "notes": "",
+   "source_sha256": "323b0adc2ad186ba09b06d5f1e2f0217dba647d3a32133d3380f6093c18644bd"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>Please<move(1,12,3)> destroy every <color(5)>target<marker(25,9,3,0)><marker(48,9,5,0)><marker(25,11,3,0)><ce()><marker(48,11,5,0)><marker(25,13,3,0)> deployed<marker(48,13,5,0)><marker(25,15,3,0)> here<marker(48,15,5,0)>,<move(1,4,6)> and break through<marker(25,1,6,0)><marker(48,1,8,0)><marker(25,3,6,0)><marker(48,3,8,0)><marker(25,5,6,0)><marker(48,5,8,0)><marker(25,7,6,0)><marker(48,7,8,0)><move(2,7,7)><picture(78,2,7,0)><refer(2,7,1,6)>.",
+   "notes": "16 markers in the source (syllable-level); clustered around 'target' and 'break through' in the same order. 'here' compresses 'deployed in the operation zone' to fit the length limit.",
+   "source_sha256": "a7ff35fe121a656b8ef25766d43a8fe39bb35b10d01899394fe20356ac7d52db"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>This battle will be one where the <book(9)>Federation<endbook()> military<marker(11,1,13,0)><marker(17,1,11,0)><marker(11,3,13,0)><marker(17,3,11,0)><marker(11,5,13,0)><marker(17,5,11,0)><marker(11,7,13,0)><marker(17,7,11,0)> mobilizes<marker(11,9,9,0)><marker(17,9,7,0)><marker(11,11,9,0)><marker(17,11,7,0)> in full<marker(11,13,9,0)><marker(17,13,7,0)><marker(11,15,9,0)><marker(17,15,7,0)> force<picture(120,30,14,0)><refer(30,14,15,9)><picture(89,2,14,0)><refer(2,14,7,13)>.",
+   "notes": "16 markers in the source; book(9) here is the player's own Federation, not New Federation, per scene 4003080's ruling.",
+   "source_sha256": "1c961769d63670f163f5f885272a38d4df74aefaaaa62df763a0c5361ea50489"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)>The <book(9)>Federation<endbook()> military is already fighting nearby, so we can't afford to take it easy.",
+   "notes": "",
+   "source_sha256": "3d638d821a2e8cc1150e8d5c9a0c5cb8c810e5d636019186f93847d891f20370"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>If the <book(9)>Federation<endbook()>'s overall <color(6)>damage rate grows too high<ce()>, the front line can't hold, and the <color(6)>operation fails<ce()>.",
+   "notes": "",
+   "source_sha256": "d516c4de88aa69d4b5c762981f9ac1797ceb608a3be54eacfca89f1d02cce11f"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)>We will keep you updated on allied forces at all times, so please be careful not to take excessive damage.",
+   "notes": "",
+   "source_sha256": "d0aacd58c06ef65df9cb82550cad2fcabae41440fb14c905fad3838af4a0e605"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12031,1)><speed(2)>This time, the <color(4)>mothership<ce()> will not go to the front line; it will provide support from the rear. Please fight all-out.",
+   "notes": "",
+   "source_sha256": "4f31cbebe839870599d9ce8cb9cb29414b1806fe0c4fed5d6de35b9cefeb3ebb"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>Well then, I'm counting on you.",
+   "notes": "",
+   "source_sha256": "1014fc4fe1dc4e17cba312f8baab4a70d18227759b18f2a68d52c90a7c432853"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "14 syllable-level markers around 'target'/'breakthrough' clustered onto English word boundaries in source order; exact timing not verified."
+  },
+  {
+   "slot": 22,
+   "issue": "16 syllable-level markers around 'Federation military mobilizes in full force'; book(9) confirmed as the player's own Federation (not the antagonist New Federation) per 4003080's precedent ruling."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slots 0-1 'Ex-Giganos'/'Neo Zeon' match locked spellings (names_023.json).",
+   "Slot 22 book(9) confirmed as the player's own Federation (not the antagonist New Federation), consistent with scene 4003080's precedent ruling (status meaning_reviewed) and with slots 23-24 of this same scene, which plainly use 'the Federation military' for the friendly side fighting nearby.",
+   "Slots 19-27 checked line-by-line against source: Axis approach/bomb plan, target destruction, Federation mobilization, damage-rate/operation-failure conditions, and mothership rear-support role all match; no reversed meaning or invented subject.",
+   "Speaker (Ruri Hoshino, 12031) consistent throughout."
+  ],
+  "remaining_uncertainties": [
+   "Slot 21: 14 syllable-level markers clustered around 'target'/'break through' in source order; exact timing not verified.",
+   "Slot 22: 16 syllable-level markers clustered around 'Federation military mobilizes in full force' in source order; exact timing not verified."
+  ]
+ }
+}

@@ -1,0 +1,556 @@
+{
+  "slice_start": 11058,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      11043,
+      11152
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_11058",
+        "dialogue_11059",
+        "dialogue_11060",
+        "dialogue_11062",
+        "dialogue_11064",
+        "dialogue_11065",
+        "dialogue_11068",
+        "dialogue_11069",
+        "dialogue_11070",
+        "dialogue_11073",
+        "dialogue_11074",
+        "dialogue_11075",
+        "dialogue_11076",
+        "dialogue_11077",
+        "dialogue_11081",
+        "dialogue_11082",
+        "dialogue_11084"
+      ],
+      "note": "Combat exchange between Quess (named in dialogue_11061/11066/11067/11096) and several unnamed opposing pilots, including a 'girl' voice (dialogue_11075-11077/11081-11086). Corpus does not tag speakers; no identity or gender assigned beyond what the source itself states (e.g. 'a girl' in 11075)."
+    },
+    {
+      "ids": [
+        "dialogue_11079",
+        "dialogue_11080",
+        "dialogue_11083",
+        "dialogue_11085"
+      ],
+      "note": "Rows 11079-11086 read as a telepathic/Newtype exchange ('don't barge into someone's mind', 'you mustn't give in to malice') layered over the physical fight; speaker(s) not named, kept neutral."
+    },
+    {
+      "id": "dialogue_11063",
+      "note": "'Colonel'/'Marshal' applied to Char's two established ranks per orchestrator ruling; the line itself does not name Char, only contrasts the two titles."
+    },
+    {
+      "id": "dialogue_11093",
+      "note": "'King' kept as the King Gainer nickname; speaker not otherwise identified."
+    },
+    {
+      "id": "dialogue_11099",
+      "note": "'Funnel' capitalized per orchestrator ruling for this scene, overriding batch_03310's earlier lowercase common-noun choice; central glossary should record which convention wins project-wide."
+    },
+    {
+      "id": "dialogue_11109",
+      "note": "'purge' chosen for the source's shukusei (cleansing/purification register, not literal criminal 'punish')."
+    },
+    {
+      "id": "dialogue_11118",
+      "note": "'Lalah' (Lalah Sune) has no existing project glossary entry; proposed in batch_11058_glossary_proposals.json."
+    },
+    {
+      "id": "dialogue_11130",
+      "note": "Addressee of the formal 'you' not named in the row; plausibly Bright Noa from context, but not asserted in the translation."
+    }
+  ],
+  "validation": {
+    "meaning_review": "All 80 rows independently meaning-reviewed against the ISO source (context rows 11043-11152); no meaning fixes required, all rows set to meaning_reviewed. See review_11058.json.",
+    "fit": "Full meaning retained; no sentence-final content dropped. Longest visible row measured <=110 characters.",
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()> command sequences preserved in source order; validated programmatically (tag list source vs target) for all 80 rows."
+  },
+  "rows": [
+    {
+      "id": "dialogue_11058",
+      "target": "<op()><sp(20)>An evil presence is coming!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "jaki (malicious aura/energy) rendered 'evil presence'; unnamed speaker, no identity assumed."
+    },
+    {
+      "id": "dialogue_11059",
+      "target": "<op()><sp(20)>Huh? Another one's coming to get in my way.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11060",
+      "target": "<sp(20)>Ugh! Don't get in my way!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11061",
+      "target": "<op()><sp(20)>Quess! Don't be reckless!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11062",
+      "target": "<op()><sp(20)>What of it!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11063",
+      "target": "<op()><sp(20)>Kill Londo Bell's ace,\nColonel or Marshal, it won't matter...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "taisa/sousui = Colonel/Marshal, Char's two established ranks (character_names_021.json, batch_10966 note); applied per orchestrator ruling."
+    },
+    {
+      "id": "dialogue_11064",
+      "target": "<op()><sp(20)>That's why I've got no time to play with kids!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11065",
+      "target": "<op()><sp(20)>Why you...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11066",
+      "target": "<op()><sp(20)>Quess! I'll cover you!\nLet's take down the Gundam!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11067",
+      "target": "<op()><sp(20)>I won't let you get to the Colonel!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11068",
+      "target": "<op()><sp(20)>You, the weird machine! Go down already!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11069",
+      "target": "<op()><sp(20)>What did you say!?\nYou're the weird one!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11070",
+      "target": "<op()><sp(20)>What did you say!?\nYou mocked the machine the Colonel gave me!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11071",
+      "target": "<sp(20)>That's it! I won't forgive you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11072",
+      "target": "<op()><sp(20)>A child?\nAre you fighting without understanding anything...?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11073",
+      "target": "<op()><sp(20)>You're in my way!\nGet out of my way!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11074",
+      "target": "<op()><sp(20)>You're the ones in the way!\nFall already!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11075",
+      "target": "<op()><sp(20)>A girl!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11076",
+      "target": "<op()><sp(20)>A brat like you should go home\nand play with dolls!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11077",
+      "target": "<op()><sp(20)>Shut up! You're a kid yourself!\nDon't talk back! Drop dead!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11078",
+      "target": "<op()><sp(20)>No good...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11079",
+      "target": "<op()><sp(20)>Who? Who are you!?\nDon't barge into someone's mind on your own!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Telepathic 'who?' voice not identified; kept speaker-neutral, no gender assigned."
+    },
+    {
+      "id": "dialogue_11080",
+      "target": "<op()><sp(20)>You mustn't give in to malice.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11081",
+      "target": "<op()><sp(20)>I don't know who you are,\nbut don't say whatever you want!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11082",
+      "target": "<sp(20)>I really hate people like you\nwho act so goody-goody!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11083",
+      "target": "<sp(20)>That's why the Earth that produced\nsomeone like you has to be destroyed, or there's no salvation!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11084",
+      "target": "<op()><sp(20)>She's not making any sense!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11085",
+      "target": "<op()><sp(20)>You're wrong.\nListen to what we have to say.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11086",
+      "target": "<op()><sp(20)>Argh, enough!\nI hate kids!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11087",
+      "target": "<op()><sp(20)>What firepower this machine has...!\nStop moving even for a second and you'll be shot down!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11088",
+      "target": "<op()><sp(20)>Axis is accelerating further!\nAt this rate, it won't be stoppable!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11089",
+      "target": "<op()><sp(20)>No, we can still do this!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11090",
+      "target": "<op()><sp(20)>We can still keep fighting!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11091",
+      "target": "<op()><sp(20)>We're totally fine too!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11092",
+      "target": "<op()><sp(20)>We'll push these small fry aside\nand stop Axis ourselves!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11093",
+      "target": "<op()><sp(20)>In the name of the King,\nwe won't let it fall, no matter what!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'King' = King Gainer nickname (character_names_021.json Gainer Sanga); unnamed speaker inferred only as a King Gainer-affiliated pilot from the following oath, not further identified."
+    },
+    {
+      "id": "dialogue_11094",
+      "target": "<op()><sp(20)>...Everyone.\nHold out a little longer!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11095",
+      "target": "<op()><sp(20)>Did you get Gyunei?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11096",
+      "target": "<op()><sp(20)>Quess...!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11097",
+      "target": "<sp(20)>It's because the Colonel pushed her too hard...\nDaaaamn it!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11098",
+      "target": "<op()><sp(20)>This pressure...\n...Char, is it!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11099",
+      "target": "<op()><sp(20)>I have to be sure to shoot down\nevery Funnel that's launched!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "funneru rendered capitalized 'Funnel' per orchestrator ruling, superseding the lowercase common-noun style used in earlier batch_03310."
+    },
+    {
+      "id": "dialogue_11100",
+      "target": "<op()><sp(20)>This makes me the winner! Axis's rear section\nwill be pulled down by Earth's gravity!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11101",
+      "target": "<op()><sp(20)>You all tried too hard for your own good!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11102",
+      "target": "<op()><sp(20)>Axis! Go!\nTake these accursed memories with you!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11103",
+      "target": "<op()><sp(20)>Why would you drop something like this on the Earth?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11104",
+      "target": "<sp(20)>This will make the Earth grow cold\nand unlivable for people!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11105",
+      "target": "<sp(20)>A nuclear winter will come!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11106",
+      "target": "<op()><sp(20)>Those who live on Earth\nonly think of themselves.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11107",
+      "target": "<sp(20)>That's why I declared I'd wipe them out!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11108",
+      "target": "<op()><sp(20)>For one person to punish another like this!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11109",
+      "target": "<op()><sp(20)>I, Char Aznable,\nmean to purge them! Amuro!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "sousui = 'Marshal' per ruling; shukusei rendered 'purge' (cleansing/purification sense, not literal criminal punishment)."
+    },
+    {
+      "id": "dialogue_11110",
+      "target": "<op()><sp(20)>That's pure ego! That's all it is!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11111",
+      "target": "<op()><sp(20)>The time has come when the Earth can't hold on any longer!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11112",
+      "target": "<op()><sp(20)>Amuro!\nHow is it, riding in the nu Gundam?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11113",
+      "target": "<op()><sp(20)>That's none of your business!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11114",
+      "target": "<op()><sp(20)>It is my business. It was I who leaked\nthe Psycho-Frame data to Anaheim.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Anahaimu = 'Anaheim', matching the existing encyclopedia_022.json entry (text_id 16); first dialogue occurrence."
+    },
+    {
+      "id": "dialogue_11115",
+      "target": "<op()><sp(20)>What did you say?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11116",
+      "target": "<op()><sp(20)>Is there any meaning in winning\nagainst such a pathetic mobile suit?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11117",
+      "target": "<op()><sp(20)>Don't mock me! That's all you ever do -\nlook down on others, forever!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11118",
+      "target": "<op()><sp(20)>Remember well\nthe agony you felt when Lalah died!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Rara rendered 'Lalah' (full 'Lalah Sune') per the universal Gundam-canon spelling (Gundam Wiki page title); no existing project glossary entry, proposed."
+    },
+    {
+      "id": "dialogue_11119",
+      "target": "<op()><sp(20)>Pathetic fool!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11120",
+      "target": "<op()><sp(20)>Why can't you see that you're the one\nwasting that power for nothing!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11121",
+      "target": "<op()><sp(20)>Look who's talking!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11122",
+      "target": "<op()><sp(20)>Why are you doing something like this!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11123",
+      "target": "<op()><sp(20)>To wake up the people of the surface!\nWithout this, people won't change!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11124",
+      "target": "<op()><sp(20)>If you kill people to wake them up,\nthat accomplishes nothing at all!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11125",
+      "target": "<op()><sp(20)>Sacrifice is inseparable from change.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11126",
+      "target": "<op()><sp(20)>Don't give me that...!\nDon't you think about the people who'd be sacrificed!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11127",
+      "target": "<op()><sp(20)>It seems you're incapable\nof seeing the bigger picture.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11128",
+      "target": "<op()><sp(20)>I don't need to see it!\nI will never lose to you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11129",
+      "target": "<op()><sp(20)>Char Aznable.\nKnow the weight of those you've trampled!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11130",
+      "target": "<op()><sp(20)>If it isn't...\nYour subordinate did very fine work.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Formal 'you' (kikun) addressed to an unnamed listener, plausibly Bright Noa given the praised 'subordinate'; not named in the row itself, so no name supplied."
+    },
+    {
+      "id": "dialogue_11131",
+      "target": "<sp(20)>Let me thank you again.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11132",
+      "target": "<op()><sp(20)>Mock me all you like.\nI no longer have any right to lead people.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11133",
+      "target": "<op()><sp(20)>But defeating you...\nis my final battle!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11134",
+      "target": "<op()><sp(20)>You don't even look like Federation Forces,\nyet you're siding with Londo Bell?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "rempougun rendered 'Federation Forces', matching encyclopedia_022.json usage."
+    },
+    {
+      "id": "dialogue_11135",
+      "target": "<op()><sp(20)>Because we're comrades!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11136",
+      "target": "<op()><sp(20)>How foolish. Can't you see\nyou're only being used?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11137",
+      "target": "<op()><sp(20)>Whether we are or not,\nI don't care about that!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

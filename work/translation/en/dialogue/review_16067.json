@@ -1,0 +1,33 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 16067,
+  "slice_count": 80,
+  "rows_examined": [{"start": 16052, "end": 16161}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_16103",
+      "before": "Over there!",
+      "after": "Going there!",
+      "reason": "Source 私はあっちへ！ is Ray declaring her own tactical movement ('I'll go that way!'), not calling out a spotted location. 'Over there!' reads as pointing something out rather than announcing her own maneuver, which drops the first-person sense of the line. 'Going there!' restores it and fits the 12-char budget (min(72, 2*7-2))."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [16072, 16100, 16111], "finding": "Confirmed in work/glossary/character_names_021.json: Ray Beams (resource 2823071) is gender female per the wiki infobox despite the masculine-looking English name; this is an already-researched glossary fact, not an invented one. Feminine register kept via word choice, no pronoun invented for the speaker herself. Correct."},
+    {"rows": [16074], "finding": "人の援護ばかり期待しないの literally 'don't only expect people's/others' support'; target 'Don't rely on my cover' narrows this to the speaker specifically. Plausible as a support pilot's own admonishment to a reckless ally (a common team-banter pattern in this corpus); not clearly wrong, left as phrasing choice."},
+    {"rows": [16089, 16093], "finding": "敵もやるわね ('the enemy's good too') compressed to 'Impressive.' and 余裕がなくなってきたわね ('losing composure/margin') rendered as 'Running out of room.' Both drop or shift a noun (enemy; composure vs. space) under tight budgets but keep the same reaction/complaint sense; not reversals."},
+    {"rows": [16133], "finding": "Extreme budget (6 visible chars, from 4 source chars 新手ね！) forces 'New!' for what literally means 'a new one/reinforcement, huh!'; already disclosed by the translator, confirmed unavoidable at this budget."},
+    {"rows": [16144], "finding": "みんな逃げ足だけは一人前ね carries a mocking edge ('quite the professional -- at running away') that 'You're all fast runners' softens into a near-compliment. The softer tone is not inconsistent with Ray's kind/caring personality profile and does not reverse the underlying observation (enemies fleeing); left as phrasing choice."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "All rows share the identical command sequence <op()><sp(20)>...<ab(1000)><ed()> in the same order as the source; verified against tools/dialogue_corpus.py slice 16067 80 --context 15 for every row in this slice plus 15 rows of context each side, including after applying the meaning fix.",
+    "format": "No newlines in any target.",
+    "ascii": "ASCII only, no bare lowercase j/q outside locked names (none needed).",
+    "fit": "Every row's visible text, including the corrected dialogue_16103, re-checked against min(72, 2*source_japanese_char_count - 2); all pass.",
+    "names": "No character or unit names appear in this slice's visible text.",
+    "meaning_review": "Independent meaning review completed for all 80 rows; 1 row received a meaning fix (dialogue_16103); every row set to 'meaning_reviewed'."
+  }
+}

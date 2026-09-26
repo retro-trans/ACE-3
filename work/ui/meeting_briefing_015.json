@@ -1,0 +1,47 @@
+{
+  "version": "0.1.15",
+  "runtime_verified": false,
+  "screenshots": [
+    {
+      "path": "screenshots\\meeting-02-original.png",
+      "source_path": "codex-clipboard-40f2eed5-7132-4f98-a1c1-d5188e32a7ea.png",
+      "size": [
+        1050,
+        620
+      ],
+      "sha256": "c80c56fc10e86e924c15ea39eb8dda809cd5bea2119b60a329642a64dd4aa8a9"
+    },
+    {
+      "path": "screenshots\\briefing-zentradi-original.png",
+      "source_path": "codex-clipboard-2314f026-86b5-4f91-9681-f367bb4406c7.png",
+      "size": [
+        1050,
+        620
+      ],
+      "sha256": "67f25acacdcf49b4d4d6b466935ff82e3ba66811de01a31500e9d74851069278"
+    }
+  ],
+  "coordinate_system": "640x480 game viewport",
+  "meeting_body_bounds_approx": [
+    110,
+    382,
+    500,
+    58
+  ],
+  "briefing_body_bounds_approx": [
+    150,
+    377,
+    460,
+    60
+  ],
+  "enforced_body_lines": 3,
+  "enforced_width": 460,
+  "enforced_visible_characters": 128,
+  "resources": {
+    "meeting": 4003020,
+    "briefing": 4003481,
+    "objectives": 3056,
+    "speaker_names": 3014
+  },
+  "remaining": "Small baked thumbnail captions, glossary popups and other meetings/briefings remain Japanese."
+}

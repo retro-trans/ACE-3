@@ -1,0 +1,25 @@
+{
+ "reviewer": "independent_shout_review_agent",
+ "slice_start": 14059,
+ "slice_count": 80,
+ "rows_examined": [[14044, 14153]],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [],
+ "checked_decisions": [
+  {"rows": [14059, 14138], "finding": "Entire slice confirmed as unit 2815020 (Master Gundam, pilot Master Asia) per work/ui/shout_groups.json; imperious/commanding register consistent throughout, matching character_names_021.json."},
+  {"rows": [14093], "finding": "\"スーパー・アジア\" (Super Asia) is Master Asia's own self-mocking pun name (東西南北中央不敗 - undefeated in every direction); transliterated literally as no existing glossary entry covers it. Translator's proposal to add it to the glossary (see batch_14059_glossary_proposals.json) is reasonable and left for the orchestrator; not treated as a meaning error."},
+  {"rows": [14084, 14090], "finding": "Long maxim-style lines (bluster/self-ignorance; strike-the-general strategy) heavily compressed under tight budgets but core boast/lesson preserved in both; verified against budget (both fit with margin)."},
+  {"rows": [14127], "finding": "\"アリ地獄にはまったがごとく...\" (lit. \"as if fallen into an antlion's pit\") rendered as \"Like ants caught in a pit\" - changes the specific image (an antlion trap catching prey) to a more generic ants-in-a-pit simile, but the accompanying clause (\"the enemy comes just as we planned\") still correctly conveys that the enemy walked into Master Asia's trap. Not a meaning reversal, left as stylistic paraphrase."},
+  {"rows": [14059, 13954], "finding": "\"それが貴様の実力か！\" (\"Is that your true strength?!\") compressed to \"That's all?!\" under an 18-char budget that does not fit any phrasing retaining an explicit reference to strength/power; verified no shorter alternative preserves more of the source without exceeding budget. Accepted."}
+ ],
+ "uncertainties": [],
+ "validation": {
+  "controls": "All <op()>, <sp(20)>, <ab(1000)>/<ab(999)> commands verified identical and in original order for all 80 rows.",
+  "format": "ASCII only; lowercase j/q occurrences (e.g. \"just\", \"judge\") are ordinary vocabulary, not distorted locked names - left as-is.",
+  "newline_fix": "All 29 rows whose target split a shout across two lines with \\n (14067, 14073, 14074, 14075, 14076, 14078, 14082, 14084, 14086, 14087, 14090, 14091, 14092, 14093, 14094, 14095, 14097, 14098, 14099, 14100, 14101, 14102, 14105, 14109, 14115, 14121, 14127, 14132, 14136) were rejoined into one line with a space per the shout no-newline rule; mechanical joins only, wording unchanged.",
+  "byte_budget": "Re-verified all 80 rows programmatically against min(72, 2*source_ja_chars-2); all rows fit within budget. No meaning fixes were needed in this batch.",
+  "visible_length": "All 80 rows' visible text (tags stripped) is well under the 110-char cap."
+ }
+}

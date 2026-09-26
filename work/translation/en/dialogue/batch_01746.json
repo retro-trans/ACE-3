@@ -1,0 +1,570 @@
+{
+  "slice_start": 1746,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1726,
+      1845
+    ]
+  ],
+  "rows_examined_count": 120,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_01748"
+      ],
+      "note": "Object of 'recovered' omitted in source (the kid of 1747); rendered passive rather than supplying a pronoun."
+    },
+    {
+      "ids": [
+        "dialogue_01766",
+        "dialogue_01776",
+        "dialogue_01787",
+        "dialogue_01792",
+        "dialogue_01796"
+      ],
+      "note": "Untagged speakers in the post-battle conversation (Gekkostate / Getter / Freeden-side adults). Lines kept free of speaker-specific additions; 1776 'little companion' count refers to the group already having young members - who exactly is not settled by neighbours."
+    },
+    {
+      "ids": [
+        "dialogue_01759",
+        "dialogue_01760",
+        "dialogue_01761",
+        "dialogue_01762"
+      ],
+      "note": "These rows start with <sp(20)> and have no <op()> in the source although each ends with <ed()>; preserved as-is. They are alternative operator announcements, not a continuation of the confession in 1754-1758."
+    },
+    {
+      "ids": [
+        "dialogue_01763"
+      ],
+      "note": "Seven Swell follows encyclopedia_022 book 62; confirmed against Eureka Seven Wiki page title 'Seven Swell Phenomenon' (https://eurekaseven.fandom.com/wiki/Seven_Swell_Phenomenon)."
+    },
+    {
+      "ids": [
+        "dialogue_01780",
+        "dialogue_01781"
+      ],
+      "note": "Saint Cruz is a provisional glossary spelling (opening_history_terms); 'machi' rendered 'town'."
+    },
+    {
+      "ids": [
+        "dialogue_01791",
+        "dialogue_01794"
+      ],
+      "note": "1791 accepts the offer of 1790 (polite speech, likely the Nadesico-side captain); 1794 drops the -san on Faye, speaker untagged."
+    },
+    {
+      "ids": [
+        "dialogue_01800",
+        "dialogue_01801",
+        "dialogue_01802"
+      ],
+      "note": "kyuusenkai rendered 'sharp turn' to avoid 'q'; earlier tutorial row used 'quick turn' and out-of-slice row 1833 has literal katakana 'Quick Turn'. Needs a project-wide decision."
+    },
+    {
+      "ids": [
+        "dialogue_01815",
+        "dialogue_01816",
+        "dialogue_01817"
+      ],
+      "note": "Monologue about Marina (Marina Carson, ACE2-era). Source does not settle whether 1815 addresses her or wonders about her, and 1817 omits its subject; English kept ambiguous, no pronoun supplied."
+    },
+    {
+      "ids": [
+        "dialogue_01799",
+        "dialogue_01825"
+      ],
+      "note": "Rows 1799-1825 (resource 6051) are a space satellite-destruction mission with a Zeon fleet arriving in the following rows (1827-1830) and Marina references: looks like legacy material inherited from the previous game, not an ACE3 Mission 05 continuation. Translated faithfully; may be unused."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target equals the source's (checked by console snippet against the ISO text); color/book spans wrap the corresponding English words.",
+    "fit": "No newlines; longest visible text 90 characters (limit 110); ASCII only, no percent sign.",
+    "glyphs": "Lowercase j/q only inside locked name Gain Bijou and the released tutorial term 'quick turn' (rows 1801-1802, orchestrator ruling).",
+    "meaning_review": "Independently meaning-reviewed against the ISO source (rows 1726-1845 read); 2 terminology fixes (1801, 1802: sharp turn -> quick turn); all 80 rows status meaning_reviewed. See review_01746.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_01746",
+      "target": "<on()><sp(20)>That kid?! Hurry, Nirvash!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker urges the Nirvash on; the kid is the boy from 1741-1745 (not named yet)."
+    },
+    {
+      "id": "dialogue_01747",
+      "target": "<on()><sp(20)>Gidget, what about that kid from before?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01748",
+      "target": "<on()><sp(20)>Recovered by the Nirvash.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source omits the object; passive keeps it omitted."
+    },
+    {
+      "id": "dialogue_01749",
+      "target": "<op()><sp(20)>Enemy forces have withdrawn.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01750",
+      "target": "<op()><sp(20)>What about Eureka?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01751",
+      "target": "<op()><sp(20)>Still surrounded by enemies!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Answers 1750; subject left implicit as in source."
+    },
+    {
+      "id": "dialogue_01752",
+      "target": "<op()><sp(20)>Y-you...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01753",
+      "target": "<sp(20)>To bring this to me?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continues 1752 (same exchange)."
+    },
+    {
+      "id": "dialogue_01754",
+      "target": "<op()><sp(20)>I... I could fly because it was you!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01755",
+      "target": "<sp(20)>It has to be you!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01756",
+      "target": "<sp(20)>I love you!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Source is the emphatic 'daisuki'."
+    },
+    {
+      "id": "dialogue_01757",
+      "target": "<sp(20)>I'll protect you!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01758",
+      "target": "<sp(20)>Amita Drive, set on!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Amita Drive per encyclopedia_022; 'set on' is the katakana call in the source."
+    },
+    {
+      "id": "dialogue_01759",
+      "target": "<sp(20)>E-enemy reinforcements incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <op()>; preserved."
+    },
+    {
+      "id": "dialogue_01760",
+      "target": "<sp(20)>Setting the reinforcements as targets. Please intercept them.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01761",
+      "target": "<sp(20)>Friendly units will be assigned to escort the ship.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01762",
+      "target": "<sp(20)>New enemy force detected!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01763",
+      "target": "<on()><sp(20)>So that's the <book(62)>Seven Swell<endbook()>...",
+      "status": "meaning_reviewed",
+      "notes": "Seven Swell per encyclopedia_022 (book 62); Eureka Seven Wiki page title 'Seven Swell Phenomenon' agrees."
+    },
+    {
+      "id": "dialogue_01764",
+      "target": "<on()><sp(20)>What on earth is that phenomenon?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01765",
+      "target": "<on()><sp(20)>A device called the <book(63)>Amita Drive<endbook()> unleashed the <book(61)>Nirvash<endbook()>'s true power.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01766",
+      "target": "<on()><sp(20)>Didn't think it'd be this much, though.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not tagged; subject omitted as in source."
+    },
+    {
+      "id": "dialogue_01767",
+      "target": "<on()><sp(20)>Hey, kid. You're coming aboard the <color(4)>Gekko<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01768",
+      "target": "<on()><sp(20)>Me, in <book(60)>Gekkostate<endbook()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01769",
+      "target": "<on()><sp(20)>It's what <color(4)>Eureka<ce()> wants, too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01770",
+      "target": "<on()><sp(20)>Hey, come with us!",
+      "status": "meaning_reviewed",
+      "notes": "Literally 'let's go together'."
+    },
+    {
+      "id": "dialogue_01771",
+      "target": "<on()><sp(20)>Huh?!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01772",
+      "target": "<on()><sp(20)>Because it seems it has to be you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01773",
+      "target": "<on()><sp(20)>Ah... y-yeah.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01774",
+      "target": "<on()><sp(20)>I'm <color(4)>Eureka<ce()>. What's your name?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01775",
+      "target": "<on()><sp(20)>I'm <color(4)>Renton<ce()>... <color(4)>Renton Thurston<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01776",
+      "target": "<on()><sp(20)>Yet another little companion in the group, huh.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not tagged. Source: the number of small companions has gone up again."
+    },
+    {
+      "id": "dialogue_01777",
+      "target": "<on()><sp(20)>By the way, everyone. I analyzed the composition of the ground surface in detail...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01778",
+      "target": "<on()><sp(20)>It turns out to be the same kind as those meteorites that were falling all over the world.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01779",
+      "target": "<on()><sp(20)>Meteorites all over the world? What are you talking about?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01780",
+      "target": "<on()><sp(20)>We were investigating the meteorite that fell on the town of Saint Cruz.",
+      "status": "meaning_reviewed",
+      "notes": "Saint Cruz per opening_history_terms (provisional)."
+    },
+    {
+      "id": "dialogue_01781",
+      "target": "<on()><sp(20)>Saint Cruz? I don't know of any town like that...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01782",
+      "target": "<on()><sp(20)>So it's true... Could this be another world...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01783",
+      "target": "<on()><sp(20)>At present, that is the appropriate conclusion.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01784",
+      "target": "<on()><sp(20)>Even if that's true, some things don't add up.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01785",
+      "target": "<on()><sp(20)>Yes. That meteorite is from this world... There is some connection to our world.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01786",
+      "target": "<on()><sp(20)>If there is any lead, it's that <color(5)>black machine<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01787",
+      "target": "<on()><sp(20)><color(5)>Berkt<ce()>, was it... The name's familiar. A <book(38)>New Federation<endbook()> higher-up, apparently.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not tagged."
+    },
+    {
+      "id": "dialogue_01788",
+      "target": "<on()><sp(20)>We don't know much about him either. But <color(4)>Hayato Jin<ce()>, in Japan, should have information.",
+      "status": "meaning_reviewed",
+      "notes": "'him' is explicit in the source (kare)."
+    },
+    {
+      "id": "dialogue_01789",
+      "target": "<on()><sp(20)>Having fought alongside you this far, we feel that we want to trust you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01790",
+      "target": "<on()><sp(20)>Only until your goal is achieved, if you like. Would you act together with us?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01791",
+      "target": "<on()><sp(20)>I agree. Yes, please.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01792",
+      "target": "<on()><sp(20)>You sure? We're military, you know.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01793",
+      "target": "<on()><sp(20)>Now that the <book(38)>New Federation<endbook()> has marked us, I think teaming up is the smart move here.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01794",
+      "target": "<on()><sp(20)><color(4)>Faye<ce()> is right. Besides, I think these people can be trusted.",
+      "status": "meaning_reviewed",
+      "notes": "Source has Faye-san; honorific dropped as in earlier batches."
+    },
+    {
+      "id": "dialogue_01795",
+      "target": "<on()><sp(20)>...Thank you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01796",
+      "target": "<on()><sp(20)>But there's something that has to be done before meeting <color(4)>Hayato<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Rough male speech in source; subject omitted, kept impersonal."
+    },
+    {
+      "id": "dialogue_01797",
+      "target": "<on()><sp(20)>We're off to a <book(54)>Domepolis<endbook()> in Siberia to meet up with <color(4)>Gain Bijou<ce()>, who's hiding out there.",
+      "status": "meaning_reviewed",
+      "notes": "Locked name Gain Bijou contains 'j' (exempt)."
+    },
+    {
+      "id": "dialogue_01798",
+      "target": "<on()><sp(20)>Sorry, but you're coming along to Siberia with us.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01799",
+      "target": "<op()><sp(20)>Use the right stick to change your unit's heading.<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Resource 6051: legacy-looking material (ACE2-era satellite mission); translated faithfully."
+    },
+    {
+      "id": "dialogue_01800",
+      "target": "<op()><sp(20)>With a target locked on, press the Dash button twice in a row,<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Sentence continues into 1801; trailing comma kept. 'Dash button' as in tutorial rows."
+    },
+    {
+      "id": "dialogue_01801",
+      "target": "<op()><sp(20)>and you can make a quick turn toward the target.<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reviewer: kyuusenkai unified to the released tutorial term 'quick turn' (dialogue_00562) by orchestrator ruling; accepted q exception."
+    },
+    {
+      "id": "dialogue_01802",
+      "target": "<op()><sp(20)>Note that quick turns also work while dashing.<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reviewer: kyuusenkai unified to the released tutorial term 'quick turn' (dialogue_00562) by orchestrator ruling; accepted q exception."
+    },
+    {
+      "id": "dialogue_01803",
+      "target": "<op()><sp(20)>All units are in position.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01804",
+      "target": "<sp(20)>First, approach the satellite.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01805",
+      "target": "<op()><sp(20)>Transmitting target positions.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01806",
+      "target": "<op()><sp(20)>Those with no space combat experience, get a feel for it now.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01807",
+      "target": "<sp(20)>Piloting in zero gravity is a little different.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01808",
+      "target": "<sp(20)>Some of you may be used to it, but I'll explain anyway.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01809",
+      "target": "<sp(20)>In space, pitch control becomes necessary.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01810",
+      "target": "<op()><sp(20)>That's it, keep it up.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01811",
+      "target": "<op()><sp(20)>No telling what might happen. Stay alert.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01812",
+      "target": "<op()><sp(20)>...Damage on the ground can't be allowed to grow.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01813",
+      "target": "<sp(20)>Recovering it intact is off the table.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Source: intact recovery is given up; subject omitted."
+    },
+    {
+      "id": "dialogue_01814",
+      "target": "<sp(20)>All units, destroy the satellite!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01815",
+      "target": "<op()><sp(20)>Marina... still alive?<ab(700)>",
+      "status": "meaning_reviewed",
+      "notes": "Source is ambiguous between addressing Marina and wondering about her; kept ambiguous."
+    },
+    {
+      "id": "dialogue_01816",
+      "target": "<sp(20)>If so...<ab(50)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01817",
+      "target": "<sp(20)>Is there a link to this after all?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject (presumably Marina) omitted in source; no pronoun supplied."
+    },
+    {
+      "id": "dialogue_01818",
+      "target": "<op()><sp(20)>Targets are still confirmed within the area.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01819",
+      "target": "<sp(20)>Head for the next one.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01820",
+      "target": "<op()><sp(20)>Direct bombardment from satellite orbit, huh.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01821",
+      "target": "<sp(20)>But... why has a thing like this been left abandoned...?<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01822",
+      "target": "<op()><sp(20)>No sign of it targeting us, it seems...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source has no explicit subject for what might target 'us'."
+    },
+    {
+      "id": "dialogue_01823",
+      "target": "<op()><sp(20)>I'd hate to take a hit from one of these!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01824",
+      "target": "<op()><sp(20)>One more to go.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01825",
+      "target": "<op()><sp(20)>Don't drag your feet.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

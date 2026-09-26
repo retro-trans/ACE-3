@@ -1,0 +1,2735 @@
+{
+  "version": "0.1.18",
+  "review": {
+    "status": "meaning_reviewed",
+    "agent": "review_dialogs_018",
+    "rows_examined": 287,
+    "rows_in_file": 287,
+    "defects_fixed": [
+      "3009/17 Faction -> Side (Friendly/Enemy is a side, not a named faction)",
+      "3072/24 'Play in-game BGM.' -> 'Listen to the game's BGM.' (BGM Test, not playback during play)"
+    ],
+    "kept_as_intentional": [
+      "3040/15 and 3086/5 keep Change:, matching the released Free Mission footer of the same menu family; option screens keep Set:",
+      "3044/9-10 use OK: and ASCII spaces because the six-item guide must fit 620 units, as in the deployment guide",
+      "Option screens use 'Reset Defaults' (139 units): the released 'Restore Defaults' is 159-161 and the button holds about 156"
+    ],
+    "uncertainties": [
+      "Old City vs Old Town for the Versus stage; no glossary entry",
+      "Scub Coral, Desert, Above D.O.M.E. have no glossary entry; no conflicting use in the corpus",
+      "Combo Attack (renkei) and Combination Attack are probably one mechanic under two source names; both follow released text",
+      "'Switch the lock-on reticle' is literal; in play it may cycle the lock-on target",
+      "Secret Goal assumes one secret condition per mission",
+      "1P/2P Controller in control: the modal names which pad is operating it",
+      "Adjacent icon pairs in the Model Viewer guide are not checked on screen"
+    ],
+    "post_review_compression": [
+      "3091/2, 3070/45, 3009/41 and 3021/25 were shortened after review so that no text allocation has to grow (hangar memory, see HANGAR_MEMORY_016.md); meaning unchanged: total record of units used so far / demo not played"
+    ]
+  },
+  "categories": [
+    {
+      "table_id": 3091,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "Combat Records by unit and by series",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "戦闘記録（ユニット別）",
+          "en": "Combat Records (By Unit)",
+          "dialog": false,
+          "source_width": 183,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "ここでは、今までに使用したユニットの\n総合戦績を参照できます。",
+          "en": "View the total combat record of every unit used so far.",
+          "dialog": true,
+          "source_width": 308,
+          "limit": 410
+        },
+        {
+          "slot": 4,
+          "text_id": 5,
+          "source": "スクロール：㊤㊦　ジャンプ：㊧㊨　ソート：△　戦闘記録（作品別）：□　戻る：×",
+          "en": "Scroll:㊤㊦　Jump:㊧㊨　Sort:△　By Series:□　Back:×",
+          "dialog": false,
+          "source_width": 613,
+          "limit": 620
+        },
+        {
+          "slot": 10,
+          "text_id": 11,
+          "source": "戦闘記録（作品別）",
+          "en": "Combat Records (By Series)",
+          "dialog": false,
+          "source_width": 153,
+          "limit": 620
+        },
+        {
+          "slot": 11,
+          "text_id": 12,
+          "source": "ここでは、作品ごとの戦績を参照できます。\n\n戦績が最も高い作品は、\n「エースタイトル」として扱われます。\n\nこれに属するユニットには、\nユニット経験値の獲得量増加や、\n強化の低コスト化などの特典が発生します。\n\n「㍻」はエースタイトルの印です。",
+          "en": "View each series' combat record here.\n\nThe series with the best record\nbecomes your \"Ace Series.\"\n\nIts units earn more Unit EXP,\ncheaper upgrades and other perks.\n\n\"㍻\" marks the Ace Series.",
+          "dialog": true,
+          "source_width": 349,
+          "limit": 410
+        },
+        {
+          "slot": 14,
+          "text_id": 15,
+          "source": "スクロール：㊤㊦　ジャンプ：㊧㊨　戦闘記録（ユニット別）：□　戻る：×",
+          "en": "Scroll:㊤㊦　Jump:㊧㊨　By Unit:□　Back:×",
+          "dialog": false,
+          "source_width": 555,
+          "limit": 620
+        },
+        {
+          "slot": 19,
+          "text_id": 20,
+          "source": "ランク",
+          "en": "Rank",
+          "dialog": false,
+          "source_width": 49,
+          "limit": 620
+        },
+        {
+          "slot": 20,
+          "text_id": 21,
+          "source": "ユニット",
+          "en": "Unit",
+          "dialog": false,
+          "source_width": 67,
+          "limit": 620
+        },
+        {
+          "slot": 21,
+          "text_id": 22,
+          "source": "クリア回数",
+          "en": "Clears",
+          "dialog": false,
+          "source_width": 84,
+          "limit": 620
+        },
+        {
+          "slot": 22,
+          "text_id": 23,
+          "source": "撃破数",
+          "en": "Kills",
+          "dialog": false,
+          "source_width": 58,
+          "limit": 620
+        },
+        {
+          "slot": 23,
+          "text_id": 24,
+          "source": "エースポイント",
+          "en": "Ace Points",
+          "dialog": false,
+          "source_width": 120,
+          "limit": 620
+        },
+        {
+          "slot": 24,
+          "text_id": 25,
+          "source": "タイトル",
+          "en": "Series",
+          "dialog": false,
+          "source_width": 67,
+          "limit": 620
+        },
+        {
+          "slot": 34,
+          "text_id": 35,
+          "source": "クリア回数のランキングです。",
+          "en": "Ranked by number of clears.",
+          "dialog": false,
+          "source_width": 236,
+          "limit": 620
+        },
+        {
+          "slot": 35,
+          "text_id": 36,
+          "source": "撃破数のランキングです。",
+          "en": "Ranked by number of kills.",
+          "dialog": false,
+          "source_width": 210,
+          "limit": 620
+        },
+        {
+          "slot": 36,
+          "text_id": 37,
+          "source": "エースポイントのランキングです。",
+          "en": "Ranked by Ace Points.",
+          "dialog": false,
+          "source_width": 272,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3021,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "Encyclopedia",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "事典",
+          "en": "Encyclopedia",
+          "dialog": false,
+          "source_width": 39,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "選択：㊤㊦　ジャンプ：㊧㊨　戻る：×　決定：○",
+          "en": "Select:㊤㊦　Jump:㊧㊨　Back:×　Confirm:○",
+          "dialog": false,
+          "source_width": 363,
+          "limit": 620
+        },
+        {
+          "slot": 2,
+          "text_id": 3,
+          "source": "用語を選択してください",
+          "en": "Select a term.",
+          "dialog": false,
+          "source_width": 191,
+          "limit": 620
+        },
+        {
+          "slot": 4,
+          "text_id": 5,
+          "source": "登録数",
+          "en": "Entries",
+          "dialog": false,
+          "source_width": 57,
+          "limit": 620
+        },
+        {
+          "slot": 24,
+          "text_id": 25,
+          "source": "ここでは、今までに登場した用語の解説を\n参照できます。\n\n用語はキャンペーンの進行に伴って\n追加されていきます。",
+          "en": "Read explanations of terms that have appeared so far.\n\nMore are added as you progress through the Campaign.",
+          "dialog": true,
+          "source_width": 334,
+          "limit": 410
+        },
+        {
+          "slot": 25,
+          "text_id": 26,
+          "source": "解説を参照したい用語を選んでください。",
+          "en": "Select a term to read about.",
+          "dialog": false,
+          "source_width": 331,
+          "limit": 620
+        },
+        {
+          "slot": 26,
+          "text_id": 27,
+          "source": "%sの\n解説ページにジャンプします。\nよろしいですか？",
+          "en": "Go to the entry for\n%s?",
+          "dialog": true,
+          "source_width": 242,
+          "limit": 410
+        },
+        {
+          "slot": 30,
+          "text_id": 31,
+          "source": "ページスクロール：㊤㊦　選択：㊧㊨　用語へジャンプ：○　戻る：×",
+          "en": "Page Scroll:㊤㊦　Select:㊧㊨　Go to Term:○　Back:×",
+          "dialog": false,
+          "source_width": 522,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3009,
+      "reference_bundle": 4002052,
+      "complete": true,
+      "category": "Model Viewer",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "選択：㊤㊦　ジャンプ：㊧㊨　戻る：×　決定：○",
+          "en": "Select:㊤㊦　Jump:㊧㊨　Back:×　Confirm:○",
+          "dialog": false,
+          "source_width": 363,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "移動：⑮　回転：⑰　縮小：①　拡大：⑤　前ユニット：③　次ユニット：⑦",
+          "en": "Move:⑮　Rotate:⑰　Zoom -/+:①⑤　Prev/Next Unit:③⑦",
+          "dialog": false,
+          "source_width": 557,
+          "limit": 620
+        },
+        {
+          "slot": 2,
+          "text_id": 3,
+          "source": "リセット：⑩　戻る：×",
+          "en": "Reset:⑩　Back:×",
+          "dialog": false,
+          "source_width": 162,
+          "limit": 620
+        },
+        {
+          "slot": 9,
+          "text_id": 10,
+          "source": "閲覧",
+          "en": "Model Viewer",
+          "dialog": false,
+          "source_width": 38,
+          "limit": 620
+        },
+        {
+          "slot": 12,
+          "text_id": 13,
+          "source": "登録数",
+          "en": "Entries",
+          "dialog": false,
+          "source_width": 57,
+          "limit": 620
+        },
+        {
+          "slot": 14,
+          "text_id": 15,
+          "source": "タイトル",
+          "en": "Series",
+          "dialog": false,
+          "source_width": 67,
+          "limit": 620
+        },
+        {
+          "slot": 15,
+          "text_id": 16,
+          "source": "ユニット",
+          "en": "Unit",
+          "dialog": false,
+          "source_width": 67,
+          "limit": 620
+        },
+        {
+          "slot": 16,
+          "text_id": 17,
+          "source": "勢力区分",
+          "en": "Side",
+          "dialog": false,
+          "source_width": 74,
+          "limit": 620
+        },
+        {
+          "slot": 17,
+          "text_id": 18,
+          "source": "パイロット",
+          "en": "Pilot",
+          "dialog": false,
+          "source_width": 80,
+          "limit": 620
+        },
+        {
+          "slot": 29,
+          "text_id": 30,
+          "source": "選んだタイトルのユニットを閲覧します",
+          "en": "View units from the selected series.",
+          "dialog": false,
+          "source_width": 313,
+          "limit": 620
+        },
+        {
+          "slot": 30,
+          "text_id": 31,
+          "source": "選んだユニットを閲覧します",
+          "en": "View the selected unit.",
+          "dialog": false,
+          "source_width": 229,
+          "limit": 620
+        },
+        {
+          "slot": 34,
+          "text_id": 35,
+          "source": "フレンドリー",
+          "en": "Friendly",
+          "dialog": false,
+          "source_width": 96,
+          "limit": 620
+        },
+        {
+          "slot": 35,
+          "text_id": 36,
+          "source": "エネミー",
+          "en": "Enemy",
+          "dialog": false,
+          "source_width": 70,
+          "limit": 620
+        },
+        {
+          "slot": 40,
+          "text_id": 41,
+          "source": "ここでは、今までに登場したユニットの\nデータベースが閲覧できます。\nユニットはキャンペーンの進行に伴って\n追加されていきます。",
+          "en": "Browse a database of units that have appeared so far.\nMore are added as you progress through the Campaign.",
+          "dialog": true,
+          "source_width": 313,
+          "limit": 410
+        },
+        {
+          "slot": 41,
+          "text_id": 42,
+          "source": "閲覧したい作品を選んでください。",
+          "en": "Select a series to view.",
+          "dialog": false,
+          "source_width": 274,
+          "limit": 620
+        },
+        {
+          "slot": 42,
+          "text_id": 43,
+          "source": "閲覧したいユニットを選んでください。",
+          "en": "Select a unit to view.",
+          "dialog": false,
+          "source_width": 304,
+          "limit": 620
+        },
+        {
+          "slot": 43,
+          "text_id": 44,
+          "source": "閲覧中はユニットを動かすことができます。\nキーガイドに従って操作してください。",
+          "en": "You can move the unit while viewing it.\nFollow the button guide.",
+          "dialog": true,
+          "source_width": 346,
+          "limit": 410
+        },
+        {
+          "slot": 44,
+          "text_id": 45,
+          "source": "インターミッションに戻ります。\nよろしいですか？",
+          "en": "Return to Intermission?",
+          "dialog": true,
+          "source_width": 245,
+          "limit": 410
+        }
+      ]
+    },
+    {
+      "table_id": 3040,
+      "reference_bundle": 4002050,
+      "complete": false,
+      "category": "Versus menu (song titles excluded)",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "対戦",
+          "en": "Versus",
+          "dialog": false,
+          "source_width": 38,
+          "limit": 131
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "出撃",
+          "en": "Deploy",
+          "dialog": false,
+          "source_width": 38,
+          "limit": 131
+        },
+        {
+          "slot": 2,
+          "text_id": 3,
+          "source": "ステージ",
+          "en": "Stage",
+          "dialog": false,
+          "source_width": 71,
+          "limit": 131
+        },
+        {
+          "slot": 3,
+          "text_id": 4,
+          "source": "制限時間",
+          "en": "Time Limit",
+          "dialog": false,
+          "source_width": 75,
+          "limit": 131
+        },
+        {
+          "slot": 5,
+          "text_id": 6,
+          "source": "１Ｐチーム設定",
+          "en": "1P Team",
+          "dialog": false,
+          "source_width": 117,
+          "limit": 131
+        },
+        {
+          "slot": 6,
+          "text_id": 7,
+          "source": "２Ｐチーム設定",
+          "en": "2P Team",
+          "dialog": false,
+          "source_width": 119,
+          "limit": 131
+        },
+        {
+          "slot": 7,
+          "text_id": 8,
+          "source": "１Ｐハンディ",
+          "en": "1P Handicap",
+          "dialog": false,
+          "source_width": 92,
+          "limit": 131
+        },
+        {
+          "slot": 8,
+          "text_id": 9,
+          "source": "２Ｐハンディ",
+          "en": "2P Handicap",
+          "dialog": false,
+          "source_width": 94,
+          "limit": 131
+        },
+        {
+          "slot": 9,
+          "text_id": 10,
+          "source": "１Ｐコントローラ",
+          "en": "1P Controller",
+          "dialog": false,
+          "source_width": 121,
+          "limit": 131
+        },
+        {
+          "slot": 10,
+          "text_id": 11,
+          "source": "２Ｐコントローラ",
+          "en": "2P Controller",
+          "dialog": false,
+          "source_width": 123,
+          "limit": 131
+        },
+        {
+          "slot": 11,
+          "text_id": 12,
+          "source": "戻る",
+          "en": "Back",
+          "dialog": false,
+          "source_width": 35,
+          "limit": 131
+        },
+        {
+          "slot": 14,
+          "text_id": 15,
+          "source": "選択：㊤㊦　設定：㊧㊨　決定：○",
+          "en": "Select:㊤㊦　Change:㊧㊨　Confirm:○",
+          "dialog": false,
+          "source_width": 260,
+          "limit": 620
+        },
+        {
+          "slot": 15,
+          "text_id": 16,
+          "source": "選択：㊤㊦　決定：○",
+          "en": "Select:㊤㊦　Confirm:○",
+          "dialog": false,
+          "source_width": 161,
+          "limit": 620
+        },
+        {
+          "slot": 19,
+          "text_id": 20,
+          "source": "対戦に使用するユニットを選択します",
+          "en": "Select units for the match.",
+          "dialog": false,
+          "source_width": 302,
+          "limit": 620
+        },
+        {
+          "slot": 20,
+          "text_id": 21,
+          "source": "対戦ステージを選択します",
+          "en": "Select the stage.",
+          "dialog": false,
+          "source_width": 215,
+          "limit": 620
+        },
+        {
+          "slot": 21,
+          "text_id": 22,
+          "source": "対戦の制限時間を選択します",
+          "en": "Select the match time limit.",
+          "dialog": false,
+          "source_width": 236,
+          "limit": 620
+        },
+        {
+          "slot": 22,
+          "text_id": 23,
+          "source": "対戦時のＢＧＭを選択します",
+          "en": "Select the match BGM.",
+          "dialog": false,
+          "source_width": 229,
+          "limit": 620
+        },
+        {
+          "slot": 23,
+          "text_id": 24,
+          "source": "チームに登録するユニット数を設定します",
+          "en": "Set the number of units on the team.",
+          "dialog": false,
+          "source_width": 337,
+          "limit": 620
+        },
+        {
+          "slot": 24,
+          "text_id": 25,
+          "source": "チームに登録するユニット数を設定します",
+          "en": "Set the number of units on the team.",
+          "dialog": false,
+          "source_width": 337,
+          "limit": 620
+        },
+        {
+          "slot": 25,
+          "text_id": 26,
+          "source": "対戦開始時のＡＰを設定します（３０～１００％）",
+          "en": "Set starting AP for the match (30-100％).",
+          "dialog": false,
+          "source_width": 367,
+          "limit": 620
+        },
+        {
+          "slot": 26,
+          "text_id": 27,
+          "source": "対戦開始時のＡＰを設定します（３０～１００％）",
+          "en": "Set starting AP for the match (30-100％).",
+          "dialog": false,
+          "source_width": 367,
+          "limit": 620
+        },
+        {
+          "slot": 27,
+          "text_id": 28,
+          "source": "コントローラの設定を変更します",
+          "en": "Change controller settings.",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        },
+        {
+          "slot": 28,
+          "text_id": 29,
+          "source": "コントローラの設定を変更します",
+          "en": "Change controller settings.",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        },
+        {
+          "slot": 29,
+          "text_id": 30,
+          "source": "トップメニューに戻ります",
+          "en": "Return to the main menu.",
+          "dialog": false,
+          "source_width": 204,
+          "limit": 620
+        },
+        {
+          "slot": 34,
+          "text_id": 35,
+          "source": "３０秒",
+          "en": "30 sec",
+          "dialog": false,
+          "source_width": 44,
+          "limit": 620
+        },
+        {
+          "slot": 35,
+          "text_id": 36,
+          "source": "６０秒",
+          "en": "60 sec",
+          "dialog": false,
+          "source_width": 44,
+          "limit": 620
+        },
+        {
+          "slot": 36,
+          "text_id": 37,
+          "source": "９０秒",
+          "en": "90 sec",
+          "dialog": false,
+          "source_width": 44,
+          "limit": 620
+        },
+        {
+          "slot": 37,
+          "text_id": 38,
+          "source": "無限",
+          "en": "Unlimited",
+          "dialog": false,
+          "source_width": 38,
+          "limit": 620
+        },
+        {
+          "slot": 39,
+          "text_id": 40,
+          "source": "旧市街",
+          "en": "Old City",
+          "dialog": false,
+          "source_width": 56,
+          "limit": 620
+        },
+        {
+          "slot": 40,
+          "text_id": 41,
+          "source": "スカブコーラル",
+          "en": "Scub Coral",
+          "dialog": false,
+          "source_width": 122,
+          "limit": 620
+        },
+        {
+          "slot": 41,
+          "text_id": 42,
+          "source": "マクロスシティ",
+          "en": "Macross City",
+          "dialog": false,
+          "source_width": 117,
+          "limit": 620
+        },
+        {
+          "slot": 42,
+          "text_id": 43,
+          "source": "ゾンダーエプタ",
+          "en": "Zonder Epta",
+          "dialog": false,
+          "source_width": 127,
+          "limit": 620
+        },
+        {
+          "slot": 43,
+          "text_id": 44,
+          "source": "砂漠",
+          "en": "Desert",
+          "dialog": false,
+          "source_width": 38,
+          "limit": 620
+        },
+        {
+          "slot": 44,
+          "text_id": 45,
+          "source": "アマテラス周辺",
+          "en": "Near Amaterasu",
+          "dialog": false,
+          "source_width": 124,
+          "limit": 620
+        },
+        {
+          "slot": 45,
+          "text_id": 46,
+          "source": "Ｄ．Ｏ．Ｍ．Ｅ．上空",
+          "en": "Above D.O.M.E.",
+          "dialog": false,
+          "source_width": 151,
+          "limit": 620
+        },
+        {
+          "slot": 46,
+          "text_id": 47,
+          "source": "アクシズ",
+          "en": "Axis",
+          "dialog": false,
+          "source_width": 70,
+          "limit": 620
+        },
+        {
+          "slot": 64,
+          "text_id": 65,
+          "source": "「対戦」はプレイヤー同士での\n対戦プレイができるゲームモードです。\n\n編入しているユニットを使用して行います。",
+          "en": "Versus is a game mode where players battle each other.\n\nIt uses the units you have recruited.",
+          "dialog": true,
+          "source_width": 343,
+          "limit": 410
+        },
+        {
+          "slot": 65,
+          "text_id": 66,
+          "source": "対戦ルールを設定してください。",
+          "en": "Set the match rules.",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3044,
+      "reference_bundle": 4002054,
+      "complete": true,
+      "category": "Versus/Multiplayer unit selection",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "ユニット選択",
+          "en": "Unit Select",
+          "dialog": false,
+          "source_width": 105,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "１Ｐコントローラ",
+          "en": "1P Controller",
+          "dialog": false,
+          "source_width": 121,
+          "limit": 620
+        },
+        {
+          "slot": 2,
+          "text_id": 3,
+          "source": "２Ｐコントローラ",
+          "en": "2P Controller",
+          "dialog": false,
+          "source_width": 123,
+          "limit": 620
+        },
+        {
+          "slot": 5,
+          "text_id": 6,
+          "source": "１Ｐ出撃待機中",
+          "en": "1P Ready",
+          "dialog": false,
+          "source_width": 118,
+          "limit": 620
+        },
+        {
+          "slot": 6,
+          "text_id": 7,
+          "source": "２Ｐ出撃待機中",
+          "en": "2P Ready",
+          "dialog": false,
+          "source_width": 120,
+          "limit": 620
+        },
+        {
+          "slot": 8,
+          "text_id": 9,
+          "source": "タイトル選択：㊤㊦　ユニット選択：㊧㊨　切替：□　決定：○　戻る：×",
+          "en": "Series:㊤㊦ Unit:㊧㊨ Switch:□ OK:○ Back:×",
+          "dialog": false,
+          "source_width": 542,
+          "limit": 620
+        },
+        {
+          "slot": 9,
+          "text_id": 10,
+          "source": "タイトル選択：㊤㊦　ユニット選択：㊧㊨　取消し：△　切替：□　決定：○　戻る：×",
+          "en": "Series:㊤㊦ Unit:㊧㊨ Cancel:△ Switch:□ OK:○ Back:×",
+          "dialog": false,
+          "source_width": 636,
+          "limit": 636
+        },
+        {
+          "slot": 10,
+          "text_id": 11,
+          "source": "戻る：×",
+          "en": "Back:×",
+          "dialog": false,
+          "source_width": 59,
+          "limit": 620
+        },
+        {
+          "slot": 12,
+          "text_id": 13,
+          "source": "チームを編成してください。",
+          "en": "Form your team.",
+          "dialog": false,
+          "source_width": 219,
+          "limit": 620
+        },
+        {
+          "slot": 13,
+          "text_id": 14,
+          "source": "１Ｐコントローラ　操作中\n\n対戦メニューに戻ります。\nよろしいですか？",
+          "en": "1P Controller in control\n\nReturn to the Versus menu?",
+          "dialog": true,
+          "source_width": 205,
+          "limit": 410
+        },
+        {
+          "slot": 14,
+          "text_id": 15,
+          "source": "２Ｐコントローラ　操作中\n\n対戦メニューに戻ります。\nよろしいですか？",
+          "en": "2P Controller in control\n\nReturn to the Versus menu?",
+          "dialog": true,
+          "source_width": 205,
+          "limit": 410
+        },
+        {
+          "slot": 15,
+          "text_id": 16,
+          "source": "１Ｐコントローラ　操作中\n\nマルチプレイメニューに戻ります。\nよろしいですか？",
+          "en": "1P Controller in control\n\nReturn to the Multiplayer menu?",
+          "dialog": true,
+          "source_width": 275,
+          "limit": 410
+        },
+        {
+          "slot": 16,
+          "text_id": 17,
+          "source": "２Ｐコントローラ　操作中\n\nマルチプレイメニューに戻ります。\nよろしいですか？",
+          "en": "2P Controller in control\n\nReturn to the Multiplayer menu?",
+          "dialog": true,
+          "source_width": 275,
+          "limit": 410
+        },
+        {
+          "slot": 29,
+          "text_id": 30,
+          "source": "出撃不可",
+          "en": "Unavailable",
+          "dialog": false,
+          "source_width": 76,
+          "limit": 620
+        },
+        {
+          "slot": 30,
+          "text_id": 31,
+          "source": "使用不可",
+          "en": "Unusable",
+          "dialog": false,
+          "source_width": 77,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3070,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "Game options",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "選択：㊤㊦　設定：㊧㊨　戻る：×",
+          "en": "Select:㊤㊦　Set:㊧㊨　Back:×",
+          "dialog": false,
+          "source_width": 253,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "選択：㊤㊦　戻る：×　決定：○",
+          "en": "Select:㊤㊦　Back:×　Confirm:○",
+          "dialog": false,
+          "source_width": 232,
+          "limit": 620
+        },
+        {
+          "slot": 3,
+          "text_id": 4,
+          "source": "ゲーム",
+          "en": "Game",
+          "dialog": false,
+          "source_width": 55,
+          "limit": 156
+        },
+        {
+          "slot": 4,
+          "text_id": 5,
+          "source": "難易度",
+          "en": "Difficulty",
+          "dialog": false,
+          "source_width": 57,
+          "limit": 156
+        },
+        {
+          "slot": 5,
+          "text_id": 6,
+          "source": "ロックインフォ",
+          "en": "Lock Info",
+          "dialog": false,
+          "source_width": 114,
+          "limit": 156
+        },
+        {
+          "slot": 6,
+          "text_id": 7,
+          "source": "ターゲット",
+          "en": "Target Priority",
+          "dialog": false,
+          "source_width": 83,
+          "limit": 156
+        },
+        {
+          "slot": 7,
+          "text_id": 8,
+          "source": "クイックターン",
+          "en": "Quick Turn",
+          "dialog": false,
+          "source_width": 116,
+          "limit": 156
+        },
+        {
+          "slot": 8,
+          "text_id": 9,
+          "source": "自動高度調整",
+          "en": "Auto Altitude",
+          "dialog": false,
+          "source_width": 112,
+          "limit": 156
+        },
+        {
+          "slot": 9,
+          "text_id": 10,
+          "source": "攻撃デモ",
+          "en": "Attack Demo",
+          "dialog": false,
+          "source_width": 75,
+          "limit": 156
+        },
+        {
+          "slot": 10,
+          "text_id": 11,
+          "source": "テキスト",
+          "en": "Text",
+          "dialog": false,
+          "source_width": 67,
+          "limit": 156
+        },
+        {
+          "slot": 11,
+          "text_id": 12,
+          "source": "操作ナビ",
+          "en": "Controls Guide",
+          "dialog": false,
+          "source_width": 75,
+          "limit": 156
+        },
+        {
+          "slot": 12,
+          "text_id": 13,
+          "source": "初期設定に戻す",
+          "en": "Reset Defaults",
+          "dialog": false,
+          "source_width": 131,
+          "limit": 156
+        },
+        {
+          "slot": 13,
+          "text_id": 14,
+          "source": "イージー",
+          "en": "Easy",
+          "dialog": false,
+          "source_width": 71,
+          "limit": 620
+        },
+        {
+          "slot": 14,
+          "text_id": 15,
+          "source": "ノーマル",
+          "en": "Normal",
+          "dialog": false,
+          "source_width": 70,
+          "limit": 620
+        },
+        {
+          "slot": 15,
+          "text_id": 16,
+          "source": "ハード",
+          "en": "Hard",
+          "dialog": false,
+          "source_width": 50,
+          "limit": 620
+        },
+        {
+          "slot": 16,
+          "text_id": 17,
+          "source": "リアルエース",
+          "en": "Real Ace",
+          "dialog": false,
+          "source_width": 104,
+          "limit": 620
+        },
+        {
+          "slot": 20,
+          "text_id": 21,
+          "source": "カメラ優先",
+          "en": "Camera",
+          "dialog": false,
+          "source_width": 88,
+          "limit": 620
+        },
+        {
+          "slot": 21,
+          "text_id": 22,
+          "source": "向き優先",
+          "en": "Facing",
+          "dialog": false,
+          "source_width": 74,
+          "limit": 620
+        },
+        {
+          "slot": 22,
+          "text_id": 23,
+          "source": "距離優先",
+          "en": "Distance",
+          "dialog": false,
+          "source_width": 78,
+          "limit": 620
+        },
+        {
+          "slot": 23,
+          "text_id": 24,
+          "source": "ダメージ優先",
+          "en": "Damage",
+          "dialog": false,
+          "source_width": 110,
+          "limit": 620
+        },
+        {
+          "slot": 25,
+          "text_id": 26,
+          "source": "難易度をイージー（やさしい）に変更します",
+          "en": "Change the difficulty to Easy.",
+          "dialog": false,
+          "source_width": 339,
+          "limit": 620
+        },
+        {
+          "slot": 26,
+          "text_id": 27,
+          "source": "難易度をノーマル（普通）に変更します",
+          "en": "Change the difficulty to Normal.",
+          "dialog": false,
+          "source_width": 309,
+          "limit": 620
+        },
+        {
+          "slot": 27,
+          "text_id": 28,
+          "source": "難易度をハード（難しい）に変更します",
+          "en": "Change the difficulty to Hard.",
+          "dialog": false,
+          "source_width": 302,
+          "limit": 620
+        },
+        {
+          "slot": 28,
+          "text_id": 29,
+          "source": "難易度をリアルエース（とても難しい）に変更します",
+          "en": "Change the difficulty to Real Ace (very hard).",
+          "dialog": false,
+          "source_width": 405,
+          "limit": 620
+        },
+        {
+          "slot": 29,
+          "text_id": 30,
+          "source": "ロックサイトの追加情報を表示します",
+          "en": "Show extra information on the lock-on reticle.",
+          "dialog": false,
+          "source_width": 296,
+          "limit": 620
+        },
+        {
+          "slot": 30,
+          "text_id": 31,
+          "source": "ロックサイトの追加情報を非表示にします",
+          "en": "Hide extra information on the lock-on reticle.",
+          "dialog": false,
+          "source_width": 332,
+          "limit": 620
+        },
+        {
+          "slot": 32,
+          "text_id": 33,
+          "source": "カメラ内にいる敵を優先します",
+          "en": "Prioritize enemies within the camera view.",
+          "dialog": false,
+          "source_width": 243,
+          "limit": 620
+        },
+        {
+          "slot": 33,
+          "text_id": 34,
+          "source": "ユニットが向いている方向の敵を優先します",
+          "en": "Prioritize enemies in the direction your unit faces.",
+          "dialog": false,
+          "source_width": 352,
+          "limit": 620
+        },
+        {
+          "slot": 34,
+          "text_id": 35,
+          "source": "距離が近い敵を優先します",
+          "en": "Prioritize nearby enemies.",
+          "dialog": false,
+          "source_width": 220,
+          "limit": 620
+        },
+        {
+          "slot": 35,
+          "text_id": 36,
+          "source": "ＡＰの低い敵を優先します",
+          "en": "Prioritize enemies with low AP.",
+          "dialog": false,
+          "source_width": 211,
+          "limit": 620
+        },
+        {
+          "slot": 37,
+          "text_id": 38,
+          "source": "ロックオン時にユニットの向きを対象の方向へ合わせます",
+          "en": "Turn your unit toward the target when locking on.",
+          "dialog": false,
+          "source_width": 457,
+          "limit": 620
+        },
+        {
+          "slot": 38,
+          "text_id": 39,
+          "source": "ロックオン時にカメラのみ対象の方向へ合わせます",
+          "en": "Turn only the camera toward the target when locking on.",
+          "dialog": false,
+          "source_width": 406,
+          "limit": 620
+        },
+        {
+          "slot": 40,
+          "text_id": 41,
+          "source": "移動中、自動で対象との高度を合わせます",
+          "en": "Automatically match the target's altitude while moving.",
+          "dialog": false,
+          "source_width": 340,
+          "limit": 620
+        },
+        {
+          "slot": 41,
+          "text_id": 42,
+          "source": "任意で対象との高度を合わせます",
+          "en": "Match the target's altitude manually.",
+          "dialog": false,
+          "source_width": 274,
+          "limit": 620
+        },
+        {
+          "slot": 43,
+          "text_id": 44,
+          "source": "連携発動時のデモを再生します",
+          "en": "Play the demo when a Combo Attack triggers.",
+          "dialog": false,
+          "source_width": 256,
+          "limit": 620
+        },
+        {
+          "slot": 44,
+          "text_id": 45,
+          "source": "連携発動時のデモを再生しません",
+          "en": "Skip the demo when a Combo Attack triggers.",
+          "dialog": false,
+          "source_width": 274,
+          "limit": 620
+        },
+        {
+          "slot": 46,
+          "text_id": 47,
+          "source": "通信メッセージを表示します",
+          "en": "Show comm messages.",
+          "dialog": false,
+          "source_width": 230,
+          "limit": 620
+        },
+        {
+          "slot": 47,
+          "text_id": 48,
+          "source": "通信メッセージを非表示にします",
+          "en": "Hide comm messages.",
+          "dialog": false,
+          "source_width": 266,
+          "limit": 620
+        },
+        {
+          "slot": 49,
+          "text_id": 50,
+          "source": "操作ナビをＯＮにします",
+          "en": "Turn the Controls Guide on.",
+          "dialog": false,
+          "source_width": 193,
+          "limit": 620
+        },
+        {
+          "slot": 50,
+          "text_id": 51,
+          "source": "操作ナビをＯＦＦにします",
+          "en": "Turn the Controls Guide off.",
+          "dialog": false,
+          "source_width": 206,
+          "limit": 620
+        },
+        {
+          "slot": 52,
+          "text_id": 53,
+          "source": "初期設定に戻します",
+          "en": "Restore the default settings.",
+          "dialog": false,
+          "source_width": 163,
+          "limit": 620
+        },
+        {
+          "slot": 59,
+          "text_id": 60,
+          "source": "難易度「リアルエース」は\nものすごく難しい設定です。\nがんばってください。",
+          "en": "Real Ace is an extremely hard\ndifficulty setting.\nGood luck!",
+          "dialog": true,
+          "source_width": 220,
+          "limit": 410
+        }
+      ]
+    },
+    {
+      "table_id": 3072,
+      "reference_bundle": 4002050,
+      "complete": false,
+      "category": "Sound options (song titles excluded)",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "選択：㊤㊦　設定：㊧㊨　戻る：×",
+          "en": "Select:㊤㊦　Set:㊧㊨　Back:×",
+          "dialog": false,
+          "source_width": 253,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "選択：㊤㊦　設定：㊧㊨　再生：○　戻る：×",
+          "en": "Select:㊤㊦　Set:㊧㊨　Play:○　Back:×",
+          "dialog": false,
+          "source_width": 331,
+          "limit": 620
+        },
+        {
+          "slot": 2,
+          "text_id": 3,
+          "source": "サウンド",
+          "en": "Sound",
+          "dialog": false,
+          "source_width": 67,
+          "limit": 156
+        },
+        {
+          "slot": 3,
+          "text_id": 4,
+          "source": "ＢＧＭボリューム",
+          "en": "BGM Volume",
+          "dialog": false,
+          "source_width": 134,
+          "limit": 156
+        },
+        {
+          "slot": 4,
+          "text_id": 5,
+          "source": "ＳＥボリューム",
+          "en": "SE Volume",
+          "dialog": false,
+          "source_width": 113,
+          "limit": 156
+        },
+        {
+          "slot": 5,
+          "text_id": 6,
+          "source": "ＶＦＸボリューム",
+          "en": "Voice Volume",
+          "dialog": false,
+          "source_width": 134,
+          "limit": 156
+        },
+        {
+          "slot": 6,
+          "text_id": 7,
+          "source": "攻撃ボイス",
+          "en": "Attack Voices",
+          "dialog": false,
+          "source_width": 90,
+          "limit": 156
+        },
+        {
+          "slot": 7,
+          "text_id": 8,
+          "source": "ＢＧＭテスト",
+          "en": "BGM Test",
+          "dialog": false,
+          "source_width": 98,
+          "limit": 156
+        },
+        {
+          "slot": 8,
+          "text_id": 9,
+          "source": "初期設定に戻す",
+          "en": "Reset Defaults",
+          "dialog": false,
+          "source_width": 131,
+          "limit": 156
+        },
+        {
+          "slot": 10,
+          "text_id": 11,
+          "source": "ステレオ",
+          "en": "Stereo",
+          "dialog": false,
+          "source_width": 69,
+          "limit": 620
+        },
+        {
+          "slot": 16,
+          "text_id": 17,
+          "source": "ステレオに設定します",
+          "en": "Set the output to Stereo.",
+          "dialog": false,
+          "source_width": 175,
+          "limit": 620
+        },
+        {
+          "slot": 17,
+          "text_id": 18,
+          "source": "ＤｏｌｂｙＰｒｏＬｏｇｉｃⅡに設定します",
+          "en": "Set the output to Dolby Pro Logic Ⅱ.",
+          "dialog": false,
+          "source_width": 288,
+          "limit": 620
+        },
+        {
+          "slot": 18,
+          "text_id": 19,
+          "source": "ＢＧＭの音量を調整します",
+          "en": "Set the BGM volume.",
+          "dialog": false,
+          "source_width": 210,
+          "limit": 620
+        },
+        {
+          "slot": 19,
+          "text_id": 20,
+          "source": "効果音の音量を調整します",
+          "en": "Set the sound effect volume.",
+          "dialog": false,
+          "source_width": 219,
+          "limit": 620
+        },
+        {
+          "slot": 20,
+          "text_id": 21,
+          "source": "音声の音量を調整します",
+          "en": "Set the voice volume.",
+          "dialog": false,
+          "source_width": 199,
+          "limit": 620
+        },
+        {
+          "slot": 21,
+          "text_id": 22,
+          "source": "攻撃時に発生するボイスをＯＮに設定します",
+          "en": "Turn attack voices on.",
+          "dialog": false,
+          "source_width": 355,
+          "limit": 620
+        },
+        {
+          "slot": 22,
+          "text_id": 23,
+          "source": "攻撃時に発生するボイスをＯＦＦに設定します",
+          "en": "Turn attack voices off.",
+          "dialog": false,
+          "source_width": 368,
+          "limit": 620
+        },
+        {
+          "slot": 23,
+          "text_id": 24,
+          "source": "ゲーム中のＢＧＭを再生します",
+          "en": "Listen to the game's BGM.",
+          "dialog": false,
+          "source_width": 245,
+          "limit": 620
+        },
+        {
+          "slot": 24,
+          "text_id": 25,
+          "source": "初期設定に戻します",
+          "en": "Restore the default settings.",
+          "dialog": false,
+          "source_width": 163,
+          "limit": 620
+        },
+        {
+          "slot": 74,
+          "text_id": 75,
+          "source": "選択：㊤㊦　戻る：×　決定：○",
+          "en": "Select:㊤㊦　Back:×　Confirm:○",
+          "dialog": false,
+          "source_width": 232,
+          "limit": 620
+        },
+        {
+          "slot": 75,
+          "text_id": 76,
+          "source": "停止：×",
+          "en": "Stop:×",
+          "dialog": false,
+          "source_width": 62,
+          "limit": 620
+        },
+        {
+          "slot": 79,
+          "text_id": 80,
+          "source": "ＢＧＭタイプ",
+          "en": "BGM Type",
+          "dialog": false,
+          "source_width": 102,
+          "limit": 156
+        },
+        {
+          "slot": 80,
+          "text_id": 81,
+          "source": "ボーカルあり",
+          "en": "Vocals",
+          "dialog": false,
+          "source_width": 103,
+          "limit": 620
+        },
+        {
+          "slot": 81,
+          "text_id": 82,
+          "source": "ボーカルなし",
+          "en": "No Vocals",
+          "dialog": false,
+          "source_width": 105,
+          "limit": 620
+        },
+        {
+          "slot": 82,
+          "text_id": 83,
+          "source": "ランダム",
+          "en": "Random",
+          "dialog": false,
+          "source_width": 70,
+          "limit": 620
+        },
+        {
+          "slot": 83,
+          "text_id": 84,
+          "source": "ゲーム中、ボーカル付きのユニットＢＧＭを再生します",
+          "en": "Play unit BGM with vocals during gameplay.",
+          "dialog": false,
+          "source_width": 432,
+          "limit": 620
+        },
+        {
+          "slot": 84,
+          "text_id": 85,
+          "source": "ゲーム中、ボーカルなしのユニットＢＧＭを再生します",
+          "en": "Play unit BGM without vocals during gameplay.",
+          "dialog": false,
+          "source_width": 429,
+          "limit": 620
+        },
+        {
+          "slot": 85,
+          "text_id": 86,
+          "source": "ボーカル付き、ボーカルなしをランダムで再生します",
+          "en": "Randomly play vocal and non-vocal versions.",
+          "dialog": false,
+          "source_width": 420,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3073,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "Screen options",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "選択：㊤㊦　設定：㊧㊨　戻る：×",
+          "en": "Select:㊤㊦　Set:㊧㊨　Back:×",
+          "dialog": false,
+          "source_width": 253,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "選択：㊤㊦　戻る：×　決定：○",
+          "en": "Select:㊤㊦　Back:×　Confirm:○",
+          "dialog": false,
+          "source_width": 232,
+          "limit": 620
+        },
+        {
+          "slot": 2,
+          "text_id": 3,
+          "source": "スクリーン",
+          "en": "Screen",
+          "dialog": false,
+          "source_width": 82,
+          "limit": 156
+        },
+        {
+          "slot": 3,
+          "text_id": 4,
+          "source": "明るさ",
+          "en": "Brightness",
+          "dialog": false,
+          "source_width": 50,
+          "limit": 156
+        },
+        {
+          "slot": 4,
+          "text_id": 5,
+          "source": "コントラスト",
+          "en": "Contrast",
+          "dialog": false,
+          "source_width": 94,
+          "limit": 156
+        },
+        {
+          "slot": 5,
+          "text_id": 6,
+          "source": "初期設定に戻す",
+          "en": "Reset Defaults",
+          "dialog": false,
+          "source_width": 131,
+          "limit": 156
+        },
+        {
+          "slot": 7,
+          "text_id": 8,
+          "source": "画面の明るさを調整します",
+          "en": "Set the screen brightness.",
+          "dialog": false,
+          "source_width": 211,
+          "limit": 620
+        },
+        {
+          "slot": 8,
+          "text_id": 9,
+          "source": "画面のコントラストを調整します",
+          "en": "Set the screen contrast.",
+          "dialog": false,
+          "source_width": 255,
+          "limit": 620
+        },
+        {
+          "slot": 9,
+          "text_id": 10,
+          "source": "初期設定に戻します",
+          "en": "Restore the default settings.",
+          "dialog": false,
+          "source_width": 163,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3076,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "Controller options",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "選択：㊤㊦　戻る：×　決定：○",
+          "en": "Select:㊤㊦　Back:×　Confirm:○",
+          "dialog": false,
+          "source_width": 232,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "選択：㊤㊦　設定：㊧㊨　戻る：×",
+          "en": "Select:㊤㊦　Set:㊧㊨　Back:×",
+          "dialog": false,
+          "source_width": 253,
+          "limit": 620
+        },
+        {
+          "slot": 3,
+          "text_id": 4,
+          "source": "コントローラ",
+          "en": "Controls",
+          "dialog": false,
+          "source_width": 97,
+          "limit": 156
+        },
+        {
+          "slot": 7,
+          "text_id": 8,
+          "source": "１Ｐ　コントローラ",
+          "en": "1P Controller",
+          "dialog": false,
+          "source_width": 133,
+          "limit": 156
+        },
+        {
+          "slot": 8,
+          "text_id": 9,
+          "source": "２Ｐ　コントローラ",
+          "en": "2P Controller",
+          "dialog": false,
+          "source_width": 135,
+          "limit": 156
+        },
+        {
+          "slot": 10,
+          "text_id": 11,
+          "source": "初期設定に戻す",
+          "en": "Reset Defaults",
+          "dialog": false,
+          "source_width": 131,
+          "limit": 156
+        },
+        {
+          "slot": 11,
+          "text_id": 12,
+          "source": "上昇",
+          "en": "Ascend",
+          "dialog": false,
+          "source_width": 38,
+          "limit": 156
+        },
+        {
+          "slot": 12,
+          "text_id": 13,
+          "source": "下降",
+          "en": "Descend",
+          "dialog": false,
+          "source_width": 38,
+          "limit": 156
+        },
+        {
+          "slot": 13,
+          "text_id": 14,
+          "source": "近接攻撃",
+          "en": "Melee Attack",
+          "dialog": false,
+          "source_width": 77,
+          "limit": 156
+        },
+        {
+          "slot": 14,
+          "text_id": 15,
+          "source": "ダッシュ",
+          "en": "Dash",
+          "dialog": false,
+          "source_width": 69,
+          "limit": 156
+        },
+        {
+          "slot": 15,
+          "text_id": 16,
+          "source": "ロックサイト",
+          "en": "Lock-On Reticle",
+          "dialog": false,
+          "source_width": 97,
+          "limit": 156
+        },
+        {
+          "slot": 16,
+          "text_id": 17,
+          "source": "コンビネーション",
+          "en": "Combination",
+          "dialog": false,
+          "source_width": 135,
+          "limit": 156
+        },
+        {
+          "slot": 17,
+          "text_id": 18,
+          "source": "セレクト攻撃",
+          "en": "Select Attack",
+          "dialog": false,
+          "source_width": 103,
+          "limit": 156
+        },
+        {
+          "slot": 18,
+          "text_id": 19,
+          "source": "セレクトメニュー",
+          "en": "Select Menu",
+          "dialog": false,
+          "source_width": 135,
+          "limit": 156
+        },
+        {
+          "slot": 19,
+          "text_id": 20,
+          "source": "セレクトメニュー昇順",
+          "en": "Select Menu Next",
+          "dialog": false,
+          "source_width": 173,
+          "limit": 173
+        },
+        {
+          "slot": 20,
+          "text_id": 21,
+          "source": "セレクトメニュー降順",
+          "en": "Select Menu Prev",
+          "dialog": false,
+          "source_width": 173,
+          "limit": 173
+        },
+        {
+          "slot": 21,
+          "text_id": 22,
+          "source": "シフト",
+          "en": "Shift",
+          "dialog": false,
+          "source_width": 49,
+          "limit": 156
+        },
+        {
+          "slot": 22,
+          "text_id": 23,
+          "source": "ウェポン１",
+          "en": "Weapon 1",
+          "dialog": false,
+          "source_width": 79,
+          "limit": 156
+        },
+        {
+          "slot": 23,
+          "text_id": 24,
+          "source": "ウェポン２",
+          "en": "Weapon 2",
+          "dialog": false,
+          "source_width": 81,
+          "limit": 156
+        },
+        {
+          "slot": 24,
+          "text_id": 25,
+          "source": "ウェポン３",
+          "en": "Weapon 3",
+          "dialog": false,
+          "source_width": 81,
+          "limit": 156
+        },
+        {
+          "slot": 25,
+          "text_id": 26,
+          "source": "ウェポン４",
+          "en": "Weapon 4",
+          "dialog": false,
+          "source_width": 83,
+          "limit": 156
+        },
+        {
+          "slot": 26,
+          "text_id": 27,
+          "source": "ウェポン５",
+          "en": "Weapon 5",
+          "dialog": false,
+          "source_width": 81,
+          "limit": 156
+        },
+        {
+          "slot": 27,
+          "text_id": 28,
+          "source": "ウェポン６",
+          "en": "Weapon 6",
+          "dialog": false,
+          "source_width": 81,
+          "limit": 156
+        },
+        {
+          "slot": 28,
+          "text_id": 29,
+          "source": "ウェポン７",
+          "en": "Weapon 7",
+          "dialog": false,
+          "source_width": 81,
+          "limit": 156
+        },
+        {
+          "slot": 29,
+          "text_id": 30,
+          "source": "ラダー左",
+          "en": "Rudder Left",
+          "dialog": false,
+          "source_width": 72,
+          "limit": 156
+        },
+        {
+          "slot": 30,
+          "text_id": 31,
+          "source": "ラダー右",
+          "en": "Rudder Right",
+          "dialog": false,
+          "source_width": 72,
+          "limit": 156
+        },
+        {
+          "slot": 54,
+          "text_id": 55,
+          "source": "キーアサインを初期設定に戻します",
+          "en": "Restore the default button mapping.",
+          "dialog": false,
+          "source_width": 286,
+          "limit": 620
+        },
+        {
+          "slot": 55,
+          "text_id": 56,
+          "source": "上昇（連続２回入力で上昇回避）",
+          "en": "Ascend (double-tap to evade upward)",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        },
+        {
+          "slot": 56,
+          "text_id": 57,
+          "source": "下降（連続２回入力で下降回避）",
+          "en": "Descend (double-tap to evade downward)",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        },
+        {
+          "slot": 57,
+          "text_id": 58,
+          "source": "選択したウェポンで攻撃",
+          "en": "Attack with the selected weapon",
+          "dialog": false,
+          "source_width": 197,
+          "limit": 620
+        },
+        {
+          "slot": 58,
+          "text_id": 59,
+          "source": "近接ウェポンの使用",
+          "en": "Use the melee weapon",
+          "dialog": false,
+          "source_width": 164,
+          "limit": 620
+        },
+        {
+          "slot": 59,
+          "text_id": 60,
+          "source": "ダッシュＯＮ／ＯＦＦ",
+          "en": "Dash ON/OFF",
+          "dialog": false,
+          "source_width": 167,
+          "limit": 620
+        },
+        {
+          "slot": 60,
+          "text_id": 61,
+          "source": "ロックサイトの切替",
+          "en": "Switch the lock-on reticle",
+          "dialog": false,
+          "source_width": 152,
+          "limit": 620
+        },
+        {
+          "slot": 61,
+          "text_id": 62,
+          "source": "セレクトメニューの起動（ウェポンの選択）",
+          "en": "Open the Select Menu (choose a weapon)",
+          "dialog": false,
+          "source_width": 335,
+          "limit": 620
+        },
+        {
+          "slot": 62,
+          "text_id": 63,
+          "source": "コンビネーションの発動",
+          "en": "Trigger a Combination Attack",
+          "dialog": false,
+          "source_width": 190,
+          "limit": 620
+        },
+        {
+          "slot": 63,
+          "text_id": 64,
+          "source": "ウェポンの選択（昇順）",
+          "en": "Select weapon (next)",
+          "dialog": false,
+          "source_width": 183,
+          "limit": 620
+        },
+        {
+          "slot": 64,
+          "text_id": 65,
+          "source": "ウェポンの選択（降順）",
+          "en": "Select weapon (previous)",
+          "dialog": false,
+          "source_width": 183,
+          "limit": 620
+        },
+        {
+          "slot": 68,
+          "text_id": 69,
+          "source": "キーアサインを初期設定に戻します",
+          "en": "Restore the default button mapping.",
+          "dialog": false,
+          "source_width": 286,
+          "limit": 620
+        },
+        {
+          "slot": 69,
+          "text_id": 70,
+          "source": "上昇（連続２回入力で上昇回避）",
+          "en": "Ascend (double-tap to evade upward)",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        },
+        {
+          "slot": 70,
+          "text_id": 71,
+          "source": "下降（連続２回入力で下降回避）",
+          "en": "Descend (double-tap to evade downward)",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        },
+        {
+          "slot": 71,
+          "text_id": 72,
+          "source": "ウェポン１の使用",
+          "en": "Use Weapon 1",
+          "dialog": false,
+          "source_width": 135,
+          "limit": 620
+        },
+        {
+          "slot": 72,
+          "text_id": 73,
+          "source": "近接ウェポンの使用",
+          "en": "Use the melee weapon",
+          "dialog": false,
+          "source_width": 164,
+          "limit": 620
+        },
+        {
+          "slot": 73,
+          "text_id": 74,
+          "source": "ダッシュＯＮ／ＯＦＦ",
+          "en": "Dash ON/OFF",
+          "dialog": false,
+          "source_width": 167,
+          "limit": 620
+        },
+        {
+          "slot": 74,
+          "text_id": 75,
+          "source": "ロックサイトの切替",
+          "en": "Switch the lock-on reticle",
+          "dialog": false,
+          "source_width": 152,
+          "limit": 620
+        },
+        {
+          "slot": 75,
+          "text_id": 76,
+          "source": "シフトメニューの起動",
+          "en": "Open the Shift Menu",
+          "dialog": false,
+          "source_width": 174,
+          "limit": 620
+        },
+        {
+          "slot": 76,
+          "text_id": 77,
+          "source": "コンビネーションの発動",
+          "en": "Trigger a Combination Attack",
+          "dialog": false,
+          "source_width": 190,
+          "limit": 620
+        },
+        {
+          "slot": 77,
+          "text_id": 78,
+          "source": "ウェポン２の使用（シフトメニュー起動時）",
+          "en": "Use Weapon 2 (while the Shift Menu is open)",
+          "dialog": false,
+          "source_width": 334,
+          "limit": 620
+        },
+        {
+          "slot": 78,
+          "text_id": 79,
+          "source": "ウェポン３の使用（シフトメニュー起動時）",
+          "en": "Use Weapon 3 (while the Shift Menu is open)",
+          "dialog": false,
+          "source_width": 334,
+          "limit": 620
+        },
+        {
+          "slot": 79,
+          "text_id": 80,
+          "source": "ウェポン４の使用（シフトメニュー起動時）",
+          "en": "Use Weapon 4 (while the Shift Menu is open)",
+          "dialog": false,
+          "source_width": 336,
+          "limit": 620
+        },
+        {
+          "slot": 80,
+          "text_id": 81,
+          "source": "ウェポン５の使用（シフトメニュー起動時）",
+          "en": "Use Weapon 5 (while the Shift Menu is open)",
+          "dialog": false,
+          "source_width": 334,
+          "limit": 620
+        },
+        {
+          "slot": 81,
+          "text_id": 82,
+          "source": "ウェポン６の使用（シフトメニュー起動時）",
+          "en": "Use Weapon 6 (while the Shift Menu is open)",
+          "dialog": false,
+          "source_width": 334,
+          "limit": 620
+        },
+        {
+          "slot": 82,
+          "text_id": 83,
+          "source": "ウェポン７の使用（シフトメニュー起動時）",
+          "en": "Use Weapon 7 (while the Shift Menu is open)",
+          "dialog": false,
+          "source_width": 334,
+          "limit": 620
+        },
+        {
+          "slot": 86,
+          "text_id": 87,
+          "source": "左水平移動",
+          "en": "Strafe Left",
+          "dialog": false,
+          "source_width": 95,
+          "limit": 620
+        },
+        {
+          "slot": 87,
+          "text_id": 88,
+          "source": "右水平移動",
+          "en": "Strafe Right",
+          "dialog": false,
+          "source_width": 95,
+          "limit": 620
+        },
+        {
+          "slot": 91,
+          "text_id": 92,
+          "source": "左水平移動",
+          "en": "Strafe Left",
+          "dialog": false,
+          "source_width": 95,
+          "limit": 620
+        },
+        {
+          "slot": 92,
+          "text_id": 93,
+          "source": "右水平移動",
+          "en": "Strafe Right",
+          "dialog": false,
+          "source_width": 95,
+          "limit": 620
+        },
+        {
+          "slot": 99,
+          "text_id": 100,
+          "source": "セレクトタイプ",
+          "en": "Select",
+          "dialog": false,
+          "source_width": 118,
+          "limit": 620
+        },
+        {
+          "slot": 100,
+          "text_id": 101,
+          "source": "シフトタイプ",
+          "en": "Shift",
+          "dialog": false,
+          "source_width": 102,
+          "limit": 620
+        },
+        {
+          "slot": 101,
+          "text_id": 102,
+          "source": "イージー",
+          "en": "Easy",
+          "dialog": false,
+          "source_width": 71,
+          "limit": 620
+        },
+        {
+          "slot": 102,
+          "text_id": 103,
+          "source": "フライト",
+          "en": "Flight",
+          "dialog": false,
+          "source_width": 64,
+          "limit": 620
+        },
+        {
+          "slot": 103,
+          "text_id": 104,
+          "source": "イージーリバース",
+          "en": "Easy Rev.",
+          "dialog": false,
+          "source_width": 139,
+          "limit": 620
+        },
+        {
+          "slot": 104,
+          "text_id": 105,
+          "source": "フライトリバース",
+          "en": "Flight Rev.",
+          "dialog": false,
+          "source_width": 132,
+          "limit": 620
+        },
+        {
+          "slot": 106,
+          "text_id": 107,
+          "source": "キーアサイン警告",
+          "en": "Button Mapping Warning",
+          "dialog": false,
+          "source_width": 144,
+          "limit": 620
+        },
+        {
+          "slot": 107,
+          "text_id": 108,
+          "source": "ボタン設定が重複しています。\nキーアサインを自動変更しても\nよろしいですか？",
+          "en": "Button assignments overlap.\nChange the button mapping automatically?",
+          "dialog": true,
+          "source_width": 246,
+          "limit": 410
+        }
+      ]
+    },
+    {
+      "table_id": 3086,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "Multiplayer menu",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "マルチプレイ",
+          "en": "Multiplayer",
+          "dialog": false,
+          "source_width": 108,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "マルチプレイは、２人のプレイヤーが\n協力してプレイするゲームモードです。\n\nキャンペーンモードを進めることにより、\nミッションやユニットは追加されます。",
+          "en": "Multiplayer is a game mode where two players cooperate.\n\nMissions and units are added as you progress through Campaign mode.",
+          "dialog": true,
+          "source_width": 314,
+          "limit": 410
+        },
+        {
+          "slot": 2,
+          "text_id": 3,
+          "source": "マルチプレイの行動を選んでください。",
+          "en": "Choose what to do in Multiplayer.",
+          "dialog": false,
+          "source_width": 312,
+          "limit": 620
+        },
+        {
+          "slot": 4,
+          "text_id": 5,
+          "source": "選択：㊤㊦　設定：㊧㊨　決定：○",
+          "en": "Select:㊤㊦　Change:㊧㊨　Confirm:○",
+          "dialog": false,
+          "source_width": 260,
+          "limit": 620
+        },
+        {
+          "slot": 5,
+          "text_id": 6,
+          "source": "選択：㊤㊦　決定：○",
+          "en": "Select:㊤㊦　Confirm:○",
+          "dialog": false,
+          "source_width": 161,
+          "limit": 620
+        },
+        {
+          "slot": 9,
+          "text_id": 10,
+          "source": "出撃",
+          "en": "Deploy",
+          "dialog": false,
+          "source_width": 38,
+          "limit": 131
+        },
+        {
+          "slot": 10,
+          "text_id": 11,
+          "source": "ミッション",
+          "en": "Mission",
+          "dialog": false,
+          "source_width": 79,
+          "limit": 131
+        },
+        {
+          "slot": 11,
+          "text_id": 12,
+          "source": "難易度",
+          "en": "Difficulty",
+          "dialog": false,
+          "source_width": 57,
+          "limit": 131
+        },
+        {
+          "slot": 12,
+          "text_id": 13,
+          "source": "戦闘記録",
+          "en": "Records",
+          "dialog": false,
+          "source_width": 76,
+          "limit": 131
+        },
+        {
+          "slot": 13,
+          "text_id": 14,
+          "source": "オプション",
+          "en": "Options",
+          "dialog": false,
+          "source_width": 86,
+          "limit": 131
+        },
+        {
+          "slot": 14,
+          "text_id": 15,
+          "source": "１Ｐコントローラ",
+          "en": "1P Controller",
+          "dialog": false,
+          "source_width": 121,
+          "limit": 131
+        },
+        {
+          "slot": 15,
+          "text_id": 16,
+          "source": "２Ｐコントローラ",
+          "en": "2P Controller",
+          "dialog": false,
+          "source_width": 123,
+          "limit": 131
+        },
+        {
+          "slot": 16,
+          "text_id": 17,
+          "source": "戻る",
+          "en": "Back",
+          "dialog": false,
+          "source_width": 35,
+          "limit": 131
+        },
+        {
+          "slot": 19,
+          "text_id": 20,
+          "source": "ブリーフィングを開始します",
+          "en": "Begin the briefing.",
+          "dialog": false,
+          "source_width": 223,
+          "limit": 620
+        },
+        {
+          "slot": 20,
+          "text_id": 21,
+          "source": "ミッションを選択します",
+          "en": "Select a mission.",
+          "dialog": false,
+          "source_width": 185,
+          "limit": 620
+        },
+        {
+          "slot": 21,
+          "text_id": 22,
+          "source": "難易度を設定します",
+          "en": "Set the difficulty.",
+          "dialog": false,
+          "source_width": 163,
+          "limit": 620
+        },
+        {
+          "slot": 22,
+          "text_id": 23,
+          "source": "戦闘記録を閲覧します",
+          "en": "View combat records.",
+          "dialog": false,
+          "source_width": 182,
+          "limit": 620
+        },
+        {
+          "slot": 23,
+          "text_id": 24,
+          "source": "ゲームオプションを変更します",
+          "en": "Change game options.",
+          "dialog": false,
+          "source_width": 247,
+          "limit": 620
+        },
+        {
+          "slot": 24,
+          "text_id": 25,
+          "source": "コントローラの設定を変更します",
+          "en": "Change controller settings.",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        },
+        {
+          "slot": 25,
+          "text_id": 26,
+          "source": "コントローラの設定を変更します",
+          "en": "Change controller settings.",
+          "dialog": false,
+          "source_width": 258,
+          "limit": 620
+        },
+        {
+          "slot": 26,
+          "text_id": 27,
+          "source": "トップメニューに戻ります",
+          "en": "Return to the main menu.",
+          "dialog": false,
+          "source_width": 204,
+          "limit": 620
+        },
+        {
+          "slot": 29,
+          "text_id": 30,
+          "source": "難易度",
+          "en": "Difficulty",
+          "dialog": false,
+          "source_width": 57,
+          "limit": 620
+        },
+        {
+          "slot": 30,
+          "text_id": 31,
+          "source": "イージー",
+          "en": "Easy",
+          "dialog": false,
+          "source_width": 71,
+          "limit": 620
+        },
+        {
+          "slot": 31,
+          "text_id": 32,
+          "source": "ノーマル",
+          "en": "Normal",
+          "dialog": false,
+          "source_width": 70,
+          "limit": 620
+        },
+        {
+          "slot": 32,
+          "text_id": 33,
+          "source": "ハード",
+          "en": "Hard",
+          "dialog": false,
+          "source_width": 50,
+          "limit": 620
+        },
+        {
+          "slot": 33,
+          "text_id": 34,
+          "source": "リアルエース",
+          "en": "Real Ace",
+          "dialog": false,
+          "source_width": 104,
+          "limit": 620
+        },
+        {
+          "slot": 39,
+          "text_id": 40,
+          "source": "ハイスコア",
+          "en": "High Score",
+          "dialog": false,
+          "source_width": 85,
+          "limit": 620
+        },
+        {
+          "slot": 40,
+          "text_id": 41,
+          "source": "タイム",
+          "en": "Time",
+          "dialog": false,
+          "source_width": 52,
+          "limit": 620
+        },
+        {
+          "slot": 41,
+          "text_id": 42,
+          "source": "ポイント",
+          "en": "Points",
+          "dialog": false,
+          "source_width": 66,
+          "limit": 620
+        },
+        {
+          "slot": 42,
+          "text_id": 43,
+          "source": "ダメージ",
+          "en": "Damage",
+          "dialog": false,
+          "source_width": 71,
+          "limit": 620
+        },
+        {
+          "slot": 43,
+          "text_id": 44,
+          "source": "ランク",
+          "en": "Rank",
+          "dialog": false,
+          "source_width": 49,
+          "limit": 620
+        },
+        {
+          "slot": 59,
+          "text_id": 60,
+          "source": "エース",
+          "en": "Ace",
+          "dialog": false,
+          "source_width": 54,
+          "limit": 620
+        },
+        {
+          "slot": 60,
+          "text_id": 61,
+          "source": "ベテラン",
+          "en": "Veteran",
+          "dialog": false,
+          "source_width": 69,
+          "limit": 620
+        },
+        {
+          "slot": 61,
+          "text_id": 62,
+          "source": "リーダー",
+          "en": "Leader",
+          "dialog": false,
+          "source_width": 69,
+          "limit": 620
+        },
+        {
+          "slot": 62,
+          "text_id": 63,
+          "source": "パイロット",
+          "en": "Pilot",
+          "dialog": false,
+          "source_width": 80,
+          "limit": 620
+        },
+        {
+          "slot": 63,
+          "text_id": 64,
+          "source": "ルーキー",
+          "en": "Rookie",
+          "dialog": false,
+          "source_width": 73,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3090,
+      "reference_bundle": 4002050,
+      "complete": false,
+      "category": "Movie Viewer (story demo titles excluded)",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "選択：㊤㊦　ジャンプ：㊧㊨　戻る：×　決定：○",
+          "en": "Select:㊤㊦　Jump:㊧㊨　Back:×　Confirm:○",
+          "dialog": false,
+          "source_width": 363,
+          "limit": 620
+        },
+        {
+          "slot": 2,
+          "text_id": 3,
+          "source": "映像記録",
+          "en": "Movie Viewer",
+          "dialog": false,
+          "source_width": 76,
+          "limit": 620
+        },
+        {
+          "slot": 4,
+          "text_id": 5,
+          "source": "ここではストーリーデモを閲覧できます。\n\nストーリーデモはキャンペーンの進行に\n伴って追加されていきます。",
+          "en": "Watch story movies here.\n\nMore story movies are added as you progress through the Campaign.",
+          "dialog": true,
+          "source_width": 323,
+          "limit": 410
+        },
+        {
+          "slot": 5,
+          "text_id": 6,
+          "source": "閲覧したいストーリーデモを選んでください。",
+          "en": "Select a story movie to watch.",
+          "dialog": false,
+          "source_width": 355,
+          "limit": 620
+        },
+        {
+          "slot": 6,
+          "text_id": 7,
+          "source": "デモを選んでください",
+          "en": "Select a movie.",
+          "dialog": false,
+          "source_width": 175,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3037,
+      "reference_bundle": 4002050,
+      "complete": true,
+      "category": "Movie sound selection",
+      "rows": [
+        {
+          "slot": 0,
+          "text_id": 1,
+          "source": "サウンド変更",
+          "en": "Sound Setting",
+          "dialog": false,
+          "source_width": 105,
+          "limit": 620
+        },
+        {
+          "slot": 1,
+          "text_id": 2,
+          "source": "ステレオ",
+          "en": "Stereo",
+          "dialog": false,
+          "source_width": 69,
+          "limit": 620
+        },
+        {
+          "slot": 3,
+          "text_id": 4,
+          "source": "サウンドを変更してムービーを鑑賞します",
+          "en": "Change the sound setting and watch the movie.",
+          "dialog": false,
+          "source_width": 0,
+          "limit": 620
+        },
+        {
+          "slot": 4,
+          "text_id": 5,
+          "source": "選択：㊤㊦　決定：○　戻る：×",
+          "en": "Select:㊤㊦　Confirm:○　Back:×",
+          "dialog": false,
+          "source_width": 232,
+          "limit": 620
+        }
+      ]
+    },
+    {
+      "table_id": 3054,
+      "reference_bundle": 4002050,
+      "complete": false,
+      "category": "Free Mission label overflow fixes",
+      "rows": [
+        {
+          "slot": 13,
+          "text_id": 14,
+          "source": "Combat Records",
+          "en": "Records",
+          "dialog": false,
+          "source_width": 157,
+          "limit": 131
+        },
+        {
+          "slot": 70,
+          "text_id": 71,
+          "source": "Secret Conditions",
+          "en": "Secret Goal",
+          "dialog": false,
+          "source_width": 170,
+          "limit": 140
+        },
+        {
+          "slot": 71,
+          "text_id": 72,
+          "source": "Completion Status",
+          "en": "Status",
+          "dialog": false,
+          "source_width": 176,
+          "limit": 140
+        }
+      ]
+    },
+    {
+      "table_id": 3054,
+      "reference_bundle": 4002055,
+      "complete": false,
+      "category": "Legacy Free Mission overlay label fix",
+      "rows": [
+        {
+          "slot": 24,
+          "text_id": 25,
+          "source": "Secret Conditions",
+          "en": "Secret Goal",
+          "dialog": false,
+          "source_width": 170,
+          "limit": 140
+        }
+      ]
+    },
+    {
+      "table_id": 3013,
+      "reference_bundle": 4002050,
+      "complete": false,
+      "category": "Deployment discount message: fullwidth percent in a format string",
+      "rows": [
+        {
+          "slot": 191,
+          "text_id": 192,
+          "source": "Upgrade this unit?\n%s\n(㍻ Cost -25%)",
+          "en": "Upgrade this unit?\n%s\n(㍻ Cost -25％)",
+          "dialog": true,
+          "source_width": 183,
+          "limit": 410
+        }
+      ]
+    }
+  ]
+}

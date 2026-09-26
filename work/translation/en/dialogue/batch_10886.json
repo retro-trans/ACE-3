@@ -1,0 +1,520 @@
+{
+  "slice_start": 10886,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      10871,
+      10980
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_10889",
+        "dialogue_10899"
+      ],
+      "note": "Speaker recognizing Meio Plato (a former Giganos officer, apparently now allied with the Federation side) is not identified in the surrounding rows; left as unattributed combat chatter rather than guessing an identity."
+    },
+    {
+      "id": "dialogue_10930",
+      "note": "Source uses the Neo Zeon title normally rendered 'Marshal' per character_names_021.json's Char Aznable entry ('Rank in CCA is Marshal (Supreme Commander/Leader)'); this is the first dialogue occurrence, so the choice of 'Marshal' over 'Supreme Commander' should be locked centrally. Kept distinct from the separate, unrelated title 'Colonel' (rows 11004-11021, 11033), which the source itself distinguishes later in the same mission (row 11063: 'Colonel or Marshal')."
+    },
+    {
+      "id": "dialogue_10960",
+      "note": "Source line reads as dialect or possibly a scan/OCR-adjacent irregularity (roughly \"a timely stroke of luck, but still not enough\"); translated for best-effort meaning and flagged rather than guessed into a cleaner sentence."
+    },
+    {
+      "id": "dialogue_10921",
+      "note": "Bare given name in source; matched to 'Isamu' (Isamu Dyson, Macross Plus) rather than 'Isami' (Yuu Isami, Brain Powerd) because the corpus already addresses Isamu Dyson this way with the surname dropped (batch_05223, batch_05943: 'Isamu! Don't rush in!', 'Don't mind him, Isamu!')."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently reviewed against the ISO source (rows 10871-10980, 15-row context both sides) by a second agent; all 80 rows confirmed meaning_reviewed, no mistranslations found. 'Marshal' (sousui, row 10930) and the Isamu Dyson given-name reading (row 10921) confirmed; the row 10960 dialect line ('...A stroke of luck, but still not enough.') is a plausible best-effort reading of an irregular source line and is kept.",
+    "fit": "Full meaning retained; two rows (10900, 11053-class messages not in this slice) were compressed slightly for the ab() duration but no sentence-final content was dropped.",
+    "controls": "All <op()>/<sp(20)>/<ab(n)>/<ed()> command sequences preserved in source order; validated programmatically (tag list source vs target) for all 80 rows."
+  },
+  "rows": [
+    {
+      "id": "dialogue_10886",
+      "target": "<op()><sp(20)>Every launched unit is to mop up the enemy fleet.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10887",
+      "target": "<op()><sp(20)>Before the Federation's allied ships are wiped out,\nwe break through!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10888",
+      "target": "<op()><sp(20)>This many...\nNo time to fight them one at a time.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10889",
+      "target": "<op()><sp(20)>Meio... is that you!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10890",
+      "target": "<op()><sp(20)>You're still alive!?\nDamn it all!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10891",
+      "target": "<op()><sp(20)>I have something I must protect!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10892",
+      "target": "<sp(20)>For the proud warriors of Giganos!\nFor the comrades who fought at my side!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10893",
+      "target": "<sp(20)>No...\nI won't call them comrades, not anymore.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10894",
+      "target": "<sp(20)>But! Right now!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10895",
+      "target": "<op()><sp(20)>I lent Char my strength\nonly to try to save my people!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10896",
+      "target": "<sp(20)>But he strayed from the path of humanity!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10897",
+      "target": "<sp(20)>For that ego,\nhe never weighed how much would be lost.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10898",
+      "target": "<sp(20)>I... must strike him down!\nFor the pride of Giganos!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10899",
+      "target": "<op()><sp(20)>Well said, Meio...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10900",
+      "target": "<op()><sp(20)>The enemy's serious too...!\nIt's not only the numbers - this is fighting spirit like never before!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10901",
+      "target": "<op()><sp(20)>An all-out war, huh...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10902",
+      "target": "<op()><sp(20)>No time to flinch!\nWe're the ones who have to do this!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10903",
+      "target": "<op()><sp(20)>It's getting closer to Earth by the second!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10904",
+      "target": "<op()><sp(20)>If we give up, it's over!\nDon't throw away hope until the very end!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10905",
+      "target": "<op()><sp(20)>That's right...\nIf we give up, it's over...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10906",
+      "target": "<op()><sp(20)>I'll do it if it kills me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10907",
+      "target": "<op()><sp(20)>Staking your life on what you must protect...\nThat resolve is admirable.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10908",
+      "target": "<op()><sp(20)>T-this won't hold up at this rate!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10909",
+      "target": "<op()><sp(20)>Stop your griping!!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10910",
+      "target": "<op()><sp(20)>I'll blow that guy away!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10911",
+      "target": "<op()><sp(20)>I won't let some brat beat me to it!!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10912",
+      "target": "<op()><sp(20)>Even now, of all times... unbelievable.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10913",
+      "target": "<op()><sp(20)>Not to the likes of the Federation!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10914",
+      "target": "<op()><sp(20)>Clear the way already!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10915",
+      "target": "<op()><sp(20)>If you won't listen...!\nDon't take it personally!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10916",
+      "target": "<op()><sp(20)>Still don't get it!?\nAny of you!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10917",
+      "target": "<sp(20)>Where's the need to go along\nwith Char's ego!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10918",
+      "target": "<op()><sp(20)>Char Aznable's ideal\nis our ideal!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10919",
+      "target": "<sp(20)>A Federation dog would never understand that!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10920",
+      "target": "<op()><sp(20)>Damn it! Swarming out of nowhere!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10921",
+      "target": "<op()><sp(20)>Are you scared, Isamu?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10922",
+      "target": "<op()><sp(20)>Look who's talking...!\nDon't you chicken out either!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10923",
+      "target": "<op()><sp(20)>We're ending this in one go!\nDon't fall behind!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10924",
+      "target": "<op()><sp(20)>Roger!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10925",
+      "target": "<op()><sp(20)>Geez, at a time like this,\nevery last one of you has to get in my way!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10926",
+      "target": "<op()><sp(20)>Of course! I won't let you get away with it!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10927",
+      "target": "<op()><sp(20)>Heh, then let me teach you\nwhat a difference in class looks like!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10928",
+      "target": "<op()><sp(20)>Well said! Gives me chills!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10929",
+      "target": "<op()><sp(20)>I won't let you drop that rock on us!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10930",
+      "target": "<op()><sp(20)>People who can't even grasp the Marshal's ideal!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Marshal used for the Neo Zeon title (source: character_names_021.json Char entry, 'Rank in CCA is Marshal (Supreme Commander/Leader)'); flagged as first dialogue use for consolidation."
+    },
+    {
+      "id": "dialogue_10931",
+      "target": "<op()><sp(20)>Ideal? Don't make me laugh.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10932",
+      "target": "<op()><sp(20)>To hell with a twisted ideal like that!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10933",
+      "target": "<op()><sp(20)>The Earth we live on!\nThe world King Sakomizu tried to protect!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10934",
+      "target": "<sp(20)>I can't let you do this!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10935",
+      "target": "<op()><sp(20)>Withdraw!\nYou heartless ones!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10936",
+      "target": "<sp(20)>I cannot overlook\nyour folly!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10937",
+      "target": "<op()><sp(20)>I don't know\nwhat you people don't like about this!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10938",
+      "target": "<sp(20)>But I love this Earth!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10939",
+      "target": "<op()><sp(20)>So, no matter what...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10940",
+      "target": "<op()><sp(20)>I won't let you do it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10941",
+      "target": "<op()><sp(20)>Status of the attack team?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10942",
+      "target": "<op()><sp(20)>1,500 to Axis!\nBut enemy resistance keeps growing fiercer!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10943",
+      "target": "<op()><sp(20)>Hey! There are Metal Armors out here too!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10944",
+      "target": "<op()><sp(20)>Looks like a good number of Giganos soldiers\nhave linked up with Neo Zeon.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10945",
+      "target": "<op()><sp(20)>Those guys! What are they thinking!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10946",
+      "target": "<sp(20)>Seriously, wise up already\nto what Char really is!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10947",
+      "target": "<op()><sp(20)>Leave them to me.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10948",
+      "target": "<op()><sp(20)>No holding back!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10949",
+      "target": "<op()><sp(20)>I never had room to hold back anyway!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10950",
+      "target": "<op()><sp(20)>We actually agree, for once!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10951",
+      "target": "<op()><sp(20)>...Don't get in my way!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10952",
+      "target": "<op()><sp(20)>For your own convenience,\nyou move to erase anyone who resists!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10953",
+      "target": "<sp(20)>The Federation, full of hypocrites that it is!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10954",
+      "target": "<op()><sp(20)>If we leave you be,\ncountless people will die.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10955",
+      "target": "<sp(20)>The innocent, and the guilty alike.\nWe're only here to stop that.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10956",
+      "target": "<op()><sp(20)>Whoa! They keep\ncoming and coming!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10957",
+      "target": "<op()><sp(20)>No end in sight, so round and round we spin... heh heh.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10958",
+      "target": "<op()><sp(20)>Sending the optimal route to Axis now!\nI'll mark where the enemy's thinnest!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10959",
+      "target": "<op()><sp(20)>Harry, such a hard worker~!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10960",
+      "target": "<op()><sp(20)>...A stroke of luck, but still not enough.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source line is dialect/garbled (\"...watari ni fune ga, waa tarin\"); rendered as best-effort meaning (a stroke of luck that still isn't enough) and flagged."
+    },
+    {
+      "id": "dialogue_10961",
+      "target": "<op()><sp(20)>How is anyone supposed to slack off\nin a situation like this?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10962",
+      "target": "<op()><sp(20)>What these guys are trying to do\nis wrong...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10963",
+      "target": "<op()><sp(20)>Yeah, that's right!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10964",
+      "target": "<op()><sp(20)>Let's make them understand that!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10965",
+      "target": "<op()><sp(20)>Thoroughly!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.1.42",
+  "status": "user_requested_wording",
+  "source": "情勢ライブラリ",
+  "before": "Situation Archive",
+  "target": "Situation Report",
+  "table_id": 3010,
+  "text_id": 21,
+  "slot": 20,
+  "bundles": [4002050, 4002054, 4002057],
+  "reason": "User-selected name for the situation briefing screen. Supersedes the provisional 0.1.13 title."
+}

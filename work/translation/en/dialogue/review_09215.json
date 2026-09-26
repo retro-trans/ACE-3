@@ -1,0 +1,36 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 9215,
+  "slice_count": 80,
+  "rows_examined": [{"start": 9200, "end": 9309}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [9215, 9216], "finding": "Baldora Charge near-critical / area-suppression priority for Ensign Barrel's access both preserved; 'Baldora Charge' term accepted per orchestrator ruling."},
+    {"rows": [9219, 9220], "finding": "Freezemouth self-address monologue ('this cursed self of mine... let's end it here') correctly kept as an unattributed plain statement; matches Berkt's later confession (9276-9292) in content only, no name inserted into the row itself."},
+    {"rows": [9221], "finding": "'We... didn't make it, did we' correctly mirrors source (私たち……だめでしたね, no named referent); left neutral, no speaker/subject invented."},
+    {"rows": [9242], "finding": "'Damn Berkt... to think he prepared this many' matches source exactly; Berkt named by source itself (not inferred)."},
+    {"rows": [9257, 9273], "finding": "'Clear a path for Barrel and Faye' / 'Send Barrel and Faye forward' both match source's explicit naming of both pilots; no third identity added."},
+    {"rows": [9259, 9260], "finding": "Source names only 輝 (Hikaru, given name, no surname) and 先輩 (senpai/senior). Target text 'Hikaru!' and 'senior' carries no surname or gender and is correct regardless of which Hikaru is meant, so no fix to the target is needed. However, the translator's supporting note is unsound: it identifies this as Hikaru Ichijyo (Macross) using 'adjacent finale content in resource 6281-6282', but resource 6281 is a separate, unrelated scene (confirmed by batch_09375's own footer note: row 9388 begins resource 6281, the Macross DYRL finale, out of this mission's scope). character_names_021.json in fact has two candidates: Hikaru Ichijyo (Macross, male) and Hikaru Amano (Nadesico, female, confirmed on the Nadesico wiki). Given this whole scene (resource 6280) is saturated with Nadesico context - the ship 'Nadesico' itself under attack, Harry/Hari Makibi addressed by name, a 'senpai' address matching Nadesico's cast dynamics - Hikaru Amano is at least as plausible as Hikaru Ichijyo, arguably more so. No identity is asserted in the translated text, so this is a correction to the review record only, not a target edit."},
+    {"rows": [9275, 9276, 9277, 9278, 9279, 9281, 9283, 9287, 9289, 9291, 9293], "finding": "Barrel/Berkt confrontation is untagged in source but internally self-identifying: 'Berkt' and 'Barrel' are each addressed by name within the exchange, and content (who claims 'you took everything from me', who says 'I carried the name Barrel') consistently sorts the two speakers. Attribution notes in the batch are inferential, not asserted as fact in the target text; agreed as reasonable and unforced. Row 9283's plural 貴様ら correctly rendered as 'all of you' rather than singular."},
+    {"rows": [9281], "finding": "'My hatred is directed at your very existence' adds 'your' where source only says 存在そのもの (existence itself). This is contextually settled, not invented: the entire exchange is direct address between Berkt and Barrel, and 9287-9288 explicitly confirm the hatred targets Barrel by name/face. Acceptable."},
+    {"rows": [9282, 9286], "finding": "Polite 'anata' (9282) and feminine sentence-ending の (9286) correctly left unassigned to either Barrel or Faye; translation does not force an identity the source doesn't settle."},
+    {"rows": [9287], "finding": "'Because I carried the name Barrel, I had to suffer' keeps Barrel and Berkt as distinct speaker identities per glossary guidance (char.barrel_orland note on parallel-world identities); no merge performed."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_09219", "dialogue_09220"], "issue": "Freezemouth monologue is unattributed in the source table; content matches Berkt's later self-hatred lines but this is inference from later context, not a source-side speaker tag.", "ruling": "Leave as-is; translation makes no attribution the source doesn't make."},
+    {"id": "dialogue_09221", "issue": "'We... didn't make it, did we' has no clear speaker/referent in this stored-table position.", "ruling": "Leave as-is; correctly neutral."},
+    {"ids": ["dialogue_09275", "dialogue_09276", "dialogue_09277", "dialogue_09278", "dialogue_09279", "dialogue_09281", "dialogue_09283", "dialogue_09287", "dialogue_09289", "dialogue_09291", "dialogue_09293"], "issue": "Barrel/Berkt confrontation rows are not individually speaker-tagged in the source.", "ruling": "Agree with translator's content-based attribution reasoning (see checked_decisions); no change needed."},
+    {"ids": ["dialogue_09282", "dialogue_09286"], "issue": "Two lines use polite 'anata'/feminine endings distinct from the Barrel/Berkt exchange's rougher register; may belong to Faye.", "ruling": "Correctly left unassigned; no identity to invent since it doesn't change the English wording."},
+    {"id": "dialogue_09287", "issue": "Berkt states he 'carried the name Barrel' and suffered for it - risk of conflating Berkt and Barrel as one identity.", "ruling": "Confirmed the translation keeps them as distinct speaker labels, matching the glossary's explicit instruction not to merge these parallel-world identities."},
+    {"id": "dialogue_09259", "issue": "Translator identified 'Hikaru' as Hikaru Ichijyo (Macross) using content from resource 6281-6282.", "ruling": "That justification is unsound - resource 6281 is a separate scene outside this mission (per batch_09375's own note). Given this scene's Nadesico-heavy context, Hikaru Amano (Nadesico, female) is at least as plausible a referent. The target text itself ('Hikaru!'/'senior') asserts no surname or gender, so no target edit is required; this is a correction to the supporting rationale only."}
+  ],
+  "validation": {
+    "controls": "Re-verified independently: all <...> commands in every row of the 80-row slice match the source in exact order (script-checked against tools/dialogue_corpus.py output; 0 mismatches across 80 rows).",
+    "fit": "Re-verified independently: all rows have visible (tag-stripped) text <=110 characters.",
+    "ascii": "Re-verified independently: visible text is ASCII-only except the fullwidth percent sign; no lowercase j/q found outside locked names.",
+    "format": "No newline-count discrepancies; JSON \\n escapes match source line breaks."
+  }
+}

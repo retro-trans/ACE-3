@@ -1,0 +1,40 @@
+{
+  "reviewer": "independent_meaning_review_mission17b_agent",
+  "slice_start": 7572,
+  "slice_count": 37,
+  "rows_examined": [
+    {
+      "start": 7557,
+      "end": 7623
+    }
+  ],
+  "rows_examined_count": 67,
+  "rows_in_slice": 37,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "ids": ["dialogue_07584", "dialogue_07585", "dialogue_07586", "dialogue_07587", "dialogue_07589", "dialogue_07598", "dialogue_07601"],
+      "finding": "color(4) name tags (Gainer, Sara, Renton, Barrel) and the pronouns referring to them ('he'/'him' for Gainer in 07585/07586) all check out against context; no name or gender invented beyond what the tag or established scene supplies."
+    },
+    {
+      "ids": ["dialogue_07593", "dialogue_07594", "dialogue_07595", "dialogue_07596", "dialogue_07597"],
+      "finding": "Agree with translator: the 'Tiffa... I...' / 'Did I make her angry' exchange and the bystanders' commentary that follows are not individually speaker-tagged in the corpus. Context (07498-07500's Garrod/Tiffa declaration) makes Garrod the likely speaker of 07593/07594, but no name was inserted into the visible text, which is the correct call -- the row itself carries no tag to confirm it."
+    },
+    {
+      "ids": ["dialogue_07599", "dialogue_07607"],
+      "finding": "Agree with translator: 07599 ('Is Renton sulking...') and 07607 ('Barrel... is it really okay for us to keep fighting?') address Renton and Barrel by color(4) tag, but the speaker of each row is untagged. 07604-07608's self-reflective 'I' lines (Nirvash's power, this is what war is) make Renton the strong contextual candidate for the speaker of 07607, consistent with the translator's note, but the row's visible text still supplies no name, which is correct."
+    },
+    {
+      "ids": ["dialogue_07604"],
+      "finding": "<book(61)>Nirvash<endbook()> book-link position preserved exactly relative to the surrounding sentence; matches encyclopedia_022.json's Nirvash entry."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<off()>/<ed()>/<color(4)>/<ce()>/<book(61)>/<endbook()> command sequences re-checked in exact order against a fresh `python tools/dialogue_corpus.py slice 7572 37 --context 15` read for all 37 rows via a throwaway console comparison; rows 7584-7608 correctly have no <ab()>/<off()> (matching source, no closing tag was added).",
+    "format": "Newline counts unchanged from source for all 37 rows.",
+    "fit": "Visible text (tags stripped) re-measured for all 37 rows: all <= 110 characters.",
+    "ascii": "ASCII-only confirmed for all 37 rows."
+  }
+}

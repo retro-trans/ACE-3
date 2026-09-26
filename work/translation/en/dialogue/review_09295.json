@@ -1,0 +1,32 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 9295,
+  "slice_count": 80,
+  "rows_examined": [{"start": 9280, "end": 9389}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [9303, 9304], "finding": "'There's a unit like this in the Ark series!?' / 'So, the original Gun Ark' correctly render アークシリーズ and ガンアーク; 'Ark series' accepted per orchestrator ruling, 'Gun Ark' matches unit_names_014_a.json's locked spelling."},
+    {"rows": [9311, 9330, 9342, 9343, 9344, 9345, 9346, 9348], "finding": "Baldora Drive shutdown/destruction sequence and the 'other world's Baldora Drive' follow-up are all consistent with each other and the source; no reversed meaning (Drive stopped = wormhole opening prevented, but Drive destroyed = no way home)."},
+    {"rows": [9296, 9321, 9323, 9324, 9325, 9331], "finding": "Berkt's death sequence (untagged lines) translated literally without inventing a speaker name or gender beyond what's grammatically required (e.g. 9323 'I won't let you go' requires an implicit 'you' as the verb's object, which is not an invented third-party identity)."},
+    {"rows": [9333], "finding": "Source name is visibly truncated mid-word (ベルク, cut off before -ト). Target 'Berk...' mirrors that truncation rather than silently completing the name to 'Berkt' - correct and preserves the source's own incompleteness."},
+    {"rows": [9358], "finding": "'We don't even know what Char might do' correctly keeps Char's name from the source (シャア) without adding unstated speculation about his actions."},
+    {"rows": [9364, 9368, 9369], "finding": "Norb / New Federation / Vodarac high priest naming confirmed against character_names_021.json and terms_028.json (high priest = locked kousou rendering); Norb captured by New Federation, not the reverse - direction of capture preserved correctly."},
+    {"rows": [9368], "finding": "Reworded to 'the Vodarac high priest, Norb' specifically to keep the book(83)/color(6) command order matching the source (book(83) before color(6)); verified command order in the row is exactly source order."},
+    {"rows": [], "finding": "No 大尉/艦長 rank lines appear in this slice; Captain-rank terminology checks are covered in review_09375.json."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_09296", "dialogue_09321", "dialogue_09323", "dialogue_09324", "dialogue_09325", "dialogue_09331"], "issue": "Several rows in the Berkt death/aftermath sequence are not speaker-tagged (formal watashi narration, a bitter aside, a farewell line).", "ruling": "Agree with translator: literal first-person/neutral-address renderings are correct; no name or gender supplied beyond what the grammar of each sentence requires."},
+    {"id": "dialogue_09333", "issue": "Source name is cut off mid-word.", "ruling": "Agree: rendering as a matching truncated 'Berk...' rather than restoring the full name is the right call since the source itself is incomplete at that point."},
+    {"id": "dialogue_09368", "issue": "Reworded to keep book(83)/color(6) command order matching source rather than a more literal 'a person named Norb, the Vodarac high priest.'", "ruling": "Confirmed correct: command order verified against source exactly; meaning (Norb is the Vodarac high priest) is unchanged."},
+    {"id": "dialogue_09303", "issue": "'Ark series' proposed as a plain descriptive term for the existing Gun Ark/Blood Ark/Grave Ark family, not previously locked.", "ruling": "ACCEPTED - orchestrator ruling for this task explicitly accepts 'Ark series.' No change needed."}
+  ],
+  "validation": {
+    "controls": "Re-verified independently: all <...> commands in every row of the 80-row slice match the source in exact order, including rows 9337-9374 which end with no closing <ab()>/<off()> in the source - left unclosed to match (script-checked; 0 mismatches across 80 rows).",
+    "fit": "Re-verified independently: all rows have visible (tag-stripped) text <=110 characters.",
+    "ascii": "Re-verified independently: visible text is ASCII-only except the fullwidth percent sign; no lowercase j/q found outside locked names.",
+    "format": "No newline-count discrepancies; JSON \\n escapes match source line breaks."
+  }
+}

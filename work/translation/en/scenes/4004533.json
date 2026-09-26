@@ -1,0 +1,288 @@
+{
+ "resource_id": 4004533,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 27,
+ "rows_examined": 27,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>. Is <color(5)>Berkt<ce()> really going to show up? I wonder if it was right to come back here...",
+   "notes": "",
+   "source_sha256": "ea6734fed23573960f43d70d22a6c7408a5a8876522e04a4efe1d5317c5a3946"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>All we can do is trust our own call.",
+   "notes": "",
+   "source_sha256": "2340ab8db16ac49360fe0515a54ce99880d44ba034800a89a2661840fc3e591f"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>I know that, but... Something's still nagging at me.",
+   "notes": "",
+   "source_sha256": "7e77cfb4e6616f6495489cffaa1ea646b6c0cb5f55a58cd61e7c1bf307e53047"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>If he knows we're after the <color(5)>Shin Dragon<ce()>, I'd think he'd be on guard, too.",
+   "notes": "",
+   "source_sha256": "9ede90b6cd81639ec8585324591e35129e57bf82aea2cf71515092500664833f"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>However he comes at us, what matters is the mission in front of us. Right now we need to focus on the <color(5)>Shin Dragon<ce()>.",
+   "notes": "",
+   "source_sha256": "fdb93650229a131ddbb0bc288e879540adcf047783ab5cc8861a8c868c62ed1f"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(19020,1)><speed(2)><color(5)>Saotome<ce()>... Because of the <color(5)>Shin Dragon<ce()> he built, so many of our comrades died.",
+   "notes": "",
+   "source_sha256": "3e52c97db33b23b460992a0bb575a8ee95441e051550d73eb20b409cd641ea01"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(19020,1)><speed(2)>I will never... forgive him.",
+   "notes": "",
+   "source_sha256": "f99e7e37e0342579ab3db426c2c2f7eaadc66161a3dd1835b59adf02b3a15a22"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(19030,1)><speed(2)>But man, can we really take down a monster like that?",
+   "notes": "",
+   "source_sha256": "bfbdd9874dd3769829d3712b3f73daa13094373d677490bfa8f5c8044a2d73ac"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(19020,1)><speed(2)>Dad used to say it. Once Getter has you in its grip, there's no escaping that fate.",
+   "notes": "'Oyaji' (dad/pop) - Kei's adoptive father is Benkei per glossary; rendered as 'Dad'.",
+   "source_sha256": "e947e480799fda3dfcc363eaf09e79e184955d1bd8856b960c0c8319d055facf"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(19020,1)><speed(2)>But he also said Getter gives you infinite power in return.",
+   "notes": "",
+   "source_sha256": "bd8189d2f70cbf3e4b284c0b9197d370f675414f5b31950170a119e622c2280c"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(19010,1)><speed(2)>That's right... have faith.",
+   "notes": "",
+   "source_sha256": "8c3a67c3174771f745409c892ac6e7bb97ab396cea44ba64fb09c9b4a4b46783"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(23010,1)><speed(2)>They say <color(4)>Hayato<ce()> used to be a legendary pilot... is that true?",
+   "notes": "'-san' on Hayato dropped, matching corpus convention (see 4004463 review).",
+   "source_sha256": "29a752a684170b96e767f5e92668226a9ac0e26a01944024af623d9a42269be7"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(21020,1)><speed(2)>Talk about the Getter Team, and I hear they were scary enough to make any monster turn tail and run.",
+   "notes": "",
+   "source_sha256": "42beccc84d26652e6005d9c6d93c0a5220098bac1a114aaee8ece37f0056bb3d"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(21020,1)><speed(2)><color(4)>Jin<ce()> was that Getter's pilot - as famous as <color(4)>Ryoma Nagare<ce()>, <color(4)>Benkei Kuruma<ce()>, and <color(4)>Musashi Tomoe<ce()>.",
+   "notes": "Compressed 'there was no one who didn't know his name' to 'as famous as' to fit the limit; '神' rendered 'Jin' (Hayato Jin's surname, used formally here alongside the other three legends).",
+   "source_sha256": "a72ae45048635d9d530dfb3f16ccd37f2f4ea3138d279adcfede705ad4644fdc"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(21020,1)><speed(2)>All of them fought through the Moon Invader War and came to be called heroes.",
+   "notes": "'Moon Invader War' per locked provisional name in encyclopedia_021_b.json.",
+   "source_sha256": "39490ee2871d297bf3e562239f087bcc839524fd4e4be770fcf6cdc11b04f10c"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(19050,1)><speed(2)>But 13 years ago, in the Deuteron Missile incident, <color(4)>Musashi<ce()> died and <color(4)>Ryoma<ce()> went missing.",
+   "notes": "'Deuteron Missile' per locked encyclopedia term.",
+   "source_sha256": "6a8e6750fa48e03900fa6986d1e515e4d0164319240ab80a2bd0b5854c4576ba"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(19020,1)><speed(2)><color(4)>Ryoma<ce()>... he still hasn't been found?",
+   "notes": "",
+   "source_sha256": "65758c3f000952f4aa3f667eb6cdd38fbf670555d12eb7e41c408c8cf2ff2cec"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(19050,1)><speed(2)>...Enough talk. Let's move out.",
+   "notes": "",
+   "source_sha256": "67a377d6cebcb52f023ce1d9080154a0370914be7673fe087a1bf665a5516bd3"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>... Is <color(5)>Berkt<ce()> bothering you?",
+   "notes": "",
+   "source_sha256": "5cbbfcf861f9bc90bbe8fc0fe355de53d61befe8a8042581a7a4c8c04f16c89d"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>Yeah... Why he knows me... I want to find that out.",
+   "notes": "",
+   "source_sha256": "f1dc811a9664f72354891d018beb7fb634bce4be2285028441ee7e93804898bb"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>More than that, he's trying to do something awful. I have to stop him regardless.",
+   "notes": "",
+   "source_sha256": "c7b915c4a968597c756ea3a39d8e3f4ffb7c20164df4e6445203a89ec41ac13a"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,2)><speed(2)>...You've toughened up a lot in such a short time. That's a boy for you.",
+   "notes": "'That's a boy for you' echoes the idiom shape used for the same line 'saizuga otoko no ko' in 4004433 1/23 (not copied, independently natural).",
+   "source_sha256": "17c0196673ba9b7625169cff23945beb93f1ff8b5dd2dc39f6ea149f987bc4c1"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(23020,1)><speed(2)>This kid again... <color(4)>Nirvash<ce()>'s emotions are running high.",
+   "notes": "'kono ko' (this child) = Eureka's pet name for Nirvash; kept as 'this kid'.",
+   "source_sha256": "90047eceed4dc340212a129f6ef9520022e026a944cb42f4d840817f8d66d224"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(23010,1)><speed(2)>Is <color(4)>Nirvash<ce()> sensing something from the <color(5)>Invaders<ce()>?",
+   "notes": "'Invaders' (Getter Robo antagonist race) per locked encyclopedia term; color(5) in source matches faction color.",
+   "source_sha256": "0acf6730856458db2bf0452b5cacaf118573a3b30357725133087076ef7e71e8"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(19020,1)><speed(2)>We have the power of Getter.",
+   "notes": "",
+   "source_sha256": "72363d3c25b557d6319a06235b884c9477753f140367538603595fc683d84586"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(19030,1)><speed(2)>Yeah... If the three of us combine our strength, Getter should be invincible.",
+   "notes": "",
+   "source_sha256": "1bde48acdc5457f5449440df26fb62852aafc6787846e80caa74ae66689e1a57"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(19010,1)><speed(2)>That's right, we unite as one. Getter will always answer us.",
+   "notes": "",
+   "source_sha256": "4cfde7dc39058e4b4f1f4e21bb3fd01b5bbf02ffd12687470aee93b267255b95"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 27,
+   "issue": "'Oyaji' (dad/pop) - Kei's adoptive father is Benkei per glossary; rendered as 'Dad'."
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "issue": "'-san' on Hayato dropped, matching corpus convention (see 4004463 review)."
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "issue": "Compressed 'there was no one who didn't know his name' to 'as famous as' to fit the limit; '神' rendered 'Jin' (Hayato Jin's surname, used formally here alongside the other three legends)."
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "issue": "'Moon Invader War' per locked provisional name in encyclopedia_021_b.json."
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "issue": "'Deuteron Missile' per locked encyclopedia term."
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "issue": "'That's a boy for you' echoes the idiom shape used for the same line 'saizuga otoko no ko' in 4004433 1/23 (not copied, independently natural)."
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "issue": "'kono ko' (this child) = Eureka's pet name for Nirvash; kept as 'this kid'."
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "issue": "'Invaders' (Getter Robo antagonist race) per locked encyclopedia term; color(5) in source matches faction color."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 27,
+  "rows_in_scene": 27,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/24-28 Kei/Gai/Go: 'he' for Saotome (0/24) and for Oyaji/Benkei (0/27-28) both resolve correctly per character_names_021 (Saotome male, Benkei male); 'Dad' for 'oyaji' fits Kei's tomboyish register. Accepted.",
+   "0/30 '-san' dropped on Hayato: consistent with corpus convention. Accepted.",
+   "0/32 'Jin' + compression of 'sono na wo shiranu mono wa nakatta' to 'as famous as': source lists Jin (surname of Hayato Jin, glossary entry 68) alongside Ryoma Nagare, Benkei Kuruma and Musashi Tomoe as the four Getter Team legends; compression keeps that meaning and the fit. Accepted.",
+   "0/33 'Moon Invader War' and 0/34 'Deuteron Missile': verified verbatim against the locked terms in encyclopedia_021_b.json (Musashi Tomoe / Deuteron Missile / Moon Invader War entries). Accepted.",
+   "1/22 'That's a boy for you' for 'saizuga otoko no ko': natural idiom, independently arrived at; Barrel is male per glossary so the line is correctly addressed. Accepted.",
+   "1/59 'kono ko' -> 'this kid' (Eureka's pet name for Nirvash) and 1/60 'Invaders' (locked Getter antagonist term, color(5) tag matches faction color): both accepted.",
+   "Checked every row's speaker id against speaker_lookup.py and character_names_021/glossary.json for gender and role; no mismatches found (e.g. 'he' correctly used for Saotome, Ryoma, Berkt; 'she'/gender-neutral correctly avoided elsewhere).",
+   "Scanned all 27 rows for lowercase j/q outside locked names: none found.",
+   "Re-ran the console check: all <...> commands identical and in source order, no newlines, ASCII only, all visible text <=120 chars, no bare %."
+  ],
+  "remaining_uncertainties": [
+   "1/19 'Is Berkt bothering you?' renders the same 'ki ni natteiru' construction that 4004543 0/28 renders as 'Is Berkt on your mind?'. Both are valid readings ('bothering'='weighing on your mind' is idiomatic here, not an added negative), but the two scenes now differ in phrasing for a near-identical line; left as a stylistic note, not fixed."
+  ]
+ }
+}

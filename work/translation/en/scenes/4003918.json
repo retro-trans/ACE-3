@@ -1,0 +1,82 @@
+{
+ "resource_id": 4003918,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(19050,1)><speed(2)><move(1,8,3)>Ahead, we're picking up a heat source<marker(44,8,3,0)> bigger than any we've seen before. It's probably <color(5)>Berkt<ce()>...<move(2,8,3)>",
+   "notes": "",
+   "source_sha256": "d869075a146c05eba13952215c2e06b1840e25412c69763340645a34b6409c74"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(19050,1)><speed(2)>Our final battle<move(1,8,13)> is to<marker(1,7,13,0)> eliminate<marker(1,9,13,0)> it.<move(2,8,13)>",
+   "notes": "",
+   "source_sha256": "466be5cdefabe51e4985d38accfa4425242da38fb0d63eae22df59b76da645f3"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(19050,1)><speed(2)>Everyone... I'm counting on you.",
+   "notes": "",
+   "source_sha256": "f321a1b46bf732c39e80e0dce5289fccc0a16f7cf0201cd9f45204d1a981e234"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17040,1)><speed(2)>Make sure you come back alive. That's part of the mission too.",
+   "notes": "",
+   "source_sha256": "43a6f5a22f2ae6b4c119d8d6b4e8fba00737dba91abb76b9ca8e2a8e6cb78065"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)>That's right. We should be able to do this.",
+   "notes": "",
+   "source_sha256": "925ae7119522a1843070fbae9315caab56510d90a6ee095704035e3dc91cb972"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>Please... be careful.",
+   "notes": "",
+   "source_sha256": "037ff8ecccf0d546fb259e435188b65744cd347775469834dcd2ee61cb9b6814"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 19,
+   "issue": "Speaker 19050 = Hayato Jin (speaker_lookup.py); 'Berkt' locked male per glossary.json/character_names_021.json."
+  },
+  {
+   "slot": 22,
+   "issue": "Speaker 17040 = Jamil Neate."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speakers: 19050 = Hayato Jin, 17040 = Jamil Neate, 12031 = Ruri Hoshino (verified via speaker_lookup.py).",
+   "'Berkt' matches locked spelling (character_names_021.json / glossary.json char.berkt).",
+   "Slot 19-24 meaning verified against source: unprecedented heat source ahead, probably Berkt, final battle is to eliminate it, come back alive (that's part of the mission too), we should be able to do this, please be careful.",
+   "Slot 20: source's <move(1,8,13)> sits between the words for 'last/final' and 'battle', splitting the adjective from its noun; draft places the tag after the whole compound 'Our final battle' instead, one word later than a literal split would give, because English can't cleanly separate 'final' from 'battle' the way the source does - accepted as an unavoidable consequence of natural word order, not a meaning error.",
+   "All commands identical in count/order vs source in every row (verified programmatically); ASCII-only, no newline, 128-char limit respected, no lowercase j/q, no bare %."
+  ],
+  "remaining_uncertainties": []
+ }
+}

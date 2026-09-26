@@ -1,0 +1,555 @@
+{
+ "resource_id": 4004503,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 56,
+ "rows_examined": 56,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17040,1)><speed(2)><color(4)>Tiffa<ce()>. Is something wrong?",
+   "notes": "",
+   "source_sha256": "343b91e57cb0a99aa135148a517eb85a004e0c4dee26fcfab44e4b0bc1b89710"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17070,1)><speed(2)>I feel a piercing will... A power intent on destroying everything.",
+   "notes": "",
+   "source_sha256": "84838bb02e29133a901f1d88f8cf41645826d970dd644c30b3200a73ad8910a1"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17070,1)><speed(2)>I have a bad feeling... Please be careful.",
+   "notes": "",
+   "source_sha256": "d2591967bcc7637062ad4cff12e94a22fa3a5a4ec4bbf93cc5ed5538bd57f09e"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17010,2)><speed(2)><color(4)>Tiffa<ce()>, stop worrying. I'll wipe that unease away myself.",
+   "notes": "",
+   "source_sha256": "84f78e85bc42b2fa2692a96aa1b4600cb0fb0afa515fc438181cad54d85c3932"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>. <color(5)>Berkt<ce()>... is he really over here?",
+   "notes": "",
+   "source_sha256": "8d1f31c3d2097c5c2fe710ea13a677f2752b4c1c6d2b5d3403d9f14a6c1b0f4a"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)>I can't say for certain. But... we can only trust our choice.",
+   "notes": "",
+   "source_sha256": "411506662dcf2029b0a9186861ee3b3f7292ee115eb3e162e421d2b46b5b2d6d"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1040,1)><speed(2)>He's out there about to do something crazy, and here we are doing this? Is that okay?",
+   "notes": "'aitsu' (he) = Berkt, per the immediately preceding exchange (0/24-25 naming Berkt).",
+   "source_sha256": "ed11bf68e72002a130d56a897035c11db0261fd13538c96dc8a72c4506718f6d"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(25010,1)><speed(2)>Right, right. Telling us to go poke some weird thing without even explaining why...",
+   "notes": "",
+   "source_sha256": "ca9ffb5ad33e075fb5decf0d14543472532ae52b7ce00b4b4556c63f47605b1a"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(23040,1)><speed(2)>Right now, I need you all to cooperate. <color(4)>Holland<ce()>'s not wrong about this.",
+   "notes": "",
+   "source_sha256": "62ab9f67132844b2de368d30046eb7e177b20351f9fcf87d23e991cb2c0883cc"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(23010,1)><speed(2)>If <color(4)>Holland<ce()>'s saying that much... I'm curious too.",
+   "notes": "",
+   "source_sha256": "53792c12a9464595570ddcd3f3fbf08e60e2614c12d578a1cfadddc62edc8f4b"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(23010,1)><speed(2)>Coralians... unknown life-forms, huh. I wonder what they're really like.",
+   "notes": "Casual reference to Coralians as a species ('unknown existence'); not the locked archive title 'unidentified life-forms', so rendered as plain 'unknown life-forms'.",
+   "source_sha256": "565640a0986ec4e0b4ab5fc4a4971b7148ec97ae68ece0edef9df5c320973a0b"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(23020,1)><speed(2)><color(4)>Renton<ce()>... could you stay silent for a bit? My head hurts, and it's hard to concentrate.",
+   "notes": "",
+   "source_sha256": "55733afda3aa9569e7a845bbaceb77012c84477f39bd0a48665fa3d37a7af41c"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(23010,1)><speed(2)><color(4)>Eureka<ce()>... maybe you should skip this sortie and rest instead? It's not worth pushing yourself that far...",
+   "notes": "",
+   "source_sha256": "880ecf76c763f08443305048ecb8bf6ae688843290114bbd6b8cf9e58159dfbd"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(23020,1)><speed(2)>I can't do that. Because it's what <color(4)>Holland<ce()> wants.",
+   "notes": "",
+   "source_sha256": "ff4211d430ed22be2b8e6afef92754f543ae78ce38f690650678d59f3a9b3567"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(23030,1)><speed(2)><color(4)>Renton<ce()>. Once we're inside that thing, you're the only one we can count on.",
+   "notes": "",
+   "source_sha256": "5b2f834231e094001b9a2fa73da578b57d95f72b45d49bc11c0c42e199af89e7"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(23030,1)><speed(2)>If anything happens to <color(4)>Eureka<ce()>, I'll kill you. So do it right.",
+   "notes": "",
+   "source_sha256": "192a036ee73e8d7acdf2850abf1b4e386034823e38d9c231897f5787751dbaa9"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(23010,1)><speed(2)>Y-yes!",
+   "notes": "",
+   "source_sha256": "257f9f6b7192069ab0d2d22273c63b219b9d05ace5d4e35fdf47d45a29ec12bd"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(1060,1)><speed(2)>Still, you've turned pretty positive, haven't you.",
+   "notes": "",
+   "source_sha256": "cbae747ba5c332fd47f63f120b04d5dfd9294259190e5e08e7447961caa59ae7"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(1040,1)><speed(2)>Yeah... I still don't like it, but given the situation, well...",
+   "notes": "",
+   "source_sha256": "b3a6094f295747ef483482f00c129149c46517a505e980f45f9a1b485584d1eb"
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(1060,1)><speed(2)>I've been thinking about it since we got back... Do you still want to back out?",
+   "notes": "",
+   "source_sha256": "4fd60be0ad0158889c463b72999f2cec410549e7338af803fcfe358a150cc5cc"
+  },
+  {
+   "table": 0,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(1040,1)><speed(2)>Huh? Why bring that up now, all of a sudden?",
+   "notes": "",
+   "source_sha256": "b7744a2a55215050a8387adb8148f7e9059ae049463e803db8b5febb0cb134c0"
+  },
+  {
+   "table": 0,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(1060,1)><speed(2)>The fighting's only going to get harder from here. I want to make sure, that's all.",
+   "notes": "",
+   "source_sha256": "2573f9e3c9fb23053fd4aee2dff82906d3f9cfb5bad3bd89890a7fbc8052291b"
+  },
+  {
+   "table": 0,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<operator(1040,1)><speed(2)>...I've been thinking about that too.",
+   "notes": "",
+   "source_sha256": "e6ec5a27c4154f9f60059d51283c71b4edbd30f8b150425e9533a1506f254581"
+  },
+  {
+   "table": 0,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<operator(1040,1)><speed(2)>But backing out doesn't mean I'd be safe, and everyone else is giving it their all... I can't bail at a time like this.",
+   "notes": "",
+   "source_sha256": "39f045a4695db176b6508edf9a3e309874ddeb97bed14d21bac4cff0080c47fe"
+  },
+  {
+   "table": 0,
+   "slot": 43,
+   "text_id": 44,
+   "en": "<operator(1040,1)><speed(2)>If there's something I can actually do... I want to give it a try.",
+   "notes": "",
+   "source_sha256": "c2a53faa4f500ad68d6a0afdd44ba811e51c0bf5efe1909141ecc9005b7fef92"
+  },
+  {
+   "table": 0,
+   "slot": 44,
+   "text_id": 45,
+   "en": "<operator(1060,2)><speed(2)>...Thanks. Hearing you say that honestly puts me at ease.",
+   "notes": "",
+   "source_sha256": "066f45de1e8f51f62bfb7df439de2b9787470ede6bf6492cc96bc519099029a6"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,2)><speed(2)>You were unreliable at first, but I trust you now. So do your best out there.",
+   "notes": "",
+   "source_sha256": "8a899bdfe3541ee5f74cbd010a88843e69389fcffe27c62111f674cce56c1c96"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,2)><speed(2)>Yeah. Thanks.",
+   "notes": "",
+   "source_sha256": "e041519ca79df787600c23b7a87519fcada32ec78ba261d40667ea4cbec0ad4b"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(12140,1)><speed(2)>I wonder what Coralians even are.",
+   "notes": "",
+   "source_sha256": "a2efaa3401a19118a15e9d2f891f3bc4e1b4b520e15a7e390a48911d09c0b452"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>This world's got too many mysteries.",
+   "notes": "",
+   "source_sha256": "a09bf90bf08212596023b584851371b651d8065604a1752be58c6f3d2dcf7960"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(12140,1)><speed(2)>Is it really okay for us to be doing this...?",
+   "notes": "",
+   "source_sha256": "ace2030bc4b67986f9337c65989a489d33d51391367eea96866fe4f2b2e51612"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(12031,1)><speed(2)>They are our comrades. Let's trust them.",
+   "notes": "",
+   "source_sha256": "c5f10275f165bc4910f9c1c45430574c5a1a4bb66b3b60b2ba475f2b10c40efb"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,1)><speed(2)>Coralians... what in the world are they, anyway.",
+   "notes": "",
+   "source_sha256": "0abb1d49140c49cb36097dc06d32b1442b9949d3fdd919446c9f78e079904105"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,1)><speed(2)>It's making my head spin.",
+   "notes": "",
+   "source_sha256": "b00100a84adf3fbab0a148d6b6fec949fde2195c813f3430c82ad9d2571c73d1"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10010,1)><speed(2)>Fighting without even knowing the purpose is a tough ask, huh...",
+   "notes": "",
+   "source_sha256": "0556ed1e7338aae609a949b578c20af51e5527f5e1090366fd033920e3e8dc64"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(12031,1)><speed(2)>But knowing can also drive you into a harder position.",
+   "notes": "",
+   "source_sha256": "850eae50bea615bbfcf736492dbbc6d05de890ffa25581f2c050cd1a8ae04438"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(12140,1)><speed(2)><color(4)>Holland<ce()> does seem that way, doesn't he. Like he's carrying something and struggling with it...",
+   "notes": "",
+   "source_sha256": "093859a76500ac01d7e2543ca9e08929eae0c93ab8c7848976c382e8b170b627"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(25010,1)><speed(2)><color(4)>Holland<ce()>, what's inside that cloud?",
+   "notes": "",
+   "source_sha256": "5656693e4cd41b8441eeb49016869d9e862c12fe4732e718567949ff2b03e083"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(23030,1)><speed(2)>Who knows... No one's ever gone in.",
+   "notes": "",
+   "source_sha256": "5b319c3a6e88865bc0e67b467968bac33c7ffab59fd5b82e4ecd91544e64b202"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(25010,1)><speed(2)>Want me to go in and find out?",
+   "notes": "",
+   "source_sha256": "9561832ccf35dd2a7e5d4b8772a918af8e8bf31022904a53bbf2d4de0d58e8cb"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(23030,1)><speed(2)>...That's not gonna happen.",
+   "notes": "",
+   "source_sha256": "4ba319d41a475a8f8efaafb11603d7d060606d6bdb70314a7a8192849b87cb63"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(17010,1)><speed(2)>I wanna get this operation over with, fast.",
+   "notes": "",
+   "source_sha256": "9181c73eccb3d814547582ef2a1cc7eec436eaeeebc57b50ba1421f7391cbef1"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17070,1)><speed(2)><color(4)>Garrod<ce()>... don't rush.",
+   "notes": "",
+   "source_sha256": "ebadba42867d4f8d42c39fa8d884d7097c2afb16f60c655847449a635fa844cd"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(17010,1)><speed(2)>I... want the power to protect <color(4)>Tiffa<ce()>. Strength that won't lose to Newtypes... no, strength to beat them.",
+   "notes": "",
+   "source_sha256": "d2f1da876c965cc6d781e57172a3f1c1f882dfb447b96936f3c95f7cd0c7addb"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(5010,1)><speed(2)><color(4)>Garrod<ce()>, to hold power is to hold sorrow with it. The price of too much power always ends in tragedy.",
+   "notes": "",
+   "source_sha256": "3d0caac5051e465374998060fce30531d44871c1c7ac5efbd5351b34a381cf73"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(17040,1)><speed(2)>We fight so that it never happens again.",
+   "notes": "",
+   "source_sha256": "95dcdbf50cfae8a3c9b64689e3f795861e06f72bea121324ee23bbb8919ef36d"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(17040,1)><speed(2)>Besides, true strength exists only within each person's heart...",
+   "notes": "",
+   "source_sha256": "8ff994ea033651d8925244ec66bdc881e7ed6fb012d87b18ef3f6794abff3393"
+  },
+  {
+   "table": 1,
+   "slot": 185,
+   "text_id": 186,
+   "en": "<operator(17010,1)><speed(2)>Shut up! I'm gonna become stronger than anyone. I want to believe in my own strength.",
+   "notes": "",
+   "source_sha256": "4186cc511a6d0bd1f1284e9cb8b916b4d222e95a947d8aba99f39691d6801eee"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(21010,1)><speed(2)><color(4)>Gain<ce()>... Is it really okay for us to be doing this? When the whole world's in danger...",
+   "notes": "",
+   "source_sha256": "90eb7481ecc49dcafb3cbeaf36c85c0fa65a6dd6c823c32ab7893679d47bb75e"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(21020,1)><speed(2)>That's exactly why this fight is necessary.",
+   "notes": "",
+   "source_sha256": "cdc32f7499dac77e154f44c34a5ab82a360949cafd3ba826ecda52da2ce1bfa8"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(21010,1)><speed(2)>I can't fight without a reason!",
+   "notes": "",
+   "source_sha256": "9e4e7fa6f3fe761f3f7dc0f59bfd6adc0f7ac0f089242dc6dbbbe22e49e79ebd"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(21020,1)><speed(2)><color(4)>Holland<ce()>'s not a man who can't see the situation. Give him that much credit.",
+   "notes": "",
+   "source_sha256": "3bf0b15e61c73595a669d6bc9973ce407e9a207c33b2043d0a6d8368ead462c5"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(21030,1)><speed(2)>That's right. Don't be so selfish, <color(4)>Gainer<ce()>.",
+   "notes": "'-kun' on Gainer dropped, matching the corpus convention for honorifics on locked names.",
+   "source_sha256": "1ae89a7640b0beddc09f556c684d17010557dd1c7dae67bce5d6fe8c25d515c1"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(19010,1)><speed(2)>Getter is calling out to whatever's beyond that cloud...",
+   "notes": "",
+   "source_sha256": "c761593a0de2b08882151af8da7394df73ce9dbd156b5507c381bcc9b20cd837"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(19020,1)><speed(2)>What's that supposed to mean? What are you talking about... <color(4)>Go<ce()>?",
+   "notes": "",
+   "source_sha256": "b21fde855c5c7d1a5467862f9b7380339db0d5988db5c014ba4934b2d5316f0e"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(19010,1)><speed(2)>I don't know. But... that's what Getter is telling me.",
+   "notes": "",
+   "source_sha256": "bcba9cd5d1ea03b86825539f868aaa706a47aabce20619932952d22e0b2a91c6"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 25,
+   "issue": "'aitsu' (he) = Berkt, per the immediately preceding exchange (0/24-25 naming Berkt)."
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "issue": "Casual reference to Coralians as a species ('unknown existence'); not the locked archive title 'unidentified life-forms', so rendered as plain 'unknown life-forms'."
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "issue": "'-kun' on Gainer dropped, matching the corpus convention for honorifics on locked names."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 56,
+  "rows_in_scene": 56,
+  "meaning_fixes": [
+   {
+    "table": 0,
+    "slot": 22,
+    "before": "Tiffa, quit worrying. I'll wipe that unease away myself.",
+    "after": "Tiffa, stop worrying. I'll wipe that unease away myself.",
+    "reason": "Font constraint: no lowercase j/q outside locked names. 'quit' replaced with 'stop'; meaning unchanged."
+   },
+   {
+    "table": 0,
+    "slot": 24,
+    "before": "I can't say for certain. But... we just have to trust our choice.",
+    "after": "I can't say for certain. But... we can only trust our choice.",
+    "reason": "Font constraint (lowercase j/q): 'just' removed; rephrased to keep the same 'no choice but to' meaning."
+   },
+   {
+    "table": 0,
+    "slot": 30,
+    "before": "Renton... could you be quiet for a bit? My head hurts, and it's hard to concentrate.",
+    "after": "Renton... could you stay silent for a bit? My head hurts, and it's hard to concentrate.",
+    "reason": "Font constraint (lowercase j/q): 'quiet' replaced with 'silent'; meaning unchanged."
+   },
+   {
+    "table": 0,
+    "slot": 38,
+    "before": "I've been thinking about it since we got back... Do you still want to quit?",
+    "after": "I've been thinking about it since we got back... Do you still want to back out?",
+    "reason": "Font constraint (lowercase j/q): 'quit' replaced with 'back out', kept consistent with the matching fix at slot 42."
+   },
+   {
+    "table": 0,
+    "slot": 42,
+    "before": "But quitting doesn't mean I'd be safe, and everyone else is giving it their all... I can't bail at a time like this.",
+    "after": "But backing out doesn't mean I'd be safe, and everyone else is giving it their all... I can't bail at a time like this.",
+    "reason": "Font constraint (lowercase j/q): 'quitting' replaced with 'backing out', consistent with slot 38's 'back out'."
+   },
+   {
+    "table": 1,
+    "slot": 101,
+    "before": "Fighting without even knowing the objective is a tough ask, huh...",
+    "after": "Fighting without even knowing the purpose is a tough ask, huh...",
+    "reason": "Font constraint (lowercase j/q): 'objective' replaced with 'purpose'; matches source '目的'."
+   },
+   {
+    "table": 1,
+    "slot": 179,
+    "before": "I wanna get this operation over with, quick.",
+    "after": "I wanna get this operation over with, fast.",
+    "reason": "Font constraint (lowercase j/q): 'quick' replaced with 'fast'; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 181,
+    "before": "I... want the power to protect Tiffa. Strength that won't lose to a Newtype... no, strength to beat one.",
+    "after": "I... want the power to protect Tiffa. Strength that won't lose to Newtypes... no, strength to beat them.",
+    "reason": "Source 'ニュータイプにも負けない' refers to Newtypes as a general category (Garrod wants strength that doesn't lose to Newtypes as a class of beings), not one specific individual; 'a Newtype... one' wrongly singularized it. Made plural to match the generic sense used elsewhere in the corpus (e.g. 4004523 1/61 'tragedy... follows Newtypes around')."
+   },
+   {
+    "table": 1,
+    "slot": 221,
+    "before": "I can't just fight without a reason!",
+    "after": "I can't fight without a reason!",
+    "reason": "Font constraint (lowercase j/q): dropped 'just', which was also an emphasis word not present in the source '理由もなく戦えませんよ！'."
+   }
+  ],
+  "checked_decisions": [
+   "0/29 'unknown life-forms': source is '未知の存在' (unknown existence), not the locked archive term '未確認生命体'; per the orchestrator's extra ruling, kept as plain 'unknown life-forms', not upgraded to 'unidentified life-forms'. The other Coralian mentions in this scene (1/59, 1/99) have no qualifier in source and are rendered as plain 'Coralians', consistent.",
+   "0/25 'aitsu' (he) = Berkt, confirmed by the immediately preceding exchange (0/23-24 naming Berkt); 'Berkt' spelling matches character_names_021.json.",
+   "1/223 '-kun' honorific on Gainer dropped, matching corpus convention for honorifics on locked names.",
+   "Speaker identities for all operator ids in the scene verified via speaker_lookup.py against character_names_021.json.",
+   "All <...> command sequences verified identical and in the same order as source for every row (checked programmatically against tools/scene_source.py output)."
+  ],
+  "remaining_uncertainties": [
+   "0/33 'Once we're inside that thing, you're the only one we can count on': source 'あの中に入っちまったら' does not settle whether 'we' (the team) or 'you' (Renton alone) is the one entering; kept as translator's 'we're inside', which reads naturally and does not contradict the source."
+  ]
+ }
+}

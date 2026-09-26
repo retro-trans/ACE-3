@@ -1,0 +1,36 @@
+{
+  "reviewer":"independent_translate_dialogue_81_agent",
+  "slice_start":4202,
+  "slice_count":80,
+  "rows_examined":[{"start":4187,"end":4296}],
+  "rows_examined_count":110,
+  "rows_in_slice":80,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[
+    {"id":"dialogue_04242","before":"How could I stay quiet after hearing that?!","after":"How could I stay silent after hearing that?!","reason":"Not a meaning change; 'quiet' contains the lowercase q the game font cannot render at native size (see project pitfall notes) and 'quiet' is not a locked name, so it was swapped for the synonym 'silent' with identical meaning."}
+  ],
+  "checked_decisions":[
+    {"rows":[4238,4256,4271],"finding":"'L System' (no hyphen) used per orchestrator ruling and encyclopedia_021_a.json's wiki-form note; correct and consistent across the slice."},
+    {"rows":[4258],"finding":"'New Federation' for shinrenpou (新連邦) matches terms_028.json ruling and book(38) usage already locked elsewhere in the corpus."},
+    {"rows":[4231],"finding":"艦長 rendered 'Captain' for the Nadesico's captain (Ruri Hoshino), matching the orchestrator ruling that both Ruri and Jamil's ship-captain rank are 'Captain'."},
+    {"rows":[4203,4217],"finding":"'Flail unit' for フレイル部隊 kept as the established provisional rendering (proposals_dialogue_00696.json); not re-litigated."},
+    {"rows":[4206,4212,4247,4270],"finding":"'Rutil' kept as the corpus-wide display name for ルチル, consistent with terms_028/encyclopedia_021_a usage, even though character_names_021.json's wiki research lists the fuller 'Lucille Liliant' at medium confidence; this is an existing centralized naming convention, not something to overturn row-by-row."},
+    {"rows":[4240],"finding":"'some kid' (dokka no bouya) correctly left unidentified; no name or gender supplied for the unconfirmed referent, per BASE_RULES."},
+    {"rows":[4256,4262,4268,4269,4271],"finding":"Speaker left as an unspecified Frost brother; the two brothers are not distinguished from each other until named in the next slice (4300-4301), so no fix needed."},
+    {"rows":[4265,4266,4267],"finding":"Speaker sensing 'strong hatred' left unattributed (likely Tiffa, but not textually confirmed in this range); correctly not asserted."},
+    {"rows":[4213],"finding":"'大船に乗ったつもりでいてくれよ' (idiom, lit. 'consider yourself aboard a big ship') rendered as 'trust me completely'; meaning preserved, no literal ship invented."}
+  ],
+  "uncertainties":[
+    {"rows":[4202,4205,4236,4237],"issue":"Standard bridge/HUD alert rows with no speaker identity asserted; this is consistent with the established operator-voice convention from earlier missions, not a defect."},
+    {"rows":[4240],"issue":"'a certain kid' (dokka no bouya) is not identified anywhere in the adjacent rows; plausibly mocks Garrod but nothing confirms it. Left unresolved, matching the translator's own flag."},
+    {"rows":[4238,4271],"issue":"L System vs L-System hyphenation: confirmed resolved by orchestrator ruling ('L System' without hyphen is accepted). No further action needed; not left as an open question."},
+    {"rows":[4256,4262,4268,4269,4271],"issue":"Frost brothers (Shagia/Olba) not distinguished from each other in this stretch; both are only named later at 4300-4301 in the next slice. No name can be safely assigned to either specific line here."},
+    {"rows":[4265,4266,4267],"issue":"Speaker sensing hatred from the Frost brothers is not named; likely Tiffa given her Newtype role, but the text itself does not confirm it, so the line stays unattributed."}
+  ],
+  "validation":{
+    "controls":"All <...> commands re-checked against the Japanese source in exact order for all 80 rows, including rows with no leading <op()> (continuation boxes: 4216) and rows with no trailing <ab()>/<ed()> (4215, 4260, 4265, 4266, 4280).",
+    "format":"Newline counts verified to match the source line-for-line for every row (throwaway script, not retained). ASCII-only confirmed except the one row using the locked <color()> tags; no bare %. One lowercase-q instance found and fixed (dialogue_04242); no other stray j/q outside locked names (Jamil, Gainer, Garrod, Faye/Barrel not present in this slice).",
+    "fit":"All visible strings (tags stripped) re-measured at <= 110 characters per line; no row needed shortening.",
+    "runtime":"Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

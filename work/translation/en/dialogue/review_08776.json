@@ -1,0 +1,40 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 8776,
+  "slice_count": 80,
+  "rows_examined": [{"start": 8761, "end": 8870}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_08792",
+      "before": "<sp(20)>If Lord Kizz hadn't told me to,\nI'd never team up with someone like you.<ab(300)><ed()>",
+      "after": "<sp(20)>If Lord Kids hadn't told me to,\nI'd never team up with someone like you.<ab(300)><ed()>",
+      "reason": "Orchestrator ruling: the Siberian Railway president's name is 'Kids Munt' per King Gainer Wikipedia, not 'Kizz Munt'. Corrected 'Lord Kizz' -> 'Lord Kids', consistent with batch_08696."
+    },
+    {
+      "id": "dialogue_08825",
+      "before": "<op()><sp(20)>I can't defy Lord Kizz!<ab(300)><ed()>",
+      "after": "<op()><sp(20)>I can't defy Lord Kids!<ab(300)><ed()>",
+      "reason": "Same Kizz -> Kids name correction as dialogue_08792."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [8781, 8836], "finding": "Battle banter between Cynthia Lane ('Queen') and a second unnamed combatant (contextually Anemone, opposite the Siberian Railway pilots) is not attributed row-by-row in the source. Cross-checked speech-ending particles (Cynthia's feminine わ/のよ/よ vs. the more clipped, sometimes masculine-toned だろ lines) and the surrounding rows (8799-8801 'Anemone!'; 8839 'Retreat, Anemone!'); draft leaves rows unattributed in the visible text throughout, matching the source's own lack of speaker tags. No participant name or gender was invented beyond what a row itself states."},
+    {"id": "dialogue_08817", "finding": "'Aw geez, she's broken.' - source has no explicit subject ('kowarechatta yo'), but the referent is one of the two already-established female participants (Cynthia or Anemone) reacting in the preceding exchange, so 'she' does not invent an unknown person's gender. No fix needed."},
+    {"rows": [8848, 8849, 8850], "finding": "Dominic is addressed by name in row 8849 ('Dominic, bring a replacement'), but row 8850's reply uses the source's own explicit first-person marker (watashi ni wa), so 'I... can't do that!' is licensed by the source regardless of whether the reply is confirmed as Dominic's line."}
+  ],
+  "uncertainties": [
+    {"rows": [8781, 8782, 8783, 8784, 8785, 8786, 8787, 8788, 8789, 8790, 8796, 8802, 8803, 8804, 8805, 8806, 8807, 8808, 8809, 8819, 8820, 8821, 8829, 8830, 8831, 8832, 8833, 8834, 8835, 8836], "issue": "Ruled: unattributed battle banter correctly left unattributed; no invented participant. See checked_decisions."},
+    {"id": "dialogue_08796", "issue": "Ruled: 'Everyone's amazing, aren't they.' kept as a neutral, unattributed observation; correct, matches source."},
+    {"id": "dialogue_08827", "issue": "Ruled: 'theEND' spelling confirmed against unit_names_014_b.json ('Nirvash theEND'); correct as drafted."},
+    {"rows": [8848, 8849, 8850], "issue": "Ruled: draft's 'I... can't do that!' is licensed by the source's own explicit subject marker regardless of speaker-tag uncertainty. See checked_decisions."}
+  ],
+  "validation": {
+    "commands": "All 80 rows' angle-bracket commands re-checked against tools/dialogue_corpus.py output for this slice (8776-8855); identical and in source order.",
+    "format": "Newline count per row matches the source exactly for all 80 rows.",
+    "fit": "Visible text (tags stripped) checked <= 110 characters for every row.",
+    "ascii": "All rows ASCII-only; no stray non-ASCII characters found."
+  }
+}

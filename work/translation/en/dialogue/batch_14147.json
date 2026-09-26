@@ -1,0 +1,540 @@
+{
+  "slice_start": 14147,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      14132,
+      14241
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_14167"
+      ],
+      "note": "Source uses plural 'oretachi' (we) here though this pilot's own address to Luxe at dialogue_14208 uses 'boku' (I, gentle register); kept pronoun-neutral English rather than forcing a consistent register the source itself does not keep."
+    },
+    {
+      "ids": [
+        "dialogue_14169",
+        "dialogue_14208"
+      ],
+      "note": "Luxe Sakomizu spelling per work/glossary/character_names_021.json (confidence: medium, not yet promoted to glossary.json's locked entries)."
+    },
+    {
+      "ids": [
+        "dialogue_14171",
+        "dialogue_14202",
+        "dialogue_14216",
+        "dialogue_14217",
+        "dialogue_14219",
+        "dialogue_14220",
+        "dialogue_14232",
+        "dialogue_14248"
+      ],
+      "note": "Rows where the hard byte budget forced visible compression beyond simple abbreviation; core claims were kept but some repetition/secondary clauses were dropped (see per-row notes)."
+    },
+    {
+      "ids": [
+        "dialogue_14198"
+      ],
+      "note": "Aura Power (locked) with 'no ordinary' as an interpretive rendering of 'nami ja nai' (not average); no new claim added."
+    },
+    {
+      "ids": [
+        "dialogue_14221"
+      ],
+      "note": "New term 'Aura Energy' (oora enajii) is katakana-distinct from the already-locked 'Aura Power' (oora-ryoku); proposed in batch_14147_glossary_proposals.json rather than assumed synonymous. 'Kachu' (in the midst of) rendered 'in the heat of battle' - flagged as an interpretive call on an unlocked term."
+    }
+  ],
+  "rows": [
+    {
+      "id": "dialogue_14147",
+      "target": "<op()><sp(20)>So I take him down?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14148",
+      "target": "<op()><sp(20)>Fine, I'll do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14149",
+      "target": "<op()><sp(20)>We've got an Aura Battler too!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Aura Battler locked per prior corpus proposal (batch_02948)."
+    },
+    {
+      "id": "dialogue_14150",
+      "target": "<op()><sp(20)>So the attacker's there?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14151",
+      "target": "<op()><sp(20)>That guy attacked first!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14152",
+      "target": "<op()><sp(20)>What now?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14153",
+      "target": "<op()><sp(20)>This is like a war!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14154",
+      "target": "<op()><sp(20)>You punks!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14155",
+      "target": "<op()><sp(20)>I'll do what I can!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14156",
+      "target": "<op()><sp(20)>Take this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14157",
+      "target": "<op()><sp(20)>Now I can go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14158",
+      "target": "<op()><sp(20)>Power exists to build the future!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14159",
+      "target": "<op()><sp(20)>I'll end this fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14160",
+      "target": "<op()><sp(20)>No openings here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14161",
+      "target": "<op()><sp(20)>Different moves!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14162",
+      "target": "<op()><sp(20)>Bait an opening?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14163",
+      "target": "<op()><sp(20)>Careless!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14164",
+      "target": "<op()><sp(20)>He's attacking now?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14165",
+      "target": "<op()><sp(20)>Wh-what?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14166",
+      "target": "<op()><sp(20)>Why's he over there?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14167",
+      "target": "<op()><sp(20)>We can still fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source uses 'oretachi' though this pilot elsewhere uses 'boku' (14208); kept pronoun-neutral 'We' to avoid overcommitting to a register the corpus itself is inconsistent about."
+    },
+    {
+      "id": "dialogue_14168",
+      "target": "<op()><sp(20)>No good, not like this!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14169",
+      "target": "<op()><sp(20)>Luxe...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Luxe Sakomizu spelling per character_names_021.json (confidence medium, not yet locked in glossary.json)."
+    },
+    {
+      "id": "dialogue_14170",
+      "target": "<op()><sp(20)>Nanajin's ready!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14171",
+      "target": "<op()><sp(20)>Enemy?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Heavily compressed for the tight byte budget; 'here'/'has come' dropped, core alarm ('Enemy?!') kept."
+    },
+    {
+      "id": "dialogue_14172",
+      "target": "<op()><sp(20)>Nanajin can fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14173",
+      "target": "<op()><sp(20)>Aura Power's fully charged!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14174",
+      "target": "<op()><sp(20)>This power... I can win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14175",
+      "target": "<op()><sp(20)>I have to stop this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14176",
+      "target": "<op()><sp(20)>I can't let anyone get hurt!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14177",
+      "target": "<op()><sp(20)>I'm still okay!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14178",
+      "target": "<op()><sp(20)>This much is no problem!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14179",
+      "target": "<op()><sp(20)>Let's keep going!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14180",
+      "target": "<op()><sp(20)>Still more!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14181",
+      "target": "<op()><sp(20)>Aura Power's still here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14182",
+      "target": "<op()><sp(20)>Cool your head!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14183",
+      "target": "<op()><sp(20)>Don't lose control!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14184",
+      "target": "<op()><sp(20)>That was careless!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14185",
+      "target": "<op()><sp(20)>That went well!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14186",
+      "target": "<op()><sp(20)>You did it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14187",
+      "target": "<op()><sp(20)>Well done!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14188",
+      "target": "<op()><sp(20)>Keep it up like that!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14189",
+      "target": "<op()><sp(20)>Amazing skill!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14190",
+      "target": "<op()><sp(20)>Here?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14191",
+      "target": "<op()><sp(20)>Still?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14192",
+      "target": "<op()><sp(20)>One's acting alone?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14193",
+      "target": "<op()><sp(20)>So many...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14194",
+      "target": "<op()><sp(20)>More enemies?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14195",
+      "target": "<op()><sp(20)>Not now, of all times...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14196",
+      "target": "<op()><sp(20)>No end!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14197",
+      "target": "<op()><sp(20)>Who are they?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14198",
+      "target": "<op()><sp(20)>No ordinary Aura Power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Aura Power locked term; 'no ordinary' is an interpretive rendering of 'nami ja nai' (not average/common), not an invented claim."
+    },
+    {
+      "id": "dialogue_14199",
+      "target": "<op()><sp(20)>One of these exists?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14200",
+      "target": "<op()><sp(20)>Still more?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14201",
+      "target": "<op()><sp(20)>So very strong!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14202",
+      "target": "<op()><sp(20)>Beat this foe, or the fight never ends!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit budget; 'this enemy' rendered 'this foe', structure kept (must beat them or the fight continues)."
+    },
+    {
+      "id": "dialogue_14203",
+      "target": "<op()><sp(20)>Nanajin, returning!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14204",
+      "target": "<op()><sp(20)>Looks like it's over.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14205",
+      "target": "<op()><sp(20)>Is everyone okay?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14206",
+      "target": "<op()><sp(20)>Went well.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14207",
+      "target": "<op()><sp(20)>Returning as is!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14208",
+      "target": "<op()><sp(20)>I'm fine, Luxe.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14209",
+      "target": "<op()><sp(20)>Good work, all.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14210",
+      "target": "<op()><sp(20)>Stay alert!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14211",
+      "target": "<op()><sp(20)>Still more!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14212",
+      "target": "<op()><sp(20)>My chance!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14213",
+      "target": "<op()><sp(20)>Can you match my skill?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14214",
+      "target": "<op()><sp(20)>I'll teach you how!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14215",
+      "target": "<op()><sp(20)>I strike with the Wings of Rean's will!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14216",
+      "target": "<op()><sp(20)>The Wings of Rean, and Oukaou's power, brought me here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed for budget; kept both named forces (Wings of Rean, Oukaou's power) but shortened 'led me to the surface world' to 'brought me here'."
+    },
+    {
+      "id": "dialogue_14217",
+      "target": "<op()><sp(20)>The Wings of Rean punishes those who wage war!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed for budget; dropped the repeated 'with that power' (already stated in 14216) to fit, core claim (Oukaou punishes warmongers) kept."
+    },
+    {
+      "id": "dialogue_14218",
+      "target": "<op()><sp(20)>Different world!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14219",
+      "target": "<op()><sp(20)>Hate me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Repeated imperative 'hate, hate, hate' compressed to a single 'Hate me!' for budget; addressee (implicitly the enemy) unchanged."
+    },
+    {
+      "id": "dialogue_14220",
+      "target": "<op()><sp(20)>Hate me. That hatred is real strength!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'That hatred is the strongest power' rendered as 'real strength' for length; no new claim added."
+    },
+    {
+      "id": "dialogue_14221",
+      "target": "<op()><sp(20)>Aura Energy peaks in the heat of battle!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "New term: Aura Energy (oora enajii), distinct katakana term from the already-locked 'Aura Power' (oora-ryoku); proposed in batch_14147_glossary_proposals.json. 'Kachu' (in the midst of) rendered 'in the heat of battle'."
+    },
+    {
+      "id": "dialogue_14222",
+      "target": "<op()><sp(20)>Trust your power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14223",
+      "target": "<op()><sp(20)>Is that your limit?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14224",
+      "target": "<op()><sp(20)>Watch calmly!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14225",
+      "target": "<op()><sp(20)>I'll show Oukaou's power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14226",
+      "target": "<op()><sp(20)>Strike now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "validation": {
+    "controls": "Every row's source follows the uniform pattern <op()><sp(20)>TEXT<ab(1000)><ed()>; confirmed programmatically across this whole index range (14147-14505) before translation, and every target preserves that exact command prefix/suffix in the same order.",
+    "fit": "HARD BYTE BUDGET enforced programmatically: each target's visible length (letters/punctuation only, tags and any newline excluded) was checked against 2 x (Japanese source character count) - 2, capped at 72, using dialogue_corpus.py slice output; all 80 rows verified to fit, with heavier compressions flagged in uncertainties/notes rather than silently dropped meaning.",
+    "ascii_and_font": "All targets are ASCII-only (straight quotes, ... for ellipsis, - for dashes, no bare %); scanned programmatically for lowercase j/q outside the locked name 'Nanajin' and none found.",
+    "meaning_review": "Independent meaning review completed against the Japanese source via dialogue_corpus.py; all rows checked for reversed meaning, wrong addressee/subject, invented identity/gender, dropped sentence sense, tone, and locked spellings. Fixes applied where found; all rows set to meaning_reviewed."
+  }
+}

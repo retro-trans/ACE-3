@@ -1,0 +1,31 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 16293,
+  "slice_count": 80,
+  "rows_examined": [{"start": 16278, "end": 16387}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [16293], "finding": "'Bousou no tatsujin wo namaru na yo' ('Don't underestimate the master of recklessness') is compressed from an imperative warning to the declarative 'I'm the reckless one!'. The 22-char budget cannot fit a full 'don't underestimate me' phrasing; the chosen self-identification matches Isamu's glossary personality (reckless, carefree, insubordinate) and keeps the boastful register. Not a reversal."},
+    {"rows": [16296, 16299], "finding": "'Un mo ude no uchi yo' (luck is part of skill) and 'ikki ni tataku ze' (strike them all at once) are compressed to 'Just skill!' and 'All at once!' respectively under 12/14-char budgets; both drop half an idiom/verb but keep the core boast/command, no reversal."},
+    {"rows": [16302], "finding": "'Ashi hipparanai teido ni engo shite kure yo na' (cover me, to the extent you don't hold me back) correctly kept Isamu as the one who must not be hindered ('Cover me, but don't slow me down') -- addressee and subject match the source; not reversed."},
+    {"rows": [16316], "finding": "Isamu's entrance line uses 'Lt.' for his rank 'chuui' (First Lieutenant, per character_names_021.json and the game's own inline rank). This is correct: the orchestrator's 'Captain' decision applies to 'taii' (a different kanji/rank) for Gundam-series pilots, not to Isamu's 'chuui'. Fits the 50-char budget exactly (49/50)."},
+    {"rows": [16362], "finding": "Unidentified opponent ('Aitsu') correctly rendered gender-neutral ('that one'), consistent with 16313/16272/16274 in the neighboring slices."},
+    {"rows": [16330, 16332], "finding": "Ambiguous-addressee complaint lines ('every one of them', 'stop getting in my way') keep the ambiguity rather than inventing a specific target; consistent with BASE_RULES guidance."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_16293", "issue": "Ruling: compressing the imperative warning to a self-description is the best available fit at a 22-char budget and preserves his boastful, reckless voice; no fix needed."},
+    {"id": "dialogue_16296", "issue": "Ruling: dropping the 'luck' half of the idiom for 'Just skill!' is acceptable compression, not a reversal (the idiom itself folds luck into skill); no fix needed."},
+    {"id": "dialogue_16299", "issue": "Ruling: dropping the strike/hit verb for 'All at once!' is acceptable compression; no fix needed."},
+    {"id": "dialogue_16316", "issue": "Ruling: 'Lt. Isamu Dyson' correctly matches his glossary rank and fits the budget; confirmed no conflict with the orchestrator's separate 'Captain' (taii) decision."},
+    {"id": "dialogue_16362", "issue": "Ruling: gender-neutral 'that one' is the correct call for an unidentified opponent; no fix needed."}
+  ],
+  "validation": {
+    "controls": "All <op()><sp(20)>...<ab(1000)><ed()> command sequences re-checked against the console source in exact order for all 80 rows; identical, no additions/omissions. Confirmed the two source newlines in dialogue_16316 and dialogue_16331 are joined into single-line targets with no literal newline.",
+    "fit": "Re-ran a throwaway script recomputing min(72, 2*Japanese_char_count-2) per row from the console source against each target's visible length (tags stripped): all 80 rows meet budget. No script left in the repo.",
+    "format": "No newline in any target; all visible text ASCII; no lowercase j or q found outside locked names (none present).",
+    "runtime": "Runtime scene selection and font coverage are not established by this meaning review; only source-vs-target meaning, addressee, tone and glossary spellings were checked."
+  }
+}

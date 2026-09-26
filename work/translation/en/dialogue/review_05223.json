@@ -1,0 +1,43 @@
+{
+  "reviewer": "independent_meaning_review_80_agent",
+  "slice_start": 5223,
+  "slice_count": 80,
+  "rows_examined": [{"start": 5208, "end": 5317}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_05226",
+      "before": "Leave the anti-ship missiles to the interceptor unit. If you're attacked, back them up.",
+      "after": "Leave the anti-ship missiles to the interceptor unit. If they're attacked, back them up.",
+      "reason": "Source (敵に襲われたら援護してね) sets up the interceptor unit just assigned to handle the missiles as the one liable to be attacked, with the addressee doing the covering ('please back them up'). 'If you're attacked, back them up' reverses who is endangered and is incoherent (you cannot back a third party up while you yourself are the one under attack)."
+    },
+    {
+      "id": "dialogue_05243",
+      "before": "You're Hikaru Ichijo?",
+      "after": "You're Hikaru Ichijyo?",
+      "reason": "The glossary locks 'Hikaru Ichijyo' as the canonical spelling (character_names_021.json en_full; names_023.json name-table entry for 一条輝; existing scene 4004563 corpus precedent). 'Ichijo' is listed in character_names_021.json only as the ADV-subtitles alias, not the corpus's established spelling, so the draft's note claiming it was already 'locked' was itself mistaken."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [5237, 5282, 5283], "finding": "Bare 'senpai' (先輩, no name in source) rendered as 'Focker' -- accepted per orchestrator ruling. The immediate replies (Focker's brash denial at 5283, his established personality) settle the addressee; consistent with the later exchange at 5306-5309 where Dyson explicitly calls Focker 'senpai'."},
+    {"rows": [5294], "finding": "'Get Machine' (ゲットマシン) accepted per orchestrator ruling; term used correctly and consistently in the one row where it appears."},
+    {"rows": [5253], "finding": "Ambiguous referent ('it'/'its' for what the enemy is targeting and its approach) kept neutral rather than inventing a ship name; source itself never names the object, only continues from the mothership context of 5252. No identity invented."},
+    {"rows": [5267, 5268], "finding": "'Vent Roll' and 'VRF' kept as in source (untranslated term / Latin-letter acronym) per existing batch_03883 precedent; neither is a locked glossary entry but usage is consistent with prior corpus handling."},
+    {"rows": [5263, 5298, 5300], "finding": "Source distinguishes 全滅 (zenmetsu, 'wiped out') at 5263/5298 from 壊滅 (kaimetsu) at 5300; draft correctly renders 5300 as 'destroyed' instead of 'wiped out' to preserve the distinction, per batch_01586 precedent."},
+    {"rows": [5223, 5302], "finding": "Automated recheck (tag-sequence diff against a fresh tools/dialogue_corpus.py slice 5223 80 --context 0 pull) confirms every <...> command in all 80 rows matches the source in order, with none added or dropped, including the rows lacking <ed()> that continue into the next box (5224/5225, 5232/5233, 5238/5239, 5246/5247, 5257/5258, 5291/5292)."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_05233", "issue": "'Misumaru no oyajisan' rendered 'old man Misumaru' -- read as an affectionate address for commanding officer Misumaru rather than a literal father claim. Plausible and not contradicted by anything nearby, but not independently confirmable from the slice alone; left as drafted."},
+    {"ids": ["dialogue_05236", "dialogue_05257", "dialogue_05297"], "issue": "Speaker/addressee not identifiable from surrounding rows (no color tags or names in range); draft correctly stays neutral without assigning identity or gender. Confirmed as unresolvable from this slice."},
+    {"ids": ["dialogue_05271", "dialogue_05272", "dialogue_05273", "dialogue_05274", "dialogue_05298", "dialogue_05299", "dialogue_05300"], "issue": "The escort ship/unit ('engokan' / 'goeibutai') is never named in these dialogue rows, so it was correctly left unlinked to the 'Clop-class cruiser' HUD label the translator flagged. Whether the orchestrator wants that link made explicit is a naming-policy call outside this review's scope, not a meaning error."},
+    {"ids": ["dialogue_05243", "dialogue_05244", "dialogue_05245", "dialogue_05246", "dialogue_05247", "dialogue_05248"], "issue": "Speaker attribution (Dyson vs. Hikaru) rests on the two-line exchange plus glossary personality profiles; reasonable and internally consistent, but not stated by name in the source beyond 5244's 'Lieutenant Dyson' address. Left as drafted."}
+  ],
+  "validation": {
+    "controls": "Every <...> command reproduced in exact source order for all 80 rows, reverified with a fresh automated diff against tools/dialogue_corpus.py slice 5223 80 --context 0; no commands added, dropped, or reordered by the two meaning fixes.",
+    "format": "No newlines in any target (source line breaks joined with a space, as in the original draft); untouched by this review's fixes.",
+    "fit": "All visible text (tags stripped) still <=110 characters after the fixes; both edited rows changed by a single word each and stayed within their prior lengths. ASCII-only preserved; lowercase j/q still confined to locked names ('Ichijyo', 'Ichijo'-alias no longer used) and the locked rank 'Major'.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

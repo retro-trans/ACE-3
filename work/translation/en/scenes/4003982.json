@@ -1,0 +1,166 @@
+{
+ "resource_id": 4003982,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 17,
+ "rows_examined": 17,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "The Current Situation",
+   "notes": "Archive topic 1.",
+   "source_sha256": "48b0c2418fbc034b1ac98c60e228d14956ff030d86aefb0e0203f91dd93016fd"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Identity of the Unidentified Life-forms",
+   "notes": "Archive topic 2; uses the locked 'unidentified life-forms' (terms_028.json notes an archive title 'Unidentified Life-forms').",
+   "source_sha256": "b4d6740a403908e5514ecada0b763c950b7e363a252fb722d428528ec47ea7b1"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<library(1)><operator(30030,1)><speed(2)>To sum up what we have discussed so far, here is the gist of it.",
+   "notes": "",
+   "source_sha256": "e7d3e42d901c0ce3dcb0eba68c9df62ad1b66cdb77e2c69342ab987680360bfb"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30030,1)><speed(2)>Different history, different people. This is a world entirely different from the one we live in.",
+   "notes": "",
+   "source_sha256": "4b285ac75c9701a875101b59f8f720839c1ffb885624706f6373719173035e92"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30030,1)><speed(2)>But the appearance of the <color(5)>unidentified life-forms<ce()> lets us infer one fact: that some kind of connection has formed...",
+   "notes": "",
+   "source_sha256": "9ec7d333c5fead8ef4ea3e45b326cd66f0f5a47b00d31f4e10bc89501b9f41e6"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30030,1)><speed(2)>The key to that is the <book(1)>Baldora Drive<endbook()>.<thumbnail(162)>",
+   "notes": "",
+   "source_sha256": "f1b22e469aee9f07ee81706b22b31c5a795f56f96a81b9a4999f9aab689f0796"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30030,1)><speed(2)>The <book(1)>Baldora Drive<endbook()>, thought to be a mere means of ultra-long-distance transport, was actually a way to leap to another world.",
+   "notes": "",
+   "source_sha256": "a38587076a56452ab5b96800404f48414cc3f28aa2e34e8f9e2b3e55c81400b5"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30030,1)><speed(2)>The very fact that we are here proves it.",
+   "notes": "",
+   "source_sha256": "6c46a936a0d94180a4490106325e0345ee4c5de5403e0522b43ddee25ad1ea3b"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<library(2)><topic()><operator(30120,1)><speed(2)>The ones you've been calling <color(5)>unidentified life-forms<ce()> - let me explain about the <book(49)>Invaders<endbook()> and <book(73)>Antibody Coralians<endbook()>.",
+   "notes": "Reordered so the color span (unidentified life-forms) precedes the book spans, matching the source's clause order.",
+   "source_sha256": "f640f27da549e0685e9791892e2d303b1c770461d715df6aab5057091d0ccc15"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30120,1)><speed(2)>First, <book(73)>Antibody Coralians<endbook()><thumbnail(158)> are things that suddenly appear when the <book(69)>Scub Coral<endbook()> takes heavy damage.",
+   "notes": "",
+   "source_sha256": "6ddd4fac981e344bacfbd263fd71a8951bd2dfb769ef8efb697693ed9b6a3b92"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30120,1)><speed(2)>They're dangerous beings with a habit of attacking people indiscriminately.",
+   "notes": "",
+   "source_sha256": "d5484b410234264f5d0081583df2061be81f55316d99cbc0aff9f154a8269bc9"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30120,1)><speed(2)>Probably something the <book(69)>Scub Coral<endbook()> produces to defend itself... that's what we think.",
+   "notes": "",
+   "source_sha256": "be28f346cdf47b1d4540b2573a189343d980973944948aa8043c5e989a76c9d1"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30120,1)><speed(2)>The other, the <book(49)>Invaders<endbook()><thumbnail(159)>, are beings full of mystery. They're extraterrestrial life-forms that come flying in from deep space.",
+   "notes": "",
+   "source_sha256": "9d6fa3f6cfaf3173fdf7f58bf203a4ddace4acb42313262a30bb428924e05d22"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30120,1)><speed(2)>They have an aggressive nature, seeking to destroy everything on Earth.",
+   "notes": "",
+   "source_sha256": "9f06c51bfd84dacac4539cd644cad6d1b12c6bcb763ce24b640285300b244aa2"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30120,1)><speed(2)>And they act with the unknown energy known as <book(51)>Getter Rays<endbook()> as their food source.",
+   "notes": "",
+   "source_sha256": "1668c5822ed3c6d42ab6beff7d0a429434f640b0fe855d7073293054de4a0313"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30120,1)><speed(2)>The <book(49)>Invaders<endbook()> also have the trait of fusing with weapons and turning into <color(6)>Metal Beasts<ce()>.",
+   "notes": "",
+   "source_sha256": "8aee6b6efe7cd571e38100c8cef9d880073102d03e22aa04a4278bf9630ae2c3"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<thumbdown()><operator(30120,1)><speed(2)>Either way, both remain a threat to humanity.",
+   "notes": "",
+   "source_sha256": "0103134eaddf111539d278a80670dec6225020ec6adebb60c52649a39f2678aa"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 1,
+   "issue": "Title 'Identity of the Unidentified Life-forms' is longer than the reviewed precedents (24-26 characters); width limit of the archive list is unknown to me, as in 4003962/4003942."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 17,
+  "rows_in_scene": 17,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 1 title 'Identity of the Unidentified Life-forms': resolved against the 128-visible-char screen-title limit - well under it, so the translator's 'width limit unknown' uncertainty no longer applies.",
+   "'unidentified life-forms' hyphenated per orchestrator decision; verified in slots 21, 25.",
+   "Slots 22-23 'Baldora Drive' kept per orchestrator ruling (glossary.json), even though this scene's source katakana reads closer to 'Bardona'; consistent with 4003030's precedent (status meaning_reviewed) and with book(1) usage project-wide.",
+   "Slot 25 reordering (color span 'unidentified life-forms' before the book spans for Invaders/Antibody Coralians) matches the source's own clause order; accepted, no meaning change.",
+   "Slots 19-33 checked line-by-line against source: history summary, Baldora Drive as the link between worlds, Antibody Coralian origin (Scub Coral self-defense), Invader nature (extraterrestrial, Getter-Ray-fed, fuse into Metal Beasts) all match; no reversed meaning or invented subject."
+  ],
+  "remaining_uncertainties": []
+ }
+}

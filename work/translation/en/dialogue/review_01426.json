@@ -1,0 +1,243 @@
+{
+ "reviewer": "independent_meaning_review_agent",
+ "slice_start": 1426,
+ "slice_count": 80,
+ "rows_examined": [
+  {
+   "start": 1411,
+   "end": 1520
+  }
+ ],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "rows_left_draft": [],
+ "meaning_fixes": [],
+ "checked_decisions": [
+  {
+   "rows": [
+    1426,
+    1427,
+    1428,
+    1429,
+    1430,
+    1431
+   ],
+   "finding": "Continuation of 1422-1425 (unknown land/history, 'a wholly different world'). 1426 addresses Faye and trails off; 1427 is the polite-register rebuttal; Baldora Drive (glossary.json provisional lock) and the coloured term kept; 'that facility' matches the source noun. Captain Jamil per orchestrator decision."
+  },
+  {
+   "rows": [
+    1432,
+    1433,
+    1436,
+    1440
+   ],
+   "finding": "New Federation kept per orchestrator decision (glossary.json wins over character_names_021 'New UNE'). Both book(38) links in 1432 kept in source order; compression 'a body called' / 'force of arms' loses no meaning. Earth Federation book(9) link kept in 1433."
+  },
+  {
+   "rows": [
+    1434,
+    1435,
+    1436
+   ],
+   "finding": "Vultures / Newtype / Tiffa match glossary. 'her' in 1436 is an explicit feminine pronoun in the source and Tiffa is called a girl in 1434, so no gender is invented."
+  },
+  {
+   "rows": [
+    1437,
+    1438,
+    1439,
+    1440,
+    1441
+   ],
+   "finding": "Jamil's request: first-person plural is explicit in 1437 and 1439, singular 'like me' is explicit in 1440; 'take us' in 1438 is a supported inference. Freeden, Gekkostate, Holland match glossary."
+  },
+  {
+   "rows": [
+    1442,
+    1443,
+    1444,
+    1445,
+    1446
+   ],
+   "finding": "Polite-register reply (information needed, acting together even temporarily is best), agreement, thanks, Bellforest/Nirvash line and request for guidance all match source; book(60)/book(61) order kept."
+  },
+  {
+   "rows": [
+    1447,
+    1448,
+    1468,
+    1485
+   ],
+   "finding": "Chulip kept per orchestrator decision (Nadesico wiki spelling)."
+  },
+  {
+   "rows": [
+    1455
+   ],
+   "finding": "Kimbareid Base matches the Gundam wiki spelling of the 0083 base; source katakana ends in -do, so not 'Kimberlite'."
+  },
+  {
+   "rows": [
+    1459,
+    1460,
+    1461,
+    1462
+   ],
+   "finding": "Chained monologue kept subjectless; unmanned weapons of unknown origin, individually weak but troublesome in numbers, multi-lock hint all preserved."
+  },
+  {
+   "rows": [
+    1471,
+    1472,
+    1473,
+    1474,
+    1475,
+    1476,
+    1477,
+    1478,
+    1479,
+    1480,
+    1481,
+    1482,
+    1483,
+    1484,
+    1485
+   ],
+   "finding": "Developer placeholder notes, translated as notes; content matches (supplement, praise x2, success-condition praise, encouragement, hurry-up for dire moments, high praise, timeout-success notice, timeout-failure scolding, Tak's monologue, target lies where enemies come from, enemy's aim, Burning's shout, Amuro's encouragement per unit when player is not Amuro, only the Chulip remains)."
+  },
+  {
+   "rows": [
+    1497,
+    1498,
+    1499,
+    1500
+   ],
+   "finding": "Zeon-side exchange (Major, HLV launch time, return to base, fire support request, acknowledgement). Imperative in 1499 keeps the omitted object."
+  },
+  {
+   "rows": [
+    1501,
+    1502,
+    1503,
+    1504,
+    1505
+   ],
+   "finding": "0083 Uraki/Gato exchange; 'man' explicit in 1502 and 1504. 1504 keeps the source's literal statement; the implied 'and you are not one yet' is not added. White Devil line 1505 is answered by 1506 (Nightmare of Solomon)."
+  }
+ ],
+ "uncertainties": [
+  {
+   "rows": [
+    1432,
+    1433,
+    1436,
+    1440
+   ],
+   "issue": "RULING: New Federation stays (orchestrator decision). The in-game book(38) entry title must use the same form or link text and encyclopedia will disagree."
+  },
+  {
+   "rows": [
+    1432
+   ],
+   "issue": "RULING: compression accepted. 'Those were New Federation troops earlier' is slightly loose English for 'the ones engaged earlier were a New Federation unit' but supplies no subject and is not wrong; left."
+  },
+  {
+   "rows": [
+    1438
+   ],
+   "issue": "RULING: 'take us' accepted (explicit first-person plural either side, same speaker)."
+  },
+  {
+   "rows": [
+    1430
+   ],
+   "issue": "RULING: 'spatial transfer device' is an accurate literal rendering of the coloured keyword; no entry exists in work/glossary, so it still needs a central entry so later occurrences match."
+  },
+  {
+   "rows": [
+    1448,
+    1468,
+    1485
+   ],
+   "issue": "RULING: Chulip stays (orchestrator). The joke in 1448 is less transparent than with 'Tulip'; accepted cost. Singular 'the Chulip' in 1468/1485 is a guess at number - source unmarked; legacy rows."
+  },
+  {
+   "rows": [
+    1459,
+    1460,
+    1461,
+    1462
+   ],
+   "issue": "RULING: subjectless monologue accepted; speaker not established (Tak is a guess from placeholder 1480)."
+  },
+  {
+   "rows": [
+    1471,
+    1485
+   ],
+   "issue": "RULING: translating the placeholders as notes is correct. 1481/1482/1485 are phrased as line summaries in source too; either reading gives the same English."
+  },
+  {
+   "rows": [
+    1493
+   ],
+   "issue": "RULING: 'So it's come out!' accepted; 'you' would be equally possible. Tie broken toward the machine because 1492 has just named Unit 2."
+  },
+  {
+   "rows": [
+    1504
+   ],
+   "issue": "RULING: accepted. The source line is the 0083 retort and is itself only an implication; English keeps it literal."
+  },
+  {
+   "rows": [
+    1497,
+    1499
+   ],
+   "issue": "RULING: Major accepted (locked rank, lowercase j unavoidable). Imperative in 1499 accepted."
+  },
+  {
+   "rows": [
+    1447,
+    1505
+   ],
+   "issue": "RULING: agreed that resources 6041-6043 are legacy ACE2 material; not forced into Mission 04 continuity."
+  },
+  {
+   "rows": [
+    1441
+   ],
+   "issue": "Reviewer note: 'all the help we can give' supplies 'we' where the source says only 'all possible cooperation'; the speaker uses first-person plural in 1434/1437/1439, so left."
+  },
+  {
+   "rows": [
+    1487
+   ],
+   "issue": "Reviewer note: source is a volitional 'will hit them fast here'; draft uses an imperative, which keeps the omitted subject. Left."
+  },
+  {
+   "rows": [
+    1469
+   ],
+   "issue": "Reviewer note: source says 'a large number of' heat sources; 'Multiple' is weaker but not wrong. Left."
+  },
+  {
+   "rows": [
+    1426,
+    1427,
+    1428,
+    1433,
+    1435,
+    1443
+   ],
+   "issue": "Speakers are untagged. Reviewer reads 1427/1429-1431/1442/1446 as Ruri (polite register, addresses Captain Jamil), 1432/1434/1436-1441/1444/1445 as Jamil, 1433/1435/1443 as a rough-spoken ally, 1426/1428 as someone addressing Faye. None of these identities is written into the English, so a wrong guess would not surface in the text."
+  }
+ ],
+ "validation": {
+  "controls": "Ordered <...> command list of all 80 targets equals the source's (console check after edits).",
+  "format": "No newline in any target; 80 ids in sequence.",
+  "fit": "ASCII only, no bare percent; longest visible text 109 chars (limit 110). No display-fit shortening performed by the reviewer.",
+  "runtime": "Runtime scene selection, speaker identity, font coverage and visual fit are not established by this meaning review."
+ }
+}

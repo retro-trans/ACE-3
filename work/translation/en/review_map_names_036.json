@@ -1,0 +1,114 @@
+{
+  "version": "0.1.36",
+  "reviewed_file": "work/translation/en/map_names_036.json",
+  "reviewed_sha256": "e487bf00cd95e5ea81b338af7f355b2e3c37a234025d084d6d8f312084a17af9",
+  "status": "corrections_requested",
+  "category_rows_examined": 191,
+  "distinct_scene_labels_examined": 168,
+  "scene_occurrences_examined": 871,
+  "method": "Read all 191 category rows and all168 distinct scene labels in source and translation, checked duplicate targets for erased distinctions, compared existing glossary spellings. No draft edits.",
+  "corrections": [
+    {
+      "id": "berkt_spelling",
+      "priority": "required",
+      "locations": [
+        {
+          "table_id": 3062,
+          "text_id": 1500
+        },
+        {
+          "scene_label_index": 12
+        }
+      ],
+      "current": "Belkt Torpedo (Temp.) / Belkt Torpedo Tube",
+      "proposed": "Berkt Torp. Tube (Temp.) / Berkt Torpedo Tube",
+      "full_en": "Berkt's Ship Torpedo Tube (Temporary Name) / Berkt's Ship Torpedo Tube",
+      "reason": "Locked character glossary uses Berkt, not Belkt. Temp category should retain Tube to distinguish a launcher from a projectile; Torp. preserves torpedo meaning in compact display.",
+      "evidence": [
+        "work/glossary/glossary.json: Berkt",
+        "work/glossary/character_names_021.json: en_short Berkt"
+      ]
+    },
+    {
+      "id": "rushrod_spelling",
+      "priority": "required",
+      "locations": [
+        {
+          "table_id": 3061,
+          "text_id": 21050
+        },
+        {
+          "scene_label_index": 42
+        }
+      ],
+      "current": "Rush Rod",
+      "proposed": "Rushrod",
+      "full_en": "Rushrod",
+      "reason": "Use locked project spelling from terms_028, which already labels this same Overman Rushrod.",
+      "evidence": [
+        "work/glossary/terms_028.json: Rushrod / Blackmail / Overdevil / Planetta"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "location": {
+        "table_id": 3062,
+        "text_id": 1511
+      },
+      "current": "Ally Missile (Temp.)",
+      "concern": "Display loses launcher/tube distinction, while full_en correctly says Original Allied Ship Missile Tube (Temporary Name).",
+      "suggestion": "Prefer Ally Msl. Tube (Temp.) if this fits. Original is a development placeholder descriptor, so retaining Temp. without Original is reasonable in the narrow display."
+    },
+    {
+      "location": {
+        "table_id": 3063,
+        "text_id": 17030
+      },
+      "current": "NF Heavy Transport",
+      "concern": "Full source specifically says superlarge. NF is acceptable for New Federation.",
+      "suggestion": "Consider NF Superheavy Transp. if it fits; full_en already preserves Superheavy Transport Aircraft."
+    },
+    {
+      "locations": [
+        {
+          "table_id": 3061,
+          "text_id": 1100
+        },
+        {
+          "table_id": 3061,
+          "text_id": 1110
+        },
+        {
+          "table_id": 3061,
+          "text_id": 1130
+        },
+        {
+          "table_id": 3063,
+          "text_id": 1010
+        },
+        {
+          "table_id": 3063,
+          "text_id": 1020
+        }
+      ],
+      "concern": "Risnir, Tannthor, Thiassi, Septin, and Clade remain provisional game-original spellings. Kana supports multiple Roman spellings; no stronger primary English evidence was inspected in this bounded review. Retain explicit provisional status."
+    }
+  ],
+  "accepted_decisions": [
+    "Temporary-name markers retained for all developer placeholders; did not turn them into invented canonical names.",
+    "Tracked Cannon normalizes apparent source typos in the tracked-vehicle term; scene form uses correct track spelling.",
+    "All subtype A/B/C, size S/M/L, vehicle modes, and Invader qualifiers remain distinct.",
+    "Hikaru represents two separate Japanese name strings belonging to different people; shared English short name is valid and not a mapping error.",
+    "Focker and Kashmir match character_names_021 even where other familiar franchise spellings exist.",
+    "Jovian Destroyer, Picket Ship, Heavy Attack Craft, Transport Patrol Craft, Fast Space Boat, MLRS, Satellite Cannon, Missile Ship, and Train accurately classify generic source units.",
+    "Clop/Musaka Light Cruiser and Tenzan Land Battleship omit only the recoverable class suffix in narrow display; full_en preserves it.",
+    "Antibody Coralian size suffixes and Gundam variant abbreviations have full_en expansions and do not merge distinct entries.",
+    "Original Allied Ship Laser Cannon abbreviated Allied Ship Laser in scene labels preserves the weapon class sufficiently."
+  ],
+  "scope_limits": [
+    "No runtime fit certification.",
+    "No modifications to map_names_036.json or its glossary.",
+    "Proper-name corrections should be applied by parent after meaning review, per BASE_RULES."
+  ]
+}

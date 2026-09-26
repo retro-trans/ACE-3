@@ -1,0 +1,516 @@
+{
+  "slice_start": 14586,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      14571,
+      14680
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_14588",
+        "dialogue_14602",
+        "dialogue_14612",
+        "dialogue_14655",
+        "dialogue_14664"
+      ],
+      "note": "Olba mirrors his brother Shagia's Category-F/\"stage\" rhetoric with his own casual first-person register; kept distinct first-person tone (younger, more casual) per character_names_021.json personality (reckless, competitive)."
+    },
+    {
+      "id": "dialogue_14666",
+      "note": "\"Brother, this is what you wanted, right?\" addressed to Shagia off-screen; no new identity invented, vocative kept."
+    }
+  ],
+  "validation": {
+    "controls": "Every <op()><sp(20)>...<ab(N)><ed()> command sequence copied verbatim from source, same order, same ab() parameter; verified by script against dialogue_index.json (no mismatches).",
+    "fit": "Every row's English visible length (tags and \\n excluded) checked <= min(72, 2*Japanese_char_count-2); all 325 rows across the four batches in this task fit after compression, none left over-limit.",
+    "ascii": "Straight quotes/apostrophes, \"...\" ellipses, ASCII-only; no bare %; no lowercase j or q outside locked names (checked by script; none occur).",
+    "meaning_review": "Independent meaning review completed 2026-09-24 (review_14586.json): 2 meaning fixes applied (dialogue_14597, dialogue_14635); all 80 rows now meaning_reviewed; no rows left as draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_14586",
+      "target": "<op()><sp(20)>...It's over.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14587",
+      "target": "<op()><sp(20)>Victors... are us.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14588",
+      "target": "<op()><sp(20)>Heh heh... Revenge, at last.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14589",
+      "target": "<op()><sp(20)>Spirit alone can't fill some gaps...\nThat's our strength.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14590",
+      "target": "<op()><sp(20)>This is the war we wanted!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14591",
+      "target": "<op()><sp(20)>My hands are itchy...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14592",
+      "target": "<op()><sp(20)>Ashtaron, carry my anger.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14593",
+      "target": "<op()><sp(20)>Brother... Really?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14594",
+      "target": "<op()><sp(20)>I'll teach the world\nthat it needs us!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14595",
+      "target": "<op()><sp(20)>The next era will be ours...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14596",
+      "target": "<op()><sp(20)>We'll set it right.\nThis broken world!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14597",
+      "target": "<op()><sp(20)>Feel our rage, silenced by power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning review: source is \"[you'll] realize our anger, that power ignored/silenced\" (1st person plural, our own anger); original draft's \"those power ignored\" read as a vague third party rather than the Frost brothers themselves. Fixed to keep the 1st-person referent."
+    },
+    {
+      "id": "dialogue_14598",
+      "target": "<op()><sp(20)>Our shame, our despair...\nhealed by this world's ruin!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14599",
+      "target": "<op()><sp(20)>Forces this weak...\nWe're cheaply rated.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14600",
+      "target": "<op()><sp(20)>Leave that to you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14601",
+      "target": "<op()><sp(20)>Losing? Unthinkable.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14602",
+      "target": "<op()><sp(20)>You think this stops us?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14603",
+      "target": "<op()><sp(20)>This wasn't how it was to go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14604",
+      "target": "<op()><sp(20)>Throw your lives away, fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14605",
+      "target": "<op()><sp(20)>I won't lose to this.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14606",
+      "target": "<op()><sp(20)>Our cause... by this?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14607",
+      "target": "<op()><sp(20)>Guess that's your limit.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14608",
+      "target": "<op()><sp(20)>Tch... Not bad!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14609",
+      "target": "<op()><sp(20)>Too big a gap in strength.\nSkill alone won't cover it.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14610",
+      "target": "<op()><sp(20)>Far too unfavorable.\nNow, what to do...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14611",
+      "target": "<op()><sp(20)>Time to stop.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14612",
+      "target": "<op()><sp(20)>Too low-level a fight.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14613",
+      "target": "<op()><sp(20)>It begins...\nThe overture to our war!<ab(1)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14614",
+      "target": "<op()><sp(20)>Go, Ashtaron!\nCarve out our future!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14615",
+      "target": "<op()><sp(20)>Still at it...\nYou won't leave alive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14616",
+      "target": "<op()><sp(20)>You'll all help me shine.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14617",
+      "target": "<op()><sp(20)>Feel honored.\nOur stepping stone.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14618",
+      "target": "<op()><sp(20)>Though I alone suffice.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14619",
+      "target": "<op()><sp(20)>Heh... Op start.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14620",
+      "target": "<op()><sp(20)>How to move now?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14621",
+      "target": "<op()><sp(20)>Small fry, here to die.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14622",
+      "target": "<op()><sp(20)>Heh, close call.\nBut it's fine, I've got you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14623",
+      "target": "<op()><sp(20)>Come on, what's wrong!\nIs that really all you've got?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14624",
+      "target": "<op()><sp(20)>Disappointing.\nI thought you could do more.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14625",
+      "target": "<op()><sp(20)>Fall back if you fear death.\nIf you'll fight, prove it.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14626",
+      "target": "<op()><sp(20)>What's wrong?\nYou're backing off, huh?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14627",
+      "target": "<op()><sp(20)>Wrong way!\nThe enemy's not there.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14628",
+      "target": "<op()><sp(20)>So that's your limit.\nWhat a letdown.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14629",
+      "target": "<op()><sp(20)>Giving up already?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14630",
+      "target": "<op()><sp(20)>That's the spirit...\nDo try to shine.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14631",
+      "target": "<op()><sp(20)>Hmph... Not bad.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14632",
+      "target": "<op()><sp(20)>You're skilled...\nEnough I want you gone now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14633",
+      "target": "<op()><sp(20)>Impressive.\nYou can match me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14634",
+      "target": "<op()><sp(20)>You've earned my fight.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14635",
+      "target": "<op()><sp(20)>Shame you're an ally, I'd kill you to test my skill.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning review: source literally wants to kill the ally to test his own skill; draft dropped the violent intent entirely (\"I'd love to test my skill\"), softening Olba's characterization. Restored within the 52-char budget."
+    },
+    {
+      "id": "dialogue_14636",
+      "target": "<op()><sp(20)>You're a cut above the rest.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14637",
+      "target": "<op()><sp(20)>Heh... Your work deserves praise.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14638",
+      "target": "<op()><sp(20)>Heheheh... Fighting beside\nsomeone like you is a true honor.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14639",
+      "target": "<op()><sp(20)>That's more like it.\nExactly as I expected.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14640",
+      "target": "<op()><sp(20)>I'm counting on your potential.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14641",
+      "target": "<op()><sp(20)>More troops, huh...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14642",
+      "target": "<op()><sp(20)>I never sent an invitation...\nHow tactless.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14643",
+      "target": "<op()><sp(20)>However many come...\nnone can match us.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14644",
+      "target": "<op()><sp(20)>Numbers won't make us flinch!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14645",
+      "target": "<op()><sp(20)>Committing forces here...\nThe enemy's not bad.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14646",
+      "target": "<op()><sp(20)>They'll only be shot down...\nSuch a waste.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14647",
+      "target": "<op()><sp(20)>Numbers don't matter.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14648",
+      "target": "<op()><sp(20)>They won't stop.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14649",
+      "target": "<op()><sp(20)>Don't they know it's pointless?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14650",
+      "target": "<op()><sp(20)>Heh, you came.\nAs I predicted.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14651",
+      "target": "<op()><sp(20)>Dangerous...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source is \"that one is dangerous\"; trimmed to \"Dangerous...\" to fit a 14-character budget. The demonstrative \"that one\" is dropped but the referent is clear from context."
+    },
+    {
+      "id": "dialogue_14652",
+      "target": "<op()><sp(20)>Not ordinary...\nLook at those moves.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14653",
+      "target": "<op()><sp(20)>Someone with a bit of bite\nhas shown up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14654",
+      "target": "<op()><sp(20)>One after another...\nThey never learn.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14655",
+      "target": "<op()><sp(20)>Only we deserve power\nin this world.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14656",
+      "target": "<op()><sp(20)>This one's a bit different.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14657",
+      "target": "<op()><sp(20)>Heheheh...\nAt last, a foe worth my time.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14658",
+      "target": "<op()><sp(20)>However strong, no match for us.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14659",
+      "target": "<op()><sp(20)>I needn't step in.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14660",
+      "target": "<op()><sp(20)>Enemy leader.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14661",
+      "target": "<op()><sp(20)>Such is the fate of defiers!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14662",
+      "target": "<op()><sp(20)>Only we deserve\ntrue recognition!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14663",
+      "target": "<op()><sp(20)>You gave me trouble.\nBut I can't stop here.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14664",
+      "target": "<op()><sp(20)>We rise to the next stage,\nthis fight a stepping stone.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14665",
+      "target": "<op()><sp(20)>A low-level fight.\nI needn't have bothered.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "schema_version": 1,
+  "version": "0.1.14",
+  "table_id": 3000,
+  "source_bundle": 4002050,
+  "source_iso": "ACE3-English-0.1.13.iso",
+  "review": {
+    "status": "meaning_reviewed",
+    "reviewer": "unit_names_014_b",
+    "rows_in_slice": 26,
+    "rows_examined": 28,
+    "related_name_table_rows_examined": 266,
+    "font_fit": "Not measured; no name shortened to fit.",
+    "notes": [
+      "Preserved source (M) markers without expanding their meaning.",
+      "Kept compact source model forms such as Terminus 303; did not silently expand to typeB303.",
+      "Gachiko follows game-specific Akurasu spelling; MAHQ instead uses Gotchko.",
+      "Additional unmatched 3025/3077 names are audit-only and not translated by this slice."
+    ],
+    "independent_review": "notice_review_014: all 197 roster and variant rows checked; no model/pilot/form swaps. Compact Akito C., Hi-Mob., and GW approved; full_en retains full names."
+  },
+  "rows": [
+    {
+      "slot": 345,
+      "source": "ターンＸ",
+      "en": "Turn X"
+    },
+    {
+      "slot": 346,
+      "source": "キングゲイナー",
+      "en": "King Gainer"
+    },
+    {
+      "slot": 347,
+      "source": "パワーゴレーム",
+      "en": "Power Golem"
+    },
+    {
+      "slot": 348,
+      "source": "ドミネーター",
+      "en": "Dominator"
+    },
+    {
+      "slot": 349,
+      "source": "エンペランザ",
+      "en": "Emperanza"
+    },
+    {
+      "slot": 350,
+      "source": "ガチコ",
+      "en": "Gachiko"
+    },
+    {
+      "slot": 351,
+      "source": "フリーダムガンダム",
+      "en": "Freedom Gundam"
+    },
+    {
+      "slot": 352,
+      "source": "フリーダムガンダム（Ｍ）",
+      "en": "Freedom Gundam (M)"
+    },
+    {
+      "slot": 361,
+      "source": "ジャスティスガンダム",
+      "en": "Justice Gundam"
+    },
+    {
+      "slot": 362,
+      "source": "ジャスティスガンダム（Ｍ）",
+      "en": "Justice Gundam (M)"
+    },
+    {
+      "slot": 363,
+      "source": "ニルヴァーシュ",
+      "en": "Nirvash"
+    },
+    {
+      "slot": 364,
+      "source": "ニルヴァーシュ　ｓｐｅｃ２",
+      "en": "Nirvash spec2"
+    },
+    {
+      "slot": 365,
+      "source": "ニルヴァーシュ　ｓｐｅｃ３",
+      "en": "Nirvash spec3"
+    },
+    {
+      "slot": 373,
+      "source": "ニルヴァーシュ　ｔｈｅＥＮＤ",
+      "en": "Nirvash theEND"
+    },
+    {
+      "slot": 383,
+      "source": "ターミナス３０３",
+      "en": "Terminus 303"
+    },
+    {
+      "slot": 393,
+      "source": "ターミナス９０９",
+      "en": "Terminus 909"
+    },
+    {
+      "slot": 394,
+      "source": "スピアヘッド（チャールズ）",
+      "en": "Spearhead (Charles)"
+    },
+    {
+      "slot": 395,
+      "source": "スピアヘッド（レイ）",
+      "en": "Spearhead (Ray)"
+    },
+    {
+      "slot": 396,
+      "source": "ガンダム",
+      "en": "Gundam"
+    },
+    {
+      "slot": 397,
+      "source": "フルアーマーガンダム",
+      "en": "Full Armor Gundam"
+    },
+    {
+      "slot": 398,
+      "source": "パーフェクトガンダム",
+      "en": "Perfect Gundam"
+    },
+    {
+      "slot": 399,
+      "source": "ガンダム（狂四郎）",
+      "en": "Gundam (Kyoshiro)"
+    },
+    {
+      "slot": 400,
+      "source": "ＹＦ－１９",
+      "en": "YF-19"
+    },
+    {
+      "slot": 401,
+      "source": "ＹＦ－１９（ファストパック）",
+      "en": "YF-19 (FAST Pack)"
+    },
+    {
+      "slot": 410,
+      "source": "ＹＦ－２１",
+      "en": "YF-21"
+    },
+    {
+      "slot": 411,
+      "source": "ＹＦ－２１（ファストパック）",
+      "en": "YF-21 (FAST Pack)"
+    }
+  ],
+  "related_unmatched_names": {
+    "3025": [
+      {
+        "slot": 14,
+        "source": "ガンアーク　ハイマニューバモード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 15,
+        "source": "ブラッドアーク　ハイマニューバモード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 17,
+        "source": "νガンダム（ＨＷＳ装備型）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 40,
+        "source": "ウイングガンダムゼロ（ＥＷ版）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 72,
+        "source": "ビルバイン　ウィングキャリバー",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 73,
+        "source": "ビルバイン　ウィングキャリバー　迷彩カラー",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 150,
+        "source": "エステバリス・カスタム（リョーコ）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 160,
+        "source": "エステバリス・カスタム（ヒカル）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 170,
+        "source": "エステバリス・カスタム（イズミ）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 183,
+        "source": "ＶＦ－１Ａバルキリー・輝　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 184,
+        "source": "ＶＦ－１Ａスーパーバルキリー・輝　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 193,
+        "source": "ＶＦ－１Ａバルキリー・マックス　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 194,
+        "source": "ＶＦ－１Ａスーパーバルキリー・マックス　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 203,
+        "source": "ＶＦ－１Ｓバルキリー・輝　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 204,
+        "source": "ＶＦ－１Ｓストライクバルキリー・輝　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 213,
+        "source": "ＶＦ－１Ｓバルキリー・マックス　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 214,
+        "source": "ＶＦ－１Ｓストライクバルキリー・マックス　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 223,
+        "source": "ＶＦ－１Ｓバルキリー・フォッカー　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 224,
+        "source": "ＶＦ－１Ｓストライクバルキリー・フォッカー　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 243,
+        "source": "ＶＦ－１Ｊバルキリー　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 255,
+        "source": "ＶＦ－１Ａバルキリー・輝　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 256,
+        "source": "ＶＦ－１Ａバルキリー・輝　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 257,
+        "source": "ＶＦ－１Ａスーパーバルキリー・輝　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 258,
+        "source": "ＶＦ－１Ａスーパーバルキリー・輝　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 259,
+        "source": "ＶＦ－１Ａバルキリー・マックス　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 260,
+        "source": "ＶＦ－１Ａバルキリー・マックス　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 261,
+        "source": "ＶＦ－１Ａスーパーバルキリー・マックス　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 262,
+        "source": "ＶＦ－１Ａスーパーバルキリー・マックス　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 263,
+        "source": "ＶＦ－１Ｓバルキリー・輝　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 264,
+        "source": "ＶＦ－１Ｓバルキリー・輝　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 265,
+        "source": "ＶＦ－１Ｓストライクバルキリー・輝　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 266,
+        "source": "ＶＦ－１Ｓストライクバルキリー・輝　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 267,
+        "source": "ＶＦ－１Ｓバルキリー・マックス　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 268,
+        "source": "ＶＦ－１Ｓバルキリー・マックス　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 269,
+        "source": "ＶＦ－１Ｓストライクバルキリー・マックス　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 270,
+        "source": "ＶＦ－１Ｓストライクバルキリー・マックス　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 271,
+        "source": "ＶＦ－１Ｓバルキリー・フォッカー　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 272,
+        "source": "ＶＦ－１Ｓバルキリー・フォッカー　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 273,
+        "source": "ＶＦ－１Ｓストライクバルキリー・フォッカー　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 274,
+        "source": "ＶＦ－１Ｓストライクバルキリー・フォッカー　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 275,
+        "source": "ＶＦ－１Ｊバルキリー　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 276,
+        "source": "ＶＦ－１Ｊバルキリー　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 287,
+        "source": "ゴッドガンダム　ハイパーモード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 288,
+        "source": "ゴッドガンダム　明鏡止水モード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 289,
+        "source": "マスターガンダム　明鏡止水モード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 301,
+        "source": "ナナジン（リーンの翼）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 302,
+        "source": "アッカナナジン（リーンの翼）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 303,
+        "source": "オウカオー（リーンの翼）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 315,
+        "source": "ガンダムＤＸ（Ｇファルコン装備型）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 345,
+        "source": "ガンダムヴァサーゴ　チェストブレイク",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 355,
+        "source": "ガンダムアシュタロン　ハーミットクラブ",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 356,
+        "source": "ガンダムＤＸ（Ｇファルコン装備型）ＭＡ形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 357,
+        "source": "ガンダムエアマスター　ＭＡ形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 358,
+        "source": "ガンダムアシュタロン　ＭＡ形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 359,
+        "source": "ガンダムアシュタロン　ハーミットクラブ　ＭＡ形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 361,
+        "source": "真ゲッター２（渓）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 362,
+        "source": "真ゲッター３（凱）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 364,
+        "source": "真ゲッター２（隼人）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 365,
+        "source": "真ゲッター３（弁慶）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 387,
+        "source": "ドミネーター　ドギッグフォーム",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 389,
+        "source": "フリーダムガンダム（ミーティア装備）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 399,
+        "source": "ジャスティスガンダム（ミーティア装備）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 400,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 401,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ２",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 402,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ３",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 410,
+        "source": "ニルヴァーシュ　ｔｙｐｅｔｈｅＥＮＤ",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 420,
+        "source": "ターミナス　ｔｙｐｅＢ３０３",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 430,
+        "source": "ターミナス　ｔｙｐｅＲ９０９",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 431,
+        "source": "スピアヘッド　ＳＨ１０１（チャールズ）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 432,
+        "source": "スピアヘッド　ＳＨ１０１（レイ）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 433,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　ビークルモード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 434,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　セブンスウェル",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 435,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ２　ビークルモード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 436,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ２　飛行モード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 437,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ２　セブンスウェル",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 438,
+        "source": "ターミナス　ｔｙｐｅＲ９０９　ビークルモード",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 439,
+        "source": "ニルヴァーシュ　ｔｙｐｅｔｈｅＥＮＤ　浄化",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 444,
+        "source": "ＹＦ－１９　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 445,
+        "source": "ＹＦ－１９（ファストパック）　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 454,
+        "source": "ＹＦ－２１　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 455,
+        "source": "ＹＦ－２１（ファストパック）　ファイター形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 456,
+        "source": "ＹＦ－１９　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 457,
+        "source": "ＹＦ－１９　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 458,
+        "source": "ＹＦ－２１　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 459,
+        "source": "ＹＦ－２１　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 460,
+        "source": "ＹＦ－１９（ファストパック）　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 461,
+        "source": "ＹＦ－１９（ファストパック）　バトロイド形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 462,
+        "source": "ＹＦ－２１（ファストパック）　ガウォーク形態",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 463,
+        "source": "ＹＦ－２１（ファストパック）　バトロイド形態",
+        "classification": "unit-name variant"
+      }
+    ],
+    "3077": [
+      {
+        "slot": 0,
+        "source": "㍻　",
+        "classification": "non-unit sentinel"
+      },
+      {
+        "slot": 1,
+        "source": "なし",
+        "classification": "non-unit sentinel"
+      },
+      {
+        "slot": 40,
+        "source": "ウイングガンダムゼロ（ＥＷ版）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 148,
+        "source": "エステバリス・カスタム（リョーコ）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 158,
+        "source": "エステバリス・カスタム（ヒカル）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 168,
+        "source": "エステバリス・カスタム（イズミ）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 354,
+        "source": "フリーダムガンダム（ミーティア）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 364,
+        "source": "ジャスティスガンダム（ミーティア）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 365,
+        "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 375,
+        "source": "ニルヴァーシュ　ｔｙｐｅｔｈｅＥＮＤ",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 385,
+        "source": "ターミナス　ｔｙｐｅＢ３０３",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 395,
+        "source": "ターミナス　ｔｙｐｅＲ９０９",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 396,
+        "source": "スピアヘッド　ＳＨ１０１（チャールズ）",
+        "classification": "unit-name variant"
+      },
+      {
+        "slot": 397,
+        "source": "スピアヘッド　ＳＨ１０１（レイ）",
+        "classification": "unit-name variant"
+      }
+    ]
+  }
+}

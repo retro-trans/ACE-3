@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "version": "0.1.14",
+  "review": {
+    "status": "meaning_reviewed",
+    "reviewer": "unit_names_014_b",
+    "rows_in_slice": 91,
+    "rows_examined": 103,
+    "font_fit": "No widths measured. Explicit compact names are separate from full_en; parent must fit-check.",
+    "notes": [
+      "Full names preserve every equipment/form/pilot/color distinction.",
+      "Compact VF labels omit the redundant Valkyrie class name while retaining model, Super/Strike equipment, pilot, and transformation form.",
+      "Mode/Form/Equipped/Version suffixes can be implicit after an unambiguous proper label.",
+      "HC abbreviates Hermit Crab; DX is the source abbreviation of Double X; Camo abbreviates camouflage colors.",
+      "Nirvash compact ZERO retains its full model identity; all spec2 and mode suffixes remain distinct.",
+      "Normalized against completed 3000 base draft: nu, Fokker, Red Nanajin, Oukaou. Red Nanajin follows ACE3 wiki; Akka Nanajin is an alternate romanization."
+    ],
+    "independent_review": "notice_review_014: all 197 roster and variant rows checked; no model/pilot/form swaps. Compact Akito C., Hi-Mob., and GW approved; full_en retains full names."
+  },
+  "sources": [
+    "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database",
+    "https://tamashiiweb.com/item/13694/METAL/?wovn=en",
+    "https://macross.jp/pages/series?title=macross",
+    "https://tamashiiweb.com/item/16062/?sa=ASIA&wovn=es"
+  ],
+  "rows": [
+    {
+      "source": "ガンアーク　ハイマニューバモード",
+      "en": "Gun Ark High Maneuver",
+      "full_en": "Gun Ark High Maneuver Mode"
+    },
+    {
+      "source": "ブラッドアーク　ハイマニューバモード",
+      "en": "Blood Ark High Maneuver",
+      "full_en": "Blood Ark High Maneuver Mode"
+    },
+    {
+      "source": "νガンダム（ＨＷＳ装備型）",
+      "en": "nu Gundam (HWS)",
+      "full_en": "nu Gundam (HWS Equipped)"
+    },
+    {
+      "source": "ウイングガンダムゼロ（ＥＷ版）",
+      "en": "Wing Gundam Zero (EW)",
+      "full_en": "Wing Gundam Zero (EW Version)"
+    },
+    {
+      "source": "ビルバイン　ウィングキャリバー",
+      "en": "Billbine Wing Caliber",
+      "full_en": "Billbine Wing Caliber"
+    },
+    {
+      "source": "ビルバイン　ウィングキャリバー　迷彩カラー",
+      "en": "Billbine Wing Caliber (Camo)",
+      "full_en": "Billbine Wing Caliber (Camouflage Colors)"
+    },
+    {
+      "source": "エステバリス・カスタム（リョーコ）",
+      "en": "Aestivalis Custom (Ryoko)",
+      "full_en": "Aestivalis Custom (Ryoko)"
+    },
+    {
+      "source": "エステバリス・カスタム（ヒカル）",
+      "en": "Aestivalis Custom (Hikaru)",
+      "full_en": "Aestivalis Custom (Hikaru)"
+    },
+    {
+      "source": "エステバリス・カスタム（イズミ）",
+      "en": "Aestivalis Custom (Izumi)",
+      "full_en": "Aestivalis Custom (Izumi)"
+    },
+    {
+      "source": "ＶＦ－１Ａバルキリー・輝　ファイター形態",
+      "en": "VF-1A (Hikaru) Fighter",
+      "full_en": "VF-1A Valkyrie (Hikaru) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ａスーパーバルキリー・輝　ファイター形態",
+      "en": "VF-1A Super (Hikaru) Fighter",
+      "full_en": "VF-1A Super Valkyrie (Hikaru) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ａバルキリー・マックス　ファイター形態",
+      "en": "VF-1A (Max) Fighter",
+      "full_en": "VF-1A Valkyrie (Max) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ａスーパーバルキリー・マックス　ファイター形態",
+      "en": "VF-1A Super (Max) Fighter",
+      "full_en": "VF-1A Super Valkyrie (Max) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・輝　ファイター形態",
+      "en": "VF-1S (Hikaru) Fighter",
+      "full_en": "VF-1S Valkyrie (Hikaru) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・輝　ファイター形態",
+      "en": "VF-1S Strike (Hikaru) Fighter",
+      "full_en": "VF-1S Strike Valkyrie (Hikaru) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・マックス　ファイター形態",
+      "en": "VF-1S (Max) Fighter",
+      "full_en": "VF-1S Valkyrie (Max) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・マックス　ファイター形態",
+      "en": "VF-1S Strike (Max) Fighter",
+      "full_en": "VF-1S Strike Valkyrie (Max) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・フォッカー　ファイター形態",
+      "en": "VF-1S (Fokker) Fighter",
+      "full_en": "VF-1S Valkyrie (Fokker) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・フォッカー　ファイター形態",
+      "en": "VF-1S Strike (Fokker) Fighter",
+      "full_en": "VF-1S Strike Valkyrie (Fokker) Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ｊバルキリー　ファイター形態",
+      "en": "VF-1J Fighter",
+      "full_en": "VF-1J Valkyrie Fighter Form"
+    },
+    {
+      "source": "ＶＦ－１Ａバルキリー・輝　ガウォーク形態",
+      "en": "VF-1A (Hikaru) GW",
+      "full_en": "VF-1A Valkyrie (Hikaru) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ａバルキリー・輝　バトロイド形態",
+      "en": "VF-1A (Hikaru) Battroid",
+      "full_en": "VF-1A Valkyrie (Hikaru) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ａスーパーバルキリー・輝　ガウォーク形態",
+      "en": "VF-1A Super (Hikaru) GW",
+      "full_en": "VF-1A Super Valkyrie (Hikaru) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ａスーパーバルキリー・輝　バトロイド形態",
+      "en": "VF-1A Super (Hikaru) Battroid",
+      "full_en": "VF-1A Super Valkyrie (Hikaru) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ａバルキリー・マックス　ガウォーク形態",
+      "en": "VF-1A (Max) GW",
+      "full_en": "VF-1A Valkyrie (Max) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ａバルキリー・マックス　バトロイド形態",
+      "en": "VF-1A (Max) Battroid",
+      "full_en": "VF-1A Valkyrie (Max) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ａスーパーバルキリー・マックス　ガウォーク形態",
+      "en": "VF-1A Super (Max) GW",
+      "full_en": "VF-1A Super Valkyrie (Max) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ａスーパーバルキリー・マックス　バトロイド形態",
+      "en": "VF-1A Super (Max) Battroid",
+      "full_en": "VF-1A Super Valkyrie (Max) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・輝　ガウォーク形態",
+      "en": "VF-1S (Hikaru) GW",
+      "full_en": "VF-1S Valkyrie (Hikaru) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・輝　バトロイド形態",
+      "en": "VF-1S (Hikaru) Battroid",
+      "full_en": "VF-1S Valkyrie (Hikaru) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・輝　ガウォーク形態",
+      "en": "VF-1S Strike (Hikaru) GW",
+      "full_en": "VF-1S Strike Valkyrie (Hikaru) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・輝　バトロイド形態",
+      "en": "VF-1S Strike (Hikaru) Battroid",
+      "full_en": "VF-1S Strike Valkyrie (Hikaru) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・マックス　ガウォーク形態",
+      "en": "VF-1S (Max) GW",
+      "full_en": "VF-1S Valkyrie (Max) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・マックス　バトロイド形態",
+      "en": "VF-1S (Max) Battroid",
+      "full_en": "VF-1S Valkyrie (Max) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・マックス　ガウォーク形態",
+      "en": "VF-1S Strike (Max) GW",
+      "full_en": "VF-1S Strike Valkyrie (Max) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・マックス　バトロイド形態",
+      "en": "VF-1S Strike (Max) Battroid",
+      "full_en": "VF-1S Strike Valkyrie (Max) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・フォッカー　ガウォーク形態",
+      "en": "VF-1S (Fokker) GW",
+      "full_en": "VF-1S Valkyrie (Fokker) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓバルキリー・フォッカー　バトロイド形態",
+      "en": "VF-1S (Fokker) Battroid",
+      "full_en": "VF-1S Valkyrie (Fokker) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・フォッカー　ガウォーク形態",
+      "en": "VF-1S Strike (Fokker) GW",
+      "full_en": "VF-1S Strike Valkyrie (Fokker) GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ｓストライクバルキリー・フォッカー　バトロイド形態",
+      "en": "VF-1S Strike (Fokker) Battroid",
+      "full_en": "VF-1S Strike Valkyrie (Fokker) Battroid Form"
+    },
+    {
+      "source": "ＶＦ－１Ｊバルキリー　ガウォーク形態",
+      "en": "VF-1J GW",
+      "full_en": "VF-1J Valkyrie GERWALK Form"
+    },
+    {
+      "source": "ＶＦ－１Ｊバルキリー　バトロイド形態",
+      "en": "VF-1J Battroid",
+      "full_en": "VF-1J Valkyrie Battroid Form"
+    },
+    {
+      "source": "ゴッドガンダム　ハイパーモード",
+      "en": "God Gundam Hyper",
+      "full_en": "God Gundam Hyper Mode"
+    },
+    {
+      "source": "ゴッドガンダム　明鏡止水モード",
+      "en": "God Gundam Meikyo Shisui",
+      "full_en": "God Gundam Meikyo Shisui Mode"
+    },
+    {
+      "source": "マスターガンダム　明鏡止水モード",
+      "en": "Master Gundam Meikyo Shisui",
+      "full_en": "Master Gundam Meikyo Shisui Mode"
+    },
+    {
+      "source": "ナナジン（リーンの翼）",
+      "en": "Nanajin (Wings of Rean)",
+      "full_en": "Nanajin (Wings of Rean)"
+    },
+    {
+      "source": "アッカナナジン（リーンの翼）",
+      "en": "Red Nanajin (Wings of Rean)",
+      "full_en": "Red Nanajin (Wings of Rean)"
+    },
+    {
+      "source": "オウカオー（リーンの翼）",
+      "en": "Oukaou (Wings of Rean)",
+      "full_en": "Oukaou (Wings of Rean)"
+    },
+    {
+      "source": "ガンダムＤＸ（Ｇファルコン装備型）",
+      "en": "Gundam DX (G-Falcon)",
+      "full_en": "Gundam Double X (G-Falcon Equipped)"
+    },
+    {
+      "source": "ガンダムヴァサーゴ　チェストブレイク",
+      "en": "Gundam Virsago Chest Break",
+      "full_en": "Gundam Virsago Chest Break"
+    },
+    {
+      "source": "ガンダムアシュタロン　ハーミットクラブ",
+      "en": "Gundam Ashtaron Hermit Crab",
+      "full_en": "Gundam Ashtaron Hermit Crab"
+    },
+    {
+      "source": "ガンダムＤＸ（Ｇファルコン装備型）ＭＡ形態",
+      "en": "Gundam DX (G-Falcon) MA",
+      "full_en": "Gundam Double X (G-Falcon Equipped) MA Form"
+    },
+    {
+      "source": "ガンダムエアマスター　ＭＡ形態",
+      "en": "Gundam Airmaster MA",
+      "full_en": "Gundam Airmaster MA Form"
+    },
+    {
+      "source": "ガンダムアシュタロン　ＭＡ形態",
+      "en": "Gundam Ashtaron MA",
+      "full_en": "Gundam Ashtaron MA Form"
+    },
+    {
+      "source": "ガンダムアシュタロン　ハーミットクラブ　ＭＡ形態",
+      "en": "Gundam Ashtaron HC MA",
+      "full_en": "Gundam Ashtaron Hermit Crab MA Form"
+    },
+    {
+      "source": "真ゲッター２（渓）",
+      "en": "Shin Getter-2 (Kei)",
+      "full_en": "Shin Getter-2 (Kei)"
+    },
+    {
+      "source": "真ゲッター３（凱）",
+      "en": "Shin Getter-3 (Gai)",
+      "full_en": "Shin Getter-3 (Gai)"
+    },
+    {
+      "source": "真ゲッター２（隼人）",
+      "en": "Shin Getter-2 (Hayato)",
+      "full_en": "Shin Getter-2 (Hayato)"
+    },
+    {
+      "source": "真ゲッター３（弁慶）",
+      "en": "Shin Getter-3 (Benkei)",
+      "full_en": "Shin Getter-3 (Benkei)"
+    },
+    {
+      "source": "ドミネーター　ドギッグフォーム",
+      "en": "Dominator Dogick",
+      "full_en": "Dominator Dogick Form"
+    },
+    {
+      "source": "フリーダムガンダム（ミーティア装備）",
+      "en": "Freedom Gundam (Meteor)",
+      "full_en": "Freedom Gundam (Meteor Equipped)"
+    },
+    {
+      "source": "ジャスティスガンダム（ミーティア装備）",
+      "en": "Justice Gundam (Meteor)",
+      "full_en": "Justice Gundam (Meteor Equipped)"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ",
+      "en": "Nirvash typeZERO",
+      "full_en": "Nirvash typeZERO"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ２",
+      "en": "Nirvash typeZERO spec2",
+      "full_en": "Nirvash typeZERO spec2"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ３",
+      "en": "Nirvash typeZERO spec3",
+      "full_en": "Nirvash typeZERO spec3"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅｔｈｅＥＮＤ",
+      "en": "Nirvash typetheEND",
+      "full_en": "Nirvash typetheEND"
+    },
+    {
+      "source": "ターミナス　ｔｙｐｅＢ３０３",
+      "en": "Terminus typeB303",
+      "full_en": "Terminus typeB303"
+    },
+    {
+      "source": "ターミナス　ｔｙｐｅＲ９０９",
+      "en": "Terminus typeR909",
+      "full_en": "Terminus typeR909"
+    },
+    {
+      "source": "スピアヘッド　ＳＨ１０１（チャールズ）",
+      "en": "Spearhead SH101 (Charles)",
+      "full_en": "Spearhead SH101 (Charles)"
+    },
+    {
+      "source": "スピアヘッド　ＳＨ１０１（レイ）",
+      "en": "Spearhead SH101 (Ray)",
+      "full_en": "Spearhead SH101 (Ray)"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　ビークルモード",
+      "en": "Nirvash typeZERO Vehicle",
+      "full_en": "Nirvash typeZERO Vehicle Mode"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　セブンスウェル",
+      "en": "Nirvash typeZERO Seven Swell",
+      "full_en": "Nirvash typeZERO Seven Swell"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ２　ビークルモード",
+      "en": "Nirvash ZERO spec2 Vehicle",
+      "full_en": "Nirvash typeZERO spec2 Vehicle Mode"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ２　飛行モード",
+      "en": "Nirvash ZERO spec2 Flight",
+      "full_en": "Nirvash typeZERO spec2 Flight Mode"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅＺＥＲＯ　Ｓｐｅｃ２　セブンスウェル",
+      "en": "Nirvash ZERO spec2 Seven Swell",
+      "full_en": "Nirvash typeZERO spec2 Seven Swell"
+    },
+    {
+      "source": "ターミナス　ｔｙｐｅＲ９０９　ビークルモード",
+      "en": "Terminus typeR909 Vehicle",
+      "full_en": "Terminus typeR909 Vehicle Mode"
+    },
+    {
+      "source": "ニルヴァーシュ　ｔｙｐｅｔｈｅＥＮＤ　浄化",
+      "en": "Nirvash theEND Purification",
+      "full_en": "Nirvash typetheEND Purification"
+    },
+    {
+      "source": "ＹＦ－１９　ファイター形態",
+      "en": "YF-19 Fighter",
+      "full_en": "YF-19 Fighter Form"
+    },
+    {
+      "source": "ＹＦ－１９（ファストパック）　ファイター形態",
+      "en": "YF-19 (FAST Pack) Fighter",
+      "full_en": "YF-19 (FAST Pack) Fighter Form"
+    },
+    {
+      "source": "ＹＦ－２１　ファイター形態",
+      "en": "YF-21 Fighter",
+      "full_en": "YF-21 Fighter Form"
+    },
+    {
+      "source": "ＹＦ－２１（ファストパック）　ファイター形態",
+      "en": "YF-21 (FAST Pack) Fighter",
+      "full_en": "YF-21 (FAST Pack) Fighter Form"
+    },
+    {
+      "source": "ＹＦ－１９　ガウォーク形態",
+      "en": "YF-19 GW",
+      "full_en": "YF-19 GERWALK Form"
+    },
+    {
+      "source": "ＹＦ－１９　バトロイド形態",
+      "en": "YF-19 Battroid",
+      "full_en": "YF-19 Battroid Form"
+    },
+    {
+      "source": "ＹＦ－２１　ガウォーク形態",
+      "en": "YF-21 GW",
+      "full_en": "YF-21 GERWALK Form"
+    },
+    {
+      "source": "ＹＦ－２１　バトロイド形態",
+      "en": "YF-21 Battroid",
+      "full_en": "YF-21 Battroid Form"
+    },
+    {
+      "source": "ＹＦ－１９（ファストパック）　ガウォーク形態",
+      "en": "YF-19 (FAST Pack) GW",
+      "full_en": "YF-19 (FAST Pack) GERWALK Form"
+    },
+    {
+      "source": "ＹＦ－１９（ファストパック）　バトロイド形態",
+      "en": "YF-19 (FAST Pack) Battroid",
+      "full_en": "YF-19 (FAST Pack) Battroid Form"
+    },
+    {
+      "source": "ＹＦ－２１（ファストパック）　ガウォーク形態",
+      "en": "YF-21 (FAST Pack) GW",
+      "full_en": "YF-21 (FAST Pack) GERWALK Form"
+    },
+    {
+      "source": "ＹＦ－２１（ファストパック）　バトロイド形態",
+      "en": "YF-21 (FAST Pack) Battroid",
+      "full_en": "YF-21 (FAST Pack) Battroid Form"
+    },
+    {
+      "source": "フリーダムガンダム（ミーティア）",
+      "en": "Freedom Gundam (Meteor)",
+      "full_en": "Freedom Gundam (Meteor)"
+    },
+    {
+      "source": "ジャスティスガンダム（ミーティア）",
+      "en": "Justice Gundam (Meteor)",
+      "full_en": "Justice Gundam (Meteor)"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "reviewer": "independent_meaning_review_3549_agent",
+  "slice_start": 3549,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 3534,
+      "end": 3643
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_03624",
+      "before": "You two are putting up a good fight.",
+      "after": "You're all putting up a good fight.",
+      "reason": "Source '君たちは健闘している。' uses plain plural '君たち' ('you all'/'you people'); the source never states a count. 'You two' asserted an unstated number of addressees, which the surrounding rows (a multi-unit engagement against Berkt) do not confirm as exactly two. Changed to a count-neutral plural so no information is invented."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [3570],
+      "finding": "Referent of 'あいつ' ('him') is genuinely ambiguous between Holland (named the row before as the Gekko is abandoned) and Berkt (the mission's pursuit target). The neutral 'him' is correct because both referents are male; no identity was invented."
+    },
+    {
+      "rows": [3608, 3609, 3610, 3611],
+      "finding": "Speaker order around reaching the target point and Berkt's appearance is untagged in the source. Assigning the cold dismissal at 3611 to Berkt (named callout at 3610, matches his glossary personality 'reserved, emotionally guarded; hostile') is a reasonable, non-distorting read; no name was written into the target text itself."
+    },
+    {
+      "rows": [3619, 3620, 3621, 3622, 3623],
+      "finding": "Confirmed per task ruling: '前の大戦' ('the previous great war') is Gundam Wing's own backstory conflict referenced by Heero while explaining Zero's sealing, distinct from the ACE3-continuity locked term 'First Defensive War'. Keeping it generic is correct; substituting the locked term would have been the actual error."
+    },
+    {
+      "rows": [3628],
+      "finding": "Source box is left open (no closing command) and the exchange continues into dialogue_03629 in the next slice. This is a source artifact of the slice boundary, not a translation defect; the continuation reads coherently."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_03570"],
+      "issue": "Referent of 'him' cannot be resolved from either adjacent slice; both candidates (Holland, Berkt) are male so the English holds under either reading. Passed as-is."
+    },
+    {
+      "ids": ["dialogue_03608", "dialogue_03609", "dialogue_03610", "dialogue_03611"],
+      "issue": "No explicit speaker tags around Berkt's appearance; speaker assignment for 3609 and 3611 rests on tone and glossary personality rather than a tag. No identity is asserted in the English text itself, so the ambiguity carries no meaning risk, but it is reported per BASE_RULES."
+    }
+  ],
+  "validation": {
+    "controls": "Re-ran tools/dialogue_corpus.py slice 3549 80 --context 15 and diffed the ordered <...> command list of every target against the source: all 80 rows equal, including the malformed/unclosed boxes at dialogue_03551, dialogue_03554, dialogue_03567, dialogue_03597, dialogue_03603, dialogue_03606, dialogue_03619-03621, dialogue_03624 and dialogue_03628. The one meaning fix (dialogue_03624) did not touch any command.",
+    "format": "No newlines in any target; ASCII only except locked-name markup; no bare percent sign.",
+    "fit": "Longest visible text remains 96 characters (limit 110); the one edited row is 36 visible characters, well under the limit.",
+    "runtime": "Runtime scene selection, font coverage, and on-screen visual fit are not established by this meaning review."
+  }
+}

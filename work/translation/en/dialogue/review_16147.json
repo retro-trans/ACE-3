@@ -1,0 +1,63 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 16147,
+  "slice_count": 66,
+  "rows_examined": [{"start": 16132, "end": 16227}],
+  "rows_examined_count": 96,
+  "rows_in_slice": 66,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_16161",
+      "before": "Where's boss?",
+      "after": "Enemy's boss?",
+      "reason": "Source 敌の親分はどこに？ explicitly asks for the ENEMY's boss/leader. Dropping 'enemy' creates a real ambiguity this speaker (Amuro, a soldier who has an actual chain of command) doesn't have in the source: 'Where's boss?' could be misread as asking after his own commanding officer rather than the enemy leader. 'Enemy's boss?' (13 chars) restores the referent and fits the 16-char budget (min(72, 2*9-2))."
+    },
+    {
+      "id": "dialogue_16166",
+      "before": "Don't underestimate me!",
+      "after": "Don't underestimate me! I can too!",
+      "reason": "Source is なめるなよ、馬鹿にするなよ。僕だって！ -- the sentence's second half, 'I can do it too!' (僕だって), was dropped entirely rather than compressed, against the base rule to never drop the end of a sentence. This line's self-assertion ('I can too') is part of this resource's running theme (echoed in dialogue_16159 and dialogue_16175, 'I can too...!'), so dropping it loses characterization, not just wording. The restored line (34 chars) still fits the 36-char budget (min(72, 2*19-2))."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [16153, 16154, 16155, 16157, 16158, 16159, 16164, 16169, 16173, 16192, 16202, 16208, 16210],
+      "finding": "Confirmed against work/glossary/glossary.json (char.amuro_ray): the entry itself already flags 'The CCA-era speaker and the 0079 guest-unit presentation require scene context' as an open translation note, and lists the CCA-veteran personality/nickname ('Compassionate; seeks a future for Earth', 'White Devil') separately from any 0079 voice. The stammering, self-doubting, boasting-about-being-the-best-Gundam-pilot content of this whole 2824010 block (rows 16153-16212) is inconsistent with the locked CCA-veteran profile but consistent with the 0079 debut characterization the translator used. The translator's call to voice this resource as nervous 0079 Amuro rather than the locked CCA personality is correct and matches the glossary's own caveat."
+    },
+    {
+      "rows": [16153, 16212],
+      "finding": "CORRECTION to the translator's uncertainty note: work/ui/shout_groups.json lists resource 2824010's row range as exactly [16153, 16212] -- fully contained within this single batch, not continuing into later batches. Resource 2824011 (Full Armor Gundam) does not appear anywhere in shout_groups.json at all. The translator's recommendation to 'add a distinct profile before later batches in resource 2824010/2824011 (rows continue past 16212)' is based on a mistaken assumption; there are no further rows for this resource for the 0079-voice decision to stay consistent with. The orchestrator can treat the voice decision above as settled for this resource without needing to coordinate across batches."
+    },
+    {
+      "rows": [16179, 16180, 16181, 16182, 16183, 16184, 16185, 16186, 16187, 16188],
+      "finding": "Checked the full resource block (rows 16153-16212, all within this same batch) both before and after this exchange; the addressee is never named or gendered anywhere in the resource. The uncertainty is genuinely unresolvable from available context, not just from this slice. Second-person address was kept with no invented identity/gender throughout (16179-16188) and the parallel third-person case (16189 'you' vs. 16207 'them' for あの人) was handled consistently. No fix needed; uncertainty stands."
+    },
+    {
+      "rows": [16200],
+      "finding": "こいつ違うぞ。ザクなんかと、装甲もパワーも names 'Zaku' explicitly as the comparison point; target 'This one's different. More armor, more power.' drops the named comparison because the 46-char budget (min(72, 2*24-2)) leaves no room to add it back (current target is already 45/46). Not a reversal, a budget-forced omission; the general sense ('stronger than what I'm used to') survives."
+    },
+    {
+      "rows": [16201, 16200],
+      "finding": "'Zaku' and 'Gouf' spellings confirmed as standard/universal Gundam localization forms; no conflicting entry found in work/glossary/*.json. Agree with the translator's proposal to add these to the glossary going forward."
+    },
+    {
+      "rows": [16204],
+      "finding": "Extreme budget (6 visible chars, from 4 source chars 大物だ。) forces 'Big.' for a line meaning 'a big shot/formidable presence has arrived'; already disclosed by the translator, confirmed unavoidable at this budget."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_16179", "dialogue_16180", "dialogue_16181", "dialogue_16182", "dialogue_16183", "dialogue_16184", "dialogue_16185", "dialogue_16186", "dialogue_16187", "dialogue_16188"],
+      "issue": "Referent of the formal, admiring second-person address (struggling ally vs. admired opponent) remains unresolved even after checking the complete resource 2824010 block (rows 16153-16212, entirely inside this batch); no further context exists in the corpus's own shout table for this resource to settle it. Left ungendered/unidentified per rule."
+    }
+  ],
+  "validation": {
+    "controls": "All rows share the identical command sequence <op()><sp(20)>...<ab(1000)><ed()> in the same order as the source; verified against tools/dialogue_corpus.py slice 16147 66 --context 15 for every row in this slice plus 15 rows of context each side, including after applying both meaning fixes.",
+    "format": "No newlines in any target; source \\n line breaks (rows 16159, 16164, 16165, 16166, 16170, 16171, 16172, 16179, 16181, 16183, 16184, 16190, 16191, 16198, 16200, 16201, 16202, 16209) correctly joined.",
+    "ascii": "ASCII only, no bare lowercase j/q outside locked names (none needed); both corrected rows re-checked and pass.",
+    "fit": "Every row's visible text, including the two corrected rows, re-checked against min(72, 2*source_japanese_char_count - 2); all pass.",
+    "names": "'Zaku' and 'Gouf' (rows 16200/16201) are not yet in a local glossary file but match universal official localization spelling; no conflicting spelling found. No other character/unit names appear in this slice's visible text.",
+    "meaning_review": "Independent meaning review completed for all 66 rows; 2 rows received a meaning fix (dialogue_16161, dialogue_16166); every row set to 'meaning_reviewed'."
+  }
+}

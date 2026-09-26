@@ -1,0 +1,676 @@
+{
+  "categories": [
+    {
+      "table_id": 3054,
+      "category": "Free Mission",
+      "bundle_ids": [
+        4002050,
+        4002057
+      ],
+      "rows": [
+        {
+          "slot": 0,
+          "source": "フリーミッション",
+          "en": "Free Mission"
+        },
+        {
+          "slot": 1,
+          "source": "「フリーミッション」は過去のミッションなどを\nプレイできるゲームモードです。\n\nキャンペーンモードを進めることにより、\nミッションが追加されていきます。",
+          "en": "Free Mission lets you replay past missions.\n\nMore missions become available as you\nprogress through Campaign mode."
+        },
+        {
+          "slot": 2,
+          "source": "フリーミッションの行動を選んでください。",
+          "en": "Choose an action in Free Mission."
+        },
+        {
+          "slot": 4,
+          "source": "選択：㊤㊦　設定：㊧㊨　決定：○",
+          "en": "Select:㊤㊦  Change:㊧㊨  Confirm:○"
+        },
+        {
+          "slot": 5,
+          "source": "選択：㊤㊦　決定：○",
+          "en": "Select:㊤㊦  Confirm:○"
+        },
+        {
+          "slot": 9,
+          "source": "出撃",
+          "en": "Deploy"
+        },
+        {
+          "slot": 10,
+          "source": "ミッション",
+          "en": "Mission"
+        },
+        {
+          "slot": 11,
+          "source": "難易度",
+          "en": "Difficulty"
+        },
+        {
+          "slot": 12,
+          "source": "ユニット編入",
+          "en": "Add Units"
+        },
+        {
+          "slot": 13,
+          "source": "戦闘記録",
+          "en": "Combat Records"
+        },
+        {
+          "slot": 14,
+          "source": "オプション",
+          "en": "Options"
+        },
+        {
+          "slot": 15,
+          "source": "戻る",
+          "en": "Back"
+        },
+        {
+          "slot": 19,
+          "source": "ブリーフィングを開始します",
+          "en": "Begin the briefing."
+        },
+        {
+          "slot": 20,
+          "source": "ミッションを選択します",
+          "en": "Select a mission."
+        },
+        {
+          "slot": 21,
+          "source": "難易度を設定します",
+          "en": "Set the difficulty."
+        },
+        {
+          "slot": 22,
+          "source": "新しいユニットを部隊に編入させます",
+          "en": "Add new units to your forces."
+        },
+        {
+          "slot": 23,
+          "source": "戦闘記録を閲覧します",
+          "en": "View combat records."
+        },
+        {
+          "slot": 24,
+          "source": "ゲームオプションを変更します",
+          "en": "Change game options."
+        },
+        {
+          "slot": 25,
+          "source": "トップメニューに戻ります",
+          "en": "Return to the main menu."
+        },
+        {
+          "slot": 29,
+          "source": "難易度",
+          "en": "Difficulty"
+        },
+        {
+          "slot": 30,
+          "source": "イージー",
+          "en": "Easy"
+        },
+        {
+          "slot": 31,
+          "source": "ノーマル",
+          "en": "Normal"
+        },
+        {
+          "slot": 32,
+          "source": "ハード",
+          "en": "Hard"
+        },
+        {
+          "slot": 33,
+          "source": "リアルエース",
+          "en": "Real Ace"
+        },
+        {
+          "slot": 39,
+          "source": "ハイスコア",
+          "en": "High Score"
+        },
+        {
+          "slot": 40,
+          "source": "タイム",
+          "en": "Time"
+        },
+        {
+          "slot": 41,
+          "source": "ポイント",
+          "en": "Points"
+        },
+        {
+          "slot": 42,
+          "source": "ダメージ",
+          "en": "Damage"
+        },
+        {
+          "slot": 43,
+          "source": "ランク",
+          "en": "Rank"
+        },
+        {
+          "slot": 49,
+          "source": "００：００：００",
+          "en": "００：００：００"
+        },
+        {
+          "slot": 50,
+          "source": "００００００",
+          "en": "００００００"
+        },
+        {
+          "slot": 51,
+          "source": "０００００",
+          "en": "０００００"
+        },
+        {
+          "slot": 54,
+          "source": "－－：－－：－－",
+          "en": "－－：－－：－－"
+        },
+        {
+          "slot": 55,
+          "source": "－－－－－－",
+          "en": "－－－－－－"
+        },
+        {
+          "slot": 56,
+          "source": "－－－－－",
+          "en": "－－－－－"
+        },
+        {
+          "slot": 59,
+          "source": "獲得ランク",
+          "en": "Rank Earned"
+        },
+        {
+          "slot": 60,
+          "source": "エース",
+          "en": "Ace"
+        },
+        {
+          "slot": 61,
+          "source": "ベテラン",
+          "en": "Veteran"
+        },
+        {
+          "slot": 62,
+          "source": "リーダー",
+          "en": "Leader"
+        },
+        {
+          "slot": 63,
+          "source": "パイロット",
+          "en": "Pilot"
+        },
+        {
+          "slot": 64,
+          "source": "ルーキー",
+          "en": "Rookie"
+        },
+        {
+          "slot": 69,
+          "source": "シークレット",
+          "en": "Secret"
+        },
+        {
+          "slot": 70,
+          "source": "シークレット条件",
+          "en": "Secret Conditions"
+        },
+        {
+          "slot": 71,
+          "source": "達成状況",
+          "en": "Completion Status"
+        },
+        {
+          "slot": 74,
+          "source": "達成",
+          "en": "Achieved"
+        }
+      ]
+    },
+    {
+      "table_id": 3001,
+      "category": "Mission Results",
+      "bundle_ids": [
+        4002051
+      ],
+      "rows": [
+        {
+          "slot": 0,
+          "source": "スキップ：○",
+          "en": "Skip:○"
+        },
+        {
+          "slot": 1,
+          "source": "スクロール：㊤㊦　戻る：×　終了：○",
+          "en": "Scroll:㊤㊦  Back:×  Close:○"
+        },
+        {
+          "slot": 4,
+          "source": "ウィングガンダムゼロカスタム",
+          "en": "Wing Gundam Zero Custom"
+        },
+        {
+          "slot": 5,
+          "source": "リカバリーデバイス",
+          "en": "Recovery Device"
+        },
+        {
+          "slot": 9,
+          "source": "ミッションクリア",
+          "en": "Mission Clear"
+        },
+        {
+          "slot": 10,
+          "source": "ＭＩＳＳＩＯＮ　ＣＬＥＡＲ",
+          "en": "ＭＩＳＳＩＯＮ　ＣＬＥＡＲ"
+        },
+        {
+          "slot": 11,
+          "source": "ＣＡＴＥＧＯＲＹ",
+          "en": "ＣＡＴＥＧＯＲＹ"
+        },
+        {
+          "slot": 12,
+          "source": "ＲＥＳＵＬＴ",
+          "en": "ＲＥＳＵＬＴ"
+        },
+        {
+          "slot": 13,
+          "source": "ＣＯＮＶＥＲＴ　ＰＯＩＮＴ",
+          "en": "ＣＯＮＶＥＲＴ　ＰＯＩＮＴ"
+        },
+        {
+          "slot": 14,
+          "source": "ＲＡＮＫ",
+          "en": "ＲＡＮＫ"
+        },
+        {
+          "slot": 15,
+          "source": "クリアタイム",
+          "en": "Clear Time"
+        },
+        {
+          "slot": 16,
+          "source": "撃墜ポイント",
+          "en": "Destruction Points"
+        },
+        {
+          "slot": 17,
+          "source": "ダメージ",
+          "en": "Damage"
+        },
+        {
+          "slot": 18,
+          "source": "チェインタイム",
+          "en": "Chain Time"
+        },
+        {
+          "slot": 19,
+          "source": "オペレーション評価",
+          "en": "Operation Rating"
+        },
+        {
+          "slot": 20,
+          "source": "取得エースポイント",
+          "en": "Ace Points Earned"
+        },
+        {
+          "slot": 21,
+          "source": "ＧＥＴ　ＰＯＩＮＴ",
+          "en": "ＧＥＴ　ＰＯＩＮＴ"
+        },
+        {
+          "slot": 22,
+          "source": "ＰＩＬＯＴ　ＲＡＮＫ",
+          "en": "ＰＩＬＯＴ　ＲＡＮＫ"
+        },
+        {
+          "slot": 23,
+          "source": "エースポイント",
+          "en": "Ace Points"
+        },
+        {
+          "slot": 24,
+          "source": "ユニット経験値",
+          "en": "Unit EXP"
+        },
+        {
+          "slot": 25,
+          "source": "僚機熟練度",
+          "en": "Wingman Proficiency"
+        },
+        {
+          "slot": 29,
+          "source": "撃墜ポイント詳細",
+          "en": "Destruction Point Details"
+        },
+        {
+          "slot": 30,
+          "source": "撃墜数",
+          "en": "Units Destroyed"
+        },
+        {
+          "slot": 31,
+          "source": "撃墜ポイント",
+          "en": "Destruction Points"
+        },
+        {
+          "slot": 32,
+          "source": "モジュール",
+          "en": "Module"
+        },
+        {
+          "slot": 39,
+          "source": "#iＳＳ#i",
+          "en": "#iＳＳ#i"
+        },
+        {
+          "slot": 40,
+          "source": "#iＳ#i",
+          "en": "#iＳ#i"
+        },
+        {
+          "slot": 41,
+          "source": "#iＡ#i",
+          "en": "#iＡ#i"
+        },
+        {
+          "slot": 42,
+          "source": "#iＢ#i",
+          "en": "#iＢ#i"
+        },
+        {
+          "slot": 43,
+          "source": "#iＣ#i",
+          "en": "#iＣ#i"
+        },
+        {
+          "slot": 44,
+          "source": "#iＤ#i",
+          "en": "#iＤ#i"
+        },
+        {
+          "slot": 45,
+          "source": "#iＥ#i",
+          "en": "#iＥ#i"
+        },
+        {
+          "slot": 49,
+          "source": "#iエース#i",
+          "en": "#iAce#i"
+        },
+        {
+          "slot": 50,
+          "source": "#iベテラン#i",
+          "en": "#iVeteran#i"
+        },
+        {
+          "slot": 51,
+          "source": "#iリーダー#i",
+          "en": "#iLeader#i"
+        },
+        {
+          "slot": 52,
+          "source": "#iパイロット#i",
+          "en": "#iPilot#i"
+        },
+        {
+          "slot": 53,
+          "source": "#iルーキー#i",
+          "en": "#iRookie#i"
+        },
+        {
+          "slot": 59,
+          "source": "㍉確認",
+          "en": "㍉Confirm"
+        },
+        {
+          "slot": 60,
+          "source": "セーブしますか？",
+          "en": "Save your game?"
+        },
+        {
+          "slot": 62,
+          "source": "㌔ミッションクリア",
+          "en": "㌔Mission Clear"
+        },
+        {
+          "slot": 63,
+          "source": "ここではプレイしたミッションの成果を確認できます。",
+          "en": "View the results of the mission you played."
+        }
+      ]
+    },
+    {
+      "table_id": 3054,
+      "category": "Free Mission",
+      "bundle_ids": [
+        4002055
+      ],
+      "rows": [
+        {
+          "slot": 0,
+          "source": "フリーミッション",
+          "en": "Free Mission"
+        },
+        {
+          "slot": 1,
+          "source": "ここではクリア済みのミッションを\n自由にプレイすることができます。\nまた、キャンペーンでは編入しない\nユニットを編入させることも可能です。",
+          "en": "Replay completed missions here.\nYou can also add units\nnot added in Campaign."
+        },
+        {
+          "slot": 3,
+          "source": "出撃準備",
+          "en": "Deployment Prep"
+        },
+        {
+          "slot": 4,
+          "source": "ミッション",
+          "en": "Mission"
+        },
+        {
+          "slot": 5,
+          "source": "難易度",
+          "en": "Difficulty"
+        },
+        {
+          "slot": 6,
+          "source": "セーブ",
+          "en": "Save"
+        },
+        {
+          "slot": 7,
+          "source": "オプション",
+          "en": "Options"
+        },
+        {
+          "slot": 8,
+          "source": "メニューに戻る",
+          "en": "Return to Menu"
+        },
+        {
+          "slot": 10,
+          "source": "ＭＩＳＳＩＯＮ　ＳＣＯＲＥ",
+          "en": "ＭＩＳＳＩＯＮ　ＳＣＯＲＥ"
+        },
+        {
+          "slot": 11,
+          "source": "最高クリアタイム",
+          "en": "Best Clear Time"
+        },
+        {
+          "slot": 12,
+          "source": "ルーキー",
+          "en": "Rookie"
+        },
+        {
+          "slot": 13,
+          "source": "パイロット",
+          "en": "Pilot"
+        },
+        {
+          "slot": 14,
+          "source": "リーダー",
+          "en": "Leader"
+        },
+        {
+          "slot": 15,
+          "source": "ベテラン",
+          "en": "Veteran"
+        },
+        {
+          "slot": 16,
+          "source": "エース",
+          "en": "Ace"
+        },
+        {
+          "slot": 17,
+          "source": "最高クリアランク",
+          "en": "Best Clear Rank"
+        },
+        {
+          "slot": 18,
+          "source": "シークレット",
+          "en": "Secret"
+        },
+        {
+          "slot": 19,
+          "source": "未達成",
+          "en": "Not Achieved"
+        },
+        {
+          "slot": 20,
+          "source": "達成",
+          "en": "Achieved"
+        },
+        {
+          "slot": 21,
+          "source": "ＭＩＳＳＩＯＮ　ＤＡＴＡ",
+          "en": "ＭＩＳＳＩＯＮ　ＤＡＴＡ"
+        },
+        {
+          "slot": 22,
+          "source": "勝利条件",
+          "en": "Victory Conditions"
+        },
+        {
+          "slot": 23,
+          "source": "敗北条件",
+          "en": "Defeat Conditions"
+        },
+        {
+          "slot": 24,
+          "source": "シークレット条件",
+          "en": "Secret Conditions"
+        },
+        {
+          "slot": 25,
+          "source": "ＲＡＮＫ　ＤＡＴＡ",
+          "en": "ＲＡＮＫ　ＤＡＴＡ"
+        },
+        {
+          "slot": 26,
+          "source": "獲得ランク",
+          "en": "Rank Earned"
+        },
+        {
+          "slot": 29,
+          "source": "選択：㊤㊦　設定：㊧㊨",
+          "en": "Select:㊤㊦  Change:㊧㊨"
+        },
+        {
+          "slot": 30,
+          "source": "選択：㊤㊦　決定：○",
+          "en": "Select:㊤㊦  Confirm:○"
+        },
+        {
+          "slot": 31,
+          "source": "選択：㊤㊦　設定：㊧㊨　ミッションスキップ：⑤／①",
+          "en": "Select:㊤㊦  Change:㊧㊨  Skip Mission:⑤／①"
+        },
+        {
+          "slot": 32,
+          "source": "000：00",
+          "en": "000：00"
+        },
+        {
+          "slot": 33,
+          "source": "000：00",
+          "en": "000：00"
+        },
+        {
+          "slot": 34,
+          "source": "000：00",
+          "en": "000：00"
+        },
+        {
+          "slot": 36,
+          "source": "00",
+          "en": "00"
+        },
+        {
+          "slot": 37,
+          "source": "00",
+          "en": "00"
+        },
+        {
+          "slot": 38,
+          "source": "00",
+          "en": "00"
+        },
+        {
+          "slot": 39,
+          "source": "00",
+          "en": "00"
+        },
+        {
+          "slot": 40,
+          "source": "00",
+          "en": "00"
+        },
+        {
+          "slot": 44,
+          "source": "㌔フリーミッション",
+          "en": "㌔Free Mission"
+        },
+        {
+          "slot": 47,
+          "source": "---：--",
+          "en": "---：--"
+        },
+        {
+          "slot": 49,
+          "source": "－－－",
+          "en": "－－－"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "meaning_reviewed",
+    "rows_examined": 170,
+    "unique_category_rows": 125,
+    "rows_in_slice": 125,
+    "checks": [
+      "Every nonnull row in both categories, including both Free Mission variants, examined together.",
+      "All #i tags, button icons, header icons and dynamic numeric placeholders preserved exactly.",
+      "Existing fullwidth English labels and rank letters retained unchanged.",
+      "English targets checked for CP932 encodability."
+    ],
+    "uncertainties": [
+      "Wing Gundam Zero Custom verified against Bandai and locked in flight_save_terms.json after review. Recovery Device remains a provisional literal name; no external naming authority found.",
+      "Free Mission help preserves units not added in Campaign without asserting that recruitment there is impossible.",
+      "Destruction Points renders 撃墜ポイント without restricting targets to aircraft; harmonize this terminology across the patch."
+    ],
+    "runtime_validation": "Pending layout and in-game checks by the build integrator.",
+    "independent_review": "flight_translation_013 reviewed125rows; removed unsupported claim that unit recruitment is impossible in Campaign. save_translation_013 equivalents used for five exact-source repeated strings. Removed optional just to avoid unsupported lowercase j in native menu font."
+  }
+}

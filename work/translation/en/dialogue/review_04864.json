@@ -1,0 +1,39 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 4864,
+  "slice_count": 80,
+  "rows_examined": [{"start": 4849, "end": 4958}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [4868, 4886], "finding": "Bickering 'high school rivalry' exchange (lent Guns CDV, wrecked bike, chicken race) verified against source: no color-tagged speaker names anywhere in this span. Correctly left with no invented identity or gender; translation preserves the tit-for-tat structure and every callback (CDV, lunches, bike) line for line."},
+    {"rows": [4890, 4891], "finding": "'Barrel' is a plain-text name in the source line itself (not invented); the reply at 4891 is an unattributed adjacency inference, correctly hedged in notes rather than asserted as fact."},
+    {"rows": [4892, 4900], "finding": "King Gainer/Eureka Seven atmospheric-entry banter (Gainer, Renton) matches source line for line; no addressee reversal."},
+    {"id": 4901, "finding": "'Why don't you tell us why you came here' correctly addressed to Marina per the reply at 4902; no subject invented."},
+    {"id": 4902, "finding": "Source 参加する (join/participate) rendered 'team up with' to avoid the letter j; meaning (joining Londo Bell of her own will) preserved intact."},
+    {"id": 4906, "finding": "Colonel Millard / New Edwards Base: orchestrator ruling applied (both kept as researched/literal); matches ミラード大佐 and ニューエドワード基地 exactly."},
+    {"id": 4907, "finding": "Misumaru per meeting_terms_015.json inherited_terms list; confirmed correct."},
+    {"id": 4908, "finding": "Dyson (ダイソン中尉) matches character_names_021.json / prior batch_01073 usage."},
+    {"id": 4917, "finding": "Marina Carson rank shoi (少尉) rendered 'Ensign' per terms_028.json's Barrel precedent (shoui=Ensign); consistent."},
+    {"id": 4920, "finding": "ホシノ艦長 (kanchou, ship-captain title) rendered 'Captain Hoshino' per the orchestrator's ruling for this task; distinguishable from her military rank Lt. Cmdr. (少佐) used elsewhere in the corpus (e.g. batch_01073/meeting_terms_015.json). Both are correct for their respective source words -- resolves the translator's flagged conflict, no change needed."},
+    {"rows": [4914, 4934], "finding": "Gekko (月光号) and Meio Plato/Falguen Custom engagement start (マイヨ) verified against meeting_terms_015.json and character_names_021.json; no name errors."},
+    {"rows": [4938, 4943], "finding": "Meio Plato vs. unnamed Londo Bell pilot dispute over Giganos's cause; Char (シャア) locked spelling confirmed; no reversal of who refuses to die or who is arguing for negotiation."},
+    {"note": "Re-ran a throwaway console diff of every <...> command against the source in original order for all 80 rows (0 mismatches), confirmed newline count parity per row (0 mismatches), confirmed ASCII-only content with no bare fullwidth-percent violations, confirmed no visible text exceeds 110 chars, and confirmed no stray lowercase j/q outside locked names. Script was discarded after use."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_04868", "dialogue_04869", "dialogue_04870", "dialogue_04871", "dialogue_04872", "dialogue_04873", "dialogue_04874", "dialogue_04875", "dialogue_04876", "dialogue_04877", "dialogue_04878", "dialogue_04879", "dialogue_04880", "dialogue_04881", "dialogue_04882", "dialogue_04883", "dialogue_04884", "dialogue_04885", "dialogue_04886"], "issue": "Confirmed via the raw source dump that none of these lines carry a color-tag or name; the civilian-slang tone genuinely differs from the surrounding military scene. Leaving the pair unidentified and gender-neutral is the correct call, not a gap -- flagging again since an unresolved identity is exactly the kind of judgment call worth a second set of eyes."},
+    {"id": "dialogue_04879", "issue": "'Guns CDV' (ガンズのＣＤＶ) is still an unresolved literal proper noun (possible real-world band/media reference). Not a meaning defect; carried forward as the translator's glossary proposal for confirmation if the term recurs elsewhere in the corpus."},
+    {"id": "dialogue_04906", "issue": "'Colonel Millard' ruled to stay literal per this task's instructions (no matching named Gundam-universe character found in prior research); New Edwards Base accepted. No further action."},
+    {"id": "dialogue_04920", "issue": "Ruled per this task's instructions: 'Captain Hoshino' for 艦長 (kanchou), reserving 'Lt. Cmdr. Hoshino' for 少佐. Row 4920 uses 艦長, so 'Captain Hoshino' is correct as drafted; the apparent inconsistency with her locked rank elsewhere is intentional (title vs. rank), not an error."},
+    {"ids": ["dialogue_04903", "dialogue_04909", "dialogue_04911", "dialogue_04912"], "issue": "Rough-spoken pilot bickering with Marina/Amuro's group has no color-tag or name in source; correctly left unassigned."}
+  ],
+  "validation": {
+    "commands": "Every <...> command reproduced in source order for all 80 rows; re-verified independently with a throwaway script comparing tag sequences against tools/dialogue_corpus.py output -- 0 mismatches.",
+    "newline": "Per-row newline count in target matches source exactly for all 80 rows (verified by script); no stray or missing line breaks.",
+    "ascii": "All target text is ASCII-only except the fullwidth percent sign convention (none required in this slice); verified by script.",
+    "fit": "Visible text (tags stripped) is <=110 chars for all 80 rows, verified by script; no further compression needed beyond the translator's own 4906/4939 trims.",
+    "font": "No lowercase j/q found outside locked proper nouns, verified by script."
+  }
+}

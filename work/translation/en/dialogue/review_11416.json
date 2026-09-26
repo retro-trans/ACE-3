@@ -1,0 +1,26 @@
+{
+  "reviewer": "independent_meaning_review_baldora2_agent",
+  "slice_start": 11416,
+  "slice_count": 5,
+  "rows_examined": [{"start": 11401, "end": 11435}],
+  "rows_examined_count": 35,
+  "rows_in_slice": 5,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"ids": ["dialogue_11416", "dialogue_11420"], "finding": "Continuation of the Barrel/Faye farewell exchange begun at 11402-11409 (context rows); addressees and content match, no reversal or invented subject found."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_11416", "dialogue_11417", "dialogue_11418", "dialogue_11419", "dialogue_11420"],
+      "issue": "Speaker/addressee are untagged in the source; identity follows directly from the established Barrel/Faye exchange in the preceding rows (11402-11409), so no new identity or gender was invented. Ruling: upheld as-is."
+    }
+  ],
+  "validation": {
+    "commands": "Re-checked every row's <...> command sequence against the source corpus (tools/dialogue_corpus.py slice 11416 5 --context 15) with a throwaway script; all 5 rows match in exact order.",
+    "format": "No newline-count mismatches; all visible text (tags removed) is ASCII except the locked fullwidth percent sign (none occur in this slice); longest visible line stayed under 110 characters.",
+    "fit": "No display-fit shortening was needed.",
+    "runtime": "Resource 6350 (mission 29, 'Stop the Baldora Drive 2') scene continuity re-verified from stored table order and text_id groupings; no in-game screenshot verification performed.",
+    "names": "No new names in this micro-slice beyond Barrel/Baldora Drive, already confirmed against work/glossary/*.json."
+  }
+}

@@ -1,0 +1,97 @@
+{
+ "resource_id": 4003140,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "11B Intercept Pursuit Force",
+   "notes": "Released mission title reused (missions_019.json text_id 140).",
+   "source_sha256": "dfb2cb0349f6b66416ed0ecd661b896e0538a7021ebb01593e8a33c01ea60204"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30030,1)><speed(2)>Something a little troublesome has come up.",
+   "notes": "",
+   "source_sha256": "a48bc9a0cf7f0c5e15290837d2388a73a79989ba57c1ba612c8d852906578d51"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30030,1)><speed(2)>Perhaps because of all the trouble we have caused, it seems we have pursuers on us.",
+   "notes": "",
+   "source_sha256": "6dcff8b793ee7d2d62171acf1c5b2a6a91ef5d6ee096977867c4714de1dcce72"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30100,1)><speed(2)>Probably the work of the <book(41)>Sea of Lorelei<endbook()> escapees - the <color(5)>Frost brothers<ce()>. They have closed a fair distance<thumbnail(222)> on us.",
+   "notes": "Frost brothers per mission_terms_019 / character_names_021.",
+   "source_sha256": "a03aa83e90079cc453c90170a572854ab83b7da827daf3804901ebeeb8303701"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30100,1)><speed(2)>That is not the only problem. There is a <book(38)>New Federation<endbook()> base up ahead. We are completely caught in a pincer.",
+   "notes": "",
+   "source_sha256": "45f398279defeb0432ef3775a8f20749177fd9d2429ecdbfb930f60c6334915a"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30100,1)><speed(2)>But we cannot afford to be held up here. The <book(48)>Shin Dragon<endbook()> is waiting for us.",
+   "notes": "",
+   "source_sha256": "ab57add5a16d6309288b1cdae1bab113324e55866963ee6a8e08c9b30595e23a"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<thumbdown()><operator(30100,1)><speed(2)>Let us finish these guys off fast and head for New York.",
+   "notes": "Orchestrator: reworded to avoid a j/q glyph.",
+   "source_sha256": "a4f8500b09fc9594245c4eabfebca0dd957672f56fcb90b71be3c026143fd41e"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<topic()><operator(30100,1)><speed(2)>Oh right, starting this time I will be sortieing in the <color(4)>Overman Emperanza<ce()><thumbnail(223)> too. Count on me.",
+   "notes": "Overman + Emperanza per unit_names_014_b / encyclopedia_022.",
+   "source_sha256": "3c8a8970bbb47d9b139ae2764849ea0efa423587420e4920157f079601e5aa9b"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "\"tegawashi\" (their doing/handiwork) rendered \"probably the doing of\"; no named source confirms it is literally the Frost brothers acting versus ordering others, but the sentence names them directly as the cause."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 text_id 140 \"11B Intercept Pursuit Force\".",
+   "Slot 21 ruling: \"tegawashi\" (their doing/handiwork) rendered \"probably the work of\"; source names the Frost brothers directly as the cause and does not distinguish personal action from ordering others - ambiguity correctly preserved, not resolved either way. Accepted.",
+   "Slot 21: \"Sea of Lorelei escapees\" correctly renders \"逃がした...兄弟\" (the Frost brothers whom [we] let escape at the Sea of Lorelei), not an invented detail.",
+   "Speakers: 30030 Ruri Hoshino, 30100 Gain Bijou (speaker_lookup.py); both match glossary. Overman Emperanza matches unit_names_014_b/encyclopedia_022; Frost brothers matches character_names_021.json.",
+   "All <...> command sequences verified identical and in the same order as source; all rows ASCII, no newlines, no bare %, visible length under 128 chars."
+  ],
+  "remaining_uncertainties": [
+   "Slot 21: whether the Frost brothers personally closed the distance or merely ordered/enabled it is not settled by the source; kept ambiguous as in the original.",
+   "A word containing lowercase q appears in slot 24 (\"quick\"); pre-existing wording, left untouched per scope (meaning-only edits) - flagging for a possible glyph-avoidance script pass."
+  ]
+ }
+}

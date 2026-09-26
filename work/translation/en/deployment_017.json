@@ -1,0 +1,1183 @@
+{
+  "version": "0.1.17",
+  "category": "Deployment, player/allied units, upgrades, repairs, training and recruitment",
+  "review": {
+    "status": "meaning_reviewed",
+    "method": "Manual review against all 181 source UI rows and adjacent help text; existing glossary used for names and series.",
+    "rows_examined": 181,
+    "display_notes": "Ground, Space and Basics abbreviate training labels; full action remains in their descriptions. Long Macross and Nadesico series titles use display abbreviations. Name sorting retains the Japanese ordering used by the game."
+  },
+  "table_id": 3013,
+  "rows": [
+    {
+      "slot": 0,
+      "text_id": 1,
+      "source": "エースポイント",
+      "en": "Ace Points"
+    },
+    {
+      "slot": 2,
+      "text_id": 3,
+      "source": "出撃",
+      "en": "Deploy"
+    },
+    {
+      "slot": 3,
+      "text_id": 4,
+      "source": "プレイヤー",
+      "en": "Player"
+    },
+    {
+      "slot": 4,
+      "text_id": 5,
+      "source": "僚機１",
+      "en": "Ally 1"
+    },
+    {
+      "slot": 5,
+      "text_id": 6,
+      "source": "僚機２",
+      "en": "Ally 2"
+    },
+    {
+      "slot": 6,
+      "text_id": 7,
+      "source": "戻る",
+      "en": "Back"
+    },
+    {
+      "slot": 8,
+      "text_id": 9,
+      "source": "選択",
+      "en": "Select"
+    },
+    {
+      "slot": 9,
+      "text_id": 10,
+      "source": "強化",
+      "en": "Upgrade"
+    },
+    {
+      "slot": 10,
+      "text_id": 11,
+      "source": "修理",
+      "en": "Repair"
+    },
+    {
+      "slot": 11,
+      "text_id": 12,
+      "source": "地上演習",
+      "en": "Ground"
+    },
+    {
+      "slot": 12,
+      "text_id": 13,
+      "source": "宇宙演習",
+      "en": "Space"
+    },
+    {
+      "slot": 13,
+      "text_id": 14,
+      "source": "基本演習",
+      "en": "Basics"
+    },
+    {
+      "slot": 14,
+      "text_id": 15,
+      "source": "連携攻撃",
+      "en": "Combo Attack"
+    },
+    {
+      "slot": 15,
+      "text_id": 16,
+      "source": "タイプ",
+      "en": "Type"
+    },
+    {
+      "slot": 16,
+      "text_id": 17,
+      "source": "ダメージ",
+      "en": "Damage"
+    },
+    {
+      "slot": 17,
+      "text_id": 18,
+      "source": "ＡＰ",
+      "en": "AP"
+    },
+    {
+      "slot": 18,
+      "text_id": 19,
+      "source": "ＥＸＰ",
+      "en": "EXP"
+    },
+    {
+      "slot": 20,
+      "text_id": 21,
+      "source": "出撃選択",
+      "en": "Deployment"
+    },
+    {
+      "slot": 21,
+      "text_id": 22,
+      "source": "プレイヤー選択",
+      "en": "Player Select"
+    },
+    {
+      "slot": 22,
+      "text_id": 23,
+      "source": "僚機１選択",
+      "en": "Ally 1 Select"
+    },
+    {
+      "slot": 23,
+      "text_id": 24,
+      "source": "僚機２選択",
+      "en": "Ally 2 Select"
+    },
+    {
+      "slot": 24,
+      "text_id": 25,
+      "source": "ユニット強化",
+      "en": "Unit Upgrades"
+    },
+    {
+      "slot": 25,
+      "text_id": 26,
+      "source": "ＬＩＶＥ",
+      "en": "LIVE"
+    },
+    {
+      "slot": 29,
+      "text_id": 30,
+      "source": "ミッションを開始します",
+      "en": "Start the mission."
+    },
+    {
+      "slot": 30,
+      "text_id": 31,
+      "source": "プレイヤーユニットを設定します",
+      "en": "Set the player unit."
+    },
+    {
+      "slot": 31,
+      "text_id": 32,
+      "source": "僚機１ユニットを設定します",
+      "en": "Set ally unit 1."
+    },
+    {
+      "slot": 32,
+      "text_id": 33,
+      "source": "僚機２ユニットを設定します",
+      "en": "Set ally unit 2."
+    },
+    {
+      "slot": 33,
+      "text_id": 34,
+      "source": "インターミッションに戻ります",
+      "en": "Return to Intermission."
+    },
+    {
+      "slot": 36,
+      "text_id": 37,
+      "source": "プレイヤーユニットを選択します",
+      "en": "Select the player unit."
+    },
+    {
+      "slot": 37,
+      "text_id": 38,
+      "source": "プレイヤーユニットを強化します",
+      "en": "Upgrade the player unit."
+    },
+    {
+      "slot": 38,
+      "text_id": 39,
+      "source": "プレイヤーユニットを修理します",
+      "en": "Repair the player unit."
+    },
+    {
+      "slot": 39,
+      "text_id": 40,
+      "source": "地上で機体の操作テストを行います",
+      "en": "Test the unit on the ground."
+    },
+    {
+      "slot": 40,
+      "text_id": 41,
+      "source": "宇宙で機体の操作テストを行います",
+      "en": "Test the unit in space."
+    },
+    {
+      "slot": 41,
+      "text_id": 42,
+      "source": "基本操作の説明を受けながら機体の操作テストを行います",
+      "en": "Test the unit with basic control instructions."
+    },
+    {
+      "slot": 44,
+      "text_id": 45,
+      "source": "僚機１ユニットを選択します",
+      "en": "Select ally unit 1."
+    },
+    {
+      "slot": 45,
+      "text_id": 46,
+      "source": "僚機１ユニットを強化します",
+      "en": "Upgrade ally unit 1."
+    },
+    {
+      "slot": 46,
+      "text_id": 47,
+      "source": "僚機１ユニットを修理します",
+      "en": "Repair ally unit 1."
+    },
+    {
+      "slot": 49,
+      "text_id": 50,
+      "source": "僚機２ユニットを選択します",
+      "en": "Select ally unit 2."
+    },
+    {
+      "slot": 50,
+      "text_id": 51,
+      "source": "僚機２ユニットを強化します",
+      "en": "Upgrade ally unit 2."
+    },
+    {
+      "slot": 51,
+      "text_id": 52,
+      "source": "僚機２ユニットを修理します",
+      "en": "Repair ally unit 2."
+    },
+    {
+      "slot": 54,
+      "text_id": 55,
+      "source": "選択：㊤㊦　決定：○",
+      "en": "Select:㊤㊦　Confirm:○"
+    },
+    {
+      "slot": 55,
+      "text_id": 56,
+      "source": "選択：㊤㊦　戻る：×　決定：○",
+      "en": "Select:㊤㊦　Back:×　Confirm:○"
+    },
+    {
+      "slot": 56,
+      "text_id": 57,
+      "source": "選択：㊤㊦　ジャンプ：㊧㊨　ヘルプ：⑬　名前順：△　コマンド：□　戻る：×　決定：○",
+      "en": "Select:㊤㊦ Jump:㊧㊨ Help:⑬ Name:△ Cmd:□ Back:× OK:○"
+    },
+    {
+      "slot": 57,
+      "text_id": 58,
+      "source": "選択：㊤㊦　ジャンプ：㊧㊨　ヘルプ：⑬　タイトル順：△　コマンド：□　戻る：×　決定：○",
+      "en": "Select:㊤㊦ Jump:㊧㊨ Help:⑬ Series:△ Cmd:□ Back:× OK:○"
+    },
+    {
+      "slot": 59,
+      "text_id": 60,
+      "source": "アーマー",
+      "en": "Armor"
+    },
+    {
+      "slot": 60,
+      "text_id": 61,
+      "source": "熟練度",
+      "en": "Proficiency"
+    },
+    {
+      "slot": 61,
+      "text_id": 62,
+      "source": "ユニット経験値",
+      "en": "Unit EXP"
+    },
+    {
+      "slot": 62,
+      "text_id": 63,
+      "source": "パイロット",
+      "en": "Pilot"
+    },
+    {
+      "slot": 63,
+      "text_id": 64,
+      "source": "サイズタイプ",
+      "en": "Size Type"
+    },
+    {
+      "slot": 64,
+      "text_id": 65,
+      "source": "機嫌",
+      "en": "Mood"
+    },
+    {
+      "slot": 65,
+      "text_id": 66,
+      "source": "僚機タイプ",
+      "en": "Ally Type"
+    },
+    {
+      "slot": 66,
+      "text_id": 67,
+      "source": "連携",
+      "en": "Combo"
+    },
+    {
+      "slot": 67,
+      "text_id": 68,
+      "source": "タイプ",
+      "en": "Type"
+    },
+    {
+      "slot": 68,
+      "text_id": 69,
+      "source": "必要エースポイント",
+      "en": "Ace Points Needed"
+    },
+    {
+      "slot": 69,
+      "text_id": 70,
+      "source": "はずす",
+      "en": "Remove"
+    },
+    {
+      "slot": 70,
+      "text_id": 71,
+      "source": "エースポイント",
+      "en": "Ace Points"
+    },
+    {
+      "slot": 71,
+      "text_id": 72,
+      "source": "出撃回数",
+      "en": "Sorties"
+    },
+    {
+      "slot": 72,
+      "text_id": 73,
+      "source": "連続出撃",
+      "en": "Consec. Sorties"
+    },
+    {
+      "slot": 73,
+      "text_id": 74,
+      "source": "強化データ",
+      "en": "Upgrades"
+    },
+    {
+      "slot": 74,
+      "text_id": 75,
+      "source": "サポート",
+      "en": "Support"
+    },
+    {
+      "slot": 75,
+      "text_id": 76,
+      "source": "カテゴリ",
+      "en": "Category"
+    },
+    {
+      "slot": 76,
+      "text_id": 77,
+      "source": "発動条件",
+      "en": "Trigger"
+    },
+    {
+      "slot": 89,
+      "text_id": 90,
+      "source": "経験値",
+      "en": "EXP"
+    },
+    {
+      "slot": 90,
+      "text_id": 91,
+      "source": "解除",
+      "en": "Unlocked"
+    },
+    {
+      "slot": 91,
+      "text_id": 92,
+      "source": "通常",
+      "en": "Normal"
+    },
+    {
+      "slot": 92,
+      "text_id": 93,
+      "source": "ＣＯＳＴ",
+      "en": "COST"
+    },
+    {
+      "slot": 93,
+      "text_id": 94,
+      "source": "ＬＥＶＥＬ",
+      "en": "LEVEL"
+    },
+    {
+      "slot": 94,
+      "text_id": 95,
+      "source": "強化不可",
+      "en": "Unavailable"
+    },
+    {
+      "slot": 95,
+      "text_id": 96,
+      "source": "強化完了",
+      "en": "Complete"
+    },
+    {
+      "slot": 99,
+      "text_id": 100,
+      "source": "装甲",
+      "en": "Armor"
+    },
+    {
+      "slot": 100,
+      "text_id": 101,
+      "source": "ダッシュ",
+      "en": "Dash"
+    },
+    {
+      "slot": 101,
+      "text_id": 102,
+      "source": "バーニア",
+      "en": "Vernier"
+    },
+    {
+      "slot": 102,
+      "text_id": 103,
+      "source": "旋回",
+      "en": "Turning"
+    },
+    {
+      "slot": 103,
+      "text_id": 104,
+      "source": "攻撃力",
+      "en": "Attack"
+    },
+    {
+      "slot": 104,
+      "text_id": 105,
+      "source": "リミッター",
+      "en": "Limiter"
+    },
+    {
+      "slot": 109,
+      "text_id": 110,
+      "source": "パラメータ",
+      "en": "Parameters"
+    },
+    {
+      "slot": 110,
+      "text_id": 111,
+      "source": "装甲",
+      "en": "Armor"
+    },
+    {
+      "slot": 111,
+      "text_id": 112,
+      "source": "重量",
+      "en": "Weight"
+    },
+    {
+      "slot": 112,
+      "text_id": 113,
+      "source": "ダッシュ",
+      "en": "Dash"
+    },
+    {
+      "slot": 113,
+      "text_id": 114,
+      "source": "バーニア",
+      "en": "Vernier"
+    },
+    {
+      "slot": 114,
+      "text_id": 115,
+      "source": "旋回",
+      "en": "Turning"
+    },
+    {
+      "slot": 115,
+      "text_id": 116,
+      "source": "回避",
+      "en": "Evasion"
+    },
+    {
+      "slot": 119,
+      "text_id": 120,
+      "source": "ユニット性能",
+      "en": "Unit Specs"
+    },
+    {
+      "slot": 120,
+      "text_id": 121,
+      "source": "装甲",
+      "en": "Armor"
+    },
+    {
+      "slot": 121,
+      "text_id": 122,
+      "source": "反動耐久",
+      "en": "Stagger Resist."
+    },
+    {
+      "slot": 122,
+      "text_id": 123,
+      "source": "ビーム防御",
+      "en": "Beam Defense"
+    },
+    {
+      "slot": 123,
+      "text_id": 124,
+      "source": "実弾防御",
+      "en": "Ballistic Defense"
+    },
+    {
+      "slot": 124,
+      "text_id": 125,
+      "source": "移動速度",
+      "en": "Move Speed"
+    },
+    {
+      "slot": 125,
+      "text_id": 126,
+      "source": "上下移動速度",
+      "en": "Vertical Speed"
+    },
+    {
+      "slot": 126,
+      "text_id": 127,
+      "source": "水中移動",
+      "en": "Underwater Move"
+    },
+    {
+      "slot": 127,
+      "text_id": 128,
+      "source": "ダッシュ効率",
+      "en": "Dash Efficiency"
+    },
+    {
+      "slot": 128,
+      "text_id": 129,
+      "source": "ダッシュ速度",
+      "en": "Dash Speed"
+    },
+    {
+      "slot": 129,
+      "text_id": 130,
+      "source": "回避効率",
+      "en": "Evade Efficiency"
+    },
+    {
+      "slot": 130,
+      "text_id": 131,
+      "source": "回避速度",
+      "en": "Evade Speed"
+    },
+    {
+      "slot": 131,
+      "text_id": 132,
+      "source": "回避移動距離",
+      "en": "Evade Distance"
+    },
+    {
+      "slot": 132,
+      "text_id": 133,
+      "source": "リミッター解除",
+      "en": "Limiter Release"
+    },
+    {
+      "slot": 139,
+      "text_id": 140,
+      "source": "攻撃に対する耐性を強化します",
+      "en": "Improve resistance to attacks."
+    },
+    {
+      "slot": 140,
+      "text_id": 141,
+      "source": "ダッシュ時の機動性を強化します",
+      "en": "Improve mobility while dashing."
+    },
+    {
+      "slot": 141,
+      "text_id": 142,
+      "source": "バーニアゲージの消費量を少なくします",
+      "en": "Reduce vernier gauge consumption."
+    },
+    {
+      "slot": 142,
+      "text_id": 143,
+      "source": "旋回性能を強化します",
+      "en": "Improve turning performance."
+    },
+    {
+      "slot": 143,
+      "text_id": 144,
+      "source": "各ウェポンの攻撃力を強化します",
+      "en": "Increase the attack power of all weapons."
+    },
+    {
+      "slot": 144,
+      "text_id": 145,
+      "source": "リミッターを解除します",
+      "en": "Release the limiter."
+    },
+    {
+      "slot": 145,
+      "text_id": 146,
+      "source": "リミッターの解除／通常を設定します",
+      "en": "Set the limiter to Unlocked or Normal."
+    },
+    {
+      "slot": 149,
+      "text_id": 150,
+      "source": "選択：㊤㊦　ヘルプ：⑬　戻る：×　決定：○",
+      "en": "Select:㊤㊦　Help:⑬　Back:×　Confirm:○"
+    },
+    {
+      "slot": 150,
+      "text_id": 151,
+      "source": "ヘルプ：⑬　戻る：×　決定：○",
+      "en": "Help:⑬　Back:×　Confirm:○"
+    },
+    {
+      "slot": 151,
+      "text_id": 152,
+      "source": "設定：㊧㊨　ヘルプ：⑬　戻る：×",
+      "en": "Set:㊧㊨　Help:⑬　Back:×"
+    },
+    {
+      "slot": 159,
+      "text_id": 160,
+      "source": "ここでは出撃ユニットの編成を行います。\n\n出撃可能なのは、プレイヤーユニットと\n僚機ユニット２機の計３機です。\n\nエースポイントを使用することで\n各ユニットの強化や修理も行えます。",
+      "en": "Form your deployment team here.\n\nYou can deploy three units: your player\nunit and two allies.\n\nSpend Ace Points to upgrade or repair\neach unit."
+    },
+    {
+      "slot": 160,
+      "text_id": 161,
+      "source": "出撃ユニットの編成を行ってください。",
+      "en": "Form your deployment team."
+    },
+    {
+      "slot": 161,
+      "text_id": 162,
+      "source": "出撃不可のユニットが選択されています。",
+      "en": "An unavailable unit is selected."
+    },
+    {
+      "slot": 162,
+      "text_id": 163,
+      "source": "出撃します。\nよろしいですか？\n\nプレイヤー：%s\n僚機１：%s\n僚機２：%s",
+      "en": "Deploy with this team?\nPlayer:\n%s\nAlly 1:\n%s\nAlly 2:\n%s"
+    },
+    {
+      "slot": 163,
+      "text_id": 164,
+      "source": "パラメータについて説明します。\n\n連携攻撃：\n　現在の編成における連携攻撃レベルです。\n　各ユニットのＥＸＰによりレベルは決定されます。\n　特定の編成では特殊連携が使用可能になります。\n　（「＋ＥＸ」と表示）\n\nダメージ：\n　連携攻撃の総合攻撃力です。",
+      "en": "Team parameters:\nCombo Attack: The level depends on\neach unit's EXP. Certain teams unlock\na special combo, shown as \"+EX\".\n\nDamage: Total combo attack power."
+    },
+    {
+      "slot": 165,
+      "text_id": 166,
+      "source": "地上演習を開始します。\nよろしいですか？",
+      "en": "Begin the ground test?"
+    },
+    {
+      "slot": 166,
+      "text_id": 167,
+      "source": "宇宙演習を開始します。\nよろしいですか？",
+      "en": "Begin the space test?"
+    },
+    {
+      "slot": 167,
+      "text_id": 168,
+      "source": "インターミッションに戻ります。\nよろしいですか？",
+      "en": "Return to Intermission?"
+    },
+    {
+      "slot": 168,
+      "text_id": 169,
+      "source": "基本演習を開始します。\nよろしいですか？",
+      "en": "Begin basic training?"
+    },
+    {
+      "slot": 169,
+      "text_id": 170,
+      "source": "演習",
+      "en": "Training"
+    },
+    {
+      "slot": 170,
+      "text_id": 171,
+      "source": "フリーミッションに戻ります。\nよろしいですか？",
+      "en": "Return to Free Mission?"
+    },
+    {
+      "slot": 174,
+      "text_id": 175,
+      "source": "ここではプレイヤーユニットを選択します。\n\n各ユニットのスペックやコマンドリストを\n参考に選んでください。\n\n出撃不可能なユニットは選べません。\n\n初めて出撃させるユニットは、\n演習を行うことをおすすめします。",
+      "en": "Select your player unit here.\nCheck each unit's specs and command\nlist to help you choose.\n\nUnavailable units cannot be selected.\n\nTry training before deploying a unit\nfor the first time."
+    },
+    {
+      "slot": 175,
+      "text_id": 176,
+      "source": "プレイヤーユニットを選んでください。",
+      "en": "Select your player unit."
+    },
+    {
+      "slot": 176,
+      "text_id": 177,
+      "source": "ユニットのパラメータについて説明します。\n\n装甲：　ユニットの防御力\n重量：　ユニットの重量\nダッシュ：　ユニットのダッシュ速度\nバーニア：　ユニットのバーニア消費量\n旋回：　ユニットの旋回速度\n回避：　ユニットの回避距離\n\n説明は以上です。",
+      "en": "Unit parameters:\nArmor: Defense\nWeight: Unit weight\nDash: Dash speed\nVernier: Vernier consumption\nTurning: Turning speed\nEvasion: Evade distance\nThat concludes the explanation."
+    },
+    {
+      "slot": 177,
+      "text_id": 178,
+      "source": "このユニットは出撃できません。",
+      "en": "This unit cannot deploy."
+    },
+    {
+      "slot": 184,
+      "text_id": 185,
+      "source": "ここではユニットの強化を行います。\n\n強化には、ユニット経験値と\nエースポイントが必要です。",
+      "en": "Upgrade your units here.\n\nUpgrades require Unit EXP\nand Ace Points."
+    },
+    {
+      "slot": 185,
+      "text_id": 186,
+      "source": "強化する項目を選んでください。",
+      "en": "Select a stat to upgrade."
+    },
+    {
+      "slot": 186,
+      "text_id": 187,
+      "source": "ユニットの強化項目について説明します。\n\n装甲：　ユニットの防御力が増加\nダッシュ：　ユニットのダッシュ速度が増加\nバーニア：　ユニットのバーニア消費量が減少\n旋回：　ユニットの旋回速度が増加\n攻撃力：　ユニットの全装備の攻撃力が増加\n\n説明は以上です。",
+      "en": "Unit upgrades:\nArmor: Increase defense\nDash: Increase dash speed\nVernier: Reduce vernier consumption\nTurning: Increase turning speed\nAttack: Boost all weapon attack power\nThat concludes the explanation."
+    },
+    {
+      "slot": 187,
+      "text_id": 188,
+      "source": "エースポイントが不足しています。\nこのユニットは強化できません。\n%s　を\n強化するためには\nあと　%d　のエースポイントが必要です。",
+      "en": "Not enough Ace Points to upgrade.\n%s\nneeds %d more Ace Points."
+    },
+    {
+      "slot": 188,
+      "text_id": 189,
+      "source": "ユニット経験値が不足しています。",
+      "en": "Not enough Unit EXP."
+    },
+    {
+      "slot": 189,
+      "text_id": 190,
+      "source": "%s　を強化します。\n\nよろしいですか？\n\n\n\n",
+      "en": "Upgrade this unit?\n%s"
+    },
+    {
+      "slot": 190,
+      "text_id": 191,
+      "source": "リミッター設定を変更しますか？\nリミット解除をするとウェポンが\n無制限に使用できます。\n\n\n\n",
+      "en": "Change the limiter setting?\nReleasing the limiter lets you\nuse weapons without limit."
+    },
+    {
+      "slot": 191,
+      "text_id": 192,
+      "source": "%s　を強化します。（㍻　コスト－２５％）\n\nよろしいですか？\n\n\n\n",
+      "en": "Upgrade this unit?\n%s\n(㍻ Cost -25%)"
+    },
+    {
+      "slot": 194,
+      "text_id": 195,
+      "source": "ここでは僚機ユニットを選択します。\n僚機を出撃させると、戦闘支援を受けられたり\nコンビネーションアタックが使用できます。\n\n（最大２機まで出撃可能ですが、\n　一部のミッションでは出撃数が制限されます。）",
+      "en": "Select ally units here. Allies provide\ncombat support and enable\nCombination Attacks.\n\nYou can deploy up to two allies.\nSome missions limit the number allowed."
+    },
+    {
+      "slot": 195,
+      "text_id": 196,
+      "source": "僚機ユニットを選択してください。",
+      "en": "Select an ally unit."
+    },
+    {
+      "slot": 199,
+      "text_id": 200,
+      "source": "ＡＰが最大のため、\n応急修理の必要はありません。",
+      "en": "AP is full.\nEmergency repairs are unnecessary."
+    },
+    {
+      "slot": 200,
+      "text_id": 201,
+      "source": "エースポイントが不足しています。\nこのユニットは応急修理できません。\n\n応急修理するためにはあと\n%d　のエースポイントが必要です。",
+      "en": "Not enough Ace Points for repairs.\nNeed %d more Ace Points\nfor this unit's emergency repairs."
+    },
+    {
+      "slot": 201,
+      "text_id": 202,
+      "source": "%s　を\n応急修理します。\nよろしいですか？\n\n\n\n",
+      "en": "Perform emergency repairs on\n%s?"
+    },
+    {
+      "slot": 204,
+      "text_id": 205,
+      "source": "エースポイントが不足しています。\nこのユニットは編入できません。\n\n編入するためにはあと\n%d　のエースポイントが必要です。",
+      "en": "Not enough Ace Points to recruit\nthis unit.\nNeed %d more Ace Points."
+    },
+    {
+      "slot": 205,
+      "text_id": 206,
+      "source": "%s　を編入させます。\nよろしいですか？\n\n\n\n",
+      "en": "Recruit this unit?\n%s"
+    },
+    {
+      "slot": 209,
+      "text_id": 210,
+      "source": "ユニットリストをタイトル順にソートしました。",
+      "en": "Unit list sorted by series."
+    },
+    {
+      "slot": 210,
+      "text_id": 211,
+      "source": "ユニットリストを５０音順にソートしました。",
+      "en": "Unit list sorted by Japanese name order."
+    },
+    {
+      "slot": 211,
+      "text_id": 212,
+      "source": "このミッションでは出撃できる僚機ユニットの数が\n制限されます。\n\n僚機ユニットは出撃できません。",
+      "en": "This mission limits allied units.\n\nNo allies can deploy."
+    },
+    {
+      "slot": 212,
+      "text_id": 213,
+      "source": "このミッションでは出撃できる僚機ユニットの数が\n制限されます。\n\n僚機ユニットは１機まで出撃可能です。",
+      "en": "This mission limits allied units.\n\nOnly one ally can deploy."
+    },
+    {
+      "slot": 219,
+      "text_id": 220,
+      "source": "このユニットは使用が制限されています。\n\n%s\n%s\n%s",
+      "en": "Use of this unit is restricted.\n\n%s\n%s\n%s"
+    },
+    {
+      "slot": 220,
+      "text_id": 221,
+      "source": "このユニットはＡＰが低いため\n出撃できません。\n\n%s\n%s\n%s",
+      "en": "This unit cannot deploy: AP too low.\n\n%s\n%s\n%s"
+    },
+    {
+      "slot": 221,
+      "text_id": 222,
+      "source": "このユニットは宇宙へ出撃できません。\n\n%s　は、\n地上専用ユニットです。",
+      "en": "This unit cannot deploy in space.\n\n%s\nis a ground-only unit."
+    },
+    {
+      "slot": 222,
+      "text_id": 223,
+      "source": "このパイロットのユニットは\n僚機ユニットとして登録されています。\n\nプレイヤーユニットに変更しますか？",
+      "en": "This pilot's unit is assigned as an ally.\n\nMake it the player unit?"
+    },
+    {
+      "slot": 223,
+      "text_id": 224,
+      "source": "このパイロットのユニットは\nプレイヤーユニットとして登録されています。\n\n僚機ユニットに変更しますか？",
+      "en": "This pilot's unit is assigned as the\nplayer unit.\n\nMake it an ally?"
+    },
+    {
+      "slot": 224,
+      "text_id": 225,
+      "source": "このパイロットのユニットは\n僚機ユニットとして登録されています。\n\nユニットを交換しますか？",
+      "en": "This pilot's unit is assigned as an ally.\n\nSwap units?"
+    },
+    {
+      "slot": 225,
+      "text_id": 226,
+      "source": "このユニットは僚機ユニットとして\n登録されています。\n\nプレイヤーユニットに変更しますか？",
+      "en": "This unit is assigned as an ally.\n\nMake it the player unit?"
+    },
+    {
+      "slot": 226,
+      "text_id": 227,
+      "source": "このユニットはプレイヤーユニットとして\n登録されています。\n\n僚機ユニットに変更しますか？",
+      "en": "This unit is assigned as the player unit.\n\nMake it an ally?"
+    },
+    {
+      "slot": 227,
+      "text_id": 228,
+      "source": "このユニットは僚機ユニットとして\n登録されています。\n\nユニットを交換しますか？",
+      "en": "This unit is assigned as an ally.\n\nSwap units?"
+    },
+    {
+      "slot": 249,
+      "text_id": 250,
+      "source": "攻撃属性",
+      "en": "Attack Type"
+    },
+    {
+      "slot": 252,
+      "text_id": 253,
+      "source": "スクロール：㊤㊦　ジャンプ：㊧㊨　戻る：×",
+      "en": "Scroll:㊤㊦　Jump:㊧㊨　Back:×"
+    },
+    {
+      "slot": 255,
+      "text_id": 256,
+      "source": "コマンドを選択します",
+      "en": "Select a command."
+    },
+    {
+      "slot": 300,
+      "text_id": 301,
+      "source": "出撃不可エリア",
+      "en": "Restricted Area"
+    },
+    {
+      "slot": 301,
+      "text_id": 302,
+      "source": "出撃準備中",
+      "en": "Preparing"
+    },
+    {
+      "slot": 302,
+      "text_id": 303,
+      "source": "出撃不可",
+      "en": "Unavailable"
+    },
+    {
+      "slot": 303,
+      "text_id": 304,
+      "source": "出撃不可",
+      "en": "Unavailable"
+    },
+    {
+      "slot": 304,
+      "text_id": 305,
+      "source": "出撃不可",
+      "en": "Unavailable"
+    },
+    {
+      "slot": 308,
+      "text_id": 309,
+      "source": "－－－",
+      "en": "－－－"
+    },
+    {
+      "slot": 309,
+      "text_id": 310,
+      "source": "不機嫌",
+      "en": "Bad Mood"
+    },
+    {
+      "slot": 310,
+      "text_id": 311,
+      "source": "普通",
+      "en": "Normal"
+    },
+    {
+      "slot": 311,
+      "text_id": 312,
+      "source": "上機嫌",
+      "en": "Good Mood"
+    },
+    {
+      "slot": 319,
+      "text_id": 320,
+      "source": "高い",
+      "en": "High"
+    },
+    {
+      "slot": 320,
+      "text_id": 321,
+      "source": "普通",
+      "en": "Normal"
+    },
+    {
+      "slot": 321,
+      "text_id": 322,
+      "source": "低い",
+      "en": "Low"
+    },
+    {
+      "slot": 330,
+      "text_id": 331,
+      "source": "単機戦闘",
+      "en": "Solo Combat"
+    },
+    {
+      "slot": 331,
+      "text_id": 332,
+      "source": "広範囲戦闘",
+      "en": "Area Combat"
+    },
+    {
+      "slot": 332,
+      "text_id": 333,
+      "source": "支援",
+      "en": "Support"
+    },
+    {
+      "slot": 333,
+      "text_id": 334,
+      "source": "遠距離支援",
+      "en": "Ranged Support"
+    },
+    {
+      "slot": 334,
+      "text_id": 335,
+      "source": "僚機出撃不可",
+      "en": "No Allies"
+    },
+    {
+      "slot": 389,
+      "text_id": 390,
+      "source": "ここでは新規ユニットの編入を行います。\n\nユニットを編入させるためには\nエースポイントが必要です。\n\n新規ユニットは特定の条件を\n満たすことで増えていきます。",
+      "en": "Recruit new units here.\n\nRecruitment costs Ace Points.\n\nMeet certain conditions to unlock\nmore units for recruitment."
+    },
+    {
+      "slot": 390,
+      "text_id": 391,
+      "source": "編入させるユニットを選んでください。",
+      "en": "Select a unit to recruit."
+    },
+    {
+      "slot": 399,
+      "text_id": 400,
+      "source": "選択：㊤㊦　戻る：×　決定：○",
+      "en": "Select:㊤㊦　Back:×　Confirm:○"
+    },
+    {
+      "slot": 400,
+      "text_id": 401,
+      "source": "編入させるユニットを選択してください。",
+      "en": "Select a unit to recruit."
+    },
+    {
+      "slot": 401,
+      "text_id": 402,
+      "source": "ＵＮＩＴ　ＬＩＳＴ",
+      "en": "UNIT LIST"
+    },
+    {
+      "slot": 402,
+      "text_id": 403,
+      "source": "ＣＯＳＴ",
+      "en": "COST"
+    },
+    {
+      "slot": 403,
+      "text_id": 404,
+      "source": "ユニット編入",
+      "en": "Recruit Units"
+    },
+    {
+      "slot": 409,
+      "text_id": 410,
+      "source": "アビリティ１",
+      "en": "Ability 1"
+    },
+    {
+      "slot": 410,
+      "text_id": 411,
+      "source": "アビリティ２",
+      "en": "Ability 2"
+    },
+    {
+      "slot": 411,
+      "text_id": 412,
+      "source": "アビリティ３",
+      "en": "Ability 3"
+    },
+    {
+      "slot": 419,
+      "text_id": 420,
+      "source": "スキップ：○　終了：⑪",
+      "en": "Skip:○　End:⑪"
+    },
+    {
+      "slot": 424,
+      "text_id": 425,
+      "source": "コクピットデモを終了します。\nよろしいですか？",
+      "en": "End the cockpit demo?"
+    }
+  ],
+  "series": [
+    {
+      "source": "聖戦士ダンバイン",
+      "en": "Aura Battler Dunbine"
+    },
+    {
+      "source": "超時空要塞マクロス　愛・おぼえていますか",
+      "en": "Macross: Do You Remember Love?"
+    },
+    {
+      "source": "機甲戦記ドラグナー",
+      "en": "Metal Armor Dragonar"
+    },
+    {
+      "source": "機動戦士ガンダム　逆襲のシャア",
+      "en": "Mobile Suit Gundam: Char's Counterattack"
+    },
+    {
+      "source": "機動武闘伝Ｇガンダム",
+      "en": "Mobile Fighter G Gundam"
+    },
+    {
+      "source": "マクロスプラス",
+      "en": "Macross Plus"
+    },
+    {
+      "source": "新機動戦記ガンダムＷ　Ｅｎｄｌｅｓｓ　Ｗａｌｔｚ",
+      "en": "Gundam Wing: Endless Waltz"
+    },
+    {
+      "source": "機動新世紀ガンダムＸ",
+      "en": "After War Gundam X"
+    },
+    {
+      "source": "ブレンパワード",
+      "en": "Brain Powerd"
+    },
+    {
+      "source": "機動戦艦ナデシコ　Ｔｈｅ　Ｐｒｉｎｃｅ　ｏｆ　Ｄａｒｋｎｅｓｓ",
+      "en": "Nadesico: The Prince of Darkness"
+    },
+    {
+      "source": "真（チェンジ！！）ゲッターロボ　世界最後の日",
+      "en": "Getter Robo Armageddon"
+    },
+    {
+      "source": "∀ガンダム",
+      "en": "Turn A Gundam"
+    },
+    {
+      "source": "オーバーマン　キングゲイナー",
+      "en": "Overman King Gainer"
+    },
+    {
+      "source": "機動戦士ガンダムＳＥＥＤ",
+      "en": "Mobile Suit Gundam SEED"
+    },
+    {
+      "source": "交響詩篇エウレカセブン",
+      "en": "Eureka Seven"
+    },
+    {
+      "source": "リーンの翼",
+      "en": "The Wings of Rean"
+    },
+    {
+      "source": "機動戦士ガンダム",
+      "en": "Mobile Suit Gundam"
+    },
+    {
+      "source": "Ａｎｏｔｈｅｒ　Ｃｅｎｔｕｒｙ＇ｓ　Ｅｐｉｓｏｄｅ　オリジナル",
+      "en": "Another Century's Episode Originals"
+    },
+    {
+      "source": "真ゲッターロボ　世界最後の日",
+      "en": "Getter Robo Armageddon"
+    }
+  ],
+  "names": [
+    {
+      "source": "バレル・オーランド",
+      "en": "Barrel Orland"
+    }
+  ]
+}

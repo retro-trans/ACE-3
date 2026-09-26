@@ -1,0 +1,2045 @@
+{
+ "version": "0.1.21-research",
+ "status": "researched; not yet inserted into name tables",
+ "agent_do_not_touch": "Use these spellings. Entries already in glossary.json keep that spelling. Medium/low confidence entries carry their reason in notes or variants.",
+ "decisions": [
+  "Wiki page-title form is the default, per BASE_RULES (wiki wins).",
+  "Tapp Oceano (wiki) vs Tap Oseano (official Dragonar site): unresolved; wiki form used for now.",
+  "Greg Bear Egan: the game label includes Bear, so the full label keeps it; short label Bear.",
+  "Hari Makibi short label (nickname) Harry: low confidence."
+ ],
+ "entries": [
+  {
+   "ja_full": "シャア・アズナブル",
+   "ja_short": null,
+   "en_full": "Char Aznable",
+   "en_short": "Char",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "gender": "male",
+   "role": "Neo Zeon leader (Marshal), ace pilot; main antagonist of CCA",
+   "personality": "charismatic, cold-hearted, mentally fragile",
+   "nickname": "The Red Comet",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Char_Aznable"
+   ],
+   "variants": [
+    "Casval Rem Deikun (birth name)",
+    "Quattro Bajeena (alias)",
+    "Édouard Mass (alias)",
+    "Char Aznable is universal; no contested spelling"
+   ],
+   "confidence": "high",
+   "notes": "No short label in game; en_short given for convenience. Rank in CCA is Marshal (総帥 = 'Supreme Commander/Leader')."
+  },
+  {
+   "ja_full": "ブライト・ノア",
+   "ja_short": null,
+   "en_full": "Bright Noa",
+   "en_short": "Bright",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "gender": "male",
+   "role": "Londo Bell task force commander, captain of the Ra Cailum (rank: Captain)",
+   "personality": "loyal, strict disciplinarian, strong leader",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Bright_Noa"
+   ],
+   "variants": [
+    "Bright Noah",
+    "Noa Bright (old Bandai dub)"
+   ],
+   "confidence": "high",
+   "notes": "No short label in game; en_short given for convenience."
+  },
+  {
+   "ja_full": "クェス・パラヤ",
+   "ja_short": "クェス",
+   "en_full": "Quess Paraya",
+   "en_short": "Quess",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "gender": "female",
+   "role": "13-year-old Newtype, daughter of Federation minister; defects to Neo Zeon, mobile suit/armor pilot",
+   "personality": "selfish, stubborn, emotionally sensitive, naive",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Quess_Paraya"
+   ],
+   "variants": [
+    "Quess Air (alias used after joining Neo Zeon, listed as alias on wiki)",
+    "Quess Paraya is wiki page title",
+    "Quess Parayer"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "ギュネイ・ガス",
+   "ja_short": "ギュネイ",
+   "en_full": "Gyunei Guss",
+   "en_short": "Gyunei",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "gender": "male",
+   "role": "Neo Zeon Cyber Newtype mobile suit pilot (Warrant Officer)",
+   "personality": "feels ostracized, insecure, jealous of Char",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Gyunei_Guss"
+   ],
+   "variants": [
+    "Gyunei Guss is wiki page title",
+    "Gyunei Gass",
+    "Gyunei Gus"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": null,
+   "ja_short": "レズン",
+   "en_full": "Rezin Schnyder",
+   "en_short": "Rezin",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "gender": "female",
+   "role": "Neo Zeon mobile suit pilot (Ensign), Geara Doga squad leader",
+   "personality": "hot-headed, arrogant, sarcastic, rude",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Rezin_Schnyder"
+   ],
+   "variants": [
+    "Rezun Schneider",
+    "Rezin Schneider",
+    "Rezun Schnyder"
+   ],
+   "confidence": "high",
+   "notes": "Female per wiki infobox (often mistaken for male). Full Japanese name is レズン・シュナイダー."
+  },
+  {
+   "ja_full": "ヒイロ・ユイ",
+   "ja_short": "ヒイロ",
+   "en_full": "Heero Yuy",
+   "en_short": "Heero",
+   "series": "Gundam Wing: Endless Waltz",
+   "gender": "male",
+   "role": "Gundam pilot (Wing Gundam Zero), covert operative",
+   "personality": "cold, stoic, secretly kind-hearted",
+   "nickname": "Perfect Soldier",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Heero_Yuy"
+   ],
+   "variants": [
+    "Hiiro Yui (romanization)",
+    "Heero Yuy is official English dub spelling"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "ドモン・カッシュ",
+   "ja_short": "ドモン",
+   "en_full": "Domon Kasshu",
+   "en_short": "Domon",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Neo Japan Gundam Fighter, King of Hearts of the Shuffle Alliance",
+   "personality": "brash, impulsive, emotional, impatient",
+   "nickname": "King of Hearts",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Domon_Kasshu"
+   ],
+   "variants": [
+    "Domon Kash",
+    "Domon Kasshu is official English dub spelling"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "東方不敗",
+   "ja_short": "東方不敗",
+   "en_full": "Master Asia",
+   "en_short": "Master Asia",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Neo Hong Kong Gundam Fighter, Domon's martial-arts master, former King of Hearts",
+   "personality": "stoic, strict, secretly compassionate",
+   "nickname": "Undefeated of the East",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Master_Asia"
+   ],
+   "variants": [
+    "Undefeated of the East (official English rendering of 東方不敗 Tōhō Fuhai)",
+    "Tohofuhai",
+    "Tōhō Fuhai",
+    "Shuji Kurosu (real name, later material)"
+   ],
+   "confidence": "high",
+   "notes": "Wiki page title and official English dub name is 'Master Asia' (マスター・アジア). The Japanese label 東方不敗 is his title, officially 'Undefeated of the East'; the wiki says he is more commonly called by that alias in the latter half of the series. Recommendation: use 'Master Asia' as the speaker tag/name label (short, recognisable), and render 東方不敗 in spoken dialogue as 'the Undefeated of the East' where it is used as a title. Domon addresses him as 'Master' (師匠)."
+  },
+  {
+   "ja_full": "ガロード・ラン",
+   "ja_short": null,
+   "en_full": "Garrod Ran",
+   "en_short": "Garrod",
+   "series": "After War Gundam X",
+   "gender": "male",
+   "role": "15-year-old Vulture, Gundam X / Double X pilot; protagonist",
+   "personality": "shrewd, impulsive, distrustful then devoted",
+   "nickname": "Gundam Boy",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Garrod_Ran"
+   ],
+   "variants": [
+    "Garrod Run",
+    "Garod Ran"
+   ],
+   "confidence": "high",
+   "notes": "No short label supplied; en_short given for convenience."
+  },
+  {
+   "ja_full": "ウィッツ・スー",
+   "ja_short": "ウィッツ",
+   "en_full": "Witz Sou",
+   "en_short": "Witz",
+   "series": "After War Gundam X",
+   "gender": "male",
+   "role": "Freelance Vulture mobile suit rider, Gundam Airmaster pilot",
+   "personality": "headstrong, straightforward, short-tempered, caring",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Witz_Sou"
+   ],
+   "variants": [
+    "Witz Sue",
+    "Wits Sou",
+    "Witts Su"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "ロアビィ・ロイ",
+   "ja_short": "ロアビィ",
+   "en_full": "Roybea Loy",
+   "en_short": "Roybea",
+   "series": "After War Gundam X",
+   "gender": "male",
+   "role": "Freelance Vulture mobile suit rider, Gundam Leopard pilot",
+   "personality": "professional pilot and ladies' man",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Roybea_Loy"
+   ],
+   "variants": [
+    "Roabea Loy (official English subtitled release, per wiki)",
+    "Roabie Roy",
+    "Roybea Roy"
+   ],
+   "confidence": "medium",
+   "notes": "Wiki page title is 'Roybea Loy' but the wiki itself states the official English-subtitled release uses 'Roabea Loy'. Per the task rule (wiki page title) 'Roybea Loy' is chosen; switch to 'Roabea' if the project prefers the official sub. The wiki page has no Personality section; trait taken from its History section."
+  },
+  {
+   "ja_full": "ジャミル・ニート",
+   "ja_short": null,
+   "en_full": "Jamil Neate",
+   "en_short": "Jamil",
+   "series": "After War Gundam X",
+   "gender": "male",
+   "role": "Captain of the Vulture land battleship Freeden, former UNE Newtype ace pilot",
+   "personality": "very serious, rarely smiles, kind, caring",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Jamil_Neate"
+   ],
+   "variants": [
+    "Jamil Neat",
+    "Jamille Neate"
+   ],
+   "confidence": "high",
+   "notes": "No short label supplied; en_short given for convenience. Suffers cockpit PTSD from the 7th Space War."
+  },
+  {
+   "ja_full": "ティファ・アディール",
+   "ja_short": null,
+   "en_full": "Tiffa Adill",
+   "en_short": "Tiffa",
+   "series": "After War Gundam X",
+   "gender": "female",
+   "role": "15-year-old Newtype girl protected by the Freeden crew; Garrod's love interest",
+   "personality": "introverted, quiet, shy, reserved",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Tiffa_Adill"
+   ],
+   "variants": [
+    "Tiffa Adil (used inconsistently in the wiki's own body text)",
+    "Tifa Adill",
+    "Tifa Adil",
+    "Tifa Adeel"
+   ],
+   "confidence": "high",
+   "notes": "No short label supplied; en_short given for convenience."
+  },
+  {
+   "ja_full": "ルチル",
+   "ja_short": "ルチル",
+   "en_full": "Lucille Liliant",
+   "en_short": "Lucille",
+   "series": "After War Gundam X",
+   "gender": "female",
+   "role": "Former UNE Newtype soldier and Jamil's instructor; her mind is sealed in the L-System (Sea of Lorelei), speaks through Tiffa",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Lucille_Liliant",
+    "https://gundam.fandom.com/wiki/Jamil_Neate"
+   ],
+   "variants": [
+    "Lucille Lilliant",
+    "Rutil Liliant",
+    "Lutil Liliant",
+    "Luchil Liliant"
+   ],
+   "confidence": "medium",
+   "notes": "Wiki page title is 'Lucille Liliant' (single l in surname: ルチル・リリアント), not 'Lilliant'. The in-game label is only the given name ルチル. Medium because the katakana ルチル does not obviously map to 'Lucille' and fans often write 'Rutil/Lutil'; the wiki/official sub form is Lucille. Wiki page has no personality section."
+  },
+  {
+   "ja_full": "サラ・タイレル",
+   "ja_short": "サラ",
+   "en_full": "Sala Tyrrell",
+   "en_short": "Sala",
+   "series": "After War Gundam X",
+   "gender": "female",
+   "role": "Chief operator and acting captain (second-in-command) of the Freeden",
+   "personality": "straight-laced, serious, naive in love",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Sala_Tyrrell"
+   ],
+   "variants": [
+    "Sara Tyrrell",
+    "Sarah Tyrell",
+    "Sala Tyrell"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "シャギア・フロスト",
+   "ja_short": "シャギア",
+   "en_full": "Shagia Frost",
+   "en_short": "Shagia",
+   "series": "After War Gundam X",
+   "gender": "male",
+   "role": "New UNE agent/mobile suit pilot (Gundam Virsago), elder Frost brother; main antagonist",
+   "personality": "sensible, calculating, resentful of the world",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Shagia_Frost"
+   ],
+   "variants": [
+    "Shagia Frost is wiki title and official sub spelling",
+    "Shaghia Frost"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "オルバ・フロスト",
+   "ja_short": "オルバ",
+   "en_full": "Olba Frost",
+   "en_short": "Olba",
+   "series": "After War Gundam X",
+   "gender": "male",
+   "role": "New UNE agent/mobile suit pilot (Gundam Ashtaron), younger Frost brother; main antagonist",
+   "personality": "reckless, competitive, resentful of the world",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Olba_Frost"
+   ],
+   "variants": [
+    "Orba Frost",
+    "Olva Frost"
+   ],
+   "confidence": "high",
+   "notes": "Addresses Shagia as 'brother' (兄さん)."
+  },
+  {
+   "ja_full": "Ｄ．Ｏ．Ｍ．Ｅ．",
+   "ja_short": null,
+   "en_full": "D.O.M.E.",
+   "en_short": "D.O.M.E.",
+   "series": "After War Gundam X",
+   "gender": "male",
+   "role": "The First Newtype: a dissected man whose consciousness was built into the lunar microwave facility D.O.M.E.",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/D.O.M.E."
+   ],
+   "variants": [
+    "DOME",
+    "D.O.M.E. (Depths Of Minds Elevating)"
+   ],
+   "confidence": "medium",
+   "notes": "Wiki infobox has no gender field; the article text refers to D.O.M.E. as 'him' / 'the man', so 'male' is taken from the prose, not the infobox. Now a disembodied consciousness speaking through the facility - treat as male/neutral narrator voice. Spelling itself is certain."
+  },
+  {
+   "ja_full": "ロラン・セアック",
+   "ja_short": "ロラン",
+   "en_full": "Loran Cehack",
+   "en_short": "Loran",
+   "series": "Turn A Gundam",
+   "gender": "male",
+   "role": "Moonrace youth, Inglessa Militia pilot of the Turn A Gundam; protagonist",
+   "personality": "loyal, adaptable, calm, pacifist, naive",
+   "nickname": "Laura Rolla",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Loran_Cehack"
+   ],
+   "variants": [
+    "Rolan Cehack",
+    "Loran Cehack is official (Right Stuf) spelling",
+    "Laura Rolla (female disguise alias)"
+   ],
+   "confidence": "high",
+   "notes": "Male. 'Laura' (ローラ) is both his female disguise and what Guin/Harry call him - if ローラ appears in the script keep it distinct from ロラン."
+  },
+  {
+   "ja_full": "ギム・ギンガナム",
+   "ja_short": "ギンガナム",
+   "en_full": "Gym Ghingham",
+   "en_short": "Ghingham",
+   "series": "Turn A Gundam",
+   "gender": "male",
+   "role": "Leader of the Moonrace's Ghingham Fleet, Turn X pilot; main antagonist",
+   "personality": "forceful, swaggering, arrogant warmonger",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Gym_Ghingham"
+   ],
+   "variants": [
+    "Gym Ghingnham (alternate spelling noted on wiki)",
+    "Gim Gingham",
+    "Gym Ginganham",
+    "Gim Ginganam"
+   ],
+   "confidence": "high",
+   "notes": "Short label is the surname, so en_short = 'Ghingham'."
+  },
+  {
+   "ja_full": "キラ・ヤマト",
+   "ja_short": "キラ",
+   "en_full": "Kira Yamato",
+   "en_short": "Kira",
+   "series": "Mobile Suit Gundam SEED",
+   "gender": "male",
+   "role": "Coordinator student turned Strike/Freedom Gundam pilot; protagonist",
+   "personality": "kind, compassionate, selfless, introverted, stubborn",
+   "nickname": "Ultimate Coordinator",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Kira_Yamato"
+   ],
+   "variants": [],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "アスラン・ザラ",
+   "ja_short": "アスラン",
+   "en_full": "Athrun Zala",
+   "en_short": "Athrun",
+   "series": "Mobile Suit Gundam SEED",
+   "gender": "male",
+   "role": "ZAFT red-uniform pilot (Aegis/Justice Gundam), Kira's childhood friend and rival",
+   "personality": "quiet, reserved, benevolent, dutiful",
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Athrun_Zala"
+   ],
+   "variants": [
+    "Asran Zala",
+    "Aslan Zala",
+    "Athrun Zala is official English spelling",
+    "Alex Dino (alias in SEED Destiny)"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "京田四郎",
+   "ja_short": "狂四郎",
+   "en_full": "Shiro Kyoda",
+   "en_short": "Kyoshiro",
+   "series": "Plamo-Kyoshiro",
+   "gender": "male",
+   "role": "Schoolboy plastic-model builder and Plamo Simulation fighter, builder of the Perfect Gundam; protagonist",
+   "personality": "exuberant, passionate shonen protagonist",
+   "nickname": "Plamo-Kyoshiro",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Shiro_Kyoda",
+    "https://gundam.fandom.com/wiki/Plamo-Kyoshiro",
+    "https://gundam.fandom.com/wiki/List_of_Plamo_Kyoshiro_Characters_(provisional)"
+   ],
+   "variants": [
+    "Kyoda Shiro (Japanese order)",
+    "Kyōda Shirō",
+    "Shirou Kyouda",
+    "Plamo Kyoshiro",
+    "Kyoshirou"
+   ],
+   "confidence": "medium",
+   "notes": "No official English release. Wiki page title is 'Shiro Kyoda' (Western order); series title is 'Plamo-Kyoshiro'. 狂四郎 (Kyoshiro) is his nickname - a pun on his name 京田四郎 with 狂 'crazy' (plamo-crazy Shiro) - so en_short should be 'Kyoshiro', not 'Shiro'. The wiki pages do not explicitly explain the nickname; that gloss is from the kanji. Personality taken from the wiki's provisional character list. Wiki lists age 14 but occupation 'elementary school student' (inconsistent on the wiki)."
+  },
+  {
+   "ja_full": "一条輝",
+   "ja_short": "ヒカル",
+   "en_full": "Hikaru Ichijyo",
+   "en_short": "Hikaru",
+   "series": "The Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "U.N. Spacy Valkyrie pilot (Skull Squadron); protagonist",
+   "personality": "happy-go-lucky, prickly, a bit clumsy",
+   "nickname": null,
+   "sources": [
+    "https://macross.fandom.com/wiki/Hikaru_Ichijyo"
+   ],
+   "variants": [
+    "Hikaru Ichijo (ADV subtitles; listed as alias on wiki)",
+    "Hikaru Ichijō",
+    "Hikaru Ichijyo is AnimEigo/official romanization and wiki title"
+   ],
+   "confidence": "high",
+   "notes": "Short label already handled as 'Hikaru' by the caller."
+  },
+  {
+   "ja_full": "マクシミリアン・ジーナス",
+   "ja_short": "マックス",
+   "en_full": "Maximilian Jenius",
+   "en_short": "Max",
+   "series": "The Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "U.N. Spacy ace Valkyrie pilot (Skull Squadron), genius pilot",
+   "personality": "reserved, perfect gentleman, modest, courteous",
+   "nickname": "Max",
+   "sources": [
+    "https://macross.fandom.com/wiki/Maximilian_Jenius"
+   ],
+   "variants": [
+    "Max Jenius",
+    "Maximilian Genius",
+    "Maximilian Sterling (Robotech - do not use)"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "ロイ・フォッカー",
+   "ja_short": "フォッカー",
+   "en_full": "Roy Focker",
+   "en_short": "Focker",
+   "series": "The Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "U.N. Spacy Major, Skull Squadron leader, Hikaru's senpai",
+   "personality": "brave, rough, compassionate, humorous ladies' man",
+   "nickname": "Skull Leader",
+   "sources": [
+    "https://macross.fandom.com/wiki/Roy_Focker"
+   ],
+   "variants": [
+    "Roy Fokker (Robotech / some official merchandise)",
+    "Roy Fockker"
+   ],
+   "confidence": "high",
+   "notes": "Short label is the surname, so en_short = 'Focker'. Hikaru calls him 'senpai' (先輩)."
+  },
+  {
+   "ja_full": "ミリア・ファリーナ・ジーナス",
+   "ja_short": "ミリア",
+   "en_full": "Milia Fallyna Jenius",
+   "en_short": "Milia",
+   "series": "The Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "female",
+   "role": "Meltrandi (female Zentradi) ace pilot of the Queadluun-Rau; later Max's wife and U.N. Spacy pilot",
+   "personality": "proud warrior, strong-willed",
+   "nickname": "Milia 639",
+   "sources": [
+    "https://macross.fandom.com/wiki/Milia_Farina_Jenius"
+   ],
+   "variants": [
+    "Milia Farina Jenius (current macross.fandom page TITLE)",
+    "Milia Fallyna (pre-marriage)",
+    "Milia 639 (her name in the DYRL movie)",
+    "Millia Fallyna Jenius",
+    "Miriya Parina Sterling (Robotech - do not use)"
+   ],
+   "confidence": "medium",
+   "notes": "CONTESTED: the macross.fandom page title is currently 'Milia Farina Jenius' ('Milia Fallyna Jenius' redirects to it), but the article's own lead sentence bolds 'Milia Fallyna Jenius', which is also the long-standing official romanization (Macross 7 materials, Macross Compendium/macross2.net). I chose 'Milia Fallyna Jenius' and list 'Farina' as the variant - this deviates from the strict 'page title' rule; swap if you want strict page-title compliance. In DYRL she is called 'Milia 639' and is Meltrandi; the game's full label uses her married name."
+  },
+  {
+   "ja_full": "イサム・ダイソン",
+   "ja_short": null,
+   "en_full": "Isamu Alva Dyson",
+   "en_short": "Isamu",
+   "series": "Macross Plus",
+   "gender": "male",
+   "role": "U.N. Spacy First Lieutenant, YF-19 test pilot (Project Super Nova); protagonist",
+   "personality": "reckless, carefree, insubordinate",
+   "nickname": null,
+   "sources": [
+    "https://macross.fandom.com/wiki/Isamu_Alva_Dyson"
+   ],
+   "variants": [
+    "Isamu Dyson (matches the game's label イサム・ダイソン, no middle name)",
+    "Isamu Alva Dyson is wiki page title"
+   ],
+   "confidence": "high",
+   "notes": "The game's label omits the middle name, so 'Isamu Dyson' is the literal match for the label; the wiki page title includes 'Alva'. Suggest using 'Isamu Dyson' in-game if space is tight."
+  },
+  {
+   "ja_full": "ガルド・ゴア・ボーマン",
+   "ja_short": "ガルド",
+   "en_full": "Guld Goa Bowman",
+   "en_short": "Guld",
+   "series": "Macross Plus",
+   "gender": "male",
+   "role": "General Galaxy chief test pilot of the YF-21, half-Zentradi; Isamu's rival",
+   "personality": "well-disciplined, serious, prone to violent rage",
+   "nickname": null,
+   "sources": [
+    "https://macross.fandom.com/wiki/Guld_Goa_Bowman"
+   ],
+   "variants": [
+    "Gald Goa Bowman",
+    "Guld Goa Bowman is wiki title and Manga Entertainment dub spelling",
+    "called 'Goa' or 'Guld' by friends (per wiki)"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "連邦軍",
+   "ja_short": null,
+   "en_full": "Earth Federation Forces",
+   "en_short": "Federation Forces",
+   "series": "Universal Century Gundam (generic label)",
+   "gender": "not applicable",
+   "role": "Military of the Earth Federation (地球連邦軍); abbreviated E.F.F.",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Earth_Federation_Forces"
+   ],
+   "variants": [
+    "EFF",
+    "E.F.F.",
+    "Earth Federation Force (EFSF for the space force)",
+    "Federation Forces (short form of 連邦軍)"
+   ],
+   "confidence": "high",
+   "notes": "連邦軍 is the short form; 'Federation Forces' is the literal short English. CAUTION: in Gundam X context 連邦軍 would instead be the (New) United Nations Earth forces - check which series the line belongs to."
+  },
+  {
+   "ja_full": "ネオ・ジオン",
+   "ja_short": null,
+   "en_full": "Neo Zeon",
+   "en_short": "Neo Zeon",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "gender": "not applicable",
+   "role": "Char's second Neo Zeon movement (U.C. 0093)",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Neo_Zeon",
+    "https://gundam.fandom.com/wiki/Newborn_Neo_Zeon"
+   ],
+   "variants": [
+    "Newborn Neo Zeon (wiki's page title for Char's CCA faction, 新生ネオ・ジオン)",
+    "Neo-Zeon"
+   ],
+   "confidence": "high",
+   "notes": "The label ネオ・ジオン = 'Neo Zeon'. The wiki distinguishes Char's faction as 'Newborn Neo Zeon' only because its Japanese name there is 新生ネオ・ジオン."
+  },
+  {
+   "ja_full": "新連邦",
+   "ja_short": null,
+   "en_full": "New United Nations Earth",
+   "en_short": "New UNE",
+   "series": "After War Gundam X",
+   "gender": "not applicable",
+   "role": "Post-war successor government/military to the old United Nations Earth; Frost brothers' employer",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/United_Nations_Earth"
+   ],
+   "variants": [
+    "New UNE (wiki abbreviation)",
+    "New Earth Federation (literal translation of 新地球連邦, given on wiki as 'lit.')",
+    "New Federation (literal short form of 新連邦)",
+    "NUNE"
+   ],
+   "confidence": "high",
+   "notes": "The Gundam X wiki calls 新地球連邦 'New United Nations Earth' (abbr. 'New UNE'); it is a section of the 'United Nations Earth' page ('New United Nations Earth' redirects there). The wiki notes the literal meaning is 'New Earth Federation'. 'United Nations Earth' is the official English name shown in the series. For a short speaker tag, 'New UNE' is the wiki's own abbreviation; 'New Federation' is a literal fan rendering."
+  },
+  {
+   "ja_full": "宇宙革命軍",
+   "ja_short": null,
+   "en_full": "Space Revolutionary Army",
+   "en_short": "SRA",
+   "series": "After War Gundam X",
+   "gender": "not applicable",
+   "role": "Colony (Cloud 9) military that fought the UNE in the 7th Space War",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Space_Revolutionary_Army"
+   ],
+   "variants": [
+    "SRA",
+    "Space Revolution Army",
+    "Colony Revolutionary Army"
+   ],
+   "confidence": "high"
+  },
+  {
+   "ja_full": "バルチャー",
+   "ja_short": null,
+   "en_full": "Vulture",
+   "en_short": "Vulture",
+   "series": "After War Gundam X",
+   "gender": "not applicable",
+   "role": "Post-war salvagers operating land battleships (e.g. Jamil's Freeden crew); sea-based ones are Sea Vultures/Orcs",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://gundam.fandom.com/wiki/Vulture"
+   ],
+   "variants": [
+    "Vultures (plural)",
+    "Vulcher"
+   ],
+   "confidence": "high",
+   "notes": "Use 'Vulture' singular / 'Vultures' for the group as context requires."
+  },
+  {
+   "ja_full": "ショウ・ザマ",
+   "ja_short": "ショウ",
+   "en_full": "Show Zama",
+   "en_short": "Show",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Tokyo motocross rider summoned to Byston Well; pilot of Dunbine, later Billbine",
+   "personality": "young motocross enthusiast; switches sides on conscience",
+   "nickname": null,
+   "sources": [
+    "https://superrobotwars.fandom.com/wiki/Aura_Battler_Dunbine/Characters",
+    "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1188",
+    "https://byston-well.fandom.com/wiki/Category:Characters"
+   ],
+   "variants": [
+    "Sho Zama",
+    "Shō Zama",
+    "Shou Zama"
+   ],
+   "confidence": "medium",
+   "notes": "SRW wiki (which also credits the ADV dub cast) uses 'Show Zama'; Wikipedia and the small Byston Well wiki use 'Shō Zama'; ANN lists 'Sho Zama' under the English cast and 'Show Zama' under the Japanese cast. 'Show Zama' chosen as the SRW-wiki form and most widespread spelling. Contested, hence medium.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": null,
+   "ja_short": "チャム",
+   "en_full": "Cham Huau",
+   "en_short": "Cham",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Mi Ferario (faerie) companion of Show Zama",
+   "personality": "emotional barometer; Show's cheerleader",
+   "nickname": null,
+   "sources": [
+    "https://byston-well.fandom.com/wiki/Cham_Huau",
+    "https://superrobotwars.fandom.com/wiki/Aura_Battler_Dunbine/Characters",
+    "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1188"
+   ],
+   "variants": [
+    "Cham Fau (ANN English cast)",
+    "Chum Huau (ANN Japanese cast)"
+   ],
+   "confidence": "high",
+   "notes": "Full Japanese name is チャム・ファウ; the game only uses the short label チャム. Byston Well wiki infobox states Gender: Female. Wikipedia, SRW wiki and Byston Well wiki all agree on 'Cham Huau'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "マーベル・フローズン",
+   "ja_short": "マーベル",
+   "en_full": "Marvel Frozen",
+   "en_short": "Marvel",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Texan rancher's daughter; Aura Battler pilot allied with Nie Given; Show's partner and love interest",
+   "personality": "capable fighter; in love with Show",
+   "nickname": null,
+   "sources": [
+    "https://superrobotwars.fandom.com/wiki/Aura_Battler_Dunbine/Characters",
+    "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1188"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "All sources consulted agree on 'Marvel Frozen'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ジェリル・クチビ",
+   "ja_short": "ジェリル",
+   "en_full": "Jeryll Coochibie",
+   "en_short": "Jeryll",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Second-wave Upper Earth pilot serving Drake Luft; first pilot to trigger 'hyper' mode",
+   "personality": "violent, impulsive, enjoys carnage",
+   "nickname": null,
+   "sources": [
+    "https://superrobotwars.fandom.com/wiki/Aura_Battler_Dunbine/Characters",
+    "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1188"
+   ],
+   "variants": [
+    "Jeril Coochibi",
+    "Jerryl Coochibi",
+    "Jeril Kuchibi (ANN)",
+    "Jeryl Coochibi"
+   ],
+   "confidence": "medium",
+   "notes": "SRW wiki and Wikipedia both use 'Jeryll Coochibie'; ANN uses 'Jeril Kuchibi'; Akurasu wiki / forums use 'Jeril' or 'Jerryl Coochibi'. No single official English form confirmed. If the project prefers a plainer form, 'Jeril Coochibi' is the common alternative.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "黒騎士",
+   "ja_short": "黒騎士",
+   "en_full": "Black Knight",
+   "en_short": "Black Knight",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Masked identity of Burn Bunnings, Show's former commander and rival, after returning to Drake's army",
+   "personality": "proud rival fixated on Show",
+   "nickname": "Black Knight is an alias of Burn Bunnings",
+   "sources": [
+    "https://superrobotwars.fandom.com/wiki/Aura_Battler_Dunbine/Characters",
+    "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1188"
+   ],
+   "variants": [
+    "Burn Bunnings (true identity, SRW wiki)",
+    "Burne Bannings (Wikipedia)",
+    "Bern Bunnings",
+    "Barn Bonnings (ANN)"
+   ],
+   "confidence": "high",
+   "notes": "The label is a title; translate literally as 'Black Knight' and keep the identity hidden as the Japanese label does. True-name spelling is contested: SRW wiki 'Burn Bunnings', Wikipedia 'Burne Bannings'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "エイサップ・鈴木",
+   "ja_short": null,
+   "en_full": "Asap Suzuki",
+   "en_short": "Asap",
+   "series": "The Wings of Rean",
+   "gender": "male",
+   "role": "Protagonist; pilot of the Aura Battler Nanajin",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary (char.asap_suzuki). No further research.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "リュクス・サコミズ",
+   "ja_short": "リュクス",
+   "en_full": "Luxe Sakomizu",
+   "en_short": "Luxe",
+   "series": "The Wings of Rean",
+   "gender": "female",
+   "role": "Princess of Hojo; daughter of King Sakomizu; brings the Wings of Rean to the surface world",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Wings_of_Rean"
+   ],
+   "variants": [
+    "Lyukus Sakomizu",
+    "Lyuks Sakomizu",
+    "Ryukusu Sakomizu",
+    "Lux Sakomizu"
+   ],
+   "confidence": "medium",
+   "notes": "Wikipedia form 'Luxe Sakomizu'. No Byston Well wiki page exists for her, the official Japanese site (rean-wings.net) gives no romanization, and the Bandai Visual USA subtitle spelling was not verified. Gender per Wikipedia ('the daughter of King Sakomizu').",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "シンジロウ・サコミズ",
+   "ja_short": "サコミズ",
+   "en_full": "Shinjiro Sakomizu",
+   "en_short": "Sakomizu",
+   "series": "The Wings of Rean",
+   "gender": "male",
+   "role": "King of Hojo in Byston Well; former WWII Imperial Japanese Ohka pilot and Holy Warrior",
+   "personality": null,
+   "nickname": "King Sakomizu",
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Wings_of_Rean"
+   ],
+   "variants": [
+    "Shinjirō Sakomizu",
+    "Shinjirou Sakomizu"
+   ],
+   "confidence": "high",
+   "notes": "Short label uses the surname, so en_short = 'Sakomizu'. Wikipedia writes 'Shinjirō Sakomizu'; macron dropped for in-game text.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ホウジョウ",
+   "ja_short": null,
+   "en_full": "Hojo",
+   "en_short": "Hojo",
+   "series": "The Wings of Rean",
+   "gender": "not applicable",
+   "role": "Faction: Sakomizu's kingdom/army in Byston Well (ホウジョウ士官 = Hojo officer, ホウジョウ兵 = Hojo soldier)",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Wings_of_Rean"
+   ],
+   "variants": [
+    "Hōjō",
+    "Houjou",
+    "Hojo Kingdom",
+    "House of Hōjō"
+   ],
+   "confidence": "medium",
+   "notes": "Wikipedia: Sakomizu 'is the ruler of the Hōjō house'. Macron-less 'Hojo' recommended for game text. Medium only because no official English subtitle source was checked.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ケーン・ワカバ",
+   "ja_short": null,
+   "en_full": "Kaine Wakaba",
+   "en_short": "Kaine",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Protagonist; Dragonar-1 pilot",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary (char.kaine_wakaba).",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "タップ・オセアノ",
+   "ja_short": "タップ",
+   "en_full": "Tapp Oceano",
+   "en_short": "Tapp",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Dragonar-2 pilot; Kaine's friend, from New York",
+   "personality": "cheerful, laid back, loyal, family-minded",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Metal_Armor_Dragonar",
+    "https://www.dragonar.net/character/e03.php"
+   ],
+   "variants": [
+    "Tap Oseano (official Japanese site)",
+    "Tap Oceano"
+   ],
+   "confidence": "medium",
+   "notes": "Wikipedia and most fan usage: 'Tapp Oceano'. The official Sunrise site dragonar.net prints 'Tap Oseano' as its English name. The project locked 'Light Newman' citing that same official site, so the team may prefer 'Tap Oseano' for consistency; a decision is needed.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ライト・ニューマン",
+   "ja_short": null,
+   "en_full": "Light Newman",
+   "en_short": "Light",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Dragonar-3 pilot; electronic-warfare specialist from England",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary (char.light_newman).",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "マイヨ・プラート",
+   "ja_short": "マイヨ",
+   "en_full": "Meio Plato",
+   "en_short": "Meio",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Giganos ace pilot of the Falguen; Linda's brother, son of Dr. Lang Plato",
+   "personality": "calm, proud, charismatic soldier",
+   "nickname": "Blue Hawk of Giganos (ギガノスの蒼き鷹)",
+   "sources": [
+    "https://www.dragonar.net/character/g01.php",
+    "https://en.wikipedia.org/wiki/Metal_Armor_Dragonar",
+    "https://superrobotwars.fandom.com/wiki/Metal_Armor_Dragonar"
+   ],
+   "variants": [
+    "Maillot Plarto",
+    "Maiyo Plart",
+    "Meio Plaat",
+    "Maillot Plato"
+   ],
+   "confidence": "high",
+   "notes": "Official site English name 'Meio Plato'; Wikipedia and SRW wiki also use 'Meio'. SRW wiki notes his Falguen Custom appears in ACE3.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "グン・ジェム",
+   "ja_short": "グン・ジェム",
+   "en_full": "Gon Jem",
+   "en_short": "Gon Jem",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Colonel; commander of the Giganos irregular Gon Jem Corps and its Four Heavenly Kings; pilots Geyzam, then Gilgazamune",
+   "personality": "crude, vicious, greedy, loyal to subordinates",
+   "nickname": "Filth of Giganos (ギガノスの汚物; Wikipedia renders it 'Garbage of Giganos')",
+   "sources": [
+    "https://www.dragonar.net/character/g07.php",
+    "https://en.wikipedia.org/wiki/Metal_Armor_Dragonar",
+    "https://superrobotwars.fandom.com/wiki/Metal_Armor_Dragonar"
+   ],
+   "variants": [
+    "Gun Jem",
+    "Gun Gem"
+   ],
+   "confidence": "high",
+   "notes": "Official site English name 'GON JEM'; Wikipedia and SRW wiki also 'Gon Jem'. The short label is the full name. 'Gun Jem' is the literal kana reading and a common fan variant.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "リー・スー・ミン",
+   "ja_short": "ミン",
+   "en_full": "Lee Sue Min",
+   "en_short": "Min",
+   "series": "Metal Armor Dragonar",
+   "gender": "female",
+   "role": "Captain; the only woman of Gon Jem's Four Heavenly Kings; pilots Stark Dyne; later joins Meio",
+   "personality": "fierce, rough, tomboyish; devoted to Meio",
+   "nickname": "Min",
+   "sources": [
+    "https://www.dragonar.net/character/g08.php",
+    "https://en.wikipedia.org/wiki/Metal_Armor_Dragonar"
+   ],
+   "variants": [
+    "Lee Su Min",
+    "Li Su Min",
+    "Lee Soo Min",
+    "MIN (official site)"
+   ],
+   "confidence": "medium",
+   "notes": "The official site gives only 'MIN' as the English name and describes her as the unit's sole woman (紅一点). Wikipedia full form 'Lee Sue Min'. Short label 'Min' is solid; only the full-name spelling is medium.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ギガノス",
+   "ja_short": null,
+   "en_full": "Giganos",
+   "en_short": "Giganos",
+   "series": "Metal Armor Dragonar",
+   "gender": "not applicable",
+   "role": "Faction: Unified Lunar Empire of Giganos (旧ギガノス士官 = former Giganos officer)",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [
+    "United Lunar Empire Giganos",
+    "Giganos Empire"
+   ],
+   "confidence": "high",
+   "notes": "Locked in project glossary (org.giganos).",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "宇都宮比瑪",
+   "ja_short": "比瑪",
+   "en_full": "Hime Utsumiya",
+   "en_short": "Hime",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Female lead; 17-year-old pilot of a Brain Powerd aboard Novis Noah",
+   "personality": "caring, cheerful, empathetic",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Brain_Powerd_characters",
+    "https://en.wikipedia.org/wiki/Brain_Powerd"
+   ],
+   "variants": [
+    "Hime Utsunomiya (standard kanji reading; not used for this character)"
+   ],
+   "confidence": "high",
+   "notes": "Wikipedia list heading 'Hime Utsumiya'. Western name order.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "伊佐未勇",
+   "ja_short": "勇",
+   "en_full": "Yuu Isami",
+   "en_short": "Yuu",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Protagonist; former Reclaimer who leaves Orphan with a Brain Powerd",
+   "personality": "lone wolf; values life",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Brain_Powerd_characters",
+    "https://en.wikipedia.org/wiki/Brain_Powerd"
+   ],
+   "variants": [
+    "Yu Isami",
+    "Yū Isami",
+    "You Isami (Good Smile 'You Brain')"
+   ],
+   "confidence": "medium",
+   "notes": "Wikipedia's character-list heading is 'Yuu Isami' but the main Brain Powerd article writes 'Yu Isami', and Good Smile's Moderoid kit is 'You Brain'. 'Yuu' chosen per the list-page heading; it also avoids confusion with the English word 'you'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ジョナサン・グレーン",
+   "ja_short": "ジョナサン",
+   "en_full": "Jonathan Glenn",
+   "en_short": "Jonathan",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Reclaimer Grand Cher pilot at Orphan; Yuu's rival; son of Capt. Anoa McCormick",
+   "personality": "aggressive, bitter, competitive",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Brain_Powerd_characters",
+    "https://en.wikipedia.org/wiki/Brain_Powerd"
+   ],
+   "variants": [
+    "Jonathan Glen",
+    "Jonathan Grane"
+   ],
+   "confidence": "high",
+   "notes": "Wikipedia list heading 'Jonathan Glenn'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "クインシィ・イッサー",
+   "ja_short": "クインシィ",
+   "en_full": "Quincy Issa",
+   "en_short": "Quincy",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Reclaimer leader and Grand Cher pilot; real name Iiko Isami, Yuu's elder sister",
+   "personality": "brash, cold, resents Yuu",
+   "nickname": "Quincy Issa is itself an alias; real name Iiko Isami (伊佐未依衣子)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Brain_Powerd_characters",
+    "https://en.wikipedia.org/wiki/Brain_Powerd"
+   ],
+   "variants": [
+    "Quincy Isser",
+    "Quinsy Issa",
+    "Iiko Isami",
+    "Īko Isami"
+   ],
+   "confidence": "high",
+   "notes": "Wikipedia list heading 'Quincy Issa'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "テンカワ・アキト",
+   "ja_short": null,
+   "en_full": "Akito Tenkawa",
+   "en_short": "Akito",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "male",
+   "role": "Black Sarena pilot; the 'Prince of Darkness'",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary (char.akito_tenkawa).",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "ホシノ・ルリ",
+   "ja_short": null,
+   "en_full": "Ruri Hoshino",
+   "en_short": "Ruri",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of Nadesico B / C",
+   "personality": null,
+   "nickname": "Electronic Fairy (電子の妖精)",
+   "sources": [
+    "work/glossary/glossary.json",
+    "https://ja.wikipedia.org/wiki/機動戦艦ナデシコの登場人物"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary (char.ruri_hoshino). The glossary's ja list has only 星野ルリ; the game label ホシノ・ルリ should be added there as a ja alias.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "スバル・リョーコ",
+   "ja_short": "リョーコ",
+   "en_full": "Ryoko Subaru",
+   "en_short": "Ryoko",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "female",
+   "role": "Aestivalis squad leader (red frame); in the film a military pilot with her natural black hair",
+   "personality": "tough, brash, hotheaded",
+   "nickname": null,
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Ryoko_Subaru",
+    "https://en.wikipedia.org/wiki/Martian_Successor_Nadesico:_The_Motion_Picture_%E2%80%93_Prince_of_Darkness",
+    "https://en.wikipedia.org/wiki/List_of_Martian_Successor_Nadesico_characters"
+   ],
+   "variants": [
+    "Ryouko Subaru"
+   ],
+   "confidence": "high",
+   "notes": "Nadesico wiki page title; infobox Gender: Female.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "アマノ・ヒカル",
+   "ja_short": null,
+   "en_full": "Hikaru Amano",
+   "en_short": "Hikaru",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "female",
+   "role": "Aestivalis pilot (orange frame); working manga artist by the time of the film",
+   "personality": "bubbly, energetic, Gekiganger otaku",
+   "nickname": null,
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Hikaru_Amano",
+    "https://en.wikipedia.org/wiki/List_of_Martian_Successor_Nadesico_characters"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "The task brief said this name was already in glossary.json, but no Hikaru Amano entry was found there (only Hikaru Ichijyo from Macross), so it is marked false. Spelling is uncontested; confirmed on the Nadesico wiki (Gender: Female).",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "マキ・イズミ",
+   "ja_short": "イズミ",
+   "en_full": "Izumi Maki",
+   "en_short": "Izumi",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "female",
+   "role": "Aestivalis pilot; in the film a bar musician who rejoins the crew",
+   "personality": "gloomy, eccentric, incurable punster",
+   "nickname": null,
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Izumi_Maki",
+    "https://en.wikipedia.org/wiki/List_of_Martian_Successor_Nadesico_characters",
+    "https://ja.wikipedia.org/wiki/機動戦艦ナデシコの登場人物"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "The Nadesico wiki infobox has no gender field, but the article text and Wikipedia use she/her.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "イネス・フレサンジュ",
+   "ja_short": "イネス",
+   "en_full": "Inez Fressange",
+   "en_short": "Inez",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "female",
+   "role": "Nergal scientist and doctor; A-class jumper hidden by Nergal in the film",
+   "personality": "intelligent, loves explaining, detached",
+   "nickname": "'Explanation lady' (説明おばさん, the crew's teasing name); 'Doctor'; childhood name Ai",
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Inez_Fressange",
+    "https://en.wikipedia.org/wiki/Martian_Successor_Nadesico:_The_Motion_Picture_%E2%80%93_Prince_of_Darkness",
+    "https://ja.wikipedia.org/wiki/機動戦艦ナデシコの登場人物"
+   ],
+   "variants": [
+    "Ines Fressange",
+    "Inez Fresange"
+   ],
+   "confidence": "high",
+   "notes": "Nadesico wiki page title 'Inez Fressange' (Gender: Female); Wikipedia agrees.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "月臣元一朗",
+   "ja_short": "月臣",
+   "en_full": "Genichiro Tsukiomi",
+   "en_short": "Tsukiomi",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "male",
+   "role": "Former Jovian elite pilot and friend of Tsukumo Shiratori; in the film a Nergal Secret Service operative who trained Akito",
+   "personality": "vain, self-absorbed, formerly blindly devoted",
+   "nickname": null,
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Genichirou_Tsukiomi",
+    "https://ja.wikipedia.org/wiki/機動戦艦ナデシコの登場人物",
+    "https://en.wikipedia.org/wiki/List_of_Martian_Successor_Nadesico_characters",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Characters/MartianSuccessorNadesico"
+   ],
+   "variants": [
+    "Genichirou Tsukiomi (Nadesico wiki page title)",
+    "Gen-Ichiro Tsukuomi (Wikipedia)",
+    "Genichiro Tsukuomi",
+    "Genichiro Tsukuyomi (Behind The Voice Actors)",
+    "Genichiro Tsukiyomi (TV Tropes)"
+   ],
+   "confidence": "medium",
+   "notes": "Japanese Wikipedia gives the reading つきおみ げんいちろう = Tsukiomi, which matches the Nadesico wiki page title 'Genichirou Tsukiomi' (a stub page). English Wikipedia's 'Tsukuomi' and others' 'Tsukuyomi/Tsukiyomi' look like misreadings, but 'Tsukuomi' may be what the ADV release used (not verified). Long vowel dropped ('Genichiro') to match project style (Ryoko, Ryoma). Short label is the surname. Gender from Wikipedia pronouns.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "マキビ・ハリ",
+   "ja_short": "ハーリー",
+   "en_full": "Hari Makibi",
+   "en_short": "Harry",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "male",
+   "role": "Ensign; assistant to the XO and bridge operator on Nadesico B; genetically engineered 11-year-old",
+   "personality": "emotional, ordinary kid, adores Ruri",
+   "nickname": "Harry (ハーリー; nickname given by Ruri)",
+   "sources": [
+    "https://nadesico.fandom.com/wiki/Hari_Makibi",
+    "https://nadesico.fandom.com/wiki/Super_Robot_Wars_V",
+    "https://en.wikipedia.org/wiki/Martian_Successor_Nadesico:_The_Motion_Picture_%E2%80%93_Prince_of_Darkness",
+    "https://ja.wikipedia.org/wiki/機動戦艦ナデシコの登場人物"
+   ],
+   "variants": [
+    "Harley",
+    "Hurley",
+    "Hari"
+   ],
+   "confidence": "low",
+   "notes": "Full name 'Hari Makibi' is solid (Nadesico wiki title, Wikipedia, which uses 'he'). The short label ハーリー is his nickname (Japanese Wikipedia: 愛称は「ハーリー」, given by Ruri), not his given name, so it should not be rendered 'Hari'. The Nadesico wiki's SRW V page writes 'Harry'; 'Harley' and 'Hurley' also circulate. The ADV subtitle and SRW V official English renderings could not be verified, hence low confidence on en_short only.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "北辰",
+   "ja_short": "北辰",
+   "en_full": "Hokushin",
+   "en_short": "Hokushin",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "male",
+   "role": "Leader of the Martian Successors' covert assassination unit; pilots the Yatenkou; abducted Akito and Yurika",
+   "personality": "ruthless assassin",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Martian_Successor_Nadesico:_The_Motion_Picture_%E2%80%93_Prince_of_Darkness",
+    "https://ja.wikipedia.org/wiki/機動戦艦ナデシコの登場人物"
+   ],
+   "variants": [
+    "Hoku Shin"
+   ],
+   "confidence": "high",
+   "notes": "Wikipedia film article: 'Hokushin - A mysterious assassin hired by the Martian Successors ... He is killed at the end of the movie.' Reading ほくしん confirmed on Japanese Wikipedia. No Nadesico wiki page exists.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "火星の後継者",
+   "ja_short": null,
+   "en_full": "Martian Successors",
+   "en_short": "Martian Successors",
+   "series": "Martian Successor Nadesico: The Motion Picture - Prince of Darkness",
+   "gender": "not applicable",
+   "role": "Faction: Kusakabe's insurgent group in the film",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [
+    "Successors of Mars"
+   ],
+   "confidence": "high",
+   "notes": "Locked in project glossary (org.martian_successors).",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "號",
+   "ja_short": null,
+   "en_full": "Go",
+   "en_short": "Go",
+   "series": "Getter Robo Armageddon",
+   "gender": "male",
+   "role": "Artificially created pilot of Shin Getter Robo (Shin Getter-1)",
+   "personality": "Initially emotionally detached; protective of Kei",
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [
+    "Go Saotome (Wikipedia)"
+   ],
+   "confidence": "high",
+   "notes": "Locked in project glossary; reused as-is. Do not confuse with Go Ichimonji (Getter Robo Go).",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "渓",
+   "ja_short": "渓",
+   "en_full": "Kei",
+   "en_short": "Kei",
+   "series": "Getter Robo Armageddon",
+   "gender": "female",
+   "role": "Shin Getter-2 pilot; Benkei's adopted daughter (really Genki Saotome)",
+   "personality": "Acts strong but vulnerable; tomboyish",
+   "nickname": null,
+   "sources": [
+    "https://getterrobo.fandom.com/wiki/Kei_(Armageddon)",
+    "https://en.wikipedia.org/wiki/Getter_Robo_Armageddon",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Kei Kuruma (Wikipedia)",
+    "Genki Saotome (birth name)"
+   ],
+   "confidence": "high",
+   "notes": "Getter Robo Wiki page title 'Kei (Armageddon)', infobox gender Female; akurasu 'Kei'. Game label is the single kanji, so use 'Kei' only. Real name Genki Saotome is a plot reveal; do not use it for the label.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "凱",
+   "ja_short": "凱",
+   "en_full": "Gai",
+   "en_short": "Gai",
+   "series": "Getter Robo Armageddon",
+   "gender": "male",
+   "role": "Mechanic turned Shin Getter-3 pilot; part of Benkei's group",
+   "personality": "Gentle, dislikes conflict; good-natured",
+   "nickname": null,
+   "sources": [
+    "https://getterrobo.fandom.com/wiki/Gai_(Armageddon)",
+    "https://en.wikipedia.org/wiki/Getter_Robo_Armageddon",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Wiki page title 'Gai (Armageddon)', infobox gender Male; akurasu 'Gai'. Not Gai Shishioh (GaoGaiGar) nor Gai Daido (Getter Robo Go manga).",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "流竜馬",
+   "ja_short": "竜馬",
+   "en_full": "Ryoma Nagare",
+   "en_short": "Ryoma",
+   "series": "Getter Robo Armageddon",
+   "gender": "male",
+   "role": "Veteran Getter Team pilot (Getter-1, Black Getter, Shin Getter)",
+   "personality": "Fierce, blunt, justice-driven",
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [
+    "Ryouma Nagare"
+   ],
+   "confidence": "high",
+   "notes": "Locked in project glossary; reused as-is. Western name order (given name first).",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "神隼人",
+   "ja_short": "隼人",
+   "en_full": "Hayato Jin",
+   "en_short": "Hayato",
+   "series": "Getter Robo Armageddon",
+   "gender": "male",
+   "role": "Former Getter-2 pilot; commander of the Tower",
+   "personality": "Cool-headed, manipulative, calculating; seeks atonement",
+   "nickname": null,
+   "sources": [
+    "https://getterrobo.fandom.com/wiki/Hayato_Jin_(Armageddon)",
+    "https://en.wikipedia.org/wiki/Getter_Robo_Armageddon",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Jin Hayato (Japanese order)"
+   ],
+   "confidence": "high",
+   "notes": "Wiki page title 'Hayato Jin (Armageddon)', gender Male. Same spelling on Wikipedia and akurasu.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "車弁慶",
+   "ja_short": "弁慶",
+   "en_full": "Benkei Kuruma",
+   "en_short": "Benkei",
+   "series": "Getter Robo Armageddon",
+   "gender": "male",
+   "role": "Former Getter pilot; Kei's adoptive father and mentor, later Shin Getter-3 pilot",
+   "personality": "Compassionate; mediator; looks out for others",
+   "nickname": null,
+   "sources": [
+    "https://getterrobo.fandom.com/wiki/Benkei_Kuruma_(Armageddon)",
+    "https://en.wikipedia.org/wiki/Getter_Robo_Armageddon",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Kuruma Benkei (Japanese order)",
+    "Benkei Kurama (typo in a wiki link)"
+   ],
+   "confidence": "high",
+   "notes": "Wiki page title 'Benkei Kuruma (Armageddon)', gender Male. Same on Wikipedia and akurasu.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "早乙女",
+   "ja_short": "早乙女",
+   "en_full": "Dr. Saotome",
+   "en_short": "Saotome",
+   "series": "Getter Robo Armageddon",
+   "gender": "male",
+   "role": "Creator of Getter Robo; returns as antagonist under Invader control",
+   "personality": "Pragmatic scientist driven mad; vengeful grudge",
+   "nickname": null,
+   "sources": [
+    "https://getterrobo.fandom.com/wiki/Dr._Saotome_(Armageddon)",
+    "https://en.wikipedia.org/wiki/Getter_Robo_Armageddon",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Professor Saotome (Wikipedia; literal for 早乙女博士)"
+   ],
+   "confidence": "high",
+   "notes": "Wiki page title 'Dr. Saotome (Armageddon)', gender Male; akurasu also 'Dr. Saotome'. The game label is only the surname 早乙女, so the speaker label can be 'Saotome' or 'Dr. Saotome' at the project's discretion; 早乙女博士 in dialogue = 'Dr. Saotome'. No given name is established.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ゲイナー・サンガ",
+   "ja_short": null,
+   "en_full": "Gainer Sanga",
+   "en_short": "Gainer",
+   "series": "Overman King Gainer",
+   "gender": "male",
+   "role": "Student, gaming champion, King Gainer pilot",
+   "personality": "Headstrong; initially reluctant about Exodus",
+   "nickname": "King Gainer",
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary; reused as-is.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "ゲイン・ビジョウ",
+   "ja_short": null,
+   "en_full": "Gain Bijou",
+   "en_short": "Gain",
+   "series": "Overman King Gainer",
+   "gender": "male",
+   "role": "Exodus specialist and sniper",
+   "personality": "Affable off the battlefield; guarded past",
+   "nickname": "Black Southern Cross",
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary; reused as-is.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "サラ・コダマ",
+   "ja_short": "サラ",
+   "en_full": "Sara Kodama",
+   "en_short": "Sara",
+   "series": "Overman King Gainer",
+   "gender": "female",
+   "role": "High school student; Gauli Squad member, Panther pilot",
+   "personality": "Diligent, hard-working, devoted",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Sarah Kodama (unverified alternate)"
+   ],
+   "confidence": "high",
+   "notes": "Same spelling on Wikipedia and akurasu. Gender from Wikipedia pronouns ('her').",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": null,
+   "ja_short": "アナ姫",
+   "en_full": "Princess Ana Medaiyu",
+   "en_short": "Princess Ana",
+   "series": "Overman King Gainer",
+   "gender": "female",
+   "role": "Daughter of Duke Medaiyu; joins the Yapan Exodus as a 'hostage'",
+   "personality": "Lively; insatiably curious",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Ana Medaiyu (akurasu, for アナ・メダイユ)",
+    "Princess Anna (Wikipedia plot text)"
+   ],
+   "confidence": "high",
+   "notes": "Wikipedia character heading 'Princess Ana Medaiyu'; akurasu 'Ana Medaiyu'. Short label アナ姫 = 'Princess Ana'. The Wikipedia plot section inconsistently writes 'Anna'; the character-list spelling 'Ana' is preferred. Gender from Wikipedia ('daughter', 'her').",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ヤッサバ・ジン",
+   "ja_short": "ヤッサバ",
+   "en_full": "Yassaba Jin",
+   "en_short": "Yassaba",
+   "series": "Overman King Gainer",
+   "gender": "male",
+   "role": "Siberian Railway squad commander; Rushrod / Blackmail pilot",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Yassaba Jinn (unverified alternate)"
+   ],
+   "confidence": "medium",
+   "notes": "Wikipedia and akurasu agree on 'Yassaba Jin'. There is no dedicated King Gainer wiki page (superrobotwars.fandom.com has no KG character pages), and the official Bandai Entertainment dub credit list (behindthevoiceactors.com) returned HTTP 403, so the official-release spelling was not directly verified. Wikipedia gives no real personality description (only: first major opponent, looks older than his 32 years). Gender from pronoun 'he'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "アスハム・ブーン",
+   "ja_short": "アスハム",
+   "en_full": "Asuham Boone",
+   "en_short": "Asuham",
+   "series": "Overman King Gainer",
+   "gender": "male",
+   "role": "High-ranking Saint Regan police officer pursuing Gain",
+   "personality": "Obsessive; descends into homicidal madness",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Asuham Boon (unverified alternate)"
+   ],
+   "confidence": "medium",
+   "notes": "Wikipedia and akurasu agree on 'Asuham Boone'. Official dub credit list not opened (403). Gender from pronoun 'his'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "シンシア・レーン",
+   "ja_short": "シンシア",
+   "en_full": "Cynthia Lane",
+   "en_short": "Cynthia",
+   "series": "Overman King Gainer",
+   "gender": "female",
+   "role": "Elite Siberian Railway Overman pilot (Dominator); Gainer's online gaming friend",
+   "personality": "Whimsical; treats everything as a game; candy-loving",
+   "nickname": "Queen (online game handle)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Cynthia Rane (unverified alternate)"
+   ],
+   "confidence": "medium",
+   "notes": "Wikipedia and akurasu agree on 'Cynthia Lane'. Official dub credit list not opened (403). Gender from pronoun 'she'.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "カシマル・バーレ",
+   "ja_short": "カシマル",
+   "en_full": "Kashmir Valle",
+   "en_short": "Kashmir",
+   "series": "Overman King Gainer",
+   "gender": "male",
+   "role": "Operations director of the Siberian Railway; Netter-type Overman pilot",
+   "personality": "Flamboyant; schedule-obsessed; rages at deviations",
+   "nickname": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Kashimaru Bale / Kashimaru Barre (literal romanizations, unverified)"
+   ],
+   "confidence": "medium",
+   "notes": "Wikipedia and akurasu agree on 'Kashmir Valle' (kana is literally Kashimaru Baare). Wikipedia calls him a 'flamboyant man' (he/him) -- keep male despite flamboyant speech style. Official dub credit list not opened (403).",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "レントン・サーストン",
+   "ja_short": null,
+   "en_full": "Renton Thurston",
+   "en_short": "Renton",
+   "series": "Eureka Seven",
+   "gender": "male",
+   "role": "Nirvash co-pilot with Eureka",
+   "personality": "Idealistic, emotional; naive then responsible",
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary; reused as-is.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "エウレカ",
+   "ja_short": null,
+   "en_full": "Eureka",
+   "en_short": "Eureka",
+   "series": "Eureka Seven",
+   "gender": "female",
+   "role": "Nirvash pilot; Gekkostate member",
+   "personality": "Blunt, distant; grows emotionally expressive",
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary; reused as-is.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "ホランド・ノヴァク",
+   "ja_short": null,
+   "en_full": "Holland Novak",
+   "en_short": "Holland",
+   "series": "Eureka Seven",
+   "gender": "male",
+   "role": "Gekkostate leader; LFO pilot",
+   "personality": "Short-tempered despite relaxed public image",
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary; reused as-is.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "タルホ・ユーキ",
+   "ja_short": "タルホ",
+   "en_full": "Talho Yuki",
+   "en_short": "Talho",
+   "series": "Eureka Seven",
+   "gender": "female",
+   "role": "Head pilot/helmsman of the Gekko; Holland's partner",
+   "personality": "Temperamental; formerly mature and kind; devoted to Holland",
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Talho_Yūki",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Talho Yūki (Eureka Seven Wiki and Wikipedia page-title form, with macron)"
+   ],
+   "confidence": "high",
+   "notes": "Main wiki page title is 'Talho Yūki' (no 'Talho Yuki' page/redirect exists there). Recommended in-game form drops the macron: 'Talho Yuki' (exactly as on akurasu), since the game font/ASCII text is unlikely to support 'ū'. Infobox gender Female.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ギジェット",
+   "ja_short": "ギジェット",
+   "en_full": "Gidget",
+   "en_short": "Gidget",
+   "series": "Eureka Seven",
+   "gender": "female",
+   "role": "Gekkostate sensor and communications operator",
+   "personality": "Cheerful airhead; eager to please; romantic",
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Gidget",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Wiki page title 'Gidget', gender Female; Wikipedia says she is based on the title character of the Gidget franchise, which fixes the spelling. Same on akurasu.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": null,
+   "ja_short": "ミーシャ",
+   "en_full": "Mischa",
+   "en_short": "Mischa",
+   "series": "Eureka Seven",
+   "gender": "female",
+   "role": "Gekkostate's resident doctor; former Tresor researcher; Dr. Bear's ex-wife",
+   "personality": "Stern",
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Mischa",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Micha (Wikipedia section heading; akurasu for the movie version in SRW Z2.1)"
+   ],
+   "confidence": "medium",
+   "notes": "Eureka Seven Wiki page title is 'Mischa' (gender Female) and akurasu uses 'Mischa' for the TV-series version. Wikipedia's section heading is 'Micha' while its own body text elsewhere writes 'Mischa' -- sources are split; page-title form chosen per instructions. Personality barely described in opened sources.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "アネモネ",
+   "ja_short": null,
+   "en_full": "Anemone",
+   "en_short": "Anemone",
+   "series": "Eureka Seven",
+   "gender": "female",
+   "role": "Soldier; theEND pilot",
+   "personality": "Volatile, harsh; underlying loneliness",
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary; reused as-is.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "チャールズ・ビームス",
+   "ja_short": "チャールズ",
+   "en_full": "Charles Beams",
+   "en_short": "Charles",
+   "series": "Eureka Seven",
+   "gender": "male",
+   "role": "Freelance LFO pilot and mercenary; ex-SOF; Ray's husband",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Charles_Beams",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Wiki page title 'Charles Beams', gender Male. Named after designers Charles and Ray Eames (Wikipedia). No personality description in opened sources.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "レイ・ビームス",
+   "ja_short": "レイ",
+   "en_full": "Ray Beams",
+   "en_short": "Ray",
+   "series": "Eureka Seven",
+   "gender": "female",
+   "role": "Charles's wife and fighting partner; mercenary LFO pilot",
+   "personality": "Kind, caring, a bit timid; maternal toward Renton",
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Ray_Beams",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Wiki page title 'Ray Beams', infobox gender Female -- Ray is a woman despite the masculine-looking English name. CAUTION: short label レイ may collide with other レイ strings in the ACE3 cast (e.g. the surname in アムロ・レイ = Amuro Ray); check series context.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ドミニク・ソレル",
+   "ja_short": "ドミニク",
+   "en_full": "Dominic Sorel",
+   "en_short": "Dominic",
+   "series": "Eureka Seven",
+   "gender": "male",
+   "role": "Second lieutenant, Dewey's subordinate; Anemone's handler",
+   "personality": "Serious, matter-of-fact, blunt; devoted to Anemone",
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Dominic_Sorel",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Wiki page title 'Dominic Sorel', gender Male. Same on Wikipedia and akurasu.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ユルゲンス",
+   "ja_short": "ユルゲンス",
+   "en_full": "Jurgens",
+   "en_short": "Jurgens",
+   "series": "Eureka Seven",
+   "gender": "male",
+   "role": "Captain of the U.F. ship Izumo; later sides with Gekkostate",
+   "personality": "Hardened, loyal soldier; complains about assignments",
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Jurgens",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Captain Jurgens (Wikipedia heading; redirect on the wiki)"
+   ],
+   "confidence": "high",
+   "notes": "Wiki page title 'Jurgens' ('Captain Jurgens' redirects to it), gender Male. Same on akurasu. No given name established.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "デューイ・ノヴァク",
+   "ja_short": "デューイ",
+   "en_full": "Dewey Novak",
+   "en_short": "Dewey",
+   "series": "Eureka Seven",
+   "gender": "male",
+   "role": "Main antagonist; U.F. commander, former SOF head; Holland's older brother",
+   "personality": "Charismatic, brainy, genocidal",
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Dewey_Novak",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Wiki page title 'Dewey Novak', gender Male; consistent with the glossary's 'Holland Novak'. Same on Wikipedia and akurasu.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "ノルブ",
+   "ja_short": "ノルブ",
+   "en_full": "Norb",
+   "en_short": "Norb",
+   "series": "Eureka Seven",
+   "gender": "male",
+   "role": "Vodarac priest; Sakuya's guardian and partner",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Norb",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Wiki page title 'Norb', gender Male. Same on Wikipedia and akurasu. No personality description in opened sources.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "サクヤ",
+   "ja_short": "サクヤ",
+   "en_full": "Sakuya",
+   "en_short": "Sakuya",
+   "series": "Eureka Seven",
+   "gender": "female",
+   "role": "Eureka's predecessor; first humanoid Coralian, revered by the Vodarac",
+   "personality": "Long isolated; in love with Norb",
+   "nickname": null,
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Sakuya",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Wiki page title 'Sakuya', gender Female. Same on Wikipedia and akurasu.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "グレッグ・ベア・イーガン",
+   "ja_short": "ベア",
+   "en_full": "Greg Egan",
+   "en_short": "Bear",
+   "series": "Eureka Seven",
+   "gender": "male",
+   "role": "Iconoclastic Tresor scientist studying the Scub Coral; Mischa's ex-husband",
+   "personality": "Iconoclastic out-of-the-box thinker; affectionate toward Mischa",
+   "nickname": "Dr. Bear",
+   "sources": [
+    "https://eurekaseven.fandom.com/wiki/Greg_Egan",
+    "https://en.wikipedia.org/wiki/List_of_Eureka_Seven_characters",
+    "https://akurasu.net/wiki/Master_Characters_List"
+   ],
+   "variants": [
+    "Greg Bear Egan (akurasu; Wikipedia bold name; literal match for the Japanese full label)",
+    "Dr. Greg \"Bear\" Egan (Wikipedia heading)",
+    "Dr. Bear (redirect on the wiki)"
+   ],
+   "confidence": "medium",
+   "notes": "Main wiki page title is 'Greg Egan' ('Dr. Bear' redirects to it), chosen per instructions. However the game's full label グレッグ・ベア・イーガン includes ベア, so 'Greg Bear Egan' (akurasu/Wikipedia) is the closer match for that label -- project should decide. Short label ベア = 'Bear'; he is normally addressed as 'Dr. Bear' (nicknamed for his huge body, per Wikipedia). 'Gregory' was not found in any opened source. Gender Male.",
+   "already_in_glossary": false
+  },
+  {
+   "ja_full": "マリナ・カーソン",
+   "ja_short": null,
+   "en_full": "Marina Carson",
+   "en_short": "Marina",
+   "series": "ACE3 original",
+   "gender": "female",
+   "role": "Gun Ark pilot (returning ACE2 character)",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary (decision: researched); reused as-is.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "アンジェ・レイヴァー",
+   "ja_short": null,
+   "en_full": "Ange Raver",
+   "en_short": "Ange",
+   "series": "ACE3 original",
+   "gender": "female",
+   "role": "Pilot serving in Berkt's force",
+   "personality": null,
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [
+    "アンジェ・レイバー (Japanese spelling variant noted in glossary)"
+   ],
+   "confidence": "medium",
+   "notes": "Locked in project glossary, but flagged there as 'provisional'; reused as-is. No official romanization known.",
+   "already_in_glossary": true
+  },
+  {
+   "ja_full": "ベルクト",
+   "ja_short": null,
+   "en_full": "Berkt",
+   "en_short": "Berkt",
+   "series": "ACE3 original",
+   "gender": "male",
+   "role": "Officer of the New Federation",
+   "personality": "Reserved, emotionally guarded; hostile toward Barrel",
+   "nickname": null,
+   "sources": [
+    "work/glossary/glossary.json"
+   ],
+   "variants": [],
+   "confidence": "high",
+   "notes": "Locked in project glossary (decision: researched); reused as-is.",
+   "already_in_glossary": true
+  }
+ ]
+}

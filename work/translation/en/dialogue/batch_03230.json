@@ -1,0 +1,547 @@
+{
+  "slice_start": 3230,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      3215,
+      3324
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_03230",
+        "dialogue_03309"
+      ],
+      "note": "Scene identification: rows 3230-3309 (resource 6100, table_offset 1456, text ids 101-233) are Mission 10A, 'Defend Amaterasu': a target-elimination combat mission that is interrupted when a black machine and the Martian Successors surface from inside the Amaterasu facility. Rows 3215-3229 (resource 6093, a different mission's end) and context rows after 3309 belong to other scenes/agents and were read for context only, not translated here."
+    },
+    {
+      "ids": [
+        "dialogue_03275",
+        "dialogue_03276",
+        "dialogue_03277"
+      ],
+      "note": "The source text itself is fullwidth Latin letters, not Japanese: 'OTIKA...', then '!' plus six fullwidth spaces, then 'AKI, TO...'. This reads as a deliberately garbled/interference radio transmission building up to the row 3278 recognition ('Akito-san...!?'); kept verbatim (fullwidth converted to plain ASCII) rather than 'corrected' to spell AKITO, since the scrambling looks intentional (dramatic reveal), not a typo."
+    },
+    {
+      "ids": [
+        "dialogue_03280",
+        "dialogue_03281",
+        "dialogue_03282",
+        "dialogue_03283",
+        "dialogue_03284"
+      ],
+      "note": "Archaic/poetic proclamation by the Martian Successors' broadcast, apparently unique to this game (not located in any consulted wiki). '天津国' (Amatsukuni, a classical Shinto term for the heavenly realm) is rendered 'the heavens'; the pun on 'ヒサゴ' (Hisago/gourd, the plan's namesake) is kept literal ('like a gourd'). Meaning and register are uncertain; flagging for a second look rather than guessing a more idiomatic English proverb."
+    },
+    {
+      "ids": [
+        "dialogue_03296",
+        "dialogue_03297",
+        "dialogue_03298",
+        "dialogue_03299"
+      ],
+      "note": "Confirms the Ruins/Boson Jump/Hisago Plan connection ahead of the fuller explanation at rows 3354-3358; 'Boson Jump' has no book() tag on these particular rows in the source (unlike row 3355), so it was left as plain text there per the tag-fidelity rule."
+    },
+    {
+      "ids": [
+        "dialogue_03291",
+        "dialogue_03305",
+        "dialogue_03306",
+        "dialogue_03309"
+      ],
+      "note": "Speakers are untagged. 3291 ('Ruri... are you watching?') is consistent with Akito addressing Ruri Hoshino through a monitor; 3305-3306 and 3309 read as a bystander (contextually Ryoko, given 3293-3295 address her by name) reacting to seeing Yurika and Akito on screen. No speaker identity was written into any target; this is inference for the report only."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source via tools/dialogue_corpus.py slice: all equal (see self-check output).",
+    "format": "No newlines in any target (source's own \\n line breaks removed; the builder re-wraps at render time, matching corpus convention e.g. batch_02375). ASCII only; no bare percent sign.",
+    "fit": "Longest visible text is 91 characters (limit 110); no over-limit rows.",
+    "glyphs": "Lowercase j/q avoided where a natural synonym existed; none remain outside locked names/terms (Jovian Federation, Neo Zeon, Boson Jump/Jumper).",
+    "ids": "80/80 ids present, none duplicated (dialogue_03230-dialogue_03309).",
+    "meaning_review": "All 80 rows meaning-reviewed by independent_review_dialogue_agent (review_03230.json); no meaning fixes were needed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_03230",
+      "target": "<op()><sp(20)>Eliminate every target.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03231",
+      "target": "<sp(20)>Sending target locations now.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03232",
+      "target": "<op()><sp(20)>Watch out for the Gravity Blast from the ship of unknown affiliation!<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03233",
+      "target": "<sp(20)>Sending a warning from our side.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03234",
+      "target": "<op()><sp(20)>Those guys... they're the force that showed up at Shirahime.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Shirahime per encyclopedia_022 (already-researched term, Hisago Plan terminal colony); no new proposal needed."
+    },
+    {
+      "id": "dialogue_03235",
+      "target": "<op()><sp(20)>Neo Zeon and Giganos are here too.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03236",
+      "target": "<op()><sp(20)>But who's the force fighting back with a Gravity Blast?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03237",
+      "target": "<op()><sp(20)>They seemed to be covering that black machine from earlier...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03238",
+      "target": "<op()><sp(20)>Enemy forces are appearing from inside Amaterasu too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03239",
+      "target": "<op()><sp(20)>What's going on!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03240",
+      "target": "<op()><sp(20)>It seems the enemy had agents hiding inside.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03241",
+      "target": "<op()><sp(20)>Damn it! How is that even allowed!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03242",
+      "target": "<op()><sp(20)>Watch out for a pincer attack. Either way, all we can do now is wipe them out.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed: source is two clauses (avoid pincer attack; anyway there is nothing left but annihilation). Folded into one sentence without dropping either half."
+    },
+    {
+      "id": "dialogue_03243",
+      "target": "<op()><sp(20)>Gravity Blast incoming. Evacuate the line of fire.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03244",
+      "target": "<op()><sp(20)>Bombardment, incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03245",
+      "target": "<op()><sp(20)>The Gravity Blast from the ship of unknown affiliation is growing more intense!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03246",
+      "target": "<op()><sp(20)>Confirm the firing point and evacuate the line of fire!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03247",
+      "target": "<op()><sp(20)>W-we're almost out of time!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03248",
+      "target": "<op()><sp(20)>Operation time exceeded...! The mission is a failure!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Mission-fail template matches corpus form (batch_00993: 'Time's up... Unfortunately, the operation has failed.')."
+    },
+    {
+      "id": "dialogue_03249",
+      "target": "<op()><sp(20)>Enemy withdrawal confirmed!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03250",
+      "target": "<op()><sp(20)>All targets eliminated!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03251",
+      "target": "<op()><sp(20)>Impressive skill, as expected.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03252",
+      "target": "<op()><sp(20)>Damn it! Still hard to deal with, as always!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03253",
+      "target": "<op()><sp(20)>There still seem to be more enemy reinforcements. Please be careful.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03254",
+      "target": "<op()><sp(20)>Not the best time to say this, but... this place really reeks of trouble.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03255",
+      "target": "<op()><sp(20)>Is that a professional contractor's hunch?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Professional contractor' (ukeoinin) is a plain-noun question; the addressee is confirmed as Ryoko two rows later ('this Ryoko'). No name invented for the unnamed partner asking the question."
+    },
+    {
+      "id": "dialogue_03256",
+      "target": "<op()><sp(20)>Yeah, that's about it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03257",
+      "target": "<op()><sp(20)>Come at me, all of you, together!<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03258",
+      "target": "<sp(20)>This Ryoko is your opponent!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Ryoko-sama' (self-referential honorific) rendered as plain 'This Ryoko' per corpus convention of dropping honorifics; matches locked short name Ryoko (character_names_021)."
+    },
+    {
+      "id": "dialogue_03259",
+      "target": "<op()><sp(20)>Y-you're going too far ahead.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03260",
+      "target": "<op()><sp(20)>The inside of Amaterasu has been occupied!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03261",
+      "target": "<op()><sp(20)>...The enemy is moving fast!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03262",
+      "target": "<op()><sp(20)>Intruders from inside, huh. This looks like a carefully planned operation.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03263",
+      "target": "<op()><sp(20)>Captain!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03264",
+      "target": "<op()><sp(20)>What is it?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03265",
+      "target": "<op()><sp(20)>Enemies of Earth, enemies of the Jovian Federation, enemies of every corruption in space...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "'Mokuren' rendered 'Jovian Federation' per encyclopedia_022's rendering of the same abbreviation ('the fight with the Jovian Federation in the First Defense War')."
+    },
+    {
+      "id": "dialogue_03266",
+      "target": "<sp(20)>We are the Martian Successors!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Martian Successors' declared manifesto; book(29) tag not present on this row in source, so left as plain text per format rule (tags kept exactly where source has them)."
+    },
+    {
+      "id": "dialogue_03267",
+      "target": "<op()><sp(20)>This is...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03268",
+      "target": "<op()><sp(20)>All units, please listen.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03269",
+      "target": "<sp(20)>Just now, an organization calling itself the Martian Successors issued a statement.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03270",
+      "target": "<sp(20)>Their goal is to seize Amaterasu.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03271",
+      "target": "<op()><sp(20)>A black machine has entered Amaterasu's Block 13!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "'13' from fullwidth digits; Block 13 is flagged by the very next row as absent from official records - kept as stated, no explanation invented."
+    },
+    {
+      "id": "dialogue_03272",
+      "target": "<sp(20)>...Block 13? There's no such thing in the official records!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03273",
+      "target": "<op()><sp(20)>Please bring up the monitor.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03274",
+      "target": "<op()><sp(20)>The black machine has begun fighting the Martian Successors inside!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03275",
+      "target": "<op()><sp(20)>OTIKA...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03276",
+      "target": "<op()><sp(20)>!      <ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03277",
+      "target": "<sp(20)>AKI, TO...<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03278",
+      "target": "<sp(20)>Akito...!?<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03279",
+      "target": "<op()><sp(20)>Akito, you say!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03280",
+      "target": "<op()><sp(20)>What grows to the heavens in a single night is a cosmic spiral, like a gourd...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03281",
+      "target": "<sp(20)>We are the shadow of the Martian Successors...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03282",
+      "target": "<sp(20)>Human in form, yet heretics who have strayed from the path of man.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03283",
+      "target": "<sp(20)>All for the sake of a new order.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03284",
+      "target": "<op()><sp(20)>...Destruction.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Single-word chant '...Destruction.' kept as a noun (not an imperative 'Die') since the source gives no addressee."
+    },
+    {
+      "id": "dialogue_03285",
+      "target": "<op()><sp(20)>Bringing up the internal monitor!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03286",
+      "target": "<op()><sp(20)>Still seeking revenge against us? Know that it's pointless.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03287",
+      "target": "<op()><sp(20)>I will take it back, no matter what.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03288",
+      "target": "<sp(20)>I won't let you use it any further.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03289",
+      "target": "<op()><sp(20)>What are these guys talking about...?<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03290",
+      "target": "<op()><sp(20)>Wait a second...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03291",
+      "target": "<sp(20)>Ruri... are you watching?<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03292",
+      "target": "<sp(20)>What... is this...?<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03293",
+      "target": "<op()><sp(20)>Ryoko, calm down.<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03294",
+      "target": "<op()><sp(20)>What the hell is that!?<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03295",
+      "target": "<op()><sp(20)>Ryoko.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03296",
+      "target": "<op()><sp(20)>Even though its shape has changed, that's the ruins.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03297",
+      "target": "<sp(20)>The Martian ruins that Earth and Jupiter were both after in the war back then.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03298",
+      "target": "<sp(20)>The black box for the Boson Jump...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03299",
+      "target": "<sp(20)>So this is the true nature of the Hisago Plan.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03300",
+      "target": "<op()><sp(20)>...That's right.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03301",
+      "target": "<op()><sp(20)>And now it is in my hands.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03302",
+      "target": "<op()><sp(20)>I will kill you and take it back.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03303",
+      "target": "<op()><sp(20)>Oh, avenger...<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03304",
+      "target": "<sp(20)>Will you die in front of a woman?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Will you die in front of a woman?' - taunt referencing an unnamed female bystander (contextually Yurika, seen in the same shot at 3305); no name added since source uses 'onna' (woman), not a name."
+    },
+    {
+      "id": "dialogue_03305",
+      "target": "<op()><sp(20)>Why... why is Yurika inside the ruins!?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03306",
+      "target": "<sp(20)>Akito! You really are Akito, aren't you?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source repeats the name Akito twice (vocative, then inside the question); both kept rather than merged, to avoid dropping content."
+    },
+    {
+      "id": "dialogue_03307",
+      "target": "<op()><sp(20)>Explosions all across Amaterasu!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03308",
+      "target": "<op()><sp(20)>Yurika and Akito--!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03309",
+      "target": "<sp(20)>--! Ruri! Answer me! You're watching, aren't you!?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

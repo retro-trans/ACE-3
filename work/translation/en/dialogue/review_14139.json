@@ -1,0 +1,22 @@
+{
+ "reviewer": "independent_shout_review_agent",
+ "slice_start": 14139,
+ "slice_count": 8,
+ "rows_examined": [[14124, 14153]],
+ "rows_examined_count": 30,
+ "rows_in_slice": 8,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [],
+ "checked_decisions": [
+  {"rows": [14139, 14146], "finding": "Final 8 rows of unit 2815020 (Master Gundam, pilot Master Asia) confirmed against work/ui/shout_groups.json ([2815020, 14012, 14146]); resource ends cleanly at 14146, next resource 2816010 begins at 14147 with no boundary ambiguity."},
+  {"rows": [14142, 14143, 14144], "finding": "All three victory/boast lines checked against source; meaning, addressee (self-boasting, no invented identities) and tone (imperious, matches Master Asia's personality) all correct."}
+ ],
+ "uncertainties": [],
+ "validation": {
+  "controls": "All <op()>, <sp(20)>, <ab(1000)>/<ab(1001)> commands verified identical and in original order for all 8 rows.",
+  "format": "ASCII only; no lowercase j/q occurrences in this batch.",
+  "newline_fix": "All 4 rows whose target split a shout across two lines with \\n (14142, 14143, 14144, 14146) were rejoined into one line with a space per the shout no-newline rule; mechanical joins only, wording unchanged.",
+  "byte_budget": "Re-verified all 8 rows programmatically against min(72, 2*source_ja_chars-2); all rows fit within budget. No meaning fixes were needed in this batch.",
+  "visible_length": "All 8 rows' visible text (tags stripped) is well under the 110-char cap."
+ }
+}

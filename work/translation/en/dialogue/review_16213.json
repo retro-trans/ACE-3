@@ -1,0 +1,35 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 16213,
+  "slice_count": 80,
+  "rows_examined": [{"start": 16198, "end": 16307}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [16217, 16283], "finding": "Kyoshiro's third-person self-name 'Plamo-Kyoshiro' compressed to first person ('me'/'my strength and wit') to fit the 26/30-char budgets; the exuberant self-boast is preserved, no identity is invented or lost, so this is compression, not a meaning error."},
+    {"rows": [16225], "finding": "'Oni-san kochira' hide-and-seek taunt reduced to a generic 'Over here!' under a 12-char budget; the game-reference flavor is lost but the taunting intent (luring the opponent) is kept intact."},
+    {"rows": [16272, 16274], "finding": "Unidentified opponents ('こんな奴', 'あいつ') correctly rendered gender-neutral ('this one'/'that one'); no gender or identity invented, per project rule."},
+    {"rows": [16277], "finding": "Extreme 10-char budget forces 'What now?!' for a line literally about bewildered disbelief at the opponent ('what IS that guy'); this drops the specific target-reference but keeps the surprised-reaction tone. No better fit exists at 10 characters; not a reversal, left as compression."},
+    {"rows": [16281], "finding": "'Aidoin  Ampu chanpion' (broken-English katakana joke, lit. 'I am champion') is kept as the equally broken 'I am champion!' rather than corrected to grammatical English -- this is the right call, since 'fixing' the grammar would erase the source's own joke."},
+    {"rows": [16287, 16289], "finding": "'Plamo Spirit' (literal rendering of the source's own katakana coinage) and the Yamato-damashii idiom (compressed to 'That's spirit!' at an exact 14-char fit) both preserve the celebratory boast; no reversal."},
+    {"rows": [16220], "finding": "'Yudan dekinai zo' (self-directed 'I can't let my guard down') rendered as the imperative 'Stay sharp!'. Per BASE_RULES, an ambiguous-addressee imperative is the preferred construction over inventing a subject pronoun; kept as is."},
+    {"rows": [16243], "finding": "'Ore hitori de juubun da' ('I alone am enough') compressed to 'One's enough!'; read in context as self-assurance (I alone am enough for this), matching the source, not as a claim about enemy numbers. Fits budget (13/14 chars)."},
+    {"rows": [16291, 16292], "finding": "Confirmed the speaker boundary: rows 16213-16290 are Kyoshiro (resource 2824012, Perfect Gundam); rows 16291-16292 already belong to Isamu Alva Dyson (resource 2825010, YF-19), matching shout_groups.json and the batch file's own speaker note. Both exclamations ('Yeeeehaaawww!', 'Come on, come on!!') fit his reckless/carefree voice."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_16217", "dialogue_16283"], "issue": "Ruling: translator's compression of Kyoshiro's self-naming to first person is correct and required by the byte budget; no fix needed."},
+    {"id": "dialogue_16225", "issue": "Ruling: loss of the 'oni-san kochira' children's-game reference is acceptable compression under a 12-char budget; no fix needed."},
+    {"ids": ["dialogue_16272", "dialogue_16274", "dialogue_16313"], "issue": "Ruling: gender-neutral phrasing for unidentified opponents is the correct call per project rule; no fix needed."},
+    {"id": "dialogue_16277", "issue": "Ruling: 'What now?!' under a 10-char budget is the best available compression of a bewildered-reaction line; approximate but not a reversal; no fix needed."},
+    {"id": "dialogue_16287", "issue": "Ruling: 'Plamo Spirit' literal rendering is fine pending its own glossary proposal; no fix needed here."},
+    {"id": "dialogue_16289", "issue": "Ruling: dropping the named 'Yamato damashii' idiom for 'That's spirit!' is required by an exact 14-char fit; no fix needed."}
+  ],
+  "validation": {
+    "controls": "All <op()><sp(20)>...<ab(1000)><ed()> command sequences re-checked against the console source in exact order for all 80 rows; identical, no additions/omissions.",
+    "fit": "Re-ran a throwaway script recomputing min(72, 2*Japanese_char_count-2) per row from the console source against each target's visible length (tags stripped): all 80 rows meet budget. No script left in the repo.",
+    "format": "No newline in any target; all visible text ASCII (no fullwidth percent used in this batch); no lowercase j or q found outside locked names (none present).",
+    "runtime": "Runtime scene selection and font coverage are not established by this meaning review; only source-vs-target meaning, addressee, tone and glossary spellings were checked."
+  }
+}

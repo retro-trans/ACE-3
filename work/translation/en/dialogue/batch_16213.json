@@ -1,0 +1,533 @@
+{
+  "slice_start": 16213,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      16198,
+      16292
+    ]
+  ],
+  "rows_examined_count": 95,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_16217",
+        "dialogue_16283"
+      ],
+      "note": "Kyoshiro's self-referential use of his own hero-name 'Plamo-Kyoshiro' (playing himself up in third person) could not fit the byte budget alongside the rest of the line; compressed to first-person 'me'/'my'."
+    },
+    {
+      "id": "dialogue_16225",
+      "note": "'Oni-san kochira' hide-and-seek taunt simplified to a generic taunt; game-reference nuance lost to the tight budget."
+    },
+    {
+      "ids": [
+        "dialogue_16272",
+        "dialogue_16274",
+        "dialogue_16313"
+      ],
+      "note": "Unidentified opponents referred to with gender-neutral 'this one'/'that one' rather than 'guy', per the no-gender-from-appearance rule."
+    },
+    {
+      "id": "dialogue_16277",
+      "note": "Row's 10-character budget forced heavy compression of a bewildered reaction line; meaning is only approximate."
+    },
+    {
+      "id": "dialogue_16287",
+      "note": "'Plamo Spirit' is a literal rendering of the source's own katakana coinage (puramo supiritto); proposed for the glossary, see batch_16213_glossary_proposals.json."
+    },
+    {
+      "id": "dialogue_16289",
+      "note": "'Yamato damashii' (a named Japanese idiom for fighting spirit) dropped in favor of generic 'That's spirit!' under a 14-character budget."
+    }
+  ],
+  "validation": {
+    "fit": "Pilot battle-shout corpus: each resource is one playable/enemy unit with one fixed pilot, who speaks every <op()> row (per task brief; no <on()> operator rows in this range). Byte budget applied per row: English visible length <= min(72, 2*Japanese_char_count - 2), counting all visible source characters (kanji/kana/punctuation) and excluding command tags and newlines. All 80 rows in this batch meet their per-row budget; see uncertainties for rows where meaning was compressed to do so.",
+    "controls": "All rows keep the source's exact command sequence <op()><sp(20)>...<ab(1000)><ed()> unchanged and in order; no newlines in any target.",
+    "speakers": "Rows dialogue_16213-16290 are resource 2824012 (unit Perfect Gundam, pilot Kyoshiro/Shiro Kyoda, exuberant shonen-hero voice per character_names_021.json). Rows dialogue_16291-16292 begin resource 2825010 (unit YF-19, pilot Isamu Alva Dyson, reckless/carefree voice).",
+    "meaning_review": "Meaning review (independent_translate_dialogue_81_agent, slice reviewed with +/-15 rows context): no meaning fixes required; all targets are compressions/paraphrases that preserve source meaning, addressee, tone and locked spellings. All rows in this batch set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_16213",
+      "target": "<op()><sp(20)>I've got this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16214",
+      "target": "<op()><sp(20)>Take the hit, then cut deep!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16215",
+      "target": "<op()><sp(20)>Yahoo!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16216",
+      "target": "<op()><sp(20)>Surrender while you can!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16217",
+      "target": "<op()><sp(20)>Don't underestimate me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Self-reference to his own hero-name 'Plamo-Kyoshiro' compressed to 'me' for the 26-char budget; not a third person."
+    },
+    {
+      "id": "dialogue_16218",
+      "target": "<op()><sp(20)>I'll scrap you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16219",
+      "target": "<op()><sp(20)>Now it's my turn!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16220",
+      "target": "<op()><sp(20)>Stay sharp!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16221",
+      "target": "<op()><sp(20)>Do or die!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16222",
+      "target": "<op()><sp(20)>Oops!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16223",
+      "target": "<op()><sp(20)>Damn it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16224",
+      "target": "<op()><sp(20)>It's not my nature to back down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16225",
+      "target": "<op()><sp(20)>Over here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Oni-san kochira' (hide-and-seek taunt) simplified to a generic 'come find me' taunt; the children's-game reference is lost to the 12-char budget."
+    },
+    {
+      "id": "dialogue_16226",
+      "target": "<op()><sp(20)>Let's go big!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16227",
+      "target": "<op()><sp(20)>Gotta do something!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16228",
+      "target": "<op()><sp(20)>Bad feeling...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16229",
+      "target": "<op()><sp(20)>Not done yet!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16230",
+      "target": "<op()><sp(20)>No way!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16231",
+      "target": "<op()><sp(20)>What's going on?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16232",
+      "target": "<op()><sp(20)>Damn! I won't lose!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16233",
+      "target": "<op()><sp(20)>These guys...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16234",
+      "target": "<op()><sp(20)>I've got pride too!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16235",
+      "target": "<op()><sp(20)>Nice move!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16236",
+      "target": "<op()><sp(20)>I won't lose!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16237",
+      "target": "<op()><sp(20)>First!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16238",
+      "target": "<op()><sp(20)>Come on, bring it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16239",
+      "target": "<op()><sp(20)>Come on!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16240",
+      "target": "<op()><sp(20)>Come from anywhere!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16241",
+      "target": "<op()><sp(20)>Let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16242",
+      "target": "<op()><sp(20)>Let's stay focused!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16243",
+      "target": "<op()><sp(20)>One's enough!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16244",
+      "target": "<op()><sp(20)>On fire!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16245",
+      "target": "<op()><sp(20)>Fine, I'll take you on!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16246",
+      "target": "<op()><sp(20)>All of you, come on!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16247",
+      "target": "<op()><sp(20)>What's wrong? Giving up?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16248",
+      "target": "<op()><sp(20)>Get a grip!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16249",
+      "target": "<op()><sp(20)>It's only started!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16250",
+      "target": "<op()><sp(20)>You're off today!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16251",
+      "target": "<op()><sp(20)>My rhythm's off...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16252",
+      "target": "<op()><sp(20)>Your mecha deserves better!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16253",
+      "target": "<op()><sp(20)>Are you even trying...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16254",
+      "target": "<op()><sp(20)>Stomach troubling you?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16255",
+      "target": "<op()><sp(20)>I'm trying hard too!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16256",
+      "target": "<op()><sp(20)>Amazing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16257",
+      "target": "<op()><sp(20)>I'm trying too!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16258",
+      "target": "<op()><sp(20)>Whoa!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16259",
+      "target": "<op()><sp(20)>A-amazing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16260",
+      "target": "<op()><sp(20)>Whoa! Not bad!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16261",
+      "target": "<op()><sp(20)>This'll be easy!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16262",
+      "target": "<op()><sp(20)>Heh! Not losing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16263",
+      "target": "<op()><sp(20)>It's not only about numbers!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16264",
+      "target": "<op()><sp(20)>I'll crush you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16265",
+      "target": "<op()><sp(20)>I won't be mocked!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16266",
+      "target": "<op()><sp(20)>Eyesore!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16267",
+      "target": "<op()><sp(20)>What?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16268",
+      "target": "<op()><sp(20)>Those guys are nothing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16269",
+      "target": "<op()><sp(20)>They fight dirty!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16270",
+      "target": "<op()><sp(20)>All of you, come at me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16271",
+      "target": "<op()><sp(20)>I won't go down that easy!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16272",
+      "target": "<op()><sp(20)>This one's tough!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unidentified opponent: used gender-neutral 'this one' rather than 'guy'."
+    },
+    {
+      "id": "dialogue_16273",
+      "target": "<op()><sp(20)>I can't win this fair fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16274",
+      "target": "<op()><sp(20)>Who's that one?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unidentified opponent: used gender-neutral 'that one' rather than 'guy'."
+    },
+    {
+      "id": "dialogue_16275",
+      "target": "<op()><sp(20)>Another weirdo appeared!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16276",
+      "target": "<op()><sp(20)>There!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16277",
+      "target": "<op()><sp(20)>What now?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Heavy compression: source is bewildered disbelief at a strange enemy ('what IS that guy'); the 10-char budget only allows a generic exclamation. Meaning is approximate."
+    },
+    {
+      "id": "dialogue_16278",
+      "target": "<op()><sp(20)>I'll fight you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16279",
+      "target": "<op()><sp(20)>Meeting you here?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16280",
+      "target": "<op()><sp(20)>This thing's a monster!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16281",
+      "target": "<op()><sp(20)>I am champion!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16282",
+      "target": "<op()><sp(20)>No one stands in my way!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16283",
+      "target": "<op()><sp(20)>This is my strength and wit!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Self-reference to 'Plamo-Kyoshiro' dropped for the 30-char budget; kept 'my strength and wit'."
+    },
+    {
+      "id": "dialogue_16284",
+      "target": "<op()><sp(20)>Ha! Serves ya right!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16285",
+      "target": "<op()><sp(20)>I won, I won!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16286",
+      "target": "<op()><sp(20)>Haha, I actually won!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16287",
+      "target": "<op()><sp(20)>See that?! This is Plamo Spirit!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Plamo Spirit' (puramo supiritto) kept as a literal rendering of the source katakana coinage; not yet in glossary, see batch_16213_glossary_proposals.json."
+    },
+    {
+      "id": "dialogue_16288",
+      "target": "<op()><sp(20)>Yes!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16289",
+      "target": "<op()><sp(20)>That's spirit!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Yamato damashii' (Yamato spirit, a set Japanese idiom for fighting spirit) compressed to 'That's spirit!'; the named cultural term does not fit the 14-char budget."
+    },
+    {
+      "id": "dialogue_16290",
+      "target": "<op()><sp(20)>How's that?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16291",
+      "target": "<op()><sp(20)>Yeeeehaaawww!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16292",
+      "target": "<op()><sp(20)>Come on, come on!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

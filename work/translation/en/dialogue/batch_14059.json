@@ -1,0 +1,520 @@
+{
+ "slice_start": 14059,
+ "slice_count": 80,
+ "rows_examined": [
+  [
+   14044,
+   14153
+  ]
+ ],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "uncertainties": [
+  {
+   "ids": [
+    "dialogue_14059",
+    "dialogue_14138"
+   ],
+   "note": "Entire slice is unit 2815020 (Master Gundam, pilot Master Asia); same commanding/imperious register as prior batch, archaic \"washi\" first-person not rendered literally."
+  },
+  {
+   "ids": [
+    "dialogue_14084",
+    "dialogue_14090"
+   ],
+   "note": "Longer maxim-style lines heavily compressed to fit budget (e.g. dropping \"basic strategy\" -> \"basic tactics\", \"self-blind fool\" phrasing) while preserving the core boast/lesson."
+  },
+  {
+   "id": "dialogue_14093",
+   "note": "See notes field: \"Super Asia\" pun name, proposed as a glossary entry (see batch_14059_glossary_proposals.json)."
+  }
+ ],
+ "validation": {
+  "byte_budget": "Every row's visible English text checked programmatically against 2x(source Japanese character count)-2, capped at 72; all rows in this batch fit within budget (see per-row notes for rows where this forced meaning compression).",
+  "controls": "All original angle-bracket commands (<op()>, <sp(20)>, <ab(N)>, <ed()>) preserved in exact source order for every row, including non-default <ab()> values where present.",
+  "format": "ASCII only; no line breaks added beyond the source's own \\n; no bare % characters used.",
+  "review": "Independent meaning review completed (review_14059.json); no meaning fixes required; all multi-line targets joined to single lines per the shout no-newline rule; all 80 rows are status \"meaning_reviewed\"."
+ },
+ "rows": [
+  {
+   "id": "dialogue_14059",
+   "target": "<op()><sp(20)>That's all?!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14060",
+   "target": "<op()><sp(20)>Time to show true power!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14061",
+   "target": "<op()><sp(20)>Hmph... where'd that momentum go?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14062",
+   "target": "<op()><sp(20)>That's it!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14063",
+   "target": "<op()><sp(20)>As I thought, no mistake...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14064",
+   "target": "<op()><sp(20)>Oh?! You can fight!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14065",
+   "target": "<op()><sp(20)>Not bad at all!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14066",
+   "target": "<op()><sp(20)>To think I'd be surprised.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14067",
+   "target": "<op()><sp(20)>To one like you, a compliment's fitting.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14068",
+   "target": "<op()><sp(20)>To think you existed!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14069",
+   "target": "<op()><sp(20)>Spirit of a comrade!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14070",
+   "target": "<op()><sp(20)>Well done!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14071",
+   "target": "<op()><sp(20)>Well done. You've trained hard...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14072",
+   "target": "<op()><sp(20)>Tch! Noisy thing!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14073",
+   "target": "<op()><sp(20)>Hah hah hah hah! Not one of you leaves this place!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14074",
+   "target": "<op()><sp(20)>Before the Undefeated of the East, your tricks mean nothing.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14075",
+   "target": "<op()><sp(20)>Fools! You should've run while you could!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14076",
+   "target": "<op()><sp(20)>I'll teach you myself that nothing's ever that easy!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14077",
+   "target": "<op()><sp(20)>You never learn, do you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14078",
+   "target": "<op()><sp(20)>Fine. But how far will that shallow trick get you?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14079",
+   "target": "<op()><sp(20)>Damn you, again?!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14080",
+   "target": "<op()><sp(20)>Damn it... not now!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14081",
+   "target": "<op()><sp(20)>Still so brazen!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14082",
+   "target": "<op()><sp(20)>What presence is this?! Unlike the others!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14083",
+   "target": "<op()><sp(20)>The real fight begins!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14084",
+   "target": "<op()><sp(20)>Bluster all you like, but self-ignorance is worst!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14085",
+   "target": "<op()><sp(20)>Surpass yourself<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14086",
+   "target": "<op()><sp(20)>Too late now! Victory is at hand!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14087",
+   "target": "<op()><sp(20)>To block my path... you'll regret it dearly!!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14088",
+   "target": "<op()><sp(20)>To cross blows, this fist is all I need!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14089",
+   "target": "<op()><sp(20)>That spirit makes a worthy foe!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14090",
+   "target": "<op()><sp(20)>Listen! Strike the general, the troops crumble - basic tactics!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14091",
+   "target": "<op()><sp(20)>Hah hah hah hah! Seems the time has come!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14092",
+   "target": "<op()><sp(20)>Hahahahahaha! Undefeated still - the Undefeated of the East!!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14093",
+   "target": "<op()><sp(20)>Undefeated, every direction! Power of Super Asia!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "\"Super Asia\" (Suupaa Ajia) is Master Asia's own self-mocking pun name (East-West-South-North-and-Center undefeated); not found in existing glossary files. Transliterated literally; proposed as a glossary entry."
+  },
+  {
+   "id": "dialogue_14094",
+   "target": "<op()><sp(20)>Ha ha ha ha! This victory went exactly as I expected!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14095",
+   "target": "<op()><sp(20)>Behold my valiant form! Hah hah hah hah hah!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14096",
+   "target": "<op()><sp(20)>Countless clashes make one stronger...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14097",
+   "target": "<op()><sp(20)>What an unsatisfying fight this is... Ha ha ha ha ha!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14098",
+   "target": "<op()><sp(20)>Fools! Did you think that would beat us?!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14099",
+   "target": "<op()><sp(20)>Can't gauge your strength... what a fool!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14100",
+   "target": "<op()><sp(20)>Learn from this, never be so foolish again.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14101",
+   "target": "<op()><sp(20)>Beating me? A dream within a dream!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14102",
+   "target": "<op()><sp(20)>Come, can you beat me?! Then do it if you can!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14103",
+   "target": "<op()><sp(20)>You'll behave yourself here!!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14104",
+   "target": "<op()><sp(20)>Look well! A fighter's soul!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14105",
+   "target": "<op()><sp(20)>Do you feel it... an evil presence waits for us...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14106",
+   "target": "<op()><sp(20)>Fine for killing time.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14107",
+   "target": "<op()><sp(20)>Stay alert!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14108",
+   "target": "<op()><sp(20)>Walk with me!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14109",
+   "target": "<op()><sp(20)>Their movements! Don't miss them!!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14110",
+   "target": "<op()><sp(20)>Half-skill gets you hurt!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14111",
+   "target": "<op()><sp(20)>Is that your skill?!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14112",
+   "target": "<op()><sp(20)>Stop gawking!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14113",
+   "target": "<op()><sp(20)>Don't let up<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14114",
+   "target": "<op()><sp(20)>Don't panic!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14115",
+   "target": "<op()><sp(20)>A true fighter never lets his fists rest, not for a moment!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14116",
+   "target": "<op()><sp(20)>Heh heh, polish up, you might shine.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14117",
+   "target": "<op()><sp(20)>You've gotten a bit better...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14118",
+   "target": "<op()><sp(20)>Oh... not bad at all!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14119",
+   "target": "<op()><sp(20)>You've grown far more than before!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14120",
+   "target": "<op()><sp(20)>I acknowledge you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14121",
+   "target": "<op()><sp(20)>Hmph... you cunning little grunts...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14122",
+   "target": "<op()><sp(20)>Fighting small fry is pointless!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14123",
+   "target": "<op()><sp(20)>I accept, gladly!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14124",
+   "target": "<op()><sp(20)>Too late!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14125",
+   "target": "<op()><sp(20)>Keep coming, then!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14126",
+   "target": "<op()><sp(20)>More small fry won't change a thing!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14127",
+   "target": "<op()><sp(20)>Like ants caught in a pit, the enemy comes just as we planned!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14128",
+   "target": "<op()><sp(20)>There it is! Now go!!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14129",
+   "target": "<op()><sp(20)>Hmph, reinforcements... but still!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14130",
+   "target": "<op()><sp(20)>Who are you?!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14131",
+   "target": "<op()><sp(20)>You're far beneath me!<ab(999)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14132",
+   "target": "<op()><sp(20)>I can't judge lightly without seeing more!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14133",
+   "target": "<op()><sp(20)>Don't misjudge him!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14134",
+   "target": "<op()><sp(20)>Today's show just started.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14135",
+   "target": "<op()><sp(20)>Just the match I wanted!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14136",
+   "target": "<op()><sp(20)>Now then, this is where it gets interesting.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14137",
+   "target": "<op()><sp(20)>This match could go either way.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_14138",
+   "target": "<op()><sp(20)>Th-this one's unknown!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  }
+ ]
+}

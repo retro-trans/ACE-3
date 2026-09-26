@@ -1,0 +1,507 @@
+{
+ "resource_id": 4004673,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 54,
+ "rows_examined": 54,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21010,1)><speed(2)>Fighting the <color(5)>Siberian Railway<ce()> again, huh...",
+   "notes": "Source uses the clipped nickname (Shibe-tetsu); rendered as the locked full 'Siberian Railway' per terms_028.json (no attested English clipped form).",
+   "source_sha256": "6f35ac175b52cf5df2c5ca588677559d40188c7aef19e0477675d1cb2ee3a10d"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21030,1)><speed(2)><color(4)>Gainer<ce()>. You're thinking about that girl... <color(5)>Cynthia<ce()>, aren't you?",
+   "notes": "",
+   "source_sha256": "d34867bedf1a88b2e32086233fd97dd8e5be9d09cad86b5391f16f90d502e15f"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21010,1)><speed(2)>Eh... no way.",
+   "notes": "",
+   "source_sha256": "134d11ffdb60ebbb16ab8919e6bbc00d4911da2241998ff7944bcaddc9d9fdc7"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(21030,1)><speed(2)>I can tell simply by looking at your face.",
+   "notes": "",
+   "source_sha256": "cc7dfd38871484ef7211d017be4e80877ea3543d0078f561df5b9672e27cf94d"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(21030,1)><speed(2)>If she shows up, this time we really have to stop her for good.",
+   "notes": "",
+   "source_sha256": "5f5a358f13b6ad9d508c12ecee4d40385ae36e5fd61460fcec7c7db283230387"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(21010,1)><speed(2)>I'll teach <color(5)>Cynthia<ce()> that war and games aren't the same thing. With my own hands.",
+   "notes": "",
+   "source_sha256": "29e21ff9cf7ab67d6610dc5d94e8b548fb7374b57e0b30e7676e711c56db042c"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23010,1)><speed(2)>Is <color(6)>Norb<ce()> really that amazing a person?",
+   "notes": "'-san' dropped.",
+   "source_sha256": "63682efeddd6b65943d99265cc30378d43c275dc73ada8195f4a75a1d6a11225"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(23030,1)><speed(2)>The first human ever chosen to mediate with the Scub was <color(6)>Norb<ce()>.",
+   "notes": "",
+   "source_sha256": "06d23213d74cd8d62e5d7d2df487765b1fa74f9ec6862a32c3018bbb30a9bc6c"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(23030,1)><speed(2)>But <color(6)>Norb<ce()> failed at that dialogue - after fusing the Compac Drive into his own body.",
+   "notes": "",
+   "source_sha256": "1f6557815187d6637f39c45980cffdd389657f129aca24ff60d490c960201fb7"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(23030,1)><speed(2)>But because of that, <color(6)>Norb<ce()> can use the Compac Drive to hear the Scub's voice.",
+   "notes": "",
+   "source_sha256": "63b4e90a0661461ab16f8c22c5a45b9634dde947fd1ba362efc3dc273c313402"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(23030,1)><speed(2)>He's essential if we're ever to open dialogue with the Scub again.",
+   "notes": "",
+   "source_sha256": "3bd6bac8094c886683447d3cf86b2c86c5e139415cd5325538ced05399640a87"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(23030,1)><speed(2)><color(6)>Norb<ce()> will guide you, <color(4)>Renton<ce()>, <color(4)>Eureka<ce()>...",
+   "notes": "",
+   "source_sha256": "aec9ec5e28a5a4a77741434c554cda0217b4c6ef4a199e796723edb376541b2f"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(23030,1)><speed(2)><color(4)>Renton<ce()>, you're paired with <color(4)>Eureka<ce()>. Be sure to protect <color(4)>Eureka<ce()>, always.",
+   "notes": "Source repeats 'Eureka' 3 times (once as 'her' would read naturally in English); kept literal repetition to preserve the 3 color spans.",
+   "source_sha256": "6ae1dab973192878291d2b1afe131820ab186cc3a9ea85c80d60140bdd7a9016"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(23010,1)><speed(2)>Yeah... got it.",
+   "notes": "",
+   "source_sha256": "2f942c55a7fcc398753b7f591229f2ae9ede49a2190cd7ef131c0535f5c2fbbb"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(23020,1)><speed(2)><color(4)>Renton<ce()>... I'll try hard too. I feel like <color(4)>Renton<ce()> and I can do anything.",
+   "notes": "Source has Eureka refer to Renton by name twice rather than 'you'; kept literal to preserve both color spans.",
+   "source_sha256": "5d5e569f56a9c958eb73ba60d88c33c84abcbb06107200089b7137827ffd30b8"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(23030,1)><speed(2)>While I'm at it, let me tell an old story. ...How <color(4)>Eureka<ce()> and I first met.",
+   "notes": "",
+   "source_sha256": "076a81a01db658da9f388ebaaeca0d01c8ad68cc0ca1d2e00bb34d845cd86a11"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(23030,1)><speed(2)>Back in my United Federation of Predgio Towers days, I served in the SOF and was put in charge of <color(4)>Eureka<ce()>.",
+   "notes": "'United Federation of Predgio Towers' per encyclopedia_021_a lock for Tou-shuu Renpou.",
+   "source_sha256": "718ef1fff5950a044b69ad650056f67b013aa4450969651de8dc9c2cf9ecab4a"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(23030,1)><speed(2)><color(4)>Eureka<ce()> was only the girl who piloted the world's oldest LFO, <color(4)>Nirvash<ce()>... That's all I knew of her.",
+   "notes": "",
+   "source_sha256": "50e195b02f9a90a819c0ce01ab78e92d7f89835156bcad968cb24111c27d2ae3"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(23030,1)><speed(2)>Two years back, we were given a mission to wipe out the resistance in Domepolis.",
+   "notes": "'Domepolis' per encyclopedia_022 lock.",
+   "source_sha256": "79a46e3e62916e2d0a03c567fa831f23227973efc39f6cdf5b4694b1279f88ed"
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(23030,1)><speed(2)>At the same time, we were tasked with securing the Vodarac's high priest, <color(6)>Norb<ce()> - that's how I came to meet <color(6)>Norb<ce()>.",
+   "notes": "Source repeats 'Norb' twice; kept literal to preserve both color spans. 'high priest' per terms_028.json.",
+   "source_sha256": "0e8e069dac88cbb5afe5fb33dfc3ebcf81c2ae48af404d0a7ff946f6cd2d770e"
+  },
+  {
+   "table": 0,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(23030,1)><speed(2)>The one paired with <color(4)>Eureka<ce()> is the one who can open dialogue with the Scub - that's what <color(6)>Norb<ce()> taught me.",
+   "notes": "",
+   "source_sha256": "065fd77cf2a24b66d5d0f6b1461ab980f44d484ffdb34756f04e64efcd50a090"
+  },
+  {
+   "table": 0,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(23030,1)><speed(2)>And that those two are the ones who can open the Great Wall - the path that saves this world.",
+   "notes": "",
+   "source_sha256": "4aaaea4e03d86a22f41f1bfbed00cfd542b97e8aeb362f1a5e12d0c466ff6d32"
+  },
+  {
+   "table": 0,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<operator(23030,1)><speed(2)>Once I knew that, I decided to leave the military and formed <color(4)>Gekkostate<ce()>.",
+   "notes": "",
+   "source_sha256": "1f7faa9428ddec7d8b04d0e6c1569ba117bf061a67d65ebc72a72d151ccdb4c2"
+  },
+  {
+   "table": 0,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<operator(23010,1)><speed(2)>So that's what happened...",
+   "notes": "",
+   "source_sha256": "2f156cfa2715c524892c3fdfb1f77c20d9da7e82e3cfa74ee28893c2cf4317a1"
+  },
+  {
+   "table": 0,
+   "slot": 43,
+   "text_id": 44,
+   "en": "<operator(23030,1)><speed(2)>I'm leaving <color(4)>Eureka<ce()> to you. I'll stop him for sure... that bastard <color(5)>Dewey<ce()>.",
+   "notes": "",
+   "source_sha256": "fc35d0e22b8606bd3bb0ab2f9b504eedd8fef91057c578fe13634301dea904b1"
+  },
+  {
+   "table": 0,
+   "slot": 44,
+   "text_id": 45,
+   "en": "<operator(23010,1)><speed(2)>Yes!!",
+   "notes": "",
+   "source_sha256": "409a910ebd926b210fb676c5abca06f5331a5ddb41459e1a35ba01eba34172f0"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>, did you know about the Scub Coral?",
+   "notes": "",
+   "source_sha256": "e520ca9565713e452107ff329cd506ec34a38ef82b1055e82add31b3c357f1bd"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>No... When I was with the <color(5)>New Federation<ce()>, all I was ever taught was that it would destroy the world.",
+   "notes": "",
+   "source_sha256": "5e105476797878ccc41490a070ad0a035a595904902d5f1cbed77a9def7adc4f"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>If we don't learn to coexist with it, the world is doomed... that's the truth of it, huh.",
+   "notes": "",
+   "source_sha256": "1cb07fb1cb07795de112b650ff3d1108df6f7db2be89839a6a0f01184a4ac408"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>But... even if this goes right, what about the other world...",
+   "notes": "",
+   "source_sha256": "5899f86ef5afbbd4759bde9d1760668a9abae141a91804113c08b1d4af288edf"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>. Let's focus on this for now. We'll find a way home after, for sure.",
+   "notes": "",
+   "source_sha256": "d38265b9a83f15d8570ce9fc76df7907f345624c36112c7b8d70bff191ecb840"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)>Yeah, you're right.",
+   "notes": "",
+   "source_sha256": "baef7cd44feee0e80d80421ea443094fe97add893cbc595b64896b395e8589d7"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)>We can't get back to our own world, and if we lose this fight too, ruin comes for this world as well...",
+   "notes": "",
+   "source_sha256": "a8748982c03387331f9a3db8e78015acc7abdde55713d4e7c380a31e6c874ae9"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(10030,1)><speed(2)>It's hard to even put into words...",
+   "notes": "",
+   "source_sha256": "d0a85d981bfb7cd9e18f201ddb22ab21d86e4caade68825228873cf3857294c8"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(12140,1)><speed(2)>Am I... never gonna get to go home like this~?",
+   "notes": "",
+   "source_sha256": "6d16c9a56537dd95583f1dc2a57aeee820d5787e776ea90f2a813486885def58"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(10010,1)><speed(2)>Am I... gonna live out my life never seeing <color(4)>Linda<ce()> again?",
+   "notes": "'Linda' = Linda Plato per dialogue\\batch_00856_glossary_proposals.json.",
+   "source_sha256": "b713e51c9ae448851e1a639a1cafdab629d8d6d65ab322220bd6f88f3a8e0a68"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(1020,1)><speed(2)>Try to stay positive. There's bound to be a way.",
+   "notes": "",
+   "source_sha256": "0981ab6d5f8e187df2a1cdb697d8983d4f8ab15da731db95b251ac68e287f278"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(10020,2)><speed(2)>That's right, staying positive's the way. Isn't that exactly like us?",
+   "notes": "",
+   "source_sha256": "f6daab3fb14bacf3d996a8118e5f0c35cb1a293f1c94448faf5df2b7a1c454e0"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(25010,1)><speed(2)>Geez... what a mess. Not being able to go home and everything.",
+   "notes": "",
+   "source_sha256": "81dbe11868ebf81e17181e6500e578ed4124d46baa48db1b04f788aec1d93950"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(14030,1)><speed(2)>No use moping about it, is there.",
+   "notes": "",
+   "source_sha256": "044fd897161a26757f769261ac5735111c9fa5c70206578eb49bc11c7101395e"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(14010,1)><speed(2)>Come on... would you please think this through more?",
+   "notes": "Source addresses Focker as 'senpai'; left unnamed rather than inventing an address term.",
+   "source_sha256": "20b81c531c0c04f52ecae5c3507e19c51480a8b2c2bfb93fe0900178ac7f5824"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(14030,1)><speed(2)>I know, I know. But panicking won't get us anywhere.",
+   "notes": "",
+   "source_sha256": "35f675224d4b9d986dbd948fd132548d2bcb8cecf15eb75707dccaca7cdb942b"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(25020,1)><speed(2)><color(4)>Isamu<ce()>... that's not like you. No matter what, you were always the bird that flew on strong wings.",
+   "notes": "",
+   "source_sha256": "68a7f2f22c2f3b1cb3fc7b58bd059bf199d6f81c86591436ac5907bc68c524f4"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(25010,2)><speed(2)>...Yeah, you're right.",
+   "notes": "",
+   "source_sha256": "f97149dfdebadee3d704992d47ff952f1faf69e956245d104a3d74fa1bdf3b32"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17020,1)><speed(2)>Are we really all right doing something like this?",
+   "notes": "",
+   "source_sha256": "87ecc918a2ae45810047d5d00509ed55900d82e1139f418d8f9e1d2f5e4b8a0a"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(17010,1)><speed(2)>If <color(4)>Tiffa<ce()> says so, I believe it!",
+   "notes": "",
+   "source_sha256": "4fb4de90477dd0cc5d3e00d8ea4ca6dde3ad99f4f512bb9aa5e2802f14d86b15"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17030,1)><speed(2)>You're more fired up than I've ever seen you.",
+   "notes": "",
+   "source_sha256": "3292699a76e84fe4a406a0dd160e5e00b29402460082a9a44e2098a358ecae5a"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(17070,1)><speed(2)>But... I can't say anything for certain. I'm sorry, <color(4)>Garrod<ce()>.",
+   "notes": "",
+   "source_sha256": "c53ac03000c284fa90579ac6638a0e6cf037a6c4388f6fada67d198420140e4d"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(17010,2)><speed(2)>It's fine, <color(4)>Tiffa<ce()>. <color(4)>Renton<ce()>'s got plenty on his plate now too. Can't let myself fall behind him.",
+   "notes": "",
+   "source_sha256": "0ab8dbeb4ba709caee9ef8a18ae1e6c7b383f67fb209c810f78611b6f0ef5061"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(21030,1)><speed(2)><color(4)>Gainer<ce()>, be careful out there. Who knows what might show up.",
+   "notes": "",
+   "source_sha256": "1726494cab45857d6ee1f73610d9bf8e4e3eaed363a939e9411bda4802a6e16c"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(21010,1)><speed(2)>What's this? <color(4)>Sara<ce()> cheering me on, of all things...",
+   "notes": "",
+   "source_sha256": "8d0efa9b4162e9aa317dbdd505e2ded92cb0d1a4cecb8e0d54e3256af273c089"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(21030,1)><speed(2)>Sh-shut up! Is it a crime to worry about you!?",
+   "notes": "",
+   "source_sha256": "ce2e11572281a0c9785fac55097f71c5fa991220caaca543fa1ffcb17583556f"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(21010,1)><speed(2)>S-sorry...",
+   "notes": "",
+   "source_sha256": "9c68eee7c55b80ccefd6cfadb89cdb414e2b1580910d1df160718797fcf9f3a6"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(21020,2)><speed(2)>Kids these days sure are complicated.",
+   "notes": "",
+   "source_sha256": "3d4bdb706ed168673995cf2126f22f90ec3c50588b61cb03565c1b68a099b6c0"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 31,
+   "issue": "Source colors 'Eureka' 3 times in one row ('paired with Eureka... protect Eureka'); a natural English draft would use 'her' for the second instance, but the name was repeated instead to keep 3 color spans matching the source tag count."
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "issue": "Source has Eureka say Renton's name twice rather than 'you' the second time; kept literal ('with Renton, I feel like...') to preserve both color spans, though 'with you' would read more naturally in English."
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "issue": "Source repeats 'Norb' twice in one row for the two color spans; rendered with both occurrences, slightly redundant in English."
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "issue": "Hikaru addresses Focker as 'senpai' (senior); no name is in the source line itself, so left as a plain address-free line rather than inserting 'Focker' or an invented honorific."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 54,
+  "rows_in_scene": 54,
+  "meaning_fixes": [
+   {
+    "table": 0,
+    "slot": 22,
+    "before": "I can tell just by looking at your face.",
+    "after": "I can tell simply by looking at your face.",
+    "reason": "Lowercase 'j' has no native glyph in the game font; reworded without changing meaning."
+   },
+   {
+    "table": 0,
+    "slot": 36,
+    "before": "Eureka was just the girl who piloted the world's oldest LFO, Nirvash... That's all I knew of her.",
+    "after": "Eureka was only the girl who piloted the world's oldest LFO, Nirvash... That's all I knew of her.",
+    "reason": "Lowercase 'j' avoided."
+   },
+   {
+    "table": 1,
+    "slot": 64,
+    "before": "That's right, staying positive's the way. Isn't that just like us?",
+    "after": "That's right, staying positive's the way. Isn't that exactly like us?",
+    "reason": "Lowercase 'j' avoided."
+   }
+  ],
+  "checked_decisions": [
+   "Speakers resolved: 21010/21020/21030 Gainer/Gain/Sara; 23010/23020/23030 Renton/Eureka/Holland; 1040/1060/1020 Barrel/Faye/Marina; 5010 Amuro; 10010/10020/10030 Kaine/Tapp/Light; 12140 Harry Makibi; 25010/25020 Isamu/Guld; 14010/14030 Hikaru Ichijyo/Focker; 17010/17020/17030/17070 Garrod/Witz/Roybea/Tiffa.",
+   "Table 0 slot 19: 'Siberian Railway' for the clipped nickname 'Shibe-tetsu' matches the terms_028.json lock; no attested English clipped form exists. Accepted.",
+   "Table 0 slot 31: source colour-tags 'Eureka' three times in one line; kept all three literal instances rather than substituting 'her' for the second, matching the ruling to preserve the source's tag count. Accepted.",
+   "Table 0 slot 33: source has Eureka name 'Renton' twice instead of using 'you' the second time; kept both instances to match the 2 colour tags in the source, per the same ruling. Accepted.",
+   "Table 0 slot 38: source repeats 'Norb' twice for two colour spans; kept literal, per the same ruling. Accepted.",
+   "Table 0 slot 35: 'United Federation of Predgio Towers' for Tou-shuu Renpou matches the encyclopedia_021_a lock; 'Domepolis' (slot 37) matches encyclopedia_022; 'high priest' (slot 38) matches terms_028.json.",
+   "Table 1 slot 101: source addresses Focker only as 'senpai' with no name in the line itself; left address-free rather than inventing 'Focker' or an honorific not in the source. Accepted - consistent with the rule against supplying what the source omits.",
+   "'-san' dropped on Norb (slot 25), consistent with established corpus practice.",
+   "No mistranslations, reversed meanings, wrong addressees/subjects, or misplaced commands found in the remaining rows; all <operator>/<speed>/<color>/<ce> tags match the source in content and order."
+  ],
+  "remaining_uncertainties": [
+   "Table 0 slots 31/33/38: literal repeated names read slightly redundant in English ('protect Eureka... Eureka', 'with Renton... Renton', 'Norb... Norb') but are kept to match the source's repeated colour tags per the standing ruling.",
+   "Table 1 slot 101: 'senpai' address dropped with no substitute; if a convention for rendering 'senpai' is set later, this row should be revisited."
+  ]
+ }
+}

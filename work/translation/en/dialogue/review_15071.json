@@ -1,0 +1,28 @@
+{
+  "reviewer": "meaning_review_pilot_shouts_agent",
+  "slice_start": 15071,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15056, "end": 15165}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [15089], "finding": "'黒歴史もあなたとなら食い止められます。' heavily compressed to 'With you, / we can stop Black History.' The load-bearing proper noun (Black History) is kept intact and the sentence's core claim (this can be stopped, together) survives; ruled acceptable compression, not a dropped-sentence-sense violation."},
+    {"rows": [15091], "finding": "'ソシエお嬢様' → 'Miss Sochie' (Sochie Heim). Honorific rendering is consistent with how the batch treats さま/様 elsewhere (e.g. Lady Dianna). Ruled acceptable; recommend a Sochie Heim glossary entry."},
+    {"rows": [15122, 15150], "finding": "Gym Ghingham's self-reference at 15150 ('このギム・ギンガナムの出陣だ') renders as 'Gym Ghingham rides to war', matching the locked glossary spelling 'Gym Ghingham' exactly; Turn X, House Ghingham and 2000-year-ambition terminology used consistently across rows 15122-15150."},
+    {"rows": [15167, 15169], "finding": "'倒したくなってきたぞ！' (lit. 'I'm starting to want to defeat you') rendered 'I want you dead now!' in both rows. This intensifies the literal phrasing but does not reverse it or contradict Gym Ghingham's established personality ('forceful, swaggering, arrogant warmonger'); ruled acceptable, not a tone-vs-character contradiction."},
+    {"rows": [15037, 15121], "finding": "Loran Cehack's rows (resource 2820010) consistently use the polite です/ます register matching his glossary personality ('loyal, adaptable, calm, pacifist, naive'); target's polite, pleading phrasing ('Please...', 'I'm fine.') matches throughout, no tone contradictions found."},
+    {"rows": [15071, 15150], "finding": "Programmatic check: every command sequence in every row's target matches the source exactly in order (including the empty dialogue_15071 row); all ids present and matched; no visible text over the shout byte budget; ASCII-only."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_15089", "issue": "Ruled: acceptable compression (see checked_decisions)."},
+    {"id": "dialogue_15091", "issue": "Ruled: acceptable; recommend locking Sochie Heim's spelling in the glossary."},
+    {"issue": "Same cross-batch formatting note: 45 of this slice's 80 rows keep an embedded \\n where the task brief calls for 'NO newline in the target (source line breaks are joined)'. Not treated as a meaning fix; flagged for the orchestrator as a likely corpus-wide pattern (this is the highest per-batch count observed across the five slices reviewed)."}
+  ],
+  "validation": {
+    "fit": "Re-checked all 80 rows: visible text (tags and newline stripped) stays within min(72, 2×(source visible-character count)-2); no row exceeds its budget.",
+    "controls": "Re-checked all 80 rows: command sequence identical and in the same order as the source for every row.",
+    "meaning_review": "Completed independently against the Japanese source via tools/dialogue_corpus.py slice (context 15, console only). No meaning reversals, wrong addressee/subject, invented identity/gender, dropped sentence sense, tone-vs-character contradictions, or locked-spelling errors found. All 80 rows promoted to meaning_reviewed."
+  }
+}

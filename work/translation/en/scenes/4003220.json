@@ -1,0 +1,82 @@
+{
+ "resource_id": 4003220,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "19A Ruins Capture Operation",
+   "notes": "Released mission title reused from missions_019.json (slot 210); style matches other lettered-mission scenes (e.g. 4003100 '10A Defend Amaterasu').",
+   "source_sha256": "7a4932a8060b6c44bfef2edbb0525b6c5886f12092e51369a2c4021c832416b3"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30030,1)><speed(2)>As scheduled, we have arrived on Mars via <book(30)>Boson Jump<endbook()>. We will begin the assault operation<thumbnail(245)> right away.",
+   "notes": "Boson Jump capitalised, matching encyclopedia_022.json / 4003030.json usage. Speaker 30030 = Ruri Hoshino (speaker_lookup.py).",
+   "source_sha256": "fa1a75176b34e741d9e6635da27df33e7d6deadc0d0a93350962512f5c55e82f"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30030,1)><speed(2)>The target is the <book(23)>Hisago Plan<endbook()>'s central point, \"<book(32)>Iwato<endbook()>\". It has now become the base of the <book(29)>Martian Successors<endbook()>.",
+   "notes": "Hisago Plan, Iwato, Martian Successors all locked (opening_history_terms.json / encyclopedia_022.json / glossary.json org.martian_successors).",
+   "source_sha256": "cd5635edd2bf59a88e04bebc328728b1f0e3728a764f5ddb0ad609c9bdce38c8"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30030,1)><speed(2)>Because of that, the enemy's remnants seem to have all gathered there - a former <book(18)>Giganos<endbook()> <color(5)>Metal Armor unit<ce()><thumbnail(246)> is confirmed too.",
+   "notes": "Compressed to fit 128 (was 141: 'remaining forces'->'remnants', 'has been confirmed as well'->'is confirmed too'). 'Metal Armor' matches unit type name used elsewhere (encyclopedia_021_a.json, ACE3-English-0.1.21 HUD text).",
+   "source_sha256": "73dcd94b38f7799b0b31f18c8a57bf9cdc515a838a3867547711804ecd59e13c"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30030,1)><speed(2)>Ever since the <book(28)>Ruins Unit<endbook()> was taken from us, Earth has been driven into an overwhelmingly disadvantageous position.",
+   "notes": "Ruins Unit locked (encyclopedia_022.json).",
+   "source_sha256": "d70a039ef4cac938e518331e141d77d1d799cee6124f304848c0f3917a46d7a1"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>But... let's put an end to this fight, here and now.",
+   "notes": "",
+   "source_sha256": "9fb5cc4fdcdd0d40990378ddac94ecaeecb29397c11a312da0533430c36b4bf9"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "Compressed 'remaining forces' to 'remnants' and shortened the closing clause to fit the 128-char limit; meaning (a former-Giganos Metal Armor unit confirmed among the gathered enemy remnants) is unchanged."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title '19A Ruins Capture Operation' matches missions_019.json category 3055 slot 210 exactly.",
+   "All 6 rows compared against source: no mistranslation, reversed meaning, wrong addressee, invented subject/info, dropped endings, tone contradiction or misspelled name found.",
+   "Speaker 30030 = Ruri Hoshino (speaker_lookup.py); no pronouns used for her in this scene, so no gender-inference risk.",
+   "No lowercase j/q found in this scene's text.",
+   "All <operator>/<speed>/<color>/<ce>/<book>/<endbook>/<thumbnail>/<thumbdown> commands verified identical and in the same order as the source for every row.",
+   "Names verified: Boson Jump, Hisago Plan, Iwato, Martian Successors, Giganos, Ruins Unit, Metal Armor all consistent with opening_history_terms.json / encyclopedia_022.json / encyclopedia_021_a.json usage elsewhere in the corpus.",
+   "Re-ran throwaway console check: all rows ASCII-only, no newlines, no bare %, no lowercase j/q, all visible text under 128 chars, all command tags identical in order to source."
+  ],
+  "remaining_uncertainties": [
+   "Slot 21: compression of 'remaining forces' to 'remnants' and the shortened closing clause (translator's original uncertainty) is confirmed to preserve meaning; no change made."
+  ]
+ }
+}

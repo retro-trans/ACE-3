@@ -1,0 +1,509 @@
+{
+  "slice_start": 15071,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      15071,
+      15150
+    ]
+  ],
+  "rows_examined_count": 80,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "id": "dialogue_15089",
+      "note": "Heavily compressed to fit; 'Black History' kept intact as the load-bearing term, sentence restructured around it."
+    },
+    {
+      "id": "dialogue_15091",
+      "note": "'Sochie Heim' (character, gundam.fandom.com) not previously in glossary; addressed with the 'Miss' honorific for お嬢様."
+    }
+  ],
+  "validation": {
+    "fit": "Each row's English visible length kept <= 2x(source visible-character count)-2, capped at 72 (per task's hard byte budget); no row exceeded its budget.",
+    "controls": "All angle-bracket commands (<op()>, <sp(20)>, <ab(1000)>, <ed()>) preserved in original order for every row; a single embedded newline kept exactly where the source had one, none added elsewhere.",
+    "meaning_review": "Independently meaning-reviewed against the Japanese source (tools/dialogue_corpus.py slice, context 15); no mistranslations, reversed meanings, wrong addressees/subjects, invented identity/gender, dropped sentence sense, or locked-spelling errors found. All rows promoted to meaning_reviewed; none left as draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_15071",
+      "target": "<op()><sp(20)><ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15072",
+      "target": "<op()><sp(20)>Do your best!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15073",
+      "target": "<op()><sp(20)>You can still win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15074",
+      "target": "<op()><sp(20)>I can't back you up any further!\nPlease handle it from there!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15075",
+      "target": "<op()><sp(20)>Don't go soft!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15076",
+      "target": "<op()><sp(20)>I know you can pull this off!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15077",
+      "target": "<op()><sp(20)>Have confidence and stay calm!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15078",
+      "target": "<op()><sp(20)>See what happens alone?!\nCome back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15079",
+      "target": "<op()><sp(20)>We all go home together!\nGet it together!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15080",
+      "target": "<op()><sp(20)>How careless!\nPay more attention!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15081",
+      "target": "<op()><sp(20)>Please hold on.\nThere's surely a way out!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15082",
+      "target": "<op()><sp(20)>Impressive!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15083",
+      "target": "<op()><sp(20)>Counting on you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15084",
+      "target": "<op()><sp(20)>Keep it up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15085",
+      "target": "<op()><sp(20)>Guess I'm not needed.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15086",
+      "target": "<op()><sp(20)>Can't believe you did that...\nI'm amazed!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15087",
+      "target": "<op()><sp(20)>Your machine sense\nis outstanding!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15088",
+      "target": "<op()><sp(20)>Being with you puts me at ease.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15089",
+      "target": "<op()><sp(20)>With you,\nwe can stop Black History.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Heavily compressed to fit; 'Black History' kept intact as the load-bearing term, sentence restructured around it."
+    },
+    {
+      "id": "dialogue_15090",
+      "target": "<op()><sp(20)>I'm sure Lady Dianna\nwould praise you too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15091",
+      "target": "<op()><sp(20)>If Miss Sochie saw what you did,\nshe'd want to copy it...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Sochie Heim' (character, gundam.fandom.com) not previously in glossary; addressed with the 'Miss' honorific for お嬢様."
+    },
+    {
+      "id": "dialogue_15092",
+      "target": "<op()><sp(20)>More coming!\nStay alert!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15093",
+      "target": "<op()><sp(20)>Honestly...!\nWhere do they keep coming from?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15094",
+      "target": "<op()><sp(20)>More units!\nYour way!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15095",
+      "target": "<op()><sp(20)>New foes!\nLeaving them to you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15096",
+      "target": "<op()><sp(20)>That's quite enough already!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15097",
+      "target": "<op()><sp(20)>Still fighting?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15098",
+      "target": "<op()><sp(20)>Just how many are there...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15099",
+      "target": "<op()><sp(20)>They're back.\nEngaging now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15100",
+      "target": "<op()><sp(20)>Enemies again.\nSo persistent!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15101",
+      "target": "<op()><sp(20)>So enemy's serious too...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15102",
+      "target": "<op()><sp(20)>White Doll's reacting?!\nWhat is it?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15103",
+      "target": "<op()><sp(20)>This isn't the time\nfor a fight like this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15104",
+      "target": "<op()><sp(20)>They look tough...\nbut you can surely win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15105",
+      "target": "<op()><sp(20)>I'll hold them!\nYou take the real one!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15106",
+      "target": "<op()><sp(20)>This one... tough!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15107",
+      "target": "<op()><sp(20)>Isn't that the enemy boss?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15108",
+      "target": "<op()><sp(20)>With enemies like this,\nwe can't afford to lose!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15109",
+      "target": "<op()><sp(20)>It's not in White Doll's database...\nNo telling what it'll do!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15110",
+      "target": "<op()><sp(20)>...I've got a bad feeling.\nA Newtype? Not exactly, but...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15111",
+      "target": "<op()><sp(20)>Must stop it!\nIt'll cause chaos!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15112",
+      "target": "<op()><sp(20)>It's over.\nLet's go home and rest.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15113",
+      "target": "<op()><sp(20)>Another pointless fight, again...\nI'm sorry, Lady Dianna!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15114",
+      "target": "<op()><sp(20)>Everyone's safe.\nI'm truly glad...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15115",
+      "target": "<op()><sp(20)>May Lady Dianna's blessing\nbe upon all things...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15116",
+      "target": "<op()><sp(20)>I'm sick of fighting.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15117",
+      "target": "<op()><sp(20)>Weren't you hurt anywhere?\nI see... I'm glad.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15118",
+      "target": "<op()><sp(20)>Having a place to go home to...\nis a happy thing.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15119",
+      "target": "<op()><sp(20)>Who would ever want\nto fight for fun?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15120",
+      "target": "<op()><sp(20)>I'll keep fighting...\nuntil everyone gives up war<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15121",
+      "target": "<op()><sp(20)>Phew... I can finally relax.\nLet's have tea when we get back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15122",
+      "target": "<op()><sp(20)>Kukuku...\nTurn X tells me to finish this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15123",
+      "target": "<op()><sp(20)>Die, die, just die!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15124",
+      "target": "<op()><sp(20)>Fuhahahaha!\nFearlessness is merely pitiful!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15125",
+      "target": "<op()><sp(20)>Risen from the earth,\nlet Turn X show its power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15126",
+      "target": "<op()><sp(20)>Turn X was Black History's deterrent!\nDo you understand that?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15127",
+      "target": "<op()><sp(20)>Hahaha!\nSmall fry, falling!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15128",
+      "target": "<op()><sp(20)>Trash!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15129",
+      "target": "<op()><sp(20)>Defying this Turn X\nis nothing but reckless!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15130",
+      "target": "<op()><sp(20)>Come, fear no death!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15131",
+      "target": "<op()><sp(20)>Raise steel at me,\nnever go home!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15132",
+      "target": "<op()><sp(20)>2000 years of waiting, worth it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15133",
+      "target": "<op()><sp(20)>This is real battle!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15134",
+      "target": "<op()><sp(20)>A samurai lives for battle!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15135",
+      "target": "<op()><sp(20)>Come, if you don't cling to life!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15136",
+      "target": "<op()><sp(20)>Hmph... not amusing.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15137",
+      "target": "<op()><sp(20)>This is unpleasant.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15138",
+      "target": "<op()><sp(20)>What's wrong? You've stopped!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15139",
+      "target": "<op()><sp(20)>Can't you move faster?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15140",
+      "target": "<op()><sp(20)>Don't think a trifle\nstops Turn X!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15141",
+      "target": "<op()><sp(20)>You move poorly!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15142",
+      "target": "<op()><sp(20)>Mmmngh...\nThis is dangerous!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15143",
+      "target": "<op()><sp(20)>New to combat, but losing?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15144",
+      "target": "<op()><sp(20)>Is Turn X not at full power yet?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15145",
+      "target": "<op()><sp(20)>This is only the start!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15146",
+      "target": "<op()><sp(20)>Duel<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15147",
+      "target": "<op()><sp(20)>House Ghingham endured 2000 years.\nNow I'll vent it all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15148",
+      "target": "<op()><sp(20)>My time has come!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15149",
+      "target": "<op()><sp(20)>House Ghingham exists to make war!\nTaste its terror for yourself!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_15150",
+      "target": "<op()><sp(20)>Kukuku... it's begun, it's begun!\nGym Ghingham rides to war!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

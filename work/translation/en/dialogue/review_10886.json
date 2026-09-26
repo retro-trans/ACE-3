@@ -1,0 +1,80 @@
+{
+  "reviewer": "independent_meaning_review_stop_axis_agent",
+  "slice_start": 10886,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 10871,
+      "end": 10980
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [
+        10930
+      ],
+      "finding": "\u7dcf\u5e25 (sousui) rendered 'Marshal' per orchestrator ruling; confirmed against character_names_021.json's Char Aznable entry and kept distinct from 'Colonel' (taisa), which the neighbouring slice (batch_10966) uses for Char's old rank."
+    },
+    {
+      "rows": [
+        10921
+      ],
+      "finding": "Bare given name matched to 'Isamu' (Isamu Dyson); confirmed reasonable given the corpus precedent the translator cited (Isamu Dyson addressed by given name elsewhere)."
+    },
+    {
+      "rows": [
+        10889,
+        10899
+      ],
+      "finding": "Speaker who recognizes Meio Plato is left unattributed; correctly does not invent an identity or gender for the caller."
+    },
+    {
+      "rows": [
+        10933
+      ],
+      "finding": "'King Sakomizu' matches character_names_021.json (Shinjiro Sakomizu, nickname 'King Sakomizu')."
+    },
+    {
+      "rows": [
+        10918,
+        10930,
+        10946
+      ],
+      "finding": "'Char Aznable' / 'Char' spelling matches glossary throughout."
+    },
+    {
+      "rows": [
+        10886,
+        10965
+      ],
+      "finding": "Programmatic check: <op()>/<sp(20)>/<ab(n)>/<ed()> command sequences, newline counts, ASCII-only text and <=110-character visible length verified for all 80 rows against the ISO source."
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_10960",
+      "issue": "Source line ('\u2026\u6e21\u308a\u306b\u8239\u304c\u3001\u308f\u3041\u8db3\u308a\u3093\u3002') is dialect/possibly OCR-irregular. Read as Harry's reply about the routing help being a lucky break that still isn't enough; the rendering ('...A stroke of luck, but still not enough.') is plausible and not contradicted by context, but 100% certainty on the dialect isn't achievable from the corpus alone. Kept as meaning_reviewed rather than left draft, since no alternative reading was found that changes the sense."
+    },
+    {
+      "id": "dialogue_10912",
+      "issue": "'\u3053\u3093\u306a\u6642\u306b\u307e\u3067\u2026\u2026\u547f\u308c\u305f\u5967\u3060\u3002' (lit. 'what an exasperating fellow, even now') compressed to 'Even now, of all times... unbelievable.' The explicit reference to the fellow/guy is dropped for an impersonal exclamation; the exasperation and its target (from context) survive, so this is a phrasing compression, not a meaning fix."
+    },
+    {
+      "ids": [
+        "dialogue_10889",
+        "dialogue_10899"
+      ],
+      "issue": "Confirmed the translator's call to leave the recognizing speaker unattributed; checked rows 10871-10980 and found no line that settles who is speaking."
+    }
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(n)>/<ed()> command sequences checked in exact order against the ISO source for all 80 rows (programmatic tag-list diff); no mismatches.",
+    "format": "Newline counts match the source for every row.",
+    "fit": "All visible text (tags removed) <=110 characters; no meaning shortened for fit beyond what was already drafted.",
+    "ascii": "All target text is ASCII-only (no fullwidth percent sign occurs in this slice); no lowercase j/q found outside locked names (none occurred)."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "reviewer": "meaning_review_pilot_shouts_agent",
+  "slice_start": 14991,
+  "slice_count": 80,
+  "rows_examined": [{"start": 14976, "end": 15085}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [14992, 15006], "finding": "Two-line rows naming Benkei inside Ryoma's (14992) and Hayato's (15006) own resources. Targets keep the exchange unattributed ('That wore me out. / Getting old, Benkei.'; 'Benkei, you okay? / Rust doesn't matter... let's go!'), matching source structure without inventing a speaker."},
+    {"rows": [14999, 15000, 15001, 15002, 15003, 15004, 15005, 15007, 15008], "finding": "Resource 2819014 (Hayato, Shin Getter-2) reuses several stock combat lines byte-for-byte identical to Ryoma's resource 2819013 (e.g. 14853/14999, 14854/15000). This mirrors the source exactly (same Japanese text repeated verbatim in both tables), so identical targets are correct, not a copy-paste error."},
+    {"rows": [15023], "finding": "ゲッターウィーング rendered 'Getter Wing' as a literal transliteration; no canonical Black Getter attack by this name is confirmed in the glossary. This is a proper-noun/terminology open question, not a mistranslation of sentence meaning — ruled acceptable pending a glossary decision."},
+    {"rows": [15040, 15065, 15067], "finding": "機械人形 (the Turn A Gundam franchise's in-universe term for what other Gundam series call mobile suits) rendered 'machine-men'/'machine-man'. Literal but consistent across all three rows, does not misstate meaning or invent information. Ruled acceptable; recommend the glossary team lock one term corpus-wide."},
+    {"rows": [15053], "finding": "'黒歴史' → 'Black History' matches the Turn A Gundam franchise's established English term for the setting's erased catastrophic past. Confirmed correct; recommend adding to terms_028.json since it recurs (also rows 15089, 15126)."},
+    {"rows": [15060, 15064, 15090], "finding": "'ディアナ様' → 'Lady Dianna' (Dianna Soreil). Honorific choice is consistent with the -sama → 'Lord'/'Lady' convention already locked for Kids Munt in terms_028.json. Ruled acceptable; recommend a glossary entry for Dianna Soreil to lock the spelling corpus-wide."},
+    {"rows": [15068], "finding": "Source packs three ideas into one very short row (enemy sighted, VR-helmet/visor deployment, battle stations) under an approx. 30-char budget. Target 'Enemy sighted. / Battle stations!' keeps the two load-bearing actions (detection, order to prepare) and drops the equipment-deployment flavor detail, which the translator explicitly disclosed in notes rather than silently cutting. Ruled acceptable: the row's core sentence sense (enemy found → prepare for battle) is intact; only a scene-setting detail was compressed away, which the shout task's own rules permit."},
+    {"rows": [15069], "finding": "'ホワイトドール' → 'White Doll', the Turn A Gundam's canonical in-fiction nickname; used consistently at 15069/15102/15109. Confirmed correct."},
+    {"rows": [14991, 15070], "finding": "Programmatic check: every command sequence in every row's target matches the source exactly in order; all ids present and matched; no visible text over the shout byte budget; ASCII-only."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_14992", "dialogue_15006"], "issue": "Ruled: acceptable as-is (see checked_decisions); speaker of the naming half-line not recoverable from context, correctly left unattributed."},
+    {"id": "dialogue_15023", "issue": "Ruled: acceptable literal rendering; canonical Black Getter attack name still unconfirmed — left as an open terminology item, not a meaning defect."},
+    {"id": "dialogue_15040", "issue": "Ruled: acceptable; see checked_decisions (machine-men/machine-man)."},
+    {"id": "dialogue_15053", "issue": "Ruled: confirmed correct term; recommend locking in terms_028.json."},
+    {"id": "dialogue_15060", "issue": "Ruled: acceptable honorific choice; recommend a Dianna Soreil glossary entry."},
+    {"id": "dialogue_15065", "issue": "Ruled: acceptable; see dialogue_15040."},
+    {"id": "dialogue_15067", "issue": "Ruled: acceptable; see dialogue_15040. 'Mountain Cycle' term matches the sourced Turn A Gundam wiki concept."},
+    {"id": "dialogue_15068", "issue": "Ruled: acceptable disclosed compression; core sentence sense preserved (see checked_decisions)."},
+    {"id": "dialogue_15069", "issue": "Ruled: confirmed correct, canonical nickname."},
+    {"issue": "Same cross-batch formatting note: 33 of this slice's 80 rows keep an embedded \\n where the task brief calls for 'NO newline in the target (source line breaks are joined)'. Not treated as a meaning fix; flagged for the orchestrator as a likely corpus-wide pattern."}
+  ],
+  "validation": {
+    "fit": "Re-checked all 80 rows: visible text (tags and newline stripped) stays within min(72, 2×(source visible-character count)-2); no row exceeds its budget.",
+    "controls": "Re-checked all 80 rows: command sequence identical and in the same order as the source for every row.",
+    "meaning_review": "Completed independently against the Japanese source via tools/dialogue_corpus.py slice (context 15, console only). No meaning reversals, wrong addressee/subject, invented identity/gender, dropped sentence sense, tone-vs-character contradictions, or locked-spelling errors found. All 80 rows promoted to meaning_reviewed."
+  }
+}

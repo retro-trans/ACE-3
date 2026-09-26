@@ -1,0 +1,556 @@
+{
+  "slice_start": 1266,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1251,
+      1360
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_01285",
+        "dialogue_01287",
+        "dialogue_01289",
+        "dialogue_01292",
+        "dialogue_01293",
+        "dialogue_01294",
+        "dialogue_01295"
+      ],
+      "note": "Speakers are untagged. Content points to Garrod (1285, 1294), Jamil (1286, 1288, 1290), the two freelance Vultures (1287, 1289, 1292, 1293) and a Londo Bell pilot reacting to the word Gundam (1295), but no identity was written into the English. 1285's 'too' reads the source as 'you as well are chasing Tiffa for her power'; the source has no explicit 'also', only the chasing-after nuance - a reviewer may prefer dropping 'too'."
+    },
+    {
+      "id": "dialogue_01293",
+      "note": "'Our princess' is taken as Tiffa riding in the GX with its pilot, because 1294 answers with a refusal to hand Tiffa over. It could also be sarcasm aimed at the GX pilot. English keeps 'the one riding in the GX' without gender."
+    },
+    {
+      "id": "dialogue_01301",
+      "note": "Source omits the subject ('seems [it] was not in time'); follows the Freeden-destroyed line 1300. 'We' supplied as minimal subject; an impersonal 'Too late, it seems...' is the alternative."
+    },
+    {
+      "ids": [
+        "dialogue_01302",
+        "dialogue_01303"
+      ],
+      "note": "1303 'escort force silenced' does not say whose escorts. Slot order puts it directly after the Flail-struggling line (slot 87 -> 89), which suggests the allied Flail escort was wiped out (compare 00735/00736), but 1270 uses the same word for the ENEMY escorts around the field weapon, whose defeat would trigger 1271. Kept bare and neutral."
+    },
+    {
+      "id": "dialogue_01304",
+      "note": "Whiny polite register and 'Captain' (kanchou, not the 'Captain' loanword used for Jamil) suggest the Nadesico B bridge (Hari to Ruri), likely a time-limit warning. Speaker not written in."
+    },
+    {
+      "id": "dialogue_01317",
+      "note": "Object of 'protect' omitted in source; 'you' = Tiffa inferred from the 1313-1316 exchange."
+    },
+    {
+      "id": "dialogue_01327",
+      "note": "Source is a bare 'complaints after surviving'; rendered as paired imperatives to avoid choosing we/you."
+    },
+    {
+      "id": "dialogue_01329",
+      "note": "'Mobile suit modoki' (pseudo/imitation mobile suits) rendered 'mobile suit look-alikes'; refers to the New Federation mass-production machines from a Londo Bell viewpoint. No established term found."
+    },
+    {
+      "id": "dialogue_01340",
+      "note": "Speaker uses 'boku-tachi'; could be a Freeden bridge crewman or Hari. Left untagged."
+    },
+    {
+      "ids": [
+        "dialogue_01274",
+        "dialogue_01338"
+      ],
+      "note": "Both kanchou and the loanword kyaputen come out as 'Captain' in English; the source distinction (Ruri vs Jamil) is lost but context disambiguates."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independent meaning review done (review_01266.json): 80/80 rows compared with the ISO source plus 15 rows of context each side; 1 meaning fix (dialogue_01285); all rows meaning_reviewed, none left draft.",
+    "fit": "All rows <= 110 visible characters; no line breaks (builder wraps). Source manual line breaks replaced by spaces.",
+    "controls": "Ordered <...> command list of every target checked equal to source, including rows lacking <ed()> or <ab()>.",
+    "glyphs": "ASCII only; no lowercase j or q outside locked names (none needed)."
+  },
+  "rows": [
+    {
+      "id": "dialogue_01266",
+      "target": "<op()><sp(20)>The goal is to destroy the enemy targets.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01267",
+      "target": "<op()><sp(20)>Watch out for the particle fields shown on the radar.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01268",
+      "target": "<sp(20)>Enter one and you'll take damage!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01269",
+      "target": "<op()><sp(20)>Field-deploying weapon confirmed. It seems to be putting up a defensive field.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": "Operator's casual 'mitai desu' kept as 'seems'."
+    },
+    {
+      "id": "dialogue_01270",
+      "target": "<sp(20)>First, please clear out the escort units around it.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Escorts here are the enemy units guarding the field weapon."
+    },
+    {
+      "id": "dialogue_01271",
+      "target": "<op()><sp(20)>The defensive field is down! Let them have it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01272",
+      "target": "<op()><sp(20)>Particle field confirmed gone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01273",
+      "target": "<op()><sp(20)>I am Ruri Hoshino of Londo Bell, captain of the Nadesico B.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01274",
+      "target": "<op()><sp(20)>This is the Freeden. I am its captain, Jamil Neate.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01275",
+      "target": "<sp(20)>Did you pick up our distress signal?<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Distress signal is the Freeden's own per 1274; 'our' follows from the speaker."
+    },
+    {
+      "id": "dialogue_01276",
+      "target": "<op()><sp(20)>Yes. We will now support your forces.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01277",
+      "target": "<op()><sp(20)>Thank you for your cooperation.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01278",
+      "target": "<op()><sp(20)>No thanks are needed.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01279",
+      "target": "<sp(20)>We simply chose the appropriate action under the circumstances.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01280",
+      "target": "<sp(20)>That does not mean we trust you yet.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01281",
+      "target": "<op()><sp(20)>That is fine.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01282",
+      "target": "<sp(20)>A leader who can make that kind of call is one worth trusting.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01283",
+      "target": "<op()><sp(20)>All units, please also protect the land battleship Freeden.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01284",
+      "target": "<sp(20)>The Flail units will be sent into the fight as well.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Flail: provisional spelling from batch 00696 / encyclopedia."
+    },
+    {
+      "id": "dialogue_01285",
+      "target": "<op()><sp(20)>You people... You're after Tiffa for her strange power, aren't you?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Accusation; addressee (the pursuing Freeden side, which answers in 1286-1287, or the newly arrived force, cf. 1407) not written in. Reviewer removed 'too': source has no 'also'."
+    },
+    {
+      "id": "dialogue_01286",
+      "target": "<op()><sp(20)>There's no time to explain. For now, we work together.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01287",
+      "target": "<op()><sp(20)>Right, no time to listen to some brat's nonsense!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01288",
+      "target": "<op()><sp(20)>Let me introduce our comrades.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01289",
+      "target": "<op()><sp(20)>I'm Roybea, and that over there is Witz.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01290",
+      "target": "<op()><sp(20)>Both are freelance Vultures.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01291",
+      "target": "<op()><sp(20)>Vultures...?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01292",
+      "target": "<op()><sp(20)>Hey... You don't even know what a Vulture is?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01293",
+      "target": "<op()><sp(20)>And that Gundam... The one riding in the GX is our princess.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker untagged; 'our princess' refers to Tiffa, as 1294's reply shows."
+    },
+    {
+      "id": "dialogue_01294",
+      "target": "<op()><sp(20)>Shut up! Like I'd ever hand Tiffa over to you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01295",
+      "target": "<op()><sp(20)>A Gundam... you say?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01296",
+      "target": "<op()><sp(20)>The Freeden is entering combat!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01297",
+      "target": "<op()><sp(20)>Hit on the starboard side!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01298",
+      "target": "<op()><sp(20)>Another hit! The damage is spreading!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01299",
+      "target": "<op()><sp(20)>This ship is in danger! Cover us!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01300",
+      "target": "<op()><sp(20)>Main engine wrecked! This ship can't take any more!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01301",
+      "target": "<op()><sp(20)>It seems we were too late...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject omitted in source; 'we' is the minimal English subject, see uncertainties."
+    },
+    {
+      "id": "dialogue_01302",
+      "target": "<op()><sp(20)>The Flails are struggling...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01303",
+      "target": "<op()><sp(20)>Escort force silenced!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Which escort force is not stated; kept bare. See uncertainties."
+    },
+    {
+      "id": "dialogue_01304",
+      "target": "<op()><sp(20)>Captain, at this rate...! There's no time left!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01305",
+      "target": "<op()><sp(20)>That's a particle field! Please get out at once!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01306",
+      "target": "<op()><sp(20)>Look out! You're inside a particle field!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01307",
+      "target": "<op()><sp(20)>Please get out of the particle field, fast!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01308",
+      "target": "<op()><sp(20)>Now! Send in more units!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01309",
+      "target": "<op()><sp(20)>Enemy reinforcements confirmed!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01310",
+      "target": "<op()><sp(20)>Targets added. Please intercept them.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01311",
+      "target": "<op()><sp(20)>Enemy targets are going down steadily!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01312",
+      "target": "<op()><sp(20)>The enemy seems to be rattled!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01313",
+      "target": "<op()><sp(20)>Tiffa, are you all right?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01314",
+      "target": "<op()><sp(20)>Yes...<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01315",
+      "target": "<op()><sp(20)>I'm sorry. If only I hadn't taken you out of there.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01316",
+      "target": "<op()><sp(20)>No... It was what I wanted myself.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01317",
+      "target": "<op()><sp(20)>I'll protect you to the end, no matter what...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Object omitted in source; Tiffa is the settled referent from 1313-1316."
+    },
+    {
+      "id": "dialogue_01318",
+      "target": "<op()><sp(20)>What kind of machines are these?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01319",
+      "target": "<op()><sp(20)>They look like the enemy's mass-production model.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01320",
+      "target": "<sp(20)>Their performance is nothing special, but in these numbers they are a real nuisance...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01321",
+      "target": "<op()><sp(20)>You in the Gundam, can you still move?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01322",
+      "target": "<op()><sp(20)>Yeah... somehow.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01323",
+      "target": "<op()><sp(20)>GX, don't push yourself in combat.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01324",
+      "target": "<op()><sp(20)>I'm the one who's going to protect Tiffa...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01325",
+      "target": "<sp(20)>I'm not going to lose...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01326",
+      "target": "<op()><sp(20)>Damn it, nobody told me about this!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01327",
+      "target": "<op()><sp(20)>Survive first, complain later.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Imperative keeps the omitted subject open."
+    },
+    {
+      "id": "dialogue_01328",
+      "target": "<op()><sp(20)>Reinforcements in the distance!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01329",
+      "target": "<op()><sp(20)>More of those mobile suit look-alikes?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01330",
+      "target": "<op()><sp(20)>N-no, these are...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01331",
+      "target": "<sp(20)>They're those unidentified life-forms!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'unidentified life-forms' follows meeting_briefing_015."
+    },
+    {
+      "id": "dialogue_01332",
+      "target": "<op()><sp(20)>So they've shown up even out here!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01333",
+      "target": "<op()><sp(20)>Unidentified...? Don't tell me you don't know about the Invaders?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01334",
+      "target": "<op()><sp(20)>Invaders? First time I've heard of them.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01335",
+      "target": "<op()><sp(20)>Where on earth are you people from?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01336",
+      "target": "<op()><sp(20)>Enemy targets successfully cleared!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01337",
+      "target": "<op()><sp(20)>Stay on alert.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01338",
+      "target": "<op()><sp(20)>Captain! More Invader reinforcements are coming!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01339",
+      "target": "<sp(20)>A lot of them!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01340",
+      "target": "<op()><sp(20)>Wh-what's going to happen to us...?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01341",
+      "target": "<op()><sp(20)>Is the moon out?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01342",
+      "target": "<op()><sp(20)>...Huh?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01343",
+      "target": "<op()><sp(20)>I asked if the moon is out.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01344",
+      "target": "<op()><sp(20)>Dammit!<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01345",
+      "target": "<sp(20)>Like hell I'm dying in a place like this!<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

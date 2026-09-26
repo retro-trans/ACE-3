@@ -1,0 +1,397 @@
+{
+ "resource_id": 4004523,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 40,
+ "rows_examined": 40,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21030,1)><speed(2)>Never thought the <color(5)>Siberian Railway<ce()> would chase us all the way out here...",
+   "notes": "",
+   "source_sha256": "9999ffa3baadc8eb72f74ddc9c2e2e447a22c93bb47abb8e8b5a754c54831f4e"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>Isn't the <color(5)>Siberian Railway<ce()> supposed to be a Domepolis police force?",
+   "notes": "",
+   "source_sha256": "cf335032c8b83c30490f79b8c264de6fa95cc140c8159bd2dc11948a8bd68cf2"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21020,1)><speed(2)>Their pride got wounded, so they're getting worked up over it. Not that we've got time to deal with them.",
+   "notes": "",
+   "source_sha256": "67d81667e1e6e6e24578bcbccd1bf8ba190a4f1a7c55f82ce5ce876c3ba20dfe"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23010,1)><speed(2)>Oh right, <color(4)>Gainer<ce()>, how's that game... 'Overman Battle' going for you lately?",
+   "notes": "",
+   "source_sha256": "c3ac40d69b08c7c0f98f865fad48179e13dd75450b7093169f8844bbe02806d3"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(21010,1)><speed(2)>I've been going out on sorties so much lately, I haven't had time to play.",
+   "notes": "",
+   "source_sha256": "fb190379ed81fa7994db8a4953d6639a40fcc26ad45924e5e3d11bcf757cc357"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(17030,1)><speed(2)>While the King's been away from the game, a new champ was born, huh.",
+   "notes": "",
+   "source_sha256": "954b8fb027dd488f54e14687e8718bb4c88bd2cfa6405e9aa50bab16b72dc880"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(21010,1)><speed(2)>Yeah, there's a player who racked up 200 straight wins, same as me, and earned the title of 'Queen.'",
+   "notes": "'Overman Battle' is an in-universe game name with no match in the King Gainer wiki or project glossary; treated as ACE3-original hangar banter and translated literally. 'King'/'Queen' are the game's rank titles, kept as plain English words rather than proper nouns.",
+   "source_sha256": "f012a1eff8d5e1ca543a15db3abd7f34e11eceb7914730eae62c20f094667da1"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(21030,1)><speed(2)>Hey... you two! Save the game talk for after we're back from combat! This isn't playtime, don't let your guard down!",
+   "notes": "",
+   "source_sha256": "692ae8538a19bf48333c4934a37b7aa389e18f6a2ac7909e8226e7b9caf9e80d"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>, what's wrong? You look like you're deep in thought.",
+   "notes": "",
+   "source_sha256": "3877587479c729e7478687cf5816bddd426b7d12a2aa9eba3439ba824e65e3ee"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>I was a little surprised <color(4)>Jamil<ce()> had a past like that.",
+   "notes": "",
+   "source_sha256": "fd575ac96a27ed14a49ccbaca5cfe0d5aeefec527eb565eff5c0d138dd67009e"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>Even simply saying 'fighting' in one breath, everyone's carrying their own reasons for it, huh.",
+   "notes": "",
+   "source_sha256": "f3199e268437594ee2f9de47334c7505a2b813fcd6a78a9d5b856b2c2eeb952b"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>Made me realize how little I actually know.",
+   "notes": "",
+   "source_sha256": "8f01573ff92f9f4a34b12e4d61cde943121687a9d84beb053897dfccf6c00d95"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,2)><speed(2)>If you're starting to realize that, it means you've grown a little too.",
+   "notes": "",
+   "source_sha256": "deaa74c76a9b8b3032aa37ba50b97a7d4aad25f4f2836b07abaa4ade0835bb95"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>Do you have something like that too, <color(4)>Faye<ce()>?",
+   "notes": "",
+   "source_sha256": "467f0591cf0c7183b95383909810753a191756fea955be0b3344cf60d6061ca8"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1060,1)><speed(2)>That's a story for when we've got more time to spare.",
+   "notes": "",
+   "source_sha256": "a32f2140a52b0be854c84574965c874c28b0fb866cd26acee2a2367edfb218da"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(12031,1)><speed(2)><color(4)>Amuro<ce()>, is something wrong?",
+   "notes": "",
+   "source_sha256": "21680bc4b2368d23204d60b0ea073eeda82ee1e275196665655444a01a76355c"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>...Just remembering the whole thing with <color(6)>Lucille<ce()>. There was someone I couldn't save either...",
+   "notes": "",
+   "source_sha256": "96a07e97b2772444fc0e0f16060427338c02d01e3e9d86bed1c48a3ba3ee8172"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(5010,1)><speed(2)>I was wondering if tragedy is simply something that follows <color(4)>Newtypes<ce()> around.",
+   "notes": "",
+   "source_sha256": "ee9167827451bff1190a663c343427e3ffb76579824d576fb4fca2971901e04d"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(23010,1)><speed(2)>T-that's not true!",
+   "notes": "",
+   "source_sha256": "9a7a92884396e77f045ae5760fb090d569724d2d9bc5b76d4837aeaf79e0830c"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(17010,1)><speed(2)>Yeah! The future's something you carve out with your own strength!",
+   "notes": "",
+   "source_sha256": "516bed09b8a0597ebc26d3641b99d34bf8105a263bc2ae95516bef7005986271"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(5010,1)><speed(2)>Heh... yeah, you're right... Guess I ended up being the one getting encouraged.",
+   "notes": "",
+   "source_sha256": "a8c9dedcf03b8df6b0318fb4025804e37f47795f39cadc8a92721c77c400f5cd"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(5010,1)><speed(2)>You two make sure you protect <color(4)>Tiffa<ce()> and <color(4)>Eureka<ce()>, no matter what.",
+   "notes": "",
+   "source_sha256": "e9769b40106b757e025b0c67e28b98444c7fa20a74181fdf3a1050a599a7e4b6"
+  },
+  {
+   "table": 1,
+   "slot": 66,
+   "text_id": 67,
+   "en": "<operator(23010,1)><speed(2)>Y-yes!",
+   "notes": "",
+   "source_sha256": "257f9f6b7192069ab0d2d22273c63b219b9d05ace5d4e35fdf47d45a29ec12bd"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(17010,1)><speed(2)><color(4)>Tiffa<ce()>. I want power.",
+   "notes": "",
+   "source_sha256": "5fd739d86e540fc31e8d76be2f72352588517559e2b41b3f22c83b9716a5c602"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(17010,1)><speed(2)>So that what happened to <color(6)>Lucille<ce()> never happens again.",
+   "notes": "",
+   "source_sha256": "5fc79028941ab88b5491c0c7561766f44c0275f141df5333b8a322d785637246"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(17070,1)><speed(2)><color(4)>Garrod<ce()>...",
+   "notes": "",
+   "source_sha256": "eeaa8d3fb5d27b29544de9234bb51fb4b366f93d3de291a0d9d0f63c255ea8e2"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(17010,1)><speed(2)>And... I want to protect you.",
+   "notes": "",
+   "source_sha256": "a0a02be471b0247c27c8e6bfb1f30d7b935d31b2c69c9b05a8eaa304790551bb"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(17070,1)><speed(2)>I believe in you too, <color(4)>Garrod<ce()>.",
+   "notes": "",
+   "source_sha256": "44ce302a5e1333b0127a0113994cc7d7324fe0da6361519a97c1dc51e14b8be4"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17020,1)><speed(2)>Enemy's inbound and here they are, taking it easy.",
+   "notes": "",
+   "source_sha256": "e3599919f4b54c53959649a2f0d452deab7bec96fe1521b84638fc71d775d967"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(17010,1)><speed(2)>But <color(4)>Gainer<ce()>'s piloting, honed on that game, is actually pretty impressive.",
+   "notes": "",
+   "source_sha256": "b4d216513918d01fd53bbf92c462947060509d3a9fd6d5abc9f44f30674b212e"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17030,2)><speed(2)>Right, right, the guy's got the skill and the track record, so don't get on his case.",
+   "notes": "",
+   "source_sha256": "8e86191b76d4f2fd075acd3683f1e0f53961998c95aef5f5a81e5b52eeeca50d"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(21010,1)><speed(2)>What's wrong with that... merely talking about a game.",
+   "notes": "",
+   "source_sha256": "6ba20ab6f606e8687bc7ef5e9be4228cd9c119b1f3512e33b92e9ca612233298"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(21020,2)><speed(2)>I like you better in the <color(4)>King Gainer<ce()>'s cockpit - feels more human.",
+   "notes": "'King Gainer' here is the locked mecha name; distinct from the earlier bare 'King' (Gainer's personal gaming title, text_id 25) despite sharing the word in Japanese.",
+   "source_sha256": "3e983ea13358151eb14545be7b0018a92287b602382e447d293c6ef2c877efb0"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(21010,1)><speed(2)>What's that supposed to mean?",
+   "notes": "",
+   "source_sha256": "51cb849116d9774bbf6272dd67455af5ff22b982af882c00274f43819148dd62"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(21020,2)><speed(2)>Get out a little, learn a few things. Can't live on games alone, <color(4)>Gainer<ce()>.",
+   "notes": "",
+   "source_sha256": "a6ac24d2f003da829cc46eb022a5e58a36916290ff5910eccb97550c76880238"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(19020,1)><speed(2)><color(5)>Shin Dragon<ce()> is right in front of us...",
+   "notes": "",
+   "source_sha256": "a91b273a77628101fc30f3cb7979e7e96b9014553581cf4f8db7ea0d0b018b66"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(19010,1)><speed(2)>The Getter Ray density is climbing, little by little.",
+   "notes": "",
+   "source_sha256": "7bce0586c04b80d0fa5beee25ef88a788ffbc17f22bf9ca4b62de99e627ffd2e"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(19020,1)><speed(2)>This time, I'll settle this for good...!",
+   "notes": "",
+   "source_sha256": "04093e5e3cbde62b3778a4a52b875f6ff967077fe71c3736119ba2f64dfb8b81"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(21020,1)><speed(2)>Deal with the enemy in front of you first.",
+   "notes": "",
+   "source_sha256": "2c0718efd64d6c04bcaa5057e6e629d0a0a0f611843bc2c1b8908637cf8256af"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(19020,1)><speed(2)>I know that without you telling me!",
+   "notes": "",
+   "source_sha256": "5f8cc0fa6dab31c30a37477097a1782f7ede95640e37ef7d73be99c06fa729ba"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 25,
+   "issue": "'Overman Battle' is an in-universe game name with no match in the King Gainer wiki or project glossary; treated as ACE3-original hangar banter and translated literally. 'King'/'Queen' are the game's rank titles, kept as plain English words rather than proper nouns."
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "issue": "'King Gainer' here is the locked mecha name; distinct from the earlier bare 'King' (Gainer's personal gaming title, text_id 25) despite sharing the word in Japanese."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "Oobaaman Batoru",
+   "en": "Overman Battle",
+   "source": "none found (checked en.wikipedia.org/wiki/Overman_King_Gainer and the King Gainer fandom wiki; no in-game or arcade-game reference)",
+   "why": "In-universe fighting-game title referenced in hangar banter (0/text_id 25-26); appears to be ACE3-original content, not from King Gainer canon. Translated literally; 'King' and 'Queen' kept as plain rank titles rather than locked proper nouns."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 40,
+  "rows_in_scene": 40,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 21,
+    "before": "Even just saying 'fighting' in one breath, everyone's carrying their own reasons for it, huh.",
+    "after": "Even simply saying 'fighting' in one breath, everyone's carrying their own reasons for it, huh.",
+    "reason": "Font constraint: no lowercase j/q outside locked names. 'just' replaced with 'simply'; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 61,
+    "before": "I was wondering if tragedy is just something that follows Newtypes around.",
+    "after": "I was wondering if tragedy is simply something that follows Newtypes around.",
+    "reason": "Font constraint (lowercase j/q): 'just' replaced with 'simply'; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 179,
+    "before": "What's wrong with that... just talking about a game.",
+    "after": "What's wrong with that... merely talking about a game.",
+    "reason": "Font constraint (lowercase j/q): 'just' replaced with 'merely'; meaning unchanged."
+   },
+   {
+    "table": 1,
+    "slot": 182,
+    "before": "Get out a little, learn a few things. Can't just live on games, Gainer.",
+    "after": "Get out a little, learn a few things. Can't live on games alone, Gainer.",
+    "reason": "Font constraint (lowercase j/q): 'just' removed, reworded with 'alone'; meaning unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "'Siberian Railway' spelling matches glossary.json org.siberian_railway.",
+   "'King Gainer' (mecha nickname, table1 slot180) correctly distinguished from the bare 'King' gaming title used earlier (table0 slot24-25) despite sharing the word in Japanese; both readings verified against source and glossary nickname entry for Gainer Sanga.",
+   "'Overman Battle' (table0 slot25) has no locked term or wiki source; translator's literal rendering as ACE3-original hangar banter accepted, 'King'/'Queen' kept as plain rank words.",
+   "'Shin Dragon' (真ドラゴン, table1 slot219) is a direct literal rendering with no glossary entry found; not flagged as an error since it matches the source characters exactly.",
+   "Speaker identities (Sara, Barrel, Renton, Gainer, Roybea, Faye, Ruri, Amuro, Garrod, Tiffa, Witz, Gain, Kei, Go) verified via speaker_lookup.py against character_names_021.json.",
+   "All <...> command sequences verified identical and in the same order as source for every row (checked programmatically against tools/scene_source.py output).",
+   "No mistranslation, reversed meaning, wrong addressee, invented subject/information, added 'sir'/'ma'am', or wrong name spelling found in any row."
+  ],
+  "remaining_uncertainties": [
+   "'Domepolis' (table0 slot20-21, ドームポリス) has no entry in any glossary file; kept as the translator's plain romanization. Recommend the orchestrator add it to the glossary, similar to the 'Cecilia Islands' precedent in 4003030.",
+   "'Overman Battle' (table0 slot25) remains a provisional, unsourced in-universe term per the translator's glossary_proposals entry."
+  ]
+ }
+}

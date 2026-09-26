@@ -1,0 +1,25 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 9375,
+  "slice_count": 13,
+  "rows_examined": [{"start": 9360, "end": 9389}],
+  "rows_examined_count": 30,
+  "rows_in_slice": 13,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [9377], "finding": "'Captain Amuro is right' correctly renders 大尉 as 'Captain' per orchestrator ruling (rank taii for Gundam-series pilots); matches terms_028.json."},
+    {"rows": [9381, 9384], "finding": "Tiffa named and quoted consistently ('Tiffa's words have never been wrong before'); matches character_names_021.json (Tiffa Adill, en_short 'Tiffa')."},
+    {"rows": [9383, 9387], "finding": "Norb-rescue objective stated consistently ('You mean, rescuing Norb?' / 'From here, we head out to rescue Norb') with no reversal of who is rescuing whom."},
+    {"rows": [9375, 9376], "finding": "Threat to leave Gekkostate and the reply ('we should do what we can, right now') preserve the source's confrontational tone without softening or escalating it."}
+  ],
+  "uncertainties": [
+    {"note": "Translator's only uncertainty note states this batch is the tail of resource 6280 (Mission 22, 'Stop the Baldora Drive'); row 9388 begins resource 6281, a different scene (Macross DYRL finale) outside this batch's assigned range and was correctly left untranslated here.", "ruling": "Agree - confirmed row 9388's location metadata (resource_id 6281, table_offset 48) differs from this batch's resource_id 6280, so the scope boundary is correct. This also independently confirms that the resource 6281-6282 content the batch_09215 translator cited to justify a 'Hikaru Ichijyo' identification (see review_09215.json) is indeed unrelated to this Baldora Drive mission scene."}
+  ],
+  "validation": {
+    "controls": "Re-verified independently: all <...> commands in every row of the 13-row slice match the source in exact order; none of these 13 rows close with <ab()>/<off()> in the source, matching the tail of batch_09295 (script-checked; 0 mismatches across 13 rows).",
+    "fit": "Re-verified independently: all rows have visible (tag-stripped) text <=110 characters.",
+    "ascii": "Re-verified independently: visible text is ASCII-only except the fullwidth percent sign; no lowercase j/q found outside locked names.",
+    "format": "No newline-count discrepancies; JSON \\n escapes match source line breaks."
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "slice_start": 5223,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      5208,
+      5317
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_05237",
+        "dialogue_05282",
+        "dialogue_05283"
+      ],
+      "note": "Source says only 'senpai' (\u5148\u8f29) with no name attached. Rendered as 'Focker' because the immediate reply in each case matches Focker's established brash, self-assured personality (character_names_021.json) and his role as Hikaru's/Dyson's senpai figure, consistent with the later exchange at 5306-5309 where Dyson explicitly calls Focker 'senpai'. No name is invented beyond this inference; flagged in case the orchestrator disagrees with substituting a name for a bare honorific."
+    },
+    {
+      "id": "dialogue_05233",
+      "note": "'Misumaru no oyajisan' (\u30df\u30b9\u30de\u30eb\u306e\u89aa\u7236\u3055\u3093) rendered 'old man Misumaru', read as an affectionate nickname for a commanding officer (Kouichiro Misumaru, Admiral/Londo Bell commander per meeting_terms_015.json) rather than a literal claim that Misumaru is anyone's father. Not asserted as fact beyond the source's own wording."
+    },
+    {
+      "ids": [
+        "dialogue_05236",
+        "dialogue_05257",
+        "dialogue_05297"
+      ],
+      "note": "Speaker/addressee not identifiable from the surrounding rows (no color tags, no names). Kept neutral; no identity or gender assigned."
+    },
+    {
+      "ids": [
+        "dialogue_05271",
+        "dialogue_05272",
+        "dialogue_05273",
+        "dialogue_05274",
+        "dialogue_05298",
+        "dialogue_05299",
+        "dialogue_05300"
+      ],
+      "note": "'Engokan' (\u63f4\u8b77\u8266, escort ship) and 'goeibutai' (\u8b77\u885b\u90e8\u968a, escort unit) are never named in these dialogue rows. hud_labels.json separately locks a 'Clop-class cruiser' warning for this same mission (resource block with 'Ghost sighted'/'Gekko' warnings), but since the dialogue text itself never names the ship, it was not matched to that HUD label here. Flagged in case the orchestrator wants the two linked explicitly."
+    },
+    {
+      "id": "dialogue_05294",
+      "note": "'Gettomashin' (\u30b2\u30c3\u30c8\u30de\u30b7\u30f3) researched as 'Get Machine' (the individual jets that combine into Getter Robo; getterrobo.fandom.com). Not previously in the glossary; proposal filed. Speaker not identifiable among the Getter Robo cast members mixed into this mission."
+    },
+    {
+      "ids": [
+        "dialogue_05243",
+        "dialogue_05244",
+        "dialogue_05245",
+        "dialogue_05246",
+        "dialogue_05247",
+        "dialogue_05248"
+      ],
+      "note": "Speaker of 5243/5245/5248 inferred as Isamu Dyson (confirmed by 5244 addressing him as 'Lieutenant Dyson'); Hikaru Ichijo inferred as the modest respondent in 5244/5246/5247. Consistent with both characters' glossary personalities (Dyson: reckless/carefree; Hikaru: happy-go-lucky, a bit clumsy) but not asserted beyond what the two-line exchange itself supports."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command reproduced in source order for all 80 rows; none added or dropped, including rows with no <ed()> (5224,5225,5232,5233,5238,5239,5246,5247,5257,5291,5292).",
+    "ascii": "Straight quotes, hyphens for dashes, '...' for ellipsis; no bare percent sign (5268 spells out 'percent'). Lowercase j/q avoided except inside locked proper nouns (Ichijyo) and the locked rank 'Major'.",
+    "fit": "No line breaks in any target per task instructions (source line breaks joined with a space); all rows drafted in full first, longest visible text 107 characters (row 5305 is in the second file; longest in this file is under 90), all <=110-character budget.",
+    "scope": "Rows 5223-5302 are resource 6170 (Mission 14, 'Break the Defense Line': mothership missile defense, then a Ghost/Getter/Macross dogfight and base-capture sequence). Source read via tools/dialogue_corpus.py slice command; Japanese never written to disk.",
+    "glossary": "Locked terms used: Hikaru Ichijyo, Isamu Dyson (Lieutenant Dyson), Roy Focker (Major Focker), Gekko, Gidget, Ghost, mothership (lowercase, dialogue convention), Vent Roll (batch_03883 precedent). New term proposed: Get Machine (see glossary proposals file).",
+    "meaning_review": "Meaning-reviewed against Japanese source (tools/dialogue_corpus.py slice 5223 80 --context 15); 2 fixes applied (reversed addressee in dialogue_05226, glossary name spelling in dialogue_05243); orchestrator rulings on 'Get Machine', bare 'senpai'->Focker, and rank/name conventions confirmed and left as drafted; all 80 rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_05223",
+      "target": "<op()><sp(20)>More enemy fire is closing in!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Mission 14 'Break the Defense Line' scene start, resource 6170 (mothership defense against long-range bombardment)."
+    },
+    {
+      "id": "dialogue_05224",
+      "target": "<op()><sp(20)>Long-range bombardment!?<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into 5225's box."
+    },
+    {
+      "id": "dialogue_05225",
+      "target": "<sp(20)>Launch the interceptor drones!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 5224's box (starts with bare <sp(20)>)."
+    },
+    {
+      "id": "dialogue_05226",
+      "target": "<op()><sp(20)>Leave the anti-ship missiles to the interceptor unit. If they're attacked, back them up.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05227",
+      "target": "<sp(20)>Hold out until the enemy's attack stops.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05228",
+      "target": "<op()><sp(20)>Anti-ship missiles incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05229",
+      "target": "<op()><sp(20)>Prepare to intercept!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05230",
+      "target": "<op()><sp(20)>Hey! Long time no see, everyone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05231",
+      "target": "<op()><sp(20)>Major Focker! Weren't you supposed to be an instructor at the training school?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05232",
+      "target": "<op()><sp(20)>Couldn't leave Macross to fend for itself.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into 5233's box."
+    },
+    {
+      "id": "dialogue_05233",
+      "target": "<sp(20)>Went straight to old man Misumaru and talked my way back into active duty.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 5232's box. 'Oyaji-san' (\u89aa\u7236\u3055\u3093) read as an affectionate address for a superior officer (Misumaru), not a literal father; see uncertainties."
+    },
+    {
+      "id": "dialogue_05234",
+      "target": "<op()><sp(20)>Macross is like home to us, after all.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05235",
+      "target": "<op()><sp(20)>That's reassuring. I'm counting on you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05236",
+      "target": "<op()><sp(20)>We'll provide cover in the area around us.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05237",
+      "target": "<op()><sp(20)>Focker! Are you all right?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "No name in source ('senpai' alone); rendered as 'Focker' per house convention of dropping the bare honorific once the addressee is inferable (matches scene 4004563 precedent). See uncertainties."
+    },
+    {
+      "id": "dialogue_05238",
+      "target": "<op()><sp(20)>You idiot! What kind of thing is that to ask!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into 5239's box."
+    },
+    {
+      "id": "dialogue_05239",
+      "target": "<sp(20)>My instincts haven't dulled that easily!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 5238's box."
+    },
+    {
+      "id": "dialogue_05240",
+      "target": "<op()><sp(20)>Sorry, but I'm the one taking down Ghost! You sit tight and watch!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05241",
+      "target": "<op()><sp(20)>I won't let you! I've got a score to settle with Ghost too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05242",
+      "target": "<op()><sp(20)>Is that so! Do your best, then! Not that it'll do any good!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05243",
+      "target": "<op()><sp(20)>You're Hikaru Ichijyo?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Corrected spelling to 'Hikaru Ichijyo' (character_names_021.json en_full; also names_023.json and scene 4004563 corpus precedent). 'Ichijo' is only the ADV-subtitles alias listed in the variants field, not the locked spelling. Lowercase j in 'Ichijyo' is part of the locked name, exempt from the j/q avoidance rule."
+    },
+    {
+      "id": "dialogue_05244",
+      "target": "<op()><sp(20)>Yeah. You're Lieutenant Dyson, right? Nice to work with you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05245",
+      "target": "<op()><sp(20)>Man, I'm glad to get to fly alongside the hero of the last war!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05246",
+      "target": "<op()><sp(20)>No, I didn't really do anything that impressive...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into 5247's box."
+    },
+    {
+      "id": "dialogue_05247",
+      "target": "<sp(20)>This is awkward... What am I even supposed to say...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 5246's box."
+    },
+    {
+      "id": "dialogue_05248",
+      "target": "<op()><sp(20)>Nah... if you take it that seriously, it puts me on the spot too.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05249",
+      "target": "<op()><sp(20)>Heat source approaching! Anti-ship missile incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05250",
+      "target": "<op()><sp(20)>More missiles incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05251",
+      "target": "<op()><sp(20)>Heat source inbound! It's an anti-ship missile.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05252",
+      "target": "<op()><sp(20)>Adding more interceptors. Deploying them around the mothership.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05253",
+      "target": "<op()><sp(20)>The enemy's targeting it. Cover its approach.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent of 'it' (what the enemy is targeting) is not named in source; kept neutral rather than inventing a ship name."
+    },
+    {
+      "id": "dialogue_05254",
+      "target": "<op()><sp(20)>An enemy ship has appeared!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05255",
+      "target": "<op()><sp(20)>All targets destroyed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05256",
+      "target": "<op()><sp(20)>Well done!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05257",
+      "target": "<op()><sp(20)>Everyone's amazing.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source, but 5258 opens fresh with <op()> rather than a bare continuation; preserved exactly as in source (likely a minor source timing quirk, not a narrative continuation)."
+    },
+    {
+      "id": "dialogue_05258",
+      "target": "<op()><sp(20)>Damn, what are these guys! We're no match for them!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05259",
+      "target": "<op()><sp(20)>The enemy's attack seems to have stopped.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05260",
+      "target": "<op()><sp(20)>Not yet! All forces, full assault!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05261",
+      "target": "<op()><sp(20)>The enemy's moving! An all-out attack!?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05262",
+      "target": "<op()><sp(20)>The ship's defenses are thinning! Stay alert!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05263",
+      "target": "<op()><sp(20)>The escort unit has been wiped out!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05264",
+      "target": "<op()><sp(20)>We'll have to intercept them directly... I'm counting on you!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05265",
+      "target": "<op()><sp(20)>The interceptor unit shot down the missiles.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05266",
+      "target": "<op()><sp(20)>Don't dawdle! There's no time!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05267",
+      "target": "<op()><sp(20)>Hit on the lower left Vent Roll!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Vent Roll' (bentororu) kept untranslated per existing batch_03883 precedent; unattested in glossary/wiki."
+    },
+    {
+      "id": "dialogue_05268",
+      "target": "<op()><sp(20)>Right side, number two, VRF disengaged, lift down 25 percent!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'VRF' kept as in source (already Latin-letter acronym); '25 percent' spelled out per no-bare-percent rule."
+    },
+    {
+      "id": "dialogue_05269",
+      "target": "<op()><sp(20)>N-no good! At this rate, the Gekko's going down!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Gekko = locked ship name (\u6708\u5149\u53f7), per meeting_terms_015.json / scene 4003080 note."
+    },
+    {
+      "id": "dialogue_05270",
+      "target": "<op()><sp(20)>Engine stopped! We can't maintain lift!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05271",
+      "target": "<op()><sp(20)>The escort ship is under attack!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05272",
+      "target": "<op()><sp(20)>Damage to the escort ship is spreading!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05273",
+      "target": "<op()><sp(20)>The escort ship is in danger!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05274",
+      "target": "<op()><sp(20)>The escort ship has been taken down!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05275",
+      "target": "<op()><sp(20)>Eh... what is this?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05276",
+      "target": "<op()><sp(20)>Gidget, what's wrong?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Gidget = locked character name (character_names_021.json, female Gekkostate mechanic); no gender stated in English text."
+    },
+    {
+      "id": "dialogue_05277",
+      "target": "<op()><sp(20)>Something's approaching at high speed! I-it's unbelievably fast!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05278",
+      "target": "<op()><sp(20)>So it's here!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05279",
+      "target": "<op()><sp(20)>That thing called Ghost!?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05280",
+      "target": "<op()><sp(20)>It's entering the operational area!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05281",
+      "target": "<op()><sp(20)>Leaving that thing alone is dangerous! Destroy it first!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05282",
+      "target": "<op()><sp(20)>So this is Ghost... I heard even Focker got shot down by it in the sim...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Senpai' again inferred as Focker (parallel to 5237); see uncertainties."
+    },
+    {
+      "id": "dialogue_05283",
+      "target": "<op()><sp(20)>Don't get the wrong idea! I wasn't the one who got shot down!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply to 5282; consistent with Focker's established boastful personality (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_05284",
+      "target": "<op()><sp(20)>That's right. Real combat and simulation are two different things.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05285",
+      "target": "<op()><sp(20)>I'll show that AI what real strength looks like!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05286",
+      "target": "<op()><sp(20)>Ghost! Finally, we meet!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05287",
+      "target": "<op()><sp(20)>Isamu! Don't rush in!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressee named directly in source ('Isamu')."
+    },
+    {
+      "id": "dialogue_05288",
+      "target": "<op()><sp(20)>I know that! You'd better watch your own back!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05289",
+      "target": "<op()><sp(20)>I know! I don't need you telling me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05290",
+      "target": "<op()><sp(20)>Looks like it leaves an opening right after it attacks. Aim for that...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05291",
+      "target": "<op()><sp(20)>Don't let it get behind you!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into 5292's box."
+    },
+    {
+      "id": "dialogue_05292",
+      "target": "<sp(20)>If you lose sight of it, pull back from there for a moment!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 5291's box."
+    },
+    {
+      "id": "dialogue_05293",
+      "target": "<op()><sp(20)>Damn Ghost! Quit skittering around and running away!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05294",
+      "target": "<op()><sp(20)>What speed! It's way faster than a Get Machine!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Get Machine' (\u30b2\u30c3\u30c8\u30de\u30b7\u30f3) = the individual jets that combine into Getter Robo; not in existing glossary, researched via Getter Robo wiki sources. See glossary proposal."
+    },
+    {
+      "id": "dialogue_05295",
+      "target": "<sp(20)>All right, the rest is up to Macross. Everyone, fall back for now!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05296",
+      "target": "<op()><sp(20)>All units, advance!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05297",
+      "target": "<op()><sp(20)>Whoa... what incredible skill...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05298",
+      "target": "<op()><sp(20)>The escort unit has been wiped out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05299",
+      "target": "<op()><sp(20)>The escort unit is in danger...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05300",
+      "target": "<op()><sp(20)>One escort team, destroyed...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source uses 'kaimetsu' (\u58ca\u6ec5) rather than the 'zenmetsu' (\u5168\u6ec5) in 5263/5298; rendered 'destroyed' instead of 'wiped out' to keep the two distinct, per the batch_01586 precedent for this pair of words."
+    },
+    {
+      "id": "dialogue_05301",
+      "target": "<op()><sp(20)>Base capture successful!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Matches existing corpus phrase 'Base capture successful!' (batch_00993)."
+    },
+    {
+      "id": "dialogue_05302",
+      "target": "<op()><sp(20)>Base captured! Keep it up!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Matches existing corpus phrase pattern 'Base captured!' (batch_00993/01586)."
+    }
+  ]
+}

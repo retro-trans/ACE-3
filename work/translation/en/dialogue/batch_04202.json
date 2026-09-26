@@ -1,0 +1,542 @@
+{
+  "slice_start": 4202,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      4187,
+      4296
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_04202",
+      "target": "<op()><sp(20)>Please attack the transport ships\ntrying to leave the area.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04203",
+      "target": "<op()><sp(20)>We'll also have the Flail unit hold them up.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Flail is the existing provisional rendering of Freil from proposals_dialogue_00696.json; not re-proposed."
+    },
+    {
+      "id": "dialogue_04204",
+      "target": "<op()><sp(20)>It's a Vulture raid!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04205",
+      "target": "<op()><sp(20)>Don't hand over that cargo.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04206",
+      "target": "<op()><sp(20)>I want to protect Rutil.\nBut can I really do it, as I am now...?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Jamil by context (4207-4214 exchange); no name inserted into the line itself."
+    },
+    {
+      "id": "dialogue_04207",
+      "target": "<op()><sp(20)>Jamil... Believe in your own strength.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04208",
+      "target": "<op()><sp(20)>I'm sure you can do it.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04209",
+      "target": "<op()><sp(20)>Today, you're the star.\nPlay the part through to the end.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04210",
+      "target": "<op()><sp(20)>...I suppose so.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04211",
+      "target": "<op()><sp(20)>Captain...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04212",
+      "target": "<op()><sp(20)>I cannot hand Rutil over.\nWhatever it takes, I will win this fight.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04213",
+      "target": "<op()><sp(20)>I'm the one at the controls.\nSo sit back and trust me completely.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Ride on a big ship' idiom rendered as trusting completely; no literal ship invented."
+    },
+    {
+      "id": "dialogue_04214",
+      "target": "<op()><sp(20)>Garrod, please look after Jamil...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04215",
+      "target": "<op()><sp(20)>Confirmed: the target has stopped!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04216",
+      "target": "<sp(20)>There are still targets remaining.\nPlease continue the operation.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <op()>, continuing the previous box; kept as-is."
+    },
+    {
+      "id": "dialogue_04217",
+      "target": "<op()><sp(20)>If you free the Flail unit from combat,\nthey'll move to hold the transports.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04218",
+      "target": "<op()><sp(20)>The target is trying to escape!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04219",
+      "target": "<op()><sp(20)>An enemy transport has entered the operation area.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04220",
+      "target": "<op()><sp(20)>More enemy transports have appeared.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04221",
+      "target": "<op()><sp(20)>Enemy transports incoming!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04222",
+      "target": "<op()><sp(20)>The enemy force has begun advancing!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04223",
+      "target": "<op()><sp(20)>Enemy reinforcements!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04224",
+      "target": "<op()><sp(20)>Keep it up!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04225",
+      "target": "<op()><sp(20)>Break through in one go!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04226",
+      "target": "<op()><sp(20)>Is this the last one...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04227",
+      "target": "<op()><sp(20)>The target has left the operation area!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04228",
+      "target": "<op()><sp(20)>Damn it... So it failed?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04229",
+      "target": "<op()><sp(20)>Damage to the Nadesico is worsening.\nPlease provide support.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04230",
+      "target": "<op()><sp(20)>The Nadesico is in serious danger.\nPlease provide support.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04231",
+      "target": "<op()><sp(20)>M-main engine, critically damaged!!\nCaptain!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Stammer kept on first English word as in prior batches."
+    },
+    {
+      "id": "dialogue_04232",
+      "target": "<op()><sp(20)>This ship is being abandoned.\nAll hands, evacuate.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04233",
+      "target": "<op()><sp(20)>Very little operation time remains...\nPlease hurry!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04234",
+      "target": "<op()><sp(20)>Captain, any more of this and...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04235",
+      "target": "<op()><sp(20)>Has the operation... failed...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04236",
+      "target": "<op()><sp(20)>Allied forces are under attack!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04237",
+      "target": "<op()><sp(20)>One allied unit has been wiped out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04238",
+      "target": "<op()><sp(20)>We will retrieve the L System no matter what.\nEveryone, I'm counting on you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "L System spelled without a hyphen per encyclopedia_021_a.json's reconciliation note (wiki form wins over character_names_021's hyphenated 'L-System'); see uncertainties."
+    },
+    {
+      "id": "dialogue_04239",
+      "target": "<op()><sp(20)>It's reassuring having Jamil out there.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04240",
+      "target": "<op()><sp(20)>You said it.\nWhat a difference from some kid out there.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent of 'a certain kid' left unidentified; no name supplied. See uncertainties."
+    },
+    {
+      "id": "dialogue_04241",
+      "target": "<op()><sp(20)>Shut up!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04242",
+      "target": "<op()><sp(20)>How could I stay silent after hearing that?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'quiet' replaced with 'silent' to avoid the font's unsupported lowercase q (per project rule; not a locked name)."
+    },
+    {
+      "id": "dialogue_04243",
+      "target": "<op()><sp(20)>Guess we have to be the ones to save them.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Object of 'save' left as source leaves it (unspecified 'them'); not supplied from invention."
+    },
+    {
+      "id": "dialogue_04244",
+      "target": "<op()><sp(20)>Jamil...\nYou've got yourself some good comrades.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04245",
+      "target": "<op()><sp(20)>Everyone's fighting while carrying some pain of their own.\nAnd yet, I...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker confirmed as Gainer by the following row's direct address; still no name inserted into this line."
+    },
+    {
+      "id": "dialogue_04246",
+      "target": "<op()><sp(20)>Don't push yourself too hard, Gainer.\nHaving a reason to fight that's your own is enough.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04247",
+      "target": "<op()><sp(20)>You're right.\nThen for now... it's for Rutil's sake!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "-san honorific on Rutil dropped per corpus convention."
+    },
+    {
+      "id": "dialogue_04248",
+      "target": "<op()><sp(20)>Jamil, are you all right?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04249",
+      "target": "<op()><sp(20)>Yeah... Sorry to worry you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04250",
+      "target": "<op()><sp(20)>We'll back you up.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04251",
+      "target": "<op()><sp(20)>The young ones are doing their best too.\nThere's no need to rush.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04252",
+      "target": "<op()><sp(20)>Everyone... I'm grateful to you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04253",
+      "target": "<op()><sp(20)>So the GX can fight like that...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04254",
+      "target": "<op()><sp(20)>So Jamil really was amazing, huh.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04255",
+      "target": "<op()><sp(20)>Even with his Newtype ability gone,\nhe's still a top-flight pilot.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "He/his used for Jamil, whose gender is already locked in character_names_021.json; not inferred from name alone."
+    },
+    {
+      "id": "dialogue_04256",
+      "target": "<op()><sp(20)>We will take the L System.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is one of the Frost brothers by context; no name inserted."
+    },
+    {
+      "id": "dialogue_04257",
+      "target": "<op()><sp(20)>It's only in our hands that it has any real meaning.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04258",
+      "target": "<op()><sp(20)>A New Federation Gundam... Those brothers?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "New Federation per terms_028.json orchestrator ruling (glossary.json wins over character_names_021's 'New UNE'); matches book(38) usage already locked in batches 1346-2055."
+    },
+    {
+      "id": "dialogue_04259",
+      "target": "<op()><sp(20)>Once we get serious,\nyou won't even be worth counting.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04260",
+      "target": "<op()><sp(20)>We can show our true strength by fighting as a pair.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04261",
+      "target": "<op()><sp(20)>We underestimated you before, but today we're serious.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04262",
+      "target": "<op()><sp(20)>You'd best say your prayers now.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04263",
+      "target": "<op()><sp(20)>Today's GX seems to have something extra to it.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04264",
+      "target": "<op()><sp(20)>Jamil Neate...\nSo the tragic hero makes his entrance.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04265",
+      "target": "<op()><sp(20)>I sense strong hatred from them.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04266",
+      "target": "<sp(20)>Deep hatred, with no bottom in sight...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <op()> or <ed()>, continuing the previous box; kept as-is."
+    },
+    {
+      "id": "dialogue_04267",
+      "target": "<sp(20)>What is it that's driving them...?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker of 4265-4267 (likely Tiffa, sensing the Frost brothers) not named; no identity asserted beyond source."
+    },
+    {
+      "id": "dialogue_04268",
+      "target": "<op()><sp(20)>The likes of you could never understand.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04269",
+      "target": "<op()><sp(20)>Because you're going to perish right here.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04270",
+      "target": "<op()><sp(20)>I won't let the likes of you interfere with Jamil's...\nwith Rutil's feelings!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04271",
+      "target": "<op()><sp(20)>Fools who don't even understand the L System's worth.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04272",
+      "target": "<op()><sp(20)>Shut up!\nI will not forgive you!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04273",
+      "target": "<op()><sp(20)>These two together are a real handful!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04274",
+      "target": "<op()><sp(20)>Small fry stay small fry, however many gather.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04275",
+      "target": "<op()><sp(20)>Don't talk big!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04276",
+      "target": "<op()><sp(20)>I'll show you exactly what small fry can do!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04277",
+      "target": "<op()><sp(20)>These guys... They're tough!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04278",
+      "target": "<op()><sp(20)>So you're Gainer Sanga, the Game Champ.\nIt's an honor to fight you.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Game Champ per terms_028.json locked term."
+    },
+    {
+      "id": "dialogue_04279",
+      "target": "<op()><sp(20)>But this won't go like a game!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04280",
+      "target": "<op()><sp(20)>Jamil, let's use the G-Bit.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "G-Bit per mission_terms_019.json / encyclopedia_022.json locked spelling. Source row has no <ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04281",
+      "target": "<sp(20)>Right now, the only thing that can break this situation open\nis the Flash System.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Flash System per encyclopedia_022.json locked spelling. Source row has no <op()>, continuing the previous box; kept as-is."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_04202",
+        "dialogue_04205",
+        "dialogue_04236",
+        "dialogue_04237"
+      ],
+      "note": "Standard bridge/HUD alert style continued from earlier missions; no speaker identity asserted for the operator voice."
+    },
+    {
+      "ids": [
+        "dialogue_04240"
+      ],
+      "note": "'a certain kid' (dokka no bouya) left unidentified; likely mocks a younger pilot (possibly Garrod) but nothing in the adjacent rows confirms it, so no name was supplied."
+    },
+    {
+      "ids": [
+        "dialogue_04238",
+        "dialogue_04271"
+      ],
+      "note": "Two glossary sources disagree on hyphenation: character_names_021.json's Rutil entry says 'L-System' while encyclopedia_021_a.json explicitly notes the Gundam wiki writes 'L System' (no hyphen) and treats that as the resolving form. Used 'L System' (no hyphen) throughout this batch; flagging for centralized confirmation since this is the corpus's first dialogue use of the term."
+    },
+    {
+      "ids": [
+        "dialogue_04256",
+        "dialogue_04262",
+        "dialogue_04268",
+        "dialogue_04269",
+        "dialogue_04271"
+      ],
+      "note": "Speaker is one of the Frost brothers (Shagia/Olba) by scene context (they are named a few rows later at 4300-4301 in the next slice); the brothers are not distinguished from each other in this stretch, so no specific name was assigned to either line."
+    },
+    {
+      "ids": [
+        "dialogue_04265",
+        "dialogue_04266",
+        "dialogue_04267"
+      ],
+      "note": "Speaker sensing 'strong hatred' from the Frost brothers is not named in this row range; likely a Newtype character (Tiffa) but left unattributed."
+    }
+  ],
+  "validation": {
+    "controls": "All angle-bracket commands preserved in source order for every row, including rows with no leading <op()> (continuation boxes) and rows with no trailing <ed()>/<ab()> variance.",
+    "fit": "Full meaning retained; no row shortened for display width. All visible strings checked <= 110 characters.",
+    "format": "No literal newlines; \\n used only where the source itself has \\n. ASCII only; no bare %, no lowercase j/q outside locked names (Jamil, Gainer, Rutil-adjacent forms not applicable) where a synonym existed.",
+    "meaning_review": "Independently meaning-reviewed against the Japanese source (review_04202.json): all 80 rows checked, no mistranslations or reversed meaning found; one wording fix applied (dialogue_04242, 'quiet' to 'silent' to remove an unsupported lowercase q, not a meaning change) and all rows set to meaning_reviewed."
+  }
+}

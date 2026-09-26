@@ -1,0 +1,114 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 2055,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 2010,
+      "end": 2149
+    }
+  ],
+  "rows_examined_count": 140,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [
+        2055
+      ],
+      "finding": "'he' for Berkt is supported by character_names_021 (gender male). 'kanbu class no naka demo ... tantou' = among the New Federation executives Berkt is the one assigned to Shin Dragon; draft matches. Glossary spellings Berkt / Shin Dragon / New Federation confirmed."
+    },
+    {
+      "rows": [
+        2056,
+        2057,
+        2058,
+        2059,
+        2060,
+        2061
+      ],
+      "finding": "Live Mission 06 scene end. Meaning, register and order of book/color commands correct. 2059-2060 are one speaker and the 'I' is settled by the first-person pronoun in the source. 2061 'for three' keeps the unstated trio open (speaker, Gainer, Sara). Siberian Railway / Exodus / Sara / Gainer match glossary."
+    },
+    {
+      "rows": [
+        2062,
+        2063
+      ],
+      "finding": "Translator's doubt upheld as a real ambiguity; ruling: keep the open wording. Row 2019 shows Gain also says 'Gainer-kun', so the honorific does not identify the speaker. The reply 2063 uses 'utte kurereba' (a favour done by someone else), which leans to 2062 being asked ABOUT Gainer and answered by another person, but an address reading is not excluded; the subjectless 2063 works with both."
+    },
+    {
+      "rows": [
+        2064,
+        2117
+      ],
+      "finding": "Legacy ACE2 resource 6061 (0083 naval review / Giganos). All lines compared; no reversed meaning, no invented subject. 'Unit 2' matches batches 0623-1501. Kaine / Giganos / Zeon spellings match glossary and corpus."
+    },
+    {
+      "rows": [
+        2090,
+        2091
+      ],
+      "finding": "Rulings: 'them' for 'karera' is what the source says and no faction is supplied - accepted. 2091 'Now I'll watch how it's handled' keeps the unstated owner of 'tenami' open - accepted."
+    },
+    {
+      "rows": [
+        2094
+      ],
+      "finding": "Ruling: 'S0' kept literally with comma as in source - accepted; callsign vs sector cannot be settled from the text."
+    },
+    {
+      "rows": [
+        2065,
+        2068,
+        2074,
+        2078,
+        2080,
+        2081
+      ],
+      "finding": "Ruling: 'Konpei Island' and 'Vella Lavella' are consistent inside the slice and no other corpus row uses either term (full source index checked). Spelling lock is an orchestrator matter, not a meaning defect."
+    },
+    {
+      "rows": [
+        2118,
+        2134
+      ],
+      "finding": "Developer placeholders compared one by one; 2123 joke misspelling rendered plainly - accepted; two-item rows 2128/2131 keep both items in order."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2062,
+        2063
+      ],
+      "issue": "Live rows. 'Gainer... will this be all right?' moves the grammatical subject from Gainer to 'this' in order to stay open between 'are you OK?' and 'will he be OK?'. I lean to the about-Gainer reading (2063 'kurereba'), in which case 'Will Gainer be all right?' would be tighter, but the scene does not settle it, so the row was left unchanged."
+    },
+    {
+      "rows": [
+        2058
+      ],
+      "issue": "'Game Champ' is the first use in the translated corpus (later source rows 4278, 4484, 4486 use the same katakana and have no target yet); needs a lock so later slices match."
+    },
+    {
+      "rows": [
+        2083
+      ],
+      "issue": "'honmei' rendered 'the real threat'; literally 'the main one being expected'. Judged acceptable, not changed."
+    },
+    {
+      "rows": [
+        2064,
+        2134
+      ],
+      "issue": "Resource 6061 is legacy ACE2 content; speakers are untagged and were not identified beyond what the text names (Kaine in 2093, Meio only in placeholders)."
+    }
+  ],
+  "validation": {
+    "controls": "Console check after review: ordered <...> command list of every target equals the ISO source's, including rows whose source lacks <ed()> or <op()>.",
+    "format": "No newline in any target; ASCII only; no percent sign; 80 ids in order.",
+    "fit": "Longest visible text 92 chars (limit 110). No shortening performed by this review.",
+    "glyphs": "No lowercase j/q in any visible text of this slice.",
+    "runtime": "Runtime scene selection, font coverage and visual fit are not established by this meaning review."
+  }
+}

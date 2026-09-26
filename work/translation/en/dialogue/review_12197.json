@@ -1,0 +1,40 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 12197,
+  "slice_count": 80,
+  "rows_examined": [{"start": 12182, "end": 12291}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_12201",
+      "before": "Desperate, but I won't lose!",
+      "after": "Enemy too, but I won't lose!",
+      "reason": "Source is 敌も必死だけど……私は負けない！, which attributes the desperation to the enemy (敌も = 'the enemy too'). Dropping that subject left 'Desperate' with no referent, and in a first-person battle shout it defaults to reading as the pilot's own desperation -- the opposite of what the line says. Fits the 30-char budget (28 chars)."
+    },
+    {
+      "id": "dialogue_12271",
+      "before": "It's clear.",
+      "after": "Clear goal.",
+      "reason": "Source 目的は明確だ。 states specifically that the objective/goal is clear, not a generic situation. An untethered 'It's clear' reads like an all-clear/visibility callout (arguably the opposite sense -- coast is clear vs. resolve is clear). 'Clear goal.' restores the dropped referent and fits the 12-char budget (11 chars)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [12197, 12245], "finding": "Confirmed: resources 2801011 (Marina/Gun Ark) and 2801012 (Berkt/Blood Ark) are single-pilot solo tables with no named addressee in this slice; translator's decision not to invent an ally identity/gender for 'you'/'they' lines upheld."},
+    {"rows": [12253], "finding": "Confirmed: Berkt's 'even an ally, stay clear' line (味方といえど、邪魔は許さん) has no named addressee in resource 2801012; Barrel does not appear in this resource, so keeping it generic is correct, not an omission."},
+    {"rows": [12238], "finding": "Source \\n at the clause boundary (言ってもどうにもならないけど…… / やられないで) correctly preserved in the target's single visible line; matches the task's shout-specific allowance for literal source line breaks."},
+    {"rows": [12240], "finding": "マリナ・カーソン rendered 'Marina Carson', matching the locked glossary spelling (char.marina_carson)."},
+    {"rows": [12197, 12276], "finding": "Scripted re-check: every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> tags identical and in source order, every row's visible text within min(72, 2*JP-2), zero non-ASCII characters, zero lowercase j/q -- confirms the batch's own validation claims."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_12210", "issue": "こんなところで……私は……！ is an incomplete, trailing sentence; the target 'Not here... I won't...!' supplies the verb 'won't' that the source never states. Left as-is because it mirrors the same pilot's completed line at dialogue_12197 ('I can't die in a place like this'), a plausible low-health variant of the same motif, but the completion is still an inference, not a translation of stated words."},
+    {"id": "dialogue_12235", "issue": "違うタイプ ('a different [from before] type') is rendered 'New type'. 'Different' and 'new' aren't quite the same claim (an already-seen-elsewhere type vs. a genuinely new one), but nothing in the surrounding rows contradicts either reading, and the 1000-byte-note-adjacent 20-char budget leaves little room to disambiguate, so left unfixed."}
+  ],
+  "validation": {
+    "controls": "Re-ran a throwaway script comparing every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> tag sequence against tools/dialogue_corpus.py's source output for all 80 rows: identical order, zero mismatches, including after the two meaning fixes.",
+    "fit": "Re-checked every row's visible text (tags and \\n stripped) against min(72, 2*sourceJPchars-2): zero rows over budget, including the two fixed rows (dialogue_12201: 28/30, dialogue_12271: 11/12) and the previously flagged dialogue_12463 is not in this slice.",
+    "format": "ASCII-only (plus the permitted fullwidth %) and zero lowercase j/q confirmed by script for all 80 rows.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

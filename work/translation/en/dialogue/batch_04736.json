@@ -1,0 +1,439 @@
+{
+  "slice_start": 4736,
+  "slice_count": 62,
+  "rows_examined": [
+    [
+      4721,
+      4812
+    ]
+  ],
+  "rows_examined_count": 92,
+  "rows_in_slice": 62,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_04739",
+        "dialogue_04740",
+        "dialogue_04741",
+        "dialogue_04742"
+      ],
+      "note": "A call to Berkt (4739, no <ed()> in source) is answered dismissively (4740); 4741 then seems to be Ryoma retaliating against Berkt for interrupting the Saotome duel a few rows earlier, and 4742's terse acceptance matches Berkt's glossary personality ('reserved, emotionally guarded'), but none of this is asserted by name in the English beyond what each row's own text already states."
+    },
+    {
+      "ids": [
+        "dialogue_04743",
+        "dialogue_04744",
+        "dialogue_04745",
+        "dialogue_04746",
+        "dialogue_04747",
+        "dialogue_04748",
+        "dialogue_04749",
+        "dialogue_04750"
+      ],
+      "note": "This stretch (an old 'LFO'/Overman pilot revealed to be a child, plus a third-party interruption naming Renton) reads as a separate simultaneous skirmish thread sharing consecutive table slots with the Berkt/Ryoma thread above. No pilot is named or gendered beyond 'Renton', which the source itself gives."
+    },
+    {
+      "ids": [
+        "dialogue_04751",
+        "dialogue_04752",
+        "dialogue_04753",
+        "dialogue_04754",
+        "dialogue_04755"
+      ],
+      "note": "A further exchange naming 'Ryoma Nagare' and describing an old-model Overman may belong to yet another simultaneous pairing (e.g. Asuham); kept neutral where the source itself does not name the second speaker."
+    },
+    {
+      "id": "dialogue_04771",
+      "note": "Referent of 'those guys' (who irritate the speaker) is not identified in source; kept neutral."
+    },
+    {
+      "ids": [
+        "dialogue_04763",
+        "dialogue_04765"
+      ],
+      "note": "'-dono' honorific on Cynthia's name rendered as 'Lady Cynthia'; a project-wide honorific convention may want to revisit this."
+    }
+  ],
+  "validation": {
+    "meaning": "Translated directly from the ISO source via tools/dialogue_corpus.py; Japanese was read on console only, never written to disk.",
+    "controls": "Self-check script (throwaway, scratchpad only) re-fetched every row's source and compared ordered <...> commands against each target; all 62 rows matched exactly, including rows with no <ab()>/<ed()> at all (4778-4797, the post-battle meeting-style exchange) which were left exactly as-is.",
+    "fit": "All 62 targets are ASCII-only, contain the same newline count as their source row, and are <=110 visible characters. Row 4792 (three clauses) was compressed to fit without dropping content.",
+    "scope": "Row 4797 is confirmed as the final row of resource 6150 (Mission 12B, 'Destroy Shin Dragon 2'); row 4798 belongs to resource 6151, a different scene (Marina Carson confrontation), so this slice correctly stops at 4797 per the task's END boundary rather than the mechanical 80-row window.",
+    "glossary": "Additional locked terms used: LFO (King Gainer acronym, kept untranslated per existing corpus usage), Renton (Thurston), Deuteron Missile, Baldora Charge, Nadesico, Gekko (the ship \u6708\u5149\u53f7, per meeting_terms_015.json), Captain Hoshino (rank placed before the name per batch_01073 convention). No new terms proposed.",
+    "meaning_review": "Independent meaning review completed for all rows in this slice (see work/translation/en/dialogue/review_4736.json); 4 rows had 'just'/'just' replaced with 'only'/'anywhere else' to remove the font-unsafe lowercase j (dialogue_04690, dialogue_04695, dialogue_04746, dialogue_04783); no other meaning changes were needed and no row was left unverified."
+  },
+  "rows": [
+    {
+      "id": "dialogue_04736",
+      "target": "<sp(20)>It'd be rude of me\nnot to take this seriously for once.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04737",
+      "target": "<op()><sp(20)>The reason for leading the world to ruin...\nWhat is it?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04738",
+      "target": "<op()><sp(20)>Everything...\nThere's no meaning in simply continuing to exist like this.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04739",
+      "target": "<op()><sp(20)>Hey!\nCan you hear me, Berkt?!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <ed()> closing command; none was added, matching the project's rule to flag rather than repair such rows."
+    },
+    {
+      "id": "dialogue_04740",
+      "target": "<op()><sp(20)>...I don't know you.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04741",
+      "target": "<op()><sp(20)>Let me repay you\nfor spoiling my fight with Saotome!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressee inferred as Berkt from the surrounding scene (Berkt's arrival broke up the Saotome duel just prior); not stated by name in this row, so no name was added to the English."
+    },
+    {
+      "id": "dialogue_04742",
+      "target": "<op()><sp(20)>Very well.\nThough a fight is the only answer I can give.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04743",
+      "target": "<op()><sp(20)>The world's oldest LFO, is it.\nAnd the one piloting it is...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "'LFO' kept as the untranslated King Gainer acronym per existing corpus usage (e.g. glossary.json char.holland_novak 'LFO pilot')."
+    },
+    {
+      "id": "dialogue_04744",
+      "target": "<sp(20)>Truly interesting, isn't it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04745",
+      "target": "<op()><sp(20)>I-I won't stand for being found interesting by the likes of you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/pilot gender not stated in source; kept ungendered ('I')."
+    },
+    {
+      "id": "dialogue_04746",
+      "target": "<op()><sp(20)>Hahaha...\nSo the one inside is only a little kid.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'The one inside' pilot not identified or gendered; kept neutral."
+    },
+    {
+      "id": "dialogue_04747",
+      "target": "<op()><sp(20)>Daaamn it!!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04748",
+      "target": "<op()><sp(20)>Renton, ignore him!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04749",
+      "target": "<op()><sp(20)>Barging in on us... you bastard.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04750",
+      "target": "<sp(20)>I'll take you out too while I'm at it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04751",
+      "target": "<op()><sp(20)>The legendary pilot, Ryoma Nagare, is it.\nTo think we'd meet somewhere like this.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04752",
+      "target": "<sp(20)>Interesting... Let's fight for real.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04753",
+      "target": "<op()><sp(20)>Heh... Keep acting so cocky and you'll get hurt!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04754",
+      "target": "<op()><sp(20)>An old-model Overman, is it.\nThis is refreshing for once.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04755",
+      "target": "<op()><sp(20)>I'll teach you that confidence will be your undoing!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04756",
+      "target": "<op()><sp(20)>E-enemy reinforcements incoming!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04757",
+      "target": "<op()><sp(20)>Guess it's about my turn now.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04758",
+      "target": "<op()><sp(20)>I'm coming over there again.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04759",
+      "target": "<op()><sp(20)>A failure, you say...?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04760",
+      "target": "<op()><sp(20)>A massive heat source is approaching this position!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04761",
+      "target": "<on()><sp(20)>RYOOOOOMAAAAA!!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04762",
+      "target": "<on()><sp(20)>For now,\nI'll start with whoever's nearby.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04763",
+      "target": "<on()><sp(20)>Lady Cynthia! Please, that's enough.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'-dono' honorific rendered as 'Lady Cynthia'; flagging as a translation choice pending a central honorific policy."
+    },
+    {
+      "id": "dialogue_04764",
+      "target": "<on()><sp(20)>Ugh, you're so annoying.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04765",
+      "target": "<on()><sp(20)>Lady Cynthia!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Same '-dono' honorific choice as 4763."
+    },
+    {
+      "id": "dialogue_04766",
+      "target": "<on()><sp(20)>Yes, yes.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04767",
+      "target": "<on()><sp(20)>Next time I get the chance, I'll make sure of it.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04768",
+      "target": "<on()><sp(20)>Recovery successful.\nThat was easy enough.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04769",
+      "target": "<on()><sp(20)>Fall back.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04770",
+      "target": "<on()><sp(20)>And you are?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04771",
+      "target": "<on()><sp(20)>...For some reason, those guys irritate me.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent of 'those guys' (the group that irritates the speaker) is not identified in source; kept neutral/unnamed."
+    },
+    {
+      "id": "dialogue_04772",
+      "target": "<on()><sp(20)>I need to change things up once in a while.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04773",
+      "target": "<on()><sp(20)>Bloodman says to come back.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04774",
+      "target": "<on()><sp(20)>I see...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04775",
+      "target": "<on()><sp(20)>Wait! How do you know me?!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04776",
+      "target": "<on()><sp(20)>......<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04777",
+      "target": "<on()><sp(20)>Because I hold a grudge against you...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04778",
+      "target": "<on()><sp(20)><color(4)>Ryoma<ce()>, it's been a while.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04779",
+      "target": "<on()><sp(20)>...Yeah.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04780",
+      "target": "<on()><sp(20)>So you really were alive, <color(4)>Ryoma<ce()>!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04781",
+      "target": "<on()><sp(20)>You got sloppy, <color(4)>Benkei<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04782",
+      "target": "<on()><sp(20)><color(4)>Ryoma<ce()>, become one of us.\nRight now we need every ally we can get.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04783",
+      "target": "<on()><sp(20)>It's not only the <book(48)>Shin Dragon<endbook()>.\nRight now, the world is facing a grave crisis.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04784",
+      "target": "<on()><sp(20)>All I want is to send that old geezer <color(5)>Saotome<ce()>\nto his grave.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04785",
+      "target": "<on()><sp(20)>So that's the legendary man, <color(4)>Ryoma Nagare<ce()>...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04786",
+      "target": "<on()><sp(20)><color(4)>Ryoma Nagare<ce()> should have been\nat the epicenter of the <book(52)>Deuteron Missile<endbook()>.\nWhy is he still alive?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04787",
+      "target": "<on()><sp(20)>More than that, I'm more interested\nin this \"grave crisis\" you mentioned.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04788",
+      "target": "<on()><sp(20)>I'll explain later.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04789",
+      "target": "<on()><sp(20)>Right after this operation ended,\na significant surge in <book(2)>Baldora Charge<endbook()>\nwas observed.",
+      "status": "meaning_reviewed",
+      "notes": "'Baldora Charge' per locked glossary term (encyclopedia_022.json / encyclopedia_021_a.json); '\u91cd\u967d\u5b50\u30df\u30b5\u30a4\u30eb' Deuteron Missile likewise locked (encyclopedia_021_b.json)."
+    },
+    {
+      "id": "dialogue_04790",
+      "target": "<on()><sp(20)>This incident should confirm\nwhat he's been after.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04791",
+      "target": "<on()><sp(20)>This is a situation we can no longer take lightly.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04792",
+      "target": "<on()><sp(20)>Still, the <book(48)>Shin Dragon<endbook()>'s location is unknown.\nIt likely won't surface for a while.\nSo, what will he do next...",
+      "status": "meaning_reviewed",
+      "notes": "Compressed to fit the 110-character display budget while keeping all three clauses; no content dropped."
+    },
+    {
+      "id": "dialogue_04793",
+      "target": "<on()><sp(20)>Then let's continue pursuing him.\nCaptain <color(4)>Hoshino<ce()>, do you have any leads?",
+      "status": "meaning_reviewed",
+      "notes": "Rank placed before the name in English ('Captain Hoshino') per the convention already used in batch_01073 (row 1104); <color()> scope kept around the name only, matching source."
+    },
+    {
+      "id": "dialogue_04794",
+      "target": "<on()><sp(20)>I'm concerned about our world.\nIt seems he was originally moving\nbetween both worlds.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04795",
+      "target": "<on()><sp(20)>I'm also worried about the situation over there.\nCould we be allowed to return there once?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04796",
+      "target": "<on()><sp(20)>Understood. Leave things here to us.\nI'll continue tracking the <book(48)>Shin Dragon<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04797",
+      "target": "<on()><sp(20)>In that case, the <color(4)>Nadesico<ce()> and the <color(4)>Gekko<ce()>\nwill head to the other world for now.",
+      "status": "meaning_reviewed",
+      "notes": "'Gekko' for the ship \u6708\u5149\u53f7 per existing locked usage (meeting_terms_015.json); distinct from the unrelated Nadesico-era 'Gekko' entries in mission_terms_019.json/glossary.json (Eureka Seven's ship of the same rendered name)."
+    }
+  ]
+}

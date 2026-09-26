@@ -1,0 +1,569 @@
+{
+ "slice_start": 15444,
+ "slice_count": 84,
+ "rows_examined": [
+  [
+   15429,
+   15542
+  ]
+ ],
+ "rows_examined_count": 114,
+ "rows_in_slice": 84,
+ "uncertainties": [
+  {
+   "rows": [
+    15444,
+    15453,
+    15467,
+    15511,
+    15516,
+    15526
+   ],
+   "issue": "Whole slice is resource 2821120 (Emperanza/Gachiko), single pilot Gain Bijou per the <op()> convention; row 15526's self-reference to 'the Black Southern Cross' confirms his locked nickname (character_names_021.json) and anchors the affable-but-guarded, wisecracking voice used throughout."
+  },
+  {
+   "rows": [
+    15512
+   ],
+   "issue": "'The woman waiting for me' is unnamed in the source; kept generic rather than assuming it is his sister Karin or another specific person (Gain's role notes a guarded past involving a sister and a child), per the no-invented-identity rule."
+  },
+  {
+   "rows": [
+    15477,
+    15480,
+    15484,
+    15486,
+    15487,
+    15488,
+    15489,
+    15490
+   ],
+   "issue": "Gain addresses/describes an unnamed ally pilot ('you'); no gender or identity assumed."
+  },
+  {
+   "rows": [
+    15507
+   ],
+   "issue": "Source romaji 'onbin' (amicably/without a fuss) rendered as 'won't go down peacefully' to keep the idiom's sense that this fight won't be settled quietly."
+  },
+  {
+   "rows": [
+    15488
+   ],
+   "issue": "Source term likely 'geitou' (a feat/stunt) appears katakana-spelled; translated by sense ('a move like that') since no dedicated glossary entry exists for this common-noun idiom."
+  }
+ ],
+ "validation": {
+  "controls": "All angle-bracket commands verified identical and same order as source for every row.",
+  "format": "No manual line breaks inserted; builder auto-wraps per battle-shout format rule.",
+  "fit": "Every row's visible English length checked against 2*(JP visible chars)-2, capped at 72, from a fresh dialogue_corpus.py slice read.",
+  "byte_budget": "Pilot battle-shout hard byte budget enforced per-row (see script check); none exceeded.",
+  "meaning_review": "Independent meaning review complete: 84/84 rows checked (Emperanza-Gachiko / Gain Bijou, resource 2821120); 1 meaning fix applied (dialogue_15494, polarity reversal on a please-stop-the-fighting plea); all rows set to meaning_reviewed."
+ },
+ "rows": [
+  {
+   "id": "dialogue_15444",
+   "target": "<op()><sp(20)>Isn't an attack like that too simple?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15445",
+   "target": "<op()><sp(20)>Come on, come on! Is that all you've got!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15446",
+   "target": "<op()><sp(20)>I'll do exactly what they hate most.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15447",
+   "target": "<op()><sp(20)>Same old trick, huh!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15448",
+   "target": "<op()><sp(20)>This is how you fight a battle!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15449",
+   "target": "<op()><sp(20)>Our interests don't line up with these guys... Figures.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15450",
+   "target": "<op()><sp(20)>Just gotta hit the root cause.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15451",
+   "target": "<op()><sp(20)>Gotta have power to match the machine!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15452",
+   "target": "<op()><sp(20)>Where are you looking? I'm your opponent!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15453",
+   "target": "<op()><sp(20)>I've got ambitions too!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15454",
+   "target": "<op()><sp(20)>Stop the enemy!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15455",
+   "target": "<op()><sp(20)>This is serious...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15456",
+   "target": "<op()><sp(20)>Hang tough! If we go down, this whole operation's finished!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15457",
+   "target": "<op()><sp(20)>My shot dodged... didn't see that coming!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15458",
+   "target": "<op()><sp(20)>Hurry!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15459",
+   "target": "<op()><sp(20)>Has this guy read my every move!?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15460",
+   "target": "<op()><sp(20)>Damn! A disadvantage like this goes against my principles.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15461",
+   "target": "<op()><sp(20)>As long as you're alive, don't give up hope!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15462",
+   "target": "<op()><sp(20)>Like hell I'm dying in a place like this!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15463",
+   "target": "<op()><sp(20)>This ain't gonna be an easy fight.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15464",
+   "target": "<op()><sp(20)>Hurry, enemy's coming.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15465",
+   "target": "<op()><sp(20)>Hmph, tedious business.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15466",
+   "target": "<op()><sp(20)>I'm here to repay a debt!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15467",
+   "target": "<op()><sp(20)>Operation start! Let's go!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15468",
+   "target": "<op()><sp(20)>Relax, I'm here!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15469",
+   "target": "<op()><sp(20)>A real man challenges a fight head-on, fair and square.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15470",
+   "target": "<op()><sp(20)>Well, let's give it a shot.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15471",
+   "target": "<op()><sp(20)>Adjust offense and defense to match your foe!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15472",
+   "target": "<op()><sp(20)>Don't let your guard down!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15473",
+   "target": "<op()><sp(20)>No telling what might happen! Be careful out there!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15474",
+   "target": "<op()><sp(20)>How long are you gonna keep posing!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15475",
+   "target": "<op()><sp(20)>All bark, no bite, huh!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15476",
+   "target": "<op()><sp(20)>Don't push it too far!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15477",
+   "target": "<op()><sp(20)>You've got an important job to do, don't you?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15478",
+   "target": "<op()><sp(20)>Don't be reckless!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15479",
+   "target": "<op()><sp(20)>Don't overdo it!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15480",
+   "target": "<op()><sp(20)>Nobody told me you had a soft side like this!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15481",
+   "target": "<op()><sp(20)>Remember, as long as you're alive, there's more fun to be had!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15482",
+   "target": "<op()><sp(20)>What's wrong? Not feeling well?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15483",
+   "target": "<op()><sp(20)>Can you hear my voice!? Get a grip!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15484",
+   "target": "<op()><sp(20)>With you around, no need to worry.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15485",
+   "target": "<op()><sp(20)>Looks like I won't get a turn.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15486",
+   "target": "<op()><sp(20)>I take it back, you're better than I thought.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15487",
+   "target": "<op()><sp(20)>I can trust this to you.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15488",
+   "target": "<op()><sp(20)>Only you could pull off a move like that!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15489",
+   "target": "<op()><sp(20)>Heh, you've got a knack for survival!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15490",
+   "target": "<op()><sp(20)>Maybe you've got some special power in you.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15491",
+   "target": "<op()><sp(20)>More numbers doesn't mean better.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15492",
+   "target": "<op()><sp(20)>Well, here they come... You ready?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15493",
+   "target": "<op()><sp(20)>An ambush, huh! Figured you'd try that!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15494",
+   "target": "<op()><sp(20)>No more of this pointless fighting, please.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15495",
+   "target": "<op()><sp(20)>Trying to hold me up? Like hell I'll let that happen!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15496",
+   "target": "<op()><sp(20)>Tch, even out here!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15497",
+   "target": "<op()><sp(20)>Reinforcements? Now I'm insulted.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15498",
+   "target": "<op()><sp(20)>I could wipe you all out, but then the big boss shows up!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": " Orchestrator 0.1.34: shortened to fit the unit table."
+  },
+  {
+   "id": "dialogue_15499",
+   "target": "<op()><sp(20)>That's some real bad taste you've got, seriously!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15500",
+   "target": "<op()><sp(20)>Sorry, but I'm in a hurry too.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15501",
+   "target": "<op()><sp(20)>Tch, what a pain!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15502",
+   "target": "<op()><sp(20)>That's a tough enemy!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15503",
+   "target": "<op()><sp(20)>All right, just gotta finish this one off.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15504",
+   "target": "<op()><sp(20)>Everyone's got a weak point. So exploit it!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15505",
+   "target": "<op()><sp(20)>Hmph, guess they won't let me leave for free.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15506",
+   "target": "<op()><sp(20)>This one's no ordinary opponent! Don't attack carelessly!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15507",
+   "target": "<op()><sp(20)>This one won't go down peacefully, it seems.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15508",
+   "target": "<op()><sp(20)>That guy's something else.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15509",
+   "target": "<op()><sp(20)>Sorry, but I'll have you clear out right here!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15510",
+   "target": "<op()><sp(20)>Sorry, you're done!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15511",
+   "target": "<op()><sp(20)>Pretty good, right? Guess I got a little too cool there.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15512",
+   "target": "<op()><sp(20)>Can't make the woman waiting for me cry, now can I.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15513",
+   "target": "<op()><sp(20)>Well, I guess that's just the natural result.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15514",
+   "target": "<op()><sp(20)>Good work out there, thanks.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15515",
+   "target": "<op()><sp(20)>Same as always, it's done.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15516",
+   "target": "<op()><sp(20)>Heh, we sure are hard workers, huh.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15517",
+   "target": "<op()><sp(20)>Guess we should head back.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15518",
+   "target": "<op()><sp(20)>Good work, everyone.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15519",
+   "target": "<op()><sp(20)>Think about what kind of attack the enemy's planning!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15520",
+   "target": "<op()><sp(20)>Calm down a little!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15521",
+   "target": "<op()><sp(20)>Listen, just hold back the enemy's advance!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15522",
+   "target": "<op()><sp(20)>What good is going down here!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15523",
+   "target": "<op()><sp(20)>You don't wanna go down here, do you!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15524",
+   "target": "<op()><sp(20)>Hold on for now! I'll turn this around fast!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15525",
+   "target": "<op()><sp(20)>At this rate the unit won't hold!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15526",
+   "target": "<op()><sp(20)>Retreating here would disgrace the Black Southern Cross!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_15527",
+   "target": "<op()><sp(20)>Then I'll turn this into a chance!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  }
+ ]
+}

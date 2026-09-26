@@ -1,0 +1,548 @@
+{
+  "slice_start": 4864,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      4849,
+      4958
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_04864",
+      "target": "<op()><sp(20)>Destroy every target!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Mission 13 'Atmospheric Entry' scene start, resource 6160."
+    },
+    {
+      "id": "dialogue_04865",
+      "target": "<op()><sp(20)>Sending you the targets' locations.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04866",
+      "target": "<op()><sp(20)>The defense system's attacks are fairly intense.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues into next row's box."
+    },
+    {
+      "id": "dialogue_04867",
+      "target": "<sp(20)>It's dangerous to fight it head-on,\nso don't engage more than necessary.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4866's box."
+    },
+    {
+      "id": "dialogue_04868",
+      "target": "<op()><sp(20)>You... weren't you supposed to be back at the head office?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/addressee unidentified; no name tag in source. See uncertainties."
+    },
+    {
+      "id": "dialogue_04869",
+      "target": "<op()><sp(20)>This isn't settled between us yet!\nI'm finishing what we started!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04870",
+      "target": "<op()><sp(20)>What did you say? Damn you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04871",
+      "target": "<op()><sp(20)>Every time something happens,\nyou're the one holding me back!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04872",
+      "target": "<op()><sp(20)>What!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04873",
+      "target": "<op()><sp(20)>Think back to our high school days!!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04874",
+      "target": "<sp(20)>Even that chicken race at first sunrise,\nI was winning it...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04875",
+      "target": "<sp(20)>That's only because you picked a fight over nothing!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04876",
+      "target": "<op()><sp(20)>You were the one who put a foot down first!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04877",
+      "target": "<op()><sp(20)>...What should we do about that?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04878",
+      "target": "<op()><sp(20)>Leave them be.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04879",
+      "target": "<op()><sp(20)>That Guns CDV I lent you,\nyou still haven't given it back!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Guns CDV' kept literal; unresearched pop-culture prop name. See uncertainties/proposals."
+    },
+    {
+      "id": "dialogue_04880",
+      "target": "<op()><sp(20)>That's because you vanished on your own!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04881",
+      "target": "<op()><sp(20)>...That's a pretty petty fight.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Third-party observer comment, speaker unidentified."
+    },
+    {
+      "id": "dialogue_04882",
+      "target": "<op()><sp(20)>I bought you lunch at the cafeteria twice!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04883",
+      "target": "<op()><sp(20)>I got stuck paying thirteen times!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04884",
+      "target": "<op()><sp(20)>Don't keep such careful count...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04885",
+      "target": "<op()><sp(20)>You rode my bike without asking\nand broke it, remember!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04886",
+      "target": "<op()><sp(20)>How should I know!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04887",
+      "target": "<op()><sp(20)>So the grudge between those two...\ngoes back a long way.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Observer comment on rows 4868-4886's exchange."
+    },
+    {
+      "id": "dialogue_04888",
+      "target": "<op()><sp(20)>Don't act alone.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04889",
+      "target": "<op()><sp(20)>You mean don't press the chase too far?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04890",
+      "target": "<op()><sp(20)>Guess Barrel's finally getting the hang of it.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Named addressee (Barrel Orland) present in plain text, not a color-tagged speaker line."
+    },
+    {
+      "id": "dialogue_04891",
+      "target": "<op()><sp(20)>Well, I make at least a little progress!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Presumed Barrel's reply; not asserted as fact beyond adjacency."
+    },
+    {
+      "id": "dialogue_04892",
+      "target": "<op()><sp(20)>Whoa! Incredible!\nIt's Earth! I can see Earth!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "King Gainer/Eureka Seven atmospheric-entry sequence begins."
+    },
+    {
+      "id": "dialogue_04893",
+      "target": "<sp(20)>Huh? But...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4892's box."
+    },
+    {
+      "id": "dialogue_04894",
+      "target": "<op()><sp(20)>Renton, what's wrong?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04895",
+      "target": "<op()><sp(20)>The Earth we saw in textbooks,\nthe continents and islands look different...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Renton's reply, inferred from adjacency to 4894's address; not asserted with a speaker tag."
+    },
+    {
+      "id": "dialogue_04896",
+      "target": "<op()><sp(20)>Earth is this close...\nW-wait, aren't we going to fall?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04897",
+      "target": "<op()><sp(20)>Don't be scared, Gainer.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04898",
+      "target": "<op()><sp(20)>Course correction.\nWe'll enter the atmosphere shortly!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04899",
+      "target": "<op()><sp(20)>Splendid results.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04900",
+      "target": "<op()><sp(20)>There's no time!\nHurry, please!!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04901",
+      "target": "<op()><sp(20)>Why don't you tell us why you came here.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Marina-joins-Londo-Bell exchange begins; addressed to Marina Carson per 4902's reply."
+    },
+    {
+      "id": "dialogue_04902",
+      "target": "<op()><sp(20)>I came here of my own will,\nto team up with Londo Bell.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'join' avoided per font rule; Londo Bell spelling per org.londo_bell."
+    },
+    {
+      "id": "dialogue_04903",
+      "target": "<op()><sp(20)>You mean you came here on your own?\nAnd you're not even a soldier!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unidentified (rough tone); not assigned an identity."
+    },
+    {
+      "id": "dialogue_04904",
+      "target": "<op()><sp(20)>This unit should have no shortage of\ncivilian collaborators already.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04905",
+      "target": "<op()><sp(20)>True enough, but that unit\nisn't your personal property.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04906",
+      "target": "<op()><sp(20)>I have permission from Colonel Millard\nat New Edwards Base. Let me help!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "New Edwards Base confirmed (Gundam Wing location). 'Colonel Millard' is an unresolved name; see uncertainties/proposals."
+    },
+    {
+      "id": "dialogue_04907",
+      "target": "<op()><sp(20)>Very well.\nI'll have Commander Misumaru arrange it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Misumaru per meeting_terms_015.json (Kouichiro Misumaru, Londo Bell commander)."
+    },
+    {
+      "id": "dialogue_04908",
+      "target": "<op()><sp(20)>I'll prove myself more useful than Lieutenant Dyson!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Lieutenant Dyson matches established batch_01073 usage (Isamu Alva Dyson)."
+    },
+    {
+      "id": "dialogue_04909",
+      "target": "<op()><sp(20)>We're plenty fine without the likes of you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04910",
+      "target": "<op()><sp(20)>It's not enough.\nWe need every bit of strength we can get.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04911",
+      "target": "<op()><sp(20)>Before running your mouth,\nshouldn't you shoot the enemy down first?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04912",
+      "target": "<op()><sp(20)>I know that without you telling me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04913",
+      "target": "<op()><sp(20)>Heh, looks like you two will make a good team.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04914",
+      "target": "<op()><sp(20)>This is the Gekko.\nNew machine signatures confirmed.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Gekko per meeting_terms_015.json (月光号)."
+    },
+    {
+      "id": "dialogue_04915",
+      "target": "<op()><sp(20)>More enemies!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04916",
+      "target": "<op()><sp(20)>No, wait!!\nThat's...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04917",
+      "target": "<op()><sp(20)>This is Ensign Marina Carson, Federation forces.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Rank 'Ensign' for shoui per terms_028.json precedent (Ensign Barrel)."
+    },
+    {
+      "id": "dialogue_04918",
+      "target": "<sp(20)>I'm here to cover your atmospheric entry,\nintercepting the enemy for you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4917's box."
+    },
+    {
+      "id": "dialogue_04919",
+      "target": "<op()><sp(20)>How did you know we were here?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04920",
+      "target": "<op()><sp(20)>Captain Hoshino reached out to me.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Literal 'kanchou' rendered Captain per terms_028.json rule; existing corpus locks her as 'Lieutenant Commander Hoshino' elsewhere. Flagged, not resolved."
+    },
+    {
+      "id": "dialogue_04921",
+      "target": "<sp(20)>Thank you for calling me in!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4920's box."
+    },
+    {
+      "id": "dialogue_04922",
+      "target": "<op()><sp(20)>Long time no see!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04923",
+      "target": "<op()><sp(20)>Sorry it took me a while to link up.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "'join up' avoided per font rule."
+    },
+    {
+      "id": "dialogue_04924",
+      "target": "<sp(20)>Pulling this unit out\ntook some doing with the paperwork.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4923's box."
+    },
+    {
+      "id": "dialogue_04925",
+      "target": "<sp(20)>I strong-armed the officer in charge\nand hauled it out here anyway.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation."
+    },
+    {
+      "id": "dialogue_04926",
+      "target": "<op()><sp(20)>Scary...<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04927",
+      "target": "<op()><sp(20)>Incoming transmission from Federation Command!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "'HQ' avoided (contains q); rendered as 'Federation Command' instead."
+    },
+    {
+      "id": "dialogue_04928",
+      "target": "<sp(20)>They say the Macross\nis being taken over!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4927's box."
+    },
+    {
+      "id": "dialogue_04929",
+      "target": "<op()><sp(20)>The enemy is moving faster than we expected...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04930",
+      "target": "<op()><sp(20)>All targets destroyed!!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04931",
+      "target": "<op()><sp(20)>Not yet!\nHeat source approaching from afar!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04932",
+      "target": "<op()><sp(20)>Reinforcements?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04933",
+      "target": "<op()><sp(20)>Isn't this merely another last-ditch struggle?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'just' avoided per font rule."
+    },
+    {
+      "id": "dialogue_04934",
+      "target": "<op()><sp(20)>Meio!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meio Plato (Falguen Custom pilot) engagement begins, matching task's Mission 13 boss."
+    },
+    {
+      "id": "dialogue_04935",
+      "target": "<op()><sp(20)>As expected of Londo Bell!\nA worthy opponent indeed!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04936",
+      "target": "<sp(20)>Let me test the true worth\nof my reborn machine!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4935's box."
+    },
+    {
+      "id": "dialogue_04937",
+      "target": "<op()><sp(20)>Hey, what are you even fighting for!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04938",
+      "target": "<op()><sp(20)>Everything is to restore Giganos's glory!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04939",
+      "target": "<sp(20)>Even allied with those who don't share my goal!\nUnwilling as this invasion is, I won't die!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4938's box; compressed to fit while keeping full meaning (ally/unwilling/invasion/refusal to die)."
+    },
+    {
+      "id": "dialogue_04940",
+      "target": "<op()><sp(20)>Is there no room to talk this through?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04941",
+      "target": "<op()><sp(20)>None. With space and Earth at war,\nthere's only one path for a minority like Giganos!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04942",
+      "target": "<sp(20)>This isn't a personal matter.\nWhat Giganos should become is everything!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Continuation of 4941's box."
+    },
+    {
+      "id": "dialogue_04943",
+      "target": "<op()><sp(20)>All the more reason, then! Char is...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Char per char.char_aznable locked spelling (not 'Shaa')."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_04868",
+        "dialogue_04869",
+        "dialogue_04870",
+        "dialogue_04871",
+        "dialogue_04872",
+        "dialogue_04873",
+        "dialogue_04874",
+        "dialogue_04875",
+        "dialogue_04876",
+        "dialogue_04877",
+        "dialogue_04878",
+        "dialogue_04879",
+        "dialogue_04880",
+        "dialogue_04881",
+        "dialogue_04882",
+        "dialogue_04883",
+        "dialogue_04884",
+        "dialogue_04885",
+        "dialogue_04886"
+      ],
+      "note": "Bickering exchange between two unnamed speakers (high-school rivalry, lent CDV, wrecked bike). No color-tagged names anywhere in this span; tonally distinct (civilian slang, 'head office') from the surrounding military mission dialogue. Could be an out-of-order/unused omake exchange per the corpus's stored-table-order note. Left neutral; no speaker identity or gender assigned."
+    },
+    {
+      "id": "dialogue_04879",
+      "note": "'Guns CDV' (ガンズのＣＤＶ) kept as a literal untranslated proper noun. Possibly a real-world band/media reference; not researched further given its minor comedic weight. Flagged as a glossary proposal for confirmation if it recurs."
+    },
+    {
+      "id": "dialogue_04906",
+      "note": "'ミラード大佐' (Colonel Millard): WebSearch across Gundam Wing/UC, Macross Plus, and ACE3 fan-wiki sources found no matching named character. Katakana ミラード directly matches the common English name 'Millard', which is used as the best-available literal rendering. Likely an ACE3-original/invented minor NPC. New Edwards Base itself is confirmed (Gundam Wing, gundam.fandom.com/wiki/Field_Marshal_Noventa)."
+    },
+    {
+      "id": "dialogue_04920",
+      "note": "'ホシノ艦長' translated literally as 'Captain Hoshino' (ship-captain title, per terms_028.json's kanchou=Captain rule). The existing corpus (batch_01073 row 1104, encyclopedia_022.json) locks her as 'Lieutenant Commander Ruri Hoshino'. Both may be correct in different senses (rank vs. shipboard title) but read inconsistently side by side; left for orchestrator/central rank normalization rather than silently changed here."
+    },
+    {
+      "ids": [
+        "dialogue_04903",
+        "dialogue_04909",
+        "dialogue_04911",
+        "dialogue_04912"
+      ],
+      "note": "Rough-spoken unnamed pilot bickering with Marina/Amuro's group; no name or gender assigned beyond context."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command reproduced in source order for all 80 rows; no commands added or dropped.",
+    "ascii": "Straight quotes, hyphens for dashes, ellipsis as three periods; no bare % anywhere in this slice.",
+    "fit": "All rows drafted in full first; two rows (4939, 4906) lightly compressed to fit the ~110-character visible budget without dropping content.",
+    "font": "Lowercase j/q avoided throughout except inside locked proper nouns (none required j/q here).",
+    "meaning_review": "Independent meaning review completed for all 80 rows in this slice (context rows checked either side per BASE_RULES); no mistranslations, reversed meanings, wrong addressees, or invented subjects/genders found; all rows promoted from draft to meaning_reviewed."
+  }
+}

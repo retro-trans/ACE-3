@@ -1,0 +1,472 @@
+{
+  "slice_start": 16147,
+  "slice_count": 66,
+  "rows_examined": [
+    [
+      16132,
+      16227
+    ]
+  ],
+  "rows_examined_count": 96,
+  "rows_in_slice": 66,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_16153",
+        "dialogue_16154",
+        "dialogue_16155",
+        "dialogue_16157",
+        "dialogue_16158",
+        "dialogue_16159",
+        "dialogue_16164",
+        "dialogue_16166",
+        "dialogue_16169",
+        "dialogue_16173",
+        "dialogue_16192",
+        "dialogue_16202",
+        "dialogue_16208",
+        "dialogue_16210"
+      ],
+      "note": "Resource 2824010 (unit 'Gundam', 2824011 'Full Armor Gundam') is labeled pilot Amuro in the task brief, but the shout content (stammering, self-doubt, 'I'm the one who can use the Gundam best', mentions of Zaku/Gouf) matches the original 0079 debut Amuro, not the confident Char's Counterattack veteran already profiled in glossary.json (char.amuro_ray: 'Compassionate; seeks a future for Earth', nickname 'White Devil'). This matches the glossary's own continuity note ('CCA-era speaker and the 0079 guest-unit presentation require scene context') and translation_notes flagging exactly this ambiguity. Translated with a nervous/insecure teenage voice drawn from the lines themselves rather than the locked CCA personality field. Recommend the orchestrator add a distinct profile entry (or continuity variant) for the 0079 guest-unit Amuro before final meaning review, so later batches in resource 2824010/2824011 (rows continue past 16212) are translated consistently."
+    },
+    {
+      "ids": [
+        "dialogue_16179",
+        "dialogue_16180",
+        "dialogue_16181",
+        "dialogue_16182",
+        "dialogue_16183",
+        "dialogue_16184",
+        "dialogue_16185",
+        "dialogue_16186",
+        "dialogue_16187",
+        "dialogue_16188"
+      ],
+      "note": "These lines shift to a formal/polite register addressing an unnamed 'you' with admiration ('an honor to fight someone like you', 'by your side I feel safe') urging them not to give up. Referent (a struggling ally vs. an admired formidable opponent) cannot be settled from this slice alone. Kept second-person address, assigned no identity or gender to the addressee. Flagging for the reviewer/orchestrator to check the adjoining slice (rows beyond 16212, same resource 2824010) for who this exchange is with."
+    },
+    {
+      "ids": [
+        "dialogue_16201",
+        "dialogue_16200"
+      ],
+      "note": "'Zaku' and 'Gouf' (romanized from the source katakana) are canonical Mobile Suit Gundam (0079) enemy mobile suit names, not found in local glossary files. Used the universal official English localization spellings 'Zaku' and 'Gouf'. See glossary proposal file."
+    },
+    {
+      "ids": [
+        "dialogue_16204"
+      ],
+      "note": "Extreme byte budget (6 visible chars, from 4 source characters) forced compression to 'Big.'; source implies 'a big shot has shown up' / a formidable presence, reduced to the bare adjective."
+    },
+    {
+      "ids": [
+        "dialogue_16207"
+      ],
+      "note": "'ano hito' (that person) kept as gender-neutral 'them' per no-gender-from-context rule; same unresolved addressee as the 16179-16188 exchange."
+    }
+  ],
+  "validation": {
+    "byte_budget": "Every row's visible English text (commands stripped) kept to <= min(72, 2*source_japanese_char_count - 2) ASCII characters, computed programmatically straight from the ISO (no Japanese ever written to disk) and checked row by row before writing this file.",
+    "controls": "All 306 rows in this task share the identical command sequence <op()><sp(20)>...<ab(1000)><ed()>, verified against the source in exact order for every row in this slice.",
+    "line_breaks": "Per the pilot-corpus format rule ('No line breaks'), source \\n line breaks (present in a handful of rows) were dropped in the English target; the builder auto-wraps at ~38 chars/line.",
+    "ascii": "Straight quotes/dashes only, ellipses as '...', no bare '%', no lowercase 'j'/'q' outside locked names (none needed in this slice); verified programmatically.",
+    "meaning_review": "Independent meaning review completed for all 66 rows; 2 row(s) received a meaning fix; every row set to 'meaning_reviewed'."
+  },
+  "rows": [
+    {
+      "id": "dialogue_16147",
+      "target": "<op()><sp(20)>Let's pull out too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16148",
+      "target": "<op()><sp(20)>Good work all.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16149",
+      "target": "<op()><sp(20)>See to recovery.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16150",
+      "target": "<op()><sp(20)>This much, well done.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16151",
+      "target": "<op()><sp(20)>Let's get out of here fast.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16152",
+      "target": "<op()><sp(20)>Hope this turns the tide...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16153",
+      "target": "<op()><sp(20)>I'll only do what I can.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16154",
+      "target": "<op()><sp(20)>S-so, this is battle...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16155",
+      "target": "<op()><sp(20)>I-I know that much!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16156",
+      "target": "<op()><sp(20)>This is war now.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16157",
+      "target": "<op()><sp(20)>I'll do it...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16158",
+      "target": "<op()><sp(20)>You'll never understand!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16159",
+      "target": "<op()><sp(20)>I'm the one who uses the Gundam best. The very best!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16160",
+      "target": "<op()><sp(20)>I won't let them!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16161",
+      "target": "<op()><sp(20)>Enemy's boss?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16162",
+      "target": "<op()><sp(20)>Won't let 4 or 5 enemies escape!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16163",
+      "target": "<op()><sp(20)>No choice, huh.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16164",
+      "target": "<op()><sp(20)>I-I'll do it! Enemy or not!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16165",
+      "target": "<op()><sp(20)>N-no good. Computer patterns alone can't keep up. Is the data too thin?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16166",
+      "target": "<op()><sp(20)>Don't underestimate me! I can too!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16167",
+      "target": "<op()><sp(20)>With a beam rifle, no problem!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16168",
+      "target": "<op()><sp(20)>This is battle...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16169",
+      "target": "<op()><sp(20)>So one-sided...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16170",
+      "target": "<op()><sp(20)>Skilled pilots. But I've read their patterns.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16171",
+      "target": "<op()><sp(20)>The Gundam's controls are running a bit hot.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16172",
+      "target": "<op()><sp(20)>Can't say I can, but I have to try.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16173",
+      "target": "<op()><sp(20)>Damn it, guess I am a man.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16174",
+      "target": "<op()><sp(20)>No matter what, I fight, right?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16175",
+      "target": "<op()><sp(20)>Watch, I can too...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16176",
+      "target": "<op()><sp(20)>Just have to fight now.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16177",
+      "target": "<op()><sp(20)>I'll end this fight.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16178",
+      "target": "<op()><sp(20)>The Gundam can't lose.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16179",
+      "target": "<op()><sp(20)>Please hold on. You're strong, aren't you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16180",
+      "target": "<op()><sp(20)>It's not like failure is certain.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16181",
+      "target": "<op()><sp(20)>This isn't an easy opponent. Please fall back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16182",
+      "target": "<op()><sp(20)>Brute force alone won't be enough.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16183",
+      "target": "<op()><sp(20)>You mustn't give up, no matter what. Dying here would be pointless.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16184",
+      "target": "<op()><sp(20)>Please don't give up. Dying is the end.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16185",
+      "target": "<op()><sp(20)>W-wow...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16186",
+      "target": "<op()><sp(20)>An honor to fight someone like you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16187",
+      "target": "<op()><sp(20)>You're some pilot, aren't you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16188",
+      "target": "<op()><sp(20)>By your side, I feel safe.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16189",
+      "target": "<op()><sp(20)>I... I want to beat you...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16190",
+      "target": "<op()><sp(20)>It's sad that such power has to be used for war.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16191",
+      "target": "<op()><sp(20)>...Can even the Gundam hold that many off?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16192",
+      "target": "<op()><sp(20)>M-more of them?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16193",
+      "target": "<op()><sp(20)>Your fault for showing up.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16194",
+      "target": "<op()><sp(20)>Think about our side for once.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16195",
+      "target": "<op()><sp(20)>Sword down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16196",
+      "target": "<op()><sp(20)>However many, Gundam wins!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16197",
+      "target": "<op()><sp(20)>Long fight it is.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16198",
+      "target": "<op()><sp(20)>More enemies still? This has no end.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16199",
+      "target": "<op()><sp(20)>Faster than that!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16200",
+      "target": "<op()><sp(20)>This one's different. More armor, more power.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16201",
+      "target": "<op()><sp(20)>Another new type? Not a Zaku or Gouf.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16202",
+      "target": "<op()><sp(20)>What? A m-machine I've never seen.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16203",
+      "target": "<op()><sp(20)>This enemy's different, fall back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16204",
+      "target": "<op()><sp(20)>Big.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16205",
+      "target": "<op()><sp(20)>This one... acts clever!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16206",
+      "target": "<op()><sp(20)>That's the Gundam for you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16207",
+      "target": "<op()><sp(20)>I... I want to beat them...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16208",
+      "target": "<op()><sp(20)>A-any more enemies?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16209",
+      "target": "<op()><sp(20)>D-did it...? But I pushed the Gundam too hard.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16210",
+      "target": "<op()><sp(20)>I-is everyone safe?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16211",
+      "target": "<op()><sp(20)>Hit twice, pulling back now.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_16212",
+      "target": "<op()><sp(20)>Gundam, returning.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

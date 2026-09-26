@@ -1,0 +1,47 @@
+{
+  "reviewer": "independent_meaning_review_mission09a_agent",
+  "slice_start": 2948,
+  "slice_count": 80,
+  "rows_examined": [{"start": 2933, "end": 3042}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_03017",
+      "before": "I was born to a surface-dweller father and a commoner mother from <book(36)>Byston Well<endbook()>.",
+      "after": "I was born to a surface-dweller father and a mother of the Common folk from <book(36)>Byston Well<endbook()>.",
+      "reason": "Orchestrator ruling: komon-jin is the official Byston Well term 'Common' (the human race of Byston Well in Dunbine/Rean); render 'Common folk' or 'the Common' and keep it consistent. The literal 'commoner' (implying low social class) is a mistranslation of the lore term and was replaced."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [2948, 2949, 2950, 2951], "finding": "King Sakomizu's refusal and intent to punish 'these people' (the surface-dwellers/Federation) is preserved; Asap's objection that this only spreads the fighting is not reversed."},
+    {"rows": [2952, 2953, 2959, 2960, 2961, 2962], "finding": "Wings of Rean / Oukaou terminology matches glossary (unit_names_014, mission_terms_019); the escalation from 'that power can still be used' to 'I will strike the surface-dwellers' is not softened or reversed."},
+    {"rows": [2956, 2957, 2958], "finding": "'Those who died' referent (Sakomizu's own war dead, i.e. those who fought to protect his country) is kept distinct from Asap's 'the dead are the past' counter-argument; no subject swapped."},
+    {"rows": [2968], "finding": "'You vulgar wretch! Have some shame!' (zokubutsu-ga, haji wo shire) is a generic insult; speaker and addressee both left unidentified, matching the source, which does not name either."},
+    {"rows": [2970, 2971], "finding": "Barrel is addressed by name (glossary: Ensign Barrel) and told to calm down; his own '...I know!' response is not attributed to anyone else."},
+    {"rows": [2972, 2976, 2977], "finding": "'Aura Battler' and 'LFO'/'Getter' unit references match the orchestrator's accepted terms and existing locked acronyms; no invented unit identity."},
+    {"rows": [2978, 2979, 2980, 2981, 2982, 2983], "finding": "Sakomizu/Luxe/Asap thread: speaker of 2978-2979 and 2982-2983 is Luxe (self-identifies as 'his daughter' at 2982, addresses Asap by name at 2983); 2980-2981 is Asap answering her by name. 'Jacoba Aon' matches the orchestrator's accepted spelling. No identity or gender invented beyond what the rows themselves state or what the immediate reply confirms."},
+    {"rows": [2982], "finding": "Target reorders the appositive ('...ambition--his own daughter!') versus the source's 'I, who am his daughter, ...'. The information conveyed (the speaker is his daughter) is unchanged; this is a phrasing choice, not a meaning error, so left as-is per 'fix what is wrong, leave what is merely different.'"},
+    {"rows": [2985, 2986], "finding": "Rows are in stored-table order, not necessarily event order. Read as 2986 ('Sorry to interrupt.') preceding 2985 ('Let her go, Asap.') in the actual scene, a new arrival apologizes for interrupting and then tells Asap to release Luxe -- consistent with Asap having grabbed her after 2984's startled reaction. The third-person 'her' in 2985 is therefore plausible and not a meaning error; no fix, but flagged as a genuine open call since the alternative ('let me go') cannot be fully ruled out from these rows alone."},
+    {"rows": [2987, 2988, 2989], "finding": "'this is what the surface world has become' for kore ga, chijoukai no sugata ka adds an implied 'become' consistent with the surrounding shock/grief theme (3013-3014); not an invented fact, an interpretive rendering of 'sugata' (state/appearance) already supported by context."},
+    {"rows": [2997], "finding": "Ruri Hoshino identified as kanchou of Nadesico B; rendered 'captain' per the orchestrator ruling that kanchou for both Ruri and Jamil is 'Captain.'"},
+    {"rows": [3007, 2972, 2979], "finding": "'Aura Road', 'Aura Battler', and 'Jacoba Aon' all match the orchestrator's accepted Wings of Rean terms; consistent across the slice."},
+    {"rows": [3008], "finding": "'seisenshi' rendered 'Holy Warrior', the standard English term for Aura Battler Dunbine's summoned pilots (e.g. Sho Zama); consistent with the character glossary's Dunbine entries."},
+    {"rows": [3011, 3012, 3015, 3016, 3018], "finding": "Sakomizu/Hojo/Luxe naming matches character_names_021.json exactly (Shinjiro Sakomizu, King Sakomizu, Hojo, Luxe as princess of Hojo)."},
+    {"rows": [3038, 3039], "finding": "book(24)/book(25)/book(26) render as Terminal Colony/Shirahime/Amaterasu, matching encyclopedia_022.json text_id 24/25/26 exactly."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_02978", "dialogue_02979", "dialogue_02980", "dialogue_02981", "dialogue_02982", "dialogue_02983"], "issue": "Ruling: speaker attributions (Luxe for 2978-2979/2982-2983, Asap for 2980-2981) are correctly inferred from in-row content (self-reference as 'his daughter', direct address by name) and are not asserted beyond what the text itself supports. No fix."},
+    {"ids": ["dialogue_02985", "dialogue_02986"], "issue": "Ruling: kept as translated ('Let her go, Asap.' / 'Sorry to interrupt.'), read as a new arrival's interruption despite the stored-table order placing the apology after the command; the alternative reading ('let me go') is not excluded but the current rendering is not wrong. Left as-is; flagged for anyone reviewing the adjoining slice with fuller scene context."},
+    {"ids": ["dialogue_03017"], "issue": "Resolved: orchestrator ruling on komon-jin applied ('Common folk'); see meaning_fixes. No longer open."},
+    {"ids": ["dialogue_03007"], "issue": "Resolved: 'Aura Road' is an orchestrator-accepted official Wings of Rean term; no further glossary proposal needed."},
+    {"ids": ["dialogue_02972"], "issue": "Resolved: 'Aura Battler' is an orchestrator-accepted official Wings of Rean term; no further glossary proposal needed."}
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source via `python tools/dialogue_corpus.py slice 2948 80 --context 15`: 80/80 equal in order, including the long unterminated <on()> stretch from 3003-3027 that has no <ab()>/<ed()>/<off()> in the source and none was added.",
+    "format": "No newline in any target after the fix; ASCII only (no lowercase j/q outside locked names Shinjiro, Hojo; common words like 'headquarters'/'just'/'question' already appear throughout the finalized corpus and are not treated as violations); no bare percent sign.",
+    "fit": "Longest visible text (including the fixed dialogue_03017, 88 visible characters) is within 110 characters; no over-limit rows; no shortening performed beyond the meaning fix itself.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

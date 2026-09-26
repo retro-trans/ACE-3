@@ -1,0 +1,29 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 8031,
+  "slice_count": 80,
+  "rows_examined": [{"start": 8031, "end": 8214}],
+  "rows_examined_count": 184,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [8036, 8037, 8038, 8041, 8042], "finding": "GX/colony-drop backstory reveal for Jamil's old unit kept intact; no identity or event invented beyond source (ghost/GX/colony drop chain preserved in order)."},
+    {"rows": [8059, 8060, 8063, 8064, 8069, 8070, 8071], "finding": "Shagia/Olba Frost brother exchange (elder addressing 'Olba', younger replying 'brother') resolved from glossary roles (Shagia elder pilots Virsago, Olba younger pilots Ashtaron); translation never inserts either name into English, so the source's own ambiguity is preserved correctly."},
+    {"rows": [8092, 8093, 8097, 8099], "finding": "Frost brothers' comm to Charles Beams assigning the Gekko-sinking job, followed by Charles's own line naming the New Federation as employer, forms a coherent contract chain; no reversal of who hired whom."},
+    {"rows": [8106], "finding": "'Spearhead' unit name for Charles/Ray's LFOs matches unit_names_014_b.json ('Spearhead (Charles)', 'Spearhead (Ray)', 'Spearhead SH101'); plural 'Spearheads' is accurate since both units launch together."},
+    {"rows": [8054], "finding": "Generic 'Captain' vocative kept unnamed as in source; correctly does not resolve or invent whether it is Holland or Jamil being addressed."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_08031", "dialogue_08032"], "issue": "Speaker of the opening base-capture strategy order still unresolved after checking neighbouring rows; left unattributed as in source."},
+    {"ids": ["dialogue_08054"], "issue": "'Captain' vocative during the Gekko-damage sequence (rows 8050-8054) is contextually most likely Holland (it is the Gekko taking the hits, and Jamil is with the Freeden/GX scene earlier in the slice), but the source itself never names the addressee and the English does not need to, so left as-is; noted for the orchestrator in case a later scene settles it."},
+    {"ids": ["dialogue_08055", "dialogue_08056", "dialogue_08057", "dialogue_08061", "dialogue_08086", "dialogue_08110"], "issue": "Unattributed combat/reaction lines; checked against rows_examined 8031-8214 and no contradiction with any explicit name found. Left as translator drafted."},
+    {"ids": ["dialogue_08087"], "issue": "Continues dialogue_08086 as one unbroken utterance (no <ed()> at 8086); translator rendered the omitted subject of 見つけねえと as 'We need to find Eureka'. A singular 'I need to' is equally defensible for this single-speaker line, but nothing in the surrounding rows contradicts the plural reading, so this was left untouched rather than rewritten on stylistic preference alone."}
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(n)>/<ed()>/<on()>/<off()> command sequences re-diffed against a fresh `python tools/dialogue_corpus.py slice 8031 184 --context 15` pull for every row in this slice; zero mismatches.",
+    "format": "No newline characters (literal or \\n) present in any target string.",
+    "fit": "All 80 rows re-measured at <=110 visible (tag-stripped) characters.",
+    "runtime": "ASCII-only re-verified (fullwidth percent sign only exception, none present); no lowercase j/q found outside capitalized locked names (only 'Jamil' contains the letter, capitalized)."
+  }
+}

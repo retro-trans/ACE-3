@@ -1,0 +1,106 @@
+{
+ "resource_id": 4003240,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 10,
+ "rows_examined": 10,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "18B Destroy Shin Dragon 3",
+   "notes": "Released mission title reused verbatim from missions_019.json.",
+   "source_sha256": "7530d1a9d19c366141e7c8963377ea9e5b8e1a6ad0015b306eee65804dc4e155"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30090,1)><speed(2)>We've arrived at the <book(48)>Shin Dragon<endbook()>.",
+   "notes": "Speaker 30090 = Hayato Jin.",
+   "source_sha256": "2d679bc1b4585e97a22108d3443d24f2efc890af1efddcd8cf6285b731db89ca"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30090,1)><speed(2)><color(5)>Saotome<ce()> is bound to be there too. We'd like to open the attack right away, but there's one problem.",
+   "notes": "",
+   "source_sha256": "66699d28afc579962ce59f71ce31f44c4fb4584efdc1c38e6f2acb7d9b2019eb"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30090,1)><speed(2)><thumbnail(253)>The place where the <book(48)>Shin Dragon<endbook()> is sits in <book(38)>New Federation<endbook()> territory, with <book(38)>New Federation<endbook()> forces deployed there.",
+   "notes": "thumbnail(253) kept at the head of the sentence, same position as the source (a lead-in establishing shot, not attached to one word).",
+   "source_sha256": "993b149c8b3c3cc67d61c9654f1877795d0141334c8cc46196a3d568893422a2"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>Not only the units stationed there - it looks like a good number of reinforcements are coming in too.",
+   "notes": "Speaker 30060 = Jamil Neate. 'Not only' used instead of 'not just' to avoid the lowercase j.",
+   "source_sha256": "8d967c220a057938c44556bc6d115e41f020c07af08b9687170afe1e4fc78347"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>Throwing in a force this large means the <book(48)>Shin Dragon<endbook()><thumbnail(254)> isn't their only target.",
+   "notes": "",
+   "source_sha256": "35a7bf30457896495beaf41e9e4b14d2f0c733f4b8513176e64fb8cd040374eb"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30060,1)><speed(2)>It means the <book(38)>New Federation<endbook()> is getting serious about crushing us.",
+   "notes": "",
+   "source_sha256": "f1cecc57df428d9b4868b12aa0ae3b3efcef5febd0a08a94985a995a91850155"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30060,1)><speed(2)>Behind the scenes, <color(5)>Berkt<ce()><thumbnail(189)> is probably the one pulling the strings. But we can't let him keep having his way any longer.",
+   "notes": "Berkt is male per character_names_021/glossary.json; 'he/him' sourced.",
+   "source_sha256": "592626d2c667635e50ed7b72bef5a72be4da42b1c5659d915c4ae01172a5990c"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30060,1)><speed(2)>First we should hold back the <book(38)>New Federation<endbook()> here and stop the <book(51)>Getter Rays<endbook()> from falling into <color(5)>Berkt<ce()>'s hands.",
+   "notes": "",
+   "source_sha256": "b7ca3c40b88c595be24ebf4c8e7cfedad42530f5eea73f489bf87e3cc3f9bdbc"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<thumbdown()><operator(30090,1)><speed(2)>Either way, both are enemies we have to defeat. I'm counting on you.",
+   "notes": "",
+   "source_sha256": "92622f756e93ffc43160862d535228683d57c6954fb78e55e74fe8c7a3be7aa2"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 10,
+  "rows_in_scene": 10,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019.json '18B Destroy Shin Dragon 3'.",
+   "Speakers confirmed via tools/speaker_lookup.py: 30090 Hayato Jin (slots 19-21, 27), 30060 Jamil Neate (slots 22-26).",
+   "Slot 25 'Behind the scenes, Berkt is probably the one pulling the strings' matches source subject/addressee; 'he/him' correctly used, Berkt is male per character_names_021.json.",
+   "Slot 26 tag order (New Federation, Getter Rays, Berkt) matches source order.",
+   "Tag sequence verified identical and in source order for every row via a throwaway script comparing tools/scene_source.py output against each row's en field.",
+   "No lowercase j/q found outside locked names; no bare %; no newlines; ASCII only; all rows within the 128 visible-char limit (max 118)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

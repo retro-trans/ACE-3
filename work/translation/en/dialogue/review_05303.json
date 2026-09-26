@@ -1,0 +1,28 @@
+{
+  "reviewer": "independent_meaning_review_15_agent",
+  "slice_start": 5303,
+  "slice_count": 15,
+  "rows_examined": [{"start": 5283, "end": 5337}],
+  "rows_examined_count": 55,
+  "rows_in_slice": 15,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [5307, 5308], "finding": "Bare 'senpai' (先輩, no name in source) rendered as 'Focker' and echoed as '...Focker?' -- accepted per orchestrator ruling. Focker was just named in 5306, and 5309's explanation (Dyson is a junior of his from the academy) settles that both 5307 and 5308 refer to Focker."},
+    {"rows": [5309], "finding": "'Kouhai' (後輩, 'junior') rendered 'a class behind me' to avoid the lowercase-j font constraint rather than dropping the meaning; content (academy relationship, introduction request) fully preserved."},
+    {"rows": [5311], "finding": "大尉 (taii) for Amuro rendered 'Captain' per terms_028.json's Gundam-pilot-rank convention; correct and consistent with corpus."},
+    {"rows": [5312], "finding": "Fullwidth ＯＫ in source correctly converted to ASCII 'OK'; no meaning change."},
+    {"rows": [5316], "finding": "'Federation headquarters' kept with its lowercase q -- accepted per orchestrator ruling ('headquarters' may stay), matching established corpus wording at batch_01073/02948/03028."},
+    {"rows": [5305, 5313, 5315], "finding": "book(33) Macross and book(87) Sharon Apple encyclopedia links kept in the same source order and position in every row; no commands added or dropped."},
+    {"rows": [5303, 5317], "finding": "Automated recheck (tag-sequence diff against a fresh tools/dialogue_corpus.py slice 5303 15 --context 0 pull) confirms all 15 rows use only <on()>/<sp(20)>/<color()>/<ce()>/<book()>/<endbook()> exactly as in source, with no <ab()>/<off()> anywhere in this block -- matching the draft's own note that none exist in the source for this scene."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_05303", "issue": "This block (5303-5317, text_id 501-515) is a distinct landing-request/introduction radio scene that comes after the combat block in stored-table order but appears to depict Hikaru and Dyson's first meeting, while the earlier block (text_id 121-146, rows 5230-5248) already shows them acquainted and mid-mission. Table order need not match event order per project convention; each block was translated on its own terms without forcing a single timeline. Left as drafted; flagging in case the orchestrator has independent evidence of the intended chronology (e.g. this could play before 5223-5302 despite its higher text_id)."}
+  ],
+  "validation": {
+    "controls": "Every <...> command reproduced in exact source order for all 15 rows, reverified with a fresh automated diff against tools/dialogue_corpus.py slice 5303 15 --context 0; none added or dropped, and none exist to drop (no <ab()>/<off()> anywhere in this block).",
+    "format": "No newlines in any target (source line breaks joined with a space, as in the original draft).",
+    "fit": "All visible text (tags stripped) <=110 characters, longest 107 (row 5305); ASCII-only, fullwidth ＯＫ correctly converted to 'OK'; lowercase j/q confined to locked terms ('Squadron', 'Major', 'headquarters' per orchestrator ruling).",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

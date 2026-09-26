@@ -1,0 +1,32 @@
+[
+  {
+    "term_romaji": "kidou kii",
+    "en": "activation key",
+    "source": "No external source; released meeting text already has 'The key needed to start and stop the Baldora Drive'",
+    "why": "ACE3 original plot term (rows 2400, 2405): the key Berkt holds that starts/stops the Baldora Drive. The quoted short form in 2399 stays 'key'."
+  },
+  {
+    "term_romaji": "Koowen (junshou)",
+    "en": "Cowen (Brig. Gen. Cowen)",
+    "source": "https://gundam.fandom.com/wiki/John_Cowen",
+    "why": "ACE2 leftover row 2449 (and 2471 in the next slice). Gundam Wiki page title is John Cowen (older subs: Kowen). The table gives his rank as junshou = brigadier general, which differs from the wiki's flag rank; the source rank was kept."
+  },
+  {
+    "term_romaji": "Puribentaa",
+    "en": "Preventers",
+    "source": "https://gundam.fandom.com/wiki/Preventers",
+    "why": "Gundam Wing Endless Waltz organisation (rows 2438, 2442, 2448); no locked spelling in the glossary files. character proposal for Lucrezia Noin already mentions 'Preventer Fire'."
+  },
+  {
+    "term_romaji": "tokumu butai",
+    "en": "special task unit",
+    "source": "none (plain rendering)",
+    "why": "Row 2438 (ACE2 leftover): the Preventers detachment introducing itself to Captain Synapse. Not a proper noun; listed so neighbouring legacy rows can match."
+  },
+  {
+    "term_romaji": "senjutsu sanbou",
+    "en": "tactical staff officer",
+    "source": "none (plain rendering)",
+    "why": "Row 2449 (ACE2 leftover): Noin's posting aboard the Albion."
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version":"0.1.39",
+  "coordinates":"approximate screenshot pixels",
+  "body_line_limit":3,
+  "native_body_width":460,
+  "screens":[
+    {"file":"ruri_before.png","body_region":[330,710,950,132],"resource_id":2002020,"text_id":521,"dialogue_id":"dialogue_00823","book_id":10,"finding":"Londo Bell is on hidden fourth body line; link is correct"},
+    {"file":"faye_before.png","body_region":[338,708,950,130],"resource_id":2002020,"text_id":531,"dialogue_id":"dialogue_00833","book_id":10,"finding":"Londo Bell is on hidden fourth body line; link is correct"},
+    {"file":"notice_before.png","body_region":[460,380,850,168],"resource_ids":[4002050,4002054,4002057],"table_id":3069,"text_id":13,"template_before":"Can add: %s","template_after":"Purchasable: %s"}
+  ]
+}

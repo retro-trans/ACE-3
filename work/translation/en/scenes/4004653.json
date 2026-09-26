@@ -1,0 +1,344 @@
+{
+ "resource_id": 4004653,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 37,
+ "rows_examined": 37,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23310,1)><speed(2)>Dr. <color(5)>Saotome<ce()> built <color(5)>Shin Dragon<ce()> to destroy the Earth.",
+   "notes": "",
+   "source_sha256": "86a6b451427ab9dd63283e000dd120a2f8476b50a046ede2e1490c6ddb7800f1"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23310,1)><speed(2)>That must be what came of him wrestling with the Ageha Plan in his own way.",
+   "notes": "'Ageha Plan' per encyclopedia_022/021_b lock.",
+   "source_sha256": "d4f886f0536e66f4def51b21a98bc4da3ae8bcbd932a7ac1db7f90781270def7"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23310,1)><speed(2)>I'd like to bring the truth of that to light in this battle.",
+   "notes": "",
+   "source_sha256": "9422ec1f3432b60f507eabe494096c017068a03d74b038958d4ca95bc7033d25"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(19050,1)><speed(2)>If there's real intent behind his goal, was it really that heavy a burden?",
+   "notes": "",
+   "source_sha256": "132fa3cf19a7cf8e8755586157a007a843764cea4f5bc850c5c2be0bdfb51f71"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(19060,1)><speed(2)>We're about to go find that out.",
+   "notes": "",
+   "source_sha256": "de083955079891a4c5210f0402a5dc587313803d882448a8c0ec43b033106ed0"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>... I wonder if <color(5)>Berkt<ce()> will be there.",
+   "notes": "",
+   "source_sha256": "02ffae39e3527b68b03fadc8fca1dc226ff38e065566a32383aeb6d2a864271c"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1060,1)><speed(2)>As long as he hasn't finished what he set out to do, he'll show up here for sure.",
+   "notes": "",
+   "source_sha256": "5226b68bb27e0c20f75a391944db876eac3921a580f72cf19c152c1c8a779c68"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1040,1)><speed(2)>...Let's make this the last one.",
+   "notes": "",
+   "source_sha256": "b4301242b7a148b00a3df8dde4a29f8e3b68bbb07f624a7ec420b7170fcd77e5"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1060,1)><speed(2)>Yeah.",
+   "notes": "",
+   "source_sha256": "74819d4d3377b347d0731901f8e3ecd9df552b594178d1604373cdd3ec85e544"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,2)><speed(2)>Getting this far is thanks to you too, <color(4)>Faye<ce()>. Thank you.",
+   "notes": "",
+   "source_sha256": "6b0847b5c8f670178da13a19532591c322ca47934a105d17949d5c5db37c6903"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>What, all of a sudden?",
+   "notes": "",
+   "source_sha256": "229a759d40ae0b786f05d84e5e2450c9274c1704f265d17e7e16e608393d4fc7"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,2)><speed(2)>No, I only wanted to say it... Even if I was a lousy student.",
+   "notes": "",
+   "source_sha256": "2bc67118450333e223c988bf48c85cf7bbc55a6881b8995947c0fc80ce1f91f9"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,2)><speed(2)>That's not true. I'm the one who... learned something.",
+   "notes": "",
+   "source_sha256": "812790c90b5a53613803d0c6a08242f40f2a3f302d149af422a65d2575b734b3"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(23010,1)><speed(2)>The <color(5)>Invaders<ce()> and the Scub Coral... maybe <color(4)>Nirvash<ce()> is tied up in that too.",
+   "notes": "",
+   "source_sha256": "7bcb3f1a6fb07273f35b2e579091c24b6d26f6e5eb0f85f6a10f465abb460229"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(23030,1)><speed(2)><color(4)>Nirvash<ce()> chose you two. If it's tied to the <color(5)>Invaders<ce()>, maybe it's pushing you to act.",
+   "notes": "",
+   "source_sha256": "ad6d19791d6675e1428736dc95e45fcfeafb3bdf62d885bb800efde2b4fe10fa"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(23020,1)><speed(2)><color(4)>Nirvash<ce()> doesn't say anything. But I understand. It entrusted the future to <color(4)>Renton<ce()> and me.",
+   "notes": "",
+   "source_sha256": "558b8f7b6e886420f4779b07349a97601e673b554444ea7459be5532042fc5cc"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(23010,1)><speed(2)>Yeah... let's give it our all. <color(4)>Eureka<ce()>!",
+   "notes": "",
+   "source_sha256": "5b888777bb229669cfb7c70d0c8bac18975dc4902de91bd822156f7cbf6dee2d"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(21030,1)><speed(2)><color(4)>Gainer<ce()>, <color(4)>Gain<ce()>, please be careful out there.",
+   "notes": "",
+   "source_sha256": "f51ffd2054eba215dc6e3557917c816ed1b621207e73e366aa03f67153bbf717"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(21010,1)><speed(2)><color(4)>Sara<ce()>... are you worried about me?",
+   "notes": "Pronoun ambiguous (singular/plural); kept as 'me' since Sara's reply broadens it to everyone.",
+   "source_sha256": "216536f3eab83093d1ac2ab55fa79daaa246f0c1581d0c71aa4b656f7f70ad20"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(21030,1)><speed(2)>Of course I am! Everyone... I mean... because we're comrades!",
+   "notes": "",
+   "source_sha256": "48d6d9042ee226eaa26f5aa8fa83d8a6231d5af459617fdb9418012a37f163e1"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(19020,1)><speed(2)>So basically, we go find out from <color(5)>Saotome<ce()> himself.",
+   "notes": "",
+   "source_sha256": "e5e940ed8681e12b2f73352ba314642a842499f3ff8d638184111c10a84510d0"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(19020,1)><speed(2)>I don't know what <color(5)>Saotome<ce()>'s after. But... because of him, we spent years stuck living in dark shelters.",
+   "notes": "",
+   "source_sha256": "969a88e63232fc9fd13876b10eeb94783aaa6630e98b9ec7f62c428ca1cff006"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(19030,1)><speed(2)>But that's over now. We leave the past behind, here and now.",
+   "notes": "",
+   "source_sha256": "bc1b8b06592d9d5bb5ab206aa3409f7ca22654e4d8d6dcab4da912cb1f580b9e"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(19010,1)><speed(2)>Yeah... let's go, both of you.",
+   "notes": "",
+   "source_sha256": "83a2ccb5de98df6a11b0817b89b2bd90663d3358b64a84167811f7334feb4a71"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(19050,1)><speed(2)>We fought that war on the moon believing in peace, and here we are now.",
+   "notes": "'moon war' here (getsumen sensou) is not the locked 'Moon Invader War' compound; left as a plain description since the source string differs.",
+   "source_sha256": "3916c73b153f8795b941819d8e9524c895a62e3b302ede87ccfc3f36655adeb7"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(19060,1)><speed(2)>I still can't fully turn my back on Dr. <color(5)>Saotome<ce()>. He made Getter for peace. For that man to become mankind's enemy...",
+   "notes": "",
+   "source_sha256": "47f25355f0a433575e109d9090f3fc39618ea51a9b56f5083c089d039f866e8f"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(19040,1)><speed(2)>Back in those days, the old man was always a kind soul who thought of peace...",
+   "notes": "",
+   "source_sha256": "012050f8c25dde643129faea07c5bd533432663ccb20bbcc3622fba6a44b5dd5"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(19040,1)><speed(2)>But that old man <color(5)>Saotome<ce()> sent my life badly off course...",
+   "notes": "",
+   "source_sha256": "4d4ca3e2e4c06af30ef6086fec2f43637d2a2664374f2e90098d14cc7ceed617"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(19060,1)><speed(2)>No... maybe it's everyone's life who's ever been tied to Getter...",
+   "notes": "",
+   "source_sha256": "f37bc79f913b5b8f532035228c79f54c19944c0d3f20d9f20812e7ec7791e442"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(19050,1)><speed(2)>This time, we take down <color(5)>Shin Dragon<ce()> for good. I'm counting on you... <color(4)>Ryoma<ce()>.",
+   "notes": "",
+   "source_sha256": "27aca59d7a6eb658c1331c66840c22ec8594d613fd6ca760e302076cbeebbb86"
+  },
+  {
+   "table": 1,
+   "slot": 185,
+   "text_id": 186,
+   "en": "<operator(19040,1)><speed(2)>Yeah, I'm off. Old man, I'll pay you back in full!",
+   "notes": "",
+   "source_sha256": "e96716b5e1c711fd428922e4b729241fe0afafb1bfc16bf22f241cbe73637168"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(16040,1)><speed(2)>So things like that exist in the surface world... That power will destroy everything, won't it?",
+   "notes": "",
+   "source_sha256": "d37a2aa3070f79636944c968406b164cb05d62e0dc201fadaf91d959a55b0934"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(16040,1)><speed(2)>If it comes to that, will Byston Well be destroyed too?",
+   "notes": "",
+   "source_sha256": "000061f285fd8e26af399fad180f740368031f931680626b5821c2b88ba428c2"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(16010,1)><speed(2)>I don't know about that... But I want to protect my mom and dad too. So... I'll fight, and I'll prove it.",
+   "notes": "",
+   "source_sha256": "cbd770dbb9058d77396e074e1339216b514cca6ef63917c8988aee9c0c8232a3"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(12121,1)><speed(2)>Who'd have thought I'd end up fighting for some grand cause like saving the world.",
+   "notes": "",
+   "source_sha256": "81ed4e65d6a11f631d7d0c424d84ea5318ffd77ebcf411a898358ef4835b9dd4"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(12011,1)><speed(2)>Cause, ideology, none of that matters. Get rid of the crisis. That's it.",
+   "notes": "",
+   "source_sha256": "3431cffb44cddbc1904834bbac36c193e86aff9b99406c23d3eb937fcf1b5270"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(12121,1)><speed(2)>Heh... true enough. All that's left is to put my strength to use for the result.",
+   "notes": "",
+   "source_sha256": "20ed588515a022ee469115d3a56caca93f783cad6976ab214199a25d860dc04f"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 100,
+   "issue": "Gainer's '心配してくれるの？' has no stated object; kept as 'me' since it reads as him assuming Sara meant only him, and her next line broadens it to 'everyone' as a light correction."
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "issue": "'月面戦争' (moon war) in Hayato's line is not the same string as the locked 'Moon Invader War' (月面インベーダー戦争); rendered as a plain lower-case description rather than assuming they're the same event/term."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 37,
+  "rows_in_scene": 37,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 21,
+    "before": "No, I just wanted to say it... Even if I was a lousy student.",
+    "after": "No, I only wanted to say it... Even if I was a lousy student.",
+    "reason": "Lowercase 'j' has no native glyph in the game font; reworded ('only' for 'just') without changing meaning."
+   }
+  ],
+  "checked_decisions": [
+   "Speakers resolved: 23310 Greg Egan ('Bear') on Dr. Saotome/Shin Dragon; 19050 Hayato Jin, 19060 Benkei Kuruma, 19040 Ryoma Nagare, 19030 Gai, 19020 Kei, 19010 Go (Getter Robo cast); 1040/1060 Barrel/Faye; 23010/23020/23030 Renton/Eureka/Holland; 21030/21010 Sara/Gainer; 16040/16010 Luxe/Asap; 12121/12011 Tsukiomi/Akito.",
+   "Slot 20 (table 0): 'Ageha Plan' matches the encyclopedia_022/021_b lock.",
+   "Table 1 slot 100: Gainer's '心配してくれるの？' has no stated object; 'me' is a safe reading since he is asking about himself and Sara's reply broadens it to 'everyone'. No addressee/subject invented beyond what the exchange settles. Accepted.",
+   "Table 1 slot 179: '月面戦争' (a plain 'war on the moon') is a different source string from the locked 'Moon Invader War' (月面インベーダー戦争); keeping it as a lower-case generic description rather than substituting the locked compound is correct - they are not the same term in this line. Accepted.",
+   "Table 1 slots 99-101: '-kun'/'-san' dropped on Gainer/Gain, consistent with established corpus practice.",
+   "No mistranslations, reversed meanings, wrong addressees, invented subjects, or misplaced commands found in the remaining rows; all <operator>/<speed>/<color> tags match the source in content and order."
+  ],
+  "remaining_uncertainties": [
+   "Table 1 slot 100: whether Gainer's 'are you worried about me?' should stay singular or already imply the group is not fully settled by the source; kept singular per the immediate context.",
+   "Table 1 slot 179: 'moon war' vs the locked 'Moon Invader War' - if the two terms are later found to refer to the same historical event in-universe, this row may need to align; left as a plain description since the source strings differ."
+  ]
+ }
+}

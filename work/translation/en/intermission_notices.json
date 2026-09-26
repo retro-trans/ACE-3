@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "version": "0.1.14",
+  "language": "en",
+  "source_iso": "ACE3-English-0.1.13.iso",
+  "categories": [
+    {
+      "table_id": 3069,
+      "category": "Intermission update notices",
+      "source_bundle_id": 4002050,
+      "source_table_sha256": "36c47377b20676f371bd1c25c21d0bce8de6fcb966601da720e18ffafbaa59eb",
+      "slot_count": 49,
+      "rows": [
+        {
+          "slot": 0,
+          "source": "㍍アップデート情報",
+          "en": "㍍Update Information"
+        },
+        {
+          "slot": 1,
+          "source": "決定：○",
+          "en": "Confirm:○"
+        },
+        {
+          "slot": 9,
+          "source": "%s　が編入",
+          "en": "Added: %s"
+        },
+        {
+          "slot": 10,
+          "source": "%s　が離脱",
+          "en": "Left: %s"
+        },
+        {
+          "slot": 11,
+          "source": "%s　の進化が可能",
+          "en": "Can evolve: %s"
+        },
+        {
+          "slot": 12,
+          "source": "%s　の編入が可能",
+          "en": "Can add: %s"
+        },
+        {
+          "slot": 13,
+          "source": "%s　の武器が追加",
+          "en": "%s: New weapon"
+        },
+        {
+          "slot": 14,
+          "source": "%s　の武装が追加",
+          "en": "%s: New arms"
+        },
+        {
+          "slot": 29,
+          "source": "閲覧に新しいユニットが追加されました。",
+          "en": "New units added to the Model Viewer."
+        },
+        {
+          "slot": 30,
+          "source": "事典に新しい用語が追加されました。",
+          "en": "New terms added to the Encyclopedia."
+        },
+        {
+          "slot": 31,
+          "source": "－",
+          "en": "－"
+        },
+        {
+          "slot": 32,
+          "source": "－",
+          "en": "－"
+        },
+        {
+          "slot": 33,
+          "source": "－",
+          "en": "－"
+        },
+        {
+          "slot": 34,
+          "source": "フリーミッションに新しいミッションが\n追加されました。",
+          "en": "New missions added to Free Mission."
+        },
+        {
+          "slot": 35,
+          "source": "フリーミッションに新しいミッションが\n追加されました。",
+          "en": "New missions added to Free Mission."
+        },
+        {
+          "slot": 36,
+          "source": "メニューにフリーミッションが追加",
+          "en": "Free Mission added to the menu."
+        },
+        {
+          "slot": 37,
+          "source": "－",
+          "en": "－"
+        },
+        {
+          "slot": 38,
+          "source": "－",
+          "en": "－"
+        },
+        {
+          "slot": 39,
+          "source": "－",
+          "en": "－"
+        },
+        {
+          "slot": 40,
+          "source": "－",
+          "en": "－"
+        },
+        {
+          "slot": 41,
+          "source": "メニューに対戦が追加",
+          "en": "Versus added to the menu."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "meaning_reviewed",
+    "reviewer": "notice_review_014",
+    "rows_examined": 21,
+    "rows_in_slice": 21,
+    "notes": [
+      "All21 non-null rows reviewed in source table order, including unchanged fullwidth dash placeholders.",
+      "Unit-name printf placeholders, header icon and confirmation button preserved exactly.",
+      "Runtime substitutions need width and 255-character aggregate checks using actual unit names; template widths alone do not establish fit.",
+      "Runtime lookup verified: 103 IDs from resource 100204 use 3077 names, except IDs 19010-19012 from 3025. Each formatted notice must fit 63 cp932 bytes plus terminator. Root reviewed New arms as the compact equivalent of New armament.",
+      "Table3004 menu, help and controls-guide rows in 0.1.13 are already English."
+    ],
+    "full_meaning_drafts": {
+      "9": "%s has joined your forces.",
+      "10": "%s has left your forces.",
+      "11": "%s can now evolve.",
+      "12": "%s can now be added to your forces.",
+      "13": "A weapon has been added to %s.",
+      "14": "An armament has been added to %s."
+    },
+    "uncertainties": [
+      "Weapon and armament preserve the distinct source labels; no specific equipment type is inferred."
+    ]
+  }
+}

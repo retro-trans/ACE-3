@@ -1,0 +1,33 @@
+{
+  "reviewer": "independent_review_shouts_agent",
+  "slice_start": 15528,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15513, "end": 15622}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_15582",
+      "before": "Now!",
+      "after": "Here",
+      "reason": "Source is 'kita' (lit. 'it/they have come'), an enemy-arrival exclamation confirmed by the surrounding rows (praise lines immediately followed by 'These guys!'/'Persistent!'/'Enemy reinforcements!?'). The translator's 'Now!' dropped the arrival sense for an unrelated timing cue. Fixed to 'Here', which fits the 4-char hard budget (min(72,2*3-2)) exactly once the exclamation mark is dropped."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [15540, 15546, 15552, 15559, 15592], "finding": "Source is a first-person declaration ('I'll minimize damage', 'I have to do something', 'I'll find a counter chance', etc.) rendered as a bare imperative under the tight byte budget. Read in context these are self-exhortation shouts (a pilot urging himself on), a style used consistently across the whole corpus set reviewed; not treated as a wrong-addressee/subject fix."},
+    {"rows": [15544], "finding": "'Kono mama ja...!' (lit. 'at this rate...!') rendered as 'Not like this!' -- a tonal shift from trajectory-warning to a dismay exclamation, but both convey alarm at the same worsening situation; not a meaning reversal, left as translator phrased it."},
+    {"rows": [15573], "finding": "'Tayori ni shitemasu' ('I'm counting on you') compressed to 'Count on you.' -- terse but the intended sense (speaker relies on addressee) is still recoverable; left as is."},
+    {"rows": [15557], "finding": "Source is a radio self-ID ('Kochira Kira Yamato! Engo shimasu!' = 'This is Kira Yamato! Providing support!'); translation 'Kira Yamato! Moving to support!' correctly keeps the self-announcement, not a third party addressing Kira."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_15585"], "issue": "Translator flagged compressing 'teki no engun' (enemy reinforcements) to 'New foes?!' under a 10-char budget. Ruling: acceptable -- 'New foes' conveys new enemies arriving, the essential content of 'reinforcements'; not a reversal."},
+    {"ids": ["dialogue_15589"], "issue": "Translator flagged rendering the idiom 'doronuma-ka suru' (turn into a mire/bog, i.e. a hopeless quagmire) as 'This'll become a mess!'. Ruling: acceptable -- preserves the 'dragging on badly' sense of the idiom within budget."}
+  ],
+  "validation": {
+    "controls": "Re-checked command-tag order and newline counts against the freshly re-sliced source for all 80 rows; unchanged from the translator's own verification, and the one edited row (dialogue_15582) keeps its original <op()><sp(20)>...<ab(1000)><ed()> tag sequence.",
+    "fit": "Recomputed the hard budget min(72, 2*source_ja_char_count-2) for every flagged/uncertain row from the live source; the one fix (dialogue_15582, 'Here', 4 chars) sits exactly at its 4-char budget. All other targets were already within budget and untouched.",
+    "ascii": "No new non-ASCII characters, curly quotes/dashes, bare '%', or lowercase j/q introduced by the fix.",
+    "status": "All 80 rows set to meaning_reviewed; none left as draft."
+  }
+}

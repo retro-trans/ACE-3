@@ -1,0 +1,571 @@
+{
+  "slice_start": 14746,
+  "slice_count": 85,
+  "rows_examined": [
+    [
+      14731,
+      14845
+    ]
+  ],
+  "rows_examined_count": 115,
+  "rows_in_slice": 85,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_14696",
+        "dialogue_14697",
+        "dialogue_14698",
+        "dialogue_14705",
+        "dialogue_14706",
+        "dialogue_14707",
+        "dialogue_14708",
+        "dialogue_14732",
+        "dialogue_14742",
+        "dialogue_14756",
+        "dialogue_14775",
+        "dialogue_14776",
+        "dialogue_14780",
+        "dialogue_14789",
+        "dialogue_14790",
+        "dialogue_14805",
+        "dialogue_14806",
+        "dialogue_14807",
+        "dialogue_14809",
+        "dialogue_14813",
+        "dialogue_14823",
+        "dialogue_14824"
+      ],
+      "note": "Resource 2819010 is labelled pilot Go but its <op()> table clearly mixes voices: several rows carry feminine first-person/sentence-final markers or address Go/Gai by name in the vocative, i.e. they are Kei's or Gai's lines within the same shared team-battle table, not Go's own. Per DIALOGUE.md, speaker identity was not invented: pronouns/vocatives were translated as written (kept as \"I\"/imperative in English, which does not force a gender), and any addressed name (Go/Kei/Gai) was kept exactly as in the source. Flagging for the orchestrator in case resource-to-pilot attribution needs correction upstream."
+    },
+    {
+      "id": "dialogue_14808",
+      "note": "Apparent source typo in the verb ending; translated by evident intent."
+    },
+    {
+      "id": "dialogue_14829",
+      "note": "Getter Rays researched as the standing franchise term for the series' cosmic-ray energy source; proposal recorded in batch_14746_glossary_proposals.json."
+    },
+    {
+      "id": "dialogue_14813",
+      "note": "Two-speaker exchange kept on one row since the source has only one <ab>/<ed> pair for it."
+    }
+  ],
+  "validation": {
+    "controls": "Every <op()><sp(20)>...<ab(N)><ed()> command sequence copied verbatim from source, same order, same ab() parameter; verified by script against dialogue_index.json (no mismatches).",
+    "fit": "Every row's English visible length (tags and \\n excluded) checked <= min(72, 2*Japanese_char_count-2); all 325 rows across the four batches in this task fit after compression, none left over-limit.",
+    "ascii": "Straight quotes/apostrophes, \"...\" ellipses, ASCII-only; no bare %; no lowercase j or q outside locked names (checked by script; none occur).",
+    "meaning_review": "Independent meaning review completed 2026-09-24 (review_14746.json): 2 meaning fixes applied (dialogue_14759, dialogue_14789); all 85 rows now meaning_reviewed; no rows left as draft. The mixed-voice (Go/Kei/Gai) uncertainty for resource 2819010 and the typo/glossary uncertainties were checked and confirmed reasonable."
+  },
+  "rows": [
+    {
+      "id": "dialogue_14746",
+      "target": "<op()><sp(20)>Power without limit.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14747",
+      "target": "<op()><sp(20)>...It's over.\nBut this is a new fight's start.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14748",
+      "target": "<op()><sp(20)>Enemy's wiped out.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14749",
+      "target": "<op()><sp(20)>We'll keep winning.\nNow and always...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14750",
+      "target": "<op()><sp(20)>Heading home.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14751",
+      "target": "<op()><sp(20)>Thanks to you, we won.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14752",
+      "target": "<op()><sp(20)>Did it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14753",
+      "target": "<op()><sp(20)>It's over...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14754",
+      "target": "<op()><sp(20)>We did it... Somehow we won!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14755",
+      "target": "<op()><sp(20)>Let's head home!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14756",
+      "target": "<op()><sp(20)>Kei, don't push it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressed to Kei by name; speaker is male (Go or Gai), not Kei."
+    },
+    {
+      "id": "dialogue_14757",
+      "target": "<op()><sp(20)>Bring guns or whatever you like!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14758",
+      "target": "<op()><sp(20)>I'll take this one!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14759",
+      "target": "<op()><sp(20)>Getter-3 has your back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning review: source has Getter-3 providing cover/support (transitive), i.e. Getter-3 is helping, not being helped. Draft's \"Getter-3's got backup\" reads as Getter-3 receiving support, reversing who helps whom. Fixed to keep Getter-3 as the one giving cover."
+    },
+    {
+      "id": "dialogue_14760",
+      "target": "<op()><sp(20)>Crush now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14761",
+      "target": "<op()><sp(20)>Watch your back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14762",
+      "target": "<op()><sp(20)>Waaaaugh, don't lose!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14763",
+      "target": "<op()><sp(20)>Leave it to me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14764",
+      "target": "<op()><sp(20)>Take the one in front!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14765",
+      "target": "<op()><sp(20)>Of all things!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14766",
+      "target": "<op()><sp(20)>And here we can't lose!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14767",
+      "target": "<op()><sp(20)>Risky... Now what?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14768",
+      "target": "<op()><sp(20)>If we fall here,\neverything ends!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14769",
+      "target": "<op()><sp(20)>We'll carve our own fate!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14770",
+      "target": "<op()><sp(20)>What am I supposed to do?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14771",
+      "target": "<op()><sp(20)>I won't fall here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14772",
+      "target": "<op()><sp(20)>Bad, at this rate...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14773",
+      "target": "<op()><sp(20)>Believe in Getter now...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14774",
+      "target": "<op()><sp(20)>Don't lose heart!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14775",
+      "target": "<op()><sp(20)>Go, Gai... We win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addresses both Go and Gai by name; speaker reads female (Kei) by pattern match with other feminine-marked lines in this table."
+    },
+    {
+      "id": "dialogue_14776",
+      "target": "<op()><sp(20)>I've got to show what I can do!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14777",
+      "target": "<op()><sp(20)>Going home alive.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14778",
+      "target": "<op()><sp(20)>Combine strength!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14779",
+      "target": "<op()><sp(20)>Don't get careless!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14780",
+      "target": "<op()><sp(20)>As one...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14781",
+      "target": "<op()><sp(20)>All of us, go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14782",
+      "target": "<op()><sp(20)>We'll win!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14783",
+      "target": "<op()><sp(20)>Trust Getter's power.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14784",
+      "target": "<op()><sp(20)>Let's go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14785",
+      "target": "<op()><sp(20)>Ease up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14786",
+      "target": "<op()><sp(20)>Can't? Fall back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14787",
+      "target": "<op()><sp(20)>What's wrong?!\nGet it together!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14788",
+      "target": "<op()><sp(20)>Not much use, huh...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14789",
+      "target": "<op()><sp(20)>Even I, a woman, fight here,\nso get it together!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning review: source is Kei's explicit 1st-person self-reference (\"since I, a woman, am fighting\"), a recurring character beat about not being underestimated (compare dialogue_14790). Draft's \"A woman's fighting here\" dropped the subject into a statement that could be misread as referring to a third party. Restored \"I\" within the 52-char budget."
+    },
+    {
+      "id": "dialogue_14790",
+      "target": "<op()><sp(20)>I'm fighting too,\nso show me what you can do!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14791",
+      "target": "<op()><sp(20)>We lose at this rate!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14792",
+      "target": "<op()><sp(20)>More in you, right?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14793",
+      "target": "<op()><sp(20)>You're our hope, supposedly!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14794",
+      "target": "<op()><sp(20)>If you can't, we'll do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14795",
+      "target": "<op()><sp(20)>Not bad... I take it back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14796",
+      "target": "<op()><sp(20)>Fighting that well, wow!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14797",
+      "target": "<op()><sp(20)>Real strength, that!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14798",
+      "target": "<op()><sp(20)>Watching you fight,\nI've still got far to go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14799",
+      "target": "<op()><sp(20)>Hate to admit, you've got skill!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14800",
+      "target": "<op()><sp(20)>You can pull it off...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14801",
+      "target": "<op()><sp(20)>You're amazing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14802",
+      "target": "<op()><sp(20)>Can't lose either!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14803",
+      "target": "<op()><sp(20)>Someone this strong, huh?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14804",
+      "target": "<op()><sp(20)>You're a true ace!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14805",
+      "target": "<op()><sp(20)>This many coming... Not good.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14806",
+      "target": "<op()><sp(20)>Troops? No match for Getter!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14807",
+      "target": "<op()><sp(20)>Where were they all hiding?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14808",
+      "target": "<op()><sp(20)>How many are there?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source has an apparent typo (garbled verb ending); translated by evident intended meaning (\"how many are there\")."
+    },
+    {
+      "id": "dialogue_14809",
+      "target": "<op()><sp(20)>Kei, more still!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14810",
+      "target": "<op()><sp(20)>Damn, more enemies.\nCan we do this?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14811",
+      "target": "<op()><sp(20)>We hold them here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14812",
+      "target": "<op()><sp(20)>Kidding me...\nMore of them?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14813",
+      "target": "<op()><sp(20)>Gai! Reinforcements incoming!\nI know! Let me focus!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Two-speaker exchange in one row (Kei's warning then Gai's reply) kept as a single line per source structure; no <ab>/<ed> split present in source to separate them."
+    },
+    {
+      "id": "dialogue_14814",
+      "target": "<op()><sp(20)>That one... Careful!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14815",
+      "target": "<op()><sp(20)>A big one showed up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14816",
+      "target": "<op()><sp(20)>Be careful...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14817",
+      "target": "<op()><sp(20)>Tough enemy here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14818",
+      "target": "<op()><sp(20)>Enemy leader, I bet!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14819",
+      "target": "<op()><sp(20)>What is that?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14820",
+      "target": "<op()><sp(20)>The boss...\nFight back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14821",
+      "target": "<op()><sp(20)>We've the rest...\nyou're up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14822",
+      "target": "<op()><sp(20)>Enemy commander!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14823",
+      "target": "<op()><sp(20)>Everyone okay?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14824",
+      "target": "<op()><sp(20)>Leave it to us, this is nothing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14825",
+      "target": "<op()><sp(20)>I believed in you all.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14826",
+      "target": "<op()><sp(20)>Good work, all.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14827",
+      "target": "<op()><sp(20)>Maintenance once we're back.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14828",
+      "target": "<op()><sp(20)>We're still alive...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14829",
+      "target": "<op()><sp(20)>Getter Rays chose us, it seems.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Getter Rays: standard franchise term for the series' cosmic-ray energy source across Getter Robo media; see glossary proposal."
+    },
+    {
+      "id": "dialogue_14830",
+      "target": "<op()><sp(20)>Not bad at all, for Gai.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

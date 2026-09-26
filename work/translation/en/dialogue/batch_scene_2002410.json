@@ -1,0 +1,510 @@
+{
+ "scene": 2002410,
+ "copies": [
+  6410,
+  2002410,
+  3200410,
+  3201410
+ ],
+ "rows_in_scene": 62,
+ "rows_examined_count": 65,
+ "context": "Whole scene read in stored order, which matches event order here; three auxiliary objective rows read as context.",
+ "rows": [
+  {
+   "id": "dialogue_11828",
+   "text_id": 301,
+   "slot": 9,
+   "target": "<on()><sp(20)>Somewhere other than here is the real me.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11829",
+   "text_id": 302,
+   "slot": 10,
+   "target": "<on()><sp(20)>Sometimes I feel that way.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11830",
+   "text_id": 303,
+   "slot": 11,
+   "target": "<on()><sp(20)>On the rails the world has laid,\nrails named \"gentle coercion,\"<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "Sentence continues into 304; the comma keeps the run-on."
+  },
+  {
+   "id": "dialogue_11831",
+   "text_id": 304,
+   "slot": 12,
+   "target": "<on()><sp(20)>I only live out my peaceful days...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11832",
+   "text_id": 305,
+   "slot": 13,
+   "target": "<on()><sp(20)>Unified Calendar 060, January\nSaint Cruz City<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11833",
+   "text_id": 306,
+   "slot": 14,
+   "target": "<on()><sp(20)>...I wonder if anything will ever happen.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11834",
+   "text_id": 307,
+   "slot": 15,
+   "target": "<on()><sp(20)>Emergency alert. Emergency alert.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11835",
+   "text_id": 308,
+   "slot": 16,
+   "target": "<on()><sp(20)>District A-34 has been\ndesignated a danger zone.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11836",
+   "text_id": 309,
+   "slot": 17,
+   "target": "<on()><sp(20)>If you can hear this broadcast, evacuate\nto the nearest shelter immediately.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11837",
+   "text_id": 310,
+   "slot": 18,
+   "target": "<on()><sp(20)>I repeat...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11838",
+   "text_id": 311,
+   "slot": 19,
+   "target": "<on()><sp(20)>Whoa!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11839",
+   "text_id": 312,
+   "slot": 20,
+   "target": "<on()><sp(20)>Is that... the Federation Forces?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11840",
+   "text_id": 313,
+   "slot": 21,
+   "target": "<on()><sp(20)>Gah!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11841",
+   "text_id": 314,
+   "slot": 22,
+   "target": "<on()><sp(20)>Run!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11842",
+   "text_id": 315,
+   "slot": 23,
+   "target": "<on()><sp(20)>A woman?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11843",
+   "text_id": 316,
+   "slot": 24,
+   "target": "<on()><sp(20)>Don't ask the impossible!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11844",
+   "text_id": 317,
+   "slot": 25,
+   "target": "<on()><sp(20)>Uaaaaaaah!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11845",
+   "text_id": 318,
+   "slot": 26,
+   "target": "<on()><sp(20)>Guh!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11846",
+   "text_id": 319,
+   "slot": 27,
+   "target": "<on()><sp(20)>Ngh!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11847",
+   "text_id": 320,
+   "slot": 28,
+   "target": "<on()><sp(20)>I'm going to die... here?\n...You're kidding, right...?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11848",
+   "text_id": 321,
+   "slot": 29,
+   "target": "<on()><sp(20)>That kid...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "Speaker and referent not marked; gender-neutral \"kid\" keeps the ambiguity."
+  },
+  {
+   "id": "dialogue_11849",
+   "text_id": 322,
+   "slot": 30,
+   "target": "<on()><sp(20)>Haa... haa...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11850",
+   "text_id": 323,
+   "slot": 31,
+   "target": "<on()><sp(20)>You there.\nIf you want to live, come over here...!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11851",
+   "text_id": 324,
+   "slot": 32,
+   "target": "<on()><sp(20)>What is this, all of a sudden...?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11852",
+   "text_id": 325,
+   "slot": 33,
+   "target": "<on()><sp(20)>Haa...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11853",
+   "text_id": 326,
+   "slot": 34,
+   "target": "<on()><sp(20)>Hurry!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11854",
+   "text_id": 327,
+   "slot": 35,
+   "target": "<on()><sp(20)>I was furious at myself for having hoped something would happen.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11855",
+   "text_id": 328,
+   "slot": 36,
+   "target": "<on()><sp(20)>Phew...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11856",
+   "text_id": 329,
+   "slot": 37,
+   "target": "<on()><sp(20)>Hm?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11857",
+   "text_id": 330,
+   "slot": 38,
+   "target": "<on()><sp(20)>I'm Faye.\nLieutenant Faye Rochenante.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11858",
+   "text_id": 331,
+   "slot": 39,
+   "target": "<on()><sp(20)>I'm a pilot with the Federation Forces.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11859",
+   "text_id": 332,
+   "slot": 40,
+   "target": "<on()><sp(20)>I-I'm...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11860",
+   "text_id": 333,
+   "slot": 41,
+   "target": "<on()><sp(20)>Here they come... We'll talk later!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11861",
+   "text_id": 334,
+   "slot": 42,
+   "target": "<on()><sp(20)>H-hey, wait!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11862",
+   "text_id": 335,
+   "slot": 43,
+   "target": "<on()><sp(20)>Stop!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "Object omitted in the source (stop it / stop the machine); bare imperative kept."
+  },
+  {
+   "id": "dialogue_11863",
+   "text_id": 336,
+   "slot": 44,
+   "target": "<on()><sp(20)>Ugh!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11864",
+   "text_id": 337,
+   "slot": 45,
+   "target": "<on()><sp(20)>Hey, boy!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "Source explicitly says boy; Hey marks it as a call, not an exclamation."
+  },
+  {
+   "id": "dialogue_11865",
+   "text_id": 338,
+   "slot": 46,
+   "target": "<on()><sp(20)>Uwaah!!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11866",
+   "text_id": 339,
+   "slot": 47,
+   "target": "<on()><sp(20)>Kh!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11867",
+   "text_id": 340,
+   "slot": 48,
+   "target": "<on()><sp(20)>U-ugh...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11868",
+   "text_id": 341,
+   "slot": 49,
+   "target": "<on()><sp(20)>Ugh, how could you?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11869",
+   "text_id": 342,
+   "slot": 50,
+   "target": "<on()><sp(20)>\"Get in and you'll be fine,\" huh...!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "Source omits who said it; quoted form avoids inventing a subject."
+  },
+  {
+   "id": "dialogue_11870",
+   "text_id": 343,
+   "slot": 51,
+   "target": "<on()><sp(20)>Semi-auto fire control can't keep up\nwith unit control. Not enough tuning...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11871",
+   "text_id": 344,
+   "slot": 52,
+   "target": "<on()><sp(20)>The school...\nWhat are those things?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11872",
+   "text_id": 345,
+   "slot": 53,
+   "target": "<on()><sp(20)>I've seen them on the news, but...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11873",
+   "text_id": 346,
+   "slot": 54,
+   "target": "<on()><sp(20)>...What now...?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "Subject omitted in the source; \"What now\" avoids choosing I or we."
+  },
+  {
+   "id": "dialogue_11874",
+   "text_id": 347,
+   "slot": 55,
+   "target": "<on()><sp(20)>Are you even listening!?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11875",
+   "text_id": 348,
+   "slot": 56,
+   "target": "<on()><sp(20)>Do something!\nYou're a Federation pilot, aren't you!?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11876",
+   "text_id": 349,
+   "slot": 57,
+   "target": "<on()><sp(20)>You...<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11877",
+   "text_id": 350,
+   "slot": 58,
+   "target": "<on()><sp(20)>You don't... want to die, do you?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_01389",
+   "text_id": 351,
+   "slot": 59,
+   "target": "<on()><sp(20)>Huh?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11878",
+   "text_id": 352,
+   "slot": 60,
+   "target": "<on()><sp(20)>I'm asking if you want to live!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11879",
+   "text_id": 353,
+   "slot": 61,
+   "target": "<on()><sp(20)>O-of course I do!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "353 and 354 are alternative stored takes of one reply (rougher / softer sentence ending). English does not mark the difference."
+  },
+  {
+   "id": "dialogue_11880",
+   "text_id": 354,
+   "slot": 62,
+   "target": "<on()><sp(20)>O-of course I do!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "See 353."
+  },
+  {
+   "id": "dialogue_11881",
+   "text_id": 355,
+   "slot": 63,
+   "target": "<on()><sp(20)>Switching to Operation B2...\nFire control to manual.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11882",
+   "text_id": 356,
+   "slot": 64,
+   "target": "<on()><sp(20)>I've handed you unit control.\n...Now we do what we can.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11883",
+   "text_id": 357,
+   "slot": 65,
+   "target": "<on()><sp(20)>...Wh-what do you mean?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11884",
+   "text_id": 358,
+   "slot": 66,
+   "target": "<on()><sp(20)>I'm entrusting... everything to you.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11885",
+   "text_id": 359,
+   "slot": 67,
+   "target": "<on()><sp(20)>Nothing here.<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "Looks like a placeholder line (\"there is nothing\"); translated literally, may never display."
+  },
+  {
+   "id": "dialogue_11886",
+   "text_id": 360,
+   "slot": 68,
+   "target": "<on()><sp(20)>Get down!<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_11887",
+   "text_id": 361,
+   "slot": 69,
+   "target": "<on()><sp(20)>Wh-what the...?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "No object in the source."
+  },
+  {
+   "id": "dialogue_11888",
+   "text_id": 362,
+   "slot": 70,
+   "target": "<on()><sp(20)>C-coming this way!?<ab(10000)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "No subject in the source; singular or plural left open."
+  }
+ ]
+}

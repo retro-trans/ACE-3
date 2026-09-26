@@ -1,0 +1,165 @@
+{
+ "resource_id": 4003250,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 16,
+ "rows_examined": 16,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "19B Rescue Eureka",
+   "notes": "Released mission title reused verbatim from missions_019.json.",
+   "source_sha256": "f2f5b28aa95647129b59746ea47732dc7e4fb8a040607f1da3a2d31145a47bdb"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)>Everyone's here. By intercepting <book(38)>New Federation<endbook()> comms, we have a lead on <color(4)>Renton<ce()>'s whereabouts.",
+   "notes": "Speaker 30060 = Jamil Neate. Orchestrator: shortened to fit three lines.",
+   "source_sha256": "488818ce3229358382da7979e214b7d407b9d0fdf8066b2dd058422bdab23efb"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>He's currently<thumbnail(256)> under the protection of a <book(38)>New Federation<endbook()>-hired <book(39)>Vulture<endbook()> ship. A warship called the <color(6)>Swan<ce()>.",
+   "notes": "'Vulture' per character_names_021/glossary lock. 'Swan' for the ship name (Eureka Seven wiki page title, Charles/Ray Beams's SL-1200 MkI) follows the precedent already used and proposed in reviewed scene 4004633.json; not yet promoted to terms_028.json/glossary.json. Phrasing reordered so New Federation precedes Vulture, matching the source's tag order.",
+   "source_sha256": "4bada49bbee76525e8a5fd898719e78b8677f87793ad0d618571cd1f7c6944f8"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>Right now that ship is anchored off the island with a <book(38)>New Federation<endbook()> research facility - <book(45)>Zonder Epta<endbook()>.",
+   "notes": "Zonder Epta per meeting_terms_015.json lock. Reordered so New Federation precedes Zonder Epta, matching source tag order.",
+   "source_sha256": "6619bcbdecf20111cb2f13a4d5f62ae1ab0ae8a19fdec092cfbde7683c408051"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)><book(39)>Vulture<endbook()> or not, their employer is the <book(38)>New Federation<endbook()>. It would be bad if <color(4)>Renton<ce()>'s identity got out.",
+   "notes": "",
+   "source_sha256": "3f3ab635c5fc4ac38be7a00cd05c7b3565cc50a8d50bc72abda279e31279bbd2"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>We need to go rescue him as soon as possible... but one bad thing has happened.",
+   "notes": "",
+   "source_sha256": "0c90ee242f0807959fcf9592bae559807c4bc9cce379cfb7a1b3feb532d55564"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30060,1)><speed(2)>A moment ago, <color(4)>Eureka<ce()><thumbnail(257)>, having heard about this, took off alone on a ref board to go after <color(4)>Renton<ce()>.",
+   "notes": "'ref board' for rifubo-do per encyclopedia_021_b.json LFO entry lock.",
+   "source_sha256": "bff191443c36ddf61f7b133de68c6bd304050f3ac04f62194c7ab593efe0095c"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30060,1)><speed(2)>Where she headed is, of course, <book(45)>Zonder Epta<endbook()> Island.",
+   "notes": "'she' sourced (Eureka, female per character_names_021.json).",
+   "source_sha256": "19ce47df25295590de2b53ca83551958d2201fcee425a8897ba323d3c008de16"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30060,1)><speed(2)>At this rate, not only <color(4)>Renton<ce()> but <color(4)>Eureka<ce()> too will be caught by the <book(38)>New Federation<endbook()>. We have to get to them before that happens.",
+   "notes": "'Not only' used instead of 'not just' to avoid the lowercase j.",
+   "source_sha256": "0291614a96f9435a388574e13562afe05ac3ced38c0b47216c01719c7c7dd8e3"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30060,1)><speed(2)>So, we're now carrying out a rescue operation for <color(4)>Eureka<ce()>.",
+   "notes": "",
+   "source_sha256": "692872397ce747c59d697660d4a8b5084c851ce928f0678f798364eb0cad03c2"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30060,1)><speed(2)>The <color(4)>Gekko<ce()><thumbnail(176)> is already back too. We're heading out right away.",
+   "notes": "'Gekko' for the ship name (Gekkou-gou) per meeting_terms_015.json lock.",
+   "source_sha256": "b0f1a2c7380e81aebbeb476dca274ed8f8ef21116f2b856bd4acafb006945621"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30110,1)><speed(2)>Getting <color(4)>Eureka<ce()> out fast is top priority. The enemy's already noticed us. Risky, but this will be a head-on fight.",
+   "notes": "Speaker 30110 = Holland Novak.",
+   "source_sha256": "e6ef4dbc9740af45b46aeb96eb8808192ee2d5b81028ac7874c5ae5ffe1973ae"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>Sorry to drag you into our mess. But <color(4)>Eureka<ce()> is someone we can't do without.",
+   "notes": "",
+   "source_sha256": "491d611b3164b505a969fd005f42d3202525d007e7c679946d29a00076c6f197"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30110,1)><speed(2)>...Please make sure you save her!",
+   "notes": "'her' sourced (Eureka, addressed a few lines earlier).",
+   "source_sha256": "287010112924db242daac3e4916e49fa0e0254cc75b1285d683315c5b66352a1"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<topic()><operator(30120,1)><speed(2)>The <book(61)>Nirvash<endbook()><thumbnail(258)>'s spec-up is already finished.",
+   "notes": "Speaker 30120 = Talho Yuki.",
+   "source_sha256": "97e182f4689d97e3d3796759182c575242ad63546947db979ef6b0bccae67f35"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30120,1)><speed(2)>But it's no good without <color(4)>Eureka<ce()> and <color(4)>Renton<ce()>. Make sure you bring the two of them back.",
+   "notes": "",
+   "source_sha256": "618ba20a48601741554b28e7ad5f7fda0ceda8f5357a24b257183e468203cfd5"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "'Swan' (Charles and Ray Beams's ship, 白鳥号) is only sourced from a reviewed scene's glossary_proposals (4004633.json), not yet promoted into terms_028.json or glossary.json; kept for consistency, orchestrator should promote it."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 16,
+  "rows_in_scene": 16,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019.json '19B Rescue Eureka'.",
+   "Speaker 30060 confirmed Jamil Neate (slots 19-28), 30110 confirmed Holland Novak (slots 29-31), 30120 confirmed Talho Yuki (slots 32-33) via tools/speaker_lookup.py.",
+   "Slot 20 ruling (orchestrator): 'Swan' is locked - kept as-is. Not yet in terms_028.json/glossary.json; consistent with the precedent in reviewed scene 4004633.json. Orchestrator should promote it to the glossary.",
+   "Slot 20 name-lock check: 'Vulture' and 'New Federation' tag order (New Federation before Vulture) matches source tag order.",
+   "Slot 21/25 'Zonder Epta' spelling matches meeting_terms_015.json / mission_terms_019.json.",
+   "Slot 26 'get to them before that happens' for hogo seneban naran (must protect/take them in) is a slightly loose but not incorrect rendering given the mission is itself a rescue operation; kept.",
+   "Slot 28 'Gekko' matches meeting_terms_015.json lock.",
+   "Tag sequence verified identical and in source order for every row via a throwaway script comparing tools/scene_source.py output against each row's en field.",
+   "No lowercase j/q found outside locked names; no bare %; no newlines; ASCII only; all rows within the 128 visible-char limit (max 126)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: 'Swan' has no entry yet in terms_028.json or glossary.json; kept per orchestrator ruling that it is locked, but the glossary files themselves still need the entry added.",
+   "Slot 26: 'get to them' vs a more literal 'protect them' for hogo - meaning is compatible with the scene's rescue framing but is a paraphrase worth a second look if a future translator finds the wording too soft."
+  ]
+ }
+}

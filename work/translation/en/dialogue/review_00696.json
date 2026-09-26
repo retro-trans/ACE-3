@@ -1,0 +1,18 @@
+{
+  "slice_start": 696,
+  "slice_count": 80,
+  "reviewer": "translate_dialogue_241",
+  "rows_examined": [[681, 790]],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_type": "independent meaning review against ISO source and both adjacent contexts",
+  "corrections": [],
+  "uncertainties": [
+    {"ids": ["dialogue_00735", "dialogue_00736", "dialogue_00750"], "note": "The support-unit name Flail remains provisional. Leave unchanged for the orchestrator's terminology pass; its support role and unmanned nature are correctly explained in751-752."},
+    {"id": "dialogue_00698", "note": "The carrier is correctly attached to the enemy main force by the sentence's grammatical link. The translation does not substitute the allied Nadesico."},
+    {"id": "dialogue_00724", "note": "The subject of the earlier fight remains omitted. The draft correctly avoids deciding who fought the enemy before."},
+    {"ids": ["dialogue_00708", "dialogue_00709", "dialogue_00741", "dialogue_00757"], "note": "Harry is a nickname distinct from formal Hari Makibi, supported in the neighboring batch's research proposals. No name changes made during meaning review."},
+    {"ids": ["dialogue_00739", "dialogue_00740", "dialogue_00742"], "note": "Stammers are relocated to the first appropriate English syllable; no information is lost by that localization."}
+  ],
+  "result": "No meaning corrections required. All80 translations reviewed in context. This status does not certify glossary finalization, subtitle layout or runtime behavior."
+}

@@ -1,0 +1,3436 @@
+{
+ "version": "0.1.22",
+ "review": {
+  "status": "meaning_reviewed"
+ },
+ "longest_pages": [
+  [
+   480,
+   39
+  ],
+  [
+   456,
+   18
+  ],
+  [
+   441,
+   1
+  ],
+  [
+   440,
+   58
+  ],
+  [
+   438,
+   33
+  ],
+  [
+   435,
+   10
+  ],
+  [
+   428,
+   29
+  ],
+  [
+   421,
+   77
+  ],
+  [
+   413,
+   52
+  ],
+  [
+   412,
+   38
+  ],
+  [
+   404,
+   20
+  ],
+  [
+   401,
+   12
+  ]
+ ],
+ "categories": [
+  {
+   "table_id": 3018,
+   "reference_bundle": 4002050,
+   "complete": true,
+   "category": "Encyclopedia term names",
+   "rows": [
+    {
+     "slot": 0,
+     "text_id": 1,
+     "source": "バルドナ・ドライブ",
+     "en": "Baldora Drive",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 1,
+     "text_id": 2,
+     "source": "バルドナ・チャージ",
+     "en": "Baldora Charge",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 2,
+     "text_id": 3,
+     "source": "ワームホール",
+     "en": "Wormhole",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 3,
+     "text_id": 4,
+     "source": "第一次防衛戦争",
+     "en": "First Defense War",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 4,
+     "text_id": 5,
+     "source": "ガンアーク",
+     "en": "Gun Ark",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 5,
+     "text_id": 6,
+     "source": "フレイル",
+     "en": "Flail",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 6,
+     "text_id": 7,
+     "source": "フィールドジェネレータ",
+     "en": "Field Generator",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 7,
+     "text_id": 8,
+     "source": "自走兵器",
+     "en": "Self-Propelled Gun",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 8,
+     "text_id": 9,
+     "source": "地球連邦",
+     "en": "Earth Federation",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 9,
+     "text_id": 10,
+     "source": "ロンド・ベル",
+     "en": "Londo Bell",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 10,
+     "text_id": 11,
+     "source": "ラー・カイラム",
+     "en": "Ra Cailum",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 11,
+     "text_id": 12,
+     "source": "ネオ・ジオン",
+     "en": "Neo Zeon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 12,
+     "text_id": 13,
+     "source": "５ｔｈルナ",
+     "en": "5th Luna",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 13,
+     "text_id": 14,
+     "source": "アクシズ",
+     "en": "Axis",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 14,
+     "text_id": 15,
+     "source": "ラサ",
+     "en": "Lhasa",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 15,
+     "text_id": 16,
+     "source": "アナハイム",
+     "en": "Anaheim",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 16,
+     "text_id": 17,
+     "source": "スウィートウォーター",
+     "en": "Sweetwater",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 17,
+     "text_id": 18,
+     "source": "ギガノス",
+     "en": "Giganos",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 18,
+     "text_id": 19,
+     "source": "ドラグーン",
+     "en": "Dragoon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 19,
+     "text_id": 20,
+     "source": "ナデシコＢ",
+     "en": "Nadesico B",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 20,
+     "text_id": 21,
+     "source": "ナデシコＣ",
+     "en": "Nadesico C",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 21,
+     "text_id": 22,
+     "source": "テンカワ夫妻",
+     "en": "The Tenkawas",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 22,
+     "text_id": 23,
+     "source": "ヒサゴプラン",
+     "en": "Hisago Plan",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 23,
+     "text_id": 24,
+     "source": "ターミナルコロニー",
+     "en": "Terminal Colony",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 24,
+     "text_id": 25,
+     "source": "シラヒメ",
+     "en": "Shirahime",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 25,
+     "text_id": 26,
+     "source": "アマテラス",
+     "en": "Amaterasu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 26,
+     "text_id": 27,
+     "source": "ジャンパー",
+     "en": "Jumper",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 27,
+     "text_id": 28,
+     "source": "遺跡ユニット",
+     "en": "Ruins Unit",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 28,
+     "text_id": 29,
+     "source": "火星の後継者",
+     "en": "Martian Successors",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 29,
+     "text_id": 30,
+     "source": "ボソンジャンプ",
+     "en": "Boson Jump",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 30,
+     "text_id": 31,
+     "source": "ネルガル重工",
+     "en": "Nergal Heavy Ind.",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 31,
+     "text_id": 32,
+     "source": "イワト",
+     "en": "Iwato",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 32,
+     "text_id": 33,
+     "source": "マクロス",
+     "en": "Macross",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 33,
+     "text_id": 34,
+     "source": "バルキリー",
+     "en": "Valkyrie",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 34,
+     "text_id": 35,
+     "source": "ゼントラーディ",
+     "en": "Zentradi",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 35,
+     "text_id": 36,
+     "source": "バイストン・ウェル",
+     "en": "Byston Well",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 36,
+     "text_id": 37,
+     "source": "ＧＸ－９９００",
+     "en": "GX-9900",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 37,
+     "text_id": 38,
+     "source": "新連邦",
+     "en": "New Federation",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 38,
+     "text_id": 39,
+     "source": "バルチャー",
+     "en": "Vulture",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 39,
+     "text_id": 40,
+     "source": "フィクス・ブラッドマン",
+     "en": "Fixx Bloodman",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 40,
+     "text_id": 41,
+     "source": "ローレライの海",
+     "en": "Sea of Lorelei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 41,
+     "text_id": 42,
+     "source": "宇宙革命軍",
+     "en": "Space Rev. Army",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 42,
+     "text_id": 43,
+     "source": "Ｌシステム",
+     "en": "L System",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 43,
+     "text_id": 44,
+     "source": "Ｇビット",
+     "en": "G-Bit",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 44,
+     "text_id": 45,
+     "source": "ゾンダーエプタ",
+     "en": "Zonder Epta",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 45,
+     "text_id": 46,
+     "source": "Ｄ．Ｏ．Ｍ．Ｅ．",
+     "en": "D.O.M.E.",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 46,
+     "text_id": 47,
+     "source": "真ゲッター",
+     "en": "Shin Getter",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 47,
+     "text_id": 48,
+     "source": "真ドラゴン",
+     "en": "Shin Dragon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 48,
+     "text_id": 49,
+     "source": "インベーダー",
+     "en": "Invaders",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 49,
+     "text_id": 50,
+     "source": "タワー",
+     "en": "Tower",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 50,
+     "text_id": 51,
+     "source": "ゲッター線",
+     "en": "Getter Rays",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 51,
+     "text_id": 52,
+     "source": "重陽子ミサイル",
+     "en": "Deuteron Missile",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 52,
+     "text_id": 53,
+     "source": "月面インベーダー戦争",
+     "en": "Moon Invader War",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 53,
+     "text_id": 54,
+     "source": "ドームポリス",
+     "en": "Domepolis",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 54,
+     "text_id": 55,
+     "source": "エクソダス",
+     "en": "Exodus",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 55,
+     "text_id": 56,
+     "source": "シベリア鉄道",
+     "en": "Siberian Railway",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 56,
+     "text_id": 57,
+     "source": "シルエット・マシン",
+     "en": "Silhouette Machine",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 57,
+     "text_id": 58,
+     "source": "オーバーマン",
+     "en": "Overman",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 58,
+     "text_id": 59,
+     "source": "リマン・メガロポリス",
+     "en": "Liman Megalopolis",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 59,
+     "text_id": 60,
+     "source": "ゲッコーステイト",
+     "en": "Gekkostate",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 60,
+     "text_id": 61,
+     "source": "ニルヴァーシュ",
+     "en": "Nirvash",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 61,
+     "text_id": 62,
+     "source": "セブンスウェル",
+     "en": "Seven Swell",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 62,
+     "text_id": 63,
+     "source": "アミタ・ドライヴ",
+     "en": "Amita Drive",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 63,
+     "text_id": 64,
+     "source": "コンパク・ドライヴ",
+     "en": "Compac Drive",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 64,
+     "text_id": 65,
+     "source": "ＬＦＯ",
+     "en": "LFO",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 65,
+     "text_id": 66,
+     "source": "ＫＬＦ",
+     "en": "KLF",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 66,
+     "text_id": 67,
+     "source": "アーキタイプ",
+     "en": "Archetype",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 67,
+     "text_id": 68,
+     "source": "アドロック・サーストン",
+     "en": "Adroc Thurston",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 68,
+     "text_id": 69,
+     "source": "スカブコーラル",
+     "en": "Scub Coral",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 69,
+     "text_id": 70,
+     "source": "トラパー",
+     "en": "Trapar",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 70,
+     "text_id": 71,
+     "source": "スカブコーラル知性体仮説",
+     "en": "Scub Mind Theory",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 71,
+     "text_id": 72,
+     "source": "コーラリアン",
+     "en": "Coralian",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 72,
+     "text_id": 73,
+     "source": "抗体コーラリアン",
+     "en": "Antibody Coralian",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 73,
+     "text_id": 74,
+     "source": "クテ級コーラリアン",
+     "en": "Kute-class Coralian",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 74,
+     "text_id": 75,
+     "source": "ゾーン",
+     "en": "The Zone",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 75,
+     "text_id": 76,
+     "source": "約束の地",
+     "en": "Promised Land",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 76,
+     "text_id": 77,
+     "source": "クダンの限界",
+     "en": "Limit of Questions",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 77,
+     "text_id": 78,
+     "source": "アゲハ構想",
+     "en": "Ageha Plan",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 78,
+     "text_id": 79,
+     "source": "グレートウォール",
+     "en": "Great Wall",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 79,
+     "text_id": 80,
+     "source": "司令クラスター",
+     "en": "Command Cluster",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 80,
+     "text_id": 81,
+     "source": "オレンジ",
+     "en": "Orange",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 81,
+     "text_id": 82,
+     "source": "オレンジ作戦",
+     "en": "Operation Orange",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 82,
+     "text_id": 83,
+     "source": "ヴォダラク",
+     "en": "Vodarac",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 83,
+     "text_id": 84,
+     "source": "トレゾア技研",
+     "en": "Tresor Institute",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 84,
+     "text_id": 85,
+     "source": "スーパー・ノヴァ計画",
+     "en": "Project Super Nova",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 85,
+     "text_id": 86,
+     "source": "ゴーストＸ－９",
+     "en": "Ghost X-9",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 86,
+     "text_id": 87,
+     "source": "シャロン・アップル",
+     "en": "Sharon Apple",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 87,
+     "text_id": 88,
+     "source": "マクロスシティ",
+     "en": "Macross City",
+     "dialog": false,
+     "limit": 220
+    }
+   ]
+  },
+  {
+   "table_id": 3019,
+   "reference_bundle": 4002050,
+   "complete": true,
+   "page_text": true,
+   "category": "Encyclopedia pages",
+   "rows": [
+    {
+     "slot": 0,
+     "text_id": 1,
+     "source": "超長距離の空間跳躍技術を実現するため、\n<book(9)>地球連邦<endbook()>の前身の政府機関により建造された施設。\n\n開発研究者のジル・バルドナにより発見された\n未知の素粒子「バルドナ粒子」を基礎技術とする。\n\n研究は実用レベルまで進んでいたが、\n完成を目前にして、施設の暴走によって\n関係者全員が消失する事故が発生。\n\nこの一件以来、\nバルドナ・ドライブの開発は凍結され、\nその存在自体も公式記録から抹消されていた。",
+     "en": "A facility built by a government body that\npreceded the <book(9)>Earth Federation<endbook()> to achieve\nultra-long-range space-leap technology.\n\nIts basis is the \"Baldora particle,\" an\nunknown elementary particle found by\nR&D scientist Jill Bardona.\n\nResearch reached a practical level, but on\nthe eve of completion the facility ran wild\nand all involved vanished.\n\nSince then its development had been frozen\nand its very existence erased from official\nrecords.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 1,
+     "text_id": 2,
+     "source": "バルドナ粒子の観測量を基準に算出された\n<book(3)>ワームホール<endbook()>開口の進行度。\n\nこの数値が１００％になった時、\n<book(1)>バルドナ・ドライブ<endbook()>は完全稼動し、\nワームホールが完全に開口すると\n予測されている。",
+     "en": "The progress of the <book(3)>Wormhole<endbook()>'s opening,\ncalculated from the observed amount of\nBaldora particles.\n\nWhen this value reaches 100％, the\n<book(1)>Baldora Drive<endbook()> is predicted to be fully\nactive and the wormhole fully open.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 2,
+     "text_id": 3,
+     "source": "異なる時空を繋ぐトンネルのような存在。\n<book(1)>バルドナ・ドライブ<endbook()>の起動により発生し、\n<book(2)>バルドナ・チャージ<endbook()>の上昇に伴い拡大を\n続けている。\n\n開口の過程では接続が不安定なため\n両方の空間が影響を与え合う事はないが、\n完全な開口状態となった時に\n二つの空間が物理的に接続され、\n二つの地球が引力の影響による崩壊を\n起こすと予測されている。",
+     "en": "A tunnel-like entity linking different\nspace-times. It arose when the\n<book(1)>Baldora Drive<endbook()> was started and keeps\nexpanding as the <book(2)>Baldora Charge<endbook()> rises.\n\nWhile it is opening, the link is unstable, so\nthe two spaces do not affect each other.\nOnce it is fully open, however, the two\nspaces will be physically connected, and\nthe two Earths are predicted to collapse\nunder the influence of gravity.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 3,
+     "text_id": 4,
+     "source": "３年前に起こった地球外勢力に対する防衛戦争。\n\n<book(35)>ゼントラーディ<endbook()>艦隊や木星連合、他星系からの\n侵攻勢力が集う大規模な戦いとなった。\n\nボドルザー率いる<book(35)>ゼントラーディ<endbook()>艦隊との\n最終決戦において、地球の歌姫リン・ミンメイの歌が\n戦争を終結に導いた。\n\n詳細は\n「Ａｎｏｔｈｅｒ Ｃｅｎｔｕｒｙ’ｓ Ｅｐｉｓｏｄｅ ２」\nを参照。",
+     "en": "A defensive war fought three years ago\nagainst extraterrestrial forces.\n\nIt became a large-scale conflict that drew\nin the <book(35)>Zentradi<endbook()> fleet, the Jovian Federation\nand invaders from other star systems.\n\nIn the final battle with the <book(35)>Zentradi<endbook()> fleet\nled by Boddole Zer, the song of Earth's\ndiva Lynn Minmay brought the war to an\nend.\n\nFor details, see:\n\"Another Century's Episode 2\"",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 4,
+     "text_id": 5,
+     "source": "<book(4)>第一次防衛戦争<endbook()>前に開発された\n機動兵器。\n\nオーバーテクノロジーを応用した防衛砲を\n遠隔操作できる「ガーディアン・システム」を\n搭載していたが、戦後はシステム自体が\n破棄され、機体の運用も凍結された。",
+     "en": "A mobile weapon developed before the\n<book(4)>First Defense War<endbook()>.\n\nIt carried the \"Guardian System,\" which\nremotely controlled defense cannons built\nwith overtechnology, but after the war the\nsystem itself was scrapped and use of the\nunit was frozen.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 5,
+     "text_id": 6,
+     "source": "<book(9)>地球連邦<endbook()>の兵器研究所が開発した局地戦用の無人機。\n無人制御のため戦闘能力は低いが、\n低コストである利点と慢性的な人員不足から\n連邦軍全体で広く導入されている。",
+     "en": "An unmanned unit for local warfare\ndeveloped by an <book(9)>Earth Federation<endbook()> weapons\nlab. Being unmanned, its combat ability is\nlow, but its low cost and a chronic\nshortage of personnel have led to wide\nadoption across the Federation Forces.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 6,
+     "text_id": 7,
+     "source": "特定の領域に粒子フィールドを展開し、\n侵入した敵機にダメージを与える戦闘支援兵器。",
+     "en": "A combat support weapon that deploys a\nparticle field over a set area and damages\nenemy units that enter it.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 7,
+     "text_id": 8,
+     "source": "局地戦用の自走砲。\n艦艇の主砲以上の出力を持つ。",
+     "en": "A self-propelled gun for local warfare. Its\noutput matches or exceeds that of a\nwarship's main gun.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 8,
+     "text_id": 9,
+     "source": "<book(4)>第一次防衛戦争<endbook()>後に設立された合同政府。\n\nＵＣＥを母体に、和平を果たしたブリタイ艦隊や\nメルトランディ、クーデター後の木星連合が参加。\n\nスペースノイドに対する抑圧的な政策や\n<book(35)>ゼントラーディ<endbook()>移民への不十分な対応など、\n旧体制から変わらない面も多く残っている。",
+     "en": "A united government set up after the\n<book(4)>First Defense War<endbook()>.\n\nBuilt on the UCE, it took in the Britai\nfleet and the Meltrandi, who had made\npeace, and the post-coup Jovian\nFederation.\n\nMuch remains unchanged from the old\nregime, such as oppressive policies toward\nSpacenoids and an insufficient response to\n<book(35)>Zentradi<endbook()> immigrants.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 9,
+     "text_id": 10,
+     "source": "<book(4)>第一次防衛戦争<endbook()>後の軍の再編成に伴い、\n地球圏の治安維持を目的に設立された\n連邦軍外郭部隊。\n\n平時は連邦軍の命令により行動するが、\n独自判断で行動できる権限も有する。\n現在は多発する謎の小隕石落下の\n調査のため、アムロ・レイを小隊長とした\n特別編成部隊が地上任務に就いていた。\n\n総司令はミスマル・コウイチロウ。",
+     "en": "A Federation Forces auxiliary force set up\nto keep order in the Earth Sphere when the\nmilitary was reorganized after the\n<book(4)>First Defense War<endbook()>.\n\nIn peacetime it acts on Federation Forces\norders, but it also has authority to act at\nits own discretion. Lately a specially\nformed unit with Amuro Ray as platoon\nleader had been on ground duty to probe\nthe rash of mysterious small meteorite\nfalls.\n\nIts supreme commander is Kouichiro\nMisumaru.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 10,
+     "text_id": 11,
+     "source": "<book(10)>ロンド・ベル<endbook()>に所属する主力艦の一つ。\n\n砲撃戦能力とモビルスーツ運用能力を\n重視した主力艦艇である。\nナデシコとは別行動を取り、\n地球周辺の反連邦勢力の\n鎮圧任務に当たっている。\n\n艦長はブライト・ノア。",
+     "en": "One of the main ships of <book(10)>Londo Bell<endbook()>.\n\nA mainstay vessel that stresses gunnery\nand mobile suit operation. Acting apart\nfrom the Nadesico, it is tasked with\nsuppressing anti-Federation forces around\nEarth.\n\nIts captain is Bright Noa.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 11,
+     "text_id": 12,
+     "source": "シャア・アズナブルが興した反連邦組織。\n\n総帥であるシャアは、\n戦後も変わらぬスペースノイドへの圧政や\n地球圏に混乱を招いた原因は、\nニュータイプになりきれない地球人類のエゴに\nあると考え、独自に力を蓄えることを決意。\n自らに賛同する人々の力を背景に独自軍を組織した。",
+     "en": "An anti-Federation organization founded\nby Char Aznable.\n\nChar, its supreme leader, held that the\noppression of Spacenoids, unchanged even\nafter the war, and the turmoil brought to\nthe Earth Sphere stem from the ego of\nEarth's humanity, which cannot fully\nbecome Newtypes, and resolved to build up\nstrength independently. An army of\nChar's own was organized, backed by the\npower of like-minded people.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 12,
+     "text_id": 13,
+     "source": "<book(9)>地球連邦<endbook()>政府に資源衛星として\n利用されていた小惑星。",
+     "en": "An asteroid that was used by the\n<book(9)>Earth Federation<endbook()> government as a resource\nsatellite.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 13,
+     "text_id": 14,
+     "source": "かつてジオン公国が資源採集のために\n小惑星を利用してつくった宇宙要塞。\n核パルスエンジンで宇宙を移動することも可能。\n\n現在は<book(9)>地球連邦<endbook()>政府の管理下にある。",
+     "en": "A space fortress that the Principality of\nZeon once made from an asteroid in order\nto gather resources. It can also travel\nthrough space on nuclear pulse engines.\n\nIt is now under the control of the\n<book(9)>Earth Federation<endbook()> government.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 14,
+     "text_id": 15,
+     "source": "地球上の都市。\n<book(9)>地球連邦<endbook()>政府の本部が置かれている。",
+     "en": "A city on Earth. The HQ of the\n<book(9)>Earth Federation<endbook()> government is located\nhere.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 15,
+     "text_id": 16,
+     "source": "月を拠点とし、様々な分野での\n製造・販売を行う巨大複合企業。\n\n家電や船、飛行機などだけではなく、\n宇宙船やモビルスーツなど\n軍事兵器の製造も請け負う。\n\nどの勢力にも与さない中立の立場を\n貫いている。",
+     "en": "A giant conglomerate based on the Moon\nthat makes and sells products in many\nfields.\n\nBeyond home appliances, ships and aircraft,\nit also takes on production of military\nhardware such as spaceships and mobile\nsuits.\n\nIt holds to a neutral stance, siding with no\nfaction.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 16,
+     "text_id": 17,
+     "source": "難民の収容を目的に建造されたコロニー。\n\nシャア・アズナブルがこのコロニーの\n救世主として迎え入れられたことで、\n<book(12)>ネオ・ジオン<endbook()>の拠点となった。",
+     "en": "A colony built to house refugees.\n\nChar Aznable was welcomed as this\ncolony's savior, and so it became the base\nof <book(12)>Neo Zeon<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 17,
+     "text_id": 18,
+     "source": "地球側の圧政に対抗する目的で\n過去に月入植者たちが興した月面帝国。\n\n<book(4)>第一次防衛戦争<endbook()>当時、序盤こそは\n戦いを優位に進めるも、最終的には敗北した。\n\n終戦後は再編された<book(9)>地球連邦<endbook()>政府下に\n組み込まれる形になっていたが\n変わらないスペースノイドへの圧政、\n元ギガノス軍人の雇用問題への対応の遅れなど、\n連邦への不満から連邦軍を離脱する者も多数おり、\n反政府派が組織化されつつある。",
+     "en": "A lunar empire founded in the past by\nMoon settlers to resist Earth's oppression.\n\nIn the <book(4)>First Defense War<endbook()> it held the upper\nhand early on but was defeated in the end.\n\nAfter the war it was absorbed under the\nreorganized <book(9)>Earth Federation<endbook()> government.\nBut with the oppression of Spacenoids\nunchanged and slow action on employment\nfor ex-Giganos soldiers, many unhappy\nwith the Federation have left its forces,\nand an anti-government faction is taking\nshape.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 18,
+     "text_id": 19,
+     "source": "終戦後に<book(9)>地球連邦<endbook()>軍の主力兵器となった\n量産型メタルアーマー。\n\nドラグナー３機の性能を統合する形で\n開発された最新型。",
+     "en": "A mass-production Metal Armor that\nbecame the main weapon of the\n<book(9)>Earth Federation<endbook()> Forces after the war.\n\nThe latest model, developed by integrating\nthe capabilities of the three Dragonar\nunits.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 19,
+     "text_id": 20,
+     "source": "<book(10)>ロンド・ベル<endbook()>に所属する主力艦の一つ。\n先の戦争で活躍したナデシコの２代目に当たる。\n\nディストーションフィールド（次元歪曲防壁）や\nグラビティブラスト（重力波砲）など、\n旧ナデシコと同様に火星のロストテクノロジーを\n応用した機能を搭載し、オモイカネも移植されている。\n\n艦長はホシノ・ルリ少佐。",
+     "en": "One of the main ships of <book(10)>Londo Bell<endbook()>. It is\nthe second generation of the Nadesico,\nwhich served with distinction in the last\nwar.\n\nLike the old Nadesico, it carries functions\nbased on Martian lost technology, such as\nthe Distortion Field (a\ndimensional-distortion barrier) and Gravity\nBlast (a gravity-wave cannon), and\nOmoikane has been transplanted to it as\nwell.\n\nIts captain is Lt. Cmdr. Ruri Hoshino.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 20,
+     "text_id": 21,
+     "source": "<book(20)>ナデシコＢ<endbook()>の後継艦。\n単独<book(30)>ボソンジャンプ<endbook()>機能が搭載され、\n各性能も大幅に強化されている。\n\n艦長はホシノ・ルリ少佐。",
+     "en": "The successor to the <book(20)>Nadesico B<endbook()>. It is\nfitted with a solo <book(30)>Boson Jump<endbook()> function,\nand its overall performance has been\ngreatly enhanced.\n\nIts captain is Lt. Cmdr. Ruri Hoshino.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 21,
+     "text_id": 22,
+     "source": "<book(4)>第一次防衛戦争<endbook()>で活躍した戦艦ナデシコの\n艦長を務めたミスマル・ユリカと、\nコック兼パイロットのテンカワ・アキトのこと。\n\n終戦後、新婚旅行中のシャトル爆破事故で\n両名共に死亡。",
+     "en": "Refers to Yurika Misumaru, who captained\nthe battleship Nadesico that served with\ndistinction in the <book(4)>First Defense War<endbook()>, and\nAkito Tenkawa, its cook and pilot.\n\nAfter the war, both died in a shuttle\nexplosion during their honeymoon.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 22,
+     "text_id": 23,
+     "source": "<book(30)>ボソンジャンプ<endbook()>技術を利用した\n交通ネットワークの開発計画。\n\n超長距離を瞬時に移動可能な<book(30)>ボソンジャンプ<endbook()>で\n太陽系航路を構築するというもので、\nこれが実現されると、宇宙における交通手段が\n飛躍的に発展すると期待されている。",
+     "en": "A development plan for a transport\nnetwork using <book(30)>Boson Jump<endbook()> technology.\n\nIt would build routes across the solar\nsystem with the <book(30)>Boson Jump<endbook()>, which can\ncross ultra-long distances in an instant;\nonce realized, it is expected to bring\ndramatic advances in space transportation.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 23,
+     "text_id": 24,
+     "source": "<book(23)>ヒサゴプラン<endbook()>における交通網の要として\n作られたターミナル施設。\n\n戦艦のジャンプルートの通過拠点や\n一時停泊などに使用される。",
+     "en": "A terminal facility built as a hub of the\n<book(23)>Hisago Plan<endbook()> transport network.\n\nUsed as a waypoint on battleship Jump\nroutes, for temporary berthing and so on.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 24,
+     "text_id": 25,
+     "source": "<book(23)>ヒサゴプラン<endbook()>の計画下で作られた\n<book(24)>ターミナルコロニー<endbook()>の一つ。",
+     "en": "One of the <book(24)>Terminal Colonies<endbook()> built under\nthe <book(23)>Hisago Plan<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 25,
+     "text_id": 26,
+     "source": "<book(23)>ヒサゴプラン<endbook()>計画の中枢を担う\n<book(24)>ターミナルコロニー<endbook()>。\n\n普段は一般公開されており、見学も可能。",
+     "en": "The <book(24)>Terminal Colony<endbook()> at the core of the\n<book(23)>Hisago Plan<endbook()>.\n\nIt is normally open to the public and can\nbe toured.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 26,
+     "text_id": 27,
+     "source": "生体<book(30)>ボソンジャンプ<endbook()>が可能な人間のこと。\n\nジャンプをする際に、チューリップという\nゲートを介する必要がある者をＢ級、\n単体でのジャンプが実行可能な者を\nＡ級と定義している。",
+     "en": "A person capable of a biological\n<book(30)>Boson Jump<endbook()>.\n\nThose who must go through a gate called a\nChulip in order to Jump are defined as\nB-class, and those able to Jump on their\nown as A-class.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 27,
+     "text_id": 28,
+     "source": "<book(30)>ボソンジャンプ<endbook()>に必要なコントロールシステム。\n\n<book(4)>第一次防衛戦争<endbook()>における木連との戦いの後、\n破棄された。",
+     "en": "The control system needed for the\n<book(30)>Boson Jump<endbook()>.\n\nIt was discarded after the fight with the\nJovian Federation in the\n<book(4)>First Defense War<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 28,
+     "text_id": 29,
+     "source": "元木星連合軍人、草壁春樹が興した\nクーデター組織。\n\n<book(9)>地球連邦<endbook()>と木星連合が統合した事に反対し、\n<book(9)>地球連邦<endbook()>内部に多数存在していた\n元木連メンバーを引き連れ、\n木星連合の再興を目指して決起した。\n\n<book(23)>ヒサゴプラン<endbook()>は火星の後継者が\n影で推進していた計画であり、\n当初から<book(30)>ボソンジャンプ<endbook()>のシステムを奪取し、\n少ない戦力をカバーする手段として計算していた。\nアキトらＡ級<book(27)>ジャンパー<endbook()>を拉致していたのも\nそのためである。",
+     "en": "A coup group founded by ex-Jovian\nFederation officer Haruki Kusakabe.\n\nOpposed to the merger of the\n<book(9)>Earth Federation<endbook()> and the Jovian\nFederation, it rose up to revive the latter,\ntaking along the many ex-Jovian members\ninside the <book(9)>Earth Federation<endbook()>.\n\nIt secretly drove the <book(23)>Hisago Plan<endbook()>, counting\nfrom the start on seizing the <book(30)>Boson Jump<endbook()>\nsystem to offset its small forces. That is\nalso why it abducted Akito and other\nA-class <book(27)>Jumpers<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 29,
+     "text_id": 30,
+     "source": "古代火星人のテクノロジーを利用した瞬間移動手段。\n\n実際には時空間移動手段だが、\n時間移動はまだコントロール手段が\n確立されていない。\n\n生体ジャンプが行なえるのは<book(27)>ジャンパー<endbook()>のみで、\n現時点でＢ級以下の人間は<book(23)>ヒサゴプラン<endbook()>を\n通じてしかジャンプを行うことができない。\n\n正確なジャンプを行うにはＡ級<book(27)>ジャンパー<endbook()>、\nもしくはチューリップと呼ばれる装置が必要である。",
+     "en": "A means of teleportation using ancient\nMartian technology.\n\nIt is in fact travel through space-time, but\nno means of controlling travel through\ntime has been established yet.\n\nOnly <book(27)>Jumpers<endbook()> can make biological Jumps,\nand for now people of B-class or below can\nJump only via the <book(23)>Hisago Plan<endbook()>.\n\nAn accurate Jump needs an A-class <book(27)>Jumper<endbook()>\nor a device called a Chulip.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 30,
+     "text_id": 31,
+     "source": "アジア圏最大の企業グループ。\nその規模から、<book(9)>地球連邦<endbook()>に対しても\n強い発言力を有している。\n\n火星開発にも大きく関与しており、\n火星技術を応用してナデシコやエステバリスの\n開発も行った。",
+     "en": "The largest corporate group in the Asian\nsphere. Its scale gives it a strong voice\neven with the <book(9)>Earth Federation<endbook()>.\n\nIt is also deeply involved in Mars\ndevelopment, and used Martian technology\nto develop the Nadesico and the\nAestivalis.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 31,
+     "text_id": 32,
+     "source": "火星極冠遺跡にある\n<book(23)>ヒサゴプラン<endbook()>のセントラルポイントのこと。",
+     "en": "The central point of the <book(23)>Hisago Plan<endbook()>,\nlocated in the Martian polar cap ruins.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 32,
+     "text_id": 33,
+     "source": "過去に地球へ落下した異星人の戦闘艦を\n地球の技術で修復した戦艦。\n\nフォールドと呼ばれる空間跳躍航法や\n強攻型に変形できる可変構造など、\n現存の技術では実現不可能な機構が\n搭載されている。\n\n<book(4)>第一次防衛戦争<endbook()>では最前線で活躍したが、\n新鋭戦艦メガロードの就航により退役し、\n今は平和の象徴として<book(88)>マクロスシティ<endbook()>に\nその姿を留めている。",
+     "en": "A battleship restored with Earth\ntechnology from an alien warship that fell\nto Earth in the past.\n\nIt carries mechanisms impossible with\nexisting technology, such as a space-leap\nnavigation method called fold and a\nvariable structure that transforms into\nAttack mode.\n\nIt served on the front line in the\n<book(4)>First Defense War<endbook()>, but retired when the\nnew battleship Megaroad entered service,\nand now remains in <book(88)>Macross City<endbook()> as a\nsymbol of peace.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 33,
+     "text_id": 34,
+     "source": "３段可変機構を持つ人型機動兵器。\n\n戦闘機型のファイター形態、\n人型のバトロイド形態、その中間に当たる\nガウォーク形態に変形し、\nあらゆる戦局に対応可能な利点を持つ。\n\n先の戦争の主力として活躍し、\nそれ以来様々なバージョンが開発されている。",
+     "en": "A humanoid mobile weapon with a\nthree-stage variable mechanism.\n\nIt transforms among the fighter-plane\nFighter mode, the humanoid Battroid mode\nand the in-between GERWALK mode,\nwhich lets it handle any battle situation.\n\nIt served as the mainstay of the last war,\nand many versions have been developed\nsince.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 34,
+     "text_id": 35,
+     "source": "<book(4)>第一次防衛戦争<endbook()>後、地球に帰化した種族。\n元は戦闘能力に長けた巨人の種族だったが、\n地球への帰化に伴い、小型化した。\n\nしかし、<book(9)>地球連邦<endbook()>の不十分な移民政策や\n生来の戦闘本能故に、一部の移民による暴動が\n多発して社会問題化している。",
+     "en": "A race naturalized on Earth after the\n<book(4)>First Defense War<endbook()>. Once a race of giants\nskilled in combat, they were reduced in\nsize upon naturalization.\n\nHowever, because of the\n<book(9)>Earth Federation<endbook()>'s insufficient\nimmigration policy and their innate\nfighting instinct, riots by some immigrants\nbreak out often and have become a social\nproblem.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 35,
+     "text_id": 36,
+     "source": "海と大地の間に存在する世界。\n\n地上界での生を終えた魂が、\n再び転生するまでの間に休息の時を過ごす\n安息の地とされている。\n\n生命の発する「オーラ力」によって支えられ、\nこれを動力として動く人型機動兵器を\nオーラマシンという。",
+     "en": "A world that exists between the sea and\nthe land.\n\nIt is said to be a place of repose where\nsouls whose lives on Upper Earth have\nended rest until they are reborn.\n\nIt is sustained by the \"Aura Power\" that\nliving things emit, and the humanoid\nmobile weapons that run on it are called\nAura Machines.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 36,
+     "text_id": 37,
+     "source": "ＧＸ－９９００の形式番号を持つ\nニュータイプ専用モビルスーツ。\n\n地球とコロニーの間で繰り広げられた戦争に\nおいて、地球側の決戦兵器として投入された。\n\n月の施設からマイクロウェーブを受信して\n使用する高出力砲サテライトキャノンを有する。",
+     "en": "A mobile suit for Newtype use bearing the\nmodel number GX-9900.\n\nIt was fielded as the Earth side's decisive\nweapon in the war waged between Earth\nand the colonies.\n\nIt has the Satellite Cannon, a high-output\ncannon fired by receiving microwaves from\na lunar facility.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 37,
+     "text_id": 38,
+     "source": "<book(40)>フィクス・ブラッドマン<endbook()>率いる地球政府。\n\nかつては塔州連邦という組織であったが、\n<book(40)>フィクス・ブラッドマン<endbook()>の台頭によって\n現体制へ移行した。　\n\n<book(42)>宇宙革命軍<endbook()>の根絶やしを図り、地球とコロニーの\n両方を自らの統治下に置く事を目的としている。　\n\nそのためにニュータイプの確保や\n未知の技術の軍事転用など、\n急激な軍拡を推し進めている。",
+     "en": "The Earth government led by\n<book(40)>Fixx Bloodman<endbook()>.\n\nOnce an organization called the United\nFederation of Predgio Towers, it shifted to\nthe current regime with the rise of\n<book(40)>Fixx Bloodman<endbook()>.\n\nIt seeks to root out the <book(42)>Space Rev. Army<endbook()>\nand aims to place both Earth and the\ncolonies under its own rule.\n\nTo that end it is pushing a rapid military\nbuildup, such as securing Newtypes and\nturning unknown technology to military\nuse.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 38,
+     "text_id": 39,
+     "source": "第７次宇宙戦争以後から出没している\nグループの総称。\n廃棄された軍事兵器などを漁って\n売りさばいているため、ハゲタカに例え\nこの名前で呼ばれている。\n\n基本的に戦艦やＭＳ等で武装し、\n用心棒や傭兵を雇っていることもある。\n\n大半は無法者や強盗まがいの者達であるため\n一般的には良くは思われていない。\n物資売買の行商のみを行うフリーデンや\n雑誌「ray=out」を発行し、\nリフボードのカリスマ的集団である\n<book(60)>ゲッコーステイト<endbook()>なども、一般的には\nバルチャーとして認識されている。",
+     "en": "General name for groups seen since the 7th\nSpace War. As they scavenge and sell off\nabandoned military hardware, they are\nlikened to vultures and so named.\n\nThey are usually armed with battleships,\nMS, etc., and some hire bodyguards or\nmercenaries.\n\nAs most are outlaws or near-robbers, they\nare generally ill regarded. The Freeden,\nwhich only peddles goods, and <book(60)>Gekkostate<endbook()>,\nthe charismatic ref board group that puts\nout the magazine \"ray=out\", are generally\nseen as Vultures too.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 39,
+     "text_id": 40,
+     "source": "現在の<book(38)>新連邦<endbook()>の最高権力者。\n\n第七次宇宙戦争後に組織された\n連邦再生委員会のリーダーでもあった。\n\n塔州連邦の長であった三賢人を退け、\n塔州連邦に変わり、<book(38)>新連邦<endbook()>政府の樹立を宣言した。",
+     "en": "The current supreme ruler of the\n<book(38)>New Federation<endbook()>.\n\nAlso led the Federation Reconstruction\nCommittee formed after the 7th Space\nWar.\n\nOusted the three Sages who headed the\nUnited Federation of Predgio Towers and\ndeclared the founding of the\n<book(38)>New Federation<endbook()> government in its place.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 40,
+     "text_id": 41,
+     "source": "船舶の計器を狂わせて\n海に沈めてしまうという迷信のある海域。\n\nローレライ伝説にちなんでこう呼ばれている。",
+     "en": "A sea area where, superstition has it,\nships' instruments go haywire and the\nships are sent to the bottom.\n\nIt is so called after the Lorelei legend.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 41,
+     "text_id": 42,
+     "source": "第七次宇宙戦争時、\n地球からの独立自治を目指して\n戦っていたコロニーの反乱軍。\n\n激しい攻防の末、多くの無人コロニーを\n地球に落下させて甚大な被害をもたらした。\n\n今現在も地球側と対立状態にあり、\n地球への侵攻の準備を進めている。",
+     "en": "The colony rebel army that fought for\nindependence and self-rule from Earth\nduring the 7th Space War.\n\nAfter fierce fighting, it dropped many\nuninhabited colonies on Earth, causing\nenormous damage.\n\nEven now it remains opposed to the Earth\nside and is preparing to invade Earth.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 42,
+     "text_id": 43,
+     "source": "一定範囲内の電子機器を使用不能にする兵器。\n旧連邦軍の手により開発された。\n\n戦時中に精神を崩壊させたニュータイプである\nルチル・リリアントの憎しみの心が\nシステムに組み込まれている。",
+     "en": "A weapon that disables electronic devices\nwithin a set range. It was developed by\nthe old Federation Forces.\n\nBuilt into the system is the hatred of\nLucille Liliant, a Newtype whose mind was\nshattered during the war.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 43,
+     "text_id": 44,
+     "source": "フラッシュシステムを搭載したガンダム専用に\n開発された、無人のビットモビルスーツ。\n\nニュータイプの精神波で操り、\nニュータイプ一人で部隊クラスの数の\n機動兵器を同時に遠隔操作することが可能。",
+     "en": "Unmanned bit mobile suits developed for\nGundams fitted with the Flash System.\n\nSteered by a Newtype's mental waves,\nthey let a single Newtype remotely operate\na whole unit's worth of mobile weapons at\nonce.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 44,
+     "text_id": 45,
+     "source": "<book(38)>新連邦<endbook()>の所有する人工島。\n\n新兵器の研究がなされているという噂がある。",
+     "en": "A man-made island owned by the\n<book(38)>New Federation<endbook()>.\n\nRumor has it that new weapons are being\nresearched there.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 45,
+     "text_id": 46,
+     "source": "月面に存在する謎の基地施設。\n旧時代の遺産が封じられていると言われている。\n\nガンダムＸのサテライトシステムに\nマイクロウェーブを送信する施設でもある。",
+     "en": "A mysterious base facility on the Moon. A\nlegacy of the old era is said to be sealed\ninside.\n\nIt is also the facility that beams\nmicrowaves to the Gundam X's Satellite\nSystem.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 46,
+     "text_id": 47,
+     "source": "３形態への変形が可能な大型ロボット。\n\n<book(52)>重陽子ミサイル<endbook()>事件以来、早乙女研究所で\n誰にも使用されぬまま眠っていたが、\n號、渓、凱の３人の手によって再起動した。",
+     "en": "A large robot that can transform into three\nforms.\n\nIt had lain dormant at the Saotome\nInstitute, used by no one, ever since the\n<book(52)>Deuteron Missile<endbook()> incident, until Go, Kei and\nGai reactivated it.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 47,
+     "text_id": 48,
+     "source": "多数のゲッターＧが合体・進化した姿。\n来るべき<book(49)>インベーダー<endbook()>の復活に備えて\n早乙女博士が開発した。\n\n搭乗者のパーソナリティにより、\n進化に大きな影響を及ぼし、\n異なった形態を見せる特徴をもつ。\n\n早乙女博士によれば「世界最後の日」を\n回避するための手段であるというが、\n真実については何もわかっていない。",
+     "en": "The form taken by many Getter Robo G\nunits that combined and evolved. Dr.\nSaotome developed it to prepare for the\ncoming revival of the <book(49)>Invaders<endbook()>.\n\nThe personality of whoever is aboard\ngreatly influences its evolution, so it shows\ndiffering forms.\n\nAccording to Dr. Saotome it is a means of\naverting \"the last day of the world,\" but\nnothing is known of the truth.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 48,
+     "text_id": 49,
+     "source": "エネルギー源である<book(51)>ゲッター線<endbook()>を求め、\n宇宙より飛来した謎の生命体。\n\n武装形態のことをメタルビーストと呼び、\n無機物や有機物と合体することで\nその機能を取り込む特性を持つ。",
+     "en": "Mysterious life forms that came from space\nseeking <book(51)>Getter Rays<endbook()>, their energy source.\n\nTheir armed forms are called Metal Beasts.\nBy merging with inorganic or organic\nmatter, they take on its functions.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 49,
+     "text_id": 50,
+     "source": "神隼人が指揮する巨大移動要塞。\nゲッター炉心を動力としている。",
+     "en": "A huge mobile fortress commanded by\nHayato Jin. It is powered by a Getter\nreactor.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 50,
+     "text_id": 51,
+     "source": "ゲッターロボの主動力となる放射線状物質。\n\nゲッター線のエネルギー変換に唯一成功したのが\n早乙女博士である。",
+     "en": "A radiation-like substance that serves as\nthe main power source of Getter Robo.\n\nDr. Saotome is the only person to have\nsucceeded in converting Getter Rays into\nenergy.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 51,
+     "text_id": 52,
+     "source": "１３年前の<book(53)>月面インベーダー戦争<endbook()>において\n使用された破壊兵器。\n\n１３年前、竜馬に殺されたはずの早乙女博士が\n<book(49)>インベーダー<endbook()>と共に復活。\n自ら開発した<book(48)>真ドラゴン<endbook()>で人類へ戦いを挑んだ。\n<book(48)>真ドラゴン<endbook()>に恐怖した人類は\nこの兵器の使用を決定。\n極東地域を中心に世界の１／３は\n壊滅すると予想されていたが、\nかの英雄<book(68)>アドロック・サーストン<endbook()>が\n<book(62)>セブンスウェル<endbook()>を起こし、同時発生した\n<book(70)>トラパー<endbook()>の異常発生現象と共に食い止めることで、\n日本壊滅という最小限の被害に止めることに\n成功した。",
+     "en": "A destructive weapon used in the\n<book(53)>Moon Invader War<endbook()> 13 years ago.\n\nDr. Saotome, thought slain by Ryoma,\nrevived with the <book(49)>Invaders<endbook()> and fought\nhumanity with his own <book(48)>Shin Dragon<endbook()>.\nFearing <book(48)>Shin Dragon<endbook()>, humans chose this\nweapon. 1/3 of the world, mainly the Far\nEast, was expected to fall, but the hero\n<book(68)>Adroc Thurston<endbook()> set off a <book(62)>Seven Swell<endbook()>,\nhalting it and a simultaneous abnormal\n<book(70)>Trapar<endbook()> surge, limiting the ruin to Japan.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 52,
+     "text_id": 53,
+     "source": "過去に起きた人類と<book(49)>インベーダー<endbook()>の月面戦争。\n\n流竜馬、神隼人、巴武蔵のゲッターチームの活躍と\n<book(52)>重陽子ミサイル<endbook()>により、人類の勝利に終わった。",
+     "en": "A past war on the Moon between humanity\nand the <book(49)>Invaders<endbook()>.\n\nIt ended in victory for humanity thanks to\nthe feats of the Getter Team - Ryoma\nNagare, Hayato Jin and Musashi Tomoe -\nand the <book(52)>Deuteron Missile<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 53,
+     "text_id": 54,
+     "source": "シベリア地方に存在する密閉型の都市。\n\n塔の建築や航空網の構築が不可能な\n厳しい自然環境での生活のために建造された。\n\nその性質上、脱出が困難な点に目をつけた\n<book(38)>新連邦<endbook()>は、<book(83)>ヴォダラク<endbook()>教徒などの政治犯や\n思想犯を隔離するための施設として利用している。",
+     "en": "Sealed cities found in the Siberia region.\n\nThey were built for life in a harsh natural\nenvironment where towers cannot be built\nand air routes cannot be set up.\n\nNoting that their nature makes escape\nhard, the <book(38)>New Federation<endbook()> uses them as\nfacilities to isolate political prisoners and\nthought criminals such as <book(83)>Vodarac<endbook()>\nbelievers.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 54,
+     "text_id": 55,
+     "source": "<book(54)>ドームポリス<endbook()>に住む人々が、\n豊かな土地に逃れる行為。\n\n<book(38)>新連邦<endbook()>ではこれを重大な違法行為と規定しており、\nエクソダスを画策する者たちは\n<book(56)>シベリア鉄道<endbook()>の監視対象となる。",
+     "en": "The act by which people living in a\n<book(54)>Domepolis<endbook()> flee to richer lands.\n\nThe <book(38)>New Federation<endbook()> defines this as a\ngrave crime, and those who plot an Exodus\nare put under watch by the\n<book(56)>Siberian Railway<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 55,
+     "text_id": 56,
+     "source": "シベリア地方の<book(54)>ドームポリス<endbook()>を統治する\n<book(38)>新連邦<endbook()>の下部組織。\n総裁はキッズ・ムント。\n\n第７次宇宙戦争によって崩壊した世界に\n鉄道網を構築することで交通手段として\nの鉄道が大発展を遂げるが、\n<book(70)>トラパー<endbook()>による航空網の整備により\n瞬く間に衰退してしまった。\n\n現在はシベリア地方の<book(54)>ドームポリス<endbook()>の\n自治権を与えられている。",
+     "en": "A body under the <book(38)>New Federation<endbook()> that\ngoverns the <book(54)>Domepolises<endbook()> of the Siberia\nregion. Its president is Kids Munt.\n\nBy laying a rail network across a world\nruined by the 7th Space War, rail boomed\nas a means of transport, but it declined in\nno time once air routes were developed\nusing <book(70)>Trapar<endbook()>.\n\nToday it is granted autonomy over the\n<book(54)>Domepolises<endbook()> of the Siberia region.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 56,
+     "text_id": 57,
+     "source": "シルエットエンジンと呼ばれる駆動機関で\n可動する人型機動兵器。\n\n工業や建築、輸送手段など様々な用途で\n普及しており、武装をした戦闘用のタイプは\n主に<book(56)>シベリア鉄道<endbook()>が使用している。",
+     "en": "Humanoid mobile weapons driven by a\npower unit called a Silhouette Engine.\n\nThey are in wide use for industry,\nconstruction, transport and many other\npurposes; armed combat types are used\nmainly by the <book(56)>Siberian Railway<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 57,
+     "text_id": 58,
+     "source": "オーバースキルを使用できる\n<book(57)>シルエット・マシン<endbook()>の総称。\n\nその内部構造は生物に近い物が多く、\n骨格の上にも生物的な外観を持つメタル・マッスルが\n取り付けられている。\nオーバーコートと呼ばれる外装を着用することで、\nオーバースキルという特殊能力を発動することも可能。\n\nまた、駆動時にフォトンマットと呼ばれる\n高エネルギーを放出するのも特徴で、\nこれを自在にコントロールする事で\n飛行・慣性制御や攻撃・防御手段として\n応用することができる。",
+     "en": "General term for <book(57)>Silhouette Machines<endbook()> that\ncan use Overskills.\n\nTheir inner structure is often close to a\nliving creature's, with organic-looking\nMetal Muscle fitted over the skeleton. By\nwearing outer armor called an Overcoat,\nthey can also activate special abilities\ncalled Overskills.\n\nWhen running they also emit high energy\ncalled a Photon Mat; by controlling it\nfreely, it can be applied to flight, inertia\ncontrol, attack and defense.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 58,
+     "text_id": 59,
+     "source": "<book(56)>シベリア鉄道<endbook()>の本社がある巨大都市。\n世界中へ広がる鉄道網の中心部でもある。",
+     "en": "A huge city where the <book(56)>Siberian Railway<endbook()>\nhas its head office. It is also the hub of\nthe rail network that spreads across the\nworld.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 59,
+     "text_id": 60,
+     "source": "ホランドをリーダーとする反政府グループ。\nリフボードの世界ではカリスマ的存在であり、\n雑誌「ｒａｙ＝ｏｕｔ」の出版を通じた\n啓蒙活動を行っている。\n\nホランド以下の中核メンバーは元軍属で、\n軍を離反する際に強奪した\n最新鋭巡洋艦「月光号」を母艦としている。",
+     "en": "An anti-government group led by Holland.\nCharismatic figures in the world of ref\nboards, they work to raise awareness by\npublishing the magazine \"ray=out\".\n\nThe core members, Holland included, are\nex-military, and their mothership is the\nGekko, a state-of-the-art cruiser seized\nwhen they deserted the military.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 60,
+     "text_id": 61,
+     "source": "世界で初めて発掘された<book(65)>ＬＦＯ<endbook()>。\nかつては軍の特殊部隊に実戦配備されていたが、\nホランドが軍を離反した際に\n月光号とともに強奪した。\n\n左右複座式のコクピットを持ち、\nエウレカなど特定の人物以外の操縦は\n受けつけない性質を持つ。\n\n正式名称はニルヴァーシュｔｙｐｅＺＥＲＯ。\n世界で最初に発掘された<book(65)>ＬＦＯ<endbook()>であることから\nこの名がつけられている。",
+     "en": "The first <book(65)>LFO<endbook()> ever excavated. It was once\ndeployed with a military special forces\nunit, but Holland seized it along with the\nGekko when he deserted.\n\nIt has a side-by-side two-seat cockpit and\nby nature will not accept any pilot other\nthan certain people such as Eureka.\n\nIts formal name is Nirvash typeZERO,\ngiven because it was the first <book(65)>LFO<endbook()>\nexcavated in the world.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 61,
+     "text_id": 62,
+     "source": "<book(63)>アミタ・ドライヴ<endbook()>を装着した\n<book(61)>ニルヴァーシュ<endbook()>が起こす謎の現象。\n\n発動後は七色の光とともに、\n<book(70)>トラパー<endbook()>が異常発生した後、\n周囲の<book(70)>トラパー<endbook()>を完全に消失させる\n反転現象が発生する。",
+     "en": "A mysterious phenomenon caused by the\n<book(61)>Nirvash<endbook()> when fitted with the <book(63)>Amita Drive<endbook()>.\n\nOnce triggered, amid seven-colored light,\n<book(70)>Trapar<endbook()> surges abnormally, followed by a\nreversal that wipes out all the surrounding\n<book(70)>Trapar<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 62,
+     "text_id": 63,
+     "source": "<book(61)>ニルヴァーシュ<endbook()>専用の\n<book(64)>コンパク・ドライヴ<endbook()>拡張パーツ。\n<book(65)>ＬＦＯ<endbook()>の意志を人へフィードバックすることが\nできる。\n\nこれを装着することで<book(61)>ニルヴァーシュ<endbook()>は悟りを開き、\n本当の目覚めを迎えるといわれている。",
+     "en": "An expansion part for the <book(64)>Compac Drive<endbook()>,\nexclusive to the <book(61)>Nirvash<endbook()>. It can feed the\nwill of the <book(65)>LFO<endbook()> back to a person.\n\nIt is said that with this fitted, the <book(61)>Nirvash<endbook()>\nattains enlightenment and reaches its true\nawakening.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 63,
+     "text_id": 64,
+     "source": "人と機械をつなぐ装置であり、\n<book(65)>ＬＦＯ<endbook()>を動かすための制御ユニット。\n\nスカブからできる天然石を使用しており、\n<book(70)>トラパー<endbook()>からエネルギーを吸収できる。\n\nこれを<book(65)>ＬＦＯ<endbook()>に接続してエネルギーを送ることで\n<book(65)>ＬＦＯ<endbook()>を動作させることができる。",
+     "en": "A device that links human and machine,\nand the control unit used to run an <book(65)>LFO<endbook()>.\n\nIt uses a natural stone formed from Scub\nand can absorb energy from <book(70)>Trapar<endbook()>.\n\nConnecting it to an <book(65)>LFO<endbook()> and feeding in\nenergy makes the <book(65)>LFO<endbook()> operate.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 64,
+     "text_id": 65,
+     "source": "リフボードを使用する人型機動マシン。\n\n<book(70)>トラパー<endbook()>の波に乗ることで飛行したり、\nビークルモードで地上を走行することも可能。\n\n地中より発掘された遺跡物に\n外装や操作ユニットなどを取りつけ、\n操縦可能にしたものである。\n\nＬＦＯは\nＬｉｇｈｔ　Ｆｉｎｄｉｎｇ　Ｏｐｅｒａｔｉｏｎ\nの略称。",
+     "en": "Humanoid mobile machines that use ref\nboards.\n\nThey can fly by riding waves of <book(70)>Trapar<endbook()>,\nor travel on the ground in vehicle mode.\n\nThey are relics excavated from\nunderground, fitted with armor, control\nunits and so on to make them pilotable.\n\nLFO stands for\nLight Finding Operation.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 65,
+     "text_id": 66,
+     "source": "<book(38)>新連邦<endbook()>の主力兵器として使用されている<book(65)>ＬＦＯ<endbook()>。\n<book(61)>ニルヴァーシュ<endbook()>ｔｙｐｅＺＥＲＯを元に\n設計、開発された。\n\nＫＬＦは\nＫｒａｆｔ Ｌｉｇｈｔ Ｆｉｇｈｔｅｒの略称。",
+     "en": "<book(65)>LFOs<endbook()> used as the main weapon of the\n<book(38)>New Federation<endbook()>. Designed and developed\nfrom the <book(61)>Nirvash<endbook()> typeZERO.\n\nKLF stands for\nKraft Light Fighter.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 66,
+     "text_id": 67,
+     "source": "地中から発掘される遺物。\n<book(66)>ＫＬＦ<endbook()>の核となる。\n\n外装などを取り付けることにより\n人が操縦できるように改造したものが\n<book(65)>ＬＦＯ<endbook()>や<book(66)>ＫＬＦ<endbook()>である。\n\n最古のアーキタイプは、\n<book(61)>ニルヴァーシュ<endbook()>ｔｙｐｅＺＥＲＯに使用されている。",
+     "en": "Relics excavated from underground. They\nform the core of a <book(66)>KLF<endbook()>.\n\nFitted with armor and the like and\nmodified so that people can pilot them,\nthey become <book(65)>LFOs<endbook()> and <book(66)>KLFs<endbook()>.\n\nThe oldest Archetype is the one used in\nthe <book(61)>Nirvash<endbook()> typeZERO.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 67,
+     "text_id": 68,
+     "source": "<book(69)>スカブコーラル<endbook()>研究の第一人者。\n<book(61)>ニルヴァーシュ<endbook()>とエウレカの研究を行った。\nレントン・サーストンの父親でもある。\n\n<book(52)>重陽子ミサイル<endbook()>事件の際、\n同時発生したサマー・オブ・ラブと呼ばれる\n<book(70)>トラパー<endbook()>の異常発生現象を防ぐため、\n自らの命を引き換えにその被害を抑えた。\nそのため、人類を救った英雄とされている。",
+     "en": "The leading authority on <book(69)>Scub Coral<endbook()>\nresearch. He studied the <book(61)>Nirvash<endbook()> and\nEureka. He is also the father of Renton\nThurston.\n\nDuring the <book(52)>Deuteron Missile<endbook()> incident, to\nstop the Summer of Love, an abnormal\n<book(70)>Trapar<endbook()> outbreak that occurred at the same\ntime, he held down the damage at the cost\nof his own life. He is therefore regarded\nas the hero who saved humanity.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 68,
+     "text_id": 69,
+     "source": "地殻変動に伴い地面から隆起する新たな大地。\n地球上の地表のほとんどを覆っている。\n\nスカブの隆起は居住地域の破壊などの\n被害を及ぼしており、地表にパイルバンカーを\n打ち込み隆起を抑制する対策が行なわれている。\n\n人類を脅かすものとされる一方、傷ついた大地を\n修復するための存在とも言われている。\n\n略して「スカブ」とも呼ばれる。",
+     "en": "New land that rises out of the ground with\ncrustal movement. It covers most of the\nEarth's surface.\n\nScub upheavals cause damage such as the\ndestruction of inhabited areas, so Pile\nBunkers are driven into the ground to\nsuppress them.\n\nWhile seen as a threat to humanity, it is\nalso said to exist in order to heal the\nwounded land.\n\nAlso called \"Scub\" for short.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 69,
+     "text_id": 70,
+     "source": "<book(69)>スカブコーラル<endbook()>から流れ出し、\n大気中に満ちている特殊な粒子。\n\n反発力で浮遊できる性質を持つため\n空路であるレイラインが形成され、\nリフボードや空中戦艦などの\n飛行手段として広く用いられる。",
+     "en": "Special particles that flow out of the\n<book(69)>Scub Coral<endbook()> and fill the atmosphere.\n\nTheir repulsive force lets things float, so\nair routes called ley lines form, and they\nare widely used as a means of flight for\nref boards, aerial battleships and more.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 70,
+     "text_id": 71,
+     "source": "<book(69)>スカブコーラル<endbook()>が生命体であり、\n知的能力を有しているとする学説。\n<book(68)>アドロック・サーストン<endbook()>や、\nグレッグ・ベア・イーガン博士が提唱。\n\n地殻変動や<book(72)>コーラリアン<endbook()>などは、\n人類の行動に対する反応であるという推測を\nその根拠にしている。",
+     "en": "The theory that the <book(69)>Scub Coral<endbook()> is a life\nform possessing intelligence. Put forward\nby <book(68)>Adroc Thurston<endbook()> and Dr. Greg \"Bear\"\nEgan.\n\nIt rests on the inference that crustal\nmovement, <book(72)>Coralians<endbook()> and the like are\nreactions to the actions of humanity.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 71,
+     "text_id": 72,
+     "source": "<book(69)>スカブコーラル<endbook()>が様々な形態に変化した存在。\n\n気体や雲状の物、生物としての形状を持つ物など、\n様々な種が確認されており、その多様性から\n一部の研究者によって知性体説が唱えられている。",
+     "en": "Beings that are the <book(69)>Scub Coral<endbook()> changed\ninto various forms.\n\nMany kinds have been confirmed, such as\ngaseous or cloud-like ones and ones shaped\nlike living creatures; because of this\ndiversity, some researchers argue that they\nare intelligent life.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 72,
+     "text_id": 73,
+     "source": "人間に対して攻撃行動を行う性質を持つ\n<book(72)>コーラリアン<endbook()>の総称。\n\n様々なタイプが確認されているが、\nその出現理由はわかっていない。\n出現から一定時間が経過すると活動を停止し、\n石灰化する。",
+     "en": "General term for <book(72)>Coralians<endbook()> that by nature\nattack humans.\n\nVarious types have been confirmed, but\nwhy they appear is unknown. A set time\nafter appearing, they cease activity and\ncalcify.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 73,
+     "text_id": 74,
+     "source": "巨大な雲状の<book(72)>コーラリアン<endbook()>。\n\nその規模は数十キロという広範囲に渡り、\n<book(70)>トラパー<endbook()>の流れが一斉に中心に向かい、\n流れ出すという現象が起こる。\n<book(73)>抗体コーラリアン<endbook()>の出現とも関係しており、\nその活動時間は１２４６秒のみ。\n<book(69)>スカブコーラル<endbook()>への強力な物理ダメージに\nよって出現する場合もある。\n\n\nその雲状の中には<book(75)>ゾーン<endbook()>と呼ばれる空間が\n広がっていると言われている。",
+     "en": "A giant cloud-like <book(72)>Coralian<endbook()>.\n\nIt spans tens of kilometers, and the flows\nof <book(70)>Trapar<endbook()> all rush toward its center at\nonce and stream out. It is also linked to\nthe appearance of <book(73)>Antibody Coralians<endbook()>, and\nit is active for only 1246 seconds. It may\nalso appear as a result of strong physical\ndamage to the <book(69)>Scub Coral<endbook()>.\n\n\nInside the cloud a space called <book(75)>the Zone<endbook()> is\nsaid to spread out.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 74,
+     "text_id": 75,
+     "source": "<book(70)>トラパー<endbook()>濃度が高い場所に発生する\n特殊な領域。",
+     "en": "A special region that arises where <book(70)>Trapar<endbook()>\ndensity is high.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 75,
+     "text_id": 76,
+     "source": "スカブとの対話が行われると言われる場所。\n\n<book(80)>司令クラスター<endbook()>が存在するとも言われているが、\nその詳細は不明である。",
+     "en": "The place where dialogue with the Scub is\nsaid to take place.\n\nThe <book(80)>Command Cluster<endbook()> is also said to be\nthere, but the details are unknown.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 76,
+     "text_id": 77,
+     "source": "物理宇宙が限界点を迎えて崩壊する現象と\nその理論。\n\n人間をはじめとする知性体が存在できる\n総量はあらかじめ定められており、\nその容積を超えた時、宇宙そのものが崩壊する\nという理論に基づいている。\n休眠する大量のスカブが目覚めた時に\n発生すると考えられている。\n\n<book(79)>グレートウォール<endbook()>では小規模ながら\n同様の現象が確認できる。",
+     "en": "The phenomenon in which the physical\nuniverse reaches its limit and collapses, and\nthe theory of it.\n\nIt is based on the idea that the total\namount of intelligent life, humans included,\nthat can exist is fixed in advance, and that\nthe universe itself collapses when that\ncapacity is exceeded. It is thought to\noccur when the vast dormant Scub\nawakens.\n\nAt the <book(79)>Great Wall<endbook()>, the same phenomenon\ncan be seen on a small scale.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 77,
+     "text_id": 78,
+     "source": "<book(68)>アドロック・サーストン<endbook()>と\n早乙女博士によって作成された、\n<book(69)>スカブコーラル<endbook()>に関する計画書。\n\n<book(61)>ニルヴァーシュ<endbook()>の覚醒から、\nその先に起こりえるであろう\n<book(77)>クダンの限界<endbook()>までが\n予測として記されている。\n\n作成の過程で、早乙女博士が離脱したことから\nスカブと<book(49)>インベーダー<endbook()>の関わりは\n謎のままとされた。\n\n同時に、<book(68)>アドロック・サーストン<endbook()>による\n<book(71)>スカブコーラル知性体仮説<endbook()>も記され、\n現在ではスカブせん滅計画のために\nデューイに利用されている。",
+     "en": "A plan document on the <book(69)>Scub Coral<endbook()> drawn\nup by <book(68)>Adroc Thurston<endbook()> and Dr. Saotome.\n\nIt sets out predictions from the awakening\nof the <book(61)>Nirvash<endbook()> to the <book(77)>Limit of Questions<endbook()>\nthat could follow.\n\nDr. Saotome left during the drafting, so\nthe link between the Scub and the <book(49)>Invaders<endbook()>\nremained a mystery.\n\nIt also records the <book(71)>Scub Mind Theory<endbook()> of\n<book(68)>Adroc Thurston<endbook()>, and Dewey now uses it\nfor the plan to wipe out the Scub.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 78,
+     "text_id": 79,
+     "source": "<book(69)>スカブコーラル<endbook()>と人類が\n対話すると言われている場所。\nこの世界を救う道であり、人類と<book(72)>コーラリアン<endbook()>の\n対である者が目指すべき場所と考えられている。\n\n大量に噴出した<book(70)>トラパー<endbook()>が雲のように渦巻き、\n全物理法則が通用しない\n特殊な空間が広がっている。",
+     "en": "The place where the <book(69)>Scub Coral<endbook()> and\nhumanity are said to hold dialogue. It is\nthought to be the path to saving this\nworld, and the place that those who are a\npair of human and <book(72)>Coralian<endbook()> should head\nfor.\n\nMasses of erupted <book(70)>Trapar<endbook()> swirl like clouds,\nand a special space spreads out where none\nof the laws of physics apply.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 79,
+     "text_id": 80,
+     "source": "<book(69)>スカブコーラル<endbook()>をコントロールする中枢。",
+     "en": "The nerve center that controls the\n<book(69)>Scub Coral<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 80,
+     "text_id": 81,
+     "source": "高高度からスカブの深部へと打ち込まれる\n地殻貫通弾。\n<book(72)>コーラリアン<endbook()>を刺激する為に開発された。",
+     "en": "A crust-penetrating bomb fired from high\naltitude deep into the Scub. It was\ndeveloped to stimulate the <book(72)>Coralians<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 81,
+     "text_id": 82,
+     "source": "高高度から地殻貫通弾<book(81)>オレンジ<endbook()>を投下することで\nスカブを破壊し、<book(69)>スカブコーラル<endbook()>を覚醒させる計画。\n\n目的は<book(69)>スカブコーラル<endbook()>の中枢である\n<book(80)>司令クラスター<endbook()>の位置の特定と考えられている。",
+     "en": "A plan to destroy the Scub and awaken the\n<book(69)>Scub Coral<endbook()> by dropping <book(81)>Orange<endbook()>\ncrust-penetrating bombs from high\naltitude.\n\nIts aim is thought to be pinpointing the\nlocation of the <book(80)>Command Cluster<endbook()>, the nerve\ncenter of the <book(69)>Scub Coral<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 82,
+     "text_id": 83,
+     "source": "ヴォダラ宮に本山を構える宗教組織。\nスカブを抑制することを否定し、\nスカブの意志のままに生きることを提唱する。\n\n一部の過激派が政府の弾圧に抵抗して\nテロ行為を繰り返しているため、\n一般的には反政府組織とみなされている。",
+     "en": "A religious organization whose head\ntemple is the Vodara Shrine. It opposes\nsuppressing the Scub and advocates living\nas the Scub wills.\n\nBecause some extremists resist government\noppression with repeated acts of terrorism,\nit is generally regarded as an\nanti-government organization.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 83,
+     "text_id": 84,
+     "source": "<book(38)>新連邦<endbook()>の軍事技術研究機関。\n\n発掘された<book(67)>アーキタイプ<endbook()>を研究し、\n<book(65)>ＬＦＯ<endbook()>の実用化を行った。",
+     "en": "A military technology research body of the\n<book(38)>New Federation<endbook()>.\n\nIt studied the excavated <book(67)>Archetypes<endbook()> and\nput the <book(65)>LFO<endbook()> into practical use.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 84,
+     "text_id": 85,
+     "source": "<book(9)>地球連邦<endbook()>軍による、次世代<book(34)>バルキリー<endbook()>の\n選出を目的としたトライアル。\n\n兵器メーカー各社に試作機を開発させ、\n選考に最終的に残ったのが\nＹＦ－１９とＹＦ－２１の２機である。",
+     "en": "A trial held by the <book(9)>Earth Federation<endbook()>\nForces to select the next-generation\n<book(34)>Valkyrie<endbook()>.\n\nArms makers were each made to develop\nprototypes, and the two machines left at\nthe end of the selection were the YF-19\nand YF-21.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 85,
+     "text_id": 86,
+     "source": "<book(85)>スーパー・ノヴァ計画<endbook()>の裏で\n連邦の手により極秘裏に開発されていた\n無人戦闘機。\n\nパイロットに対する配慮が不要なことから、\n加速性、機動性、周囲への警戒能力など\n無人機ゆえの高性能さを発揮する。",
+     "en": "An unmanned fighter developed in strict\nsecrecy by the Federation behind\n<book(85)>Project Super Nova<endbook()>.\n\nWith no need to allow for a pilot, it shows\nthe high performance only an unmanned\ncraft can, in acceleration, mobility,\nawareness of its surroundings and more.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 86,
+     "text_id": 87,
+     "source": "地球圏で最大の人気を誇る歌姫。\nその正体はコンピューター技術が生み出した\nバーチャルアイドル。\n\n表向きは<book(9)>地球連邦<endbook()>政府樹立を記念して\n計画されたものであるが、\n本当の目的は極秘開発中の兵器の\n人工知能に流用するためと言われている。",
+     "en": "The most popular diva in the Earth Sphere.\nIn truth, a virtual idol created by computer\ntechnology.\n\nOfficially the idol was planned to\ncommemorate the founding of the\n<book(9)>Earth Federation<endbook()> government, but the real\npurpose is said to be reuse as the AI of a\nweapon under secret development.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 87,
+     "text_id": 88,
+     "source": "<book(4)>第一次防衛戦争<endbook()>後に退役艦となった<book(33)>マクロス<endbook()>を\n平和のシンボルとして中心部に安置している都市。",
+     "en": "A city that keeps the <book(33)>Macross<endbook()>, retired from\nservice after the <book(4)>First Defense War<endbook()>, at its\ncenter as a symbol of peace.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    }
+   ]
+  },
+  {
+   "table_id": 3028,
+   "reference_bundle": 1200000,
+   "complete": true,
+   "category": "Encyclopedia term names",
+   "rows": [
+    {
+     "slot": 0,
+     "text_id": 1,
+     "source": "バルドナ・ドライブ",
+     "en": "Baldora Drive",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 1,
+     "text_id": 2,
+     "source": "バルドナ・チャージ",
+     "en": "Baldora Charge",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 2,
+     "text_id": 3,
+     "source": "ワームホール",
+     "en": "Wormhole",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 3,
+     "text_id": 4,
+     "source": "第一次防衛戦争",
+     "en": "First Defense War",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 4,
+     "text_id": 5,
+     "source": "ガンアーク",
+     "en": "Gun Ark",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 5,
+     "text_id": 6,
+     "source": "フレイル",
+     "en": "Flail",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 6,
+     "text_id": 7,
+     "source": "フィールドジェネレータ",
+     "en": "Field Generator",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 7,
+     "text_id": 8,
+     "source": "自走兵器",
+     "en": "Self-Propelled Gun",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 8,
+     "text_id": 9,
+     "source": "地球連邦",
+     "en": "Earth Federation",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 9,
+     "text_id": 10,
+     "source": "ロンド・ベル",
+     "en": "Londo Bell",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 10,
+     "text_id": 11,
+     "source": "ラー・カイラム",
+     "en": "Ra Cailum",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 11,
+     "text_id": 12,
+     "source": "ネオ・ジオン",
+     "en": "Neo Zeon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 12,
+     "text_id": 13,
+     "source": "５ｔｈルナ",
+     "en": "5th Luna",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 13,
+     "text_id": 14,
+     "source": "アクシズ",
+     "en": "Axis",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 14,
+     "text_id": 15,
+     "source": "ラサ",
+     "en": "Lhasa",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 15,
+     "text_id": 16,
+     "source": "アナハイム",
+     "en": "Anaheim",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 16,
+     "text_id": 17,
+     "source": "スウィートウォーター",
+     "en": "Sweetwater",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 17,
+     "text_id": 18,
+     "source": "ギガノス",
+     "en": "Giganos",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 18,
+     "text_id": 19,
+     "source": "ドラグーン",
+     "en": "Dragoon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 19,
+     "text_id": 20,
+     "source": "ナデシコＢ",
+     "en": "Nadesico B",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 20,
+     "text_id": 21,
+     "source": "ナデシコＣ",
+     "en": "Nadesico C",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 21,
+     "text_id": 22,
+     "source": "テンカワ夫妻",
+     "en": "The Tenkawas",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 22,
+     "text_id": 23,
+     "source": "ヒサゴプラン",
+     "en": "Hisago Plan",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 23,
+     "text_id": 24,
+     "source": "ターミナルコロニー",
+     "en": "Terminal Colony",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 24,
+     "text_id": 25,
+     "source": "シラヒメ",
+     "en": "Shirahime",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 25,
+     "text_id": 26,
+     "source": "アマテラス",
+     "en": "Amaterasu",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 26,
+     "text_id": 27,
+     "source": "ジャンパー",
+     "en": "Jumper",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 27,
+     "text_id": 28,
+     "source": "遺跡ユニット",
+     "en": "Ruins Unit",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 28,
+     "text_id": 29,
+     "source": "火星の後継者",
+     "en": "Martian Successors",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 29,
+     "text_id": 30,
+     "source": "ボソンジャンプ",
+     "en": "Boson Jump",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 30,
+     "text_id": 31,
+     "source": "ネルガル重工",
+     "en": "Nergal Heavy Ind.",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 31,
+     "text_id": 32,
+     "source": "イワト",
+     "en": "Iwato",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 32,
+     "text_id": 33,
+     "source": "マクロス",
+     "en": "Macross",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 33,
+     "text_id": 34,
+     "source": "バルキリー",
+     "en": "Valkyrie",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 34,
+     "text_id": 35,
+     "source": "ゼントラーディ",
+     "en": "Zentradi",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 35,
+     "text_id": 36,
+     "source": "バイストン・ウェル",
+     "en": "Byston Well",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 36,
+     "text_id": 37,
+     "source": "ＧＸ－９９００",
+     "en": "GX-9900",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 37,
+     "text_id": 38,
+     "source": "新連邦",
+     "en": "New Federation",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 38,
+     "text_id": 39,
+     "source": "バルチャー",
+     "en": "Vulture",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 39,
+     "text_id": 40,
+     "source": "フィクス・ブラッドマン",
+     "en": "Fixx Bloodman",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 40,
+     "text_id": 41,
+     "source": "ローレライの海",
+     "en": "Sea of Lorelei",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 41,
+     "text_id": 42,
+     "source": "宇宙革命軍",
+     "en": "Space Rev. Army",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 42,
+     "text_id": 43,
+     "source": "Ｌシステム",
+     "en": "L System",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 43,
+     "text_id": 44,
+     "source": "Ｇビット",
+     "en": "G-Bit",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 44,
+     "text_id": 45,
+     "source": "ゾンダーエプタ",
+     "en": "Zonder Epta",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 45,
+     "text_id": 46,
+     "source": "Ｄ．Ｏ．Ｍ．Ｅ．",
+     "en": "D.O.M.E.",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 46,
+     "text_id": 47,
+     "source": "真ゲッター",
+     "en": "Shin Getter",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 47,
+     "text_id": 48,
+     "source": "真ドラゴン",
+     "en": "Shin Dragon",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 48,
+     "text_id": 49,
+     "source": "インベーダー",
+     "en": "Invaders",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 49,
+     "text_id": 50,
+     "source": "タワー",
+     "en": "Tower",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 50,
+     "text_id": 51,
+     "source": "ゲッター線",
+     "en": "Getter Rays",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 51,
+     "text_id": 52,
+     "source": "重陽子ミサイル",
+     "en": "Deuteron Missile",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 52,
+     "text_id": 53,
+     "source": "月面インベーダー戦争",
+     "en": "Moon Invader War",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 53,
+     "text_id": 54,
+     "source": "ドームポリス",
+     "en": "Domepolis",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 54,
+     "text_id": 55,
+     "source": "エクソダス",
+     "en": "Exodus",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 55,
+     "text_id": 56,
+     "source": "シベリア鉄道",
+     "en": "Siberian Railway",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 56,
+     "text_id": 57,
+     "source": "シルエット・マシン",
+     "en": "Silhouette Machine",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 57,
+     "text_id": 58,
+     "source": "オーバーマン",
+     "en": "Overman",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 58,
+     "text_id": 59,
+     "source": "リマン・メガロポリス",
+     "en": "Liman Megalopolis",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 59,
+     "text_id": 60,
+     "source": "ゲッコーステイト",
+     "en": "Gekkostate",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 60,
+     "text_id": 61,
+     "source": "ニルヴァーシュ",
+     "en": "Nirvash",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 61,
+     "text_id": 62,
+     "source": "セブンスウェル",
+     "en": "Seven Swell",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 62,
+     "text_id": 63,
+     "source": "アミタ・ドライヴ",
+     "en": "Amita Drive",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 63,
+     "text_id": 64,
+     "source": "コンパク・ドライブ",
+     "en": "Compac Drive",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 64,
+     "text_id": 65,
+     "source": "ＬＦＯ",
+     "en": "LFO",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 65,
+     "text_id": 66,
+     "source": "ＫＬＦ",
+     "en": "KLF",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 66,
+     "text_id": 67,
+     "source": "アーキタイプ",
+     "en": "Archetype",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 67,
+     "text_id": 68,
+     "source": "アドロック・サーストン",
+     "en": "Adroc Thurston",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 68,
+     "text_id": 69,
+     "source": "スカブコーラル",
+     "en": "Scub Coral",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 69,
+     "text_id": 70,
+     "source": "トラパー",
+     "en": "Trapar",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 70,
+     "text_id": 71,
+     "source": "スカブコーラル知性体仮説",
+     "en": "Scub Mind Theory",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 71,
+     "text_id": 72,
+     "source": "コーラリアン",
+     "en": "Coralian",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 72,
+     "text_id": 73,
+     "source": "抗体コーラリアン",
+     "en": "Antibody Coralian",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 73,
+     "text_id": 74,
+     "source": "クテ級コーラリアン",
+     "en": "Kute-class Coralian",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 74,
+     "text_id": 75,
+     "source": "ゾーン",
+     "en": "The Zone",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 75,
+     "text_id": 76,
+     "source": "約束の地",
+     "en": "Promised Land",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 76,
+     "text_id": 77,
+     "source": "クダンの限界",
+     "en": "Limit of Questions",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 77,
+     "text_id": 78,
+     "source": "アゲハ構想",
+     "en": "Ageha Plan",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 78,
+     "text_id": 79,
+     "source": "グレートウォール",
+     "en": "Great Wall",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 79,
+     "text_id": 80,
+     "source": "司令クラスター",
+     "en": "Command Cluster",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 80,
+     "text_id": 81,
+     "source": "オレンジ",
+     "en": "Orange",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 81,
+     "text_id": 82,
+     "source": "オレンジ作戦",
+     "en": "Operation Orange",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 82,
+     "text_id": 83,
+     "source": "ヴォダラク",
+     "en": "Vodarac",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 83,
+     "text_id": 84,
+     "source": "トレゾア技研",
+     "en": "Tresor Institute",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 84,
+     "text_id": 85,
+     "source": "スーパー・ノヴァ計画",
+     "en": "Project Super Nova",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 85,
+     "text_id": 86,
+     "source": "ゴーストＸ－９",
+     "en": "Ghost X-9",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 86,
+     "text_id": 87,
+     "source": "シャロン・アップル",
+     "en": "Sharon Apple",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 87,
+     "text_id": 88,
+     "source": "マクロスシティ",
+     "en": "Macross City",
+     "dialog": false,
+     "limit": 220
+    }
+   ]
+  },
+  {
+   "table_id": 3029,
+   "reference_bundle": 1200000,
+   "complete": true,
+   "page_text": true,
+   "category": "Encyclopedia pages",
+   "rows": [
+    {
+     "slot": 0,
+     "text_id": 1,
+     "source": "超長距離の空間跳躍技術を実現するため、\n<book(9)>地球連邦<endbook()>の前身の政府機関により建造された施設。\n\n開発研究者のジル・バルドナにより発見された\n未知の素粒子「バルドナ粒子」を基礎技術とする。\n\n研究は実用レベルまで進んでいたが、\n完成を目前にして、施設の暴走によって\n関係者全員が消失する事故が発生。\n\nこの一件以来、\nバルドナ・ドライブの開発は凍結され、\nその存在自体も公式記録から抹消されていた。",
+     "en": "A facility built by a government body\nthat preceded the <book(9)>Earth Federation<endbook()>\nto achieve ultra-long-range space-leap\ntechnology.\n\nIts basis is the \"Baldora particle,\" an\nunknown elementary particle found\nby R&D scientist Jill Bardona.\n\nResearch reached a practical level,\nbut on the eve of completion the\nfacility ran wild and all involved\nvanished.\n\nSince then its development had been\nfrozen and its very existence erased\nfrom official records.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 1,
+     "text_id": 2,
+     "source": "バルドナ粒子の観測量を基準に算出された\n<book(3)>ワームホール<endbook()>開口の進行度。\n\nこの数値が１００％になった時、\n<book(1)>バルドナ・ドライブ<endbook()>は完全稼動し、\nワームホールが完全に開口すると\n予測されている。",
+     "en": "The progress of the <book(3)>Wormhole<endbook()>'s\nopening, calculated from the observed\namount of Baldora particles.\n\nWhen this value reaches 100％, the\n<book(1)>Baldora Drive<endbook()> is predicted to be fully\nactive and the wormhole fully open.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 2,
+     "text_id": 3,
+     "source": "異なる時空を繋ぐトンネルのような存在。\n<book(1)>バルドナ・ドライブ<endbook()>の起動により発生し、\n<book(2)>バルドナ・チャージ<endbook()>の上昇に伴い拡大を\n続けている。\n\n開口の過程では接続が不安定なため\n両方の空間が影響を与え合う事はないが、\n完全な開口状態となった時に\n二つの空間が物理的に接続され、\n二つの地球が引力の影響による崩壊を\n起こすと予測されている。",
+     "en": "A tunnel-like entity linking different\nspace-times. It arose when the\n<book(1)>Baldora Drive<endbook()> was started and keeps\nexpanding as the <book(2)>Baldora Charge<endbook()>\nrises.\n\nWhile it is opening, the link is\nunstable, so the two spaces do not\naffect each other. Once it is fully\nopen, however, the two spaces will be\nphysically connected, and the two\nEarths are predicted to collapse\nunder the influence of gravity.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 3,
+     "text_id": 4,
+     "source": "３年前に起こった地球外勢力に対する防衛戦争。\n\n<book(35)>ゼントラーディ<endbook()>艦隊や木星連合、他星系からの\n侵攻勢力が集う大規模な戦いとなった。\n\nボドルザー率いる<book(35)>ゼントラーディ<endbook()>艦隊との\n最終決戦において、地球の歌姫リン・ミンメイの歌が\n戦争を終結に導いた。\n\n詳細は\n「Ａｎｏｔｈｅｒ Ｃｅｎｔｕｒｙ’ｓ Ｅｐｉｓｏｄｅ ２」\nを参照。",
+     "en": "A defensive war fought three years\nago against extraterrestrial forces.\n\nIt became a large-scale conflict that\ndrew in the <book(35)>Zentradi<endbook()> fleet, the Jovian\nFederation and invaders from other\nstar systems.\n\nIn the final battle with the <book(35)>Zentradi<endbook()>\nfleet led by Boddole Zer, the song of\nEarth's diva Lynn Minmay brought\nthe war to an end.\n\nFor details, see:\n\"Another Century's Episode 2\"",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 4,
+     "text_id": 5,
+     "source": "<book(4)>第一次防衛戦争<endbook()>前に開発された\n機動兵器。\n\nオーバーテクノロジーを応用した防衛砲を\n遠隔操作できる「ガーディアン・システム」を\n搭載していたが、戦後はシステム自体が\n破棄され、機体の運用も凍結された。",
+     "en": "A mobile weapon developed before the\n<book(4)>First Defense War<endbook()>.\n\nIt carried the \"Guardian System,\"\nwhich remotely controlled defense\ncannons built with overtechnology,\nbut after the war the system itself\nwas scrapped and use of the unit was\nfrozen.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 5,
+     "text_id": 6,
+     "source": "<book(9)>地球連邦<endbook()>の兵器研究所が開発した局地戦用の無人機。\n無人制御のため戦闘能力は低いが、\n低コストである利点と慢性的な人員不足から\n連邦軍全体で広く導入されている。",
+     "en": "An unmanned unit for local warfare\ndeveloped by an <book(9)>Earth Federation<endbook()>\nweapons lab. Being unmanned, its\ncombat ability is low, but its low cost\nand a chronic shortage of personnel\nhave led to wide adoption across the\nFederation Forces.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 6,
+     "text_id": 7,
+     "source": "特定の領域に粒子フィールドを展開し、\n侵入した敵機にダメージを与える戦闘支援兵器。",
+     "en": "A combat support weapon that\ndeploys a particle field over a set\narea and damages enemy units that\nenter it.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 7,
+     "text_id": 8,
+     "source": "局地戦用の自走砲。\n艦艇の主砲以上の出力を持つ。",
+     "en": "A self-propelled gun for local\nwarfare. Its output matches or\nexceeds that of a warship's main\ngun.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 8,
+     "text_id": 9,
+     "source": "<book(4)>第一次防衛戦争<endbook()>後に設立された合同政府。\n\nＵＣＥを母体に、和平を果たしたブリタイ艦隊や\nメルトランディ、クーデター後の木星連合が参加。\n\nスペースノイドに対する抑圧的な政策や\n<book(35)>ゼントラーディ<endbook()>移民への不十分な対応など、\n旧体制から変わらない面も多く残っている。",
+     "en": "A united government set up after the\n<book(4)>First Defense War<endbook()>.\n\nBuilt on the UCE, it took in the Britai\nfleet and the Meltrandi, who had\nmade peace, and the post-coup Jovian\nFederation.\n\nMuch remains unchanged from the old\nregime, such as oppressive policies\ntoward Spacenoids and an\ninsufficient response to <book(35)>Zentradi<endbook()>\nimmigrants.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 9,
+     "text_id": 10,
+     "source": "<book(4)>第一次防衛戦争<endbook()>後の軍の再編成に伴い、\n地球圏の治安維持を目的に設立された\n連邦軍外郭部隊。\n\n平時は連邦軍の命令により行動するが、\n独自判断で行動できる権限も有する。\n現在は多発する謎の小隕石落下の\n調査のため、アムロ・レイを小隊長とした\n特別編成部隊が地上任務に就いていた。\n\n総司令はミスマル・コウイチロウ。",
+     "en": "A Federation Forces auxiliary force\nset up to keep order in the Earth\nSphere when the military was\nreorganized after the\n<book(4)>First Defense War<endbook()>.\n\nIn peacetime it acts on Federation\nForces orders, but it also has\nauthority to act at its own\ndiscretion. Lately a specially formed\nunit with Amuro Ray as platoon\nleader had been on ground duty to\nprobe the rash of mysterious small\nmeteorite falls.\n\nIts supreme commander is Kouichiro\nMisumaru.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 10,
+     "text_id": 11,
+     "source": "<book(10)>ロンド・ベル<endbook()>に所属する主力艦の一つ。\n\n砲撃戦能力とモビルスーツ運用能力を\n重視した主力艦艇である。\nナデシコとは別行動を取り、\n地球周辺の反連邦勢力の\n鎮圧任務に当たっている。\n\n艦長はブライト・ノア。",
+     "en": "One of the main ships of <book(10)>Londo Bell<endbook()>.\n\nA mainstay vessel that stresses\ngunnery and mobile suit operation.\nActing apart from the Nadesico, it is\ntasked with suppressing\nanti-Federation forces around Earth.\n\nIts captain is Bright Noa.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 11,
+     "text_id": 12,
+     "source": "シャア・アズナブルが興した反連邦組織。\n\n総帥であるシャアは、\n戦後も変わらぬスペースノイドへの圧政や\n地球圏に混乱を招いた原因は、\nニュータイプになりきれない地球人類のエゴに\nあると考え、独自に力を蓄えることを決意。\n自らに賛同する人々の力を背景に独自軍を組織した。",
+     "en": "An anti-Federation organization\nfounded by Char Aznable.\n\nChar, its supreme leader, held that\nthe oppression of Spacenoids,\nunchanged even after the war, and\nthe turmoil brought to the Earth\nSphere stem from the ego of Earth's\nhumanity, which cannot fully become\nNewtypes, and resolved to build up\nstrength independently. An army of\nChar's own was organized, backed by\nthe power of like-minded people.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 12,
+     "text_id": 13,
+     "source": "<book(9)>地球連邦<endbook()>政府に資源衛星として\n利用されていた小惑星。",
+     "en": "An asteroid that was used by the\n<book(9)>Earth Federation<endbook()> government as a\nresource satellite.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 13,
+     "text_id": 14,
+     "source": "かつてジオン公国が資源採集のために\n小惑星を利用してつくった宇宙要塞。\n核パルスエンジンで宇宙を移動することも可能。\n\n現在は<book(9)>地球連邦<endbook()>政府の管理下にある。",
+     "en": "A space fortress that the Principality\nof Zeon once made from an asteroid\nin order to gather resources. It can\nalso travel through space on nuclear\npulse engines.\n\nIt is now under the control of the\n<book(9)>Earth Federation<endbook()> government.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 14,
+     "text_id": 15,
+     "source": "地球上の都市。\n<book(9)>地球連邦<endbook()>政府の本部が置かれている。",
+     "en": "A city on Earth. The HQ of the\n<book(9)>Earth Federation<endbook()> government is\nlocated here.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 15,
+     "text_id": 16,
+     "source": "月を拠点とし、様々な分野での\n製造・販売を行う巨大複合企業。\n\n家電や船、飛行機などだけではなく、\n宇宙船やモビルスーツなど\n軍事兵器の製造も請け負う。\n\nどの勢力にも与さない中立の立場を\n貫いている。",
+     "en": "A giant conglomerate based on the\nMoon that makes and sells products in\nmany fields.\n\nBeyond home appliances, ships and\naircraft, it also takes on production\nof military hardware such as\nspaceships and mobile suits.\n\nIt holds to a neutral stance, siding\nwith no faction.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 16,
+     "text_id": 17,
+     "source": "難民の収容を目的に建造されたコロニー。\n\nシャア・アズナブルがこのコロニーの\n救世主として迎え入れられたことで、\n<book(12)>ネオ・ジオン<endbook()>の拠点となった。",
+     "en": "A colony built to house refugees.\n\nChar Aznable was welcomed as this\ncolony's savior, and so it became the\nbase of <book(12)>Neo Zeon<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 17,
+     "text_id": 18,
+     "source": "地球側の圧政に対抗する目的で\n過去に月入植者たちが興した月面帝国。\n\n<book(4)>第一次防衛戦争<endbook()>当時、序盤こそは\n戦いを優位に進めるも、最終的には敗北した。\n\n終戦後は再編された<book(9)>地球連邦<endbook()>政府下に\n組み込まれる形になっていたが\n変わらないスペースノイドへの圧政、\n元ギガノス軍人の雇用問題への対応の遅れなど、\n連邦への不満から連邦軍を離脱する者も多数おり、\n反政府派が組織化されつつある。",
+     "en": "A lunar empire founded in the past\nby Moon settlers to resist Earth's\noppression.\n\nIn the <book(4)>First Defense War<endbook()> it held the\nupper hand early on but was defeated\nin the end.\n\nAfter the war it was absorbed under\nthe reorganized <book(9)>Earth Federation<endbook()>\ngovernment. But with the oppression\nof Spacenoids unchanged and slow\naction on employment for ex-Giganos\nsoldiers, many unhappy with the\nFederation have left its forces, and\nan anti-government faction is taking\nshape.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 18,
+     "text_id": 19,
+     "source": "終戦後に<book(9)>地球連邦<endbook()>軍の主力兵器となった\n量産型メタルアーマー。\n\nドラグナー３機の性能を統合する形で\n開発された最新型。",
+     "en": "A mass-production Metal Armor that\nbecame the main weapon of the\n<book(9)>Earth Federation<endbook()> Forces after the\nwar.\n\nThe latest model, developed by\nintegrating the capabilities of the\nthree Dragonar units.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 19,
+     "text_id": 20,
+     "source": "<book(10)>ロンド・ベル<endbook()>に所属する主力艦の一つ。\n先の戦争で活躍したナデシコの２代目に当たる。\n\nディストーションフィールド（次元歪曲防壁）や\nグラビティブラスト（重力波砲）など、\n旧ナデシコと同様に火星のロストテクノロジーを\n応用した機能を搭載し、オモイカネも移植されている。\n\n艦長はホシノ・ルリ少佐。",
+     "en": "One of the main ships of <book(10)>Londo Bell<endbook()>.\nIt is the second generation of the\nNadesico, which served with\ndistinction in the last war.\n\nLike the old Nadesico, it carries\nfunctions based on Martian lost\ntechnology, such as the Distortion\nField (a dimensional-distortion\nbarrier) and Gravity Blast (a\ngravity-wave cannon), and Omoikane\nhas been transplanted to it as well.\n\nIts captain is Lt. Cmdr. Ruri\nHoshino.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 20,
+     "text_id": 21,
+     "source": "<book(20)>ナデシコＢ<endbook()>の後継艦。\n単独<book(30)>ボソンジャンプ<endbook()>機能が搭載され、\n各性能も大幅に強化されている。\n\n艦長はホシノ・ルリ少佐。",
+     "en": "The successor to the <book(20)>Nadesico B<endbook()>. It\nis fitted with a solo <book(30)>Boson Jump<endbook()>\nfunction, and its overall performance\nhas been greatly enhanced.\n\nIts captain is Lt. Cmdr. Ruri\nHoshino.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 21,
+     "text_id": 22,
+     "source": "<book(4)>第一次防衛戦争<endbook()>で活躍した戦艦ナデシコの\n艦長を務めたミスマル・ユリカと、\nコック兼パイロットのテンカワ・アキトのこと。\n\n終戦後、新婚旅行中のシャトル爆破事故で\n両名共に死亡。",
+     "en": "Refers to Yurika Misumaru, who\ncaptained the battleship Nadesico\nthat served with distinction in the\n<book(4)>First Defense War<endbook()>, and Akito\nTenkawa, its cook and pilot.\n\nAfter the war, both died in a shuttle\nexplosion during their honeymoon.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 22,
+     "text_id": 23,
+     "source": "<book(30)>ボソンジャンプ<endbook()>技術を利用した\n交通ネットワークの開発計画。\n\n超長距離を瞬時に移動可能な<book(30)>ボソンジャンプ<endbook()>で\n太陽系航路を構築するというもので、\nこれが実現されると、宇宙における交通手段が\n飛躍的に発展すると期待されている。",
+     "en": "A development plan for a transport\nnetwork using <book(30)>Boson Jump<endbook()>\ntechnology.\n\nIt would build routes across the solar\nsystem with the <book(30)>Boson Jump<endbook()>, which\ncan cross ultra-long distances in an\ninstant; once realized, it is expected\nto bring dramatic advances in space\ntransportation.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 23,
+     "text_id": 24,
+     "source": "<book(23)>ヒサゴプラン<endbook()>における交通網の要として\n作られたターミナル施設。\n\n戦艦のジャンプルートの通過拠点や\n一時停泊などに使用される。",
+     "en": "A terminal facility built as a hub of\nthe <book(23)>Hisago Plan<endbook()> transport network.\n\nUsed as a waypoint on battleship\nJump routes, for temporary berthing\nand so on.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 24,
+     "text_id": 25,
+     "source": "<book(23)>ヒサゴプラン<endbook()>の計画下で作られた\n<book(24)>ターミナルコロニー<endbook()>の一つ。",
+     "en": "One of the <book(24)>Terminal Colonies<endbook()> built\nunder the <book(23)>Hisago Plan<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 25,
+     "text_id": 26,
+     "source": "<book(23)>ヒサゴプラン<endbook()>計画の中枢を担う\n<book(24)>ターミナルコロニー<endbook()>。\n\n普段は一般公開されており、見学も可能。",
+     "en": "The <book(24)>Terminal Colony<endbook()> at the core of\nthe <book(23)>Hisago Plan<endbook()>.\n\nIt is normally open to the public and\ncan be toured.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 26,
+     "text_id": 27,
+     "source": "生体<book(30)>ボソンジャンプ<endbook()>が可能な人間のこと。\n\nジャンプをする際に、チューリップという\nゲートを介する必要がある者をＢ級、\n単体でのジャンプが実行可能な者を\nＡ級と定義している。",
+     "en": "A person capable of a biological\n<book(30)>Boson Jump<endbook()>.\n\nThose who must go through a gate\ncalled a Chulip in order to Jump are\ndefined as B-class, and those able to\nJump on their own as A-class.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 27,
+     "text_id": 28,
+     "source": "<book(30)>ボソンジャンプ<endbook()>に必要なコントロールシステム。\n\n<book(4)>第一次防衛戦争<endbook()>における木連との戦いの後、\n破棄された。",
+     "en": "The control system needed for the\n<book(30)>Boson Jump<endbook()>.\n\nIt was discarded after the fight with\nthe Jovian Federation in the\n<book(4)>First Defense War<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 28,
+     "text_id": 29,
+     "source": "元木星連合軍人、草壁春樹が興した\nクーデター組織。\n\n<book(9)>地球連邦<endbook()>と木星連合が統合した事に反対し、\n<book(9)>地球連邦<endbook()>内部に多数存在していた\n元木連メンバーを引き連れ、\n木星連合の再興を目指して決起した。\n\n<book(23)>ヒサゴプラン<endbook()>は火星の後継者が\n影で推進していた計画であり、\n当初から<book(30)>ボソンジャンプ<endbook()>のシステムを奪取し、\n少ない戦力をカバーする手段として計算していた。\nアキトらＡ級<book(27)>ジャンパー<endbook()>を拉致していたのも\nそのためである。",
+     "en": "A coup group founded by ex-Jovian\nFederation officer Haruki Kusakabe.\n\nOpposed to the merger of the\n<book(9)>Earth Federation<endbook()> and the Jovian\nFederation, it rose up to revive the\nlatter, taking along the many\nex-Jovian members inside the\n<book(9)>Earth Federation<endbook()>.\n\nIt secretly drove the <book(23)>Hisago Plan<endbook()>,\ncounting from the start on seizing\nthe <book(30)>Boson Jump<endbook()> system to offset its\nsmall forces. That is also why it\nabducted Akito and other A-class\n<book(27)>Jumpers<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 29,
+     "text_id": 30,
+     "source": "古代火星人のテクノロジーを利用した瞬間移動手段。\n\n実際には時空間移動手段だが、\n時間移動はまだコントロール手段が\n確立されていない。\n\n生体ジャンプが行なえるのは<book(27)>ジャンパー<endbook()>のみで、\n現時点でＢ級以下の人間は<book(23)>ヒサゴプラン<endbook()>を\n通じてしかジャンプを行うことができない。\n\n正確なジャンプを行うにはＡ級<book(27)>ジャンパー<endbook()>、\nもしくはチューリップと呼ばれる装置が必要である。",
+     "en": "A means of teleportation using\nancient Martian technology.\n\nIt is in fact travel through\nspace-time, but no means of\ncontrolling travel through time has\nbeen established yet.\n\nOnly <book(27)>Jumpers<endbook()> can make biological\nJumps, and for now people of B-class\nor below can Jump only via the\n<book(23)>Hisago Plan<endbook()>.\n\nAn accurate Jump needs an A-class\n<book(27)>Jumper<endbook()> or a device called a Chulip.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 30,
+     "text_id": 31,
+     "source": "アジア圏最大の企業グループ。\nその規模から、<book(9)>地球連邦<endbook()>に対しても\n強い発言力を有している。\n\n火星開発にも大きく関与しており、\n火星技術を応用してナデシコやエステバリスの\n開発も行った。",
+     "en": "The largest corporate group in the\nAsian sphere. Its scale gives it a\nstrong voice even with the\n<book(9)>Earth Federation<endbook()>.\n\nIt is also deeply involved in Mars\ndevelopment, and used Martian\ntechnology to develop the Nadesico\nand the Aestivalis.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 31,
+     "text_id": 32,
+     "source": "火星極冠遺跡にある\n<book(23)>ヒサゴプラン<endbook()>のセントラルポイントのこと。",
+     "en": "The central point of the <book(23)>Hisago Plan<endbook()>,\nlocated in the Martian polar cap\nruins.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 32,
+     "text_id": 33,
+     "source": "過去に地球へ落下した異星人の戦闘艦を\n地球の技術で修復した戦艦。\n\nフォールドと呼ばれる空間跳躍航法や\n強攻型に変形できる可変構造など、\n現存の技術では実現不可能な機構が\n搭載されている。\n\n<book(4)>第一次防衛戦争<endbook()>では最前線で活躍したが、\n新鋭戦艦メガロードの就航により退役し、\n今は平和の象徴として<book(88)>マクロスシティ<endbook()>に\nその姿を留めている。",
+     "en": "A battleship restored with Earth\ntechnology from an alien warship\nthat fell to Earth in the past.\n\nIt carries mechanisms impossible with\nexisting technology, such as a\nspace-leap navigation method called\nfold and a variable structure that\ntransforms into Attack mode.\n\nIt served on the front line in the\n<book(4)>First Defense War<endbook()>, but retired when\nthe new battleship Megaroad entered\nservice, and now remains in\n<book(88)>Macross City<endbook()> as a symbol of peace.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 33,
+     "text_id": 34,
+     "source": "３段可変機構を持つ人型機動兵器。\n\n戦闘機型のファイター形態、\n人型のバトロイド形態、その中間に当たる\nガウォーク形態に変形し、\nあらゆる戦局に対応可能な利点を持つ。\n\n先の戦争の主力として活躍し、\nそれ以来様々なバージョンが開発されている。",
+     "en": "A humanoid mobile weapon with a\nthree-stage variable mechanism.\n\nIt transforms among the fighter-plane\nFighter mode, the humanoid Battroid\nmode and the in-between GERWALK\nmode, which lets it handle any battle\nsituation.\n\nIt served as the mainstay of the last\nwar, and many versions have been\ndeveloped since.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 34,
+     "text_id": 35,
+     "source": "<book(4)>第一次防衛戦争<endbook()>後、地球に帰化した種族。\n元は戦闘能力に長けた巨人の種族だったが、\n地球への帰化に伴い、小型化した。\n\nしかし、<book(9)>地球連邦<endbook()>の不十分な移民政策や\n生来の戦闘本能故に、一部の移民による暴動が\n多発して社会問題化している。",
+     "en": "A race naturalized on Earth after the\n<book(4)>First Defense War<endbook()>. Once a race of\ngiants skilled in combat, they were\nreduced in size upon naturalization.\n\nHowever, because of the\n<book(9)>Earth Federation<endbook()>'s insufficient\nimmigration policy and their innate\nfighting instinct, riots by some\nimmigrants break out often and have\nbecome a social problem.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 35,
+     "text_id": 36,
+     "source": "海と大地の間に存在する世界。\n\n地上界での生を終えた魂が、\n再び転生するまでの間に休息の時を過ごす\n安息の地とされている。\n\n生命の発する「オーラ力」によって支えられ、\nこれを動力として動く人型機動兵器を\nオーラマシンという。",
+     "en": "A world that exists between the sea\nand the land.\n\nIt is said to be a place of repose\nwhere souls whose lives on Upper\nEarth have ended rest until they are\nreborn.\n\nIt is sustained by the \"Aura Power\"\nthat living things emit, and the\nhumanoid mobile weapons that run on\nit are called Aura Machines.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 36,
+     "text_id": 37,
+     "source": "ＧＸ－９９００の形式番号を持つ\nニュータイプ専用モビルスーツ。\n\n地球とコロニーの間で繰り広げられた戦争に\nおいて、地球側の決戦兵器として投入された。\n\n月の施設からマイクロウェーブを受信して\n使用する高出力砲サテライトキャノンを有する。",
+     "en": "A mobile suit for Newtype use\nbearing the model number GX-9900.\n\nIt was fielded as the Earth side's\ndecisive weapon in the war waged\nbetween Earth and the colonies.\n\nIt has the Satellite Cannon, a\nhigh-output cannon fired by receiving\nmicrowaves from a lunar facility.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 37,
+     "text_id": 38,
+     "source": "<book(40)>フィクス・ブラッドマン<endbook()>率いる地球政府。\n\nかつては塔州連邦という組織であったが、\n<book(40)>フィクス・ブラッドマン<endbook()>の台頭によって\n現体制へ移行した。　\n\n<book(42)>宇宙革命軍<endbook()>の根絶やしを図り、地球とコロニーの\n両方を自らの統治下に置く事を目的としている。　\n\nそのためにニュータイプの確保や\n未知の技術の軍事転用など、\n急激な軍拡を推し進めている。",
+     "en": "The Earth government led by\n<book(40)>Fixx Bloodman<endbook()>.\n\nOnce an organization called the\nUnited Federation of Predgio Towers,\nit shifted to the current regime with\nthe rise of <book(40)>Fixx Bloodman<endbook()>.\n\nIt seeks to root out the\n<book(42)>Space Rev. Army<endbook()> and aims to place\nboth Earth and the colonies under its\nown rule.\n\nTo that end it is pushing a rapid\nmilitary buildup, such as securing\nNewtypes and turning unknown\ntechnology to military use.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 38,
+     "text_id": 39,
+     "source": "第７次宇宙戦争以後から出没している\nグループの総称。\n廃棄された軍事兵器などを漁って\n売りさばいているため、ハゲタカに例え\nこの名前で呼ばれている。\n\n基本的に戦艦やＭＳ等で武装し、\n用心棒や傭兵を雇っていることもある。\n\n大半は無法者や強盗まがいの者達であるため\n一般的には良くは思われていない。\n物資売買の行商のみを行うフリーデンや\n雑誌「ray=out」を発行し、\nリフボードのカリスマ的集団である\n<book(60)>ゲッコーステイト<endbook()>なども、一般的には\nバルチャーとして認識されている。",
+     "en": "General name for groups seen since\nthe 7th Space War. As they scavenge\nand sell off abandoned military\nhardware, they are likened to\nvultures and so named.\n\nThey are usually armed with\nbattleships, MS, etc., and some hire\nbodyguards or mercenaries.\n\nAs most are outlaws or near-robbers,\nthey are generally ill regarded. The\nFreeden, which only peddles goods,\nand <book(60)>Gekkostate<endbook()>, the charismatic ref\nboard group that puts out the\nmagazine \"ray=out\", are generally\nseen as Vultures too.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 39,
+     "text_id": 40,
+     "source": "現在の<book(38)>新連邦<endbook()>の最高権力者。\n\n第七次宇宙戦争後に組織された\n連邦再生委員会のリーダーでもあった。\n\n塔州連邦の長であった三賢人を退け、\n塔州連邦に変わり、<book(38)>新連邦<endbook()>政府の樹立を宣言した。",
+     "en": "The current supreme ruler of the\n<book(38)>New Federation<endbook()>.\n\nAlso led the Federation\nReconstruction Committee formed\nafter the 7th Space War.\n\nOusted the three Sages who headed\nthe United Federation of Predgio\nTowers and declared the founding of\nthe <book(38)>New Federation<endbook()> government in its\nplace.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 40,
+     "text_id": 41,
+     "source": "船舶の計器を狂わせて\n海に沈めてしまうという迷信のある海域。\n\nローレライ伝説にちなんでこう呼ばれている。",
+     "en": "A sea area where, superstition has it,\nships' instruments go haywire and\nthe ships are sent to the bottom.\n\nIt is so called after the Lorelei\nlegend.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 41,
+     "text_id": 42,
+     "source": "第七次宇宙戦争時、\n地球からの独立自治を目指して\n戦っていたコロニーの反乱軍。\n\n激しい攻防の末、多くの無人コロニーを\n地球に落下させて甚大な被害をもたらした。\n\n今現在も地球側と対立状態にあり、\n地球への侵攻の準備を進めている。",
+     "en": "The colony rebel army that fought\nfor independence and self-rule from\nEarth during the 7th Space War.\n\nAfter fierce fighting, it dropped\nmany uninhabited colonies on Earth,\ncausing enormous damage.\n\nEven now it remains opposed to the\nEarth side and is preparing to invade\nEarth.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 42,
+     "text_id": 43,
+     "source": "一定範囲内の電子機器を使用不能にする兵器。\n旧連邦軍の手により開発された。\n\n戦時中に精神を崩壊させたニュータイプである\nルチル・リリアントの憎しみの心が\nシステムに組み込まれている。",
+     "en": "A weapon that disables electronic\ndevices within a set range. It was\ndeveloped by the old Federation\nForces.\n\nBuilt into the system is the hatred of\nLucille Liliant, a Newtype whose mind\nwas shattered during the war.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 43,
+     "text_id": 44,
+     "source": "フラッシュシステムを搭載したガンダム専用に\n開発された、無人のビットモビルスーツ。\n\nニュータイプの精神波で操り、\nニュータイプ一人で部隊クラスの数の\n機動兵器を同時に遠隔操作することが可能。",
+     "en": "Unmanned bit mobile suits developed\nfor Gundams fitted with the Flash\nSystem.\n\nSteered by a Newtype's mental waves,\nthey let a single Newtype remotely\noperate a whole unit's worth of\nmobile weapons at once.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 44,
+     "text_id": 45,
+     "source": "<book(38)>新連邦<endbook()>の所有する人工島。\n\n新兵器の研究がなされているという噂がある。",
+     "en": "A man-made island owned by the\n<book(38)>New Federation<endbook()>.\n\nRumor has it that new weapons are\nbeing researched there.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 45,
+     "text_id": 46,
+     "source": "月面に存在する謎の基地施設。\n旧時代の遺産が封じられていると言われている。\n\nガンダムＸのサテライトシステムに\nマイクロウェーブを送信する施設でもある。",
+     "en": "A mysterious base facility on the\nMoon. A legacy of the old era is said\nto be sealed inside.\n\nIt is also the facility that beams\nmicrowaves to the Gundam X's\nSatellite System.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 46,
+     "text_id": 47,
+     "source": "３形態への変形が可能な大型ロボット。\n\n<book(52)>重陽子ミサイル<endbook()>事件以来、早乙女研究所で\n誰にも使用されぬまま眠っていたが、\n號、渓、凱の３人の手によって再起動した。",
+     "en": "A large robot that can transform into\nthree forms.\n\nIt had lain dormant at the Saotome\nInstitute, used by no one, ever since\nthe <book(52)>Deuteron Missile<endbook()> incident, until\nGo, Kei and Gai reactivated it.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 47,
+     "text_id": 48,
+     "source": "多数のゲッターＧが合体・進化した姿。\n来るべき<book(49)>インベーダー<endbook()>の復活に備えて\n早乙女博士が開発した。\n\n搭乗者のパーソナリティにより、\n進化に大きな影響を及ぼし、\n異なった形態を見せる特徴をもつ。\n\n早乙女博士によれば「世界最後の日」を\n回避するための手段であるというが、\n真実については何もわかっていない。",
+     "en": "The form taken by many Getter Robo\nG units that combined and evolved.\nDr. Saotome developed it to prepare\nfor the coming revival of the\n<book(49)>Invaders<endbook()>.\n\nThe personality of whoever is aboard\ngreatly influences its evolution, so it\nshows differing forms.\n\nAccording to Dr. Saotome it is a\nmeans of averting \"the last day of the\nworld,\" but nothing is known of the\ntruth.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 48,
+     "text_id": 49,
+     "source": "エネルギー源である<book(51)>ゲッター線<endbook()>を求め、\n宇宙より飛来した謎の生命体。\n\n武装形態のことをメタルビーストと呼び、\n無機物や有機物と合体することで\nその機能を取り込む特性を持つ。",
+     "en": "Mysterious life forms that came from\nspace seeking <book(51)>Getter Rays<endbook()>, their\nenergy source.\n\nTheir armed forms are called Metal\nBeasts. By merging with inorganic or\norganic matter, they take on its\nfunctions.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 49,
+     "text_id": 50,
+     "source": "神隼人が指揮する巨大移動要塞。\nゲッター炉心を動力としている。",
+     "en": "A huge mobile fortress commanded by\nHayato Jin. It is powered by a Getter\nreactor.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 50,
+     "text_id": 51,
+     "source": "ゲッターロボの主動力となる放射線状物質。\n\nゲッター線のエネルギー変換に唯一成功したのが\n早乙女博士である。",
+     "en": "A radiation-like substance that serves\nas the main power source of Getter\nRobo.\n\nDr. Saotome is the only person to\nhave succeeded in converting Getter\nRays into energy.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 51,
+     "text_id": 52,
+     "source": "１３年前の<book(53)>月面インベーダー戦争<endbook()>において\n使用された破壊兵器。\n\n１３年前、竜馬に殺されたはずの早乙女博士が\n<book(49)>インベーダー<endbook()>と共に復活。\n自ら開発した<book(48)>真ドラゴン<endbook()>で人類へ戦いを挑んだ。\n<book(48)>真ドラゴン<endbook()>に恐怖した人類は\nこの兵器の使用を決定。\n極東地域を中心に世界の１／３は\n壊滅すると予想されていたが、\nかの英雄<book(68)>アドロック・サーストン<endbook()>が\n<book(62)>セブンスウェル<endbook()>を起こし、同時発生した\n<book(70)>トラパー<endbook()>の異常発生現象と共に食い止めることで、\n日本壊滅という最小限の被害に止めることに\n成功した。",
+     "en": "A destructive weapon used in the\n<book(53)>Moon Invader War<endbook()> 13 years ago.\n\nDr. Saotome, thought slain by Ryoma,\nrevived with the <book(49)>Invaders<endbook()> and fought\nhumanity with his own <book(48)>Shin Dragon<endbook()>.\nFearing <book(48)>Shin Dragon<endbook()>, humans chose\nthis weapon. 1/3 of the world,\nmainly the Far East, was expected to\nfall, but the hero <book(68)>Adroc Thurston<endbook()> set\noff a <book(62)>Seven Swell<endbook()>, halting it and a\nsimultaneous abnormal <book(70)>Trapar<endbook()> surge,\nlimiting the ruin to Japan.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 52,
+     "text_id": 53,
+     "source": "過去に起きた人類と<book(49)>インベーダー<endbook()>の月面戦争。\n\n流竜馬、神隼人、巴武蔵のゲッターチームの活躍と\n<book(52)>重陽子ミサイル<endbook()>により、人類の勝利に終わった。",
+     "en": "A past war on the Moon between\nhumanity and the <book(49)>Invaders<endbook()>.\n\nIt ended in victory for humanity\nthanks to the feats of the Getter\nTeam - Ryoma Nagare, Hayato Jin\nand Musashi Tomoe - and the\n<book(52)>Deuteron Missile<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 53,
+     "text_id": 54,
+     "source": "シベリア地方に存在する密閉型の都市。\n\n塔の建築や航空網の構築が不可能な\n厳しい自然環境での生活のために建造された。\n\nその性質上、脱出が困難な点に目をつけた\n<book(38)>新連邦<endbook()>は、<book(83)>ヴォダラク<endbook()>教徒などの政治犯や\n思想犯を隔離するための施設として利用している。",
+     "en": "Sealed cities found in the Siberia\nregion.\n\nThey were built for life in a harsh\nnatural environment where towers\ncannot be built and air routes cannot\nbe set up.\n\nNoting that their nature makes\nescape hard, the <book(38)>New Federation<endbook()> uses\nthem as facilities to isolate political\nprisoners and thought criminals such\nas <book(83)>Vodarac<endbook()> believers.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 54,
+     "text_id": 55,
+     "source": "<book(54)>ドームポリス<endbook()>に住む人々が、\n豊かな土地に逃れる行為。\n\n<book(38)>新連邦<endbook()>ではこれを重大な違法行為と規定しており、\nエクソダスを画策する者たちは\n<book(56)>シベリア鉄道<endbook()>の監視対象となる。",
+     "en": "The act by which people living in a\n<book(54)>Domepolis<endbook()> flee to richer lands.\n\nThe <book(38)>New Federation<endbook()> defines this as a\ngrave crime, and those who plot an\nExodus are put under watch by the\n<book(56)>Siberian Railway<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 55,
+     "text_id": 56,
+     "source": "シベリア地方の<book(54)>ドームポリス<endbook()>を統治する\n<book(38)>新連邦<endbook()>の下部組織。\n総裁はキッズ・ムント。\n\n第７次宇宙戦争によって崩壊した世界に\n鉄道網を構築することで交通手段として\nの鉄道が大発展を遂げるが、\n<book(70)>トラパー<endbook()>による航空網の整備により\n瞬く間に衰退してしまった。\n\n現在はシベリア地方の<book(54)>ドームポリス<endbook()>の\n自治権を与えられている。",
+     "en": "A body under the <book(38)>New Federation<endbook()>\nthat governs the <book(54)>Domepolises<endbook()> of the\nSiberia region. Its president is Kids\nMunt.\n\nBy laying a rail network across a\nworld ruined by the 7th Space War,\nrail boomed as a means of transport,\nbut it declined in no time once air\nroutes were developed using <book(70)>Trapar<endbook()>.\n\nToday it is granted autonomy over\nthe <book(54)>Domepolises<endbook()> of the Siberia\nregion.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 56,
+     "text_id": 57,
+     "source": "シルエットエンジンと呼ばれる駆動機関で\n可動する人型機動兵器。\n\n工業や建築、輸送手段など様々な用途で\n普及しており、武装をした戦闘用のタイプは\n主に<book(56)>シベリア鉄道<endbook()>が使用している。",
+     "en": "Humanoid mobile weapons driven by a\npower unit called a Silhouette\nEngine.\n\nThey are in wide use for industry,\nconstruction, transport and many\nother purposes; armed combat types\nare used mainly by the\n<book(56)>Siberian Railway<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 57,
+     "text_id": 58,
+     "source": "オーバースキルを使用できる\n<book(57)>シルエット・マシン<endbook()>の総称。\n\nその内部構造は生物に近い物が多く、\n骨格の上にも生物的な外観を持つメタル・マッスルが\n取り付けられている。\nオーバーコートと呼ばれる外装を着用することで、\nオーバースキルという特殊能力を発動することも可能。\n\nまた、駆動時にフォトンマットと呼ばれる\n高エネルギーを放出するのも特徴で、\nこれを自在にコントロールする事で\n飛行・慣性制御や攻撃・防御手段として\n応用することができる。",
+     "en": "General term for <book(57)>Silhouette Machines<endbook()>\nthat can use Overskills.\n\nTheir inner structure is often close\nto a living creature's, with\norganic-looking Metal Muscle fitted\nover the skeleton. By wearing outer\narmor called an Overcoat, they can\nalso activate special abilities called\nOverskills.\n\nWhen running they also emit high\nenergy called a Photon Mat; by\ncontrolling it freely, it can be applied\nto flight, inertia control, attack and\ndefense.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 58,
+     "text_id": 59,
+     "source": "<book(56)>シベリア鉄道<endbook()>の本社がある巨大都市。\n世界中へ広がる鉄道網の中心部でもある。",
+     "en": "A huge city where the\n<book(56)>Siberian Railway<endbook()> has its head office.\nIt is also the hub of the rail network\nthat spreads across the world.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 59,
+     "text_id": 60,
+     "source": "ホランドをリーダーとする反政府グループ。\nリフボードの世界ではカリスマ的存在であり、\n雑誌「ｒａｙ＝ｏｕｔ」の出版を通じた\n啓蒙活動を行っている。\n\nホランド以下の中核メンバーは元軍属で、\n軍を離反する際に強奪した\n最新鋭巡洋艦「月光号」を母艦としている。",
+     "en": "An anti-government group led by\nHolland. Charismatic figures in the\nworld of ref boards, they work to\nraise awareness by publishing the\nmagazine \"ray=out\".\n\nThe core members, Holland included,\nare ex-military, and their mothership\nis the Gekko, a state-of-the-art\ncruiser seized when they deserted the\nmilitary.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 60,
+     "text_id": 61,
+     "source": "世界で初めて発掘された<book(65)>ＬＦＯ<endbook()>。\nかつては軍の特殊部隊に実戦配備されていたが、\nホランドが軍を離反した際に\n月光号とともに強奪した。\n\n左右複座式のコクピットを持ち、\nエウレカなど特定の人物以外の操縦は\n受けつけない性質を持つ。\n\n正式名称はニルヴァーシュｔｙｐｅＺＥＲＯ。\n世界で最初に発掘された<book(65)>ＬＦＯ<endbook()>であることから\nこの名がつけられている。",
+     "en": "The first <book(65)>LFO<endbook()> ever excavated. It was\nonce deployed with a military special\nforces unit, but Holland seized it\nalong with the Gekko when he\ndeserted.\n\nIt has a side-by-side two-seat cockpit\nand by nature will not accept any\npilot other than certain people such\nas Eureka.\n\nIts formal name is Nirvash typeZERO,\ngiven because it was the first <book(65)>LFO<endbook()>\nexcavated in the world.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 61,
+     "text_id": 62,
+     "source": "<book(63)>アミタ・ドライヴ<endbook()>を装着した\n<book(61)>ニルヴァーシュ<endbook()>が起こす謎の現象。\n\n発動後は七色の光とともに、\n<book(70)>トラパー<endbook()>が異常発生した後、\n周囲の<book(70)>トラパー<endbook()>を完全に消失させる\n反転現象が発生する。",
+     "en": "A mysterious phenomenon caused by\nthe <book(61)>Nirvash<endbook()> when fitted with the\n<book(63)>Amita Drive<endbook()>.\n\nOnce triggered, amid seven-colored\nlight, <book(70)>Trapar<endbook()> surges abnormally,\nfollowed by a reversal that wipes out\nall the surrounding <book(70)>Trapar<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 62,
+     "text_id": 63,
+     "source": "<book(61)>ニルヴァーシュ<endbook()>専用の\n<book(64)>コンパク・ドライヴ<endbook()>拡張パーツ。\n<book(65)>ＬＦＯ<endbook()>の意志を人へフィードバックすることが\nできる。\n\nこれを装着することで<book(61)>ニルヴァーシュ<endbook()>は悟りを開き、\n本当の目覚めを迎えるといわれている。",
+     "en": "An expansion part for the\n<book(64)>Compac Drive<endbook()>, exclusive to the\n<book(61)>Nirvash<endbook()>. It can feed the will of the\n<book(65)>LFO<endbook()> back to a person.\n\nIt is said that with this fitted, the\n<book(61)>Nirvash<endbook()> attains enlightenment and\nreaches its true awakening.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 63,
+     "text_id": 64,
+     "source": "人と機械をつなぐ装置であり、\n<book(65)>ＬＦＯ<endbook()>を動かすための制御ユニット。\n\nスカブからできる天然石を使用しており、\n<book(70)>トラパー<endbook()>からエネルギーを吸収できる。\n\nこれを<book(65)>ＬＦＯ<endbook()>に接続してエネルギーを送ることで\n<book(65)>ＬＦＯ<endbook()>を動作させることができる。",
+     "en": "A device that links human and\nmachine, and the control unit used to\nrun an <book(65)>LFO<endbook()>.\n\nIt uses a natural stone formed from\nScub and can absorb energy from\n<book(70)>Trapar<endbook()>.\n\nConnecting it to an <book(65)>LFO<endbook()> and feeding\nin energy makes the <book(65)>LFO<endbook()> operate.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 64,
+     "text_id": 65,
+     "source": "リフボードを使用する人型機動マシン。\n\n<book(70)>トラパー<endbook()>の波に乗ることで飛行したり、\nビークルモードで地上を走行することも可能。\n\n地中より発掘された遺跡物に\n外装や操作ユニットなどを取りつけ、\n操縦可能にしたものである。\n\nＬＦＯは\nＬｉｇｈｔ　Ｆｉｎｄｉｎｇ　Ｏｐｅｒａｔｉｏｎ\nの略称。",
+     "en": "Humanoid mobile machines that use\nref boards.\n\nThey can fly by riding waves of\n<book(70)>Trapar<endbook()>, or travel on the ground in\nvehicle mode.\n\nThey are relics excavated from\nunderground, fitted with armor,\ncontrol units and so on to make them\npilotable.\n\nLFO stands for\nLight Finding Operation.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 65,
+     "text_id": 66,
+     "source": "<book(38)>新連邦<endbook()>の主力兵器として使用されている<book(65)>ＬＦＯ<endbook()>。\n<book(61)>ニルヴァーシュ<endbook()>ｔｙｐｅＺＥＲＯを元に\n設計、開発された。\n\nＫＬＦは\nＫｒａｆｔ Ｌｉｇｈｔ Ｆｉｇｈｔｅｒの略称。",
+     "en": "<book(65)>LFOs<endbook()> used as the main weapon of the\n<book(38)>New Federation<endbook()>. Designed and\ndeveloped from the <book(61)>Nirvash<endbook()>\ntypeZERO.\n\nKLF stands for\nKraft Light Fighter.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 66,
+     "text_id": 67,
+     "source": "地中から発掘される遺物。\n<book(66)>ＫＬＦ<endbook()>の核となる。\n\n外装などを取り付けることにより\n人が操縦できるように改造したものが\n<book(65)>ＬＦＯ<endbook()>や<book(66)>ＫＬＦ<endbook()>である。\n\n最古のアーキタイプは、\n<book(61)>ニルヴァーシュ<endbook()>ｔｙｐｅＺＥＲＯに使用されている。",
+     "en": "Relics excavated from underground.\nThey form the core of a <book(66)>KLF<endbook()>.\n\nFitted with armor and the like and\nmodified so that people can pilot\nthem, they become <book(65)>LFOs<endbook()> and <book(66)>KLFs<endbook()>.\n\nThe oldest Archetype is the one used\nin the <book(61)>Nirvash<endbook()> typeZERO.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 67,
+     "text_id": 68,
+     "source": "<book(69)>スカブコーラル<endbook()>研究の第一人者。\n<book(61)>ニルヴァーシュ<endbook()>とエウレカの研究を行った。\nレントン・サーストンの父親でもある。\n\n<book(52)>重陽子ミサイル<endbook()>事件の際、\n同時発生したサマー・オブ・ラブと呼ばれる\n<book(70)>トラパー<endbook()>の異常発生現象を防ぐため、\n自らの命を引き換えにその被害を抑えた。\nそのため、人類を救った英雄とされている。",
+     "en": "The leading authority on <book(69)>Scub Coral<endbook()>\nresearch. He studied the <book(61)>Nirvash<endbook()> and\nEureka. He is also the father of\nRenton Thurston.\n\nDuring the <book(52)>Deuteron Missile<endbook()> incident,\nto stop the Summer of Love, an\nabnormal <book(70)>Trapar<endbook()> outbreak that\noccurred at the same time, he held\ndown the damage at the cost of his\nown life. He is therefore regarded as\nthe hero who saved humanity.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 68,
+     "text_id": 69,
+     "source": "地殻変動に伴い地面から隆起する新たな大地。\n地球上の地表のほとんどを覆っている。\n\nスカブの隆起は居住地域の破壊などの\n被害を及ぼしており、地表にパイルバンカーを\n打ち込み隆起を抑制する対策が行なわれている。\n\n人類を脅かすものとされる一方、傷ついた大地を\n修復するための存在とも言われている。\n\n略して「スカブ」とも呼ばれる。",
+     "en": "New land that rises out of the ground\nwith crustal movement. It covers\nmost of the Earth's surface.\n\nScub upheavals cause damage such as\nthe destruction of inhabited areas, so\nPile Bunkers are driven into the\nground to suppress them.\n\nWhile seen as a threat to humanity, it\nis also said to exist in order to heal\nthe wounded land.\n\nAlso called \"Scub\" for short.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 69,
+     "text_id": 70,
+     "source": "<book(69)>スカブコーラル<endbook()>から流れ出し、\n大気中に満ちている特殊な粒子。\n\n反発力で浮遊できる性質を持つため\n空路であるレイラインが形成され、\nリフボードや空中戦艦などの\n飛行手段として広く用いられる。",
+     "en": "Special particles that flow out of the\n<book(69)>Scub Coral<endbook()> and fill the atmosphere.\n\nTheir repulsive force lets things\nfloat, so air routes called ley lines\nform, and they are widely used as a\nmeans of flight for ref boards, aerial\nbattleships and more.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 70,
+     "text_id": 71,
+     "source": "<book(69)>スカブコーラル<endbook()>が生命体であり、\n知的能力を有しているとする学説。\n<book(68)>アドロック・サーストン<endbook()>や、\nグレッグ・ベア・イーガン博士が提唱。\n\n地殻変動や<book(72)>コーラリアン<endbook()>などは、\n人類の行動に対する反応であるという推測を\nその根拠にしている。",
+     "en": "The theory that the <book(69)>Scub Coral<endbook()> is a\nlife form possessing intelligence. Put\nforward by <book(68)>Adroc Thurston<endbook()> and Dr.\nGreg \"Bear\" Egan.\n\nIt rests on the inference that crustal\nmovement, <book(72)>Coralians<endbook()> and the like are\nreactions to the actions of humanity.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 71,
+     "text_id": 72,
+     "source": "<book(69)>スカブコーラル<endbook()>が様々な形態に変化した存在。\n\n気体や雲状の物、生物としての形状を持つ物など、\n様々な種が確認されており、その多様性から\n一部の研究者によって知性体説が唱えられている。",
+     "en": "Beings that are the <book(69)>Scub Coral<endbook()>\nchanged into various forms.\n\nMany kinds have been confirmed,\nsuch as gaseous or cloud-like ones\nand ones shaped like living creatures;\nbecause of this diversity, some\nresearchers argue that they are\nintelligent life.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 72,
+     "text_id": 73,
+     "source": "人間に対して攻撃行動を行う性質を持つ\n<book(72)>コーラリアン<endbook()>の総称。\n\n様々なタイプが確認されているが、\nその出現理由はわかっていない。\n出現から一定時間が経過すると活動を停止し、\n石灰化する。",
+     "en": "General term for <book(72)>Coralians<endbook()> that by\nnature attack humans.\n\nVarious types have been confirmed,\nbut why they appear is unknown. A\nset time after appearing, they cease\nactivity and calcify.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 73,
+     "text_id": 74,
+     "source": "巨大な雲状の<book(72)>コーラリアン<endbook()>。\n\nその規模は数十キロという広範囲に渡り、\n<book(70)>トラパー<endbook()>の流れが一斉に中心に向かい、\n流れ出すという現象が起こる。\n<book(73)>抗体コーラリアン<endbook()>の出現とも関係しており、\nその活動時間は１２４６秒のみ。\n<book(69)>スカブコーラル<endbook()>への強力な物理ダメージに\nよって出現する場合もある。\n\n\nその雲状の中には<book(75)>ゾーン<endbook()>と呼ばれる空間が\n広がっていると言われている。",
+     "en": "A giant cloud-like <book(72)>Coralian<endbook()>.\n\nIt spans tens of kilometers, and the\nflows of <book(70)>Trapar<endbook()> all rush toward its\ncenter at once and stream out. It is\nalso linked to the appearance of\n<book(73)>Antibody Coralians<endbook()>, and it is active\nfor only 1246 seconds. It may also\nappear as a result of strong physical\ndamage to the <book(69)>Scub Coral<endbook()>.\n\n\nInside the cloud a space called\n<book(75)>the Zone<endbook()> is said to spread out.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 74,
+     "text_id": 75,
+     "source": "<book(70)>トラパー<endbook()>濃度が高い場所に発生する\n特殊な領域。",
+     "en": "A special region that arises where\n<book(70)>Trapar<endbook()> density is high.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 75,
+     "text_id": 76,
+     "source": "スカブとの対話が行われると言われる場所。\n\n<book(80)>司令クラスター<endbook()>が存在するとも言われているが、\nその詳細は不明である。",
+     "en": "The place where dialogue with the\nScub is said to take place.\n\nThe <book(80)>Command Cluster<endbook()> is also said to\nbe there, but the details are unknown.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 76,
+     "text_id": 77,
+     "source": "物理宇宙が限界点を迎えて崩壊する現象と\nその理論。\n\n人間をはじめとする知性体が存在できる\n総量はあらかじめ定められており、\nその容積を超えた時、宇宙そのものが崩壊する\nという理論に基づいている。\n休眠する大量のスカブが目覚めた時に\n発生すると考えられている。\n\n<book(79)>グレートウォール<endbook()>では小規模ながら\n同様の現象が確認できる。",
+     "en": "The phenomenon in which the\nphysical universe reaches its limit\nand collapses, and the theory of it.\n\nIt is based on the idea that the total\namount of intelligent life, humans\nincluded, that can exist is fixed in\nadvance, and that the universe itself\ncollapses when that capacity is\nexceeded. It is thought to occur when\nthe vast dormant Scub awakens.\n\nAt the <book(79)>Great Wall<endbook()>, the same\nphenomenon can be seen on a small\nscale.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 77,
+     "text_id": 78,
+     "source": "<book(68)>アドロック・サーストン<endbook()>と\n早乙女博士によって作成された、\n<book(69)>スカブコーラル<endbook()>に関する計画書。\n\n<book(61)>ニルヴァーシュ<endbook()>の覚醒から、\nその先に起こりえるであろう\n<book(77)>クダンの限界<endbook()>までが\n予測として記されている。\n\n作成の過程で、早乙女博士が離脱したことから\nスカブと<book(49)>インベーダー<endbook()>の関わりは\n謎のままとされた。\n\n同時に、<book(68)>アドロック・サーストン<endbook()>による\n<book(71)>スカブコーラル知性体仮説<endbook()>も記され、\n現在ではスカブせん滅計画のために\nデューイに利用されている。",
+     "en": "A plan document on the <book(69)>Scub Coral<endbook()>\ndrawn up by <book(68)>Adroc Thurston<endbook()> and Dr.\nSaotome.\n\nIt sets out predictions from the\nawakening of the <book(61)>Nirvash<endbook()> to the\n<book(77)>Limit of Questions<endbook()> that could follow.\n\nDr. Saotome left during the drafting,\nso the link between the Scub and the\n<book(49)>Invaders<endbook()> remained a mystery.\n\nIt also records the <book(71)>Scub Mind Theory<endbook()>\nof <book(68)>Adroc Thurston<endbook()>, and Dewey now\nuses it for the plan to wipe out the\nScub.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 78,
+     "text_id": 79,
+     "source": "<book(69)>スカブコーラル<endbook()>と人類が\n対話すると言われている場所。\nこの世界を救う道であり、人類と<book(72)>コーラリアン<endbook()>の\n対である者が目指すべき場所と考えられている。\n\n大量に噴出した<book(70)>トラパー<endbook()>が雲のように渦巻き、\n全物理法則が通用しない\n特殊な空間が広がっている。",
+     "en": "The place where the <book(69)>Scub Coral<endbook()> and\nhumanity are said to hold dialogue.\nIt is thought to be the path to saving\nthis world, and the place that those\nwho are a pair of human and <book(72)>Coralian<endbook()>\nshould head for.\n\nMasses of erupted <book(70)>Trapar<endbook()> swirl like\nclouds, and a special space spreads\nout where none of the laws of physics\napply.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 79,
+     "text_id": 80,
+     "source": "<book(69)>スカブコーラル<endbook()>をコントロールする中枢。",
+     "en": "The nerve center that controls the\n<book(69)>Scub Coral<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 80,
+     "text_id": 81,
+     "source": "高高度からスカブの深部へと打ち込まれる\n地殻貫通弾。\n<book(72)>コーラリアン<endbook()>を刺激する為に開発された。",
+     "en": "A crust-penetrating bomb fired from\nhigh altitude deep into the Scub. It\nwas developed to stimulate the\n<book(72)>Coralians<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 81,
+     "text_id": 82,
+     "source": "高高度から地殻貫通弾<book(81)>オレンジ<endbook()>を投下することで\nスカブを破壊し、<book(69)>スカブコーラル<endbook()>を覚醒させる計画。\n\n目的は<book(69)>スカブコーラル<endbook()>の中枢である\n<book(80)>司令クラスター<endbook()>の位置の特定と考えられている。",
+     "en": "A plan to destroy the Scub and\nawaken the <book(69)>Scub Coral<endbook()> by dropping\n<book(81)>Orange<endbook()> crust-penetrating bombs from\nhigh altitude.\n\nIts aim is thought to be pinpointing\nthe location of the <book(80)>Command Cluster<endbook()>,\nthe nerve center of the <book(69)>Scub Coral<endbook()>.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 82,
+     "text_id": 83,
+     "source": "ヴォダラ宮に本山を構える宗教組織。\nスカブを抑制することを否定し、\nスカブの意志のままに生きることを提唱する。\n\n一部の過激派が政府の弾圧に抵抗して\nテロ行為を繰り返しているため、\n一般的には反政府組織とみなされている。",
+     "en": "A religious organization whose head\ntemple is the Vodara Shrine. It\nopposes suppressing the Scub and\nadvocates living as the Scub wills.\n\nBecause some extremists resist\ngovernment oppression with repeated\nacts of terrorism, it is generally\nregarded as an anti-government\norganization.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 83,
+     "text_id": 84,
+     "source": "<book(38)>新連邦<endbook()>の軍事技術研究機関。\n\n発掘された<book(67)>アーキタイプ<endbook()>を研究し、\n<book(65)>ＬＦＯ<endbook()>の実用化を行った。",
+     "en": "A military technology research body\nof the <book(38)>New Federation<endbook()>.\n\nIt studied the excavated <book(67)>Archetypes<endbook()>\nand put the <book(65)>LFO<endbook()> into practical use.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 84,
+     "text_id": 85,
+     "source": "<book(9)>地球連邦<endbook()>軍による、次世代<book(34)>バルキリー<endbook()>の\n選出を目的としたトライアル。\n\n兵器メーカー各社に試作機を開発させ、\n選考に最終的に残ったのが\nＹＦ－１９とＹＦ－２１の２機である。",
+     "en": "A trial held by the <book(9)>Earth Federation<endbook()>\nForces to select the next-generation\n<book(34)>Valkyrie<endbook()>.\n\nArms makers were each made to\ndevelop prototypes, and the two\nmachines left at the end of the\nselection were the YF-19 and YF-21.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 85,
+     "text_id": 86,
+     "source": "<book(85)>スーパー・ノヴァ計画<endbook()>の裏で\n連邦の手により極秘裏に開発されていた\n無人戦闘機。\n\nパイロットに対する配慮が不要なことから、\n加速性、機動性、周囲への警戒能力など\n無人機ゆえの高性能さを発揮する。",
+     "en": "An unmanned fighter developed in\nstrict secrecy by the Federation\nbehind <book(85)>Project Super Nova<endbook()>.\n\nWith no need to allow for a pilot, it\nshows the high performance only an\nunmanned craft can, in acceleration,\nmobility, awareness of its\nsurroundings and more.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 86,
+     "text_id": 87,
+     "source": "地球圏で最大の人気を誇る歌姫。\nその正体はコンピューター技術が生み出した\nバーチャルアイドル。\n\n表向きは<book(9)>地球連邦<endbook()>政府樹立を記念して\n計画されたものであるが、\n本当の目的は極秘開発中の兵器の\n人工知能に流用するためと言われている。",
+     "en": "The most popular diva in the Earth\nSphere. In truth, a virtual idol\ncreated by computer technology.\n\nOfficially the idol was planned to\ncommemorate the founding of the\n<book(9)>Earth Federation<endbook()> government, but the\nreal purpose is said to be reuse as the\nAI of a weapon under secret\ndevelopment.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    },
+    {
+     "slot": 87,
+     "text_id": 88,
+     "source": "<book(4)>第一次防衛戦争<endbook()>後に退役艦となった<book(33)>マクロス<endbook()>を\n平和のシンボルとして中心部に安置している都市。",
+     "en": "A city that keeps the <book(33)>Macross<endbook()>, retired\nfrom service after the\n<book(4)>First Defense War<endbook()>, at its center as a\nsymbol of peace.",
+     "dialog": false,
+     "limit": 443,
+     "max_lines": 17,
+     "max_chars": 599,
+     "page_text": true
+    }
+   ]
+  }
+ ]
+}

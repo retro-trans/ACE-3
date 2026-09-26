@@ -1,0 +1,980 @@
+{
+  "version": "0.1.41",
+  "method": "Whitespace only; preserve all words and links",
+  "summary": {
+    "entries_audited_per_copy": 88,
+    "menu_copies": 3,
+    "distinct_entries_changed": 60,
+    "text_instances_changed": 180,
+    "max_page_glyphs": 180,
+    "max_pages": 4
+  },
+  "rows": [
+    {
+      "text_id": 1,
+      "before": "A facility built by a government body that\npreceded the <book(9)>Earth Federation<endbook()> to achieve\nultra-long-range space-leap technology.\n\nIts basis is the \"Baldora particle,\" an\nunknown elementary particle found by\nR&D scientist Jill Bardona.\n\nResearch reached a practical level, but on\nthe eve of completion the facility ran wild\nand all involved vanished.\n\nSince then its development had been frozen\nand its very existence erased from official\nrecords.",
+      "target": "A facility built by a government body that\npreceded the <book(9)>Earth Federation<endbook()> to achieve\nultra-long-range space-leap technology.\n\n\n\n\n\nIts basis is the \"Baldora particle,\" an\nunknown elementary particle found by\nR&D scientist Jill Bardona.\n\n\n\n\n\nResearch reached a practical level, but on\nthe eve of completion the facility ran wild\nand all involved vanished.\n\n\n\n\n\nSince then its development had been frozen\nand its very existence erased from official\nrecords.",
+      "changed": true,
+      "pages": 4,
+      "page_glyphs": [
+        121,
+        102,
+        111,
+        93
+      ]
+    },
+    {
+      "text_id": 2,
+      "before": "The progress of the <book(3)>Wormhole<endbook()>'s opening,\ncalculated from the observed amount of\nBaldora particles.\n\nWhen this value reaches 100\uff05, the\n<book(1)>Baldora Drive<endbook()> is predicted to be fully\nactive and the wormhole fully open.",
+      "target": "The progress of the <book(3)>Wormhole<endbook()>'s opening,\ncalculated from the observed amount of\nBaldora particles.\n\n\n\n\n\nWhen this value reaches 100\uff05, the\n<book(1)>Baldora Drive<endbook()> is predicted to be fully\nactive and the wormhole fully open.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        95,
+        106
+      ]
+    },
+    {
+      "text_id": 3,
+      "before": "A tunnel-like entity linking different\nspace-times. It arose when the\n<book(1)>Baldora Drive<endbook()> was started and keeps\nexpanding as the <book(2)>Baldora Charge<endbook()> rises.\n\nWhile it is opening, the link is unstable, so\nthe two spaces do not affect each other.\nOnce it is fully open, however, the two\nspaces will be physically connected, and\nthe two Earths are predicted to collapse\nunder the influence of gravity.",
+      "target": "A tunnel-like entity linking different\nspace-times. It arose when the\n<book(1)>Baldora Drive<endbook()> was started and keeps\nexpanding as the <book(2)>Baldora Charge<endbook()> rises.\n\n\n\n\nWhile it is opening, the link is unstable, so\nthe two spaces do not affect each other.\nOnce it is fully open, however, the two\nspaces will be physically connected, and\n\n\n\n\nthe two Earths are predicted to collapse\nunder the influence of gravity.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        141,
+        164,
+        71
+      ]
+    },
+    {
+      "text_id": 4,
+      "before": "A defensive war fought three years ago\nagainst extraterrestrial forces.\n\nIt became a large-scale conflict that drew\nin the <book(35)>Zentradi<endbook()> fleet, the Jovian Federation\nand invaders from other star systems.\n\nIn the final battle with the <book(35)>Zentradi<endbook()> fleet\nled by Boddole Zer, the song of Earth's\ndiva Lynn Minmay brought the war to an\nend.\n\nFor details, see:\n\"Another Century's Episode 2\"",
+      "target": "A defensive war fought three years ago\nagainst extraterrestrial forces.\n\n\n\n\n\n\nIt became a large-scale conflict that drew\nin the <book(35)>Zentradi<endbook()> fleet, the Jovian Federation\nand invaders from other star systems.\n\n\n\n\n\nIn the final battle with the <book(35)>Zentradi<endbook()> fleet\nled by Boddole Zer, the song of Earth's\ndiva Lynn Minmay brought the war to an\nend.\n\nFor details, see:\n\"Another Century's Episode 2\"",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        70,
+        123,
+        170
+      ]
+    },
+    {
+      "text_id": 5,
+      "before": "A mobile weapon developed before the\n<book(4)>First Defense War<endbook()>.\n\nIt carried the \"Guardian System,\" which\nremotely controlled defense cannons built\nwith overtechnology, but after the war the\nsystem itself was scrapped and use of the\nunit was frozen.",
+      "target": "A mobile weapon developed before the\n<book(4)>First Defense War<endbook()>.\n\n\n\n\n\n\nIt carried the \"Guardian System,\" which\nremotely controlled defense cannons built\nwith overtechnology, but after the war the\nsystem itself was scrapped and use of the\nunit was frozen.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        54,
+        179
+      ]
+    },
+    {
+      "text_id": 6,
+      "before": "An unmanned unit for local warfare\ndeveloped by an <book(9)>Earth Federation<endbook()> weapons\nlab. Being unmanned, its combat ability is\nlow, but its low cost and a chronic\nshortage of personnel have led to wide\nadoption across the Federation Forces.",
+      "target": "An unmanned unit for local warfare\ndeveloped by an <book(9)>Earth Federation<endbook()> weapons\nlab. Being unmanned, its combat ability is\nlow, but its low cost and a chronic\n\n\n\n\nshortage of personnel have led to wide\nadoption across the Federation Forces.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        151,
+        76
+      ]
+    },
+    {
+      "text_id": 7,
+      "before": "A combat support weapon that deploys a\nparticle field over a set area and damages\nenemy units that enter it.",
+      "target": "A combat support weapon that deploys a\nparticle field over a set area and damages\nenemy units that enter it.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        106
+      ]
+    },
+    {
+      "text_id": 8,
+      "before": "A self-propelled gun for local warfare. Its\noutput matches or exceeds that of a\nwarship's main gun.",
+      "target": "A self-propelled gun for local warfare. Its\noutput matches or exceeds that of a\nwarship's main gun.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        97
+      ]
+    },
+    {
+      "text_id": 9,
+      "before": "A united government set up after the\n<book(4)>First Defense War<endbook()>.\n\nBuilt on the UCE, it took in the Britai\nfleet and the Meltrandi, who had made\npeace, and the post-coup Jovian\nFederation.\n\nMuch remains unchanged from the old\nregime, such as oppressive policies toward\nSpacenoids and an insufficient response to\n<book(35)>Zentradi<endbook()> immigrants.",
+      "target": "A united government set up after the\n<book(4)>First Defense War<endbook()>.\n\nBuilt on the UCE, it took in the Britai\nfleet and the Meltrandi, who had made\npeace, and the post-coup Jovian\nFederation.\n\nMuch remains unchanged from the old\nregime, such as oppressive policies toward\nSpacenoids and an insufficient response to\n<book(35)>Zentradi<endbook()> immigrants.",
+      "changed": false,
+      "pages": 2,
+      "page_glyphs": [
+        172,
+        139
+      ]
+    },
+    {
+      "text_id": 10,
+      "before": "A Federation Forces auxiliary force set up\nto keep order in the Earth Sphere when the\nmilitary was reorganized after the\n<book(4)>First Defense War<endbook()>.\n\nIn peacetime it acts on Federation Forces\norders, but it also has authority to act at\nits own discretion. Lately a specially\nformed unit with Amuro Ray as platoon\nleader had been on ground duty to probe\nthe rash of mysterious small meteorite\nfalls.\n\nIts supreme commander is Kouichiro\nMisumaru.",
+      "target": "A Federation Forces auxiliary force set up\nto keep order in the Earth Sphere when the\nmilitary was reorganized after the\n<book(4)>First Defense War<endbook()>.\n\nIn peacetime it acts on Federation Forces\n\n\norders, but it also has authority to act at\nits own discretion. Lately a specially\nformed unit with Amuro Ray as platoon\nleader had been on ground duty to probe\n\n\n\n\nthe rash of mysterious small meteorite\nfalls.\n\nIts supreme commander is Kouichiro\nMisumaru.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        177,
+        157,
+        87
+      ]
+    },
+    {
+      "text_id": 11,
+      "before": "One of the main ships of <book(10)>Londo Bell<endbook()>.\n\nA mainstay vessel that stresses gunnery\nand mobile suit operation. Acting apart\nfrom the Nadesico, it is tasked with\nsuppressing anti-Federation forces around\nEarth.\n\nIts captain is Bright Noa.",
+      "target": "One of the main ships of <book(10)>Londo Bell<endbook()>.\n\n\n\n\n\n\n\nA mainstay vessel that stresses gunnery\nand mobile suit operation. Acting apart\nfrom the Nadesico, it is tasked with\nsuppressing anti-Federation forces around\nEarth.\n\n\n\nIts captain is Bright Noa.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        36,
+        161,
+        26
+      ]
+    },
+    {
+      "text_id": 12,
+      "before": "An anti-Federation organization founded\nby Char Aznable.\n\nChar, its supreme leader, held that the\noppression of Spacenoids, unchanged even\nafter the war, and the turmoil brought to\nthe Earth Sphere stem from the ego of\nEarth's humanity, which cannot fully\nbecome Newtypes, and resolved to build up\nstrength independently. An army of\nChar's own was organized, backed by the\npower of like-minded people.",
+      "target": "An anti-Federation organization founded\nby Char Aznable.\n\nChar, its supreme leader, held that the\noppression of Spacenoids, unchanged even\nafter the war, and the turmoil brought to\n\n\nthe Earth Sphere stem from the ego of\nEarth's humanity, which cannot fully\nbecome Newtypes, and resolved to build up\nstrength independently. An army of\n\n\n\n\nChar's own was organized, backed by the\npower of like-minded people.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        175,
+        148,
+        67
+      ]
+    },
+    {
+      "text_id": 13,
+      "before": "An asteroid that was used by the\n<book(9)>Earth Federation<endbook()> government as a resource\nsatellite.",
+      "target": "An asteroid that was used by the\n<book(9)>Earth Federation<endbook()> government as a resource\nsatellite.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        83
+      ]
+    },
+    {
+      "text_id": 14,
+      "before": "A space fortress that the Principality of\nZeon once made from an asteroid in order\nto gather resources. It can also travel\nthrough space on nuclear pulse engines.\n\nIt is now under the control of the\n<book(9)>Earth Federation<endbook()> government.",
+      "target": "A space fortress that the Principality of\nZeon once made from an asteroid in order\nto gather resources. It can also travel\nthrough space on nuclear pulse engines.\n\n\n\n\nIt is now under the control of the\n<book(9)>Earth Federation<endbook()> government.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        159,
+        62
+      ]
+    },
+    {
+      "text_id": 15,
+      "before": "A city on Earth. The HQ of the\n<book(9)>Earth Federation<endbook()> government is located\nhere.",
+      "target": "A city on Earth. The HQ of the\n<book(9)>Earth Federation<endbook()> government is located\nhere.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        73
+      ]
+    },
+    {
+      "text_id": 16,
+      "before": "A giant conglomerate based on the Moon\nthat makes and sells products in many\nfields.\n\nBeyond home appliances, ships and aircraft,\nit also takes on production of military\nhardware such as spaceships and mobile\nsuits.\n\nIt holds to a neutral stance, siding with no\nfaction.",
+      "target": "A giant conglomerate based on the Moon\nthat makes and sells products in many\nfields.\n\n\n\n\n\nBeyond home appliances, ships and aircraft,\nit also takes on production of military\nhardware such as spaceships and mobile\nsuits.\n\nIt holds to a neutral stance, siding with no\nfaction.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        82,
+        178
+      ]
+    },
+    {
+      "text_id": 17,
+      "before": "A colony built to house refugees.\n\nChar Aznable was welcomed as this\ncolony's savior, and so it became the base\nof <book(12)>Neo Zeon<endbook()>.",
+      "target": "A colony built to house refugees.\n\nChar Aznable was welcomed as this\ncolony's savior, and so it became the base\nof <book(12)>Neo Zeon<endbook()>.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        120
+      ]
+    },
+    {
+      "text_id": 18,
+      "before": "A lunar empire founded in the past by\nMoon settlers to resist Earth's oppression.\n\nIn the <book(4)>First Defense War<endbook()> it held the upper\nhand early on but was defeated in the end.\n\nAfter the war it was absorbed under the\nreorganized <book(9)>Earth Federation<endbook()> government.\nBut with the oppression of Spacenoids\nunchanged and slow action on employment\nfor ex-Giganos soldiers, many unhappy\nwith the Federation have left its forces,\nand an anti-government faction is taking\nshape.",
+      "target": "A lunar empire founded in the past by\nMoon settlers to resist Earth's oppression.\n\nIn the <book(4)>First Defense War<endbook()> it held the upper\nhand early on but was defeated in the end.\n\n\n\nAfter the war it was absorbed under the\nreorganized <book(9)>Earth Federation<endbook()> government.\nBut with the oppression of Spacenoids\nunchanged and slow action on employment\n\n\n\n\nfor ex-Giganos soldiers, many unhappy\nwith the Federation have left its forces,\nand an anti-government faction is taking\nshape.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        164,
+        155,
+        124
+      ]
+    },
+    {
+      "text_id": 19,
+      "before": "A mass-production Metal Armor that\nbecame the main weapon of the\n<book(9)>Earth Federation<endbook()> Forces after the war.\n\nThe latest model, developed by integrating\nthe capabilities of the three Dragonar\nunits.",
+      "target": "A mass-production Metal Armor that\nbecame the main weapon of the\n<book(9)>Earth Federation<endbook()> Forces after the war.\n\n\n\n\n\nThe latest model, developed by integrating\nthe capabilities of the three Dragonar\nunits.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        101,
+        86
+      ]
+    },
+    {
+      "text_id": 20,
+      "before": "One of the main ships of <book(10)>Londo Bell<endbook()>. It is\nthe second generation of the Nadesico,\nwhich served with distinction in the last\nwar.\n\nLike the old Nadesico, it carries functions\nbased on Martian lost technology, such as\nthe Distortion Field (a\ndimensional-distortion barrier) and Gravity\nBlast (a gravity-wave cannon), and\nOmoikane has been transplanted to it as\nwell.\n\nIts captain is Lt. Cmdr. Ruri Hoshino.",
+      "target": "One of the main ships of <book(10)>Londo Bell<endbook()>. It is\nthe second generation of the Nadesico,\nwhich served with distinction in the last\nwar.\n\nLike the old Nadesico, it carries functions\n\n\nbased on Martian lost technology, such as\nthe Distortion Field (a\ndimensional-distortion barrier) and Gravity\nBlast (a gravity-wave cannon), and\nOmoikane has been transplanted to it as\n\n\n\nwell.\n\nIts captain is Lt. Cmdr. Ruri Hoshino.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        168,
+        180,
+        43
+      ]
+    },
+    {
+      "text_id": 21,
+      "before": "The successor to the <book(20)>Nadesico B<endbook()>. It is\nfitted with a solo <book(30)>Boson Jump<endbook()> function,\nand its overall performance has been\ngreatly enhanced.\n\nIts captain is Lt. Cmdr. Ruri Hoshino.",
+      "target": "The successor to the <book(20)>Nadesico B<endbook()>. It is\nfitted with a solo <book(30)>Boson Jump<endbook()> function,\nand its overall performance has been\ngreatly enhanced.\n\nIts captain is Lt. Cmdr. Ruri Hoshino.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        168
+      ]
+    },
+    {
+      "text_id": 22,
+      "before": "Refers to Yurika Misumaru, who captained\nthe battleship Nadesico that served with\ndistinction in the <book(4)>First Defense War<endbook()>, and\nAkito Tenkawa, its cook and pilot.\n\nAfter the war, both died in a shuttle\nexplosion during their honeymoon.",
+      "target": "Refers to Yurika Misumaru, who captained\nthe battleship Nadesico that served with\ndistinction in the <book(4)>First Defense War<endbook()>, and\nAkito Tenkawa, its cook and pilot.\n\n\n\n\nAfter the war, both died in a shuttle\nexplosion during their honeymoon.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        155,
+        70
+      ]
+    },
+    {
+      "text_id": 23,
+      "before": "A development plan for a transport\nnetwork using <book(30)>Boson Jump<endbook()> technology.\n\nIt would build routes across the solar\nsystem with the <book(30)>Boson Jump<endbook()>, which can\ncross ultra-long distances in an instant;\nonce realized, it is expected to bring\ndramatic advances in space transportation.",
+      "target": "A development plan for a transport\nnetwork using <book(30)>Boson Jump<endbook()> technology.\n\nIt would build routes across the solar\nsystem with the <book(30)>Boson Jump<endbook()>, which can\n\n\n\ncross ultra-long distances in an instant;\nonce realized, it is expected to bring\ndramatic advances in space transportation.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        145,
+        121
+      ]
+    },
+    {
+      "text_id": 24,
+      "before": "A terminal facility built as a hub of the\n<book(23)>Hisago Plan<endbook()> transport network.\n\nUsed as a waypoint on battleship Jump\nroutes, for temporary berthing and so on.",
+      "target": "A terminal facility built as a hub of the\n<book(23)>Hisago Plan<endbook()> transport network.\n\nUsed as a waypoint on battleship Jump\nroutes, for temporary berthing and so on.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        149
+      ]
+    },
+    {
+      "text_id": 25,
+      "before": "One of the <book(24)>Terminal Colonies<endbook()> built under\nthe <book(23)>Hisago Plan<endbook()>.",
+      "target": "One of the <book(24)>Terminal Colonies<endbook()> built under\nthe <book(23)>Hisago Plan<endbook()>.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        56
+      ]
+    },
+    {
+      "text_id": 26,
+      "before": "The <book(24)>Terminal Colony<endbook()> at the core of the\n<book(23)>Hisago Plan<endbook()>.\n\nIt is normally open to the public and can\nbe toured.",
+      "target": "The <book(24)>Terminal Colony<endbook()> at the core of the\n<book(23)>Hisago Plan<endbook()>.\n\nIt is normally open to the public and can\nbe toured.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        101
+      ]
+    },
+    {
+      "text_id": 27,
+      "before": "A person capable of a biological\n<book(30)>Boson Jump<endbook()>.\n\nThose who must go through a gate called a\nChulip in order to Jump are defined as\nB-class, and those able to Jump on their\nown as A-class.",
+      "target": "A person capable of a biological\n<book(30)>Boson Jump<endbook()>.\n\nThose who must go through a gate called a\nChulip in order to Jump are defined as\nB-class, and those able to Jump on their\nown as A-class.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        177
+      ]
+    },
+    {
+      "text_id": 28,
+      "before": "The control system needed for the\n<book(30)>Boson Jump<endbook()>.\n\nIt was discarded after the fight with the\nJovian Federation in the\n<book(4)>First Defense War<endbook()>.",
+      "target": "The control system needed for the\n<book(30)>Boson Jump<endbook()>.\n\nIt was discarded after the fight with the\nJovian Federation in the\n<book(4)>First Defense War<endbook()>.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        127
+      ]
+    },
+    {
+      "text_id": 29,
+      "before": "A coup group founded by ex-Jovian\nFederation officer Haruki Kusakabe.\n\nOpposed to the merger of the\n<book(9)>Earth Federation<endbook()> and the Jovian\nFederation, it rose up to revive the latter,\ntaking along the many ex-Jovian members\ninside the <book(9)>Earth Federation<endbook()>.\n\nIt secretly drove the <book(23)>Hisago Plan<endbook()>, counting\nfrom the start on seizing the <book(30)>Boson Jump<endbook()>\nsystem to offset its small forces. That is\nalso why it abducted Akito and other\nA-class <book(27)>Jumpers<endbook()>.",
+      "target": "A coup group founded by ex-Jovian\nFederation officer Haruki Kusakabe.\n\n\n\n\n\n\nOpposed to the merger of the\n<book(9)>Earth Federation<endbook()> and the Jovian\nFederation, it rose up to revive the latter,\ntaking along the many ex-Jovian members\ninside the <book(9)>Earth Federation<endbook()>.\n\n\n\nIt secretly drove the <book(23)>Hisago Plan<endbook()>, counting\nfrom the start on seizing the <book(30)>Boson Jump<endbook()>\nsystem to offset its small forces. That is\nalso why it abducted Akito and other\nA-class <book(27)>Jumpers<endbook()>.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        68,
+        170,
+        177
+      ]
+    },
+    {
+      "text_id": 30,
+      "before": "A means of teleportation using ancient\nMartian technology.\n\nIt is in fact travel through space-time, but\nno means of controlling travel through\ntime has been established yet.\n\nOnly <book(27)>Jumpers<endbook()> can make biological Jumps,\nand for now people of B-class or below can\nJump only via the <book(23)>Hisago Plan<endbook()>.\n\nAn accurate Jump needs an A-class <book(27)>Jumper<endbook()>\nor a device called a Chulip.",
+      "target": "A means of teleportation using ancient\nMartian technology.\n\nIt is in fact travel through space-time, but\nno means of controlling travel through\ntime has been established yet.\n\n\nOnly <book(27)>Jumpers<endbook()> can make biological Jumps,\nand for now people of B-class or below can\nJump only via the <book(23)>Hisago Plan<endbook()>.\n\nAn accurate Jump needs an A-class <book(27)>Jumper<endbook()>\nor a device called a Chulip.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        169,
+        179
+      ]
+    },
+    {
+      "text_id": 31,
+      "before": "The largest corporate group in the Asian\nsphere. Its scale gives it a strong voice\neven with the <book(9)>Earth Federation<endbook()>.\n\nIt is also deeply involved in Mars\ndevelopment, and used Martian technology\nto develop the Nadesico and the\nAestivalis.",
+      "target": "The largest corporate group in the Asian\nsphere. Its scale gives it a strong voice\neven with the <book(9)>Earth Federation<endbook()>.\n\n\n\n\n\nIt is also deeply involved in Mars\ndevelopment, and used Martian technology\nto develop the Nadesico and the\nAestivalis.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        112,
+        116
+      ]
+    },
+    {
+      "text_id": 32,
+      "before": "The central point of the <book(23)>Hisago Plan<endbook()>,\nlocated in the Martian polar cap ruins.",
+      "target": "The central point of the <book(23)>Hisago Plan<endbook()>,\nlocated in the Martian polar cap ruins.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        76
+      ]
+    },
+    {
+      "text_id": 33,
+      "before": "A battleship restored with Earth\ntechnology from an alien warship that fell\nto Earth in the past.\n\nIt carries mechanisms impossible with\nexisting technology, such as a space-leap\nnavigation method called fold and a\nvariable structure that transforms into\nAttack mode.\n\nIt served on the front line in the\n<book(4)>First Defense War<endbook()>, but retired when the\nnew battleship Megaroad entered service,\nand now remains in <book(88)>Macross City<endbook()> as a\nsymbol of peace.",
+      "target": "A battleship restored with Earth\ntechnology from an alien warship that fell\nto Earth in the past.\n\n\n\n\n\nIt carries mechanisms impossible with\nexisting technology, such as a space-leap\nnavigation method called fold and a\nvariable structure that transforms into\nAttack mode.\n\n\n\nIt served on the front line in the\n<book(4)>First Defense War<endbook()>, but retired when the\nnew battleship Megaroad entered service,\nand now remains in <book(88)>Macross City<endbook()> as a\nsymbol of peace.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        95,
+        164,
+        165
+      ]
+    },
+    {
+      "text_id": 34,
+      "before": "A humanoid mobile weapon with a\nthree-stage variable mechanism.\n\nIt transforms among the fighter-plane\nFighter mode, the humanoid Battroid mode\nand the in-between GERWALK mode,\nwhich lets it handle any battle situation.\n\nIt served as the mainstay of the last war,\nand many versions have been developed\nsince.",
+      "target": "A humanoid mobile weapon with a\nthree-stage variable mechanism.\n\n\n\n\n\n\nIt transforms among the fighter-plane\nFighter mode, the humanoid Battroid mode\nand the in-between GERWALK mode,\nwhich lets it handle any battle situation.\n\n\n\n\nIt served as the mainstay of the last war,\nand many versions have been developed\nsince.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        62,
+        151,
+        85
+      ]
+    },
+    {
+      "text_id": 35,
+      "before": "A race naturalized on Earth after the\n<book(4)>First Defense War<endbook()>. Once a race of giants\nskilled in combat, they were reduced in\nsize upon naturalization.\n\nHowever, because of the\n<book(9)>Earth Federation<endbook()>'s insufficient\nimmigration policy and their innate\nfighting instinct, riots by some immigrants\nbreak out often and have become a social\nproblem.",
+      "target": "A race naturalized on Earth after the\n<book(4)>First Defense War<endbook()>. Once a race of giants\nskilled in combat, they were reduced in\nsize upon naturalization.\n\n\n\n\nHowever, because of the\n<book(9)>Earth Federation<endbook()>'s insufficient\nimmigration policy and their innate\nfighting instinct, riots by some immigrants\nbreak out often and have become a social\nproblem.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        141,
+        180
+      ]
+    },
+    {
+      "text_id": 36,
+      "before": "A world that exists between the sea and\nthe land.\n\nIt is said to be a place of repose where\nsouls whose lives on Upper Earth have\nended rest until they are reborn.\n\nIt is sustained by the \"Aura Power\" that\nliving things emit, and the humanoid\nmobile weapons that run on it are called\nAura Machines.",
+      "target": "A world that exists between the sea and\nthe land.\n\nIt is said to be a place of repose where\nsouls whose lives on Upper Earth have\nended rest until they are reborn.\n\n\nIt is sustained by the \"Aura Power\" that\nliving things emit, and the humanoid\nmobile weapons that run on it are called\nAura Machines.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        158,
+        130
+      ]
+    },
+    {
+      "text_id": 37,
+      "before": "A mobile suit for Newtype use bearing the\nmodel number GX-9900.\n\nIt was fielded as the Earth side's decisive\nweapon in the war waged between Earth\nand the colonies.\n\nIt has the Satellite Cannon, a high-output\ncannon fired by receiving microwaves from\na lunar facility.",
+      "target": "A mobile suit for Newtype use bearing the\nmodel number GX-9900.\n\nIt was fielded as the Earth side's decisive\nweapon in the war waged between Earth\nand the colonies.\n\n\nIt has the Satellite Cannon, a high-output\ncannon fired by receiving microwaves from\na lunar facility.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        159,
+        100
+      ]
+    },
+    {
+      "text_id": 38,
+      "before": "The Earth government led by\n<book(40)>Fixx Bloodman<endbook()>.\n\nOnce an organization called the United\nFederation of Predgio Towers, it shifted to\nthe current regime with the rise of\n<book(40)>Fixx Bloodman<endbook()>.\n\nIt seeks to root out the <book(42)>Space Rev. Army<endbook()>\nand aims to place both Earth and the\ncolonies under its own rule.\n\nTo that end it is pushing a rapid military\nbuildup, such as securing Newtypes and\nturning unknown technology to military\nuse.",
+      "target": "The Earth government led by\n<book(40)>Fixx Bloodman<endbook()>.\n\nOnce an organization called the United\nFederation of Predgio Towers, it shifted to\nthe current regime with the rise of\n<book(40)>Fixx Bloodman<endbook()>.\n\nIt seeks to root out the <book(42)>Space Rev. Army<endbook()>\nand aims to place both Earth and the\ncolonies under its own rule.\n\n\n\n\n\nTo that end it is pushing a rapid military\nbuildup, such as securing Newtypes and\nturning unknown technology to military\nuse.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        171,
+        104,
+        122
+      ]
+    },
+    {
+      "text_id": 39,
+      "before": "General name for groups seen since the 7th\nSpace War. As they scavenge and sell off\nabandoned military hardware, they are\nlikened to vultures and so named.\n\nThey are usually armed with battleships,\nMS, etc., and some hire bodyguards or\nmercenaries.\n\nAs most are outlaws or near-robbers, they\nare generally ill regarded. The Freeden,\nwhich only peddles goods, and <book(60)>Gekkostate<endbook()>,\nthe charismatic ref board group that puts\nout the magazine \"ray=out\", are generally\nseen as Vultures too.",
+      "target": "General name for groups seen since the 7th\nSpace War. As they scavenge and sell off\nabandoned military hardware, they are\nlikened to vultures and so named.\n\n\n\n\nThey are usually armed with battleships,\nMS, etc., and some hire bodyguards or\nmercenaries.\n\nAs most are outlaws or near-robbers, they\nare generally ill regarded. The Freeden,\n\n\nwhich only peddles goods, and <book(60)>Gekkostate<endbook()>,\nthe charismatic ref board group that puts\nout the magazine \"ray=out\", are generally\nseen as Vultures too.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        152,
+        170,
+        144
+      ]
+    },
+    {
+      "text_id": 40,
+      "before": "The current supreme ruler of the\n<book(38)>New Federation<endbook()>.\n\nAlso led the Federation Reconstruction\nCommittee formed after the 7th Space\nWar.\n\nOusted the three Sages who headed the\nUnited Federation of Predgio Towers and\ndeclared the founding of the\n<book(38)>New Federation<endbook()> government in its place.",
+      "target": "The current supreme ruler of the\n<book(38)>New Federation<endbook()>.\n\nAlso led the Federation Reconstruction\nCommittee formed after the 7th Space\nWar.\n\nOusted the three Sages who headed the\nUnited Federation of Predgio Towers and\ndeclared the founding of the\n<book(38)>New Federation<endbook()> government in its place.",
+      "changed": false,
+      "pages": 2,
+      "page_glyphs": [
+        162,
+        106
+      ]
+    },
+    {
+      "text_id": 41,
+      "before": "A sea area where, superstition has it,\nships' instruments go haywire and the\nships are sent to the bottom.\n\nIt is so called after the Lorelei legend.",
+      "target": "A sea area where, superstition has it,\nships' instruments go haywire and the\nships are sent to the bottom.\n\nIt is so called after the Lorelei legend.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        145
+      ]
+    },
+    {
+      "text_id": 42,
+      "before": "The colony rebel army that fought for\nindependence and self-rule from Earth\nduring the 7th Space War.\n\nAfter fierce fighting, it dropped many\nuninhabited colonies on Earth, causing\nenormous damage.\n\nEven now it remains opposed to the Earth\nside and is preparing to invade Earth.",
+      "target": "The colony rebel army that fought for\nindependence and self-rule from Earth\nduring the 7th Space War.\n\n\n\n\n\nAfter fierce fighting, it dropped many\nuninhabited colonies on Earth, causing\nenormous damage.\n\nEven now it remains opposed to the Earth\nside and is preparing to invade Earth.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        99,
+        170
+      ]
+    },
+    {
+      "text_id": 43,
+      "before": "A weapon that disables electronic devices\nwithin a set range. It was developed by\nthe old Federation Forces.\n\nBuilt into the system is the hatred of\nLucille Liliant, a Newtype whose mind was\nshattered during the war.",
+      "target": "A weapon that disables electronic devices\nwithin a set range. It was developed by\nthe old Federation Forces.\n\n\n\n\n\nBuilt into the system is the hatred of\nLucille Liliant, a Newtype whose mind was\nshattered during the war.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        106,
+        104
+      ]
+    },
+    {
+      "text_id": 44,
+      "before": "Unmanned bit mobile suits developed for\nGundams fitted with the Flash System.\n\nSteered by a Newtype's mental waves,\nthey let a single Newtype remotely operate\na whole unit's worth of mobile weapons at\nonce.",
+      "target": "Unmanned bit mobile suits developed for\nGundams fitted with the Flash System.\n\n\n\n\n\n\nSteered by a Newtype's mental waves,\nthey let a single Newtype remotely operate\na whole unit's worth of mobile weapons at\nonce.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        76,
+        124
+      ]
+    },
+    {
+      "text_id": 45,
+      "before": "A man-made island owned by the\n<book(38)>New Federation<endbook()>.\n\nRumor has it that new weapons are being\nresearched there.",
+      "target": "A man-made island owned by the\n<book(38)>New Federation<endbook()>.\n\nRumor has it that new weapons are being\nresearched there.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        101
+      ]
+    },
+    {
+      "text_id": 46,
+      "before": "A mysterious base facility on the Moon. A\nlegacy of the old era is said to be sealed\ninside.\n\nIt is also the facility that beams\nmicrowaves to the Gundam X's Satellite\nSystem.",
+      "target": "A mysterious base facility on the Moon. A\nlegacy of the old era is said to be sealed\ninside.\n\nIt is also the facility that beams\nmicrowaves to the Gundam X's Satellite\nSystem.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        169
+      ]
+    },
+    {
+      "text_id": 47,
+      "before": "A large robot that can transform into three\nforms.\n\nIt had lain dormant at the Saotome\nInstitute, used by no one, ever since the\n<book(52)>Deuteron Missile<endbook()> incident, until Go, Kei and\nGai reactivated it.",
+      "target": "A large robot that can transform into three\nforms.\n\n\n\n\n\n\nIt had lain dormant at the Saotome\nInstitute, used by no one, ever since the\n<book(52)>Deuteron Missile<endbook()> incident, until Go, Kei and\nGai reactivated it.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        49,
+        138
+      ]
+    },
+    {
+      "text_id": 48,
+      "before": "The form taken by many Getter Robo G\nunits that combined and evolved. Dr.\nSaotome developed it to prepare for the\ncoming revival of the <book(49)>Invaders<endbook()>.\n\nThe personality of whoever is aboard\ngreatly influences its evolution, so it shows\ndiffering forms.\n\nAccording to Dr. Saotome it is a means of\naverting \"the last day of the world,\" but\nnothing is known of the truth.",
+      "target": "The form taken by many Getter Robo G\nunits that combined and evolved. Dr.\nSaotome developed it to prepare for the\ncoming revival of the <book(49)>Invaders<endbook()>.\n\n\n\n\nThe personality of whoever is aboard\ngreatly influences its evolution, so it shows\ndiffering forms.\n\n\n\n\n\nAccording to Dr. Saotome it is a means of\naverting \"the last day of the world,\" but\nnothing is known of the truth.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        142,
+        97,
+        112
+      ]
+    },
+    {
+      "text_id": 49,
+      "before": "Mysterious life forms that came from space\nseeking <book(51)>Getter Rays<endbook()>, their energy source.\n\nTheir armed forms are called Metal Beasts.\nBy merging with inorganic or organic\nmatter, they take on its functions.",
+      "target": "Mysterious life forms that came from space\nseeking <book(51)>Getter Rays<endbook()>, their energy source.\n\n\n\n\n\n\nTheir armed forms are called Metal Beasts.\nBy merging with inorganic or organic\nmatter, they take on its functions.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        83,
+        113
+      ]
+    },
+    {
+      "text_id": 50,
+      "before": "A huge mobile fortress commanded by\nHayato Jin. It is powered by a Getter\nreactor.",
+      "target": "A huge mobile fortress commanded by\nHayato Jin. It is powered by a Getter\nreactor.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        80
+      ]
+    },
+    {
+      "text_id": 51,
+      "before": "A radiation-like substance that serves as\nthe main power source of Getter Robo.\n\nDr. Saotome is the only person to have\nsucceeded in converting Getter Rays into\nenergy.",
+      "target": "A radiation-like substance that serves as\nthe main power source of Getter Robo.\n\nDr. Saotome is the only person to have\nsucceeded in converting Getter Rays into\nenergy.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        163
+      ]
+    },
+    {
+      "text_id": 52,
+      "before": "A destructive weapon used in the\n<book(53)>Moon Invader War<endbook()> 13 years ago.\n\nDr. Saotome, thought slain by Ryoma,\nrevived with the <book(49)>Invaders<endbook()> and fought\nhumanity with his own <book(48)>Shin Dragon<endbook()>.\nFearing <book(48)>Shin Dragon<endbook()>, humans chose this\nweapon. 1/3 of the world, mainly the Far\nEast, was expected to fall, but the hero\n<book(68)>Adroc Thurston<endbook()> set off a <book(62)>Seven Swell<endbook()>,\nhalting it and a simultaneous abnormal\n<book(70)>Trapar<endbook()> surge, limiting the ruin to Japan.",
+      "target": "A destructive weapon used in the\n<book(53)>Moon Invader War<endbook()> 13 years ago.\n\nDr. Saotome, thought slain by Ryoma,\nrevived with the <book(49)>Invaders<endbook()> and fought\nhumanity with his own <book(48)>Shin Dragon<endbook()>.\n\n\nFearing <book(48)>Shin Dragon<endbook()>, humans chose this\nweapon. 1/3 of the world, mainly the Far\nEast, was expected to fall, but the hero\n<book(68)>Adroc Thurston<endbook()> set off a <book(62)>Seven Swell<endbook()>,\n\n\n\n\nhalting it and a simultaneous abnormal\n<book(70)>Trapar<endbook()> surge, limiting the ruin to Japan.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        168,
+        155,
+        79
+      ]
+    },
+    {
+      "text_id": 53,
+      "before": "A past war on the Moon between humanity\nand the <book(49)>Invaders<endbook()>.\n\nIt ended in victory for humanity thanks to\nthe feats of the Getter Team - Ryoma\nNagare, Hayato Jin and Musashi Tomoe -\nand the <book(52)>Deuteron Missile<endbook()>.",
+      "target": "A past war on the Moon between humanity\nand the <book(49)>Invaders<endbook()>.\n\n\n\n\n\n\nIt ended in victory for humanity thanks to\nthe feats of the Getter Team - Ryoma\nNagare, Hayato Jin and Musashi Tomoe -\nand the <book(52)>Deuteron Missile<endbook()>.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        56,
+        141
+      ]
+    },
+    {
+      "text_id": 54,
+      "before": "Sealed cities found in the Siberia region.\n\nThey were built for life in a harsh natural\nenvironment where towers cannot be built\nand air routes cannot be set up.\n\nNoting that their nature makes escape\nhard, the <book(38)>New Federation<endbook()> uses them as\nfacilities to isolate political prisoners and\nthought criminals such as <book(83)>Vodarac<endbook()>\nbelievers.",
+      "target": "Sealed cities found in the Siberia region.\n\nThey were built for life in a harsh natural\nenvironment where towers cannot be built\nand air routes cannot be set up.\n\n\n\nNoting that their nature makes escape\nhard, the <book(38)>New Federation<endbook()> uses them as\nfacilities to isolate political prisoners and\nthought criminals such as <book(83)>Vodarac<endbook()>\nbelievers.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        157,
+        162
+      ]
+    },
+    {
+      "text_id": 55,
+      "before": "The act by which people living in a\n<book(54)>Domepolis<endbook()> flee to richer lands.\n\nThe <book(38)>New Federation<endbook()> defines this as a\ngrave crime, and those who plot an Exodus\nare put under watch by the\n<book(56)>Siberian Railway<endbook()>.",
+      "target": "The act by which people living in a\n<book(54)>Domepolis<endbook()> flee to richer lands.\n\n\n\n\n\n\nThe <book(38)>New Federation<endbook()> defines this as a\ngrave crime, and those who plot an Exodus\nare put under watch by the\n<book(56)>Siberian Railway<endbook()>.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        66,
+        120
+      ]
+    },
+    {
+      "text_id": 56,
+      "before": "A body under the <book(38)>New Federation<endbook()> that\ngoverns the <book(54)>Domepolises<endbook()> of the Siberia\nregion. Its president is Kids Munt.\n\nBy laying a rail network across a world\nruined by the 7th Space War, rail boomed\nas a means of transport, but it declined in\nno time once air routes were developed\nusing <book(70)>Trapar<endbook()>.\n\nToday it is granted autonomy over the\n<book(54)>Domepolises<endbook()> of the Siberia region.",
+      "target": "A body under the <book(38)>New Federation<endbook()> that\ngoverns the <book(54)>Domepolises<endbook()> of the Siberia\nregion. Its president is Kids Munt.\n\n\n\n\n\nBy laying a rail network across a world\nruined by the 7th Space War, rail boomed\nas a means of transport, but it declined in\nno time once air routes were developed\nusing <book(70)>Trapar<endbook()>.\n\n\n\nToday it is granted autonomy over the\n<book(54)>Domepolises<endbook()> of the Siberia region.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        109,
+        173,
+        71
+      ]
+    },
+    {
+      "text_id": 57,
+      "before": "Humanoid mobile weapons driven by a\npower unit called a Silhouette Engine.\n\nThey are in wide use for industry,\nconstruction, transport and many other\npurposes; armed combat types are used\nmainly by the <book(56)>Siberian Railway<endbook()>.",
+      "target": "Humanoid mobile weapons driven by a\npower unit called a Silhouette Engine.\n\n\n\n\n\n\nThey are in wide use for industry,\nconstruction, transport and many other\npurposes; armed combat types are used\nmainly by the <book(56)>Siberian Railway<endbook()>.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        73,
+        140
+      ]
+    },
+    {
+      "text_id": 58,
+      "before": "General term for <book(57)>Silhouette Machines<endbook()> that\ncan use Overskills.\n\nTheir inner structure is often close to a\nliving creature's, with organic-looking\nMetal Muscle fitted over the skeleton. By\nwearing outer armor called an Overcoat,\nthey can also activate special abilities\ncalled Overskills.\n\nWhen running they also emit high energy\ncalled a Photon Mat; by controlling it\nfreely, it can be applied to flight, inertia\ncontrol, attack and defense.",
+      "target": "General term for <book(57)>Silhouette Machines<endbook()> that\ncan use Overskills.\n\nTheir inner structure is often close to a\nliving creature's, with organic-looking\n\n\n\nMetal Muscle fitted over the skeleton. By\nwearing outer armor called an Overcoat,\nthey can also activate special abilities\ncalled Overskills.\n\n\n\n\nWhen running they also emit high energy\ncalled a Photon Mat; by controlling it\nfreely, it can be applied to flight, inertia\ncontrol, attack and defense.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        140,
+        138,
+        149
+      ]
+    },
+    {
+      "text_id": 59,
+      "before": "A huge city where the <book(56)>Siberian Railway<endbook()>\nhas its head office. It is also the hub of\nthe rail network that spreads across the\nworld.",
+      "target": "A huge city where the <book(56)>Siberian Railway<endbook()>\nhas its head office. It is also the hub of\nthe rail network that spreads across the\nworld.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        126
+      ]
+    },
+    {
+      "text_id": 60,
+      "before": "An anti-government group led by Holland.\nCharismatic figures in the world of ref\nboards, they work to raise awareness by\npublishing the magazine \"ray=out\".\n\nThe core members, Holland included, are\nex-military, and their mothership is the\nGekko, a state-of-the-art cruiser seized\nwhen they deserted the military.",
+      "target": "An anti-government group led by Holland.\nCharismatic figures in the world of ref\nboards, they work to raise awareness by\npublishing the magazine \"ray=out\".\n\n\n\n\nThe core members, Holland included, are\nex-military, and their mothership is the\nGekko, a state-of-the-art cruiser seized\nwhen they deserted the military.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        152,
+        151
+      ]
+    },
+    {
+      "text_id": 61,
+      "before": "The first <book(65)>LFO<endbook()> ever excavated. It was once\ndeployed with a military special forces\nunit, but Holland seized it along with the\nGekko when he deserted.\n\nIt has a side-by-side two-seat cockpit and\nby nature will not accept any pilot other\nthan certain people such as Eureka.\n\nIts formal name is Nirvash typeZERO,\ngiven because it was the first <book(65)>LFO<endbook()>\nexcavated in the world.",
+      "target": "The first <book(65)>LFO<endbook()> ever excavated. It was once\ndeployed with a military special forces\nunit, but Holland seized it along with the\nGekko when he deserted.\n\n\n\n\nIt has a side-by-side two-seat cockpit and\nby nature will not accept any pilot other\nthan certain people such as Eureka.\n\n\n\n\n\nIts formal name is Nirvash typeZERO,\ngiven because it was the first <book(65)>LFO<endbook()>\nexcavated in the world.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        145,
+        118,
+        93
+      ]
+    },
+    {
+      "text_id": 62,
+      "before": "A mysterious phenomenon caused by the\n<book(61)>Nirvash<endbook()> when fitted with the <book(63)>Amita Drive<endbook()>.\n\nOnce triggered, amid seven-colored light,\n<book(70)>Trapar<endbook()> surges abnormally, followed by a\nreversal that wipes out all the surrounding\n<book(70)>Trapar<endbook()>.",
+      "target": "A mysterious phenomenon caused by the\n<book(61)>Nirvash<endbook()> when fitted with the <book(63)>Amita Drive<endbook()>.\n\n\n\n\n\n\nOnce triggered, amid seven-colored light,\n<book(70)>Trapar<endbook()> surges abnormally, followed by a\nreversal that wipes out all the surrounding\n<book(70)>Trapar<endbook()>.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        78,
+        130
+      ]
+    },
+    {
+      "text_id": 63,
+      "before": "An expansion part for the <book(64)>Compac Drive<endbook()>,\nexclusive to the <book(61)>Nirvash<endbook()>. It can feed the\nwill of the <book(65)>LFO<endbook()> back to a person.\n\nIt is said that with this fitted, the <book(61)>Nirvash<endbook()>\nattains enlightenment and reaches its true\nawakening.",
+      "target": "An expansion part for the <book(64)>Compac Drive<endbook()>,\nexclusive to the <book(61)>Nirvash<endbook()>. It can feed the\nwill of the <book(65)>LFO<endbook()> back to a person.\n\n\n\n\n\nIt is said that with this fitted, the <book(61)>Nirvash<endbook()>\nattains enlightenment and reaches its true\nawakening.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        113,
+        97
+      ]
+    },
+    {
+      "text_id": 64,
+      "before": "A device that links human and machine,\nand the control unit used to run an <book(65)>LFO<endbook()>.\n\nIt uses a natural stone formed from Scub\nand can absorb energy from <book(70)>Trapar<endbook()>.\n\nConnecting it to an <book(65)>LFO<endbook()> and feeding in\nenergy makes the <book(65)>LFO<endbook()> operate.",
+      "target": "A device that links human and machine,\nand the control unit used to run an <book(65)>LFO<endbook()>.\n\nIt uses a natural stone formed from Scub\nand can absorb energy from <book(70)>Trapar<endbook()>.\n\n\n\nConnecting it to an <book(65)>LFO<endbook()> and feeding in\nenergy makes the <book(65)>LFO<endbook()> operate.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        152,
+        67
+      ]
+    },
+    {
+      "text_id": 65,
+      "before": "Humanoid mobile machines that use ref\nboards.\n\nThey can fly by riding waves of <book(70)>Trapar<endbook()>,\nor travel on the ground in vehicle mode.\n\nThey are relics excavated from\nunderground, fitted with armor, control\nunits and so on to make them pilotable.\n\nLFO stands for\nLight Finding Operation.",
+      "target": "Humanoid mobile machines that use ref\nboards.\n\nThey can fly by riding waves of <book(70)>Trapar<endbook()>,\nor travel on the ground in vehicle mode.\n\n\n\nThey are relics excavated from\nunderground, fitted with armor, control\nunits and so on to make them pilotable.\n\nLFO stands for\nLight Finding Operation.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        123,
+        146
+      ]
+    },
+    {
+      "text_id": 66,
+      "before": "<book(65)>LFOs<endbook()> used as the main weapon of the\n<book(38)>New Federation<endbook()>. Designed and developed\nfrom the <book(61)>Nirvash<endbook()> typeZERO.\n\nKLF stands for\nKraft Light Fighter.",
+      "target": "<book(65)>LFOs<endbook()> used as the main weapon of the\n<book(38)>New Federation<endbook()>. Designed and developed\nfrom the <book(61)>Nirvash<endbook()> typeZERO.\n\nKLF stands for\nKraft Light Fighter.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        133
+      ]
+    },
+    {
+      "text_id": 67,
+      "before": "Relics excavated from underground. They\nform the core of a <book(66)>KLF<endbook()>.\n\nFitted with armor and the like and\nmodified so that people can pilot them,\nthey become <book(65)>LFOs<endbook()> and <book(66)>KLFs<endbook()>.\n\nThe oldest Archetype is the one used in\nthe <book(61)>Nirvash<endbook()> typeZERO.",
+      "target": "Relics excavated from underground. They\nform the core of a <book(66)>KLF<endbook()>.\n\nFitted with armor and the like and\nmodified so that people can pilot them,\nthey become <book(65)>LFOs<endbook()> and <book(66)>KLFs<endbook()>.\n\n\nThe oldest Archetype is the one used in\nthe <book(61)>Nirvash<endbook()> typeZERO.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        161,
+        60
+      ]
+    },
+    {
+      "text_id": 68,
+      "before": "The leading authority on <book(69)>Scub Coral<endbook()>\nresearch. He studied the <book(61)>Nirvash<endbook()> and\nEureka. He is also the father of Renton\nThurston.\n\nDuring the <book(52)>Deuteron Missile<endbook()> incident, to\nstop the Summer of Love, an abnormal\n<book(70)>Trapar<endbook()> outbreak that occurred at the same\ntime, he held down the damage at the cost\nof his own life. He is therefore regarded\nas the hero who saved humanity.",
+      "target": "The leading authority on <book(69)>Scub Coral<endbook()>\nresearch. He studied the <book(61)>Nirvash<endbook()> and\nEureka. He is also the father of Renton\nThurston.\n\nDuring the <book(52)>Deuteron Missile<endbook()> incident, to\n\n\nstop the Summer of Love, an abnormal\n<book(70)>Trapar<endbook()> outbreak that occurred at the same\ntime, he held down the damage at the cost\nof his own life. He is therefore regarded\n\n\n\n\nas the hero who saved humanity.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        159,
+        159,
+        31
+      ]
+    },
+    {
+      "text_id": 69,
+      "before": "New land that rises out of the ground with\ncrustal movement. It covers most of the\nEarth's surface.\n\nScub upheavals cause damage such as the\ndestruction of inhabited areas, so Pile\nBunkers are driven into the ground to\nsuppress them.\n\nWhile seen as a threat to humanity, it is\nalso said to exist in order to heal the\nwounded land.\n\nAlso called \"Scub\" for short.",
+      "target": "New land that rises out of the ground with\ncrustal movement. It covers most of the\nEarth's surface.\n\n\n\n\n\nScub upheavals cause damage such as the\ndestruction of inhabited areas, so Pile\nBunkers are driven into the ground to\nsuppress them.\n\n\n\n\nWhile seen as a threat to humanity, it is\nalso said to exist in order to heal the\nwounded land.\n\nAlso called \"Scub\" for short.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        97,
+        129,
+        122
+      ]
+    },
+    {
+      "text_id": 70,
+      "before": "Special particles that flow out of the\n<book(69)>Scub Coral<endbook()> and fill the atmosphere.\n\nTheir repulsive force lets things float, so\nair routes called ley lines form, and they\nare widely used as a means of flight for\nref boards, aerial battleships and more.",
+      "target": "Special particles that flow out of the\n<book(69)>Scub Coral<endbook()> and fill the atmosphere.\n\n\n\n\n\n\nTheir repulsive force lets things float, so\nair routes called ley lines form, and they\nare widely used as a means of flight for\nref boards, aerial battleships and more.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        73,
+        165
+      ]
+    },
+    {
+      "text_id": 71,
+      "before": "The theory that the <book(69)>Scub Coral<endbook()> is a life\nform possessing intelligence. Put forward\nby <book(68)>Adroc Thurston<endbook()> and Dr. Greg \"Bear\"\nEgan.\n\nIt rests on the inference that crustal\nmovement, <book(72)>Coralians<endbook()> and the like are\nreactions to the actions of humanity.",
+      "target": "The theory that the <book(69)>Scub Coral<endbook()> is a life\nform possessing intelligence. Put forward\nby <book(68)>Adroc Thurston<endbook()> and Dr. Greg \"Bear\"\nEgan.\n\n\n\n\nIt rests on the inference that crustal\nmovement, <book(72)>Coralians<endbook()> and the like are\nreactions to the actions of humanity.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        123,
+        111
+      ]
+    },
+    {
+      "text_id": 72,
+      "before": "Beings that are the <book(69)>Scub Coral<endbook()> changed\ninto various forms.\n\nMany kinds have been confirmed, such as\ngaseous or cloud-like ones and ones shaped\nlike living creatures; because of this\ndiversity, some researchers argue that they\nare intelligent life.",
+      "target": "Beings that are the <book(69)>Scub Coral<endbook()> changed\ninto various forms.\n\nMany kinds have been confirmed, such as\ngaseous or cloud-like ones and ones shaped\nlike living creatures; because of this\n\n\ndiversity, some researchers argue that they\nare intelligent life.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        176,
+        64
+      ]
+    },
+    {
+      "text_id": 73,
+      "before": "General term for <book(72)>Coralians<endbook()> that by nature\nattack humans.\n\nVarious types have been confirmed, but\nwhy they appear is unknown. A set time\nafter appearing, they cease activity and\ncalcify.",
+      "target": "General term for <book(72)>Coralians<endbook()> that by nature\nattack humans.\n\nVarious types have been confirmed, but\nwhy they appear is unknown. A set time\nafter appearing, they cease activity and\ncalcify.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        179
+      ]
+    },
+    {
+      "text_id": 74,
+      "before": "A giant cloud-like <book(72)>Coralian<endbook()>.\n\nIt spans tens of kilometers, and the flows\nof <book(70)>Trapar<endbook()> all rush toward its center at\nonce and stream out. It is also linked to\nthe appearance of <book(73)>Antibody Coralians<endbook()>, and\nit is active for only 1246 seconds. It may\nalso appear as a result of strong physical\ndamage to the <book(69)>Scub Coral<endbook()>.\n\n\nInside the cloud a space called <book(75)>the Zone<endbook()> is\nsaid to spread out.",
+      "target": "A giant cloud-like <book(72)>Coralian<endbook()>.\n\nIt spans tens of kilometers, and the flows\nof <book(70)>Trapar<endbook()> all rush toward its center at\nonce and stream out. It is also linked to\n\n\n\nthe appearance of <book(73)>Antibody Coralians<endbook()>, and\nit is active for only 1246 seconds. It may\nalso appear as a result of strong physical\ndamage to the <book(69)>Scub Coral<endbook()>.\n\n\n\n\n\nInside the cloud a space called <book(75)>the Zone<endbook()> is\nsaid to spread out.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        150,
+        150,
+        62
+      ]
+    },
+    {
+      "text_id": 75,
+      "before": "A special region that arises where <book(70)>Trapar<endbook()>\ndensity is high.",
+      "target": "A special region that arises where <book(70)>Trapar<endbook()>\ndensity is high.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        57
+      ]
+    },
+    {
+      "text_id": 76,
+      "before": "The place where dialogue with the Scub is\nsaid to take place.\n\nThe <book(80)>Command Cluster<endbook()> is also said to be\nthere, but the details are unknown.",
+      "target": "The place where dialogue with the Scub is\nsaid to take place.\n\nThe <book(80)>Command Cluster<endbook()> is also said to be\nthere, but the details are unknown.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        133
+      ]
+    },
+    {
+      "text_id": 77,
+      "before": "The phenomenon in which the physical\nuniverse reaches its limit and collapses, and\nthe theory of it.\n\nIt is based on the idea that the total\namount of intelligent life, humans included,\nthat can exist is fixed in advance, and that\nthe universe itself collapses when that\ncapacity is exceeded. It is thought to\noccur when the vast dormant Scub\nawakens.\n\nAt the <book(79)>Great Wall<endbook()>, the same phenomenon\ncan be seen on a small scale.",
+      "target": "The phenomenon in which the physical\nuniverse reaches its limit and collapses, and\nthe theory of it.\n\nIt is based on the idea that the total\namount of intelligent life, humans included,\n\n\nthat can exist is fixed in advance, and that\nthe universe itself collapses when that\ncapacity is exceeded. It is thought to\noccur when the vast dormant Scub\nawakens.\n\n\n\nAt the <book(79)>Great Wall<endbook()>, the same phenomenon\ncan be seen on a small scale.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        180,
+        161,
+        67
+      ]
+    },
+    {
+      "text_id": 78,
+      "before": "A plan document on the <book(69)>Scub Coral<endbook()> drawn\nup by <book(68)>Adroc Thurston<endbook()> and Dr. Saotome.\n\nIt sets out predictions from the awakening\nof the <book(61)>Nirvash<endbook()> to the <book(77)>Limit of Questions<endbook()>\nthat could follow.\n\nDr. Saotome left during the drafting, so\nthe link between the Scub and the <book(49)>Invaders<endbook()>\nremained a mystery.\n\nIt also records the <book(71)>Scub Mind Theory<endbook()> of\n<book(68)>Adroc Thurston<endbook()>, and Dewey now uses it\nfor the plan to wipe out the Scub.",
+      "target": "A plan document on the <book(69)>Scub Coral<endbook()> drawn\nup by <book(68)>Adroc Thurston<endbook()> and Dr. Saotome.\n\nIt sets out predictions from the awakening\nof the <book(61)>Nirvash<endbook()> to the <book(77)>Limit of Questions<endbook()>\nthat could follow.\n\n\nDr. Saotome left during the drafting, so\nthe link between the Scub and the <book(49)>Invaders<endbook()>\nremained a mystery.\n\n\n\n\n\nIt also records the <book(71)>Scub Mind Theory<endbook()> of\n<book(68)>Adroc Thurston<endbook()>, and Dewey now uses it\nfor the plan to wipe out the Scub.",
+      "changed": true,
+      "pages": 3,
+      "page_glyphs": [
+        176,
+        101,
+        110
+      ]
+    },
+    {
+      "text_id": 79,
+      "before": "The place where the <book(69)>Scub Coral<endbook()> and\nhumanity are said to hold dialogue. It is\nthought to be the path to saving this\nworld, and the place that those who are a\npair of human and <book(72)>Coralian<endbook()> should head\nfor.\n\nMasses of erupted <book(70)>Trapar<endbook()> swirl like clouds,\nand a special space spreads out where none\nof the laws of physics apply.",
+      "target": "The place where the <book(69)>Scub Coral<endbook()> and\nhumanity are said to hold dialogue. It is\nthought to be the path to saving this\nworld, and the place that those who are a\n\n\n\n\npair of human and <book(72)>Coralian<endbook()> should head\nfor.\n\nMasses of erupted <book(70)>Trapar<endbook()> swirl like clouds,\nand a special space spreads out where none\nof the laws of physics apply.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        153,
+        156
+      ]
+    },
+    {
+      "text_id": 80,
+      "before": "The nerve center that controls the\n<book(69)>Scub Coral<endbook()>.",
+      "target": "The nerve center that controls the\n<book(69)>Scub Coral<endbook()>.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        45
+      ]
+    },
+    {
+      "text_id": 81,
+      "before": "A crust-penetrating bomb fired from high\naltitude deep into the Scub. It was\ndeveloped to stimulate the <book(72)>Coralians<endbook()>.",
+      "target": "A crust-penetrating bomb fired from high\naltitude deep into the Scub. It was\ndeveloped to stimulate the <book(72)>Coralians<endbook()>.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        112
+      ]
+    },
+    {
+      "text_id": 82,
+      "before": "A plan to destroy the Scub and awaken the\n<book(69)>Scub Coral<endbook()> by dropping <book(81)>Orange<endbook()>\ncrust-penetrating bombs from high\naltitude.\n\nIts aim is thought to be pinpointing the\nlocation of the <book(80)>Command Cluster<endbook()>, the nerve\ncenter of the <book(69)>Scub Coral<endbook()>.",
+      "target": "A plan to destroy the Scub and awaken the\n<book(69)>Scub Coral<endbook()> by dropping <book(81)>Orange<endbook()>\ncrust-penetrating bombs from high\naltitude.\n\n\n\n\nIts aim is thought to be pinpointing the\nlocation of the <book(80)>Command Cluster<endbook()>, the nerve\ncenter of the <book(69)>Scub Coral<endbook()>.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        112,
+        107
+      ]
+    },
+    {
+      "text_id": 83,
+      "before": "A religious organization whose head\ntemple is the Vodara Shrine. It opposes\nsuppressing the Scub and advocates living\nas the Scub wills.\n\nBecause some extremists resist government\noppression with repeated acts of terrorism,\nit is generally regarded as an\nanti-government organization.",
+      "target": "A religious organization whose head\ntemple is the Vodara Shrine. It opposes\nsuppressing the Scub and advocates living\nas the Scub wills.\n\n\n\n\nBecause some extremists resist government\noppression with repeated acts of terrorism,\nit is generally regarded as an\nanti-government organization.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        133,
+        143
+      ]
+    },
+    {
+      "text_id": 84,
+      "before": "A military technology research body of the\n<book(38)>New Federation<endbook()>.\n\nIt studied the excavated <book(67)>Archetypes<endbook()> and\nput the <book(65)>LFO<endbook()> into practical use.",
+      "target": "A military technology research body of the\n<book(38)>New Federation<endbook()>.\n\nIt studied the excavated <book(67)>Archetypes<endbook()> and\nput the <book(65)>LFO<endbook()> into practical use.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        127
+      ]
+    },
+    {
+      "text_id": 85,
+      "before": "A trial held by the <book(9)>Earth Federation<endbook()>\nForces to select the next-generation\n<book(34)>Valkyrie<endbook()>.\n\nArms makers were each made to develop\nprototypes, and the two machines left at\nthe end of the selection were the YF-19\nand YF-21.",
+      "target": "A trial held by the <book(9)>Earth Federation<endbook()>\nForces to select the next-generation\n<book(34)>Valkyrie<endbook()>.\n\n\n\n\n\nArms makers were each made to develop\nprototypes, and the two machines left at\nthe end of the selection were the YF-19\nand YF-21.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        81,
+        126
+      ]
+    },
+    {
+      "text_id": 86,
+      "before": "An unmanned fighter developed in strict\nsecrecy by the Federation behind\n<book(85)>Project Super Nova<endbook()>.\n\nWith no need to allow for a pilot, it shows\nthe high performance only an unmanned\ncraft can, in acceleration, mobility,\nawareness of its surroundings and more.",
+      "target": "An unmanned fighter developed in strict\nsecrecy by the Federation behind\n<book(85)>Project Super Nova<endbook()>.\n\n\n\n\n\nWith no need to allow for a pilot, it shows\nthe high performance only an unmanned\ncraft can, in acceleration, mobility,\nawareness of its surroundings and more.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        90,
+        156
+      ]
+    },
+    {
+      "text_id": 87,
+      "before": "The most popular diva in the Earth Sphere.\nIn truth, a virtual idol created by computer\ntechnology.\n\nOfficially the idol was planned to\ncommemorate the founding of the\n<book(9)>Earth Federation<endbook()> government, but the real\npurpose is said to be reuse as the AI of a\nweapon under secret development.",
+      "target": "The most popular diva in the Earth Sphere.\nIn truth, a virtual idol created by computer\ntechnology.\n\n\n\n\n\nOfficially the idol was planned to\ncommemorate the founding of the\n<book(9)>Earth Federation<endbook()> government, but the real\npurpose is said to be reuse as the AI of a\nweapon under secret development.",
+      "changed": true,
+      "pages": 2,
+      "page_glyphs": [
+        97,
+        180
+      ]
+    },
+    {
+      "text_id": 88,
+      "before": "A city that keeps the <book(33)>Macross<endbook()>, retired from\nservice after the <book(4)>First Defense War<endbook()>, at its\ncenter as a symbol of peace.",
+      "target": "A city that keeps the <book(33)>Macross<endbook()>, retired from\nservice after the <book(4)>First Defense War<endbook()>, at its\ncenter as a symbol of peace.",
+      "changed": false,
+      "pages": 1,
+      "page_glyphs": [
+        114
+      ]
+    }
+  ]
+}

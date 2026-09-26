@@ -1,0 +1,188 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 1975,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 1960,
+      "end": 2069
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "rows_left_draft": [],
+  "meaning_fixes": [
+    {
+      "id": "dialogue_02000",
+      "before": "<op()><sp(20)>So the Sibe-Rail lets a guy like this rise up the ranks. Cold regions really are different.<ab(500)><ed()>",
+      "after": "<op()><sp(20)>So the Siberian Railway lets a guy like this rise up the ranks. Cold regions really are different.<ab(500)><ed()>",
+      "reason": "Same ruling as row 1905: no English source attests a clipped nickname; one form kept = locked 'Siberian Railway'."
+    },
+    {
+      "id": "dialogue_02014",
+      "before": "<on()><sp(20)>Got hold of an Overman during the escape, and a kid is piloting it.<ab(10000)><off()>",
+      "after": "<on()><sp(20)>Picked up an Overman during the escape; got a kid piloting it.<ab(10000)><off()>",
+      "reason": "Source verb is causative (Gain is having the boy pilot it); draft 'a kid is piloting it' dropped Gain's agency, which Gainer's complaint in 1927 (being forced to fight) depends on. Subject still left unstated as in the source."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [
+        2000
+      ],
+      "finding": "Clipped nickname: same ruling as review_01895 - no English source attests a clipped form, locked 'Siberian Railway' used. Visible length after the change stays within 110."
+    },
+    {
+      "rows": [
+        2038,
+        2039,
+        2044
+      ],
+      "finding": "Orchestrator decision applied: 'Baldora Drive' and 'Bardona' kept as locked even though the source word is identical and 2044-2046 turn on the match. Not changed."
+    },
+    {
+      "rows": [
+        2042
+      ],
+      "finding": "'B Plan' kept: ACE3-original codename with no official English; 'Project B' needs the missing j glyph and 'Plan B' would read as the English idiom for a fallback. Speaker (someone formerly with the New Federation) left unidentified; the line is speaker-neutral."
+    },
+    {
+      "rows": [
+        2050
+      ],
+      "finding": "Berkt is male in character_names_021, so 'him' is supported; 'he's the one with the details' = Hayato, matching the source's familiar 'that guy has the detailed information'."
+    },
+    {
+      "rows": [
+        2018
+      ],
+      "finding": "'The priest everyone's after' for the sought-after priest: the source does not say whose objective; both sides are in fact after the priest (1942 enemy order, 2013 rescue), so the wording does not mislead. Vehicle left as 'that' as in the source."
+    },
+    {
+      "rows": [
+        2021
+      ],
+      "finding": "Follows the Gain/Gainer exchange 2019-2020, so the shout is most likely Gainer's. Bare organisation name plus a pejorative particle; 'Damn Siberian Railway!!' is a fair reading. Kept."
+    },
+    {
+      "rows": [
+        1984,
+        1985
+      ],
+      "finding": "1984 praise left without a named target; 1985 'we' is safe (relief of the escorting side once the train is clear)."
+    },
+    {
+      "rows": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
+      "finding": "Taunt pairs kept identity-free on the player side; Yassaba's replies correct (toughest man in the Siberian Railway; mocking the Railway itself)."
+    },
+    {
+      "rows": [
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "finding": "2002-2003 Yassaba facing an unfamiliar machine; replies neutral. Correct."
+    },
+    {
+      "rows": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "finding": "Eureka/Renton versus Yassaba: 'A child...?!' and the stay-calm advice are correct; the 2010-2011 speaker is not named in the English."
+    },
+    {
+      "rows": [
+        2028,
+        2036,
+        2041,
+        2043
+      ],
+      "finding": "Compressed lines checked clause by clause: nothing dropped. The 2041 clause reorder keeps the book span on New Federation. 2043 'the colonies' for the colony side adds no organisation name."
+    },
+    {
+      "rows": [
+        2030
+      ],
+      "finding": "Source says only 'Nadesico' (not Nadesico B); colour spans in source order; 'captain' per orchestrator ruling; Western name order per glossary."
+    },
+    {
+      "rows": [
+        2036
+      ],
+      "finding": "Source says only 'life-forms' here (no 'unidentified'); hyphenated corpus form used."
+    },
+    {
+      "rows": [
+        2051,
+        2052,
+        2053,
+        2054
+      ],
+      "finding": "'Hayato Jin' and 'Shin Dragon' match the glossary/book term; the hearsay ending of 2052 is kept ('It seems')."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2014
+      ],
+      "issue": "Fix restores the causative. Subject left out as in the source, although 2013 ('Gain here') makes Gain the agent."
+    },
+    {
+      "rows": [
+        2028
+      ],
+      "issue": "'Your company would help' (at exactly 110 visible chars) compresses 'it would help if you acted together with us'; correct, but 'company' could be misread as a firm. No exact alternative that fits was found, so left; the orchestrator may want to trim the first sentence to make room for 'It would help if you came with us.'"
+    },
+    {
+      "rows": [
+        2021
+      ],
+      "issue": "'This might work...' expands a bare 'with this...'; the shout could also be exasperation rather than an attack cry. Left as drafted."
+    },
+    {
+      "rows": [
+        2018
+      ],
+      "issue": "'everyone's after' smooths an ownerless 'sought-after'; the alternative 'the priest we came for' would assign it to the Gekkostate side."
+    },
+    {
+      "rows": [
+        2044
+      ],
+      "issue": "With the locked spellings the English reader cannot see that the developer's surname equals the drive's name; 2046 still works but the name link in 2044 is invisible. Kept per orchestrator decision; glossary unification remains open."
+    },
+    {
+      "rows": [
+        2000
+      ],
+      "issue": "batch_01975_glossary_proposals.json still lists 'Sibe-Rail'; not edited by me."
+    },
+    {
+      "rows": [
+        2026
+      ],
+      "issue": "Speaker (left the priest with the Vodarac people, relays their thanks to Gain) is presumably Holland; untagged, and the translation does not depend on it."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target re-compared with the ISO source after the fixes: all 80 equal.",
+    "format": "No newline in any target; ASCII only; no lowercase j/q outside locked names.",
+    "fit": "Visible text <= 110 characters in every row; no display-fit shortening performed by the reviewer.",
+    "runtime": "Runtime scene selection, speaker identity, font coverage and visual fit are not established by this meaning review."
+  }
+}

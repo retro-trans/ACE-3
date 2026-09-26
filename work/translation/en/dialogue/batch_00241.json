@@ -1,0 +1,545 @@
+{
+  "slice_start": 241,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 226,
+      "end": 335
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_00241",
+      "target": "<sp(20)>You can't just stay glued to the Nadesico.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "This continues the ten parallel distant-enemy warnings in rows 231-240, rather than a single sequential conversation."
+    },
+    {
+      "id": "dialogue_00242",
+      "target": "<sp(20)>Leave them alone, and they'll have a clear shot!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00243",
+      "target": "<sp(20)>Please destroy as many of them as possible.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00244",
+      "target": "<sp(20)>Don't focus only on what's nearby.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00245",
+      "target": "<sp(20)>At this rate, it's going to get destroyed!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "The threatened subject is omitted. The preceding Nadesico escort/distant-enemy warnings support the ship as referent; retain for scene review."
+    },
+    {
+      "id": "dialogue_00246",
+      "target": "<sp(20)>Deal with the distant enemies, too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00247",
+      "target": "<sp(20)>Destroy as many targets as possible immediately.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00248",
+      "target": "<sp(20)>Please destroy those enemies, too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00249",
+      "target": "<sp(20)>Just taking out the nearby enemies won't do.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00250",
+      "target": "<sp(20)>Please deal with the enemies over there, too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00251",
+      "target": "<on()><sp(20)>An approaching force has been detected.#c[FF0000]\n#cIdentification code: White Fang!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "White Fang is a tentative canonical name pending glossary verification."
+    },
+    {
+      "id": "dialogue_00252",
+      "target": "<on()><sp(20)>White Fang... The anti-Earth organization?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00253",
+      "target": "<on()><sp(20)>I apologize for taking advantage of your operation.#c[FF0000]\n#cBut E2 will be ours!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00254",
+      "target": "<on()><sp(20)>That voice... Zechs!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Zechs is a tentative canonical name pending glossary verification."
+    },
+    {
+      "id": "dialogue_00255",
+      "target": "<op()><sp(20)>OZ's former ace pilot... Why here...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00256",
+      "target": "<op()><sp(20)><cs(1)>I am now the leader of White Fang.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00257",
+      "target": "<op()><sp(20)>All units, eliminate the approaching enemies!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00258",
+      "target": "<op()><sp(20)>Incoming transmission from the UCE main force.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00259",
+      "target": "<sp(20)>Following White Fang's surprise attack,<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00260",
+      "target": "<sp(20)>the encirclement operation appears to have failed.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00261",
+      "target": "<op()><sp(20)>Then there's no choice...! We'll wipe out the enemy here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00262",
+      "target": "<op()><sp(20)>Zechs, please stop!<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00263",
+      "target": "<sp(20)>Why are you doing this?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00264",
+      "target": "<op()><sp(20)><cs(1)>You haven't changed, Noin.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Noin is a tentative canonical name pending glossary verification."
+    },
+    {
+      "id": "dialogue_00265",
+      "target": "<sp(20)><cs(1)>People must be taught the folly of war.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00266",
+      "target": "<sp(20)><cs(1)>Force is necessary to achieve our ideals.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00267",
+      "target": "<op()><sp(20)><cs(1)>With this mobile suit's capabilities,<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00268",
+      "target": "<sp(20)><cs(1)>any enemy can be defeated!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00269",
+      "target": "<op()><sp(20)>Captain, a civilian craft is approaching.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00270",
+      "target": "<op()><sp(20)><cs(2)>You are Captain Bright of the Ra Cailum, correct?<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00271",
+      "target": "<sp(20)><cs(2)>My name is Relena Peacecraft.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Relena Peacecraft is a tentative canonical name pending glossary verification."
+    },
+    {
+      "id": "dialogue_00272",
+      "target": "<sp(20)><cs(2)>Please, pay no attention to me.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00273",
+      "target": "<op()><sp(20)>L-Lady Relena!?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00274",
+      "target": "<op()><sp(20)>The transmission has been cut off!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00275",
+      "target": "<op()><sp(20)>The head of state of the pacifist Sanc Kingdom?<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Sanc Kingdom is a tentative canonical name pending glossary verification."
+    },
+    {
+      "id": "dialogue_00276",
+      "target": "<sp(20)>But why here...?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Relena is established by rows 270-275 as the approaching visitor; the omitted subject is retained."
+    },
+    {
+      "id": "dialogue_00277",
+      "target": "<on()><sp(20)>Guh... So this is#c[FF0000]\n#cthe limit of a flesh-and-blood pilot...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00278",
+      "target": "<on()><sp(20)>Brother, please stop fighting!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00279",
+      "target": "<on()><sp(20)>Relena... Why are you here...?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00280",
+      "target": "<on()><sp(20)>I've come to stop you, Brother!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00281",
+      "target": "<on()><sp(20)>You've grown strong, Relena.#c[FF0000]\n#cA true daughter of the Peacecraft family.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00282",
+      "target": "<sp(20)>I'm sure you can lead#c[FF0000]\n#cthe nation Father envisioned.<ab(6000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Father is the shared father of the sibling pair in rows 278-285; no name added."
+    },
+    {
+      "id": "dialogue_00283",
+      "target": "<on()><sp(20)>Brother...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00284",
+      "target": "<on()><sp(20)>Relena, I'm glad I could see you.#c[FF0000]\n#cForget about your unworthy brother.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00285",
+      "target": "<on()><sp(20)>Wait, Brother!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00286",
+      "target": "<on()><sp(20)>Multiple approaching contacts detected.#c[FF0000]\n#cThis is... a distress signal from our forces!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00287",
+      "target": "<op()><sp(20)><cs(2)>This is a UCE intelligence operative.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00288",
+      "target": "<sp(20)><cs(2)>After infiltrating White Fang,<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00289",
+      "target": "<sp(20)><cs(2)>we escaped in the confusion, but we're being pursued.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Plural escapees are supported by multiple contacts in row 286 and each of us / one survivor in rows 291-292."
+    },
+    {
+      "id": "dialogue_00290",
+      "target": "<sp(20)><cs(2)>Requesting covering fire.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00291",
+      "target": "<op()><sp(20)><cs(2)>Each of us is carrying the intelligence we gathered.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00292",
+      "target": "<op()><sp(20)><cs(2)>As long as even one of us survives, that will suffice.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00293",
+      "target": "<op()><sp(20)>You heard that. All units, provide cover!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00294",
+      "target": "<op()><sp(20)>Our allies are piloting stolen Aries units.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Aries is a tentative canonical mobile-suit name pending glossary verification."
+    },
+    {
+      "id": "dialogue_00295",
+      "target": "<sp(20)>Be careful. They're identified as enemies.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00296",
+      "target": "<op()><sp(20)><cs(2)>I'm on your side! Please don't shoot!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00297",
+      "target": "<op()><sp(20)><cs(2)>Friendly! Don't shoot!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00298",
+      "target": "<op()><sp(20)><cs(2)>So this is the end...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00299",
+      "target": "<op()><sp(20)>An allied unit has been shot down!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00300",
+      "target": "<op()><sp(20)><cs(1)>We've been spotted! Run!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "The line is an alternate event response, not a reply to the preceding destroyed ally. No speaker identity assigned."
+    },
+    {
+      "id": "dialogue_00301",
+      "target": "<op()><sp(20)>All enemy signals have disappeared.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00302",
+      "target": "<op()><sp(20)>Zechs... What are you planning to do?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00303",
+      "target": "<op()><sp(20)>Multiple approaching contacts detected.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00304",
+      "target": "<sp(20)>This is... a distress signal from our forces!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00305",
+      "target": "<op()><sp(20)>This mobile suit is powerful!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00306",
+      "target": "<op()><sp(20)>Just as expected of Zechs... So powerful...!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Zechs is explicitly named; no speaker identity or addressee is added."
+    },
+    {
+      "id": "dialogue_00307",
+      "target": "<op()><sp(20)>This mobile suit's capabilities can't be underestimated.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00308",
+      "target": "<op()><sp(20)>What...? This enemy is strong!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00309",
+      "target": "<op()><sp(20)>Oh, no! This one's tough!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00310",
+      "target": "<op()><sp(20)>The enemy is strong. Be careful.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00311",
+      "target": "<op()><sp(20)>Warning message: damage increasing.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00312",
+      "target": "<op()><sp(20)>This enemy is strong! Please be careful!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00313",
+      "target": "<op()><sp(20)>The enemy's capabilities are considerable. Be careful.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00314",
+      "target": "<op()><sp(20)>The enemy's capabilities are extremely powerful.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00315",
+      "target": "<sp(20)>You won't stand a chance if an attack hits you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Rows 305-314 and 315-323 are paired operator variants warning the player about enemy strength and attacks."
+    },
+    {
+      "id": "dialogue_00316",
+      "target": "<sp(20)>If his attack hits you, you'll be in serious trouble!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00317",
+      "target": "<sp(20)>Please be especially careful of the attacks.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00318",
+      "target": "<sp(20)>You'll be in serious trouble if an attack hits you!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00319",
+      "target": "<sp(20)>Getting hit would be disastrous! Be careful!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00320",
+      "target": "<sp(20)>If an attack hits you, it won't end well.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        245
+      ],
+      "issue": "Omitted threatened subject interpreted as the escorted ship from preceding warnings; scene review advised."
+    },
+    {
+      "rows": [
+        251,
+        252,
+        254,
+        255,
+        256,
+        259,
+        262,
+        264,
+        271,
+        273,
+        275,
+        276,
+        279,
+        281,
+        284,
+        288,
+        294,
+        302,
+        306
+      ],
+      "issue": "Missing character/organization/location/unit glossary entries requested from orchestrator; spellings pending canonical verification."
+    },
+    {
+      "rows": [
+        289
+      ],
+      "issue": "Plural escapees inferred from multiple approaching craft and each operative carrying intelligence in adjacent lines."
+    },
+    {
+      "rows": [
+        300
+      ],
+      "issue": "Conditional event speaker unidentified; translation does not assign a character."
+    }
+  ],
+  "validation": {
+    "source_context_read": "Rows 226-335, including 15 before and 15 after assigned slice.",
+    "commands": "All angle-bracket and #c commands preserved in exact source order.",
+    "format": "Original embedded newlines retained.",
+    "fit": "Full meaning drafted without shortening for byte or display limits. Requires layout review.",
+    "meaning_review": "Independent review of all 80 rows with context 226-335; report review_00241.json."
+  }
+}

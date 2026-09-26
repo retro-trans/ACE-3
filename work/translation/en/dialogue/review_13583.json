@@ -1,0 +1,84 @@
+{
+  "reviewer": "independent_shout_review_agent_13583",
+  "slice_start": 13583,
+  "slice_count": 80,
+  "rows_examined": [{"start": 13568, "end": 13677}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_13662",
+      "before": "Betrayed my friend, Jupiter,\nnow only Nergal's dog...",
+      "after": "Betrayed friend and Jupiter, now Nergal's dog...",
+      "reason": "Source '友を裏切り、木星を裏切り、そして今はネルガルの犬……' has a parallel structure: 'betrayed [my] friend, betrayed Jupiter' - two separate betrayals (a person and the Jovian nation). The draft's 'my friend, Jupiter' reads as an appositive, i.e. one friend named Jupiter, dropping the second betrayal entirely. Corrected to keep both objects distinct, matching Tsukiomi's glossary bio (former Jovian elite who betrayed his homeland, not merely a friend). Also fixes the shout no-newline constraint by joining the line."
+    },
+    {
+      "id": "dialogue_13605",
+      "before": "I see, I see, I see...\n...rice crackers...",
+      "after": "I see, I see, I see... rice crackers...",
+      "reason": "Shout rows must not contain a newline (source line breaks are joined); joined into one line and the doubled ellipsis at the seam simplified to a single one, no meaning change."
+    },
+    {
+      "id": "dialogue_13610",
+      "before": "The peak... that's mine for the taking...\nHeh heh heh...",
+      "after": "The peak... that's mine for the taking... Heh heh heh...",
+      "reason": "Same no-newline shout constraint; joined into one line, fits the 56-char budget exactly."
+    },
+    {
+      "id": "dialogue_13611",
+      "before": "Cutting down heartless machines,\nyet my heart stays cold inside...",
+      "after": "Cutting down heartless machines, yet my heart stays cold inside...",
+      "reason": "Same no-newline shout constraint; joined into one line, fits the 68-char budget."
+    },
+    {
+      "id": "dialogue_13621",
+      "before": "Life in death,\nthe unseen turns clear...",
+      "after": "Life in death, the unseen turns clear...",
+      "reason": "Same no-newline shout constraint; joined into one line, fits the 42-char budget."
+    },
+    {
+      "id": "dialogue_13624",
+      "before": "If asked what for,\nI'll say: for myself.",
+      "after": "If asked what for, I'll say: for myself.",
+      "reason": "Same no-newline shout constraint; joined into one line, fits the 40-char budget exactly."
+    },
+    {
+      "id": "dialogue_13625",
+      "before": "Heh... I'm Maki, the poet.\nMaki the dead-et... kidding, heh... heheheh...",
+      "after": "Heh... I'm Maki, the poet. Maki the dead-et... kidding heh... heheheh...",
+      "reason": "Same no-newline shout constraint; joined into one line, and the comma after 'kidding' dropped to fit the 72-char budget exactly (73 chars would have been 1 over). The creative poet/dead-et pun substitution itself is left as the translator's own flagged, acceptable equivalence for an untranslatable homophone pun."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [13583, 13584, 13590, 13593, 13594, 13596, 13597], "finding": "Hikaru Amano's bubbly '~' register preserved consistently with corpus precedent; no meaning issues in the flagged rows."},
+    {"rows": [13598], "finding": "'doujin' rendered as 'fan-comic idea' to avoid the lowercase-j font constraint; consistent with her manga-artist/otaku personality in character_names_021.json, not an invented fact."},
+    {"rows": [13604, 13617, 13620, 13630, 13643, 13645, 13648], "finding": "Izumi Maki's untranslatable puns/idioms (dog/cliche pun, purification chant, nembutsu+sobbing, coffin idiom, 'direct', 'big lummox', 'well fed') are adapted rather than literally translated; each keeps the surface meaning and her gloomy-punster register without inventing new content."},
+    {"rows": [13649], "finding": "'……帰還命令を、きかん……' is genuinely ambiguous without furigana; the translator's chosen reading (refusing the recall order) matches the defiant tone of neighboring rows (13639 'death-wisher', 13644 'a dangerous one has come') and is a defensible reading, not a reversal."},
+    {"rows": [13656], "finding": "Battoujutsu style-name research is a glossary/terminology matter for the orchestrator, not a meaning error in this row; 'Not an assassin's blade' correctly conveys the core claim (this technique is not for assassination)."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_13583", "dialogue_13584", "dialogue_13590", "dialogue_13593", "dialogue_13594", "dialogue_13596", "dialogue_13597"], "issue": "Ruling: no reversal or wrong addressee found; the '~' register choice is consistent with precedent."},
+    {"id": "dialogue_13598", "issue": "Ruling: 'fan-comic idea' for 'doujin' is an acceptable font-constrained substitution, not a meaning error; flagging for central terminology lock is still worthwhile if 'doujin' is used elsewhere in the corpus."},
+    {"id": "dialogue_13579", "issue": "Ruling: the palm-writing ritual line is compressed but nothing is invented; acceptable given the 34-char budget."},
+    {"id": "dialogue_13604", "issue": "Ruling: dog/cliche pun loss is unavoidable in English; surface meaning (wry aside) kept, not an error."},
+    {"id": "dialogue_13605", "issue": "Ruling: rice-cracker brand pun loss is unavoidable; the non-sequitur deflection is preserved. Also fixed for the no-newline rule (see meaning_fixes)."},
+    {"id": "dialogue_13617", "issue": "Ruling: 'Purify, purify.' is an acceptable compression of the real pilgrim's chant; not misleading."},
+    {"id": "dialogue_13620", "issue": "Ruling: 'Naaamu~... hic, hic, hic...' is a reasonable interpretive blend of the Buddhist invocation and sobbing; not an invention beyond the source's own blend."},
+    {"id": "dialogue_13621", "issue": "Ruling: 'Life in death, the unseen turns clear...' keeps the paradox of the idiom even though the idiom's usual phrasing is not spelled out; acceptable. Also fixed for the no-newline rule."},
+    {"id": "dialogue_13625", "issue": "Ruling: the poet/dead-et portmanteau is a defensible creative equivalence for an unrepeatable Japanese homophone pun; flagged correctly for central review, not an error in itself. Also fixed for the no-newline rule."},
+    {"id": "dialogue_13630", "issue": "Ruling: literal 'the coffin' keeps Izumi's blunt morbid humor; not softened incorrectly."},
+    {"id": "dialogue_13643", "issue": "Ruling: 'Direct' is the best available rendering inside a 6-character budget; nuance loss is unavoidable, not an error."},
+    {"id": "dialogue_13645", "issue": "Ruling: 'Big lummox...' is an accepted idiomatic equivalent for the 'tall hollow useless plant' idiom."},
+    {"id": "dialogue_13648", "issue": "Ruling: 'Well fed.' keeps the sarcastic eating metaphor of 'ごちそうさま' after finishing an opponent; not an error."},
+    {"id": "dialogue_13649", "issue": "Ruling: the recall-order reading is defensible given the source's genuine ambiguity and the resource's defiant tone; left as draft's choice, not fixed."},
+    {"id": "dialogue_13656", "issue": "Ruling: dropping the researched Battoujutsu technique name for budget reasons does not create a meaning error in this row; it is a terminology/glossary matter for the orchestrator."},
+    {"id": "dialogue_13662", "issue": "Ruling: the first-person self-reproach reading is correct per Tsukiomi's glossary bio, but the 'friend, Jupiter' phrasing mis-parsed two betrayals as one; fixed above."}
+  ],
+  "validation": {
+    "commands": "Re-ran `python tools/dialogue_corpus.py slice 13583 80 --context 15` and diffed source order/ids against all 80 targets; every <op()><sp(20)>...<ab(1000)><ed()> sequence is identical and in source order for all rows, including the 7 rows edited above.",
+    "fit": "Recomputed min(72, 2*source_chars-2) for every edited row; all 7 fixed rows fit their budget.",
+    "ascii": "All 80 targets remain ASCII-only after edits; no bare '%', no newline remains in any row.",
+    "ids": "All 80 row ids match the slice in original stored-table order; no id added, removed, or reordered."
+  }
+}

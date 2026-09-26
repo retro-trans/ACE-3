@@ -1,0 +1,676 @@
+{
+ "resource_id": 4004663,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 73,
+ "rows_examined": 73,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(10010,1)><speed(2)>Once this operation's done, I guess it's goodbye to everyone.",
+   "notes": "",
+   "source_sha256": "b585ce08cc62e90eea8e5217de708802a920f3dc636fcd13dd1d62df9aee7626"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17020,1)><speed(2)>You all looked out for us in more ways than I can count.",
+   "notes": "",
+   "source_sha256": "577d4b6aa302a958194ced142f05f85cbca0a9a144c115829704c01e0ff6de17"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(25010,1)><speed(2)>Even once we're both back home, we've still got work waiting for us.",
+   "notes": "",
+   "source_sha256": "3f60d20f178642179ca1bfd0e9828266baddd80123b3e12f3a075b9b48d97ccf"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)>Just fighting alongside us this far was enough. We'll handle the rest ourselves.",
+   "notes": "",
+   "source_sha256": "9baf6ef97eca1a442dd6a43bc5a0986dbd382f7d1858ade49725e14e8684ff5b"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17040,1)><speed(2)>I'm grateful to you all, truly. I won't ever forget this.",
+   "notes": "",
+   "source_sha256": "006c566043ef3ebc6567758bbb1a12c21354bf1407f1e1f19da02573ea5781b8"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>... what kind of man was <color(5)>Berkt<ce()>, really?",
+   "notes": "",
+   "source_sha256": "fa07227fd25750269ad9c300a6f711ae8463cf71efb357b2ea4d0c2cbeb93c3d"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1060,1)><speed(2)>He was a man who almost never let his thoughts show.",
+   "notes": "",
+   "source_sha256": "3d36091ed4f454aaca51c9a9a4bd0088780987688395a678a610a3a9d59a0d83"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1060,1)><speed(2)>He hid his face, so I never knew he was <color(4)>Barrel<ce()>. I was only carrying out my orders.",
+   "notes": "",
+   "source_sha256": "3aba5be66f68046fdeb4568527f52d643ae71bebadc696645211abc70f38d770"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1060,1)><speed(2)>But he was a man who felt utterly ruthless, willing to do anything for his goal, and full of a bottomless hatred.",
+   "notes": "",
+   "source_sha256": "b29e6a8af8247eca10e9d86d0a102c79dc9bc897d1f1a8844939764d9011cc50"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1040,1)><speed(2)>He... found out I exist. That someone exactly like him is out there, in a world different from his own.",
+   "notes": "",
+   "source_sha256": "d6f9d8b03c9ad5d3fcbed0d4f090a52301c9a6642409155a5876937703a47851"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1040,1)><speed(2)>And he came to hate me for it.",
+   "notes": "",
+   "source_sha256": "db0d3198a2915afb9ee541a02cf35ea3d175ebbc1187d4a9e84cb5256934af54"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1040,1)><speed(2)>I don't know why, but... I have to see this through to the end.",
+   "notes": "",
+   "source_sha256": "0f22dd3836ee3c5614048fddc87b5f05364d7a3a1e7b15e425d04316bd8a86af"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(17040,1)><speed(2)>You're the real key to this operation. I'm counting on you... <color(4)>Barrel<ce()>.",
+   "notes": "",
+   "source_sha256": "4eda4699998096b367af3784434eaf0a1b721a90bccda0b79105e0731a2729bc"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(1040,1)><speed(2)>I don't even know his face, but... something my own father made is behind all of this.",
+   "notes": "",
+   "source_sha256": "2dd501ba049f42ec56b37beccf532f873c54287ddb610354a0cafd2c676d395e"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(1040,1)><speed(2)>I will stop it, whatever it takes.",
+   "notes": "",
+   "source_sha256": "441ea54e83c2cc6aba2e4c6ab920647dcdd8ac3e9cac7c4749800b013a6475b6"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>, don't shoulder all of it yourself. None of this is your fault.",
+   "notes": "",
+   "source_sha256": "63e20bc776fb19bca345b17524fedca0cc04f25ac8dfab2f473959ca05cb9abd"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(1040,1)><speed(2)>It's a problem only I can solve. And I've already decided to stop <color(5)>Berkt<ce()>. So I want to see it through.",
+   "notes": "",
+   "source_sha256": "493f1344b5a3a850954e65c276939f4b053677a3e07f929fa30b7ca35dddaa6e"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>...",
+   "notes": "",
+   "source_sha256": "0a61db6800a43295bc0c73435409bd9ded9805fa9ba3ec619375b301aac78dfa"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(1040,1)><speed(2)>By the way, <color(4)>Faye<ce()>, you... you have to leave the ship.",
+   "notes": "",
+   "source_sha256": "5b1b3550182fb2807e220afc15414228f6eec934b2cd7ee705f70b7d1e39d1da"
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(1060,1)><speed(2)>Why?",
+   "notes": "",
+   "source_sha256": "8098d57fb08fc80fc015629a0ab2970939d3e6aa444b71e46d5cd1c2e26746de"
+  },
+  {
+   "table": 0,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(1040,1)><speed(2)>Because the moment the <color(6)>Baldora Drive<ce()> shuts down, we'll have to cross the wormhole right away.",
+   "notes": "",
+   "source_sha256": "8af58952b142ae8410c346a0179adca3d382d8ab94e1f026873019774bc8e306"
+  },
+  {
+   "table": 0,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(1040,1)><speed(2)>If you're with me... you'll end up back in the other world. You belong here, don't you?",
+   "notes": "",
+   "source_sha256": "5c96f240a8af431671b1bef8c7228da118a06809d729c59e9d14a3ecaf645581"
+  },
+  {
+   "table": 0,
+   "slot": 41,
+   "text_id": 42,
+   "en": "<operator(1060,1)><speed(2)>I'm not leaving.",
+   "notes": "",
+   "source_sha256": "e58eaef9dabfa2d03c85696afeeba06b99a7539270a279d4e7ad45f9e41716a5"
+  },
+  {
+   "table": 0,
+   "slot": 42,
+   "text_id": 43,
+   "en": "<operator(1060,1)><speed(2)>Even if it means I can never come back... I want to see my responsibility through.",
+   "notes": "",
+   "source_sha256": "0c166263c4400884235027aaa184de3db9b6b4cde8f9706809931cbbf94a23f2"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>... are you sure about this?",
+   "notes": "",
+   "source_sha256": "928052311ccad39d1233d698729b1f93a8acc84b436e68ab9d6f40566694bad0"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>If I'm not aboard, it'll hold up the operation. There's no other way.",
+   "notes": "",
+   "source_sha256": "947d0f74b97745be5b7d5fbb4ddf8d6d63876e53917d7b656fa650d17e363762"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>But you can never come back again, you know that?",
+   "notes": "",
+   "source_sha256": "9008684bec29bd1bc34e1e65f10e3d224b48d4fbd34f1f9767db7d40045ec6bf"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1060,1)><speed(2)>That's fine. I'm still worried about you, <color(4)>Barrel<ce()>.",
+   "notes": "",
+   "source_sha256": "7173180297b71313f1f71f76d728050a083743ecd7eb1f1ecfeff97e229f386b"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)>All right... I'm counting on you, <color(4)>Faye<ce()>.",
+   "notes": "",
+   "source_sha256": "8de92db8a2cbb74866f1d8ccbd2b9e5ffd6cd2c7b7b33478d25227e6a2234698"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(23030,2)><speed(2)>Thanks for everything. Hope you make it home safe.",
+   "notes": "",
+   "source_sha256": "c10344e6d74a63a84c40593942344edd6bf6046f2e2aaaf398853ae2082b0904"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>I'll get back no matter what. <color(5)>Char<ce()>'s bound to pull something. I can't rest easy leaving it like this.",
+   "notes": "",
+   "source_sha256": "9843cd545b2489476c5f00fbad5b75f20a8a37663b008e9acbb4ef1f08d1f333"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(23030,1)><speed(2)>Same goes for me. This doesn't put an end to the Limit of Questions.",
+   "notes": "'Limit of Questions' = locked rendering of Kudan no Genkai (encyclopedia_022 text id 77).",
+   "source_sha256": "8f820b71f29845b711ec6df3a0142921c07a64b2dfc366703e688b7137385192"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(5010,1)><speed(2)>Heh... seems we're both already thinking ahead. But first, we need to finish this.",
+   "notes": "",
+   "source_sha256": "07462f5984d91740d1201a30be14294c511b87164d757869e4f94028931dac14"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(23030,2)><speed(2)>Yeah. Let's go.",
+   "notes": "",
+   "source_sha256": "0703422db5efd06aa2aceef3a3639848a525c193c50298d6b44c357a01c9bb2c"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(25010,2)><speed(2)>It's finally coming to an end. Still, not crushing the <color(5)>New Federation<ce()> is one regret.",
+   "notes": "",
+   "source_sha256": "047d853a0dcefc33589775e9a00e87ecda252a092aff586a46ed2dbc9b2c0e96"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(17020,1)><speed(2)>Then why not simply stay on this side?",
+   "notes": "",
+   "source_sha256": "f0b07c44d1ef181279a3436a1111258ef6805a6c773bc1ab81d90c44319a510c"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(25020,1)><speed(2)>Don't kid around. I have to settle things with this guy.",
+   "notes": "",
+   "source_sha256": "0d561d5cb94b4ce93c7b785ed6a77c8e475c3eee1f2110854c7f8c46c6b13641"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(19020,2)><speed(2)>But that side looks easy to live in. Kind of envious, honestly.",
+   "notes": "",
+   "source_sha256": "37a6a3c908108008c7ea5b78f2cf07aea74b899cec5456336cb157240b24097a"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(14030,1)><speed(2)>Oh! So, you coming, then? We'll roll out the welcome mat!",
+   "notes": "",
+   "source_sha256": "2de89e2a3263f3a6f0164234832247ffe3a3238d7ed293b4a0a00b6c0536d528"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(19020,2)><speed(2)>Kidding, only kidding! Still... I like it better on this side.",
+   "notes": "",
+   "source_sha256": "b62333faa4aa4bab33bc72bfb50ffa1d37c501f232c76e313195206c06295074"
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "text_id": 106,
+   "en": "<operator(14010,1)><speed(2)>In the end, everybody loves their own world best, huh.",
+   "notes": "",
+   "source_sha256": "aa73915bfbd3bfc1ac857b610ba194aa533e14505a3e63431575313e4b24845c"
+  },
+  {
+   "table": 1,
+   "slot": 106,
+   "text_id": 107,
+   "en": "<operator(19010,1)><speed(2)>Yeah... that's why this is the last of it.",
+   "notes": "",
+   "source_sha256": "cfc6ccf8f78a4193e53d9bd1835ddc83d9811df460b8d785c4e7288d3ac4cae6"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17010,1)><speed(2)><color(4)>Barrel<ce()>... guess this is goodbye.",
+   "notes": "",
+   "source_sha256": "b5633299e99b1c91d16fbf36127741c0d4f302e792a68336a2d2888d2d53c3c9"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(21010,1)><speed(2)>It was a short while, but it's a shame to see it end.",
+   "notes": "",
+   "source_sha256": "ede0a478f7cc4dbd15855d5d80b959dfd7c3fff189d4ee9adfac68d1ffbb4fd4"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(1040,2)><speed(2)>I'm glad I got to meet you all too.",
+   "notes": "",
+   "source_sha256": "f3a2ea0fdfed3705d2011a8e2ecce62ce227f864159e784a08fa17d6f8ab3eeb"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(23010,2)><speed(2)>Same here. I'll never forget it.",
+   "notes": "",
+   "source_sha256": "7d873ac839be712fdbc307dd12797e56477f5b7b6aa07f85014ea9bd5b5c9a12"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(10030,1)><speed(2)>Still, with our numbers thinned out, I wonder if we'll manage from here.",
+   "notes": "",
+   "source_sha256": "15245fa1c28a072646defd71b83aa297fb9359593397586bb2dbdf2ff0ff0959"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(23100,1)><speed(2)>Yeah, I know. It's going to get rough for both of us.",
+   "notes": "",
+   "source_sha256": "122b5d582a802f5347fef4ac345403aaed7f640a8eaf01bf9e233b981c92601c"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(10010,1)><speed(2)>Guess we got used to having such a big crew.",
+   "notes": "",
+   "source_sha256": "1dffc450d2c9dff77e9fa5f3dd6669402b6e1b963a22d5e8ba921cb432676fcb"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(17040,1)><speed(2)>Everyone's grown plenty dependable. <color(4)>Garrod<ce()> and <color(4)>Renton<ce()> especially have come a surprisingly long way.",
+   "notes": "",
+   "source_sha256": "ed8b54c2a066d759a424b79fb02c42a49695297272588a353f5a2ca0c9a6903f"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(23040,2)><speed(2)>That's right. So we've got to send them off with confidence.",
+   "notes": "",
+   "source_sha256": "431e03d0c8200eb8c7b82845714320335180c7b2efaed2738af75988f7aed984"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(10020,1)><speed(2)>But saying goodbye to this many machines really is a waste, huh...",
+   "notes": "",
+   "source_sha256": "c30e68caf90c5a795710a8a2bb01ea419bce360e1ddd214a095c95d1c37f6e1c"
+  },
+  {
+   "table": 1,
+   "slot": 185,
+   "text_id": 186,
+   "en": "<operator(12031,2)><speed(2)>We'll be fine. So this is the last of this dream team-up, then.",
+   "notes": "",
+   "source_sha256": "9be9cb09bffb174d3ebbfcab59896ad3b18d1333ae72b7f5db9d68a07a4eb689"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(17030,2)><speed(2)>Hey... if you're up for it, why not stay here? And then, you and me...",
+   "notes": "",
+   "source_sha256": "f32bec3b8c8ef82c05b99008a4dbbb6f32b389d22eee9fee1bcd7eb60d24ebe5"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(1020,1)><speed(2)>No kidding around today. When he shows up, we have to stop him, no matter what...",
+   "notes": "",
+   "source_sha256": "20c5b9ed8b1370c36053a17076541985e9928b07a8af6490310ab3f8c25eb9fc"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(17030,1)><speed(2)>Ugh, that's cold...",
+   "notes": "",
+   "source_sha256": "995aa02b1d43a4fd3b59319cc09374dcf40947dc20935447f77d1a9aea919a9d"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(21020,2)><speed(2)>Don't let it get to you, I got shot down too.",
+   "notes": "",
+   "source_sha256": "59be1fc12882082c2e183ff124497190cd9fcf98b31ab51a797e2b321b9b3142"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(12061,1)><speed(2)>Tough luck~.",
+   "notes": "",
+   "source_sha256": "7df622f87f0fbfb6b90f0723d25ce132648afb4fa1c139f97a821cc951ad24d9"
+  },
+  {
+   "table": 1,
+   "slot": 224,
+   "text_id": 225,
+   "en": "<operator(12071,1)><speed(2)>Rest in peace~.",
+   "notes": "'Namu~' (Buddhist chant for the dead) used as a mock condolence for the rejected suitor; rendered idiomatically.",
+   "source_sha256": "b3b688e7bfeec327b24aea47b9574f8766820322a7aec906b09699b6fa783584"
+  },
+  {
+   "table": 1,
+   "slot": 225,
+   "text_id": 226,
+   "en": "<operator(1020,2)><speed(2)>But... thank you, for everything. Let's move out.",
+   "notes": "",
+   "source_sha256": "3882e81af2b7f83f7bfede4cca2d7c23587cd6615b26917c28bdd0794c35435f"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(12051,1)><speed(2)>Not every day you get an experience like that.",
+   "notes": "",
+   "source_sha256": "e6fe7ead62d8ab697b5c0bd1022e3aeb98484ee3e2d809e9c61a734805684cd8"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(12061,1)><speed(2)>Seriously, seriously. Perfect material for a manga.",
+   "notes": "",
+   "source_sha256": "25f1432c506a23d85137782c1f80c13a6a7abd5963e0209649fd442b2e4c34be"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(12071,1)><speed(2)>Maybe not being able to go home would make for even better material...",
+   "notes": "",
+   "source_sha256": "ff017cb41e43cd6c6ac3ae0ffa8708c4f643f645febdc3a3f999e04cb5bd0f98"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(12051,2)><speed(2)>Don't go cursing it like that!",
+   "notes": "",
+   "source_sha256": "d5cfe0e1b3c5c487f31cfd09cd97b52cf67abe2689f6592640a022d732037d75"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(19050,1)><speed(2)><color(4)>Ryoma<ce()>, I'm counting on you. See them off for me.",
+   "notes": "",
+   "source_sha256": "3879bb494fc14f6b47274ad53711f7e2d68d58bf5172796562284f96944b48ce"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(19040,1)><speed(2)>Yeah, leave it to me. Time I paid back all the debts I've racked up so far.",
+   "notes": "",
+   "source_sha256": "a55895f9d0954344390efd400519cbbdd5ede89face7430f6335f72a91ca730a"
+  },
+  {
+   "table": 1,
+   "slot": 339,
+   "text_id": 340,
+   "en": "<operator(16010,1)><speed(2)>I'm heading back to Iwakuni... And someday I'll see everyone again!",
+   "notes": "'Iwakuni' = real-world place name (Asap Suzuki's hometown), not a glossary term.",
+   "source_sha256": "0c48a4ca24141e3e05e6fe66f44ecfb0ab3f5203d9b118f2cb27219f4dbc2aab"
+  },
+  {
+   "table": 1,
+   "slot": 340,
+   "text_id": 341,
+   "en": "<operator(16040,2)><speed(2)>Yes, <color(4)>Asap<ce()>. I'm coming with you!",
+   "notes": "",
+   "source_sha256": "a0c4d45c44e1930bce94d08a193c87529b46d4b098e63eafb00981a55d60d415"
+  },
+  {
+   "table": 1,
+   "slot": 379,
+   "text_id": 380,
+   "en": "<operator(12031,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "a528d62000f2942c8172daa442c1d94a7188bb0db345b4dd99d0c32d95a95165"
+  },
+  {
+   "table": 1,
+   "slot": 380,
+   "text_id": 381,
+   "en": "<operator(12011,1)><speed(2)>What's wrong, <color(4)>Ruri<ce()>?",
+   "notes": "'-chan' dropped.",
+   "source_sha256": "253d4fd823223340658401d0601672639cd63a6fadddbf3a48d7053b9f114109"
+  },
+  {
+   "table": 1,
+   "slot": 381,
+   "text_id": 382,
+   "en": "<operator(12031,1)><speed(2)>I only have a bit of a bad feeling...",
+   "notes": "",
+   "source_sha256": "82d136c2e3587f4b5b7f383ac2987428c322711305dc1c6eeadadf350d911d8f"
+  },
+  {
+   "table": 1,
+   "slot": 382,
+   "text_id": 383,
+   "en": "<operator(12011,1)><speed(2)>It's fine. We'll make it back for sure...",
+   "notes": "",
+   "source_sha256": "3d396c462640926392f7399bca9f05ff06cd1f4f6415a928ffb791b4e5549038"
+  },
+  {
+   "table": 1,
+   "slot": 383,
+   "text_id": 384,
+   "en": "<operator(12031,2)><speed(2)>That's true. <color(4)>Yurika<ce()>'s waiting for us too, after all.",
+   "notes": "'-san' dropped.",
+   "source_sha256": "b056c0a263848c74b8e8b90f14a585e07386cfda12d2a0a79903ae44c01dd6c8"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 100,
+   "issue": "'New Federation' kept per orchestrator lock even though Isamu (Macross Plus) is speaking of an in-fiction political body foreign to his own series; matches how the term is used elsewhere for the crossover-world antagonist faction."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 73,
+  "rows_in_scene": 73,
+  "meaning_fixes": [
+   {
+    "table": 0,
+    "slot": 28,
+    "before": "He... found out I exist. That someone just like him is out there, in a world different from his own.",
+    "after": "He... found out I exist. That someone exactly like him is out there, in a world different from his own.",
+    "reason": "Lowercase 'j' has no native glyph in the game font; reworded without changing meaning."
+   },
+   {
+    "table": 1,
+    "slot": 100,
+    "before": "Then why not just stay on this side?",
+    "after": "Then why not simply stay on this side?",
+    "reason": "Lowercase 'j' avoided."
+   },
+   {
+    "table": 1,
+    "slot": 101,
+    "before": "Don't joke around. I have to settle things with this guy.",
+    "after": "Don't kid around. I have to settle things with this guy.",
+    "reason": "Lowercase 'j' avoided."
+   },
+   {
+    "table": 1,
+    "slot": 102,
+    "before": "But that side looks easy to live in. Kind of jealous, honestly.",
+    "after": "But that side looks easy to live in. Kind of envious, honestly.",
+    "reason": "Lowercase 'j' avoided."
+   },
+   {
+    "table": 1,
+    "slot": 104,
+    "before": "Kidding, just kidding! Still... I like it better on this side.",
+    "after": "Kidding, only kidding! Still... I like it better on this side.",
+    "reason": "Lowercase 'j' avoided."
+   },
+   {
+    "table": 1,
+    "slot": 220,
+    "before": "No jokes today. When he shows up, we have to stop him, no matter what...",
+    "after": "No kidding around today. When he shows up, we have to stop him, no matter what...",
+    "reason": "Lowercase 'j' avoided."
+   },
+   {
+    "table": 1,
+    "slot": 262,
+    "before": "Don't go jinxing it like that!",
+    "after": "Don't go cursing it like that!",
+    "reason": "Lowercase 'j' avoided."
+   },
+   {
+    "table": 1,
+    "slot": 381,
+    "before": "I just have a bit of a bad feeling...",
+    "after": "I only have a bit of a bad feeling...",
+    "reason": "Lowercase 'j' avoided."
+   }
+  ],
+  "checked_decisions": [
+   "Speakers resolved: 1040/1060 Barrel/Faye; 5010 Amuro Ray; 23030 Holland Novak; 10010/10020/10030 Kaine/Tapp/Light; 17010/17020/17030/17040/17070 Garrod/Witz/Roybea/Jamil/Tiffa; 25010/25020 Isamu/Guld; 19010/19020/19030/19040/19050 Go/Kei/Gai/Ryoma/Hayato; 21010/21020/21030 Gainer/Gain/Sara; 1020 Marina; 12011/12031/12051/12061/12071 Akito/Ruri/Ryoko/Hikaru Amano/Izumi; 16010/16040 Asap/Luxe; 23040/23100 Talho/Gidget; 14010/14030 Hikaru Ichijyo/Focker.",
+   "Table 0 slot 39: source katakana is 'Barudona Doraibu' (バルドナ・ドライブ), matching glossary.json term.baldora_drive's ja reading exactly; 'Baldora Drive' is the correct locked rendering here, not the separate person 'Dr. Bardona'/'Jill Bardona'. Accepted.",
+   "Table 0 slot 22 'I'm still worried about you, Barrel' for a line naming Barrel in third person while speaking directly to him is the established direct-address convention seen throughout the corpus; not an invented addressee.",
+   "Table 1 slot 224: '南無～' rendered 'Rest in peace~' as a mock condolence for the rejected suitor - per orchestrator ruling, this rendering is fine and is kept unchanged.",
+   "Table 1 slot 100 uncertainty: 'New Federation' kept for Isamu's line per the orchestrator's project-wide lock, even though he (a Macross Plus character) is referring to the crossover-world antagonist faction rather than a body native to his own series; this is consistent with how the term is used elsewhere in the corpus for that same faction. Accepted.",
+   "'-chan'/'-san' dropped on Ruri (slot 380) and Yurika (slot 383), consistent with established corpus practice.",
+   "No mistranslations, reversed meanings, wrong addressees/subjects, or misplaced commands found; all <operator>/<speed>/<color>/<ce> tags match the source in content and order."
+  ],
+  "remaining_uncertainties": [
+   "Table 1 slot 100: 'New Federation' is kept for a foreign speaker's line per the standing lock; flagging in case the orchestrator wants a distinct phrasing for out-of-universe speakers referring to it."
+  ]
+ }
+}

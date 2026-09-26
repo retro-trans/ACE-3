@@ -1,0 +1,541 @@
+{
+  "slice_start": 10966,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      10951,
+      11060
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_11003",
+        "dialogue_11004",
+        "dialogue_11005",
+        "dialogue_11006",
+        "dialogue_11013",
+        "dialogue_11019",
+        "dialogue_11020",
+        "dialogue_11021",
+        "dialogue_11033"
+      ],
+      "note": "'Colonel' (taisa) is Char Aznable's old AEUG/Zeta-era rank, used affectionately by Quess and Gyunei; kept distinct from the separate title 'Marshal' (sousui) used for him elsewhere (see batch_10886 row dialogue_10930). Neither row here names Char directly as 'the Colonel'; identity inferred only from context already established by rows 11001/11007 (Jagd Doga, Funnels) and by prior corpus usage of 'Quess'/'Gyunei', not invented."
+    },
+    {
+      "ids": [
+        "dialogue_11011",
+        "dialogue_11012"
+      ],
+      "note": "Speaker sensing Amuro Ray's presence is not identified (could be Char or a Newtype-sensitive Neo Zeon pilot); left unattributed rather than guessed."
+    },
+    {
+      "id": "dialogue_11016",
+      "note": "'Tiffa' addressed by an unnamed pilot asking for strength; matches the locked character_names_021.json spelling 'Tiffa Adill' (After War Gundam X), not the corpus's alternate spelling 'Tifa'. Speaker not identified; no name or gender assigned to the caller."
+    },
+    {
+      "id": "dialogue_11007",
+      "note": "'Funnel' (remote wireless weapon pod) is a standard, unambiguous Gundam-franchise term; not previously present in any project glossary file, so proposed for addition rather than silently assumed."
+    },
+    {
+      "id": "dialogue_11021",
+      "note": "Very short <ab(50)> display time for a two-line message; full meaning kept per project rules, flagged as a possible on-screen timing risk for the reviewer/builder even though visible length is within the 110-character limit."
+    },
+    {
+      "ids": [
+        "dialogue_11038",
+        "dialogue_11039"
+      ],
+      "note": "Refers to an allied plan to split Axis in two (matching Char's Counterattack canon); the explosion 'helping Char' is the speaker's own realization, not an added inference."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently reviewed against the ISO source (rows 10951-11060, 15-row context both sides) by a second agent; all 80 rows confirmed meaning_reviewed, no mistranslations found. 'Colonel' (taisa, Char's old rank) and 'Funnel' (row 11007) confirmed per orchestrator ruling, kept distinct from 'Marshal' used for Char elsewhere; unattributed-speaker calls (rows 11011-11012, 11016) and the Axis-split/'helping Char' reading (rows 11038-11039) confirmed as sound, no invented identities.",
+    "fit": "Full meaning retained throughout; no sentence-final content dropped.",
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()> command sequences preserved in source order; validated programmatically (tag list source vs target) for all 80 rows."
+  },
+  "rows": [
+    {
+      "id": "dialogue_10966",
+      "target": "<op()><sp(20)>This is a real mess we're in.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10967",
+      "target": "<op()><sp(20)>You say that like it's someone else's problem.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10968",
+      "target": "<op()><sp(20)>Nah. I'm thinking of a plan, is all.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10969",
+      "target": "<op()><sp(20)>Isn't it more important\nto smack some sense into those kids?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10970",
+      "target": "<op()><sp(20)>Honestly, yelling\nsuits you better.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10971",
+      "target": "<op()><sp(20)>Sorry about that!\nHey, Renton! Eyes front!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10972",
+      "target": "<op()><sp(20)>A message to the Giganos warriors\nnow serving within Neo Zeon!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10973",
+      "target": "<sp(20)>I am Meio Plato!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10974",
+      "target": "<op()><sp(20)>C-Captain Plato, you say?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10975",
+      "target": "<op()><sp(20)>No way...?\nThe Captain died in action on Mars, they said...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10976",
+      "target": "<op()><sp(20)>First, forgive me\nfor vanishing without a word.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10977",
+      "target": "<sp(20)>But it was necessary\nto return to our true purpose.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10978",
+      "target": "<op()><sp(20)>Why did we\nform an alliance with Neo Zeon?<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10979",
+      "target": "<sp(20)>Our purpose was to protest\nthe Federation government's discriminatory treatment.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10980",
+      "target": "<sp(20)>It was that shared goal alone\nthat brought us together with Neo Zeon!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10981",
+      "target": "<sp(20)>But Char's true aim\nwas this act against humanity.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10982",
+      "target": "<sp(20)>We, the people of Giganos,\nwere merely being used.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10983",
+      "target": "<op()><sp(20)>People of Giganos! Lay down your arms!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10984",
+      "target": "<sp(20)>There's no need to go along with this folly any longer!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10985",
+      "target": "<op()><sp(20)>...The Captain's right!\nI'm done - I'm out!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10986",
+      "target": "<op()><sp(20)>Our leader is Captain Plato,\nnot that traitor Char!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10987",
+      "target": "<op()><sp(20)>Enemy Metal Armors\nare breaking off from combat!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10988",
+      "target": "<op()><sp(20)>The allied fleet can't hold its strength!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10989",
+      "target": "<op()><sp(20)>The enemy fleet ahead is wiped out!\nAdvance!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10990",
+      "target": "<op()><sp(20)>Enemy units that lost their carrier are retreating!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10991",
+      "target": "<op()><sp(20)>All targets destroyed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10992",
+      "target": "<op()><sp(20)>Prepare to intercept.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10993",
+      "target": "<op()><sp(20)>Allied fleet losses keep mounting.<ab(80)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10994",
+      "target": "<op()><sp(20)>Half the allied fleet is wiped out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10995",
+      "target": "<op()><sp(20)>We're at our limit!\nAll ships, fall back!<ab(80)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10996",
+      "target": "<op()><sp(20)>Thanks to you, our fleet\nis almost untouched. My thanks.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10997",
+      "target": "<op()><sp(20)>Axis is nearly at the point of no return.\nPlease hurry.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10998",
+      "target": "<op()><sp(20)>A-Axis has... passed the point of no return!\nIt's entering a collision course for Earth...!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_10999",
+      "target": "<op()><sp(20)>Is this... our defeat...<ab(1500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11000",
+      "target": "<op()><sp(20)>What is this pressure...!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11001",
+      "target": "<sp(20)>This hostility feels too innocent. It's not Char.\nAnd not that Jagd Doga man from before, either.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11002",
+      "target": "<op()><sp(20)>What? Someone's standing in my way like a wall.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11003",
+      "target": "<op()><sp(20)>Quess, there's a tough one on your side.\nBe careful.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11004",
+      "target": "<op()><sp(20)>What, something like that...!\nI won't let it get to the Colonel!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11005",
+      "target": "<sp(20)>...The Colonel even praised me\nfor doing well in training!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11006",
+      "target": "<op()><sp(20)>Tch, 'Colonel' this, 'Colonel' that...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11007",
+      "target": "<op()><sp(20)>That unit... is it carrying\nFunnels?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11008",
+      "target": "<op()><sp(20)>Something troublesome showed up...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11009",
+      "target": "<op()><sp(20)>Barrel! Watch out!\nI can't read this opponent!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11010",
+      "target": "<op()><sp(20)>Got it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11011",
+      "target": "<op()><sp(20)>This movement... I knew it, no mistake...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11012",
+      "target": "<op()><sp(20)>This feeling...!\nSo this is Amuro Ray!?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11013",
+      "target": "<sp(20)>I won't let you get to the Colonel!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11014",
+      "target": "<op()><sp(20)>I don't have time to deal with a kid!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11015",
+      "target": "<op()><sp(20)>No matter how many\nof these show up...!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11016",
+      "target": "<sp(20)>Tiffa, lend me your strength...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11017",
+      "target": "<op()><sp(20)>This machine gives me a bad feeling...!\nI need to take it down fast!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11018",
+      "target": "<op()><sp(20)>Target locked... destroying it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11019",
+      "target": "<op()><sp(20)>Quess, that one's tough!\nMake sure you dodge properly!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11020",
+      "target": "<op()><sp(20)>You can't tell me that all of a sudden...!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11021",
+      "target": "<op()><sp(20)>Simulations alone weren't enough...!\nYou'd better take responsibility, Colonel...!<ab(50)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Very short <ab(50)> display time for a two-line message; kept full meaning per rules, flagged as a display-fit risk for the builder/reviewer."
+    },
+    {
+      "id": "dialogue_11022",
+      "target": "<on()><sp(20)>There's no time.\nLet's hurry.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11023",
+      "target": "<on()><sp(20)>Still, this is a pretty dire situation.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11024",
+      "target": "<on()><sp(20)>Guess we've got no choice but to do it.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11025",
+      "target": "<on()><sp(20)>Yes.\nIf it's us... we can do this.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11026",
+      "target": "<on()><sp(20)>Yeah. Something like that...\nwe can't let it fall a second time.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11027",
+      "target": "<on()><sp(20)>Hey... something's coming.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11028",
+      "target": "<on()><sp(20)>Meio Plato!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11029",
+      "target": "<on()><sp(20)>Why does this feel so awful...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11030",
+      "target": "<on()><sp(20)>War, is it... Gyunei!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11031",
+      "target": "<on()><sp(20)>This one!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11032",
+      "target": "<on()><sp(20)>Quess, fall back for now!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11033",
+      "target": "<on()><sp(20)>Trying to trouble the Colonel, are you?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11034",
+      "target": "<on()><sp(20)>What...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11035",
+      "target": "<on()><sp(20)>Did we get it!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11036",
+      "target": "<on()><sp(20)>No!\nThe other half is still coming...!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11037",
+      "target": "<on()><sp(20)>The course hasn't changed!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11038",
+      "target": "<on()><sp(20)>It seems the explosion meant to split Axis\nwas too strong.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11039",
+      "target": "<on()><sp(20)>Did we end up helping Char...!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11040",
+      "target": "<op()><sp(20)>All units, give it everything you've got!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11041",
+      "target": "<op()><sp(20)>It's not impossible! We're doing this!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11042",
+      "target": "<op()><sp(20)>I know we're asking the impossible!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11043",
+      "target": "<op()><sp(20)>Damn, look at all of them!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11044",
+      "target": "<op()><sp(20)>Take up intercept formation!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11045",
+      "target": "<op()><sp(20)>Put up a barrage!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

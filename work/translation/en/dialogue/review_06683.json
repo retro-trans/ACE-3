@@ -1,0 +1,63 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 6683,
+  "slice_count": 80,
+  "rows_examined": [{"start": 6668, "end": 6777}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_06762",
+      "before": "That one... why's she after me?",
+      "after": "That one... why come after me?",
+      "reason": "Orchestrator ruling: the unnamed pilot in Berkt's unit (first appears dialogue_06753) has no name in this scene and her gender was inferred only from feminine sentence-final particles (wane/noyo); such a pilot must stay pronoun-free in English. Source (あいつは……何で僕を狙うんだ。) has no gendered pronoun either; rephrased to drop 'she' while keeping the same rhetorical question."
+    },
+    {
+      "id": "dialogue_06691",
+      "before": "Everything is for the sake of a new order!!",
+      "after": "Everything is for the sake of a New Order!!",
+      "reason": "Orchestrator decision accepts 'New Order' (capitalized) as the locked term for Neo Zeon's ideological slogan (新たなる秩序), as proposed in batch_06683_glossary_proposals.json; the draft used the lower-case generic phrase."
+    },
+    {
+      "id": "dialogue_06692",
+      "before": "A new order? How laughable.",
+      "after": "A New Order? How laughable.",
+      "reason": "Same 'New Order' capitalization fix as dialogue_06691; same slogan, same speaker exchange."
+    },
+    {
+      "id": "dialogue_06693",
+      "before": "It's true that a new order is born\nonly at the end of destruction and chaos.",
+      "after": "It's true that a New Order is born\nonly at the end of destruction and chaos.",
+      "reason": "Same 'New Order' capitalization fix as dialogue_06691; completes the three-row run (06691-06693) that introduces and debates the slogan."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [6685, 6689], "finding": "Genichiro Tsukiomi spelling matches character_names_021.json; 'Jovian' used as an adjective for a former Jovian Federation member, consistent with the accepted 'former Jovians' term."},
+    {"rows": [6711, 6713, 6724], "finding": "'A-class Jumper' and 'Nergal Dock' match the orchestrator's accepted terms and the batch's own glossary proposals; no change needed."},
+    {"rows": [6709, 6711, 6712, 6714, 6715], "finding": "'He/him' pronouns in this stretch all refer to the already-identified Akito Tenkawa (named at 6709); correctly gendered, not invented."},
+    {"rows": [6728, 6738], "finding": "Ixbrau unit-name spelling matches terms_028.json ('never Exbrau')."},
+    {"rows": [6733], "finding": "'Show you're a man' is a literal, intentional line aimed at Barrel (locked male character), not an inferred gender; left unchanged."},
+    {"rows": [6756, 6757, 6759, 6760], "finding": "Unnamed Berkt-unit pilot's other lines in this slice are already pronoun-free (first-person only); no fix needed beyond dialogue_06762."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_06756", "dialogue_06759", "dialogue_06760", "dialogue_06762"],
+      "issue": "Translator flagged the unnamed Berkt-unit pilot's gender as resting only on feminine sentence-final particles, not a name. Ruling: keep pronoun-free per orchestrator instruction; only dialogue_06762 needed an actual pronoun removed (fixed above), the other three rows were already pronoun-free."
+    },
+    {
+      "id": "dialogue_06695",
+      "issue": "'Kusakabe has no virtue!' read as a jab at locked character Haruki Kusakabe (leader of the Martian Successors / former Jovian Federation), though the identity link is contextual rather than explicit in this single row. Ruling: reasonable and supported by character_names_021.json (Kusakabe's faction role); kept as-is, no change."
+    },
+    {
+      "id": "dialogue_06778",
+      "issue": "This row belongs to the next slice (batch_06763.json) but was flagged here from context reading. Speaker of the surrender demand to 'former Jovian soldiers' is not tagged; translator presumed continuation of Tsukiomi's appeal (06686). Ruling: reasonable inference given the parallel phrasing; current target is fine, no change needed (row itself is owned by batch_06763, not edited here)."
+    }
+  ],
+  "validation": {
+    "controls": "For all 80 rows, every <...> command reproduced in the same order as source (verified programmatically against tools/dialogue_corpus.py slice 6683 80 --context 0); no command was added, dropped, or reordered by the two meaning fixes.",
+    "format": "Newline count in each target matches the source's \\n count exactly for all 80 rows (checked programmatically); no manual line-wraps introduced.",
+    "fit": "All 80 rows have visible text (tags and \\n stripped) at or under 110 characters, including the two edited rows.",
+    "ascii": "All 80 targets are ASCII-only except the accepted fullwidth percent sign (none appear in this slice); no stray lowercase j/q found outside locked names (Jupiter, Jovian(s), A-class Jumper)."
+  }
+}

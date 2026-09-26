@@ -1,0 +1,51 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14666,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      14651,
+      14760
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_14673",
+      "before": "Come on...!",
+      "after": "Come at me!",
+      "reason": "Source's substantive content is the challenge 'come at me' (an imperative), preceded only by a filler interjection. The draft kept the filler and dropped the actual challenge verb, losing the taunt's point. The 12-char budget cannot hold both; kept the half that carries meaning (11 chars)."
+    },
+    {
+      "id": "dialogue_14700",
+      "before": "No one's dying.",
+      "after": "I'll lose no one.",
+      "reason": "Source is explicitly 1st person ('I won't let anyone die'), Go's own vow, consistent with his established 'protective of Kei' personality and his earlier line in this same table ('I will protect!', dialogue_14671). The draft's 'No one's dying' drops the subject into a generic assertion. Restored 'I' within the 18-char budget (17 chars)."
+    },
+    {
+      "id": "dialogue_14724",
+      "before": "To pull this off...!",
+      "after": "You pulled this off...!",
+      "reason": "This row sits in a run of ally-praise lines ('Splendid.', 'Nice.', 'Seen your strength now!') admiring the fighting ally's feat ('that you could get this far'). The draft's subjectless phrasing reads as the speaker's own accomplishment instead of praise for someone else, breaking the pattern. Restored the 2nd-person addressee within the 24-char budget (23 chars)."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [14696, 14697, 14698, 14705, 14706, 14707, 14708, 14732, 14742],
+      "finding": "Resource 2819010 (nominally 'Shin Getter-1 (Go)') is confirmed by unit_names_014_a.json/glossary to be the combined Shin Getter Robo, crewed by all three pilots (Go, Kei, Gai) at once; a shared shout table carrying all three voices is expected, not a mapping error. Draft correctly kept vocatives (Go, Kei) exactly as addressed and never invented a speaker's gender in English (pronouns/imperatives stay neutral). No fix needed."
+    },
+    {
+      "rows": [14742],
+      "finding": "Target 'Big one!' omits the vocative 'Go' that the row's own note claims was kept; checked against the 10-char budget (source: 6 JP chars) and confirmed 'Go, big one!' would need 12 chars, 2 over. Dropping the name is the only way to fit, so the translation itself is correct; only the note's wording is inaccurate (documentation-only issue, not a target fix)."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran a throwaway console check comparing every <op()>/<sp()>/<ab(N)>/<ed()> command sequence in each row's target against the source listing (dialogue_corpus.py slice 14666 80 --context 0): 0 mismatches across all 80 rows, including the three applied fixes.",
+    "fit": "Recomputed each row's visible-text length (tags and \\n excluded) against min(72, 2*Japanese_char_count-2): 0 rows over budget after the three fixes.",
+    "ascii": "0 non-ASCII characters found in visible text; no lowercase j/q found.",
+    "newline": "5 of this batch's 80 rows still contain an embedded newline from the source's two-line layout, which this batch's own 'no newline' shout constraint forbids. All three applied meaning fixes are single lines. The remaining rows were left as-is (out of scope for a meaning-only pass); flagged for the orchestrator (see final report)."
+  }
+}

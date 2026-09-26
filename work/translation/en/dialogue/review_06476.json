@@ -1,0 +1,40 @@
+{
+  "reviewer": "independent_meaning_review_6476_agent",
+  "slice_start": 6476,
+  "slice_count": 73,
+  "rows_examined": [{"start": 6461, "end": 6563}],
+  "rows_examined_count": 103,
+  "rows_in_slice": 73,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_06512",
+      "before": "This should never have happened!",
+      "after": "This cannot be allowed to happen!",
+      "reason": "Source 'これは、あってはならないこと！' follows 6509-6510 ('Destroying Upper Earth, of all things!... At this rate, the surface will be doomed!'), which frame the catastrophe as still unfolding, not finished. 'あってはならない' is a present prohibition ('this must not be'), so 'should never have happened' wrongly casts it as a completed event being lamented in hindsight. Reworded to keep the prospective sense (an ongoing disaster the speaker is still trying to stop)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [6496, 6497, 6498], "finding": "'government' dropped from 'Federation government' in dialogue_06496 for length; 'the Federation' remains clear from context (the speaker's stated goal of overthrowing it). Not a meaning error given the source itself leaves the referent (connuebun government vs New Federation) untagged."},
+    {"rows": [6498], "finding": "'地上人' (chijou-jin, people of the surface/chijoukai) rendered 'Upper Earth's people', a compositional extension of the already-locked 'Upper Earth' term (encyclopedia_021_a.json). Confirmed against the orchestrator ruling supplied for this task ('Upper Earth's people' accepted); no change made."},
+    {"rows": [6498], "finding": "'鉄槌を振るう' rendered 'bring down the iron hammer on'; confirmed against the orchestrator ruling supplied for this task ('iron hammer' for 鉄槌 is fine); no change made."},
+    {"rows": [6502, 6505, 6509, 6510], "finding": "地上界 (chijoukai) consistently 'Upper Earth' and plain 地上 (chijou, no kai) consistently 'the surface' throughout this slice, matching the distinction the adjacent batch (06396) already established at dialogue_06450."},
+    {"rows": [6507], "finding": "'ナナジンには、リーンの翼はないぞ' translated literally ('The Nanajin doesn't carry the Wings of Rean'); who is speaking to whom and why is not settled by the surrounding context (King Sakomizu's death, Luxe's grief), so no implied reason was added. Matches the batch's own uncertainty note."},
+    {"rows": [6520, 6526], "finding": "Luxe Sakomizu (female, per character_names_021.json) and Asap (per glossary.json char.asap_suzuki) both used consistently; 'make sure you protect Luxe properly' correctly keeps Asap as the addressee, not the subject being protected."},
+    {"rows": [6528], "finding": "Wordless 'あああああああーっ！' left unattributed at dialogue_06528; the batch's note flags it as likely Harry (an inference from personality and the next line addressing him) but does not assert it in the target text. No identity was added to the actual translation."},
+    {"rows": [6530, 6538, 6539, 6540, 6542, 6546], "finding": "book(2)/(12)/(13)/(21)/(30) spans (Baldora Charge, Neo Zeon, 5th Luna, Nadesico C, Boson Jump) all verified against the corresponding entries in work/translation/en/encyclopedia_022.json; text and tag placement match."},
+    {"rows": [6538], "finding": "'三者連合' (sansha rengou) rendered 'Tripartite Alliance'. Confirmed against the orchestrator ruling supplied for this task (locked, also used in meetings 18A/13-16); matches the batch's own glossary proposal (batch_06476_glossary_proposals.json). No change made."},
+    {"rows": [6540], "finding": "Three source lines ('すでに次の手も...' / '彼らがボソンジャンプを...' / '引っ張りまわされるだけです') compressed to two ('They're already planning their next move.' / 'Holding the Boson Jump keeps us on their leash regardless.'). Core meaning (the party stays controlled as long as the enemy holds the Boson Jump) is preserved; nothing at the end of the sentence was dropped, only condensed. Acceptable per BASE_RULES's compress-don't-drop guidance."}
+  ],
+  "uncertainties": [
+    {"rows": [6496], "issue": "Source '連邦政府' (Federation government) is untagged, unlike the tagged book(9) Earth Federation / book(38) New Federation entity IDs used elsewhere in the corpus. This scene is in the Wings of Rean/Byston Well thread rather than the parallel Gundam UC thread, so it may mean the ACE3-original New Federation rather than Earth Federation. Left as plain 'Federation' rather than guessing; the orchestrator rulings supplied for this task did not resolve this specific referent."},
+    {"rows": [6507], "issue": "Context before and after (King Sakomizu's death, Luxe's grief) does not settle what prompts 'The Nanajin doesn't carry the Wings of Rean' or who is addressing whom; translated literally without adding an implied reason."},
+    {"rows": [6528], "issue": "Wordless exclamation; likely Harry given his established emotional personality and the next line addressing him directly, but this remains an inference, not something the source states outright."}
+  ],
+  "validation": {
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()>/color/ce/book/endbook commands checked in exact order against the Japanese source for all 73 rows via a throwaway script comparing extracted tag sequences; no mismatches found, including the dialogue_06520-06548 rows that end with no ab()/ed() at all.",
+    "format": "Newline counts match the source in every row except the intentionally compressed dialogue_06540 (source 2 newlines, target 1; see checked_decisions - meaning preserved, nothing dropped). No row exceeds 110 visible (tag-stripped) characters.",
+    "glyphs": "Re-scanned all 73 targets for lowercase j/q outside locked names; found none (the only 'j' present, in dialogue_06507's 'Nanajin', is a locked name exception per project memory).",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

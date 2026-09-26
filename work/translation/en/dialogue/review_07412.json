@@ -1,0 +1,70 @@
+{
+  "reviewer": "independent_meaning_review_mission17b_agent",
+  "slice_start": 7412,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 7397,
+      "end": 7506
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_07452",
+      "before": "Stop the launch!\nI'll knock down that pest myself!",
+      "after": "Stop the launch!\nBring that pest down for me!",
+      "reason": "Source ('hassha wo tomenasai! ano uttoushii no wo otoshite kuremasu!') uses the speaker's haughty '-te kuremasu' command register (matching the '-nasai' commands in 07448/07451: 'shinde oshimai nasai', 'ano hae wo otoshite shimai nasai'), ordering someone else to bring the target down for her. Translating it as a first-person 'I'll do it myself' invents an actor the source does not give and reverses who acts."
+    },
+    {
+      "id": "dialogue_07486",
+      "before": "Sara, I love you!",
+      "after": "Sara, I like you!",
+      "reason": "Source says suki ('I like you'), then escalates to aishiteru ('I'm in love with you') in 07487. Translating 07486 as 'love' already collapsed the like-to-love escalation, and left 07489 ('It's more than just liking you') with nothing in English to refer back to. Restoring 'like' in 07486 lets 07487's 'love' read as the escalation, and 07488/07489 ('I liked you... / more than just liking you') now track a consistent word."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "ids": ["dialogue_07414", "dialogue_07415"],
+      "finding": "Agree with translator: speaker of the 'heart's voice echoing like noise' reaction and the following 'Renton...' line is not tagged in the corpus and cannot be settled from neighbouring rows (7413 is generic op() battle chatter; 7416-7417 resume unrelated combat lines). Left unattributed; no identity or gender supplied, consistent with BASE_RULES."
+    },
+    {
+      "ids": ["dialogue_07418", "dialogue_07422", "dialogue_07432", "dialogue_07475", "dialogue_07476", "dialogue_07480", "dialogue_07482", "dialogue_07483"],
+      "finding": "'Kokoro no koe' rendered literally as 'heart's voice' throughout (Planetta's mind-reading Overskill, glossary character_names_021.json / batch_07412_glossary_proposals.json). This matches the orchestrator ruling supplied for this review (heart's voice accepted) and needs no further change; also verified 07432 (singular 'your breathing') correctly differs from 07475 (plural 'you all's breathing') per the source's anata vs anatatachi."
+    },
+    {
+      "ids": ["dialogue_07437", "dialogue_07439", "dialogue_07445", "dialogue_07447", "dialogue_07453", "dialogue_07455", "dialogue_07469"],
+      "finding": "'Jisou heiki' rendered as 'mobile weapon' throughout, matching the orchestrator ruling supplied for this review (mobile weapon accepted) and the mission's own HUD strings (hud_labels.json 2002190)."
+    },
+    {
+      "ids": ["dialogue_07427"],
+      "finding": "'Kashimaru Baare' correctly rendered 'Kashmir Valle' (character_names_021.json en_full), not a literal 'Kashimaru Bale/Barre' romanization."
+    },
+    {
+      "ids": ["dialogue_07428", "dialogue_07429", "dialogue_07430", "dialogue_07431"],
+      "finding": "Untenn daiya / daiyamondo (operating schedule / diamond) pun kept as 'schedule' plus an explicit diamond-beauty simile; meaning preserved, wordplay stays visible. No change needed."
+    },
+    {
+      "ids": ["dialogue_07460"],
+      "finding": "kanchou rendered 'Captain', matching the orchestrator ruling that kanchou is 'Captain' for both Ruri and Jamil (applies generally to ship captains here)."
+    },
+    {
+      "ids": ["dialogue_07491"],
+      "finding": "'He' (referring to the pilot who shouted the confession in 07486-07490) confirmed as Gainer Sanga by downstream rows 07584-07591 (Sara scolding Gainer specifically for shouting his feelings via Overskill); not an invented identity."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_07414", "dialogue_07415"],
+      "issue": "Speaker of the unattributed reaction to the mind-reading and the line addressed to Renton could not be settled even checking the row before (7413, generic battle chatter) and after (7416-7417, unrelated combat lines); left without an inferred identity or gender, as instructed."
+    }
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(n)>/<ed()> command sequences re-checked in exact order against a fresh `python tools/dialogue_corpus.py slice 7412 80 --context 15` read for all 80 rows via a throwaway console comparison; no command added, removed, or reordered by either the original draft or this review's 2 edits.",
+    "format": "Newline counts unchanged from source for all 80 rows, including the 2 edited rows (07452 and 07486 keep their original newline placement).",
+    "fit": "Visible text (tags stripped) re-measured for all 80 rows: all <= 110 characters, none needed compression after the meaning fixes.",
+    "ascii": "ASCII-only confirmed for all 80 rows (including the 2 edits); no stray j/q outside locked names."
+  }
+}

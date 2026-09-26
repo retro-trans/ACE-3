@@ -1,0 +1,38 @@
+{
+  "reviewer": "independent_review_dialogue_agent",
+  "slice_start": 3230,
+  "slice_count": 80,
+  "rows_examined": [{"start": 3215, "end": 3324}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [3230, 3309], "finding": "Confirmed as Mission 10A ('Defend Amaterasu'): a target-elimination combat mission interrupted when a black machine (Akito's) and the Martian Successors surface from inside the Amaterasu facility; matches resource_id 6100 in the source dump."},
+    {"rows": [3234], "finding": "Shirahime and the returning enemy force correctly linked to the prior mission; no new name proposal needed."},
+    {"rows": [3242], "finding": "Two-clause warning (avoid pincer attack; nothing left but annihilation) compressed into one sentence without dropping either half."},
+    {"rows": [3248], "finding": "Mission-fail template matches established corpus phrasing."},
+    {"rows": [3255, 3258], "finding": "'Ryoko-sama'/'professional contractor' lines correctly kept generic; addressee (Ryoko) is settled two rows later by name, not invented early."},
+    {"rows": [3263, 3336, 3341, 3353], "finding": "Kanchou (艦長) consistently rendered 'Captain' per orchestrator ruling."},
+    {"rows": [3265, 3266], "finding": "'Enemy of Earth, enemy of Mokuren, enemy of every corruption in space... We are the Martian Successors!' correctly kept as a self-declaration (the Successors declaring themselves enemies of those three things), not reversed into a description of outside enemies. 'Mokuren' as 'Jovian Federation' matches encyclopedia_022's own rendering of the same abbreviation."},
+    {"rows": [3271, 3272], "finding": "Block 13 correctly carried as a plain fact immediately followed by the bridge crew's own surprise that no such block exists in the records; no explanation invented."},
+    {"rows": [3275, 3276, 3277], "finding": "Fullwidth-Latin interference text (OTIKA..., the exclamation-plus-spaces row, AKI TO...) kept verbatim as garbled build-up to the row 3278 recognition, per task instruction; not 'corrected' to spell AKITO early."},
+    {"rows": [3278, 3293], "finding": "Honorific -san dropped from 'Akito-san' and 'Ryoko-san' consistently with the rest of the corpus's honorific-dropping convention; no meaning lost."},
+    {"rows": [3280, 3281, 3282, 3283], "finding": "Archaic Martian Successors proclamation translated literally (Amatsukuni as 'the heavens', the Hisago/gourd pun kept literal); no idiomatic English proverb substituted without a source. Reviewed as a defensible literal rendering given no wiki attestation exists for this unique in-game text; see uncertainties below."},
+    {"rows": [3286, 3287, 3288, 3301, 3302], "finding": "The 'it' being fought over (the Ruins Unit / Boson Jump black box) and the two speakers' opposed claims to it ('I will take it back' vs 'it is in my hands... I will kill you and take it back') are kept internally consistent and not reversed."},
+    {"rows": [3296, 3297, 3298, 3299], "finding": "'Boson Jump' left as plain text on these rows because the source itself has no book() tag there (unlike row 3355); tag-fidelity rule correctly followed. Ryoko's exposition (ruins / Earth and Jupiter both after it / black box / true nature of the Hisago Plan) is not reordered or altered in meaning."},
+    {"rows": [3297], "finding": "Source says '地球と木星' (Earth and Jupiter the planet), not '木連' (Mokuren/Jovian Federation); target correctly keeps 'Jupiter', not over-generalized to 'Jovian Federation'."},
+    {"rows": [3304, 3306], "finding": "'Will you die in front of a woman?' and the doubled vocative 'Akito! You really are Akito' both kept as unnamed/repeated exactly as the source frames them; no name invented for the unnamed 'woman' (contextually Yurika) and no content dropped from the repeated name."}
+  ],
+  "uncertainties": [
+    {"rows": [3280, 3281, 3282, 3283], "issue": "Archaic proclamation is apparently unique to this game and unattested in any consulted wiki; the literal rendering (heavens/gourd) is defensible but the register and exact idiom remain a judgment call worth a second look if a source ever surfaces."},
+    {"rows": [3291, 3305, 3306, 3309], "issue": "Speakers are untagged. Row 3291 ('Ruri... are you watching?') reads as Akito addressing Ruri Hoshino through a monitor; rows 3305-3306 and 3309 read as Ryoko (named at 3293-3295) reacting to seeing Yurika and Akito on screen and then echoing Akito's plea to Ruri. This is inference only; no speaker identity was written into any target."},
+    {"rows": [3251, 3255, 3321], "issue": "Several praise/hunch/skill-observation lines have no explicit subject or addressee in the source; the existing renderings keep them generically applicable rather than naming a specific pilot, which is correct per the no-invented-subject rule but leaves the exact addressee unconfirmed."}
+  ],
+  "validation": {
+    "controls": "Re-ran tools/dialogue_corpus.py slice 3230 80 --context 15 and diffed every <...> command list (order and contents) between source and target for all 80 rows: all equal.",
+    "format": "No newlines, ASCII-only (no non-ASCII characters found) in any of the 80 targets.",
+    "fit": "Longest visible text (tags stripped) is 91 characters; limit is 110; no over-limit rows.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

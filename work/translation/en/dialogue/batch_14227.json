@@ -1,0 +1,524 @@
+{
+  "slice_start": 14227,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      14212,
+      14321
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_14248"
+      ],
+      "note": "'Zouen ga kita ka' (has an increase in reinforcements come) compressed to 'More coming?' for the byte budget."
+    },
+    {
+      "ids": [
+        "dialogue_14264"
+      ],
+      "note": "'Seigi ka aku ka' (justice or evil) rendered 'right or wrong' to avoid the letter j per the font/rendering constraint on this batch; meaning (moral labels don't matter to him) unchanged."
+    },
+    {
+      "ids": [
+        "dialogue_14279",
+        "dialogue_14288",
+        "dialogue_14292",
+        "dialogue_14295",
+        "dialogue_14300"
+      ],
+      "note": "Rows compressed beyond simple abbreviation to fit the hard byte budget; secondary clauses (e.g. conditional framing, repeated subject) were trimmed while the core statement was kept. See per-row notes."
+    }
+  ],
+  "rows": [
+    {
+      "id": "dialogue_14227",
+      "target": "<op()><sp(20)>I'll erase it all myself!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14228",
+      "target": "<op()><sp(20)>Nothing can stop me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14229",
+      "target": "<op()><sp(20)>I'll show you fools!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14230",
+      "target": "<op()><sp(20)>I don't mind showing my power of old!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14231",
+      "target": "<op()><sp(20)>Power surges in me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14232",
+      "target": "<op()><sp(20)>Behold Oukaou's valiant form! Look well!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Combined 'behold my valiant form' and 'look well' into one line for budget; both clauses kept."
+    },
+    {
+      "id": "dialogue_14233",
+      "target": "<op()><sp(20)>Watched by all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14234",
+      "target": "<op()><sp(20)>If not you, then who?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14235",
+      "target": "<op()><sp(20)>Is this your limit?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14236",
+      "target": "<op()><sp(20)>Show our strength!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14237",
+      "target": "<op()><sp(20)>You can still fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14238",
+      "target": "<op()><sp(20)>Show true power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14239",
+      "target": "<op()><sp(20)>Is that all you've got?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14240",
+      "target": "<op()><sp(20)>I've seen your power now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14241",
+      "target": "<op()><sp(20)>Worthy of praise?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14242",
+      "target": "<op()><sp(20)>Superb!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14243",
+      "target": "<op()><sp(20)>That's the power I craved!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14244",
+      "target": "<op()><sp(20)>A fine fight!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14245",
+      "target": "<op()><sp(20)>Looking bright!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14246",
+      "target": "<op()><sp(20)>Everything favors us now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14247",
+      "target": "<op()><sp(20)>Good moves!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14248",
+      "target": "<op()><sp(20)>More coming?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed 'increase in reinforcements have arrived' to 'More coming?' for budget."
+    },
+    {
+      "id": "dialogue_14249",
+      "target": "<op()><sp(20)>What now?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14250",
+      "target": "<op()><sp(20)>I'll wipe you all out!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14251",
+      "target": "<op()><sp(20)>Mere weaklings!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14252",
+      "target": "<op()><sp(20)>So strong!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14253",
+      "target": "<op()><sp(20)>This foe must fall!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14254",
+      "target": "<op()><sp(20)>No ordinary power!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14255",
+      "target": "<op()><sp(20)>Returning now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14256",
+      "target": "<op()><sp(20)>Fall back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14257",
+      "target": "<op()><sp(20)>I'm satisfied with this.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14258",
+      "target": "<op()><sp(20)>Good haul!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14259",
+      "target": "<op()><sp(20)>I fight for Tiffa!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14260",
+      "target": "<op()><sp(20)>No one hurts my friends!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14261",
+      "target": "<op()><sp(20)>Out of my way! No small fry!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14262",
+      "target": "<op()><sp(20)>I'll crush them!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14263",
+      "target": "<op()><sp(20)>Want a fight? No holding back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14264",
+      "target": "<op()><sp(20)>Right or wrong, it makes no difference... I protect Tiffa!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Justice or evil' rendered 'right or wrong' to avoid the letter j per the font constraint; meaning (moral abstractions don't matter to him) unchanged."
+    },
+    {
+      "id": "dialogue_14265",
+      "target": "<op()><sp(20)>Sorry, but this one's mine!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14266",
+      "target": "<op()><sp(20)>Stay back, I'll leave you be!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14267",
+      "target": "<op()><sp(20)>Hit fast, that's the trick!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14268",
+      "target": "<op()><sp(20)>Even tough foes fall to us all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14269",
+      "target": "<op()><sp(20)>Can't afford to lose!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14270",
+      "target": "<op()><sp(20)>Fired up! Here I go!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14271",
+      "target": "<op()><sp(20)>Reckless as always, but I'll win and come home!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14272",
+      "target": "<op()><sp(20)>Leave this to me! You beat your own foe!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14273",
+      "target": "<op()><sp(20)>Damn... they're pushing us back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14274",
+      "target": "<op()><sp(20)>Hey! Don't be rash!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14275",
+      "target": "<op()><sp(20)>I will grow stronger!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14276",
+      "target": "<op()><sp(20)>Watch out! Fall back, all!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14277",
+      "target": "<op()><sp(20)>Dying gets us nowhere! Flee if it's dangerous!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14278",
+      "target": "<op()><sp(20)>Tch, my hands are full! Handle it yourself!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14279",
+      "target": "<op()><sp(20)>No room to help you too! You can handle it alone!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed for budget; 'you should be able to handle it yourself' shortened to 'you can handle it alone'."
+    },
+    {
+      "id": "dialogue_14280",
+      "target": "<op()><sp(20)>Bad news... enemy's got the edge on us.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14281",
+      "target": "<op()><sp(20)>Damn! How do we turn this?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14282",
+      "target": "<op()><sp(20)>Let's do this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14283",
+      "target": "<op()><sp(20)>Tiffa... wait for me. I'll make it home alive.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14284",
+      "target": "<op()><sp(20)>Spread, strike!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14285",
+      "target": "<op()><sp(20)>Stay sharp... they mean it now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14286",
+      "target": "<op()><sp(20)>There's no way we lose! Let's do this!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14287",
+      "target": "<op()><sp(20)>I'll erase Tiffa's fears!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14288",
+      "target": "<op()><sp(20)>I'll keep beating them!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed for budget; dropped 'as long as they keep coming' clause, kept the core vow to keep fighting them."
+    },
+    {
+      "id": "dialogue_14289",
+      "target": "<op()><sp(20)>None of you die!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14290",
+      "target": "<op()><sp(20)>I don't believe in God... but I pray we all meet again safe!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14291",
+      "target": "<op()><sp(20)>I fight for Tiffa... and everyone!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14292",
+      "target": "<op()><sp(20)>You okay? Fall back if hurt!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed for budget; 'if it's too much for you' rendered as a shorter conditional 'if hurt'."
+    },
+    {
+      "id": "dialogue_14293",
+      "target": "<op()><sp(20)>If they bug you, beat 'em!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14294",
+      "target": "<op()><sp(20)>I know you can do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14295",
+      "target": "<op()><sp(20)>That's not all you've got!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed for budget; dropped the leading 'what's wrong!' to fit, kept the taunt."
+    },
+    {
+      "id": "dialogue_14296",
+      "target": "<op()><sp(20)>Get it together! You're a pilot too!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14297",
+      "target": "<op()><sp(20)>I can't back down here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14298",
+      "target": "<op()><sp(20)>If you go down, it's over! Hold on!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14299",
+      "target": "<op()><sp(20)>Wake up! Are you asleep or what?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14300",
+      "target": "<op()><sp(20)>Still more I can do. Won't give up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Compressed for budget; 'there's still something I can do' shortened to 'still more I can do'."
+    },
+    {
+      "id": "dialogue_14301",
+      "target": "<op()><sp(20)>Bad odds can always turn around! That's how I've lived!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14302",
+      "target": "<op()><sp(20)>You're amazing!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14303",
+      "target": "<op()><sp(20)>Then I can trust you at my back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14304",
+      "target": "<op()><sp(20)>Keeping pace with me? Not bad!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14305",
+      "target": "<op()><sp(20)>Whoa! You've got my respect now!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_14306",
+      "target": "<op()><sp(20)>Impressive! Stealing my spotlight.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "validation": {
+    "controls": "Every row's source follows the uniform pattern <op()><sp(20)>TEXT<ab(1000)><ed()>; confirmed programmatically across this whole index range (14147-14505) before translation, and every target preserves that exact command prefix/suffix in the same order.",
+    "fit": "HARD BYTE BUDGET enforced programmatically: each target's visible length (letters/punctuation only, tags and any newline excluded) was checked against 2 x (Japanese source character count) - 2, capped at 72, using dialogue_corpus.py slice output; all 80 rows verified to fit, with heavier compressions flagged in uncertainties/notes rather than silently dropped meaning.",
+    "ascii_and_font": "All targets are ASCII-only (straight quotes, ... for ellipsis, - for dashes, no bare %); scanned programmatically for lowercase j/q outside the locked name 'Nanajin' and none found.",
+    "meaning_review": "Independent meaning review completed against the Japanese source via dialogue_corpus.py; all rows checked for reversed meaning, wrong addressee/subject, invented identity/gender, dropped sentence sense, tone, and locked spellings. Fixes applied where found; all rows set to meaning_reviewed."
+  }
+}

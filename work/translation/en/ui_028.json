@@ -1,0 +1,1294 @@
+{
+ "version": "0.1.28",
+ "review": {
+  "status": "meaning_reviewed",
+  "reviewer": "independent agent, 157 of 157 rows examined",
+  "applied": [
+   "134 Mothership (released term)",
+   "154/155 Ally 1/2 (matches the deployment screen)",
+   "223 D.O.M.E. added"
+  ]
+ },
+ "categories": [
+  {
+   "table_id": 3013,
+   "reference_bundle": 1200000,
+   "complete": true,
+   "category": "in-mission HUD and Results",
+   "rows": [
+    {
+     "slot": 0,
+     "text_id": 1,
+     "source": "ミッション　アップデイト",
+     "en": "Mission Update",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 1,
+     "text_id": 2,
+     "source": "シークレットクリア",
+     "en": "Secret Cleared",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 2,
+     "text_id": 3,
+     "source": "%s　取得",
+     "en": "%s obtained",
+     "dialog": false,
+     "limit": 300
+    },
+    {
+     "slot": 3,
+     "text_id": 4,
+     "source": "オートパイロット",
+     "en": "Autopilot",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 4,
+     "text_id": 5,
+     "source": "エリアオーバー",
+     "en": "Area Over",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 5,
+     "text_id": 6,
+     "source": "ミッション　達成",
+     "en": "Mission Complete",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 6,
+     "text_id": 7,
+     "source": "ミッション　失敗",
+     "en": "Mission Failed",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 7,
+     "text_id": 8,
+     "source": "死亡",
+     "en": "KIA",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 129,
+     "text_id": 130,
+     "source": "グループ戦闘力",
+     "en": "Group Power",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 130,
+     "text_id": 131,
+     "source": "グループＡＰ",
+     "en": "Group AP",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 131,
+     "text_id": 132,
+     "source": "敵グループ%d",
+     "en": "Enemy Group %d",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 132,
+     "text_id": 133,
+     "source": "味方グループ%d",
+     "en": "Ally Group %d",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 133,
+     "text_id": 134,
+     "source": "母艦%d",
+     "en": "Mothership %d",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 136,
+     "text_id": 137,
+     "source": "%d機",
+     "en": "%d units",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 139,
+     "text_id": 140,
+     "source": "リザルト",
+     "en": "Results",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 144,
+     "text_id": 145,
+     "source": "ポイント",
+     "en": "Points",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 146,
+     "text_id": 147,
+     "source": "クリアタイム",
+     "en": "Clear Time",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 147,
+     "text_id": 148,
+     "source": "ダメージ",
+     "en": "Damage",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 148,
+     "text_id": 149,
+     "source": "取得エースポイント",
+     "en": "Ace Points Earned",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 151,
+     "text_id": 152,
+     "source": "ユニット経験値",
+     "en": "Unit EXP",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 152,
+     "text_id": 153,
+     "source": "プレイヤー",
+     "en": "Player",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 153,
+     "text_id": 154,
+     "source": "僚機１",
+     "en": "Ally 1",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 154,
+     "text_id": 155,
+     "source": "僚機２",
+     "en": "Ally 2",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 162,
+     "text_id": 163,
+     "source": "シークレット達成",
+     "en": "Secret Goal Met",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 163,
+     "text_id": 164,
+     "source": "次へ：○",
+     "en": "Next:○",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 170,
+     "text_id": 171,
+     "source": "エース",
+     "en": "Ace",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 171,
+     "text_id": 172,
+     "source": "ベテラン",
+     "en": "Veteran",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 172,
+     "text_id": 173,
+     "source": "リーダー",
+     "en": "Leader",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 173,
+     "text_id": 174,
+     "source": "パイロット",
+     "en": "Pilot",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 174,
+     "text_id": 175,
+     "source": "ルーキー",
+     "en": "Rookie",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 179,
+     "text_id": 180,
+     "source": "通信",
+     "en": "Comm",
+     "dialog": false,
+     "limit": 220
+    },
+    {
+     "slot": 180,
+     "text_id": 181,
+     "source": "選択：㊧㊨　用語ＯＮ：□　スキップ：○　終了：⑪",
+     "en": "Select:㊧㊨  Terms On:□  Skip:○  End:⑪",
+     "dialog": false,
+     "limit": 470
+    },
+    {
+     "slot": 181,
+     "text_id": 182,
+     "source": "スクロール：㊤㊦　選択：㊧㊨　用語ＯＦＦ：□　スキップ：○",
+     "en": "Scroll:㊤㊦ Select:㊧㊨ Terms Off:□ Skip:○",
+     "dialog": false,
+     "limit": 470
+    }
+   ]
+  },
+  {
+   "table_id": 3090,
+   "reference_bundle": 4002050,
+   "complete": true,
+   "category": "Movie Viewer titles",
+   "rows": [
+    {
+     "slot": 119,
+     "text_id": 120,
+     "source": "オープニング",
+     "en": "Opening",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 120,
+     "text_id": 121,
+     "source": "プロローグ１",
+     "en": "Prologue 1",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 121,
+     "text_id": 122,
+     "source": "未知の敵１",
+     "en": "Unknown Enemy 1",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 122,
+     "text_id": 123,
+     "source": "プロローグ２",
+     "en": "Prologue 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 123,
+     "text_id": 124,
+     "source": "ナデシコＢ登場",
+     "en": "Nadesico B Arrives",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 124,
+     "text_id": 125,
+     "source": "インベーダー出現",
+     "en": "Invaders Appear",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 125,
+     "text_id": 126,
+     "source": "ドッグファイト",
+     "en": "Dogfight",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 126,
+     "text_id": 127,
+     "source": "バルドナ・ドライブ",
+     "en": "Baldora Drive",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 127,
+     "text_id": 128,
+     "source": "異変",
+     "en": "Anomaly",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 128,
+     "text_id": 129,
+     "source": "未知の敵２",
+     "en": "Unknown Enemy 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 129,
+     "text_id": 130,
+     "source": "撤退",
+     "en": "Retreat",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 130,
+     "text_id": 131,
+     "source": "襲われるガンダム",
+     "en": "Gundam Under Attack",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 131,
+     "text_id": 132,
+     "source": "サテライトキャノン発射",
+     "en": "Satellite Cannon Fires",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 132,
+     "text_id": 133,
+     "source": "フロスト兄弟登場１",
+     "en": "Frost Brothers Appear 1",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 133,
+     "text_id": 134,
+     "source": "ガンダムアシュタロン撤退",
+     "en": "Gundam Ashtaron Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 134,
+     "text_id": 135,
+     "source": "追われるエウレカ",
+     "en": "Eureka Pursued",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 135,
+     "text_id": 136,
+     "source": "ガンダムヴァサーゴ登場",
+     "en": "Gundam Virsago Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 136,
+     "text_id": 137,
+     "source": "ガンダムヴァサーゴ撤退",
+     "en": "Gundam Virsago Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 137,
+     "text_id": 138,
+     "source": "セブンスウェル",
+     "en": "Seven Swell",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 138,
+     "text_id": 139,
+     "source": "ゲインとゲイナー",
+     "en": "Gain and Gainer",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 139,
+     "text_id": 140,
+     "source": "ラッシュロッド登場",
+     "en": "Rushrod Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 140,
+     "text_id": 141,
+     "source": "ラッシュロッド撤退",
+     "en": "Rushrod Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 141,
+     "text_id": 142,
+     "source": "早乙女登場",
+     "en": "Saotome Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 142,
+     "text_id": 143,
+     "source": "取り込まれる真ゲッター",
+     "en": "Shin Getter Absorbed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 143,
+     "text_id": 144,
+     "source": "ベルクト撤退１",
+     "en": "Berkt Retreats 1",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 144,
+     "text_id": 145,
+     "source": "移動１",
+     "en": "On the Move 1",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 145,
+     "text_id": 146,
+     "source": "新たな敵",
+     "en": "A New Enemy",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 146,
+     "text_id": 147,
+     "source": "ファルゲン・マッフ登場",
+     "en": "Falguen MAFFU Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 147,
+     "text_id": 148,
+     "source": "ファルゲン・マッフ撤退",
+     "en": "Falguen MAFFU Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 148,
+     "text_id": 149,
+     "source": "無限機動砲",
+     "en": "Infinite Mobile Cannon",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 149,
+     "text_id": 150,
+     "source": "サコミズ登場",
+     "en": "Sakomizu Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 150,
+     "text_id": 151,
+     "source": "オウカオー撤退",
+     "en": "Oukaou Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 151,
+     "text_id": 152,
+     "source": "謎の機体",
+     "en": "Mystery Unit",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 152,
+     "text_id": 153,
+     "source": "ヤクト・ドーガ（ギュネイ）登場",
+     "en": "Jagd Doga (Gyunei) Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 153,
+     "text_id": 154,
+     "source": "ベルクトの奇襲",
+     "en": "Berkt's Ambush",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 154,
+     "text_id": 155,
+     "source": "ウイングガンダムゼロ登場",
+     "en": "Wing Gundam Zero Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 155,
+     "text_id": 156,
+     "source": "ベルクト撤退２",
+     "en": "Berkt Retreats 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 156,
+     "text_id": 157,
+     "source": "クテ級コーラリアン",
+     "en": "Kute-class Coralian",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 157,
+     "text_id": 158,
+     "source": "ｔｈｅＥＮＤ登場",
+     "en": "theEND Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 158,
+     "text_id": 159,
+     "source": "コーラリアンとの接触",
+     "en": "Contact with the Coralian",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 159,
+     "text_id": 160,
+     "source": "フロスト兄弟登場２",
+     "en": "Frost Brothers Appear 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 160,
+     "text_id": 161,
+     "source": "輸送機の撃破",
+     "en": "Transport Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 161,
+     "text_id": 162,
+     "source": "フラッシュシステム",
+     "en": "Flash System",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 162,
+     "text_id": 163,
+     "source": "アスハムとシンシア登場",
+     "en": "Asuham & Cynthia Appear",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 163,
+     "text_id": 164,
+     "source": "パワーゴレーム撤退",
+     "en": "Power Golem Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 164,
+     "text_id": 165,
+     "source": "ドミネーター撤退",
+     "en": "Dominator Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 165,
+     "text_id": 166,
+     "source": "ブラックゲッター登場",
+     "en": "Black Getter Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 166,
+     "text_id": 167,
+     "source": "ドミネーター再び",
+     "en": "Dominator Returns",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 167,
+     "text_id": 168,
+     "source": "ドミネーター撤退２",
+     "en": "Dominator Retreats 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 168,
+     "text_id": 169,
+     "source": "ベルクト隊登場",
+     "en": "Berkt Team Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 169,
+     "text_id": 170,
+     "source": "ベルクト撤退３",
+     "en": "Berkt Retreats 3",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 170,
+     "text_id": 171,
+     "source": "ＹＦ－２１登場",
+     "en": "YF-21 Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 171,
+     "text_id": 172,
+     "source": "ファルゲンカスタム登場",
+     "en": "Falguen Custom Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 172,
+     "text_id": 173,
+     "source": "ファルゲンカスタム撤退",
+     "en": "Falguen Custom Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 173,
+     "text_id": 174,
+     "source": "砲撃飛来",
+     "en": "Incoming Bombardment",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 174,
+     "text_id": 175,
+     "source": "ゴースト登場",
+     "en": "Ghost Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 175,
+     "text_id": 176,
+     "source": "ゴースト撃破",
+     "en": "Ghost Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 176,
+     "text_id": 177,
+     "source": "マクロス浮上",
+     "en": "Macross Rises",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 177,
+     "text_id": 178,
+     "source": "ナデシコＣ登場",
+     "en": "Nadesico C Arrives",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 178,
+     "text_id": 179,
+     "source": "マクロス撃沈",
+     "en": "Macross Sunk",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 179,
+     "text_id": 180,
+     "source": "ベルクトの素顔",
+     "en": "Berkt's True Face",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 180,
+     "text_id": 181,
+     "source": "移動２",
+     "en": "On the Move 2",
+     "dialog": false,
+     "limit": 470
+    },
+    {
+     "slot": 181,
+     "text_id": 182,
+     "source": "ヴァルチャー登場",
+     "en": "Vultures Appear",
+     "dialog": false,
+     "limit": 470
+    },
+    {
+     "slot": 182,
+     "text_id": 183,
+     "source": "ブラックメール登場",
+     "en": "Blackmail Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 183,
+     "text_id": 184,
+     "source": "ブラックメール撃破",
+     "en": "Blackmail Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 184,
+     "text_id": 185,
+     "source": "友軍機登場",
+     "en": "Allied Unit Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 185,
+     "text_id": 186,
+     "source": "友軍機パワーダウン",
+     "en": "Allied Unit Loses Power",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 186,
+     "text_id": 187,
+     "source": "オウカオー出現",
+     "en": "Oukaou Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 187,
+     "text_id": 188,
+     "source": "オウカオーの変化",
+     "en": "Oukaou Changes",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 188,
+     "text_id": 189,
+     "source": "サコミズの最期",
+     "en": "Sakomizu's End",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 189,
+     "text_id": 190,
+     "source": "月臣登場",
+     "en": "Tsukiomi Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 190,
+     "text_id": 191,
+     "source": "アンジェ登場",
+     "en": "Ange Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 191,
+     "text_id": 192,
+     "source": "ブラックサレナ登場",
+     "en": "Black Sarena Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 192,
+     "text_id": 193,
+     "source": "マイヨと北辰",
+     "en": "Meio and Hokushin",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 193,
+     "text_id": 194,
+     "source": "ファルゲンカスタム撤退２",
+     "en": "Falguen Custom Retreats 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 194,
+     "text_id": 195,
+     "source": "夜天光撃破",
+     "en": "Yatenko Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 195,
+     "text_id": 196,
+     "source": "プラネッタ登場",
+     "en": "Planetta Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 196,
+     "text_id": 197,
+     "source": "プラネッタ撃破",
+     "en": "Planetta Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 197,
+     "text_id": 198,
+     "source": "アスハムとシンシア登場２",
+     "en": "Asuham & Cynthia Appear 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 198,
+     "text_id": 199,
+     "source": "パワーゴレーム撤退",
+     "en": "Power Golem Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 199,
+     "text_id": 200,
+     "source": "ゲイナーの危機",
+     "en": "Gainer in Danger",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 200,
+     "text_id": 201,
+     "source": "アンジェ登場２",
+     "en": "Ange Appears 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 201,
+     "text_id": 202,
+     "source": "消えた真ドラゴン",
+     "en": "Shin Dragon Vanishes",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 202,
+     "text_id": 203,
+     "source": "フロスト兄弟登場３",
+     "en": "Frost Brothers Appear 3",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 203,
+     "text_id": 204,
+     "source": "ガンダムヴァサーゴ撤退２",
+     "en": "Gundam Virsago Retreats 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 204,
+     "text_id": 205,
+     "source": "ガンダムアシュタロン撤退２",
+     "en": "Gundam Ashtaron Retreats 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 205,
+     "text_id": 206,
+     "source": "ニルヴァーシュＴｙｐｅＺＥＲＯ　Ｓｐｅｃ２",
+     "en": "Nirvash typeZERO spec2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 206,
+     "text_id": 207,
+     "source": "スピアヘッド（チャールズ）撤退",
+     "en": "Spearhead (Charles) Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 207,
+     "text_id": 208,
+     "source": "スピアヘッド（レイ）撤退",
+     "en": "Spearhead (Ray) Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 208,
+     "text_id": 209,
+     "source": "アネモネとシンシア",
+     "en": "Anemone and Cynthia",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 209,
+     "text_id": 210,
+     "source": "ドミネーター撤退３",
+     "en": "Dominator Retreats 3",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 210,
+     "text_id": 211,
+     "source": "ｔｈｅＥＮＤ撤退",
+     "en": "theEND Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 211,
+     "text_id": 212,
+     "source": "真ドラゴン第二形態",
+     "en": "Shin Dragon: Second Form",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 212,
+     "text_id": 213,
+     "source": "真ドラゴン停止",
+     "en": "Shin Dragon Halts",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 213,
+     "text_id": 214,
+     "source": "グレイブアーク撤退",
+     "en": "Grave Ark Retreats",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 214,
+     "text_id": 215,
+     "source": "バルドナ・ドライブ２",
+     "en": "Baldora Drive 2",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 215,
+     "text_id": 216,
+     "source": "グレイブアーク登場",
+     "en": "Grave Ark Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 216,
+     "text_id": 217,
+     "source": "グレイブアークの変化",
+     "en": "Grave Ark Changes",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 217,
+     "text_id": 218,
+     "source": "バルドナ・ドライブ消失",
+     "en": "Baldora Drive Vanishes",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 218,
+     "text_id": 219,
+     "source": "氷の世界",
+     "en": "World of Ice",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 219,
+     "text_id": 220,
+     "source": "オーバーデビル登場",
+     "en": "Overdevil Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 220,
+     "text_id": 221,
+     "source": "オーバーヒート",
+     "en": "Overheat",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 221,
+     "text_id": 222,
+     "source": "ナデシコ突破",
+     "en": "Nadesico Breaks Through",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 222,
+     "text_id": 223,
+     "source": "Ｄ．Ｏ．Ｍ．Ｅ．",
+     "en": "D.O.M.E.",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 223,
+     "text_id": 224,
+     "source": "ガンダムヴァサーゴＣＢ撃破",
+     "en": "Virsago CB Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 224,
+     "text_id": 225,
+     "source": "ガンダムアシュタロンＨＣ撃破",
+     "en": "Ashtaron HC Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 225,
+     "text_id": 226,
+     "source": "ゾーン突入",
+     "en": "Entering the Zone",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 226,
+     "text_id": 227,
+     "source": "一斉射撃",
+     "en": "All Units Fire",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 227,
+     "text_id": 228,
+     "source": "約束の地",
+     "en": "The Promised Land",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 228,
+     "text_id": 229,
+     "source": "司令クラスター破壊",
+     "en": "Command Cluster Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 229,
+     "text_id": 230,
+     "source": "取り込まれるエウレカ",
+     "en": "Eureka Absorbed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 230,
+     "text_id": 231,
+     "source": "ニルヴァーシュ３登場",
+     "en": "Nirvash spec3 Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 231,
+     "text_id": 232,
+     "source": "ニルヴァーシュ３の言葉",
+     "en": "Nirvash spec3's Words",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 232,
+     "text_id": 233,
+     "source": "墜ちていくアクシズ",
+     "en": "Axis Falling",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 233,
+     "text_id": 234,
+     "source": "ヤクト・ドーガ（クェス）登場",
+     "en": "Jagd Doga (Quess) Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 234,
+     "text_id": 235,
+     "source": "アクシズ破壊",
+     "en": "Axis Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 235,
+     "text_id": 236,
+     "source": "α・アジール登場",
+     "en": "Alpha Azieru Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 236,
+     "text_id": 237,
+     "source": "ヤクト・ドーガ（ギュネイ）撃破",
+     "en": "Jagd Doga (Gyunei) Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 237,
+     "text_id": 238,
+     "source": "α・アジール撃破",
+     "en": "Alpha Azieru Destroyed",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 238,
+     "text_id": 239,
+     "source": "サザビー登場",
+     "en": "Sazabi Appears",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 239,
+     "text_id": 240,
+     "source": "アクシズ阻止",
+     "en": "Axis Stopped",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 240,
+     "text_id": 241,
+     "source": "惑星衝突",
+     "en": "Planetary Collision",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 241,
+     "text_id": 242,
+     "source": "真ドラゴン最終形態",
+     "en": "Shin Dragon: Final Form",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 242,
+     "text_id": 243,
+     "source": "ベルクトの最期",
+     "en": "Berkt's End",
+     "dialog": false,
+     "limit": 315
+    },
+    {
+     "slot": 243,
+     "text_id": 244,
+     "source": "エピローグ",
+     "en": "Epilogue",
+     "dialog": false,
+     "limit": 315
+    }
+   ]
+  }
+ ]
+}

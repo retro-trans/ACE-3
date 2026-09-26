@@ -1,0 +1,145 @@
+{
+  "version": "0.1.37",
+  "review": {
+    "status": "meaning_reviewed",
+    "rows_examined": 6,
+    "rows_in_slice": 6,
+    "method": "Full English drafts, then manual meaning-preserving compression and native gameplay font measurements across all eight gameplay bundles."
+  },
+  "font_id": 2500,
+  "font_scale": 1.0,
+  "width_limit": 355,
+  "changelog": [
+    "0.1.37: Reviewed all six long objective strings and provided compact English preserving counts, conditions, and slash separators. Sixth reviewed against supplied English; original Japanese unavailable."
+  ],
+  "rows": [
+    {
+      "source": "輸送艦が領域を離脱／母艦の撃沈",
+      "old": "Transport escapes / Mothership sunk",
+      "full_en": "The transport ship leaves the area / The mothership is sunk",
+      "en": "Tpt exits area / M'ship sunk",
+      "width": 331,
+      "widths_by_bundle": {
+        "1200000": 331,
+        "1200001": 331,
+        "1200002": 321,
+        "1200003": 321,
+        "1200004": 331,
+        "1200005": 331,
+        "1200006": 331,
+        "1200007": 331
+      },
+      "old_bytes": 35,
+      "bytes": 28,
+      "status": "meaning_reviewed",
+      "notes": "Tpt abbreviates transport ship; M'ship abbreviates mothership. Explicitly retains leaving the area and sinking, with the existing slash separator."
+    },
+    {
+      "source": "友軍部隊が４つ壊滅／母艦の撃沈",
+      "old": "4 allied units lost / Mothership sunk",
+      "full_en": "Four allied units are destroyed / The mothership is sunk",
+      "en": "4 ally units lost / M'ship sunk",
+      "width": 350,
+      "widths_by_bundle": {
+        "1200000": 350,
+        "1200001": 350,
+        "1200002": 346,
+        "1200003": 346,
+        "1200004": 350,
+        "1200005": 350,
+        "1200006": 350,
+        "1200007": 350
+      },
+      "old_bytes": 37,
+      "bytes": 31,
+      "status": "meaning_reviewed",
+      "notes": "Retains four, allied affiliation, units, unit loss, and mothership sinking. Ally is an attributive noun meaning allied here; units remain explicit so four does not refer to individual pilots. Lost is the established defeat-condition wording for destroyed units. M'ship abbreviates mothership."
+    },
+    {
+      "source": "７隻の敵戦艦が領域を離脱",
+      "old": "7 enemy warships leave the area",
+      "full_en": "Seven enemy warships leave the area",
+      "en": "7 enemy warships exit area",
+      "width": 310,
+      "widths_by_bundle": {
+        "1200000": 310,
+        "1200001": 310,
+        "1200002": 289,
+        "1200003": 289,
+        "1200004": 310,
+        "1200005": 310,
+        "1200006": 310,
+        "1200007": 310
+      },
+      "old_bytes": 31,
+      "bytes": 26,
+      "status": "meaning_reviewed",
+      "notes": "Retains seven, enemy affiliation, warship type, and departure from the area. Omits only the article before area."
+    },
+    {
+      "source": "敵の防衛ライン突破阻止",
+      "old": "Stop enemies breaching the defense line",
+      "full_en": "Prevent enemies from breaking through the defense line",
+      "en": "Stop enemy defense-line breach",
+      "width": 355,
+      "widths_by_bundle": {
+        "1200000": 355,
+        "1200001": 355,
+        "1200002": 329,
+        "1200003": 329,
+        "1200004": 355,
+        "1200005": 355,
+        "1200006": 355,
+        "1200007": 355
+      },
+      "old_bytes": 39,
+      "bytes": 30,
+      "status": "meaning_reviewed",
+      "notes": "Nominalizes the enemy action while retaining prevention of an enemy breach of the defense line. Defense-line qualifies breach, not enemy affiliation."
+    },
+    {
+      "source": "一定時間、全拠点を防衛",
+      "old": "Defend all bases for the set time",
+      "full_en": "Defend all bases for the specified time",
+      "en": "Defend all bases for set time",
+      "width": 323,
+      "widths_by_bundle": {
+        "1200000": 323,
+        "1200001": 323,
+        "1200002": 306,
+        "1200003": 306,
+        "1200004": 323,
+        "1200005": 323,
+        "1200006": 323,
+        "1200007": 323
+      },
+      "old_bytes": 33,
+      "bytes": 29,
+      "status": "meaning_reviewed",
+      "notes": "Retains defense of every base for the specified duration. Omits only the article before set time."
+    },
+    {
+      "source": "Destroy all enemies attacking the city",
+      "source_language": "en",
+      "source_provenance": "Existing active mission objective, text ID 1; original Japanese not retrieved.",
+      "old": "Destroy all enemies attacking the city",
+      "full_en": "Destroy all enemies attacking the city",
+      "en": "Destroy all foes attacking city",
+      "width": 345,
+      "widths_by_bundle": {
+        "1200000": 345,
+        "1200001": 345,
+        "1200002": 329,
+        "1200003": 329,
+        "1200004": 345,
+        "1200005": 345,
+        "1200006": 345,
+        "1200007": 345
+      },
+      "old_bytes": 38,
+      "bytes": 31,
+      "status": "meaning_reviewed",
+      "notes": "Foes means enemies; retains destruction of all enemies engaged in attacking the city. Omits only the article before city. Review is against the supplied existing English because original Japanese is unavailable."
+    }
+  ]
+}

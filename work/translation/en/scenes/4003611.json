@@ -1,0 +1,102 @@
+{
+ "resource_id": 4003611,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 7,
+ "rows_examined": 7,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Invaders",
+   "notes": "Enemy faction name.",
+   "source_sha256": "bad937080a191d3c74fd1929393b0ccae481947d4ec3beb2139063e7a3b6954b"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21020,1)><speed(2)><move(1,10,13)>I'll explain the operation<marker(1,10,13,0)><marker(3,9,10,0)>.<move(2,10,13)><picture(69,30,14,0)><refer(30,14,9,10)>",
+   "notes": "Two markers with no natural clause break clustered at sentence end.",
+   "source_sha256": "07538357e807c7a43c3fc5a4d93848269a15be1da6c8542c807ecf0f56d8d3bd"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21020,1)><speed(2)>To<move(1,13,12)> secure air superiority<marker(22,14,9,0)> in the area,<marker(22,13,14,0)> we'll<move(1,0,7)> wipe out every <color(5)><marker(22,4,0,0)>target<ce()><marker(22,0,6,0)><marker(22,0,9,0)>.<marker(22,4,13,0)><move(2,1,4)><picture(86,2,7,0)><picture(87,2,14,0)><refer(2,7,4,0)><refer(2,14,4,13)>",
+   "notes": "Markers kept at word boundaries, not mid-word.",
+   "source_sha256": "808c66d326154626afeaaed1a1f350d268e658cd8417f9fe87d0d6a2b2f733bd"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>The enemy's<move(1,3,7)> numbers are heavy,<marker(11,5,3,0)> so<marker(11,3,6,0)> today<marker(11,3,9,0)> may not go<marker(11,7,13,0)> as usual.<move(1,12,11)> As<marker(11,12,10,0)> a<marker(11,12,13,0)> fix,<marker(11,12,6,0)> we're<marker(11,11,4,0)> sending in <color(4)>unmanned<move(1,9,8)> support ships<ce()><marker(11,9,8,0)>.<move(2,9,8)><picture(85,30,7,0)><refer(30,7,9,8)>",
+   "notes": "\"unmanned support ships\" (mujin engokan) is descriptive; no locked term found (distinct from the Flail unit).",
+   "source_sha256": "7362b69469a05898617fdbba91d7aa248aa944062dff58e2d320c6f59e3756e9"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>If the <color(4)>unmanned support ships<ce()> <color(6)>are mostly wiped out<ce()>, it will hinder holding the front line, and <color(6)>the operation will fail<ce()>.",
+   "notes": "Passive voice used so the color(4) span still precedes the color(6) span, as in source.",
+   "source_sha256": "a1251a189db4e032cda60f89115e65bdb3bbfa3105fd581b71f6e7ae457eb2ac"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(21020,1)><speed(2)>Combat<marker(20,0,2,0)> has<marker(20,13,2,0)> already<marker(20,9,5,0)> begun<marker(20,0,11,0)>.<marker(20,14,11,0)><marker(26,7,5,0)> The moment<marker(37,9,2,0)> you<marker(37,5,5,0)> sortie,<marker(37,5,9,0)> respond<danger(1)> swiftly.",
+   "notes": "",
+   "source_sha256": "fdfa7428b71c09a4dcccc0ecd4dfb4e5a837402cbeafd8a82c5230744b958077"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<delpic(30,7,1)><enemylist()><operator(21020,1)><speed(2)>Alright, I'm counting on you.",
+   "notes": "",
+   "source_sha256": "2c5b76adbe5a12b3bc3106eb5521cba435ed52b4fbe5906c54e4ccd23f30cf99"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Speaker 21020 resolves to Gain Bijou (King Gainer); this Invaders briefing pairs him with Ruri Hoshino (12031) as mothership captain providing unmanned support ships - cross-cast pairing not seen in the reviewed corpus, kept as sourced."
+  },
+  {
+   "slot": 21,
+   "issue": "\"unmanned support ships\" for mujin engokan: no locked term; proposals_dialogue_00696 has an unverified \"Flail\" for a different unmanned support unit (book(6) machines), so a different generic term was used here to avoid conflating the two."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 7,
+  "rows_in_scene": 7,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 23,
+    "before": "<operator(21020,1)><speed(2)>Combat<marker(20,0,2,0)> has<marker(20,13,2,0)> already<marker(20,9,5,0)> begun<marker(20,0,11,0)>.<marker(20,14,11,0)><marker(26,7,5,0)> The moment<marker(37,9,2,0)> you<marker(37,5,5,0)> sortie,<marker(37,5,9,0)> respond<danger(1)> quickly.",
+    "after": "<operator(21020,1)><speed(2)>Combat<marker(20,0,2,0)> has<marker(20,13,2,0)> already<marker(20,9,5,0)> begun<marker(20,0,11,0)>.<marker(20,14,11,0)><marker(26,7,5,0)> The moment<marker(37,9,2,0)> you<marker(37,5,5,0)> sortie,<marker(37,5,9,0)> respond<danger(1)> swiftly.",
+    "reason": "Game font has no native-size lowercase q glyph (project constraint); 'quickly' contains q. Replaced with 'swiftly', no change to meaning or marker placement."
+   }
+  ],
+  "checked_decisions": [
+   "Slot 20/21 speaker pairing (Gain Bijou 21020 briefing, Ruri Hoshino 12031 providing unmanned support ships): source data assigns these operator ids directly; per orchestrator decision speaker tags are never changed even when a pairing looks unusual. Kept as sourced.",
+   "Slot 21 'unmanned support ships' for mujin engokan: the source clause carries no <book()> reference to the Flail encyclopedia entry (book(6), locked in encyclopedia_021_a.json), so this is a distinct, unnamed asset rather than literally 'Flail'; the generic descriptive rendering is correct and does not conflict with 'drone unit' used for a different Japanese term (mujinki butai) in 4003631 - different source words, different generic renderings, consistent.",
+   "Slot 22 'are mostly wiped out' / 'the operation will fail' passive constructions verified to preserve source clause order (color(4) span before color(6) span) and causal logic (losing most of the unmanned ships -> front line falls -> operation fails).",
+   "'Invaders' (slot 0) and all faction/speaker names checked; no glossary conflicts.",
+   "All commands (<operator>, <speed>, <move>, <marker>, <picture>, <refer>, <danger>, <delpic>, <enemylist>) verified identical in count and order versus source for every row; ASCII-only, no newline, and 128-visible-char limit verified for every row; no bare % found."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20 'wipe out every target' omits the explicit enemy-no (敵の) modifier attached to the target in source; left as-is because 'target' unambiguously reads as an enemy target in this HUD-driven briefing convention (compare 4003641 'aim only for the targets', which also omits an explicit 'enemy' in its English despite context settling it), but flagged for awareness.",
+   "Slot 21 'unmanned support ships' has no project-wide locked term for mujin engokan; if a later glossary pass names this asset, align this row.",
+   "Slot 34-style cross-cast pairing (Gain Bijou + Ruri Hoshino) is unusual versus the rest of the reviewed corpus; kept as sourced per the never-change-speaker-tags rule, flagged for the orchestrator's awareness rather than as a translation defect."
+  ]
+ }
+}

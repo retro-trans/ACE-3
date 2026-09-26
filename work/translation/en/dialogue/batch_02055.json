@@ -1,0 +1,558 @@
+{
+  "slice_start": 2055,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      2040,
+      2149
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_02062",
+        "dialogue_02063"
+      ],
+      "note": "2062 can be a question put to Gainer ('are you okay with this?') or about Gainer ('will he be all right?'); 2063's reply omits its subject (he/you). Both kept open in English. Speakers untagged (2062 likely Sara, 2063 likely Gain, 2058/2061 likely Gain) - not asserted."
+    },
+    {
+      "ids": [
+        "dialogue_02055"
+      ],
+      "note": "Pronoun 'he' used for Berkt (glossary gender male). 'kanbu class no naka demo ... tantou' read as: among the New Federation executives, Berkt is the one assigned to Shin Dragon."
+    },
+    {
+      "ids": [
+        "dialogue_02064",
+        "dialogue_02134"
+      ],
+      "note": "Resource 6061 (rows 2064-2138) is legacy ACE2 material: defense of Konpei Island (ex-Solomon) during the Gundam 0083 naval review, with Giganos (Meio Plato) intervening and Kaine named, ending in Gato's nuclear attack speech; rows 2118-2138 are developer placeholders. Translated faithfully; probably unused in ACE3."
+    },
+    {
+      "ids": [
+        "dialogue_02065"
+      ],
+      "note": "Fortress name: Gundam Wiki lists Confeito / Konpei Island (and 'Konpeitoh' on the episode page). 'Konpei Island' (0083 English release) chosen; needs an orchestrator lock. Used in 2065, 2068, 2074, 2078, 2081."
+    },
+    {
+      "ids": [
+        "dialogue_02080"
+      ],
+      "note": "'Berarabera' matches the Japanese name of Vella Lavella island (Solomon Islands), consistent with the Solomon setting; no Gundam source found that spells this control zone in English."
+    },
+    {
+      "ids": [
+        "dialogue_02091"
+      ],
+      "note": "Source: 'ato wa tenami wo misete morau' - whose skill will be watched is unstated (allied Delaz side or the opposing pilots). English kept open. Speaker by context is Meio withdrawing (2092-2093 react), not asserted."
+    },
+    {
+      "ids": [
+        "dialogue_02094"
+      ],
+      "note": "'S0' could be a callsign being hailed or a sector designation; kept literal with a comma as in source."
+    },
+    {
+      "ids": [
+        "dialogue_02090"
+      ],
+      "note": "'karera' (them) = the side conducting the attack on the naval review; not named in source, not supplied."
+    },
+    {
+      "ids": [
+        "dialogue_02123"
+      ],
+      "note": "Placeholder is a jokey misspelling ('mou damida'); rendered plainly."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target equals the source's (console check against the ISO text).",
+    "fit": "No newlines; ASCII only; no percent sign; longest visible text reported in the agent's final report.",
+    "glyphs": "Lowercase j/q only in locked names/ranks (Japan, Major).",
+    "meaning_review": "Independent meaning review done (review_02055.json): all 80 rows compared with the ISO source, 0 meaning fixes, all rows meaning_reviewed; open calls on 2062/2063 listed in the review file."
+  },
+  "rows": [
+    {
+      "id": "dialogue_02055",
+      "target": "<on()><sp(20)><color(5)>Berkt<ce()> is after <book(48)>Shin Dragon<endbook()>. Of the <book(38)>New Federation<endbook()> top brass, he seems to handle <book(48)>Shin Dragon<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Berkt is male per character_names_021. 'tantou' = the one in charge of."
+    },
+    {
+      "id": "dialogue_02056",
+      "target": "<on()><sp(20)>Well, that makes this simple.",
+      "status": "meaning_reviewed",
+      "notes": "Rough register ('hanashi wa hayee')."
+    },
+    {
+      "id": "dialogue_02057",
+      "target": "<on()><sp(20)>That seems to settle it. We'll go with you to Japan as well.",
+      "status": "meaning_reviewed",
+      "notes": "Polite speaker; 'Japan' unavoidable lowercase-free proper noun."
+    },
+    {
+      "id": "dialogue_02058",
+      "target": "<on()><sp(20)>What about the Game Champ?",
+      "status": "meaning_reviewed",
+      "notes": "Aimed at Gainer, who answers in 2059; kept third-person-neutral so it reads either as address or aside."
+    },
+    {
+      "id": "dialogue_02059",
+      "target": "<on()><sp(20)>I-I'm going too. If I went back, the <book(56)>Siberian Railway<endbook()> would only catch me...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02060",
+      "target": "<on()><sp(20)>But that doesn't mean I trust you people.",
+      "status": "meaning_reviewed",
+      "notes": "Continues 2059 (same speaker)."
+    },
+    {
+      "id": "dialogue_02061",
+      "target": "<on()><sp(20)>Got it. Then with <color(4)>Sara<ce()>, it's a cozy <book(55)>Exodus<endbook()> for three.",
+      "status": "meaning_reviewed",
+      "notes": "'sannin de nakayoku' = the three together, on friendly terms; teasing tone."
+    },
+    {
+      "id": "dialogue_02062",
+      "target": "<on()><sp(20)><color(4)>Gainer<ce()>... will this be all right?",
+      "status": "meaning_reviewed",
+      "notes": "Source can be read as asked TO Gainer or ABOUT Gainer; English kept open. See uncertainties."
+    },
+    {
+      "id": "dialogue_02063",
+      "target": "<on()><sp(20)>Even one shot fired toward the enemy will do fine.",
+      "status": "meaning_reviewed",
+      "notes": "Subject omitted in source (he/you); kept subjectless."
+    },
+    {
+      "id": "dialogue_02064",
+      "target": "<op()><sp(20)>Enemy force entering firing range!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Resource 6061 begins (legacy ACE2: Gundam 0083 / Dragonar naval-review defense)."
+    },
+    {
+      "id": "dialogue_02065",
+      "target": "<op()><sp(20)>Here they come! Don't let them reach Konpei Island!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02066",
+      "target": "<op()><sp(20)>Enemy ships have also been confirmed.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02067",
+      "target": "<op()><sp(20)>Make them the priority targets.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Replies to 2066."
+    },
+    {
+      "id": "dialogue_02068",
+      "target": "<op()><sp(20)>Units launched from the enemy ships are heading for Konpei Island. Please send support.<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'engo wo tanomitai' = a request for support; requester not stated."
+    },
+    {
+      "id": "dialogue_02069",
+      "target": "<op()><sp(20)>Enemy ship approaching!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02070",
+      "target": "<op()><sp(20)>Another enemy ship has appeared!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02071",
+      "target": "<op()><sp(20)>Still more enemy ships coming!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02072",
+      "target": "<op()><sp(20)>Enemy closing on the defense line!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02073",
+      "target": "<op()><sp(20)>Don't let them escape!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02074",
+      "target": "<op()><sp(20)>Friendly forces were attacked near Konpei Island!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02075",
+      "target": "<op()><sp(20)>You heard that! Don't let any more get away!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02076",
+      "target": "<op()><sp(20)>The enemy has broken through!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02077",
+      "target": "<op()><sp(20)>What are you doing?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02078",
+      "target": "<op()><sp(20)>The enemy has been allowed to reach Konpei Island!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02079",
+      "target": "<op()><sp(20)>So it was no use...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02080",
+      "target": "<op()><sp(20)>The Vella Lavella control zone is thinly defended.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Vella Lavella: island of the Solomon Islands (fits the Solomon setting); see proposals."
+    },
+    {
+      "id": "dialogue_02081",
+      "target": "<op()><sp(20)>It can't be helped. With this few units... Most of the main fleet is at Konpei Island...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues in 2082."
+    },
+    {
+      "id": "dialogue_02082",
+      "target": "<sp(20)>Was it right to leave it this thinly defended?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02083",
+      "target": "<op()><sp(20)>Stay on guard. The real threat hasn't appeared yet.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'honmei' = the main/expected one."
+    },
+    {
+      "id": "dialogue_02084",
+      "target": "<op()><sp(20)>You mean... Gundam Unit 2?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Unit 2' follows batches 1426-1586."
+    },
+    {
+      "id": "dialogue_02085",
+      "target": "<op()><sp(20)>Is that about all of them?<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02086",
+      "target": "<op()><sp(20)>...No, more contacts approaching!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02087",
+      "target": "<op()><sp(20)>Of all times for that troublesome bunch to show up...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Refers to the Giganos arrival (2100-2102)."
+    },
+    {
+      "id": "dialogue_02088",
+      "target": "<op()><sp(20)>Nice skills. Maybe it's time I retired...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; 2089 follows."
+    },
+    {
+      "id": "dialogue_02089",
+      "target": "<sp(20)>Is that about all of them?<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same text as 2085, continuation variant after 2088."
+    },
+    {
+      "id": "dialogue_02090",
+      "target": "<op()><sp(20)>Listen! The target is the escort force! Leave the naval review to them!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'them' = the allied side named in source only as 'karera' (Delaz Fleet by context)."
+    },
+    {
+      "id": "dialogue_02091",
+      "target": "<op()><sp(20)>My part has been played well enough. Now I'll watch how it's handled.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Whose skill is to be watched is not stated; kept open. See uncertainties."
+    },
+    {
+      "id": "dialogue_02092",
+      "target": "<op()><sp(20)>Hold it! You running away?!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02093",
+      "target": "<op()><sp(20)>Kaine! Let it go!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'hottoke' = leave it/him be."
+    },
+    {
+      "id": "dialogue_02094",
+      "target": "<op()><sp(20)>S0, enemy unit in the shoal zone! Sending the image!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'S0' kept literally (callsign or sector not settled)."
+    },
+    {
+      "id": "dialogue_02095",
+      "target": "<op()><sp(20)>Gundam Unit 2?!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02096",
+      "target": "<op()><sp(20)>Damn! So everything until now was a decoy!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02097",
+      "target": "<op()><sp(20)>There is something I must do!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02098",
+      "target": "<op()><sp(20)>Don't forget the operation's purpose!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02099",
+      "target": "<op()><sp(20)>You will never defeat me like that!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02100",
+      "target": "<op()><sp(20)>Why the hell are YOU showing up?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Per-unit banter with Meio (placeholder 2129)."
+    },
+    {
+      "id": "dialogue_02101",
+      "target": "<op()><sp(20)>This has nothing to do with you Giganos, right? Hurry up and go home!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02102",
+      "target": "<op()><sp(20)>Why are you teaming up with Zeon?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02103",
+      "target": "<op()><sp(20)>Even if I told the likes of you, you could never understand!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02104",
+      "target": "<op()><sp(20)>As long as you are my enemies, this battle is mine as well!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02105",
+      "target": "<op()><sp(20)>And what would telling you that change?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02106",
+      "target": "<op()><sp(20)>New contacts confirmed!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02107",
+      "target": "<op()><sp(20)>No need to bother with small fry! Focus on the target!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02108",
+      "target": "<on()><sp(20)>The naval review seems to have begun.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02109",
+      "target": "<on()><sp(20)>I see... Time we started our work too.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02110",
+      "target": "<on()><sp(20)>The long-awaited moment has come!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Gato's speech from Gundam 0083 ep. 9."
+    },
+    {
+      "id": "dialogue_02111",
+      "target": "<on()><sp(20)>As proof that the many heroic dead did not die in vain!!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02112",
+      "target": "<on()><sp(20)>Gundam Unit 2?!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02113",
+      "target": "<on()><sp(20)>I-it can't be... the nuke?!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02114",
+      "target": "<on()><sp(20)>No way... Tell me this isn't real!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02115",
+      "target": "<on()><sp(20)>To raise Zeon's ideals once again!<ab(10400)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02116",
+      "target": "<on()><sp(20)>For the fulfillment of Stardust!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Operation Stardust; source says only 'Stardust'."
+    },
+    {
+      "id": "dialogue_02117",
+      "target": "<on()><sp(20)>Solomon! I have returned!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02118",
+      "target": "<op()><sp(20)>* Mission supplement<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder; reference mark -> '*' per batch 1506 ruling."
+    },
+    {
+      "id": "dialogue_02119",
+      "target": "<op()><sp(20)>* Warning: enemy about to get past<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02120",
+      "target": "<op()><sp(20)>* Scolded<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02121",
+      "target": "<op()><sp(20)>* Line suggesting the high official's battleship is taking damage<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02122",
+      "target": "<op()><sp(20)>* Scolded further<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02123",
+      "target": "<op()><sp(20)>* We're done for<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder; source is a playful misspelling of 'mou dame da'."
+    },
+    {
+      "id": "dialogue_02124",
+      "target": "<op()><sp(20)>* Notice: Giganos reinforcements<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02125",
+      "target": "<op()><sp(20)>* Praise, part 1<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02126",
+      "target": "<op()><sp(20)>* Praise, part 2<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02127",
+      "target": "<op()><sp(20)>* Premature cheer that the mission succeeded<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder; 'nukayorokobi' = short-lived/premature joy."
+    },
+    {
+      "id": "dialogue_02128",
+      "target": "<op()><sp(20)>* Lavish praise * Premature cheer that the mission succeeded<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder; two marked items kept in order."
+    },
+    {
+      "id": "dialogue_02129",
+      "target": "<op()><sp(20)>* Banter between Meio and the pilot - per-unit message<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02130",
+      "target": "<op()><sp(20)>* Meio's parting shot<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02131",
+      "target": "<op()><sp(20)>* Notice: the enemies are gone * But... (leads into the polygon cutscene)<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder; 'poli-geki' = real-time polygon cutscene."
+    },
+    {
+      "id": "dialogue_02132",
+      "target": "<op()><sp(20)>* Meio's frustration, part 1<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02133",
+      "target": "<op()><sp(20)>* Meio's frustration, part 2<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    },
+    {
+      "id": "dialogue_02134",
+      "target": "<op()><sp(20)>* Meio's frustration, part 3<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Developer placeholder."
+    }
+  ]
+}

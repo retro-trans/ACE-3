@@ -1,0 +1,571 @@
+{
+ "slice_start": 2135,
+ "slice_count": 80,
+ "rows_examined": [
+  [
+   2120,
+   2229
+  ]
+ ],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "uncertainties": [
+  {
+   "ids": [
+    "dialogue_02139",
+    "dialogue_02208"
+   ],
+   "note": "Resource 6062 (rows 2139-2208) is legacy ACE2 material: pursuit of Gato's Gundam Unit 2 after the nuclear strike on the naval review, with per-unit banter sets (Uraki 2151-2165; others 2166-2187 incl. a UCE reference and a Dragonar-style 'kid'), cutscene lines 2191-2196 and developer placeholders 2197-2208. Translated faithfully; probably unused in ACE3."
+  },
+  {
+   "ids": [
+    "dialogue_02140"
+   ],
+   "note": "'yatsu' rendered 'him' (Gato is male per Gundam wiki); the source word itself is gender-neutral and could also mean the machine."
+  },
+  {
+   "ids": [
+    "dialogue_02147",
+    "dialogue_02150"
+   ],
+   "note": "Objects/subjects omitted; 2147 uses 'it' (target, cf. 2149 and batch 1506 precedent), 2150 left subjectless."
+  },
+  {
+   "ids": [
+    "dialogue_02163",
+    "dialogue_02170",
+    "dialogue_02174",
+    "dialogue_02180"
+   ],
+   "note": "Recurring 'watashi wa gi ni yotte tatte iru' rendered 'For I stand on a righteous cause!' to avoid lowercase j ('justice'); longest of these is 2170 at 93 visible chars."
+  },
+  {
+   "ids": [
+    "dialogue_02166",
+    "dialogue_02187"
+   ],
+   "note": "Banter sets 2166-2170, 2171-2174, 2175-2180, 2181-2183, 2184-2187 are per-unit alternatives; opposing pilots are untagged and were not identified (no names in the text)."
+  },
+  {
+   "ids": [
+    "dialogue_02178",
+    "dialogue_02179"
+   ],
+   "note": "One sentence split across two boxed rows; 2179 starts lowercase on purpose. 'waga taigi' rendered 'my great cause' (could be 'our')."
+  },
+  {
+   "ids": [
+    "dialogue_02191",
+    "dialogue_02192"
+   ],
+   "note": "2191 idiom 'gaishuu isshoku' paraphrased. 2192 'nido to wasuren' has no object (in 0083 Gato says it of Uraki); object not supplied."
+  },
+  {
+   "ids": [
+    "dialogue_02193"
+   ],
+   "note": "'dasshutsu wo' could be 'eject' or 'withdraw'; 'get out of there' covers both."
+  },
+  {
+   "ids": [
+    "dialogue_02205"
+   ],
+   "note": "Placeholder source is ungrammatical; read as 'Gato strongly acknowledges the pilot'."
+  },
+  {
+   "ids": [
+    "dialogue_02209",
+    "dialogue_02214"
+   ],
+   "note": "Resource 6070 (Mission 07, Getter Robo Armageddon). Speakers untagged: 2209-2211 fleet commander, 2212 someone confronting Saotome (likely Hayato), 2213-2214 Saotome - none asserted in text."
+  }
+ ],
+ "validation": {
+  "controls": "Ordered <...> command list of every target equals the source's (console check against the ISO text).",
+  "fit": "No newlines; ASCII only; no percent sign; longest visible text reported in the agent's final report.",
+  "glyphs": "Lowercase j/q only in locked names/ranks (Japan, Major).",
+  "meaning_review": "Independent meaning review done (review_02135.json): all 80 rows compared with the ISO source, 0 meaning fixes, all rows meaning_reviewed; open call on 2212 listed in the review file."
+ },
+ "rows": [
+  {
+   "id": "dialogue_02135",
+   "target": "<op()><sp(20)>* Delaz's battleship appears, 1<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02136",
+   "target": "<op()><sp(20)>* Delaz's battleship appears, 2<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02137",
+   "target": "<op()><sp(20)>* Delaz's battleship appears, 3<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02138",
+   "target": "<op()><sp(20)>* Notice: Giganos reinforcements (battleship appears)<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder. Last row of resource 6061."
+  },
+  {
+   "id": "dialogue_02139",
+   "target": "<op()><sp(20)>Gundam Unit 2 confirmed!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Resource 6062 begins (legacy ACE2: pursuit of Gato's Unit 2 after the nuclear attack)."
+  },
+  {
+   "id": "dialogue_02140",
+   "target": "<op()><sp(20)>Stop him! That's the Nightmare of Solomon! Stay sharp!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "'yatsu' = Anavel Gato (male per Gundam wiki / Wikipedia)."
+  },
+  {
+   "id": "dialogue_02141",
+   "target": "<op()><sp(20)>Enemy sighted!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02142",
+   "target": "<op()><sp(20)>What's the damage on our side?<ab(100)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02143",
+   "target": "<op()><sp(20)>Two-thirds of the fleet at the naval review is unable to fight.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02144",
+   "target": "<op()><sp(20)>The outcome is settled. Why do you still fight?<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02145",
+   "target": "<op()><sp(20)>Stay still, and you would be spared the suffering!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02146",
+   "target": "<op()><sp(20)>Damn youuu!!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02147",
+   "target": "<op()><sp(20)>Don't let it get away, no matter what!<ab(400)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Object omitted; 'it' = the target of 2149, as in batch 1506."
+  },
+  {
+   "id": "dialogue_02148",
+   "target": "<op()><sp(20)>Still haven't caught up?!<ab(400)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02149",
+   "target": "<op()><sp(20)>Target lost...<ab(400)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02150",
+   "target": "<op()><sp(20)>Damn...! Got away...!<ab(700)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Subject omitted as in source."
+  },
+  {
+   "id": "dialogue_02151",
+   "target": "<op()><sp(20)>Gato! Can you hear me?! Answer me!<ab(400)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02152",
+   "target": "<op()><sp(20)>You can hear me, Gato! Even if you've forgotten, I never will!<ab(400)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02153",
+   "target": "<op()><sp(20)>!? The man from that time...<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Source says 'otoko' (man)."
+  },
+  {
+   "id": "dialogue_02154",
+   "target": "<op()><sp(20)>I'll keep chasing you until this is settled!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02155",
+   "target": "<op()><sp(20)>Hmph. Yet all you do is add a flourish to my victory.<ab(400)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02156",
+   "target": "<op()><sp(20)>And! I told you I have no words to spare for you!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Lit. 'no tongue to speak to you'; callback to Gato's line in 0083."
+  },
+  {
+   "id": "dialogue_02157",
+   "target": "<op()><sp(20)>You must be satisfied, Gato!<ab(200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02158",
+   "target": "<op()><sp(20)>But for us, who had Unit 2 stolen, that is a humiliation!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02159",
+   "target": "<op()><sp(20)>Hmph, I can understand that. You seem to have tasted much bitterness.<ab(500)>",
+   "status": "meaning_reviewed",
+   "notes": "No <ed()> in source; continues in 2160. 'kimo wo nameta' = endured bitter hardship."
+  },
+  {
+   "id": "dialogue_02160",
+   "target": "<sp(20)>Every battle begins rooted in a grudge. That is only natural!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02161",
+   "target": "<op()><sp(20)>Ngh... How long will you keep running your mouth?!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02162",
+   "target": "<op()><sp(20)>But one who sustains the fight on grudge alone cannot defeat me!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02163",
+   "target": "<op()><sp(20)>For I stand on a righteous cause!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "'gi ni yotte tatte iru'; 'righteous cause' avoids lowercase j of 'justice'."
+  },
+  {
+   "id": "dialogue_02164",
+   "target": "<op()><sp(20)>Dammit!<ab(200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02165",
+   "target": "<op()><sp(20)>A man who fights as a mere cog could never understand!<ab(600)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Source says 'otoko' (man)."
+  },
+  {
+   "id": "dialogue_02166",
+   "target": "<op()><sp(20)>What more do you intend to do with that Gundam?! Zeon is gone!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02167",
+   "target": "<op()><sp(20)>And so the UCE seized hegemony over the Earth Sphere.<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "UCE as in encyclopedia_022."
+  },
+  {
+   "id": "dialogue_02168",
+   "target": "<op()><sp(20)>But do you feel no doubt at all about that regime?!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02169",
+   "target": "<op()><sp(20)>What is your reason for fighting?! You have none, do you?!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02170",
+   "target": "<op()><sp(20)>One who fights aimlessly, without reason, cannot defeat me! For I stand on a righteous cause!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02171",
+   "target": "<op()><sp(20)>Nightmare of Solomon, demon, whatever - leave Unit 2 and get lost!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Source puns akumu (nightmare) / akuma (demon)."
+  },
+  {
+   "id": "dialogue_02172",
+   "target": "<op()><sp(20)>Quite the spirited kid. But battle is not won on vigor alone!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "'bouzu' rendered 'kid'."
+  },
+  {
+   "id": "dialogue_02173",
+   "target": "<op()><sp(20)>Those with no conviction to sustain them cannot defeat me!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02174",
+   "target": "<op()><sp(20)>For I stand on a righteous cause!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02175",
+   "target": "<op()><sp(20)>Why did you fire a nuke?! So many people were aboard that fleet!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02176",
+   "target": "<op()><sp(20)>And they're dead!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02177",
+   "target": "<op()><sp(20)>In battle, who has time to worry over the enemy's lives?!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02178",
+   "target": "<op()><sp(20)>Whoever stands in the way of my great cause,<ab(0)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Sentence continues in 2179."
+  },
+  {
+   "id": "dialogue_02179",
+   "target": "<op()><sp(20)>no matter who, I feel no hesitation in taking their life!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Continuation of 2178; lowercase start kept deliberately."
+  },
+  {
+   "id": "dialogue_02180",
+   "target": "<op()><sp(20)>Those swept along by sentiment alone cannot defeat me! For I stand on a righteous cause!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02181",
+   "target": "<op()><sp(20)>For those wallowing in idle slumber, this is a true nightmare.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02182",
+   "target": "<op()><sp(20)>In the end, they can do nothing without an organization's banner over them.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02183",
+   "target": "<op()><sp(20)>To think I must fight the likes of these.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02184",
+   "target": "<op()><sp(20)>I'm sick of your so-called great cause! Because of it, my partner...<ab(200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "'aibou' = partner/buddy; referent not named."
+  },
+  {
+   "id": "dialogue_02185",
+   "target": "<op()><sp(20)>Hate me if you will! Every battle begins rooted in a grudge.<ab(200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02186",
+   "target": "<op()><sp(20)>That is only natural!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Continues 2185 (same wording as 2160)."
+  },
+  {
+   "id": "dialogue_02187",
+   "target": "<op()><sp(20)>But one who sustains the fight on grudge alone cannot defeat me!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Same text as 2162."
+  },
+  {
+   "id": "dialogue_02188",
+   "target": "<op()><sp(20)>Ngh... you've improved! Uraki, was it?<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02189",
+   "target": "<op()><sp(20)>Uraki, was it?<ab(200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Short variant of 2188."
+  },
+  {
+   "id": "dialogue_02190",
+   "target": "<op()><sp(20)>To think I'd be pushed this far...<ab(0)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "By whom is left unstated as in source."
+  },
+  {
+   "id": "dialogue_02191",
+   "target": "<on()><sp(20)>How feeble. So this is what brushing a foe aside means.<ab(0)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "'gaishuu isshoku' = defeating a foe with one brush of the armored sleeve."
+  },
+  {
+   "id": "dialogue_02192",
+   "target": "<on()><sp(20)>I will not forget a second time!<ab(0)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "Object omitted in source."
+  },
+  {
+   "id": "dialogue_02193",
+   "target": "<on()><sp(20)>Major, get out of there!<ab(0)><off()>",
+   "status": "meaning_reviewed",
+   "notes": "'dasshutsu wo' = escape/eject; Major = Gato (batch 1506)."
+  },
+  {
+   "id": "dialogue_02194",
+   "target": "<on()><sp(20)>Gatooooo!!<ab(0)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02195",
+   "target": "<on()><sp(20)>Unit 2 has been successfully destroyed.<ab(0)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02196",
+   "target": "<on()><sp(20)>But is this truly the end...?<ab(0)><off()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02197",
+   "target": "<op()><sp(20)>* Enemy reinforcements - reinforcement unit that came to support Gato<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02198",
+   "target": "<op()><sp(20)>* Banter between Gato and the pilot - per-unit message (temp ID: 10)<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02199",
+   "target": "<op()><sp(20)>* Gato's line, part 1 - per-unit message (temp ID: 11)<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02200",
+   "target": "<op()><sp(20)>* Gato's line, part 2 - per-unit message (temp ID: 12)<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02201",
+   "target": "<op()><sp(20)>* Gato's line, part 3 - per-unit message (temp ID: 13)<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02202",
+   "target": "<op()><sp(20)>* Gato slightly acknowledges the player's skill - per-unit message (temp ID: 14)<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02203",
+   "target": "<op()><sp(20)>* Gato snaps<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02204",
+   "target": "<op()><sp(20)>* Banter between angry Gato and the pilot - per-unit message (temp ID: 15)<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02205",
+   "target": "<op()><sp(20)>* Gato strongly acknowledges the pilot - per-unit message (temp ID: 16)<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder; source grammar is garbled ('pilot TO hageshiku mitomeru')."
+  },
+  {
+   "id": "dialogue_02206",
+   "target": "<op()><sp(20)>* Pep talk: don't let the GP02 escape<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02207",
+   "target": "<op()><sp(20)>* Warning: GP02 about to escape, part 1<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder."
+  },
+  {
+   "id": "dialogue_02208",
+   "target": "<op()><sp(20)>* Warning: GP02 about to escape, part 2<ab(3000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Developer placeholder. Last row of resource 6062."
+  },
+  {
+   "id": "dialogue_02209",
+   "target": "<op()><sp(20)>All ships, advance. The target is Shin Dragon.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Resource 6070 (Mission 07) begins."
+  },
+  {
+   "id": "dialogue_02210",
+   "target": "<op()><sp(20)>All units, clear out the targets.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02211",
+   "target": "<op()><sp(20)>Ignore the enemies to the rear. Just focus on moving the ships forward.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_02212",
+   "target": "<op()><sp(20)>Damn that Saotome... The Deuteron Missile should have been a direct hit.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Addressed to Saotome, who answers in 2213. Deuteron Missile per encyclopedia book 52. Orchestrator: two independent reviewers read this as a muttered curse about Saotome, not direct address; wording keeps both readings."
+  },
+  {
+   "id": "dialogue_02213",
+   "target": "<op()><sp(20)>I told you I would not die!<ab(300)>",
+   "status": "meaning_reviewed",
+   "notes": "No <ed()> in source; continues in 2214."
+  },
+  {
+   "id": "dialogue_02214",
+   "target": "<sp(20)>Yes, not until I witness the extinction of you humans and the world's last day!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "'the last day of the world' phrasing follows encyclopedia_022."
+  }
+ ]
+}

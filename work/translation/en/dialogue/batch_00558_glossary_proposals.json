@@ -1,0 +1,14 @@
+{
+  "status":"proposed_for_orchestrator_review",
+  "reviewed_on":"2026-09-18",
+  "scope":"Missing terms in rows558-637; shared glossary unchanged.",
+  "entries":[
+    {"source_name":"タック","en":"Tak","full_name":"Tak Kepford","category":"character","position":"ACE2 protagonist and Gun Ark pilot; local corpus addresses him as Lieutenant.","gender":null,"personality":null,"nicknames":[],"profile_status":"Incomplete; gender and personality not established by reviewed source.","sources":["https://en.wikipedia.org/wiki/Another_Century%27s_Episode_2"],"note":"Wiki spelling Tak wins over unsourced Tack. Context strongly indicates ACE2 legacy text."},
+    {"source_name":"ウラキ","en":"Uraki","full_name":"Kou Uraki","category":"character","position":"Test pilot who joins the Albion crew.","gender":null,"personality":null,"nicknames":[],"profile_status":"Incomplete; no gendered third-person pronouns used in draft.","sources":["https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_0083%3A_Stardust_Memory"],"note":"Ensign chosen for rank in naval register; requires project-wide rank confirmation."},
+    {"source_name":"シナプス","en":"Synapse","full_name":"Eiphar Synapse","category":"character","position":"Captain of the Albion.","gender":null,"personality":null,"nicknames":[],"profile_status":"Incomplete; no gendered third-person pronouns used in draft.","sources":["https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_0083%3A_Stardust_Memory"]},
+    {"source_name":"アルビオン","en":"Albion","category":"vessel","sources":["https://gundam.fandom.com/wiki/Pegasus-class","https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_0083%3A_Stardust_Memory"]},
+    {"source_name":"ホワイトベース級","en":"White Base-class","category":"vessel_class","canonical_alternative":"Pegasus-class","sources":["https://gundam.fandom.com/wiki/Pegasus-class"],"note":"The wiki explicitly documents White Base-class as an alternate name. Preserve source wording rather than changing this astonished recognition line to Pegasus-class."},
+    {"source_name":"ジム","en":"GM","category":"unit","sources":["https://gundam.fandom.com/wiki/RGM-79_GM"],"note":"Source does not identify the GM variant; no model number added."},
+    {"source_name":"メタルアーマー","en":"Metal Armor","category":"unit_type","sources":["https://en.wikipedia.org/wiki/Metal_Armor_Dragonar","https://mmecha.fandom.com/wiki/Metal_Armors"]}
+  ]
+}

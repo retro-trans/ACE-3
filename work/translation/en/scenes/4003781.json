@@ -1,0 +1,93 @@
+{
+ "resource_id": 4003781,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 7,
+ "rows_examined": 7,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Antibody Coralian",
+   "notes": "Enemy faction name.",
+   "source_sha256": "be07d861e355f817558610fcf4647e1f698c65809e0152c9918f169e499a3421"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23030,1)><speed(2)><move(1,14,7)>Listen up, I'm going to lay out the operation<marker(1,14,7,1)>.<move(2,14,7)>",
+   "notes": "",
+   "source_sha256": "0f2fd88b601041ee3282242a4ef9e6104627c89e09fdb252093212a704a324c4"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23030,1)><speed(2)>Right now, a horde of <book(73)>Antibody Coralians<endbook()><marker(20,7,0,0)> is swarming<marker(48,7,1,0)><marker(20,10,1,0)> and blocking<marker(48,10,2,0)><marker(20,2,2,0)> our path<marker(45,3,3,0)><marker(20,5,3,0)><marker(45,6,4,0)><marker(20,11,3,0)><marker(48,11,4,0)><marker(20,8,4,0)><marker(45,9,5,0)><marker(20,5,10,0)> - but<marker(29,6,9,0)><marker(20,9,10,0)> we<marker(29,10,9,0)><marker(20,11,11,0)> have<marker(18,11,10,0)><marker(20,7,12,0)> no time<marker(18,7,11,0)><marker(20,2,13,0)> for this<marker(29,3,12,0)><marker(20,10,13,0)><marker(18,10,12,0)>.",
+   "notes": "24 markers in the source (syllable-level highlight); clustered onto English word boundaries in the same order. Timing only checkable in a build.",
+   "source_sha256": "5699387fc697b92cef1483d39a2aae4a3d101496ddb87b7c191e57afe6e02cf3"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23030,1)><speed(2)><color(4)><move(1,12,6)>The Gekko<ce()> will<marker(3,12,7,0)> force its way through<move(1,12,8)> here. Hold back the nearby <book(73)>Antibody Coralians<endbook()><move(2,12,7)><picture(63,30,7,0)><refer(30,7,12,6)><line(14,12,9,4,9)> and cover us a while<marker(42,1,6,0)>.",
+   "notes": "'Hold back' (verb) precedes its object in English but follows it in the source; move/picture/refer/line kept in source order immediately after 'Antibody Coralians' regardless.",
+   "source_sha256": "628a23313cdf0db4c1f78f003807f68963e9dafc466b1a77778ceb97f5a9dea5"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)>Seems there are some <book(73)>Antibody Coralians<endbook()> we haven't confirmed before too, but we can't afford to worry about that.",
+   "notes": "",
+   "source_sha256": "109b4528cd1b8f7f3330691c47356207c8e9b3d62ef20088e1a207d922529af5"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23030,1)><speed(2)>All we need to do is reach <color(4)>Eureka<ce()> as fast as we possibly can.",
+   "notes": "",
+   "source_sha256": "4fb5f0acfbd8b266538eecf5ea43c48b7e477089b9df6892482a1f757c453f4d"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<delpic(30,7,1)><enemylist()><operator(23030,1)><speed(2)>Everyone... I'm counting on you.",
+   "notes": "",
+   "source_sha256": "98ca152af6c21497ffdbbd3d1eb463dfdfbe9eecd00b3101ca58b48fd472465f"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "24 markers spread across two clauses; grouped at natural word boundaries in the source's exact order, not verified against a build."
+  },
+  {
+   "slot": 21,
+   "issue": "Verb/object order flip between Japanese and English forced the move/picture/refer/line cluster to sit after 'Antibody Coralians' rather than after 'Hold back'; order among tags preserved, exact timing not verified."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 7,
+  "rows_in_scene": 7,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 'Antibody Coralian' matches locked spelling.",
+   "Slot 21 'The Gekko' ship name confirmed against glossary.json (org.gekkostate entry: \"Holland's outlaw group based aboard the Gekko\"); correct, no fix needed.",
+   "Slots 19-24 checked against source: subject 'we/our' for the blocked path correctly kept plural/first-person; 'Hold back'/'cover us' addressed to the player's forces while Holland's own ship (the Gekko) breaks through, matching the source's division of labor.",
+   "Slot 21 ruling: verb/object reordering forced by English word order keeps the move/picture/refer/line tag cluster after 'Antibody Coralians' in source order; accepted, meaning unaffected.",
+   "Slot 23 'Eureka' - proper name, unchanged; consistent with other reviewed scenes."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: 24 syllable-level markers grouped at natural English word boundaries in source order; timing not verified in a build.",
+   "Slot 21: tag cluster placed after 'Antibody Coralians' rather than after 'Hold back' due to the verb/object order flip; tag order preserved, exact timing not verified."
+  ]
+ }
+}

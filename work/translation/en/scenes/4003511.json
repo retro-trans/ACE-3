@@ -1,0 +1,97 @@
+{
+ "resource_id": 4003511,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 7,
+ "rows_examined": 7,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17080,1)><speed(2)><move(1,5,13)>I will now explain the operation<marker(1,5,13,0)>.<move(2,5,13)>",
+   "notes": "",
+   "source_sha256": "f44526a394af86f4164bbff489b837b73a5557109bdb283430147e7bb2b0349f"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17080,1)><speed(2)>The goal this time is to <move(1,10,1)>wipe out the <color(5)>targets<ce()><marker(22,8,1,0)><marker(22,10,1,0)><marker(22,8,4,0)>. <move(1,7,9)>Check on the radar where the <color(5)>targets<marker(22,7,9,0)><ce()> are<move(2,10,1)><picture(60,30,7,0)><refer(30,7,10,1)>, then destroy them.",
+   "notes": "Three markers fire together after \"targets\"; fourth marker kept inside the color span as in source.",
+   "source_sha256": "b60958457681595255e94816a3ef98dc699cd3909e9574cf676bebd0cb1dbaf6"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17080,1)><speed(2)>One point of caution. Around the operation area there are <book(38)>New Federation<endbook()> <marker(26,2,5,0)><marker(26,5,5,0)><color(5)><marker(26,10,6,0)><marker(26,12,8,0)>bases<ce()><marker(26,12,11,0)><marker(26,10,13,0)>, and <color(5)>enemy <marker(20,2,2,0)><marker(20,4,0,0)>units<marker(20,12,6,0)><marker(20,13,4,0)><marker(20,14,3,0)><ce()><marker(20,1,8,0)><marker(20,0,10,0)> will sortie.<picture(59,30,14,0)><refer(30,14,12,8)>",
+   "notes": "Markers placed at word boundaries (never inside a word).",
+   "source_sha256": "5081d47fb5f8a113177b9ce88f55134b5a0c7e3f2c259383101831f099f6624b"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17080,1)><speed(2)>Capturing the <color(5)>bases<ce()> holds down enemy sorties <move(1,7,11)>and also cuts attacks on the <color(4)>Gekko<ce()><marker(3,7,11,0)><move(2,6,10)><picture(63,2,7,0)><refer(2,7,7,11)>.<marker(5,5,7,0)> Please try to capture them early.",
+   "notes": "Gekko = the ship (glossary.json).",
+   "source_sha256": "bbd62f5ca1ef3bd91c1873300caf61c42c549da6e7c0b0e8c4f15b644bd3bfdd"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17080,1)><speed(2)>Also, the <book(38)>New Federation<endbook()>'s main weapon, the <book(66)>KLF<endbook()><picture(62,2,14,0)>, excels at high-mobility combat using ref boards. Please fight with care.",
+   "notes": "ref boards as in Encyclopedia.",
+   "source_sha256": "1009cf42111b864cc7f940e12a8d8ac19ba68232a1430b5c41b4f4fd31e08ad0"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<delpic(2,7,1)><enemylist()><operator(17080,1)><speed(2)>Well then, please sortie.",
+   "notes": "",
+   "source_sha256": "9b19ea45e6927c62af189e3b445566523b582c32e884375d0e1633b79c8c77df"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Marker timing: source spreads 3 markers over \"no soutou\" (sweep of); English fires them together after \"targets\". On-screen timing not verifiable without a build."
+  },
+  {
+   "slot": 21,
+   "issue": "Source splits markers inside the two-kanji words (kyoten, butai); English puts them before/after the whole word so no word is broken by a tag. Order unchanged."
+  },
+  {
+   "slot": 22,
+   "issue": "<move(2,6,10)> does not match the earlier <move(1,7,11)> coordinates in the source; copied as is."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 7,
+  "rows_in_scene": 7,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker: 17080 Sala Tyrrell (polite register kept).",
+   "Slot 0 \"New Federation\" = enemy faction label, orchestrator spelling.",
+   "Slot 20 ruling: three type-22 markers fired together after \"targets\" - order identical to source, only timing differs; acceptable, needs an on-screen look. <move(1,7,9)> starts the radar sentence as in the source.",
+   "Slot 21 ruling: moving markers to word boundaries instead of between the two kanji of kyoten/butai is correct practice; command order identical.",
+   "Slot 22 ruling: <move(2,6,10)> not matching <move(1,7,11)> is source data; copied unchanged, correct.",
+   "Slot 22: \"Gekko\" = the ship, matches glossary.json. Slot 23: \"ref boards\" and \"KLF\" match encyclopedia_022."
+  ],
+  "remaining_uncertainties": [
+   "Slots 20-21: marker timing relative to the English words can only be verified in a build."
+  ]
+ }
+}

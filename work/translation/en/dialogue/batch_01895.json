@@ -1,0 +1,586 @@
+{
+  "slice_start": 1895,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1880,
+      1989
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_01905",
+        "dialogue_02000"
+      ],
+      "note": "Clipped nickname of the Siberian Railway rendered 'Sibe-Rail' (project coinage, no official English found). Fallback is the full 'Siberian Railway' (locked). Row 2000 is in batch_01975."
+    },
+    {
+      "id": "dialogue_01904",
+      "note": "'Gauli Team' follows English Wikipedia; character glossary role text says 'Gauli Squad' (not a locked term entry; 'Team' also avoids the missing q glyph)."
+    },
+    {
+      "ids": [
+        "dialogue_01916",
+        "dialogue_01917",
+        "dialogue_01918",
+        "dialogue_01919",
+        "dialogue_01920",
+        "dialogue_01921",
+        "dialogue_01922",
+        "dialogue_01923"
+      ],
+      "note": "Exchange aboard an unnamed ship that treats the Gekko's arrival as news and is asked for support by the Siberian Railway: a captain and a subordinate who owns the quoted 'cargo'. Speakers and the nature of the cargo are not identified in the table; 1917's verb could mean the captain personally sortieing or the ship launching its forces - 'sortie' kept. 1920 kept passive because the subject is omitted."
+    },
+    {
+      "ids": [
+        "dialogue_01903",
+        "dialogue_01990"
+      ],
+      "note": "Form of address for the player-side reinforcements rendered 'helpers'; a friendlier/more natural alternative ('reinforcements', 'friends') may be preferred for consistency by the reviewer."
+    },
+    {
+      "id": "dialogue_01910",
+      "note": "Verb unsaid in source ('Why are you...'); left open rather than adding 'here' or 'fighting'."
+    },
+    {
+      "id": "dialogue_01914",
+      "note": "Object 'him' with verb omitted; 'why bring him along' infers the verb from Gain's reply in 1915 (he got him involved)."
+    },
+    {
+      "id": "dialogue_01933",
+      "note": "Speaker not identifiable (uses a harsh 'you'); sits between Sara's 1932 and Gainer's 1934. Kept speaker-neutral."
+    },
+    {
+      "id": "dialogue_01946",
+      "note": "Source says only 'found!'; read as the friendly operator reacting to enemy lines 1942-1945 (train discovered). 'It's been spotted' keeps the object loose."
+    },
+    {
+      "id": "dialogue_01952",
+      "note": "'Too late. This is our win.' - which side says it is unclear (timer-expiry line from an enemy, or a friendly line when the train escapes). Feminine speech style in source."
+    },
+    {
+      "id": "dialogue_01960",
+      "note": "Failure line; whether the rebuke is aimed at the listener ('you') or third parties is not stated."
+    },
+    {
+      "ids": [
+        "dialogue_01961",
+        "dialogue_01962",
+        "dialogue_01963",
+        "dialogue_01964",
+        "dialogue_01965"
+      ],
+      "note": "Banter between two unidentified trigger-happy pilots (probably a player-side pilot and Gain or another guest); no identities assigned. 1963/1964 are one sentence split over two rows."
+    },
+    {
+      "ids": [
+        "dialogue_01966",
+        "dialogue_01967",
+        "dialogue_01968",
+        "dialogue_01969",
+        "dialogue_01970"
+      ],
+      "note": "1969 names Eureka as sitting beside the speaker, so that speaker is Renton (male, glossary); the complaining partner is unidentified."
+    },
+    {
+      "ids": [
+        "dialogue_01972",
+        "dialogue_01973",
+        "dialogue_01974"
+      ],
+      "note": "1973-1974 'we left the military' in feminine speech - a Gekkostate member (likely Talho) but not tagged; translation is speaker-neutral."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source from the ISO: all 80 equal.",
+    "fit": "No line breaks; longest visible text 77 characters (limit 110).",
+    "charset": "ASCII only; no bare percent sign; lowercase j/q only inside locked names.",
+    "resource": "All 80 rows belong to resource 6060 (Mission 06 'Support the Exodus').",
+    "meaning_review": "Independent meaning review done: all 80 rows compared with the ISO source (rows 1880-1989 read for context); 1 meaning fix(es) applied, see review_01895.json; all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_01895",
+      "target": "<op()><sp(20)>This is Gain Bijou.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01896",
+      "target": "<sp(20)>Thanks for helping with the operation.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01897",
+      "target": "<op()><sp(20)>Gain, report the situation.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01898",
+      "target": "<op()><sp(20)>The Siberian Railway's security force is deployed along the train's route.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01899",
+      "target": "<op()><sp(20)>So they mean to seal off the escape route.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01900",
+      "target": "<op()><sp(20)>That's right. I'm leaving that side to you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01901",
+      "target": "<op()><sp(20)>Sheesh... You owe me one.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker will count the favour as a debt owed to them."
+    },
+    {
+      "id": "dialogue_01902",
+      "target": "<op()><sp(20)>I've got my hands full with the Exodus too. Cut me some slack.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01903",
+      "target": "<sp(20)>Same goes for you helpers. Counting on you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Gain greets the player-side reinforcements; same form of address recurs in 1990."
+    },
+    {
+      "id": "dialogue_01904",
+      "target": "<op()><sp(20)>This is Sara Kodama of the Gauli Team.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Gauli Team per Wikipedia; see proposals."
+    },
+    {
+      "id": "dialogue_01905",
+      "target": "<sp(20)>Currently in combat with the Siberian Railway.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Source uses the clipped nickname of the Siberian Railway; reviewer ruling: locked full name used (no English clipped form attested)."
+    },
+    {
+      "id": "dialogue_01906",
+      "target": "<sp(20)>It's a bit of a tough fight, but we'll make it on schedule.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01907",
+      "target": "<op()><sp(20)>That voice... Sara from my class?<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01908",
+      "target": "<sp(20)>Sara Kodama!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01909",
+      "target": "<op()><sp(20)>Gainer Sanga?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01910",
+      "target": "<op()><sp(20)>Why are you...?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source leaves the verb unsaid; kept open."
+    },
+    {
+      "id": "dialogue_01911",
+      "target": "<op()><sp(20)>I'm working to make the Exodus happen.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01912",
+      "target": "<op()><sp(20)>A girl like you, in an Exodus?!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01913",
+      "target": "<op()><sp(20)>Save it for later, kid. This is no time for that!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'kid' kept consistent with 2014-2015 where Gainer objects to being called that."
+    },
+    {
+      "id": "dialogue_01914",
+      "target": "<op()><sp(20)>Gain, why bring him along?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source has 'him' as object with the verb omitted."
+    },
+    {
+      "id": "dialogue_01915",
+      "target": "<op()><sp(20)>Well, it's a long story. I happened to drag him into it.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01916",
+      "target": "<op()><sp(20)>So the Gekko has come.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01917",
+      "target": "<op()><sp(20)>Captain, I must ask you not to sortie this time!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Enemy-side ship exchange (1916-1923); speakers not identified."
+    },
+    {
+      "id": "dialogue_01918",
+      "target": "<op()><sp(20)>Protecting the \"cargo\" comes first, huh...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01919",
+      "target": "<sp(20)>But the Siberian Railway has also called for support.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01920",
+      "target": "<sp(20)>The KLF unit will be sent out.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject omitted in source; passive kept."
+    },
+    {
+      "id": "dialogue_01921",
+      "target": "<op()><sp(20)>Captain!!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01922",
+      "target": "<op()><sp(20)>Don't worry, your \"cargo\" will be delivered safely.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01923",
+      "target": "<sp(20)>As for us, let's head for HQ.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01924",
+      "target": "<op()><sp(20)>Gainer, hurry or they'll be here.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01925",
+      "target": "<op()><sp(20)>I'm doing it, okay?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01926",
+      "target": "<op()><sp(20)>Good, good. Counting on you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01927",
+      "target": "<op()><sp(20)>Forcing someone to fight... Is that what a grown-up does?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01928",
+      "target": "<op()><sp(20)>Use the chain gun.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01929",
+      "target": "<op()><sp(20)>I know!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01930",
+      "target": "<op()><sp(20)>Don't break that hard-won Overman.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01931",
+      "target": "<op()><sp(20)>This is my first time piloting this thing!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01932",
+      "target": "<op()><sp(20)>Gainer! You're the King in the game, aren't you?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01933",
+      "target": "<op()><sp(20)>All name and nothing else, are you?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker unidentified; harsh second-person pronoun in source."
+    },
+    {
+      "id": "dialogue_01934",
+      "target": "<op()><sp(20)>Even if it's not a game...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01935",
+      "target": "<op()><sp(20)>Enemy units nearing the escort target's route! Engage them!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01936",
+      "target": "<op()><sp(20)>Enemies nearing the escort target's route. Intercept at once!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01937",
+      "target": "<op()><sp(20)>Enemy units approaching the escort target!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01938",
+      "target": "<op()><sp(20)>Enemy units on the escort target's route!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01939",
+      "target": "<op()><sp(20)>Escort target's route is clear.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01940",
+      "target": "<op()><sp(20)>Escort target resuming its advance.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01941",
+      "target": "<op()><sp(20)>The escort target is moving again.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Variant of 1940 by a different operator voice."
+    },
+    {
+      "id": "dialogue_01942",
+      "target": "<op()><sp(20)>Found the train carrying the high priest. No need to capture it - destroy it.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Enemy commander line."
+    },
+    {
+      "id": "dialogue_01943",
+      "target": "<op()><sp(20)>Locked onto the target train. Moving to attack.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01944",
+      "target": "<op()><sp(20)>Target train spotted.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01945",
+      "target": "<op()><sp(20)>Commencing attack on the target train.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01946",
+      "target": "<op()><sp(20)>It's been spotted! Intercept at once!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source omits what was found; follows enemy lines 1942-1945 about the train, so 'it' = the train. Kept loose."
+    },
+    {
+      "id": "dialogue_01947",
+      "target": "<op()><sp(20)>Intercept the enemy units!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01948",
+      "target": "<op()><sp(20)>Please protect the escort target.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01949",
+      "target": "<op()><sp(20)>The escort target is surrounded!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01950",
+      "target": "<op()><sp(20)>Particle field confirmed ahead of the train. Please disable it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01951",
+      "target": "<op()><sp(20)>The enemy is launching an all-out attack!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01952",
+      "target": "<op()><sp(20)>Too late. This is our win.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01953",
+      "target": "<op()><sp(20)>Time is running out. Hurry!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01954",
+      "target": "<op()><sp(20)>To run out of time after coming this far...!<ab(1100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01955",
+      "target": "<op()><sp(20)>Escort target hit.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01956",
+      "target": "<op()><sp(20)>Damage to the escort target is increasing.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01957",
+      "target": "<op()><sp(20)>Escort target's damage is getting somewhat dangerous.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01958",
+      "target": "<op()><sp(20)>The escort target is in danger! Cover it!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01959",
+      "target": "<op()><sp(20)>The train was destroyed?! No...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01960",
+      "target": "<op()><sp(20)>Damn it...! What the hell are you doing?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Target of the rebuke is not stated in source ('you' vs 'they')."
+    },
+    {
+      "id": "dialogue_01961",
+      "target": "<op()><sp(20)>If you want it flashy, leave it to me!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01962",
+      "target": "<op()><sp(20)>Full of spirit, aren't you.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01963",
+      "target": "<op()><sp(20)>Spraying bullets around is fine for us both, but...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Sentence continues in 1964."
+    },
+    {
+      "id": "dialogue_01964",
+      "target": "<op()><sp(20)>...we'd better not throw our lives around too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01965",
+      "target": "<op()><sp(20)>I think you and I will get along!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01966",
+      "target": "<op()><sp(20)>Brrr... It's freezing!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01967",
+      "target": "<op()><sp(20)>Well, what can you do? This is Siberia, after all!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source's drawn-out wave dash tone rendered in wording; no tilde used."
+    },
+    {
+      "id": "dialogue_01968",
+      "target": "<op()><sp(20)>Aren't you cold?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01969",
+      "target": "<op()><sp(20)>Me? I've got Eureka right next to me.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01970",
+      "target": "<op()><sp(20)>Tch... Listen to you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01971",
+      "target": "<op()><sp(20)>How do Holland and Gain know each other?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01972",
+      "target": "<op()><sp(20)>We go way back, for better or worse. We had a run-in once, long ago.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01973",
+      "target": "<op()><sp(20)>When we were leaving the military, Gain was in the middle of an Exodus too.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01974",
+      "target": "<sp(20)>Each side mistook the other for pursuers back then.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

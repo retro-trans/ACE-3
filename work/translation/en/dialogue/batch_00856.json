@@ -1,0 +1,503 @@
+{
+  "slice_start": 856,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      841,
+      950
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows": [
+    {
+      "id": "dialogue_00856",
+      "target": "<op()><sp(20)>All right! Come at me, all of you!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00857",
+      "target": "<op()><sp(20)>Don't go running away because you're scared of us!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00858",
+      "target": "<op()><sp(20)>You sure talk big. Honestly...<ab(50)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply punctures previous boast; not an endorsement."
+    },
+    {
+      "id": "dialogue_00859",
+      "target": "<op()><sp(20)>Come on, quit fooling around and introduce yourselves!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Introduction follows in860-863."
+    },
+    {
+      "id": "dialogue_00860",
+      "target": "<op()><sp(20)>Oops, that's right... Reporting for duty!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00861",
+      "target": "<sp(20)>Warrant Officer Kaine Wakaba and two others<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Kaine Wakaba follows shared glossary. Two others must remain for row864's joke."
+    },
+    {
+      "id": "dialogue_00862",
+      "target": "<sp(20)>are being reassigned to the Albion unit\nfor the mission to pursue Gundam Unit 2!<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues subject from861."
+    },
+    {
+      "id": "dialogue_00863",
+      "target": "<sp(20)>Glad to be aboard!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Informal sign-off to otherwise formal introduction."
+    },
+    {
+      "id": "dialogue_00864",
+      "target": "<op()><sp(20)>So we're just the \"two others\"?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent explicitly established in861."
+    },
+    {
+      "id": "dialogue_00865",
+      "target": "<op()><sp(20)>The D Weapons... Those were in the military manual...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "D Weapons is a proposed rendering of the collective designation."
+    },
+    {
+      "id": "dialogue_00866",
+      "target": "<sp(20)>State-of-the-art Metal Armors brought over\nby a scientist who defected from Giganos...<ab(700)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00867",
+      "target": "<sp(20)>I don't know much about machinery,\nbut they seem a cut above other Metal Armors.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00868",
+      "target": "<op()><sp(20)>Enemy Metal Armors are heading your way.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Enemy count unspecified; plural generic warning selected."
+    },
+    {
+      "id": "dialogue_00869",
+      "target": "<op()><sp(20)>Target destruction confirmed.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00870",
+      "target": "<sp(20)>The operation is proceeding smoothly.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00871",
+      "target": "<op()><sp(20)>Take it a little easier, Linda.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Familiar tone retained without inventing an English pet name for the honorific."
+    },
+    {
+      "id": "dialogue_00872",
+      "target": "<op()><sp(20)>We're in the middle of an operation!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00873",
+      "target": "<op()><sp(20)>One target remaining!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00874",
+      "target": "<op()><sp(20)>You've got some impressive skills!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Recipient is not the speaker who replies875, as876 establishes. No name inserted."
+    },
+    {
+      "id": "dialogue_00875",
+      "target": "<op()><sp(20)>You bet! Just leave it to me!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00876",
+      "target": "<op()><sp(20)>I wasn't talking to you.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00877",
+      "target": "<op()><sp(20)>A unit has been sighted south of the operational area.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Number and machine type unspecified. Neutral unit used; no allegiance supplied."
+    },
+    {
+      "id": "dialogue_00878",
+      "target": "<op()><sp(20)>All targets confirmed destroyed!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00879",
+      "target": "<op()><sp(20)>All targets confirmed destroyed!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Different script termination preserved despite identical meaning."
+    },
+    {
+      "id": "dialogue_00880",
+      "target": "<op()><sp(20)>We're receiving a surrender message from the enemy.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00881",
+      "target": "<op()><sp(20)>Well, look at you! You're pretty good!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00882",
+      "target": "<op()><sp(20)>Hey, are you still at it over there?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00883",
+      "target": "<op()><sp(20)>Shut up! I'm working on it!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00884",
+      "target": "<op()><sp(20)>Word just came in that the transport convoy has been found.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00885",
+      "target": "<sp(20)>We've been had...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Idiomatic deception, not a literal meal."
+    },
+    {
+      "id": "dialogue_00886",
+      "target": "<sp(20)>The pursuit resumes now. Return at once.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00887",
+      "target": "<op()><sp(20)>Dragonar team,\nyour D-Series upgrade parts have arrived.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "D-Series retains distinction from D Weapons collective designation."
+    },
+    {
+      "id": "dialogue_00888",
+      "target": "<sp(20)>Your units can be converted to Custom types at any time.\nPlease visit the hangar if you'd like the upgrade.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00889",
+      "target": "<op()><sp(20)>Whoo! With a beauty like you,\nI'd rather you upgrade me than my Dragonar!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Flirtatious mechanical-upgrade joke retained."
+    },
+    {
+      "id": "dialogue_00890",
+      "target": "<op()><sp(20)>Uh, sorry about that.\nPlease just ignore that nonsense.<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "No unverified third-person gender supplied for previous speaker."
+    },
+    {
+      "id": "dialogue_00891",
+      "target": "<op()><sp(20)>Dragonar team! What the hell are you playing at?!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00892",
+      "target": "<sp(20)>We need to move on. Get back here now!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00893",
+      "target": "<op()><sp(20)>A module has appeared.<ab(1500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00894",
+      "target": "<sp(20)>You can collect the module\nby locking on to it and approaching it.<ab(3000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Both lock-on and approach retained as required actions."
+    },
+    {
+      "id": "dialogue_00895",
+      "target": "<on()><sp(20)>Dragonar team! The Albion has arrived!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00896",
+      "target": "<on()><sp(20)>You're late!\nWe nearly wiped them all out ourselves!<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00897",
+      "target": "<on()><sp(20)>That's rich! Until a moment ago,\nyou were running around with the enemy on your tail.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Tactical tailing sense retained."
+    },
+    {
+      "id": "dialogue_00898",
+      "target": "<on()><sp(20)>Man... Maybe I should've taken the reward money\nand left the military after all.<ab(0)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00899",
+      "target": "<on()><sp(20)>Aaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaa<ab(1000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Two-line extended vowel retained; could be a dummy or test line, runtime status unverified."
+    },
+    {
+      "id": "dialogue_00900",
+      "target": "<op()><sp(20)>Unit 2 is in one of those!\nDestroy them and find it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Objects are transport ships in adjacent resource context; source demonstrative retained."
+    },
+    {
+      "id": "dialogue_00901",
+      "target": "<op()><sp(20)>Transmitting the target's position.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00902",
+      "target": "<op()><sp(20)>Multiple radar contacts!\nGiganos reinforcements!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00903",
+      "target": "<op()><sp(20)>Charge! Crush the UCE forces!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00904",
+      "target": "<op()><sp(20)>The transport ship appears to be completely empty.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00905",
+      "target": "<op()><sp(20)>A decoy? They've gone to a lot of trouble.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00906",
+      "target": "<op()><sp(20)>Damn them for making this so complicated!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00907",
+      "target": "<op()><sp(20)>Just destroy every last one of them!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00908",
+      "target": "<op()><sp(20)>Another enemy ship confirmed!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00909",
+      "target": "<op()><sp(20)>Head there immediately!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00910",
+      "target": "<op()><sp(20)>Another enemy ship has appeared!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00911",
+      "target": "<op()><sp(20)>Enemy ship shot down!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00912",
+      "target": "<op()><sp(20)>Where is Unit 2?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00913",
+      "target": "<op()><sp(20)>The enemy ship is trying to escape!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00914",
+      "target": "<op()><sp(20)>This is bad! Don't let it get away!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00915",
+      "target": "<op()><sp(20)>The enemy ship has escaped!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00916",
+      "target": "<op()><sp(20)>What are you doing?!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00917",
+      "target": "<op()><sp(20)>It's Unit 2! Don't let it get away, no matter what!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00918",
+      "target": "<op()><sp(20)>...Those reflexes!\nAm I facing the Federation's \"White Devil\"?!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Nickname retained; no speaker label assigned."
+    },
+    {
+      "id": "dialogue_00919",
+      "target": "<op()><sp(20)>Tch, the \"Nightmare of Solomon\"...<ab(600)>",
+      "status": "meaning_reviewed",
+      "notes": "Nickname follows sourced Gundam wiki spelling."
+    },
+    {
+      "id": "dialogue_00920",
+      "target": "<sp(20)>To think we'd end up fighting like this\nafter the war was over...<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Opponents recognize one another in918-919; no specific past encounter added."
+    },
+    {
+      "id": "dialogue_00921",
+      "target": "<op()><sp(20)>Is that a Gundam?\nNo... Its performance is lower... It looks mass-produced.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Unit is not identified beyond source observations."
+    },
+    {
+      "id": "dialogue_00922",
+      "target": "<sp(20)>That much ability in a mass-produced unit?\nJust what you'd expect from a One Year War ace...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00923",
+      "target": "<op()><sp(20)>Why bring that up in the middle of a tactical engagement?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Scene-order predecessor uncertain; demonstrative that retained without inventing the precise issue."
+    },
+    {
+      "id": "dialogue_00924",
+      "target": "<op()><sp(20)>You're an officer too, aren't you? If you're more than a mere soldier,\nlook at the bigger picture!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Contrasts officer's strategic responsibility with rank-and-file role."
+    },
+    {
+      "id": "dialogue_00925",
+      "target": "<op()><sp(20)>Y-yes!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00926",
+      "target": "<op()><sp(20)>Wha...! I'm your enemy!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Preserves surprise at opponent's obedient response."
+    },
+    {
+      "id": "dialogue_00927",
+      "target": "<op()><sp(20)>Damn you! I, Anavel Gato,\nhave waited three years for this.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00928",
+      "target": "<sp(20)>I won't let fools without judgment like you\nstand in the way of our ideals!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00929",
+      "target": "<op()><sp(20)>Your ideals...?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source echoes our ideals from opponent's speech. Your expresses the listener questioning that claim, not joining the group."
+    },
+    {
+      "id": "dialogue_00930",
+      "target": "<op()><sp(20)>We will win true freedom\nfor the Spacenoids.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00931",
+      "target": "<sp(20)>My righteous sword will sever those evil shackles!<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source elliptical verb inferred from liberation in930 and sword metaphor; does not identify a particular government as the shackles."
+    },
+    {
+      "id": "dialogue_00932",
+      "target": "<op()><sp(20)>...Freedom? What do you mean?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Elliptical what questions the liberation claim; wording avoids choosing who is freed or what they are freed from."
+    },
+    {
+      "id": "dialogue_00933",
+      "target": "<op()><sp(20)>Anavel Gato, the Nightmare of Solomon...<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00934",
+      "target": "<op()><sp(20)>...Impressive!\nTo think even the rotten UCE has someone like this!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Assessment of opponent's skill, not I can do it."
+    },
+    {
+      "id": "dialogue_00935",
+      "target": "<op()><sp(20)>Heh heh heh heh heh. Shall we begin?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    "Resources6021-6022 contain Gundam Unit2/Albion/UCE pursuit and likely ACE2 legacy content;6021 also contains Renton/Nirvash opening lines outside this slice. Mixed or reused resource content is not proof of live ACE3 use.",
+    "No event or speaker mapping was available. Direct references are grounded in nearby dialogue, but runtime branch order is unverified.",
+    "Rows868 and877 do not explicitly specify unit count; natural English number choices await visual confirmation.",
+    "Row899 is a two-line prolonged vowel with unclear dramatic or test-data purpose; retained as an extended cry.",
+    "Row923 refers elliptically to a discussion whose exact trigger is not established in storage order.",
+    "Row931's omitted verb is supplied as sever from liberation and sword imagery. Row932's what may question the thing to free or what it is freed from; the draft leaves the question general.",
+    "Full drafts have not been measured for display fit or synchronized to audio."
+  ],
+  "independent_review": "review_00856.json"
+}

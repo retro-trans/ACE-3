@@ -1,0 +1,128 @@
+{
+  "slice_start": 5614,
+  "slice_count": 80,
+  "rows_examined": [
+    [5599, 5708]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": ["dialogue_05637"],
+      "note": "'that thief' (rei no dorobou-san) is an unexplained nickname not otherwise attested in the reviewed corpus checked so far; kept literal rather than guessing which character it references."
+    },
+    {
+      "ids": ["dialogue_05640", "dialogue_05641", "dialogue_05642", "dialogue_05643", "dialogue_05644"],
+      "note": "Speaker is an unnamed ally of Berkt's (unrelated to Barrel's side); no name or gender is given in the table, so none was assigned. 'Seems that one is here too' (05644) leaves the referent ('yatsu') as vague as the source."
+    },
+    {
+      "ids": ["dialogue_05646", "dialogue_05647", "dialogue_05648", "dialogue_05649", "dialogue_05650", "dialogue_05651", "dialogue_05652", "dialogue_05661"],
+      "note": "Berkt/Barrel confrontation after Berkt's face is revealed to resemble Barrel's; speaker turns are not tagged, so lines are translated to preserve the back-and-forth without asserting which exact line belongs to which of the two beyond what character_names_021's 'keep a separate identity from Barrel even when the story connects them' note implies."
+    },
+    {
+      "ids": ["dialogue_05654", "dialogue_05656", "dialogue_05666", "dialogue_05697", "dialogue_05709", "dialogue_05712"],
+      "note": "Female sentence-final particles (wa/wane) mark these as spoken by a woman, but the rows are untagged; no specific identity was inserted beyond context already evident from color()-tagged names elsewhere (e.g. 05655 'Faye', 05666 addresses 'Barrel')."
+    },
+    {
+      "ids": ["dialogue_05663", "dialogue_05664", "dialogue_05665"],
+      "note": "The 'long-lost brothers' joke and the apology that follows are from an unnamed bystander in the post-battle scene; not assigned to a specific named crew member."
+    },
+    {
+      "ids": ["dialogue_05672"],
+      "note": "'Ensign Barrel' follows the locked rank pairing in terms_028.json (Barrel's rank shoui = Ensign); the <color(4)> span is kept around 'Barrel' only, matching the source's tag scope, with 'Ensign' placed before it per the existing 'Lieutenant Commander <color(4)>Hoshino<ce()>' rank+name convention (batch_01073)."
+    },
+    {
+      "ids": ["dialogue_05685"],
+      "note": "Reordered clauses to keep <book(31)>Nergal<endbook()>, then <color(4)>Inez<ce()>, then <book(30)>Boson Jump<endbook()> in the same order the tags appear in the source line, even though natural English syntax would otherwise put Inez first."
+    }
+  ],
+  "validation": {
+    "fit": "Full meaning drafted for every row; longest multi-line row (dialogue_05685) checked at roughly 108 visible characters, under the 110 limit.",
+    "controls": "Every source <...> command reproduced in the same order, including the <on()>...<ab(10000)><off()> pattern for rows 05625-05661 and the untagged (no <ab>/<off>) post-battle conference rows 05662-05693, matching the source exactly.",
+    "format": "Line-break (\\n) counts kept identical to source for every row.",
+    "glossary": "Locked terms used: Macross/Wormhole/Baldora Charge/Baldora Drive (encyclopedia_022.json), Boson Jump, Nadesico C (book21), Nergal (book31, bare-word form matching the book(9) Federation/Earth Federation adaptation pattern), Jumper (book27), Inez Fressange / Inez (character_names_021.json), Ensign Barrel (terms_028.json), Martian Successors (encyclopedia_021_a.json id 29), Faye (glossary.json char.faye_rochenante), Berkt (character_names_021.json). No new terms proposed.",
+    "meaning_review": "Independent meaning review of all 80 rows against the Japanese source (dialogue_corpus.py slice 5614 80 --context 15). Two meaning fixes applied: dialogue_05637 ('you mentioned' invented a specific prior mention not in 'rei no'/that notorious thief) and dialogue_05682 (mistranslated the shuttle explosion as the kidnapping's method instead of its cover story, contradicted by the parallel fake-death cover-up in dialogue_05684). The face-reveal confrontation (dialogue_05646-dialogue_05661) was checked line-by-line; no line asserts a speaker identity beyond what the untagged source itself supports. Remaining rows verified against source and glossary with no other meaning errors found; all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {"id": "dialogue_05614", "target": "<sp(20)>I will cut that accursed chain.<ab(200)>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05615", "target": "<sp(20)>...By destroying everything.<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05616", "target": "<op()><sp(20)>Like hell that's a reason!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05617", "target": "<op()><sp(20)>Everyone fights for everyone else.\n...That's what drives us!<ab(700)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05618", "target": "<op()><sp(20)>So fighting for one's own ego is the ideal?<ab(100)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05619", "target": "<op()><sp(20)>It's not about ego!<ab(100)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05620", "target": "<op()><sp(20)>It's the clash of egos that breeds fighting.<ab(500)>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05621", "target": "<sp(20)>That's why I will destroy... everything.<ab(300)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05622", "target": "<op()><sp(20)>That makes no sense at all!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05623", "target": "<op()><sp(20)>There's no time!\nHurry, please!!<ab(800)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05624", "target": "<op()><sp(20)>We didn't make it in time...!<ab(1100)><ed()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05625", "target": "<on()><sp(20)>The Macross...!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05626", "target": "<on()><sp(20)>Macross is out of control!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05627", "target": "<on()><sp(20)>The Macross...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05628", "target": "<on()><sp(20)>Retreat! Fall back!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05629", "target": "<on()><sp(20)>Muahahahaha!! Until we meet again!!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05630", "target": "<on()><sp(20)>High-energy reading from the Macross's main gun!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05631", "target": "<on()><sp(20)>...It's under direct control.\nThis can't be stopped.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05632", "target": "<on()><sp(20)>Give them one last blast!!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05633", "target": "<on()><sp(20)>All hands, evacuate!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05634", "target": "<on()><sp(20)>No! We won't make it!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05635", "target": "<on()><sp(20)>!!\n...The Macross has gone silent...!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05636", "target": "<on()><sp(20)>Lt. Cmdr. Hoshino, is that you?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "Rank per meeting_terms_015.json."},
+    {"id": "dialogue_05637", "target": "<on()><sp(20)>No, it's that notorious thief.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "See uncertainties: nickname not otherwise attested. Meaning-reviewed: 'you mentioned' invented a specific prior mention the source ('rei no', that well-known/usual one) does not state."},
+    {"id": "dialogue_05638", "target": "<on()><sp(20)>Berkt!!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05639", "target": "<on()><sp(20)>My business is done. I'm pulling out.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05640", "target": "<on()><sp(20)>No, I'll make my move here.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05641", "target": "<on()><sp(20)>After playing it cool all this time?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05642", "target": "<on()><sp(20)>They've fought better than expected.\nThey deserve some respect.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05643", "target": "<on()><sp(20)>Besides...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05644", "target": "<on()><sp(20)>Seems that one is here too.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05645", "target": "<on()><sp(20)>Berkt!<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05646", "target": "<on()><sp(20)>...All because of idle chatter...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05647", "target": "<on()><sp(20)>B... Barrel...?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05648", "target": "<on()><sp(20)>The same face... as mine?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05649", "target": "<on()><sp(20)>You... what exactly are you?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "'exactly' avoids the lowercase j in 'just'."},
+    {"id": "dialogue_05650", "target": "<on()><sp(20)>You know nothing of true fear or grief...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05651", "target": "<on()><sp(20)>Then what exactly are you, to say that?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05652", "target": "<on()><sp(20)>What...?<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05653", "target": "<on()><sp(20)>I'll erase you, along with this accursed world...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05654", "target": "<on()><sp(20)>I won't let you do that.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05655", "target": "<on()><sp(20)>Faye...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": "Faye per glossary.json char.faye_rochenante."},
+    {"id": "dialogue_05656", "target": "<on()><sp(20)>Berkt! Let's go.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05657", "target": "<on()><sp(20)>Heh...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05658", "target": "<on()><sp(20)>Just what is that guy...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05659", "target": "<on()><sp(20)>Somebody... tell me.<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05660", "target": "<on()><sp(20)>Barrel...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05661", "target": "<on()><sp(20)>That was a costly mistake...<ab(10000)><off()>", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05662", "target": "<on()><sp(20)><color(5)>Berkt<ce()> is me...\nJust what is going on...?", "status": "meaning_reviewed", "notes": "Untimed post-battle conference row (no <ab>/<off>) matching source."},
+    {"id": "dialogue_05663", "target": "<on()><sp(20)>Maybe long-lost brothers, or something...?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05664", "target": "<on()><sp(20)>Hey, stop fooling around...", "status": "meaning_reviewed", "notes": "'stop fooling around' avoids the lowercase q/j in 'quit'/'joking'."},
+    {"id": "dialogue_05665", "target": "<on()><sp(20)>Sorry...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05666", "target": "<on()><sp(20)><color(4)>Barrel<ce()>...\nWe don't have time to think\nabout that right now.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05667", "target": "<on()><sp(20)>The fact remains that we let him get away.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05668", "target": "<on()><sp(20)>The <book(2)>Baldora Charge<endbook()> doesn't care\nabout our plans.", "status": "meaning_reviewed", "notes": "Baldora Charge per encyclopedia_022.json/batch_02375 precedent."},
+    {"id": "dialogue_05669", "target": "<on()><sp(20)>This time, with the <book(33)>Macross<endbook()>'s energy stolen,\nthe observed amount rose sharply.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05670", "target": "<on()><sp(20)>I know this is a critical time.\nBut...\nthat guy really is me.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05671", "target": "<on()><sp(20)>It's not about logic.\nThat's exactly what I felt...", "status": "meaning_reviewed", "notes": "'exactly' avoids the lowercase j in 'just'."},
+    {"id": "dialogue_05672", "target": "<on()><sp(20)>His words and actions suggest some\nconnection to Ensign <color(4)>Barrel<ce()>.", "status": "meaning_reviewed", "notes": "See uncertainties: Ensign Barrel per terms_028.json."},
+    {"id": "dialogue_05673", "target": "<on()><sp(20)>Catching him should make that\nclear.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05674", "target": "<on()><sp(20)>So please keep it to yourself for now.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05675", "target": "<on()><sp(20)>Yes...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05676", "target": "<on()><sp(20)>By the way, how did the <book(21)>Nadesico C<endbook()>\nperform a <book(30)>Boson Jump<endbook()>?", "status": "meaning_reviewed", "notes": "Nadesico C per encyclopedia_022.json book21."},
+    {"id": "dialogue_05677", "target": "<on()><sp(20)>Let me explain.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05678", "target": "<on()><sp(20)>Whoa!", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05679", "target": "<on()><sp(20)><color(4)>Inez<ce()>?", "status": "meaning_reviewed", "notes": "Inez per character_names_021.json entry ja_full イネス・フレサンジュ (en_short 'Inez'; not yet in glossary.json, already_in_glossary:false there)."},
+    {"id": "dialogue_05680", "target": "<on()><sp(20)>Hello. Long time no see, and nice to meet you.\nI'm <color(4)>Inez Fressange<ce()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05681", "target": "<on()><sp(20)>You... you were alive?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05682", "target": "<on()><sp(20)>The <book(29)>Martian Successors<endbook()> faked a shuttle\nexplosion, covering up the real kidnapping of <color(4)>Akito<ce()>\nand <color(4)>Yurika<ce()>...", "status": "meaning_reviewed", "notes": "Akito Tenkawa per character_names_021.json; Yurika not previously seen in reviewed corpus, kept as bare given name matching the source's bare 'Yurika-san'. Meaning-reviewed: source's misekaketa means the kidnapping was disguised as the explosion (a cover story, echoed by Inez's own faked death in 05684), not that the explosion was the abduction method."},
+    {"id": "dialogue_05683", "target": "<on()><sp(20)><book(31)>Nergal<endbook()> caught onto the situation\nfast, and protected me too, since\nI'm an A-class <book(27)>Jumper<endbook()> like them.", "status": "meaning_reviewed", "notes": "Nergal (bare) and Jumper per encyclopedia_022.json book31/book27; 'fast'/'like them' avoid the lowercase q/j in 'quickly'/'just', 'Jumper' kept as the locked term."},
+    {"id": "dialogue_05684", "target": "<on()><sp(20)>They put out news that I'd died in an\naccident, to protect me.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05685", "target": "<on()><sp(20)>It was at <book(31)>Nergal<endbook()> Heavy Ind.'s moon\nbase that <color(4)>Inez<ce()> lent her power for the\n<book(30)>Boson Jump<endbook()> that brought us here.", "status": "meaning_reviewed", "notes": "'Nergal Heavy Ind.' abbreviation per encyclopedia_022.json id31; tag order (Nergal, then Inez, then Boson Jump) kept matching source order (see uncertainties)."},
+    {"id": "dialogue_05686", "target": "<on()><sp(20)>I see...\nLt. Cmdr. <color(4)>Hoshino<ce()>, what's the <book(33)>Macross<endbook()>'s condition?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05687", "target": "<on()><sp(20)>It's almost a total loss...\nRepairs aren't impossible, but they'll\nprobably take a long while.", "status": "meaning_reviewed", "notes": "'a long while' avoids the lowercase q in 'quite'."},
+    {"id": "dialogue_05688", "target": "<on()><sp(20)>So in the end, things went exactly\nas they wanted, is that it?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05689", "target": "<on()><sp(20)>But we should be glad we at least\nprevented the worst outcome.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05690", "target": "<on()><sp(20)>The absolute weapon that is the <book(30)>Boson Jump<endbook()>\nis still in their hands.\nWe can't afford to let our guard down.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05691", "target": "<on()><sp(20)>Lastly, there's something important\nI need to report.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05692", "target": "<on()><sp(20)>That <color(5)>black unit<ce()> self-destructed.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_05693", "target": "<on()><sp(20)>Meaning... the key to the <book(1)>Baldora Drive<endbook()>\nhas been lost?", "status": "meaning_reviewed", "notes": "Baldora Drive per encyclopedia_022.json book1."}
+  ]
+}

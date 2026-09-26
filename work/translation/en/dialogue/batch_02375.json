@@ -1,0 +1,163 @@
+{
+  "slice_start": 2375,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      2355,
+      2474
+    ]
+  ],
+  "rows_examined_count": 120,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": ["dialogue_02375", "dialogue_02437"],
+      "note": "Scene identification: rows 2375-2437 (resource 6070, text ids 519-582) are not combat lines but the untimed post-battle conference (<on()> rows without <ab>/<off>) after the Shin Dragon fight: the wormhole / Baldora Charge explanation, the decision to chase Berkt, the Tower staying behind, the Nadesico and Gekko returning to the other world, Barrel's closing doubt. Speakers are untagged; none was named in the English."
+    },
+    {
+      "ids": ["dialogue_02378", "dialogue_02383", "dialogue_02398", "dialogue_02400", "dialogue_02409", "dialogue_02427"],
+      "note": "'He' is used because the source itself uses the masculine pronoun (kare) for the person who is named as Berkt in 2372/2376/2407; character_names_021 lists Berkt as male. No gender was inferred from a name."
+    },
+    {
+      "id": "dialogue_02380",
+      "note": "Compressed: source says the particles 'may have the property of converting things that hold a specific amount of energy into a wormhole'. 'have the property of' was folded into 'may turn'. Meaning kept, hedging kept."
+    },
+    {
+      "id": "dialogue_02391",
+      "note": "Speaker says 'I fought him' with the rough pronoun ore, so it is not Barrel (who uses boku in 2436). Speaker not identified; line needs no identity. 'a powerful will to bring something to ruin' keeps the source's vague 'something'."
+    },
+    {
+      "id": "dialogue_02394",
+      "note": "Speaker forgets the device name ('that something-Drive'); rendered 'that whatever-Drive'. Satellite Cannon spelling from encyclopedia_022 (Gundam X)."
+    },
+    {
+      "ids": ["dialogue_02399", "dialogue_02400", "dialogue_02405"],
+      "note": "'key' in 2399 follows the released meeting line ('The key needed to start and stop the Baldora Drive'). The katakana compound in 2400/2405 (kidou kii) is rendered 'activation key'; no earlier English rendering was found in the corpus."
+    },
+    {
+      "id": "dialogue_02412",
+      "note": "Polite suffix -san on Hayato dropped (no honorific convention in the corpus for it); the politeness is carried by 'please'. Speaker speaks for the Nadesico (presumably its captain) but is not named."
+    },
+    {
+      "ids": ["dialogue_02416", "dialogue_02432"],
+      "note": "Sentence restructured so the commands stay in source order (book before color): 2416 became a passive ('were stolen by Berkt'), 2432 puts the Shin Dragon clause before the Tower."
+    },
+    {
+      "id": "dialogue_02418",
+      "note": "Source literally says Shin Dragon evolves by obtaining Getter Rays 'and something' (unspecified). Kept as 'and something else'."
+    },
+    {
+      "id": "dialogue_02422",
+      "note": "Source omits the subject ('the way to return has been understood'); 'we' taken from the next row, which uses 'we/our world' explicitly."
+    },
+    {
+      "id": "dialogue_02437",
+      "note": "Source is an open 'what on earth is it/he...?'. Could refer to Berkt himself or to the situation (Berkt knowing Barrel's name). Kept open as 'What on earth is this...?'."
+    },
+    {
+      "ids": ["dialogue_02438", "dialogue_02454"],
+      "note": "Rows 2438-2454 (resource 6071, table 48) are NOT live ACE3 material: Captain Synapse and the Albion, the Delaz colony drop (0083 Stardust Memory), Lucrezia Noin joining as tactical staff, Chulips and Giganos units in the same battle. Gundam 0083 is not in ACE3's cast; this is a leftover ACE2 mission table (same family as the legacy rows with Uraki/Synapse at 625 and Chulips at 1448-1485). Translated faithfully."
+    },
+    {
+      "id": "dialogue_02445",
+      "note": "Chulip per terms_028 (orchestrator ruling). Number unmarked in source; singular chosen to match rows 1468/1485. 'reino' (the one we heard about) rendered 'that'."
+    },
+    {
+      "id": "dialogue_02449",
+      "note": "Source rank is junshou (brigadier general) with the honorific kakka; Gundam Wiki gives John Cowen a higher flag rank (vice admiral / lieutenant general). Source rank kept, abbreviated 'Brig. Gen.'; kakka (His Excellency) has no natural English military use and was dropped. Spelling Cowen follows the Gundam Wiki page title (older subtitles use Kowen)."
+    },
+    {
+      "id": "dialogue_02438",
+      "note": "'Preventers' (plural organisation name as on the Gundam Wiki); no locked spelling existed. Speaker uses boku; not identified."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source by console snippet: 80/80 equal.",
+    "fit": "No newline in any target; longest visible text is within 110 characters; no over-limit rows.",
+    "glyphs": "ASCII only; no lowercase j or q outside locked names; no bare percent sign.",
+    "ids": "80/80 ids present (dialogue_02375-dialogue_02454).",
+    "meaning_review": "Independent meaning review done (review_02375.json): 80/80 rows compared with the source with 20 rows of context either side; no meaning fix was needed; all 80 rows set to meaning_reviewed, none left as draft."
+  },
+  "rows": [
+    {"id": "dialogue_02375", "target": "<on()><sp(20)>Tentatively, let's call this amount of energy... the \"<book(2)>Baldora Charge<endbook()>\".", "status": "meaning_reviewed", "notes": "Term from encyclopedia_022."},
+    {"id": "dialogue_02376", "target": "<on()><sp(20)><color(5)>Berkt<ce()> seems to be gathering power to gain <book(2)>Baldora Charge<endbook()> and connect the two worlds.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02377", "target": "<on()><sp(20)>Back then... the enormous <book(51)>Getter Rays<endbook()> dropped off rapidly.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02378", "target": "<on()><sp(20)>Exactly. The more energy he gains, the higher the <book(3)>Wormhole<endbook()>'s opening rate climbs.", "status": "meaning_reviewed", "notes": "'He' is in the source (kare)."},
+    {"id": "dialogue_02379", "target": "<on()><sp(20)>Still, to think <book(51)>Getter Rays<endbook()> could become that kind of energy...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02380", "target": "<on()><sp(20)><color(6)>Baldora particles<ce()> may turn anything holding a certain amount of energy into a <book(3)>Wormhole<endbook()>.", "status": "meaning_reviewed", "notes": "Compressed; see uncertainties."},
+    {"id": "dialogue_02381", "target": "<on()><sp(20)>If so, it follows that any energy, not only <book(51)>Getter Rays<endbook()>, could serve as its power source.", "status": "meaning_reviewed", "notes": "Source frames it as a conjecture."},
+    {"id": "dialogue_02382", "target": "<on()><sp(20)>If that's true... that's one hell of a story.", "status": "meaning_reviewed", "notes": "Rough male speech."},
+    {"id": "dialogue_02383", "target": "<on()><sp(20)>I get the gist. But what is he after...?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02384", "target": "<on()><sp(20)>I don't know. But the outcome can be predicted.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02385", "target": "<on()><sp(20)>If the boundary between the two worlds disappears... what awaits is the world's destruction.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02386", "target": "<on()><sp(20)>W-what the hell is that supposed to mean?!", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02387", "target": "<on()><sp(20)>If the spaces are physically connected, the two Earths will pull each other in... That is what it means.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02388", "target": "<on()><sp(20)>You mean the Earths will crash into each other?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02389", "target": "<on()><sp(20)>That's so huge it doesn't really feel real to me, though...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02390", "target": "<on()><sp(20)>No... this is a situation that can't be ignored.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02391", "target": "<on()><sp(20)>I fought him, so I know. From him I sensed... a powerful will to bring something to ruin.", "status": "meaning_reviewed", "notes": "First person is in the source (ore)."},
+    {"id": "dialogue_02392", "target": "<on()><sp(20)>I-if something like that happened, it would be a disaster!", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02393", "target": "<on()><sp(20)>What can be done to stop it?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02394", "target": "<on()><sp(20)>Can't we simply destroy that whatever-Drive thing? One shot from the Satellite Cannon would do it.", "status": "meaning_reviewed", "notes": "Speaker does not remember the device's name."},
+    {"id": "dialogue_02395", "target": "<on()><sp(20)>That must never be done. The <book(1)>Baldora Drive<endbook()> is a kind of opening-and-closing device.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02396", "target": "<on()><sp(20)>If it is lost, the <book(3)>Wormhole<endbook()> that is already opening can no longer be closed.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02397", "target": "<on()><sp(20)>T-then what should be done?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02398", "target": "<on()><sp(20)>That time when we first met him... he was activating that facility.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02399", "target": "<on()><sp(20)>As explained before, we know that starting the <book(1)>Baldora Drive<endbook()> needs a \"<color(6)>key<ce()>\".", "status": "meaning_reviewed", "notes": "Matches the released meeting wording for the key."},
+    {"id": "dialogue_02400", "target": "<on()><sp(20)>If that is correct, he must have that activation key.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02401", "target": "<on()><sp(20)>So we take it from him and shut the thing down. But... what is it?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02402", "target": "<on()><sp(20)>I don't know.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02403", "target": "<on()><sp(20)>Th-then... aren't we out of options?!", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02404", "target": "<on()><sp(20)>No, what needs doing is clear. We simply go after him.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02405", "target": "<on()><sp(20)>So securing this... activation key, as it's called, is the top priority.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02406", "target": "<on()><sp(20)>This appears to be a goal we share. Your world and ours... Both worlds are in peril.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02407", "target": "<on()><sp(20)>And that makes chasing <color(5)>Berkt<ce()> our goal.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02408", "target": "<on()><sp(20)>Even so, our problems are piling up. We can't afford to chase someone who pops up anywhere, anytime.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02409", "target": "<on()><sp(20)>As he's after <book(2)>Baldora Charge<endbook()>, he should appear wherever great power can be had. Not only at <book(48)>Shin Dragon<endbook()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02410", "target": "<on()><sp(20)>That's the only lead?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02411", "target": "<on()><sp(20)>All we can do now is get ahead of him to the places where he is likely to appear...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02412", "target": "<on()><sp(20)><color(4)>Hayato<ce()>, please let the <color(4)>Nadesico<ce()> keep operating alongside you in this world from now on.", "status": "meaning_reviewed", "notes": "-san dropped; see uncertainties."},
+    {"id": "dialogue_02413", "target": "<on()><sp(20)>You are welcome, of course. We are comrades with the same goal.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02414", "target": "<on()><sp(20)><color(4)>Hayato<ce()>, where did <book(48)>Shin Dragon<endbook()> vanish to?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02415", "target": "<on()><sp(20)>No idea at present. Survey teams will be sent everywhere, but it won't show itself again that soon.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02416", "target": "<on()><sp(20)>Because its <book(51)>Getter Rays<endbook()> were stolen by <color(5)>Berkt<ce()>?", "status": "meaning_reviewed", "notes": "Passive keeps command order."},
+    {"id": "dialogue_02417", "target": "<on()><sp(20)>What was that thing back there?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02418", "target": "<on()><sp(20)><book(48)>Shin Dragon<endbook()> evolves by obtaining <book(51)>Getter Rays<endbook()> and something else.", "status": "meaning_reviewed", "notes": "The 'something' is unspecified in the source."},
+    {"id": "dialogue_02419", "target": "<on()><sp(20)>Evolution... I will never let that happen.", "status": "meaning_reviewed", "notes": "First person is in the source (atashi)."},
+    {"id": "dialogue_02420", "target": "<on()><sp(20)>I wonder what's happening to our Earth?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02421", "target": "<on()><sp(20)>That is a worry. We were thrown to this Earth and have had no information at all since.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02422", "target": "<on()><sp(20)>No need to worry. We now know how to get back.", "status": "meaning_reviewed", "notes": "Subject from next row."},
+    {"id": "dialogue_02423", "target": "<on()><sp(20)>If we pass through that <book(3)>Wormhole<endbook()>, we can return to our world.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02424", "target": "<on()><sp(20)>What do you mean?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02425", "target": "<on()><sp(20)>Think about it. Why were we able to pass through that unstable <book(3)>Wormhole<endbook()>?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02426", "target": "<on()><sp(20)>However faintly, the two worlds have begun to link. So I believe going through there will take us home.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02427", "target": "<on()><sp(20)>Since he went out of his way to tell us about this place, he may have gone to the other world.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02428", "target": "<on()><sp(20)>Either way, I want to report the <color(4)>Nadesico<ce()> is safe, so I'd like to return to our world for now. Agreed?", "status": "meaning_reviewed", "notes": "Closing 'how about it?' compressed to 'Agreed?'."},
+    {"id": "dialogue_02429", "target": "<on()><sp(20)>We share one fate from here on. It would be better to act together.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02430", "target": "<on()><sp(20)>But there's no telling where he went, y'know?", "status": "meaning_reviewed", "notes": "Rough speech."},
+    {"id": "dialogue_02431", "target": "<on()><sp(20)>Even that last battle wore us down this much. I'm against splitting our forces.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02432", "target": "<on()><sp(20)>Then I will stay. With <book(48)>Shin Dragon<endbook()> to keep watch for, the <color(4)>Tower<ce()> can't move anyway.", "status": "meaning_reviewed", "notes": "Clause order set by command order."},
+    {"id": "dialogue_02433", "target": "<on()><sp(20)>Then we will leave the <color(4)>Tower<ce()> here and return to the other side for now.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02434", "target": "<on()><sp(20)>Then the <color(4)>Gekko<ce()> is coming along too.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02435", "target": "<on()><sp(20)>...<color(4)>Barrel<ce()>, what's wrong?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_02436", "target": "<on()><sp(20)>Back then, he called me <color(4)>Barrel<ce()>...", "status": "meaning_reviewed", "notes": "Refers to 2356 (how does he know my name?)."},
+    {"id": "dialogue_02437", "target": "<on()><sp(20)>What on earth is this...?", "status": "meaning_reviewed", "notes": "Referent open; see uncertainties."},
+    {"id": "dialogue_02438", "target": "<op()><sp(20)>Captain Synapse! We are a Preventers special task unit!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover (resource 6071)."},
+    {"id": "dialogue_02439", "target": "<op()><sp(20)>Looked like you were having a rough time, so we came to help!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02440", "target": "<op()><sp(20)>Extra personnel from HQ will now board your ship.<ab(500)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02441", "target": "<op()><sp(20)>Captain, who are they?!<ab(100)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02442", "target": "<op()><sp(20)>The Preventers... You've finally come.<ab(500)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02443", "target": "<op()><sp(20)>Details can wait. Drive off the enemies around us!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02444", "target": "<op()><sp(20)>We'll provide cover around the area!<ab(400)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02445", "target": "<op()><sp(20)>That Chulip is here. Make destroying it the priority.<ab(600)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover. Number unmarked."},
+    {"id": "dialogue_02446", "target": "<op()><sp(20)>How many of them are there?! There's no end to it!<ab(200)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02447", "target": "<op()><sp(20)>Don't lose your nerve! Numbers are all they have!<ab(500)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02448", "target": "<op()><sp(20)>I am Lucrezia Noin of the Preventers.<ab(500)>", "status": "meaning_reviewed", "notes": "ACE2 leftover. Exchange continues in 2449-2450."},
+    {"id": "dialogue_02449", "target": "<sp(20)>By order of Brig. Gen. Cowen, I have been assigned here as tactical staff officer.<ab(300)>", "status": "meaning_reviewed", "notes": "ACE2 leftover. Source rank kept; see uncertainties."},
+    {"id": "dialogue_02450", "target": "<sp(20)>Permission to come aboard.<ab(300)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02451", "target": "<op()><sp(20)>Understood. Permission granted.<ab(400)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."},
+    {"id": "dialogue_02452", "target": "<op()><sp(20)>Straight to business: the latest information.<ab(400)>", "status": "meaning_reviewed", "notes": "ACE2 leftover. Continues in 2453-2454."},
+    {"id": "dialogue_02453", "target": "<sp(20)>The colony swung around the Moon, changed its orbit, and is heading for Earth, still accelerating.<ab(500)>", "status": "meaning_reviewed", "notes": "ACE2 leftover (0083 colony drop)."},
+    {"id": "dialogue_02454", "target": "<sp(20)>At this rate, it will come down on Earth in 38 hours.<ab(500)><ed()>", "status": "meaning_reviewed", "notes": "ACE2 leftover."}
+  ]
+}

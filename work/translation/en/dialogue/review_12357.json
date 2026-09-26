@@ -1,0 +1,43 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 12357,
+  "slice_count": 80,
+  "rows_examined": [{"start": 12342, "end": 12451}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_12393",
+      "before": "Backup confirmed! Be careful!",
+      "after": "Enemy reinforcements! Careful!",
+      "reason": "増援を確認！気をつけてください！ refers to the enemy's added forces, confirmed by the surrounding lines (一体、どっからわいて来るんだ！ 'where do they all come from!', dialogue_12386). 'Backup' reads as friendly reinforcement arriving, which contradicts the paired 'be careful' warning. Fits the 32-char budget (30 chars)."
+    },
+    {
+      "id": "dialogue_12425",
+      "before": "Can't hold on!",
+      "after": "Can't stop it!",
+      "reason": "阻止しきれない！ specifically means failing to block/stop the enemy's advance, not failing to endure. 'Can't hold on' shifts the sense to endurance/stamina. Fits the 14-char budget exactly."
+    },
+    {
+      "id": "dialogue_12427",
+      "before": "Falling back...!",
+      "after": "Pushed back...!",
+      "reason": "押されている……！ describes being overwhelmed/pressed by the enemy (passive), not a decision to retreat. The identical phrase is correctly rendered 'Pushed back, us!?' at dialogue_12479 in the Char/Sazabi table later in the corpus, and no actual withdrawal follows here -- the pilot is still holding a line two rows later at dialogue_12432 ('Not getting through!'), so 'Falling back' contradicted the pilot's own next actions. Fits the 16-char budget (15 chars)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [12357, 12413], "finding": "Confirmed continuation of the 2801040 (Ixbrau) two-voice Barrel/Faye table from the prior slice; casual-vs-polite speech-pattern attribution holds (e.g. dialogue_12359 バレル、作戦は頭に入ってる？ = Faye to Barrel; dialogue_12360 何とかするしかないんだろ……結局。 = Barrel's own casual reply)."},
+    {"rows": [12414, 12422, 12430], "finding": "Confirmed Amuro's (resource 2805010) group-address lines ('everyone', 'stay alert to the end') name no specific ally; table is shared verbatim with 2805011 (HWS) and 2805020 (Re-GZ) per the task's unit list, so genericity is correct for all three."},
+    {"rows": [12404, 12410], "finding": "これより帰還します。 / この場を離脱し、帰投します。 correctly kept as self-declared withdrawal announcements ('Returning now.', 'Pulling out, going back.'), not commands -- contrast with the tighter-budget dialogue_12321 in the prior batch, which could not fully avoid that ambiguity."},
+    {"rows": [12433], "finding": "Source \\n between 'いい感じだ。' and '反応速度が上がってきている！' correctly preserved."},
+    {"rows": [12357, 12436], "finding": "Scripted re-check after the three fixes: every row's tag sequence matches source order, every row's visible text within min(72, 2*JP-2), zero non-ASCII, zero lowercase j/q for all 80 rows."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran a throwaway script comparing every row's <op()>/<sp(20)>/<ab(1000)>/<ed()> tag sequence against tools/dialogue_corpus.py's source output for all 80 rows: identical order, zero mismatches, including after the three meaning fixes.",
+    "fit": "Re-checked every row's visible text against min(72, 2*sourceJPchars-2): zero rows over budget, including the three fixed rows (dialogue_12393: 30/32, dialogue_12425: 14/14, dialogue_12427: 15/16).",
+    "format": "ASCII-only (plus the permitted fullwidth %) and zero lowercase j/q confirmed by script for all 80 rows.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

@@ -1,0 +1,555 @@
+{
+ "slice_start": 5863,
+ "slice_count": 80,
+ "rows_examined": [
+  [
+   5848,
+   5957
+  ]
+ ],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "uncertainties": [
+  {
+   "ids": [
+    "dialogue_05897",
+    "dialogue_05898",
+    "dialogue_05899",
+    "dialogue_05900",
+    "dialogue_05901",
+    "dialogue_05902",
+    "dialogue_05903"
+   ],
+   "note": "Speaker not tagged; role text (personally entrusted with command by Commander Bloodman, distrustful of the Siberian Railway/Izumo after repeated failures) does not match Berkt, who is discussed as a third party two rows later (5910). Left unattributed rather than guessed; likely an unnamed New Federation officer over this operation."
+  },
+  {
+   "ids": [
+    "dialogue_05904",
+    "dialogue_05906",
+    "dialogue_05907",
+    "dialogue_05908",
+    "dialogue_05909",
+    "dialogue_05910"
+   ],
+   "note": "5904 addresses 'Captain Jurgens' by name/rank (locked spelling, character_names_021.json), so that reply is his; the other side of the argument (wants theEND deployed immediately) is unnamed in the table. Plausibly Dominic (established as Jurgens' subordinate who pushes for decisive Anemone/theEND deployment, per review_01666.json), but not asserted since no tag or name appears in these rows."
+  },
+  {
+   "id": "dialogue_05905",
+   "note": "Source fullwidth 'theEND' (ヽtheヽEND stylised as 〇the〇END, i.e. ｔｈｅＥＮＤ) rendered as 'theEND' to match the already-locked unit name 'Nirvash theEND' (unit_names_014_b.json) rather than 'the END'."
+  },
+  {
+   "ids": [
+    "dialogue_05920",
+    "dialogue_05921",
+    "dialogue_05923",
+    "dialogue_05925",
+    "dialogue_05927"
+   ],
+   "note": "Anemone (named, locked gender female) is upset about being kept out of combat; the other voice (5922, 5924, 5926) is unnamed but its role (worried about reporting her death to Colonel Dewey) matches Dominic's established glossary role as 'Anemone's handler'. Not written into the text since the source does not tag a speaker."
+  },
+  {
+   "id": "dialogue_05924",
+   "note": "大佐 (taisa) for Dewey rendered 'Colonel' (no prior corpus rank lock found for Dewey via grep); flag for orchestrator to confirm against any later scene that fixes his rank."
+  },
+  {
+   "ids": [
+    "dialogue_05938",
+    "dialogue_05939",
+    "dialogue_05940"
+   ],
+   "note": "The cloaking 'Overman' (5934-5937) is never named in this slice; kept as 'that Overman' rather than guessing it is 'Blackmail' from the task description, since the source text itself never names it here."
+  },
+  {
+   "id": "dialogue_05902",
+   "note": "'イズモ隣' (Izumo squad/unit) rendered 'the Izumo', matching the ship-name-as-unit convention already used for Jurgens' ship (batch_01666.json: 'Izumo, prepare to withdraw!')."
+  }
+ ],
+ "validation": {
+  "controls": "All angle-bracket commands checked against the source in order for every row (see self-check script); none altered or reordered.",
+  "fit": "All rows drafted at full meaning; longest row (05902) is 102 visible characters, under the 110 cap.",
+  "ascii": "ASCII-only; fullwidth source punctuation (　, ！, ？, ……) normalized to plain ASCII equivalents; no lowercase j/q outside the locked names Jamil and Jurgens.",
+  "meaning_review": "Independent review of 80 rows against original ISO; 110 examined 5848-5957. No meaning fixes required; see review_05863.json."
+ },
+ "rows": [
+  {
+   "id": "dialogue_05863",
+   "target": "<op()><sp(20)>Destroy every target in the area.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05864",
+   "target": "<op()><sp(20)>This time we've got\nVulture allies fighting alongside us.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05865",
+   "target": "<op()><sp(20)>Leave the mothership's defense to them and go on the attack.<ab(1200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05866",
+   "target": "<op()><sp(20)>Our allied Vulture ship\nis under attack.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05867",
+   "target": "<op()><sp(20)>Our allied Vulture ship is struggling.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05868",
+   "target": "<op()><sp(20)>Our allied Vulture ship is in danger.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05869",
+   "target": "<op()><sp(20)>Damn it, cover them!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05870",
+   "target": "<op()><sp(20)>Incoming transmission from our allied Vulture ship!\nThey say they'll side with whoever's winning...!<ab(1200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05871",
+   "target": "<op()><sp(20)>Sure enough, they betrayed us!!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05872",
+   "target": "<op()><sp(20)>Can't be helped... We'll intercept them.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05873",
+   "target": "<op()><sp(20)>Setting the Vulture ship as an attack target.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05874",
+   "target": "<op()><sp(20)>We're done for.\nRetreat!!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05875",
+   "target": "<op()><sp(20)>The Vulture group is retreating.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05876",
+   "target": "<op()><sp(20)>That's what you get for betraying us so easily!!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05877",
+   "target": "<op()><sp(20)>...These things happen.<ab(800)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05878",
+   "target": "<sp(20)>Resume the attack on the New Federation.<ab(1200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05879",
+   "target": "<op()><sp(20)>Enemy forces are entering the operation area!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05880",
+   "target": "<op()><sp(20)>Incoming surrender transmission from the Vulture ship!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05881",
+   "target": "<op()><sp(20)>Serves you right.\nNow do you know our strength?<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05882",
+   "target": "<op()><sp(20)>Ask them to keep fighting alongside us.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05883",
+   "target": "<op()><sp(20)>Are you sure?<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05884",
+   "target": "<op()><sp(20)>It's fine.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05885",
+   "target": "<op()><sp(20)>Good, the operation's going smoothly.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05886",
+   "target": "<op()><sp(20)>New enemy forces confirmed!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05887",
+   "target": "<op()><sp(20)>The enemy is heading for the mothership!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05888",
+   "target": "<op()><sp(20)>More of them?\nAll units, intercept!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05889",
+   "target": "<op()><sp(20)>We're running out of time.\nEveryone, hurry!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05890",
+   "target": "<op()><sp(20)>Out of time...!<ab(1200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05891",
+   "target": "<op()><sp(20)>Nadesico's been hit!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05892",
+   "target": "<op()><sp(20)>Please report the damage status.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05893",
+   "target": "<op()><sp(20)>Nadesico's damage is spreading.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05894",
+   "target": "<op()><sp(20)>Any further hits will be dangerous.\nHarry, prepare to abandon ship.<ab(1200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05895",
+   "target": "<op()><sp(20)>Nadesico... damage has reached its limit!\nShe's going down!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05896",
+   "target": "<op()><sp(20)>What a thing to happen...<ab(1200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05897",
+   "target": "<op()><sp(20)>All units, going as planned?<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05898",
+   "target": "<op()><sp(20)>Yes, but...<ab(0)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05899",
+   "target": "<op()><sp(20)>Do you have a complaint?<ab(100)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05900",
+   "target": "<op()><sp(20)>I think we're spreading our forces too thin.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05901",
+   "target": "<op()><sp(20)>I was entrusted with command of this operation\ndirectly by Commander Bloodman.<ab(800)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05902",
+   "target": "<sp(20)>It means the Commander doesn't trust\nthe Siberian Railway or the Izumo, given their repeated failures.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05903",
+   "target": "<op()><sp(20)>Divide up the forces however much you like, then.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05904",
+   "target": "<op()><sp(20)>Captain Jurgens. Even though it's a direct order from Command,\nI can't accept this!<ab(500)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05905",
+   "target": "<sp(20)>Why not deploy theEND from the very start!?\nThat would end the fight!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05906",
+   "target": "<op()><sp(20)>Because it's an order.\nSame as the one you pushed onto me.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05907",
+   "target": "<op()><sp(20)>Ngh...!<ab(0)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05908",
+   "target": "<op()><sp(20)>As long as we win, that's fine.\nBut...<ab(0)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05909",
+   "target": "<op()><sp(20)>But?<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05910",
+   "target": "<op()><sp(20)>That man, Berkt...\nWhy is he so fixated on those people?<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05911",
+   "target": "<op()><sp(20)>Enemy forces are about to complete\ntheir encirclement of Tresor Research Institute!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05912",
+   "target": "<op()><sp(20)>It seems our presence here is already well known.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05913",
+   "target": "<op()><sp(20)>Hasn't Berkt shown up?<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05914",
+   "target": "<op()><sp(20)>At this rate, he probably won't show.\nWe already trashed his machine, after all.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05915",
+   "target": "<op()><sp(20)>Holland, don't push in too far!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05916",
+   "target": "<op()><sp(20)>Don't worry. There's a good wave coming in today.\nI'm not about to lose!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05917",
+   "target": "<op()><sp(20)>Geez... always showing off.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05918",
+   "target": "<op()><sp(20)>Ngh...! The response is...!\nNirvash! Hang in there!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05919",
+   "target": "<op()><sp(20)>Nirvash, I'm sorry!\nBut only a little more!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05920",
+   "target": "<op()><sp(20)>What's with that!\nWhy can't I go out there?<ab(100)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05921",
+   "target": "<sp(20)>I told you, that kind of thing irritates meeee!!<ab(100)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05922",
+   "target": "<op()><sp(20)>Wait, Anemone!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05923",
+   "target": "<op()><sp(20)>There's no way\nwe could ever loseeee!!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05924",
+   "target": "<op()><sp(20)>Please, Anemone! I can't go and report\nyour death to Colonel Dewey!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05925",
+   "target": "<op()><sp(20)>Noooo!\nI don't want Dewey to throw me away!<ab(100)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05926",
+   "target": "<op()><sp(20)>Hold back! Another chance will come!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05927",
+   "target": "<op()><sp(20)>No, no, no, no, NOOO!<ab(1200)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05928",
+   "target": "<op()><sp(20)>Confirmed all targets destroyed.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05929",
+   "target": "<op()><sp(20)>The Vultures are fleeing.\nWhat should we do, Captain?<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05930",
+   "target": "<op()><sp(20)>No need to pursue them.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05931",
+   "target": "<op()><sp(20)>Send a message of thanks to the Vulture ship.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05932",
+   "target": "<op()><sp(20)>...Guess it's about time.<ab(0)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05933",
+   "target": "<op()><sp(20)>Pull the unit back. We're withdrawing from the combat zone.<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05934",
+   "target": "<op()><sp(20)>Leave the rest to that Overman.<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05935",
+   "target": "<op()><sp(20)>Taste the fear of an enemy you cannot see!<ab(500)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05936",
+   "target": "<op()><sp(20)>It vanished!?<ab(100)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05937",
+   "target": "<op()><sp(20)>It's not even showing up on radar!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05938",
+   "target": "<op()><sp(20)>Jamil, that Overskill is a real problem.<ab(800)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05939",
+   "target": "<sp(20)>But it can't stay hidden forever.\nIt's bound to slip up somewhere.<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05940",
+   "target": "<op()><sp(20)>You heard him.\nAll units, stay alert!<ab(800)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05941",
+   "target": "<op()><sp(20)>Our Siberian Railway...!<ab(300)>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_05942",
+   "target": "<sp(20)>Starting with the Vodarac high priest's Exodus...!<ab(300)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+  "reviewer": "independent_translate_dialogue_shouts_agent",
+  "slice_start": 15444,
+  "slice_count": 84,
+  "rows_examined": [{"start": 15429, "end": 15542}],
+  "rows_examined_count": 114,
+  "rows_in_slice": 84,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {"id": "dialogue_15494", "before": "Don't make me stop any more pointless fighting.", "after": "No more of this pointless fighting, please.", "reason": "Source 'これ以上の無駄な争いはさせないでくれ。' is a plea for no more of this pointless conflict to happen (させないでくれ = 'please don't let/cause [it]'). The draft read as the opposite: a demand not to be stopped from continuing to fight ('don't make me stop'), reversing the polarity of the line. Confirmed against surrounding context (rows 15492-15498 are Gain's tired reactions to endless enemy reinforcements), which supports the 'please, no more of this' reading."}
+  ],
+  "checked_decisions": [
+    {"rows": [15444, 15453, 15467, 15511, 15516, 15526], "finding": "Row 15526's self-reference to 'the Black Southern Cross' confirms the locked nickname (character_names_021.json: Gain Bijou, 'Black Southern Cross') and anchors the affable-but-guarded, wisecracking voice used throughout; consistent with Gain's role as Exodus specialist/sniper."},
+    {"rows": [15512], "finding": "'The woman waiting for me' is unnamed in the source ('俺の帰りを待つ女'); correctly kept generic rather than guessing his sister Karin or another specific person, per the no-invented-identity rule. Gain's glossary role notes only a 'guarded past'; no named woman is established there."},
+    {"rows": [15477, 15480, 15484, 15486, 15487, 15488, 15489, 15490], "finding": "Gain addresses/describes an unnamed ally pilot ('you'); no gender or identity assumed, consistent with the surrounding praise/reprimand bark set."},
+    {"rows": [15507], "finding": "'オンビン' (穏便, amicably/without a fuss) rendered as 'won't go down peacefully' correctly keeps the idiom's sense that the fight won't be settled quietly."},
+    {"rows": [15488], "finding": "Katakana term (likely '芸等', geitou/a feat) translated by sense as 'a move like that'; no dedicated glossary entry exists, and the sense-for-sense rendering does not invent unsupported specifics."},
+    {"rows": [15492, 15493, 15497, 15498], "finding": "Verified the 'reinforcements keep coming' context that frames row 15494's plea; no reversal in these neighboring rows."}
+  ],
+  "uncertainties": [
+    {"rows": [15444, 15453, 15467, 15511, 15516, 15526], "issue": "Ruling on translator's uncertainty: upheld. Pilot identification via the 'Black Southern Cross' nickname is correct."},
+    {"rows": [15512], "issue": "Ruling on translator's uncertainty: upheld. Keeping 'the woman waiting for me' generic is correct; no named person is supported by the source or glossary."},
+    {"rows": [15477, 15480, 15484, 15486, 15487, 15488, 15489, 15490], "issue": "Ruling on translator's uncertainty: upheld. No identity/gender invented for the unnamed ally."},
+    {"rows": [15507], "issue": "Ruling on translator's uncertainty: upheld. Idiom correctly rendered."},
+    {"rows": [15488], "issue": "Ruling on translator's uncertainty: upheld. Sense-for-sense rendering is reasonable absent a glossary entry."},
+    {"rows": [15494], "issue": "Own finding, not in translator's list: this row read as a polarity reversal on first pass (see meaning_fixes) and required checking the surrounding reinforcement-wave context (rows 15492-15498) to confirm the corrected reading; flagging the reasoning in case the surrounding context is read differently by another reviewer."}
+  ],
+  "validation": {
+    "controls": "Re-ran tools/dialogue_corpus.py slice 15444 84 and diffed every <...> command against each target in order (including the corrected row 15494); all identical, no newline in any target.",
+    "format": "All 84 targets ASCII-only; visible text (tags stripped) at or under 110 chars for every row, including the replacement text for dialogue_15494 (44 chars, shorter than the original 48-char draft).",
+    "fit": "Per-row hard byte budget was validated by the translator's own script per the batch file for the unchanged rows; the dialogue_15494 replacement was kept shorter than the original draft per the 'no longer than current target' fallback rule for shout fixes.",
+    "runtime": "Runtime scene selection and font coverage are not established by this meaning review."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14746,
+  "slice_count": 85,
+  "rows_examined": [
+    [
+      14731,
+      14845
+    ]
+  ],
+  "rows_examined_count": 115,
+  "rows_in_slice": 85,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_14759",
+      "before": "Getter-3's got backup!",
+      "after": "Getter-3 has your back!",
+      "reason": "Source has Getter-3 providing cover/support (a transitive verb: Getter-3 is the one helping). The draft's 'Getter-3's got backup' most naturally reads as Getter-3 receiving support, reversing who helps whom. Fixed to keep Getter-3 as the one giving cover, within the 24-char budget (23 chars)."
+    },
+    {
+      "id": "dialogue_14789",
+      "before": "A woman's fighting here,\\nso get it together!",
+      "after": "Even I, a woman, fight here,\\nso get it together!",
+      "reason": "Source is Kei's explicit 1st-person self-reference ('since I, a woman, am fighting'), a recurring character beat about not being underestimated (compare the very next row, dialogue_14790, which the draft correctly kept as 'I'm fighting too'). The draft here dropped the subject into a statement that reads as describing a third party rather than herself. Restored 'I' within the 52-char budget (47 chars)."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [14756, 14775, 14776, 14780, 14790, 14805, 14806, 14807, 14809, 14823, 14824],
+      "finding": "Continuation of the Shin Getter shared-cockpit table (Go/Kei/Gai); vocatives kept exactly as addressed, no invented speaker gender. Consistent with the finding already recorded for the preceding slice (review_14666.json)."
+    },
+    {
+      "rows": [14808],
+      "finding": "Apparent source typo in the verb ending; draft's evident-intent reading ('how many are there?!') is the only sensible interpretation and matches the surrounding panic-at-reinforcements lines. No fix needed."
+    },
+    {
+      "rows": [14813],
+      "finding": "Two-speaker exchange (Kei's warning, Gai's reply) kept on one row since the source has only one <ab>/<ed> pair; both halves are clearly attributable from context. No fix needed."
+    },
+    {
+      "rows": [14829],
+      "finding": "'Getter Rays' checked as the standard franchise term for the series' cosmic-ray energy source (Getter rays/Getter Rays across Getter Robo media); no conflict with existing project glossary. Reasonable researched term, consistent with the proposal recorded in batch_14746_glossary_proposals.json."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran a throwaway console check comparing every <op()>/<sp()>/<ab(N)>/<ed()> command sequence in each row's target against the source listing (dialogue_corpus.py slice 14746 85 --context 0): 0 mismatches across all 85 rows, including the two applied fixes.",
+    "fit": "Recomputed each row's visible-text length (tags and \\n excluded) against min(72, 2*Japanese_char_count-2): 0 rows over budget after the two fixes.",
+    "ascii": "0 non-ASCII characters found in visible text; no lowercase j/q found.",
+    "newline": "12 of this batch's 85 rows still contain an embedded newline from the source's two-line layout, which this batch's own 'no newline' shout constraint forbids. The dialogue_14789 fix keeps the source's existing two-line split (still within budget); the other 11 unaffected rows were left as-is (out of scope for a meaning-only pass); flagged for the orchestrator (see final report)."
+  }
+}

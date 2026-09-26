@@ -1,0 +1,548 @@
+{
+  "slice_start": 8031,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      8031,
+      8214
+    ]
+  ],
+  "rows_examined_count": 184,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_08031",
+        "dialogue_08032"
+      ],
+      "note": "Speaker of the opening base-capture strategy order is not tagged; kept as an unattributed command/operator line."
+    },
+    {
+      "ids": [
+        "dialogue_08034",
+        "dialogue_08035",
+        "dialogue_08044"
+      ],
+      "note": "Speaker addressing Garrod/Jamil inferred from role (Jamil as captain, concern over his GX-related PTSD per glossary) but not explicitly tagged in source; no name inserted into target text."
+    },
+    {
+      "id": "dialogue_08054",
+      "note": "'Captain' addressed generically; could be Holland (Gekko) or Jamil (Freeden) - left as in source, no name supplied."
+    },
+    {
+      "ids": [
+        "dialogue_08055",
+        "dialogue_08056",
+        "dialogue_08057",
+        "dialogue_08061"
+      ],
+      "note": "Unattributed enemy/ally combat lines around the particle-field loss; likely Frost brothers or Jamil's side but not confirmed by neighbouring context, left without invented attribution."
+    },
+    {
+      "id": "dialogue_08086",
+      "note": "Rough-speech reaction to Charles and Ray; likely a Gekko crew member (Renton candidate) but speaker not confirmed, no identity guessed."
+    },
+    {
+      "ids": [
+        "dialogue_08088",
+        "dialogue_08089",
+        "dialogue_08090",
+        "dialogue_08091"
+      ],
+      "note": "Charles and Ray's unofficial adoption offer to Renton and his polite refusal; genders taken from locked glossary entries (Charles male, Ray female), not inferred from names."
+    },
+    {
+      "id": "dialogue_08110",
+      "note": "Holland's hostile line to Renton inferred from row 8109 addressing Holland by name and known Holland/Renton relationship in glossary; not independently tagged in source."
+    }
+  ],
+  "validation": {
+    "controls": "All original angle-bracket commands (<op()>, <sp(20)>, <ab(n)>, <ed()>, <on()>, <off()>) preserved in exact source order for every row; verified by script (command-sequence diff against source, zero mismatches).",
+    "format": "No newline characters inserted into any target string per task format rule; source's own line breaks were merged into flowing sentences.",
+    "fit": "All rows verified <= 110 visible characters (longest row 8138 at 104 chars); full meaning kept, nothing shortened or dropped.",
+    "ascii": "ASCII-only verified by script; straight quotes/hyphens used; no bare percent signs; lowercase j/q avoided except in the locked name 'Jamil'.",
+    "meaning_review": "Meaning-reviewed: 80/80 rows checked, no meaning fixes needed in this slice (fixes for adjacent-context invented-subject issues landed in batch_08111); all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_08031",
+      "target": "<op()><sp(20)>If we take control of the bases around this area, the enemy will likely come to retake them.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08032",
+      "target": "<sp(20)>That will thin out their forces at the center. We'll aim for that opening and take it all at once!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08033",
+      "target": "<op()><sp(20)>Of all times... those guys!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08034",
+      "target": "<op()><sp(20)>Garrod, don't get heated. They're a tough opponent.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08035",
+      "target": "<sp(20)>Avoid unnecessary combat. Rescuing Eureka is our priority right now.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08036",
+      "target": "<op()><sp(20)>A Gundam-type confirmed on Zonder Epta Island.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08037",
+      "target": "<op()><sp(20)>This is... no way... GX?!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08038",
+      "target": "<op()><sp(20)>A ghost from fifteen years ago...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08039",
+      "target": "<op()><sp(20)>So that's why they're so desperate to protect it.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08040",
+      "target": "<op()><sp(20)>A ghost... what do you mean?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08041",
+      "target": "<op()><sp(20)>That's the unit that triggered a colony drop in the past...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08042",
+      "target": "<sp(20)>It's the GX I used to pilot.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08043",
+      "target": "<op()><sp(20)>What did you say?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08044",
+      "target": "<op()><sp(20)>Jamil. If it's too much, fall back.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08045",
+      "target": "<op()><sp(20)>No, I'm fine.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08046",
+      "target": "<sp(20)>I'm not fighting only to protect Newtypes.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08047",
+      "target": "<sp(20)>Clearing a path for young people like Garrod, settling the past... that's part of it too.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08048",
+      "target": "<sp(20)>But the truth is, maybe it's for my own sake.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08049",
+      "target": "<sp(20)>That's why I can't run away.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08050",
+      "target": "<op()><sp(20)>The Gekko's been hit!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08051",
+      "target": "<op()><sp(20)>Damage to the Gekko is spreading.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08052",
+      "target": "<op()><sp(20)>The Gekko is in danger!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08053",
+      "target": "<op()><sp(20)>The Gekko can't hold! It's going down!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08054",
+      "target": "<op()><sp(20)>Captain, we can't take much more...!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08055",
+      "target": "<op()><sp(20)>Coming straight at us, are they!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08056",
+      "target": "<op()><sp(20)>We'll show them what we're capable of.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08057",
+      "target": "<op()><sp(20)>They're tough! Avoid dangerous engagements!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08058",
+      "target": "<op()><sp(20)>Confirmed: the particle field has vanished.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08059",
+      "target": "<op()><sp(20)>Olba, I'm going to strike the enemy myself.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08060",
+      "target": "<op()><sp(20)>Got it, brother.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08061",
+      "target": "<op()><sp(20)>If they're putting up that much of a fight, I suppose I'll have to step in myself.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08062",
+      "target": "<op()><sp(20)>The target base's defenses have thinned.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08063",
+      "target": "<op()><sp(20)>I'll go, brother.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08064",
+      "target": "<op()><sp(20)>I'm counting on you.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08065",
+      "target": "<op()><sp(20)>I'm heading back to Zonder Epta.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08066",
+      "target": "<op()><sp(20)>We need to get back to Zonder Epta...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08067",
+      "target": "<op()><sp(20)>Looks like I'll have to do this myself.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08068",
+      "target": "<op()><sp(20)>This is our chance to hit the target.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08069",
+      "target": "<op()><sp(20)>Making my brother look like a fool... that'll cost you dearly.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08070",
+      "target": "<op()><sp(20)>Brother... It's all right, I'll show you I can do this alone.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08071",
+      "target": "<op()><sp(20)>He's reckless as ever. But dependable, I'll grant him that.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08072",
+      "target": "<op()><sp(20)>The base has been retaken!<ab(80)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08073",
+      "target": "<op()><sp(20)>The base has fallen to the enemy again!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08074",
+      "target": "<op()><sp(20)>Target base secured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08075",
+      "target": "<op()><sp(20)>The enemy is retreating!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08076",
+      "target": "<op()><sp(20)>Renton, Eureka... Where did the two of them go?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08077",
+      "target": "<op()><sp(20)>Gainer. Securing the area comes first right now.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08078",
+      "target": "<op()><sp(20)>You're right... First we need to make sure it's safe.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08079",
+      "target": "<op()><sp(20)>What's the status on the search for Eureka?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08080",
+      "target": "<op()><sp(20)>We can't get a signal.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08081",
+      "target": "<op()><sp(20)>Damn it...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08082",
+      "target": "<op()><sp(20)>There really are a lot of enemies!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08083",
+      "target": "<op()><sp(20)>This is the enemy's research facility, isn't it?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08084",
+      "target": "<op()><sp(20)>They're probably developing new weapons here.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08085",
+      "target": "<op()><sp(20)>That explains the heavy defenses!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08086",
+      "target": "<op()><sp(20)>Charles and Ray... It'll be trouble if those two show up.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08087",
+      "target": "<sp(20)>We need to find Eureka before that happens...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08088",
+      "target": "<op()><sp(20)>Renton... If you'd like, would you become our child?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08089",
+      "target": "<op()><sp(20)>It doesn't have to be right away.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08090",
+      "target": "<op()><sp(20)>You already took me in, and you've done so much for me...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08091",
+      "target": "<sp(20)>I can't keep relying on you any further.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08092",
+      "target": "<op()><sp(20)>A transmission... this code - it's the Frost brothers.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08093",
+      "target": "<op()><sp(20)>Charles Beams... it's work.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08094",
+      "target": "<op()><sp(20)>Hey now, showing up in a place like this wasn't part of the plan.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08095",
+      "target": "<op()><sp(20)>No matter where it is, a fight's still a fight.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08096",
+      "target": "<op()><sp(20)>Can't be helped... Fine, I got it.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08097",
+      "target": "<op()><sp(20)>Then good luck out there. Sink the Gekko for us.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08098",
+      "target": "<op()><sp(20)>The Gekko, you say?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08099",
+      "target": "<op()><sp(20)>We've been hired by the New Federation to seize the Nirvash and Eureka.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08100",
+      "target": "<op()><sp(20)>No way... You're kidding, right...?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08101",
+      "target": "<op()><sp(20)>...I'm a part of the Gekko now. I'm going back to protect Eureka.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08102",
+      "target": "<op()><sp(20)>I see... This is goodbye, then.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08103",
+      "target": "<op()><sp(20)>The time I spent with you was really fun...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08104",
+      "target": "<op()><sp(20)>I'm heading out.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08105",
+      "target": "<sp(20)>Thank you for everything.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08106",
+      "target": "<op()><sp(20)>Spearheads, we're launching shortly.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08107",
+      "target": "<op()><sp(20)>Charles, we might end up fighting that kid...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08108",
+      "target": "<op()><sp(20)>Can't be helped. Call it fate.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08109",
+      "target": "<op()><sp(20)>Holland! Renton's back!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08110",
+      "target": "<op()><sp(20)>...What face do you think you have, coming back here.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

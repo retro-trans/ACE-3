@@ -1,0 +1,566 @@
+{
+ "resource_id": 4004703,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 64,
+ "rows_examined": 64,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23010,1)><speed(2)><color(4)>Holland<ce()>. Once I reach where <color(4)>Eureka<ce()> is, what should I do?",
+   "notes": "",
+   "source_sha256": "fd38e9b3e86085870d801f0355745838a9920551720fdb20c1080b2e04a043b1"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23030,1)><speed(2)>Ah... My bad. Haven't thought of a thing.",
+   "notes": "",
+   "source_sha256": "5ca26318f2b2d34ff39f7f486d3004a01ddc4695ca0b566c7dea850588aa2f26"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23010,2)><speed(2)>Thought so.",
+   "notes": "",
+   "source_sha256": "34428407685f366d9c3925c518ebdb28d18ce975a80099cab2d037ff4ec016c3"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)>Huh?",
+   "notes": "",
+   "source_sha256": "bae9642e498c31a93b46e0caa7dbcdd3225ea97fc9e2e3d9da2323dafd6256cd"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23010,2)><speed(2)>Don't beg for things. Do it yourself, or else you won't get anything. Right, <color(4)>Holland<ce()>?",
+   "notes": "Source line matches the locked Eureka Seven motto (terms_028.json 'Eureka Seven motto', official dub wording) structurally (nedaru na, kachitore, sasureba ataerarenn); used verbatim per the lock, with the source's added 'sou desho, Holland?' appended.",
+   "source_sha256": "fee680a329571dc0198e4dc5d1efeb6f291f5fa21f913b58f23904e204cf2815"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23030,2)><speed(2)>Heh... Those words weren't meant for me.",
+   "notes": "",
+   "source_sha256": "1e6da0e643d07f721e702cadf2909242df7a85805b1c7c4dc0de3102c639649b"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23010,1)><speed(2)>Huh?",
+   "notes": "",
+   "source_sha256": "6f68b51a1d85010bd6b98dfd00095e0f1a689c4add2697f737bb83ac712a410a"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(23030,2)><speed(2)>They were probably sent to you, through me.",
+   "notes": "",
+   "source_sha256": "16978f938b49b60d2bd07f8c9e2e8ef22fba62147926618f91afe32e3b7fdf67"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(23030,2)><speed(2)>From <color(4)>Adroc Thurston<ce()> to <color(4)>Renton Thurston<ce()>.",
+   "notes": "'Adroc Thurston' (no k) per character_names_021.json/encyclopedia_021_b.json/encyclopedia_022.json lock; Renton's late father.",
+   "source_sha256": "4017a655ca2002342058e46aa7fd5daa29c357b9188d95f77036f1831f18bc5c"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(23010,2)><speed(2)>Yeah!",
+   "notes": "",
+   "source_sha256": "f5d59f48c9104f96e9ada3506336a32d5e9fd2feee1e615c098634ad8e34a008"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(23030,2)><speed(2)>Go on... And go pour your heart out to <color(4)>Eureka<ce()>!",
+   "notes": "",
+   "source_sha256": "f96d46d81fd6ce63919cbbb4fc2dfbd09d779c888f20968a748f557198903caf"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>, I want to let those two meet.",
+   "notes": "",
+   "source_sha256": "9ba1e64356bf87d7da8c4874742ce3df49f1f445100a05866a026ca5c3f20159"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>Yeah. Let's go... <color(4)>Faye<ce()>!",
+   "notes": "",
+   "source_sha256": "fa12efc3e6197990f3340bf84984ffc19db10cc741c0077bc166571b10d21f66"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(12031,1)><speed(2)>Captain <color(4)>Amuro<ce()>, please look after the two of them.",
+   "notes": "'Captain' for taii per terms_028.json lock (Gundam-series pilot rank); tag scope matches source (color wraps only 'Amuro').",
+   "source_sha256": "56f4c7c40574ae5f8455f43441cc6ed79b77de68a9809eed7022f1e2f70d85ad"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>Yeah... Two people who care for each other, torn apart. I never want to see something that sad again.",
+   "notes": "",
+   "source_sha256": "33d035a3cbe7aa90c9cd9327ec20f052642704d1ecc3ebd0ffb3caa41045e92a"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10020,2)><speed(2)>Man, talk about lovey-dovey. <color(4)>Renton<ce()>'s too embarrassing to even watch.",
+   "notes": "'ateraecha' (getting secondhand embarrassment from a couple's PDA) rendered as 'lovey-dovey ... embarrassing to watch'.",
+   "source_sha256": "a51cc7546f40a4af490c0c67d4a0bf9e1f7359c9bfdd6c9c9af95c48ffe3f584"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10030,1)><speed(2)>Says that, but... You're actually envious, aren't you.",
+   "notes": "'urayamashii' rendered 'envious' rather than 'jealous' to avoid the lowercase j.",
+   "source_sha256": "d6ed88c57c3b53d1aed5cdbf14a5d90dc0f142e94e98775376c41545fe93c4be"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10020,1)><speed(2)>Wha... N-no, that's not it!",
+   "notes": "",
+   "source_sha256": "2245227d818901d6a83e025738ec5d623e55a64f3da1d3469e8995fad27f60e0"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(10010,2)><speed(2)>Let's go. We finally made it back, after all.",
+   "notes": "",
+   "source_sha256": "878d75328a23bd762bcce1f582fbdd95c8f87cb3fe2ec033ac2f6ed60dd76074"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(10010,2)><speed(2)>Let's get those two together - this time, we grab our own happiness too!",
+   "notes": "",
+   "source_sha256": "b272426219189f719d1a7dd94f8167868c4fecdbf43b59557722401c3d8c8acf"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(25010,2)><speed(2)>Heh heh... Finally made it back. Up for a match, for old times' sake?",
+   "notes": "",
+   "source_sha256": "5faaf4681547b84b868891efabcbe842012d5a5940a718f6b42c7ca38983211e"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(25020,1)><speed(2)><color(4)>Isamu<ce()>... Think about those two right now.",
+   "notes": "",
+   "source_sha256": "0c6aac0c8415259eb7ee84ef45415f035f5ebf10d3f94a987af1f051758532d5"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(25010,2)><speed(2)>Pretty thoughtful, coming from you.",
+   "notes": "",
+   "source_sha256": "c88a4c50791fd03c937750e342e27b1d05c2d6498cb789a5f9bb59beec75ed5a"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(17070,1)><speed(2)>...<color(4)>Garrod<ce()>.",
+   "notes": "",
+   "source_sha256": "4cbc11cf9eedb853aaf828ef4518387731a1fb839d3ed85fd33d21dda7300bd9"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17010,1)><speed(2)>I know, <color(4)>Tiffa<ce()>. No need to sweat the details. We'll make sure they meet!",
+   "notes": "",
+   "source_sha256": "a78a8c499090604cdabd96c7f9032ace02acdbaa3f3fcc5be52607e1806464b2"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(17030,2)><speed(2)>Ultimate romance, huh.",
+   "notes": "",
+   "source_sha256": "d189b7ac05dfb57d255fa0ee93938885c5f3863d0e6913f365c2990d07b9a678"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(17030,2)><speed(2)>Saving the world and saving your girl, all in one go.",
+   "notes": "",
+   "source_sha256": "5f7d3daa118d7b19db909a8cab60dbc8f81489bc35c2cedbcc69e5a81bfc4da4"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(17020,1)><speed(2)>This isn't the time to be kidding around, is it?",
+   "notes": "'chakasu' rendered 'kidding around' rather than 'joking around' to avoid the lowercase j.",
+   "source_sha256": "b9b66a802b8f9054955e7b754f6076d4a22b0ef98b9311ec6cf5865ce02bffe8"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(23040,2)><speed(2)>That kid's really grown up, hasn't she.",
+   "notes": "",
+   "source_sha256": "84eabb92468ce7cf28b1625fb434e4495b65d75c62593bc6aad04d235a5f81cc"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(23030,2)><speed(2)>Yeah... And she used to be only a little tyke.",
+   "notes": "'just' avoided mid-sentence (lowercase j); 'only' substituted. 'squirt' avoided (lowercase q); 'tyke' substituted.",
+   "source_sha256": "3ae28a82b3380afbdc24741198b78a3f11f6f03024fc4f9eb1417555c2afff0b"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(23040,2)><speed(2)>Let's send her off, then - our own kid, setting out on her way.",
+   "notes": "",
+   "source_sha256": "d0597b6f6ae2a12d5857c743f2edfe0c08a98b2b6740023b7302431f58dc0540"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(23030,2)><speed(2)>Tch, graduating on us without asking.",
+   "notes": "",
+   "source_sha256": "c618fb3245e7e77b259515265bf5413347fe93a4243c65a8a32ca70d647dfcfb"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(23200,1)><speed(2)>Must be nice, being <color(4)>Eureka<ce()>. Having someone risk his life for you like that.",
+   "notes": "",
+   "source_sha256": "68b2733a5db6e64c91c0291b20bdc5b8e624d0ac930cf4711223b4986c1f1deb"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(23240,1)><speed(2)>Quit being greedy! You've got one too, don't you - a man named Dominic.",
+   "notes": "Speaker 23240 = Jurgens (captain of the Izumo per character_names_021.json); addressed as 'Captain' by Dominic in the next row.",
+   "source_sha256": "3731ef9deff25b346e4bdaff4c0802b0829f4fa00f8bbe908cf3958c94cee381"
+  },
+  {
+   "table": 1,
+   "slot": 301,
+   "text_id": 302,
+   "en": "<operator(23230,1)><speed(2)>C-Captain!",
+   "notes": "",
+   "source_sha256": "257cd0f176c726af96c48e3d22de0b16f14b89f48ed51f230319b8b121ddead6"
+  },
+  {
+   "table": 1,
+   "slot": 302,
+   "text_id": 303,
+   "en": "<operator(23200,1)><speed(2)>Heh, that's true.",
+   "notes": "",
+   "source_sha256": "76c3f9a87d72de13e14202b94efad45cf399156f121f5b5f45df2ec3663a3813"
+  },
+  {
+   "table": 1,
+   "slot": 303,
+   "text_id": 304,
+   "en": "<operator(23200,1)><speed(2)>I've got Dominic. Way more handsome than <color(4)>Eureka<ce()>'s guy, too!",
+   "notes": "",
+   "source_sha256": "5629d4a51840403d9c12965bb6e1732662f04718a9083f8378f7dc09beaffd91"
+  },
+  {
+   "table": 1,
+   "slot": 339,
+   "text_id": 340,
+   "en": "<operator(21010,1)><speed(2)><color(4)>Renton<ce()>... this time it's my turn to help.",
+   "notes": "",
+   "source_sha256": "cceb13e328ff0e86290d9e1c0ad4c5f618682bc5d0db97446003700c0f13098d"
+  },
+  {
+   "table": 1,
+   "slot": 340,
+   "text_id": 341,
+   "en": "<operator(21030,2)><speed(2)>Look at you, saying nice things. You're getting more polished as a man.",
+   "notes": "",
+   "source_sha256": "30a30fc87953c12baf2b5db00b2d690f931044c8750a72b0894f66781643c616"
+  },
+  {
+   "table": 1,
+   "slot": 341,
+   "text_id": 342,
+   "en": "<operator(21150,1)><speed(2)>It's great that you two get along, but let's get moving already!",
+   "notes": "",
+   "source_sha256": "143da4c814a163643f4448aaf71ff738cee84e1a29de2bc3a2a419f53e62b155"
+  },
+  {
+   "table": 1,
+   "slot": 379,
+   "text_id": 380,
+   "en": "<operator(21020,2)><speed(2)>These kids sure keep leaving the nest, one after another.",
+   "notes": "'just' avoided (lowercase j).",
+   "source_sha256": "8c899562f074b687be3d8fafb53d8c0ac0f577176c696f8deda674f4eedf8652"
+  },
+  {
+   "table": 1,
+   "slot": 380,
+   "text_id": 381,
+   "en": "<operator(14030,1)><speed(2)>Anyone working hard for a woman is a friend of mine! Gotta help him out.",
+   "notes": "",
+   "source_sha256": "71048e1bf1f7c5883872228d766302c722ec1868f0fe2b17060aa2ca54ec9773"
+  },
+  {
+   "table": 1,
+   "slot": 381,
+   "text_id": 382,
+   "en": "<operator(19050,1)><speed(2)>Reminds me of when I was reckless like that.",
+   "notes": "",
+   "source_sha256": "24c46778734a4596e8733a1dd0524abfbace3d9fb4568d1e6254900871f48986"
+  },
+  {
+   "table": 1,
+   "slot": 382,
+   "text_id": 383,
+   "en": "<operator(17040,1)><speed(2)>Building the future... Just as D.O.M.E. said. We can't afford to lose either.",
+   "notes": "Sentence-initial 'Just' kept (capital J), matching established corpus practice; D.O.M.E. per glossary.",
+   "source_sha256": "9f967d5b4c2f368acad0d8ab48e2731de7bc01a59f899a299b248d7e3452171c"
+  },
+  {
+   "table": 1,
+   "slot": 419,
+   "text_id": 420,
+   "en": "<operator(19010,1)><speed(2)><color(4)>Renton<ce()>. Let's be sure to get him there.",
+   "notes": "",
+   "source_sha256": "d47c9a34bc64095738595ba0a43a954e4b69ed4237e2822da303972053c9fb00"
+  },
+  {
+   "table": 1,
+   "slot": 420,
+   "text_id": 421,
+   "en": "<operator(19020,2)><speed(2)><color(4)>Go<ce()>... Glad to hear you say that.",
+   "notes": "",
+   "source_sha256": "6d8853778499c50c84e1d004b3f52264e930f465e59777d2bf0e484b33b6bbcf"
+  },
+  {
+   "table": 1,
+   "slot": 421,
+   "text_id": 422,
+   "en": "<operator(19030,1)><speed(2)>Let's do this.",
+   "notes": "",
+   "source_sha256": "eb59bf89119dbc66d1b2d03049888db67613e4a10adcda3a40ebf3a9c162d41b"
+  },
+  {
+   "table": 1,
+   "slot": 459,
+   "text_id": 460,
+   "en": "<operator(14010,1)><speed(2)>Just wait... We'll carve the way open, with our own strength!",
+   "notes": "",
+   "source_sha256": "2dfec11ef6482a7f20048cb6e8b17ae503072615c8884eb6725ab4a023d67d64"
+  },
+  {
+   "table": 1,
+   "slot": 460,
+   "text_id": 461,
+   "en": "<operator(1020,1)><speed(2)>That single-minded devotion of his - we must never let it turn into something sad.",
+   "notes": "",
+   "source_sha256": "74c6751c81948c9b3ca4c1ceacf7a768321f9d7f02c2c80b291698bdf2897ebe"
+  },
+  {
+   "table": 1,
+   "slot": 461,
+   "text_id": 462,
+   "en": "<operator(14010,1)><speed(2)>Yeah... let's go!",
+   "notes": "",
+   "source_sha256": "7f686c07fe9aec9ae1a07d0bfb864d238049ca43956bcbd77dc475dc3bc0b08d"
+  },
+  {
+   "table": 1,
+   "slot": 499,
+   "text_id": 500,
+   "en": "<operator(12061,1)><speed(2)>Aww, this is such a swoony drama. You don't see this every day.",
+   "notes": "",
+   "source_sha256": "7217da0af25b82eae27e17971a880fdd8438af92209fe3adee174a82446a0ebb"
+  },
+  {
+   "table": 1,
+   "slot": 500,
+   "text_id": 501,
+   "en": "<operator(12071,1)><speed(2)>If you asked me what it's for, I'd say - it's for <color(4)>Renton<ce()>.",
+   "notes": "",
+   "source_sha256": "1c8b67bec8f2e25f88d819e7fc85c0ae6c18da4048b5ed3b9cb520a64ad0dae2"
+  },
+  {
+   "table": 1,
+   "slot": 501,
+   "text_id": 502,
+   "en": "<operator(12061,1)><speed(2)>We've absolutely got to help him out!",
+   "notes": "",
+   "source_sha256": "048373147b82fe77ab195bba9bf71364b91c8f082581556c0514f45210e937b1"
+  },
+  {
+   "table": 1,
+   "slot": 539,
+   "text_id": 540,
+   "en": "<operator(17070,1)><speed(2)><color(4)>Heero<ce()>... Please look after the two of them.",
+   "notes": "'-san' dropped, consistent with established corpus practice.",
+   "source_sha256": "8ef9f5ae6b151d92c8a394bd7f852817d3691425614c2e33d44f819053f8b6f6"
+  },
+  {
+   "table": 1,
+   "slot": 540,
+   "text_id": 541,
+   "en": "<operator(6011,1)><speed(2)>I know.",
+   "notes": "",
+   "source_sha256": "da00a186120eed823e858f6cf66fadea1396762ca0dd0f49d4a3385ff8d2bb1a"
+  },
+  {
+   "table": 1,
+   "slot": 541,
+   "text_id": 542,
+   "en": "<operator(17070,1)><speed(2)>I can sense it. There's someone waiting for you... Please come back, for their sake too.",
+   "notes": "",
+   "source_sha256": "c85affd8f10bdf7c65c932c0498deea69dfe93793cc47a62a39aa78834ce25b0"
+  },
+  {
+   "table": 1,
+   "slot": 542,
+   "text_id": 543,
+   "en": "<operator(6011,1)><speed(2)>Mission understood.",
+   "notes": "",
+   "source_sha256": "35cd9edbc57ca6dc3ab39f7ddf4fe724e2b0069761ceeb220bd92c5dc9af4b46"
+  },
+  {
+   "table": 1,
+   "slot": 579,
+   "text_id": 580,
+   "en": "<operator(19040,1)><speed(2)>Helping with love isn't my style, but I guess I can't say that now...",
+   "notes": "",
+   "source_sha256": "e204143a58a7f09d91d88259cd42e50072773f7f712721e6a1f52d6820b21592"
+  },
+  {
+   "table": 1,
+   "slot": 580,
+   "text_id": 581,
+   "en": "<operator(19050,1)><speed(2)>From here on, it's their era. We'd better put in some effort for them.",
+   "notes": "",
+   "source_sha256": "88c2e3df8170ab857412c5b1357d852a40ab2ecc11300b18750dea250c2322c3"
+  },
+  {
+   "table": 1,
+   "slot": 619,
+   "text_id": 620,
+   "en": "<operator(16040,1)><speed(2)><color(4)>Asap<ce()>, please help those two meet again.",
+   "notes": "",
+   "source_sha256": "8a4f67fbdb8f1fed1d8ce41c3bae6a7bb86453b4beaa56cbcee61600c6e44d6b"
+  },
+  {
+   "table": 1,
+   "slot": 620,
+   "text_id": 621,
+   "en": "<operator(16010,1)><speed(2)>I know. If I were in their place, I'd do the same.",
+   "notes": "",
+   "source_sha256": "15f7bc95a43720b7390b22ec52e21e73545967d160706999223d331134a2cde5"
+  },
+  {
+   "table": 1,
+   "slot": 621,
+   "text_id": 622,
+   "en": "<operator(16040,2)><speed(2)><color(4)>Asap<ce()>...",
+   "notes": "",
+   "source_sha256": "2cad2aadd337e679f364781e0ad5aa65d0cbba0fa501939460936bab3da227d0"
+  },
+  {
+   "table": 1,
+   "slot": 659,
+   "text_id": 660,
+   "en": "<operator(12121,1)><speed(2)><color(4)>Tenkawa<ce()>. I know what you're thinking.",
+   "notes": "Speaker 12121 = Genichiro Tsukiomi addressing Akito Tenkawa by surname, per speaker_lookup.py/character_names_021.json.",
+   "source_sha256": "114382226178593561643a14fcd2dcaf15822d4cb56aff6330b516550de0fcf7"
+  },
+  {
+   "table": 1,
+   "slot": 660,
+   "text_id": 661,
+   "en": "<operator(12011,1)><speed(2)>No need to hide it... I only want to make sure they meet. That's all.",
+   "notes": "'just' avoided mid-sentence (lowercase j); 'only' substituted.",
+   "source_sha256": "d2d13ee37e0da6a623771a80c22e1bcbf48fe8bc62240c24109ad3429d4a4f09"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 23,
+   "issue": "Full Eureka Seven motto quoted; used the locked official-dub wording per terms_028.json verbatim, with the source's trailing 'Right, Holland?' appended to the same row."
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "issue": "'ateraecha' (secondhand embarrassment at a couple's PDA) rendered as 'lovey-dovey ... too embarrassing to watch'; idiomatic, not literal."
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "issue": "Speaker 23240 identified as Jurgens (captain of the U.F. ship Izumo per character_names_021.json); confirmed by Dominic's reply 'C-Captain!' in the next row. No prior scene file uses this speaker id to cross-check."
+  },
+  {
+   "table": 1,
+   "slot": 579,
+   "issue": "'koi no tetsudai nante shou ni awanee' (helping with romance isn't my style) rendered loosely as 'Helping with love isn't my style'; idiomatic."
+  },
+  {
+   "table": 1,
+   "slot": 659,
+   "issue": "Tsukiomi addresses Akito by surname 'Tenkawa' (source has no honorific); kept as a plain surname address."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 64,
+  "rows_in_scene": 64,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/23 Eureka Seven motto ('nedaru na, kachitore, sasureba ataerarenn'): used verbatim per terms_028.json lock, with source's trailing 'sou desho, Holland?' appended to the same row. Confirmed correct per orchestrator ruling.",
+   "1/300 speaker 23240: confirmed = Jurgens via speaker_lookup.py; corroborated by Dominic's 'C-Captain!' reply in the next row. Confirmed correct per orchestrator ruling.",
+   "1/99 'ateraecha' (secondhand embarrassment at a couple's PDA) rendered idiomatically as 'talk about lovey-dovey ... too embarrassing to watch' - not literal but faithful to the sense and tone. Accepted.",
+   "1/579 'koi no tetsudai nante shou ni awanee' rendered loosely as 'Helping with love isn't my style' - idiomatic, meaning preserved. Accepted.",
+   "1/659 Tsukiomi addresses Tenkawa by plain surname (source has no honorific) - matches source register. Accepted.",
+   "1/460 'that single-minded devotion' (no explicit possessor in source): referent is Hikaru Ichijyo, the immediately preceding speaker (14010) whose line is quoted with passion; gender not inferred from name, drawn from established character. Accepted.",
+   "No lowercase j/q found outside locked names anywhere in the scene (checked mechanically); translator's deliberate substitutions (envious, simply, tyke, kidding around) hold up.",
+   "All <...> command tags verified identical and in source order for every row; no newlines; ASCII only; no bare %; all 64 rows within the 120 visible-char limit (checked mechanically against tools/scene_source.py output)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

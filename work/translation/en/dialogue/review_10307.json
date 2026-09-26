@@ -1,0 +1,29 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 10307,
+  "slice_count": 80,
+  "rows_examined": [{"start": 10292, "end": 10401}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [10314, 10315, 10316, 10317, 10318, 10320, 10321, 10322, 10327, 10328, 10329, 10330, 10331, 10344, 10345], "finding": "Rally/reaction lines from unnamed allied pilots and crew as the mission opens. No speaker tag exists in the table; translator correctly left these speaker-neutral rather than assigning Eureka Seven cast names on the strength of content resemblance alone."},
+    {"rows": [10337, 10338, 10339, 10340], "finding": "Izumo captain's defection speech. Content and the immediately preceding Izumo appearance (10332-10336) make Jurgens the near-certain speaker, and character_names_021.json's Jurgens entry ('Captain of the U.F. ship Izumo; later sides with Gekkostate') supports it, but the translator correctly did not insert his name into the English text since the source rows themselves are untagged."},
+    {"rows": [10342, 10343], "finding": "Confirmed correct: source explicitly names Anemone as the person the speaker wants to protect, and the masculine self-reference plus 'devoted to Anemone' matches Dominic's glossary profile. No identity was invented beyond what the line itself states."},
+    {"rows": [10363, 10366], "finding": "'月光号' rendered 'Gekko' is correct and matches the already-researched glossary entry (meeting_terms_015.json: '月光号'->'Gekko', ship). Not a different vessel from the ゲッコー seen elsewhere."},
+    {"rows": [10309, 10339, 10368], "finding": "'New Federation forces' (lowercase 'forces') for 新連邦軍/連邦軍 in military/personnel contexts is consistent with corpus precedent cited by the translator and does not conflict with terms_028.json's 'New Federation' org-name lock, which covers the bare organization name."}
+  ],
+  "uncertainties": [
+    {"rows": [10314, 10315, 10316, 10317, 10318, 10320, 10321, 10322, 10327, 10328, 10329, 10330, 10331, 10344, 10345], "issue": "Speaker identities for the unnamed rally lines are not settled by the table and were correctly left unassigned."},
+    {"rows": [10337, 10338, 10339, 10340], "issue": "Jurgens is the very probable speaker of the defection speech but is not named in-line; ruling: leaving him unnamed is correct."},
+    {"rows": [10309], "issue": "Name/title reorder across the \\n break (title-then-name -> name-then-title) changes nothing but word order; both title 'Supreme Commander' and name 'Dewey Novak' are retained. No fix needed."}
+  ],
+  "validation": {
+    "controls": "Re-checked every <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()> command against tools/dialogue_corpus.py slice output for all 80 rows; identical and in the same order as source in every row.",
+    "format": "Newline counts match source for all 80 rows.",
+    "fit": "All rows <=110 visible characters (longest well under budget); ASCII-only except the fullwidth percent sign (none used in this slice); no lowercase j/q found.",
+    "meaning": "Compared all 80 rows against the Japanese source (context 10292-10401). No mistranslation, reversed meaning, wrong addressee/subject, invented information, dropped sentence endings, or tone contradiction found. No target fields changed.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

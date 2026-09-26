@@ -1,0 +1,134 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 2135,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 2120,
+      "end": 2229
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [
+        2209,
+        2210,
+        2211
+      ],
+      "finding": "Live Mission 07 opening orders: meaning and imperative register correct; 'Shin Dragon' matches glossary."
+    },
+    {
+      "rows": [
+        2213,
+        2214
+      ],
+      "finding": "2213 'I told you I would not die' - the 'I' is settled by 2214, the same speaker's continuation (no <ed()> in 2213, no <op()> in 2214). 'you humans' renders 'kisama-ra jinrui'; both objects of 'witness' (extinction of humanity, the world's last day) kept. Rows 2215-2219 read for context."
+    },
+    {
+      "rows": [
+        2212
+      ],
+      "finding": "'Deuteron Missile' matches the existing corpus uses. 'hazu da' (it must have hit) is preserved by 'should have hit'. See uncertainties for the addressee."
+    },
+    {
+      "rows": [
+        2140
+      ],
+      "finding": "Ruling: 'him' for 'yatsu' accepted - the next sentence identifies the opponent as the Nightmare of Solomon (Anavel Gato, male); corpus rows 0919/0933/1506 use the same epithet spelling."
+    },
+    {
+      "rows": [
+        2147,
+        2150
+      ],
+      "finding": "Ruling: 'it' in 2147 matches corpus row 0917 (same order about Unit 2) and 2149 'target'; 2150 subjectless - accepted."
+    },
+    {
+      "rows": [
+        2163,
+        2170,
+        2174,
+        2180
+      ],
+      "finding": "Ruling: 'For I stand on a righteous cause!' is a faithful rendering of 'gi ni yotte tatte iru' and is identical in all four rows - accepted."
+    },
+    {
+      "rows": [
+        2178,
+        2179
+      ],
+      "finding": "Ruling: split sentence kept across two boxes in source order; 'my great cause' for 'waga taigi' accepted (single speaker; 'our' equally possible, not a defect)."
+    },
+    {
+      "rows": [
+        2191,
+        2192,
+        2193
+      ],
+      "finding": "Rulings: idiom paraphrase in 2191 accepted; 2192 object left unstated as in source - accepted ('never again forget', following 2188 'Uraki, was it?'); 2193 'get out of there' covers eject/withdraw - accepted. 'Major' is the locked rank."
+    },
+    {
+      "rows": [
+        2166,
+        2187
+      ],
+      "finding": "Per-unit banter sets compared line by line; opposing pilots are not named in the source and none was supplied. UCE kept as in source."
+    },
+    {
+      "rows": [
+        2135,
+        2138,
+        2197,
+        2208
+      ],
+      "finding": "Developer placeholders compared; 2205 garbled source read as 'Gato strongly acknowledges the pilot' - accepted; temp IDs and numbering preserved."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2212
+      ],
+      "issue": "Live row. Source 'Saotome-me...' does not mark second or third person; the draft addresses Saotome directly ('damn you ... hit you'). Saotome answers in 2213 ('I told you...'), so direct address is consistent with the exchange and the row was left unchanged, but a muttered third-person reading ('Damn that Saotome... He should have taken a direct hit from the Deuteron Missile.') is at least as natural in Japanese. Speaker untagged (Hayato by context, not asserted)."
+    },
+    {
+      "rows": [
+        2214,
+        2215
+      ],
+      "issue": "2214 (the world's last day to be witnessed) and 2215-2216 (Shin Dragon needed to avoid Earth's last day; next slice) sit oddly together; text ids 111-113 and 114-118 may be separate exchanges or different speakers. No change made; flagged for the reviewer of slice 2215."
+    },
+    {
+      "rows": [
+        2145
+      ],
+      "issue": "'...sumu mono wo' is a regretful counterfactual ('had you only kept still you would not have to suffer'); draft 'Stay still, and you would be spared the suffering!' reads slightly more like an offer. Judged within tolerance for a legacy row, not changed."
+    },
+    {
+      "rows": [
+        2206,
+        2207,
+        2208
+      ],
+      "issue": "'the GP02' (2206) vs 'GP02' (2207-2208) article inconsistency in placeholders; cosmetic, not changed."
+    },
+    {
+      "rows": [
+        2139,
+        2208
+      ],
+      "issue": "Resource 6062 is legacy ACE2 content, probably unused in ACE3; speakers untagged."
+    }
+  ],
+  "validation": {
+    "controls": "Console check after review: ordered <...> command list of every target equals the ISO source's, including rows whose source lacks <ed()> or <op()>.",
+    "format": "No newline in any target; ASCII only; no percent sign; 80 ids in order.",
+    "fit": "Longest visible text 93 chars (limit 110). No shortening performed by this review.",
+    "glyphs": "Lowercase j/q absent from visible text except the locked rank 'Major' (2193).",
+    "runtime": "Runtime scene selection, font coverage and visual fit are not established by this meaning review."
+  }
+}

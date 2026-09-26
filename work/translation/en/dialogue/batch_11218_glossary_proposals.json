@@ -1,0 +1,8 @@
+[
+  {
+    "term_romaji": "Gira Doga",
+    "en": "Geara Doga",
+    "source": "https://gundam.fandom.com/wiki/AMS-129_Geara_Doga",
+    "why": "Named in dialogue_11228 ('Even the Geara Doga...!?'). Distinct from the already-locked 'Jagd Doga' (Yakuto Doga, unit_names_014_a.json ids unit.table3000.35/36). 'Geara Doga' is not yet present in any unit-name glossary table, but the spelling already appears descriptively in character_names_021.json (Rezin Schnyder: 'Geara Doga squad leader'); this proposal formalizes it as a unit-name entry so it can be added to unit_names_014_a/b.json for consistency with future dialogue and encyclopedia rows."
+  }
+]

@@ -1,0 +1,73 @@
+{
+ "resource_id": 4003751,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21020,1)><speed(2)><move(1,3,9)>Alright, listen up<marker(2,3,9,0)> before we launch.<move(2,3,9)>",
+   "notes": "",
+   "source_sha256": "d70a711818f2c4bec1903f6c8b94ac2b9e24836d04087ff61c99e328a3991d87"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21020,1)><speed(2)>The decoy<move(1,4,7)> operation<marker(11,4,7,0)> has<marker(47,6,7,0)> already<marker(5,8,5,0)> begun<marker(5,8,7,0)>.<marker(5,8,9,0)> We<marker(5,6,0,0)> led<move(2,4,7)><picture(80,2,7,0)><refer(2,7,4,7)> the enemy<marker(20,0,3,0)> around<marker(20,6,3,0)>, and<marker(20,0,11,0)> now<marker(20,8,12,0)> we're<marker(20,11,12,0)> surrounded<marker(26,10,13,0)> by them.",
+   "notes": "'Decoy' for youdou sakusen matches corpus usage of 'decoy' (dialogue.json).",
+   "source_sha256": "f56d6fe1ea97eeb465f434e0686e3d32e53ae9d75fe2e760378dc62c06583b62"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21020,1)><speed(2)>To escape this, the <color(4)>mothership<ce()>'s<move(1,10,7)> retreat<marker(22,10,5,0)> route<marker(22,10,7,0)> is<marker(22,10,9,0)> blocked by <color(5)>target<move(1,13,7)>s<marker(37,12,12,0)><ce()> -<marker(22,12,6,0)><marker(22,12,7,0)><marker(22,12,8,0)> take<marker(37,13,4,0)> them<marker(22,13,6,0)> all<marker(22,13,7,0)> out<marker(22,13,8,0)>,<marker(37,12,1,0)> every<marker(37,13,10,0)> last<danger(1)> one.<move(2,13,7)><picture(114,30,7,0)><refer(30,7,13,7)>",
+   "notes": "color(4) span kept to just 'mothership' as in source (closes before the possessive), color(5) span kept to just 'target' (pluralised outside the span).",
+   "source_sha256": "54c67365b8b1f27d030afde38a656acc19b893d9d3a214f3349154f11fce8f18"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(21020,1)><speed(2)>Tough<move(1,1,1)> guys<marker(22,1,1,0)> are<marker(45,2,2,0)> chasing<move(1,0,7)> us<marker(22,0,7,0)> from<marker(32,1,7,0)> behind<move(1,2,13)> too<marker(22,2,13,0)>, but<marker(29,3,12,0)> our priority<move(2,0,7)><picture(115,2,14,0)><refer(2,14,2,13)> is securing a route. Act on the situation after that.",
+   "notes": "",
+   "source_sha256": "3e925b1232e7f21e915d59bda91f0b475ebd89d2803d602e60a4f13fb6c706d3"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<delpic(2,7,1)><enemylist()><operator(21020,1)><speed(2)>Alright, I'm counting on you.",
+   "notes": "",
+   "source_sha256": "a81c44c85e31eb6436de31b1ca350320dc82009592ac87447b81f41829edc193"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "New Federation slot 0 header matches glossary.json.",
+   "Speaker 21020 is Gain Bijou (speaker_lookup.py); briefing to his unit throughout.",
+   "'mothership' (slot 21) lowercase matches established usage; 'decoy' for youdou sakusen matches corpus usage per the row's own note.",
+   "Slots 20-22 reorder Japanese pre-verb modifier clauses into natural English verb-first order (e.g. 'we led the enemy around' / 'take them all out'); the 11/47/5/20/26/37/22/45/29-series marker tags get redistributed across the same single continuous sentence as a necessary consequence of that reordering, not moved to an unrelated sentence - consistent with the 'dense marker clusters distributed across the clause are acceptable' ruling.",
+   "No mistranslation, reversed meaning, invented subject/added honorific, or dropped sentence ending found; command tag order and count match the source exactly in every row (verified programmatically)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

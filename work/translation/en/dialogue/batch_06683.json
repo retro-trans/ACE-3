@@ -1,0 +1,530 @@
+{
+  "slice_start": 6683,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      6668,
+      6777
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_06756",
+        "dialogue_06759",
+        "dialogue_06760",
+        "dialogue_06762"
+      ],
+      "note": "Unnamed pilot in Berkt's unit (first appears 06753). She is never named in this slice; \"she/her\" is used only because her lines carry strong feminine sentence-final particles (\u308f\u306d/\u306e\u3088), not because of any name - flagging in case an orchestrator prefers neutral phrasing instead."
+    },
+    {
+      "id": "dialogue_06695",
+      "note": "\"Kusakabe has no virtue!\" is read as a jab at locked character Haruki Kusakabe (leader of the Martian Successors / former Jovian Federation), echoing a classical-sounding condemnation-of-a-tyrant phrasing in the source. Identity link is contextual, not explicit in this row."
+    },
+    {
+      "id": "dialogue_06778",
+      "note": "Speaker of the surrender demand to \"former Jovian soldiers\" is not tagged; presumed to continue Tsukiomi's earlier appeal (06686) by parallel phrasing, not confirmed."
+    },
+    {
+      "ids": [
+        "dialogue_06711",
+        "dialogue_06713",
+        "dialogue_06724"
+      ],
+      "note": "\"A-class Jumper\" and \"Nergal Dock\" are new terms without a dedicated prior glossary entry (A-class jumper only appears lower-case inside a character bio); proposed in batch_06683_glossary_proposals.json."
+    },
+    {
+      "id": "dialogue_06691",
+      "note": "\"a new order\" (\u65b0\u305f\u306a\u308b\u79e9\u5e8f) is Neo Zeon's ideological slogan running through 06691-06695; no prior lock found in the corpus, proposed as \"New Order\" in the glossary proposals file for future consistency."
+    }
+  ],
+  "rows": [
+    {
+      "id": "dialogue_06683",
+      "target": "<op()><sp(20)>Alright, all units are out.\nDestroy the enemy fleet!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06684",
+      "target": "<op()><sp(20)>That person...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Trailing thought kept incomplete as in source (\"...\"); no identity supplied for the person Barrel/pilot notices."
+    },
+    {
+      "id": "dialogue_06685",
+      "target": "<op()><sp(20)>The Jovian ace, Genichiro Tsukiomi...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Genichiro Tsukiomi (locked character_names_021.json spelling); \"Jovian\" used as adjective for former \u6728\u661f\u9023\u5408/Jovian Federation member."
+    },
+    {
+      "id": "dialogue_06686",
+      "target": "<op()><sp(20)>Warriors of the Jovians!\nThere is no righteousness in Neo Zeon!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"righteousness\" substitutes for \"justice\" to avoid the lowercase j glyph; meaning unchanged (Neo Zeon has no moral right)."
+    },
+    {
+      "id": "dialogue_06687",
+      "target": "<op()><sp(20)>Huh? Wait...\nAre you on our side?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06688",
+      "target": "<op()><sp(20)>You betrayed your friends, betrayed Jupiter...\nAnd now you're Nergal's dog.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"Jupiter\" is the planet name, no synonym exists; kept as-is (proper noun, not a project term needing the j/q avoidance)."
+    },
+    {
+      "id": "dialogue_06689",
+      "target": "<op()><sp(20)>Tsukiomi! You were a Jovian soldier once, weren't you!\nWhy won't you cooperate with us!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06690",
+      "target": "<op()><sp(20)>What exactly are you fighting for?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06691",
+      "target": "<op()><sp(20)>Everything is for the sake of a New Order!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06692",
+      "target": "<op()><sp(20)>A New Order? How laughable.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06693",
+      "target": "<sp(20)>It's true that a New Order is born\nonly at the end of destruction and chaos.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06694",
+      "target": "<sp(20)>So it's inevitable to endure the birth pains.\nBut!<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06695",
+      "target": "<sp(20)>Kusakabe has no virtue!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"Kusakabe\" read as referring to locked character Haruki Kusakabe (opening_history_terms.json), leader of the Martian Successors/former Jovian Federation faction; the line functions as a classical-sounding put-down (echoes the \u6840\u7d02\u306b\u5fb3\u306a\u3057 topos) rather than a literal biography claim."
+    },
+    {
+      "id": "dialogue_06696",
+      "target": "<op()><sp(20)>Don't let the Federation fool you.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06697",
+      "target": "<sp(20)>So that's their strategy to sap our will to fight.\nThe Federation sure comes up with sly tricks.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06698",
+      "target": "<sp(20)>There's no way we can lose\nto those Earth people.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06699",
+      "target": "<op()><sp(20)>No thanks to Federation rule.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06700",
+      "target": "<sp(20)>Those Earth folks should behave\nand stay holed up on the ground.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "\"behave\" used for \u304a\u3068\u306a\u3057\u304f (quietly/obediently) to avoid lowercase q in \"quiet\"; meaning (submissive, staying put) preserved."
+    },
+    {
+      "id": "dialogue_06701",
+      "target": "<sp(20)>As for me, as long as there's a fight,\nthat's all I need!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06702",
+      "target": "<op()><sp(20)>Some Federation ace you are,\nif you can't even stop the fleet.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06703",
+      "target": "<op()><sp(20)>The Nadesico on the moon\nis under enemy attack.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06704",
+      "target": "<op()><sp(20)>What?\nCan't we send support!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06705",
+      "target": "<op()><sp(20)>Everyone's already out on deployment...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06706",
+      "target": "<op()><sp(20)>Boson particle reaction spiking in the distance!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06707",
+      "target": "<op()><sp(20)>That black machine...!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06708",
+      "target": "<op()><sp(20)>It's the type confirmed in the Amaterasu incident.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06709",
+      "target": "<op()><sp(20)>Which means... that's Akito Tenkawa.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06710",
+      "target": "<op()><sp(20)>What!?\nHow do you know that?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06711",
+      "target": "<op()><sp(20)>His death was faked...\nTo protect an A-class Jumper.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "\"A-class Jumper\" formalizes a term only previously seen lower-cased inside a character bio (character_names_021.json, Inez Fressange); proposed to glossary."
+    },
+    {
+      "id": "dialogue_06712",
+      "target": "<sp(20)>As for the rest, you'd better\nask him yourself.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06713",
+      "target": "<op()><sp(20)>The black machine wiped out the enemies\nthat attacked the Nergal Dock.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"Nergal Dock\" is a compound of the locked company name Nergal + generic facility word; not previously in glossary, proposed for consistency."
+    },
+    {
+      "id": "dialogue_06714",
+      "target": "<op()><sp(20)>Where'd he go?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06715",
+      "target": "<op()><sp(20)>I don't know.\nHe disappeared in an instant...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06716",
+      "target": "<sp(20)>The enemy has split into two groups!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06717",
+      "target": "<op()><sp(20)>Wipe them out!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06718",
+      "target": "<op()><sp(20)>These guys... are they monsters?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06719",
+      "target": "<op()><sp(20)>Show them the pride of Neo Zeon!!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06720",
+      "target": "<op()><sp(20)>Enemy forces advancing!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06721",
+      "target": "<op()><sp(20)>Enemy ships approaching the defense line!\nHurry, pursue them!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06722",
+      "target": "<op()><sp(20)>Enemy ships have broken through the defense line!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06723",
+      "target": "<op()><sp(20)>This is bad...!\nDon't let them get any further!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06724",
+      "target": "<op()><sp(20)>The enemy ships broke through!\nThe Nergal Dock is within their range!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same Nergal Dock facility as 06713."
+    },
+    {
+      "id": "dialogue_06725",
+      "target": "<op()><sp(20)>Our strength wasn't enough...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06726",
+      "target": "<op()><sp(20)>Any word from the Nadesico?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06727",
+      "target": "<op()><sp(20)>It looks like it'll still take time.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06728",
+      "target": "<op()><sp(20)>Ixbrau!\nYour movements are sluggish. What's wrong?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06729",
+      "target": "<op()><sp(20)>I-it's nothing!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06730",
+      "target": "<op()><sp(20)>Barrel! Get a hold of yourself!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06731",
+      "target": "<op()><sp(20)>I know that without you telling me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06732",
+      "target": "<op()><sp(20)>Damn it! Can I even pull this off!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06733",
+      "target": "<op()><sp(20)>Don't lose your nerve.\nThink of it as your chance to show you're a man!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"show you're a man\" translated literally; Barrel's gender is already established/locked, not inferred here."
+    },
+    {
+      "id": "dialogue_06734",
+      "target": "<op()><sp(20)>I'm not losing my nerve!\nI'll do it!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06735",
+      "target": "<op()><sp(20)>Yeah! That's the spirit!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06736",
+      "target": "<op()><sp(20)>How's the battle going?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06737",
+      "target": "<op()><sp(20)>So far, all units are still holding up.\nBut...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06738",
+      "target": "<sp(20)>The Ixbrau isn't performing\nas well as it should.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06739",
+      "target": "<op()><sp(20)>Barrel, huh...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06740",
+      "target": "<op()><sp(20)>Mobile suit pilots from our world\nhave a lot more guts than that!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06741",
+      "target": "<op()><sp(20)>No, the folks on this side\nare plenty fired up too.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06742",
+      "target": "<op()><sp(20)>What was that? Don't start whining!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06743",
+      "target": "<op()><sp(20)>I'm not whining!\nI'm simply saying the enemy's pretty tough!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06744",
+      "target": "<op()><sp(20)>That's exactly what whining is!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06745",
+      "target": "<op()><sp(20)>The enemy sure is working hard, huh.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06746",
+      "target": "<op()><sp(20)>Being hardworking's a good thing.\nWe oughta take a page from their book!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06747",
+      "target": "<op()><sp(20)>Multiple heat sources ahead!\nApproaching at high speed!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06748",
+      "target": "<op()><sp(20)>Neo Zeon reinforcements?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06749",
+      "target": "<op()><sp(20)>No, that's not it.\nThis is... Berkt's unit!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06750",
+      "target": "<op()><sp(20)>Berkt!?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06751",
+      "target": "<op()><sp(20)>Even all the way out here?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06752",
+      "target": "<op()><sp(20)>That machine... it's different from before?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06753",
+      "target": "<op()><sp(20)>I made a few tweaks to the machine,\nso I won't make it easy for you this time.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06754",
+      "target": "<op()><sp(20)>Heat source around the enemy machine.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06755",
+      "target": "<op()><sp(20)>It's wrapping the machine in a field\nto attack directly. Watch out.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06756",
+      "target": "<op()><sp(20)>This time, I simply came here to fight.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Unnamed pilot in Berkt's unit; feminine sentence-final particles (\u308f\u306d/\u306e\u3088) used throughout her lines are the basis for she/her below, not her name (she has none in this scene) - flagged as an uncertainty."
+    },
+    {
+      "id": "dialogue_06757",
+      "target": "<sp(20)>It's Berkt's orders, after all.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06758",
+      "target": "<op()><sp(20)>Berkt... why?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06759",
+      "target": "<op()><sp(20)>That's none of my concern.\nAnything's fine by me.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "See 06756 uncertainty on this pilot's gender marking."
+    },
+    {
+      "id": "dialogue_06760",
+      "target": "<sp(20)>It's work, after all!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"work\" substitutes for \"job\" to avoid the lowercase j glyph."
+    },
+    {
+      "id": "dialogue_06761",
+      "target": "<op()><sp(20)>Where's Barrel?\nCome on out!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_06762",
+      "target": "<op()><sp(20)>That one... why come after me?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "\"she\" refers to the unnamed Berkt-unit pilot from 06753-06761; see uncertainty note (gender read from speech particles, not a name)."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently meaning-reviewed against source (tools/dialogue_corpus.py slice 6683 80, resource 6210, mission 18A 'Neo Zeon Fleet'). Two fixes applied: dialogue_06762 dropped an invented gendered pronoun for the unnamed Berkt-unit pilot (she -> pronoun-free), and dialogue_06691/06692/06693 capitalized the accepted term 'New Order'. All 80 rows now status meaning_reviewed; none left as draft.",
+    "fit": "All rows fit within the 110-character visible budget; 06826 was compressed to fit, full meaning retained.",
+    "controls": "Every angle-bracket command reproduced in the same order as the source for each row; no manual line-wrap added beyond the source's own \\n breaks; color()/book() spans wrap the same words the source tags wrapped."
+  }
+}

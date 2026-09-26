@@ -1,0 +1,101 @@
+{
+ "resource_id": 4003581,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23040,1)><speed(2)><move(1,0,10)>Everyone's here<marker(2,0,10,0)>, right? Let me explain.<move(2,0,10)>",
+   "notes": "",
+   "source_sha256": "057f29d664cf19440bf318579f20ff425aa96489e1fa600138269c3fd990ae42"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23040,1)><speed(2)>In this operation, <move(1,2,9)>the <color(4)>Gekko<ce()><marker(11,2,9,0)> will move ahead<line(16,2,9,14,9)> and close in on the <book(74)>Kute-class<move(2,2,9)><picture(80,2,7,0)><refer(2,7,2,9)> Coralian<endbook()><marker(5,4,13,0)>.",
+   "notes": "Kute-class Coralian: glossary proposal, see below.",
+   "source_sha256": "08bcb585eda85f44d98098d6b135779b07885589c801ec5159508b530d27d313"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23040,1)><speed(2)><move(1,7,9)>Take<marker(20,1,0,0)> out<marker(20,5,3,0)><marker(20,11,3,0)> the<marker(37,5,5,0)><marker(37,8,5,0)><marker(37,11,5,0)><marker(37,14,5,0)> <danger(1)><color(5)>enemies<ce()> in your path<marker(22,7,11,0)><marker(22,7,7,0)><marker(6,6,11,0)><marker(6,6,7,0)><marker(20,9,13,0)><marker(20,11,13,0)><marker(26,9,14,0)><marker(26,11,14,0)>,<marker(20,2,14,0)><marker(20,3,11,0)><marker(20,12,11,0)><marker(20,13,12,0)><marker(20,14,13,0)><move(2,14,9)><picture(61,2,14,0)><refer(2,14,7,11)> and cover the <color(4)>Gekko<ce()> until it reaches <color(6)>the target point<ce()><move(1,14,9)>,<marker(42,14,9,0)> I'm counting on you.<move(2,14,9)>",
+   "notes": "Meaning fix: removed invented 'every last one' (no 'subete' (all/every) in source for this line, unlike 4003491 slot20 which has it); markers kept, same order, reattached around the comma.",
+   "source_sha256": "15066b1b0fe64126f0e0b8594912251e8b9d8ed9734b396bfafacc5c411700ac"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>This will be a fairly forced breakthrough, so we're sending in an <move(1,2,3)><color(4)>unmanned unit<ce()><marker(7,2,3,0)> force<marker(10,2,5,0)> to set up a temporary field.<move(2,2,3)><picture(81,30,7,0)><refer(30,7,2,3)>",
+   "notes": "\"unmanned unit\" for mujinki per encyclopedia_022.json.",
+   "source_sha256": "5b78037c880b5117e3c8ac86003e8ad7c65cc46fdc4afa29bca173de14449d74"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>An enemy base has also been confirmed within the operation area, so please watch out for <color(5)>reinforcements<ce()>.",
+   "notes": "",
+   "source_sha256": "616ab81d5d78506d6fda77ee3bcea64873f1694dbad3074e944540c24ecae817"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "The relative clause order forced a reshuffle: the source's <marker(5,4,13,0)> sits right before the verb 'approach' (which follows the object in Japanese SOV order); kept it at the end of the English clause instead, after 'Coralian', to keep the tag sequence identical to source."
+  },
+  {
+   "slot": 21,
+   "issue": "Very dense marker cluster (18 markers across ~2 short clauses); distributed proportionally across the translated clause rather than mapped word-for-word, per the style of reviewed rows with similar clusters (e.g. 4003491 slot20/23). Visible length 126/128, at the edge of the limit."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "term": "クテ級コーラリアン",
+   "en": "Kute-class Coralian",
+   "source": "https://eurekaseven.fandom.com/wiki/Kute-class_Coralian",
+   "note": "First and only occurrence in these six scenes (book(74)); a giant sphere-of-energy Coralian type, name from 'suspended in the sky' (kuuchuu teishi). No prior corpus entry existed."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 21,
+    "before": "<operator(23040,1)><speed(2)><move(1,7,9)>Take<marker(20,1,0,0)> out<marker(20,5,3,0)><marker(20,11,3,0)> the<marker(37,5,5,0)><marker(37,8,5,0)><marker(37,11,5,0)><marker(37,14,5,0)> <danger(1)><color(5)>enemies<ce()> in your path,<marker(22,7,11,0)><marker(22,7,7,0)><marker(6,6,11,0)><marker(6,6,7,0)><marker(20,9,13,0)><marker(20,11,13,0)><marker(26,9,14,0)><marker(26,11,14,0)> every<marker(20,2,14,0)><marker(20,3,11,0)> last<marker(20,12,11,0)><marker(20,13,12,0)><marker(20,14,13,0)> one,<move(2,14,9)><picture(61,2,14,0)><refer(2,14,7,11)> and cover the <color(4)>Gekko<ce()> until it reaches <color(6)>the target point<ce()><move(1,14,9)>,<marker(42,14,9,0)> I'm counting on you.<move(2,14,9)>",
+    "after": "<operator(23040,1)><speed(2)><move(1,7,9)>Take<marker(20,1,0,0)> out<marker(20,5,3,0)><marker(20,11,3,0)> the<marker(37,5,5,0)><marker(37,8,5,0)><marker(37,11,5,0)><marker(37,14,5,0)> <danger(1)><color(5)>enemies<ce()> in your path<marker(22,7,11,0)><marker(22,7,7,0)><marker(6,6,11,0)><marker(6,6,7,0)><marker(20,9,13,0)><marker(20,11,13,0)><marker(26,9,14,0)><marker(26,11,14,0)>,<marker(20,2,14,0)><marker(20,3,11,0)><marker(20,12,11,0)><marker(20,13,12,0)><marker(20,14,13,0)><move(2,14,9)><picture(61,2,14,0)><refer(2,14,7,11)> and cover the <color(4)>Gekko<ce()> until it reaches <color(6)>the target point<ce()><move(1,14,9)>,<marker(42,14,9,0)> I'm counting on you.<move(2,14,9)>",
+    "reason": "Source (\"shinro-jou no teki wo yattsukete\") has no 'subete' (all/every) for this clause -- unlike the precedent row 4003491 slot 20, whose source does contain 'subete' and legitimately supports 'every last one.' Here 'every last one' was invented purely to host a dense marker cluster and overstates the source ('take out the enemies in your path'). Removed the invented phrase and reattached the same marker tags, in the same order, around the following comma instead."
+   }
+  ],
+  "checked_decisions": [
+   "Speakers: 23040 = Talho Yuki (slots 19-21, feminine wane/wayo register), 12031 = Ruri Hoshino (slots 22-23); matches source, not altered.",
+   "Slot 0 title 'New Federation' for source 'Shin Renpou': locked, unchanged.",
+   "Slot 20 'Kute-class Coralian' for 'Kute-kyuu Koorarian': accepted/locked per orchestrator ruling.",
+   "Slot 20: source's relative-clause word order forced the <marker(5,4,13,0)> tag to sit after 'Coralian' rather than mid-clause as in Japanese SOV order; tag order preserved, only its natural English position shifted. Accepted, this is a structural (not meaning) difference.",
+   "Slot 21: see meaning_fixes -- 'every last one' removed as an unsupported addition.",
+   "Slot 22 'unmanned unit' for 'mujinki' per encyclopedia_022.json; accepted.",
+   "Command tags: identical set and order versus source in every row (verified programmatically both before and after the slot 21 edit); visible lengths all within the 128-char limit; no bare %, no newline, ASCII only, no lowercase j/q found."
+  ],
+  "remaining_uncertainties": [
+   "Slot 21: the dense 18-tag marker cluster no longer has a semantically matching English word for every single tag (several now sit adjacent to a comma rather than a distinct word); this trades marker-per-word precision for accuracy of meaning. Flag if in-game highlighting looks visually off for this line."
+  ]
+ }
+}

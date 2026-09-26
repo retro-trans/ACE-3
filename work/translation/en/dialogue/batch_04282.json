@@ -1,0 +1,363 @@
+{
+  "slice_start": 4282,
+  "slice_count": 50,
+  "rows_examined": [
+    [
+      4267,
+      4376
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 50,
+  "rows": [
+    {
+      "id": "dialogue_04282",
+      "target": "<op()><sp(20)>Bit mobile suits?\nWhere do you think you'll find those!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is a Frost brother by scene context; not named in the line."
+    },
+    {
+      "id": "dialogue_04283",
+      "target": "<op()><sp(20)>They lie sleeping in the ocean depths, together with the L System.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "L System spelled without a hyphen; see uncertainties (also flagged in batch_04202)."
+    },
+    {
+      "id": "dialogue_04284",
+      "target": "<op()><sp(20)>But I no longer...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unfinished thought retained; likely Jamil, referring to his lost Newtype power."
+    },
+    {
+      "id": "dialogue_04285",
+      "target": "<op()><sp(20)>It's all right... I'll lend you my strength.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Rutil (speaking through the L System/Tiffa per her established role); no explicit name in source line."
+    },
+    {
+      "id": "dialogue_04286",
+      "target": "<op()><sp(20)>Flash System, activate.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04287",
+      "target": "<sp(20)>Ngh... AAAAAH!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <op()>, continuing the previous box; kept as-is."
+    },
+    {
+      "id": "dialogue_04288",
+      "target": "<op()><sp(20)>Captain!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04289",
+      "target": "<op()><sp(20)>It's no good... I can't become one with you.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressee ('you') not named in source; kept as a direct address without inserting a name."
+    },
+    {
+      "id": "dialogue_04290",
+      "target": "<op()><sp(20)>You mustn't give up.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04291",
+      "target": "<sp(20)>Remember... those days.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <op()>, continuing the previous box; kept as-is."
+    },
+    {
+      "id": "dialogue_04292",
+      "target": "<op()><sp(20)>This is something only you can do!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04293",
+      "target": "<op()><sp(20)>You're the one who's supposed to guide Tiffa and that boy!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'that boy' (ano shounen) left unidentified; no name supplied for an unconfirmed referent."
+    },
+    {
+      "id": "dialogue_04294",
+      "target": "<op()><sp(20)>Jamil!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04295",
+      "target": "<op()><sp(20)>Nnghhh...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Non-verbal strain sound."
+    },
+    {
+      "id": "dialogue_04296",
+      "target": "<op()><sp(20)>The enemy is retreating.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04297",
+      "target": "<op()><sp(20)>Amazing... To think it would go this far.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04298",
+      "target": "<on()><sp(20)>Target sighted!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04299",
+      "target": "<on()><sp(20)>Good, let's secure it!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04300",
+      "target": "<on()><sp(20)>Olba, shall we get going?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Olba Frost per character_names_021.json locked spelling."
+    },
+    {
+      "id": "dialogue_04301",
+      "target": "<on()><sp(20)>Okay, my hands were itching for a fight anyway.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Olba, replying to 4300."
+    },
+    {
+      "id": "dialogue_04302",
+      "target": "<on()><sp(20)>I won't hand over the L System.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not settled by neighbors (could be Jamil defiantly refusing, echoing 4212's 'I cannot hand Rutil over', or a Frost brother); left with no subject/name to preserve the ambiguity. See uncertainties."
+    },
+    {
+      "id": "dialogue_04303",
+      "target": "<on()><sp(20)>Jamil... Please, clean up after me.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Rutil, addressing Jamil by name in source."
+    },
+    {
+      "id": "dialogue_04304",
+      "target": "<on()><sp(20)>Yeah... I understand.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply from Jamil."
+    },
+    {
+      "id": "dialogue_04305",
+      "target": "<on()><sp(20)>I don't need something like this anymore!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04306",
+      "target": "<on()><sp(20)>Now, there's nothing left for me to regret.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04307",
+      "target": "<on()><sp(20)>It feels wonderful...\nLike I'm dreaming.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04308",
+      "target": "<on()><sp(20)>I'm sorry... In the end, I couldn't save you.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Jamil, addressing Rutil."
+    },
+    {
+      "id": "dialogue_04309",
+      "target": "<on()><sp(20)>It's all right... I was happy...\nto see you again, all grown up...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Source spells ureshikatta (was happy) without its shi syllable; read as the evidently intended 'was happy', matching the farewell tone of the whole exchange."
+    },
+    {
+      "id": "dialogue_04310",
+      "target": "<on()><sp(20)>Goodbye... Jamil.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04311",
+      "target": "<on()><sp(20)><color(4)>Tiffa<ce()>, are you all right?!",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <ab()>/<ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04312",
+      "target": "<on()><sp(20)>I'm fine.\n<color(6)>Rutil<ce()>... She's gone now.",
+      "status": "meaning_reviewed",
+      "notes": "-san honorific on Rutil dropped per corpus convention. Source row has no <ab()>/<ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04313",
+      "target": "<on()><sp(20)>As I told you before,\nthere have been seven Space Wars in the past.",
+      "status": "meaning_reviewed",
+      "notes": "Source row has no <ab()>/<ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04314",
+      "target": "<on()><sp(20)>In the last of them, the <book(42)>Space Rev. Army<endbook()>\nused a colony drop as its trump card\nand pressed Earth to surrender.",
+      "status": "meaning_reviewed",
+      "notes": "book(42) rendered 'Space Rev. Army' to match the existing encyclopedia_022.json entry using the same book id."
+    },
+    {
+      "id": "dialogue_04315",
+      "target": "<on()><sp(20)>...And I was the one piloting the <book(37)>GX<endbook()>\nthat the Federation side deployed then.",
+      "status": "meaning_reviewed",
+      "notes": "book(37) rendered 'GX' matching existing batch_01346.json usage of the same book id. 'Federation side' (not 'New Federation'): this refers to the historical government from the 7th Space War 15 years earlier, before the New Federation coup; see uncertainties."
+    },
+    {
+      "id": "dialogue_04316",
+      "target": "<on()><sp(20)>During the stalemate, a single shot I fired\nended up bringing down every colony.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04317",
+      "target": "<on()><sp(20)>It was I... who set off the tragedy\nbehind the world as it is now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04318",
+      "target": "<on()><sp(20)>Having lost my Newtype power, I began fighting\nto protect Newtypes, so this tragedy never happens again.",
+      "status": "meaning_reviewed",
+      "notes": "Compressed from three source lines to two to fit the 110-character visible limit; all three elements (lost power, fighting to protect Newtypes, preventing recurrence) kept."
+    },
+    {
+      "id": "dialogue_04319",
+      "target": "<on()><sp(20)>The <book(38)>New Federation<endbook()> now seeks all sorts of power,\nNewtypes included, spreading conflict.",
+      "status": "meaning_reviewed",
+      "notes": "New Federation per terms_028.json orchestrator ruling; book(38) matches existing locked usage."
+    },
+    {
+      "id": "dialogue_04320",
+      "target": "<on()><sp(20)>But someone like <color(6)>Rutil<ce()>\nshould never be made to exist again.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04321",
+      "target": "<on()><sp(20)>Let those who have something to protect protect it,\nand those who have something to save, save it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04322",
+      "target": "<on()><sp(20)>I don't want anyone else\nto ever feel what I have felt.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04323",
+      "target": "<on()><sp(20)>There's no telling when\n<color(4)>Jamil<ce()>'s sorrow might visit us too.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker uses 'ore-tachi' (we, informal masculine); not attributed to a specific name."
+    },
+    {
+      "id": "dialogue_04324",
+      "target": "<on()><sp(20)>Everyone, so that no one\never has to feel this way again,\nwe will win this fight, no matter what.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04325",
+      "target": "<on()><sp(20)>I'll protect <color(4)>Tiffa<ce()>.\nNo matter what happens.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Garrod by established pairing with Tiffa; name not inserted into the line."
+    },
+    {
+      "id": "dialogue_04326",
+      "target": "<on()><sp(20)>And I...\nI'll be sure to protect <color(4)>Eureka<ce()>, too.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Renton by established pairing with Eureka; name not inserted into the line."
+    },
+    {
+      "id": "dialogue_04327",
+      "target": "<on()><sp(20)>I'll protect <color(4)>Barrel<ce()>, too.",
+      "status": "meaning_reviewed",
+      "notes": "Speaker is Faye Rochenante by established pairing with Barrel Orland; name not inserted into the line. Source row has no <ab()>/<ed()>; kept as-is."
+    },
+    {
+      "id": "dialogue_04328",
+      "target": "<on()><sp(20)>Fighting to put an end to sorrow.\nThat, too, is a kind of battle.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04329",
+      "target": "<on()><sp(20)>That person, <color(6)>Rutil<ce()>...\nI wonder if she was happy, in the end.",
+      "status": "meaning_reviewed",
+      "notes": "'she' used for Rutil, whose gender is already locked in character_names_021.json."
+    },
+    {
+      "id": "dialogue_04330",
+      "target": "<on()><sp(20)>Only she herself knows that, huh.\nIsn't that all right, though?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04331",
+      "target": "<on()><sp(20)>Everyone... Thank you, truly.\n<color(6)>Rutil<ce()> will go on sleeping in that sea.",
+      "status": "meaning_reviewed",
+      "notes": "Closes the Mission 10B Rutil/L System arc; rows 4332+ (resource 6131) belong to a different, unrelated scene and are out of range."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_04302"
+      ],
+      "note": "Speaker of 'I won't hand over the L System' is not settled by adjacent rows; could be Jamil (echoing his earlier refusal at 4212) or one of the Frost brothers demanding it be kept from the New Federation. Left subjectless."
+    },
+    {
+      "ids": [
+        "dialogue_04283",
+        "dialogue_04302"
+      ],
+      "note": "L System spelled without a hyphen, continuing the choice made in batch_04202.json; flagged there for centralized confirmation against character_names_021.json's hyphenated form."
+    },
+    {
+      "ids": [
+        "dialogue_04309"
+      ],
+      "note": "Source text has a likely typo (ureshikatta written without its shi syllable); translated as the evidently intended 'was happy' given the scene's farewell tone, not literally."
+    },
+    {
+      "ids": [
+        "dialogue_04293"
+      ],
+      "note": "'that boy' (ano shounen) addressed to Jamil alongside Tiffa is not identified in this row range; no name supplied for an unconfirmed referent."
+    },
+    {
+      "ids": [
+        "dialogue_04315"
+      ],
+      "note": "'Federation side' (renpou-gawa) kept distinct from the locked 'New Federation' (book(38)/shinrenpou): this line describes the historical government from 15 years before the New Federation's rise, per encyclopedia_022.json's GX-9900 entry ('fielded as the Earth side's decisive weapon ... 7th Space War')."
+    },
+    {
+      "ids": [
+        "dialogue_04323",
+        "dialogue_04325",
+        "dialogue_04326",
+        "dialogue_04327"
+      ],
+      "note": "Group vow scene: speakers are inferable from established pairings (Garrod/Tiffa, Renton/Eureka, Faye/Barrel) but names are not inserted into the lines themselves, matching source, which identifies only the protected party via color tags."
+    }
+  ],
+  "validation": {
+    "controls": "All angle-bracket commands preserved in source order for every row, including several rows (4311-4331) that have no <ab()>/<ed()> at all in source.",
+    "fit": "Full meaning retained; no row shortened for display width. All visible strings checked <= 110 characters.",
+    "format": "No literal newlines; \\n used only where the source itself has \\n. ASCII only; no bare %, no lowercase j/q outside locked names where a synonym existed.",
+    "scope": "Rows 4332 onward (resource 6131) were read only as trailing context and confirmed to belong to a separate, unrelated scene; none were translated here.",
+    "meaning_review": "Independently meaning-reviewed against the Japanese source (review_04282.json): all 50 rows checked, no mistranslations, reversed meaning, or invented identities found; no target text changed; all rows set to meaning_reviewed."
+  }
+}

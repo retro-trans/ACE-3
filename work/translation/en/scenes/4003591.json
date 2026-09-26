@@ -1,0 +1,104 @@
+{
+ "resource_id": 4003591,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 9,
+ "rows_examined": 9,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Antibody Coralian",
+   "notes": "Faction name; locked per mission_terms_019.json (researched).",
+   "source_sha256": "be07d861e355f817558610fcf4647e1f698c65809e0152c9918f169e499a3421"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17080,1)><speed(2)><move(1,10,13)>I will now explain the details<marker(1,10,13,0)> of the<marker(3,8,12,0)> operation.<move(2,10,13)><picture(51,2,14,0)><refer(2,14,8,12)>",
+   "notes": "",
+   "source_sha256": "6ab704f703da15ca1c761940efa64dc642a22dac34e6907521879116653c02c1"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17080,1)><speed(2)>The goal this time is to recover vital supplies. Please locate the <color(5)>target<ce()>.",
+   "notes": "\"recover vital supplies\" matches missions_019.json mission 10B title.",
+   "source_sha256": "a0665fea69892d24778aededce195688466a702300f43a3bc7a9f412b8173a12"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17080,1)><speed(2)><book(38)>New Federation<endbook()> has noticed our presence and is <move(1,6,2)>trying to withdraw its <color(5)>transport<marker(25,6,2,0)> ship<ce()>.<move(1,8,8)><marker(25,8,8,0)> The target<move(1,11,4)> should be <color(5)>aboard it<marker(25,11,4,0)><ce()>.<move(2,11,0)><picture(82,30,7,0)><refer(30,7,6,2)>",
+   "notes": "",
+   "source_sha256": "4a745f4d53163d3633f03eda16fed1605505945e61e589d654fd194e91809e37"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17080,1)><speed(2)><line(43,0,14,15,14)>What's<marker(48,6,4,0)> trying<marker(48,8,10,0)> to leave<marker(48,11,6,0)> the zone is the <color(5)>transport ship<ce()>: attack it and make it stop.",
+   "notes": "Reordered so the noun phrase carrying color(5) could keep its place after the line/marker cluster, since JP puts the relative clause before the noun.",
+   "source_sha256": "adac0733649c4a8453f87200cde50f79d31f5bbb23af94ea0e34ff8204cb6f7f"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17080,1)><speed(2)><color(6)>Let even one ship<marker(20,0,0,0)> get<marker(20,0,6,0)> away<marker(20,1,10,0)><marker(20,1,13,0)>, and<marker(20,14,0,0)> the operation<marker(20,13,6,0)> is<marker(37,1,4,0)><marker(37,9,4,0)> a failure<ce()>.<marker(37,4,12,0)><marker(37,13,12,0)> <danger(1)>Please be careful.",
+   "notes": "",
+   "source_sha256": "eb0fe6ae6c3793f76cbc38bce288648c45b49a12de53c6f2c043af521143bb21"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>The <book(6)>Fl<move(1,3,8)>ail<endbook()> unit<marker(7,3,8,0)><marker(7,3,8,0)> will also be <move(1,11,8)>deployed<marker(7,11,8,0)> to stop the transport ship.<move(2,3,8)><picture(84,2,7,0)><refer(2,7,3,8)>",
+   "notes": "Flail is the project's provisional spelling (proposals_dialogue_00696, encyclopedia_022.json).",
+   "source_sha256": "34256260a8be989411b344638cbfacbc2bedb46bd86cb7124c2ac6dd71613fbf"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)><delpic(2,7,1)><enemylist()>Please help out if you can.",
+   "notes": "",
+   "source_sha256": "f31fd116821d8a6f1879fdf7a7ac16b5a562c38d82f13ec50d32d0df301ce57b"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 22,
+   "issue": "Sentence restructured (\"What's trying to leave the zone is the transport ship\") to keep the line/marker cluster before the color(5) span as in source, since JP's relative clause precedes its noun and English usually reverses that."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 9,
+  "rows_in_scene": 9,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speakers: 17080 = Sala Tyrrell (slots 19-23), 12031 = Ruri Hoshino (slots 24-25); matches source, not altered.",
+   "Slot 1 'Antibody Coralian' for 'koutai koorarian': matches mission_terms_019.json (researched/locked).",
+   "Slot 20 'recover vital supplies' matches missions_019.json mission 10B title.",
+   "Slot 21 'kono naka ni taagetto ga iru hazu desu' -> 'The target should be aboard it': correctly keeps the target's presence as a supposition ('should be'), not stated as fact; not overclaimed.",
+   "Slot 22 restructured as a cleft sentence (\"What's trying to leave the zone is the transport ship...\") to keep the line/marker cluster before the color(5) span, since the source's relative clause precedes its noun in Japanese; meaning and referent (the transport ship) preserved exactly.",
+   "Slot 24 'Flail' matches the project's provisional spelling (proposals_dialogue_00696.json, encyclopedia_022.json); consistent with 4003601.",
+   "Command tags: identical set and order versus source in every row (verified programmatically); visible lengths all within the 128-char limit; no bare %, no newline, ASCII only, no lowercase j/q found."
+  ],
+  "remaining_uncertainties": []
+ }
+}

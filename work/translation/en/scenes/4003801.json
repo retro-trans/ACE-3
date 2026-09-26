@@ -1,0 +1,84 @@
+{
+ "resource_id": 4003801,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Neo Zeon",
+   "notes": "Enemy faction name.",
+   "source_sha256": "3bea7d40814c0138b23f0465fc01b3a5772def14191961aee8237f4650610d09"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(5010,1)><speed(2)><move(1,8,13)>There's only one thing<marker(1,8,13,0)> to do this time.<move(2,8,13)>",
+   "notes": "",
+   "source_sha256": "b927e108d44304d61e1bc2684258052241ecbef848a38e573f905cdd15abe5eb"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(5010,1)><speed(2)>To destroy <book(14)>Axis<endbook()>, we will wipe out all the<move(1,8,4)> <book(12)>Neo Zeon<endbook()><marker(22,8,4,0)> forces defending the area.<move(2,6,2)><picture(122,2,7,0)><refer(2,7,8,4)>",
+   "notes": "",
+   "source_sha256": "ff6a4ea097d1d16c865dfc0852f1b37f53fc8faeb034ba892e94cc767f76f830"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(5010,1)><speed(2)>The enemy won't make this easy either. We've also confirmed what looks like a new-model <color(5)>mobile armor<ce()><picture(121,30,7,0)>, so be careful.",
+   "notes": "'mobile armor' (mobiru aamaa) has no locked project term; rendered lowercase like the project's existing 'mobile weapons'. See glossary_proposals.",
+   "source_sha256": "3a190913cf66f5ff7a020e03e97459a01c142857cd82e3c2d42df2c9b55fbfe2"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(5010,1)><speed(2)>If my read on this is right... <color(5)>Char<ce()> is bound to show up too.",
+   "notes": "",
+   "source_sha256": "38cf1ef4aab1beca00b027a557e21ca3af0547725a9e9e45f8aeb6650f8f79d4"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<delpic(2,7,1)><enemylist()><operator(5010,1)><speed(2)>This is our last chance. Everyone, I'm counting on you!",
+   "notes": "",
+   "source_sha256": "c8258e3761363fa94908c4fb27e22eeafe00f6f81a3380e5e13bbf996c7e6665"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 21,
+   "issue": "'mobile armor' for mobiru aamaa (Gundam MA class) has no locked project term; used the standard Gundam-series English term, lowercase to match the project's 'mobile weapons' convention."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "mobiru aamaa",
+   "en": "mobile armor",
+   "source": "https://gundam.fandom.com/wiki/Mobile_Armor",
+   "why": "Standard Gundam unit-class term (MA); no prior project glossary entry found for it."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 'Neo Zeon' matches locked spelling.",
+   "Slot 21 ruling applied: 'mobile armor' accepted per orchestrator ruling; lowercase matches the project's existing 'mobile weapons' convention. No longer an open uncertainty.",
+   "Slots 19-23 checked against source: Axis-destruction/Neo Zeon elimination goal, mobile armor warning, Char's expected appearance, and the closing 'last chance' line all match; no reversed meaning.",
+   "Speaker (Amuro Ray, 5010) consistent throughout; no rank/title self-reference in this scene, so the 'Captain'/'Capt.' ruling does not apply to any row here."
+  ],
+  "remaining_uncertainties": []
+ }
+}

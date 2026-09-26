@@ -1,0 +1,89 @@
+{
+ "resource_id": 4003691,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 7,
+ "rows_examined": 7,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name; locked (glossary.json wins over the wiki form New UNE per terms_028.json).",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(21030,1)><speed(2)><move(1,7,14)>I will<marker(1,7,14,0)> explain<marker(3,8,12,0)> the<marker(3,9,9,0)> operation.<move(2,8,15)><picture(63,2,7,0)><refer(2,7,9,9)><picture(97,2,14,0)><refer(2,14,8,12)>",
+   "notes": "",
+   "source_sha256": "bb9a03f4d44232c8b60c7c241827034aba01da8050877d1668d30ff15646340e"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(21030,1)><speed(2)>This time,<move(1,2,12)> the<marker(27,2,11,0)> goal<marker(27,2,13,0)> is<move(1,11,3)> to capture every <color(5)>enemy<marker(27,4,4,0)> target<marker(27,6,4,0)><marker(27,13,8,0)><marker(27,13,10,0)><ce()><marker(27,10,1,0)> in<marker(27,12,4,0)> the operation area.<move(2,12,8)><picture(104,30,14,0)><refer(30,14,13,8)>",
+   "notes": "Source order (area-modifier before the color(5) span) reshuffled to natural English word order, same structural trade-off as reviewed scene 4003581 slot 20. \"target\" (was \"stronghold\") for teki-kyoten: this word appears nowhere else as \"stronghold\" in the corpus, while color-tagged \"target(s)\" for the same capturable-objective concept is used in 11 other scene files and matches the in-game HUD term (hud_labels.json \"Destroy all targets\"/\"Capture all targets\").",
+   "source_sha256": "d802b21510ebe7f9ecd299eb646a313df3254f58d79dccf78d9c15eced1edd4a"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(21030,1)><speed(2)>The <book(56)>Siberian Railway<endbook()> seems<marker(20,4,0,0)> to<marker(20,6,0,0)> be<marker(20,1,2,0)> in<marker(20,9,3,0)> its<marker(20,1,4,0)> usual<marker(20,4,6,0)> formation<marker(20,6,6,0)>,<marker(20,11,6,0)> but<marker(20,12,8,0)> this<marker(20,12,10,0)> time<marker(20,4,11,0)> they've<marker(20,4,13,0)> brought<marker(20,12,13,0)> a<marker(20,14,13,0)> large <book(8)>Self-Propelled Gun<endbook()>.",
+   "notes": "Siberian Railway per terms_028.json (also covers the nickname Shibe-tetsu). Self-Propelled Gun per encyclopedia_022.json text_id 8, matching book(8).",
+   "source_sha256": "e20a07e16633d54e695f36544c79e4fd65415f1595b40ce3e453b68b8a75f111"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(21030,1)><speed(2)>It looks to be a <book(38)>New<move(1,11,3)> Federation<endbook()> weapon<marker(26,11,3,0)>, but its range seems absurdly long<move(2,11,3)><picture(105,30,7,0)><refer(30,7,11,3)>, so be careful.",
+   "notes": "",
+   "source_sha256": "09a3e29e96e564ca839c4edfcf1a7d654314ab896a0de436525983595f93933d"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(21030,1)><speed(2)>Once<marker(37,0,11,0)> they<marker(37,14,9,0)> begin<danger(1)> launch<marker(5,5,8,0)> preparations<marker(5,7,8,0)>, to<marker(5,6,12,0)> prevent<marker(5,11,9,0)> damage to the area, please <color(6)>approach and disrupt the launch<ce()>.",
+   "notes": "",
+   "source_sha256": "427f5afff5eebbd92605b5f7c352ec220fb7764766db2b46a8e39e17ff008f83"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<delpic(2,7,1)><enemylist()><operator(21030,1)><speed(2)>Alright then, please be careful.",
+   "notes": "",
+   "source_sha256": "74bfc6a2b2d81c68e3fd5c6811d9a634568f2a10b9a3f4837946cf59fcefb5db"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 7,
+  "rows_in_scene": 7,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 20,
+    "before": "<operator(21030,1)><speed(2)>This time,<move(1,2,12)> the<marker(27,2,11,0)> goal<marker(27,2,13,0)> is<move(1,11,3)> to capture every <color(5)>enemy<marker(27,4,4,0)> stronghold<marker(27,6,4,0)><marker(27,13,8,0)><marker(27,13,10,0)><ce()><marker(27,10,1,0)> in<marker(27,12,4,0)> the operation area.<move(2,12,8)><picture(104,30,14,0)><refer(30,14,13,8)>",
+    "after": "<operator(21030,1)><speed(2)>This time,<move(1,2,12)> the<marker(27,2,11,0)> goal<marker(27,2,13,0)> is<move(1,11,3)> to capture every <color(5)>enemy<marker(27,4,4,0)> target<marker(27,6,4,0)><marker(27,13,8,0)><marker(27,13,10,0)><ce()><marker(27,10,1,0)> in<marker(27,12,4,0)> the operation area.<move(2,12,8)><picture(104,30,14,0)><refer(30,14,13,8)>",
+    "reason": "Terminology consistency: the source's tagged word (teki-kyoten) is rendered \"target(s)\" everywhere else in this same 8-scene batch and in 8+ other reviewed scenes, and matches the in-game HUD's own term for capturable objectives (hud_labels.json \"Destroy/Capture all targets\"); \"stronghold\" did not occur anywhere else in the whole translated corpus."
+   }
+  ],
+  "checked_decisions": [
+   "New Federation slot 0 header matches glossary.json/terms_028.json.",
+   "Speaker 21030 is Sara Kodama (speaker_lookup.py); briefing to the player, no wrong-addressee issue.",
+   "Siberian Railway (book(56)) and Self-Propelled Gun (book(8)) match terms_028.json and encyclopedia_022.json text_id 8 respectively.",
+   "Slot 20 word-order reshuffle (area-modifier before the color(5) span) kept - same structural trade-off already accepted in reviewed scene 4003581 slot 20; not a meaning change.",
+   "No mistranslation, reversed meaning, invented subject/added honorific, or dropped sentence ending found; command tag order and count match the source exactly in every row (verified programmatically, before and after the slot 20 fix)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

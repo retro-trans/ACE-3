@@ -1,0 +1,92 @@
+{
+ "resource_id": 4003913,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Ex-Giganos",
+   "notes": "Reused verbatim from reviewed scene 4003631 slot 0 (identical source).",
+   "source_sha256": "65683b603e21202a3a4d9432a6049611b423a9f3246526359de74bc632018a26"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Martian Successors",
+   "notes": "Reused verbatim from reviewed scene 4003631 slot 1 (identical source).",
+   "source_sha256": "500e92e9224d8dfd58259b586443249e799aa4eac1dfd201c19fe394fcc79b60"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23040,1)><speed(2)><move(1,7,11)>Let me explain the operation<marker(1,7,10,0)><marker(1,7,12,0)>.<move(2,7,11)>",
+   "notes": "Reviewed scene 4003631 slot 19 has this exact wording but a single marker(1,7,11,0); this source row splits it into two markers straddling the verb ending, placed adjacently in order.",
+   "source_sha256": "66351441fb71af6b7a4de7b7ec45aee392434a2d63da4855e934b79e84d230b5"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23040,1)><speed(2)>Right now, we're taking anti-ship bombardment from the direction of <book(88)>Macross City<endbook()><move(1,9,9)>. We're pinned down<marker(11,9,9,0)>, basically.<move(2,6,9)><picture(80,30,14,0)><refer(30,14,9,9)>",
+   "notes": "Reused verbatim from reviewed scene 4003631 slot 20 (source row identical).",
+   "source_sha256": "8da2327cbef44d752a3538e3e0d720b257e9598c432ef6e4bc17ef732f263fef"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23040,1)><speed(2)>I'll handle this here. Please intercept<move(1,7,0)> the <color(5)>missiles<ce()><marker(40,7,3,0)> incoming from outside the operation area<move(2,6,0)><picture(91,30,7,0)><refer(30,7,7,0)>, for a while.",
+   "notes": "Reused verbatim from reviewed scene 4003631 slot 21 (source row identical).",
+   "source_sha256": "d71a54c84245a787c208c1c434eee2460f3bba77c1e439e714a167cfc1e9f98f"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23040,1)><speed(2)>The<marker(26,5,1,0)> bombardment<marker(26,9,1,0)> has<marker(26,11,1,0)> its<marker(26,14,6,0)> limits<marker(26,14,8,0)>,<marker(26,0,10,0)> so<marker(26,2,10,0)> if <color(6)>we hold out for a while<ce()>,<marker(20,2,0,0)> I<marker(20,0,2,0)> think<marker(20,13,0,0)> the<marker(20,13,2,0)> enemy's<marker(20,5,4,0)> response<marker(20,9,4,0)> will<marker(20,11,4,0)> thin<marker(20,13,6,0)> out<marker(20,13,8,0)> too<marker(20,0,8,0)><marker(20,2,8,0)><marker(20,14,13,0)><marker(20,4,14,0)><marker(20,6,14,0)>.",
+   "notes": "Reused verbatim from reviewed scene 4003631 slot 22 (source row identical).",
+   "source_sha256": "6253f48352d74496ad40979042dbe97d3ff9bf302bca2caac85dc43ca06b442b"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(05010,1)><speed(2)><move(1,5,9)>A <book(9)>Federation<endbook()> <color(4)>allied ship<ce()><marker(11,5,9,0)> has come to help.<move(1,5,6)><marker(7,5,6,0)> For <color(5)>missile<ce()><move(1,9,6)> interception<marker(7,9,6,0)>, it has deployed a <color(4)>drone unit<ce()><move(1,11,8)> nearby<marker(7,11,8,0)>.<marker(5,11,11,0)><move(2,5,9)><picture(89,2,14,0)><refer(2,14,5,9)><picture(84,2,7,0)><refer(2,7,5,6)>",
+   "notes": "Reused verbatim from reviewed scene 4003631 slot 23 (source row identical, same zero-padded speaker id '05010' = Amuro Ray).",
+   "source_sha256": "325caff1c9a8112b16800daaa370c6eb1d1ddb6d43fdcb69b1572b45f634fa39"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<delpic(30,7,1)><enemylist()><operator(23040,1)><speed(2)>Alright then, go ahead and sortie.",
+   "notes": "Reused verbatim from reviewed scene 4003631 slot 24 (source row identical).",
+   "source_sha256": "d207d81fc3a12a991576dd6b23c5bcf7c12357361784afa06ad987ba2744793f"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 19,
+   "issue": "Only row in this scene that differs from reviewed scene 4003631: single marker(1,7,11,0) split into two (marker(1,7,10,0)/marker(1,7,12,0)); all other rows byte-identical to 4003631 and reused verbatim per task instruction."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "All rows except slot 19 are byte-identical in source to reviewed/accepted scene 4003631; per task ruling these reused rows are already accepted and were not re-translated.",
+   "Slot 19: this scene's source splits 4003631's single marker(1,7,11,0) into two adjacent markers (1,7,10,0)/(1,7,12,0) straddling the verb ending; placed adjacently at the end of 'the operation', consistent with the dense-marker-cluster ruling.",
+   "All commands identical in count/order vs this scene's own source in every row (verified programmatically); ASCII-only, no newline, 128-char limit respected, no lowercase j/q, no bare %."
+  ],
+  "remaining_uncertainties": []
+ }
+}

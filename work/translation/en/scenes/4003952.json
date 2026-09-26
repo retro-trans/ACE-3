@@ -1,0 +1,129 @@
+{
+ "resource_id": 4003952,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "Baldora Drive",
+   "notes": "",
+   "source_sha256": "322e134f62fe576c912d819ce9b0a888d5bdee778c858cf8345e73d1813cb43d"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<library(1)><operator(30030,1)><speed(2)>I had not yet told you about the <book(1)>Baldora Drive<endbook()> in detail, so let me explain it on this occasion.",
+   "notes": "",
+   "source_sha256": "253bb2549d82dd5f8a145a10aa88a9ab15e95a5372fd75800b3c78126bf35b2f"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30030,1)><speed(2)>The <book(1)>Baldora Drive<endbook()><thumbnail(165)> is a spatial transfer facility developed over a decade ago by <book(9)>Federation<endbook()> researcher <color(6)>Jill Bardona<ce()>.",
+   "notes": "",
+   "source_sha256": "9c5ab414736d5ad23ca2eb3db2fef12614788dab8d9f1e8d37b1dd04ac98efbc"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30030,1)><speed(2)>In short, like the <book(30)>Boson Jump<endbook()> and such, it can move a specific thing across ultra-long distances in an instant.",
+   "notes": "",
+   "source_sha256": "8c162a4566ec715f1ab38681d023d5e5ca092f407165535c0db9cdbac1cf0793"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30030,1)><speed(2)>Its greatest feature is that its core theory rests on a substance Dr. <color(6)>Bardona<ce()> personally discovered, \"<color(6)>Baldora particles<ce()>.\"",
+   "notes": "\"personally\" avoids a gendered reflexive for Dr. Bardona.",
+   "source_sha256": "e8488a28560e137f0ca7bf358a5dbf8d5bf6138704863839297368827fe76531"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30030,1)><speed(2)><color(6)>Baldora particles<ce()> stabilize unstable dimensional distortions, and reportedly can connect separate spaces to each other.",
+   "notes": "",
+   "source_sha256": "7dd5aa2f4dc98c098b157db487eb9c6e37cf06413e0933967f1fb4dafd8a82a9"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30030,1)><speed(2)>That is, rather than sending a thing across, it can create a <color(6)>wormhole<ce()><thumbnail(166)> that physically links far-apart places.",
+   "notes": "",
+   "source_sha256": "e1448621fa07b6a93aea447f791de193b005d8cdb1122ff87ee902c34d21d955"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30030,1)><speed(2)>However, in the final test 17 years ago, a <color(6)>runaway accident<ce()><thumbnail(167)> occurred.",
+   "notes": "",
+   "source_sha256": "a65eaeabefb7ac071c1cecc9b3c2b44c6ca33c84cb2e8a1a880dcce11b0cc524"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30030,1)><speed(2)>In that incident everyone involved vanished, and the developer, <color(6)>Jill Bardona<ce()>, reportedly went missing as well.",
+   "notes": "",
+   "source_sha256": "74afc3ac607791c2e95f53d12fb15176187bed5051592f0c49315ea522fdf4b7"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30030,1)><speed(2)>The key needed to start and stop the <book(1)>Baldora Drive<endbook()> was lost along with <color(6)>Jill Bardona<ce()>...",
+   "notes": "",
+   "source_sha256": "14469f74e04e3c7b53b3dbd5bb0857a6dab8d85ea509d898ccc69bfc60710199"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>As a result, the <book(1)>Baldora Drive<endbook()> became an untouchable negative legacy, apparently left abandoned to this day.",
+   "notes": "",
+   "source_sha256": "55241ecb86cf9b840cb3759cd09ba5258678d4fc76ef51e36a6b292c492d5937"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Developer surname Bardona vs facility Baldora: both are the provisional glossary/Encyclopedia spellings and they disagree with each other by design (open question in glossary.json). On screen \"Dr. Bardona discovered Baldora particles\" looks inconsistent."
+  },
+  {
+   "slot": 22,
+   "issue": "Jill Bardona gender in glossary.json is \"male\" but its source id is berkt_ja (looks like a copy error from the Berkt entry); avoided all pronouns."
+  },
+  {
+   "slot": 28,
+   "issue": "\"negative legacy\" is literal for fu no isan."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 20 ruling: \"Jill Bardona\" / \"Baldora Drive\" / \"Baldora particles\" kept per orchestrator decision; matches glossary.json and encyclopedia_022.",
+   "Slot 22 ruling: avoiding pronouns for Jill Bardona is right; \"personally\" correctly renders \"jishin ga\".",
+   "Slot 28 ruling: \"untouchable negative legacy\" is a faithful literal of \"fureru koto no dekinai fu no isan\"; kept.",
+   "Slot 21: \"thing\" for \"buttai\" avoids the j glyph; meaning intact.",
+   "Hearsay endings (sou desu / you desu) are preserved as \"reportedly\" / \"apparently\" in slots 23, 26, 28."
+  ],
+  "remaining_uncertainties": [
+   "Slots 20/22: \"Dr. Bardona discovered Baldora particles\" looks inconsistent on screen; kept by orchestrator decision.",
+   "Jill Bardona's gender in glossary.json could not be confirmed by me; no pronoun is used in this scene, so no impact."
+  ]
+ }
+}

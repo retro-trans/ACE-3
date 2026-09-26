@@ -1,0 +1,14 @@
+[
+  {
+    "term_romaji": "\u30aa\u30fc\u30d0\u30fc\u30b9\u30ad\u30eb (oobaa sukiru)",
+    "en": "Overskill",
+    "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer ; https://akurasu.net/wiki/Overman_King_Gainer",
+    "why": "Each Overman-type mecha's unique special ability. English Wikipedia and akurasu.net consistently render it as one word, capitalized 'Overskill' (e.g. King Gainer episode 3 is titled 'Explosion! Overskill'; Wikipedia: 'unique special abilities known as Overskills'). First appears in this corpus at row 4461 (Power Golem's Overskill = superhuman strength) and recurs at rows 4495-4496 in batch_04478."
+  },
+  {
+    "term_romaji": "\u30ab\u30ea\u30f3 / \u30ab\u30ea\u30f3\u30fb\u30d6\u30fc\u30f3 (Karin / Karin Boone)",
+    "en": "Karin Boone",
+    "source": "https://en.wikipedia.org/wiki/Overman_King_Gainer ; https://akurasu.net/wiki/Master_Characters_List",
+    "why": "Named only as 'Karin' in dialogue rows 4470 and 4474 (Asuham Boone repeatedly invokes her while chasing Gain Bijou). Wikipedia and akurasu's Master Characters List both confirm her full name as Karin Boone, Asuham's sister and Gain Bijou's former lover. Not yet present in character_names_021.json."
+  }
+]

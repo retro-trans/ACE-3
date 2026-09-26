@@ -1,0 +1,143 @@
+{
+ "resource_id": 4003771,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 13,
+ "rows_examined": 13,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Antibody Coralian",
+   "notes": "Enemy faction name; matches encyclopedia_022 locked spelling 'Antibody Coralian'.",
+   "source_sha256": "be07d861e355f817558610fcf4647e1f698c65809e0152c9918f169e499a3421"
+  },
+  {
+   "table": 1,
+   "slot": 2,
+   "text_id": 3,
+   "en": "Invaders",
+   "notes": "Enemy faction name.",
+   "source_sha256": "bad937080a191d3c74fd1929393b0ccae481947d4ec3beb2139063e7a3b6954b"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23040,1)><speed(2)><move(1,7,15)>Let me explain the operation<marker(1,8,15,0)>.<move(2,7,15)>",
+   "notes": "",
+   "source_sha256": "0243e816942bf9401c0262e7f5ca0d4b00f166256ed4d3f48593e80d668d7eca"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23040,1)><speed(2)>Our goal this time is to<move(1,14,1)> wipe out the <color(5)>target<ce()><marker(22,10,0,0)>.<marker(22,12,0,0)><marker(22,14,1,0)> But<marker(22,14,4,0)>, it doesn't look like this one will be easy<move(2,15,0)><picture(118,30,6,0)><refer(30,6,10,1)><picture(119,30,10,0)><refer(30,10,15,2)>.",
+   "notes": "",
+   "source_sha256": "7bb7f5871316147dce62756fb5dea6fd8a5edf7a8fca328813e0ae4ee2bfacda"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23040,1)><speed(2)><color(5)>Dewey<ce()> has mobilized the entire <book(38)>New Federation<endbook()> military<marker(26,3,1,0)>,<marker(20,4,4,0)> and a<marker(26,6,5,0)> fairly<marker(20,12,8,0)> large<marker(26,5,10,0)> number<marker(26,3,11,0)> of<marker(26,8,11,0)> enemies<marker(20,12,11,0)> are<marker(20,2,13,0)> deployed<marker(26,4,13,0)> nearby<marker(26,14,13,0)>.",
+   "notes": "",
+   "source_sha256": "bb3d88186217f3527366a8dd3e74fd81d69fbd7cccd09115fb4e0c5fce0f4dac"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23040,1)><speed(2)>Moreover, <book(7)>particle field weapons<endbook()><marker(37,6,2,0)> have<marker(37,10,2,0)> been deployed<marker(37,12,3,0)> in<marker(37,9,4,0)> large<marker(37,11,5,0)> numbers,<marker(37,2,8,0)> forming<marker(37,6,8,0)> an<marker(37,10,8,0)> impenetrable<marker(37,14,8,0)> line<marker(37,1,11,0)> that<marker(37,10,11,0)> will<marker(37,14,11,0)> never<marker(37,6,13,0)> break.",
+   "notes": "",
+   "source_sha256": "692e368efb0258352822aab379e4eb3bdb2bd8f80959a88ef66f63905e80671f"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23040,1)><speed(2)>Unless we break the <book(7)>particle field<endbook()><danger(1)>, we can't take down the <color(5)>target<ce()> - the field won't be easy to disable with our usual methods...",
+   "notes": "",
+   "source_sha256": "5818fb53c14a011c72bdf0e751694515227c52febde54ec610b69713322f23d6"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23040,1)><speed(2)>So, it looks like we have no choice but to pull out our trump card here.",
+   "notes": "",
+   "source_sha256": "dc8c526a06a1b74b437eb5257043b728360b80f8971d45706eeb5229b96ed7f2"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23040,1)><speed(2)><move(1,0,4)>We'll send <color(4)>every ship<ce()> to the front<marker(3,0,4,0)>,<move(1,2,15)> and wipe out the<marker(3,2,15,0)> <book(7)>field weapon<endbook()> in<move(1,12,13)> one barrage. Everyone, cover <color(4)>each<marker(3,12,13,0)> mothership<ce()>'s advance<move(2,12,14)><picture(97,2,6,0)><refer(2,6,0,5)><picture(69,2,10,0)><refer(2,10,2,15)><picture(63,30,14,0)><refer(30,14,12,14)>.",
+   "notes": "book(7) wraps 'field weapon' here (source drops 'particle', unlike slots 22-23); rendered literally per instance, matching the project's per-instance book-span convention (cf. Getter Robo/Shin Getter under book(47)).",
+   "source_sha256": "3cdfe2c18ff512f5724d2eb0c8097a83ecf22b1135c222ebcb7e2f30f8c5675f"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12031,1)><speed(2)>It is a high-risk method, but given the time we have, this is the only option.",
+   "notes": "",
+   "source_sha256": "ba3699f1babea64053569b9d1e2d5bc267a49b4984c5e8e35d65e6b6086173b8"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12031,1)><speed(2)>If damage to <color(4)>each ship<ce()> grows too much, we will send out an <color(4)>unmanned drone unit<ce()><picture(124,2,14,0)> to set up a makeshift field.",
+   "notes": "",
+   "source_sha256": "b0c11d3e5bfbc38d1dfe61a5c1a2a744f7245638b84ea4cba3905a1d24e51ac1"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>This will be a fairly long battle. Please be careful.",
+   "notes": "",
+   "source_sha256": "919852765bb7b9c954a2084593601537c69779d85b35523f0825e057279d3db7"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 25,
+   "issue": "'field weapon' (no 'particle') matches the source's own drop of the word for this instance of book(7); kept literal rather than harmonised with slots 22/23."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 13,
+  "rows_in_scene": 13,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 23,
+    "before": "Unless we break the <book(7)>particle field<endbook()><danger(1)>, we can't take down the <color(5)>target<ce()> - and our usual methods won't disable it easily...",
+    "after": "Unless we break the <book(7)>particle field<endbook()><danger(1)>, we can't take down the <color(5)>target<ce()> - the field won't be easy to disable with our usual methods...",
+    "reason": "Source line (romaji: ryuushi fi-rudo wo toppa shinai to ta-getto wa gekiha dekinai kedo, ima made no houhou de kaijo suru no wa muzukashii) has no direct object for the disable/release verb (kaijo suru); it pairs with the particle field just breached, not the target (confirmed by the next two rows, which describe using an all-out barrage to eliminate the field weapon, not the target). The old English 'disable it' reads with 'it' = target (nearest antecedent), the wrong referent (and an odd verb for a target, which you 'take down' rather than 'disable'); reworded to name the field explicitly. Stayed at 128 visible chars, same tag set/order, ASCII."
+   }
+  ],
+  "checked_decisions": [
+   "Slots 0-2 'New Federation'/'Antibody Coralian'/'Invaders' match locked spellings.",
+   "Slot 25 ruling: 'field weapon' (no 'particle') matches the source's own drop of the word for this instance; accepted, left as the translator rendered it.",
+   "Speaker change Talho Yuki (23040, slots 19-25) to Ruri Hoshino (12031, slots 26-28) verified against operator tags and content (Ruri's rows describe a support role/contingency, consistent with Nadesico bridge crew).",
+   "Rest of scene (slots 19-22, 24, 26-28) checked word-for-word against scene_source.py output; no other reversed meaning, invented subject, or dropped clause found."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20-22: syllable-level marker clusters re-grouped onto English word boundaries in source order; exact build timing not verified."
+  ]
+ }
+}

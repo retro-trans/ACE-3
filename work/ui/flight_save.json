@@ -1,0 +1,122 @@
+{
+  "version": "0.1.13",
+  "runtime_verified": false,
+  "screenshots": [
+    {
+      "image": "screenshots/save-question-original.png",
+      "source_path": "codex-clipboard-e9bd17e8-84b8-4d54-8333-c8bd8a1e5b71.png",
+      "sha256": "2970b8cf3abfa4516d17986e5cf8ef1eee5fbe83482123fde3596a55313b27cd",
+      "size": [
+        2560,
+        1323
+      ]
+    },
+    {
+      "image": "screenshots/flight-unlock-original.png",
+      "source_path": "codex-clipboard-9b163de6-08b8-45a5-a74d-546b3ff5051e.png",
+      "sha256": "b4534eb7ce266094cdb3ddf115cc2ca3921429bd845dc53137f23962417e2e3c",
+      "size": [
+        1050,
+        620
+      ]
+    },
+    {
+      "image": "screenshots/flight-setup-original.png",
+      "source_path": "codex-clipboard-ff2d9377-25fc-4ee7-a5a4-937062d0ee36.png",
+      "sha256": "30d220cf1b0b426fdb5e32e085d8c1a589958c1a3b7d5d484183f978253d71cb",
+      "size": [
+        1050,
+        620
+      ]
+    },
+    {
+      "image": "screenshots/flight-type-original.png",
+      "source_path": "codex-clipboard-f4b6ef88-906f-412c-889e-f1d538f30ac3.png",
+      "sha256": "155e80553bfd536aa4ef09d1abd013500998c15d253d8b965ea86338808a3bcd",
+      "size": [
+        1050,
+        620
+      ]
+    }
+  ],
+  "coordinate_system": "Game viewport normalized to 640x480; bounds inferred from supplied source screens.",
+  "flight_category": {
+    "table_id": 3092,
+    "bundle_ids": [
+      4002050,
+      4002054,
+      4002057
+    ],
+    "layout": {
+      "bundle_ids": [
+        4002050,
+        4002057
+      ],
+      "path": [
+        27,
+        0
+      ],
+      "widget": 17,
+      "binding": 103,
+      "old_capacity": 200,
+      "new_capacity": 255
+    },
+    "regions": {
+      "title": [
+        20,
+        12,
+        550,
+        40
+      ],
+      "options": [
+        205,
+        95,
+        418,
+        30
+      ],
+      "help": [
+        29,
+        161,
+        580,
+        219
+      ],
+      "lower_help_max_width": 350,
+      "diagram_start_x_approx": 400
+    },
+    "mode_label_width_limits": {
+      "Easy": 62,
+      "Flight": 70,
+      "Easy Rev.": 109,
+      "Flight Rev.": 120
+    },
+    "height_check": "Each help variant has no more lines than its Japanese source."
+  },
+  "coverage": {
+    "category_ids": [
+      3001,
+      3004,
+      3010,
+      3041,
+      3043,
+      3054,
+      3068,
+      3071,
+      3084,
+      3092
+    ],
+    "copies_discovered": 29,
+    "copies_changed": 23,
+    "entries_changed": 568
+  },
+  "meaning_reviews": {
+    "flight_options": "74 rows; independent save_translation_013 review found no defects",
+    "intermission_save": "46 rows; independent results_translation_013 review found no defects",
+    "results_free_mission": "125 rows; independent flight_translation_013 review corrected an unsupported recruitment restriction"
+  },
+  "runtime_checks_pending": [
+    "All four flight help modes",
+    "Save/overwrite/load/format dialogs",
+    "Mission Results and Free Mission variants",
+    "New glyphs in results/options fonts"
+  ]
+}

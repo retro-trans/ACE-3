@@ -1,0 +1,106 @@
+{
+ "resource_id": 4003090,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 9,
+ "rows_examined": 9,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "09A Defend Federation HQ",
+   "notes": "Released mission title reused (missions_019).",
+   "source_sha256": "0e49e0877e54b66350ede2731faea5c550a4561d311377987fac344b6dc1387e"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30050,1)><speed(2)>Mere moments ago, <book(12)>Neo Zeon<endbook()> and the former <book(18)>Giganos<endbook()> army rose up in arms and attacked.",
+   "notes": "\"mere moments ago\" avoids mid-sentence \"just\"; Neo Zeon / Giganos locked (encyclopedia_022).",
+   "source_sha256": "4661205cc169d9bbbf40cbc6be306fd83c0e69556b41bf882fdaf94fdd8e6e12"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30050,1)><speed(2)>The attack is at <book(15)>Lhasa<endbook()>.<thumbnail(206)> They are going straight for <book(9)>Federation<endbook()> HQ!",
+   "notes": "Lhasa locked (encyclopedia_022).",
+   "source_sha256": "e2e60cf4d5710034c1fde97c5561fd7a43f39fb379dcabedf05673d6b77db9d5"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30050,1)><speed(2)>Between us and <book(12)>Neo Zeon<endbook()>, small but seemingly elite, there is an overwhelming difference in strength.",
+   "notes": "",
+   "source_sha256": "0f887decacf2abcf56af91bf54f51e171a5e35fd9a323d42b3ab57e6bb263e09"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30050,1)><speed(2)>On top of that, with the <book(33)>Macross<endbook()><thumbnail(207)>, our trump card, on hand, the top brass did not take the matter so seriously.",
+   "notes": "\"top brass\" matches dialogue_02055 precedent for joutoubu.",
+   "source_sha256": "bb195b9bd83cbad271b83a1d18b25565cf788f3334de3827ff93ef7922f1b0d0"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30050,1)><speed(2)>But they are far from incompetent. Fully aware their forces are outmatched, they have adopted effective strategies.",
+   "notes": "",
+   "source_sha256": "0682c398c8c9596ee16137fbd0f4fa224739df15f17f996160079e9e70158fa5"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30050,1)><speed(2)>Surprise attacks, allied operations... The fault of the top brass who underestimated them. What a sorry state of affairs.",
+   "notes": "\"kyoutou sakusen\" (joint operations) rendered \"allied operations\" to avoid the lowercase j in \"joint\".",
+   "source_sha256": "494842a18e5a308fe27feb471d45d763221318c6102b969b11c3ab8ace08e449"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30050,1)><speed(2)>In any case, I want you to head to the site at once<thumbnail(208)> and take up the defense.",
+   "notes": "",
+   "source_sha256": "9aaa213c377242a9ecf746b1ee52862c1fb865738ce65c6ca5c2cef4a3e22592"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30050,1)><speed(2)>For the sake of what is to come for us, we must never let them have their way here!",
+   "notes": "",
+   "source_sha256": "64cbc2000dd9b04ef30906b1360bd195705a85f029fd437c12ddf67f533a3990"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "\"yatsura wa\" (\"those guys/them\") rendered \"they\", keeping Misumaru's gruff tone without naming a specific subgroup beyond Neo Zeon / ex-Giganos named in the previous row."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 9,
+  "rows_in_scene": 9,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"09A Defend Federation HQ\".",
+   "Speaker confirmed via speaker_lookup: 30050 Kouichiro Misumaru is the sole speaker for the whole scene.",
+   "Neo Zeon / Giganos / Lhasa / Macross spellings match glossary.json, character_names_021.json and encyclopedia_022.json.",
+   "Slot 22 \"top brass\" for joutoubu matches dialogue_02055 precedent.",
+   "Slot 24 \"allied operations\" for kyoutou sakusen (joint operations) avoids the lowercase-j glyph; meaning (coordinated/allied operations between enemy factions) preserved.",
+   "Command-tag audit: every row's <...> tokens compared programmatically against tools/scene_source.py output for this resource - identical tokens, identical order.",
+   "Format audit: no non-ASCII characters, no literal newlines, no bare '%', no lowercase j/q anywhere in the file, all visible text under the 128-char limit (scripted check)."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20 ruling: \"yatsura wa\" (a rough/dismissive \"those guys\") rendered plain \"they\" - meaning is preserved (Neo Zeon + ex-Giganos named in the previous row are the clear antecedent) but Misumaru's gruff/contemptuous register is slightly flattened. Not a meaning error; left as translator's call."
+  ]
+ }
+}

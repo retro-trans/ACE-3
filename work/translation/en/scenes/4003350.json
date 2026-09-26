@@ -1,0 +1,146 @@
+{
+ "resource_id": 4003350,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 14,
+ "rows_examined": 14,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "29  Stop Baldora Drive 2",
+   "notes": "Released mission title reused (missions_019.json slot 340).",
+   "source_sha256": "2082af1c7a1db5f513be32b448826f8cc510a96aecf04ea1b30b856eb3b9b118"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)><color(5)>Berkt<ce()><thumbnail(292)>... He had indeed come back to this side, after all.",
+   "notes": "Berkt is male per glossary/character_names_021.",
+   "source_sha256": "adf173241b82a5fd792074b8086198343637862d756329d3882bd3d129e6e871"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>And, using the battle with <book(12)>Neo Zeon<endbook()> as cover, he activated the <book(1)>Baldora Drive<endbook()> that exists in this world.",
+   "notes": "",
+   "source_sha256": "1d4747e0aff214d23374e1b71e8ea32eb932fc06fa7f3b038f53091e62fd000b"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)>He used the resonance energy of <book(14)>Axis<endbook()> to raise the <book(2)>Baldora Charge<endbook()> at a speed never seen before.",
+   "notes": "Baldora Charge = book(2) per encyclopedia_021_a/encyclopedia_022.",
+   "source_sha256": "41da1695b0c8c076ddfa5c5c8089c791dd1bd9969925e07995b582ba917c6c2b"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>Now the two worlds have formed a connection<thumbnail(293)>, and the two Earths are drawing closer.",
+   "notes": "",
+   "source_sha256": "8c5a4af893fb939a349e9700d6dc1968737c2101369b7f6aac31808464bfd920"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>If we simply wait like this, the collapse of the world from planetary collision will come.",
+   "notes": "",
+   "source_sha256": "3c8f278fb0598694dadaf4b8dde064954a9a1cc6758a84fd3279108a49d36107"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30030,1)><speed(2)>To avoid the worst outcome, we need to shut down the <book(1)>Baldora Drive<endbook()><thumbnail(162)>.",
+   "notes": "Speaker 30030 Ruri Hoshino.",
+   "source_sha256": "f8069bebe740ea610419feb428e9494055d60c2358f2930a4a87351dec442310"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30030,1)><speed(2)>By Ensign <color(4)>Barrel<ce()>'s hand, we must shut down the remaining <book(1)>Baldora Drive<endbook()> and stop the connection between the two worlds.",
+   "notes": "'Ensign Barrel' word order (rank before the color-wrapped name) per precedent 4004453.json, even though the source word order is Barrel-then-rank.",
+   "source_sha256": "ce9d9f5eb5f28739230064573c261d8bbb1736a7a43c5afd8a58b0da55d3f576"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30030,1)><speed(2)>We have already set course for the Cecilia Islands<thumbnail(294)>, but ahead of us we have detected an immense heat source.",
+   "notes": "Cecilia Islands provisional spelling per terms_028.json / 4003030.json precedent; no English source exists.",
+   "source_sha256": "552153118a1f8816914d4ffb8efe5c24c6d0db134024743b0cf54f8accce08e9"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30030,1)><speed(2)>It's likely <color(5)>Berkt<ce()>... it seems he has no intention of letting us pass, either.",
+   "notes": "",
+   "source_sha256": "6d799b7948d77bb361fd90a65331f58daf4cdc7a4623dc1866ece6c09b505b0a"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30030,1)><speed(2)>We will defeat <color(5)>Berkt<ce()> and open a path through to the <book(1)>Baldora Drive<endbook()>.",
+   "notes": "",
+   "source_sha256": "21e7e64bce3d4da522f8a40653e2b99a1e694f550e638fe4d981be7ef33a678f"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<thumbdown()><topic()><operator(30090,1)><speed(2)>Through the battles so far, we have overcome crisis after crisis. And many people have been sacrificed.",
+   "notes": "Speaker 30090 Hayato Jin.",
+   "source_sha256": "c3912e9690dc2e5278c8fef7984077637b0e4848d87f3bed00b689f356559d9a"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30090,1)><speed(2)>So that everything we have done until now will not be for nothing, we face our final battle.",
+   "notes": "",
+   "source_sha256": "fa9a4e36caffa54047dc23eec59b89c51d071ac686d16bea7cf7b57edeafd5a0"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30090,1)><speed(2)>Everyone... I'm counting on you!",
+   "notes": "",
+   "source_sha256": "04e33e828ce24ae753978ccb34e1aea75ac9331bc000ae7196d2713711561f00"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 26,
+   "issue": "'Cecilia Islands' has no confirmed English source (see 4003030.json glossary_proposals); reused as provisional here for consistency."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 14,
+  "rows_in_scene": 14,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 '29  Stop Baldora Drive 2' (slot 340).",
+   "Speakers verified: 30060 Jamil Neate (slots 19-23), 30030 Ruri Hoshino (slots 24-28), 30090 Hayato Jin (slots 29-31), matching speaker_lookup.",
+   "Berkt confirmed male per glossary/character_names_021.json; 'he' pronoun correct.",
+   "Slot 25 ruling: 'Ensign Barrel' word order (rank before the color-wrapped name, opposite of source word order) accepted per orchestrator ruling; no fix needed.",
+   "Slot 26 ruling: 'Cecilia Islands' provisional spelling (no confirmed English source) kept for consistency with 4003030.json; no fix needed.",
+   "Command lists, ASCII-only, no newline, and 128-char visible-length limit re-verified for all 14 rows; all pass.",
+   "No lowercase j/q found outside locked names."
+  ],
+  "remaining_uncertainties": [
+   "Slot 26: 'Cecilia Islands' still has no confirmed English-language source; provisional spelling only."
+  ]
+ }
+}

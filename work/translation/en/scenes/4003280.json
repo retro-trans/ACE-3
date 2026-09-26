@@ -1,0 +1,113 @@
+{
+ "resource_id": 4003280,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "22  Stop Baldora Drive",
+   "notes": "Released mission title reused (missions_019.json slot 270).",
+   "source_sha256": "00226bb94e88c1ec2c30788d39c92a0ac5ea68adcf2068fdaa70116511bd34ef"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30090,1)><speed(2)><book(2)>Baldora Charge<endbook()><thumbnail(163)> is close to critical. <color(5)>Berkt<ce()>'s goal is about to be achieved.",
+   "notes": "'goal' for mokuteki avoids the letter j (objective) per orchestrator decision.",
+   "source_sha256": "40721f31b7bfa832807a63f58b1d769d9f6f208db84b052684c1a94e8e36ad36"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30090,1)><speed(2)>When the <book(3)>Wormhole<endbook()> fully opens, both worlds will be led to ruin.",
+   "notes": "",
+   "source_sha256": "7d0c5f8bbf8696129c4451e846fd4890a7fb02bc332e7e6d0ce835bb92c8d42e"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30090,1)><speed(2)>But we still have a means left: the <book(1)>Baldora Drive<endbook()> can be stopped by <color(4)>Barrel<ce()><thumbnail(270)>.",
+   "notes": "Passive construction keeps the Baldora Drive / Barrel tag order identical to source.",
+   "source_sha256": "6fda94b7c082c5beee473aabdd4cba24d0c0ee4e9e3ff00a423d0f359ec63108"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30090,1)><speed(2)>We now move to capture the area around the <book(1)>Baldora Drive<endbook()>, and attempt to stop the <book(1)>Baldora Drive<endbook()>.",
+   "notes": "",
+   "source_sha256": "d5e442006b18ad15875b8efce30130ef7d4912dc32a083a20397eb7e5a63574b"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<thumbdown()><operator(30090,1)><speed(2)><color(5)>Berkt<ce()> has already set up a defense. This is a full-scale battle. Go in ready for it.",
+   "notes": "",
+   "source_sha256": "0f1b52130ef907abbda65c150128d910a39e16ae3005cb8c44f9d1822952f07b"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<topic()><operator(30030,1)><speed(2)>Everyone, there is something important I need to tell you.",
+   "notes": "",
+   "source_sha256": "4538583b60fdc94d0bd1723acdd6e0e56f6929e7e97838dee11ae3a06911ba60"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30030,1)><speed(2)>If we succeed in stopping the <book(1)>Baldora Drive<endbook()><thumbnail(162)>, the <book(3)>Wormhole<endbook()> should start shrinking and vanish before long.",
+   "notes": "",
+   "source_sha256": "e0e8c85cccc973ca1afeac14326d6ad2b6983aa808e214156f1ec79d86e97563"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30030,1)><speed(2)>Every <color(4)>Nadesico<ce()> crew member must return to our world before the <book(3)>Wormhole<endbook()> vanishes.",
+   "notes": "",
+   "source_sha256": "023042c2cc7a0da0f04a1d2a12d4475fed17bf17aa68ce2b900c13e61e07dc4f"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30030,1)><speed(2)>The instant the <book(1)>Baldora Drive<endbook()>'s shutdown is confirmed, we will move at once to pass through the <book(3)>Wormhole<endbook()>.",
+   "notes": "",
+   "source_sha256": "912ad6006e80f6e3130b783743803bdaf6667cf7233add76d74fab99eafe3c8a"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<thumbdown()><operator(30030,1)><speed(2)>This is the last time we will combine our strength and fight together. I am counting on you all.",
+   "notes": "'combine' for chikara wo awasete avoids the letter j (join).",
+   "source_sha256": "2bd3855a8659a5c27df79c54e8de817afe6ca841d851a4e82afa1a18bf9fe876"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019.json slot 270 '22  Stop Baldora Drive'.",
+   "Speakers via speaker_lookup.py: 30090 Hayato Jin, 30030 Ruri Hoshino; speaker tags unchanged.",
+   "'Baldora Charge', 'Baldora Drive', 'Wormhole', 'Nadesico', 'New Federation' all consistent with glossary/encyclopedia usage; no reversed meaning, wrong addressee or invented subject found in any row.",
+   "Translator raised no uncertainties for this scene; none found on independent review either.",
+   "All rows: command tags identical and in source order, ASCII only, no newline, no bare %, visible length under 128, no lowercase j/q (re-checked with a throwaway script against tools/scene_source.py output)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

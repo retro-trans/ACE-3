@@ -1,0 +1,527 @@
+{
+  "slice_start": 398,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 383,
+      "end": 492
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_00398",
+      "target": "<op()><sp(20)>W-wait a second!\nYou mean I have to pilot this?<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Matches the submitted tutorial screenshot; speaker Barrel is established by the screenshot."
+    },
+    {
+      "id": "dialogue_00399",
+      "target": "<sp(20)>I'm telling you, I can't!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00400",
+      "target": "<op()><sp(20)>It's not as hard as you think.\nThe fine controls are automated.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00401",
+      "target": "<op()><sp(20)>Even so...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00402",
+      "target": "<op()><sp(20)>The enemy is right in front of us.\nPlease.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00403",
+      "target": "<op()><sp(20)>Damn it... Just this once!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00404",
+      "target": "<op()><sp(20)>You'll be fine if you do as I say.\nTrust me.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00405",
+      "target": "<sp(20)>First, let's clear out the enemies nearby.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00406",
+      "target": "<op()><sp(20)>I'll give you a quick explanation of the controls.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00407",
+      "target": "<sp(20)>First, lock on to a target.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00408",
+      "target": "<sp(20)>You can't fight properly without doing this.\nMake sure you remember it.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00409",
+      "target": "<op()><sp(20)>Next, attack the target you've locked on to.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00410",
+      "target": "<sp(20)>Press the Weapon button.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00411",
+      "target": "<op()><sp(20)>Use melee attacks against nearby enemies.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00412",
+      "target": "<sp(20)>The marker changes when the target is in range.\nUse that as your cue to attack.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00413",
+      "target": "<op()><sp(20)>That's it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00414",
+      "target": "<op()><sp(20)>You're all right... Stay calm.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00415",
+      "target": "<op()><sp(20)>The surrounding area is clear!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00416",
+      "target": "<op()><sp(20)>You're getting better at moving!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00417",
+      "target": "<op()><sp(20)>More enemies have appeared.\nLet's head over.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00418",
+      "target": "<op()><sp(20)>...Hah... Hah...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00419",
+      "target": "<op()><sp(20)>You've got a knack for this.\nJust what I'd expect from a boy.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "The explicit source reference to a boy is retained rather than inferred from a name."
+    },
+    {
+      "id": "dialogue_00420",
+      "target": "<op()><sp(20)>...Just... wait a second...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning review removed the supplied I can't. The source trails off without stating a specific inability; halting delivery preserves exhaustion without completing the thought."
+    },
+    {
+      "id": "dialogue_00421",
+      "target": "<op()><sp(20)>Check the radar.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00422",
+      "target": "<sp(20)>The red dots show where the enemies are.\nHead toward them.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00423",
+      "target": "<op()><sp(20)>The enemy is deploying fast...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00424",
+      "target": "<sp(20)>Use Dash when you want to move quickly.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00425",
+      "target": "<sp(20)>It's useful for traveling long distances\nand evading attacks.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00426",
+      "target": "<sp(20)>To stop dashing,\npress the Dash button again.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00427",
+      "target": "<op()><sp(20)>W-what is this\ncreepy monster?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00428",
+      "target": "<op()><sp(20)>We came here to investigate that.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00429",
+      "target": "<op()><sp(20)>That meteorite incident?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00430",
+      "target": "<op()><sp(20)>Yes.\nBut to think it would turn out like this...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00431",
+      "target": "<op()><sp(20)>I'll explain how to use the other weapons.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00432",
+      "target": "<sp(20)>Try holding down the Shift button.\nThe weapon panel will light up.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": "Shift-layout tutorial branch. Do not merge with Select-layout explanations in rows 434-436."
+    },
+    {
+      "id": "dialogue_00433",
+      "target": "<sp(20)>Press the button for the weapon shown\non the panel to attack with it.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00434",
+      "target": "<op()><sp(20)>Use that button\nto switch weapons.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Select-layout tutorial branch; the source points to a button without naming it. No button glyph added."
+    },
+    {
+      "id": "dialogue_00435",
+      "target": "<sp(20)>Each press switches to a different weapon.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00436",
+      "target": "<sp(20)>Then use it just like the main weapon.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00437",
+      "target": "<op()><sp(20)>...Faye, respond.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Faye follows existing glossary char.faye_rochenante."
+    },
+    {
+      "id": "dialogue_00438",
+      "target": "<op()><sp(20)>Yes.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00439",
+      "target": "<op()><sp(20)>...!?\n...Who's that boy?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00440",
+      "target": "<op()><sp(20)>A civilian I rescued.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00441",
+      "target": "<sp(20)>He was being attacked by the target we're investigating,\nso I brought him aboard.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "The male referent is explicitly the boy in row 439, not inferred from the name."
+    },
+    {
+      "id": "dialogue_00442",
+      "target": "<sp(20)>I can't fight effectively alone,\nso he's handling the piloting.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00443",
+      "target": "<op()><sp(20)>A civilian in combat...!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00444",
+      "target": "<op()><sp(20)>I'm assisting him\nas the copilot.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00445",
+      "target": "<op()><sp(20)>Are you sure that's all right?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00446",
+      "target": "<op()><sp(20)>At this rate, rescue operations will be affected, too.\nPlease allow it, given the emergency.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "An urgent request to permit the civilian pilot arrangement, in response to rows 443-445."
+    },
+    {
+      "id": "dialogue_00447",
+      "target": "<op()><sp(20)>We're supporting the rescue teams,\nso we can't come to you.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00448",
+      "target": "<sp(20)>Don't push yourselves too hard.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00449",
+      "target": "<op()><sp(20)>...You heard that.\nWe'll have to do this ourselves.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00450",
+      "target": "<op()><sp(20)>...You rescue me, then make me fight?\nIs that how the military works...!?<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "The civilian accuses the military of rescuing him only to make him fight, based on rows 440-449."
+    },
+    {
+      "id": "dialogue_00451",
+      "target": "<op()><sp(20)>Block B... Rescue team wiped...\nAaaagh!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "The report is interrupted mid-phrase before the scream. Do not complete the casualty report."
+    },
+    {
+      "id": "dialogue_00452",
+      "target": "<op()><sp(20)>Everyone, what you're seeing is real!<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00453",
+      "target": "<sp(20)>Those creatures have finally\nappeared on this continent, too!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00454",
+      "target": "<op()><sp(20)>Light, how is the evacuation going!?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Short name Light verified by orchestrator against official character source https://www.dragonar.net/character/e02.php. Do not change this established spelling. Source provides only the short name."
+    },
+    {
+      "id": "dialogue_00455",
+      "target": "<op()><sp(20)>Just over ten percent remain!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00456",
+      "target": "<op()><sp(20)>This is bad...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00457",
+      "target": "<op()><sp(20)>The remaining civilians are under attack.\nPlease hurry to their rescue!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00458",
+      "target": "<op()><sp(20)>Ow...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00459",
+      "target": "<op()><sp(20)>Are you hurt?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00460",
+      "target": "<op()><sp(20)>...I'm all right.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00461",
+      "target": "<op()><sp(20)>Where are all these things coming from!?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00462",
+      "target": "<op()><sp(20)>Stay calm.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00463",
+      "target": "<op()><sp(20)>What are the rescue teams doing!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00464",
+      "target": "<op()><sp(20)>We've lost contact with Block C.\nThey've probably been wiped out...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00465",
+      "target": "<op()><sp(20)>Federation forces are continuing\ntheir efforts to bring the situation under control.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00466",
+      "target": "<op()><sp(20)>It's becoming dangerous, so we're evacuating as well...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00467",
+      "target": "<op()><sp(20)>What about the civilian evacuation!?<ab(200><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Original malformed <ab(200> is preserved exactly; no silent script repair."
+    },
+    {
+      "id": "dialogue_00468",
+      "target": "<op()><sp(20)>It's not going well.\nMost of those who didn't escape are already...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "The source leaves the fate of the remaining civilians unspoken; the target remains unfinished."
+    },
+    {
+      "id": "dialogue_00469",
+      "target": "<op()><sp(20)>Damn it...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00470",
+      "target": "<op()><sp(20)>Ugh... My arms are getting tired...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00471",
+      "target": "<op()><sp(20)>You can't rest yet.\nI know it's hard... but hang in there.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00472",
+      "target": "<op()><sp(20)>This machine... It's a two-seater,\nso why were you alone?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00473",
+      "target": "<op()><sp(20)>One person can still handle basic operations.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00474",
+      "target": "<sp(20)>This is a new model that hasn't been rolled out yet.\nI'm still its only officially assigned pilot.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00475",
+      "target": "<sp(20)>Today was supposed to be a test run\ncombined with an investigation, but...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00476",
+      "target": "<op()><sp(20)>...At this rate, our escape route will be cut off.\nHurry!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00477",
+      "target": "<op()><sp(20)>It was no use...<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "This appears to be a failure-event line, while the following rows contain alternate success/cutscene material. No subject or reason invented."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        420
+      ],
+      "issue": "The interrupted exhausted thought has an unstated ending. Review removed the invented completion; vocal delivery and exact intended continuation remain ambiguous."
+    },
+    {
+      "rows": [
+        454
+      ],
+      "issue": "Resolved: Light is verified by the orchestrator from the official character page. Retain this spelling."
+    },
+    {
+      "rows": [
+        467
+      ],
+      "issue": "Malformed original command <ab(200> retained verbatim; runtime parser behavior is not established."
+    },
+    {
+      "rows": [
+        477
+      ],
+      "issue": "Likely failure-event line, with branching context requiring event mapping."
+    }
+  ],
+  "validation": {
+    "source_context_read": "Rows 383-492, including 15 before and 15 after assigned slice.",
+    "commands": "All angle-bracket and #c commands, including malformed <ab(200>, preserved in exact source order.",
+    "format": "Original number of embedded newlines retained in every row.",
+    "fit": "Full meaning drafted without shortening for byte or display limits. Requires layout review.",
+    "meaning_review": "Independently reviewed all 80 rows against original ISO text with context383-492; two meaning fixes applied. See review_00398.json."
+  }
+}

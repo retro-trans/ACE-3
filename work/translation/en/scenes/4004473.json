@@ -1,0 +1,501 @@
+{
+ "resource_id": 4004473,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 55,
+ "rows_examined": 55,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(5010,1)><speed(2)>We spent these past two years investigating every colony out there, didn't we?",
+   "notes": "",
+   "source_sha256": "da1eba7995462c25d9f6fa4f5d3136bcd85023bb1aa1729d0f6fa572cea001ea"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(5010,1)><speed(2)>So why couldn't we tell <color(5)>Char<ce()> was preparing his forces?",
+   "notes": "",
+   "source_sha256": "06abc23596de4413e980dd6c06d08399213a0d55811d5496643003eeed24d10b"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>The <color(4)>Earth Federation<ce()> government rules space from Earth, but there are plenty of Spacenoids who hate that.",
+   "notes": "'chihou renpou seifu' rendered with the tag on the locked term only, 'government' plain, per encyclopedia convention.",
+   "source_sha256": "2fbdfa9a983efdac48c92175c271fd1b61a2c9f1f8719cc5f41a8fe726a5836a"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>If <color(4)>Londo Bell<ce()> goes to investigate, ordinary people end up shielding him.",
+   "notes": "Object of 'guard' omitted in source; context (Char) supplies 'him'.",
+   "source_sha256": "092331508ea6e249134f29a0a3157b1feccd9c9a79abe38a3e8f03ad02c5c1c0"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(5010,1)><speed(2)>How pathetic. At this rate, all we're doing is watching <color(5)>Char<ce()> get the upper hand.",
+   "notes": "'yarareru' (get done in by Char) has no explicit victim; kept impersonal ('get the upper hand') rather than inventing 'us'.",
+   "source_sha256": "a6dee0658cbc6abb0d0cf923cceb7ccfc4750cc3a2edf779d6b9033bdd0ed201"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>So we have to be the ones to stop him.",
+   "notes": "",
+   "source_sha256": "58455ab74c8a323b9f5fe0b715323692379fc68bacdc1d5b742da527d955a74b"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(5010,1)><speed(2)>Yeah...",
+   "notes": "",
+   "source_sha256": "f31595b8c58f701907312ba7b0a3fad6d9a30242f95c1e2e8b40ea78862cdbb0"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1040,1)><speed(2)><color(4)>Faye<ce()>. <color(5)>Berkt<ce()>... is he really over here?",
+   "notes": "",
+   "source_sha256": "8d1f31c3d2097c5c2fe710ea13a677f2752b4c1c6d2b5d3403d9f14a6c1b0f4a"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1060,1)><speed(2)>I can't say for sure. But all we can do is trust our own choice.",
+   "notes": "",
+   "source_sha256": "3f9c305b603008a8a8e020489c2f99552d69d4d2c4f6e751998b5c2b71664afe"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1040,1)><speed(2)>He's out there trying to pull off something outrageous... and here we are doing this. Is that really okay?",
+   "notes": "",
+   "source_sha256": "ed11bf68e72002a130d56a897035c11db0261fd13538c96dc8a72c4506718f6d"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1060,1)><speed(2)>We have to keep our eyes on the crisis in front of us too.",
+   "notes": "",
+   "source_sha256": "5955cc73e70579bcd935b3bf6b110aa55b8288fd11ec216d4bb651136c02c68e"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1040,1)><speed(2)>...I know that.",
+   "notes": "",
+   "source_sha256": "7b3e1fe47347fe49cd83ab46459e37d0244dd0f58b4e3d980131a1549b1278ad"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(1060,2)><speed(2)>Still, you've gotten a lot more positive.",
+   "notes": "",
+   "source_sha256": "573eece30a76acdeb4a05328e35701a7d57fba8290ec1493a329cae526137b89"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(1040,1)><speed(2)>Yeah... I still hate it, but given the situation, well.",
+   "notes": "",
+   "source_sha256": "b3a6094f295747ef483482f00c129149c46517a505e980f45f9a1b485584d1eb"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(1060,1)><speed(2)>I've been thinking about this since we got back here... Do you still feel like leaving?",
+   "notes": "'oritai' = wanting to get off/leave (the ship/piloting); matches 'leave the ship' convention from 4004463.",
+   "source_sha256": "4fd60be0ad0158889c463b72999f2cec410549e7338af803fcfe358a150cc5cc"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(1040,1)><speed(2)>Huh? Why bring that up now, of all times?",
+   "notes": "",
+   "source_sha256": "b7744a2a55215050a8387adb8148f7e9059ae049463e803db8b5febb0cb134c0"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(1060,1)><speed(2)>We finally made it back to the surface, and once the fighting's over, it'll be safe here too.",
+   "notes": "",
+   "source_sha256": "214304178f158f002b0c3b1af3321080db5d64d29209a882014aa020264dc15e"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(1040,1)><speed(2)>That's... I've been thinking about it too, since we got back.",
+   "notes": "",
+   "source_sha256": "86ae261275efc426b1a2e104bad29c3d6132cdc08a343198b86b005bbf92ef01"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(1040,1)><speed(2)>But leaving's no sure bet for safety, and plenty of people are giving it their all. ...I can't walk away now.",
+   "notes": "",
+   "source_sha256": "39f045a4695db176b6508edf9a3e309874ddeb97bed14d21bac4cff0080c47fe"
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(1040,1)><speed(2)>If there's something I can do... I want to give it a try.",
+   "notes": "",
+   "source_sha256": "c2a53faa4f500ad68d6a0afdd44ba811e51c0bf5efe1909141ecc9005b7fef92"
+  },
+  {
+   "table": 0,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(1060,2)><speed(2)>...Thank you. Hearing you say that honestly puts me at ease.",
+   "notes": "",
+   "source_sha256": "066f45de1e8f51f62bfb7df439de2b9787470ede6bf6492cc96bc519099029a6"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,2)><speed(2)>You seemed shaky at first, but I trust you now. So keep it up.",
+   "notes": "",
+   "source_sha256": "8a899bdfe3541ee5f74cbd010a88843e69389fcffe27c62111f674cce56c1c96"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,2)><speed(2)>Yeah. Thanks.",
+   "notes": "",
+   "source_sha256": "e041519ca79df787600c23b7a87519fcada32ec78ba261d40667ea4cbec0ad4b"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(12031,1)><speed(2)>We still don't know <color(5)>Char Aznable<ce()>'s intentions, but I doubt a plan like this would satisfy him.",
+   "notes": "",
+   "source_sha256": "6cbbb85c06bf8c018fc8fa2eace2701572efb50ac3e05e1bbf15c1960397c546"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(5010,1)><speed(2)>I know. I'll make it clear soon enough.",
+   "notes": "",
+   "source_sha256": "23775236f98e4e61f2d57a59700937c80f112af388c9fc2270f3a1d83b8bc060"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,1)><speed(2)>That <color(5)>Meio<ce()> guy... why would he do something like that?!",
+   "notes": "'Maiyo' short name = Meio Plato per character_names_021.json.",
+   "source_sha256": "3f0bc3c6ca9ecbc6403fbdf65d19ffe893788a36ae011f446a88436842e9223b"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(25010,1)><speed(2)>Well, I guess he simply got fed up with everything.",
+   "notes": "",
+   "source_sha256": "c050f7a780d3e586def9ecfca5b8c694b00b5e8f699179a99710fad60b232e80"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,1)><speed(2)>But why would a man who fought for Earth become its enemy again?",
+   "notes": "",
+   "source_sha256": "3e2d562bbb6329e5cfe70e63b215faa595e68932b6e3dbcf0c5d9e131ccc6fbc"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(5010,1)><speed(2)>He's not fighting Earth. He's trying to fight the <color(4)>Federation<ce()>.",
+   "notes": "Bare 'renpou' rendered 'Federation' with no article, matching 4004463's usage; ambiguous which Federation, left as source leaves it.",
+   "source_sha256": "f25ec4db07efccac9c4e6ab895b4c80d6427bb08305dd80003f058af758fd0d3"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(1040,1)><speed(2)>Can people really stake their lives for beliefs or principles like that?",
+   "notes": "",
+   "source_sha256": "c590c63be2778d31639a6aaceeb5182580ca68678c9628e03c1fd0e81c90a753"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(17040,1)><speed(2)>It's precisely because of belief and principle that people stake their lives.",
+   "notes": "",
+   "source_sha256": "e7307a9c258a1c6d9272b2d62e3448ef7ea5dd78aabf31d6d2f84e6797512465"
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "text_id": 106,
+   "en": "<operator(21010,1)><speed(2)>But if you die, doesn't that make it all meaningless?!",
+   "notes": "",
+   "source_sha256": "7f064b86c9c403bda56c556529e0b4cbd7737a6046ba4aa2e81894b630280db7"
+  },
+  {
+   "table": 1,
+   "slot": 106,
+   "text_id": 107,
+   "en": "<operator(23030,1)><speed(2)>There's meaning and worth in it that goes beyond death. You'll understand that yourselves, in time.",
+   "notes": "",
+   "source_sha256": "05f07a69a50256bf528f16951577ce56ad36d376576fb7b7aae056890f4650dd"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(17020,1)><speed(2)>No matter where we go, what people get up to doesn't change much, huh.",
+   "notes": "",
+   "source_sha256": "cc6e6fe30689df4132d062632b5a148873f31491654e8252c2f0be9c36eebccd"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(17010,1)><speed(2)>That's exactly why... we're the ones who've got to do something about it.",
+   "notes": "",
+   "source_sha256": "8d91cb84d72ee8f29a42ca13bcbf7e93d58fe592f158a45eba416fd6169866a1"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(17030,1)><speed(2)>There you go acting cool again, all because <color(4)>Tiffa<ce()>'s around.",
+   "notes": "",
+   "source_sha256": "b07f7fae7e08833f8f6f8e46bb66cc4f8ead7803194caf804fccdcff189ca0b4"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(17010,1)><speed(2)>S-shut up!",
+   "notes": "",
+   "source_sha256": "1d4753970bf5ce0530180467dc9877469e45b6b033dd409396c4a40adb377ff1"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(23030,1)><speed(2)>Hey, <color(4)>Renton<ce()>, what's wrong?",
+   "notes": "",
+   "source_sha256": "52e5da2b4ebeec4bbf885a75f403c78b1c1474fa80eb0f884b4db63f8eb32123"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(23010,1)><speed(2)>Ah, um, well, how do I put this. Uhhhhh...",
+   "notes": "",
+   "source_sha256": "13287a6f12efdca427ae77ec7bd728e9d52c2ada2a680a942967a5c159e60e9b"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(23030,1)><speed(2)>Huh?!",
+   "notes": "",
+   "source_sha256": "362b5bf21ad7981d7e217c1a04420336607dcf606d1c6990d4f2315f190a4780"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(23020,1)><speed(2)>Is it because this is a different world? Are you still confused?",
+   "notes": "",
+   "source_sha256": "5279e8f68001f437e0e11cae2641e791caecddf55a6a2539b824cd962f0775d9"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(23010,1)><speed(2)>Y-yeah, that's it! That's it!",
+   "notes": "",
+   "source_sha256": "bebfd79eb163ec908adf76656f4361a94b098a81ca64b1696741f3f3a2093b0c"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(23030,1)><speed(2)>If you're gonna say something that soft, get out of there right now.",
+   "notes": "",
+   "source_sha256": "10d15b6615a159bc1ceabac3a6d13ef732c66f6558d8b962a31205afb032352f"
+  },
+  {
+   "table": 1,
+   "slot": 185,
+   "text_id": 186,
+   "en": "<operator(23010,1)><speed(2)>Y-yes!... Sc-scary...",
+   "notes": "Dropped invented 'sir' (source is bare 'hai').",
+   "source_sha256": "8654787c49c35e3bed6c07022a64f92c2b82ce8fd5446f8de2a0034e04913a4e"
+  },
+  {
+   "table": 1,
+   "slot": 186,
+   "text_id": 187,
+   "en": "<operator(23020,2)><speed(2)>You'll be fine, <color(4)>Renton<ce()>.",
+   "notes": "",
+   "source_sha256": "dae524240465f34e257e75dceb68e3b369f123c8fadf049cb22120a7a1b579d2"
+  },
+  {
+   "table": 1,
+   "slot": 187,
+   "text_id": 188,
+   "en": "<operator(23010,2)><speed(2)>Th-thanks, <color(4)>Eureka<ce()>!",
+   "notes": "",
+   "source_sha256": "038f83fa90f66e9c5c6023752d0d0af224b9be0e3cd13eb3d3f45475b6a5b78d"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(21020,2)><speed(2)>Well now, this is getting interesting.",
+   "notes": "",
+   "source_sha256": "1b0f90e730071213ea32e65d4ac4564535987a246dc6bdc7cc3850281a09bb86"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(21010,1)><speed(2)>This isn't interesting at all! Not one bit!",
+   "notes": "",
+   "source_sha256": "76db5fa51d238d8f57722f97ba7b6ee2a18effcfac4fe7a255b6bf8d5b3b6be0"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(21020,1)><speed(2)>Listen, <color(4)>Gainer<ce()>. Keep that attitude up and I worry about what's ahead for you.",
+   "notes": "",
+   "source_sha256": "53edcbb6720ee194aae81626edf5b39593c9b21931c62d8b57cc151d085b3334"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(21010,1)><speed(2)>Ahead or not, I'm only the one getting dragged into all this!",
+   "notes": "",
+   "source_sha256": "1ebc6c746f22931c3cacc2a2b97ddad5438a6da4f18e28a7be5c3987246ccc84"
+  },
+  {
+   "table": 1,
+   "slot": 223,
+   "text_id": 224,
+   "en": "<operator(21020,1)><speed(2)>Sheesh...",
+   "notes": "",
+   "source_sha256": "cdd436fbf64f2baa5a69137322b526d19c6dbeeddd6d13571dd1dc325a033f4b"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(19020,1)><speed(2)>Was it really all right to leave <color(5)>Shin Dragon<ce()> behind and stay on this side?",
+   "notes": "",
+   "source_sha256": "2ca782aa837bfb4078c0121dbb7ccbfabfe39cd2356a521b56e2ae62b4330045"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(19020,1)><speed(2)><color(4)>Go<ce()>... aren't you worried, <color(4)>Go<ce()>?",
+   "notes": "",
+   "source_sha256": "9dec850b5f006eb6d532995da6a03f1aee734725fbdedcd6feead6afa28fa206"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(19010,1)><speed(2)>I'm fine...",
+   "notes": "",
+   "source_sha256": "92c503802f77fa4d52be98f60c467d5678f40c03a612cebbb0f9473ebe4ac662"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(19010,1)><speed(2)>There'll be a chance to meet <color(5)>Shin Dragon<ce()> again. I'm sure of it...",
+   "notes": "",
+   "source_sha256": "81ae01024f8c880601f545ba04682ace13733dff20133139769cfee093f8611d"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 21,
+   "issue": "'chikyuu renpou seifu' rendered 'the Earth Federation government' with the tag on 'Earth Federation' only, matching how encyclopedia_022 splits the same compound; this is the classic UC Earth Federation, not the ACE-original New Federation."
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "issue": "'gaado shite shimau' has no stated object; 'him' (Char) supplied from the surrounding two lines."
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "issue": "'Char ni yarareru' has no stated victim; rendered impersonally ('get the upper hand') instead of inventing 'us'."
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "issue": "Bare 'renpou' (no 'New' or 'Earth' prefix) rendered plain 'Federation', matching the one other bare use in the reviewed corpus (4004463); could be read as either the classic Earth Federation (Dragonar/Meio's continuity) or the ACE-original New Federation - left open as in the source."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 55,
+  "rows_in_scene": 55,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 185,
+    "before": "Y-yes sir!... Sc-scary...",
+    "after": "Y-yes!... Sc-scary...",
+    "reason": "Source is a bare 'hai' with no honorific or address term; 'sir' was invented and not supported by the Japanese."
+   }
+  ],
+  "checked_decisions": [
+   "0/21 'the Earth Federation government' for 'chikyuu renpou seifu' - orchestrator ruling confirms this is correct; kept.",
+   "1/102 bare 'renpou' rendered plain 'Federation' - orchestrator ruling confirms this is correct; kept, ambiguity left as in source.",
+   "0/19-39, 1/19-20, 1/59-262: compared every row against the Japanese source line by line; all match in meaning, subject/addressee, and tag order.",
+   "0/22 'him' (Char) supplied for the omitted object of 'gaado shite shimau': settled by the surrounding two lines about Char; accepted.",
+   "0/23 'Char ni yarareru' (no stated victim) rendered impersonally as 'watching Char get the upper hand': preserves the real-world meaning (the speaker's side losing to Char) without inventing 'us'; accepted.",
+   "Speaker tags taken as given per orchestrator instruction, not altered even where cross-checked against character_names_021.json/speaker_lookup.py.",
+   "Names checked against glossary: Char, Londo Bell, Faye, Berkt, Meio Plato, Char Aznable, Tiffa Adill, Renton Thurston, Eureka, Gainer Sanga, Go, Shin Dragon - all match."
+  ],
+  "remaining_uncertainties": [
+   "0/21: whether 'the Earth Federation government' ruling extends to every future bare use of 'renpou seifu' in later scenes is outside this scene's scope; flagging for consistency tracking only.",
+   "0/22: object 'him' for the omitted guard-target is an inference from context, not stated in the source; left as in the draft.",
+   "0/23: impersonal 'get the upper hand' for 'yarareru' is a legitimate but non-literal rendering; left as in the draft.",
+   "1/102: bare 'Federation' is genuinely ambiguous between the classic Earth Federation and the ACE-original New Federation; left open as the source leaves it, per orchestrator ruling."
+  ]
+ }
+}

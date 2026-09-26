@@ -1,0 +1,34 @@
+{
+  "reviewer": "independent_translate_dialogue_shouts_agent",
+  "slice_start": 15284,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15269, "end": 15378}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [15284], "finding": "'Gainer Sanga, returning to base.' matches the source radio call exactly; correct tail line for resource 2821010 before the Power Golem block begins."},
+    {"rows": [15285, 15313, 15314, 15315, 15316, 15318, 15322, 15333, 15357, 15361], "finding": "Grandiose, self-important register ('I am Asuham Boone!', 'my subordinate', 'this I' emphasis) matches the locked personality in character_names_021.json ('Obsessive; descends into homicidal madness'; role: high-ranking Saint Regan officer pursuing Gain). Terminology 'Power Golem', 'Saint Regan' consistent throughout."},
+    {"rows": [15313], "finding": "'London IMA' for ロンドン・イマ is not yet present in terms_028.json or any locked glossary file, so it remains a proposal; the rendering (acronym capitalized) is reasonable and internally consistent with the one other 'IMA' reference researched. Recommend orchestrator lock."},
+    {"rows": [15296, 15298, 15314], "finding": "Bare ゴレーム ('Golem') correctly reuses the locked unit name 'Power Golem' (unit_names_014_b.json, slot 347) rather than an unrelated wiki romanization; consistent with project policy that a locked spelling wins."},
+    {"rows": [15318], "finding": "Idiom 'やせてもかれてもセントレーガン' rendered as 'Even down on our luck, we're still Saint Regan' preserves the self-deprecating-but-proud sense rather than a flat literal 'thin or withered'; verified against source."},
+    {"rows": [15319, 15320, 15321, 15322, 15323, 15324, 15325, 15326], "finding": "Unnamed subordinate addressed with 'you'/'your'; no gender or identity invented, consistent with Asuham's role directing subordinates."},
+    {"rows": [15334, 15335, 15336], "finding": "Source uses third-person 'あいつら' (them/those guys) in 15334-15335 but the translation renders the continuation as direct second-person ('All you know is turf...'). Reviewed against the immediately following row 15336 ('きたのか！この悪党どもが！' -> 'You came! You villains!'), which is itself a third-person-grammar exclamation naturally rendered as direct address; the shift is judged a defensible rhetorical choice (addressing the very group being described) rather than a wrong-addressee reversal, so left unchanged. Flagged below as an uncertainty rather than a fix."}
+  ],
+  "uncertainties": [
+    {"rows": [15335], "issue": "'それがあいつらのやり方か？ / 縄張り意識しかないとは、まるで、時間までが凍り付いているようだな。' uses third-person 'they' (あいつら) but the target 'All you know is turf, like even time itself has frozen for you' addresses 'you' directly. Both readings are plausible for a battle bark (commenting on vs. taunting the group in view); left as-is since it is not a clear reversal, but calling it out as a genuine judgment call rather than a clean pass."},
+    {"rows": [15284], "issue": "Ruling on translator's uncertainty: upheld. Plain return-to-base radio call, no ambiguity."},
+    {"rows": [15285, 15313, 15314, 15315, 15316, 15318, 15322, 15333, 15357, 15361], "issue": "Ruling on translator's uncertainty: upheld. Boastful/obsessive register matches the locked personality; no changes needed."},
+    {"rows": [15313], "issue": "Ruling on translator's uncertainty: upheld. 'London IMA' is a reasonable proposal pending orchestrator glossary lock; not changed here."},
+    {"rows": [15296, 15298, 15314], "issue": "Ruling on translator's uncertainty: upheld. Reuse of locked 'Power Golem' is correct."},
+    {"rows": [15318], "issue": "Ruling on translator's uncertainty: upheld. Idiom rendering preserves tone without inventing meaning."},
+    {"rows": [15319, 15320, 15321, 15322, 15323, 15324, 15325, 15326], "issue": "Ruling on translator's uncertainty: upheld. No identity/gender invented for the addressed subordinate."}
+  ],
+  "validation": {
+    "controls": "Re-ran tools/dialogue_corpus.py slice 15284 80 and diffed every <...> command against each target in order; all identical, no newline in any target.",
+    "format": "All 80 targets ASCII-only; visible text (tags stripped) at or under 110 chars for every row.",
+    "fit": "Per-row hard byte budget was validated by the translator's own script per the batch file; not independently re-measured here since this was a meaning-only review.",
+    "runtime": "Runtime scene selection and font coverage are not established by this meaning review."
+  }
+}

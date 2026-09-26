@@ -1,0 +1,12 @@
+{
+  "version":"0.1.40",
+  "bundles":[4002050,4002054,4002057],
+  "screens":[
+    {"file":"memory_before.png","table_id":3041,"text_id":1,"visible_lines":3,"old_lines":4,"new_lines":3,"body_width_limit":520},
+    {"file":"combo_before.png","table_id":3070,"text_id":10,"target":"Combo scene","layout_id":42,"widget":49},
+    {"file":"messages_before.png","table_id":3070,"text_id":11,"target":"Comm messages","layout_id":42,"widget":57},
+    {"file":"camera_before.png","table_id":3071,"text_id":8,"target":"Camera Movement","layout_id":43,"widget":31}
+  ],
+  "layout":{"record_size":112,"scale_x_offset":32,"scale_y_offset":36,"label_width_limit":140,"font_height_changed":false},
+  "runtime_verified":false
+}

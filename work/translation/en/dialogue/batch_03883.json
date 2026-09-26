@@ -1,0 +1,400 @@
+{
+  "slice_start": 3883,
+  "slice_count": 55,
+  "rows_examined": [
+    [
+      3788,
+      3952
+    ]
+  ],
+  "rows_examined_count": 165,
+  "rows_in_slice": 55,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_03886"
+      ],
+      "note": "'\u3053\u3044\u3064\u304c\u30ea\u30fc\u30c0\u30fc\uff1f' addressee changes from Eureka (preceding rows) to an unnamed third party (likely Holland, the Gekkostate leader) without the source naming anyone; kept as neutral 'this one'."
+    },
+    {
+      "ids": [
+        "dialogue_03892"
+      ],
+      "note": "'\u4f8b\u306e\u30ac\u30f3\u30c0\u30e0' ('that famous Gundam') is not otherwise identified in this slice or its context rows; no specific unit name supplied, kept generic."
+    },
+    {
+      "ids": [
+        "dialogue_03895"
+      ],
+      "note": "'\u5144\u3055\u3093' (brother) is unassigned to a speaker in the table; contextually plausible as Holland reacting to learning Dewey (his canonical older brother) is behind the attack, but not asserted as fact -- translated as a bare address/thought."
+    },
+    {
+      "ids": [
+        "dialogue_03901"
+      ],
+      "note": "'\u30d9\u30f3\u30c8\u30ed\u30fc\u30eb' (Vent Roll, transliterated) and '\u30e9\u30fc\u30c0\u30fc' (rendered 'Rudder') are ship-part/control-surface terms with no hit in the glossary or an English-language wiki search; see batch_03883_glossary_proposals.json entries. '\u30e9\u30fc\u30c0\u30fc' differs from the standard katakana for 'radar' (\u30ec\u30fc\u30c0\u30fc) and 'rudder' (\u30e9\u30c0\u30fc); read as 'rudder' here because it is paired with a steering-efficiency drop, but this is an inference, not an attested spelling."
+    },
+    {
+      "ids": [
+        "dialogue_03888"
+      ],
+      "note": "'\u30aa\u30fc\u30d0\u30fc\u30de\u30f3\u30d0\u30c8\u30eb' (Overman battle) transliterated as a proper term (borrowing 'Overman' from the King Gainer half of this crossover, since no Eureka Seven-side attestation for the compound was found); see glossary proposals file."
+    },
+    {
+      "ids": [
+        "dialogue_03855",
+        "dialogue_03864",
+        "dialogue_03868",
+        "dialogue_03869",
+        "dialogue_03871",
+        "dialogue_03872",
+        "dialogue_03873",
+        "dialogue_03874",
+        "dialogue_03883",
+        "dialogue_03884",
+        "dialogue_03887",
+        "dialogue_03893",
+        "dialogue_03911"
+      ],
+      "note": "Unidentified speakers/addressees (opponents, pilots, 'he/it' referents) kept gender-neutral or left as pronouns matching the source's own ambiguity; no identity or gender invented from context alone."
+    }
+  ],
+  "validation": {
+    "controls": "All angle-bracket commands (<op()>/<on()>, <sp(20)>, <ab(n)>, <ed()>/<off()>, <color(n)>/<ce()>, <book(n)>/<endbook()>) preserved in the source's exact order for every row; self-check script confirmed equality against tools/dialogue_corpus.py slice output.",
+    "fit": "Full meaning drafted first; longest visible row is 108 characters (dialogue_03841), all rows <= 110-character budget with no shortening required.",
+    "ascii": "ASCII-only; no lowercase j/q needed in this slice; no bare % encountered.",
+    "meaning_review": "All 55 rows meaning-reviewed (review_03883.json): 2 meaning/technical fixes applied (font-constraint lowercase j rewordings in dialogue_03908, dialogue_03923); no row left as draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_03883",
+      "target": "<op()><sp(20)>So you're Eureka.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03884",
+      "target": "<sp(20)>You're in my way-- time to die!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03885",
+      "target": "<op()><sp(20)>You know Eureka!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03886",
+      "target": "<op()><sp(20)>This one's the leader?<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "'\u3053\u3044\u3064' addressee shifts from Eureka (3883-3885) to an unnamed third party; kept as 'this one' without asserting who."
+    },
+    {
+      "id": "dialogue_03887",
+      "target": "<sp(20)>Taking you down will make Dewey happy!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03888",
+      "target": "<op()><sp(20)>Not even in an Overman battle\nis there an enemy this fast!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "'\u30aa\u30fc\u30d0\u30fc\u30de\u30f3\u30d0\u30c8\u30eb' (Overman battle) transliterated; see glossary proposals file - no existing corpus/wiki attestation found for this exact compound in an Eureka Seven context."
+    },
+    {
+      "id": "dialogue_03889",
+      "target": "<sp(20)>But... there has to be a way to beat it!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03890",
+      "target": "<op()><sp(20)>There's no way something like that exists!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03891",
+      "target": "<op()><sp(20)>I'll find one!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03892",
+      "target": "<op()><sp(20)>That's the one... the famous Gundam!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "'\u4f8b\u306e\u30ac\u30f3\u30c0\u30e0' ('that famous Gundam') references a specific unit familiar to the speaker; source does not name it, kept generic per no-invented-identity rule."
+    },
+    {
+      "id": "dialogue_03893",
+      "target": "<sp(20)>Dewey says you're in the way!\nI'll smash you to bits!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03894",
+      "target": "<op()><sp(20)>Damn it, I won't go down that easily!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03895",
+      "target": "<op()><sp(20)>Brother... what are you thinking...?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'\u5144\u3055\u3093' (brother) most plausibly refers to Holland thinking of Dewey (established siblings in glossary), but speaker is not tagged; kept as bare 'Brother' address/thought."
+    },
+    {
+      "id": "dialogue_03896",
+      "target": "<op()><sp(20)>Allied forces are struggling...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03897",
+      "target": "<op()><sp(20)>The Flail force has been taken down...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03898",
+      "target": "<op()><sp(20)>Position captured!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03899",
+      "target": "<op()><sp(20)>Don't dawdle!\nThere's no time!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03900",
+      "target": "<op()><sp(20)>Don't tell me we were too late...!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03901",
+      "target": "<on()><sp(20)>Hit on the lower left Vent Roll!\nRudder's gone, steering efficiency down 20 percent!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "'\u30d9\u30f3\u30c8\u30ed\u30fc\u30eb' and '\u30e9\u30fc\u30c0\u30fc' are unattested ship-part terms (no wiki or glossary hit); see glossary proposals file. '\u30e9\u30fc\u30c0\u30fc' rendered functionally as 'Rudder' given the paired steering-efficiency clause."
+    },
+    {
+      "id": "dialogue_03902",
+      "target": "<on()><sp(20)>The enemy's attacks are too fierce!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03903",
+      "target": "<on()><sp(20)>Sending support drones your way.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03904",
+      "target": "<on()><sp(20)>What is that?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03905",
+      "target": "<on()><sp(20)>That's a Coralian.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03906",
+      "target": "<on()><sp(20)>A-that's the...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03907",
+      "target": "<on()><sp(20)>An LFO!?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03908",
+      "target": "<on()><sp(20)>Wait one minute!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03909",
+      "target": "<on()><sp(20)>Are you sure it's really okay to let them go?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03910",
+      "target": "<on()><sp(20)>It's something I decided the moment we came here.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03911",
+      "target": "<on()><sp(20)>Besides, if he's the one meant to pair with it...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03912",
+      "target": "<on()><sp(20)>Eureka, are you all right?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03913",
+      "target": "<on()><sp(20)>I'm fine...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03914",
+      "target": "<on()><sp(20)>We've confirmed the <book(61)>Nirvash<endbook()>'s return.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03915",
+      "target": "<on()><sp(20)><color(4)>Renton<ce()>!\nIs <color(4)>Eureka<ce()> all right!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03916",
+      "target": "<on()><sp(20)>She's unconscious.\nI... what do I do...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03917",
+      "target": "<on()><sp(20)>It's all right.\n...She'll come to soon.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03918",
+      "target": "<on()><sp(20)><color(4)>Holland<ce()>, please tell me.\nWhat exactly is <color(4)>Eureka<ce()>...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03919",
+      "target": "<on()><sp(20)>Just an ordinary girl.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03920",
+      "target": "<on()><sp(20)>You knew, didn't you?\nThat contact with a <book(72)>Coralian<endbook()> would\ndo this to <color(4)>Eureka<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03921",
+      "target": "<on()><sp(20)>What...?\nWhat happened inside <book(75)>the Zone<endbook()>...?\nWhat did you see!!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03922",
+      "target": "<on()><sp(20)>I had... a dream.\nI met my sister, the one who's missing.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03923",
+      "target": "<on()><sp(20)><color(4)>Renton<ce()>...\nwho exactly are you?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03924",
+      "target": "<on()><sp(20)>That <book(72)>Coralian<endbook()>--\nwhat happened to it?\nI'd like an explanation.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03925",
+      "target": "<on()><sp(20)>The <book(72)>Coralian<endbook()> vanished.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03926",
+      "target": "<on()><sp(20)>Hey now... we're risking our lives out here.\nThat explanation doesn't cut it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03927",
+      "target": "<on()><sp(20)>Even if I told you, you wouldn't get it!\n...Damn it all!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03928",
+      "target": "<on()><sp(20)>Honestly...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03929",
+      "target": "<on()><sp(20)>Everyone, I'm sorry.\nI'd like to give you an explanation,\nbut there doesn't seem to be time right now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03930",
+      "target": "<on()><sp(20)>Word's come in from <color(4)>Hayato Jin<ce()>.\nThe <book(48)>Shin Dragon<endbook()> has reportedly\nbeen spotted in New York.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03931",
+      "target": "<on()><sp(20)>If the <book(38)>New Federation<endbook()> catches wind of this,\nit's entirely possible <color(5)>Berkt<ce()>'s unit\nwill move to seize it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03932",
+      "target": "<on()><sp(20)>We'd better hurry.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03933",
+      "target": "<on()><sp(20)>Taking the shortest route\nfrom our current position to New York\nwill take us through the <book(41)>Sea of Lorelei<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03934",
+      "target": "<on()><sp(20)><color(4)>Jamil<ce()>...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03935",
+      "target": "<on()><sp(20)>What is it, <color(4)>Tiffa<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03936",
+      "target": "<on()><sp(20)><book(41)>Sea of Lorelei<endbook()>...\nSomeone there is calling for you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03937",
+      "target": "<on()><sp(20)>Someone's calling for me...?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

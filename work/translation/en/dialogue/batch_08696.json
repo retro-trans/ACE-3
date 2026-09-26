@@ -1,0 +1,555 @@
+{
+  "slice_start": 8696,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      8681,
+      8790
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_08730",
+        "dialogue_08731",
+        "dialogue_08732",
+        "dialogue_08733",
+        "dialogue_08734",
+        "dialogue_08735",
+        "dialogue_08736",
+        "dialogue_08737",
+        "dialogue_08738",
+        "dialogue_08739",
+        "dialogue_08740",
+        "dialogue_08741",
+        "dialogue_08742",
+        "dialogue_08743",
+        "dialogue_08744",
+        "dialogue_08745",
+        "dialogue_08746",
+        "dialogue_08747",
+        "dialogue_08748",
+        "dialogue_08749",
+        "dialogue_08750",
+        "dialogue_08751",
+        "dialogue_08752"
+      ],
+      "note": "New Federation transmission exchange (Dewey/Holland/Renton). <op()> portrait-open commands do not reliably alternate one-to-one with speaker changes here (e.g. row 8739 addresses 'Dewey' by name under a fresh <op()>, so it cannot itself be Dewey speaking). No speaker identity or addressee was invented in any row; subjects/addressees are exactly what the source states or omits."
+    },
+    {
+      "id": "dialogue_08749",
+      "note": "'Dad...' (fusan) - speaker and the person addressed are not settled by neighboring rows; kept as a bare exclamation."
+    },
+    {
+      "ids": [
+        "dialogue_08765",
+        "dialogue_08766"
+      ],
+      "note": "Source itself puns on watashi/boku pronouns (one party objects to being called 'boku'); rendered as 'this guy'/'guy' to keep the source's own mislabeling joke without asserting a real gender identity."
+    },
+    {
+      "ids": [
+        "dialogue_08769",
+        "dialogue_08770",
+        "dialogue_08771"
+      ],
+      "note": "Kids-sama rendered 'Lord Kids', reusing the locked surname 'Kids Munt' (encyclopedia_021_b.json/encyclopedia_022.json, Overman King Gainer); honorific-title rendering is new, proposed in batch_08696_glossary_proposals.json."
+    },
+    {
+      "id": "dialogue_08759",
+      "note": "'These children' - referent left general as in source; likely the (Antibody) Coralians given combat context, not asserted as such."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command verified to match the source in exact order for all 80 rows (script cross-check against tools/dialogue_corpus.py output); none dropped or reordered.",
+    "format": "Original newline counts preserved for every row.",
+    "fit": "Full meaning kept; longest visible string checked <= 110 characters (see per-row notes for any compression).",
+    "ascii": "ASCII-only, straight quotes, '...' ellipses, no bare '%'; lowercase j/q avoided except the locked/established names 'Queen' and 'Kids'.",
+    "terminology": "Locked spellings from mission_terms_019.json (Coralian, Antibody Coralian, particle field), meeting_terms_015/glossary.json (New Federation), character_names_021.json (Dewey Novak, Holland Novak, Renton Thurston, Adroc Thurston, Gainer Sanga, Cynthia Lane/'Queen' nickname) and hud_labels.json (base, repair team, Flail team) reused throughout; see notes for the new 'Lord Kids' honorific proposal.",
+    "meaning_review": "Independent review of 80 rows against original ISO; 110 rows examined (8681-8790). One meaning fix applied (Lord Kizz -> Lord Kids, rows 08769/08771: the Siberian Railway president's name is Kids Munt, not Kizz Munt) - see review_08696.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_08696",
+      "target": "<op()><sp(20)>All units, protect the base!\nOnly until the Antibody Coralians disappear.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08697",
+      "target": "<sp(20)>Don't let even a single one fall!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08698",
+      "target": "<op()><sp(20)>Dewey, you bastard...\nPulling a farce like this...!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08699",
+      "target": "<op()><sp(20)>Damage to the base is spreading.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08700",
+      "target": "<op()><sp(20)>The base is under attack!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08701",
+      "target": "<op()><sp(20)>The base is being attacked by the enemy!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08702",
+      "target": "<op()><sp(20)>The base is under enemy attack!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08703",
+      "target": "<op()><sp(20)>The base is being attacked!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08704",
+      "target": "<op()><sp(20)>The enemy is attacking the base!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08705",
+      "target": "<op()><sp(20)>The base is in danger!\nPlease move to support it!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08706",
+      "target": "<op()><sp(20)>At this rate the base will fall!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08707",
+      "target": "<op()><sp(20)>Go support the base!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08708",
+      "target": "<op()><sp(20)>The base is in danger! Support it!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08709",
+      "target": "<op()><sp(20)>The base is going to fall!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08710",
+      "target": "<op()><sp(20)>The base is in danger!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08711",
+      "target": "<op()><sp(20)>Ah...!\nThe base is destroyed!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08712",
+      "target": "<op()><sp(20)>Damn it...!\nWhat the hell are you doing!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08713",
+      "target": "<op()><sp(20)>How much time has passed!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08714",
+      "target": "<op()><sp(20)>Still only half!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08715",
+      "target": "<op()><sp(20)>So there's still time\nbefore the Coralian disappears...!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08716",
+      "target": "<op()><sp(20)>A little more!\nHold on!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08717",
+      "target": "<op()><sp(20)>The Antibody Coralian will disappear any moment now!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08718",
+      "target": "<op()><sp(20)>A new enemy has appeared!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08719",
+      "target": "<op()><sp(20)>They're still coming!?\nPrepare to intercept!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08720",
+      "target": "<op()><sp(20)>All enemy bases secured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08721",
+      "target": "<op()><sp(20)>Send that unit somewhere else!!<ab(1800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08722",
+      "target": "<op()><sp(20)>The repair team has arrived!\nHeading for the base!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08723",
+      "target": "<op()><sp(20)>A new repair team has arrived!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08724",
+      "target": "<op()><sp(20)>Thanks to the supply team, we're saved.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08725",
+      "target": "<op()><sp(20)>Successfully disabled the particle field!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08726",
+      "target": "<op()><sp(20)>The repair team has finished repairing the Flail team!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08727",
+      "target": "<op()><sp(20)>The repair team's work is complete!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08728",
+      "target": "<op()><sp(20)>Thanks to the repair team, the Flail team has recovered!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08729",
+      "target": "<op()><sp(20)>The Flail team has recovered!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08730",
+      "target": "<op()><sp(20)>Incoming transmission from the New Federation!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08731",
+      "target": "<op()><sp(20)>What did you say?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08732",
+      "target": "<op()><sp(20)>Holland.\nSeems you're doing well.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08733",
+      "target": "<op()><sp(20)>Dewey...!<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08734",
+      "target": "<sp(20)>You bastard, using the Antibody Coralians\nyou caused yourself to pull this!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08735",
+      "target": "<op()><sp(20)>The Invaders appeared\nin response to the Antibody Coralians' movements.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08736",
+      "target": "<sp(20)>Heh heh heh...\nExactly as Adroc foretold, isn't it?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08737",
+      "target": "<op()><sp(20)>You're wrong!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08738",
+      "target": "<sp(20)>Adroc met Eureka\nand renounced the Ageha Plan!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08739",
+      "target": "<op()><sp(20)>Dewey.\nWhat do you even understand about the Ageha Plan?<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08740",
+      "target": "<sp(20)>That speech is merely the thinking\nof someone caught up in surface appearances.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08741",
+      "target": "<op()><sp(20)>Even if that's true, it doesn't matter.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08742",
+      "target": "<sp(20)>To me, the Scub Coral is something\nthat must be destroyed.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08743",
+      "target": "<sp(20)>Then do your best, I suppose.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08744",
+      "target": "<op()><sp(20)>Transmission cut off!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08745",
+      "target": "<op()><sp(20)>Dewey... what in the world are you thinking!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08746",
+      "target": "<op()><sp(20)>Deploying the military to do this -\nare you trying to show off your own power!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08747",
+      "target": "<op()><sp(20)>Steering public opinion toward wiping out\nthe Coralians, to move the world as you please.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08748",
+      "target": "<op()><sp(20)>And on top of that, you're using Adroc's name\nfor this farce...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08749",
+      "target": "<op()><sp(20)>Dad...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08750",
+      "target": "<op()><sp(20)>Renton, listen!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08751",
+      "target": "<sp(20)>Adroc mustn't be used\nfor something like this.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08752",
+      "target": "<op()><sp(20)>Holland... thank you.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08753",
+      "target": "<op()><sp(20)>This many... there's no end to them!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08754",
+      "target": "<op()><sp(20)>But we can't afford\nto lose!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08755",
+      "target": "<op()><sp(20)>Ngh, this debt will cost you dearly!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08756",
+      "target": "<op()><sp(20)>Everyone, hang in there!\nYour fight will save the people!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08757",
+      "target": "<op()><sp(20)>Dewey, is the 'real thing' you talk about\nbuilt on sacrifices like this!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08758",
+      "target": "<sp(20)>I won't accept this...\nI absolutely won't accept it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08759",
+      "target": "<op()><sp(20)>These children are screaming.\nBecause they were born from pain.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'These children' (kono ko-tachi) referent not explicit in-row; likely the Coralians given combat context, kept general."
+    },
+    {
+      "id": "dialogue_08760",
+      "target": "<op()><sp(20)>This fight is far too cruel!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08761",
+      "target": "<op()><sp(20)>The Antibody Coralians are disappearing!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08762",
+      "target": "<op()><sp(20)>We somehow managed to hold out...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08763",
+      "target": "<op()><sp(20)>The New Federation is retreating too!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08764",
+      "target": "<op()><sp(20)>High-speed contacts inbound!\nTwo units!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08765",
+      "target": "<op()><sp(20)>Take a good look at the power of me and this guy!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source pun: speaker uses watashi/boku for 'me and X'; rendered as 'this guy' to keep the mislabeling joke without asserting an identity beyond the source's own wordplay."
+    },
+    {
+      "id": "dialogue_08766",
+      "target": "<op()><sp(20)>Who are you calling 'guy'!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Objects to being called 'boku' (masculine self-referent); rendered as objecting to 'guy', preserving the source's own gender-labeling joke, not an invented identity."
+    },
+    {
+      "id": "dialogue_08767",
+      "target": "<op()><sp(20)>Obviously it's you!!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08768",
+      "target": "<op()><sp(20)>Sigh.\nSay what you want.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08769",
+      "target": "<op()><sp(20)>Even if it's Lord Kids's orders,\nteaming up with the New Federation, really?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kids-sama rendered 'Lord Kids' reusing the locked surname 'Kids Munt' (encyclopedia_021_b.json/encyclopedia_022.json); see batch_08696_glossary_proposals.json."
+    },
+    {
+      "id": "dialogue_08770",
+      "target": "<op()><sp(20)>Calling that creepy old man 'lord' -\nare you an idiot?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Honorific mockery ('sama-zuke') on Kids Munt; 'Lord' carries the excessive-deference joke."
+    },
+    {
+      "id": "dialogue_08771",
+      "target": "<op()><sp(20)>Look who's talking, who do you think you are!\nLord Kids is kind!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kids-sama again as 'Lord Kids'; speaker not identified."
+    },
+    {
+      "id": "dialogue_08772",
+      "target": "<op()><sp(20)>Dewey is kind too, you know!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08773",
+      "target": "<op()><sp(20)>Hey... what's with these guys.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_08774",
+      "target": "<op()><sp(20)>This movement... could it be 'Queen'!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Queen' is Cynthia Lane's established online-game handle per character_names_021.json nickname field."
+    },
+    {
+      "id": "dialogue_08775",
+      "target": "<op()><sp(20)>That voice... it's Gainer Sanga!\nI won't lose to King!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 8111,
+  "slice_count": 80,
+  "rows_examined": [{"start": 8031, "end": 8214}],
+  "rows_examined_count": 184,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_08116",
+      "before": "We lost contact with her somewhere around here...",
+      "after": "She went dark somewhere around here...",
+      "reason": "Source (この周辺で消息を断ったわ) has no subject for the 'lost contact' clause; the preceding row (dialogue_08115, 'She went out after you.') keeps Eureka as the running subject. 'We lost contact with her' invents a tracking party the source never mentions and shifts agency from Eureka to an unnamed 'we'. Rewritten to keep Eureka as subject without inventing a second party."
+    },
+    {
+      "id": "dialogue_08157",
+      "before": "We've been taken down!",
+      "after": "I've been taken down?!",
+      "reason": "Source (やられちまったか！) has no explicit subject. This line sits inside the same unbroken <on()>/<off()> scene as dialogue_08159 ('Ray, that's enough. Fall back.'), where Charles addresses only Ray and keeps giving orders himself, implying Ray alone was hit, not both of them. Plural 'We've been taken down' wrongly implies Charles was also defeated; changed to a singular self-reaction consistent with the immediately following retreat order."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [8126, 8127, 8128], "finding": "'The swan' (白鳥) kept literal per translator's own flagged uncertainty; no glossary term exists and no figurative referent is settled by context, so no reading was invented."},
+    {"rows": [8143, 8144, 8145, 8151, 8152, 8153, 8154, 8155, 8156], "finding": "Reviewed the whole on()/off() observer block against context 15 rows either side; 'that person'/'the one paired with it'/'that kid' correctly stay unnamed and ungendered (row 8155's singular 'they' for あの子 is a good application of the gender-neutral rule)."},
+    {"rows": [8162, 8164, 8165, 8166], "finding": "Dewey Novak attribution (former SOF head, Holland's brother, 'golden bough'/Frazer reference) matches character_names_021.json role notes; name is never inserted into the English text itself, so the inference carries no risk if wrong."},
+    {"rows": [8140, 8152], "finding": "'Seven Swell' and 'typeZERO' match the locked forms in unit_names_014_b.json ('Nirvash typeZERO Seven Swell') exactly."},
+    {"rows": [8172], "finding": "GX-9900/Double X line stays ungendered as flagged; no identity invented."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_08126"], "issue": "'The swan' has no locked glossary term; kept literal as translator flagged. Recommend orchestrator add a glossary note if the figure of speech recurs."},
+    {"ids": ["dialogue_08143", "dialogue_08144", "dialogue_08145", "dialogue_08151", "dialogue_08152", "dialogue_08153", "dialogue_08154", "dialogue_08155", "dialogue_08156"], "issue": "Speaker(s) in this on()/off() block remain unconfirmed (likely Shagia/Olba Frost commentary interleaved with Charles/Ray's fight, since the whole block shares one on()/off() scene through dialogue_08160). Content checked for internal consistency; no contradiction found, but identity is not independently verifiable from this slice alone."},
+    {"ids": ["dialogue_08162", "dialogue_08164", "dialogue_08165", "dialogue_08166"], "issue": "Speaker inferred to be Dewey Novak as translator noted; confirmed plausible via glossary role match, not independently re-verified beyond that."},
+    {"ids": ["dialogue_08172"], "issue": "Speaker gender/identity for the GX-9900 line not confirmed; correctly left ungendered."}
+  ],
+  "validation": {
+    "controls": "All <op()>/<sp(20)>/<ab(n)>/<ed()>/<on()>/<off()>/<color(n)> command sequences re-diffed against a fresh `python tools/dialogue_corpus.py slice 8031 184 --context 15` pull for every row in this slice, including after the two meaning-fix edits; zero mismatches.",
+    "format": "No newline characters (literal or \\n) present in any target string.",
+    "fit": "All 80 rows re-measured at <=110 visible (tag-stripped) characters, including the two edited rows.",
+    "runtime": "ASCII-only re-verified (fullwidth percent sign only exception, none present); no lowercase j/q found in visible text."
+  }
+}

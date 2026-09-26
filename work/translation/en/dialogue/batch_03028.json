@@ -1,0 +1,102 @@
+{
+  "slice_start": 3028,
+  "slice_count": 12,
+  "rows_examined": [
+    [
+      2933,
+      3042
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 12,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_03038",
+        "dialogue_03039"
+      ],
+      "note": "Continues the Federation-HQ officer's briefing about the Shirahime attacker unit resurfacing at other colonies before the fleet departs for the Amaterasu Terminal Colony; both book(24)/book(25)/book(26) spellings taken from encyclopedia_022.json (Terminal Colony, Shirahime, Amaterasu)."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target compared with the source by console snippet: 12/12 equal.",
+    "fit": "No newline in any target; longest visible text is within 110 characters; no over-limit rows.",
+    "glyphs": "ASCII only; no lowercase j or q outside locked names/terms; no bare percent sign.",
+    "ids": "12/12 ids present (dialogue_03028-dialogue_03039), none duplicated.",
+    "meaning_review": "Independently reviewed against the Japanese source (console slice, context 15); 12/12 rows examined, 0 meaning fixes required, 0 rows left as draft. See review_03028.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_03028",
+      "target": "<on()><sp(20)>It seems the higher-ups want the information too, so could you cooperate with us here?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03029",
+      "target": "<on()><sp(20)>...If that's the case, let's cooperate. <color(4)>Asap<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03030",
+      "target": "<on()><sp(20)>I suppose so... If our information can be of even a little help.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03031",
+      "target": "<on()><sp(20)>That's a relief to hear. Once your escort arrives, please head to <book(9)>Federation<endbook()> headquarters.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03032",
+      "target": "<on()><sp(20)>We'll cooperate as much as we can as well, so thank you in advance.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03033",
+      "target": "<on()><sp(20)>It seems you're the only ones we can rely on right now. I ask this of you as well.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03034",
+      "target": "<on()><sp(20)>By the way, everyone, our next destination has been decided.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03035",
+      "target": "<on()><sp(20)>This isn't going to be another 'go back up to space' thing, is it?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03036",
+      "target": "<on()><sp(20)>Unfortunately, that's exactly right.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03037",
+      "target": "<on()><sp(20)>You're kidding...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03038",
+      "target": "<on()><sp(20)>The unit that appeared during the recent attack on <book(25)>Shirahime<endbook()> has reportedly been seen at other colonies too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03039",
+      "target": "<on()><sp(20)>From here, we will head to the <book(24)>Terminal Colony<endbook()> \"<book(26)>Amaterasu<endbook()>.\"",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

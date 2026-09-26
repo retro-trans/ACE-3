@@ -1,0 +1,514 @@
+{
+ "slice_start": 16373,
+ "slice_count": 80,
+ "rows_examined": [
+  [
+   16373,
+   16457
+  ]
+ ],
+ "rows_examined_count": 85,
+ "rows_in_slice": 80,
+ "uncertainties": [
+  {
+   "id": "dialogue_16388",
+   "note": "Source row is only 2 visible characters ('\u6b21\uff01', roughly 'Next!'), giving a 2-character budget by the stated formula. Rendered as 'Go', the closest fitting single command; the source's actual sense (calling up the next target) cannot be expressed in 2 characters. Flagged as an over-limit risk despite technically meeting the formula."
+  },
+  {
+   "id": "dialogue_16423",
+   "note": "Source term '\u30ed\u30a6\u30d2' (katakana) is unclear -- possibly a stylized rendering of a cost/effort word (rouhi, wasted expenditure) or a corrupted/garbled string (matches known technical pitfalls with mangled glyphs in this corpus). Translated generically as 'What a waste.' pending clarification; see glossary proposals."
+  },
+  {
+   "id": "dialogue_16447",
+   "note": "'Omega 1' (Omega Ichi) kept as Guld's unit/callsign; not yet in the glossary, proposed in batch_16373_glossary_proposals.json."
+  }
+ ],
+ "validation": {
+  "fit": "Pilot battle-shout corpus: each resource is one playable/enemy unit with one fixed pilot, who speaks every <op()> row (per task brief; no <on()> operator rows in this range). Byte budget applied per row: English visible length <= min(72, 2*Japanese_char_count - 2), counting all visible source characters (kanji/kana/punctuation) and excluding command tags and newlines. All 80 rows in this batch meet their per-row budget except the flagged dialogue_16388 edge case noted above.",
+  "controls": "All rows keep the source's exact command sequence <op()><sp(20)>...<ab(1000)><ed()> unchanged and in order; no newlines in any target.",
+  "speakers": "Rows dialogue_16373-16375 finish resource 2825010 (unit YF-19, pilot Isamu Alva Dyson). Rows dialogue_16376-16452 are resource 2825020 (unit YF-21, pilot Guld Goa Bowman; well-disciplined, serious, prone to violent rage per character_names_021.json), rendered as a terse commanding voice.",
+  "meaning_review": "Meaning review (independent_translate_dialogue_81_agent, slice reviewed with +/-15 rows context): no meaning fixes required; all targets are compressions/paraphrases that preserve source meaning, addressee, tone and locked spellings. 1 row(s) left as draft pending an unclear source term: dialogue_16423."
+ },
+ "rows": [
+  {
+   "id": "dialogue_16373",
+   "target": "<op()><sp(20)>That's nothing for me.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16374",
+   "target": "<op()><sp(20)>Done!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16375",
+   "target": "<op()><sp(20)>Home to drink!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16376",
+   "target": "<op()><sp(20)>Gathering melee data.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16377",
+   "target": "<op()><sp(20)>This ends fast.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16378",
+   "target": "<op()><sp(20)>Calm down, take the enemy ahead.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16379",
+   "target": "<op()><sp(20)>I'll show you the difference<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16380",
+   "target": "<op()><sp(20)>Don't move recklessly.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16381",
+   "target": "<op()><sp(20)>I can leave that to you?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16382",
+   "target": "<op()><sp(20)>Keep up.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16383",
+   "target": "<op()><sp(20)>I'll cover.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16384",
+   "target": "<op()><sp(20)>Don't act alone.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16385",
+   "target": "<op()><sp(20)>Scatter them!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16386",
+   "target": "<op()><sp(20)>Spread out!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16387",
+   "target": "<op()><sp(20)>Speed alone won't win.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16388",
+   "target": "<op()><sp(20)>Go<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Extreme budget: source is only 2 visible characters ('\u6b21\uff01', 'Next!'), giving a 2-character budget by the formula. 'Go' is the closest fitting command; the source's own sense ('bring on the next one') cannot be expressed in 2 characters. Flagged as an over-limit risk despite technically meeting the formula."
+  },
+  {
+   "id": "dialogue_16389",
+   "target": "<op()><sp(20)>Damn it, not yet!!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16390",
+   "target": "<op()><sp(20)>Recalculate attack program?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16391",
+   "target": "<op()><sp(20)>This isn't good.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16392",
+   "target": "<op()><sp(20)>Reassess the situation!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16393",
+   "target": "<op()><sp(20)>Savor it while it lasts.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16394",
+   "target": "<op()><sp(20)>Stay calm.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16395",
+   "target": "<op()><sp(20)>No openings.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16396",
+   "target": "<op()><sp(20)>I haven't lost yet!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16397",
+   "target": "<op()><sp(20)>Starting ops.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16398",
+   "target": "<op()><sp(20)>No choice now.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16399",
+   "target": "<op()><sp(20)>Come at me together.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16400",
+   "target": "<op()><sp(20)>All units, ready?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16401",
+   "target": "<op()><sp(20)>Let's move.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16402",
+   "target": "<op()><sp(20)>First, assess the enemy.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16403",
+   "target": "<op()><sp(20)>I'll end this fast.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16404",
+   "target": "<op()><sp(20)>Begin.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16405",
+   "target": "<op()><sp(20)>Don't dawdle!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16406",
+   "target": "<op()><sp(20)>Flee while you can.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16407",
+   "target": "<op()><sp(20)>Is that all...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16408",
+   "target": "<op()><sp(20)>Don't bore me.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16409",
+   "target": "<op()><sp(20)>Stay sharp!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16410",
+   "target": "<op()><sp(20)>Don't tarnish my reputation.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16411",
+   "target": "<op()><sp(20)>Focus!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16412",
+   "target": "<op()><sp(20)>Calm down.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16413",
+   "target": "<op()><sp(20)>Far from over.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16414",
+   "target": "<op()><sp(20)>Honestly, what a fool...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16415",
+   "target": "<op()><sp(20)>Good reaction.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16416",
+   "target": "<op()><sp(20)>Not bad at all.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16417",
+   "target": "<op()><sp(20)>Just so.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16418",
+   "target": "<op()><sp(20)>One more!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16419",
+   "target": "<op()><sp(20)>Keep covering me.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16420",
+   "target": "<op()><sp(20)>This mission looks easy.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16421",
+   "target": "<op()><sp(20)>Can't lose here.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16422",
+   "target": "<op()><sp(20)>Keep that rhythm.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16423",
+   "target": "<op()><sp(20)>What a waste.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "Source term is unclear (katakana that may be a stylized rendering of a cost/effort word, or a corrupted string); translated generically as 'What a waste.' pending clarification, see glossary proposals. Orchestrator: the katakana word is \u6d6a\u8cbb (rouhi, waste) spelled in kana; \"What a waste.\" is the correct reading."
+  },
+  {
+   "id": "dialogue_16424",
+   "target": "<op()><sp(20)>Came only to lose?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16425",
+   "target": "<op()><sp(20)>Futile effort.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16426",
+   "target": "<op()><sp(20)>The weak flock together.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16427",
+   "target": "<op()><sp(20)>Not about numbers.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16428",
+   "target": "<op()><sp(20)>Backup?!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16429",
+   "target": "<op()><sp(20)>So the enemy's panicking.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16430",
+   "target": "<op()><sp(20)>As good as admitting defeat.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16431",
+   "target": "<op()><sp(20)>Now's the crux.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16432",
+   "target": "<op()><sp(20)>Ending them all.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16433",
+   "target": "<op()><sp(20)>I'll take the monster.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16434",
+   "target": "<op()><sp(20)>Can you handle that?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16435",
+   "target": "<op()><sp(20)>This should be fun.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16436",
+   "target": "<op()><sp(20)>So it's finally here.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16437",
+   "target": "<op()><sp(20)>What is that ominous machine?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16438",
+   "target": "<op()><sp(20)>Now, what now?<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16439",
+   "target": "<op()><sp(20)>No worries with that unit!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16440",
+   "target": "<op()><sp(20)>What is it?!<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16441",
+   "target": "<op()><sp(20)>I'll face you.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16442",
+   "target": "<op()><sp(20)>Seems I need to get serious.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16443",
+   "target": "<op()><sp(20)>Better rest up now.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16444",
+   "target": "<op()><sp(20)>Ops done. Returning.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16445",
+   "target": "<op()><sp(20)>Units, report damage.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16446",
+   "target": "<op()><sp(20)>Good grief...<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16447",
+   "target": "<op()><sp(20)>Omega 1 returning.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": "'Omega 1' kept as Guld's unit/callsign (Omega Ichi); not yet in glossary, see batch_16373_glossary_proposals.json."
+  },
+  {
+   "id": "dialogue_16448",
+   "target": "<op()><sp(20)>Got good data.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16449",
+   "target": "<op()><sp(20)>Enemy's fled.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16450",
+   "target": "<op()><sp(20)>Ship, prepare to receive us.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16451",
+   "target": "<op()><sp(20)>Wounded return first.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_16452",
+   "target": "<op()><sp(20)>Job's done.<ab(1000)><ed()>",
+   "status": "meaning_reviewed",
+   "notes": ""
+  }
+ ]
+}

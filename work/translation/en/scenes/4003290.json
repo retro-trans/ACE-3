@@ -1,0 +1,199 @@
+{
+ "resource_id": 4003290,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 18,
+ "rows_examined": 18,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "23  Recover Norb",
+   "notes": "Released mission title reused (missions_019.json slot 280).",
+   "source_sha256": "5c632f978d45d9d3a6d87d20618b77adb74a63d95664dd866441649fd1d96006"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30110,1)><speed(2)>Let me tell you about this operation's target: the <book(83)>Vodarac<endbook()> high priest, <color(6)>Norb<ce()><thumbnail(275)>.",
+   "notes": "'target' for mokuhyou avoids the letter j (objective).",
+   "source_sha256": "9dbb4c0180f1d53a1656d36240812edd6502716be772627e29fa4997f87a186d"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30110,1)><speed(2)><color(6)>Norb<ce()> is the man holding the key to coexisting with the <book(69)>Scub Coral<endbook()>.",
+   "notes": "",
+   "source_sha256": "14119e2b99e5103108519e2304c0a0f2d262d3b3104a3530fa10c22bbbd729b2"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30110,1)><speed(2)>Ever since he vanished, we have spent years searching, but we have finally tracked him down.",
+   "notes": "Norb is male per character_names_021.json / mission_terms_019.json.",
+   "source_sha256": "757ad3a0b769823cf9cccd9a9946ad299624ea800ccd58fdd6a7c8427a57d1e7"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30110,1)><speed(2)>Normally, contact with the <book(69)>Scub Coral<endbook()> needs a <book(72)>Coralian<endbook()> to appear first.",
+   "notes": "",
+   "source_sha256": "25ef12b353b560a021fdfea83681d86efc633f80a65f800c0ea7062d0cb1ecb9"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30110,1)><speed(2)>But the <book(77)>Limit of Questions<endbook()> is closing in on this world. There is no more time.",
+   "notes": "'Limit of Questions' is the locked rendering of Kudan no Genkai (book 77), per encyclopedia_022.json text_id 77 and dialogue/batch_05943 (wiki page title wins over a literal 'Kudan' transliteration).",
+   "source_sha256": "71f0a289acf3a9290716dd6912a47e510cc2fdcb650b1d7093425fbdcc29105c"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30110,1)><speed(2)>The only option left is... bringing <color(4)>Renton<ce()> and <color(4)>Eureka<ce()> to the <book(79)>Great Wall<endbook()><thumbnail(276)>, to try dialogue with the <book(69)>Scub Coral<endbook()>.",
+   "notes": "Compressed to fit the 128-char limit while keeping the Renton/Eureka/Great Wall/Scub Coral tag order identical to source.",
+   "source_sha256": "a3019d5e98fced19d25ba1f8488f83f29e4d2c3f248f010de6a421f84aef8a4e"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30110,1)><speed(2)><color(6)>Norb<ce()> is the one who can guide us to that <book(79)>Great Wall<endbook()>.",
+   "notes": "",
+   "source_sha256": "a641b960c76f53a58e542040fe2fee5a435f48fd61a98efd5da84d7755ec6557"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30110,1)><speed(2)>We cannot afford to lose him. That would mean losing humanity's chance to coexist with the <book(72)>Coralians<endbook()> too.",
+   "notes": "'him' = Norb (male, locked). 'Coralians' plural for the species collectively, matching the plural rendering already used for book(72) in encyclopedia_022.json (e.g. 'crustal movement, Coralians and the like').",
+   "source_sha256": "fb6d055e65305d5a7e364a4ddf38937a3787d7c1c2d6f40b3c23e15dd58c87df"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>Whatever it takes, we will rescue <color(6)>Norb<ce()>.",
+   "notes": "",
+   "source_sha256": "ae46398048cb2234d216f45aab9f66fbab570d232dac49820a25b46ac774be36"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30120,1)><speed(2)>He is being held for now at the <book(59)>Liman Megalopolis<endbook()> in Siberia.",
+   "notes": "'He' = Norb (male, locked). 'Liman Megalopolis' per encyclopedia_022.json text_id 59.",
+   "source_sha256": "3127dcab18b1f736c96a5d49c4ca736d5b8c3ab4806b13dd4ca0e35aeac9909a"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30120,1)><speed(2)>If he is moved to <book(38)>New Federation<endbook()> HQ, we will have no way to reach him. So this is our only chance.",
+   "notes": "",
+   "source_sha256": "bafaac77d714d8f3f010ef796f22d47d98ca897b74fc69ad702ef3ca2d515f0c"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<topic()><operator(30100,1)><speed(2)>Around the <book(59)>Liman Megalopolis<endbook()><thumbnail(277)>, <color(5)>Dewey Novak<ce()>'s <color(5)>Ginga<ce()> has been spotted.",
+   "notes": "'Ginga' (Dewey Novak's flagship, source 'Ginga-gou') is a new proper noun with no prior corpus/glossary entry; researched and listed under glossary_proposals.",
+   "source_sha256": "f66e2cab91c90380df99bcf54173814e27b81d7b88104add4a2d23e9ca66534f"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30100,1)><speed(2)>They probably mean to move Priest <color(6)>Norb<ce()> aboard the <color(5)>Ginga<ce()>. That is our opening.",
+   "notes": "'Priest' for Norb-shi; casual-register title, no locked term found beyond 'high priest' for kousou.",
+   "source_sha256": "3d6cbb9a9af94cc07da07893a4ce47ab69df14913d9947b436ff9267902920cc"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(30100,1)><speed(2)>Near the <book(59)>Liman Megalopolis<endbook()>, we will engage the <book(38)>New Federation<endbook()> as a diversion while another unit carries out the rescue.",
+   "notes": "Reordered to keep Liman Megalopolis before New Federation, matching source tag order.",
+   "source_sha256": "c39e4c9955483862b2db189fac4ccf65c385c4184b6a678b6e2fc39b74713d8b"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(30100,1)><speed(2)>One more thing: word has come in that the area around the <book(59)>Liman Megalopolis<endbook()><thumbnail(279)> has frozen solid.",
+   "notes": "",
+   "source_sha256": "5f063cfbc9c1a669fb158c628272f4142b37af9fd587420a03d11ba4762b8df2"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30100,1)><speed(2)>Details are still unconfirmed, but it may be the work of an <book(58)>Overman<endbook()>.",
+   "notes": "",
+   "source_sha256": "826b3e71d70009da043b4cde05a78217836173aa43cb93cff73de3aa8ed670a6"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<thumbdown()><operator(30110,1)><speed(2)>This will be a hard fight, but one that means a great deal to us. I am counting on you.",
+   "notes": "",
+   "source_sha256": "727320c5581bcb3afd0a20b2022399cdfa3f4ccf1ff9651095efb5faa9b0f398"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 24,
+   "issue": "'The only option left is...' compresses 'zansareta houhou wa' (the method left to us); meaning kept, wording tightened to fit the 128-char limit."
+  },
+  {
+   "slot": 26,
+   "issue": "'Coralians' rendered plural (generic reference to the species) though this row's Japanese has no explicit plural marker; matches existing plural usage of book(72) elsewhere in the corpus."
+  },
+  {
+   "slot": 30,
+   "issue": "'Ginga' is a new name (Dewey Novak's flagship, source 'Ginga-gou'/銀河号); no prior project glossary entry existed. Researched via the Eureka Seven wiki (Chapter 20 - The Future Is In Our Hands, and Cosmic Trigger pages, which both refer to Dewey's command ship as 'the Ginga'); 号 treated as a ship-naming suffix and dropped, matching the project's existing 'the Izumo' convention. Flagged for orchestrator lock."
+  },
+  {
+   "slot": 31,
+   "issue": "'Priest Norb' for ノルブ師; no locked title for 師 attached to Norb's name exists yet (only 'high priest' for kousou, used at slot 19). Left as a plausible casual-register rendering."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "Ginga-gou (銀河号)",
+   "en": "Ginga",
+   "source": "https://eurekaseven.fandom.com/wiki/Chapter_20_-_The_Future_Is_In_Our_Hands ; https://eurekaseven.fandom.com/wiki/Cosmic_Trigger",
+   "why": "Dewey Novak's flagship, first appearing in mission 23 (this scene) and referenced again in mission 23's briefing/mission text. The Eureka Seven wiki calls Dewey's command ship 'the Ginga' in English episode summaries; no existing project glossary or unit_names entry covers it."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 18,
+  "rows_in_scene": 18,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019.json slot 280 '23  Recover Norb'.",
+   "Speakers via speaker_lookup.py: 30110 Holland Novak, 30120 Talho Yuki, 30100 Gain Bijou; speaker tags unchanged.",
+   "'Norb' is male per character_names_021.json; 'him'/'he'/'the man' pronouns match the glossary, not inferred from the name.",
+   "Slot 28 sentence-final particle confirms Talho's line kept its female phrasing; no gender invented beyond the glossary.",
+   "'Scub Coral' (book 69), 'Coralian(s)' (book 72), 'Great Wall' (book 79), 'Limit of Questions' (book 77), 'Liman Megalopolis' (book 59), 'Overman' (book 58) all match encyclopedia_022.json locked short forms.",
+   "Slot 26 'Coralians' pluralized inside the book(72) tag matches established corpus precedent (encyclopedia_022.json text_id 69/72/73 entries pluralize the same tag when grammar requires it); not an invented plural.",
+   "Slot 24 compression ('The only option left is...') keeps the same meaning as the source's 'zansareta houhou wa'; no information dropped.",
+   "Orchestrator ruling applied as given: 'Ginga' (slots 30-31) accepted for Dewey Novak's flagship; 'Priest Norb' (slot 31) accepted as the casual-register rendering of Norb-shi.",
+   "All rows: command tags identical and in source order, ASCII only, no newline, no bare percent sign, visible length under 128, no lowercase j/q (re-checked with a throwaway script against tools/scene_source.py output)."
+  ],
+  "remaining_uncertainties": [
+   "'Ginga' and 'Priest Norb' are now locked by this review's ruling but still have no entry in glossary.json itself (only in this file's glossary_proposals); recommend the orchestrator add both so later scenes referencing Dewey's flagship or Norb's title stay consistent."
+  ]
+ }
+}

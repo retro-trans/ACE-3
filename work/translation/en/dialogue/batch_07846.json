@@ -1,0 +1,529 @@
+{
+  "slice_start": 7846,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      7831,
+      7940
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_07846",
+      "target": "<op()><sp(20)>New Federation forces are deployed in the area!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07847",
+      "target": "<op()><sp(20)>There are plenty of Invaders too!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07848",
+      "target": "<op()><sp(20)>Take out the targets!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07849",
+      "target": "<op()><sp(20)>A three-way fight, huh...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07850",
+      "target": "<op()><sp(20)>We'd better do something\nbefore Shin Dragon gets away.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not identified from context (table order isolates this row); casual finishing tone kept without inventing identity."
+    },
+    {
+      "id": "dialogue_07851",
+      "target": "<op()><sp(20)>What is this?! The radar's malfunctioning,\nI can't tell what's going on around us!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07852",
+      "target": "<op()><sp(20)>Radio interference is being detected in the area.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07853",
+      "target": "<op()><sp(20)>Take the base.\nThat will lift the interference.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07854",
+      "target": "<op()><sp(20)>The predicted interference area\nwill be displayed on radar.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07855",
+      "target": "<sp(20)>While the malfunction is active,\nyou won't even be able to confirm that, so watch out.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07856",
+      "target": "<op()><sp(20)>The interference area will be cleared.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07857",
+      "target": "<op()><sp(20)>Interference area eliminated.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07858",
+      "target": "<op()><sp(20)>Reinforcements!?\nA new force is approaching from afar!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07859",
+      "target": "<op()><sp(20)>Looks like the Tower is their target.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07860",
+      "target": "<op()><sp(20)>Incredible... to think they'd go this far.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07861",
+      "target": "<op()><sp(20)>Out of my way, small fry!\nWhere's that old man Saotome?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07862",
+      "target": "<op()><sp(20)>Ryoma, you know our goal, don't you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07863",
+      "target": "<op()><sp(20)>I know.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07864",
+      "target": "<sp(20)>But when that old man shows up,\nthis time I'll finish him off myself!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07865",
+      "target": "<op()><sp(20)>Barrel, your reaction level is low!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "hannou-chi (reaction/response value) has no prior corpus precedent; rendered literally as reaction level pending centralized term review."
+    },
+    {
+      "id": "dialogue_07866",
+      "target": "<op()><sp(20)>I know...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07867",
+      "target": "<op()><sp(20)>Barrel, are you listening!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07868",
+      "target": "<op()><sp(20)>Fight, Renton!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07869",
+      "target": "<op()><sp(20)>I...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07870",
+      "target": "<op()><sp(20)>Renton... hang in there...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07871",
+      "target": "<op()><sp(20)><freezemouth(1)>...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07872",
+      "target": "<op()><sp(20)>Barrel... what's wrong?<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07873",
+      "target": "<sp(20)>Are you troubled about what happened earlier?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07874",
+      "target": "<op()><sp(20)>Yeah...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07875",
+      "target": "<op()><sp(20)>Renton, pull yourself together!\nWhat's wrong?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07876",
+      "target": "<op()><sp(20)>Even if you say that...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07877",
+      "target": "<sp(20)>Talking with the Scub Coral, defeating Shin Dragon\n...I really can't do it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07878",
+      "target": "<op()><sp(20)>Renton...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07879",
+      "target": "<op()><sp(20)>Renton's right...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07880",
+      "target": "<sp(20)>This is war...\nThis is an act that hurts people.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07881",
+      "target": "<op()><sp(20)>Don't you dare give up!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07882",
+      "target": "<op()><sp(20)>Renton.\nYou're supposed to protect Eureka, aren't you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07883",
+      "target": "<op()><sp(20)>Protect Eureka...\nBut...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07884",
+      "target": "<op()><sp(20)>Barrel, fight for now!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07885",
+      "target": "<sp(20)>Even so, you have to protect yourself!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07886",
+      "target": "<op()><sp(20)>I know...\nI know, but...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07887",
+      "target": "<op()><sp(20)>Shin Dragon has begun activity!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07888",
+      "target": "<op()><sp(20)>Go...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07889",
+      "target": "<op()><sp(20)>That voice... Dr. Saotome!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07890",
+      "target": "<op()><sp(20)>Dr. Saotome's voice\nis coming from Shin Dragon!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07891",
+      "target": "<op()><sp(20)>Go, you were created\nas Shin Dragon's core.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07892",
+      "target": "<sp(20)>By you becoming the key,\nShin Dragon will evolve into its next form.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07893",
+      "target": "<sp(20)>Go... come.\nCome to me...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07894",
+      "target": "<op()><sp(20)>I'm... Shin Dragon's...!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07895",
+      "target": "<op()><sp(20)>Impossible... Go is the key to its evolution!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07896",
+      "target": "<op()><sp(20)>Go!\nDon't you go!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07897",
+      "target": "<sp(20)>Remember what we've been fighting for!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07898",
+      "target": "<op()><sp(20)>Go... because you were there,\nI was able to make it this far.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07899",
+      "target": "<op()><sp(20)>Weren't we fighting\nto defeat Shin Dragon!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07900",
+      "target": "<op()><sp(20)><freezemouth(1)>...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07901",
+      "target": "<sp(20)><freezemouth(0)>That's right...\nI'm here!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07902",
+      "target": "<sp(20)>I won't do as you wish!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07903",
+      "target": "<op()><sp(20)>Alright!\nAll targets destroyed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07904",
+      "target": "<op()><sp(20)>Good... that's thanks to everyone's hard work.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07905",
+      "target": "<op()><sp(20)>Not yet!\nBerkt might still come!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07906",
+      "target": "<op()><sp(20)>He won't come...<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "kare (that one) identified as Berkt via adjacent 7905 (Berkt might still come); glossary Berkt is male."
+    },
+    {
+      "id": "dialogue_07907",
+      "target": "<sp(20)>Because that usual bad feeling isn't there...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07908",
+      "target": "<op()><sp(20)>I tuned up the unit a bit,\nso there won't be any more flukes!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07909",
+      "target": "<op()><sp(20)>I'll do it!\nBut if I use this...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07910",
+      "target": "<op()><sp(20)>Where's Barrel?\nCome on out!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07911",
+      "target": "<op()><sp(20)>That one... why are they after me?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07912",
+      "target": "<op()><sp(20)>Barrel, don't engage them...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07913",
+      "target": "<op()><sp(20)>...Who is that one, anyway.\nWhy do they have the same reason I do.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07914",
+      "target": "<op()><sp(20)>But if you were the one there,\nand told to kill, wouldn't you hesitate too?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07915",
+      "target": "<op()><sp(20)>I... don't really know.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07916",
+      "target": "<op()><sp(20)>Forget it.\nI don't want to hear naive talk like that.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07917",
+      "target": "<op()><sp(20)>What's wrong?\nGet serious or you'll die!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07918",
+      "target": "<op()><sp(20)>That one... why are they after me?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07919",
+      "target": "<op()><sp(20)>The same... are they even human?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07920",
+      "target": "<op()><sp(20)>I wouldn't know.\nIt doesn't matter anyway.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07921",
+      "target": "<op()><sp(20)>Barrel.\nYou're not like him.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source explicitly uses kare (he); Barrel told he is not like this unnamed figure. Possible link to Berkt (established Barrel doppelganger) not asserted, since not confirmed within this slice."
+    },
+    {
+      "id": "dialogue_07922",
+      "target": "<op()><sp(20)>But if you were the one there,\nand told to kill, wouldn't you hesitate too?<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07923",
+      "target": "<sp(20)>I... don't really know.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07924",
+      "target": "<op()><sp(20)>This is Tower.\nDamage is spreading.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07925",
+      "target": "<op()><sp(20)>This is Tower.\nWe're in serious danger, we need support.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_07850",
+      "note": "Speaker of \"We had better do something before Shin Dragon gets away\" is not identified by adjacent context in this table-order slice; left without an assigned name or invented persona."
+    },
+    {
+      "id": "dialogue_07865",
+      "note": "hannou-chi (reaction/response value, Barrel line) has no earlier corpus rendering found; translated literally as reaction level. Flag for centralized term review if a display-specific stat name exists elsewhere."
+    },
+    {
+      "ids": [
+        "dialogue_07911",
+        "dialogue_07912",
+        "dialogue_07913",
+        "dialogue_07918",
+        "dialogue_07919"
+      ],
+      "note": "RESOLVED by orchestrator ruling: the unnamed figure pursuing Barrel is referred to with 'he' by the translator's draft, but the source uses aitsu (dialogue_07911, 07913x2, 07918) or no pronoun at all (dialogue_07912, 07919), never kare, in these rows. Per ruling, 'he' is licensed only where the source itself uses kare, which happens once, in dialogue_07921 (left unchanged: 'you're not like him'). Meaning fix applied: 07911/07918 'That one... why are they after me?'; 07912 'Barrel, don't engage them...'; 07913 'Who is that one, anyway. / Why do they have the same reason I do.'; 07919 'The same... are they even human?'. Identity (possibly Berkt, Barrel doppelganger established elsewhere) is still not asserted."
+    },
+    {
+      "id": "dialogue_07906",
+      "note": "aitsu ('he won't come') identified as Berkt via the immediately preceding dialogue_07905 (Berkt might still come); glossary.json lists Berkt as male and this is a named-character inference from context, not the unnamed-pursuer ambiguity above, so 'he' is kept."
+    },
+    {
+      "id": "dialogue_07862",
+      "note": "'Ryoma, you know our goal, don't you!' -- source omits a possessive on mokuteki (goal/objective); read as the team's shared objective (destroy Shin Dragon) given a teammate is reining Ryoma in from personal revenge. Kept as a natural possessive fill from context, not an invented identity; flagging the call."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command in each target reproduced in source order; checked with an automated diff against tools/dialogue_corpus.py slice output (throwaway script, not committed).",
+    "fit": "All rows at full meaning; longest visible text is 95 characters, well under the 110-character budget. No shortening performed.",
+    "ascii": "ASCII-only; no lowercase j/q outside locked names, checked by script.",
+    "newlines": "Newline count in each target matches the intentional line breaks present in the source row, per docs/DIALOGUE.md guidance to preserve intentional breaks.",
+    "meaning_review": "Meaning-reviewed 2026-09-23: 5 rows corrected (unnamed-pursuer pronoun ruling applied to dialogue_07911/07912/07913/07918/07919); 'reaction level' (dialogue_07865) and 'Barrel is not like him' (dialogue_07921, licensed kare) confirmed against orchestrator rulings; all 80 rows in slice set to meaning_reviewed, none left as draft."
+  }
+}

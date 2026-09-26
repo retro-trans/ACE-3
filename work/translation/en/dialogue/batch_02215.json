@@ -1,0 +1,570 @@
+{
+  "slice_start": 2215,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      2200,
+      2309
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_02215",
+        "dialogue_02294"
+      ],
+      "note": "All rows are resource 6070 (Mission 07, Destroy Shin Dragon). Speakers are untagged; identities (Saotome 2215-2219/2265-2271/2280-2281, Kei 2221/2273/2277/2282, Benkei 2275-2276, Faye/Barrel 2223-2225, Berkt/Ange 2284-2285) are inferred from content only and not asserted in the text."
+    },
+    {
+      "ids": [
+        "dialogue_02236",
+        "dialogue_02237",
+        "dialogue_02238",
+        "dialogue_02244",
+        "dialogue_02264"
+      ],
+      "note": "'kan' carries no number; rendered plural 'ships' to match 2209/2211 (all ships advancing). Could be a single flagship."
+    },
+    {
+      "ids": [
+        "dialogue_02240",
+        "dialogue_02247"
+      ],
+      "note": "'kyoten' rendered 'base'; no locked mission term found for it."
+    },
+    {
+      "ids": [
+        "dialogue_02241",
+        "dialogue_02242",
+        "dialogue_02243",
+        "dialogue_02245"
+      ],
+      "note": "Generic operator/praise lines (particle field, enemy slowing) that may be shared template rows not used in this mission."
+    },
+    {
+      "ids": [
+        "dialogue_02248",
+        "dialogue_02259"
+      ],
+      "note": "Alternative ship-damage/ship-loss outcomes for Nadesico, Tower and Gekko; stored order is not event order. 2252-2253 speaker unknown (feminine speech; probably the Gekko's pilot) - kept subjectless."
+    },
+    {
+      "ids": [
+        "dialogue_02273",
+        "dialogue_02277"
+      ],
+      "note": "'oyaji' rendered 'Dad'. 2273 could be read as Kei asking Benkei, or as another pilot's disbelief; 2277 confirms Kei uses the word."
+    },
+    {
+      "ids": [
+        "dialogue_02275"
+      ],
+      "note": "Subjectless in source; 'you' supplied from 2276. Visible length 90, the longest row of the slice."
+    },
+    {
+      "ids": [
+        "dialogue_02288"
+      ],
+      "note": "Who saw them at Saint Cruz is not stated (likely Barrel); passive 'seen' used."
+    },
+    {
+      "ids": [
+        "dialogue_02286",
+        "dialogue_02287"
+      ],
+      "note": "'aitsu' = the manned Eligor-type unit (Ange's); the unit is not named in the source, so not named in English."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered angle-bracket command list of every target compared with the ISO source via dialogue_corpus.py slice: all equal.",
+    "format": "No newlines; ASCII only; no bare percent sign.",
+    "fit": "Max visible length 90 (limit 110).",
+    "glyphs": "Lowercase j/q avoided except where listed by the self-check (none outside locked names).",
+    "problems": [],
+    "meaning_review": "Independent meaning review done (review_02215.json): 80/80 rows compared with the ISO source, 0 meaning fix(es); all rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_02215",
+      "target": "<op()><sp(20)>Shin Dragon is needed to avert Earth's last day.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "No <ed()> in source; continues in 2216. Same speaker as 2213-2214 by flow."
+    },
+    {
+      "id": "dialogue_02216",
+      "target": "<sp(20)>Trying to destroy it is sheer folly!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02217",
+      "target": "<op()><sp(20)>Shin Dragon will save the Earth, you say?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02218",
+      "target": "<op()><sp(20)>You have yet to touch any of the truth.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues in 2219."
+    },
+    {
+      "id": "dialogue_02219",
+      "target": "<sp(20)>When you know everything, you'll see the folly of it!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject omitted in source; 'you' follows the omae of 2218."
+    },
+    {
+      "id": "dialogue_02220",
+      "target": "<op()><sp(20)>Are you two all right?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02221",
+      "target": "<op()><sp(20)>Leave it to me. I'm the one who'll take down Saotome.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02222",
+      "target": "<op()><sp(20)>I'm not going to be outdone either!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02223",
+      "target": "<op()><sp(20)>Your reaction speed is going up, Barrel.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02224",
+      "target": "<op()><sp(20)>I can't die in a place like this.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02225",
+      "target": "<op()><sp(20)>It's most dangerous right when you start getting used to it. Please, don't be reckless.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02226",
+      "target": "<op()><sp(20)>The enemy's numbers are steadily growing!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02227",
+      "target": "<op()><sp(20)>All units, speed is what counts here.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02228",
+      "target": "<op()><sp(20)>That weird machine again?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02229",
+      "target": "<op()><sp(20)>You mean the Metal Beasts?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues in 2230."
+    },
+    {
+      "id": "dialogue_02230",
+      "target": "<sp(20)>Invaders fused with mobile weapons, making the machines even more powerful.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02231",
+      "target": "<op()><sp(20)>Living things fused with mobile weapons...?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02232",
+      "target": "<op()><sp(20)>Then the Zentradi unit we fought before... Don't tell me...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Trailing thought kept unfinished as in source."
+    },
+    {
+      "id": "dialogue_02233",
+      "target": "<op()><sp(20)>The New Federation...? But aren't they acting strange?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02234",
+      "target": "<op()><sp(20)>Those machines were taken over by Invaders. No need to show mercy.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02235",
+      "target": "<op()><sp(20)>So they don't need pilots, huh? That's insane.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02236",
+      "target": "<op()><sp(20)>Enemy forces in the ships' path. Clear them out.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'kan' has no number; plural follows 2209/2211 (all ships advancing)."
+    },
+    {
+      "id": "dialogue_02237",
+      "target": "<op()><sp(20)>Secure a path for the ships.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02238",
+      "target": "<op()><sp(20)>Good, move the ships forward.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02239",
+      "target": "<op()><sp(20)>Resume the advance!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02240",
+      "target": "<op()><sp(20)>The enemy forces at the base have started moving!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02241",
+      "target": "<op()><sp(20)>The enemy's movements are getting sluggish!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02242",
+      "target": "<op()><sp(20)>Not bad. That's amazing!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02243",
+      "target": "<op()><sp(20)>The particle field is gone!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02244",
+      "target": "<op()><sp(20)>Sending the escort units to guard the ships' rear.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Polite first-person report in source; subject left out."
+    },
+    {
+      "id": "dialogue_02245",
+      "target": "<op()><sp(20)>Enemy force destroyed!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02246",
+      "target": "<op()><sp(20)>The escort units were wiped out!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02247",
+      "target": "<op()><sp(20)>The base has been captured.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02248",
+      "target": "<op()><sp(20)>Th-the Nadesico is in danger! Please cover it!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02249",
+      "target": "<op()><sp(20)>Tower here. We've taken some damage.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02250",
+      "target": "<op()><sp(20)>We're struggling a little. Come cover the Tower.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02251",
+      "target": "<op()><sp(20)>Tower here. We're in serious danger. We need cover.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02252",
+      "target": "<op()><sp(20)>Hits like these are nothing!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02253",
+      "target": "<op()><sp(20)>At this rate, things could get a bit dangerous...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02254",
+      "target": "<op()><sp(20)>The Gekko's in trouble!! Go cover it!!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02255",
+      "target": "<op()><sp(20)>All crew, abandon ship immediately.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02256",
+      "target": "<op()><sp(20)>No...! The Nadesico...!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02257",
+      "target": "<op()><sp(20)>The Tower's at its limit...! We're abandoning ship!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02258",
+      "target": "<op()><sp(20)>Captain! The Tower is going down...!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02259",
+      "target": "<op()><sp(20)>Holland...!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02260",
+      "target": "<op()><sp(20)>We're running out of time! Please hurry!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02261",
+      "target": "<op()><sp(20)>Shin Dragon's signal vanished... It seems to have gotten away!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02262",
+      "target": "<op()><sp(20)>So the operation... failed.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02263",
+      "target": "<op()><sp(20)>Enemies ahead!?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02264",
+      "target": "<op()><sp(20)>The path is secured. Move the ships forward!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02265",
+      "target": "<op()><sp(20)>Let us avoid needless fighting, shall we?<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues through 2268."
+    },
+    {
+      "id": "dialogue_02266",
+      "target": "<sp(20)>After all, I only came to see my child.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02267",
+      "target": "<sp(20)>My child, \"Genki\".<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Source puts the name in brackets; Genki is Kei's birth name (character_names_021)."
+    },
+    {
+      "id": "dialogue_02268",
+      "target": "<sp(20)>Or rather, Kei...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02269",
+      "target": "<op()><sp(20)>My child...?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02270",
+      "target": "<op()><sp(20)>Now, my daughter, come to me.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": "Source says 'musume' (daughter) explicitly. Continues in 2271."
+    },
+    {
+      "id": "dialogue_02271",
+      "target": "<sp(20)>Let us greet the world's last day as parent and child, with no outsiders!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02272",
+      "target": "<op()><sp(20)>...Kei is Saotome's daughter!?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02273",
+      "target": "<op()><sp(20)>It's a lie, right... Dad?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'oyaji' rendered 'Dad' (Kei's rough word for her adoptive father)."
+    },
+    {
+      "id": "dialogue_02274",
+      "target": "<op()><sp(20)><freezemouth(1)>...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02275",
+      "target": "<sp(20)><freezemouth(0)>If known as the child of Saotome, who built Shin Dragon, you would not be left in peace...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Source has no subject; 'you' settled by 2276 (omae)."
+    },
+    {
+      "id": "dialogue_02276",
+      "target": "<sp(20)>I passed you off as my own daughter.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02277",
+      "target": "<op()><sp(20)>It's a lie... Tell me it's a lie, Dad!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02278",
+      "target": "<op()><sp(20)>All ships have broken through the combat zone!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02279",
+      "target": "<op()><sp(20)>Prepare to attack Shin Dragon!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02280",
+      "target": "<op()><sp(20)>Uhahahahahaha!<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02281",
+      "target": "<sp(20)>Now come, into my arms. My beloved daughter, Kei!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02282",
+      "target": "<op()><sp(20)>You're no father of mine!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02283",
+      "target": "<op()><sp(20)>Heat source reading from Shin Dragon!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02284",
+      "target": "<op()><sp(20)>Ange. Don't play around too much.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02285",
+      "target": "<op()><sp(20)>I know. Only a little.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02286",
+      "target": "<op()><sp(20)>It looks the same as the other unmanned units, but that one is a manned type.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues in 2287."
+    },
+    {
+      "id": "dialogue_02287",
+      "target": "<sp(20)>It excels at ranged combat, so be careful.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02288",
+      "target": "<op()><sp(20)>Those are the ones seen at Saint Cruz...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Source has no subject for 'saw' (and a stray middle dot after the ellipsis); kept subjectless. Continues in 2289."
+    },
+    {
+      "id": "dialogue_02289",
+      "target": "<sp(20)>So there was a connection after all?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02290",
+      "target": "<op()><sp(20)>Since they appeared, Shin Dragon's Getter Ray readings have dropped sharply.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02291",
+      "target": "<op()><sp(20)>What is that machine?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02292",
+      "target": "<op()><sp(20)>It may have a mechanism for securing power.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same wording as the recap in 2374."
+    },
+    {
+      "id": "dialogue_02293",
+      "target": "<op()><sp(20)>You mean it's absorbing Getter Rays?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02294",
+      "target": "<op()><sp(20)>Berkt...<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Continues in 2295."
+    }
+  ]
+}

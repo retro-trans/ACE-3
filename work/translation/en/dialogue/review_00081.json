@@ -1,0 +1,78 @@
+{
+  "batch": "batch_00081.json",
+  "reviewer": "translate_dialogue_161",
+  "slice_start": 81,
+  "rows_in_slice": 80,
+  "rows_examined": [
+    [
+      66,
+      175
+    ]
+  ],
+  "rows_examined_count": 110,
+  "status": "meaning_reviewed",
+  "changes": [
+    {
+      "id": "dialogue_00087",
+      "before": "<op()><sp(20)>The enemy stops moving while deploying its barriers.<ab(1000)>",
+      "after": "<op()><sp(20)>The enemy stops moving while its barriers are deployed.<ab(1000)>",
+      "reason": "The immobility lasts while the barriers remain active, not just during deployment."
+    },
+    {
+      "id": "dialogue_00154",
+      "before": "<sp(20)>It's dangerous! Take cover!<ab(2000)><off()>",
+      "after": "<sp(20)>It's dangerous! Get clear!<ab(2000)><off()>",
+      "reason": "The warning orders evacuation from the danger; taking cover in place could imply the wrong action."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        87
+      ],
+      "issue": "Repeated operator variants describe barriers already active. Restored this duration rather than a deployment animation."
+    },
+    {
+      "rows": [
+        139,
+        140,
+        141,
+        142,
+        143,
+        156
+      ],
+      "issue": "Plans and cargo remain intentionally unidentified. No hidden identity or speaker has been supplied."
+    },
+    {
+      "rows": [
+        145
+      ],
+      "issue": "The approaching Grand Cher count is unspecified; plural is retained from the draft pending scene verification."
+    },
+    {
+      "rows": [
+        153,
+        154,
+        155
+      ],
+      "issue": "The high-energy reaction and all-unit withdrawal establish that the intervening warning is to get clear, not shelter in place."
+    },
+    {
+      "rows": [
+        118
+      ],
+      "issue": "Increasing sonar ping rate is supported by the local warning and subsequent related directions. No unseen target identity was inferred."
+    }
+  ],
+  "preserved": [
+    "Source control codes, colors, command order, and button icons",
+    "Original embedded newline counts",
+    "Existing names pending centralized glossary normalization"
+  ],
+  "verification": {
+    "source_hashes_checked": 80,
+    "command_sequences_checked": 80,
+    "failures": 0
+  },
+  "limits": "Meaning review only; no runtime display-fit or audio timing approval."
+}

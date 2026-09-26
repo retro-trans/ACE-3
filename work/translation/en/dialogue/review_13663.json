@@ -1,0 +1,55 @@
+{
+  "reviewer": "independent_shout_review_agent_13663",
+  "slice_start": 13663,
+  "slice_count": 80,
+  "rows_examined": [{"start": 13648, "end": 13757}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_13679",
+      "before": "Fight alone.",
+      "after": "Push through.",
+      "reason": "Source '己の力で戦い抜け' means 'fight it through using your own strength/power', an encouragement to self-reliance addressed to a struggling ally (part of the 13677-13681 encouragement sequence: 'There's still work to do', 'Surely there's more', ..., 'Believe in your own power', 'Surely that's not it'). 'Fight alone' invents an isolation/no-backup implication ('己の力で' means 'with your own power', not 'without company') that the source does not state and that contradicts the encouraging tone of the surrounding lines."
+    },
+    {
+      "id": "dialogue_13685",
+      "before": "Indeed.",
+      "after": "Skilled.",
+      "reason": "Tone contradicting the run of praise it belongs to: 'さすがだ' is a compliment ('impressive/as expected of you'), sitting among 13682-13686 ('Your skill, noted.', 'Not bad, are you.', 'You fight well.', ..., 'Superb skill.'). 'Indeed' reads as a neutral agreement rather than praise, breaking the praise register of the sequence; 'Skilled.' restores it within the same 8-character budget."
+    },
+    {
+      "id": "dialogue_13708",
+      "before": "Laughable.\nYou overrate yourselves.",
+      "after": "Laughable. You overrate yourselves",
+      "reason": "Shout rows must not contain a newline (source line breaks are joined); joined into one line, and the trailing period dropped to fit the 34-char budget exactly (35 chars would have been 1 over)."
+    },
+    {
+      "id": "dialogue_13723",
+      "before": "One night, heaven's reach,\na gourd's spiral in the void",
+      "after": "One night heaven's reach, a gourd's spiral in the void",
+      "reason": "Same no-newline shout constraint; joined into one line, and the comma after 'night' dropped to fit the 54-char budget exactly (55 chars would have been 1 over). The heavily compressed, approximate rendering of the mystical couplet itself is left as the translator's own flagged uncertainty."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [13667, 13719], "finding": "Compressed 'My style can't win...!' and 'My mistake?' for Tsukiomi/Hokushin's named-technique and self-doubt lines keep the core meaning; dropped technique names are a glossary/terminology matter, not a meaning reversal."},
+    {"rows": [13703, 13730, 13736], "finding": "Plural/unnamed addressee kept correctly (\"your fates end\", \"Show me all your power\", \"Interfere, and you too...\") without inventing an identity or gender for the enemy party."},
+    {"rows": [13706], "finding": "Source '殺せ' has no trailing closing punctuation; target 'Any means will do - kill' correctly matches by omitting a trailing period, consistent with the source's own abrupt cutoff."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_13667", "issue": "Ruling: dropping the researched 'Mokuren-shiki Juu' style name for budget reasons is a terminology matter, not a meaning error; 'My style can't win...!' correctly keeps the self-doubt."},
+    {"id": "dialogue_13669", "issue": "Ruling: 'My mistake?' is an acceptable compression of 'did I underestimate the enemy'; reused verbatim at dialogue_13719 for the same speaker's parallel line, which is fine since both source lines carry the same self-doubt."},
+    {"id": "dialogue_13703", "issue": "Ruling: plural 'your fates end' correctly keeps the addressee vague/plural since the enemy party is not named in this line."},
+    {"id": "dialogue_13708", "issue": "Ruling: 'You overrate yourselves' for '自らの力を計り違える者どもよ' avoids the lowercase j while keeping the taunt and the plural (-domo) addressee; sound choice. Also fixed for the no-newline rule (see meaning_fixes)."},
+    {"id": "dialogue_13723", "issue": "Ruling: the couplet is genuinely archaic/obscure; the compressed rendering approximates the imagery without inventing unrelated content. Left as the translator's flagged best-effort, in addition to the no-newline fix above."},
+    {"id": "dialogue_13730", "issue": "Ruling: plural 'your power' correctly reflects '貴様らの力' (-ra plural marker)."},
+    {"id": "dialogue_13736", "issue": "Ruling: contemptuous 'you' kept gender-neutral for an unnamed target; correct per BASE_RULES."}
+  ],
+  "validation": {
+    "commands": "Re-ran `python tools/dialogue_corpus.py slice 13663 80 --context 15` and diffed source order/ids against all 80 targets; every <op()><sp(20)>...<ab(1000)><ed()> sequence is identical and in source order for all rows, including the 4 rows edited above.",
+    "fit": "Recomputed min(72, 2*source_chars-2) for every edited row; all 4 fixed rows fit their budget (13/8/34/54 chars used of 16/8/34/54 available).",
+    "ascii": "All 80 targets remain ASCII-only after edits; no bare '%', no newline remains in any row.",
+    "ids": "All 80 row ids match the slice in original stored-table order; no id added, removed, or reordered."
+  }
+}

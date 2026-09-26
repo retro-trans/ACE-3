@@ -1,0 +1,13 @@
+{
+  "status":"proposed_for_orchestrator_review",
+  "reviewed_on":"2026-09-18",
+  "scope":"Additional names/terms in856-935; shared glossary untouched. UCE,Albion,Metal Armor already proposed by earlier batches.",
+  "entries":[
+    {"source_name":"リンダ","en":"Linda","full_name":"Linda Plato","category":"character","gender":"female","nicknames":[],"nickname_status":"not_found_in_reviewed_source","personality":"Dislikes war; initially distrusts space pilots but gradually opens up to Kaine's group.","position":"Refugee with electronics training who supports the Dragonar team.","sources":["https://www.dragonar.net/character/e04.php"],"note":"Official source supplies English full name. Dialogue only uses Linda."},
+    {"source_name":"アナベル・ガトー","en":"Anavel Gato","category":"character","gender":null,"nicknames":["Nightmare of Solomon"],"personality":null,"position":"Former Zeon ace pilot who steals Gundam Unit2.","profile_status":"Gender and personality require fuller glossary research; no third-person gender added in draft.","sources":["https://gundam.fandom.com/wiki/Anavel_Gato","https://gundam.fandom.com/wiki/Battle_of_Solomon","https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_0083%3A_Stardust_Memory"]},
+    {"source_name":"連邦の白い悪魔","en":"the Federation's White Devil","category":"nickname","character_id":"char.amuro_ray","sources":["https://gundam.fandom.com/wiki/Amuro_Ray"],"note":"White Devil is verified nickname; Federation qualifier explicit in corpus."},
+    {"source_name":"ソロモンの悪夢","en":"Nightmare of Solomon","category":"nickname","sources":["https://gundam.fandom.com/wiki/Battle_of_Solomon"],"note":"Nickname of Anavel Gato."},
+    {"source_name":"スペースノイド","en":"Spacenoid","category":"population_term","sources":["https://gundam.fandom.com/wiki/Spacenoid","https://www.gundam-the-origin.net/en/world/orientation21.html"]},
+    {"source_name":"Ｄ兵器","en":"D Weapons","category":"unit_group","sources":["https://www.dragonar.net/mechanics/e01.php"],"decision":"provisional_project_translation","note":"Collective designation; official Japanese mechanical source identifies D-1 but English group spelling requires additional confirmation. D-Series in row887 is a separately worded source designation."}
+  ]
+}

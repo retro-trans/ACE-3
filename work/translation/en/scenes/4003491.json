@@ -1,0 +1,131 @@
+{
+ "resource_id": 4003491,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "NO DATA",
+   "notes": "",
+   "source_sha256": "1187a1c8c01e16d2c1d8245214d11ffa88ee84f3c4c4460fbdc466a82361c480"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)><move(1,12,12)>I will now <marker(1,12,12,1)>explain the operation.<move(2,12,12)>",
+   "notes": "",
+   "source_sha256": "944d03eecee004d6ab686065f8096257649c6c0dd0786127eacf4c3e56a017d6"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)>The goal this time is to capture <move(1,7,4)>the enemy <color(5)>defense bases<ce()><marker(27,7,2,0)>, <marker(27,12,4,0)>every <marker(27,7,6,0)>last <marker(27,2,4,0)>one.<move(2,7,4)><picture(54,30,7,0)><refer(30,7,7,2)>",
+   "notes": "",
+   "source_sha256": "ac7549c1108678b7307aaa64dd98237e6794751968831db2f37e02cc52dd9040"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>The <color(5)>defense bases<ce()> are shown by the markers on your radar.",
+   "notes": "",
+   "source_sha256": "4968a471e33236ff25de25a17f41bccc2130b217d1c037040fe9085060b98b98"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>Defeat the <color(5)>enemy units<ce()> posted around one, and the <color(6)>base capture<ce()> succeeds.",
+   "notes": "",
+   "source_sha256": "1518b59164f1b4ef4108b8e5e75d922fce64dabc0c8e777244d957b3a810a5a9"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(12031,1)><speed(2)>The enemy's <marker(20,14,1,0)><marker(20,12,1,0)>exact <marker(20,2,0,0)><marker(20,0,1,0)>force makeup<marker(20,11,7,0)><marker(20,13,7,0)> is unknown,<marker(20,10,12,0)><marker(20,12,10,0)><marker(20,10,10,0)> but there seem to be enemies not confirmed until now.",
+   "notes": "",
+   "source_sha256": "48e8d48aa8660e81a1572c5882b2fc66cd6845643b4b47eab19cfc900ced9dba"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(12031,1)><speed(2)>They look tougher than the enemies so far, so please take great care.",
+   "notes": "",
+   "source_sha256": "da83302a72ec67c79b7267b48ab6cffe57fbd793b4bc07f6258732727aabc5ed"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(12031,1)><speed(2)>On the radar, <color(6)>units with high combat ability<ce()> are shown in <color(6)>purple<ce()>. Please check carefully.",
+   "notes": "",
+   "source_sha256": "dd27335db444f9d067414af263a0cedef703b6a00e93bbef5e62a7119a5e170c"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(12031,1)><speed(2)>Also, a <book(9)>Federation<endbook()> <color(4)>allied unit<ce()><marker(5,1,11,0)> will <marker(5,4,13,0)>take part in this operation.",
+   "notes": "",
+   "source_sha256": "157dc5c141d8738adf4776debb9e216bbfcd0bfb53497d6039074d2e97be8d26"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(12031,1)><speed(2)><move(1,2,13)>The <color(4)>Nadesico<ce()><marker(3,2,13,0)> will be at the front too, so escort duty is left to them,<move(2,2,13)><picture(51,2,14,0)><refer(2,14,2,13)> but please give support if things turn bad.",
+   "notes": "",
+   "source_sha256": "706b2edde89b2ff46b8a22369a25508940bd3fa67b0a609d30e0f3e126116fd6"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<delpic(2,7,1)><enemylist()><operator(12031,1)><speed(2)>Well then, everyone, I am counting on you.",
+   "notes": "",
+   "source_sha256": "1cd2d26257023007e929d7b61b880ad9f34e73ad8a06ba0e9d8e83753a19fb95"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 27,
+   "issue": "\"them\" = the Federation allied unit of slot 26 (karera); \"if things turn bad\" = ressei ni natta toki, source does not say whose disadvantage (allies or Nadesico)."
+  },
+  {
+   "slot": 20,
+   "issue": "Four markers spread over \", every last one\" to mimic the source pacing; marker placement between words is a guess at timing."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [
+   {
+    "slot": 20,
+    "before": "<operator(12031,1)><speed(2)>The goal this time is <move(1,7,4)>to capture the enemy <color(5)>defense bases<ce()><marker(27,7,2,0)>, <marker(27,12,4,0)>every <marker(27,7,6,0)>last <marker(27,2,4,0)>one.<move(2,7,4)><picture(54,30,7,0)><refer(30,7,7,2)>",
+    "after": "<operator(12031,1)><speed(2)>The goal this time is to capture <move(1,7,4)>the enemy <color(5)>defense bases<ce()><marker(27,7,2,0)>, <marker(27,12,4,0)>every <marker(27,7,6,0)>last <marker(27,2,4,0)>one.<move(2,7,4)><picture(54,30,7,0)><refer(30,7,7,2)>",
+    "reason": "Command position: in the source <move(1,7,4)> sits directly before \"teki no\" (the enemy), after the topic \"the goal this time is\"; the draft fired it two words early, before \"to capture\". Visible text unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "Speaker 12031 = Ruri Hoshino.",
+   "Slot 27 ruling: \"them\" = the Federation allied unit of slot 26 (source \"karera\"), correct; \"if things turn bad\" correctly keeps the party unstated as in the source.",
+   "Slot 20 ruling: marker spread over \", every last one\" is fine; only the <move> was shifted (see meaning_fixes).",
+   "Slot 22: \"capture\" consistent with meeting_briefing_015 \"Capture all target bases\"."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: <move(1,7,4)> moved two words later to sit before \"the enemy\"; the on-screen timing effect is not verifiable without a build.",
+   "Slot 27: whose disadvantage \"ressei\" refers to is not stated in the source; draft keeps it open."
+  ]
+ }
+}

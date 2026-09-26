@@ -1,0 +1,50 @@
+[
+  {
+    "term_romaji": "Beruforesuto",
+    "en": "Bellforest",
+    "source": "https://eurekaseven.fandom.com/wiki/Bellforest",
+    "why": "Eureka Seven town where Gekkostate has the Nirvash repaired (row 1445); wiki page title."
+  },
+  {
+    "term_romaji": "Mokusei Tokage",
+    "en": "Jovian Lizards",
+    "source": "https://en.wikipedia.org/wiki/Martian_Successor_Nadesico",
+    "why": "Nadesico enemy name (rows 1459, 1585); standard English rendering."
+  },
+  {
+    "term_romaji": "Chuurippu",
+    "en": "Chulip",
+    "source": "https://nadesico.fandom.com/wiki/Dimensional_Leap_Gate",
+    "why": "Nadesico wiki: Jovian Dimensional Leap Gates are 'known as Chulips'. Source word is the ordinary word for tulip; wiki spelling chosen per BASE_RULES (rows 1448, 1468, 1485)."
+  },
+  {
+    "term_romaji": "Kinbaraido kichi",
+    "en": "Kimbareid Base",
+    "source": "https://gundam.fandom.com/wiki/Kimbareid_Forces",
+    "why": "Gundam 0083 Zeon remnant base in Africa from which Gato's HLV launches (row 1455)."
+  },
+  {
+    "term_romaji": "Takku",
+    "en": "Tak",
+    "source": "https://en.wikipedia.org/wiki/Another_Century%27s_Episode_2",
+    "why": "Tak Kepford, ACE2 protagonist, named in developer placeholder row 1480."
+  },
+  {
+    "term_romaji": "kuukan ten'i souchi",
+    "en": "spatial transfer device",
+    "source": "project translation (literal)",
+    "why": "Coloured keyword in row 1430; not present in glossary or encyclopedia files."
+  },
+  {
+    "term_romaji": "Gatoo / shousa",
+    "en": "Gato / Major",
+    "source": "https://en.wikipedia.org/wiki/Anavel_Gato",
+    "why": "Anavel Gato is absent from character_names_021.json; spelling matches batch 856. Rank Major per Gundam wiki."
+  },
+  {
+    "term_romaji": "HLV",
+    "en": "HLV",
+    "source": "https://gundam.fandom.com/wiki/Kimbareid_Forces",
+    "why": "Heavy Lift Vehicle; kept as the Latin abbreviation used in the source (rows 1497, 1568)."
+  }
+]

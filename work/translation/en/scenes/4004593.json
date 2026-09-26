@@ -1,0 +1,378 @@
+{
+ "resource_id": 4004593,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 40,
+ "rows_examined": 40,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(10010,1)><speed(2)>Still, that <color(5)>Berkt<ce()> guy... What's he even scheming?",
+   "notes": "",
+   "source_sha256": "5adfd5f049ebfaad89a28fe2dc96d043227b11b6c8a857851566b17dda34d341"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17030,1)><speed(2)>A doomsayer, maybe? The type who can't wait to smash the world to pieces.",
+   "notes": "",
+   "source_sha256": "8f2d23eb54a899561ee13abbb9a57ac7ddd1254a69201c4e9cd4501d303044fb"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17040,1)><speed(2)>Our world is overflowing with despair. It's no wonder someone would think that way.",
+   "notes": "",
+   "source_sha256": "882c9338ca0d4b46b9ca44fbb10fb96045245b185ba7da19236396f5c70e64a6"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)>I know a guy like that too... What a pain. He can go and destroy himself alone.",
+   "notes": "",
+   "source_sha256": "898881fe8ef57816f0f2d97890d0b7007be2c05a36d4189f1878e546fdc98bea"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23010,1)><speed(2)>Yeah! I've only been alive for fourteen years! I don't want the world to end!",
+   "notes": "",
+   "source_sha256": "d763cb6882d38e3268f014362ece62f418df12732aa35924b72313bf8b3eb803"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23020,1)><speed(2)>So it doesn't come to that... we have to do something!",
+   "notes": "",
+   "source_sha256": "7d90f2e8c7fd0003f10f02ca627648b8167fff165bb1fa6152b2ee8ffca23163"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1020,1)><speed(2)><color(4)>Barrel<ce()>, you've got no fire in you. This is an important moment, so get your head in the game.",
+   "notes": "",
+   "source_sha256": "57b4003e0bd9f79c6cc5b1ffd31efd2e037b5c1a7c5e8a59c7f2fe2c3f83560b"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>...I get it.",
+   "notes": "",
+   "source_sha256": "4ee4401dc37b3c3079a9ef516bf87ee69aa47a1244a7f90029d034b7a62a595e"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1020,1)><speed(2)>You clearly don't, that's why I'm telling you. Snap out of it!",
+   "notes": "",
+   "source_sha256": "39b8cb5ff9bb1ffcb2a9454dbfb723c2a1fdd60250034787ccedc8ddae21a865"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>Y-yes...!",
+   "notes": "",
+   "source_sha256": "c3ca87684ceff8dba319ada447e3c82f8b1835aa8c0d77943efd276662a17269"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1020,1)><speed(2)><color(4)>Faye<ce()>, you spoil him too much, too. If you're his partner, you need to tell him properly.",
+   "notes": "",
+   "source_sha256": "272673225db0619dabf3a233fc21b4a52c02f63d99ccb30afdc26b7e78897c14"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1060,1)><speed(2)>S-sorry...",
+   "notes": "",
+   "source_sha256": "81cfe298c866eafe4856866675c59a52fe72b9f4e769b03ec12ef13edfcf04cd"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23040,1)><speed(2)>W-wow, that's pretty harsh.",
+   "notes": "",
+   "source_sha256": "3103259ec37656011219aa55fd7a2cdd2708a70e2129af049a2a7f5572eb5827"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1020,1)><speed(2)>It's necessary if we're going to keep fighting. I don't want my comrades to die.",
+   "notes": "",
+   "source_sha256": "324aea0ed14bbb215fbe86d9567b7c8b48e7331ce71f89b56e7973f9eb07042c"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(21030,1)><speed(2)><color(4)>Gainer<ce()>. We've got no room to spare anymore, so buckle down and work, okay?",
+   "notes": "",
+   "source_sha256": "feb7f105bdaa9d871a093590f6b3bb3ce5ebb46f3dc504e8a3b0ab93fb7d3e32"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(21010,1)><speed(2)>I know. I know, but... Can I really pull off what <color(4)>Amuro<ce()> does?",
+   "notes": "",
+   "source_sha256": "df4f6717fb2eb3b510e59c3f5345172c1ee2d3abe9eeb4d8728eec662edd64a7"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(21030,1)><speed(2)>Have more confidence, if you're the King!",
+   "notes": "",
+   "source_sha256": "4661340a74007ebf552a0727f3d707901977fa3f5415b502d1b5d440f8abcad3"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(21010,1)><speed(2)>A-alright! I'll do my best!",
+   "notes": "",
+   "source_sha256": "f17c84d0965c37b225e32cfa187ebb0b3af44ce238e3c7bbfbd622aa661ef8c4"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(16040,1)><speed(2)><color(4)>Gainer<ce()>! That's the spirit! <color(4)>Asap<ce()>, you do your best too, all right?",
+   "notes": "",
+   "source_sha256": "f51e5b60ba8565e917e712cf90da9699b3f4a4f5a9262a606d4237ba9871269e"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(16010,1)><speed(2)>Y-yeah.",
+   "notes": "",
+   "source_sha256": "9247a339d6aeeed7e2bc2e8d6d02c140ad2505008f571e8bfdf6e2515535946d"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(21020,2)><speed(2)>Sheesh. The boys are whipped, huh?",
+   "notes": "'shiri ni shikareru' (henpecked) idiom rendered as 'whipped'.",
+   "source_sha256": "a9aa5dad3466497edd91e9851716174692e99c58d6ba4d7078b975a63a4a547f"
+  },
+  {
+   "table": 1,
+   "slot": 66,
+   "text_id": 67,
+   "en": "<operator(17030,2)><speed(2)>Isn't that its own kind of happiness?",
+   "notes": "",
+   "source_sha256": "07990bb16e25e515723f3a389a2954c80df083c6ba3cd15d1d49842008bc69fc"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(17040,1)><speed(2)>Be careful, <color(4)>Gain<ce()>, <color(4)>Holland<ce()>. I've seen the data on <color(5)>Neo Zeon<ce()>'s forces -- impressive, for a private army.",
+   "notes": "",
+   "source_sha256": "99eec51fcc57b18f6c87395b9c80784beac9cdc63b7fde4b029c3876a648d6a7"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(17040,1)><speed(2)>Though not enough to go head-to-head with the <color(4)>Federation<ce()>...",
+   "notes": "Bare 'renpou' rendered 'Federation' (Earth Federation, per glossary.json org.earth_federation), distinct from the locked 'New Federation'.",
+   "source_sha256": "0bb96ea96b995f809ffd6c3b015eb66c794fc6aab6d240c036ea5f84343cac50"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(21020,1)><speed(2)>And yet they're trying anyway, so their commander must be very capable.",
+   "notes": "",
+   "source_sha256": "1abd6728bf68622572ed8ac20a55106f9718b52f9c79260ba7f458e6d5a78d20"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(23030,1)><speed(2)>Hmph... Nobody who takes command in the military is any good.",
+   "notes": "",
+   "source_sha256": "2dbe5a1ff8b44422c4fe4b51dadaeeae51c38c352a75e0fb0af1c14710510593"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(19060,1)><speed(2)>The moon, huh...",
+   "notes": "",
+   "source_sha256": "492813edf6e5ab38e56eba051e25947380a4149e05cf02da251243aad7b7ac74"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(19020,1)><speed(2)>What's up, old man? Getting all serious all of a sudden.",
+   "notes": "",
+   "source_sha256": "e8e2c76c69403ed8aa3af1b8c290d55d83610c30604c20ebd5336f204bec8751"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(19030,1)><speed(2)>He's remembering. The old days, fighting on the moon.",
+   "notes": "",
+   "source_sha256": "09ccf3ef2e5600f60eb978c023fa5ab86240e0142a31fc8daaad93395f4c64b1"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(19060,1)><speed(2)>If <color(4)>Hayato<ce()> and I got back in a Getter, <color(4)>Kei<ce()> and the others wouldn't have to risk their necks...",
+   "notes": "",
+   "source_sha256": "d072014bb6724a0cdf6932399467745022daecb851feca0efef92d22aa803896"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(19020,1)><speed(2)>No need to worry, old man! We're invincible!",
+   "notes": "",
+   "source_sha256": "63897aef209a2ff40155dd81244009c09174084babf94cede51f55885c260d15"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(19060,1)><speed(2)>That's right... Go on and raise all the hell you want!",
+   "notes": "",
+   "source_sha256": "8febf36ab2f4fce9199a4dfe76ac87d080767c21a8c3bd6f45d14eded46e9a13"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(14030,1)><speed(2)>A fleet this size... Guess the enemy means business.",
+   "notes": "",
+   "source_sha256": "b8eefeba127e88cb0f4852f01e26d6f03d755178b97f3691a6646e3668b9b76d"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(6011,1)><speed(2)>There's only one thing to do. ...If this becomes an obstacle... I eliminate it.",
+   "notes": "",
+   "source_sha256": "91fa05b26e2e40d11b78bd961a10e0776eabb48db1d136dca0b72b8d0a56b942"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(14030,1)><speed(2)>I'm counting on that straight shooting of yours.",
+   "notes": "",
+   "source_sha256": "1245e7ce8da7e6cd51f1e59ef7132d048b2db0985c5490f9a52d41b04049047a"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(6011,1)><speed(2)>Mission understood.",
+   "notes": "Matches established corpus rendering of 'ninmu ryoukai' (batch_03629).",
+   "source_sha256": "35cd9edbc57ca6dc3ab39f7ddf4fe724e2b0069761ceeb220bd92c5dc9af4b46"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(12051,1)><speed(2)>With the <color(4)>Nadesico<ce()> gone, I'll cover for it all on my own!",
+   "notes": "",
+   "source_sha256": "13fcfaa3085d2a3147a135b19bc21ddf00b67d4f50f715cf67b80768f22533a3"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(12061,1)><speed(2)>Overconfidence is how you get hurt, you know?",
+   "notes": "",
+   "source_sha256": "525f162e07befbda922a172b2e973f09d7a54b133a07bc502cff56cfd39dd528"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(12071,1)><speed(2)>Overconfidence... how much is that, numerically? Maybe ten to the third power?",
+   "notes": "Source sings a playful jingle with fullwidth tildes and musical notes; rendered as plain spoken lines (ASCII rule).",
+   "source_sha256": "a50f36823dbdbd52e3b4211362613b9b11c93e9a74e50effc818816fac6cd1da"
+  },
+  {
+   "table": 1,
+   "slot": 222,
+   "text_id": 223,
+   "en": "<operator(12051,2)><speed(2)>Shut it! Just watch and see! I'll make you realize what I can really do!",
+   "notes": "",
+   "source_sha256": "aa7ecd331ed26513409d9826b01a5c1fde607038b84d40513f70797d14d49c9d"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 65,
+   "issue": "'shiri ni shikareru' (henpecked) idiom rendered 'whipped'."
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "issue": "Bare 'renpou' (no 'shin'/new) rendered 'Federation': Earth Federation per glossary.json org.earth_federation, distinct from the locked 'New Federation'. Matches reviewed scene 4004463's use of a bare 'Federation'."
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "issue": "Izumi's sung line (fullwidth tildes, musical notes around a numeric joke) rendered as plain ASCII speech; the singing/jingle quality is lost."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 40,
+  "rows_in_scene": 40,
+  "meaning_fixes": [],
+  "glyph_fixes": [
+   {
+    "table": 0,
+    "slot": 20,
+    "before": "The type who just can't wait to smash the world to pieces.",
+    "after": "The type who can't wait to smash the world to pieces.",
+    "reason": "font has no native-size lowercase j/q; dropped 'just' rather than keep the letter j."
+   },
+   {
+    "table": 1,
+    "slot": 101,
+    "before": "so their commander must be quite capable.",
+    "after": "so their commander must be very capable.",
+    "reason": "lowercase q avoidance; 'quite' -> 'very', meaning unchanged."
+   }
+  ],
+  "checked_decisions": [
+   "0/20 'doomsayer' for 'hametsu shugisha': the immediately following clause ('the type who can't wait to smash the world to pieces') fully disambiguates the sense (one who wants destruction, not one who merely predicts it); source meaning preserved. Accepted, not a meaning fix.",
+   "1/65 'shiri ni shikareru' (henpecked) idiom rendered 'whipped': meaning preserved, tone matches Gain's teasing register. Accepted.",
+   "1/100 bare 'renpou' rendered bare 'Federation': per orchestrator ruling this is correct (distinct from locked 'New Federation'). Accepted, matches ruling.",
+   "1/221 Izumi's sung numeric joke rendered as plain ASCII speech: required by the no-non-ASCII/no-fullwidth-glyph constraint; content (the '10^3' joke) is preserved even though the sung delivery is lost. Accepted as an unavoidable trade-off, not a defect."
+  ],
+  "remaining_uncertainties": [
+   "1/221: the jingle/singing quality of Izumi's line cannot be represented in plain ASCII text; flagged for awareness only, no fix available within constraints."
+  ]
+ }
+}

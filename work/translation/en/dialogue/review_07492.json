@@ -1,0 +1,44 @@
+{
+  "reviewer": "independent_meaning_review_mission17b_agent",
+  "slice_start": 7492,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 7477,
+      "end": 7586
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "ids": ["dialogue_07511", "dialogue_07513", "dialogue_07516"],
+      "finding": "The countermeasure of cutting the allies' own Overskill (which had been broadcasting the confession shouts) to stop the mind-reading is preserved accurately and pays off in the same order as source: 07511 decides to cut it, 07513 orders the strike while the enemy's Overskill is down, 07516 restates that leaking thoughts alone won't cost them the win."
+    },
+    {
+      "ids": ["dialogue_07522", "dialogue_07525", "dialogue_07527", "dialogue_07528", "dialogue_07529", "dialogue_07531", "dialogue_07554"],
+      "finding": "'Queen' (Cynthia Lane's online handle) and 'Gainer Sanga' self/other-identifications match glossary spellings (character_names_021.json); corner-bracket quoted nickname rendered as straight double quotes on 07527/07528 per the ASCII-only rule, matching the source's kagi-kakko emphasis."
+    },
+    {
+      "ids": ["dialogue_07529", "dialogue_07565"],
+      "finding": "'She' (referring to Queen/Cynthia Lane) confirmed female per glossary; not inferred from name alone, confirmed by established character record and by 07554's self-identification as Cynthia Lane."
+    },
+    {
+      "ids": ["dialogue_07537", "dialogue_07538", "dialogue_07539", "dialogue_07540", "dialogue_07541", "dialogue_07547", "dialogue_07552"],
+      "finding": "Agree with translator: this <on()> battle-banter block interleaves Kashmir, Cynthia/Queen and Gainer without per-row speaker tags; only 07542/07543/07545/07548/07554 name a party directly. Rows translated for meaning only, without asserting an untagged speaker's identity, is the correct call given BASE_RULES ('do not supply what the source omits'). 07541's unstated object of 'I won't forgive' was left as a generic 'you', which is a defensible reading given the immediately following 'Stop it, Cynthia!' (07542) implies Cynthia is the one about to act."
+    },
+    {
+      "ids": ["dialogue_07549"],
+      "finding": "'Him' (the person not meant to be hurt) confirmed as Gainer by the surrounding named rows 07545/07548/07551, not an invented identity."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<off()>/<ed()> command sequences re-checked in exact order against a fresh `python tools/dialogue_corpus.py slice 7492 80 --context 15` read for all 80 rows via a throwaway console comparison; no command added, removed, or reordered.",
+    "format": "Newline counts unchanged from source for all 80 rows.",
+    "fit": "Visible text (tags stripped) re-measured for all 80 rows: all <= 110 characters.",
+    "ascii": "ASCII-only confirmed for all 80 rows; straight quotes correctly used in place of the source's corner brackets for 'Queen' in 07527/07528."
+  }
+}

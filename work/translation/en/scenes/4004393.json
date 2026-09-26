@@ -1,0 +1,82 @@
+{
+ "resource_id": 4004393,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(10010,1)><speed(2)>Hey, <color(4)>Faye<ce()>, what in the world are these <color(6)>unidentified life-forms<ce()>, anyway?",
+   "notes": "",
+   "source_sha256": "d9f894436c9dcacbb0381d13bdb75ed80f5fcbca74b18ab9793bb1170fdc0e76"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>We still don't really know. Only that they're life-forms born from meteorites that came from beyond the atmosphere...",
+   "notes": "",
+   "source_sha256": "ae7da369f09093c0e0f6193de97f7dcee00a1428bf4022a3c5c423e8edbb0107"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(10020,1)><speed(2)>So, aliens? We had more than enough of those with <color(5)>Boddole Zer<ce()>.",
+   "notes": "",
+   "source_sha256": "b916ecdeb62365cbc7632c67463a9ca39d85dd2242a98e974253e89463ac3605"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(10030,2)><speed(2)>More to the point, <color(4)>Faye<ce()>, this is your first real battle, right? We'll back you up all we can.",
+   "notes": "",
+   "source_sha256": "3c4c38ef1421ee830a9939cef6c39f2d15f2605e4d8f94877b94cf2f8c940e71"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,2)><speed(2)>With all of you who beat <color(5)>Boddole Zer<ce()> beside me, I'll be fine. You're so kind, <color(4)>Light<ce()>.",
+   "notes": "",
+   "source_sha256": "4b80ba749c238cbaff63b0edc447849cb2a0d76b2a7c44a1932451ac40e954a4"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(5010,1)><speed(2)>Be careful out there, everyone.",
+   "notes": "",
+   "source_sha256": "67a773edb36c8b070ac59c781d138f8fbcb38d937ded527cf0c6e0a347510efa"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 19,
+   "issue": "'unidentified life-forms' follows the hyphenated form in meeting_briefing_015; encyclopedia_022 prose uses 'Unidentified life forms' (no hyphen). No glossary entry locks it."
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "issue": "'meteorites that came from beyond the atmosphere' - source says life-forms arising from meteorites that flew in from outside the atmosphere; compressed."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/19 'unidentified life-forms': hyphenated lowercase form is the corpus majority (11 vs 3 vs 2) and no glossary lock; kept. Name-script matter, not meaning.",
+   "0/20 meteorite line: 'born from meteorites that came from beyond the atmosphere' carries every element of the source (origin outside atmosphere, meteorites, life arising from them, 'only that...' trailing). Accepted.",
+   "'Boddole Zer' matches the 7 other corpus uses; Faye's polite register toward the Dragonar trio and '-san' on Light dropped - acceptable."
+  ],
+  "remaining_uncertainties": []
+ }
+}

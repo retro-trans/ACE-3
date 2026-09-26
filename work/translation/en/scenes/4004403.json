@@ -1,0 +1,356 @@
+{
+ "resource_id": 4004403,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 37,
+ "rows_examined": 37,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)>Have you calmed down yet, <color(4)>Barrel<ce()>?",
+   "notes": "",
+   "source_sha256": "8d8be323b32465c37b8433e9db29b5d4c302fa477ab4043bff38744db19b65c1"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>...Like I could calm down!",
+   "notes": "",
+   "source_sha256": "6fb32258c4c1e2a89d686b1c6718a0bb1e0d959881a450b12554428b39bca408"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(10010,1)><speed(2)>That was some rampage, after all.",
+   "notes": "Source omits the subject (who went wild); kept subjectless.",
+   "source_sha256": "7d7c0f24c93c398b130d390a9912bab4a86b1f6942e4eab64860493075816a9e"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>\"You have seen military secrets. So you will be staying with the military for a while.\"",
+   "notes": "Barrel sarcastically quoting what the military told him; rendered as a quotation.",
+   "source_sha256": "686f2aaed58eba66f7aebaa4c89303e705cbe93a997ae4bb2e41e14a29d71cdf"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1040,1)><speed(2)>\"Fight for us while you're at it. We're short on pilots, and you have the aptitude.\"",
+   "notes": "Continuation of the quotation from text id 23.",
+   "source_sha256": "8817be4606b9588da3607ba81b7a4a8f98c23a6878989214d585d16424d72f29"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>...It'd be weirder NOT to go wild after hearing that. It's absurd.",
+   "notes": "",
+   "source_sha256": "170899a451ff325218e38994c19af0fdbff1a9c731302f6cde80721b48071f4f"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1040,1)><speed(2)>To begin with, the war was supposed to have ended ages ago, so why is an army like this still around?!",
+   "notes": "",
+   "source_sha256": "c1bf40ae1733f40112ff38a1c402d5a3b4cb060d4bf1d1bc6e504ac71d264bb6"
+  },
+  {
+   "table": 0,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(1040,1)><speed(2)>And another thing! What on earth was that monster? Is that the so-called secret?",
+   "notes": "",
+   "source_sha256": "fe7a3c9e75d456891969af53a88498d428042b782b96a47ba2c67f3fb089e1ee"
+  },
+  {
+   "table": 0,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(1060,1)><speed(2)>... We don't know the details yet, either. The military is on the move to make that clear, too.",
+   "notes": "",
+   "source_sha256": "bef08a5a4e643599aea2d438fc1efd09e3968b65ef95cfe5d9d19c2e8e341460"
+  },
+  {
+   "table": 0,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(1040,1)><speed(2)>But that's got nothing to do with me!",
+   "notes": "",
+   "source_sha256": "a71654bdf2e7e7fff46d9105240e0df08cbe021724d19b9c55e9a12b5190137a"
+  },
+  {
+   "table": 0,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(1060,1)><speed(2)>I'm sorry for dragging you into this... But right now, you're the only one I can ask.",
+   "notes": "",
+   "source_sha256": "035f56f42aab53f40c7a1ab8547e28b4709094f6243ad60be7bd5d1c8b38ce66"
+  },
+  {
+   "table": 0,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(1060,1)><speed(2)>This machine can't bring out its true performance without two people aboard.",
+   "notes": "",
+   "source_sha256": "f4667c2ddc06cde7584c7c85ece0157b40b8216262c67ef71d835a41aaea5e3b"
+  },
+  {
+   "table": 0,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(1040,1)><speed(2)>It doesn't have to be me...",
+   "notes": "",
+   "source_sha256": "95b466ffdf9539d180b8f1ee7e5b3972c24c12233bc67ad5a95a85d508944d31"
+  },
+  {
+   "table": 0,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<operator(1060,1)><speed(2)>When you were aboard, the <color(4)>Ixbrau<ce()> showed combat ability above its rated specs.",
+   "notes": "",
+   "source_sha256": "763634b405082337a6b813a090497648d71b0dafccb9e6ab551c09dfa7c62288"
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<operator(1060,1)><speed(2)>It's not only to protect the secret. You show promise as a fighter, so I had things arranged this way.",
+   "notes": "",
+   "source_sha256": "09d7322d1e58c9b3712ca7103e20dcca11a3d77a71aad0e36d6bb0d2e8fb4fbb"
+  },
+  {
+   "table": 0,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(1040,1)><speed(2)>That's only what suits you people...",
+   "notes": "",
+   "source_sha256": "e05cadb7f9e7be8f36f0a851c2f07d73c2a9ec716b1ae0b40a9412a9c13e3f0d"
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(5010,1)><speed(2)><color(4)>Barrel<ce()>, until Commander <color(4)>Misumaru<ce()> hands down a decision, things will have to stay as they are.",
+   "notes": "",
+   "source_sha256": "2ea13fbc22efa5c92167c2fa1084b4be8863f7fd32412d85cc918f437f9dd228"
+  },
+  {
+   "table": 0,
+   "slot": 36,
+   "text_id": 37,
+   "en": "<operator(5010,1)><speed(2)>I understand how you feel, but please try to keep your composure.",
+   "notes": "",
+   "source_sha256": "a811f6b011e962e3ce8a3c54c9acede8a85809481ee336d4c7a614ceffde5793"
+  },
+  {
+   "table": 0,
+   "slot": 37,
+   "text_id": 38,
+   "en": "<operator(5010,1)><speed(2)>For now, think of survival first. All units, support the <color(4)>Ixbrau<ce()>.",
+   "notes": "",
+   "source_sha256": "199aa31898d54c0f4acff96c87df8b59eb36daaa09252043e6d455444bb9c1ff"
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "text_id": 39,
+   "en": "<operator(10030,1)><speed(2)>We know, we know. We're all in the same boat here, after all.",
+   "notes": "",
+   "source_sha256": "255655bf284f3c66a87b20b547dbcac8802f2262258916786887a2d0a88f033a"
+  },
+  {
+   "table": 0,
+   "slot": 39,
+   "text_id": 40,
+   "en": "<operator(10010,1)><speed(2)>At first, we and Captain <color(4)>Amuro<ce()> were forced into the military and made to fight, too. I know how you feel.",
+   "notes": "",
+   "source_sha256": "bc61e5b3fd6661e29b57aa5092570218211344340a5223b8ff553d0e89fa70cc"
+  },
+  {
+   "table": 0,
+   "slot": 40,
+   "text_id": 41,
+   "en": "<operator(1040,1)><speed(2)>So I wasn't the only one...",
+   "notes": "",
+   "source_sha256": "29cb2e690ca4a8bf85566db98da181bdb6781795bcce580ac4f0583d1e3ca77e"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>But I have no intention of fighting...",
+   "notes": "",
+   "source_sha256": "c5bf6cb4d5a0f9ed78b3b71a0dae5c5a044720e9aae50849a7eec677b06ede43"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>, think of it this way. Since you have to stay on this ship for a while, this is the safest option.",
+   "notes": "",
+   "source_sha256": "6b4945ef6f0f74ba50758e860c1b5daa4fc12447a004c742380cadf5362a9efa"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)>Because if we don't fight, the ship itself is in danger.",
+   "notes": "",
+   "source_sha256": "a34854713c3484ce10e55238445c1bf5e244d3dbf90553366df7199233cbfb19"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>A soldier would see it that way, sure, but...",
+   "notes": "",
+   "source_sha256": "4e4c7a2c6ed5e69f8df79b02c5b26eedf2b2ab38c2fd67d04a4fd943e45824b6"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(1060,1)><speed(2)>When you fight, someone's life gets saved, too. Remember that.",
+   "notes": "",
+   "source_sha256": "97bdd54da251856ab8597a810c52a697a11d09cbab5a2bc805a90bf50694b188"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)>I used to rebel like that, too.",
+   "notes": "",
+   "source_sha256": "748088f3899215dbe41c4912d8d4a40bf0eca0df36aeed64f7b52c5ff36651e9"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(10010,2)><speed(2)>We of all people can understand how he feels. Let's back him up.",
+   "notes": "",
+   "source_sha256": "11c3a24ef50598bc1c82a5ee5b47805e2945fdde3e9a9c006442638d1cc2c7d3"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(5010,1)><speed(2)>Yeah. But... I'm reluctant to fight them.",
+   "notes": "",
+   "source_sha256": "0c60df591b280677051d9143a18b942131d52e61b4f8a63064f03c5bbb202a0a"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(10030,1)><speed(2)>The Zentradi, huh? And after we finally made peace, too.",
+   "notes": "",
+   "source_sha256": "567e456f88271c46a72d61600558fccbab73fd39538a337b9022b462a0d2ff95"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(10030,1)><speed(2)>Still...",
+   "notes": "",
+   "source_sha256": "cf43a654e5787076f2ef4eebef6438bbd1f72320541a8081824700167d276877"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(5010,1)><speed(2)>I know. I can't be like this... Sorry.",
+   "notes": "",
+   "source_sha256": "aa66db20752b7570d34419f81b7199fdb7ca2988c2901e00aa0f1b41882fe634"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,1)><speed(2)>We've really settled into the military, haven't we?",
+   "notes": "",
+   "source_sha256": "5674f6af6078ceea2a2cc74aeb1a9197d46b774411d3a4c1bebf104967adbfeb"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,1)><speed(2)>We were scouted personally by the battle-hardened <color(4)>Amuro<ce()>, after all.",
+   "notes": "",
+   "source_sha256": "beff3019895a4734739ed9d7e422031656d7e9102e8f0ea086d18c6352260f86"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,1)><speed(2)>Means we've got the air of aces about us now.",
+   "notes": "",
+   "source_sha256": "7a1598c31bb8b23e6ba1a3370edb30134e7396077f74d4b9e5d045ade42406c4"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(10010,1)><speed(2)>All right, let's put on a big show again today, like the aces we are!",
+   "notes": "",
+   "source_sha256": "5e8899757c990cd94590cbf06199077a76d9782c0bb385252a091618fdb52dab"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 21,
+   "issue": "Subject omitted in source (someone 'went wild a lot'); context = Barrel. Rendered subjectless: 'That was some rampage'."
+  },
+  {
+   "table": 0,
+   "slot": 33,
+   "issue": "'I had things arranged this way' - source has Faye having asked (someone) to set it up this way; agent of the arranging is unstated."
+  },
+  {
+   "table": 0,
+   "slot": 35,
+   "issue": "'-kun' on Barrel dropped. 'Commander Misumaru' used for the shirei title per brief."
+  },
+  {
+   "table": 0,
+   "slot": 38,
+   "issue": "'same boat' = literally 'same circumstances/background' (all drafted civilians)."
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "issue": "'them' = the Zentradi per next row; Amuro's reluctance kept vague as in source."
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "issue": "Light's trailing 'desu ga...' rendered 'Still...'; he is about to object to Amuro's hesitation."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 37,
+  "rows_in_scene": 37,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "0/21 subjectless 'That was some rampage': source omits subject; context (Faye asking Barrel if he calmed down) settles Barrel, subjectless rendering is safe. Accepted.",
+   "0/22-23 rendered as quotation: speaker id is Barrel (1040) but the content is what the military told him ('kimi wa...'), and 0/24 '...sore de abarenai hou ga okashii' confirms he is quoting. Accepted.",
+   "0/33 'I had things arranged this way': '-te moratta' marks the speaker's side as the one who asked for/received the arrangement; 'I' vs 'we' is not settled by the source. Accepted, listed as remaining uncertainty.",
+   "0/35 '-kun' dropped, 'Commander Misumaru': matches 7 other corpus uses; glossary gives him as male admiral / Londo Bell commander. Accepted.",
+   "0/38 'same boat': source = 'same circumstances/background'; next row (Kaine: we and Amuro were forced in too) confirms the sense. Accepted.",
+   "1/61 'them' = Zentradi, confirmed by Light's next row. Accepted.",
+   "1/63 'Still...' for trailing 'desu ga...': Amuro's 'I know. I can't be like this' confirms Light was about to object. Accepted."
+  ],
+  "remaining_uncertainties": [
+   "0/33: whether Faye alone or Faye's side ('we') asked for the arrangement is not recoverable from the source; 'I' kept."
+  ]
+ }
+}

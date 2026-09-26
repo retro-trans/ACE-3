@@ -1,0 +1,19 @@
+{
+  "status": "proposed_for_orchestrator_review",
+  "reviewed_on": "2026-09-18",
+  "scope": "Names appearing in dialogue rows 81-160; no shared glossary was edited.",
+  "entries": [
+    {"source_name":"サンクキングダム","en":"Sanc Kingdom","category":"location","sources":["https://gundam.fandom.com/wiki/Sanc_Kingdom"],"note":"Wiki uses Sanc, with Cinq as an alias."},
+    {"source_name":"リリーナ","en":"Relena","full_name":"Relena Darlian","aliases":["Relena Peacecraft"],"category":"character","gender":"female","nickname_status":"not_researched","personality":"Advocates total pacifism.","position":"Representative of the Sanc Kingdom during the relevant source-series period.","sources":["https://gundam.fandom.com/wiki/Relena_Darlian"],"note":"Dialogue short name remains Relena; honorific is rendered Lady."},
+    {"source_name":"ドレイク","en":"Drake","full_name":"Drake Luft","category":"character","gender":"male","nickname_status":"not_found_in_reviewed_source","personality":"Ambitious; seeks to unite Byston Well by force.","position":"Regional lord and military leader.","sources":["https://en.wikipedia.org/wiki/Aura_Battler_Dunbine#Characters"]},
+    {"source_name":"シーラ・ラパーナ","en":"Ciela Lapana","category":"character","gender":"female","nickname_status":"not_found_in_reviewed_source","personality":null,"position":"Queen of Na; commands forces including the Gran-Garan.","sources":["https://en.wikipedia.org/wiki/Aura_Battler_Dunbine#Characters"],"note":"Personality remains unverified; local dialogue supplies formal speech register."},
+    {"source_name":"グラン・ガラン","en":"Gran-Garan","category":"vessel","sources":["https://en.wikipedia.org/wiki/Aura_Battler_Dunbine#Characters"],"note":"Source uses hyphenated Gran-Garan; some other databases omit the hyphen."},
+    {"source_name":"ＵＣＥ","en":"UCE","expanded_en":"United Community of Earth","category":"organization","sources":["https://www.hardcoregaming101.net/ace/rrfa/ace.htm"],"note":"Retain source acronym in dialogue. This organization is associated with ACE1; runtime status of this legacy material remains unverified."},
+    {"source_name":"リクレイマー","en":"Reclaimers","category":"organization","sources":["https://en.wikipedia.org/wiki/Brain_Powerd#Plot"]},
+    {"source_name":"ジョナサン・グレーン","en":"Jonathan Glenn","category":"character","gender":"male","nickname_status":"not_found_in_reviewed_source","personality":"Aggressive, competitive, and resentful toward Yuu.","position":"Reclaimer at Orphan; Antibody pilot.","sources":["https://en.wikipedia.org/wiki/List_of_Brain_Powerd_characters#Jonathan_Glenn"]},
+    {"source_name":"オルファン","en":"Orphan","category":"vessel","sources":["https://en.wikipedia.org/wiki/Brain_Powerd#Plot"],"note":"Also used metonymically for the organization associated with the vessel."},
+    {"source_name":"グランチャー","en":"Grand Cher","category":"unit","sources":["https://en.wikipedia.org/wiki/Brain_Powerd#Plot","https://en.wikipedia.org/wiki/List_of_Brain_Powerd_characters"],"note":"Grand Cher selected; source pages also contain occasional Gran Cher spelling. Parent should normalize whole corpus consistently."},
+    {"source_name":"ポセイダル","en":"Poseidal","category":"character_or_faction_reference","sources":["https://en.wikipedia.org/wiki/List_of_Heavy_Metal_L-Gaim_characters#Poseidal_Military"],"note":"This slice says the likes of Poseidal, referring to allied enemies. No full-name identity or gender added because the name can involve an impersonation in series context."},
+    {"source_name":"オーガニック・プレート","en":"Organic Plate","category":"technology","sources":["https://en.wikipedia.org/wiki/List_of_Brain_Powerd_characters#Hime_Utsumiya"],"note":"The source calls it an organic plate; capitalization is a proposed item-name convention."}
+  ]
+}

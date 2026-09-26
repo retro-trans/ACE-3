@@ -1,0 +1,1639 @@
+{
+  "version": "0.1.5",
+  "game": "Another Century's Episode 3 - The Final (Japan)",
+  "serial": "SLPS-25784",
+  "expected_bnd_entries": 10344,
+  "bundle_ids": [
+    4002050,
+    4002057
+  ],
+  "encoding": "cp932 with ASCII English; special game glyph bytes preserved",
+  "notes": [
+    "All nonempty slots in the five named startup UI tables must be translated or explicitly preserved as existing English, runtime fields, or icons.",
+    "Missing ASCII characters reuse existing glyphs through the font lookup; original font glyphs and texture remain unchanged.",
+    "Expanded resources are relocated inside their startup bundles; bundle offsets and ISO file extents remain fixed.",
+    "Save slot placeholders retain their original CP932 prefix and byte positions.",
+    "Controller diagram captions are still pending insertion; unrelated game menus and story dialogue are outside this build.",
+    "Main-menu and initial-setup initialization callbacks allocate capacity for 128 glyphs before drawing, replacing the original short widget capacities. Two exact 20-byte executable patches; no font or translation changes from 0.1.4."
+  ],
+  "mappings": [
+    {
+      "id": "load.question",
+      "source": "セーブデータをロードしますか？",
+      "target": "Load save data?",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [
+        "load.confirm_question"
+      ],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "main.title",
+      "source": "メニュー",
+      "target": "Menu",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [
+        "main.title"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "main.campaign",
+      "source": "キャンペーン",
+      "target": "Campaign",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [
+        "main.campaign"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "main.campaign_help",
+      "source": "キャンペーンを新しく始めます",
+      "target": "Start a new campaign.",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [
+        "main.campaign_help"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "menu.load",
+      "source": "ロード",
+      "target": "Load",
+      "table_ids": [
+        3036,
+        3043
+      ],
+      "text_ids": [
+        "menu.load"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "load.help",
+      "source": "ロードするデータを選んでください",
+      "target": "Select the save data to load.",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [
+        "load.help"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "no_save_data",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）に\nセーブデータがありません。",
+      "target": "No save data on the memory card (PS2)\nin memory card slot 1.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [
+        "load.no_save_data"
+      ],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "dialog.confirm",
+      "source": "㍉確認",
+      "target": "㍉Confirm",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [
+        "dialog.confirm_title"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "dialog.warning",
+      "source": "㌢警告",
+      "target": "㌢Warning",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [
+        "dialog.warning_title"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "prompt.yes_no",
+      "source": "はい：○　いいえ：×",
+      "target": "Yes:○　No:×",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [
+        "prompt.yes",
+        "prompt.no"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "prompt.ok",
+      "source": "決定：○",
+      "target": "OK:○",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [
+        "prompt.warning_ok"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "prompt.back",
+      "source": "戻る：×",
+      "target": "Back:×",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [
+        "prompt.back"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "prompt.select_confirm",
+      "source": "選択：㊤㊦　決定：○",
+      "target": "Select:㊤㊦　Confirm:○",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [
+        "prompt.select",
+        "prompt.confirm"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "prompt.select_back_confirm",
+      "source": "選択：㊤㊦　戻る：×　決定：○",
+      "target": "Select:㊤㊦　Back:×　Confirm:○",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [
+        "prompt.select",
+        "prompt.back",
+        "prompt.confirm"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.title",
+      "source": "初期設定",
+      "target": "Initial Setup",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.title"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.difficulty",
+      "source": "難易度",
+      "target": "Difficulty",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.difficulty"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.controller",
+      "source": "コントローラ",
+      "target": "Controls",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.controller"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.vibration",
+      "source": "振動機能",
+      "target": "Vibration",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.vibration"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.auto_altitude",
+      "source": "自動高度調整",
+      "target": "Auto Altitude",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.auto_altitude"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.easy",
+      "source": "イージー",
+      "target": "Easy",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.easy"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.normal",
+      "source": "ノーマル",
+      "target": "Normal",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.normal"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.hard",
+      "source": "ハード",
+      "target": "Hard",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.hard"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.shift",
+      "source": "シフト",
+      "target": "Shift",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.shift"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.select",
+      "source": "セレクト",
+      "target": "Select",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.select"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.confirm_help",
+      "source": "設定を決定します",
+      "target": "Apply these settings.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.confirm_help"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.controller_help",
+      "source": "コントローラタイプを設定します",
+      "target": "Choose a control scheme.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.controller_help"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.shift_description",
+      "source": "使用ウェポンを瞬時に選択できる操作方法です。\n初めてプレイするプレイヤーにはこちらをお勧めします。",
+      "target": "This control scheme lets you select weapons instantly.\nRecommended for first-time players.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.shift_description"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "prompt.confirm",
+      "source": "決定",
+      "target": "Confirm",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "prompt.confirm"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.on",
+      "source": "ＯＮ",
+      "target": "ON",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.on"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.off",
+      "source": "ＯＦＦ",
+      "target": "OFF",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "settings.off"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.select_confirm_back",
+      "source": "選択：㊤㊦　決定：○　戻る：×",
+      "target": "Select:㊤㊦　Confirm:○　Back:×",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "prompt.select",
+        "prompt.confirm",
+        "prompt.back"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.select_adjust_back",
+      "source": "選択：㊤㊦　設定：㊧㊨　戻る：×",
+      "target": "Select:㊤㊦　Set:㊧㊨　Back:×",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "prompt.select",
+        "prompt.adjust",
+        "prompt.back"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.confirm_reconfigure",
+      "source": "決定：○　再設定：×",
+      "target": "Confirm:○　Change Settings:×",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [
+        "prompt.confirm",
+        "prompt.reconfigure"
+      ],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.difficulty_help",
+      "source": "ゲームの難易度を設定します",
+      "target": "Choose the game difficulty.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.vibration_help",
+      "source": "コントローラの振動機能を設定します",
+      "target": "Set controller vibration.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.auto_altitude_on_help",
+      "source": "移動中、自動で対象との高度を合わせます",
+      "target": "Automatically match the target's altitude while moving.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.auto_altitude_off_help",
+      "source": "任意で対象との高度を合わせます",
+      "target": "Match the target's altitude manually.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.select_description",
+      "source": "使用ウェポンをボタンで切り替えるタイプの操作方法です。",
+      "target": "This control scheme lets you cycle weapons with a button.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "settings.real_ace",
+      "source": "リアルエース",
+      "target": "Real Ace",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.0",
+      "source": "㍉ロード確認",
+      "target": "㍉Load Confirmation",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.6",
+      "source": "コンティニュー",
+      "target": "Continue",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.7",
+      "source": "マルチプレイ",
+      "target": "Multiplayer",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.8",
+      "source": "フリーミッション",
+      "target": "Free Mission",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.9",
+      "source": "対戦",
+      "target": "Versus",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.13",
+      "source": "ゲームを途中からプレイします",
+      "target": "Continue your game.",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.14",
+      "source": "２プレイヤーでミッションをプレイします",
+      "target": "Play a mission with two players.",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.15",
+      "source": "フリーミッションをプレイします",
+      "target": "Play a free mission.",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.16",
+      "source": "２プレイヤー対戦をプレイします",
+      "target": "Play a two-player versus match.",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.17",
+      "source": "セーブデータをロードします",
+      "target": "Load save data.",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3036.20",
+      "source": "ゲームモードを選んでください。",
+      "target": "Select a game mode.",
+      "table_ids": [
+        3036
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3041.0",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）をチェックしています。\n電源を切ったり、メモリーカード（ＰＳ２）を抜き差ししないでください。",
+      "target": "Checking the memory card (PS2)\nin slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.1",
+      "source": "メモリーカード（ＰＳ２）確認",
+      "target": "Memory Card (PS2) Check",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.2",
+      "source": "メモリーカード差込口１にメモリーカード（ＰＳ２）が\n差し込まれていません。\nこのゲームのセーブデータを作成するには、\n１１０ＫＢ以上の空き容量がある\nメモリーカード（ＰＳ２）が必要です。\nこのままゲームをプレイしますか？",
+      "target": "No memory card (PS2) in slot 1.\nTo create save data for this game, a\nmemory card (PS2) with at least 110 KB\nof free space is needed.\nContinue playing?",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.3",
+      "source": "空き容量確認",
+      "target": "Free Space Check",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.4",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）の\n空き容量が不足しています。\nこのゲームのセーブデータを作成するには、\n１１０ＫＢ以上の空き容量がある\nメモリーカード（ＰＳ２）が必要です。\nこのままゲームをプレイしますか？",
+      "target": "The memory card (PS2) in slot 1 does not\nhave enough free space.\nTo create save data for this game, a\nmemory card (PS2) with at least 110 KB\nof free space is needed.\nContinue playing?",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.9",
+      "source": "㌢エラー",
+      "target": "㌢Error",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.10",
+      "source": "メモリーカード（ＰＳ２）が差し込まれていません。\nメモリーカード差込口１に１１０ＫＢ以上の\n空き容量があるメモリーカード（ＰＳ２）を\n差し込んでください。",
+      "target": "No memory card (PS2) inserted.\nInsert a memory card (PS2) with at least\n110 KB of free space into slot 1.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.11",
+      "source": "㍉フォーマット確認",
+      "target": "㍉Format Confirmation",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.12",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）は\nフォーマットされていません。\nフォーマットしますか？",
+      "target": "The memory card (PS2) in slot 1 is not\nformatted.\nFormat it?",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.14",
+      "source": "フォーマットが完了しました。",
+      "target": "Formatting complete.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.16",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）の\nフォーマットに失敗しました。",
+      "target": "Failed to format the memory card (PS2)\nin slot 1.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.18",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）の\n空き容量が不足しています。１１０ＫＢ以上の\n空き容量があるメモリーカード（ＰＳ２）を\n差し込んでください。",
+      "target": "The memory card (PS2) in slot 1 does not\nhave enough free space.\nInsert a memory card (PS2) with at least\n110 KB of free space.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.19",
+      "source": "㍉上書き確認",
+      "target": "㍉Overwrite Confirmation",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.20",
+      "source": "Ｎｏ．00 にセーブデータを上書きします。\nよろしいですか？",
+      "target": "Ｎｏ．00 : Overwrite this save data?",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.21",
+      "source": "㍉セーブ成功確認",
+      "target": "㍉Save Complete",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.22",
+      "source": "セーブが完了しました。",
+      "target": "Saving complete.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.24",
+      "source": "セーブに失敗しました。",
+      "target": "Saving failed.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.26",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）が\n抜かれました。",
+      "target": "The memory card (PS2) in slot 1 was\nremoved.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.27",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）を\nフォーマットしています。\n電源を切ったり、メモリーカード（ＰＳ２）を抜き差ししないでください。",
+      "target": "Formatting the memory card (PS2)\nin slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.28",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）にセーブしています。\n電源を切ったり、メモリーカード（ＰＳ２）を抜き差ししないでください。",
+      "target": "Saving to the memory card (PS2)\nin slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.30",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）の\n空き容量が不足しています。\nこのゲームのセーブデータを作成するには、\n１１０ＫＢ以上の空き容量がある\nメモリーカード（ＰＳ２）が必要です。",
+      "target": "The memory card (PS2) in slot 1 does not\nhave enough free space.\nTo create save data for this game, a\nmemory card (PS2) with at least 110 KB\nof free space is needed.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.31",
+      "source": "㍉セーブ確認",
+      "target": "㍉Save Confirmation",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.32",
+      "source": "Ｎｏ．00 にセーブを行います。\nよろしいですか？",
+      "target": "Ｎｏ．00 : Save in this slot?",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.34",
+      "source": "セーブデータが上書きできません。\nデータが破損している可能性があります。",
+      "target": "Cannot overwrite the save data.\nThe data may be corrupted.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.40",
+      "source": "メモリーカード差込口１にメモリーカード（ＰＳ２）が\n差し込まれていません。",
+      "target": "No memory card (PS2) inserted in slot 1.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.43",
+      "source": "㍉ロード成功確認",
+      "target": "㍉Load Complete",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.44",
+      "source": "ロードが完了しました。",
+      "target": "Loading complete.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.46",
+      "source": "ロードに失敗しました。",
+      "target": "Loading failed.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.47",
+      "source": "メモリーカード差込口１のメモリーカード（ＰＳ２）からロードしています。\n電源を切ったり、メモリーカード（ＰＳ２）を抜き差ししないでください。",
+      "target": "Loading from the memory card (PS2)\nin slot 1.\nDo not turn off the power or insert\nor remove the memory card (PS2).",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3041.50",
+      "source": "ロードできません。\nデータが破損している可能性があります。",
+      "target": "Cannot load the save data.\nThe data may be corrupted.",
+      "table_ids": [
+        3041
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3043.9",
+      "source": "セーブ",
+      "target": "Save",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.11",
+      "source": "セーブ／ロード",
+      "target": "Save/Load",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.15",
+      "source": "セーブする場所を選んでください",
+      "target": "Select a slot to save.",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.19",
+      "source": "必要容量",
+      "target": "Space Needed",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.20",
+      "source": "１１０ＫＢ以上",
+      "target": "110 KB or more",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.21",
+      "source": "空き容量",
+      "target": "Free Space",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.29",
+      "source": "イージー",
+      "target": "Easy",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.30",
+      "source": "ノーマル",
+      "target": "Normal",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.31",
+      "source": "ハード",
+      "target": "Hard",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.32",
+      "source": "リアルエース",
+      "target": "Real Ace",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.34",
+      "source": "新規作成",
+      "target": "New Save",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3043.35",
+      "source": "データが破損している可能性があります",
+      "target": "The save data may be corrupted.",
+      "table_ids": [
+        3043
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3065.10",
+      "source": "ゲームを開始する前に\n初期設定を行いますか？",
+      "target": "Configure the settings\nbefore starting the game?",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3065.11",
+      "source": "初期設定メニューでは、\nコントローラの操作タイプや難易度など、\nゲームオプションの設定を行います。",
+      "target": "Use Initial Setup to set game options,\nincluding the control scheme\nand difficulty.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3065.12",
+      "source": "ゲームオプションの設定をしてください。",
+      "target": "Please set the game options.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3065.13",
+      "source": "トップメニューに戻ります。\nよろしいですか？",
+      "target": "Return to the main menu?",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3065.14",
+      "source": "Ａｎｏｔｈｅｒ　Ｃｅｎｔｕｒｙ’ｓ　Ｅｐｉｓｏｄｅ２の\nセーブデータが見つかりました。\n\n特典としてエースポイントが追加されます。",
+      "target": "Save data from Another Century's\nEpisode 2 was found.\n\nBonus Ace Points will be added.",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3065.15",
+      "source": "難易度「リアルエース」は\nものすごく難しい設定です。\nがんばってください。",
+      "target": "Real Ace is an extremely hard\ndifficulty setting.\nGood luck!",
+      "table_ids": [
+        3065
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 410
+    },
+    {
+      "id": "category.3084.7",
+      "source": "はい：○　いいえ：×　ユニットＢＧＭ変更：□",
+      "target": "Yes:○　No:×　Change Unit BGM:□",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3084.13",
+      "source": "㌔解説ヘルプ",
+      "target": "㌔Help",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3084.14",
+      "source": "㌔操作ナビ",
+      "target": "㌔Controls Guide",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3084.15",
+      "source": "㍍インフォメーション",
+      "target": "㍍Information",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3084.16",
+      "source": "㌘おめでとう",
+      "target": "㌘Congratulations",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3084.29",
+      "source": "エースポイント",
+      "target": "Ace Points",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3084.30",
+      "source": "コスト",
+      "target": "Cost",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    },
+    {
+      "id": "category.3084.31",
+      "source": "残エースポイント",
+      "target": "Remaining Ace Points",
+      "table_ids": [
+        3084
+      ],
+      "text_ids": [],
+      "minimum_matches": 2,
+      "max_width": 600
+    }
+  ],
+  "complete_table_ids": [
+    3036,
+    3041,
+    3043,
+    3065,
+    3084
+  ],
+  "preserved_slots": {
+    "3043": {
+      "22": {
+        "source": "００００",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "23": {
+        "source": "ＫＢ",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "24": {
+        "source": "Ｎｏ．",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "25": {
+        "source": "ＭＩＳＳＩＯＮ",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "26": {
+        "source": "ＤＩＦＦＩＣＵＬＴＹ",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "27": {
+        "source": "ＵＮＩＴ",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "28": {
+        "source": "ＰＬＡＹＴＩＭＥ",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "36": {
+        "source": "㍻",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "37": {
+        "source": "：",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "38": {
+        "source": "Ｍ００",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "39": {
+        "source": "Ｍ０１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "40": {
+        "source": "Ｍ０２",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "41": {
+        "source": "Ｍ０３",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "43": {
+        "source": "Ｍ０４",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "44": {
+        "source": "Ｍ０５",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "45": {
+        "source": "Ｍ０６",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "46": {
+        "source": "Ｍ０７",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "47": {
+        "source": "Ｍ０８",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "48": {
+        "source": "Ｍ０９",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "49": {
+        "source": "Ｍ１０",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "50": {
+        "source": "Ｍ１１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "51": {
+        "source": "Ｍ１２",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "52": {
+        "source": "Ｍ１３",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "53": {
+        "source": "Ｍ１４",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "54": {
+        "source": "Ｍ１５",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "55": {
+        "source": "Ｍ１６",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "56": {
+        "source": "Ｍ１７",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "57": {
+        "source": "Ｍ１８",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "58": {
+        "source": "Ｍ１９",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "59": {
+        "source": "Ｍ２０",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "60": {
+        "source": "Ｍ２１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "61": {
+        "source": "Ｍ２２",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "62": {
+        "source": "Ｍ２３",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "63": {
+        "source": "Ｍ２４",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "64": {
+        "source": "Ｍ２５",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "65": {
+        "source": "Ｍ２６",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "66": {
+        "source": "Ｍ２７",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "67": {
+        "source": "Ｍ２８",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "68": {
+        "source": "Ｍ２９",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "69": {
+        "source": "Ｍ３０",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "70": {
+        "source": "Ｍ３１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "72": {
+        "source": "Ｍ３２",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "73": {
+        "source": "Ｍ３３",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "74": {
+        "source": "Ｍ３４",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "76": {
+        "source": "Ｍ３５",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "77": {
+        "source": "Ｍ３６",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "78": {
+        "source": "Ｍ３７",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "79": {
+        "source": "Ｍ３８",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "80": {
+        "source": "Ｍ３９",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "81": {
+        "source": "Ｍ４０",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "82": {
+        "source": "Ｍ４１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "83": {
+        "source": "Ｍ４２",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "84": {
+        "source": "Ｍ４３",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "85": {
+        "source": "Ｍ４４",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "86": {
+        "source": "Ｍ４５",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "87": {
+        "source": "Ｍ４６",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "88": {
+        "source": "Ｍ４７",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "89": {
+        "source": "Ｍ４８",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "90": {
+        "source": "Ｍ４９",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "91": {
+        "source": "Ｍ５０",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "92": {
+        "source": "Ｍ５１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "93": {
+        "source": "Ｍ５２",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "94": {
+        "source": "Ｍ５３",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "95": {
+        "source": "Ｍ５４",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "96": {
+        "source": "Ｍ５５",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "97": {
+        "source": "Ｍ５６",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "98": {
+        "source": "Ｍ５７",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "99": {
+        "source": "Ｍ５８",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "100": {
+        "source": "Ｍ５９",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "101": {
+        "source": "Ｍ６０",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "102": {
+        "source": "Ｍ６１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "103": {
+        "source": "Ｍ６２",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "104": {
+        "source": "Ｍ６３",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "105": {
+        "source": "Ｍ６４",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "106": {
+        "source": "Ｍ６５",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "107": {
+        "source": "Ｍ６６",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "108": {
+        "source": "Ｍ６７",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "109": {
+        "source": "Ｍ６８",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "110": {
+        "source": "Ｍ６９",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "111": {
+        "source": "Ｍ７０",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "112": {
+        "source": "Ｍ７１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "113": {
+        "source": "Ｍ７２",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "114": {
+        "source": "Ｍ７３",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "115": {
+        "source": "Ｍ７４",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "116": {
+        "source": "Ｍ７５",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "117": {
+        "source": "Ｍ７６",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "118": {
+        "source": "Ｍ７７",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "119": {
+        "source": "Ｍ７８",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "120": {
+        "source": "Ｍ７９",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "121": {
+        "source": "Ｍ８０",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      },
+      "122": {
+        "source": "Ｍ８１",
+        "reason": "Existing Latin heading, numeric runtime field, mission code, or game icon; preserve exact bytes."
+      }
+    }
+  },
+  "menu_capacity_fix": true
+}

@@ -1,0 +1,129 @@
+{
+  "slice_start": 5303,
+  "slice_count": 15,
+  "rows_examined": [
+    [
+      5283,
+      5337
+    ]
+  ],
+  "rows_examined_count": 55,
+  "rows_in_slice": 15,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_05307",
+        "dialogue_05308"
+      ],
+      "note": "Both rows say bare 'senpai' (\u5148\u8f29) with no name. 5307 rendered 'Focker' (he was just called by name in 5306); 5308 echoes the same substitution ('...Focker?') to preserve the source's repetition, read as Hikaru's surprise that Dyson also calls Focker senpai - confirmed by Focker's explanation in 5309 that Dyson is a junior of his from the academy."
+    },
+    {
+      "id": "dialogue_05303",
+      "note": "Whole block (5303-5317) uses only <on()>/<sp(20)>/<color()>/<book()> commands, no <ab()>/<off()> at all, unlike the combat-alert block at 5223-5302 (which is almost entirely <op()>...<ab(n)><ed()>). Text_id jumps from the 100s/200s range to the 500s range at this point, and this landing-request/introduction scene appears to depict Hikaru and Dyson meeting for the first time (5303-5312), while the earlier block (5243-5248) already shows them acquainted. The two blocks may not be in strict chronological order (stored-table order can differ from event order per project docs); each was translated on its own terms rather than forcing one timeline."
+    },
+    {
+      "id": "dialogue_05316",
+      "note": "'Headquarters' contains a lowercase q; kept because it matches the extensively-established corpus rendering of this book(9) Federation phrase (batch_01073, batch_02948, batch_03028) rather than switching to an ad hoc 'HQ' for this one row."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command reproduced in source order for all 15 rows; none added since none exist in source (no <ab()>/<off()> anywhere in this block).",
+    "ascii": "Straight quotes, hyphens for dashes, '...' for ellipsis; fullwidth OK converted to ASCII 'OK' (row 5312's source has no OK - see notes). No bare percent sign. Lowercase j/q avoided ('junior' replaced with 'a class behind me' at 5309) except inside the locked rank 'Major' and 'Captain'.",
+    "fit": "No line breaks in any target; longest visible text 107 characters (row 5305), all <=110.",
+    "scope": "Rows 5303-5317 are resource 6170, same mission as the preceding batch but a distinct radio/introduction scene (Skull Squadron requesting landing permission, meeting Lieutenant Dyson, then a status report on Macross/Sharon Apple). Source read via tools/dialogue_corpus.py slice command; Japanese never written to disk.",
+    "glossary": "Locked terms used: Skull Squadron, Major Focker, Lieutenant Dyson, Hikaru, Captain Amuro, Macross (book 33), Sharon Apple (book 87), Federation (book 9). No new terms proposed in this file.",
+    "meaning_review": "Meaning-reviewed against Japanese source (tools/dialogue_corpus.py slice 5303 15 --context 15); no meaning fixes needed. Orchestrator rulings on bare 'senpai'->Focker and 'headquarters' confirmed and left as drafted; all 15 rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_05303",
+      "target": "<on()><sp(20)>This is <color(4)>Skull Squadron<ce()>. Please clear us to land.",
+      "status": "meaning_reviewed",
+      "notes": "This whole block (5303-5317) uses <on()> with no <ab()>/<off()> commands at all in source; preserved exactly, none added. Resource 6170, later text_id range (500s) than the combat block above (100s-200s); may not be in strict chronological order relative to rows 5223-5302 (stored-table order can differ from event order per project docs). See uncertainties."
+    },
+    {
+      "id": "dialogue_05304",
+      "target": "<on()><sp(20)>Major <color(4)>Focker<ce()>, we're counting on you.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05305",
+      "target": "<on()><sp(20)>Yeah, with us here you've got a hundred men's worth of help. We'll take back the stolen <book(33)>Macross<endbook()> in no time!",
+      "status": "meaning_reviewed",
+      "notes": "book(33) = Macross (already-locked encyclopedia term)."
+    },
+    {
+      "id": "dialogue_05306",
+      "target": "<on()><sp(20)>Oh, that's right! Lieutenant <color(4)>Dyson<ce()>! You there?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05307",
+      "target": "<on()><sp(20)>Yeah, yeah. Right here, Focker.",
+      "status": "meaning_reviewed",
+      "notes": "'Senpai' (\u5148\u8f29) with no name in source; rendered 'Focker' since he was just addressed by name in 5306. See uncertainties."
+    },
+    {
+      "id": "dialogue_05308",
+      "target": "<on()><sp(20)>...Focker?",
+      "status": "meaning_reviewed",
+      "notes": "Echoes 5307's substituted 'Focker' to preserve the source's repetition of \u5148\u8f29; read as Hikaru's surprised reaction to Dyson also calling Focker senpai (confirmed by Focker's reply in 5309)."
+    },
+    {
+      "id": "dialogue_05309",
+      "target": "<on()><sp(20)>Oh, right! He's from the academy, a class behind me. <color(4)>Hikaru<ce()>, look out for him.",
+      "status": "meaning_reviewed",
+      "notes": "'Kouhai' (\u5f8c\u8f29, 'junior') avoided as a direct rendering because of the lowercase-j rule ('junior'); rendered 'a class behind me' instead."
+    },
+    {
+      "id": "dialogue_05310",
+      "target": "<on()><sp(20)>Much appreciated, but I can take care of myself perfectly well!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_05311",
+      "target": "<on()><sp(20)>Well, I suppose so. Otherwise you couldn't make it under Captain <color(4)>Amuro<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Captain Amuro: taii rank rendered 'Captain' per terms_028.json convention (already used for Amuro/Burning elsewhere in corpus)."
+    },
+    {
+      "id": "dialogue_05312",
+      "target": "<on()><sp(20)>As long as you get that, we're good! I'll do things my own way!",
+      "status": "meaning_reviewed",
+      "notes": "'OK' (fullwidth \uff2f\uff2b in source) converted to ASCII."
+    },
+    {
+      "id": "dialogue_05313",
+      "target": "<on()><sp(20)>What's the situation with <book(33)>Macross<endbook()>?",
+      "status": "meaning_reviewed",
+      "notes": "book(33) = Macross."
+    },
+    {
+      "id": "dialogue_05314",
+      "target": "<on()><sp(20)>No change. Intelligence is trying to reclaim the system, but the work isn't going well.",
+      "status": "meaning_reviewed",
+      "notes": "'Jouhou-bu' (\u60c5\u5831\u90e8) rendered 'Intelligence' per existing batch_01666 precedent (no locked term)."
+    },
+    {
+      "id": "dialogue_05315",
+      "target": "<on()><sp(20)>It's because of <book(87)>Sharon Apple<endbook()>. This looks like it'll be a long fight.",
+      "status": "meaning_reviewed",
+      "notes": "book(87) = Sharon Apple (encyclopedia_022.json term)."
+    },
+    {
+      "id": "dialogue_05316",
+      "target": "<on()><sp(20)>Depending on what <book(9)>Federation<endbook()> headquarters decides, we may have to destroy <book(33)>Macross<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "book(9) = Federation, matching existing 'Federation headquarters' phrasing (batch_01073/02948/03028). Note: 'headquarters' contains a lowercase q with no natural synonym that matches this established corpus wording; kept for consistency rather than switching to 'HQ'."
+    },
+    {
+      "id": "dialogue_05317",
+      "target": "<on()><sp(20)>Destroy it... I see.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

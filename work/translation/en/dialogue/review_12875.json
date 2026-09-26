@@ -1,0 +1,44 @@
+{
+ "reviewer": "independent_meaning_review_shouts_agent",
+ "slice_start": 12875,
+ "slice_count": 80,
+ "rows_examined": [{"start": 12860, "end": 12969}],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "meaning_fixes": [
+  {
+   "id": "dialogue_12883",
+   "before": "Don't underestimate me, Earthling!",
+   "after": "I'm no pushover, Earthling or not!",
+   "reason": "The source line warns not to underestimate the SPEAKER (Jeryll) for being an Earthling -- she is a second-wave Upper-Earth pilot per character_names_021.json, so the Earthling label describes herself, not the opponent. The draft instead addressed the opponent as 'Earthling', inventing an identity for them the source never states. Fits the 34-char budget."
+  },
+  {
+   "id": "dialogue_12919",
+   "before": "Time's up.",
+   "after": "Let's go.",
+   "reason": "The source line is simply Jeryll's decision to head back after the fight; it contains no notion of a timer. 'Time's up' invents an external time constraint the source omits. 'Let's go.' keeps the departure sense within the 10-char budget."
+  }
+ ],
+ "format_fixes": [
+  {"id": "dialogue_12916", "before": "Heh, you survived,<LF>not bad at all.", "after": "Heh, you survived, not bad at all.", "reason": "Shout rows must have NO newline in the target (source line breaks are joined); the draft kept the source's embedded line break as a literal newline (shown here as <LF>). Joined into one line, still within the 42-char budget."},
+  {"id": "dialogue_12939", "before": "Enough watching,<LF>I'm charging in!", "after": "Enough watching, I'm charging in!", "reason": "Same newline-join fix as 12916; still within the 40-char budget."},
+  {"id": "dialogue_12951", "before": "Don't get shot down,<LF>I'm counting on you!", "after": "Don't get shot down, I'm counting on you!", "reason": "Same newline-join fix as 12916; still within the 44-char budget."}
+ ],
+ "checked_decisions": [
+  {"rows": [12878, 12879, 12897, 12907], "finding": "Very short source lines (5-7 chars) forced heavy compression under the byte budget ('Back off', '...Nice.', 'Move it!', 'Not now!'). Each keeps the row's core combat sentiment (defiance, reaction, scolding, surprise); none reverses meaning, addressee, or identity, so left as drafted."},
+  {"rows": [12885], "finding": "The source line is confirmed as Jeryll's own boast comparing her Leprechaun's power to the current opponent's, not a third party's assessment; 'Leprechaun's power is superior!' is correct."},
+  {"rows": [12922], "finding": "The source naturally reads 'no match for THE Dragonar' (Kaine's own named unit); the draft's 'a Dragonar' loses the definite reference, but swapping in 'the' would exceed the 24-char budget by 2. Left as-is; not a meaning reversal, just a lost article."}
+ ],
+ "uncertainties": [
+  {"id": "dialogue_12878", "issue": "'Back off' for a source line literally meaning 'don't underestimate me' trades the underestimation concept for a retreat command under an 8-char hard budget; both read as generic combat defiance, but the specific meaning isn't literally preserved. No shorter phrase found that keeps 'underestimate' within 8 chars."},
+  {"id": "dialogue_12890", "issue": "'For real!' for a source line meaning an indignant 'you must be joking' / 'no way' is ambiguous in English -- it can read as disbelief (matching source) or as excited affirmation (not matching). Left as-is since the row is a short exclamation without surrounding context to disambiguate tone."},
+  {"id": "dialogue_12940", "issue": "The source line is a present-tense complaint about the enemy acting unchecked; 'You've had your fun!' reframes it as a boast that their freedom is about to end (future-tense implication not in source). Kept as an acceptable dramatic compression, but flagging the temporal shift since it wasn't required by the budget (25-char budget; a more literal 'Doing as they please!' would also fit)."}
+ ],
+ "validation": {
+  "controls": "All <op()><sp(20)>...<ab(1000)><ed()> command sequences re-checked against the console source dump for rows 12875-12954; identical and in the same order in every row, including the two fixed rows.",
+  "fit": "Re-verified the row's hard budget (min(72, 2*source_chars-2)) for every row and for both replacement strings (12883: 34/34 chars; 12919: 9/10 chars); no row exceeds its budget.",
+  "format": "Found and fixed 3 rows (12916, 12939, 12951) that kept a literal newline in the target mirroring the source's own line break; joined into single lines per the shout-specific 'no newline' rule. Re-ran the check after fixing: 0 rows with newlines remain in this batch. All ASCII (no lowercase j/q outside locked names, none present here).",
+  "runtime": "Visual fit at runtime beyond the byte-budget formula is not established by this meaning review."
+ }
+}

@@ -1,0 +1,101 @@
+{
+  "slice_start": 11046,
+  "slice_count": 12,
+  "rows_examined": [
+    [
+      11031,
+      11072
+    ]
+  ],
+  "rows_examined_count": 42,
+  "rows_in_slice": 12,
+  "uncertainties": [
+    {
+      "id": "dialogue_11053",
+      "note": "<book(14)> scope kept around 'Axis' only, matching the source's book span (encyclopedia_022.json text_id 14 = 'Axis'). Rows 11053-11057 have no <ab()>/<ed()>/<off()> closing commands in the source (bare cutscene lines), matching the existing convention seen in batch_01073 rows 1102-1103; preserved as-is rather than adding commands the source lacks."
+    },
+    {
+      "id": "dialogue_11057",
+      "note": "<color(5)> scope kept around 'Char' only, matching prior corpus usage for his name (e.g. batch_02643, batch_06023, batch_07034)."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently reviewed against the ISO source (rows 11031-11072, 15-row context both sides) by a second agent; all 12 rows confirmed meaning_reviewed, no mistranslations found. <book(14)> scope on 'Axis' (row 11053) and <color(5)> scope on 'Char' (row 11057) confirmed correct; the missing <ab()>/<ed()>/<off()> closing commands on rows 11053-11057 correctly match the source's bare cutscene-line convention.",
+    "fit": "Full meaning retained; no sentence-final content dropped.",
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()>/<book()>/<endbook()>/<color()>/<ce()> command sequences preserved in source order; validated programmatically (tag list source vs target) for all 12 rows."
+  },
+  "rows": [
+    {
+      "id": "dialogue_11046",
+      "target": "<op()><sp(20)>What!?\nRecon team, where were your eyes!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11047",
+      "target": "<op()><sp(20)>You've really done it now!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11048",
+      "target": "<op()><sp(20)>What are you doing!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11049",
+      "target": "<op()><sp(20)>Argh, where are your eyes!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11050",
+      "target": "<op()><sp(20)>Hurry! There's no time!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11051",
+      "target": "<op()><sp(20)>No good...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11052",
+      "target": "<op()><sp(20)>More coming!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11053",
+      "target": "<on()><sp(20)>Everyone, return to base for now.\nResupply, then move straight into the operation\nto destroy the rear of <book(14)>Axis<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11054",
+      "target": "<on()><sp(20)>It's been a brutal string of battles, but every moment counts now.\nPlease hurry.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11055",
+      "target": "<on()><sp(20)>Having come this far, there's nothing left to do but see it through...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11056",
+      "target": "<on()><sp(20)>Yes!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11057",
+      "target": "<on()><sp(20)><color(5)>Char<ce()>... I won't let you have your way!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

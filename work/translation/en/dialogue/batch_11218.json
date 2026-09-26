@@ -1,0 +1,164 @@
+{
+  "slice_start": 11218,
+  "slice_count": 21,
+  "rows_examined": [
+    [
+      11203,
+      11253
+    ]
+  ],
+  "rows_examined_count": 51,
+  "rows_in_slice": 21,
+  "uncertainties": [
+    {
+      "id": "dialogue_11228",
+      "note": "'Geara Doga' matches the spelling already present in character_names_021.json; not previously used in a dialogue batch, so recorded here for the central glossary."
+    },
+    {
+      "ids": [
+        "dialogue_11229",
+        "dialogue_11230",
+        "dialogue_11231",
+        "dialogue_11232",
+        "dialogue_11233",
+        "dialogue_11234",
+        "dialogue_11235",
+        "dialogue_11236"
+      ],
+      "note": "Final Char/Amuro ideological exchange; translated literally, no added interpretation of 'this warmth' or 'judge itself' beyond the source's own wording."
+    }
+  ],
+  "validation": {
+    "meaning_review": "All 21 rows independently meaning-reviewed against the ISO source (context rows 11203-11253); no meaning fixes required, all rows set to meaning_reviewed. See review_11218.json.",
+    "fit": "Full meaning retained; no sentence-final content dropped. Longest visible row measured <=110 characters.",
+    "controls": "All <on()>/<sp(20)>/<ab(n)>/<off()> command sequences preserved in source order; validated programmatically (tag list source vs target) for all 21 rows."
+  },
+  "rows": [
+    {
+      "id": "dialogue_11218",
+      "target": "<on()><sp(20)>What is this? This light...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11219",
+      "target": "<on()><sp(20)>...Warm... and gentle light...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11220",
+      "target": "<on()><sp(20)>It's the light of people's hearts.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11221",
+      "target": "<on()><sp(20)>Hm? Ah! Aaah!\nAxis is changing course!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11222",
+      "target": "<on()><sp(20)>That's not a mistake, right!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11223",
+      "target": "<on()><sp(20)>Confirmed on our end as well!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11224",
+      "target": "<on()><sp(20)>Axis's course change is confirmed!\nIt's moving away from Earth.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11225",
+      "target": "<on()><sp(20)>We won't know unless we try!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11226",
+      "target": "<on()><sp(20)>Axis has already begun falling!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11227",
+      "target": "<on()><sp(20)>Right!\nLet's do this together!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11228",
+      "target": "<on()><sp(20)>Even the Geara Doga...!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Gira Doga rendered 'Geara Doga', matching the spelling already used in character_names_021.json (Rezin Schnyder's role description); not previously used in dialogue."
+    },
+    {
+      "id": "dialogue_11229",
+      "target": "<on()><sp(20)>In the end, sooner or later, only sorrow like this spreads\nand crushes the Earth.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11230",
+      "target": "<on()><sp(20)>Then humanity must condemn itself with its own hands\nand atone to nature, to the Earth.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11231",
+      "target": "<on()><sp(20)>Amuro, why can't you understand this...!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11232",
+      "target": "<on()><sp(20)>And yet, I feel no fear.\nInstead, this warmth, this sense of peace...<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11233",
+      "target": "<on()><sp(20)>I see. But it's people with this very warmth\nwho end up destroying even the Earth.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11234",
+      "target": "<on()><sp(20)>That's what you need to understand, Amuro.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11235",
+      "target": "<on()><sp(20)>I understand.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11236",
+      "target": "<on()><sp(20)>That's why I have to show the world\nthe light of people's hearts.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11237",
+      "target": "<on()><sp(20)>It's only one measly rock -\nI'll push it away with the Gundam!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_11238",
+      "target": "<on()><sp(20)>Waaaaagh!!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

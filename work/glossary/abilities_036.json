@@ -1,0 +1,1298 @@
+{
+  "version": "0.1.36",
+  "review_status": "meaning_reviewed_with_documented_naming_uncertainties",
+  "notes": [
+    "UI-only source strings. Rare attack/system Roman spellings are provisional unless primary or existing glossary support is attached.",
+    "Existing locked unit and character names are not edited.",
+    "Attack category interpretation follows paired game UI rows, not inconsistent wiki categories."
+  ],
+  "entries": [
+    {
+      "source": "飛行変形",
+      "en": "Flight Transformation",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 1,
+      "display_en": "Flight Transformation"
+    },
+    {
+      "source": "３段変形",
+      "en": "3-Stage Transformation",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 2,
+      "display_en": "3-Stage Transformation"
+    },
+    {
+      "source": "ゲッターチェンジ",
+      "en": "Getter Change",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 3,
+      "display_en": "Getter Change"
+    },
+    {
+      "source": "ＢＷＳ",
+      "en": "BWS",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 4,
+      "display_en": "BWS"
+    },
+    {
+      "source": "ビークル変形",
+      "en": "Vehicle Transformation",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 5,
+      "display_en": "Vehicle Transformation"
+    },
+    {
+      "source": "着脱装甲",
+      "en": "Removable Armor",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 6,
+      "display_en": "Removable Armor"
+    },
+    {
+      "source": "離脱装甲",
+      "en": "Armor Purge",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 7,
+      "display_en": "Armor Purge"
+    },
+    {
+      "source": "追加装甲",
+      "en": "Additional Armor",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 8,
+      "display_en": "Additional Armor"
+    },
+    {
+      "source": "明鏡止水",
+      "en": "Meikyo Shisui",
+      "kind": "ability",
+      "status": "primary_or_existing_glossary_supported",
+      "provisional": false,
+      "text_id": 9,
+      "sources": [
+        "work/glossary/unit_names_014_b.json",
+        "https://tamashiiweb.com/item/16062/?wovn=en"
+      ],
+      "display_en": "Meikyo Shisui"
+    },
+    {
+      "source": "リーンの翼",
+      "en": "Wings of Rean",
+      "kind": "ability",
+      "status": "primary_or_existing_glossary_supported",
+      "provisional": false,
+      "text_id": 10,
+      "sources": [
+        "work/glossary/unit_names_014_b.json"
+      ],
+      "display_en": "Wings of Rean"
+    },
+    {
+      "source": "セブンスウェル",
+      "en": "Seven Swell",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 11,
+      "display_en": "Seven Swell"
+    },
+    {
+      "source": "ＢＤＩシステム",
+      "en": "BDI System",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 12,
+      "display_en": "BDI System"
+    },
+    {
+      "source": "オーバースキル・加速",
+      "en": "Overskill: Acceleration",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 13,
+      "display_en": "Overskill: Acceleration"
+    },
+    {
+      "source": "ＣＦＳ",
+      "en": "CFS",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 14,
+      "display_en": "CFS"
+    },
+    {
+      "source": "バイオフィードバックシステム",
+      "en": "Biofeedback System",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 15,
+      "display_en": "Biofeedback System"
+    },
+    {
+      "source": "プラモスピリット",
+      "en": "Plamo Spirit",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 16,
+      "display_en": "Plamo Spirit"
+    },
+    {
+      "source": "スラスター",
+      "en": "Thrusters",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 17,
+      "display_en": "Thrusters"
+    },
+    {
+      "source": "グライダー",
+      "en": "Glider",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 18,
+      "display_en": "Glider"
+    },
+    {
+      "source": "ＬＦＯ",
+      "en": "LFO",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 19,
+      "display_en": "LFO"
+    },
+    {
+      "source": "ローラーダッシュ",
+      "en": "Roller Dash",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 20,
+      "display_en": "Roller Dash"
+    },
+    {
+      "source": "バイタルジャンプ",
+      "en": "Vital Jump",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 21,
+      "display_en": "Vital Jump"
+    },
+    {
+      "source": "ビームコーティング",
+      "en": "Beam Coating",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 22,
+      "display_en": "Beam Coating"
+    },
+    {
+      "source": "機嫌",
+      "en": "Mood",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 23,
+      "display_en": "Mood"
+    },
+    {
+      "source": "オーガニックエナジー",
+      "en": "Organic Energy",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 24,
+      "display_en": "Organic Energy"
+    },
+    {
+      "source": "ナノスキン",
+      "en": "Nanoskin",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 25,
+      "display_en": "Nanoskin"
+    },
+    {
+      "source": "オーラ力",
+      "en": "Aura Power",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 26,
+      "display_en": "Aura Power"
+    },
+    {
+      "source": "ゴッドシャドー",
+      "en": "God Shadow",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 27,
+      "display_en": "God Shadow"
+    },
+    {
+      "source": "地上ダッシュ",
+      "en": "Ground Dash",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 28,
+      "display_en": "Ground Dash"
+    },
+    {
+      "source": "分離回避",
+      "en": "Separation Evasion",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 29,
+      "display_en": "Separation Evasion"
+    },
+    {
+      "source": "ＳＥＥＤ",
+      "en": "SEED",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 30,
+      "display_en": "SEED"
+    },
+    {
+      "source": "サイコミュ",
+      "en": "Psycommu",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 31,
+      "display_en": "Psycommu"
+    },
+    {
+      "source": "ボソンジャンプ",
+      "en": "Boson Jump",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 32,
+      "display_en": "Boson Jump"
+    },
+    {
+      "source": "サテライトシステム",
+      "en": "Satellite System",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 33,
+      "display_en": "Satellite System"
+    },
+    {
+      "source": "月光蝶",
+      "en": "Moonlight Butterfly",
+      "kind": "ability",
+      "status": "primary_or_existing_glossary_supported",
+      "provisional": false,
+      "text_id": 34,
+      "sources": [
+        "https://gget.ggame.jp/en/titles/detail.php?t=g6nz8fyc"
+      ],
+      "display_en": "Moonlight Butterfly"
+    },
+    {
+      "source": "オーバースキル・怪力",
+      "en": "Overskill: Super Strength",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 35,
+      "display_en": "Overskill: Super Strength"
+    },
+    {
+      "source": "オーバースキル・変形",
+      "en": "Overskill: Transformation",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 36,
+      "display_en": "Overskill: Transformation"
+    },
+    {
+      "source": "Ｇファルコン着脱",
+      "en": "G-Falcon Attach/Detach",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 37,
+      "display_en": "G-Falcon Attach/Detach"
+    },
+    {
+      "source": "ミーティア着脱",
+      "en": "METEOR Attach/Detach",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 38,
+      "display_en": "METEOR Attach/Detach"
+    },
+    {
+      "source": "ハイマニューバ",
+      "en": "High Maneuver",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 39,
+      "display_en": "High Maneuver"
+    },
+    {
+      "source": "ウイングキャリバー",
+      "en": "Wing Caliber",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 40,
+      "display_en": "Wing Caliber"
+    },
+    {
+      "source": "ＭＡ形態",
+      "en": "MA Mode",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 41,
+      "display_en": "MA Mode"
+    },
+    {
+      "source": "浄化",
+      "en": "Purification",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 42,
+      "display_en": "Purification"
+    },
+    {
+      "source": "自律兵装",
+      "en": "Autonomous Weapons",
+      "kind": "ability",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 43,
+      "display_en": "Autonomous Weapons"
+    },
+    {
+      "source": "Ｉフィールド",
+      "en": "I-Field",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 101,
+      "display_en": "I-Field"
+    },
+    {
+      "source": "怨念",
+      "en": "Grudge",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 103,
+      "note": "Grudge is a proper support name here. Do not expand into a gameplay claim beyond its Attack Boost category.",
+      "display_en": "Grudge"
+    },
+    {
+      "source": "かく乱",
+      "en": "Diversion",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 104,
+      "note": "Diversion diverts enemy attacks toward the ally; category is Draw Enemy Fire, not homing weapon guidance.",
+      "display_en": "Diversion"
+    },
+    {
+      "source": "ダミー・バルーン",
+      "en": "Dummy Balloon",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 105,
+      "display_en": "Dummy Balloon"
+    },
+    {
+      "source": "ナノスキン／月光蝶",
+      "en": "Nanoskin / Moonlight Butterfly",
+      "kind": "support_move",
+      "status": "primary_or_existing_glossary_supported",
+      "provisional": false,
+      "text_id": 106,
+      "sources": [
+        "https://gget.ggame.jp/en/titles/detail.php?t=g6nz8fyc"
+      ],
+      "note": "Two functions are separated by slash: Nanoskin is ongoing AP recovery; Moonlight Butterfly is the emergency area attack. See paired category 206 and trigger 306.",
+      "display_en": "Nanoskin/Moonlight Bfly."
+    },
+    {
+      "source": "ビルバインバリア",
+      "en": "Billbine Barrier",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 107,
+      "display_en": "Billbine Barrier"
+    },
+    {
+      "source": "ファンネル",
+      "en": "Funnels",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 108,
+      "display_en": "Funnels"
+    },
+    {
+      "source": "ディスパーションセイバー",
+      "en": "Dispersion Saber",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 109,
+      "display_en": "Dispersion Saber"
+    },
+    {
+      "source": "フィン・ファンネル",
+      "en": "Fin Funnels",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 110,
+      "display_en": "Fin Funnels"
+    },
+    {
+      "source": "ノーマルミサイル",
+      "en": "Normal Missiles",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 113,
+      "display_en": "Normal Missiles"
+    },
+    {
+      "source": "反応弾",
+      "en": "Reaction Warheads",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 114,
+      "display_en": "Reaction Warheads"
+    },
+    {
+      "source": "マイクロミサイル",
+      "en": "Micro Missiles",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 115,
+      "display_en": "Micro Missiles"
+    },
+    {
+      "source": "マイクロ＆ホーミングミサイル",
+      "en": "Micro & Homing Missiles",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 116,
+      "display_en": "Micro & Homing Missiles"
+    },
+    {
+      "source": "全弾発射",
+      "en": "Full Salvo",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 119,
+      "display_en": "Full Salvo"
+    },
+    {
+      "source": "インパクトキャノン",
+      "en": "Impact Cannon",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 120,
+      "display_en": "Impact Cannon"
+    },
+    {
+      "source": "スピンレーザーソード",
+      "en": "Spin Laser Sword",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 121,
+      "display_en": "Spin Laser Sword"
+    },
+    {
+      "source": "２２０ｍｍレールキャノン",
+      "en": "220mm Rail Cannon",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 122,
+      "display_en": "220mm Rail Cannon"
+    },
+    {
+      "source": "フルオープンシュート",
+      "en": "Full Open Shoot",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 123,
+      "display_en": "Full Open Shoot"
+    },
+    {
+      "source": "ハッキング",
+      "en": "Hacking",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 124,
+      "display_en": "Hacking"
+    },
+    {
+      "source": "ジャマー",
+      "en": "Jammer",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 126,
+      "display_en": "Jammer"
+    },
+    {
+      "source": "大型巡航ミサイル",
+      "en": "Large Cruise Missile",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 127,
+      "display_en": "Large Cruise Missile"
+    },
+    {
+      "source": "デュアルミサイル",
+      "en": "Dual Missiles",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 128,
+      "display_en": "Dual Missiles"
+    },
+    {
+      "source": "対ＭＡハンドグレネード",
+      "en": "Anti-MA Hand Grenade",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 129,
+      "display_en": "Anti-MA Hand Grenade"
+    },
+    {
+      "source": "爆熱ゴッドフィンガー",
+      "en": "Erupting God Finger",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 130,
+      "display_en": "Erupting God Finger"
+    },
+    {
+      "source": "ダークネスフィンガー",
+      "en": "Darkness Finger",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 131,
+      "display_en": "Darkness Finger"
+    },
+    {
+      "source": "ローリングバスターライフル",
+      "en": "Rolling Buster Rifle",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 133,
+      "display_en": "Rolling Buster Rifle"
+    },
+    {
+      "source": "サテライトキャノン",
+      "en": "Satellite Cannon",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 134,
+      "display_en": "Satellite Cannon"
+    },
+    {
+      "source": "ディバイダー",
+      "en": "Divider",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 135,
+      "display_en": "Divider"
+    },
+    {
+      "source": "ツイン・サテライトキャノン",
+      "en": "Twin Satellite Cannon",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 136,
+      "display_en": "Twin Satellite Cannon"
+    },
+    {
+      "source": "赤外線ホーミングミサイル",
+      "en": "Infrared Homing Missiles",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 137,
+      "note": "IR abbreviates Infrared; full meaning retained in full_en.",
+      "full_en": "Infrared Homing Missiles",
+      "display_en": "IR Homing Missiles"
+    },
+    {
+      "source": "バスターライフル乱射",
+      "en": "Buster Rifle Barrage",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 138,
+      "display_en": "Buster Rifle Barrage"
+    },
+    {
+      "source": "一斉射撃",
+      "en": "Full Barrage",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 139,
+      "display_en": "Full Barrage"
+    },
+    {
+      "source": "メガソニック砲（拡散）",
+      "en": "Mega Sonic Cannon (Spread)",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 140,
+      "display_en": "Mega Sonic Cannon (Spread)"
+    },
+    {
+      "source": "トリプルメガソニック砲（収束）",
+      "en": "Triple Mega Sonic Cannon (Focused)",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 141,
+      "note": "Cannon is omitted from compact display only; full_en preserves Triple Mega Sonic Cannon (Focused).",
+      "full_en": "Triple Mega Sonic Cannon (Focused)",
+      "display_en": "Tri. Mega Sonic Cn.(Focus)"
+    },
+    {
+      "source": "アトミックシザース",
+      "en": "Atomic Scissors",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 142,
+      "display_en": "Atomic Scissors"
+    },
+    {
+      "source": "ギガンティックシザース",
+      "en": "Gigantic Scissors",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 143,
+      "display_en": "Gigantic Scissors"
+    },
+    {
+      "source": "スリットウエハー",
+      "en": "Slit Wafer",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 144,
+      "display_en": "Slit Wafer"
+    },
+    {
+      "source": "錫杖鳴らし",
+      "en": "Ringing the Ringed Staff",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 145,
+      "note": "This is ringing the Buddhist ringed staff (shakujo); literal display name. Exact licensed English move name unconfirmed.",
+      "full_en": "Ringing the Ringed Staff",
+      "display_en": "Ringing the Staff"
+    },
+    {
+      "source": "ストナーサンシャイン",
+      "en": "Stoner Sunshine",
+      "kind": "support_move",
+      "status": "primary_or_existing_glossary_supported",
+      "provisional": false,
+      "text_id": 146,
+      "sources": [
+        "https://tamashiiweb.com/item/14283/?wovn=en"
+      ],
+      "display_en": "Stoner Sunshine"
+    },
+    {
+      "source": "プラズマドリルハリケーン",
+      "en": "Plasma Drill Hurricane",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 147,
+      "display_en": "Plasma Drill Hurricane"
+    },
+    {
+      "source": "大雪山おろし",
+      "en": "Daisetsuzan Oroshi",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 148,
+      "note": "Named Getter technique; transliterated Daisetsuzan Oroshi (Great Snow Mountain Wind), not replaced by a generic throw.",
+      "display_en": "Daisetsuzan Oroshi"
+    },
+    {
+      "source": "ゲッタービーム",
+      "en": "Getter Beam",
+      "kind": "support_move",
+      "status": "primary_or_existing_glossary_supported",
+      "provisional": false,
+      "text_id": 149,
+      "sources": [
+        "https://tamashiiweb.com/item/14283/?wovn=en"
+      ],
+      "display_en": "Getter Beam"
+    },
+    {
+      "source": "オーバーフリーズ",
+      "en": "Overfreeze",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 150,
+      "display_en": "Overfreeze"
+    },
+    {
+      "source": "ブラックホールラケット",
+      "en": "Black Hole Racket",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 151,
+      "display_en": "Black Hole Racket"
+    },
+    {
+      "source": "一斉攻撃",
+      "en": "All-Out Attack",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 152,
+      "display_en": "All-Out Attack"
+    },
+    {
+      "source": "投げ",
+      "en": "Throw",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 153,
+      "display_en": "Throw"
+    },
+    {
+      "source": "ハイマット・フルバースト",
+      "en": "HiMAT Full Burst",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 154,
+      "display_en": "HiMAT Full Burst"
+    },
+    {
+      "source": "全武装一斉発射",
+      "en": "All-Weapons Salvo",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 155,
+      "display_en": "All-Weapons Salvo"
+    },
+    {
+      "source": "パッセル",
+      "en": "Bassel",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 156,
+      "sources": [
+        "https://www.bandai.co.jp/candy/gundam/gframe/faPb02/guide.pdf"
+      ],
+      "note": "Game source has パッセル (Passel), apparently a typo for Justice Gundam weapon バッセル (Bassel). Canonical weapon identity should be checked against command list and owner.",
+      "display_en": "Bassel"
+    },
+    {
+      "source": "セブンスペクトラル",
+      "en": "Seventh Spectral",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 158,
+      "display_en": "Seventh Spectral"
+    },
+    {
+      "source": "スペクトラスコピーモード",
+      "en": "Spectroscopy Mode",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 159,
+      "display_en": "Spectroscopy Mode"
+    },
+    {
+      "source": "カットバックドロップターン",
+      "en": "Cutback Drop Turn",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 160,
+      "display_en": "Cutback Drop Turn"
+    },
+    {
+      "source": "体当たり",
+      "en": "Body Slam",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 161,
+      "display_en": "Body Slam"
+    },
+    {
+      "source": "バスクード・クライシス",
+      "en": "Vascud Crisis",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 162,
+      "sources": [
+        "https://eurekaseven.fandom.com/wiki/Anemone"
+      ],
+      "note": "Vascud Crisis is a provisional Roman spelling of バスクード・クライシス; no primary English source confirmed.",
+      "display_en": "Vascud Crisis"
+    },
+    {
+      "source": "スピア",
+      "en": "Spear",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 163,
+      "display_en": "Spear"
+    },
+    {
+      "source": "ハイパー・ハンマー",
+      "en": "Hyper Hammer",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 164,
+      "display_en": "Hyper Hammer"
+    },
+    {
+      "source": "ミサイルベイ",
+      "en": "Missile Bay",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 165,
+      "display_en": "Missile Bay"
+    },
+    {
+      "source": "オーラ斬り",
+      "en": "Aura Slash",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 166,
+      "display_en": "Aura Slash"
+    },
+    {
+      "source": "散華（二刀）",
+      "en": "Sanka (Dual Swords)",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 167,
+      "note": "Sanka is the named slash technique; Dual Swords preserves 二刀. Exact licensed English attack name unconfirmed.",
+      "display_en": "Sanka (Dual Swords)"
+    },
+    {
+      "source": "スティールワイヤー",
+      "en": "Steel Wire",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 168,
+      "display_en": "Steel Wire"
+    },
+    {
+      "source": "ツーハンデッドブレーカー",
+      "en": "Two-Handed Breaker",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 169,
+      "display_en": "Two-Handed Breaker"
+    },
+    {
+      "source": "プラズマコーティングモード",
+      "en": "Plasma Coating Mode",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 170,
+      "display_en": "Plasma Coating Mode"
+    },
+    {
+      "source": "ハイブリッドオープン",
+      "en": "Hybrid Open",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 171,
+      "display_en": "Hybrid Open"
+    },
+    {
+      "source": "グレイブキャノン",
+      "en": "Grave Cannon",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 172,
+      "note": "Grave Cannon provisional, following locked Grave Ark unit spelling. Japanese グレイブ could alternatively be Glaive.",
+      "display_en": "Grave Cannon"
+    },
+    {
+      "source": "エナジーシェイブ",
+      "en": "Energy Shave",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 173,
+      "note": "Energy Shave literal transliteration; official Roman spelling unconfirmed.",
+      "display_en": "Energy Shave"
+    },
+    {
+      "source": "デモニックダークネス",
+      "en": "Demonic Darkness",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 174,
+      "display_en": "Demonic Darkness"
+    },
+    {
+      "source": "アークライフル（チャージ）",
+      "en": "Ark Rifle (Charged)",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 175,
+      "display_en": "Ark Rifle (Charged)"
+    },
+    {
+      "source": "ディストーションフィールド",
+      "en": "Distortion Field",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 184,
+      "display_en": "Distortion Field"
+    },
+    {
+      "source": "ミサイルランチャー",
+      "en": "Missile Launcher",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 188,
+      "display_en": "Missile Launcher"
+    },
+    {
+      "source": "デコイ",
+      "en": "Decoy",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 190,
+      "display_en": "Decoy"
+    },
+    {
+      "source": "ガトリングガンポッド",
+      "en": "Gatling Gun Pod",
+      "kind": "support_move",
+      "status": "provisional_romanization_or_translation",
+      "provisional": true,
+      "text_id": 191,
+      "display_en": "Gatling Gun Pod"
+    },
+    {
+      "source": "バリア付加",
+      "en": "Barrier",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 201,
+      "display_en": "Barrier"
+    },
+    {
+      "source": "ＡＰ修復",
+      "en": "AP Recovery",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 202,
+      "display_en": "AP Recovery"
+    },
+    {
+      "source": "攻撃力アップ",
+      "en": "Attack Boost",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 203,
+      "display_en": "Attack Boost"
+    },
+    {
+      "source": "攻撃誘導",
+      "en": "Draw Enemy Fire",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 204,
+      "display_en": "Draw Enemy Fire"
+    },
+    {
+      "source": "ダミー",
+      "en": "Dummy",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 205,
+      "display_en": "Dummy"
+    },
+    {
+      "source": "ＡＰ修復／範囲攻撃",
+      "en": "AP Recovery / Area Attack",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 206,
+      "display_en": "AP Repair / Area Attack"
+    },
+    {
+      "source": "援護兵器",
+      "en": "Support Weapon",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 208,
+      "display_en": "Support Weapon"
+    },
+    {
+      "source": "単体攻撃",
+      "en": "Single-Target Attack",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 213,
+      "display_en": "Single-Target Attack"
+    },
+    {
+      "source": "範囲攻撃",
+      "en": "Area Attack",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 214,
+      "display_en": "Area Attack"
+    },
+    {
+      "source": "マルチロック攻撃",
+      "en": "Multi-Lock Attack",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 215,
+      "display_en": "Multi-Lock Attack"
+    },
+    {
+      "source": "マヒ攻撃",
+      "en": "Paralysis Attack",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 244,
+      "display_en": "Paralysis Attack"
+    },
+    {
+      "source": "―",
+      "en": "―",
+      "kind": "support_category",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 247,
+      "display_en": "―"
+    },
+    {
+      "source": "プレイヤーＡＰ３０％以下",
+      "en": "Player AP 30％ or less",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 301,
+      "full_en": "When player AP is 30％ or less",
+      "display_en": "Player AP 30％ or less"
+    },
+    {
+      "source": "常時使用",
+      "en": "Used constantly",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 302,
+      "full_en": "Used constantly",
+      "display_en": "Always active"
+    },
+    {
+      "source": "強敵に対して使用",
+      "en": "Against strong enemies",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 304,
+      "full_en": "Used against powerful enemies",
+      "display_en": "Against strong enemies"
+    },
+    {
+      "source": "プレイヤーがコンボを受けた時",
+      "en": "Player hit by a combo",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 305,
+      "display_en": "Player hit by a combo"
+    },
+    {
+      "source": "常時使用／ＡＰ１０％以下",
+      "en": "Always / AP 10％ or less",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 306,
+      "note": "Paired Nanoskin/Moonlight Butterfly: ongoing AP recovery / area attack when AP is 10％ or less. Source does not repeat Player here.",
+      "display_en": "Always / AP 10％ or less"
+    },
+    {
+      "source": "プレイヤーＡＰ５０％以下",
+      "en": "Player AP 50％ or less",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 307,
+      "display_en": "Player AP 50％ or less"
+    },
+    {
+      "source": "プレイヤーが敵に包囲された時",
+      "en": "When the player is surrounded by enemies",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 310,
+      "full_en": "When the player is surrounded by enemies",
+      "display_en": "Player surrounded"
+    },
+    {
+      "source": "プレイヤーＡＰ１０％以下",
+      "en": "Player AP 10％ or less",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 314,
+      "display_en": "Player AP 10％ or less"
+    },
+    {
+      "source": "プレイヤーが近接攻撃使用時",
+      "en": "Player uses melee",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 322,
+      "display_en": "Player uses melee"
+    },
+    {
+      "source": "プレイヤーに大ダメージ発生時",
+      "en": "Player takes heavy damage",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 339,
+      "display_en": "Player takes heavy damage"
+    },
+    {
+      "source": "プレイヤーにミサイル発射時",
+      "en": "Missiles fired at player",
+      "kind": "support_trigger",
+      "status": "literal_ui",
+      "provisional": false,
+      "text_id": 383,
+      "note": "に marks the player as the target of the missiles, not their launcher.",
+      "display_en": "Missiles fired at player"
+    }
+  ],
+  "do_not_touch_names": [
+    "Berkt",
+    "Rushrod",
+    "Seven Swell",
+    "Ark Rifle",
+    "Ion Bullet Rifle",
+    "Slit Wafer"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 1895,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 1880,
+      "end": 1989
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "rows_left_draft": [],
+  "meaning_fixes": [
+    {
+      "id": "dialogue_01905",
+      "before": "<sp(20)>Currently in combat with the Sibe-Rail.<ab(500)>",
+      "after": "<sp(20)>Currently in combat with the Siberian Railway.<ab(500)>",
+      "reason": "Orchestrator ruling on the clipped nickname: web search (English Wikipedia, ANN, Bandai dub cast lists, DVD reviews) finds only the full 'Siberian Railroad/Railway' in English King Gainer sources and no clipped form, so the project coinage 'Sibe-Rail' is replaced by the locked glossary name 'Siberian Railway'."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [
+        1905
+      ],
+      "finding": "Clipped Siberian Railway nickname: English Wikipedia uses only 'Siberian Railroad'/'Siberian Railway'; search results from ANN, dub cast lists and DVD reviews likewise show the full name; no clipped English form found anywhere. 'Sibe-Rail' replaced by locked 'Siberian Railway'. The nickname occurs in 16 corpus rows (1905, 2000, 4426, 4432, 4433, 4540, 5902, 5962, 7518, 9626, 9704, 9717, 16665, 16811, 16923, 16962); none of the later ones is translated yet, so this sets the form."
+    },
+    {
+      "rows": [
+        1904
+      ],
+      "finding": "'Gauli Team' kept: Wikipedia uses both 'Gauli Squad' and 'Gauli team'; 'Team' avoids the missing q glyph. The character glossary role text ('Gauli Squad') is descriptive, not a locked term."
+    },
+    {
+      "rows": [
+        1916,
+        1917,
+        1918,
+        1919,
+        1920,
+        1921,
+        1922,
+        1923
+      ],
+      "finding": "Exchange reads as a military ship captain and a subordinate guarding a quoted 'cargo' (content resembles the Eureka Seven military ship tracking the Gekko, but nothing in the table names the speakers). No identities added; 'sortie' in 1917 and the passives in 1920/1922 keep the omitted subjects open. Meaning correct."
+    },
+    {
+      "rows": [
+        1903,
+        1990
+      ],
+      "finding": "'helpers' is an accurate rendering of the casual, honorific-suffixed word for backup/hired help; kept, same word in both rows."
+    },
+    {
+      "rows": [
+        1910
+      ],
+      "finding": "Verb unsaid in source; open-ended 'Why are you...?!' is correct."
+    },
+    {
+      "rows": [
+        1914
+      ],
+      "finding": "Object 'him' with omitted verb; 'why bring him along' is supported by the reply in 1915 (got him caught up in it). Accepted as inference, see uncertainties."
+    },
+    {
+      "rows": [
+        1933
+      ],
+      "finding": "Harsh second-person line kept speaker-neutral; meaning (a name and nothing behind it) correct."
+    },
+    {
+      "rows": [
+        1946
+      ],
+      "finding": "Source is a bare 'found!'. It follows the enemy discovery lines 1942-1945, so the train being spotted is the right reading; 'It's been spotted' keeps it loose."
+    },
+    {
+      "rows": [
+        1952
+      ],
+      "finding": "Side not determinable from the table (follows the enemy all-out-attack call, precedes the time-running-out lines). Neutral wording kept; nothing side-specific added."
+    },
+    {
+      "rows": [
+        1960
+      ],
+      "finding": "Rebuke target unstated in Japanese; English needs a pronoun and 'you' is the natural failure-line reading. Kept, flagged."
+    },
+    {
+      "rows": [
+        1961,
+        1962,
+        1963,
+        1964,
+        1965
+      ],
+      "finding": "Banter kept identity-free; the split sentence 1963/1964 joins correctly (scatter bullets, not lives)."
+    },
+    {
+      "rows": [
+        1966,
+        1967,
+        1968,
+        1969,
+        1970
+      ],
+      "finding": "1967/1969 speaker is Renton (Eureka beside him); partner unidentified; no gender supplied for the partner."
+    },
+    {
+      "rows": [
+        1972,
+        1973,
+        1974
+      ],
+      "finding": "'We left the military' is Gekkostate-side; translation is speaker-neutral and correct. 1972 'had a run-in' = fought each other once, confirmed by 1975-1976 (who won / a draw)."
+    },
+    {
+      "rows": [
+        1942
+      ],
+      "finding": "'high priest' for the senior-cleric term versus plain 'priest' for the casual word in 2018/2026: the distinction matches the source."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        1905
+      ],
+      "issue": "Replacing the nickname with the full name loses the casual clipping. If the orchestrator prefers a short form, 'the Railway' would be the natural English clipping, but it is not attested either; whichever is chosen must be applied to all 16 rows listed in checked_decisions."
+    },
+    {
+      "rows": [
+        1905
+      ],
+      "issue": "batch_01895_glossary_proposals.json still proposes 'Sibe-Rail'; not edited (outside the batch/review files I was allowed to touch). It should be withdrawn."
+    },
+    {
+      "rows": [
+        1914
+      ],
+      "issue": "Verb inferred ('bring him along'); an equally possible reading is 'why is he with you / in that machine'. Both fit 1915."
+    },
+    {
+      "rows": [
+        1917,
+        1920
+      ],
+      "issue": "Whether the captain is asked not to sortie personally or not to launch the ship's forces is not settled; 1920 (KLF forces will be sent out anyway) slightly favours 'do not launch'. 'sortie' covers both. 1920 'unit' could equally be plural."
+    },
+    {
+      "rows": [
+        1924
+      ],
+      "issue": "What Gainer must hurry with is unstated (getting the Overman moving, judging by 1925-1931); left unstated in English too."
+    },
+    {
+      "rows": [
+        1960
+      ],
+      "issue": "'you' supplied where the source has no addressee."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered <...> command list of every target re-compared with the ISO source after the fixes: all 80 equal.",
+    "format": "No newline in any target; ASCII only; no lowercase j/q outside locked names.",
+    "fit": "Visible text <= 110 characters in every row; no display-fit shortening performed by the reviewer.",
+    "runtime": "Runtime scene selection, speaker identity, font coverage and visual fit are not established by this meaning review."
+  }
+}

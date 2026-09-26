@@ -1,0 +1,119 @@
+{
+ "resource_id": 4003651,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 10,
+ "rows_examined": 10,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 1,
+   "text_id": 2,
+   "en": "Antibody Coralian",
+   "notes": "Enemy faction name; locked (glossary.json).",
+   "source_sha256": "be07d861e355f817558610fcf4647e1f698c65809e0152c9918f169e499a3421"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23040,1)><speed(2)><move(1,6,12)>Let me<marker(1,5,13,0)> explain the operation<marker(3,6,11,0)>.<move(2,2,12)><picture(97,2,10,0)><refer(2,10,6,11)>",
+   "notes": "",
+   "source_sha256": "4ac71344a2fce31c5d6947e1123bc3f33799ba3b41fffeb795505ed3c04addd1"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23040,1)><speed(2)>Deployed<marker(20,1,1,)> within<marker(20,1,4,)> the<marker(20,11,10,)> operation<marker(20,10,12,)> area,<marker(20,14,14,)><move(1,4,6)> destroy every <color(5)>target<marker(22,4,4,0)><ce()><marker(22,1,6,0)>,<marker(22,3,8,0)> and<move(1,14,6)> drive off the <book(38)>New<marker(22,12,4,0)> Federation<marker(22,14,6,0)><marker(22,13,8,0)><endbook()>.<move(2,4,4)><picture(95,30,14,0)><refer(30,14,13,8)><picture(96,2,6,0)><refer(2,6,1,6)>",
+   "notes": "Source markers (20,1,1,) etc. print with a trailing comma and no 4th field; kept byte-exact as printed by scene_source.py.",
+   "source_sha256": "14968d8bda5a5c78809cb93e34b49d9d68ea097ba264af40d20461c563e202b6"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23040,1)><speed(2)>The enemy<marker(26,13,12,0)> is<marker(26,11,14,0)> in<marker(37,4,1,0)> fairly<marker(37,12,1,0)> high<marker(37,14,11,0)> numbers<danger(1)>, but this time, allies called in by <color(4)>Jamil<ce()> -<move(1,4,6)> a <book(39)>Vulture<marker(35,4,6,0)><endbook()> unit<marker(35,5,8,0)> -<move(1,11,8)> will fight<marker(35,12,6,0)> alongside<marker(35,11,8,0)> us<marker(35,9,10,0)> too<marker(35,8,12,0)>.<move(2,8,6)><picture(94,2,14,0)><refer(2,14,8,12)>",
+   "notes": "\"Vulture\" per mission_terms_019 (bartya = Vulture, Gundam X faction/group term).",
+   "source_sha256": "6bfecfe6bf9f6de9b0d286ffa8d362337552e58fa93bff58dc6e258da86b64b0"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23040,1)><speed(2)>It's a fairly strong force, so that's reassuring, but I can't fully trust the <book(39)>Vulture<endbook()>.",
+   "notes": "",
+   "source_sha256": "abad8f05fbc529612482c0de542b311c6383e61904d9163665f2cd442bdd3d2a"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23040,1)><speed(2)>They're the kind who'd <color(6)>sell us out to save their own lives<ce()>.",
+   "notes": "Orchestrator: shortened to fit three lines.",
+   "source_sha256": "a5273153779f9186e98222170e97a01e2c2ce763bc4354fddebddda6fc15c72d"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(23040,1)><speed(2)>When their<move(1,8,6)> <color(4)>mothership<ce()> is struggling<marker(35,8,6,0)>, please back them up.<move(2,8,6)><picture(98,30,7,0)><refer(30,7,8,6)>",
+   "notes": "",
+   "source_sha256": "a814e657533cca4c4829dd186b11a630ef4faeaa2eae98b642f9aeae860d786f"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(23040,1)><speed(2)>Because if it looks like no one's backing them up, they might turn on us.",
+   "notes": "",
+   "source_sha256": "f5743995a9bec3e776c03de8eefd6246a07f40f07c8609fc20bb5f13111b03a6"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<delpic(2,7,1)><enemylist()><operator(23040,1)><speed(2)>Alright then, I'm counting on you.",
+   "notes": "",
+   "source_sha256": "9df5bad829955a864a0081b6e9a9fdfb9cfba9c7465d508fb36f4c08da5f5d55"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Source markers 20,1,1, / 20,1,4, / 20,11,10, / 20,10,12, / 20,14,14, print with a trailing comma and only 3 numeric fields (missing the usual 4th); reproduced exactly as scene_source.py printed them rather than 'corrected' to 4 fields."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 10,
+  "rows_in_scene": 10,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 22,
+    "before": "<operator(23040,1)><speed(2)>It's quite a strong force, so that's reassuring, but I can't fully trust the <book(39)>Vulture<endbook()>.",
+    "after": "<operator(23040,1)><speed(2)>It's a fairly strong force, so that's reassuring, but I can't fully trust the <book(39)>Vulture<endbook()>.",
+    "reason": "Game font has no native-size lowercase q glyph (project constraint); 'quite' contains q. Replaced with 'a fairly', no change to meaning."
+   }
+  ],
+  "checked_decisions": [
+   "'New Federation' and 'Antibody Coralian' verified against locked spellings in character_names_021.json / glossary.json and mission_terms_019.json.",
+   "Speaker 23040 verified via speaker_lookup.py as Talho Yuki.",
+   "'Vulture' (singular, used as a group/unit label) verified against mission_terms_019 locked term for bartya.",
+   "Slot 20 malformed source markers ('20,1,1,' etc., trailing comma with only 3 fields instead of 4): reproduced byte-exact, per this task's ruling that malformed source marker tags stay byte-exact.",
+   "Slots 22-25 (Vulture's untrustworthiness, betrayal risk, request to back up their mothership) checked against source for causal order and tone; no inversion or added subject found.",
+   "All commands verified identical in count and order versus source for every row; ASCII-only, no newline, 128-visible-char limit verified for every row; no bare % found."
+  ],
+  "remaining_uncertainties": []
+ }
+}

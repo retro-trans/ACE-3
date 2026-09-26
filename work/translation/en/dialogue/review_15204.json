@@ -1,0 +1,30 @@
+{
+  "reviewer": "independent_translate_dialogue_shouts_agent",
+  "slice_start": 15204,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15189, "end": 15298}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [15204, 15205, 15216, 15224, 15229, 15241, 15282, 15283], "finding": "King Gainer self-reference pattern ('the King', 'King Gainer') and the Sara Kodama references confirmed against character_names_021.json (Gainer Sanga: headstrong, initially reluctant about Exodus; Sara Kodama locked as a separate character). No identity or gender invented beyond the lock; Sara is vocative in both 15216 and 15282, so 'you'll kiss me' correctly keeps her as addressee rather than inventing a third party."},
+    {"rows": [15210, 15211, 15220, 15221, 15226, 15232, 15238, 15245, 15247, 15250, 15252, 15253, 15268], "finding": "Unnamed ally pilot/mecha references ('you'/'that one') carry no invented gender or identity; consistent with the surrounding King Gainer combat-bark set (praise, reprimand, hand-off lines)."},
+    {"rows": [15248, 15254], "finding": "'Overman Battle' compound (locked 'Overman' + literal 'Battle') is coherent and reused again at row 15373 in the next resource (Dominator/Cynthia Lane); recommend the orchestrator lock it in terms_028.json or unit glossary since it now recurs across two pilots' lines."},
+    {"rows": [15207], "finding": "Source '逃がさない！' (transitive, 'won't let [you] escape') is rendered elliptically as 'Not escaping!'. Read as a combat bark aimed at a fleeing target (matching genre convention, e.g. 'Not so fast!'), this does not read as self-referential in context; left unchanged rather than treated as a wrong-addressee reversal."},
+    {"rows": [15280], "finding": "Compressed to the 72-character hard cap; verified both source clauses (bruise/pain from the last hit, then the life-affirming realization) survive in the English, nothing dropped."}
+  ],
+  "uncertainties": [
+    {"rows": [15207], "issue": "'Not escaping!' for '逃がさない！' is a defensible elliptical bark, but a stricter reading could momentarily parse it as self-referential ('I'm not escaping') rather than 'you're not escaping'; kept as-is since the combat context (chasing/blocking a target) resolves it, but flagging the ambiguity for a second opinion."},
+    {"rows": [15204, 15205, 15216, 15224, 15229, 15241, 15282, 15283], "issue": "Ruling on translator's uncertainty: upheld. King Gainer self-reference and Sara reference match the locked personality/relationship; no guessed identity beyond the lock."},
+    {"rows": [15210, 15211, 15220, 15221, 15226, 15232, 15238, 15245, 15247, 15250, 15252, 15253, 15268], "issue": "Ruling on translator's uncertainty: upheld. No gender/identity invented for the unnamed ally addressee."},
+    {"rows": [15248, 15254], "issue": "Ruling on translator's uncertainty: upheld. 'Overman Battle' is a reasonable literal compound; not yet in any glossary file, so still a proposal pending orchestrator lock (see checked_decisions)."},
+    {"rows": [15280], "issue": "Ruling on translator's uncertainty: upheld. Both clauses of the compressed line are present; nothing dropped at the byte cap."}
+  ],
+  "validation": {
+    "controls": "Re-ran tools/dialogue_corpus.py slice 15204 80 and diffed every <...> command against each target in order; all identical, no newline in any target.",
+    "format": "All 80 targets ASCII-only except no fullwidth glyphs used; visible text (tags stripped) at or under 110 chars for every row.",
+    "fit": "Per-row hard byte budget (min(72, 2*JP_chars-2)) was validated by the translator's own script per the batch file; not independently re-measured here since this was a meaning-only review.",
+    "runtime": "Runtime scene selection and font coverage are not established by this meaning review."
+  }
+}

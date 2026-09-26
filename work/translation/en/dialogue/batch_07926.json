@@ -1,0 +1,259 @@
+{
+  "slice_start": 7926,
+  "slice_count": 36,
+  "rows_examined": [
+    [
+      7911,
+      7976
+    ]
+  ],
+  "rows_examined_count": 66,
+  "rows_in_slice": 36,
+  "rows": [
+    {
+      "id": "dialogue_07926",
+      "target": "<op()><sp(20)>Is the Tower at its limit...!\nWe're abandoning ship!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07927",
+      "target": "<op()><sp(20)>We're running out of time for the operation.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07928",
+      "target": "<op()><sp(20)>Time's up...!\nNo way...!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07929",
+      "target": "<op()><sp(20)>Let's do our best.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07930",
+      "target": "<on()><sp(20)>Target confirmed.<ab(800)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07931",
+      "target": "<op()><sp(20)>An allied unit has been taken down!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07932",
+      "target": "<on()><sp(20)>I'm getting tired of you lot,\nso how about you die now.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07933",
+      "target": "<on()><sp(20)>Vanish, you nuisance!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07934",
+      "target": "<on()><sp(20)>Damn... you...!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07935",
+      "target": "<on()><sp(20)>Go...<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07936",
+      "target": "<on()><sp(20)>If you refuse Shin Dragon,\nthat's fine.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07937",
+      "target": "<on()><sp(20)>But you were born\nto become Shin Dragon's core.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07938",
+      "target": "<on()><sp(20)>Don't forget that.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07939",
+      "target": "<on()><sp(20)>Enemy forces are entering the operational area!<ab(800)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07940",
+      "target": "<on()><sp(20)>The enemy's main force, huh.\nMark them as targets and wipe them out.<ab(800)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07941",
+      "target": "<on()><sp(20)><color(5)>Saotome<ce()>...\nWhat in the world is he after!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07942",
+      "target": "<on()><sp(20)>If his goal were Earth's ruin,\nhe could simply wait for the <book(77)>Limit of Questions<endbook()> to come.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07943",
+      "target": "<on()><sp(20)>Yet why is he gathering <book(51)>Getter Rays<endbook()>\nand trying to evolve <book(48)>Shin Dragon<endbook()>!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07944",
+      "target": "<on()><sp(20)>Dr. <color(5)>Saotome<ce()> once did research\ntogether with <book(68)>Adroc Thurston<endbook()>,\nor so I'd guess.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07945",
+      "target": "<on()><sp(20)>That might have a lot to do\nwith what he's doing now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07946",
+      "target": "<on()><sp(20)>What did Dr. <color(5)>Saotome<ce()> know,\nto have made <book(48)>Shin Dragon<endbook()>...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07947",
+      "target": "<on()><sp(20)><color(5)>Berkt<ce()>'s movements are worrying too.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07948",
+      "target": "<on()><sp(20)>Yeah... it was almost as if\nthey'd set their sights on us.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07949",
+      "target": "<on()><sp(20)>If left alone, <book(48)>Shin Dragon<endbook()>\nwill store up even more <book(51)>Getter Rays<endbook()>.\nNo need to keep coming back.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07950",
+      "target": "<on()><sp(20)>Since we've become a nuisance,\nmaybe they've shifted their priority\nto crushing us instead.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07951",
+      "target": "<on()><sp(20)>Word's come in from the <book(84)>Tresor Research Institute<endbook()>.\nThe <book(61)>Nirvash<endbook()>'s spec-up\nis apparently ready.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07952",
+      "target": "<on()><sp(20)>Sorry, but the <color(4)>Gekko<ce()> is heading back to the <book(84)>Tresor Research Institute<endbook()> for now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07953",
+      "target": "<on()><sp(20)>Yeah, go ahead.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07954",
+      "target": "<on()><sp(20)>Wait, <color(4)>Holland<ce()>!\n<color(4)>Renton<ce()> said he was getting off\nthe <color(4)>Gekko<ce()> and left...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07955",
+      "target": "<on()><sp(20)>I... what should I do...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07956",
+      "target": "<on()><sp(20)>Seems like it's over that thing he's been worried about.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07957",
+      "target": "<on()><sp(20)>That damn idiot...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07958",
+      "target": "<on()><sp(20)>Anyone who's free, go find <color(4)>Renton<ce()>.\nWe can't let the <book(38)>New Federation<endbook()> take him...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07959",
+      "target": "<on()><sp(20)>We'll bring back the new <book(61)>Nirvash<endbook()>\nand return shortly.\n<color(4)>Hayato<ce()>, hold things down till then.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07960",
+      "target": "<on()><sp(20)>...\nIf you mean to apologize, I'd like to hear it.\nWhy did you suddenly do something like that.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07961",
+      "target": "<on()><sp(20)>I only wondered what kind of life <color(5)>Berkt<ce()> has lived.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_07941",
+      "note": "Row ends with no closing command in source (open dangling line), matching prior corpus precedent (e.g. dialogue_01102); no <ed()>/<off()> added."
+    },
+    {
+      "ids": [
+        "dialogue_07954",
+        "dialogue_07955",
+        "dialogue_07956"
+      ],
+      "note": "Speaker of dialogue_07955/07956 (likely Eureka, distressed that Renton left the Gekko) not named in source. 07955 is first-person, no pronoun needed. 07956 ('he's been worried about') uses 'he' for Renton, a named character with confirmed gender in character_names_021.json/glossary.json -- this is a researched character fact, not an inferred or invented gender, so it stands; kept genderless only where the source truly supplies no referent."
+    },
+    {
+      "id": "dialogue_07944",
+      "note": "MEANING FIX: 'or so I recall' changed to 'or so I'd guess'. Source hazu-da is a supposition/inference, not a memory claim; 'recall' wrongly implies the speaker witnessed or remembers the Saotome/Adroc Thurston research directly. Adroc Thurston and Limit of Questions left exactly as locked."
+    },
+    {
+      "id": "dialogue_07933",
+      "note": "MEANING FIX: 'Out of my way, you nuisance!' changed to 'Vanish, you nuisance!'. Source kieru ga ii ('had better disappear') is a kill/death threat like the surrounding lines (dialogue_07932 'die now'), not a request to step aside; 'out of my way' understated the threat."
+    }
+  ],
+  "validation": {
+    "commands": "Every angle-bracket command in each target reproduced in source order (on/off, color/ce, book/endbook), checked with an automated diff against tools/dialogue_corpus.py slice output (throwaway script, not committed).",
+    "fit": "All rows at full meaning; longest visible text in this slice is 93 characters (dialogue_07951), well under the 110-character budget. No shortening performed.",
+    "ascii": "ASCII-only; no lowercase j/q outside locked names, checked by script.",
+    "newlines": "Newline count in each target matches the intentional line breaks present in the source row, per docs/DIALOGUE.md guidance to preserve intentional breaks.",
+    "meaning_review": "Meaning-reviewed 2026-09-23: 2 rows corrected (dialogue_07933 kieru ga ii threat strength; dialogue_07944 hazu-da supposition vs memory); Limit of Questions and Adroc Thurston (dialogue_07942/07944) and Getter Rays confirmed as locked/corpus forms; all 36 rows in slice set to meaning_reviewed, none left as draft."
+  }
+}

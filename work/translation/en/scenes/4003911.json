@@ -1,0 +1,85 @@
+{
+ "resource_id": 4003911,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 6,
+ "rows_examined": 6,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Faction name; locked.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(12031,1)><speed(2)><move(1,10,15)>Now then<marker(1,6,15,0)>, let me<marker(1,10,15,0)> explain the operation.<move(2,8,15)><marker(3,8,15,0)><picture(97,2,14,0)><refer(2,14,8,15)>",
+   "notes": "",
+   "source_sha256": "f8df75389f06375b294f20b220f8ee60bc25735c7fcd42364b59badbc703949e"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(12031,1)><speed(2)><book(1)>Bal<marker(20,3,0,0)>dora<marker(20,5,0,0)> Dri<marker(20,0,2,0)>ve<marker(20,7,2,0)><endbook()> has<marker(20,7,4,0)> enemy<marker(20,0,6,0)> forces<marker(20,3,6,0)> deployed<marker(20,14,6,0)> all around it - go ahead and <color(5)>wipe<marker(20,8,8,0)> them<ce()> all<marker(20,3,10,0)> out<marker(20,10,10,0)>, one<marker(20,1,12,0)> by<marker(20,5,12,0)> one<marker(20,12,12,0)>, would<marker(20,8,13,0)> you<marker(20,10,13,0)> please<marker(20,13,14,0)>?",
+   "notes": "Very dense 16-marker cluster (4 inside the Baldora Drive book span, 12 after); distributed across the sentence in order, per the style of reviewed dense-marker rows (e.g. 4003030 slot 34, 4003581 slot 21).",
+   "source_sha256": "3f2aa20d68411e4ffb84d442215eeb60669e7d5ec26efc37a90d04fbff9a34f3"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(12031,1)><speed(2)>It'd<marker(5,2,2,0)> be enough<marker(5,5,2,0)> to reduce<marker(5,0,8,0)> their numbers<marker(5,14,8,0)> low<marker(5,7,10,0)> enough<marker(5,1,14,0)> to secure<marker(5,5,13,0)> the area<marker(5,14,14,0)>, but this time, <color(6)>time is what matters<ce()>.",
+   "notes": "",
+   "source_sha256": "49f1a956c1ba7499f4cb3b79294b7c4eae7d0c3816d4ab7db0ff9f14835d22e3"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(12031,1)><speed(2)>If we fall behind, the operation won't go well. The enemy<marker(37,5,8,0)> will throw<marker(37,10,6,0)> everything they have at us<danger(1)> too, so keep pushing hard.",
+   "notes": "",
+   "source_sha256": "e585d90c35b3f1002a565203da269342b4edb9dda3885be815df50070a226778"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<delpic(2,14,1)><enemylist()><operator(12031,1)><speed(2)>Everyone... I'm counting on you.",
+   "notes": "",
+   "source_sha256": "3f482f5e3aa79938d9c81d3df26e600168666a28c2a7c8012c25543155a0a213"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 0,
+   "issue": "Title 'New Federation' matches locked spelling; no dedup match found among the five reference reviewed scenes (4003581/91/4003631/41/4003531) despite the shared title -- body text differs (this is a Baldora Drive area mop-up briefing, not a train-escort or Macross briefing), so translated fresh."
+  },
+  {
+   "slot": 20,
+   "issue": "Baldora Drive is the locked term (terms_028.json); dense 16-tag marker cluster distributed proportionally, exact per-syllable timing unverifiable without a build."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 6,
+  "rows_in_scene": 6,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker 12031 = Ruri Hoshino.",
+   "'Baldora Drive' (book(1)) kept per orchestrator decision/glossary.json, matching 4003030's locked spelling regardless of the exact source katakana reading.",
+   "Slot 20: source's <color(5)> wraps the noun phrase for 'enemy forces' directly; the draft's <color(5)>/<ce()> pair instead wraps 'wipe them' later in the sentence, because the draft's word order already spends 'enemy forces' earlier (uncolored) to keep the preceding 4-marker run in a natural position. Meaning is not affected ('them' = the enemy forces), and the full dense tag set is identical in count and order to the source, so left as translation-flexibility rather than rewritten; see remaining_uncertainties.",
+   "Slot 21: all 8 markers verified present and in order (a first pass misread one as missing; re-verified directly against tools/scene_source.py output and confirmed the draft is correct).",
+   "Slot 22/23: meaning and command order verified (if we fall behind the operation won't go well, the enemy will also throw everything they have at us, so keep pushing; everyone, I'm counting on you).",
+   "All commands identical in count/order vs source in every row (verified programmatically); ASCII-only, no newline, 128-char limit respected, no lowercase j/q, no bare %."
+  ],
+  "remaining_uncertainties": [
+   "Slot 20: the <color(5)> highlight lands on 'wipe them' (verb+pronoun) rather than on the noun 'enemy forces' itself, because of how the sentence was reordered around the dense marker run before it. Every other reviewed scene colors the target noun; a restructure (cleft, matching the technique used in 4003591 slot 22) could move the highlight onto 'enemy forces' while keeping tag order intact, but risks new tag-order errors without a build to check against - left as-is and flagged rather than risk a wrong edit."
+  ]
+ }
+}

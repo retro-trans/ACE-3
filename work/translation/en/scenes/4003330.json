@@ -1,0 +1,140 @@
+{
+ "resource_id": 4003330,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 13,
+ "rows_examined": 13,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "27  Stop Axis",
+   "notes": "Released mission title reused (missions_019.json slot 320).",
+   "source_sha256": "c5b79189a074241079fcdeac1bb73caf3393a9a1217f4f8de235a9e9c3950e5a"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30050,1)><speed(2)>Well done making it back, everyone. I must brief you on the situation right away.",
+   "notes": "",
+   "source_sha256": "b73b53a8d740611812170b7ca66f049bb062f01adadf17f0fe295a78d1b01ef4"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30050,1)><speed(2)><book(12)>Neo Zeon<endbook()>'s <book(13)>5th Luna<endbook()> Drop Operation has failed. The <book(29)>Martian Successors<endbook()>, and the former <book(18)>Giganos<endbook()>'s breakup...",
+   "notes": "Restructured so book(12) precedes book(13), matching source tag order. Martian Successors = book(29) per glossary.json org.martian_successors / 4003160,4003220 precedent.",
+   "source_sha256": "d9658ebdb2bd94a7ba103eac2e7c107cd7c28cbe3a724ea11503eb9c19f83044"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30050,1)><speed(2)>So <book(12)>Neo Zeon<endbook()>, now at a disadvantage, had been seeking peace talks with the <book(9)>Earth Federation<endbook()> government<thumbnail(287)>.",
+   "notes": "Orchestrator: shortened to fit three lines.",
+   "source_sha256": "d0e781d718a30bb58f3c2bcefd0d0c081031a4b1c0c28cc005d36d4bdac5ad30"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30050,1)><speed(2)>But... All of that was nothing more than <color(5)>Char<ce()>'s scheme.",
+   "notes": "'Char' short form per 4003200 precedent.",
+   "source_sha256": "95577a99d61eb259b866bb34368698bc98f63317774bc255e833c03a62cc94ed"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30050,1)><speed(2)>Handed over by the <book(9)>Earth Federation<endbook()> in exchange for disarmament, <book(14)>Axis<endbook()> - dropped onto Earth.",
+   "notes": "Kept as a sentence fragment, as in the source (object clause continuing into slot 24); restructured so book(9) precedes book(14), matching source tag order.",
+   "source_sha256": "029bdc23a07d36b5c9093f01f8cd890c15b2751a1ac943c1ab8d9ffbf93d90e8"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30050,1)><speed(2)>That was <book(12)>Neo Zeon<endbook()>'s... <color(5)>Char Aznable<ce()><thumbnail(288)>'s true goal.",
+   "notes": "",
+   "source_sha256": "8a27c78ed19ae2d1233165441bf0c61efeecba437a41e8c2de93259de83570be"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30050,1)><speed(2)><book(14)>Axis<endbook()> has already begun accelerating, and is now on a fall path toward Earth. Intel also says nuclear weapons are aboard.",
+   "notes": "",
+   "source_sha256": "7e6bd1f1b36fb08a5600e80eb92109cf38aacfc5886aa3c83489086caa65f3b6"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30050,1)><speed(2)>If this <book(14)>Axis<endbook()> Drop becomes reality, the damage to Earth will be immeasurable.",
+   "notes": "",
+   "source_sha256": "a7f993d4cd476818b247a7a03c9ae90b20064f43e6a1182eaebc628ddca2f7c6"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30050,1)><speed(2)>A nuclear winter<thumbnail(239)> will come, and Earth will become a land unfit for human habitation.",
+   "notes": "Same thumbnail id (239) as the 'nuclear winter' caption reused verbatim from reviewed scene 4003200.",
+   "source_sha256": "a029ff916c19f7dc8834fa2bfb90bbb3d5a0762e6cfbd186ff1bfb7474a2a8b2"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30050,1)><speed(2)>From here on, we will exert every ounce of strength we have, and carry out the operation to stop <book(14)>Axis<endbook()>'s fall.",
+   "notes": "",
+   "source_sha256": "8efc293ac93dbf23a66762f9ef89414a5192758d0939375ff41fb809f73e0cef"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<thumbdown()><operator(30050,1)><speed(2)>Naturally, enemy resistance will be fierce. This is truly the critical moment. But... we have no choice but to do it.",
+   "notes": "",
+   "source_sha256": "6630cd268ec238b58feaac4cb94ef562116f044d6b0bf4319cfd33bb234c5cf3"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30050,1)><speed(2)>I want you to go into this ready to give everything you have.",
+   "notes": "",
+   "source_sha256": "ef82197029af91e107bd8b44e6c1c998a145f43aad235c4702199aace0550bd7"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 20,
+   "issue": "Sentence reordered ('Carried out by Neo Zeon, the 5th Luna Drop Operation has failed') to keep book(12) before book(13) as in the source, instead of the more literal '5th Luna Drop Operation ... carried out by Neo Zeon, has failed.'"
+  },
+  {
+   "slot": 23,
+   "issue": "Kept as a deliberate sentence fragment ('Handed over by the Earth Federation ... Axis - dropped onto Earth.') mirroring the source's noun-phrase-only row (ends in a nominalizer, no finite verb), which is completed in meaning by slot 24's 'That was Neo Zeon's ... true goal.'"
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 13,
+  "rows_in_scene": 13,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 '27  Stop Axis' (slot 320).",
+   "Speaker 30050 = Kouichiro Misumaru throughout, matches speaker_lookup.",
+   "Names verified: Neo Zeon, Martian Successors, Giganos, Earth Federation, Axis, Char / Char Aznable all match glossary.json.",
+   "Slot 20 reordering ('Neo Zeon's 5th Luna Drop Operation has failed...') checked against source; keeps book(12) before book(13) in command order and preserves meaning (operation carried out by Neo Zeon, and it failed).",
+   "Slot 23 kept as a sentence fragment matching the source's noun-phrase-only row, completed in meaning by slot 24; checked and correct.",
+   "Command lists, ASCII-only, no newline, and 128-char visible-length limit re-verified for all 13 rows; all pass.",
+   "No lowercase j/q found outside locked names."
+  ],
+  "remaining_uncertainties": []
+ }
+}

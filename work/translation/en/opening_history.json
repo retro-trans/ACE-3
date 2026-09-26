@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "version": "0.1.12",
+  "source_iso": "ACE3-English-0.1.11.iso",
+  "resource_id": 4010,
+  "table_offset": 3374368,
+  "source_table_size": 2304,
+  "source_slot_count": 200,
+  "scope": "Complete opening history crawl, all non-null rows in the 200-slot table. Paragraphs are grouped for full-meaning reflow; original row counts are not English line limits.",
+  "review": {
+    "rows_in_slice": 39,
+    "rows_examined": 39,
+    "slots_examined": 200,
+    "paragraphs_and_headings": 20,
+    "status": "meaning_reviewed",
+    "independent_review": {
+      "reviewer": "review_opening_history",
+      "source": "ACE3-English-0.1.11.iso, resource 4010, table at 3374368",
+      "rows_in_slice": 39,
+      "rows_examined": 39,
+      "slots_examined": 200,
+      "groups_examined": 20,
+      "source_hashes_verified": 39,
+      "english_changes": 0,
+      "findings": [
+        "All source paragraphs and their adjacent chronology were read directly from the ISO. No substantive omissions or mistranslations were found.",
+        "The naturalization and voluntary micronization programs remain separate; the latter is explicitly restricted to volunteers.",
+        "The meteorite arrival route remains unknown, the life forms remain unidentified, and the final meteorite is one of the largest rather than the single largest.",
+        "All named events, organizations, dates, and causal links are retained. Locked names were not changed."
+      ],
+      "uncertainties": [
+        "The source term rendered auxiliary force describes Londo Bell's organizational position outside the main military structure; auxiliary is defensible, but should not be read as a claim that it is a reserve force.",
+        "The documented provisional English event, calendar, and Saint Cruz names were preserved. This meaning review does not independently certify their official English spellings."
+      ]
+    },
+    "notes": [
+      "All 39 non-null source rows are covered exactly once. The other 161 slots are null layout spacing.",
+      "Year headings retain the three-digit Unified Calendar numbering.",
+      "The source identifies no species name for the life forms; no identity was supplied.",
+      "Untraced trajectory preserves the unknown route of arrival without claiming that the meteorite's physical origin is known or unknown.",
+      "The final impact is one of the largest recorded, not categorically the single largest.",
+      "Megaroad-01 is used for the emigration fleet in this game sentence; do not rewrite it as only the ship."
+    ]
+  },
+  "locked_terms": [
+    "Zentradi",
+    "Jovian Federation",
+    "Vice Admiral Kusakabe",
+    "Earth Federation",
+    "Londo Bell",
+    "Project Super Nova",
+    "Giganos",
+    "Nadesico B"
+  ],
+  "terminology": [
+    {
+      "term": "Hisago Plan",
+      "status": "researched",
+      "source": "https://www.crunchyroll.com/watch/G6MG7PNV6/martian-successor-nadesico-prince-of-darkness",
+      "note": "Licensed film synopsis names the transport network and uses Boson Jumping."
+    },
+    {
+      "term": "boson jump",
+      "status": "researched",
+      "source": "https://www.crunchyroll.com/watch/G6MG7PNV6/martian-successor-nadesico-prince-of-darkness",
+      "note": "Sentence-case noun form of the licensed synopsis's Boson Jumping."
+    },
+    {
+      "term": "Megaroad-01",
+      "status": "researched_secondary",
+      "source": "https://macross.fandom.com/wiki/SDF-2_Megaroad-01",
+      "note": "Franchise reference provides this spelling and the emigration-fleet context; ACE3 chronology remains the source."
+    },
+    {
+      "term": "Macross City",
+      "status": "researched_secondary",
+      "source": "https://macross.fandom.com/wiki/Macross_City"
+    },
+    {
+      "term": "Sweetwater",
+      "status": "researched_secondary",
+      "source": "https://gundam.neoseeker.com/wiki/Char%27s_Counterattack_Encyclopedia",
+      "note": "Spelling confirmed for the refugee colony."
+    },
+    {
+      "term": "micronization",
+      "status": "researched_secondary",
+      "source": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Zentradi",
+      "note": "Reference explicitly equates the game term with the size-reduction process; not a claim of an official English localization."
+    },
+    {
+      "term": "Hot-Blooded Coup",
+      "status": "provisional_english",
+      "source": "https://w.atwiki.jp/aniwotawiki/pages/6100.html",
+      "note": "Japanese reference confirms the named coup and younger moderates; no canonical English event title verified."
+    },
+    {
+      "term": "First Defense War",
+      "status": "provisional_english",
+      "note": "Literal event name from the game; no canonical English title verified."
+    },
+    {
+      "term": "Unified Calendar",
+      "status": "provisional_english",
+      "note": "Literal calendar name from the game; not Universal Century."
+    },
+    {
+      "term": "Saint Cruz",
+      "status": "provisional_english",
+      "note": "Romanization from the game; no independent English spelling verified. Do not silently substitute Santa Cruz."
+    }
+  ],
+  "groups": [
+    {
+      "id": "year_058",
+      "kind": "heading",
+      "source_slots": [
+        10
+      ],
+      "source_rows": [
+        {
+          "slot": 10,
+          "text_id": 11,
+          "source_sha256": "51f0387601dd5361297b9996e5044fad506e056e56d40a0b0b95e7705df711cc"
+        }
+      ],
+      "en": "Unified Calendar 058"
+    },
+    {
+      "id": "first_defense_war",
+      "kind": "paragraph",
+      "source_slots": [
+        12,
+        13,
+        14
+      ],
+      "source_rows": [
+        {
+          "slot": 12,
+          "text_id": 13,
+          "source_sha256": "6b2ab1d72e146f1ae5686a85f8e9e43b014aabc4944aef8a491506fe4ec9a1c8"
+        },
+        {
+          "slot": 13,
+          "text_id": 14,
+          "source_sha256": "97df0afa7f9fd3974041a4dcae389479775295a3770e546bba1f07b6758ced2c"
+        },
+        {
+          "slot": 14,
+          "text_id": 15,
+          "source_sha256": "d76521f29b9181a27779dcacbdd70d4829c57e9fc42055c14f8bcd824f015135"
+        }
+      ],
+      "en": "The great war involving the Zentradi fleet, the Jovian Federation, and other invading forces from outer space comes to an end. It will later become known as the First Defense War."
+    },
+    {
+      "id": "zentradi_peace",
+      "kind": "paragraph",
+      "source_slots": [
+        17
+      ],
+      "source_rows": [
+        {
+          "slot": 17,
+          "text_id": 18,
+          "source_sha256": "761a3057e8f65b226684e6318211093b39fc725df99c1402d55f84d84d9b1c22"
+        }
+      ],
+      "en": "Earth concludes a peace treaty with the Zentradi."
+    },
+    {
+      "id": "hot_blooded_coup",
+      "kind": "paragraph",
+      "source_slots": [
+        19,
+        20,
+        21
+      ],
+      "source_rows": [
+        {
+          "slot": 19,
+          "text_id": 20,
+          "source_sha256": "9ae67f38b632fd411cd6c799eec9cb064e6a6bce5fbf7ae555192b5a39d98fa2"
+        },
+        {
+          "slot": 20,
+          "text_id": 21,
+          "source_sha256": "373e82bbc74113915a34bf64bf02cd64c61ce2a6af9e22dabfa8962b13072d69"
+        },
+        {
+          "slot": 21,
+          "text_id": 22,
+          "source_sha256": "1009016548ce5f2e7d4008b386f1fc8f45d80a089d6c4470fe48eccb42da2f28"
+        }
+      ],
+      "en": "The Hot-Blooded Coup breaks out within the Jovian Federation. Its former leader, Vice Admiral Kusakabe, goes missing, and an administration led by younger advocates of peace takes over."
+    },
+    {
+      "id": "earth_federation_founded",
+      "kind": "paragraph",
+      "source_slots": [
+        23,
+        24,
+        25
+      ],
+      "source_rows": [
+        {
+          "slot": 23,
+          "text_id": 24,
+          "source_sha256": "ab9d3caad1fa7c876cd494e728fbdfe5930fde2d643ffd0a4745eb886855c350"
+        },
+        {
+          "slot": 24,
+          "text_id": 25,
+          "source_sha256": "cfb0a45b84caefe2ccbc550f646989bd2dd29da84c55580e0f54cafc98f21a15"
+        },
+        {
+          "slot": 25,
+          "text_id": 26,
+          "source_sha256": "ffecedf19e4f9f412eed1834639f2e07075302812f1af98b3baf53deedc242dd"
+        }
+      ],
+      "en": "This leads to peace between Earth and the Jovian Federation. Together with the Zentradi, the three parties establish a joint government: the Earth Federation."
+    },
+    {
+      "id": "naturalization",
+      "kind": "paragraph",
+      "source_slots": [
+        28,
+        29
+      ],
+      "source_rows": [
+        {
+          "slot": 28,
+          "text_id": 29,
+          "source_sha256": "ffa44187b2dac848b56009ee5552e2fd89e7eda946c75580dc707cf81e1acbd3"
+        },
+        {
+          "slot": 29,
+          "text_id": 30,
+          "source_sha256": "d23038d7434bb04e36f3989e23dff6abd886a8e10286dc678c30ec461d944f37"
+        }
+      ],
+      "en": "A naturalization program for the Zentradi begins, along with micronization for those who request it."
+    },
+    {
+      "id": "hisago_plan",
+      "kind": "paragraph",
+      "source_slots": [
+        31,
+        32
+      ],
+      "source_rows": [
+        {
+          "slot": 31,
+          "text_id": 32,
+          "source_sha256": "34c751d314b893d55382f9636343d29e7d566bb2e63b08c23e2e45fdfb33498d"
+        },
+        {
+          "slot": 32,
+          "text_id": 33,
+          "source_sha256": "456c6553d9d6cbe7f6148476ba1080a6d6a9e1f60757c3133ccdaef202f0c516"
+        }
+      ],
+      "en": "Work begins on the Hisago Plan, a transport-route development project to build a boson jump network throughout the solar system."
+    },
+    {
+      "id": "economic_sanctions",
+      "kind": "paragraph",
+      "source_slots": [
+        34,
+        35
+      ],
+      "source_rows": [
+        {
+          "slot": 34,
+          "text_id": 35,
+          "source_sha256": "4a7041305d0e9c57a8e8393b088ac323ad4fbf33f1e86088ae3a70f97a4a2aed"
+        },
+        {
+          "slot": 35,
+          "text_id": 36,
+          "source_sha256": "8c2b6579fd84284567a87154c5739f7831782f9225ef062a35fdde259ea5e658"
+        }
+      ],
+      "en": "The Earth Federation imposes economic sanctions on anti-Federation colonies and the former Giganos Empire."
+    },
+    {
+      "id": "year_059",
+      "kind": "heading",
+      "source_slots": [
+        40
+      ],
+      "source_rows": [
+        {
+          "slot": 40,
+          "text_id": 41,
+          "source_sha256": "49aeba29d928cb82636dfbbae1a4cce3ee7791c9e7b1aed3151899fcde4dbdbf"
+        }
+      ],
+      "en": "Unified Calendar 059"
+    },
+    {
+      "id": "megaroad_and_macross",
+      "kind": "paragraph",
+      "source_slots": [
+        42,
+        43,
+        44
+      ],
+      "source_rows": [
+        {
+          "slot": 42,
+          "text_id": 43,
+          "source_sha256": "adc41209e6ba1e22e70dbfbd070eda1dc3ee39f3a0d3b9a8d1057392e9e1b77a"
+        },
+        {
+          "slot": 43,
+          "text_id": 44,
+          "source_sha256": "49735b218f196d5ac9dfa762e4c1845abdcbc887e5b6a4a3b24131347692d673"
+        },
+        {
+          "slot": 44,
+          "text_id": 45,
+          "source_sha256": "6b72316d6681984d9cafea160f59dd751e7ebb036a010d3141beeec19fbc8353"
+        }
+      ],
+      "en": "Megaroad-01, the first super-long-range emigration fleet, departs. Macross City is established, with the decommissioned Macross preserved there as a symbol of peace."
+    },
+    {
+      "id": "sweetwater",
+      "kind": "paragraph",
+      "source_slots": [
+        46,
+        47
+      ],
+      "source_rows": [
+        {
+          "slot": 46,
+          "text_id": 47,
+          "source_sha256": "0b22ff85ba21ac844c0453d63d92bac16af37e7739ec9d931f78ffba9863dedd"
+        },
+        {
+          "slot": 47,
+          "text_id": 48,
+          "source_sha256": "b1fdd97575cd5198e901c86b715ba0b94a4493b3a309daf66fa7689a943603d6"
+        }
+      ],
+      "en": "The Earth Federation constructs Sweetwater to accommodate refugees displaced by the First Defense War."
+    },
+    {
+      "id": "zentradi_riots",
+      "kind": "paragraph",
+      "source_slots": [
+        49,
+        50
+      ],
+      "source_rows": [
+        {
+          "slot": 49,
+          "text_id": 50,
+          "source_sha256": "faa2a77463ca8eaef11c4fe9aa840d48df7923f33bee2e18dd8cc02334f58554"
+        },
+        {
+          "slot": 50,
+          "text_id": 51,
+          "source_sha256": "f740cdc4e9e8e7d12df57ec12d5554a0ecdc645b21153c6134def904bcca1e5c"
+        }
+      ],
+      "en": "Inadequate support for resettlement on Earth leads to riots among Zentradi immigrants."
+    },
+    {
+      "id": "londo_bell",
+      "kind": "paragraph",
+      "source_slots": [
+        53,
+        54,
+        55
+      ],
+      "source_rows": [
+        {
+          "slot": 53,
+          "text_id": 54,
+          "source_sha256": "28a520ea1c98fac5b1b480d61d073d7b7d6813cf22a184336093214a55851bb3"
+        },
+        {
+          "slot": 54,
+          "text_id": 55,
+          "source_sha256": "bf8ab34484f9b604169e672548455a9f57011dc7e0118656d9752553b3e7d213"
+        },
+        {
+          "slot": 55,
+          "text_id": 56,
+          "source_sha256": "3289ee9b485a1e9a5ac6439549ab00244e9656077fb68e71d642f61f834589e3"
+        }
+      ],
+      "en": "After dealing with the aftermath of the war, the Earth Federation begins reorganizing its military. Londo Bell is established as an auxiliary force to maintain security in the Earth Sphere."
+    },
+    {
+      "id": "project_super_nova",
+      "kind": "paragraph",
+      "source_slots": [
+        57,
+        58
+      ],
+      "source_rows": [
+        {
+          "slot": 57,
+          "text_id": 58,
+          "source_sha256": "eb17b8ce812506d654d2147d7a460d0870d634ab79ddbb4520ae130d2a379427"
+        },
+        {
+          "slot": 58,
+          "text_id": 59,
+          "source_sha256": "e107674b1049931e343666b9e3ea7eb22ba9fec90a42f7db5c4a9347ccd9a8d4"
+        }
+      ],
+      "en": "Project Super Nova begins, with the aim of selecting the next-generation Valkyrie."
+    },
+    {
+      "id": "year_060",
+      "kind": "heading",
+      "source_slots": [
+        63
+      ],
+      "source_rows": [
+        {
+          "slot": 63,
+          "text_id": 64,
+          "source_sha256": "54be3b7b1e0468c23f5fcdb0160ef7c41da28c489c7c000a5d435b5a0a5f4850"
+        }
+      ],
+      "en": "Unified Calendar 060"
+    },
+    {
+      "id": "nadesico_b",
+      "kind": "paragraph",
+      "source_slots": [
+        65
+      ],
+      "source_rows": [
+        {
+          "slot": 65,
+          "text_id": 66,
+          "source_sha256": "0d737000235a1eaa426eb7ba8c6baafbab029c6646e98bea02d366f0e2aaf13e"
+        }
+      ],
+      "en": "The battleship Nadesico B enters service."
+    },
+    {
+      "id": "unknown_life_forms",
+      "kind": "paragraph",
+      "source_slots": [
+        68,
+        69,
+        70
+      ],
+      "source_rows": [
+        {
+          "slot": 68,
+          "text_id": 69,
+          "source_sha256": "c26f336425a9e69662cc2b5d512a05c7afec663188938192af8a22f856777726"
+        },
+        {
+          "slot": 69,
+          "text_id": 70,
+          "source_sha256": "db5a50f070aff052f59bec6faef8ba0af2b7b60674c037c19b14f431e9602cee"
+        },
+        {
+          "slot": 70,
+          "text_id": 71,
+          "source_sha256": "e144094c39b4d0393c6b9769f5b58d91034af59a3337ecbecb4dbb65e42b95da"
+        }
+      ],
+      "en": "A small meteorite falls to Earth along an untraced trajectory. Unidentified life forms emerge from it, and their attacks cause mounting damage across many regions."
+    },
+    {
+      "id": "investigation",
+      "kind": "paragraph",
+      "source_slots": [
+        72,
+        73
+      ],
+      "source_rows": [
+        {
+          "slot": 72,
+          "text_id": 73,
+          "source_sha256": "9144ffcb67fe71257d6c5a12306b4a184672f7f8d5dd3a1f2d5fd292dd5fd823"
+        },
+        {
+          "slot": 73,
+          "text_id": 74,
+          "source_sha256": "e02982d3ed0d27e56c2ccd41f1815cfa7177dc966c1d842ba88fc8a97482e7a4"
+        }
+      ],
+      "en": "The Earth Federation orders its military to respond to the crisis. Londo Bell forms a special investigation team."
+    },
+    {
+      "id": "january_060",
+      "kind": "heading",
+      "source_slots": [
+        78
+      ],
+      "source_rows": [
+        {
+          "slot": 78,
+          "text_id": 79,
+          "source_sha256": "57f4e295c74e678aeeb2945c8e608366e3747a311e7f0dbc77753cc2e13ccf1b"
+        }
+      ],
+      "en": "January of the Same Year"
+    },
+    {
+      "id": "saint_cruz",
+      "kind": "paragraph",
+      "source_slots": [
+        80
+      ],
+      "source_rows": [
+        {
+          "slot": 80,
+          "text_id": 81,
+          "source_sha256": "338edd485254331a4fb6e9e13ccefef63c678ae85b2ea5bbf3ea3407ef47ea63"
+        }
+      ],
+      "en": "One of the largest meteorites ever recorded strikes Saint Cruz."
+    }
+  ]
+}

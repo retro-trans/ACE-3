@@ -1,0 +1,33 @@
+{
+  "reviewer": "independent_review_shouts_agent",
+  "slice_start": 15608,
+  "slice_count": 80,
+  "rows_examined": [{"start": 15593, "end": 15702}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "resource_boundaries_in_slice": [
+    {"rows": [15608, 15610], "resource": 2822010, "pilot": "Kira Yamato (Freedom Gundam)"},
+    {"rows": [15611, 15687], "resource": 2822020, "pilot": "Athrun Zala (Justice Gundam)"}
+  ],
+  "meaning_fixes": [
+    {
+      "id": "dialogue_15664",
+      "before": "Now!",
+      "after": "Here",
+      "reason": "Same pattern as dialogue_15582 in the previous slice: source 'kuru' (lit. 'it/they are coming') is an enemy-arrival exclamation (row 15663 'Reinforcements at this timing?!' immediately precedes it; row 15665 'New forces?!' immediately follows). 'Now!' dropped the arrival sense for an unrelated timing cue. Fixed to 'Here', which fits the 4-char hard budget (min(72,2*3-2)) exactly with the exclamation mark dropped."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [15613, 15618], "finding": "'Aitsura sae shizumereba' ('if only I sink/take down those guys') and 'Shizumesase yashinai!' ('I won't let [you] be sunk') use 'shizumeru' (lit. 'sink') figuratively for a mobile-suit kill/knockdown, not a literal naval sinking -- this is Justice Gundam aerial/space combat, no ship context. Translator's uncertainty on dialogue_15613 resolved: 'Just take them down!' and 'You won't sink!' are correct, no naval misreading."},
+    {"rows": [15629], "finding": "'Kono mama de wa!' (lit. 'if it stays like this!') rendered as 'Not this!' -- same trajectory-warning-to-dismay shift as dialogue_15544 in the prior slice; not a reversal, left as phrased."},
+    {"rows": [15623, 15647, 15662], "finding": "Polite outward requests/rebukes ('sotchi wa onegai shimasu', 'anata ga sore de wa...', 'kono senkyoku wo yuui ni suru no wa anata shidai desu') consistently addressed outward to an ally/co-combatant, not misattributed to Athrun himself; translations preserve the addressee correctly."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-checked command-tag order and newline counts against the freshly re-sliced source for all 80 rows; the one edited row (dialogue_15664) keeps its original <op()><sp(20)>...<ab(1000)><ed()> tag sequence.",
+    "fit": "Recomputed the hard budget min(72, 2*source_ja_char_count-2) for every flagged row from the live source; the fix (dialogue_15664, 'Here', 4 chars) sits exactly at its 4-char budget.",
+    "ascii": "No new non-ASCII characters, curly quotes/dashes, bare '%', or lowercase j/q introduced by the fix.",
+    "status": "All 80 rows set to meaning_reviewed; none left as draft."
+  }
+}

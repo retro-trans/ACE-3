@@ -1,0 +1,18 @@
+{
+  "slice_start": 558,
+  "slice_count": 80,
+  "reviewer": "translate_dialogue_241",
+  "rows_examined": [[543, 652]],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_type": "independent meaning review against ISO source and both adjacent contexts",
+  "corrections": [],
+  "uncertainties": [
+    {"ids": ["dialogue_00566", "dialogue_00603"], "note": "The warning about heavier vernier consumption appears to continue the earlier dodge explanation, but resource storage order does not establish event order. Both fragments retain their full meaning."},
+    {"id": "dialogue_00572", "note": "The death call is a training defeat, not a claim that the pilot has actually died."},
+    {"id": "dialogue_00602", "note": "The arriving subject is unspecified in this line. Visitor remains neutral; no person or gender was supplied."},
+    {"note": "Ensign and Lieutenant rank choices remain subject to the project terminology pass. No rank or name normalization was performed in this meaning review."},
+    {"note": "This slice includes apparent legacy training material. Its presence in the ISO does not establish that it is reachable in ACE3; speaker and event linkage remain unverified."}
+  ],
+  "result": "No meaning corrections required. All 80 translations reviewed against source, with 15 rows of context on each side. This review does not certify glossary finalization, display fit or runtime behavior."
+}

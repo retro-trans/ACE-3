@@ -1,0 +1,26 @@
+[
+  {
+    "term_romaji": "ouji no gakusetsu wo tsugumono, ou ga nokoshita kinshi wo tsugumono",
+    "en": "the one who inherits the king's right, the one who inherits the golden bough the king left behind",
+    "source": "https://eurekaseven.fandom.com/wiki/Dewey_Novak ; http://aimugi.blog.jp/archives/8015826.html ; https://dic.pixiv.net/a/%E9%87%91%E6%9E%9D%E7%AF%87",
+    "why": "dialogue_08165 (金枝, 'golden bough') is not in any of the four named glossary files. Web research confirms this is a direct reference to James Frazer's anthropological study 'The Golden Bough' (kinshihen), stated by multiple Japanese sources to be Dewey Novak's favorite book and the thematic source for Eureka Seven's king-succession motif (a king must be slain and his golden bough inherited by the successor). Rendered literally as 'golden bough' (lowercase, in-line reference rather than a proper title) since the line itself is Dewey's own philosophical musing, not a citation of the book's title. Flagging for glossary consolidation as a recurring Dewey/Eureka-Seven thematic term, likely to reappear in later Dewey-centric scenes."
+  },
+  {
+    "term_romaji": "hakuchou",
+    "en": "the swan",
+    "source": "none found; researched via WebSearch for Eureka Seven / Overman King Gainer 'swan' code-name or motif with no clear match",
+    "why": "dialogue_08126 (白鳥, 'swan') has no locked glossary entry and no confirmed referent. Spoken by Shagia Frost to Olba ('It seems the swan has finally come... Olba'), likely a poetic/code reference to an arriving unit (Nirvash or the Freeden/Gekko forces) but not confirmed by neighbouring rows. Translated literally; flagged as an open research item rather than guessed."
+  },
+  {
+    "term_romaji": "Chaaruzu Biimusu / Rei Biimusu",
+    "en": "Charles Beams / Ray Beams",
+    "source": "work/glossary/character_names_021.json (already fully researched there: Charles male ex-SOF mercenary LFO pilot, Ray female his wife and fighting partner, kind/caring/timid); work/glossary/unit_names_014_a.json already locks their Spearhead units ('Spearhead (Charles)', 'Spearhead (Ray)', 'Spearhead SH101 (Charles)/(Ray)')",
+    "why": "Charles and Ray Beams are central to this slice (dialogue_08086-08108, 08159-08213: their job offer to adopt Renton, being hired by the New Federation, Charles's duel with Dewey, Ray's death). Their names and unit forms are already researched in character_names_021.json and unit_names_014_a.json, but they are absent from the consolidated work/glossary/glossary.json character roster and from mission_terms_019.json's inherited_terms list. Flagging so the orchestrator can promote these two already-researched entries into the main consolidated glossary before more scenes referencing them are translated in parallel."
+  },
+  {
+    "term_romaji": "moto SOF dai-ichi dai-ni no heddo doushi",
+    "en": "As former heads of SOF Units One and Two",
+    "source": "work/glossary/character_names_021.json (Charles: 'ex-SOF'; Dewey: 'former SOF head')",
+    "why": "dialogue_08162 uses 'SOF' (Special Operations Force, per the existing Charles/Dewey character notes) but no glossary file spells out the SOF Unit 1/Unit 2 division referenced here (Dewey addressing Charles as a fellow former SOF unit head before their duel). Rendered 'Units' rather than 'Squads' to avoid the lowercase q the font lacks. Flagging so a canonical SOF numbering/naming convention can be locked centrally if it recurs."
+  }
+]

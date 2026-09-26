@@ -1,0 +1,26 @@
+{
+  "reviewer": "meaning_review_pilot_shouts_agent",
+  "slice_start": 14831,
+  "slice_count": 80,
+  "rows_examined": [{"start": 14816, "end": 14925}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [14831, 14842], "finding": "Kei (resource 2819011, Shin Getter-2) self-refers with the masculine-coded pronoun オレ in these two rows; per character_names_021.json she is female but written 'tomboyish, acts strong but vulnerable'. Target uses gender-neutral phrasing ('I'll protect it!', 'What the hell do I do?!') that neither asserts nor contradicts gender, so no fix needed."},
+    {"rows": [14852], "finding": "'凱にしちゃ良くやったわね' rendered 'Not bad, for Gai.' — name spelling matches glossary (Gai, Shin Getter-3), backhanded-praise tone preserved, not softened into unqualified praise."},
+    {"rows": [14859], "finding": "Two-line row addresses Ryoma by name inside his own resource (2819013). Target keeps the exchange verbatim ('Ryoma, stay sharp! / You know my skill!') without assigning the first line to Hayato or Benkei by name — correct per the task brief's 'treat lines by evident speaker and never invent one'; translator's own uncertainty note confirmed as the right call."},
+    {"rows": [14907, 14908], "finding": "Third-party reference あいつ (an unnamed ally) rendered with gender-neutral 'them' / 'that one' rather than a gendered pronoun — correctly avoids inferring gender from context, per BASE_RULES."},
+    {"rows": [14831, 14910], "finding": "Programmatic check: every <op()>/<sp(20)>/<ab(1000)>/<ed()> command sequence in every row's target matches the source exactly in order; no ids missing or added; no visible text over the shout byte budget min(72, 2×JP_chars-2); ASCII-only, no stray non-ASCII characters."}
+  ],
+  "uncertainties": [
+    {"ids": ["dialogue_14859"], "issue": "Ruled: acceptable as-is (see checked_decisions). Retained as an open item only because the true speaker of the row's first line (Hayato or Benkei) is not determinable from this slice or its context window."},
+    {"issue": "Formatting note, not a meaning fix, but flagged because it directly contradicts an explicit instruction: the task brief states shout targets must have 'NO newline in the target (source line breaks are joined)', yet 16 of this slice's 80 rows keep an embedded \\n exactly mirroring the source's two-part line break (matching the batch's own validation.controls claim of 'a single embedded newline kept exactly where the source had one'). This looks like a deliberate, disclosed choice by the translating agent rather than an oversight, and it does not change any row's meaning, so it was left untouched. Recommend the orchestrator confirm whether the per-unit shout table actually renders a second line, since this pattern likely repeats across every shout batch, not just this one."}
+  ],
+  "validation": {
+    "fit": "Re-checked all 80 rows: visible text (tags stripped, newline stripped) stays within min(72, 2×(source visible-character count)-2); no row exceeds its budget.",
+    "controls": "Re-checked all 80 rows: <op()>/<sp(20)>/<ab(1000)>/<ed()> sequence identical and in the same order as the source for every row.",
+    "meaning_review": "Completed independently against the Japanese source via tools/dialogue_corpus.py slice (context 15, printed to console only, not written to disk). No meaning reversals, wrong addressee/subject, invented identity/gender, dropped sentence sense, tone-vs-character contradictions, or locked-spelling errors found. All 80 rows promoted to meaning_reviewed."
+  }
+}

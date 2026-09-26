@@ -1,0 +1,526 @@
+{
+  "slice_start": 1073,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      1058,
+      1167
+    ]
+  ],
+  "rows": [
+    {
+      "id": "dialogue_01073",
+      "target": "<op()><sp(20)>I see... So that's how it is.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Realization left unstated as in source; no enemy identity invented."
+    },
+    {
+      "id": "dialogue_01074",
+      "target": "<op()><sp(20)>A person...?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01075",
+      "target": "<op()><sp(20)>So that's who's behind those monsters?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "No gender assigned to unidentified antagonist."
+    },
+    {
+      "id": "dialogue_01076",
+      "target": "<op()><sp(20)>More to the point, that machine...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Recognition is clarified by Gun Ark discussion in1093–1113."
+    },
+    {
+      "id": "dialogue_01077",
+      "target": "<op()><sp(20)>Wait!\nFocus on the enemy for now!<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01078",
+      "target": "<sp(20)>This one's... good!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Assessment of opponent's skill, not ability to complete an objective."
+    },
+    {
+      "id": "dialogue_01079",
+      "target": "<op()><sp(20)>W-what is this thing...?\nIts power output is insane!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01080",
+      "target": "<op()><sp(20)>That unit can transform.\nDon't pursue it too far once it does!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01081",
+      "target": "<op()><sp(20)>Please watch the alerts!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01082",
+      "target": "<op()><sp(20)>Something about this opponent... gives me a bad feeling.\nThis one is...<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unfinished thought retained; following Faye call interrupts Barrel's distraction."
+    },
+    {
+      "id": "dialogue_01083",
+      "target": "<op()><sp(20)>Barrel!!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01084",
+      "target": "<op()><sp(20)>!!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01085",
+      "target": "<op()><sp(20)>Don't space out!!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01086",
+      "target": "<op()><sp(20)>S-sorry!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01087",
+      "target": "<op()><sp(20)>Impressive movements...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Who is being observed remains implicit; no speaker/target identity guessed."
+    },
+    {
+      "id": "dialogue_01088",
+      "target": "<op()><sp(20)>Barrel!!\nThe power output isn't increasing!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01089",
+      "target": "<op()><sp(20)>Oh... r-right!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01090",
+      "target": "<op()><sp(20)>What's wrong? Pull yourself together!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01091",
+      "target": "<op()><sp(20)>I-I know.\nYou don't have to keep telling me...!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01092",
+      "target": "<op()><sp(20)><freezemouth(1)>...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Mouth-freeze command retained."
+    },
+    {
+      "id": "dialogue_01093",
+      "target": "<op()><sp(20)>There's no mistake. That's a Gun Ark...<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Gun Ark spelling used by existing Marina glossary biography and ACE references."
+    },
+    {
+      "id": "dialogue_01094",
+      "target": "<sp(20)>Who could the pilot be?<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Machine recognized in1093; question therefore concerns unidentified operator, without supplying identity."
+    },
+    {
+      "id": "dialogue_01095",
+      "target": "<op()><sp(20)>H-haven't we seen this machine somewhere before?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Question addressed to others, recognition answered in1096."
+    },
+    {
+      "id": "dialogue_01096",
+      "target": "<op()><sp(20)>Seen it before? That's an understatement...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source implies much more than casual recognition but leaves further explanation unstated."
+    },
+    {
+      "id": "dialogue_01097",
+      "target": "<op()><sp(20)>Shut up!\nTaking it down comes first!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01098",
+      "target": "<op()><sp(20)>Damn it, what's going on?!\nI'm not dying without even knowing why!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker's defiant refusal to die, not an accusation aimed at listener."
+    },
+    {
+      "id": "dialogue_01099",
+      "target": "<on()><sp(20)>Uninvited guests.\nI'll have to show you out right here.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Hostile dismissal retains mock politeness without adding an explicit killing threat."
+    },
+    {
+      "id": "dialogue_01100",
+      "target": "<on()><sp(20)>Headquarters has ordered a return.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Return order recipient not added; following reply shows interruption of encounter."
+    },
+    {
+      "id": "dialogue_01101",
+      "target": "<on()><sp(20)>A shame to be interrupted.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01102",
+      "target": "<on()><sp(20)>Where could this be...?",
+      "status": "meaning_reviewed",
+      "notes": "No ending command added to originally open-ended dialogue row."
+    },
+    {
+      "id": "dialogue_01103",
+      "target": "<on()><sp(20)>What the hell happened to us?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01104",
+      "target": "<on()><sp(20)>Lieutenant Commander <color(4)>Hoshino<ce()>, have you confirmed our position?",
+      "status": "meaning_reviewed",
+      "notes": "Rank matches prior807 and naval canon."
+    },
+    {
+      "id": "dialogue_01105",
+      "target": "<on()><sp(20)>I've been checking for some time,\nbut I still can't determine it.",
+      "status": "meaning_reviewed",
+      "notes": "Position explicitly discussed in prior row."
+    },
+    {
+      "id": "dialogue_01106",
+      "target": "<on()><sp(20)><color(4)>Harry<ce()>.\nAny contact with the nearest <book(9)>Federation<endbook()> base?",
+      "status": "meaning_reviewed",
+      "notes": "Harry nickname follows batch696; centralized name normalization remains separate."
+    },
+    {
+      "id": "dialogue_01107",
+      "target": "<on()><sp(20)>There's no sign of a connection.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01108",
+      "target": "<on()><sp(20)>Please keep trying to establish contact.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01109",
+      "target": "<on()><sp(20)>By the way, that black machine from earlier...\nWhat was it?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01110",
+      "target": "<on()><sp(20)>You weren't familiar with it, were you, Lieutenant <color(4)>Dyson<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": "Meaning review: retrospective confirmation of unfamiliarity, not a claim that Dyson would not be able or expected to know."
+    },
+    {
+      "id": "dialogue_01111",
+      "target": "<on()><sp(20)>It distinguished itself in the <book(4)>First Defensive War<endbook()>.\nIt's called the <book(5)>Gun Ark<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "Book links remain in original order: war first, machine second. Describes distinguished wartime performance."
+    },
+    {
+      "id": "dialogue_01112",
+      "target": "<on()><sp(20)>I heard <book(9)>Federation<endbook()> headquarters had seized it\nand suspended its operation. Is that right?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01113",
+      "target": "<on()><sp(20)>That's correct.\nSo, to be precise, it's another machine of the same type.",
+      "status": "meaning_reviewed",
+      "notes": "Clarifies that encountered craft is not necessarily original confiscated Gun Ark."
+    },
+    {
+      "id": "dialogue_01114",
+      "target": "<on()><sp(20)>Why would something like that be here...?\nThis sounds like trouble.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01115",
+      "target": "<on()><sp(20)>There's no doubt they're connected\nto this series of incidents.\nAt least we've gained a lead.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01116",
+      "target": "<on()><sp(20)>But our priorities right now are to assess\nour situation and contact headquarters.",
+      "status": "meaning_reviewed",
+      "notes": "Both priorities retained."
+    },
+    {
+      "id": "dialogue_01117",
+      "target": "<on()><sp(20)>For now, let's move out\nand investigate the surrounding area.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01118",
+      "target": "<on()><sp(20)>That pilot...\nI sensed something unsettling, unlike anything before.",
+      "status": "meaning_reviewed",
+      "notes": "Unidentified pilot gets no gendered pronoun."
+    },
+    {
+      "id": "dialogue_01119",
+      "target": "<on()><sp(20)><color(4)>Barrel<ce()>.\nYou seemed to sense something too...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01120",
+      "target": "<on()><sp(20)>I-I don't have abilities like yours,\n<color(4)>Amuro<ce()>...",
+      "status": "meaning_reviewed",
+      "notes": "Reply to Amuro's inquiry about sensed presence; uses direct address, no Newtype term added."
+    },
+    {
+      "id": "dialogue_01121",
+      "target": "<on()><sp(20)>But... it felt really awful.\nWhat is that person...?",
+      "status": "meaning_reviewed",
+      "notes": "Question about unnerving pilot, no identity/gender assigned."
+    },
+    {
+      "id": "dialogue_01122",
+      "target": "<op()><sp(20)>Multiple heat signatures approaching at high speed!\nEnemy Antibodies!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Resource changes to6032; Brain Powerd combat terminology, not medical antibodies."
+    },
+    {
+      "id": "dialogue_01123",
+      "target": "<op()><sp(20)>We'll mark the Plates' locations for you.\nPlease stop the enemy from recovering them.<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Enemy recovery confirmed by subsequent contextual1154; own recovery permitted in1155."
+    },
+    {
+      "id": "dialogue_01124",
+      "target": "<op()><sp(20)>Things seem to be going well.\nPlease keep it up.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01125",
+      "target": "<op()><sp(20)>More enemies!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01126",
+      "target": "<op()><sp(20)>You're not getting those Plates!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "No own/enemy identity guessed; refusal addressed to opponents."
+    },
+    {
+      "id": "dialogue_01127",
+      "target": "<op()><sp(20)>Damage to the Novis Noah is increasing!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Ship spelling verified in Brain Powerd references."
+    },
+    {
+      "id": "dialogue_01128",
+      "target": "<op()><sp(20)>Hurry and clear a path.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01129",
+      "target": "<op()><sp(20)>Damage to the Novis Noah is increasing further!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01130",
+      "target": "<op()><sp(20)>Things are starting to look bad...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01131",
+      "target": "<op()><sp(20)>Damage to the Novis Noah's engine section!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source has comma separating ship name parts; normalized to established Novis Noah rather than two entities."
+    },
+    {
+      "id": "dialogue_01132",
+      "target": "<op()><sp(20)>What are you doing?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01133",
+      "target": "<op()><sp(20)>Providing cover!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source omits supporter number; no I/we introduced."
+    },
+    {
+      "id": "dialogue_01134",
+      "target": "<op()><sp(20)>Thanks! The enemy's tough! Be careful!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Response to offered support."
+    },
+    {
+      "id": "dialogue_01135",
+      "target": "<op()><sp(20)>Hey, something tough-looking just showed up!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unidentified opponent, no guessed model."
+    },
+    {
+      "id": "dialogue_01136",
+      "target": "<op()><sp(20)>All targets confirmed destroyed.\nThe remaining enemies are retreating.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01137",
+      "target": "<op()><sp(20)>All right! Well done!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01138",
+      "target": "<op()><sp(20)>No Plates or enemy units detected nearby.\nThank you for your cooperation.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Both absent object categories preserved."
+    },
+    {
+      "id": "dialogue_01139",
+      "target": "<op()><sp(20)>High-temperature contact approaching at high speed!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Preserves high heat and high speed rather than only one sensor attribute."
+    },
+    {
+      "id": "dialogue_01140",
+      "target": "<op()><sp(20)>The Reclaimers again?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01141",
+      "target": "<op()><sp(20)>A unit of unknown affiliation has begun attacking!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Affiliation unknown, not necessarily model unidentified."
+    },
+    {
+      "id": "dialogue_01142",
+      "target": "<op()><sp(20)>What the hell is that thing?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01143",
+      "target": "<op()><sp(20)>One thing's certain: it's an enemy.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01144",
+      "target": "<op()><sp(20)>Captain Burning, that machine...<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "South Burning's surname and captain rank verified in Gundam Wiki."
+    },
+    {
+      "id": "dialogue_01145",
+      "target": "<op()><sp(20)>It does look similar...\nBut that can't be...<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unfinished recognition retained, following row names Gun Ark."
+    },
+    {
+      "id": "dialogue_01146",
+      "target": "<op()><sp(20)>This should be the only Gun Ark left...\nThen what is that thing?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Resource6032 scene may be legacy; apparent single surviving Gun Ark not conflated with preceding6031 confiscation scene."
+    },
+    {
+      "id": "dialogue_01147",
+      "target": "<op()><sp(20)>Calm down, Yu Brain!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addresses living machine, not pilot Yu Isami; official licensed kit spelling confirms Yu Brain."
+    },
+    {
+      "id": "dialogue_01148",
+      "target": "<op()><sp(20)>The unit of unknown affiliation has withdrawn.<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01149",
+      "target": "<op()><sp(20)>What was that one trying to do, anyway?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unidentified antagonist remains gender-neutral."
+    },
+    {
+      "id": "dialogue_01150",
+      "target": "<op()><sp(20)>I don't know...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01151",
+      "target": "<op()><sp(20)>...Marina...?<ab(2200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Existing Marina Carson glossary first name; question preserved, identity not asserted."
+    },
+    {
+      "id": "dialogue_01152",
+      "target": "<op()><sp(20)>We can talk later.\nDon't lose sight of the mission at hand!<ab(700)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_01075",
+        "dialogue_01082",
+        "dialogue_01094",
+        "dialogue_01118",
+        "dialogue_01121"
+      ],
+      "note": "Unidentified antagonist/pilot referred to neutrally. Machine recognition does not authorize assigning pilot identity or gender."
+    },
+    {
+      "id": "dialogue_01111",
+      "note": "First Defensive War spelling sourced from ACE3 English overview. Book-link order requires war reference before Gun Ark; full meaning retained, layout still pending."
+    },
+    {
+      "id": "dialogue_01144",
+      "note": "Captain Burning follows current Gundam Wiki's rank; some older English adaptations use naval Lieutenant. Central rank normalization should retain one agreed service convention."
+    },
+    {
+      "ids": [
+        "dialogue_01122",
+        "dialogue_01146"
+      ],
+      "note": "Resource6032 contains Brain Powerd/Marina-era material and may be legacy content. Translated faithfully without forcing it into6031 continuity."
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "validation": {
+    "meaning_review": "Independent review of80 rows against original ISO;110 examined1058-1167. One meaning fix in1110. See review_01073.json.",
+    "fit": "Full meaning retained without display shortening.",
+    "controls": "All original ASCII control sequences preserved; color/book scopes and freezemouth retained."
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "slice_start": 696,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      681,
+      790
+    ]
+  ],
+  "rows": [
+    {
+      "id": "dialogue_00696",
+      "target": "<op()><sp(20)>I'll go over this again for everyone.<ab(400)>",
+      "status": "meaning_reviewed",
+      "notes": "Start of resource6020; preceding resource6012 is unrelated scene context."
+    },
+    {
+      "id": "dialogue_00697",
+      "target": "<sp(20)>The flashing blips on the radar\nare the enemy targets.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00698",
+      "target": "<sp(20)>They're the enemy's main force,\nso they have a carrier with them.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Carrier belongs to enemy force in this explanation; not allied Nadesico."
+    },
+    {
+      "id": "dialogue_00699",
+      "target": "<sp(20)>You only need to take those targets out.\nAvoid unnecessary fighting as much as possible.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00700",
+      "target": "<op()><sp(20)>The unmanned units have entered combat.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00701",
+      "target": "<op()><sp(20)>The blue markers on the radar are allied forces.\nKeep an eye on their situation, too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Their' refers to friendly forces identified in same row."
+    },
+    {
+      "id": "dialogue_00702",
+      "target": "<op()><sp(20)>This is Lieutenant Isamu Dyson in the YF-19.\nGood to be working with you.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source gives shortened Isamu Dyson; existing glossary full name Isamu Alva Dyson. No middle name inserted."
+    },
+    {
+      "id": "dialogue_00703",
+      "target": "<op()><sp(20)>YF-21. Guld Bowman here.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Research confirms full Guld Goa Bowman; source gives shortened form. See glossary proposals."
+    },
+    {
+      "id": "dialogue_00704",
+      "target": "<op()><sp(20)>The two units from Project Super Nova, huh?<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Canon project spelling researched."
+    },
+    {
+      "id": "dialogue_00705",
+      "target": "<sp(20)>We'll provide support alongside you from here on.\nLet's work together.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Introduction of allied support force responding to YF-19/YF-21; no speaker assigned."
+    },
+    {
+      "id": "dialogue_00706",
+      "target": "<op()><sp(20)>Thank you all for your support.\nI'm Ruri Hoshino, captain of the Nadesico B.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Existing glossary name; researched ship spelling."
+    },
+    {
+      "id": "dialogue_00707",
+      "target": "<sp(20)>Whether we've met before or this is our first meeting,\nI look forward to working with you.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": "Retains both returning acquaintances and newcomers."
+    },
+    {
+      "id": "dialogue_00708",
+      "target": "<sp(20)>Harry, introduce yourself too.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Harry nickname is used by English franchise wiki; Japanese source confirms nickname for Hari Makibi."
+    },
+    {
+      "id": "dialogue_00709",
+      "target": "<op()><sp(20)>I-I'm Hari Makibi.\nIt's a pleasure to meet you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Full name reversed into canonical English order; introductory stammer retained."
+    },
+    {
+      "id": "dialogue_00710",
+      "target": "<op()><sp(20)>Nadesico, what's your status?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00711",
+      "target": "<op()><sp(20)>We're holding out somehow,\nthanks to those two Valkyries.<ab(600)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Two fighters introduced in rows702–703."
+    },
+    {
+      "id": "dialogue_00712",
+      "target": "<op()><sp(20)>If only we'd gotten here a little sooner.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Arrival of support group established in preceding exchange."
+    },
+    {
+      "id": "dialogue_00713",
+      "target": "<op()><sp(20)>Just two units held off this many enemies...?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00714",
+      "target": "<op()><sp(20)>Can't you use the Gravity Blast?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00715",
+      "target": "<op()><sp(20)>We still need more time to prepare to fire.\nPlease cover us just a little longer.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply from ship to Gravity Blast question."
+    },
+    {
+      "id": "dialogue_00716",
+      "target": "<op()><sp(20)>Heh heh... Nothing beats being up in the sky!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00717",
+      "target": "<sp(20)>And this new machine's in great form, too!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Personifies the new unit's excellent performance without inventing weapon details."
+    },
+    {
+      "id": "dialogue_00718",
+      "target": "<op()><sp(20)>Hmph. Don't get carried away and get yourself shot down.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00719",
+      "target": "<op()><sp(20)>Try worrying about your own damn self for a change.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Hostile retort to previous warning; no gender inference."
+    },
+    {
+      "id": "dialogue_00720",
+      "target": "<op()><sp(20)>Soldiers driven to seek battle by instinct...<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Reflective statement about enemy soldiers; identification provided in row729."
+    },
+    {
+      "id": "dialogue_00721",
+      "target": "<sp(20)>Many have discovered culture and wish for peace,\nbut others carry out acts of terror like this...<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source explicitly contrasts peaceful members with terrorists; distinction preserved."
+    },
+    {
+      "id": "dialogue_00722",
+      "target": "<op()><sp(20)>...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00723",
+      "target": "<op()><sp(20)>There's something strangely mechanical about how they move.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00724",
+      "target": "<op()><sp(20)>Weren't they a lot tougher in the previous fight?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Comparison with previous enemy performance; source does not identify who fought them, so subject remains implicit."
+    },
+    {
+      "id": "dialogue_00725",
+      "target": "<op()><sp(20)>So that's one of those Valkyries...\nAmazing...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Single observed fighter; two fighters known from earlier exchange."
+    },
+    {
+      "id": "dialogue_00726",
+      "target": "<op()><sp(20)>Don't get distracted during combat.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00727",
+      "target": "<op()><sp(20)>I-I know!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00728",
+      "target": "<op()><sp(20)>These enemies... Who exactly are they?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00729",
+      "target": "<op()><sp(20)>Former Zentradi soldiers\ncarrying out terrorist attacks in search of a fight.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Zentradi spelling chosen from Macross reference, not Robotech Zentraedi adaptation."
+    },
+    {
+      "id": "dialogue_00730",
+      "target": "<op()><sp(20)>Barrel, are you all right?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00731",
+      "target": "<op()><sp(20)>Not really, to be honest...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Reply to explicit inquiry about Barrel."
+    },
+    {
+      "id": "dialogue_00732",
+      "target": "<op()><sp(20)>Faye, make sure you give him proper support.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Him refers to Barrel in preceding question/reply; existing glossary confirms male."
+    },
+    {
+      "id": "dialogue_00733",
+      "target": "<op()><sp(20)>Understood.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00734",
+      "target": "<op()><sp(20)>Contact with the target! Be careful!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00735",
+      "target": "<op()><sp(20)>The Flail units are struggling...<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Flail is provisional transliteration; subsequent row establishes unit group."
+    },
+    {
+      "id": "dialogue_00736",
+      "target": "<op()><sp(20)>The Flail force has been wiped out...!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source refers to military group, not a single machine. Provisional name Flail."
+    },
+    {
+      "id": "dialogue_00737",
+      "target": "<op()><sp(20)>This is bad.\nThey'll target the Nadesico!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00738",
+      "target": "<op()><sp(20)>The Nadesico has only minor damage.\nWe can still hold out!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00739",
+      "target": "<op()><sp(20)>D-damage to the Nadesico is increasing!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Stammer moved to first English syllable."
+    },
+    {
+      "id": "dialogue_00740",
+      "target": "<op()><sp(20)>C-Captain!\nAt this rate, we're going to be destroyed!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00741",
+      "target": "<op()><sp(20)>Harry, calm down.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00742",
+      "target": "<op()><sp(20)>M-main engine critically damaged!!\nCaptain!!<ab(1800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00743",
+      "target": "<op()><sp(20)>We're abandoning the ship.\nAll hands, please evacuate.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Calm captain's order; both abandonment and all-hands evacuation retained."
+    },
+    {
+      "id": "dialogue_00744",
+      "target": "<op()><sp(20)>Damn it... We couldn't protect it!<ab(1800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Nadesico loss established in preceding rows; no gendered ship pronoun."
+    },
+    {
+      "id": "dialogue_00745",
+      "target": "<op()><sp(20)>All units, hurry!!\nWe're running out of time!!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00746",
+      "target": "<op()><sp(20)>Out of time?!\nWe acted too slowly...!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00747",
+      "target": "<op()><sp(20)>Enemy reinforcements! Please be careful!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00748",
+      "target": "<op()><sp(20)>Enemy reinforcements confirmed!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00749",
+      "target": "<op()><sp(20)>The enemy has gone on the offensive.\nPlease be careful.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00750",
+      "target": "<op()><sp(20)>What are those machines called Flails...?<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Flail name provisional; source asks about the type."
+    },
+    {
+      "id": "dialogue_00751",
+      "target": "<op()><sp(20)>They're support weapons for localized combat.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00752",
+      "target": "<sp(20)>Their performance isn't great because they're unmanned,\nbut they can at least hold the enemy back.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Preserves causal link, performance limitation and useful delaying role."
+    },
+    {
+      "id": "dialogue_00753",
+      "target": "<op()><sp(20)>Londo Bell is short on personnel, too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Existing glossary organization."
+    },
+    {
+      "id": "dialogue_00754",
+      "target": "<op()><sp(20)>All enemy targets have been eliminated.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00755",
+      "target": "<op()><sp(20)>Hey!\nSomething I've never seen before just showed up!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source does not give identity or exact number; something preserves unidentified type."
+    },
+    {
+      "id": "dialogue_00756",
+      "target": "<op()><sp(20)>Captain!\nW-we're surrounded!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00757",
+      "target": "<op()><sp(20)>Calm down, Harry.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00758",
+      "target": "<op()><sp(20)>All units, move to support the Nadesico!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00759",
+      "target": "<op()><sp(20)>Those things again?!\nThey've shown up all the way out here too?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00760",
+      "target": "<op()><sp(20)>Wait! I checked the data,\nand these seem to be a different type than before.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Tentativeness retained; speaker not identified."
+    },
+    {
+      "id": "dialogue_00761",
+      "target": "<op()><sp(20)>An unidentified type?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00762",
+      "target": "<op()><sp(20)>Enemy targets are being eliminated steadily!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00763",
+      "target": "<op()><sp(20)>The Nadesico won't go down easily,\nbut if it looks in danger, make supporting it your priority.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Preserves priority change conditional on danger."
+    },
+    {
+      "id": "dialogue_00764",
+      "target": "<op()><sp(20)>Th-these things again?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00765",
+      "target": "<op()><sp(20)>Barrel, don't lose your nerve.\nWe're going to hold them off.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00766",
+      "target": "<op()><sp(20)>Th-that's easy for you to say!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Response to copilot's injunction; natural complaint without adding refusal."
+    },
+    {
+      "id": "dialogue_00767",
+      "target": "<op()><sp(20)>Just do as I say and you'll be all right.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Copilot's instructions to Barrel settled by preceding exchange."
+    },
+    {
+      "id": "dialogue_00768",
+      "target": "<op()><sp(20)>They just keep coming, one after another!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00769",
+      "target": "<op()><sp(20)>To think these things are appearing all over the world...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00770",
+      "target": "<op()><sp(20)>That's no laughing matter.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00771",
+      "target": "<op()><sp(20)>Barrel, you're reacting too slowly.\nYou managed it the other day, didn't you?<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00772",
+      "target": "<op()><sp(20)>That was then!\nI can't suddenly become good at this!<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00773",
+      "target": "<sp(20)>I'm doing everything I can here!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00774",
+      "target": "<op()><sp(20)><freezemouth(1)>...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Mouth-freeze command preserved exactly."
+    },
+    {
+      "id": "dialogue_00775",
+      "target": "<op()><sp(20)>Captain... More contacts keep appearing!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Following row776 addresses Harry's anxiety and trusts allied fighters."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_00735",
+        "dialogue_00736",
+        "dialogue_00750"
+      ],
+      "note": "Flail is an unverified English transliteration of the allied unmanned support-unit name. Several web searches yielded no reliable matching spelling. Needs orchestrator glossary decision."
+    },
+    {
+      "id": "dialogue_00698",
+      "note": "Carrier interpreted as accompanying the enemy main force, based on grammatical link to the explicitly enemy targets. No faction-specific vessel name added."
+    },
+    {
+      "id": "dialogue_00724",
+      "note": "Japanese omits who fought them previously. Draft refers to the previous fight without inventing singular or plural first-person subject."
+    },
+    {
+      "ids": [
+        "dialogue_00703",
+        "dialogue_00708",
+        "dialogue_00709"
+      ],
+      "note": "Guld Bowman follows the shortened source rather than adding canonical middle name Goa. Hari Makibi's nickname Harry is supported by franchise wiki English usage; keep distinct from formal Hari."
+    }
+  ],
+  "independent_review": "review_00696.json"
+}

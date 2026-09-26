@@ -1,0 +1,52 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 8955,
+  "slice_count": 80,
+  "rows_examined": [{"start": 8940, "end": 9049}],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_09004",
+      "before": "<op()><sp(20)>So, to prevent that breaking point\nfrom arriving, you built Shin Dragon.<ab(500)><ed()>",
+      "after": "<op()><sp(20)>So, to prevent the Limit of Questions\nfrom arriving, you built Shin Dragon.<ab(500)><ed()>",
+      "reason": "Source term \"kudan no genkai\" is the locked Eureka Seven term \"Limit of Questions\" per orchestrator ruling, not the classical set phrase \"the aforementioned limit\" the translator read it as. Corrected the proper-noun rendering; no other row in this batch's source contains this term."
+    },
+    {
+      "id": "dialogue_09025",
+      "before": "<op()><sp(20)>...The door will open soon regardless.\nGetter Rays are no longer needed.<ab(500)>",
+      "after": "<op()><sp(20)>...The door will open soon.\nGetter Rays are no longer needed.<ab(500)>",
+      "reason": "Source phrase (\"the door will soon be opened\") is a plain statement about timing. \"regardless\" invents a defiant \"nothing can stop it\" implication the source does not state here; removed to match the source's tone."
+    },
+    {
+      "id": "dialogue_09027",
+      "before": "<sp(20)>Soon the two worlds will be joined.<ab(800)>",
+      "after": "<sp(20)>Soon the two worlds will become one.<ab(800)>",
+      "reason": "\"joined\" contains the font's unsupported lowercase j (see BASE_RULES/technical-pitfalls constraint); reworded to \"become one\", which preserves the source's meaning (will be joined/tied together)."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [8983, 8990, 8992, 8993, 8995, 8996, 8997, 8998, 9002, 9003, 9005, 9006, 9008, 9009, 9010, 9011, 9013, 9014], "finding": "Antagonist correctly rendered without a name in-slice; forward read into 9050-9064 (next slice) confirms he is Dr. Saotome, addressed as \"Doctor\" and dying inside Shin Dragon. Cross-slice identification is correct, no fix needed."},
+    {"rows": [8997], "finding": "Michiru (Michiru Saotome) accepted per orchestrator ruling from the Getter Robo wiki. Short form correctly used in dialogue address; full form appears at first narration mention (row 9083, next slice)."},
+    {"rows": [8976, 8985, 8991], "finding": "Combat/defiance lines with no adjacent name to anchor the speaker. Kept gender-neutral first person, no identity or gender invented; correct per BASE_RULES."},
+    {"rows": [9014], "finding": "\"But it was Shin Getter that chose you, Go\" correctly preserves the source's emphasis that Shin Getter, not Dr. Saotome, made the choice, despite Saotome having built Go as Shin Dragon's core (9012-9013)."},
+    {"rows": [9000], "finding": "\"Antibody Coralians\" matches the locked mission_terms_019/encyclopedia_022 spelling; no change needed."}
+  ],
+  "uncertainties": [
+    {
+      "rows": [8983, 8990, 8992, 8993, 8995, 8996, 8997, 8998, 9002, 9003, 9005, 9006, 9008, 9009, 9010, 9011, 9013, 9014],
+      "issue": "Antagonist speaker identity (Dr. Saotome) is only settled by reading forward into the next slice (9050-9064). Within this slice alone the speaker is unnamed. Flagging the cross-slice dependency even though the identification checks out, per BASE_RULES (report calls you were unsure of even when the row passes)."
+    },
+    {
+      "rows": [8976, 8985, 8991],
+      "issue": "Speaker of these combat-status/defiance lines is not identifiable from surrounding context, in this slice or the adjacent ones. Kept neutral first person rather than guessing; left as a genuine open call, not a defect."
+    }
+  ],
+  "validation": {
+    "controls": "Re-ran `python tools/dialogue_corpus.py slice 8955 80 --context 15` and diffed every <...> command (including op/on/sp/ab/ed/off/freezemouth and malformed/omitted pairs) against each row's target in source order; all 80 rows match exactly, including the two rows touched by meaning fixes (only visible text changed).",
+    "format": "No raw newline characters introduced; \\n line-break markers match the source's line breaks in every row that keeps one.",
+    "fit": "All 80 rows measured at or under 110 visible (tag-stripped) characters after fixes; no further compression required.",
+    "ascii": "All targets ASCII-only except the fullwidth ％ (none occurs in this slice). Scanned all 80 targets for lowercase j/q outside locked names; found and fixed dialogue_09027 (\"joined\"). No other occurrences."
+  }
+}

@@ -1,0 +1,32 @@
+{
+ "version": "0.1.22",
+ "status": "meaning_reviewed",
+ "entries_examined": 88,
+ "entries_in_file": 88,
+ "fixes_applied": [
+  "1 tense: had been frozen (the Drive is later reactivated)",
+  "9 made peace covers both the Britai fleet and the Meltrandi",
+  "18 employment for ex-Giganos soldiers",
+  "43 Federation Forces for consistency",
+  "44 plural subject",
+  "52 the Trapar surge was a simultaneous separate event",
+  "78 removed a possessive the source does not give",
+  "labels 8, 71, 84 shortened for the 220-unit list field"
+ ],
+ "kept_as_intentional": [
+  "Lately ... had been on ground duty (entry 10) mirrors the source",
+  "Domepolises kept over Domepoli: inflection of the entry name",
+  "Siberian Railway is the main glossary form",
+  "Link text always equals the target entry name, so Space Rev. Army appears abbreviated in prose"
+ ],
+ "uncertainties": [
+  "Baldora Drive/particle/Charge does not match the kana (ba-ru-do-na); both reviewers and the 0.1.19 review think Baldora is the wrong member of the Baldora/Bardona pair. Still locked, still provisional.",
+  "New Federation (project glossary) vs New United Nations Earth (Gundam X wiki); ACE3 merges it with a Eureka Seven federation",
+  "Entry 1: body that preceded the Federation vs agency of the predecessor state",
+  "Entry 74: whose 1246-second active time; wiki supports the Kute-class reading",
+  "Provisional names without an English source: Hisago Plan, Shirahime, Iwato, Ruins Unit, Terminal Colony, Liman Megalopolis, Moon Invader War, Operation Orange, Federation Reconstruction Committee, Getter reactor, ley lines, Silhouette Engine, Metal Muscle",
+  "First Defense War here and in the opening history; older dialogue batches say First Defensive War and need a name pass",
+  "The released 0.1.15 briefing renders the Flail link (entry 6) as drones; to be corrected in a later briefing rebuild"
+ ],
+ "limits": "Meaning review only. Page capacity in glyphs is unverified at runtime."
+}

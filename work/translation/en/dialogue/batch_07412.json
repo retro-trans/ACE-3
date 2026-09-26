@@ -1,0 +1,554 @@
+{
+  "slice_start": 7412,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      7397,
+      7506
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_07414",
+        "dialogue_07415"
+      ],
+      "note": "Unattributed first-person reaction to the enemy Overman's mind-reading, addressed to Renton; speaker not settled from neighbours (possibly Eureka via the Nirvash link), left unidentified."
+    },
+    {
+      "ids": [
+        "dialogue_07418",
+        "dialogue_07422",
+        "dialogue_07480",
+        "dialogue_07482",
+        "dialogue_07483"
+      ],
+      "note": "'Kokoro no koe' (heart's voice) is Planetta's mind-reading ability; rendered literally and kept consistent so a later reviewer can retitle it centrally if the orchestrator prefers a different term (e.g. 'inner voice')."
+    },
+    {
+      "ids": [
+        "dialogue_07428",
+        "dialogue_07429",
+        "dialogue_07430",
+        "dialogue_07431",
+        "dialogue_07534"
+      ],
+      "note": "Source puns on 'untenn daiya' (operating schedule) vs. 'daiyamondo' (diamond); kept as 'schedule' plus an explicit diamond simile so the pun stays visible in English."
+    },
+    {
+      "ids": [
+        "dialogue_07537",
+        "dialogue_07538",
+        "dialogue_07539",
+        "dialogue_07540",
+        "dialogue_07541",
+        "dialogue_07547",
+        "dialogue_07552"
+      ],
+      "note": "Multi-speaker battle-banter exchange among Kashmir, Cynthia/Queen and Gainer; only rows that name a party directly (7542, 7543, 7545, 7548, 7554) are anchored. Untagged lines translated for meaning only, no speaker asserted."
+    },
+    {
+      "ids": [
+        "dialogue_07593",
+        "dialogue_07594",
+        "dialogue_07595",
+        "dialogue_07596",
+        "dialogue_07597",
+        "dialogue_07599",
+        "dialogue_07607"
+      ],
+      "note": "Post-battle bridge/crew exchange about Tiffa, Renton, Gainer and Barrel; individual speakers are not name-tagged in the corpus beyond the addressed party (color(4) name). Context (7498-7500 Garrod/Tiffa scene, 7604's Nirvash reference) strongly suggests Garrod and Renton, but no name was inserted into any row's visible text."
+    }
+  ],
+  "validation": {
+    "commands": "All angle-bracket command sequences (<op()>, <on()>, <sp(20)>, <ab(n)>, <off()>, <color(4)>/<ce()>, <book(61)>/<endbook()>) verified to match the source in exact order for every row via a throwaway comparison script against a fresh `dialogue_corpus.py slice` read; rows 7584-7608 and a few others have no <ab()>/<off()> in source and none was added.",
+    "format": "Newline counts verified to match source exactly for every row (checked programmatically). ASCII-only text throughout; straight quotes used for the quoted 'Queen' nickname in 7527/7528.",
+    "fit": "Full meaning drafted first; every row's visible text (commands stripped) verified <= 110 characters, none needed compression.",
+    "glossary": "Barrel, Kashmir Valle, Planetta, Overman, Overskill, Gekko, Nadesico, Sara Kodama, Exodus taken from character_names_021.json, encyclopedia_022.json, missions_019.json and terms_028.json; 'mobile weapon' (jisou heiki) and 'base' (kyoten) capture wording matched to work/translation/en/hud_labels.json's 2002190 HUD strings for this same mission.",
+    "meaning_review": "Independent meaning review against the Japanese source (dialogue_corpus.py slice 7412 80 --context 15) found 2 fixes: 07452 restored the speaker's command register ('bring it down for me', not 'I'll do it myself'), and 07486 restored the suki/aishiteru like-then-love escalation with 07487/07489. All 80 rows verified and set to meaning_reviewed; none left in draft. Translator's 'heart's voice' and 'mobile weapon' term choices and unattributed-speaker calls are confirmed correct per orchestrator ruling; see review_07412.json."
+  },
+  "rows": [
+    {
+      "id": "dialogue_07412",
+      "target": "<op()><sp(20)>Capture every enemy base in the operational area.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07413",
+      "target": "<op()><sp(20)>The Overman causing this situation\nmust be somewhere out there too.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07414",
+      "target": "<op()><sp(20)>Ngh... My heart's voice is echoing like noise!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker/referent for the 'heart's voice' sensation and the address to Renton in the next row are not tagged; kept as an unattributed first-person reaction, no identity guessed."
+    },
+    {
+      "id": "dialogue_07415",
+      "target": "<op()><sp(20)>Renton...\nSomething feels wrong...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Addressed to Renton; speaker not tagged in the corpus (possibly Eureka, given the Nirvash's link), left unidentified."
+    },
+    {
+      "id": "dialogue_07416",
+      "target": "<op()><sp(20)>Damn it... where are you?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07417",
+      "target": "<op()><sp(20)>Those guys... they're moving better than usual!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07418",
+      "target": "<op()><sp(20)>They act on hearing the voice of our hearts.\nOf course they would.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Kokoro no koe' (heart's voice) rendered literally and kept consistent across this scene; it is the enemy Overman Planetta's mind-reading ability."
+    },
+    {
+      "id": "dialogue_07419",
+      "target": "<op()><sp(20)>Then all we have to do is out-move them!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07420",
+      "target": "<op()><sp(20)>Barrel, our movements are being read.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07421",
+      "target": "<op()><sp(20)>I can't keep up with everything myself.\nCover the radar for me!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07422",
+      "target": "<op()><sp(20)>Is there really an Overman that exposes\nthe voice of people's hearts like that?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same 'heart's voice' phrasing kept."
+    },
+    {
+      "id": "dialogue_07423",
+      "target": "<op()><sp(20)>Right now, an Overman is the only thing\nthat could explain it.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07424",
+      "target": "<op()><sp(20)>Overman or whatever it is, I don't care --\njust do something about it, fast!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07425",
+      "target": "<sp(20)>We can't fight properly\nlike this!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07426",
+      "target": "<op()><sp(20)>Heh heh... nice to meet you all.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07427",
+      "target": "<sp(20)>I am Kashmir Valle.\nI've come to capture you all.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kashmir Valle (glossary character_names_021.json en_full 'Kashmir Valle', en_short 'Kashmir') introduces himself; full name used for a self-introduction line."
+    },
+    {
+      "id": "dialogue_07428",
+      "target": "<op()><sp(20)>As for the train schedule you all disrupted...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "'Untenn daiya' (operating schedule/timetable) vs. 'daiyamondo' (diamond) wordplay in source; rendered as 'schedule' with a diamond-beauty simile in 7429 to keep the pun visible."
+    },
+    {
+      "id": "dialogue_07429",
+      "target": "<sp(20)>it must be protected with a beauty\nlike that of a diamond.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "See 7428 note on the schedule/diamond wordplay."
+    },
+    {
+      "id": "dialogue_07430",
+      "target": "<sp(20)>The crime of shattering it...<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07431",
+      "target": "<sp(20)>not even death would be punishment enough!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07432",
+      "target": "<op()><sp(20)>I can hear even your breathing, so you'll\nnever land a hit on this Planetta!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Planetta' is the enemy Overman's own name for its unit, per HUD strings for this same mission in work/translation/en/hud_labels.json (2002190: 'Planetta's Overskill', 'Avoid fighting the Planetta')."
+    },
+    {
+      "id": "dialogue_07433",
+      "target": "<op()><sp(20)>...My shots won't connect?\nIs it reading our moves ahead of time!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07434",
+      "target": "<op()><sp(20)>Wh-what is that thing...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07435",
+      "target": "<op()><sp(20)>It's strange... no, more like unsettling...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07436",
+      "target": "<op()><sp(20)>Don't judge an enemy's strength by its looks!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07437",
+      "target": "<op()><sp(20)>An allied unit was wiped out\nby the enemy's mobile weapon!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07438",
+      "target": "<op()><sp(20)>The enemy force has begun moving!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07439",
+      "target": "<op()><sp(20)>The mobile weapon's heat signature is rising!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07440",
+      "target": "<op()><sp(20)>Leaving it alone would be bad.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07441",
+      "target": "<sp(20)>Once it starts preparing to fire, close in\nand draw its attention.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07442",
+      "target": "<op()><sp(20)>As long as its Overskill is active,\nwe can't take that enemy down.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07443",
+      "target": "<op()><sp(20)>So what do we do?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07444",
+      "target": "<op()><sp(20)>I'll think of a countermeasure.\nFor now, we just have to hold out.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07445",
+      "target": "<op()><sp(20)>The mobile weapon has entered firing stance!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07446",
+      "target": "<op()><sp(20)>Close in and draw its attention!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07447",
+      "target": "<op()><sp(20)>Mobile weapon, prepare to fire!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07448",
+      "target": "<op()><sp(20)>Now, die!\nFire!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07449",
+      "target": "<op()><sp(20)>Fire!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07450",
+      "target": "<op()><sp(20)>There's an annoying fly buzzing around.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07451",
+      "target": "<sp(20)>Hold your fire!\nSwat that fly out of the sky!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07452",
+      "target": "<op()><sp(20)>Stop the launch!\nBring that pest down for me!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning fix: source's '-te kuremasu' is this speaker's haughty command register (matches the '-nasai' commands in 7448/7451), ordering a subordinate to down the target -- not a first-person 'I'll do it myself' declaration."
+    },
+    {
+      "id": "dialogue_07453",
+      "target": "<op()><sp(20)>The Gekko's been hit by the mobile weapon's attack!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07454",
+      "target": "<op()><sp(20)>The Gekko has taken a hit from that thing!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07455",
+      "target": "<op()><sp(20)>We've been hit by the mobile weapon!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07456",
+      "target": "<op()><sp(20)>The Nadesico has taken a hit!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07457",
+      "target": "<op()><sp(20)>Damage to the Nadesico is minor.\nWe can still hold out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07458",
+      "target": "<op()><sp(20)>T-this is starting to get bad, isn't it?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07459",
+      "target": "<op()><sp(20)>T-the Nadesico is in danger!\nPlease provide support!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07460",
+      "target": "<op()><sp(20)>T-the main engine's wrecked!!\nCaptain!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07461",
+      "target": "<op()><sp(20)>The Gekko is under attack!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07462",
+      "target": "<op()><sp(20)>Th-this is getting a little dicey.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07463",
+      "target": "<op()><sp(20)>At this rate the Gekko's going to sink!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07464",
+      "target": "<op()><sp(20)>I-it's no good!\nThe Gekko is going down!!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07465",
+      "target": "<op()><sp(20)>Another allied unit has been taken out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07466",
+      "target": "<op()><sp(20)>Out of time... no way!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07467",
+      "target": "<op()><sp(20)>We did it!\nWe've captured the base!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07468",
+      "target": "<op()><sp(20)>Base captured!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07469",
+      "target": "<op()><sp(20)>We've successfully taken the mobile weapon!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07470",
+      "target": "<op()><sp(20)>The operation is proceeding smoothly!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07471",
+      "target": "<op()><sp(20)>Insolent little pests...\nSend in more forces!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07472",
+      "target": "<op()><sp(20)>This is starting to look bad...<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07473",
+      "target": "<op()><sp(20)>All bases captured!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07474",
+      "target": "<op()><sp(20)>A splendid result.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07475",
+      "target": "<op()><sp(20)>I can hear even your breathing, all of you,\nso you'll never land a hit on this Planetta!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Near-duplicate of 7432 with plural 'you'; same Planetta reference."
+    },
+    {
+      "id": "dialogue_07476",
+      "target": "<op()><sp(20)>That guy's listening to our hearts' voices.\nOur every move is leaking straight to him.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07477",
+      "target": "<sp(20)>Even when we come up with a good move,\nit all leaks straight through to him.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07478",
+      "target": "<sp(20)>I give up against that guy.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07479",
+      "target": "<op()><sp(20)>As expected, the Black Southern Cross catches on fast.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Black Southern Cross' is Gain Bijou's locked nickname (character_names_021.json); Kashmir addresses him by it."
+    },
+    {
+      "id": "dialogue_07480",
+      "target": "<op()><sp(20)>...You can hear the enemy's heart's voice!?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Heart's voice' phrasing kept consistent with 7414/7418/7422."
+    },
+    {
+      "id": "dialogue_07481",
+      "target": "<op()><sp(20)>Everyone, listen to me!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07482",
+      "target": "<op()><sp(20)>That Overman is laying our hearts bare\nand reading our moves.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same phrasing."
+    },
+    {
+      "id": "dialogue_07483",
+      "target": "<op()><sp(20)>Then... let's drown it out with a stronger heart's voice!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same phrasing; 'countermeasure' is the allies deciding to broadcast their own inner voices to jam the enemy's mind-reading, paid off later in 7511-7513."
+    },
+    {
+      "id": "dialogue_07484",
+      "target": "<op()><sp(20)>Whatever you're plotting, it's pointless!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07485",
+      "target": "<op()><sp(20)>If you're going to hear it anyway, I'll give you an earful!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07486",
+      "target": "<sp(20)>Sara, I like you!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Meaning fix: source says suki (like), escalating to aishiteru (in love with) in 07487; translating both as 'love' collapsed the escalation and left 07489's 'more than just liking you' with nothing to refer back to."
+    },
+    {
+      "id": "dialogue_07487",
+      "target": "<sp(20)>I'm in love with you, Saraaa!<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07488",
+      "target": "<sp(20)>I liked you even before the Exodus.<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07489",
+      "target": "<sp(20)>It's more than just liking you.<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07490",
+      "target": "<sp(20)>I want to know more about you, Sara.\nI want to know everything about you.<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_07491",
+      "target": "<op()><sp(20)>That idiot---!\nWhat is he yelling about?!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'He' refers to Gainer Sanga (glossary: male), whose declaration the crowd just overheard; not an assumption about an unidentified party."
+    }
+  ]
+}

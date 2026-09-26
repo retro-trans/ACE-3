@@ -1,0 +1,537 @@
+{
+  "slice_start": 4398,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      4383,
+      4492
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_04398",
+      "target": "<op()><sp(20)>Capture every enemy base.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04399",
+      "target": "<op()><sp(20)>Make sure they don't get retaken.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04400",
+      "target": "<op()><sp(20)>Ugh, the Gekko's under attack!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Gekko = locked ship name (meeting_terms_015.json) for Eureka Seven's Gekko-Go."
+    },
+    {
+      "id": "dialogue_04401",
+      "target": "<op()><sp(20)>At this rate, the Gekko will be taken down!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04402",
+      "target": "<op()><sp(20)>Please provide support for the Gekko.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04403",
+      "target": "<op()><sp(20)>C-Captain!\nThe Gekko... it's been taken down...!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04404",
+      "target": "<op()><sp(20)>This is taking a little time.\nPlease hurry the operation.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04405",
+      "target": "<op()><sp(20)>There's no time left!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04406",
+      "target": "<op()><sp(20)>Out of time... no way!<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04407",
+      "target": "<op()><sp(20)>Allied forces engaged!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04408",
+      "target": "<op()><sp(20)>Allied forces are under attack!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04409",
+      "target": "<op()><sp(20)>An allied unit is engaged!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04410",
+      "target": "<op()><sp(20)>An allied unit is struggling!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04411",
+      "target": "<op()><sp(20)>Allied unit engaged!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04412",
+      "target": "<op()><sp(20)>A base has been retaken by the enemy!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04413",
+      "target": "<op()><sp(20)>The base was retaken?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04414",
+      "target": "<op()><sp(20)>The base has fallen into enemy hands!<ab(1800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04415",
+      "target": "<op()><sp(20)>We did it!\nThe base has been captured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04416",
+      "target": "<op()><sp(20)>Enemy base captured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04417",
+      "target": "<op()><sp(20)>Enemy reinforcements?!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04418",
+      "target": "<op()><sp(20)>Intercept them.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04419",
+      "target": "<op()><sp(20)>Are they trying to retake the base?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04420",
+      "target": "<op()><sp(20)>Siberian Railway Overmen are\ndeploying in the distance!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04421",
+      "target": "<op()><sp(20)>I won't let you get away this time!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker not named; matches the Siberian Railway pursuer introduced in 4420."
+    },
+    {
+      "id": "dialogue_04422",
+      "target": "<op()><sp(20)>Not that guy again!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Referent kept as 'that guy' rather than a name; role fits Yassaba Jin (Siberian Railway squad commander) but he is not named in this row range."
+    },
+    {
+      "id": "dialogue_04423",
+      "target": "<op()><sp(20)>To think you'd chase us even to a place like this.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04424",
+      "target": "<op()><sp(20)>Real dedicated, coming all this way from Siberia.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04425",
+      "target": "<op()><sp(20)>Whose fault do you think that is?!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Pursuer's reply; row continues without <ed()> into 4426 as one display box."
+    },
+    {
+      "id": "dialogue_04426",
+      "target": "<sp(20)>Because of the Exodus you caused,\nthe Siberian Railway's credibility has plummeted!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04427",
+      "target": "<op()><sp(20)>But I can't afford to get caught!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker switches to Gain Bijou's side here, inferred from the following row's 'Black Southern Cross' epithet."
+    },
+    {
+      "id": "dialogue_04428",
+      "target": "<op()><sp(20)>Black Southern Cross!\nI'll bring your head back to Siberia in triumph!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Black Southern Cross' is Gain Bijou's locked nickname (character_names_021.json)."
+    },
+    {
+      "id": "dialogue_04429",
+      "target": "<op()><sp(20)>Not once, but twice now...\nDamn it! Fall back!<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4430."
+    },
+    {
+      "id": "dialogue_04430",
+      "target": "<sp(20)>I will catch you all, mark my words!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04431",
+      "target": "<op()><sp(20)>They simply went and left on their own.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Kept gender-neutral; identity of the retreating pursuer not confirmed by name in this row range."
+    },
+    {
+      "id": "dialogue_04432",
+      "target": "<op()><sp(20)>The Siberian Railway... they really don't give up!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04433",
+      "target": "<op()><sp(20)>But why would the Siberian Railway\ncome all the way out here...?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04434",
+      "target": "<op()><sp(20)>What is this enemy...?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04435",
+      "target": "<op()><sp(20)>The Siberian Railway... they're the Domepolis police.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'Dome police' (Domu Porisu) rendered literally as a generic descriptive term; no distinct proper-noun source found, so not proposed as a locked glossary term."
+    },
+    {
+      "id": "dialogue_04436",
+      "target": "<op()><sp(20)>That's a considerable number of Siberian Railway troops.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04437",
+      "target": "<op()><sp(20)>I guess that means they're serious.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04438",
+      "target": "<op()><sp(20)>Watch out for the mothership too.\nWe're outnumbered here!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04439",
+      "target": "<op()><sp(20)>Even so, I can't cover everything!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04440",
+      "target": "<op()><sp(20)>An enemy unit has been spotted in the distance.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4441."
+    },
+    {
+      "id": "dialogue_04441",
+      "target": "<sp(20)>We don't know its composition or numbers,\nbut please be careful, everyone!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04442",
+      "target": "<op()><sp(20)>All enemy bases captured!\nMission accomplished!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04443",
+      "target": "<op()><sp(20)>Looks like the noisy enemy's been silenced.<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04444",
+      "target": "<op()><sp(20)>A new enemy unit is approaching!\n...An Overman?!<ed(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Source has the malformed/unpaired <ed(500)> (no preceding <ab()>); kept exactly as in the source rather than repaired."
+    },
+    {
+      "id": "dialogue_04445",
+      "target": "<op()><sp(20)>Wait a second... there's two of them coming!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04446",
+      "target": "<op()><sp(20)>Honestly, that Yassaba,\nhe's useless...<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Yassaba Jin named directly in source; row continues without <ed()> into 4447."
+    },
+    {
+      "id": "dialogue_04447",
+      "target": "<sp(20)>To think the Federation HQ's own Overman unit\nwould have to be called out.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04448",
+      "target": "<op()><sp(20)>You'd better shape up too, or\nyou'll be fired in no time.<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'\u9996\u3092\u5207\u308b' is the idiom for being dismissed/fired, not a literal beheading (compare the literal threat in 4468)."
+    },
+    {
+      "id": "dialogue_04449",
+      "target": "<op()><sp(20)>Ngh...!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04450",
+      "target": "<op()><sp(20)>That voice... no way!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04451",
+      "target": "<op()><sp(20)>There you are, Gain Bijou!\nYou womanizing scoundrel!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4452."
+    },
+    {
+      "id": "dialogue_04452",
+      "target": "<sp(20)>In place of the unreliable Siberian Railway,\nI've come to punish you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04453",
+      "target": "<op()><sp(20)>Isn't it a bit simple-minded\nto chalk everything up to womanizing?<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4454, which supplies the speaker's name."
+    },
+    {
+      "id": "dialogue_04454",
+      "target": "<sp(20)>Asuham Boone!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04455",
+      "target": "<op()><sp(20)>What's that other Overman?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04456",
+      "target": "<op()><sp(20)>What is that?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04457",
+      "target": "<op()><sp(20)>What is that, an Invader?!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "'invader' kept as a generic taunt (lowercase), not a proper-noun faction; see uncertainty note."
+    },
+    {
+      "id": "dialogue_04458",
+      "target": "<op()><sp(20)>No... that's not it.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04459",
+      "target": "<op()><sp(20)>Its identity is unknown.\nBe careful.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04460",
+      "target": "<op()><sp(20)>With this Power Golem's Power Coat...\nno attack can touch it!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Power Golem = locked unit name (unit_names_014_b.json, slot 347)."
+    },
+    {
+      "id": "dialogue_04461",
+      "target": "<op()><sp(20)>The Power Golem he's piloting.\nIts Overskill is superhuman strength.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "Confirmed via King Gainer Wikipedia and the Japanese SRW wiki that the Power Golem here is piloted by Asuham Boone (not Yassaba Jin) and that its Overskill is superhuman strength; 'Overskill' (one word) proposed in the accompanying glossary_proposals file. Row continues without <ed()> into 4462."
+    },
+    {
+      "id": "dialogue_04462",
+      "target": "<sp(20)>Avoid close combat.\nUse mobility to keep it off balance!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04463",
+      "target": "<op()><sp(20)>Asuham!\nWhy won't you go after only me?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04464",
+      "target": "<op()><sp(20)>I don't want to make a hero out of you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04465",
+      "target": "<op()><sp(20)>Are you trying to tarnish my name and\nmake the people of the Exodus despair?!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04466",
+      "target": "<op()><sp(20)>That's the best strategy there is!<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4467."
+    },
+    {
+      "id": "dialogue_04467",
+      "target": "<sp(20)>Both to stop the Exodus\nand to capture you unharmed!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04468",
+      "target": "<op()><sp(20)>Don't get in our way again.\nOr I'll snap that neck of yours!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04469",
+      "target": "<op()><sp(20)>I'm telling you for your own good, surrender peacefully.\nThat'll settle everything.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Row continues without <ed()> into 4470."
+    },
+    {
+      "id": "dialogue_04470",
+      "target": "<sp(20)>For Karin's sake too!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Karin identified as Karin Boone, Asuham's sister and Gain's former lover, via King Gainer Wikipedia and akurasu.net's Master Characters List; proposed in the accompanying glossary_proposals file."
+    },
+    {
+      "id": "dialogue_04471",
+      "target": "<op()><sp(20)>Who... is that?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04472",
+      "target": "<op()><sp(20)>My sister, the one you toyed with!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04473",
+      "target": "<op()><sp(20)>I have no idea what you're talking about!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04474",
+      "target": "<op()><sp(20)>I'll drag you back to Karin!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04475",
+      "target": "<op()><sp(20)>I told you, I have no idea what you mean!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_04476",
+      "target": "<op()><sp(20)>Typical man, playing dumb when it's inconvenient!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Generalization about men in general, not gendering a specific unidentified referent."
+    },
+    {
+      "id": "dialogue_04477",
+      "target": "<op()><sp(20)>I heard I'd get to fight you all,\nand I was looking forward to it.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Speaker matches Cynthia Lane's established personality (treats battle as a game); row continues without <ed()> into 4478 in the next batch."
+    }
+  ],
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_04422",
+        "dialogue_04431"
+      ],
+      "note": "The Siberian Railway Overman pursuer confronted in 4420-4431 is never named in these rows. The role matches Yassaba Jin (locked as the Siberian Railway squad commander), but identity is inferred from context only; kept gender-neutral ('that guy', 'they') rather than asserting Yassaba by name."
+    },
+    {
+      "ids": [
+        "dialogue_04425",
+        "dialogue_04426",
+        "dialogue_04427",
+        "dialogue_04428"
+      ],
+      "note": "Turn-taking between the pursuer and Gain Bijou has no speaker tags in the source table; attribution is inferred from the 'Black Southern Cross' epithet (Gain's locked nickname) appearing in 4428."
+    },
+    {
+      "id": "dialogue_04444",
+      "note": "Source row ends with the malformed, unpaired <ed(500)> (no matching <ab()>). Kept exactly as in the source rather than repaired, per the rule to flag rather than silently fix malformed commands."
+    },
+    {
+      "ids": [
+        "dialogue_04461",
+        "dialogue_04470",
+        "dialogue_04474"
+      ],
+      "note": "Researched and confirmed: the Power Golem in this scene is piloted by Asuham Boone (not Yassaba Jin), and Karin is Karin Boone, Asuham's sister and Gain Bijou's former lover. Sources: https://en.wikipedia.org/wiki/Overman_King_Gainer , https://akurasu.net/wiki/Master_Characters_List , https://srw.wiki.cre.jp/wiki/%E3%83%91%E3%83%AF%E3%83%BC%E3%82%B4%E3%83%AC%E3%83%BC%E3%83%A0 . Both names proposed for the glossary in batch_04398_glossary_proposals.json since this is their first appearance in the corpus so far translated."
+    },
+    {
+      "id": "dialogue_04435",
+      "note": "'Dome police' translated literally as a generic descriptive phrase (not capitalized as a proper noun); no dedicated English source names a distinct 'Dome Police' organization, so it is not proposed as a locked glossary term."
+    },
+    {
+      "id": "dialogue_04457",
+      "note": "'invader' (interbeeda) kept lowercase as an ad hoc taunt about the Dominator's flying-saucer shape, not a named enemy faction; see also the parallel uncertainty in batch_04478 (rows 4498/4504/4506)."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independently reviewed for meaning against the Japanese source (rows 4383-4492 read for context); 4 meaning fixes applied (Domepolis police in 4435, composition in 4441, capitalized Invader in 4457, reversed-meaning fix in 4476); all 80 rows in slice set to meaning_reviewed, none left at draft.",
+    "fit": "Full meaning retained without display-fit shortening; all rows are short combat/dialogue alerts well under the 110-character visible-text budget.",
+    "controls": "All original angle-bracket commands preserved in source order for every row, including the malformed unpaired <ed(500)> in row 4444 and rows that intentionally omit <op()>/<ed()> because they continue an adjacent row's display box (4425-4426, 4429-4430, 4440-4441, 4446-4447, 4451-4454, 4453-4454, 4466-4467, 4469-4470, 4477-4478)."
+  }
+}

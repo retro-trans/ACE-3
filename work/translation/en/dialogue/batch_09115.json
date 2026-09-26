@@ -1,0 +1,59 @@
+{
+  "slice_start": 9115,
+  "slice_count": 32,
+  "rows_examined": [
+    [9100, 9161]
+  ],
+  "rows_examined_count": 62,
+  "rows_in_slice": 32,
+  "rows": [
+    {"id": "dialogue_09115", "target": "<on()><sp(20)>I didn't understand it at the time.\nBut now I think it's because he was\nthe same being as <color(4)>Barrel<ce()>.", "status": "meaning_reviewed", "notes": "Compressed to fit the 110-character visible limit."},
+    {"id": "dialogue_09116", "target": "<on()><sp(20)>He rarely showed emotion,\nbut he was a man who sometimes revealed\nsomething like a bottomless hatred.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09117", "target": "<on()><sp(20)>That may have been directed\nat <color(4)>Barrel<ce()>, his other self.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09118", "target": "<on()><sp(20)>...I kept thinking about what Dr. <color(6)>Bardona<ce()> meant\nby telling me to find <color(4)>Barrel<ce()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09119", "target": "<on()><sp(20)>What that meant\nbecame clear to me in the fight moments ago.", "status": "meaning_reviewed", "notes": "Reworded to avoid the font's lowercase j (\"just\")."},
+    {"id": "dialogue_09120", "target": "<on()><sp(20)>The key to the <book(1)>Baldora Drive<endbook()> is <color(4)>Barrel<ce()>...\nYou, yourself.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09121", "target": "<on()><sp(20)>...How do you know?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09122", "target": "<on()><sp(20)><color(5)>Berkt<ce()> said he himself was the key.\nSo... the same must be true for you.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09123", "target": "<on()><sp(20)>But the two worlds are completely different.\nShouldn't it be impossible for the same person to exist in both?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09124", "target": "<on()><sp(20)>Nothing identical exists\nbecause tiny differences kept repeating.\nBut if their root is the same...", "status": "meaning_reviewed", "notes": "Compressed to fit the 110-character visible limit."},
+    {"id": "dialogue_09125", "target": "<on()><sp(20)>The <book(1)>Baldora Drive<endbook()>'s key, <color(4)>Barrel<ce()>,\nmay have ended up\nbecoming two people.", "status": "meaning_reviewed", "notes": "Tag order corrected to match source: <book(1)> (Baldora Drive) precedes <color(4)> (Barrel)."},
+    {"id": "dialogue_09126", "target": "<on()><sp(20)>...<color(4)>Faye<ce()>.\nWhy did you keep it hidden?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09127", "target": "<on()><sp(20)>...I was using you\nfor my own purposes.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09128", "target": "<on()><sp(20)>I've caused trouble for everyone too...\nThis is the last time I'll fight alongside you.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09129", "target": "<on()><sp(20)>Then why did you decide to tell us?", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09130", "target": "<on()><sp(20)>It's because...\nit became too painful to keep lying.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09131", "target": "<on()><sp(20)>Everyone here fights with their own convictions.\nHiding who I really was\nfelt like it was disgracing that.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09132", "target": "<on()><sp(20)>I want to stay as one of you...\nSo I felt I needed to tell you.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09133", "target": "<on()><sp(20)>But now...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09134", "target": "<on()><sp(20)>Wait.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09135", "target": "<on()><sp(20)>I can't take it all in yet,\nand honestly, I'm still half in disbelief.\nBut I won't turn back now.", "status": "meaning_reviewed", "notes": "Compressed to fit the 110-character visible limit; the source's \"having come this far\" clause is implied rather than spelled out."},
+    {"id": "dialogue_09136", "target": "<on()><sp(20)>You've supported and protected me all this time -\nif they're <color(4)>Faye<ce()>'s words, I'll believe them.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09137", "target": "<on()><sp(20)>I'll keep fighting.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09138", "target": "<on()><sp(20)><color(4)>Barrel<ce()>...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09139", "target": "<on()><sp(20)>Either way, there's only one thing to do.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09140", "target": "<on()><sp(20)>From here, we're heading\nfor the <book(1)>Baldora Drive<endbook()>\nto shut it down.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09141", "target": "<on()><sp(20)>I'm counting on you... <color(4)>Faye<ce()>, <color(4)>Barrel<ce()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09142", "target": "<on()><sp(20)>But, I've already...", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09143", "target": "<on()><sp(20)>We need <color(4)>Faye<ce()>.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09144", "target": "<on()><sp(20)>That's right.\nWithout you, no one would have\nnoticed this crisis at all.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09145", "target": "<on()><sp(20)>So please, fight with us to the end.", "status": "meaning_reviewed", "notes": ""},
+    {"id": "dialogue_09146", "target": "<on()><sp(20)>...Yes!", "status": "meaning_reviewed", "notes": ""}
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_09118_09143",
+      "note": "\"Dr. Bardona\" (short form of Jill Bardona) used per the locked glossary person-spelling; distinct from the \"Baldora Drive\"/\"Baldora Charge\" device spelling per terms_028.json's noted intentional split."
+    },
+    {
+      "ids": ["dialogue_09142", "dialogue_09146"],
+      "note": "Speaker not re-confirmed by name in this immediate span (scene reads as Faye faltering, then agreeing to keep fighting per dialogue_09143-09145's direct address); consistent with dialogue_09091-09146 context in the previous slice, not re-asserted here beyond that."
+    }
+  ],
+  "validation": {
+    "translation": "32 rows drafted against console-only ISO reads; 62 rows examined 9100-9161 (back-read into the previous slice for the Baldora Drive/Bardona reveal, forward-read to confirm this resource ends at row 9146 before resource 6271 begins).",
+    "fit": "Full meaning drafted first; dialogue_09135 required compression to stay at or under 110 visible characters (see note). All other rows measured under the limit.",
+    "controls": "All original ASCII control sequences and <color()>/<book()> spans preserved in source order. Rows in this slice have no <ab()>/<off()> commands in the source (consistent with the narration/reveal block starting at dialogue_09082 in the previous batch); preserved as such rather than added.",
+    "meaning_review": "32/32 rows independently meaning-reviewed against console-only ISO reads (see review_09115.json); 1 meaning fix applied (dialogue_09119 reworded off lowercase j); Dr. Bardona naming confirmed by orchestrator ruling, no change needed; all rows now status meaning_reviewed, none left draft."
+  }
+}

@@ -1,0 +1,521 @@
+{
+ "resource_id": 4004723,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 58,
+ "rows_examined": 58,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17040,1)><speed(2)>...A man capable of pulling off an operation on this scale. That's the one we're about to fight.",
+   "notes": "",
+   "source_sha256": "7f1ee33cb05d8a4085c506dd2ef6f732e58746b902da2815cf8e86c4a8bb2d87"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(25010,1)><speed(2)><color(5)>Char Aznable<ce()>, huh. Heh... honestly, it's got me a little rattled.",
+   "notes": "",
+   "source_sha256": "0cbe0b3aa1d8be3ff8c1102d1385b5b097fc4003ad43bf71d95256aa168df318"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23030,1)><speed(2)>After going to such lengths, he set up a flashy grand stage and threw down the gauntlet.",
+   "notes": "Referent 'he' = Char, named in the previous row.",
+   "source_sha256": "0ba47efcbe4e4dfea7c967d5b0f8ddb988a6e86998ab6413e8ef17b5beb8785e"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)>Guess your rival really is something else.",
+   "notes": "Addressed to Amuro, who replies next; 'your rival' = Char.",
+   "source_sha256": "f6df1673eec3adf6c2393dd786ec6ea00c80541fb1349cb0307f79b6dcebdc8e"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(5010,1)><speed(2)>This is it. I will take him down... no matter what.",
+   "notes": "",
+   "source_sha256": "4b5e734ab043da997d8080b32fc886b51e440cd50acebedc70f83754e7e8b8e9"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>If we all pool our strength, we can handle something like Axis!",
+   "notes": "",
+   "source_sha256": "636447a2830e1bd9678af264beeabab1a1703e79355e381d39549d9f91e00893"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>We've gotten through all kinds of things so far. We can pull this off, I know it!",
+   "notes": "",
+   "source_sha256": "cb1698f7e8c6269cfcc169a59b306142f8ec1856f685a65f4093dc55715d591b"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)><color(5)>Char<ce()>... if I don't finish him, I won't be able to rest easy.",
+   "notes": "",
+   "source_sha256": "0efcbc186df9f455c249f6690bf801af1b6a660b9664ac390a44cab867cba688"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(1040,1)><speed(2)>Captain <color(4)>Amuro<ce()>... please don't say such ominous things.",
+   "notes": "Japanese order 'Amuro Captain' flipped to 'Captain Amuro'; color tag kept on the name.",
+   "source_sha256": "03156626db22dce3713e58fd68795b6b2c6e811e098b2f6cd1f2436a21054ba6"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(17040,1)><speed(2)>You're the one who's carried our fight this whole time.",
+   "notes": "Addressed to Amuro.",
+   "source_sha256": "b14498d9aee8da6dfd4d23892c7604d626271288257f53704e2e280c197f42f9"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(23030,1)><speed(2)>Can't have you dying easy in a place like this.",
+   "notes": "Addressed to Amuro.",
+   "source_sha256": "a2c81c1343d178905d82bdea83bbba0ee7cfcb4d5d4a8e05472c1cf3c6013f84"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(5010,1)><speed(2)>I was only saying I'm prepared for it.",
+   "notes": "",
+   "source_sha256": "743ec12e530cccf5093ad0ae663b70d51901a26849b87ce9a916c9f3899701f7"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(10010,1)><speed(2)><color(4)>Tapp<ce()>, <color(4)>Light<ce()>. We're gonna make it back, right?",
+   "notes": "",
+   "source_sha256": "b74f6c89cc73c33e71112e886fef48da0b599c52cbed5630329a6713619abf45"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(10020,1)><speed(2)>You're more serious than usual. Nothing scares us with the three of us together, right?",
+   "notes": "",
+   "source_sha256": "be610406a53b393e6926ec8b3ed898e00d828e654248ce73fae057e8b91eb931"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(10030,1)><speed(2)>Guess that's simply an ace's fate.",
+   "notes": "",
+   "source_sha256": "641c10fec75c0d891be05c0670d3402a58f9caecf1de14179b0b1ea9351f11e5"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(10040,1)><speed(2)><color(4)>Kaine<ce()>. That's not like you. Right now we need that boldness of yours.",
+   "notes": "",
+   "source_sha256": "26d65dab9a69294bc128981e9dfaf9f6baebf9dd5f98710971918269bf836459"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(10010,2)><speed(2)>Yeah, you're right... Let's go show 'em what we've got!!",
+   "notes": "",
+   "source_sha256": "9dec9511087f7acb786e7d26d238e2c321b7c12d10ff247a50db70f499d2c539"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(25020,1)><speed(2)><color(4)>Isamu<ce()>! You ready!",
+   "notes": "",
+   "source_sha256": "f11242bfa6286b6266bdcc1974f1848313e0f5854de8d1cad324ec3d8a2650a7"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(25010,2)><speed(2)>You've got a different fire today, <color(4)>Guld<ce()>.",
+   "notes": "",
+   "source_sha256": "4328ff9523fefdf05dad6ac862382336372b447cb572b61a6b081468e8312242"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(25020,1)><speed(2)>People here crossed the boundaries between their own races and stood together. I won't let anyone destroy that!",
+   "notes": "'joined hands' reworded to 'stood together' to avoid the letter j per the style rule.",
+   "source_sha256": "63a922d201dee1a400bcd7b02e97651511fc15167197494e1375790ce4d2012d"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(25010,1)><speed(2)>Not bad, coming from you for once. <color(4)>Guld<ce()>... we'll stop it, no matter what.",
+   "notes": "'it' = the Axis drop; the source's 'yatsu' object is left as the team's shared goal, not a person.",
+   "source_sha256": "a24aa617bc2c06d95751fee9bb0e534256aacbb0d96b1ac02da09bc4f86a9a1d"
+  },
+  {
+   "table": 1,
+   "slot": 179,
+   "text_id": 180,
+   "en": "<operator(17040,1)><speed(2)>If we let Axis fall here, it's a repeat of that nightmare fifteen years ago.",
+   "notes": "",
+   "source_sha256": "0f49b2c2b8967f39a4c09bf76aaaf701cfb47782dcc7bc8cf2ed4d1d72088c6a"
+  },
+  {
+   "table": 1,
+   "slot": 180,
+   "text_id": 181,
+   "en": "<operator(17040,1)><speed(2)>A tragedy like that... never again...",
+   "notes": "",
+   "source_sha256": "bedc18f7c3438419a1754591fce6168e1558362527ea122729c4ad6938aeee37"
+  },
+  {
+   "table": 1,
+   "slot": 181,
+   "text_id": 182,
+   "en": "<operator(17010,1)><speed(2)><color(4)>Jamil<ce()>, leave it to us! We will stop it, no matter what!",
+   "notes": "",
+   "source_sha256": "522c349ffd085191af0973d16d9f51e5847feac91cad55f138c994eae4fd743f"
+  },
+  {
+   "table": 1,
+   "slot": 182,
+   "text_id": 183,
+   "en": "<operator(17010,1)><speed(2)>What you're feeling... we've made it our own!",
+   "notes": "",
+   "source_sha256": "e09c8dc00afee3046ae05a1a2a42d1ed0e6672f65508fd0e2302e65abfa097f1"
+  },
+  {
+   "table": 1,
+   "slot": 183,
+   "text_id": 184,
+   "en": "<operator(17020,2)><speed(2)>Yeah! Let's show 'em! This time, it's not about the money.",
+   "notes": "",
+   "source_sha256": "fe9045721ec22a27b1d84748817da1cc1576e94a3907b00a3f6ce7f9f69e210c"
+  },
+  {
+   "table": 1,
+   "slot": 184,
+   "text_id": 185,
+   "en": "<operator(17070,1)><speed(2)>Everyone... please, stay safe.",
+   "notes": "",
+   "source_sha256": "3ac4606c1340499c3dcee02f6c6179909c4eba5fc063fea6240ef2c39f8d6ab8"
+  },
+  {
+   "table": 1,
+   "slot": 219,
+   "text_id": 220,
+   "en": "<operator(23030,1)><speed(2)>Let's nail this all the way to the end!",
+   "notes": "",
+   "source_sha256": "bc8f8bfe310f1aa55781fd1d96662cfdd98aaa60f3cb223655b5224069989f56"
+  },
+  {
+   "table": 1,
+   "slot": 220,
+   "text_id": 221,
+   "en": "<operator(23010,1)><speed(2)>Of course! <color(4)>Eureka<ce()>, you're okay, right?",
+   "notes": "",
+   "source_sha256": "8c61459eb6f0feb512bd6c0b7ef2ce4dd40588f88acf5523699eeb09e949bb0c"
+  },
+  {
+   "table": 1,
+   "slot": 221,
+   "text_id": 222,
+   "en": "<operator(23020,2)><speed(2)>I'm okay! <color(4)>Nirvash<ce()> is fired up too! It can feel everyone's feelings!",
+   "notes": "",
+   "source_sha256": "f0ff101640f09505c266b487626994e4c7611772ccbb10cb2aa4c4482a93f2e0"
+  },
+  {
+   "table": 1,
+   "slot": 259,
+   "text_id": 260,
+   "en": "<operator(21020,1)><speed(2)><color(4)>Gainer<ce()>! You ready to go!",
+   "notes": "",
+   "source_sha256": "89a7b72703e3f92d23f6938e429895ebddbe2dc4c17212453100790566500abf"
+  },
+  {
+   "table": 1,
+   "slot": 260,
+   "text_id": 261,
+   "en": "<operator(21010,1)><speed(2)>Of course! What about you, though? You gonna be all right?",
+   "notes": "",
+   "source_sha256": "07f3e9b68f646ddb4c87bb9f651c40b30d0301703ec3f969bec9388f4abf061e"
+  },
+  {
+   "table": 1,
+   "slot": 261,
+   "text_id": 262,
+   "en": "<operator(21020,2)><speed(2)>Obviously! I've got to see this to the end with my own eyes!",
+   "notes": "",
+   "source_sha256": "9d32be4600468a7008fb39abd56fcb99866dbba108690a87d3fe39f53180a850"
+  },
+  {
+   "table": 1,
+   "slot": 262,
+   "text_id": 263,
+   "en": "<operator(21020,2)><speed(2)>This is the biggest task of Exodus contractor <color(4)>Gain Bijou<ce()>'s career!",
+   "notes": "",
+   "source_sha256": "3dbe524cfcb7a9690c38ccb08d61d125f9ee0153bb1d207f15d1fc6c3a63c150"
+  },
+  {
+   "table": 1,
+   "slot": 299,
+   "text_id": 300,
+   "en": "<operator(21150,1)><speed(2)>\"A fight worth risking my life for\"... please, I'm not betting that easy.",
+   "notes": "",
+   "source_sha256": "0c8ca9e1ff9fc49b58ffb6502dc26c01bf78e215732151f7794e0800bf899888"
+  },
+  {
+   "table": 1,
+   "slot": 300,
+   "text_id": 301,
+   "en": "<operator(23200,1)><speed(2)>That's right! We've got a fun future ahead of us.",
+   "notes": "",
+   "source_sha256": "cb97b8a6be1320567cc5d435bb757716f500f8ced17fd772bbd9343e1032e756"
+  },
+  {
+   "table": 1,
+   "slot": 339,
+   "text_id": 340,
+   "en": "<operator(19010,1)><speed(2)><color(4)>Kei<ce()>, <color(4)>Gai<ce()>, let's go. Time to show them the power of Getter!",
+   "notes": "",
+   "source_sha256": "dcae9e272f5b33c38826476d5637f955bdca185c5a26bba24e6d770fee9115e2"
+  },
+  {
+   "table": 1,
+   "slot": 340,
+   "text_id": 341,
+   "en": "<operator(19020,1)><speed(2)>Yeah! Like we'd lose to some hunk of rock!",
+   "notes": "",
+   "source_sha256": "c6b5ca1ce3ebe75099f51c252b0ae68a5a16018a63d9b82288d56932752ec850"
+  },
+  {
+   "table": 1,
+   "slot": 341,
+   "text_id": 342,
+   "en": "<operator(19030,1)><speed(2)>Yeaaaah, let's do this!!",
+   "notes": "",
+   "source_sha256": "85feeeb96690723803ef2489c477a8ce84fabd445f216b70a534d40cf9ed9bae"
+  },
+  {
+   "table": 1,
+   "slot": 379,
+   "text_id": 380,
+   "en": "<operator(1020,1)><speed(2)>For the people waiting back on Earth too... I will stop Axis, no matter what!",
+   "notes": "",
+   "source_sha256": "9bae4298db78bebebc60bfaad0841b20e35b6617641a0c35241e1f6868820795"
+  },
+  {
+   "table": 1,
+   "slot": 419,
+   "text_id": 420,
+   "en": "<operator(14030,1)><speed(2)>That's one huge target! Miss it and a pay cut won't even cover it!",
+   "notes": "",
+   "source_sha256": "b18bb11eb3247b5f5f529bc04ca9f483b347f55a4fcc359ed64b1d0d5d00d792"
+  },
+  {
+   "table": 1,
+   "slot": 420,
+   "text_id": 421,
+   "en": "<operator(14010,1)><speed(2)>All right, let's go, everyone!",
+   "notes": "",
+   "source_sha256": "b7ccab17248f9ad02e48d43c070013d2c890d898f48cca20b5f30dc70c9098bd"
+  },
+  {
+   "table": 1,
+   "slot": 459,
+   "text_id": 460,
+   "en": "<operator(12061,1)><speed(2)>I'm fired up, fired up! The decisive battle for Earth's fate! In manga terms, maybe the final chapter?",
+   "notes": "",
+   "source_sha256": "e655ded5d65b2018b09a2ab95f2262ebe7a8016e8b8dd5cdcca0185518a52d8e"
+  },
+  {
+   "table": 1,
+   "slot": 460,
+   "text_id": 461,
+   "en": "<operator(12071,1)><speed(2)>Please look forward to <color(4)>Hikaru Amano<ce()>-sensei's next work.",
+   "notes": "'-sensei' kept; it is part of the manga-artist in-joke, not a bare address honorific.",
+   "source_sha256": "d32a124952829b751d598ac25f4b6644e257789e1f0000934e7503cd13b5fea1"
+  },
+  {
+   "table": 1,
+   "slot": 499,
+   "text_id": 500,
+   "en": "<operator(6011,1)><speed(2)>Output, drive system, control system... all normal.",
+   "notes": "",
+   "source_sha256": "df6be9d1b4fd9a2a1effefe4a4685adeb471da38071a117a763db5004f97a85a"
+  },
+  {
+   "table": 1,
+   "slot": 500,
+   "text_id": 501,
+   "en": "<operator(6011,1)><speed(2)>Let's go, <color(4)>Zero<ce()>...!",
+   "notes": "'Zero' = Heero's Wing Gundam Zero, used as a short pet name for the unit.",
+   "source_sha256": "aed43a2bc041cfa16b8bd254127449ce9a48142cb6b61271d070a8fa4d143518"
+  },
+  {
+   "table": 1,
+   "slot": 539,
+   "text_id": 540,
+   "en": "<operator(12051,2)><speed(2)>Damn you, <color(5)>Char<ce()>! I'll never forgive you! There's no way I'm letting Axis fall!",
+   "notes": "",
+   "source_sha256": "6e412ab05b53ce0441b18ba493f3cb8a7527cea16444794fa4f8c629242c7cd0"
+  },
+  {
+   "table": 1,
+   "slot": 540,
+   "text_id": 541,
+   "en": "<operator(12061,1)><speed(2)>Oh! You're really fired up, <color(4)>Ryoko<ce()>!",
+   "notes": "'-chan' dropped per convention of dropping honorifics with no English equivalent.",
+   "source_sha256": "6310577bcb06fda11b2d98fd98d6aac83a34c0249eaebcb558bd785572c4fe98"
+  },
+  {
+   "table": 1,
+   "slot": 541,
+   "text_id": 542,
+   "en": "<operator(12051,1)><speed(2)>Damn right! If not now, then when the hell would I be?!",
+   "notes": "",
+   "source_sha256": "fdfd546c6cf8141c4c0341f9978364b46bb763fa75ef46cdbf8d791b78817d8f"
+  },
+  {
+   "table": 1,
+   "slot": 542,
+   "text_id": 543,
+   "en": "<operator(12061,1)><speed(2)>True! It's the decisive battle for Earth's fate, after all! Final chapter material, huh?",
+   "notes": "",
+   "source_sha256": "04c8af14a854c951777c131547ea1d135a8b98f760cf822af55035d1fc911e17"
+  },
+  {
+   "table": 1,
+   "slot": 543,
+   "text_id": 544,
+   "en": "<operator(12071,1)><speed(2)>Please look forward to <color(4)>Hikaru Amano<ce()>-sensei's next work.",
+   "notes": "",
+   "source_sha256": "d32a124952829b751d598ac25f4b6644e257789e1f0000934e7503cd13b5fea1"
+  },
+  {
+   "table": 1,
+   "slot": 544,
+   "text_id": 545,
+   "en": "<operator(12051,1)><speed(2)>Before that next work, gotta take out the bad guys first!",
+   "notes": "",
+   "source_sha256": "e29cb1eb9eed281a1c0b7247ea6a576e3f6374dff2c945b53ad3ceaf717c7603"
+  },
+  {
+   "table": 1,
+   "slot": 579,
+   "text_id": 580,
+   "en": "<operator(19050,1)><speed(2)>We stopped the last day of Earth once already. Gotta show we can stop this crisis too.",
+   "notes": "",
+   "source_sha256": "1958a8bdc2c30f385c503f71ba7f471736c76a2fd69ecdbc23960db443a0658f"
+  },
+  {
+   "table": 1,
+   "slot": 580,
+   "text_id": 581,
+   "en": "<operator(19040,1)><speed(2)>Heh... obviously.",
+   "notes": "",
+   "source_sha256": "a42123fddff74973cb25fd52cf9bba99a06a59b39d976c5053d65fd35915086f"
+  },
+  {
+   "table": 1,
+   "slot": 581,
+   "text_id": 582,
+   "en": "<operator(19060,1)><speed(2)><color(4)>Ryoma<ce()>... I'm counting on you.",
+   "notes": "",
+   "source_sha256": "62208d57c35079d2e234b66492962036a71be19b5c4b4f6d940b83cd70ce7b5a"
+  },
+  {
+   "table": 1,
+   "slot": 619,
+   "text_id": 620,
+   "en": "<operator(16010,1)><speed(2)>I have to stop it here... I can't let King <color(5)>Sakomizu<ce()>'s wishes go to waste!",
+   "notes": "",
+   "source_sha256": "c6257060b2badcdb8268b923bf3bdc7b2184389d7a72e02c53e5e0673130cfe2"
+  },
+  {
+   "table": 1,
+   "slot": 620,
+   "text_id": 621,
+   "en": "<operator(16040,1)><speed(2)><color(4)>Asap<ce()>. Please come back to me. If <color(4)>Asap<ce()>'s not here anymore, I...",
+   "notes": "Source repeats the addressee's name (not 'you') under two separate color tags; both kept per the tag-order rule.",
+   "source_sha256": "d9a57eb8cff02004b3305ac0f946644a3d3aa72634366d7b9c6d302c058b5c65"
+  },
+  {
+   "table": 1,
+   "slot": 621,
+   "text_id": 622,
+   "en": "<operator(16010,1)><speed(2)>It's okay! I promise I'll come back!",
+   "notes": "",
+   "source_sha256": "e08e1af180ad5a636c9c2f8fc63a0227e9cce0fca9f98734ea6353344471f7eb"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 0,
+   "slot": 21,
+   "issue": "Subject of 'threw down the gauntlet' left as 'he' (Char); source omits it but the surrounding rows name Char."
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "issue": "'yatsu' (the thing/guy to stop) left as 'it', read as the Axis drop rather than a person, since no singular enemy is named in this exchange."
+  },
+  {
+   "table": 1,
+   "slot": 620,
+   "issue": "Source names 'Asap' twice instead of using 'you' the second time; kept literal to match the two color tags."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 58,
+  "rows_in_scene": 58,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 63,
+    "before": "I was just saying I'm prepared for it.",
+    "after": "I was only saying I'm prepared for it.",
+    "reason": "reword to remove lowercase 'j' per style rule; no meaning change."
+   },
+   {
+    "table": 1,
+    "slot": 101,
+    "before": "Guess that's just an ace's fate.",
+    "after": "Guess that's simply an ace's fate.",
+    "reason": "reword to remove lowercase 'j' per style rule; no meaning change."
+   }
+  ],
+  "checked_decisions": [
+   "0/21 'he' = Char: source omits the subject of 'threw down the gauntlet', but 0/20 names Char Aznable immediately before, and 0/22-23 keep discussing 'your rival'/'him' consistently. Accepted.",
+   "1/142 'yatsu' -> 'it' read as the Axis drop, not a person: block is Guld/Isamu discussing protecting the unity between races; no singular named enemy in this exchange and the wider scene is about stopping Axis's fall. Accepted, matches draft's own reasoning.",
+   "1/620 Source repeats 'Asap' instead of using 'you' for the second mention; kept literal (two separate <color(4)>Asap<ce()> tags in source, order preserved). Accepted.",
+   "Orchestrator decisions: Amuro's rank as 'Captain' used correctly at 1/60 ('Captain Amuro'). 'Hikaru Amano-sensei' in-joke (1/460, 1/543) kept as drafted. Ixbrau/New Federation/unidentified life-forms do not appear in this scene. Speaker tags left unchanged throughout."
+  ],
+  "remaining_uncertainties": [
+   "None beyond what the draft already flagged in its own 'uncertainties' list (0/21 referent, 1/142 'it' referent, 1/620 repeated name) — all checked and accepted as-is; no row in this scene could not be verified."
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "term_romaji": "kyuu-mokuren / mokuren (旧木連 / 木連)",
+    "en": "former Jovian(s) / Jovian(s)",
+    "source": "dialogue_06685, dialogue_06686, dialogue_06689, dialogue_06778",
+    "why": "Short/colloquial form of the locked term 木星連合 = 'Jovian Federation' (opening_history_terms.json). No short form was previously recorded; used repeatedly in mission 18A as an ethnic/military label for former Jovian Federation personnel (e.g. Genichiro Tsukiomi)."
+  },
+  {
+    "term_romaji": "aratanaru chitsujo (新たなる秩序)",
+    "en": "New Order",
+    "source": "dialogue_06691, dialogue_06692, dialogue_06693",
+    "why": "Neo Zeon's ideological slogan in this exchange (a 'new order' born of destruction/chaos), echoing standard Gundam CCA-era Neo Zeon rhetoric. No existing lock found in the corpus or glossary files; proposed for reuse if the phrase recurs elsewhere."
+  },
+  {
+    "term_romaji": "Nerugaru Dokku (ネルガルドック)",
+    "en": "Nergal Dock",
+    "source": "dialogue_06713, dialogue_06724",
+    "why": "Facility name combining the locked company name 'Nergal' with a generic 'Dock'; no dedicated glossary entry existed. Recorded so later rows referencing the same facility use the same English name."
+  },
+  {
+    "term_romaji": "Ee-kyuu Janpaa (Ａ級ジャンパー)",
+    "en": "A-class Jumper",
+    "source": "dialogue_06711",
+    "why": "This Nadesico-canon term previously appeared only lower-cased inside a character bio (character_names_021.json, Inez Fressange: 'A-class jumper hidden by Nergal'). Capitalized here as a class/rank label; no standalone glossary entry existed before."
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "batch": "batch_00776.json",
+  "reviewer": "translate_dialogue_161",
+  "slice_start": 776,
+  "rows_in_slice": 80,
+  "rows_examined": [
+    [
+      761,
+      870
+    ]
+  ],
+  "rows_examined_count": 110,
+  "status": "meaning_reviewed",
+  "changes": [
+    {
+      "id": "dialogue_00818",
+      "before": "<on()><sp(20)>Commander <color(4)>Misumaru<ce()> has contacted us about something\nthat may be connected to this incident.\nApparently, it's still only a hypothesis.",
+      "after": "<on()><sp(20)>Commander <color(4)>Misumaru<ce()> has reported finding something\nthat may be connected to this incident.\nApparently, it's still only a hypothesis.",
+      "reason": "Restores that a relevant object has actually been located; only its connection remains hypothetical."
+    },
+    {
+      "id": "dialogue_00826",
+      "before": "<on()><sp(20)>That's insulting a superior officer.",
+      "after": "<on()><sp(20)>Insulting a superior officer is an offense.",
+      "reason": "Restores the explicit disciplinary-offense meaning, rather than only describing impoliteness."
+    }
+  ],
+  "preserved": [
+    "All control codes and their order",
+    "Original glossary choices pending centralized name normalization",
+    "Original line-break counts"
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        776
+      ],
+      "issue": "Hari versus nickname Harry deliberately left for centralized glossary normalization, as instructed."
+    },
+    {
+      "rows": [
+        807,
+        821,
+        823,
+        824,
+        828,
+        833
+      ],
+      "issue": "Naval Lieutenant Commander, military Lieutenant/Second Lieutenant, and civilian Chief are meaning-compatible; service/rank normalization remains a glossary task."
+    },
+    {
+      "rows": [
+        819
+      ],
+      "issue": "Source describes Baldora Drive as an abandoned experimental facility; preserved this specific description despite more general glossary technology wording."
+    },
+    {
+      "rows": [
+        843,
+        844,
+        846
+      ],
+      "issue": "The remark draws attention to treating Nirvash as alone, with a person-like counting nuance in Japanese. Literal English alone is accurate but cannot reproduce that grammatical personification fully without adding explanation."
+    },
+    {
+      "rows": [
+        778,
+        779,
+        791,
+        794,
+        804
+      ],
+      "issue": "Read rival-pilot banter and subsequent ship response together. Targets of insult/threat are the rival pilots; enemy gathering and firing rationale remain distinct."
+    }
+  ],
+  "remaining_terminology": [
+    "Hari/Harry",
+    "Guld Bowman and civilian Chief title",
+    "Misumaru title and identity glossary entry",
+    "Project Super Nova",
+    "X-9 Ghost",
+    "Zentradi",
+    "Nirvash",
+    "Metal Armor"
+  ],
+  "limits": "Meaning review only; no display-fit approval or emulator playback claim."
+}

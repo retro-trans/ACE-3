@@ -1,0 +1,143 @@
+{
+  "reviewer": "independent_meaning_review_agent_m07",
+  "slice_start": 2295,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 2280,
+      "end": 2389
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_02374",
+      "before": "<on()><sp(20)>Those <color(5)>unmanned units<ce()> had a mechanism for securing power, likely used to gather the power it needs to run.",
+      "after": "<on()><sp(20)>Those <color(5)>unmanned units<ce()> had a mechanism for securing power, likely used to gather the power the Drive needs.",
+      "reason": "Merged sentence left 'it needs to run' pointing at the mechanism/units. The source says the mechanism is used to gather the power needed for operation - of the Baldora Drive (2370, 2375-2376). Referent named."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [
+        2294,
+        2295,
+        2296,
+        2297
+      ],
+      "finding": "Berkt addressed by name, 'kisama' answer in 2297; no gender or identity added."
+    },
+    {
+      "rows": [
+        2301
+      ],
+      "finding": "Translator doubt: no possessive supplied for who was finishing Saotome - accepted."
+    },
+    {
+      "rows": [
+        2304,
+        2305,
+        2306
+      ],
+      "finding": "Ange/Holland exchange: names come from the lines themselves. 'little brother' is stated by the source (otouto-san)."
+    },
+    {
+      "rows": [
+        2307
+      ],
+      "finding": "'zujou' as 'atop Shin Dragon's head' accepted: a person 'is' (imasu) there, i.e. standing on it, not flying overhead."
+    },
+    {
+      "rows": [
+        2315,
+        2319
+      ],
+      "finding": "'it' = Shin Dragon (2313 target, 2318/2320 context) accepted; 'yatsu no shinka' = its evolution, not a person's."
+    },
+    {
+      "rows": [
+        2321,
+        2322,
+        2323
+      ],
+      "finding": "Text id 328 is indeed absent from the table; fragment left open, no names supplied."
+    },
+    {
+      "rows": [
+        2339
+      ],
+      "finding": "Bare 'Rotten luck...!' accepted; the source gives no owner of the bad luck."
+    },
+    {
+      "rows": [
+        2344,
+        2346,
+        2347
+      ],
+      "finding": "Polite explanatory speech addressed to Berkt, who answers in 2348; 'our own world' for 'jibun-tachi no sekai' accepted as generic."
+    },
+    {
+      "rows": [
+        2357
+      ],
+      "finding": "'Captain' per orchestrator decision; 'a Baldora Drive' supported by 2358 (another such facility)."
+    },
+    {
+      "rows": [
+        2359,
+        2363,
+        2367,
+        2369
+      ],
+      "finding": "Capitalised book-linked 'Wormhole' matches the rest of the corpus. Baldora Drive / Getter Rays / Berkt match glossary; book and color commands in source order."
+    },
+    {
+      "rows": [
+        2357,
+        2374
+      ],
+      "finding": "Source rows 2357-2374 carry 1-2 newlines each; targets have none, as the brief requires. Whether the window wraps automatically is a runtime question for the orchestrator."
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        2302
+      ],
+      "issue": "'tasukete ageta' has no object; 'I saved you' supplies 'you' as the natural reply to the accusation in 2301. What Ange saved them from is not stated."
+    },
+    {
+      "rows": [
+        2306
+      ],
+      "issue": "'Dewey no nakama datta na' is the recollective past (as I recall, you are with Dewey). 'You were one of Dewey's people, right?' can be read in English as a former affiliation. Left because English also uses the past for recollection; alternative: 'You're one of Dewey's people, right?'"
+    },
+    {
+      "rows": [
+        2315,
+        2320
+      ],
+      "issue": "Causatives (furesase wa sen / jama saseru mono ka = I will not let you) rendered as 'will not lay a single finger' / 'As if the likes of you could interfere'. Defiance is preserved, the speaker's volition is not; judged different rather than wrong."
+    },
+    {
+      "rows": [
+        2362
+      ],
+      "issue": "'Explain it to us' supplies 'us' (source: setsumei shite kure). Harmless, left."
+    },
+    {
+      "rows": [
+        2374
+      ],
+      "issue": "'ano mujinki' number unknown (plural kept); 2291-2292 in the previous batch are singular. The fix names 'the Drive', which the source leaves to context (kadou). Still a compressed two-sentence row."
+    }
+  ],
+  "validation": {
+    "controls": "Ordered angle-bracket command list of every target re-compared with the ISO source (dialogue_corpus.py slice) after review: all equal.",
+    "format": "No newlines; ASCII only; 80 ids present and in order.",
+    "fit": "Visible length <= 110 on every row; no display-fit shortening performed by the review.",
+    "runtime": "Runtime scene selection, speaker portraits, font coverage and visual fit are not established by this meaning review."
+  }
+}

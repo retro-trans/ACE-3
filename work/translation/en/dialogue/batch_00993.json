@@ -1,0 +1,542 @@
+{
+  "slice_start": 993,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      978,
+      1087
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "rows": [
+    {
+      "id": "dialogue_00993",
+      "target": "<op()><sp(20)>All units, please capture every base in the area.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "First canonical row ofresource6030; runtime use is not verified by screenshot. Earlier context978-992 is a different resource with development placeholder text."
+    },
+    {
+      "id": "dialogue_00994",
+      "target": "<sp(20)>The lit markers on the radar\nindicate enemy bases.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00995",
+      "target": "<op()><sp(20)>Don't forget to support our allies, too.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00996",
+      "target": "<op()><sp(20)>Barrel, you're not doing so well.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00997",
+      "target": "<op()><sp(20)><freezemouth(1)>...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_00998",
+      "target": "<op()><sp(20)>Is it still bothering you?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "The worry itself is left implicit. Rows1000-1003 establish unease, but not its precise cause."
+    },
+    {
+      "id": "dialogue_00999",
+      "target": "<op()><sp(20)>Is something wrong, Barrel, Faye?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01000",
+      "target": "<op()><sp(20)>Yes... For some reason, I can't settle down.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01001",
+      "target": "<sp(20)>I've had a bad feeling for a while now.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01002",
+      "target": "<op()><sp(20)>Just focus on the battle for now.\nYour reactions are slowing down.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01003",
+      "target": "<op()><sp(20)>I know.\nI don't want to die here...<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01004",
+      "target": "<op()><sp(20)>The forces marked in purple on the radar\ninclude a leader unit.<ab(1800)>",
+      "status": "meaning_reviewed",
+      "notes": "Purple marker refers to a group containing a leader unit, not necessarily a purple marker specifically on the leader."
+    },
+    {
+      "id": "dialogue_01005",
+      "target": "<sp(20)>Leader units are formidable,\nso please be careful.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01006",
+      "target": "<op()><sp(20)>That's a force with a leader unit.\nBe careful!<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01007",
+      "target": "<sp(20)>An alert on the lock-on marker warns that\nthe enemy is about to launch a powerful attack.<ab(1500)>",
+      "status": "meaning_reviewed",
+      "notes": "The alert predicts an incoming strong attack; it is not a warning that an attack has already hit."
+    },
+    {
+      "id": "dialogue_01008",
+      "target": "<sp(20)>Use evasive maneuvers to avoid the attack.\nStay calm and you'll be all right!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01009",
+      "target": "<op()><sp(20)>Alert!\nPlease evade the attack!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01010",
+      "target": "<op()><sp(20)>To capture a base,\ndestroy all of its defenders.<ab(1200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01011",
+      "target": "<sp(20)>Once the enemy can no longer fight,\nvictory is practically yours!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01012",
+      "target": "<op()><sp(20)>Thanks for the support.\nContinuing to cover the mothership.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Subject of continuing cover omitted as in source; no single speaker or group count invented."
+    },
+    {
+      "id": "dialogue_01013",
+      "target": "<op()><sp(20)>The escort force is at a disadvantage!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01014",
+      "target": "<op()><sp(20)>Th-the escort force has been defeated!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Defeat is reported; the draft does not change this into a specific casualty count."
+    },
+    {
+      "id": "dialogue_01015",
+      "target": "<op()><sp(20)>The escort force is in danger...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01016",
+      "target": "<op()><sp(20)>One escort squad has been wiped out...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Exactly one escort squad destroyed, distinct from generic escort-force reports."
+    },
+    {
+      "id": "dialogue_01017",
+      "target": "<op()><sp(20)>The Nadesico is still all right!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01018",
+      "target": "<op()><sp(20)>I-is this starting to look bad?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01019",
+      "target": "<op()><sp(20)>Th-the Nadesico is in danger!\nPlease provide support!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01020",
+      "target": "<op()><sp(20)>It's no use!!\nThe Nadesico is going down!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01021",
+      "target": "<op()><sp(20)>All crew, please evacuate the ship immediately.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01022",
+      "target": "<op()><sp(20)>We're running out of time.\nPlease hurry.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01023",
+      "target": "<op()><sp(20)>Time's up...\nUnfortunately, the operation has failed.<ab(1500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01024",
+      "target": "<op()><sp(20)>Base successfully captured!<ab(400)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01025",
+      "target": "<op()><sp(20)>One base has been captured!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01026",
+      "target": "<op()><sp(20)>Base captured!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01027",
+      "target": "<op()><sp(20)>Base capture successful!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01028",
+      "target": "<op()><sp(20)>The enemy's rear forces have begun moving.\nPlease be careful.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01029",
+      "target": "<op()><sp(20)>Enemy reinforcements?!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01030",
+      "target": "<op()><sp(20)>Enemy reinforcements!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01031",
+      "target": "<op()><sp(20)>Enemy reinforcements confirmed.\nThey're powerful. Please be careful.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01032",
+      "target": "<op()><sp(20)>Half of the enemy bases have been captured.\nKeep it up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01033",
+      "target": "<op()><sp(20)>So this is the Baldora Drive...\nIt's huge.<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Existing glossary provisional spelling Baldora Drive retained."
+    },
+    {
+      "id": "dialogue_01034",
+      "target": "<op()><sp(20)>Hey, don't get distracted,\nor you'll get taken out!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01035",
+      "target": "<op()><sp(20)>I'll finish these guys off quickly,\nthen settle things with that bastard Guld!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Guld follows researched canonical name; first-person rivalry stated directly by the source."
+    },
+    {
+      "id": "dialogue_01036",
+      "target": "<op()><sp(20)>Harry, please don't forget\nto monitor the surrounding area, too.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": "Harry nickname follows proposals_dialogue_00696.json rather than formal Hari Makibi."
+    },
+    {
+      "id": "dialogue_01037",
+      "target": "<sp(20)>There's no telling what might happen.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01038",
+      "target": "<op()><sp(20)>Yes, Captain!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01039",
+      "target": "<op()><sp(20)>The operational area has been secured!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01040",
+      "target": "<op()><sp(20)>Piece of cake!<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01041",
+      "target": "<op()><sp(20)>No... It seems we're not done yet.<ab(1000)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01042",
+      "target": "<sp(20)>A different enemy type has been detected ahead.\nPlease be careful.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01043",
+      "target": "<op()><sp(20)>Is that their leader?<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01044",
+      "target": "<op()><sp(20)>E-enemy reinforcements!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01045",
+      "target": "<op()><sp(20)>I'm telling you, I can't!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01046",
+      "target": "<op()><sp(20)>Stay calm and you'll be all right.\nMake evading enemy attacks your first priority.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01047",
+      "target": "<sp(20)>You can evade using that stick.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source points to a stick without specifying left/right; no side added."
+    },
+    {
+      "id": "dialogue_01048",
+      "target": "<op()><sp(20)>You can avoid most attacks this way.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01049",
+      "target": "<sp(20)>Watch your vernier consumption.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": "Vernier follows the visible English HUD gauge label. Consumption is retained without inventing a fuel type."
+    },
+    {
+      "id": "dialogue_01050",
+      "target": "<sp(20)>Next, try evading upward and downward, too.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01051",
+      "target": "<op()><sp(20)>A-aren't we\nin serious trouble!?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01052",
+      "target": "<op()><sp(20)>Harry, stay calm.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01053",
+      "target": "<op()><sp(20)>C-Captain!\nAt this rate, we're going to be destroyed!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01054",
+      "target": "<op()><sp(20)>This is a little troubling.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01055",
+      "target": "<sp(20)>Please drive the enemy off.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01056",
+      "target": "<on()><sp(20)>That unit... What is it?<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01057",
+      "target": "<on()><sp(20)>It seems those Londo Bell people\nhave sniffed us out.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Cutscene has shifted to the opposing group referring to Londo Bell externally; no character identity or gender assigned."
+    },
+    {
+      "id": "dialogue_01058",
+      "target": "<on()><sp(20)>They're pretty good.\nThe odds are a little against us.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01059",
+      "target": "<on()><sp(20)>It doesn't matter.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01060",
+      "target": "<on()><sp(20)>...Beginning now.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01061",
+      "target": "<on()><sp(20)>＜Authentication complete＞<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Full-width angle brackets are visible punctuation, not script commands. Retained as full-width to avoid accidentally creating an ASCII command token."
+    },
+    {
+      "id": "dialogue_01062",
+      "target": "<on()><sp(20)>Now everyone... will be saved.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01063",
+      "target": "<on()><sp(20)>Captain! Abnormal energy levels detected\nfrom the Baldora Drive!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01064",
+      "target": "<on()><sp(20)>Harry, pull back at once.<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Immediate retreat order; nautical astern wording not imposed without camera/ship orientation evidence."
+    },
+    {
+      "id": "dialogue_01065",
+      "target": "<on()><sp(20)>N-no good! I can't control it!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01066",
+      "target": "<on()><sp(20)>Aaaaaaagh!<ab(10000)><off()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01067",
+      "target": "<op()><sp(20)>...What... is this place?<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "First canonical row ofresource6031, contiguous after6030 and concerning the unexpected location."
+    },
+    {
+      "id": "dialogue_01068",
+      "target": "<op()><sp(20)>...We're on land?\nHow did we end up here?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01069",
+      "target": "<op()><sp(20)>W-what's going on?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01070",
+      "target": "<op()><sp(20)>First, we need to check that the unit is safe.\nIs everyone all right?<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Unit means the military group, not an individual machine; the following question establishes people as safety concern."
+    },
+    {
+      "id": "dialogue_01071",
+      "target": "<op()><sp(20)>Y-yes...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_01072",
+      "target": "<op()><sp(20)>Wait! Enemy units overhead!!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "rows": [
+        998,
+        1000,
+        1001
+      ],
+      "issue": "The source leaves the precise cause of Barrel's unease implicit; no explanation added."
+    },
+    {
+      "rows": [
+        1033,
+        1063
+      ],
+      "issue": "Baldora Drive spelling remains provisional in the central glossary; retained as instructed."
+    },
+    {
+      "rows": [
+        1049
+      ],
+      "issue": "Vernier consumption follows the visible HUD terminology; no runtime mechanics beyond source have been inferred."
+    },
+    {
+      "rows": [
+        1056,
+        1057,
+        1058,
+        1059,
+        1060,
+        1061,
+        1062
+      ],
+      "issue": "Cutscene speaker mapping remains unverified; targets avoid character identities and gender assumptions."
+    },
+    {
+      "rows": [
+        1061
+      ],
+      "issue": "Visible full-width angle brackets require font coverage and must not become command delimiters."
+    }
+  ],
+  "validation": {
+    "commands": "All control tokens, including freezemouth, preserved in exact order.",
+    "format": "Original newline counts retained. Full-width visible punctuation retained.",
+    "runtime": "Resource6030/6031 presence in corpus verified; runtime use not yet verified.",
+    "fit": "Full meaning retained without shortening; font measurement and runtime layout checks remain pending.",
+    "meaning_review": "Independent review of 80 rows against ISO, with 110 source rows examined (978-1087). No meaning corrections required. See review_00993.json."
+  }
+}

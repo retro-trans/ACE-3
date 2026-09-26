@@ -1,0 +1,375 @@
+{
+  "schema_version": "1.0",
+  "version": "0.1.6",
+  "sources": [
+    {
+      "id": "ace_series",
+      "title": "ACE3 series list — Akurasu",
+      "url": "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Series_List",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "ace_mechs",
+      "title": "ACE3 mech database — Akurasu",
+      "url": "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Mech_Database",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "ace_flow",
+      "title": "ACE3 flow chart — Akurasu",
+      "url": "https://akurasu.net/wiki/Another_Century%27s_Episode_3%3A_The_Final/Flow_Chart",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "ace_guide",
+      "title": "ACE3 walkthrough — Reid_Aileron",
+      "url": "https://gamefaqs.gamespot.com/ps2/941740-ace-another-centurys-episode-3-the-final/faqs/50338",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "ace_overview",
+      "title": "ACE3 overview — Aniwota Wiki",
+      "url": "https://w.atwiki.jp/aniwotawiki/pages/22852.html",
+      "language": "ja",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "ace_story",
+      "title": "ACE3 story summary — Storyteller Wiki",
+      "url": "https://w.atwiki.jp/storytellermirror/pages/235.html",
+      "language": "ja",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "ace_worlds",
+      "title": "ACE3 archived synopsis — BoardGameGeek wiki",
+      "url": "https://boardgamegeek.com/wiki/page/thing%3A114082",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "ace_wikipedia",
+      "title": "ACE3 overview — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Another_Century%27s_Episode_3:_The_Final",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "original_names",
+      "title": "Original character index — Super Robot Wars Wiki",
+      "url": "https://superrobotwars.fandom.com/wiki/Banpresto_Original/Characters",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "berkt",
+      "title": "Berkt — Super Robot Wars Wiki",
+      "url": "https://superrobotwars.fandom.com/wiki/Berkt",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "berkt_ja",
+      "title": "Berkt (ACE3) — Aniwota Wiki",
+      "url": "https://w.atwiki.jp/aniwotawiki/pages/35038.html",
+      "language": "ja",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "marina",
+      "title": "Marina Carson — Super Robot Wars Wiki",
+      "url": "https://superrobotwars.fandom.com/wiki/Marina_Carson",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "game"
+    },
+    {
+      "id": "garrod",
+      "title": "Garrod Ran — Gundam Wiki",
+      "url": "https://gundam.fandom.com/wiki/Garrod_Ran",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "tiffa",
+      "title": "Tiffa Adill — Gundam Wiki",
+      "url": "https://gundam.fandom.com/wiki/Tiffa_Adill",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "jamil",
+      "title": "Jamil Neate — Gundam Wiki",
+      "url": "https://gundam.fandom.com/wiki/Jamil_Neate",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "amuro",
+      "title": "Amuro Ray — Gundam Wiki",
+      "url": "https://gundam.fandom.com/wiki/Amuro_Ray",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "char",
+      "title": "Char Aznable — Gundam Wiki",
+      "url": "https://gundam.fandom.com/wiki/Char_Aznable",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "bright",
+      "title": "Bright Noa — Gundam Wiki",
+      "url": "https://gundam.fandom.com/wiki/Bright_Noa",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "londo_bell",
+      "title": "Londo Bell — Gundam Wiki",
+      "url": "https://gundam.fandom.com/wiki/Londo_Bell",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "neo_zeon",
+      "title": "Neo Zeon — Gundam Wiki",
+      "url": "https://gundam.fandom.com/wiki/Neo_Zeon",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "renton",
+      "title": "Renton Thurston — Eureka Seven Wiki",
+      "url": "https://eurekaseven.fandom.com/wiki/Renton_Thurston",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "eureka",
+      "title": "Eureka — Eureka Seven Wiki",
+      "url": "https://eurekaseven.fandom.com/wiki/Eureka",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "holland",
+      "title": "Holland Novak — Eureka Seven Wiki",
+      "url": "https://eurekaseven.fandom.com/wiki/Holland_Novak",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "anemone",
+      "title": "Anemone — Eureka Seven Wiki",
+      "url": "https://eurekaseven.fandom.com/wiki/Anemone",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "gekkostate",
+      "title": "Gekkostate — Eureka Seven Wiki",
+      "url": "https://eurekaseven.fandom.com/wiki/Gekkostate",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "king_gainer",
+      "title": "Overman King Gainer — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Overman_King_Gainer",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "master_names",
+      "title": "Master character list — Akurasu (King Gainer section)",
+      "url": "https://akurasu.net/wiki/Master_Characters_List",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "siberian_railway",
+      "title": "Siberian Railway — SRW Wiki",
+      "url": "https://srw.wiki.cre.jp/wiki/%E3%82%B7%E3%83%99%E3%83%AA%E3%82%A2%E9%89%84%E9%81%93%E5%85%AC%E7%A4%BE",
+      "language": "ja",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "akito",
+      "title": "Akito Tenkawa — Nadesico Wiki",
+      "url": "https://nadesico.fandom.com/wiki/Akito_Tenkawa",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "ruri",
+      "title": "Ruri Hoshino — Nadesico Wiki",
+      "url": "https://nadesico.fandom.com/wiki/Ruri_Hoshino",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "martian_successors",
+      "title": "Martian Successors — Nadesico Wiki",
+      "url": "https://nadesico.fandom.com/wiki/Martian_Successors",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "nadesico_b",
+      "title": "NS-955B Nadesico B — Nadesico Wiki",
+      "url": "https://nadesico.fandom.com/wiki/NS-955B_Nadesico_B",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "ryoma",
+      "title": "Ryoma Nagare (Armageddon) — Getter Robo Wiki",
+      "url": "https://getterrobo.fandom.com/wiki/Ryoma_Nagare_%28Armageddon%29",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "go",
+      "title": "Go (Armageddon) — Getter Robo Wiki",
+      "url": "https://getterrobo.fandom.com/wiki/Go_%28Armageddon%29",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "hikaru",
+      "title": "Hikaru Ichijyo — Macross Wiki",
+      "url": "https://macross.fandom.com/wiki/Hikaru_Ichijyo",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "isamu",
+      "title": "Isamu Alva Dyson — Macross Wiki",
+      "url": "https://macross.fandom.com/wiki/Isamu_Alva_Dyson",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "kaine",
+      "title": "Kaine Wakaba — SRW Wiki",
+      "url": "https://srw.wiki.cre.jp/wiki/%E3%82%B1%E3%83%BC%E3%83%B3%E3%83%BB%E3%83%AF%E3%82%AB%E3%83%90",
+      "language": "ja",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "dragonar",
+      "title": "Metal Armor Dragonar — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metal_Armor_Dragonar",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "rean",
+      "title": "The Wings of Rean — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Wings_of_Rean",
+      "language": "en",
+      "accessed_on": "2026-09-18",
+      "access": "page_and_indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "asap",
+      "title": "Asap Suzuki — SRW Wiki",
+      "url": "https://srw.wiki.cre.jp/wiki/%E3%82%A8%E3%82%A4%E3%82%B5%E3%83%83%E3%83%97%E3%83%BB%E9%88%B4%E6%9C%A8",
+      "language": "ja",
+      "accessed_on": "2026-09-18",
+      "access": "indexed_excerpt",
+      "scope": "franchise"
+    },
+    {
+      "id": "dragonar_light_official",
+      "title": "Light Newman — official Dragonar character profile",
+      "url": "https://www.dragonar.net/character/e02.php",
+      "language": "ja",
+      "accessed_on": "2026-09-18",
+      "access": "page",
+      "scope": "franchise"
+    }
+  ]
+}

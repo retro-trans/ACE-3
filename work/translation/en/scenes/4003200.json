@@ -1,0 +1,211 @@
+{
+ "resource_id": 4003200,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 18,
+ "rows_examined": 18,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "17A Defend Federation HQ 2",
+   "notes": "Released mission title reused from missions_019.json (slot 190); style matches other lettered-mission scenes (e.g. 4003100 '10A Defend Amaterasu').",
+   "source_sha256": "b4694fdaf7e98061c60c30416dbf84429329ab4c18d89237731836d572fc04d2"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30050,1)><speed(2)>I know you've only now returned, but I will get straight to it - I have bad news. <color(5)>Char Aznable<ce()><thumbnail(238)> has finally made his move.",
+   "notes": "Avoided 'just' (no j glyph).",
+   "source_sha256": "8f4fcf1c7a65b985dca225baad59c981b8746c7611f484fbe74aceeb509b7222"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30050,1)><speed(2)>While you were away, <book(12)>Neo Zeon<endbook()> seized the space colony \"<book(17)>Sweetwater<endbook()>\".",
+   "notes": "",
+   "source_sha256": "2aedc01d06649384455593bc09747d73b6f2dcf4948ff757a007aa02aaa88229"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30050,1)><speed(2)>And mere moments ago, the <book(12)>Neo Zeon<endbook()> fleet left <book(17)>Sweetwater<endbook()> and is said to be heading for <book(13)>5th Luna<endbook()>.",
+   "notes": "'5th Luna' kept in digit form per 4004583.json precedent. Avoided 'just' (no j glyph).",
+   "source_sha256": "94af46e0a6d09cd25718f90c6701edbbda266b964ed44a67a21c5f353a013adb"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30050,1)><speed(2)>It seems <color(5)>Char<ce()> means to seize it and drop it on Earth.",
+   "notes": "",
+   "source_sha256": "df8f273b57f354e32022453a8938d8d2efd2ca8b1ec9e81debfadc008be62f80"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30050,1)><speed(2)>If, as <color(5)>Char<ce()> intends, <book(13)>5th Luna<endbook()> is dropped, Earth's environment will suffer catastrophic damage.",
+   "notes": "Reordered clause so the Char/5th Luna tag order matches the source (Char mentioned before 5th Luna).",
+   "source_sha256": "19efe810c417f1d544d87698a3e3bee8ae9b7423d9f0eb9c2940238cfb8dba32"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30050,1)><speed(2)>The blast smoke and dust thrown up by the fall will block out the sun... A \"nuclear winter<thumbnail(239)>\" will result!",
+   "notes": "<thumbnail> kept directly after 'winter', before the closing quote, as in the source.",
+   "source_sha256": "d54d3e39d94f0f05f1077d14e68c8ab63a5fced2a19577a3ae58799b1f76c9ad"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30050,1)><speed(2)>To stop this terrible scheme with everything we have, the <book(9)>Federation<endbook()> forces have already dispatched a fleet.",
+   "notes": "",
+   "source_sha256": "73f40082a9b4a668ec1a285cba276a4ced8b0f696e72e2a101028304adfd4b26"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30050,1)><speed(2)>Naturally, I meant to have you take part too, but the timing could not be worse... <color(5)>Sakomizu<ce()><thumbnail(209)>'s army has appeared at <book(15)>Lhasa<endbook()>.",
+   "notes": "Compressed to fit 128; 'take part too' refers back to the fleet operation mentioned just before. 'Sakomizu's army' matches the phrasing in 4003661.json. Lhasa locked (encyclopedia_022 / 4003090). 'join' reworded to 'take part' (no lowercase j).",
+   "source_sha256": "e84355c2dc1312bf88d97a177774b34234d7209753cc3b3f69075dabb4256415"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<operator(30050,1)><speed(2)>They are a force from another world. Ever since they appeared, they have kept attacking <book(9)>Federation<endbook()> facilities everywhere.",
+   "notes": "",
+   "source_sha256": "71115617e417d427bb750e008703cf0a3a399740469ba7e5b489f2de4e8b693b"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<operator(30050,1)><speed(2)>What's more, in league with <book(12)>Neo Zeon<endbook()>, a former <book(18)>Giganos<endbook()> force has also launched an invasion. <book(15)>Lhasa<endbook()> is on the verge of falling.",
+   "notes": "'former Giganos' matches character_names_021 convention. Reordered so Neo Zeon precedes Giganos, matching the source tag order.",
+   "source_sha256": "013fec2ff13f4f182dc9362acc37e67b3c06c65d03c340e882dbf87ad2fa25a4"
+  },
+  {
+   "table": 1,
+   "slot": 29,
+   "text_id": 30,
+   "en": "<operator(30050,1)><speed(2)>This crisis leaves <book(10)>Londo Bell<endbook()> with a single order<thumbnail(240)>: defend <book(9)>Federation<endbook()> HQ's home, <book(15)>Lhasa<endbook()>.",
+   "notes": "Londo Bell (not 'Rondo Bell') per glossary.json/character_names_021.json/encyclopedia_021_a.json. Restructured so tag order (Londo Bell, thumbnail, Federation, Lhasa) matches the source exactly.",
+   "source_sha256": "a51e75ea5039b098c0702b7d7f420a0c7e0cdce669781711652c1e7e655ef683"
+  },
+  {
+   "table": 1,
+   "slot": 30,
+   "text_id": 31,
+   "en": "<operator(30050,1)><speed(2)>Because the <book(9)>Federation<endbook()> forces have committed most of their strength to <book(13)>5th Luna<endbook()>, our home base has been left thin on defense.",
+   "notes": "'honmaru' (castle keep) rendered 'home base' - no locked term found; descriptive.",
+   "source_sha256": "9e83ccd3a4415a3f6029b458d996448e56e5c41dc53291ad9e2ad6d3e0496fb2"
+  },
+  {
+   "table": 1,
+   "slot": 31,
+   "text_id": 32,
+   "en": "<operator(30050,1)><speed(2)>If our home base falls, the <book(9)>Federation<endbook()> will take a devastating blow. We cannot let this stand.",
+   "notes": "'honmaru' again rendered 'home base', consistent with slot 30.",
+   "source_sha256": "d69aba724a43101b8ced3d46a5f03b186cc42ebc315a96b220fe78aa5a0f0920"
+  },
+  {
+   "table": 1,
+   "slot": 32,
+   "text_id": 33,
+   "en": "<thumbdown()><operator(30050,1)><speed(2)>Leave <book(13)>5th Luna<endbook()> to the <book(9)>Federation<endbook()> forces. I want you to remain on the ground and defend <book(15)>Lhasa<endbook()>.",
+   "notes": "",
+   "source_sha256": "c551f58fc8cd279bc5a1ca60d30fc48cc2c67564a669cf51945a3257e64450bb"
+  },
+  {
+   "table": 1,
+   "slot": 33,
+   "text_id": 34,
+   "en": "<topic()><operator(30050,1)><speed(2)>Also, starting with this operation, <color(4)>Asap Suzuki<ce()><thumbnail(241)> has agreed to cooperate with us as well.",
+   "notes": "Honorific -kun dropped per project convention (cf. -san dropped in 4003070). Asap Suzuki per character_names_021 (char.asap_suzuki, locked).",
+   "source_sha256": "b668093be037bc7aadcaed5c74826ae8a884a207c2bf3aeecfd0f524fc8428e2"
+  },
+  {
+   "table": 1,
+   "slot": 34,
+   "text_id": 35,
+   "en": "<operator(30050,1)><speed(2)>He is a civilian who came back from <book(36)>Byston Well<endbook()> to stop <color(5)>Sakomizu<ce()>.",
+   "notes": "Byston Well locked (glossary.json loc.byston_well). 'Sakomizu' here = King (Shinjiro) Sakomizu, male per character_names_021.",
+   "source_sha256": "bd459c76784c4bb285f6e7ee83e815fdb883885444608350e50e0807c7c405c9"
+  },
+  {
+   "table": 1,
+   "slot": 35,
+   "text_id": 36,
+   "en": "<operator(30050,1)><speed(2)>He is also personally familiar with <color(5)>Sakomizu<ce()>, so he should be of help to you. That is all from me.",
+   "notes": "'acquainted' reworded to 'familiar' (no lowercase q).",
+   "source_sha256": "9c071ed04a4cada220d43df6dd20a935cd80436352e4cab1b454468bcc9c126e"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 29,
+   "issue": "'shirei' (command/order) rendered 'the order'; <thumbnail(240)> placed directly after it as in the source, which reads a little abruptly in English but preserves tag position."
+  },
+  {
+   "slots": [
+    30,
+    31
+   ],
+   "issue": "'honmaru' (the castle keep, i.e. Federation HQ/Lhasa itself) has no locked project term; rendered descriptively as 'home base'. No prior scene uses this metaphor, so nothing to match against."
+  },
+  {
+   "slot": 26,
+   "issue": "Compressed from 131 to 116 visible chars to fit the 128 limit by dropping the explicit 'that operation' object of 'join' (now 'join too'); the referent (the Federation fleet sent to 5th Luna, mentioned two rows earlier) is preserved by context."
+  },
+  {
+   "slot": 33,
+   "issue": "Source honorific after Asap Suzuki's name (-kun) dropped, consistent with -san being dropped elsewhere in reviewed scenes (4003070); no character identity issue since Asap is locked and male."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 18,
+  "rows_in_scene": 18,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 26,
+    "before": "Naturally, I meant to have you join too, but the timing could not be worse... <color(5)>Sakomizu<ce()><thumbnail(209)>'s army has appeared at <book(15)>Lhasa<endbook()>.",
+    "after": "Naturally, I meant to have you take part too, but the timing could not be worse... <color(5)>Sakomizu<ce()><thumbnail(209)>'s army has appeared at <book(15)>Lhasa<endbook()>.",
+    "reason": "'join' contains a lowercase j; reworded to 'take part' with no meaning change (constraint fix, not a meaning error)."
+   },
+   {
+    "table": 1,
+    "slot": 35,
+    "before": "He is also personally acquainted with <color(5)>Sakomizu<ce()>, so he should be of help to you. That is all from me.",
+    "after": "He is also personally familiar with <color(5)>Sakomizu<ce()>, so he should be of help to you. That is all from me.",
+    "reason": "'acquainted' contains a lowercase q; reworded to 'familiar' with no meaning change (constraint fix, not a meaning error)."
+   }
+  ],
+  "checked_decisions": [
+   "Slot 0 title '17A Defend Federation HQ 2' matches missions_019.json category 3055 slot 190 exactly.",
+   "All 18 rows compared against source: no mistranslation, reversed meaning, wrong addressee, invented subject/info, dropped endings, tone contradiction or misspelled name found.",
+   "Speaker 30050 = Kouichiro Misumaru throughout (speaker_lookup.py); consistent with 4003030's 'Federation HQ commander' role.",
+   "Slots 30-31: 'honmaru' rendered 'home base' per orchestrator ruling; meaning (Lhasa/Federation HQ site being left undefended) is preserved.",
+   "Slot 29: 'Federation HQ's home, Lhasa' is an acceptable rendering of 'renpou honbu no aru Rasa' (Lhasa, where Federation HQ is located); does not contradict the distinct 'home base' (honmaru) metaphor used two rows later for a different Japanese word.",
+   "Slots 26/27/28: three distinct hostile forces are individually named here - Sakomizu's army (an otherworldly force, slot 26-27), and a former Giganos unit acting in league with Neo Zeon (slot 28), plus Neo Zeon itself (slots 20-22). This is consistent with, and does not contradict, 4003210's 'Tripartite Alliance' (three-party alliance) naming Neo Zeon plus two other parties; nothing in this scene states there are only two hostile factions or otherwise conflicts with a three-party reading.",
+   "All <operator>/<speed>/<color>/<ce>/<book>/<endbook>/<thumbnail>/<thumbdown>/<topic> commands verified identical and in the same order as the source for every row.",
+   "Names verified against glossary.json/character_names_021.json/sources.json: Char Aznable, Sakomizu (King Shinjiro Sakomizu per 4003030 precedent, male), Lhasa, Londo Bell, Asap Suzuki (honorific -kun dropped per convention), Byston Well, Neo Zeon, Giganos, 5th Luna, Sweetwater - all consistent with locked spellings.",
+   "Re-ran throwaway console check after edits: all rows ASCII-only, no newlines, no bare %, no lowercase j/q, all visible text under 128 chars, all command tags identical in order to source."
+  ],
+  "remaining_uncertainties": [
+   "Slot 29: 'the order given to us... is the defense of Lhasa' rendered as 'a single order'; the word 'single' is an addition not literally in the source but does not change the fact conveyed (only one order was given). Left as translator's uncertainty.",
+   "Slots 30/31: 'honmaru' (castle keep) has no other in-corpus occurrence to compare against; 'home base' is accepted per orchestrator ruling but remains a descriptive, not literal, rendering."
+  ]
+ }
+}

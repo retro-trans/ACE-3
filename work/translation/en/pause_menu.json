@@ -1,0 +1,776 @@
+{
+  "version": "0.1.8",
+  "base": "ACE3-English-0.1.7.iso",
+  "table_id": 3013,
+  "bundle_ids": [
+    1200000,
+    1200001,
+    1200002,
+    1200003,
+    1200004,
+    1200005,
+    1200006,
+    1200007
+  ],
+  "category": "Pause menu, map/options/command views, retries, exits, and shared confirmation prompts",
+  "source_table_sha256": "c9e65e1436ea592ae860c22bbf922f87101995d52a24b22d5b66427b11b13493",
+  "status": "meaning_reviewed",
+  "rows": [
+    {
+      "id": "pause.019",
+      "slot": 19,
+      "source": "ゲームに戻る",
+      "target": "Resume Game",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.020",
+      "slot": 20,
+      "source": "マップ情報",
+      "target": "Map Info",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.021",
+      "slot": 21,
+      "source": "勝敗条件",
+      "target": "Win / Lose",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.022",
+      "slot": 22,
+      "source": "ログ",
+      "target": "Battle Log",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.023",
+      "slot": 23,
+      "source": "コマンドリスト",
+      "target": "Command List",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.024",
+      "slot": 24,
+      "source": "オプション",
+      "target": "Options",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.025",
+      "slot": 25,
+      "source": "リトライ",
+      "target": "Retry",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.026",
+      "slot": 26,
+      "source": "ミッション終了",
+      "target": "End Mission",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.027",
+      "slot": 27,
+      "source": "終了",
+      "target": "Close",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.028",
+      "slot": 28,
+      "source": "ポーズを解除してゲームに戻ります",
+      "target": "Unpause and return to the game.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.029",
+      "slot": 29,
+      "source": "マップを拡大表示します",
+      "target": "Display an enlarged map.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.030",
+      "slot": 30,
+      "source": "ミッションの詳細情報を表示します",
+      "target": "View mission details.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.031",
+      "slot": 31,
+      "source": "戦局ＩＮＦＯのログを参照することができます",
+      "target": "View the battle status log.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.032",
+      "slot": 32,
+      "source": "攻撃方法のコマンドを表示します",
+      "target": "View attack commands.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.033",
+      "slot": 33,
+      "source": "機体動作に関するオプションを設定できます",
+      "target": "Change unit control options.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.034",
+      "slot": 34,
+      "source": "Ｉｎ－Ｇａｍｅの最初からプレイをします",
+      "target": "Restart the current mission.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.035",
+      "slot": 35,
+      "source": "メニューに戻ります",
+      "target": "Return to the menu.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.036",
+      "slot": 36,
+      "source": "ポーズメニュー",
+      "target": "Pause Menu",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.037",
+      "slot": 37,
+      "source": "ゲームを終了して、ミッションの始めからやり直します。\n今までのゲーム内容は消えてしまいます。\nミッションをリトライしますか？",
+      "target": "Restart this mission from the beginning?\nYour current mission progress will be lost.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.038",
+      "slot": 38,
+      "source": "ゲームを終了して、インターミッションに戻ります。\n今までのゲーム内容は消えてしまいます。\nゲームを終了してよろしいですか？",
+      "target": "End the mission and return to Intermission?\nYour current mission progress will be lost.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.039",
+      "slot": 39,
+      "source": "ゲームを終了して、フリーミッションに戻ります。\n今までのゲーム内容は消えてしまいます。\nゲームを終了してよろしいですか？",
+      "target": "End the mission and return to Free Mission?\nYour current mission progress will be lost.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.040",
+      "slot": 40,
+      "source": "㍉確認",
+      "target": "㍉Confirm",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.041",
+      "slot": 41,
+      "source": "ＭＩＳＳＩＯＮ　ＮＡＭＥ",
+      "target": "MISSION NAME",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.042",
+      "slot": 42,
+      "source": "勝利条件",
+      "target": "Victory Conditions",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.043",
+      "slot": 43,
+      "source": "敗北条件",
+      "target": "Defeat Conditions",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.044",
+      "slot": 44,
+      "source": "ＣＯＭＭＡＮＤ　ＬＩＳＴ",
+      "target": "COMMAND LIST",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.045",
+      "slot": 45,
+      "source": "ロックインフォ",
+      "target": "Lock Info",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.046",
+      "slot": 46,
+      "source": "ターゲット",
+      "target": "Target Priority",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.047",
+      "slot": 47,
+      "source": "クイックターン",
+      "target": "Quick Turn",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.048",
+      "slot": 48,
+      "source": "自動高度調整",
+      "target": "Auto Altitude",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.049",
+      "slot": 49,
+      "source": "レーダー切替",
+      "target": "Radar Mode",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.050",
+      "slot": 50,
+      "source": "初期設定に戻す",
+      "target": "Restore Defaults",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.051",
+      "slot": 51,
+      "source": "ＯＮ",
+      "target": "ON",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.052",
+      "slot": 52,
+      "source": "ＯＦＦ",
+      "target": "OFF",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.053",
+      "slot": 53,
+      "source": "カメラ優先",
+      "target": "Camera",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.054",
+      "slot": 54,
+      "source": "向き優先",
+      "target": "Facing",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.055",
+      "slot": 55,
+      "source": "距離優先",
+      "target": "Distance",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.056",
+      "slot": 56,
+      "source": "ダメージ優先",
+      "target": "Damage",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.057",
+      "slot": 57,
+      "source": "マニュアル",
+      "target": "Manual",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.058",
+      "slot": 58,
+      "source": "セミオート",
+      "target": "Semi-Auto",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.059",
+      "slot": 59,
+      "source": "ロックサイトの追加情報を表示します",
+      "target": "Show extra information on the lock-on reticle.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.060",
+      "slot": 60,
+      "source": "ロックサイトの追加情報を非表示にします",
+      "target": "Hide extra information on the lock-on reticle.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.061",
+      "slot": 61,
+      "source": "カメラ内にいる敵を優先します",
+      "target": "Prioritize enemies within the camera view.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.062",
+      "slot": 62,
+      "source": "ユニットが向いている方向の敵を優先します",
+      "target": "Prioritize enemies in the direction your unit faces.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.063",
+      "slot": 63,
+      "source": "近い距離の敵を優先します",
+      "target": "Prioritize nearby enemies.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.064",
+      "slot": 64,
+      "source": "ダメージを多く受けている敵を優先します",
+      "target": "Prioritize enemies that have taken more damage.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.065",
+      "slot": 65,
+      "source": "ユニットの向きを自動で対象の方向へ合わせます",
+      "target": "Automatically turn your unit to face the target.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.066",
+      "slot": 66,
+      "source": "カメラのみ対象の方向へ合わせます",
+      "target": "Turn only the camera to face the target.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.067",
+      "slot": 67,
+      "source": "移動中、自動で対象との高度を合わせます",
+      "target": "Automatically match target altitude while moving.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.068",
+      "slot": 68,
+      "source": "任意で対象との高度を合わせます",
+      "target": "Match the target's altitude manually.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.069",
+      "slot": 69,
+      "source": "手動でレーダーを切り替えます",
+      "target": "Switch the radar view manually.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.070",
+      "slot": 70,
+      "source": "広域レーダーは一定時間のみ表示されます",
+      "target": "Show the wide-area radar for a limited time.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.071",
+      "slot": 71,
+      "source": "初期設定に戻します",
+      "target": "Restore the default settings.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.072",
+      "slot": 72,
+      "source": "選択：㊤㊦　終了：⑪　決定：○",
+      "target": "Select:㊤㊦  Close:⑪  Confirm:○",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.073",
+      "slot": 73,
+      "source": "選択：㊤㊦　終了：⑪　戻る：×",
+      "target": "Select:㊤㊦  Close:⑪  Back:×",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.074",
+      "slot": 74,
+      "source": "終了：⑪　戻る：×",
+      "target": "Close:⑪  Back:×",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.075",
+      "slot": 75,
+      "source": "スクロール：㊤㊦　ジャンプ：㊧㊨　終了：⑪　戻る：×",
+      "target": "Scroll:㊤㊦  Jump:㊧㊨  Close:⑪  Back:×",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.076",
+      "slot": 76,
+      "source": "選択：㊤㊦　設定：㊧㊨　終了：⑪　戻る：×",
+      "target": "Select:㊤㊦  Change:㊧㊨  Close:⑪  Back:×",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.077",
+      "slot": 77,
+      "source": "選択：㊤㊦　決定：○　終了：⑪　戻る：×",
+      "target": "Select:㊤㊦  Confirm:○  Close:⑪  Back:×",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.078",
+      "slot": 78,
+      "source": "戻る：△",
+      "target": "Back:△",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.079",
+      "slot": 79,
+      "source": "プレイヤー",
+      "target": "Player",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.080",
+      "slot": 80,
+      "source": "敵部隊",
+      "target": "Enemy Unit",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.081",
+      "slot": 81,
+      "source": "敵部隊（ボス）",
+      "target": "Enemy Unit (Boss)",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.082",
+      "slot": 82,
+      "source": "敵拠点",
+      "target": "Enemy Base",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.083",
+      "slot": 83,
+      "source": "敵拠点（ボス）",
+      "target": "Enemy Base (Boss)",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.084",
+      "slot": 84,
+      "source": "友軍部隊",
+      "target": "Allied Unit",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.085",
+      "slot": 85,
+      "source": "友軍拠点",
+      "target": "Allied Base",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.086",
+      "slot": 86,
+      "source": "母艦",
+      "target": "Mothership",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.087",
+      "slot": 87,
+      "source": "特殊拠点",
+      "target": "Special Base",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.088",
+      "slot": 88,
+      "source": "特殊拠点（ボス）",
+      "target": "Special Base (Boss)",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.089",
+      "slot": 89,
+      "source": "移動中",
+      "target": "Moving",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.090",
+      "slot": 90,
+      "source": "交戦中",
+      "target": "In Combat",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.091",
+      "slot": 91,
+      "source": "危険エリア",
+      "target": "Danger Zone",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.092",
+      "slot": 92,
+      "source": "イベントマーカー",
+      "target": "Event Marker",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.093",
+      "slot": 93,
+      "source": "ＭＡＰ　ＩＮＦＯＲＭＡＴＩＯＮ",
+      "target": "MAP INFORMATION",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.094",
+      "slot": 94,
+      "source": "選択：㊤㊦　カテゴリスキップ：㊧㊨　終了：⑪　戻る：×",
+      "target": "Select:㊤㊦  Category:㊧㊨  Close:⑪  Back:×",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.096",
+      "slot": 96,
+      "source": "Ｇ　Ａ　Ｍ　Ｅ　　　Ｏ　Ｖ　Ｅ　Ｒ",
+      "target": "G A M E   O V E R",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.097",
+      "slot": 97,
+      "source": "リトライ",
+      "target": "Retry",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.098",
+      "slot": 98,
+      "source": "終了",
+      "target": "End",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.099",
+      "slot": 99,
+      "source": "終了",
+      "target": "End",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.100",
+      "slot": 100,
+      "source": "終了",
+      "target": "End",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.106",
+      "slot": 106,
+      "source": "１Ｐ",
+      "target": "1P",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.107",
+      "slot": 107,
+      "source": "２Ｐ",
+      "target": "2P",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.109",
+      "slot": 109,
+      "source": "／",
+      "target": "/",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.110",
+      "slot": 110,
+      "source": "１Ｐコントローラ",
+      "target": "1P Controller",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.111",
+      "slot": 111,
+      "source": "２Ｐコントローラ",
+      "target": "2P Controller",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.112",
+      "slot": 112,
+      "source": "１Ｐコマンドリスト",
+      "target": "1P Command List",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.113",
+      "slot": 113,
+      "source": "２Ｐコマンドリスト",
+      "target": "2P Command List",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.114",
+      "slot": 114,
+      "source": "対戦終了",
+      "target": "End Match",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.115",
+      "slot": 115,
+      "source": "ポーズを解除してゲームに戻ります",
+      "target": "Unpause and return to the game.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.116",
+      "slot": 116,
+      "source": "１Ｐのアビリティーと攻撃コマンドを確認します",
+      "target": "View Player 1's abilities and attack commands.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.117",
+      "slot": 117,
+      "source": "２Ｐのアビリティーと攻撃コマンドを確認します",
+      "target": "View Player 2's abilities and attack commands.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.118",
+      "slot": 118,
+      "source": "対戦を始めからやり直します",
+      "target": "Restart the match from the beginning.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.119",
+      "slot": 119,
+      "source": "ゲームを終了して対戦メニューに戻ります",
+      "target": "End the match and return to the Versus menu.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.120",
+      "slot": 120,
+      "source": "ゲームを終了して、対戦を始めからやり直します。\n今までのゲーム内容は消えてしまいます。\n対戦をリトライしますか？",
+      "target": "Restart this match from the beginning?\nYour current match progress will be lost.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.121",
+      "slot": 121,
+      "source": "対戦を終了して、対戦メニューに戻ります。\n今までのゲーム内容は消えてしまいます。\n対戦を終了してよろしいですか？",
+      "target": "End the match and return to the Versus menu?\nYour current match progress will be lost.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.189",
+      "slot": 189,
+      "source": "㍉確認",
+      "target": "㍉Confirm",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.190",
+      "slot": 190,
+      "source": "はい：○　　　　いいえ：×",
+      "target": "Yes:○    No:×",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.191",
+      "slot": 191,
+      "source": "㍉選択",
+      "target": "㍉Select",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.192",
+      "slot": 192,
+      "source": "決定：○　　　　戻る：×",
+      "target": "Confirm:○    Back:×",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.209",
+      "slot": 209,
+      "source": "ゲームを終了して、トップメニューに戻ります。\n今までのゲーム内容は消えてしまいます。\nゲームを終了してよろしいですか？",
+      "target": "End the game and return to the main menu?\nYour current progress will be lost.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.210",
+      "slot": 210,
+      "source": "ゲームを終了して、マルチプレイに戻ります。\n今までのゲーム内容は消えてしまいます。\nゲームを終了してよろしいですか？",
+      "target": "End the game and return to Multiplayer?\nYour current progress will be lost.",
+      "status": "meaning_reviewed"
+    },
+    {
+      "id": "pause.211",
+      "slot": 211,
+      "source": "ゲームを終了して、ガレージに戻ります。\n今までのゲーム内容は消えてしまいます。\nゲームを終了してよろしいですか？",
+      "target": "End the mission and return to the Garage?\nYour current mission progress will be lost.",
+      "status": "meaning_reviewed"
+    }
+  ],
+  "review": {
+    "reviewer": "independent_pause_meaning_review",
+    "rows_in_category": 103,
+    "rows_examined": 103,
+    "corrected_slots": [
+      209,
+      210
+    ],
+    "corrections": [
+      "Shared main-menu and multiplayer exit warnings no longer assume mission-specific progress."
+    ],
+    "uncertainties": [
+      {
+        "slots": [
+          21
+        ],
+        "note": "Victory / Defeat is a condensed menu label for victory/defeat conditions; retained because the adjacent help text describes mission details and submenu headings spell out Conditions."
+      },
+      {
+        "slots": [
+          80,
+          81,
+          84
+        ],
+        "note": "Unit is used in the collective military sense for map markers; the source denotes a force or formation, and marker granularity has not been verified in game."
+      },
+      {
+        "slots": [
+          34
+        ],
+        "note": "Restart the current mission interprets the source In-Game phase using the adjacent retry confirmation, which explicitly says mission."
+      }
+    ],
+    "scope": "Source-to-target meaning and category context; does not verify rendered widths or runtime placement."
+  }
+}

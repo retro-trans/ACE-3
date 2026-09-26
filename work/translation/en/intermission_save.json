@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "version": "0.1.13",
+  "source_iso": "ACE3-English-0.1.12.iso",
+  "source_bundle": 4002050,
+  "categories": [
+    {
+      "table_id": 3004,
+      "category": "intermission",
+      "rows": [
+        {
+          "slot": 0,
+          "source": "選択：㊤㊦　決定：○",
+          "en": "Select:㊤㊦  Confirm:○"
+        },
+        {
+          "slot": 1,
+          "source": "選択：㊤㊦　戻る：×　決定：○",
+          "en": "Select:㊤㊦  Back:×  Confirm:○"
+        },
+        {
+          "slot": 9,
+          "source": "インターミッション",
+          "en": "Intermission"
+        },
+        {
+          "slot": 10,
+          "source": "ＩＮＴＥＲＭＩＳＳＩＯＮ",
+          "en": "INTERMISSION"
+        },
+        {
+          "slot": 11,
+          "source": "エースポイント",
+          "en": "Ace Points"
+        },
+        {
+          "slot": 12,
+          "source": "ユニット",
+          "en": "Units"
+        },
+        {
+          "slot": 13,
+          "source": "クリアミッション",
+          "en": "Missions Cleared"
+        },
+        {
+          "slot": 19,
+          "source": "出撃",
+          "en": "Deploy"
+        },
+        {
+          "slot": 20,
+          "source": "ユニット編入",
+          "en": "Add Units"
+        },
+        {
+          "slot": 21,
+          "source": "事典",
+          "en": "Encyclopedia"
+        },
+        {
+          "slot": 22,
+          "source": "閲覧",
+          "en": "Model Viewer"
+        },
+        {
+          "slot": 23,
+          "source": "戦闘記録",
+          "en": "Combat Records"
+        },
+        {
+          "slot": 24,
+          "source": "映像記録",
+          "en": "Movie Viewer"
+        },
+        {
+          "slot": 25,
+          "source": "オプション",
+          "en": "Options"
+        },
+        {
+          "slot": 26,
+          "source": "戻る",
+          "en": "Back"
+        },
+        {
+          "slot": 29,
+          "source": "ブリーフィングを開始します",
+          "en": "Begin the briefing."
+        },
+        {
+          "slot": 30,
+          "source": "新しいユニットを部隊に編入させます",
+          "en": "Add new units to your forces."
+        },
+        {
+          "slot": 31,
+          "source": "ストーリー中の用語などの解説を確認します",
+          "en": "Read explanations of story terms and more."
+        },
+        {
+          "slot": 32,
+          "source": "ユニットや戦艦などのモデルを閲覧します",
+          "en": "View models of units, battleships, and more."
+        },
+        {
+          "slot": 33,
+          "source": "戦闘記録を閲覧します",
+          "en": "View combat records."
+        },
+        {
+          "slot": 34,
+          "source": "ミッション中に流れたデモ映像を閲覧します",
+          "en": "Watch movies shown during missions."
+        },
+        {
+          "slot": 35,
+          "source": "ゲームオプションを変更します",
+          "en": "Change game options."
+        },
+        {
+          "slot": 36,
+          "source": "トップメニューに戻ります",
+          "en": "Return to the main menu."
+        },
+        {
+          "slot": 39,
+          "source": "地上フィールド",
+          "en": "Ground Field"
+        },
+        {
+          "slot": 40,
+          "source": "宇宙フィールド",
+          "en": "Space Field"
+        },
+        {
+          "slot": 44,
+          "source": "―",
+          "en": "―"
+        },
+        {
+          "slot": 45,
+          "source": "―",
+          "en": "―"
+        },
+        {
+          "slot": 49,
+          "source": "㌔インターミッション",
+          "en": "㌔Intermission"
+        },
+        {
+          "slot": 50,
+          "source": "ここではキャンペーン中の各種情報を\n参照することができます。\nまた、演習ミッションやオプション設定、\nゲームのセーブなども行えます。",
+          "en": "View campaign information here.\nYou can also play training missions,\nchange options, save your game, and more."
+        },
+        {
+          "slot": 51,
+          "source": "インターミッションでは\n情報の確認や新規ユニットの編入、\nゲームオプションの設定、\nセーブ／ロードが行えます。",
+          "en": "At Intermission, you can review information,\nadd new units, change game options,\nand save or load your game."
+        },
+        {
+          "slot": 52,
+          "source": "インターミッション中の行動を選んでください。",
+          "en": "Choose what to do during Intermission."
+        },
+        {
+          "slot": 53,
+          "source": "トップメニューに戻ります。\nよろしいですか？",
+          "en": "Return to the main menu?"
+        },
+        {
+          "slot": 54,
+          "source": "もう一つの世界に移動しました。",
+          "en": "You have moved to the other world."
+        },
+        {
+          "slot": 60,
+          "source": "クリアしたデータをセーブしますか？",
+          "en": "Save your cleared-game data?"
+        }
+      ]
+    },
+    {
+      "table_id": 3010,
+      "category": "meeting_briefing_save",
+      "rows": [
+        {
+          "slot": 0,
+          "source": "選択：㊧㊨　用語ＯＮ：□　スキップ：○　終了：⑪",
+          "en": "Select:㊧㊨  Terms On:□  Skip:○  End:⑪"
+        },
+        {
+          "slot": 1,
+          "source": "スクロール：㊤㊦　選択：㊧㊨　用語ＯＦＦ：□　スキップ：○",
+          "en": "Scroll:㊤㊦  Select:㊧㊨  Terms Off:□  Skip:○"
+        },
+        {
+          "slot": 19,
+          "source": "グローバルミーティング",
+          "en": "Global Meeting"
+        },
+        {
+          "slot": 20,
+          "source": "情勢ライブラリ",
+          "en": "Situation Archive"
+        },
+        {
+          "slot": 29,
+          "source": "グローバルミーティングを終了します。\nよろしいですか？",
+          "en": "End the Global Meeting?"
+        },
+        {
+          "slot": 30,
+          "source": "終了します。\nよろしいですか？",
+          "en": "Exit?"
+        },
+        {
+          "slot": 34,
+          "source": "セーブしますか？",
+          "en": "Save your game?"
+        },
+        {
+          "slot": 39,
+          "source": "ブリーフィング",
+          "en": "Briefing"
+        },
+        {
+          "slot": 40,
+          "source": "勝利条件",
+          "en": "Victory Conditions"
+        },
+        {
+          "slot": 41,
+          "source": "予想勢力",
+          "en": "Expected Forces"
+        },
+        {
+          "slot": 42,
+          "source": "敗北条件",
+          "en": "Defeat Conditions"
+        },
+        {
+          "slot": 49,
+          "source": "ブリーフィングを終了します。\nよろしいですか？",
+          "en": "End the briefing?"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "meaning_reviewed",
+    "rows_examined": 46,
+    "rows_in_slice": 46,
+    "rows_changed": 44,
+    "scope": "All non-null UI rows in both categories, reviewed against complete adjacent category context. Native icon codes and dash placeholders retained. Layout and in-game rendering are separate checks.",
+    "terminology": [
+      "Intermission and Victory Conditions follow the existing pause-menu translation.",
+      "Ace Points follows the existing UI translation.",
+      "Add Units preserves the sense of incorporating units into the force without asserting a purchase."
+    ],
+    "uncertainties": [
+      {
+        "table_id": 3010,
+        "slot": 20,
+        "decision": "Situation Archive renders the situation-information library; its detailed contents have not been observed in-game."
+      },
+      {
+        "table_id": 3010,
+        "slot": 41,
+        "decision": "Expected Forces retains the source ambiguity; source does not specify enemy forces."
+      },
+      {
+        "table_id": 3004,
+        "slot": 60,
+        "decision": "Cleared-game data follows the source clear-data wording; no new-game-plus behavior is asserted."
+      }
+    ]
+  }
+}

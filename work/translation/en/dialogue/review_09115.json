@@ -1,0 +1,35 @@
+{
+  "reviewer": "independent_meaning_review_agent",
+  "slice_start": 9115,
+  "slice_count": 32,
+  "rows_examined": [{"start": 9100, "end": 9161}],
+  "rows_examined_count": 62,
+  "rows_in_slice": 32,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_09119",
+      "before": "<on()><sp(20)>What that meant\nbecame clear to me in the fight just now.",
+      "after": "<on()><sp(20)>What that meant\nbecame clear to me in the fight moments ago.",
+      "reason": "\"just\" contains the font's unsupported lowercase j (see BASE_RULES/technical-pitfalls constraint); reworded to \"moments ago\", same recency meaning as the source."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [9118], "finding": "\"Dr. Bardona\" (short form of Jill Bardona) accepted per orchestrator ruling and locked glossary person-spelling; intentionally distinct from the \"Baldora Drive\"/\"Baldora Charge\" device spelling per terms_028.json. No change needed."},
+    {"rows": [9125], "finding": "Tag order (<book(1)> before <color(4)>) matches source order exactly; translator's own note about a prior correction is confirmed accurate against a fresh console read."},
+    {"rows": [9115, 9117, 9120, 9122, 9125, 9136, 9138, 9141], "finding": "Barrel/Faye/Berkt color-tagged name spans all match source order and glossary spellings; no change needed."},
+    {"rows": [9142, 9146], "finding": "Speaker not re-named in this immediate span; reads as Faye faltering (9142) then agreeing to keep fighting (9146) per the direct address at 9143-9145. Consistent with the scene carried over from batch_09035 (9091-9146); no identity invented beyond what's textually supported."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_09142", "dialogue_09146"],
+      "issue": "Same open call noted by the translator: the speaker for these two rows is inferred from surrounding direct address (9143-9145) rather than a name tag in this immediate span. The inference is well supported by context, but flagging per BASE_RULES since it was not settled by an explicit name in the slice."
+    }
+  ],
+  "validation": {
+    "controls": "Re-ran `python tools/dialogue_corpus.py slice 9115 32 --context 15` and diffed every <...> command (on/sp/color/book/ce/endbook pairs; no ab/off in this slice, matching the source) against each row's target in source order; all 32 rows match exactly, including the one row touched by the meaning fix (only visible text changed).",
+    "format": "No raw newline characters introduced; \\n line-break markers match the source's line breaks in every row that keeps one.",
+    "fit": "All 32 rows measured at or under 110 visible (tag-stripped) characters; the one row the translator already compressed (dialogue_09135) remains within budget and was not further altered.",
+    "ascii": "All targets ASCII-only except the fullwidth ％ (none occurs in this slice). Scanned all 32 targets for lowercase j/q outside locked names; found and fixed dialogue_09119 (\"just\"). No other occurrences."
+  }
+}

@@ -1,0 +1,227 @@
+{
+ "reviewer": "independent_meaning_review_agent",
+ "slice_start": 1506,
+ "slice_count": 80,
+ "rows_examined": [
+  {
+   "start": 1491,
+   "end": 1600
+  }
+ ],
+ "rows_examined_count": 110,
+ "rows_in_slice": 80,
+ "review_status": "meaning_reviewed",
+ "rows_left_draft": [],
+ "meaning_fixes": [
+  {
+   "id": "dialogue_01553",
+   "before": "<op()><sp(20)>Th-these things are monsters!<ab(600)><ed()>",
+   "after": "<op()><sp(20)>Th-they're monsters!<ab(600)><ed()>",
+   "reason": "Source pronoun is a plain plural demonstrative for the opponents and does not say whether machines or people are meant; 'these things' asserted non-persons. Neutral 'they' keeps the ambiguity (speaker and referent untagged)."
+  }
+ ],
+ "checked_decisions": [
+  {
+   "rows": [
+    1506,
+    1507,
+    1508,
+    1509,
+    1510,
+    1511
+   ],
+   "finding": "Duel call-outs continue 1505; Nightmare of Solomon, Gato spelling, subjectless 'Losing ground?!' all match source."
+  },
+  {
+   "rows": [
+    1512,
+    1513,
+    1514,
+    1515,
+    1516
+   ],
+   "finding": "1514+1515 form one sentence (remember this: whoever blocks Zeon's revival will be buried by me); 'my hand' reflects the explicit first person in source."
+  },
+  {
+   "rows": [
+    1517,
+    1518,
+    1519,
+    1520,
+    1521,
+    1522,
+    1523,
+    1524,
+    1525,
+    1526,
+    1527,
+    1528,
+    1529,
+    1530
+   ],
+   "finding": "Developer placeholders; reference mark replaced by ASCII asterisk (ASCII constraint), GP02 normalised. 1524's two items kept in order on one line. 1528 has no mark in source and none in target."
+  },
+  {
+   "rows": [
+    1531,
+    1535,
+    1538,
+    1539,
+    1540,
+    1541
+   ],
+   "finding": "Unknown machine/pilot kept gender-neutral; Marina only asked about, not asserted."
+  },
+  {
+   "rows": [
+    1542
+   ],
+   "finding": "Ensign Uraki matches the corpus form used in other batches."
+  },
+  {
+   "rows": [
+    1554,
+    1557
+   ],
+   "finding": "Starboard/port not swapped."
+  },
+  {
+   "rows": [
+    1560,
+    1561,
+    1581
+   ],
+   "finding": "Meio Plato and 'Blue Hawk of Giganos' match character_names_021.json and the rest of the corpus; Captain for his rank consistent with the orchestrator rank decision."
+  },
+  {
+   "rows": [
+    1567
+   ],
+   "finding": "Source has commands only; target identical."
+  },
+  {
+   "rows": [
+    1573,
+    1574,
+    1575,
+    1576,
+    1577,
+    1578,
+    1579,
+    1580
+   ],
+   "finding": "Base-defender chatter: Major Gato, second defense line breached, over half destroyed, 'show them our pride' all match."
+  },
+  {
+   "rows": [
+    1581,
+    1582
+   ],
+   "finding": "Thanks to Captain Plato and the reply (comrades resisting UCE oppression; support is natural) match source."
+  }
+ ],
+ "uncertainties": [
+  {
+   "rows": [
+    1517,
+    1530
+   ],
+   "issue": "RULING: asterisk for the non-ASCII reference mark and plain 'GP02' accepted."
+  },
+  {
+   "rows": [
+    1512,
+    1513,
+    1514,
+    1515,
+    1516
+   ],
+   "issue": "RULING: speaker split accepted; nothing in the English depends on it."
+  },
+  {
+   "rows": [
+    1531
+   ],
+   "issue": "RULING: pronoun-free rendering accepted."
+  },
+  {
+   "rows": [
+    1535,
+    1538,
+    1539,
+    1540,
+    1541
+   ],
+   "issue": "RULING: gender-neutral handling accepted."
+  },
+  {
+   "rows": [
+    1536
+   ],
+   "issue": "RULING: 'the aim' accepted; owner of the aim is unstated in source."
+  },
+  {
+   "rows": [
+    1569
+   ],
+   "issue": "RULING: left as 'Main guns, open fire!'. The source verb is literally 'open'; the next row's 'W-wait, please!' fits an order to fire, but 'ready/uncover the main guns' cannot be excluded. Genuinely unsure; legacy row."
+  },
+  {
+   "rows": [
+    1571
+   ],
+   "issue": "RULING: accepted; matches the corpus form 'unit of unknown affiliation'."
+  },
+  {
+   "rows": [
+    1578
+   ],
+   "issue": "RULING: fragment accepted; verb is omitted in source."
+  },
+  {
+   "rows": [
+    1574,
+    1581
+   ],
+   "issue": "RULING: Major Gato / Captain Plato accepted per orchestrator rank decision."
+  },
+  {
+   "rows": [
+    1567
+   ],
+   "issue": "RULING: empty row correct."
+  },
+  {
+   "rows": [
+    1506,
+    1585
+   ],
+   "issue": "RULING: agreed that resources 6042-6043 are legacy ACE2 material; translated as found."
+  },
+  {
+   "rows": [
+    1553
+   ],
+   "issue": "Reviewer fix was a judgement call: draft 'these things' is a legitimate reading if the speaker means unmanned machines; changed to neutral 'they' because speaker and referent are untagged (it may be an enemy soldier speaking about the player's team)."
+  },
+  {
+   "rows": [
+    1537,
+    1544
+   ],
+   "issue": "Reviewer note: 'Never mind' renders a curt 'it doesn't matter'; in English it can momentarily read as 'cancel that'. In both rows the following order makes the sense clear, so left."
+  },
+  {
+   "rows": [
+    1528
+   ],
+   "issue": "Reviewer note: source is 'do your best and stop the GP02'; 'Hang in there' is slightly off in nuance but it is a developer note. Left."
+  }
+ ],
+ "validation": {
+  "controls": "Ordered <...> command list of all 80 targets equals the source's (console check after edits).",
+  "format": "No newline in any target; 80 ids in sequence.",
+  "fit": "ASCII only, no bare percent; longest visible text 82 chars (limit 110). No display-fit shortening performed by the reviewer.",
+  "runtime": "Runtime scene selection, speaker identity, font coverage and visual fit are not established by this meaning review."
+ }
+}

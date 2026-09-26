@@ -1,0 +1,62 @@
+{
+ "resource_id": 4003471,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 5,
+ "rows_examined": 5,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "NO DATA",
+   "notes": "",
+   "source_sha256": "1187a1c8c01e16d2c1d8245214d11ffa88ee84f3c4c4460fbdc466a82361c480"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(5010,1)><speed(2)><move(1,9,9)>I will now<marker(1,9,9,0)> brief you on the operation.<move(2,10,12)>",
+   "notes": "",
+   "source_sha256": "2b5ecfe489d8e5ad95c7ded00d46e9ba58850025eca2cc28103728a1800cec31"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(5010,1)><speed(2)>Right now, many <move(1,9,7)><color(5)>unidentified life-forms<ce()><marker(22,7,8,0)> are <marker(22,9,6,0)>attacking <marker(22,11,8,0)>the city.<move(2,11,8)><picture(50,30,7,0)><refer(30,7,9,6)>",
+   "notes": "",
+   "source_sha256": "bc9a1552a53ecdae85089ca657a9a3c29746990dd95505aa2b361ffb8109dcad"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(5010,1)><speed(2)>Wiping them out swiftly is the goal of this operation.",
+   "notes": "\"goal\" instead of \"objective\" (no j glyph).",
+   "source_sha256": "4fdc0ae72132537b605db994d112ec6f9f68cc73034426da522bf7f5959da90c"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<delpic(30,7,1)><enemylist()><operator(5010,1)><speed(2)>People are being attacked even as we speak. We move out now.",
+   "notes": "",
+   "source_sha256": "61b6be87e237f7d3af374187a88dfd3b42c3e99dd8f29909b2e56852981531cc"
+  }
+ ],
+ "uncertainties": [],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 5,
+  "rows_in_scene": 5,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Speaker 5010 = Amuro Ray. Command order and marker positions (life-forms / attacking / the city) correspond to the source.",
+   "Slot 0 \"NO DATA\" is already Latin text in the source; unchanged."
+  ],
+  "remaining_uncertainties": []
+ }
+}

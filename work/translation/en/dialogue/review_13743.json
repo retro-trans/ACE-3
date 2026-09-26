@@ -1,0 +1,54 @@
+{
+  "reviewer": "independent_shout_review_agent_13743",
+  "slice_start": 13743,
+  "slice_count": 76,
+  "rows_examined": [{"start": 13723, "end": 13838}],
+  "rows_examined_count": 116,
+  "rows_in_slice": 76,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_13812",
+      "before": "Drop your guard, watch out!",
+      "after": "Don't drop guard, watch out!",
+      "reason": "Meaning reversal: source '油断するとやられる。　注意を！' is a conditional warning against carelessness ('if you let your guard down, you'll be taken out. Watch out!'). 'Drop your guard, watch out!' reads as two imperatives, the first of which tells the listener to do the very thing the source warns against. Corrected by adding 'Don't' so the line is a warning again, still fitting the 28-char budget exactly."
+    },
+    {
+      "id": "dialogue_13774",
+      "before": "Seems like this makes\nour work much easier.",
+      "after": "Seems like this makes our work much easier",
+      "reason": "Shout rows must not contain a newline (source line breaks are joined); joined into one line, and the trailing period dropped to fit the 42-char budget exactly (43 chars would have been 1 over)."
+    },
+    {
+      "id": "dialogue_13785",
+      "before": "If they're serious,\nwe might not win this.",
+      "after": "If they're serious, we might not win this.",
+      "reason": "Same no-newline shout constraint; joined into one line, fits the 42-char budget exactly."
+    },
+    {
+      "id": "dialogue_13806",
+      "before": "Don't tell me more of these\nare still coming.",
+      "after": "Don't tell me more of these are still coming.",
+      "reason": "Same no-newline shout constraint; joined into one line, fits the 50-char budget."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [13747], "finding": "Per task instructions, dialogue_13747 ('滅.' -> 'Perish.') is explicitly allowed to exceed its 2-character budget because the source is a single dense character with no viable ASCII rendering that short; left unchanged and unflagged as an error."},
+    {"rows": [13750], "finding": "'What' (no punctuation) is the tightest viable rendering of '何！？' inside its 4-character budget; not a meaning error, just an unavoidable loss of emphasis."},
+    {"rows": [13758, 13789], "finding": "Unnamed referents (an unidentified fighter; enemy pilots) correctly kept gender-neutral, matching BASE_RULES on not inferring gender for unidentified parties."},
+    {"rows": [13790], "finding": "'Ichijyo' correctly uses the locked full-name spelling from character_names_021.json even though it contains a lowercase j; locked names are exempt from the j/q avoidance guidance, consistent with BASE_RULES precedence for locked spellings."},
+    {"rows": [13770], "finding": "'周りを固めろ！' (hold/tighten the perimeter) rendered as 'Cover us!' is a looser tactical paraphrase but not a reversal; both are defensive-formation commands to allies at the start of combat, and the 12-character budget leaves little room for a more literal rendering. Left as is."}
+  ],
+  "uncertainties": [
+    {"id": "dialogue_13747", "issue": "Ruling: intentionally left over-budget per task instructions; 'Perish.' is the fullest reasonable single-word rendering of '滅' and needs orchestrator/font-budget review, not further compression."},
+    {"id": "dialogue_13750", "issue": "Ruling: 'What' with no punctuation is an acceptable forced compression given the 4-character budget; not an error."},
+    {"ids": ["dialogue_13758", "dialogue_13789"], "issue": "Ruling: gender-neutral phrasing for unnamed referents is correct; no identity or gender is settled by context."},
+    {"id": "dialogue_13790", "issue": "Ruling: 'Ichijyo' is correctly exempted from the j/q avoidance rule as a locked glossary spelling."}
+  ],
+  "validation": {
+    "commands": "Re-ran `python tools/dialogue_corpus.py slice 13743 76 --context 15` and diffed source order/ids against all 76 targets; every <op()><sp(20)>...<ab(1000)><ed()> sequence is identical and in source order for all rows, including the 4 rows edited above.",
+    "fit": "Recomputed min(72, 2*source_chars-2) for every edited row; all edited rows fit their budget except dialogue_13747, which is intentionally and explicitly permitted to exceed its 2-char budget per task instructions.",
+    "ascii": "All 76 targets remain ASCII-only after edits; no bare '%', no newline remains in any row.",
+    "ids": "All 76 row ids match the slice in original stored-table order; no id added, removed, or reordered."
+  }
+}

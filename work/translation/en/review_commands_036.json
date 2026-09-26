@@ -1,0 +1,93 @@
+{
+  "version": "0.1.36",
+  "reviewer": "review_abilities_036",
+  "input": "work/translation/en/commands_036.json",
+  "input_sha256": "d2c1be4dc65d8fe3256b724a18105d45707e26ba70db5d0eb1dfe8c4b6f2d484",
+  "status": "meaning_review_complete_with_corrections_and_naming_uncertainties",
+  "approved": false,
+  "approval_scope": "All 432 distinct command source/en pairs and all 136 input source/en pairs read. Apply the two meaning corrections, retain naming uncertainties explicitly, then run parent fit checks. No runtime certification.",
+  "source_rows_in_slice": 568,
+  "source_rows_examined": 568,
+  "command_distinct_strings_examined": 432,
+  "input_rows_examined": 136,
+  "command_row_occurrences_represented": 1966,
+  "command_nested_tables_represented": 104,
+  "method": "Read all command and input rows, including action conditions and literal button sequences. Re-read latest rows with meaning notes after parent compaction changes. Compare existing ability review for shared names. Inspect game command definitions 3048 in all 104 unit groups to test ambiguous category ownership. The 1966 count is occurrences represented by 432 reviewed unique strings, not an assertion that every duplicate received a separate manual review.",
+  "corrections": [
+    {
+      "collection": "rows",
+      "index": 288,
+      "source": "トリプルメガソニック砲（収束）",
+      "old_en": "Triple Mega Sonic (Focused)",
+      "en": "Triple Mega Sonic Cannon (Focused)",
+      "occurrences": [{"unit_id": 17051, "text_id": 17356, "slot": 12}],
+      "reason": "The named weapon type Cannon is omitted. Keep it, or use an explicit reviewed abbreviation after fitting, consistent with ability row 141 and the spread variant at command index 289."
+    },
+    {
+      "collection": "rows",
+      "index": 422,
+      "source": "土とんの術",
+      "old_en": "Earth Release Technique",
+      "en": "Earth Escape Technique",
+      "occurrences": [{"unit_id": 24012, "text_id": 24109, "slot": 18}, {"unit_id": 24013, "text_id": 24109, "slot": 18}],
+      "reason": "The conventional ninja term 土遁 refers to escaping or hiding using earth. Earth Release is a franchise-specific Naruto rendering that implies elemental manipulation here. In this game's 3048 definitions the action is category byte 37, the same Underground Attack category as Burrow Underground, corroborating the ground-hiding/escape meaning.",
+      "acceptable_alternative": "Earth Hiding Technique"
+    }
+  ],
+  "verified_interpretations": [
+    "All 136 input rows preserve the source button glyph identities, order and multiplicity, including circle/square combo strings, controller-number glyphs, and simultaneous 9+10 symbols.",
+    "Hold controller-button plus another button retains the source 押しながら modifier requirement. Repeated second-button presses remain repeated; none were collapsed into a single press.",
+    "Input IDs 137 and 187 retain the during-combo timing condition for X.",
+    "All 25 continuation/level wave markers remain as ASCII tildes; leading ideographic indentation is retained where the source has it. Their omission would change how follow-ups are interpreted.",
+    "Transform Forward Cycle/Reverse Cycle correctly means ascending/descending form order, not climbing/descending altitude.",
+    "AP 30 percent or Less retains the inclusive source threshold. Fin Funnel Ammo Remaining 4+ retains the inclusive minimum four shots. Holding an Equal/Smaller Foe Nearby retains holding, size and proximity conditions.",
+    "With All Dispersion Sabers Attached and With All Scale Boomerangs Attached retain the all-attached requirement, not merely possession of those weapons.",
+    "Getter Beam Powerful does not invent charge mechanics absent from source. Charged Ark Rifle correctly retains the explicit charge qualifier.",
+    "Super-Strength Throw, Throw, Mega-Strength Throw, Sword Throw, Staff Throw and named Daisetsuzan Oroshi remain distinct.",
+    "Calibers 120cm and 93.7cm plus focused high-energy beam descriptions remain in the latest abbreviated METEOR entries.",
+    "Recovery Melee Hits Only preserves the restriction; Meikyo Shisui Second Time refers to the second activation, not a double button press.",
+    "Melt/Crush Manipulator remains the described weapon rather than substituting the associated Shining Finger attack name that the source does not state."
+  ],
+  "naming_resolution": [
+    {
+      "index": 380,
+      "source": "パッセル",
+      "en": "Bassel",
+      "related_ability_text_id": 156,
+      "finding": "Command occurrence context resolves the owner question raised in the ability review: unit tables 22020 and 22021 put this weapon with Sagittus, Fortis Beam Cannon, Fatum-00, Lupus and Lacerta. Those are Justice Gundam armaments. Therefore interpreting this source spelling as the Justice weapon バッセル is supported by the local command context, rather than a spelling-only assumption.",
+      "primary_source_for_weapon_identity": "https://www.gundam.info/news/gunpla/news_gunpla_20080910_1858p.html",
+      "roman_spelling_status": "Bassel follows existing project/ACE3 reference terminology; primary Japanese identity confirmed, primary English spelling not independently confirmed by this reviewer."
+    }
+  ],
+  "uncertainties": [
+    {
+      "collection": "input_rows",
+      "text_id": 8,
+      "source": "スロー近接攻撃",
+      "en": "Throw Melee Attack",
+      "status": "provisional_unused_category",
+      "finding": "All 104 nested command definition tables were checked. No command record uses category byte 7, which would map to input ID 8. Category mapping is supported by byte 23 mapping to Melee Attack ID 24 and byte 37 mapping to Underground Attack ID 38. Daisetsuzan Oroshi uses ordinary melee category byte 23, so its presence cannot prove category 8 means a Getter throw. Throw is a plausible loanword reading, but Slow cannot be conclusively excluded solely from these unused definitions. No forced correction recommended without runtime or further implementation evidence."
+    },
+    {
+      "indices": [21, 22, 45, 63, 65, 169, 175, 225, 232, 238, 240, 243, 247, 248, 332, 333, 349, 389, 398, 400, 401],
+      "status": "licensed_spelling_not_independently_certified",
+      "finding": "Game-specific proper names and unusual Romanizations were read for source compatibility and parent-provided glossary consistency. Exact licensed English forms are not independently confirmed here. Retain source notes and provisional status; do not relabel those fan-reference spellings as official. No stylistic replacement requested."
+    }
+  ],
+  "binary_evidence": {
+    "source_iso": "work/output/ACE3-English-0.1.35.iso",
+    "bundle": 4002053,
+    "resource": 3048,
+    "nested_tables": 104,
+    "record_count_offset": 4,
+    "record_stride_offset": 6,
+    "record_start_offset": 8,
+    "record_stride": 32,
+    "record_start": 16,
+    "category_byte_in_record": 10,
+    "category_mapping": "zero-based category byte corresponds to 1-based text ID",
+    "unused_category_byte_checked": 7
+  },
+  "not_examined": ["Runtime UI fit and rendering", "Memory allocation safety", "Every licensed English franchise term"],
+  "files_edited": ["work/translation/en/review_commands_036.json"]
+}

@@ -1,0 +1,109 @@
+{
+ "resource_id": 4003761,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 9,
+ "rows_examined": 9,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "New Federation",
+   "notes": "Enemy faction name.",
+   "source_sha256": "34247ffd11f59d2e90749c82552f62033d64a91e60a4c7a9effcbfbd9c2a9c96"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(17080,1)><speed(2)><move(1,5,0)>Let me explain the operation<marker(2,5,0,1)> for you.<move(2,6,15)>",
+   "notes": "",
+   "source_sha256": "b1e9db3fef548c446d6fb0e0b794e4d31792dbd384c8f7a3d5f5ccd0b30dec8c"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(17080,1)><speed(2)><move(1,7,0)>Our top goal this time is for the <book(21)>Nadesico C<endbook()><marker(11,7,0,0)> to pass through the operation area.<move(2,7,13)><picture(116,30,7,0)><refer(30,7,7,0)>",
+   "notes": "'goal' used per orchestrator decision (avoids 'objective').",
+   "source_sha256": "dc63aee4480c9fdb611f562c76e8291fcde7e2f5d9cfa4f565749408a397b432"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(17080,1)><speed(2)>While escorting the <book(21)>Nadesico C<endbook()><line(16,7,3,7,15)>, intercept nearby <book(38)>New Federation<endbook()> forces<move(1,7,15)>, and cover it until it reaches the target point<marker(42,7,15,0)><move(2,7,1)>.",
+   "notes": "",
+   "source_sha256": "59b21cda03a56bf0006d10d287f0e12a0a4941c78a5dd8ca04fe7668a76b07e7"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(17080,1)><speed(2)>The enemy is sortieing from the surrounding <color(5)>fleet<ce()><marker(24,2,4,0)><marker(24,2,7,0)><marker(24,14,5,0)><marker(24,14,8,0)>.<marker(20,7,2,0)><marker(20,9,5,0)><marker(20,5,5,0)> If we have some strength to spare, please intercept the <color(5)>enemy ships<ce()> too.",
+   "notes": "",
+   "source_sha256": "c9f29f550e24262921387a4b3f5ad07fd896bf759553ca944a3b9c01140bd317"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(17080,1)><speed(2)>One more thing. Right now <book(46)>D.O.M.E.<endbook()> is being guarded<marker(35,6,4,0)> by a mysterious<marker(35,8,6,0)> unit<marker(35,6,8,0)>,<marker(35,8,10,0)> which is launching an attack on the <book(38)>New<marker(35,6,12,0)> Federation<endbook()><marker(35,6,14,0)>.",
+   "notes": "Restructured to passive voice so the D.O.M.E. and New Federation book spans keep the source's relative order; meaning unchanged.",
+   "source_sha256": "d18fbe2125f5a855fc1a06511121bdc96ab4d9ba19fdef9e945b358b6ddf6de5"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(17080,1)><speed(2)>Sent from <book(46)>D.O.M.E.<endbook()>, the mysterious unit is presumed to be an <color(6)>unmanned drone<ce()>, but...",
+   "notes": "Fronted 'Sent from D.O.M.E.' to keep the book/color span order matching the source.",
+   "source_sha256": "da25403ab63ef6473c6b319b1534ea6823630dbd7262bf659c4ad526e288e11d"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(17080,1)><speed(2)>Given how hard the <book(38)>New Federation<endbook()>'s forces are struggling, it looks like a highly capable unit. Please be careful.",
+   "notes": "",
+   "source_sha256": "3ec1790917cf0ce04319d08ead474a813feb226d2eba2c137598dd15ecc5282e"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<delpic(2,14,1)><enemylist()><operator(17080,1)><speed(2)>That is all for the briefing.",
+   "notes": "",
+   "source_sha256": "e578c6d5e5d26910a750c787930a9f599672be8a90d24d326f0927f45e674fea"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 23,
+   "issue": "Source splits D.O.M.E. (book46) and New Federation (book38) with the modifying verb reversed by English word order; rewrote as a passive sentence so the book spans keep the source's order. Meaning unchanged but the exact marker/word alignment is approximate."
+  },
+  {
+   "slot": 24,
+   "issue": "Fronted 'Sent from D.O.M.E.' (source: unit ... sent from D.O.M.E.) so book(46) precedes color(6) as in the source; natural English would otherwise reverse them."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 9,
+  "rows_in_scene": 9,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 'New Federation' matches locked spelling (glossary.json).",
+   "Slots 20-25 verified against source (scene_source.py 4003761): goal/escort/intercept/D.O.M.E. sentences all match; no reversed meaning, no invented subject.",
+   "Slot 23 ruling: passive-voice restructure ('D.O.M.E. is being guarded by a mysterious unit, which is launching an attack on the New Federation') correctly preserves source meaning (mysterious unit guards D.O.M.E. and attacks New Federation) while keeping book(46)/book(38) span order; accepted.",
+   "Slot 24 ruling: fronting 'Sent from D.O.M.E.' keeps book(46) before color(6) as in source; meaning unchanged; accepted.",
+   "Speaker: 17080 = Sala Tyrrell throughout, consistent with operator tags.",
+   "No lowercase j/q outside locked names; commands, order, length (<=128), ASCII, no newline all verified by script re-run against scene_source.py output."
+  ],
+  "remaining_uncertainties": [
+   "Slot 23/24: exact marker/tag timing versus the restructured English word order is not verifiable outside a build; meaning is correct, only the visual highlight timing is approximate."
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+  "reviewer": "meaning_review_dialogue_7034_7153_agent",
+  "slice_start": 7114,
+  "slice_count": 40,
+  "rows_examined": [{"start": 7099, "end": 7168}],
+  "rows_examined_count": 70,
+  "rows_in_slice": 40,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [7116, 7118], "finding": "義理 rendered as 'duty' in both rows, consistent with the same theme carried from the previous slice (dialogue_07075, dialogue_07082, dialogue_07095); no contradiction with the death of the character who speaks these lines (context confirms this is the same soldier from dialogue_07110's 'Let's settle this...!')."},
+    {"rows": [7122, 7125, 7127], "finding": "Akito Tenkawa's name locked and -san honorific correctly dropped per project convention (character_names_021.json: char.akito_tenkawa)."},
+    {"rows": [7122, 7128], "finding": "Yurika Misumaru is not yet present in any project glossary file (character_names_021.json, glossary.json, unit_names_014_a/b.json) - confirmed by direct search. Per orchestrator ruling for this review ('Yurika Misumaru' accepted, Nadesico wiki), the short form 'Yurika' used in both rows is correct and requires no change. The translator's proposal is recorded in work/translation/en/dialogue/batch_07114_glossary_proposals.json (Nadesico wiki source, matches this ruling); it has not yet been merged into a glossary file, which is a pipeline step outside this review's scope."},
+    {"rows": [7131], "finding": "Captain Hoshino (Ruri) verified against character_names_021.json (char.ruri_hoshino, en_short 'Ruri', family name 'Hoshino'); Neo Zeon and Federation <book()> terms verified against glossary.json."},
+    {"rows": [7134, 7135, 7139], "finding": "Berkt IS present in the project glossary as entry char.berkt in work/glossary/glossary.json (also referenced in mission_terms_019.json and sources.json, with a dedicated char.barrel_orland translation note: 'Keep separate from Berkt; parallel-world identities are not interchangeable speaker labels'). The batch file's note claiming 'no separate glossary entry found' is incorrect, but the translator's actual choice of spelling ('Berkt') already matches the glossary, so no target text change is needed. Per this review's ruling, Berkt is confirmed as the correct spelling for the ACE3-original antagonist."},
+    {"rows": [7136], "finding": "'New Federation' confirmed as the locked corpus form over the wiki's 'New UNE' per work/glossary/terms_028.json orchestrator decision; 'Shin Dragon' confirmed per encyclopedia_022.json."},
+    {"rows": [7138, 7139], "finding": "Kaine Wakaba (char.kaine_wakaba-style entry, en_short 'Kaine') and Meio/Meio Plato both verified against character_names_021.json."},
+    {"rows": [7145, 7146, 7147, 7148, 7149, 7150], "finding": "First-person male pronoun (僕) monologue about disliking the military but liking the people here is consistent with Barrel Orland's profile in glossary.json (char.barrel_orland: gender male, 'Civilian student who becomes an Ixbrau pilot', 'Complains about being drawn into fighting, but tends to go along'). No name was inserted into these rows since the source itself does not name the speaker; row 7151 ('Barrel...') confirms the addressee only, not the monologue's own attribution."},
+    {"rows": [7151], "finding": "Reply tone ('Barrel... I understand. If that's how you feel, I'll do anything I can.') is consistent with Faye Rochenante's glossary profile ('Supportive but firm with Barrel', gender female) but the source line itself does not name the speaker, so no attribution was added to the visible text - correct per project rule against inferring gender/identity beyond what the source states."}
+  ],
+  "uncertainties": [
+    {
+      "ids": ["dialogue_07121", "dialogue_07122", "dialogue_07123", "dialogue_07124", "dialogue_07125", "dialogue_07126", "dialogue_07127", "dialogue_07128", "dialogue_07129", "dialogue_07130"],
+      "note": "Post-mission Nadesico epilogue exchange; speaker mapping among bridge crew (beyond the two people named directly, Akito and Yurika) is not tagged in the corpus. Ruling: no fix needed, no identity should be inserted where the source withholds it."
+    },
+    {
+      "ids": ["dialogue_07145", "dialogue_07146", "dialogue_07147", "dialogue_07148", "dialogue_07149", "dialogue_07150", "dialogue_07153"],
+      "note": "Monologue rows do not name the speaker in the source text even though context (male pronoun, addressed as 'Barrel' in the following row, and matching Barrel Orland's glossary profile) makes the identity fairly clear. Ruling: correctly left unattributed in the visible text; this is the right call under the project's no-invented-identity rule, not an error."
+    },
+    {
+      "ids": ["dialogue_07151"],
+      "note": "Reply to Barrel is not explicitly attributed to Faye in the source. Ruling: correctly left unattributed; likely Faye given the preceding 7141-7144 exchange and her glossary profile, but not asserted in the visible text, which is correct."
+    },
+    {
+      "ids": ["dialogue_07134", "dialogue_07135", "dialogue_07139"],
+      "note": "RESOLVED by this review: Berkt has an existing glossary entry (char.berkt in work/glossary/glossary.json), contrary to the batch file's note that no entry was found. The spelling already used ('Berkt') matches the glossary and needs no change; the batch file's glossary note is stale and should be corrected by whoever maintains work/glossary/ or the batch pipeline next, but that edit is outside this review's own batch/review files."
+    },
+    {
+      "ids": ["dialogue_07122", "dialogue_07128"],
+      "note": "RESOLVED by this review: 'Yurika Misumaru' is accepted per orchestrator ruling (Nadesico wiki). The proposal exists at work/translation/en/dialogue/batch_07114_glossary_proposals.json and cites the same Nadesico wiki source; it has not yet been merged into a project glossary file, which is a pipeline step for the orchestrator, not a target-text defect. The short form 'Yurika' used in the visible text is correct as-is."
+    }
+  ],
+  "validation": {
+    "commands": "Re-ran tools/dialogue_corpus.py slice 7114 40 --context 15 and diffed every row's command sequence (<on()>/<off()>, <ab(n)>, <color(n)>/<ce()>, <book(n)>/<endbook()>) against the source, including rows 7121-7153 which have no <ab()>/<off()> in source; all 40 rows match the source exactly in content and order.",
+    "format": "No raw newline characters beyond the source's own \\n line breaks; newline counts match source for all 40 rows.",
+    "fit": "All 40 rows measured at or under 110 visible (tag-stripped) characters.",
+    "ascii": "All target strings are ASCII only (straight quotes used for the quoted line in dialogue_07129); no non-ASCII characters present.",
+    "meaning_review": "Independently reviewed against Japanese source via tools/dialogue_corpus.py slice 7114 40 --context 15; no mistranslations, reversed meanings, wrong addressees, invented identities, or dropped sentence endings found. All rows verified; none left as draft. Berkt and Yurika Misumaru namings confirmed per orchestrator ruling."
+  }
+}

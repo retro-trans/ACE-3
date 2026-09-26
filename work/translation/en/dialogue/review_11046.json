@@ -1,0 +1,60 @@
+{
+  "reviewer": "independent_meaning_review_stop_axis_agent",
+  "slice_start": 11046,
+  "slice_count": 12,
+  "rows_examined": [
+    {
+      "start": 11031,
+      "end": 11072
+    }
+  ],
+  "rows_examined_count": 42,
+  "rows_in_slice": 12,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [
+        11053
+      ],
+      "finding": "<book(14)> scope kept around 'Axis' only; confirmed the source's own book span and text_id 14 = 'Axis' (encyclopedia_022.json)."
+    },
+    {
+      "rows": [
+        11057
+      ],
+      "finding": "<color(5)> scope kept around 'Char' only; confirmed against prior corpus usage for his name (batches 02643, 06023, 07034)."
+    },
+    {
+      "rows": [
+        11053,
+        11054,
+        11055,
+        11056,
+        11057
+      ],
+      "finding": "Missing <ab()>/<ed()>/<off()> closing commands on these rows confirmed to match the source exactly (bare cutscene lines, same convention as batch_01073 rows 1102-1103); nothing added that the source lacks."
+    },
+    {
+      "rows": [
+        11046,
+        11049
+      ],
+      "finding": "Tense difference between '\u3069\u3053\u3092\u898b\u3066\u3044\u305f\u3093\u3060' (past continuous, row 11046) and '\u3069\u3053\u306b\u76ee\u3092\u3064\u3051\u3066\u3044\u308b\u3093\u3060' (present, row 11049) is correctly preserved as 'where were your eyes!?' vs 'where are your eyes!?'."
+    },
+    {
+      "rows": [
+        11046,
+        11057
+      ],
+      "finding": "Programmatic check: <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()>/<book()>/<endbook()>/<color()>/<ce()> command sequences, newline counts, ASCII-only text and <=110-character visible length verified for all 12 rows against the ISO source."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()>/<book()>/<endbook()>/<color()>/<ce()> command sequences checked in exact order against the ISO source for all 12 rows (programmatic tag-list diff); no mismatches.",
+    "format": "Newline counts match the source for every row; resource boundary (row 11057 ends resource 6330, row 11058 begins resource 6340) respected, nothing crosses out of slice scope.",
+    "fit": "All visible text (tags removed) <=110 characters.",
+    "ascii": "All target text is ASCII-only; no lowercase j/q found outside locked names (none occurred)."
+  }
+}

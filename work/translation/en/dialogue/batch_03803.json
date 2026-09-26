@@ -1,0 +1,533 @@
+{
+  "slice_start": 3803,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      3788,
+      3952
+    ]
+  ],
+  "rows_examined_count": 165,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_03837",
+        "dialogue_03838"
+      ],
+      "note": "Gekko lift-failure / abandon-ship alert sits between routine combat alerts and row 3851's 'Gekko cleared the operation area'. Per docs/DIALOGUE.md, stored-table order can interleave alternative outcomes; translated literally without asserting this is the Gekko's actual fate or reassigning it to another ship."
+    },
+    {
+      "ids": [
+        "dialogue_03875"
+      ],
+      "note": "Source line is the Japanese blindfold-tag ('oni-gokko') taunt 'oni-san kochira, te no naru hou e' (players clap to lure the blindfolded 'demon' toward them). Localized as an English taunt carrying the same image (demon guided by hand-clapping) rather than a literal rendering; flag for a second look."
+    },
+    {
+      "ids": [
+        "dialogue_03855",
+        "dialogue_03864",
+        "dialogue_03868",
+        "dialogue_03869",
+        "dialogue_03871",
+        "dialogue_03872",
+        "dialogue_03873",
+        "dialogue_03874",
+        "dialogue_03883",
+        "dialogue_03884",
+        "dialogue_03887",
+        "dialogue_03893",
+        "dialogue_03911"
+      ],
+      "note": "Unidentified speakers/addressees (opponents, pilots, 'he/it' referents) kept gender-neutral or left as pronouns matching the source's own ambiguity; no identity or gender invented from context alone."
+    }
+  ],
+  "validation": {
+    "controls": "All angle-bracket commands (<op()>/<on()>, <sp(20)>, <ab(n)>, <ed()>/<off()>, <color(n)>/<ce()>, <book(n)>/<endbook()>) preserved in the source's exact order for every row; self-check script confirmed equality against tools/dialogue_corpus.py slice output.",
+    "fit": "Full meaning drafted first; longest visible row is 108 characters (dialogue_03841), all rows <= 110-character budget with no shortening required.",
+    "ascii": "ASCII-only; no lowercase j/q needed in this slice; no bare % encountered.",
+    "meaning_review": "All 80 rows meaning-reviewed (review_03803.json): 4 meaning/technical fixes applied (font-constraint lowercase j/q rewordings in dialogue_03808, dialogue_03816, dialogue_03855, dialogue_03878); no row left as draft."
+  },
+  "rows": [
+    {
+      "id": "dialogue_03803",
+      "target": "<op()><sp(20)>We're breaking through with the Gekko as is.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03804",
+      "target": "<op()><sp(20)>Once we secure the area, we'll launch the\nNirvash right away.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03805",
+      "target": "<op()><sp(20)>I know.\nBut we've already taken a lot of damage.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03806",
+      "target": "<op()><sp(20)>Support forces will arrive shortly.<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03807",
+      "target": "<op()><sp(20)>That should make things a little easier.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03808",
+      "target": "<op()><sp(20)>So that's a Kute-class Coralian.\nIt's really huge.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03809",
+      "target": "<op()><sp(20)>What does 'Kute' mean?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03810",
+      "target": "<op()><sp(20)>It's a scale for a Coralian's size.\n'Kute' is the biggest one there is.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03811",
+      "target": "<op()><sp(20)>What in the world is that thing?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03812",
+      "target": "<op()><sp(20)>That thing is new land, plain and simple.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03813",
+      "target": "<op()><sp(20)>Clouds... are land?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03814",
+      "target": "<op()><sp(20)>For now, that's all you need to understand...<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03815",
+      "target": "<op()><sp(20)>This operation is about monitoring\ncontact between the Coralian and Anemone.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03816",
+      "target": "<op()><sp(20)>We've been used pretty conveniently ourselves.\nOrdered to make that girl contact a Kute-class.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03817",
+      "target": "<op()><sp(20)>I came aboard this ship as operations staff.\nYou will follow my instructions.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03818",
+      "target": "<op()><sp(20)>Damn it...!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03819",
+      "target": "<op()><sp(20)>Deploying an emergency field on the Gekko.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03820",
+      "target": "<op()><sp(20)>Deploying an emergency field on the ship.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03821",
+      "target": "<op()><sp(20)>We're pushing in as is.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03822",
+      "target": "<op()><sp(20)>Support forces will arrive shortly.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03823",
+      "target": "<op()><sp(20)>Support forces are entering the operation area.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03824",
+      "target": "<op()><sp(20)>Support forces closing in.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03825",
+      "target": "<op()><sp(20)>Please secure the support forces' route.<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03826",
+      "target": "<op()><sp(20)>The support forces are under attack.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03827",
+      "target": "<op()><sp(20)>Please move to support them immediately.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03828",
+      "target": "<op()><sp(20)>The support forces have been wiped out!!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03829",
+      "target": "<op()><sp(20)>The enemy forces at the base are moving!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03830",
+      "target": "<op()><sp(20)>An enemy ship has entered the operation area!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03831",
+      "target": "<op()><sp(20)>An enemy ship is coming!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03832",
+      "target": "<op()><sp(20)>Reinforcements!?\nEnemy ship detected!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03833",
+      "target": "<op()><sp(20)>One of the enemy's bases has been captured!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03834",
+      "target": "<op()><sp(20)>Redirecting allied units to escort the ship.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03835",
+      "target": "<op()><sp(20)>The Gekko's lift is dropping!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03836",
+      "target": "<op()><sp(20)>N-no good!\nAt this rate the Gekko's going to go down!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03837",
+      "target": "<op()><sp(20)>It's no use...!\nAbandon ship! All hands, evacuate!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Abandon-ship order follows Gekko lift-loss lines; table order can mix branches/legacy lines per docs/DIALOGUE.md, so this is not asserted as the Gekko's actual fate (contradicted by row 3851 showing it clear the area)."
+    },
+    {
+      "id": "dialogue_03838",
+      "target": "<op()><sp(20)>Damn it all...!<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Same caution as 3837: reaction line kept neutral, not tied to a specific outcome."
+    },
+    {
+      "id": "dialogue_03839",
+      "target": "<op()><sp(20)>Our allied forces are struggling!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03840",
+      "target": "<op()><sp(20)>Our allied forces have been taken down!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03841",
+      "target": "<op()><sp(20)>The New Federation should have a read on our movements.\nI can't believe they'd come with a force this small.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03842",
+      "target": "<op()><sp(20)>If what Tiffa said is true...\nsomething's coming?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03843",
+      "target": "<op()><sp(20)>Gidget, keep watching the radar!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03844",
+      "target": "<op()><sp(20)>Eureka, what exactly is a Coralian?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03845",
+      "target": "<op()><sp(20)>I don't know anything about Coralians.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03846",
+      "target": "<op()><sp(20)>But Holland said that, so...<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03847",
+      "target": "<op()><sp(20)>You'll understand eventually.<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03848",
+      "target": "<sp(20)>...once we enter the Zone.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03849",
+      "target": "<op()><sp(20)>Holland.\nThe Coralian's condition is stable.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03850",
+      "target": "<op()><sp(20)>Right. We'll hurry up and break through\nand send Eureka into the Zone.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03851",
+      "target": "<op()><sp(20)>The Gekko's cleared the operation area!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03852",
+      "target": "<op()><sp(20)>We barely took any damage.<ab(800)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03853",
+      "target": "<sp(20)>Everyone's amazing, aren't they.<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03854",
+      "target": "<op()><sp(20)>I'm heading out.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03855",
+      "target": "<sp(20)>I only have to beat them, right?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03856",
+      "target": "<op()><sp(20)>All right, it's about time.\nEureka, Renton!<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": "<ab(0)> with no closing <ed()> before it; sentence continues into 3857 (\"Coralian \u306b\")."
+    },
+    {
+      "id": "dialogue_03857",
+      "target": "<sp(20)>To the Coralian...<ab(0)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Fragment continuing 3856's order; 'To the Coralian...' kept open-ended as in source."
+    },
+    {
+      "id": "dialogue_03858",
+      "target": "<op()><sp(20)>Unidentified unit approaching the combat airspace at high speed!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03859",
+      "target": "<op()><sp(20)>What is this, a KLF?<ab(100)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03860",
+      "target": "<sp(20)>The Nirvash!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03861",
+      "target": "<op()><sp(20)>There, now say hello!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03862",
+      "target": "<op()><sp(20)>That LFO... what mobility!\nWatch closely for a chance to attack!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03863",
+      "target": "<op()><sp(20)>At this rate...\nthe Nirvash can't push through!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03864",
+      "target": "<op()><sp(20)>So this is the thing Tiffa was talking about!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03865",
+      "target": "<op()><sp(20)>Eureka! Renton!<ab(0)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03866",
+      "target": "<sp(20)>The moment it stops moving,\ngo in right away!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03867",
+      "target": "<op()><sp(20)>Right!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03868",
+      "target": "<op()><sp(20)>If it's Dewey's enemy, it's my enemy!\nI fight for Dewey's sake!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03869",
+      "target": "<sp(20)>I'll do anything if it's what he wants!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03870",
+      "target": "<op()><sp(20)>Dewey?\nA New Federation officer, huh.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03871",
+      "target": "<op()><sp(20)>I won't allow being anyone's substitute.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03872",
+      "target": "<sp(20)>To Dewey, I'm the only one...<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03873",
+      "target": "<op()><sp(20)>I'm alive for Dewey's sake.<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03874",
+      "target": "<sp(20)>Fewer enemies means Dewey will be happy!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03875",
+      "target": "<op()><sp(20)>Come this way, demon-- follow the clapping!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "'\u30aa\u30cb\u3055\u3093\u3053\u3061\u3089\u3001\u624b\u306e\u9cf4\u308b\u65b9\u3078' is the chant from Japanese blindfold-tag (mekakushi-oni): the free players clap and call the blindfolded 'oni' toward them. Rendered as an English taunt with the same 'demon, follow the clap' shape rather than literal word-for-word translation; flagged for review."
+    },
+    {
+      "id": "dialogue_03876",
+      "target": "<sp(20)>If you won't come, I'll come to you!<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03877",
+      "target": "<op()><sp(20)>Haha... good reflexes!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03878",
+      "target": "<sp(20)>I really love that kind of thing!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03879",
+      "target": "<sp(20)>So... I'll kill you now, okay?<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Source uses spaced-out kana (\u3060\u30fb\u304b\u30fb\u3089) for vocal emphasis; rendered with '...' pause instead of literal spacing (ASCII rule)."
+    },
+    {
+      "id": "dialogue_03880",
+      "target": "<op()><sp(20)>Heh... interesting.\nSo similar to theEND.<ab(500)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03881",
+      "target": "<sp(20)>Hello there, my double.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_03882",
+      "target": "<op()><sp(20)>Renton, put some distance between us!\nThere's no telling what that enemy will do!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

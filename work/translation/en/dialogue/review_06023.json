@@ -1,0 +1,25 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 6023,
+  "slice_count": 22,
+  "rows_examined": [{"start": 6008, "end": 6059}],
+  "rows_examined_count": 52,
+  "rows_in_slice": 22,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [6024], "finding": "'隼人' correctly rendered 'Hayato' per the locked 'Hayato Jin' (character_names_021.json); identity confirmed within-slice by 6039's 'Let's leave the Shin Dragon to Hayato', matching the established Shin Getter-2 (Hayato) pairing in unit_names_014_b.json."},
+    {"rows": [6029], "finding": "'例の<color(5)>無人機部隊<ce()>' (that drone unit) carries the color(5) tag used for Berkt throughout this scene (6023, 6026, 6028, 6042), confirming this is Berkt's own drone force rather than a generic one; the color-tag scope in the target exactly matches the source's, so the referent is preserved even though the row itself does not spell out 'Berkt's'. Checked rows 6045-6059 (the following scene) for any further reference: none found, since that scene is an unrelated encounter."},
+    {"rows": [6032, 6034, 6038, 6043], "finding": "'シャア' consistently rendered 'Char', matching the locked Char Aznable glossary entry; no gender or identity invented."},
+    {"rows": [6026, 6037, 6039, 6041], "finding": "'真ドラゴン' consistently rendered 'Shin Dragon' across all four occurrences in the slice, matching the term used in the immediately preceding batch (5988, 5990)."}
+  ],
+  "uncertainties": [
+    {"rows": [6029], "issue": "A near-identical unresolved reference ('例の無人機部隊', 'that drone [unit]') was flagged in review_02643.json (row 2693) as having no resolvable antecedent anywhere translated so far. Rows are in stored-table order, not story order, so dialogue_06029 (this slice, confirmed via the color(5)=Berkt tag to be Berkt's drone force) may be the scene that actually establishes what review_02643 could not resolve. Flagging for the orchestrator to cross-check batch_02643/review_02643 against this row once both are consolidated; the translation in this slice itself is not in question."}
+  ],
+  "validation": {
+    "controls": "All <...>/<book()>/<color()> commands checked in order against the source for all 22 rows; none altered, reordered, or dropped (script-verified via tag-token extraction).",
+    "format": "Newline counts match the source for every row (script-verified).",
+    "fit": "All rows fit within 110 visible characters with meaning intact; none required compression beyond ordinary phrasing (script-verified).",
+    "ascii": "ASCII-only for every row; no lowercase j/q anywhere in the slice (script-verified)."
+  }
+}

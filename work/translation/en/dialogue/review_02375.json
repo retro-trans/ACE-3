@@ -1,0 +1,63 @@
+{
+  "reviewer":"independent_meaning_review_agent_02375",
+  "slice_start":2375,
+  "slice_count":80,
+  "rows_examined":[{"start":2355,"end":2474}],
+  "rows_examined_count":120,
+  "rows_in_slice":80,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[],
+  "checked_decisions":[
+    {"rows":[2375,2437],"finding":"Scene identification confirmed: resource 6070, text ids 519-582, untimed <on()> rows without <ab>/<off>, continuing the conference that starts at 2357 (text id 501). Text id 531 is absent from the table (2386 -> 2387 jumps 530 -> 532); nothing is missing from the batch."},
+    {"rows":[2378,2383,2398,2400,2409,2411,2427],"finding":"'he/him' is backed by the source pronoun kare for the person named Berkt in 2372/2376/2407/2416; character_names_021 lists Berkt as male. 2391/2404/2430/2436 use yatsu/aitsu for the same referent. No gender inferred from a name."},
+    {"rows":[2376],"finding":"Purpose clause kept: power is gathered in order to gain Baldora Charge and connect the two worlds; hedge (omowaremasu) kept as 'seems'."},
+    {"rows":[2380,2381],"finding":"Compression of 'has the property of converting' into 'may turn' keeps the hedge and the object (things holding a specific amount of energy). 2381 keeps the conjecture frame ('it follows that ... could')."},
+    {"rows":[2387,2388],"finding":"Two Earths attracting each other / colliding: not reversed, no invented agent."},
+    {"rows":[2391],"finding":"First person and 'fought him' are in the source (ore, yatsu); the vague 'something' is kept."},
+    {"rows":[2394],"finding":"'that whatever-Drive thing' matches the speaker forgetting the name (nantoka Drive); Satellite Cannon spelling matches 7 corpus uses."},
+    {"rows":[2395,2396],"finding":"Opening-and-closing device; losing it means the Wormhole already opening can no longer be closed. Correct polarity."},
+    {"rows":[2399,2400,2405],"finding":"'key' in colour tag for kagi; 'activation key' for kidou kii, with 2405 keeping the speaker's hesitation (toyara -> 'as it's called')."},
+    {"rows":[2406,2413],"finding":"Speaker belongs to this world ('your world and ours'); consistent with Hayato welcoming the Nadesico in 2413. No speaker named in English."},
+    {"rows":[2412,2414],"finding":"2412 is polite (-san, kudasai) and 2414 is plain (Hayato without suffix): two different speakers, tones kept apart ('please let' vs a blunt question)."},
+    {"rows":[2416,2432],"finding":"Restructuring for command order does not change meaning: Getter Rays taken by Berkt; the Tower cannot move because it must watch for Shin Dragon, so the speaker stays."},
+    {"rows":[2418],"finding":"'Getter Rays and something else' - source really leaves the second thing unspecified (nanika)."},
+    {"rows":[2422,2423],"finding":"Subject 'we' in 2422 is settled by 2423 (watashitachi no sekai) - not invented."},
+    {"rows":[2428,2429,2431,2433,2434],"finding":"Decision flow verified: Nadesico side asks to return for now; reply favours acting together; objection to splitting forces; Tower stays; Gekko goes along. 'Gekko' matches 36 corpus uses."},
+    {"rows":[2438,2454],"finding":"Resource 6071 rows are ACE2 leftovers (Synapse, Albion, Preventers, Noin, colony drop). Names match the rest of the corpus (Synapse, Albion, Noin, Chulip) and the neighbouring draft slice (Cowen). 2448-2450 and 2452-2454 are multi-row exchanges; command layout (<op> only on first row, <ed> only on last) equals the source."},
+    {"rows":[2375,2454],"finding":"Orchestrator decisions: no taii, Ixbrau or 'unidentified life-forms' occurs in this slice; kanchou in 2438/2441 is 'Captain'."}
+  ],
+  "uncertainties":[
+    {"rows":[2437],"issue":"Source is an open 'ittai, nan nanda...?' right after 'he called me Barrel'. It can mean 'what on earth is he?' or 'what on earth is going on?'. The draft's 'What on earth is this...?' keeps it open and was left; if the orchestrator prefers a more natural line, 'What on earth is going on...?' is equally open. Not changed because it is not wrong."},
+    {"rows":[2378],"issue":"'opening rate' for kaikouritsu (aperture ratio of the Wormhole) is a coined rendering; not found elsewhere in the corpus or encyclopedia. Left; flag if the Encyclopedia later fixes a term."},
+    {"rows":[2391,2404,2430],"issue":"Speakers untagged. 2391 (ore, fought Berkt, senses a will) and 2394 (Satellite Cannon, so a Gundam X speaker) are not named in the English, so no identity is asserted."},
+    {"rows":[2412],"issue":"Speaker speaks for the Nadesico with -san politeness; most likely its captain, but unnamed in the English. -san dropped per corpus practice; nothing depends on it."},
+    {"rows":[2417],"issue":"'What was that thing back there?' - referent of 'sakki no are' is not stated (the answer in 2418 talks about Shin Dragon's evolution, so it is probably the transformation seen in the battle). English stays as vague as the source."},
+    {"rows":[2449],"issue":"Rank: source says junshou + kakka. 'Brig. Gen. Cowen' keeps the source rank; canon 0083 gives Cowen a higher rank, and row 2471 (next slice) has the same junshou. Whatever is decided must be applied to both slices by the orchestrator; legacy material, not in the next build."},
+    {"rows":[2453],"issue":"'still accelerating' for kasokudo wo mashite (gaining acceleration) - 'still' is a slight addition, harmless; left."},
+    {"rows":[2445],"issue":"Chulip singular/plural is unmarked in the source; singular kept to match 1468/1485."}
+  ],
+  "translator_uncertainty_rulings":[
+    {"ids":["dialogue_02375","dialogue_02437"],"ruling":"Accepted: untimed conference, resource 6070."},
+    {"ids":["dialogue_02378","dialogue_02383","dialogue_02398","dialogue_02400","dialogue_02409","dialogue_02427"],"ruling":"Accepted: 'he' comes from source kare and the glossary's male Berkt."},
+    {"ids":["dialogue_02380"],"ruling":"Accepted: compression keeps meaning and hedge."},
+    {"ids":["dialogue_02391"],"ruling":"Accepted."},
+    {"ids":["dialogue_02394"],"ruling":"Accepted."},
+    {"ids":["dialogue_02399","dialogue_02400","dialogue_02405"],"ruling":"Accepted: 'key' / 'activation key'. Orchestrator should register 'activation key' in the glossary."},
+    {"ids":["dialogue_02412"],"ruling":"Accepted."},
+    {"ids":["dialogue_02416","dialogue_02432"],"ruling":"Accepted: restructuring is meaning-neutral."},
+    {"ids":["dialogue_02418"],"ruling":"Accepted."},
+    {"ids":["dialogue_02422"],"ruling":"Accepted: 'we' is supplied by 2423."},
+    {"ids":["dialogue_02437"],"ruling":"Accepted as open; alternative offered in uncertainties."},
+    {"ids":["dialogue_02438","dialogue_02454"],"ruling":"Accepted: ACE2 leftover table."},
+    {"ids":["dialogue_02445"],"ruling":"Accepted."},
+    {"ids":["dialogue_02449"],"ruling":"Accepted provisionally: source rank kept; needs one central decision together with row 2471."},
+    {"ids":["dialogue_02438"],"ruling":"Accepted: 'Preventers' matches the other corpus uses."}
+  ],
+  "rows_left_draft":[],
+  "validation":{
+    "controls":"Ordered <...> command list of all 80 targets compared with the source by throwaway console check after the status edit: 80/80 equal.",
+    "format":"No newline in any target; ASCII only; no lowercase j/q in visible text; no bare percent sign; 80/80 ids (dialogue_02375-dialogue_02454).",
+    "fit":"Longest visible text 104 characters (2387, 2409); 8 rows above 95; none above 110. No shortening performed by this review.",
+    "runtime":"Runtime scene selection, font coverage and visual fit are not established by this meaning review."
+  }
+}

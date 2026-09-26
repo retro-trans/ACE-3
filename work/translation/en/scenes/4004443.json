@@ -1,0 +1,307 @@
+{
+ "resource_id": 4004443,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 34,
+ "rows_examined": 34,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(23010,1)><speed(2)>A Domepolis, huh... I've never seen one before. I wonder what kind of place it is.",
+   "notes": "",
+   "source_sha256": "291ca5f97d783d74b3e1837a94e6c03f2f40be570103cdae3f907f456ec32525"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(23020,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "c8e373a90822ffe19f93b32cc491786b73a081830ae6108a7fc882f60c8fee29"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(23010,1)><speed(2)><color(4)>Eureka<ce()>... what's wrong?",
+   "notes": "",
+   "source_sha256": "015a5e419648bb62102429ecc5f00925b2624f55bebb296579c51f46caf90883"
+  },
+  {
+   "table": 0,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23020,1)><speed(2)>...Mm. I'm fine, so don't worry about it.",
+   "notes": "",
+   "source_sha256": "7cc25563430e8af0ca22a391e716382d7cac7a4c16d5ac37e893df79dd84e856"
+  },
+  {
+   "table": 0,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(23010,1)><speed(2)>You seem kind of down, though...",
+   "notes": "",
+   "source_sha256": "92f64b923a34e1ffea77ef624c806b585d75d45f3152f2ec46d7c2aae1cf0115"
+  },
+  {
+   "table": 0,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>That girl <color(4)>Eureka<ce()>... she's been down ever since she heard the name Domepolis...",
+   "notes": "",
+   "source_sha256": "bc8ebf1e215997b80bb66ccae0b0b0c7652b82400cf7f9dadddabeca2576a582"
+  },
+  {
+   "table": 0,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(1060,1)><speed(2)>Prying into a girl's secrets isn't very admirable, you know.",
+   "notes": "",
+   "source_sha256": "8c903870428307a6b37cfb1d0651d10bbc47dff132fdcf63b955ade64def901a"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(25010,2)><speed(2)><color(4)>Barrel<ce()>, how's it going?",
+   "notes": "",
+   "source_sha256": "361ad7fa06052116e0a8b629a1ca17d305c7ee94625c107f10fa1af19c4f6709"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>It's been nothing but the simulator lately. Getting used to it, somehow.",
+   "notes": "Operator tag is 1060 (Faye) in the source, but the polite register and content (reply to Isamu's question to Barrel) read as Barrel's line; likely a source tag slip. Tag kept as in source; subject left open.",
+   "source_sha256": "2874980d0ec3358a4be5beb36fef24b65acdc28e1f01b60aaf62f7981cb878c3"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(25010,2)><speed(2)>Nice. You've gotten a bit more positive, haven't you?",
+   "notes": "",
+   "source_sha256": "b591df8f308205888ab5f7c4bb2199167940ccf2a3d4085d552f8c75aa3f61cb"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(1040,1)><speed(2)>It's not like that...",
+   "notes": "",
+   "source_sha256": "45b432a5c227b0ad67dad618c9191e69b7d055ba5e2d2915b4324c98f9ebcb2e"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(25010,2)><speed(2)>All right, how about a mock battle with me later? I'll whip you into shape.",
+   "notes": "",
+   "source_sha256": "45f7850c1a0900af010ad5c5eeab6eb61233029bdd74bd619e88b03bda393aa3"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>I-I still can't beat you, Lieutenant.",
+   "notes": "chuui = Lieutenant (Isamu), per reviewed scenes.",
+   "source_sha256": "86176810f9f4b667a1bd94befff7f83738a24ed83193c5a61ea022d7355eea25"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(23030,1)><speed(2)>I got bailed out last time. This time I'll show you what I can really do.",
+   "notes": "",
+   "source_sha256": "dd45a3c3297ae53cecfc37dce005b84583ae321bc9d67f5d61ecb5bc4a133825"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(25010,1)><speed(2)>Anyone who watched the last fight can tell your skills are the real deal.",
+   "notes": "",
+   "source_sha256": "a880e4345fa3b8f9d4a0713670a99ad648de5126e8faca6937dce7eb33bbfe06"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(23030,2)><speed(2)>Heh. So you do get it.",
+   "notes": "",
+   "source_sha256": "cbba5d67b130e39a656323541e5be14e942e8a2cca8368a447aad58442ac877f"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(17030,2)><speed(2)>Hm-hmm-hmmm...",
+   "notes": "Humming.",
+   "source_sha256": "771d586409206bbc81b4883448ba7a77322cdc6f103f2b63e87c09d1d79599a8"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(17010,1)><speed(2)><color(4)>Roybea<ce()>, you're in a good mood. What's up?",
+   "notes": "",
+   "source_sha256": "c0749d2a7d900ded65a2430bdddc38262b4d219c37387c5077e9944b0f357c60"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(17020,1)><speed(2)>Knowing this guy, he's planning to hit on the Domepolis women.",
+   "notes": "",
+   "source_sha256": "72c61a6b78faae9c94385d68b7969871ae8ea6bd42acb2c7f1792b3cd92d8cb4"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(17030,2)><speed(2)>Bingo. It's my first time here, after all.",
+   "notes": "",
+   "source_sha256": "eb1c04ad1918a8d0e7984c6eca8a3f99839413456a25967d342c804b01db8726"
+  },
+  {
+   "table": 1,
+   "slot": 103,
+   "text_id": 104,
+   "en": "<operator(17080,1)><speed(2)>Sorry to disappoint you. Once the operation is over, we pull out right away.",
+   "notes": "",
+   "source_sha256": "b202e0a94a289083f42705e86835138ca088b2b665ca9977f867af9c4373a992"
+  },
+  {
+   "table": 1,
+   "slot": 104,
+   "text_id": 105,
+   "en": "<operator(17030,2)><speed(2)>Now that I look closely... no, even without looking closely, you're a beauty. Maybe you can have tea with me instead.",
+   "notes": "",
+   "source_sha256": "de9a8a3e9ded2c24a661f5b853c4971ae75f1dc39f1c82e9163215dd4f0f2cfe"
+  },
+  {
+   "table": 1,
+   "slot": 105,
+   "text_id": 106,
+   "en": "<operator(17080,1)><speed(2)>...! Stop fooling around and launch already, please!",
+   "notes": "",
+   "source_sha256": "4a4df64a44e1c53f78bb931c8072126c6c0955badbacd357e480af17c7dcec95"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(23010,1)><speed(2)>My first sortie, huh... Everyone, I'm looking forward to working with you!",
+   "notes": "",
+   "source_sha256": "5ce6b27ec77b520038f89a8dab1a260ec06a89549931701070750099260c234f"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(23020,1)><speed(2)>...",
+   "notes": "",
+   "source_sha256": "9dd721cab03cb78c43ab66ba5325f018b98ac7e4b28a33e40b5b707bfb22f588"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(23010,1)><speed(2)><color(4)>Eureka<ce()>... Are you really okay?",
+   "notes": "",
+   "source_sha256": "b5f3b5b1822094acf80c30871e8d2864d13e32d11df1964484468ef6bd9ee302"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(23020,1)><speed(2)>Yeah...",
+   "notes": "",
+   "source_sha256": "a31163fd943cde0f01fb3be5b9019b448bad3eacc3bf0b330a5e4974f7a6c6f4"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(17010,2)><speed(2)>You gotta liven up more! Stick with me and you'll be fine!",
+   "notes": "",
+   "source_sha256": "6f6a9d9410d1d93c86c9e97b2c0ffbd531e8b67218a467c3685bf997d5ad23a5"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(1040,2)><speed(2)>Right, right, take it easier. I'll be rooting for you too.",
+   "notes": "",
+   "source_sha256": "acc85c0cfad6dc6197a647629ab0a9b95ba54803574d6ad956b97cbb3733f070"
+  },
+  {
+   "table": 1,
+   "slot": 145,
+   "text_id": 146,
+   "en": "<operator(1060,1)><speed(2)>...Hard to believe that's coming from kids who were amateurs until recently.",
+   "notes": "",
+   "source_sha256": "44f778e5aaa065fe82d569e2520e91b8c332d7425a9a7c4fd32d7d5e2bf98ebd"
+  },
+  {
+   "table": 1,
+   "slot": 146,
+   "text_id": 147,
+   "en": "<operator(17010,1)><speed(2)>Sh-shut up! I was trying to look cool there!",
+   "notes": "",
+   "source_sha256": "bce9b4471f8926f5461db6959b7664c4c482c9415d2850455f0c28aba838c173"
+  },
+  {
+   "table": 1,
+   "slot": 147,
+   "text_id": 148,
+   "en": "<operator(1040,1)><speed(2)>Y-yeah!",
+   "notes": "",
+   "source_sha256": "71cc91d3e693a4fdce1bdf2f1b3e3585f08987319e37670f2b3bbe415613721c"
+  },
+  {
+   "table": 1,
+   "slot": 148,
+   "text_id": 149,
+   "en": "<operator(23020,2)><speed(2)>Heehee, they're funny people, aren't they, <color(4)>Renton<ce()>.",
+   "notes": "",
+   "source_sha256": "5f3f988bdcd3f088b8576d5f54cd617b42eedfeb437d328e6a70f1c62b94b245"
+  },
+  {
+   "table": 1,
+   "slot": 149,
+   "text_id": 150,
+   "en": "<operator(23010,2)><speed(2)>Everyone... thank you!",
+   "notes": "",
+   "source_sha256": "b98a50f04b5b01feb5d7eba8818c5a5f23082b8df1bd49f971535c32a21fb6a6"
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 34,
+  "rows_in_scene": 34,
+  "meaning_fixes": [
+   {
+    "table": 1,
+    "slot": 20,
+    "before": "<operator(1060,1)><speed(2)>It's been nothing but the simulator lately. I'm managing to get used to it.",
+    "after": "<operator(1060,1)><speed(2)>It's been nothing but the simulator lately. Getting used to it, somehow.",
+    "reason": "Source has no subject and the speaker tag is Faye (1060) while the content reads as Barrel's own answer. The draft's 'I'm managing' fixed the subject as the displayed speaker (Faye), which is wrong if the line is Barrel's and invented either way; the translator's own note said the subject was to be left open. Subjectless rendering works for both readings."
+   }
+  ],
+  "checked_decisions": [
+   "1/20 (text id 21) speaker tag 1060 (Faye) on a line that answers Isamu's question to Barrel in polite register: tag left untouched per orchestrator decision; English made subjectless (see fix).",
+   "1/24 (text id 25) 'chuui' = 'Lieutenant' for Isamu: matches reviewed scenes 4004413 ('Lt. Dyson') and 4004433 ('Lieutenant') and the glossary role (U.N. Spacy First Lieutenant). Accepted.",
+   "0/24 'That girl Eureka': source 'Eureka tte ko'; Eureka is female in the glossary; 'she' is safe. Accepted.",
+   "1/99 humming rendered 'Hm-hmm-hmmm...': no meaning content. Accepted.",
+   "1/103-104 Sala Tyrrell (17080) vs Roybea: 'kawari ni' = instead of the Domepolis women; 'have tea with me instead' is correct. Accepted.",
+   "'Domepolis' spelling matches the 4003060 scene and mission glossary usage. Accepted."
+  ],
+  "remaining_uncertainties": [
+   "1/20 (text id 21): cannot tell from the data whether the Faye tag is a source slip (Barrel's line) or Faye answering on Barrel's behalf; the English now fits both. In game the portrait/name will show Faye.",
+   "1/59 (text id 60) Holland 'kono mae wa tasukerareta kara na': passive with no subject; 'I got bailed out' could equally be 'we' (Gekkostate). Left as drafted."
+  ]
+ }
+}

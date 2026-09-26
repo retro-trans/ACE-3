@@ -1,0 +1,24 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14467,
+  "slice_count": 39,
+  "rows_examined": [{"start": 14452, "end": 14520}],
+  "rows_examined_count": 69,
+  "rows_in_slice": 39,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {"rows": [14467, 14505], "finding": "Remaining Roybea Loy (Gundam Leopard) lines checked line by line; no reversed meaning, wrong addressee/subject, or invented identity/gender found."},
+    {"rows": [14483], "finding": "'Wish it were a cute girl instead' is the pilot's own stated hypothetical preference, matching his researched 'ladies' man' personality (character_names_021.json); it does not assign a gender to any actual named character, so it is not an invented-gender issue."},
+    {"rows": [14494], "finding": "The friendship/hot-bloodedness/victory-formula shonen-trope line is compressed to 'friendship and passion'; the 'formula for victory' framing is lost but the core boast is kept, matching the translator's note. Budget (42 chars) had a little headroom left over 37 used, but the compression is not a meaning error."},
+    {"rows": [14499], "finding": "'Let the girls heal my fatigue' rendered as 'let the girls spoil me' is an interpretive but not fact-changing paraphrase, matching the translator's note."},
+    {"rows": [14504], "finding": "'No creed to speak of, but I did the work right' correctly renders the source's 'I don't know about grand causes or justice, but I did the job properly' while avoiding the letter j per the font constraint; meaning unchanged."}
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran `python tools/dialogue_corpus.py slice 14467 39 --context 15` and compared every in-slice row's <...> commands against the target; all commands identical and in the same order as the source.",
+    "format": "No newlines in any target; source line breaks (e.g. 14468, 14484, 14494) correctly joined.",
+    "fit": "Spot-checked the hard byte budget on the heaviest compressions (14483, 14494, 14499, 14504); all fit with margin.",
+    "ascii": "All targets ASCII-only; no lowercase j/q found outside locked names."
+  }
+}

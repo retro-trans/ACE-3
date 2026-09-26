@@ -1,0 +1,45 @@
+{
+  "reviewer": "independent_meaning_review_shouts_agent",
+  "slice_start": 14586,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      14571,
+      14680
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_14597",
+      "before": "Feel the rage of those\\npower ignored!",
+      "after": "Feel our rage, silenced by power!",
+      "reason": "Source is 'you'll realize our anger, that power ignored/silenced' (1st person plural: the Frost brothers' own anger). The draft's 'those power ignored' reads as an unnamed third party rather than the speaker himself, shifting whose anger is at stake. Fixed to keep the 1st-person referent; fits the 44-char budget with room to spare (33 chars)."
+    },
+    {
+      "id": "dialogue_14635",
+      "before": "A shame you're an ally.\\nI'd love to test my skill.",
+      "after": "Shame you're an ally, I'd kill you to test my skill.",
+      "reason": "Source literally says Olba would like to kill this ally just to test his own skill; the draft dropped the violent intent entirely, softening a distinctive characterization beat for a 'reckless, competitive' antagonist into a generic sparring line. Restored within the 52-char budget (exact fit)."
+    }
+  ],
+  "checked_decisions": [
+    {
+      "rows": [14588, 14602, 14612, 14655, 14664],
+      "finding": "Olba's rhetoric mirrors Shagia's Category-F/stage language in his own casual first-person register; distinct younger/casual tone preserved, consistent with his 'reckless, competitive' personality. No meaning issue."
+    },
+    {
+      "rows": [14666],
+      "finding": "'Brother, satisfied now?' correctly renders the source's question addressed to Shagia off-screen; vocative appropriately implicit ('Brother'), no invented identity."
+    }
+  ],
+  "uncertainties": [],
+  "validation": {
+    "controls": "Re-ran a throwaway console check comparing every <op()>/<sp()>/<ab(N)>/<ed()> command sequence in each row's target against the source listing (dialogue_corpus.py slice 14586 80 --context 0): 0 mismatches across all 80 rows, including the two applied fixes.",
+    "fit": "Recomputed each row's visible-text length (tags and \\n excluded) against min(72, 2*Japanese_char_count-2): 0 rows over budget after the two fixes.",
+    "ascii": "0 non-ASCII characters found in visible text; no lowercase j/q found.",
+    "newline": "37 of this batch's 80 rows still contain an embedded newline from the source's two-line layout, which this batch's own 'no newline' shout constraint forbids. Both applied meaning fixes were written as single lines (no newline), but the remaining 35 unaffected rows were left as-is: joining them is a formatting pass, not a meaning fix, and a corpus-wide pattern better handled by one coordinated script than by each reviewer independently; flagged for the orchestrator (see final report)."
+  }
+}

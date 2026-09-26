@@ -1,0 +1,162 @@
+{
+ "slice_start": 6023,
+ "slice_count": 22,
+ "rows_examined": [
+  [
+   6008,
+   6059
+  ]
+ ],
+ "rows_examined_count": 52,
+ "rows_in_slice": 22,
+ "uncertainties": [
+  {
+   "id": "dialogue_06029",
+   "note": "'例の無人機部隊' (that drone unit/force) is color(5)-tagged, the same color used for Berkt throughout this scene, confirming it is Berkt's own drone force rather than a generic one. A near-identical unresolved reference ('例の無人機', 'that drone') was flagged in review_02643.json (row 2693) as having no resolvable antecedent anywhere translated so far; rows are in stored-table order, not story order, so this row (6029) may in fact be the scene that establishes it. Flagging for the orchestrator to cross-check batch_02643/review_02643 against this row once both are consolidated."
+  },
+  {
+   "id": "dialogue_06024",
+   "note": "'隣人' rendered 'Hayato' per the locked 'Hayato Jin' (character_names_021.json); identity confirmed by 6039's 'leave the Shin Dragon to Hayato', matching the established Shin Getter-2 (Hayato) pairing in unit_names_014_b.json."
+  }
+ ],
+ "validation": {
+  "controls": "All angle-bracket/book/color commands checked against the source in order for every row.",
+  "fit": "All rows fit within 110 visible characters with meaning intact; none required compression beyond ordinary phrasing.",
+  "ascii": "ASCII-only; no lowercase j/q outside the locked names Hayato/Jamil-family names (none of which recur unshortened in this slice).",
+  "meaning_review": "Independent review of 22 rows against original ISO; 52 examined 6008-6059. No meaning fixes required; see review_06023.json."
+ },
+ "rows": [
+  {
+   "id": "dialogue_06023",
+   "target": "<on()><sp(20)>This isn't about whether we can. We will.\nOtherwise, no matter what <color(5)>Berkt<ce()> does,\nruin comes to this world.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06024",
+   "target": "<on()><sp(20)><color(4)>Holland<ce()>! There's an emergency transmission from <color(4)>Hayato<ce()>!",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06025",
+   "target": "<on()><sp(20)>What is it?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06026",
+   "target": "<on()><sp(20)><book(51)>Getter Rays<endbook()> have apparently\nbuilt up massively in a <book(48)>Shin Dragon<endbook()> that's appeared.\n<color(5)>Berkt<ce()> may well show up there.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06027",
+   "target": "<on()><sp(20)>Well then, that settles our destination.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06028",
+   "target": "<on()><sp(20)>No, wait.\n<color(5)>Berkt<ce()>'s whereabouts - the <book(39)>Vultures<endbook()>\nassigned to track it sent word too.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06029",
+   "target": "<on()><sp(20)>Apparently that <color(5)>drone unit<ce()> has suddenly vanished.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06030",
+   "target": "<on()><sp(20)>So they've gone to the other side, then.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06031",
+   "target": "<on()><sp(20)>Yeah, most likely.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06032",
+   "target": "<on()><sp(20)><color(5)>Char<ce()> worries me too.\nHe should be about ready to make his move.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06033",
+   "target": "<on()><sp(20)>Even with his forces worn down\nfrom the attack on <book(33)>Macross<endbook()>?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06034",
+   "target": "<on()><sp(20)>That's exactly why.\n<color(5)>Char<ce()>'s that kind of man.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06035",
+   "target": "<on()><sp(20)>...This is a tough call.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06036",
+   "target": "<on()><sp(20)>What should we do, then?",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06037",
+   "target": "<on()><sp(20)>He's obviously after the <book(48)>Shin Dragon<endbook()>.\nPrecisely because of that, he might\navoid the <book(48)>Shin Dragon<endbook()> for a while.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06038",
+   "target": "<on()><sp(20)>If <color(5)>Char<ce()> himself is moving,\nhe'll hit us harder than ever before.\nGoing back is the smart move.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06039",
+   "target": "<on()><sp(20)>Let's leave the <book(48)>Shin Dragon<endbook()> to <color(4)>Hayato<ce()>.\nHe'll be fine.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06040",
+   "target": "<on()><sp(20)>Then it's decided.\nLet's head back.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06041",
+   "target": "<on()><sp(20)>If the <book(48)>Shin Dragon<endbook()> has appeared,\nwe can't ignore it.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06042",
+   "target": "<on()><sp(20)>More than anything, that's where the odds\nof <color(5)>Berkt<ce()> showing up are highest.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06043",
+   "target": "<on()><sp(20)>Understood.\nLet's leave <color(5)>Char<ce()> to <color(4)>Bright<ce()> for now\nand prioritize this.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  },
+  {
+   "id": "dialogue_06044",
+   "target": "<on()><sp(20)>Then it's decided.\nLet's head there right away.",
+   "status": "meaning_reviewed",
+   "notes": ""
+  }
+ ]
+}

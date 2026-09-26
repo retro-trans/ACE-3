@@ -1,0 +1,94 @@
+{
+ "resource_id": 4003270,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 8,
+ "rows_examined": 8,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "21  Destroy Shin Dragon 4",
+   "notes": "Released mission title reused (missions_019.json slot 260).",
+   "source_sha256": "a933b121ce208a07c2331e5f2422e1872c32293cad587be962534dc899935876"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30090,1)><speed(2)>Everyone's gathered. The <book(48)>Shin Dragon<endbook()><thumbnail(266)> has appeared at a volcanic island.",
+   "notes": "",
+   "source_sha256": "2c76fd302220ace201ca861d759f15b31674a583eda6ce82c48969637d3056a4"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30090,1)><speed(2)>The <book(51)>Getter Rays<endbook()> are on the verge of going critical. The <book(48)>Shin Dragon<endbook()> has already evolved.",
+   "notes": "",
+   "source_sha256": "a5d9517a1f2e99134ae7563dfe3918f7b7de06212715d957da3074d743144352"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30090,1)><speed(2)>And drawn by those <book(51)>Getter Rays<endbook()>, <book(49)>Invaders<endbook()><thumbnail(267)> are massing on a scale we've never seen.",
+   "notes": "",
+   "source_sha256": "41d2decd9bbb3acb5a10b516f4fdda95becef23144a6d536ad2f99cdf0b7e65f"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30090,1)><speed(2)>This is the only place to end it. We finish it off here, for good!",
+   "notes": "",
+   "source_sha256": "04d3e93633a10d3bc0d4b0c5c3b0fd895c5948858549012a4627d5ad289d284a"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<thumbdown()><topic()><operator(30030,1)><speed(2)><book(48)>Shin Dragon<endbook()> has stored up <book(51)>Getter Rays<endbook()> that are near critical - the <book(38)>New Federation<endbook()> should already know this.",
+   "notes": "Reordered clauses (kept Shin Dragon / Getter Rays / New Federation tag order identical to source, which differs from the most literal English word order).",
+   "source_sha256": "f0e8bdd54f6130b98afcc4831ec788e4a204d2815c3dc36a86b961af4a159f41"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30030,1)><speed(2)><book(2)>Baldora Charge<endbook()> has also climbed to near critical already. There is a good chance <color(5)>Berkt<ce()><thumbnail(191)> will show up.",
+   "notes": "",
+   "source_sha256": "dc4857a3338fcaa49b74ba9ec7e5c4cc6d3f7bf22c941e35693735f2d87d8a43"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30030,1)><speed(2)>Please be very careful.",
+   "notes": "",
+   "source_sha256": "4b87a1ee17ff67e2eedb3fef4afbee33feb1aa190d57934c977e230ac1ed98d7"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 23,
+   "issue": "Source clause order is Shin Dragon -> Getter Rays -> New Federation (Getter Rays modify Shin Dragon); kept that tag order even though the more natural English word order would put Getter Rays first."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 8,
+  "rows_in_scene": 8,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019.json slot 260 '21  Destroy Shin Dragon 4'.",
+   "Speakers via speaker_lookup.py: 30090 Hayato Jin, 30030 Ruri Hoshino; speaker tags unchanged.",
+   "'Shin Dragon' (book 48), 'Invaders' (book 49), 'Getter Rays' (book 51), 'New Federation' (book 38) all match encyclopedia_022.json locked short forms.",
+   "Slot 23 ruling: clause order Shin Dragon -> Getter Rays -> New Federation kept identical to source tag order; meaning, subject and addressee correct as written, no fix needed.",
+   "All rows: command tags identical and in source order, ASCII only, no newline, no bare %, visible length under 128, no lowercase j/q (re-checked with a throwaway script against tools/scene_source.py output)."
+  ],
+  "remaining_uncertainties": []
+ }
+}

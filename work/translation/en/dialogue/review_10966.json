@@ -1,0 +1,103 @@
+{
+  "reviewer": "independent_meaning_review_stop_axis_agent",
+  "slice_start": 10966,
+  "slice_count": 80,
+  "rows_examined": [
+    {
+      "start": 10951,
+      "end": 11060
+    }
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [],
+  "checked_decisions": [
+    {
+      "rows": [
+        11004,
+        11005,
+        11006,
+        11013,
+        11021,
+        11033
+      ],
+      "finding": "\u5927\u4f50 (taisa) rendered 'Colonel' per orchestrator ruling for Char's old AEUG/Zeta-era rank, used affectionately by Quess (11004, 11005, 11013, 11021) and by Gyunei sarcastically (11006) and pointedly (11033); confirmed distinct from 'Marshal' used for Char elsewhere (batch_10886 row 10930)."
+    },
+    {
+      "rows": [
+        11007
+      ],
+      "finding": "\u30d5\u30a1\u30f3\u30cd\u30eb rendered 'Funnel' (capitalized as the weapon-type proper noun) per task ruling; term not previously in any glossary file, so it is confirmed here rather than assumed, pending central glossary addition by the orchestrator."
+    },
+    {
+      "rows": [
+        11011,
+        11012
+      ],
+      "finding": "Speaker sensing Amuro Ray's presence left unattributed (could be Char or a Newtype-sensitive Neo Zeon pilot); confirmed no identity or gender invented."
+    },
+    {
+      "rows": [
+        11016
+      ],
+      "finding": "'Tiffa' confirmed against character_names_021.json's locked spelling 'Tiffa Adill' (After War Gundam X) rather than the corpus's alternate 'Tifa'; caller left unidentified as drafted."
+    },
+    {
+      "rows": [
+        11038,
+        11039
+      ],
+      "finding": "Plan to split Axis in two and the explosion 'helping Char' read as the speaker's own realization; matches Char's Counterattack canon and the mission's stated plan; not an invented inference."
+    },
+    {
+      "rows": [
+        11001
+      ],
+      "finding": "'that Jagd Doga man from before' confirmed as a valid reading (Gyunei, previously encountered piloting a Jagd Doga) and 'Jagd Doga' spelling matches unit_names_014_a.json ('Jagd Doga (Gyunei)', 'Jagd Doga (Quess)')."
+    },
+    {
+      "rows": [
+        10974,
+        10986
+      ],
+      "finding": "'Captain Plato' (taii) confirmed against terms_028.json's Captain entry, which explicitly lists Meio Plato alongside Amuro and Burning."
+    },
+    {
+      "rows": [
+        11009
+      ],
+      "finding": "'Barrel' confirmed against character_names_021.json's 'Ensign Barrel' entry."
+    },
+    {
+      "rows": [
+        10966,
+        11045
+      ],
+      "finding": "Programmatic check: <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()> command sequences, newline counts, ASCII-only text and <=110-character visible length verified for all 80 rows against the ISO source."
+    }
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_11021",
+      "issue": "Confirmed the translator's flag: <ab(50)> is a very short display duration for a two-line message. Meaning is fully retained and the visible text is within the 110-character limit, so this is a build/timing risk to pass along, not a meaning defect."
+    },
+    {
+      "id": "dialogue_11002",
+      "issue": "'\u58c1\u306b\u306a\u308b\u5967' (lit. 'a guy who becomes a wall') rendered 'someone's standing in my way like a wall.' Judgment call to keep the literal wall metaphor for consistency with the same phrase recurring just past this slice (row 11059, batch_11046's neighbour); flagged since a checker could reasonably prefer a plainer 'blocker'."
+    },
+    {
+      "ids": [
+        "dialogue_11003",
+        "dialogue_11019"
+      ],
+      "issue": "Speaker of 'Quess, there's a tough one on your side' / 'Quess, that one's tough!' inferred as Gyunei addressing Quess, based on the funnel/Jagd Doga context established in 11001-11007 and Gyunei's established personality (feels ostracized, insecure) rather than a directly stated speaker tag."
+    }
+  ],
+  "validation": {
+    "controls": "All <op()>/<on()>/<sp(20)>/<ab(n)>/<ed()>/<off()> command sequences checked in exact order against the ISO source for all 80 rows (programmatic tag-list diff); no mismatches.",
+    "format": "Newline counts match the source for every row.",
+    "fit": "All visible text (tags removed) <=110 characters; no meaning shortened for fit beyond what was already drafted.",
+    "ascii": "All target text is ASCII-only; no lowercase j/q found outside locked names (none occurred)."
+  }
+}

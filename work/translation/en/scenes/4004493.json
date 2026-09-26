@@ -1,0 +1,248 @@
+{
+ "resource_id": 4004493,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 27,
+ "rows_examined": 27,
+ "rows": [
+  {
+   "table": 0,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1040,1)><speed(2)>So he really was active in this world too, huh.",
+   "notes": "",
+   "source_sha256": "e5173dcfdd9b01cd4ddb0614bf591194cd6f4b1ca9dd0bf700d486f429b567b9"
+  },
+  {
+   "table": 0,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1060,1)><speed(2)>Yeah. I did kind of expect it, since I first saw him over here.",
+   "notes": "",
+   "source_sha256": "43f34b82797ad2bd5f34fb390cce64a919e62130bdafde8e217de05dedd3d5cd"
+  },
+  {
+   "table": 0,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1040,1)><speed(2)>What would make someone even think up something this insane? We have to stop him...",
+   "notes": "",
+   "source_sha256": "786af18ee373a1800f45cbf0235b062d2291cfe7febd6e866c400a973e428327"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(1060,1)><speed(2)>Does he really worry you that much?",
+   "notes": "",
+   "source_sha256": "5461b319bb0cfacb9caac6de3da97dceca2dc2ce4a9945ddad3770aee3b03dd9"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(1040,1)><speed(2)>Yeah... I don't really know why, but...",
+   "notes": "",
+   "source_sha256": "13ce5f8950c6b2e464efa94a309a0f632d8994ada4b3133bfea0f586bb280a8a"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(1060,1)><speed(2)><color(4)>Barrel<ce()>... I'm glad you've decided to fight, but don't rush it.",
+   "notes": "",
+   "source_sha256": "3dd9a9c68bab108249e1516ad19d400f021dd82d8d20a408216aea5e2ff49867"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(23030,1)><speed(2)>No point catching him if you end up dead yourself.",
+   "notes": "",
+   "source_sha256": "cfa6ae034c8bd48c04bd25f5719ed7aecc79f9608f7637a2149bfae2a6a1376a"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(5010,1)><speed(2)>That's right. He's not the only enemy out there.",
+   "notes": "",
+   "source_sha256": "83145d39d14fdb91cfb2e9a377e9890de6f5c11ff2301684d5cc712d96493f52"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(1040,1)><speed(2)>Yes... Understood.",
+   "notes": "",
+   "source_sha256": "582bfb6c3803f366a79bf02e229c25eb746d6ac8ae34581b150362b591096010"
+  },
+  {
+   "table": 1,
+   "slot": 59,
+   "text_id": 60,
+   "en": "<operator(5010,1)><speed(2)><color(5)>Berkt<ce()>... If we capture him here, will that settle things?",
+   "notes": "",
+   "source_sha256": "f69003b08ce9bb4e818c2c9cea88feb3dbb9a7c11f290081db660e1334d02ca9"
+  },
+  {
+   "table": 1,
+   "slot": 60,
+   "text_id": 61,
+   "en": "<operator(25010,1)><speed(2)>What's up? You're being all cagey about it, like you're holding something back...",
+   "notes": "Idiom 'oku-ba ni mono ga hasamatta' (something stuck between the back teeth) = being evasive/beating around the bush.",
+   "source_sha256": "7044a203b52ab7bcd9c40b4985bddb38b81daf510e2a577571c2e511ca1cdc7a"
+  },
+  {
+   "table": 1,
+   "slot": 61,
+   "text_id": 62,
+   "en": "<operator(25010,1)><speed(2)>With your skills, Captain, I don't think you'd lose to that guy, though?",
+   "notes": "'taii' (Amuro's rank) rendered 'Captain' per orchestrator decision.",
+   "source_sha256": "09a5fd0ea8e4c7989696a2171f110ede0b5c75dc6155d14942f1f55b729df61c"
+  },
+  {
+   "table": 1,
+   "slot": 62,
+   "text_id": 63,
+   "en": "<operator(21020,1)><speed(2)>Since we don't know his true strength, it simply means we can't let our guard down.",
+   "notes": "",
+   "source_sha256": "71c43af7b0cfe29555874d0a0562c5b6ae2a72598d2878e9a7e2e67a91009c8f"
+  },
+  {
+   "table": 1,
+   "slot": 63,
+   "text_id": 64,
+   "en": "<operator(21010,1)><speed(2)>Huh, guess you're surprisingly good at reading people, <color(4)>Gain<ce()>.",
+   "notes": "'-san' on Gain dropped, per project convention.",
+   "source_sha256": "999af68cdd66d8e1f850bd06ab2a60bbc9cdb05df68d0ec0609ca06023cebdce"
+  },
+  {
+   "table": 1,
+   "slot": 64,
+   "text_id": 65,
+   "en": "<operator(21020,1)><speed(2)>What's that supposed to mean?",
+   "notes": "",
+   "source_sha256": "aeb0c8647d513d28e8ae33e632cda865b6ef952d506ee929f976bcfae2e0d47d"
+  },
+  {
+   "table": 1,
+   "slot": 65,
+   "text_id": 66,
+   "en": "<operator(21010,1)><speed(2)>I figured you were the type who's all 'as long as I'm fine, that's good enough.'",
+   "notes": "",
+   "source_sha256": "5dabbe142342a1a490ebb53a78aa8b1077c0ff4d3c2e18bc4e00557cc50d89b0"
+  },
+  {
+   "table": 1,
+   "slot": 66,
+   "text_id": 67,
+   "en": "<operator(21020,1)><speed(2)>Come on, now...",
+   "notes": "",
+   "source_sha256": "83ed4608da93f4c780e8d09f08c8ade2ab877acf8904bc4ecf58459d669922ee"
+  },
+  {
+   "table": 1,
+   "slot": 99,
+   "text_id": 100,
+   "en": "<operator(17010,1)><speed(2)>That bastard! I'm gonna catch him fast!",
+   "notes": "",
+   "source_sha256": "8e8403131b111ff02b541a45c88cd332d35ef3736e13fe62b78e9f73f384c682"
+  },
+  {
+   "table": 1,
+   "slot": 100,
+   "text_id": 101,
+   "en": "<operator(19030,1)><speed(2)>We can't let that <color(5)>Berkt<ce()> guy keep doing as he pleases any longer!",
+   "notes": "",
+   "source_sha256": "8caed405438b44ffeedacf8b857d7d0438f2b8913e5675f469aa47c1653fe50e"
+  },
+  {
+   "table": 1,
+   "slot": 101,
+   "text_id": 102,
+   "en": "<operator(19020,1)><speed(2)>That's right! Let's make him regret it!",
+   "notes": "",
+   "source_sha256": "863142237e6e97b5a52b5f47feeec285b48434d60502ea4beac12bb5c78fad0e"
+  },
+  {
+   "table": 1,
+   "slot": 102,
+   "text_id": 103,
+   "en": "<operator(19010,1)><speed(2)>But be careful... he's tough.",
+   "notes": "",
+   "source_sha256": "1769810c9cc11bdf96c1695a7c727ca534c949c87706df881d5c01f409b67538"
+  },
+  {
+   "table": 1,
+   "slot": 139,
+   "text_id": 140,
+   "en": "<operator(12051,1)><speed(2)><color(5)>Berkt<ce()> or whatever he's called, I'll crush him!",
+   "notes": "",
+   "source_sha256": "366da6e62df368600addc3872f82b8d5c1452027e6041ca8a09e1008093a1027"
+  },
+  {
+   "table": 1,
+   "slot": 140,
+   "text_id": 141,
+   "en": "<operator(12140,1)><speed(2)>Please don't push it too hard, okay? Backing you up isn't easy either.",
+   "notes": "",
+   "source_sha256": "6fdd69f6dcc83aab3cdeed11a0aef3c691133792e3559ff4323163a33e3a4cce"
+  },
+  {
+   "table": 1,
+   "slot": 141,
+   "text_id": 142,
+   "en": "<operator(12051,1)><speed(2)>Heh, I'm the only one riding an <color(4)>Aestivalis<ce()>, after all!",
+   "notes": "",
+   "source_sha256": "32199d1f49ff97b52fa9864a68bc5a7bf831b2a9547b36157a34c1c20ca02e1c"
+  },
+  {
+   "table": 1,
+   "slot": 142,
+   "text_id": 143,
+   "en": "<operator(12051,1)><speed(2)>A little recklessness suits me perfectly!",
+   "notes": "",
+   "source_sha256": "6bfb52abffbdb4783202fe8d6cbf7c63f92ab51c24e628d97c681e29a5871bbd"
+  },
+  {
+   "table": 1,
+   "slot": 143,
+   "text_id": 144,
+   "en": "<operator(12140,1)><speed(2)>Captain...",
+   "notes": "",
+   "source_sha256": "377c32071421262d31a3bf8eeb528ed4dd8e8dded24a0cd1b1808b18f56805cf"
+  },
+  {
+   "table": 1,
+   "slot": 144,
+   "text_id": 145,
+   "en": "<operator(12031,1)><speed(2)>That's how she is, so let her do as she likes.",
+   "notes": "",
+   "source_sha256": "ce327a8c1faaba14ca6d9fb3afbac4416ea6255ef32a53666d3d43854dd40476"
+  }
+ ],
+ "uncertainties": [
+  {
+   "table": 1,
+   "slot": 20,
+   "issue": "'kare' (him) throughout this scene = Berkt, per the prior scene (4004473) and 4004463's storyline; gender confirmed male in glossary char.berkt."
+  }
+ ],
+ "glossary_proposals": [],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 27,
+  "rows_in_scene": 27,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Every row (0/19-21, 1/19-24, 1/59-66, 1/99-102, 1/139-144) compared line by line against the Japanese source; all match in meaning, subject/addressee, and tag order.",
+   "1/61 'taii' (Amuro's rank) rendered 'Captain' per orchestrator decision; consistent usage.",
+   "1/20 'kare' (him) = Berkt throughout, confirmed by scene 4004473 and the 4004463 storyline; accepted.",
+   "Names checked against glossary: Barrel, Berkt, Gain, Aestivalis - all match."
+  ],
+  "remaining_uncertainties": [
+   "1/20: 'him' = Berkt is an inference from the surrounding scenes, not restated in this scene's own text; kept per the translator's note."
+  ]
+ }
+}

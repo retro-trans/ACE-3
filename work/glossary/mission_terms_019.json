@@ -1,0 +1,214 @@
+{
+  "version": "0.1.19",
+  "agent_do_not_touch": "Preserve these spellings after meaning review; provisional entries change only with a better source.",
+  "entries": [
+    {
+      "source": "積尸気",
+      "en": "Shishiki",
+      "kind": "unit",
+      "series": "Nadesico: The Prince of Darkness",
+      "status": "researched",
+      "sources": [
+        "https://srw.wiki.cre.jp/wiki/積尸気",
+        "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_Nadesico",
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3:_The_Final/Flow_Chart"
+      ],
+      "notes": [
+        "Reading is shishiki, not sekishiki. Plural left unmarked."
+      ]
+    },
+    {
+      "source": "無限機動砲",
+      "en": "Infinite Mobile Cannon",
+      "kind": "weapon",
+      "series": "Metal Armor Dragonar",
+      "status": "provisional",
+      "sources": [
+        "https://srw.wiki.cre.jp/wiki/無限機動砲",
+        "https://www.gramxs.com/ace3/mission09a.html",
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3:_The_Final/Flow_Chart"
+      ],
+      "notes": [
+        "No official English name found. Giganos self-propelled giant cannon (Dragonar ep. 35); appears in ACE3 mission 09A.",
+        "The fan wiki says Infinite Orbit Cannon, reading the caterpillar-track pun as orbit; literal rendering kept."
+      ]
+    },
+    {
+      "source": "クレイド",
+      "en": "Kleid",
+      "kind": "ship",
+      "series": "ACE3 original",
+      "status": "provisional",
+      "sources": [
+        "https://dic.pixiv.net/a/ACE3",
+        "https://www.gramxs.com/ace3/mission14.html",
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3:_The_Final/Flow_Chart"
+      ],
+      "notes": [
+        "New Federation unmanned battleship; allied ship in mission 14. No official romanization found.",
+        "The fan wiki says Glade-class, which does not match the kana (ku, not gu). Replace if game art or a guide book gives a spelling."
+      ]
+    },
+    {
+      "source": "メタルビースト",
+      "en": "Metal Beast",
+      "kind": "enemy",
+      "series": "Getter Robo Armageddon",
+      "status": "researched",
+      "sources": [
+        "https://getterrobo.fandom.com/wiki/Metal_Beasts_(Armageddon)"
+      ]
+    },
+    {
+      "source": "フリーデン",
+      "en": "Freeden",
+      "kind": "ship",
+      "series": "After War Gundam X",
+      "status": "researched",
+      "sources": [
+        "https://gundam.fandom.com/wiki/Freeden"
+      ]
+    },
+    {
+      "source": "バルチャー",
+      "en": "Vulture",
+      "kind": "group",
+      "series": "After War Gundam X",
+      "status": "researched",
+      "sources": [
+        "https://gundam.fandom.com/wiki/Freeden"
+      ]
+    },
+    {
+      "source": "フロスト兄弟",
+      "en": "Frost brothers",
+      "kind": "characters",
+      "series": "After War Gundam X",
+      "status": "researched",
+      "sources": [
+        "https://gundam.fandom.com/wiki/Shagia_Frost"
+      ],
+      "notes": [
+        "Shagia and Olba Frost; the source term itself says brothers."
+      ]
+    },
+    {
+      "source": "Ｇビット",
+      "en": "G-Bit",
+      "kind": "unit",
+      "series": "After War Gundam X",
+      "status": "researched",
+      "sources": [
+        "https://gundam.fandom.com/wiki/FX-9900-D_G-Bit_D.O.M.E."
+      ]
+    },
+    {
+      "source": "コーラリアン",
+      "en": "Coralian",
+      "kind": "entity",
+      "series": "Eureka Seven",
+      "status": "researched",
+      "sources": [
+        "https://eurekaseven.fandom.com/wiki/Coralian"
+      ]
+    },
+    {
+      "source": "抗体コーラリアン",
+      "en": "Antibody Coralian",
+      "kind": "enemy",
+      "series": "Eureka Seven",
+      "status": "researched",
+      "sources": [
+        "https://eurekaseven.fandom.com/wiki/Coralian"
+      ]
+    },
+    {
+      "source": "ノルブ",
+      "en": "Norb",
+      "kind": "character",
+      "series": "Eureka Seven",
+      "status": "researched",
+      "sources": [
+        "https://eurekaseven.fandom.com/wiki/Coralian"
+      ],
+      "notes": [
+        "Only the name is researched here; gender, role and personality still need a character entry before dialogue use."
+      ]
+    },
+    {
+      "source": "ゾーン",
+      "en": "the Zone",
+      "kind": "location",
+      "series": "Eureka Seven",
+      "status": "researched",
+      "sources": [
+        "https://eurekaseven.fandom.com/wiki/Coralian"
+      ]
+    },
+    {
+      "source": "エクソダス",
+      "en": "Exodus",
+      "kind": "event",
+      "series": "Overman King Gainer",
+      "status": "researched",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Overman_King_Gainer"
+      ]
+    },
+    {
+      "source": "ハイパー化",
+      "en": "go Hyper",
+      "kind": "term",
+      "series": "Aura Battler Dunbine / The Wings of Rean",
+      "status": "researched_secondary",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine",
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3:_The_Final/Flow_Chart"
+      ],
+      "notes": [
+        "Fan wiki: enter Hyper Mode / Hyper Oukaou."
+      ]
+    },
+    {
+      "source": "障害エリア",
+      "en": "interference area",
+      "kind": "term",
+      "series": "ACE3",
+      "status": "provisional",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3:_The_Final/Flow_Chart",
+        "https://www.gramxs.com/ace3/mission18b.html"
+      ],
+      "notes": [
+        "Radar-interference zones cleared by capturing facilities. Fan wiki says jamming fields; lowercase j has no native-size glyph."
+      ]
+    },
+    {
+      "source": "粒子フィールド",
+      "en": "particle field",
+      "kind": "term",
+      "series": "ACE3",
+      "status": "researched_secondary",
+      "sources": [
+        "https://akurasu.net/wiki/Another_Century%27s_Episode_3:_The_Final/Flow_Chart"
+      ]
+    }
+  ],
+  "inherited_terms": [
+    "Nadesico B",
+    "Gekko",
+    "Blood Ark",
+    "Dominator",
+    "Oukaou",
+    "Shin Dragon",
+    "Berkt",
+    "Baldora Drive",
+    "Tresor Research Institute",
+    "Neo Zeon",
+    "Amaterasu",
+    "Axis",
+    "Zonder Epta",
+    "unit names from unit_names_014"
+  ],
+  "fan_title_reference": "https://akurasu.net/wiki/Another_Century%27s_Episode_3:_The_Final/Flow_Chart"
+}

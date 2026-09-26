@@ -1,0 +1,138 @@
+{
+ "resource_id": 4003050,
+ "status": "meaning_reviewed",
+ "translator": "agent",
+ "rows_in_scene": 11,
+ "rows_examined": 11,
+ "rows": [
+  {
+   "table": 1,
+   "slot": 0,
+   "text_id": 1,
+   "en": "05  Support Gekko",
+   "notes": "Released mission title reused.",
+   "source_sha256": "4bf6e2bf14cf1dfff04c386a813401e9b85230796ca8db198b985112a82f9322"
+  },
+  {
+   "table": 1,
+   "slot": 19,
+   "text_id": 20,
+   "en": "<operator(30060,1)><speed(2)>We reach Bellforest very soon, but <book(60)>Gekkostate<endbook()> contacted us a moment ago. It seems a <book(38)>New Federation<endbook()> unit has found them.",
+   "notes": "Bellforest: see glossary_proposals.",
+   "source_sha256": "167f9551d19c1bc14d87a693be1f301e41f5cd1c3c68ab793bb249d1783ab2e6"
+  },
+  {
+   "table": 1,
+   "slot": 20,
+   "text_id": 21,
+   "en": "<operator(30060,1)><speed(2)>As soon as we reach Bellforest<thumbnail(175)>, we will support <book(60)>Gekkostate<endbook()>.",
+   "notes": "",
+   "source_sha256": "f40aa2ad350bfed556c143907889da899e1fe0f5e73cf194b5605671fa660df1"
+  },
+  {
+   "table": 1,
+   "slot": 21,
+   "text_id": 22,
+   "en": "<operator(30060,1)><speed(2)><book(60)>Gekkostate<endbook()> was formed by a man named <color(4)>Holland<ce()><thumbnail(176)> who deserted the <book(38)>New Federation<endbook()> military. It is an anti-<book(38)>New Federation<endbook()> group.",
+   "notes": "Split into two sentences to keep command order and fit.",
+   "source_sha256": "8ab337fe09844d080f66562430344b25c2461797cf307dc0d9f3887b8e7d8a33"
+  },
+  {
+   "table": 1,
+   "slot": 22,
+   "text_id": 23,
+   "en": "<operator(30060,1)><speed(2)>They call for protecting the \"<book(69)>Scub Coral<endbook()>\", the land that forms this Earth, and they act to that end.",
+   "notes": "",
+   "source_sha256": "004b6455785714ee4d2f601ca7ac159aa6be92a51e39e793137141dfd045f0ea"
+  },
+  {
+   "table": 1,
+   "slot": 23,
+   "text_id": 24,
+   "en": "<operator(30060,1)><speed(2)>Among its members there is also a girl whom <color(4)>Holland<ce()> took out of the <book(38)>New Federation<endbook()>, named <color(4)>Eureka<ce()>.",
+   "notes": "",
+   "source_sha256": "b9d97dbc16fff2d9fbc4c196411c9a3bc90291609e676676fa8939ebc6c34059"
+  },
+  {
+   "table": 1,
+   "slot": 24,
+   "text_id": 25,
+   "en": "<operator(30060,1)><speed(2)>She is the rider of a machine called the <book(61)>Nirvash<endbook()><thumbnail(177)>, and also someone needed to protect the <book(69)>Scub Coral<endbook()>.",
+   "notes": "Source says \"rider\" (katakana), kept.",
+   "source_sha256": "48ac497628ef58d5db07d4e53907fe7669052dfbc0d8d11076dd366a80f928b6"
+  },
+  {
+   "table": 1,
+   "slot": 25,
+   "text_id": 26,
+   "en": "<operator(30060,1)><speed(2)>She is not a Newtype. But our ideals and those of <book(60)>Gekkostate<endbook()> resonate in places, and so we help each other.",
+   "notes": "",
+   "source_sha256": "b8b2033a216e194b2225b322fdf6df107af7d148ca40db2796a460dbd4de0598"
+  },
+  {
+   "table": 1,
+   "slot": 26,
+   "text_id": 27,
+   "en": "<operator(30060,1)><speed(2)>The <book(38)>New Federation<endbook()> merely wants the power hidden in <color(4)>Eureka<ce()> and the <book(61)>Nirvash<endbook()> as a tool of war.",
+   "notes": "",
+   "source_sha256": "2c98770f592c5c0c1d0b6bfeb0942cd9cfd0bbbc3349832f8cc533a4f4a3bf98"
+  },
+  {
+   "table": 1,
+   "slot": 27,
+   "text_id": 28,
+   "en": "<thumbdown()><operator(30060,1)><speed(2)>I am sorry to ask this of you, who have no part in it, but I would truly like your cooperation here.",
+   "notes": "",
+   "source_sha256": "a7a6918e4991f224b8251199dac6523cfde3addce0cbf12d3bbe596e9d286047"
+  },
+  {
+   "table": 1,
+   "slot": 28,
+   "text_id": 29,
+   "en": "<topic()><operator(30030,1)><speed(2)>Now that the <book(38)>New Federation<endbook()> has marked us, working with these people is the best course. I would like us to help here too.",
+   "notes": "\"karera\" = Jamil's side / Gekkostate; \"these people\" used so it cannot be read as the New Federation.",
+   "source_sha256": "2f9d190408556d9b6833b8643295853b7672e6b5533b037585e18c788cfd0919"
+  }
+ ],
+ "uncertainties": [
+  {
+   "slot": 19,
+   "issue": "Bellforest is not in the locked glossary (only in batch_01426 proposals); used that proposal spelling."
+  },
+  {
+   "slot": 24,
+   "issue": "\"rider\" kept from the katakana source word; E7 English materials usually say \"pilot\". \"machine\" for kitai (avoids repeating \"unit\")."
+  },
+  {
+   "slot": 28,
+   "issue": "\"karera to kyouryoku\" - referent of \"they\" inferred as Jamil's group/Gekkostate (not the New Federation); rendered \"these people\". Last sentence \"koko mo kyouryoku shitai\" has no subject; \"I would like us to help\" supplies Ruri as the wisher (omoimasu is first person)."
+  }
+ ],
+ "glossary_proposals": [
+  {
+   "ja_reading_romaji": "Beruforesuto",
+   "en": "Bellforest",
+   "source": "https://eurekaseven.fandom.com/wiki/Bellforest (same as work/translation/en/dialogue/batch_01426_glossary_proposals.json)",
+   "why": "Eureka Seven town (Renton's home town); not yet in glossary.json."
+  }
+ ],
+ "review": {
+  "reviewer": "independent agent",
+  "rows_examined": 11,
+  "rows_in_scene": 11,
+  "meaning_fixes": [],
+  "checked_decisions": [
+   "Slot 0 title equals missions_019 \"05  Support Gekko\".",
+   "Speakers: 30060 Jamil Neate (slots 19-27), 30030 Ruri Hoshino (slot 28).",
+   "Slot 19 ruling: \"Bellforest\" is in no locked glossary file; it matches the spelling already used in dialogue batch_01426/review_01426, kept as provisional - orchestrator should add it to glossary.json.",
+   "Slot 24 ruling: \"rider\" kept - the source uses the katakana word itself and it contradicts no glossary entry; \"machine\" for kitai is correct.",
+   "Slot 28 ruling: \"karera\" = Jamil's side / Gekkostate. The New Federation is the party that marked them, so it cannot be the partner; \"these people\" is correct. \"I would like us to help\" - first-person omoimasu, Ruri speaking as captain; accepted.",
+   "Slots 20, 21, 24: <thumbnail> sits after the same word as in the source (arrival clause / Holland / Nirvash).",
+   "Gekkostate, Scub Coral, Nirvash, Holland, Eureka, New Federation match encyclopedia_022 / glossary spellings. Eureka is called shoujo/kanojo in the source, so \"girl\"/\"she\" is sourced."
+  ],
+  "remaining_uncertainties": [
+   "Slot 19: \"Bellforest\" still not in glossary.json (provisional).",
+   "Slot 28: \"has marked us\" supplies the object \"us\" (source omits it); supported by archive 4003962 slot 26 where Sala says the Nadesico group was marked. Left."
+  ]
+ }
+}

@@ -1,0 +1,574 @@
+{
+  "slice_start": 13583,
+  "slice_count": 80,
+  "rows_examined": [
+    [
+      13568,
+      13677
+    ]
+  ],
+  "rows_examined_count": 110,
+  "rows_in_slice": 80,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_13583",
+        "dialogue_13584",
+        "dialogue_13590",
+        "dialogue_13593",
+        "dialogue_13594",
+        "dialogue_13596",
+        "dialogue_13597"
+      ],
+      "note": "Resource 2812230 (Aestivalis C, Hikaru Amano): kept the source's elongated-vowel mark as ASCII '~' for her bubbly register, matching existing precedent elsewhere in the corpus (e.g. batch_13193.json 'This is fun~'); dropped where it would push a line over budget."
+    },
+    {
+      "id": "dialogue_13598",
+      "note": "Source references 'doujin' material (fan-made amateur work), tying to Hikaru Amano's manga-artist/otaku hobby per character_names_021.json. Rendered as 'fan-comic idea' instead of the loanword 'doujin' to avoid the lowercase j (font constraint) and stay broadly readable; flagging in case a house term for 'doujin' is later locked centrally."
+    },
+    {
+      "id": "dialogue_13579",
+      "note": "Source references a real folk method for calming nerves before something scary (write the character for 'person' on your palm and swallow it/imagine swallowing it). Rendered close to literally ('Draw person on my palm, gulp!') within a tight 34-char budget; the gesture may be unfamiliar to English readers without the idiom's cultural context, but nothing is invented beyond it."
+    },
+    {
+      "id": "dialogue_13604",
+      "note": "Source puns the word for 'dog' against the word for 'cliche/one-pattern' (which also echoes a dog's bark sound in Japanese). English cannot carry that double meaning; rendered as a plain 'dog faints, so cliche' aside. The pun is lost, the surface meaning (Izumi's own wry aside) is kept."
+    },
+    {
+      "id": "dialogue_13605",
+      "note": "Source has Izumi repeat the phrase for 'I see' three times and then puns it into the name of a real Japanese rice-cracker brand (a sound-alike joke on 'sou ka' / 'Souka'), which is untranslatable. Rendered as a generic non-sequitur ('...rice crackers...') to preserve Izumi's absurdist deflection without inventing new content; see the glossary proposal for the dropped brand reference."
+    },
+    {
+      "id": "dialogue_13617",
+      "note": "Source is a real pilgrim's purification chant (repeated), used here as a mutter under fire. Compressed to 'Purify, purify.' inside an 18-char budget; the specific chant/idiom is not spelled out."
+    },
+    {
+      "id": "dialogue_13620",
+      "note": "Source blends the opening of a Buddhist invocation with sobbing onomatopoeia. Rendered as 'Naaamu~... hic, hic, hic...' as an interpretive equivalent, not a literal gloss."
+    },
+    {
+      "id": "dialogue_13621",
+      "note": "Source is a classical idiom meaning roughly 'life can be found within death' (finding a way through a desperate situation). Heavily compressed to 'Life in death,' to fit a 42-char two-line budget; the paradox is kept but the idiom's usual phrasing is not."
+    },
+    {
+      "id": "dialogue_13625",
+      "note": "Source puns the Japanese word for 'poet' against a homophone meaning 'a dead person', in Izumi's self-introduction gag. No English homophone exists; substituted an invented portmanteau ('the poet' / 'the dead-et') to keep the poet/death wordplay and rhythm within a 76-char two-line budget. This is a creative equivalence, not a literal translation; flagged for central review. See the glossary proposal."
+    },
+    {
+      "id": "dialogue_13630",
+      "note": "Source's coffin idiom threat rendered directly as 'the coffin' rather than a softer English idiom, to keep Izumi's blunt morbid humor."
+    },
+    {
+      "id": "dialogue_13643",
+      "note": "Source phrase meaning roughly 'in person' / 'directly' has only a 6-character budget (2 source characters). Rendered as 'Direct' (exactly 6 chars); the nuance of 'someone important is coming personally' is compressed to a single adjective."
+    },
+    {
+      "id": "dialogue_13645",
+      "note": "Source idiom for 'a big but useless thing' (literally a tall, hollow, near-useless plant) rendered as the closest English idiom 'Big lummox...' to fit a 14-char budget."
+    },
+    {
+      "id": "dialogue_13648",
+      "note": "Source is the ritual 'thanks for the meal' phrase, used sarcastically here after finishing an opponent. Rendered as 'Well fed.' to keep the eating metaphor without literally translating the set phrase."
+    },
+    {
+      "id": "dialogue_13649",
+      "note": "Source's ending is ambiguous between 'won't heed/obey [the recall order]' and other readings; translated as refusing the recall order (the most likely reading given the defiant tone elsewhere in this resource), flagged since the ISO text gives no furigana to disambiguate."
+    },
+    {
+      "id": "dialogue_13656",
+      "note": "Source names Tsukiomi's signature iaido/quick-draw sword style, romanized as 'Mokuren-shiki Battoujutsu'. Web research confirms 'Mokuren' is an abbreviation of the term already locked in this glossary as 'Jovian Federation'. The technique name could not fit inside the row's 26-char budget alongside the sentence's meaning, so it was dropped and the line compressed to 'Not an assassin's blade.' See the glossary proposal for the full researched technique name."
+    },
+    {
+      "id": "dialogue_13662",
+      "note": "Rendered as Tsukiomi's own first-person self-reproach ('Betrayed my friend, Jupiter, / now only Nergal's dog...'), matching his glossary bio (former Jovian elite, now a Nergal operative, 'formerly blindly devoted'); the source line has no explicit subject, so this reading is an inference from character context rather than a stated pronoun."
+    }
+  ],
+  "validation": {
+    "commands": "Every command sequence verified byte-identical and in the same order as the ISO source for all 80 rows.",
+    "fit": "All 80 rows fit the hard byte budget; several Izumi Maki puns/idioms (13604, 13605, 13617, 13620, 13621, 13625, 13630, 13645) could not be carried over literally and were adapted or compressed - see uncertainties and the glossary proposals file for this batch.",
+    "ascii": "All targets ASCII only; lowercase j/q avoided throughout except where no natural synonym existed (none required in this batch after revision).",
+    "meaning_review": "Independently meaning-reviewed (see review_13583.json): 6 rows had their embedded newline removed per the shout no-newline rule (dialogue_13605, 13610, 13611, 13621, 13624, 13625); dialogue_13662 also corrected (source names two separate betrayals - friend and Jupiter - not a friend named Jupiter) while removing its newline; all 80 rows set to meaning_reviewed."
+  },
+  "rows": [
+    {
+      "id": "dialogue_13583",
+      "target": "<op()><sp(20)>Heh~, you're good~!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13584",
+      "target": "<op()><sp(20)>We've got this easy~?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13585",
+      "target": "<op()><sp(20)>Wow~!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13586",
+      "target": "<op()><sp(20)>Oh~, you're strong!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13587",
+      "target": "<op()><sp(20)>Nice fight~!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13588",
+      "target": "<op()><sp(20)>Ooh~, incoming!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13589",
+      "target": "<op()><sp(20)>Aah~, what now~?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13590",
+      "target": "<op()><sp(20)>Weren't you only watching silently~?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13591",
+      "target": "<op()><sp(20)>Wow~, still here~?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13592",
+      "target": "<op()><sp(20)>Stay gone~!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13593",
+      "target": "<op()><sp(20)>Who's this one~?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13594",
+      "target": "<op()><sp(20)>Whoa~, what's that~?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13595",
+      "target": "<op()><sp(20)>Eek, strong~.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13596",
+      "target": "<op()><sp(20)>Totally looks like a boss~.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13597",
+      "target": "<op()><sp(20)>Sure looks tough~?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13598",
+      "target": "<op()><sp(20)>Got my next fan-comic idea!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13599",
+      "target": "<op()><sp(20)>Still alive~.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13600",
+      "target": "<op()><sp(20)>You all alive~?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13601",
+      "target": "<op()><sp(20)>'Kay~, heading back!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13602",
+      "target": "<op()><sp(20)>Phew~, good work~.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13603",
+      "target": "<op()><sp(20)>Only smash it!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13604",
+      "target": "<op()><sp(20)>Dog faints, so cliche...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13605",
+      "target": "<op()><sp(20)>I see, I see, I see... rice crackers...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13606",
+      "target": "<op()><sp(20)>I'm a woman of misfortune...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13607",
+      "target": "<op()><sp(20)>Heh... heheheheh...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13608",
+      "target": "<op()><sp(20)>I see your doom...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13609",
+      "target": "<op()><sp(20)>Sorry! Over there!!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13610",
+      "target": "<op()><sp(20)>The peak... that's mine for the taking... Heh heh heh...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13611",
+      "target": "<op()><sp(20)>Cutting down heartless machines, yet my heart stays cold inside...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13612",
+      "target": "<op()><sp(20)>Enemy confirmed... pork, kukuku!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13613",
+      "target": "<op()><sp(20)>Leave that to you...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13614",
+      "target": "<op()><sp(20)>This work's never easy...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13615",
+      "target": "<op()><sp(20)>You shouldn't get too excited...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13616",
+      "target": "<op()><sp(20)>What now?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13617",
+      "target": "<op()><sp(20)>Purify, purify.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13618",
+      "target": "<op()><sp(20)>Well, these things happen...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13619",
+      "target": "<op()><sp(20)>Looks bad.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13620",
+      "target": "<op()><sp(20)>Naaamu~... hic, hic, hic...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13621",
+      "target": "<op()><sp(20)>Life in death, the unseen turns clear...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13622",
+      "target": "<op()><sp(20)>Let's go<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13623",
+      "target": "<op()><sp(20)>Heh...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13624",
+      "target": "<op()><sp(20)>If asked what for, I'll say: for myself.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13625",
+      "target": "<op()><sp(20)>Heh... I'm Maki, the poet. Maki the dead-et... kidding heh... heheheh...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13626",
+      "target": "<op()><sp(20)>Heh, heheheh...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13627",
+      "target": "<op()><sp(20)>Don't be down.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13628",
+      "target": "<op()><sp(20)>Want to die?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13629",
+      "target": "<op()><sp(20)>Eager to die?<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13630",
+      "target": "<op()><sp(20)>Fool around and it's the coffin...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13631",
+      "target": "<op()><sp(20)>Focus, unless you wanna die...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13632",
+      "target": "<op()><sp(20)>Not bad.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13633",
+      "target": "<op()><sp(20)>Heheheh...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13634",
+      "target": "<op()><sp(20)>Good arm...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13635",
+      "target": "<op()><sp(20)>80 pts...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13636",
+      "target": "<op()><sp(20)>Fair enough...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13637",
+      "target": "<op()><sp(20)>Wait, enemy signal!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13638",
+      "target": "<op()><sp(20)>Signal up!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13639",
+      "target": "<op()><sp(20)>Here's a death-wisher...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13640",
+      "target": "<op()><sp(20)>Back again...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13641",
+      "target": "<op()><sp(20)>So persistent...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13642",
+      "target": "<op()><sp(20)>Hey, that's...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13643",
+      "target": "<op()><sp(20)>Direct<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13644",
+      "target": "<op()><sp(20)>Uh-oh, big trouble...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13645",
+      "target": "<op()><sp(20)>Big lummox...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13646",
+      "target": "<op()><sp(20)>Big shot here.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13647",
+      "target": "<op()><sp(20)>Heh... too easy...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13648",
+      "target": "<op()><sp(20)>Well fed.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13649",
+      "target": "<op()><sp(20)>...Won't heed recall...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13650",
+      "target": "<op()><sp(20)>Well, that's that...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13651",
+      "target": "<op()><sp(20)>Well done.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13652",
+      "target": "<op()><sp(20)>Righteous power.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13653",
+      "target": "<op()><sp(20)>Headed your way.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13654",
+      "target": "<op()><sp(20)>Leave it to you.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13655",
+      "target": "<op()><sp(20)>Can't reach in time...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13656",
+      "target": "<op()><sp(20)>Not an assassin's blade.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13657",
+      "target": "<op()><sp(20)>My obsession was my downfall.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13658",
+      "target": "<op()><sp(20)>That won't do.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13659",
+      "target": "<op()><sp(20)>Use that power rightly!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13660",
+      "target": "<op()><sp(20)>That won't work.<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13661",
+      "target": "<op()><sp(20)>Hahahaha!<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_13662",
+      "target": "<op()><sp(20)>Betrayed friend and Jupiter, now Nergal's dog...<ab(1000)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

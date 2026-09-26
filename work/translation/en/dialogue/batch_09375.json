@@ -1,0 +1,103 @@
+{
+  "slice_start": 9375,
+  "slice_count": 13,
+  "rows_examined": [
+    [
+      9360,
+      9402
+    ]
+  ],
+  "rows_examined_count": 43,
+  "rows_in_slice": 13,
+  "rows": [
+    {
+      "id": "dialogue_09375",
+      "target": "<on()><sp(20)>If you won't understand,\nthen I'm leaving <book(60)>Gekkostate<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09376",
+      "target": "<on()><sp(20)>No... we should do what we can, right now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09377",
+      "target": "<on()><sp(20)>Captain <color(4)>Amuro<ce()> is right.",
+      "status": "meaning_reviewed",
+      "notes": "Captain = locked rank rendering for taii on Gundam-series pilots (terms_028)."
+    },
+    {
+      "id": "dialogue_09378",
+      "target": "<on()><sp(20)>...Sorry.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09379",
+      "target": "<on()><sp(20)>But... that doesn't solve\nhow we're supposed to get back, does it?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09380",
+      "target": "<on()><sp(20)>No... the path lies there.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09381",
+      "target": "<on()><sp(20)><color(4)>Tiffa<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09382",
+      "target": "<on()><sp(20)>The path we should walk lies there.\nIt's faint, but... I can feel it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09383",
+      "target": "<on()><sp(20)>You mean, rescuing <color(6)>Norb<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09384",
+      "target": "<on()><sp(20)>I don't know, but,\n<color(4)>Tiffa<ce()>'s words\nhave never been wrong before.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09385",
+      "target": "<on()><sp(20)>Averting this world's crisis\nis also our duty.\nPlease, let us help.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09386",
+      "target": "<on()><sp(20)>From here, let's search for a way\nto make contact with the other world.\nWithout giving up.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_09387",
+      "target": "<on()><sp(20)>From here, we head out to rescue <color(6)>Norb<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ],
+  "uncertainties": [
+    {
+      "note": "This is the tail of resource 6280 (Mission 22, 'Stop the Baldora Drive'); row 9388 begins resource 6281, a different scene (Macross DYRL finale, out of this batch's assigned range) and was not translated here."
+    }
+  ],
+  "validation": {
+    "controls": "All source commands (on/sp/ab/color/ce/book/endbook) preserved in exact source order per row; none of these 13 rows close with <ab()>/<off()> in the source, matching the tail of batch_09295.",
+    "fit": "All rows drafted in full; longest visible strings stay well under the 110-character budget.",
+    "translation": "First-pass draft translation, independent meaning review pending; status left as draft per task instructions.",
+    "meaning_review": "Independent review of 13 rows against original ISO; 30 examined 9360-9389. No meaning fixes needed; all rows verified. See review_09375.json."
+  }
+}

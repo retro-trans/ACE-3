@@ -1,0 +1,429 @@
+{
+  "slice_start": 2643,
+  "slice_count": 60,
+  "rows_examined": [
+    [
+      2628,
+      2717
+    ]
+  ],
+  "rows_examined_count": 90,
+  "rows_in_slice": 60,
+  "uncertainties": [
+    {
+      "ids": [
+        "dialogue_02643",
+        "dialogue_02644",
+        "dialogue_02645",
+        "dialogue_02646",
+        "dialogue_02649",
+        "dialogue_02651",
+        "dialogue_02652",
+        "dialogue_02653",
+        "dialogue_02654",
+        "dialogue_02655",
+        "dialogue_02656"
+      ],
+      "note": "Untagged allies/bystanders reacting to and fighting Meio Plato. No speaker identity or gender assigned to any of these lines; 'he'/'that one' refers back to Meio Plato, already named by the preceding batch, not an inferred subject."
+    },
+    {
+      "id": "dialogue_02648",
+      "note": "Source phrase (romaji: jitsu no imouto, 'his own/real sister') is not named in the source. character_names_021.json's Meio Plato entry names a sister ('Linda') in his role description, but since the dialogue itself never names her, no name was inserted (do not supply what the source omits)."
+    },
+    {
+      "ids": [
+        "dialogue_02659",
+        "dialogue_02660",
+        "dialogue_02661",
+        "dialogue_02662",
+        "dialogue_02663",
+        "dialogue_02664",
+        "dialogue_02665"
+      ],
+      "note": "These seven rows read as alternate branch/route outcomes for the Meio Plato encounter (a 'ran out of time' line at 2658, a fresh-enemy-sighted branch at 2659-2660, a lone declaration at 2661, Meio's own remark at 2662, a plea-to-not-fight branch at 2663-2664) resolved by an explicit player choice at 2665 ('Which will you choose?'). Translated each line literally without merging them into one storyline or guessing which branch is 'the' canon outcome; flagging for whoever maps scene branches."
+    },
+    {
+      "id": "dialogue_02666",
+      "note": "Scene break: rows 2666-2702 (still resource 6080, later text-id range 501-653) leave the timed combat lines behind for an untimed <on()> post-mission conference (no <ab>/<off>), matching the pattern already reported for rows 2375-2437 in batch_02375. It covers Char Aznable's Neo Zeon declaration, the New Federation and Meio Plato threads, and the decision to split forces between 'this Earth' and the other world to search for Berkt and watch Shin Dragon."
+    },
+    {
+      "id": "dialogue_02679",
+      "note": "Source title (romaji: shirei, 'the commander') kept as a generic title rather than re-inserting the name Misumaru given two rows earlier at 2668; the referent is inferable from context but not repeated by the source itself."
+    },
+    {
+      "id": "dialogue_02693",
+      "note": "Source phrase (romaji: rei no mujinki, 'that [previously mentioned] drone') has no clear antecedent within this slice's context window; kept vague as 'that drone' rather than guessing which unit is meant."
+    },
+    {
+      "id": "dialogue_02683",
+      "note": "Source says bare 'Boueisensou' (Defensive War) without the 'Daiichiji' (First) prefix that produced the locked 'First Defensive War' at row 1111/opening_history_terms.json. Rendered here as plain 'Defensive War' by analogy with the book(9) Federation/Earth Federation adaptation pattern (book id kept the same, English adapts to the literal source wording). Flagged for orchestrator confirmation; see glossary proposal."
+    }
+  ],
+  "validation": {
+    "meaning_review": "Independent meaning review completed against the live ISO source via tools/dialogue_corpus.py; see review_02643.json.",
+    "fit": "Full meaning kept; no row was shortened to force a fit. Visible text (tags excluded) checked to stay <=110 characters for every row.",
+    "controls": "Every source <...> command reproduced in the same order for every row, including color(4)/color(5)/book(2)/book(4)/book(9)/book(12)/book(18)/book(38)/book(48)/endbook()/ce() spans, which are wrapped around the same English words they wrap in Japanese."
+  },
+  "rows": [
+    {
+      "id": "dialogue_02643",
+      "target": "<sp(20)>Can we even stand a chance against something like that...?<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02644",
+      "target": "<op()><sp(20)>As you are now, he's not an opponent you can't handle.\nHave confidence!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02645",
+      "target": "<op()><sp(20)>He's someone who once fought alongside us.<ab(200)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02646",
+      "target": "<sp(20)>I don't want to fight him...\nBut if that's how it's going to be!<ab(200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02647",
+      "target": "<op()><sp(20)>That's right, no need to hold back.\nThe only way we can speak now is through our blades!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Meio Plato speaking."
+    },
+    {
+      "id": "dialogue_02648",
+      "target": "<op()><sp(20)>Are you going to make your own sister cry again!?<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": "Sister left unnamed; see uncertainties."
+    },
+    {
+      "id": "dialogue_02649",
+      "target": "<sp(20)>If that's how you want it,\nwe'll give it right back to you!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02650",
+      "target": "<op()><sp(20)>That's the spirit!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02651",
+      "target": "<op()><sp(20)>So it's the Blue Hawk, huh!\nCan't ask for a better opponent!<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02652",
+      "target": "<op()><sp(20)>I-I don't really get it, but\nif he's an enemy of the Federation, he's on our side, right!?<ab(300)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02653",
+      "target": "<op()><sp(20)>Idiot!\nIt's a different world!<ab(100)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Refers to the multiverse premise: an enemy of one world's Federation is not necessarily this world's ally."
+    },
+    {
+      "id": "dialogue_02654",
+      "target": "<op()><sp(20)>Quit your bellyaching!<ab(300)>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02655",
+      "target": "<sp(20)>That one's seriously dangerous...\nLet your guard down and you'll get taken out!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02656",
+      "target": "<op()><sp(20)>You certainly live up to your reputation.<ab(500)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02657",
+      "target": "<op()><sp(20)>At this rate, we're running out of time...!<ab(800)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02658",
+      "target": "<op()><sp(20)>Were we too late...!?<ab(1200)><ed()>",
+      "status": "meaning_reviewed",
+      "notes": "Likely refers back to Shirahime; see branch uncertainty note."
+    },
+    {
+      "id": "dialogue_02659",
+      "target": "<on()><sp(20)>Multiple enemy force signatures confirmed.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Branch line; see uncertainties."
+    },
+    {
+      "id": "dialogue_02660",
+      "target": "<on()><sp(20)>Hey! Isn't that... Giganos!?<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Branch line; see uncertainties."
+    },
+    {
+      "id": "dialogue_02661",
+      "target": "<on()><sp(20)>From here...\nmy new journey begins.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Branch line, unidentified first-person speaker; see uncertainties."
+    },
+    {
+      "id": "dialogue_02662",
+      "target": "<on()><sp(20)>Heh, strength worthy of crossing blades with again.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Branch line, presumed Meio Plato; see uncertainties."
+    },
+    {
+      "id": "dialogue_02663",
+      "target": "<on()><sp(20)>Wait!\nThere shouldn't be any need for us to fight!<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Branch line; see uncertainties."
+    },
+    {
+      "id": "dialogue_02664",
+      "target": "<on()><sp(20)>I believe I carry a cause worth fighting for.<ab(500)><off()>",
+      "status": "meaning_reviewed",
+      "notes": "Branch line, presumed Meio Plato; see uncertainties."
+    },
+    {
+      "id": "dialogue_02665",
+      "target": "<sp(20)>Which will you choose?",
+      "status": "meaning_reviewed",
+      "notes": "Player-facing branch prompt; no ab()/ed() in source."
+    },
+    {
+      "id": "dialogue_02666",
+      "target": "<on()><sp(20)>Not only did our expectations miss, but a new enemy too...",
+      "status": "meaning_reviewed",
+      "notes": "Scene break into untimed post-mission conference; see uncertainties."
+    },
+    {
+      "id": "dialogue_02667",
+      "target": "<on()><sp(20)>The Blue Hawk of <book(18)>Giganos<endbook()>, is it.\nThis battle's only going to get harder...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02668",
+      "target": "<on()><sp(20)>It seems like adding insult to injury,\nbut worse news has come in\nfrom Commander <color(4)>Misumaru<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "Misumaru matches meeting_terms_015.json (short_en)."
+    },
+    {
+      "id": "dialogue_02669",
+      "target": "<on()><sp(20)>It seems the famed Red Comet, <color(5)>Char Aznable<ce()>,\nhas declared the formation\nof <book(12)>Neo Zeon<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": "'The Red Comet' matches character_names_021.json nickname; Char Aznable/Neo Zeon match glossary.json."
+    },
+    {
+      "id": "dialogue_02670",
+      "target": "<on()><sp(20)><color(5)>Char<ce()> has!?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02671",
+      "target": "<on()><sp(20)>Who is <color(5)>Char Aznable<ce()>?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02672",
+      "target": "<on()><sp(20)>There was once a war called the One Year War,\nfought between <book(9)>Earth Federation<endbook()> forces\nand the <color(5)>Zeon Army<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": "One Year War not in the core glossary files; see glossary proposal. Earth Federation follows the book(9) precedent from batch_01426. Compressed to fit the 110-char visible guideline without dropping meaning."
+    },
+    {
+      "id": "dialogue_02673",
+      "target": "<on()><sp(20)><color(5)>Char<ce()> was called the Red Comet,\nan ace pilot of the <color(5)>Zeon Army<ce()>,\nand the being most feared by the <book(9)>Federation<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02674",
+      "target": "<on()><sp(20)>Is he trying to start that war all over again...!",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02675",
+      "target": "<on()><sp(20)><book(12)>Neo Zeon<endbook()> has only issued a declaration of uprising\nand doesn't seem to have taken any action yet.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02676",
+      "target": "<on()><sp(20)>What's the <book(9)>Federation<endbook()>'s response?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02677",
+      "target": "<on()><sp(20)>They say they're convening a meeting to consider a response.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02678",
+      "target": "<on()><sp(20)>It's dangerous if they don't act right away.\n<color(5)>Char<ce()> isn't a man\nwho acts without a plan.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02679",
+      "target": "<on()><sp(20)>The commander says he'll keep pressing the danger\nup the chain, but...\nwho knows when they'll actually act.",
+      "status": "meaning_reviewed",
+      "notes": "See uncertainties re: unnamed 'commander'."
+    },
+    {
+      "id": "dialogue_02680",
+      "target": "<on()><sp(20)>Damn, so all we can do is stay a step behind...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02681",
+      "target": "<on()><sp(20)>Also, regarding <color(5)>Meio Plato<ce()>...",
+      "status": "meaning_reviewed",
+      "notes": "Full name matches character_names_021.json."
+    },
+    {
+      "id": "dialogue_02682",
+      "target": "<on()><sp(20)>That man from earlier, huh.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02683",
+      "target": "<on()><sp(20)>Missing since the <book(4)>First Defensive War<endbook()> two years ago,\neven <book(9)>Federation<endbook()> forces\nhad no lead on him.",
+      "status": "meaning_reviewed",
+      "notes": "Meaning review: restored 'First Defensive War' - book(4) is the same book id already locked to that name at dialogue_01111 (batch_01073), confirming the same war despite the source dropping \u7b2c\u4e00\u6b21 here."
+    },
+    {
+      "id": "dialogue_02684",
+      "target": "<on()><sp(20)>He too was called the Blue Hawk of <book(18)>Giganos<endbook()>,\na man who was an ace of the <book(18)>Giganos<endbook()> military.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02685",
+      "target": "<on()><sp(20)><color(5)>Meio<ce()> and <color(5)>Char<ce()>...\nIf both of them have turned against us,\nthis fight won't be simple.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02686",
+      "target": "<on()><sp(20)>Furthermore, there's the mysterious enemy force\nthat ran joint operations with the <book(18)>Giganos<endbook()> military...",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02687",
+      "target": "<on()><sp(20)><book(9)>Federation<endbook()> headquarters is also investigating their true identity.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02688",
+      "target": "<on()><sp(20)>Feels like one thing after another lately.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02689",
+      "target": "<on()><sp(20)>Yeah. We have to track down <color(5)>Berkt<ce()>'s whereabouts\nwhile also fighting them\nat the same time.",
+      "status": "meaning_reviewed",
+      "notes": "Berkt matches character_names_021.json/glossary.json."
+    },
+    {
+      "id": "dialogue_02690",
+      "target": "<on()><sp(20)>As for where <color(5)>Berkt<ce()> is headed,\nI think we need to reconsider it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02691",
+      "target": "<on()><sp(20)>Since his goal is <book(2)>Baldora Charge<endbook()>,\nhe's likely to appear wherever\na power source can be obtained.",
+      "status": "meaning_reviewed",
+      "notes": "'Baldora Charge' kept distinct from the provisional 'Baldora Drive' term (different book id/word); flagged for orchestrator to confirm they are the same or different concepts."
+    },
+    {
+      "id": "dialogue_02692",
+      "target": "<on()><sp(20)>But we can't predict which side\nhe'll show up on.\nWe'll just have to keep fighting while we chase him.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02693",
+      "target": "<on()><sp(20)>Since that drone has been spotted\nin this world too, I think there's\na high chance he'll appear here as well.",
+      "status": "meaning_reviewed",
+      "notes": "'That drone' antecedent unclear; see uncertainties."
+    },
+    {
+      "id": "dialogue_02694",
+      "target": "<on()><sp(20)>The new faction's movements\nare picking up too,\nso we can't take our eyes off this.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02695",
+      "target": "<on()><sp(20)>On the other side too, <book(48)>Shin Dragon<endbook()>'s\nmovements are a concern.",
+      "status": "meaning_reviewed",
+      "notes": "Shin Dragon matches mission_terms_019.json inherited term and batch_02375."
+    },
+    {
+      "id": "dialogue_02696",
+      "target": "<on()><sp(20)><book(48)>Shin Dragon<endbook()> itself is a threat,\nand there's also a good chance\n<color(5)>Berkt<ce()> will appear again, targeting it.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02697",
+      "target": "<on()><sp(20)>So... which side should we go to?",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02698",
+      "target": "<on()><sp(20)>There's no guarantee <color(5)>Berkt<ce()> will show up,\nbut we also can't leave things as they are.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02699",
+      "target": "<on()><sp(20)>Let's stay on this Earth,\nkeep watch on the new faction,\nand search for <color(5)>Berkt<ce()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02700",
+      "target": "<on()><sp(20)>It's clear that <color(5)>Berkt<ce()> is after <book(48)>Shin Dragon<endbook()>.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "dialogue_02701",
+      "target": "<on()><sp(20)>And we can't just leave the <book(38)>New Federation<endbook()> unchecked either.",
+      "status": "meaning_reviewed",
+      "notes": "New Federation matches book(38) precedent (batch_01346/01975)."
+    },
+    {
+      "id": "dialogue_02702",
+      "target": "<on()><sp(20)>I'm worried about the situation here...\nbut let's head back for now.",
+      "status": "meaning_reviewed",
+      "notes": ""
+    }
+  ]
+}

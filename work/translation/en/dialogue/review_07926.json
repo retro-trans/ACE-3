@@ -1,0 +1,49 @@
+{
+  "reviewer": "independent_translate_dialogue_81_agent",
+  "slice_start": 7926,
+  "slice_count": 36,
+  "rows_examined": [{"start": 7911, "end": 7976}],
+  "rows_examined_count": 66,
+  "rows_in_slice": 36,
+  "review_status": "meaning_reviewed",
+  "meaning_fixes": [
+    {
+      "id": "dialogue_07933",
+      "before": "Out of my way, you nuisance!",
+      "after": "Vanish, you nuisance!",
+      "reason": "Source kieru ga ii ('had better disappear') is a kill/death threat, matching the surrounding lines (dialogue_07932 'how about you die now'), not a request to step aside; 'out of my way' understated it into a shove-past line."
+    },
+    {
+      "id": "dialogue_07944",
+      "before": "Dr. Saotome once did research\\ntogether with Adroc Thurston,\\nor so I recall.",
+      "after": "Dr. Saotome once did research\\ntogether with Adroc Thurston,\\nor so I'd guess.",
+      "reason": "Source hazu-da expresses supposition/inference, not a memory claim; 'or so I recall' wrongly implies the speaker directly remembers or witnessed the research. Adroc Thurston (locked) left untouched."
+    }
+  ],
+  "checked_decisions": [
+    {"rows": [7926, 7927, 7928, 7929, 7930, 7931], "finding": "Tower evacuation and operation-timer briefing lines checked; no meaning drift."},
+    {"rows": [7932, 7934, 7935, 7936, 7937, 7938], "finding": "Enemy taunt and Saotome-voice-in-Shin-Dragon lines to Go checked; core/key claim and 'don't forget' warning preserved."},
+    {"rows": [7939, 7940], "finding": "Enemy main-force briefing checked, no drift."},
+    {"rows": [7941, 7942, 7943, 7946], "finding": "Saotome's motive discussion: 'he' correctly refers to Saotome, a named character with confirmed gender in character_names_021.json/glossary.json, not an invented gender. Limit of Questions (locked) and Getter Rays (corpus form) confirmed unchanged. Row 7941's missing closing command matches an existing corpus precedent (dialogue_01102) and was left as-is."},
+    {"rows": [7945], "finding": "'his actions' (kare, referring to Saotome, named) correctly kept as 'he'."},
+    {"rows": [7947, 7948, 7949, 7950], "finding": "Berkt's movements and Shin Dragon Getter-Ray accumulation lines checked; 'they' for the enemy force in 7948/7950 matches source's unmarked plural subject, no invented identity."},
+    {"rows": [7951, 7952, 7953], "finding": "Tresor Research Institute / Nirvash spec-up / Gekko return lines checked against glossary (Tresor Research Institute, Nirvash, Gekko all confirmed spellings); no drift."},
+    {"rows": [7957, 7958, 7959, 7960, 7961], "finding": "Renton search, New Federation capture-risk, and Holland/Berkt-curiosity lines checked; 'him' for Renton (7958, named/confirmed male) correctly kept, no invented gender."}
+  ],
+  "uncertainties": [
+    {
+      "id": "dialogue_07941",
+      "issue": "Row ends with no closing command in source (open dangling line, no <ed()>/<off()>), matching prior corpus precedent (e.g. dialogue_01102); left as-is, not treated as an error."
+    },
+    {
+      "ids": ["dialogue_07954", "dialogue_07955", "dialogue_07956"],
+      "issue": "Speaker of 07955/07956 not named in source (very likely Eureka, distressed that Renton left the Gekko, but not confirmed within this slice). 07955 is first-person so needs no pronoun. 07956 ('he's been worried about') uses 'he' for Renton, a named character with researched/confirmed gender in the glossary, which is a supported fact rather than an inferred or invented gender -- kept, but flagging since the speaker herself is still unidentified."
+    }
+  ],
+  "validation": {
+    "controls": "Every <...> command in each target re-verified against a fresh tools/dialogue_corpus.py slice(7926,36,--context 15) with a throwaway diff script (on/off, color/ce, book/endbook all in source order, none added/removed/reordered); script not committed.",
+    "format": "ASCII-only (fullwidth percent excepted) and no lowercase j/q outside locked names, re-checked by the same script; no literal CR/newline-character violations.",
+    "fit": "Visible text (tags stripped) <= 110 chars in every row; longest is 93 chars (dialogue_07951), unchanged from the draft's own count.",
+    "runtime": "Runtime scene selection, font coverage, and visual fit are not established by this meaning review."
+  }
+}

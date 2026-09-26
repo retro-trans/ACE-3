@@ -1,0 +1,30 @@
+{
+ "batch": "batch_scene_2002410.json",
+ "reviewer": "review_scene_2002410",
+ "rows_in_scene": 62,
+ "rows_examined_count": 65,
+ "status": "meaning_reviewed",
+ "changes": [
+  "343 relaid to two lines of under 40 characters; meaning unchanged (fire control is the subject of cannot keep up)",
+  "337 Boy! -> Hey, boy! (bare Boy! reads as an interjection)",
+  "361 Wh-what is that -> Wh-what the (source names no object)",
+  "362 It is coming -> C-coming this way (source has no subject)",
+  "344 My school -> The school (possessive not in the source)"
+ ],
+ "uncertainties": [
+  "Speakers are inferred from text alone; no video was reviewed",
+  "321 is most likely Faye about the boy; kid keeps the referent open",
+  "335 can be read as stop the machine or stop it; bare Stop! covers both",
+  "341-342 are read as the boy complaining to Faye about the rough ride",
+  "353/354 are two stored takes of one reply differing only in roughness; same English",
+  "359 looks like a placeholder row and may never display",
+  "360-362 sit oddly after 358 and may be alternate or out-of-sequence lines",
+  "304 turns a noun phrase into a first-person sentence; the narrator is speaking of himself",
+  "Faye Rochenante remains a provisional glossary spelling"
+ ],
+ "preserved": [
+  "All commands identical and in source order in 62/62 rows",
+  "Line-break counts match the source except 343, which was relaid for width"
+ ],
+ "limits": "Meaning review only; no runtime display-fit or audio timing approval."
+}

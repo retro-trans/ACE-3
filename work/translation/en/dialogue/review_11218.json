@@ -1,0 +1,23 @@
+{
+  "reviewer":"independent_meaning_review_mission28_stop_axis_agent",
+  "slice_start":11218,
+  "slice_count":21,
+  "rows_examined":[{"start":11203,"end":11253}],
+  "rows_examined_count":51,
+  "rows_in_slice":21,
+  "review_status":"meaning_reviewed",
+  "meaning_fixes":[],
+  "checked_decisions":[
+    {"rows":[11228],"finding":"'Geara Doga' (ギラ・ドーガ) confirmed against character_names_021.json ('Geara Doga squad leader', Rezin Schnyder's role description); no conflicting spelling found elsewhere in the corpus."},
+    {"rows":[11229,11230,11231,11232,11233,11234,11235,11236],"finding":"Final Char/Amuro ideological exchange translated literally; 'condemn itself with its own hands' (自分の手で自分を裁いて) and 'this warmth' (この温かさ) carry no added interpretation beyond the source's own wording."},
+    {"rows":[11237],"finding":"'push it away with the Gundam' for ガンダムで押し出してやる correctly attributes the closing action to the (unnamed, but contextually Amuro's) Gundam; no subject invented beyond what the sentence itself states."}
+  ],
+  "uncertainties":[],
+  "validation":{
+    "controls":"All <on()>/<sp(20)>/<ab(n)>/<off()> command sequences checked programmatically against the ISO source for exact match and order across all 21 rows; no mismatches.",
+    "format":"No raw carriage returns; \\n line-break counts match source for every row.",
+    "fit":"Visible text (tags stripped) <=110 characters for all 21 rows. No sentence-final content dropped.",
+    "ascii":"ASCII-only confirmed for all 21 rows (no fullwidth characters present in this slice).",
+    "runtime":"Runtime scene selection, font coverage and visual fit are not established by this meaning review."
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "version": "0.1.12",
+  "source_image": "screenshots\\opening-history-original.png",
+  "source_image_sha256": "551cff497ee962e2146cf3db23ccae43a683628d684930be48be40b804474117",
+  "image_size": [
+    2560,
+    1323
+  ],
+  "observed_heading_region": [
+    730,
+    125,
+    360,
+    65
+  ],
+  "bounds_status": "Approximate source screenshot bounds; new crawl rendering requires runtime check.",
+  "resource_id": 4010,
+  "container": "STUF/BND resource 3",
+  "source_table_offset": 3374368,
+  "slot_count": 200,
+  "source_text_rows": 39,
+  "font_measurement_bundle": 1200000,
+  "english_layout": {
+    "source_rows": 39,
+    "english_lines": 68,
+    "last_text_slot": 102,
+    "width_limit": 430,
+    "source_size": 2304,
+    "new_size": 4320,
+    "groups": [
+      {
+        "id": "year_058",
+        "start_slot": 10,
+        "lines": [
+          "Unified Calendar 058"
+        ],
+        "widths": [
+          240
+        ]
+      },
+      {
+        "id": "first_defense_war",
+        "start_slot": 12,
+        "lines": [
+          "The great war involving the Zentradi",
+          "fleet, the Jovian Federation, and",
+          "other invading forces from outer",
+          "space comes to an end. It will later",
+          "become known as the First Defense",
+          "War."
+        ],
+        "widths": [
+          416,
+          366,
+          373,
+          398,
+          394,
+          56
+        ]
+      },
+      {
+        "id": "zentradi_peace",
+        "start_slot": 19,
+        "lines": [
+          "Earth concludes a peace treaty with",
+          "the Zentradi."
+        ],
+        "widths": [
+          408,
+          153
+        ]
+      },
+      {
+        "id": "hot_blooded_coup",
+        "start_slot": 22,
+        "lines": [
+          "The Hot-Blooded Coup breaks out",
+          "within the Jovian Federation. Its",
+          "former leader, Vice Admiral",
+          "Kusakabe, goes missing, and an",
+          "administration led by younger",
+          "advocates of peace takes over."
+        ],
+        "widths": [
+          373,
+          378,
+          316,
+          347,
+          344,
+          346
+        ]
+      },
+      {
+        "id": "earth_federation_founded",
+        "start_slot": 29,
+        "lines": [
+          "This leads to peace between Earth",
+          "and the Jovian Federation. Together",
+          "with the Zentradi, the three parties",
+          "establish a joint government: the",
+          "Earth Federation."
+        ],
+        "widths": [
+          384,
+          416,
+          402,
+          369,
+          206
+        ]
+      },
+      {
+        "id": "naturalization",
+        "start_slot": 35,
+        "lines": [
+          "A naturalization program for the",
+          "Zentradi begins, along with",
+          "micronization for those who request",
+          "it."
+        ],
+        "widths": [
+          375,
+          305,
+          412,
+          31
+        ]
+      },
+      {
+        "id": "hisago_plan",
+        "start_slot": 40,
+        "lines": [
+          "Work begins on the Hisago Plan, a",
+          "transport-route development project",
+          "to build a boson jump network",
+          "throughout the solar system."
+        ],
+        "widths": [
+          378,
+          404,
+          335,
+          330
+        ]
+      },
+      {
+        "id": "economic_sanctions",
+        "start_slot": 45,
+        "lines": [
+          "The Earth Federation imposes",
+          "economic sanctions on",
+          "anti-Federation colonies and the",
+          "former Giganos Empire."
+        ],
+        "widths": [
+          340,
+          254,
+          369,
+          272
+        ]
+      },
+      {
+        "id": "year_059",
+        "start_slot": 52,
+        "lines": [
+          "Unified Calendar 059"
+        ],
+        "widths": [
+          239
+        ]
+      },
+      {
+        "id": "megaroad_and_macross",
+        "start_slot": 54,
+        "lines": [
+          "Megaroad-01, the first",
+          "super-long-range emigration fleet,",
+          "departs. Macross City is established,",
+          "with the decommissioned Macross",
+          "preserved there as a symbol of peace."
+        ],
+        "widths": [
+          248,
+          380,
+          416,
+          381,
+          427
+        ]
+      },
+      {
+        "id": "sweetwater",
+        "start_slot": 60,
+        "lines": [
+          "The Earth Federation constructs",
+          "Sweetwater to accommodate refugees",
+          "displaced by the First Defense War."
+        ],
+        "widths": [
+          370,
+          419,
+          408
+        ]
+      },
+      {
+        "id": "zentradi_riots",
+        "start_slot": 64,
+        "lines": [
+          "Inadequate support for resettlement",
+          "on Earth leads to riots among",
+          "Zentradi immigrants."
+        ],
+        "widths": [
+          408,
+          335,
+          244
+        ]
+      },
+      {
+        "id": "londo_bell",
+        "start_slot": 68,
+        "lines": [
+          "After dealing with the aftermath of",
+          "the war, the Earth Federation begins",
+          "reorganizing its military. Londo Bell",
+          "is established as an auxiliary force",
+          "to maintain security in the Earth",
+          "Sphere."
+        ],
+        "widths": [
+          406,
+          414,
+          419,
+          400,
+          380,
+          87
+        ]
+      },
+      {
+        "id": "project_super_nova",
+        "start_slot": 75,
+        "lines": [
+          "Project Super Nova begins, with the",
+          "aim of selecting the next-generation",
+          "Valkyrie."
+        ],
+        "widths": [
+          396,
+          410,
+          108
+        ]
+      },
+      {
+        "id": "year_060",
+        "start_slot": 81,
+        "lines": [
+          "Unified Calendar 060"
+        ],
+        "widths": [
+          239
+        ]
+      },
+      {
+        "id": "nadesico_b",
+        "start_slot": 83,
+        "lines": [
+          "The battleship Nadesico B enters",
+          "service."
+        ],
+        "widths": [
+          371,
+          91
+        ]
+      },
+      {
+        "id": "unknown_life_forms",
+        "start_slot": 86,
+        "lines": [
+          "A small meteorite falls to Earth along",
+          "an untraced trajectory. Unidentified",
+          "life forms emerge from it, and their",
+          "attacks cause mounting damage",
+          "across many regions."
+        ],
+        "widths": [
+          425,
+          420,
+          405,
+          355,
+          242
+        ]
+      },
+      {
+        "id": "investigation",
+        "start_slot": 92,
+        "lines": [
+          "The Earth Federation orders its",
+          "military to respond to the crisis.",
+          "Londo Bell forms a special",
+          "investigation team."
+        ],
+        "widths": [
+          362,
+          378,
+          297,
+          222
+        ]
+      },
+      {
+        "id": "january_060",
+        "start_slot": 99,
+        "lines": [
+          "January of the Same Year"
+        ],
+        "widths": [
+          293
+        ]
+      },
+      {
+        "id": "saint_cruz",
+        "start_slot": 101,
+        "lines": [
+          "One of the largest meteorites ever",
+          "recorded strikes Saint Cruz."
+        ],
+        "widths": [
+          384,
+          322
+        ]
+      }
+    ],
+    "resource_id": 4010,
+    "kind": "opening_history",
+    "old_resource_size": 3377616,
+    "new_resource_size": 3379600,
+    "old_stuf_offset": 3374320,
+    "source_resource_sha256": "4348deab8df2b2085d622697a4dad22991abe4648580349d26dd4027353543a8",
+    "runtime_verified": false
+  },
+  "runtime_verified": false
+}

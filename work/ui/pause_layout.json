@@ -1,0 +1,30 @@
+{
+  "version": "0.1.8",
+  "image": "screenshots/09_pause_menu.png",
+  "sha256": "c599e07deb62f4ed2ed1a63659315eccc85c842b92fb2359ce6b374d8c09f690",
+  "image_size": [
+    2560,
+    1323
+  ],
+  "viewport": [
+    398,
+    0,
+    1765,
+    1323
+  ],
+  "title": [
+    455,
+    33,
+    800,
+    68
+  ],
+  "menu_rows": [
+    504,
+    188,
+    559,
+    563
+  ],
+  "menu_label_width_font_units": 174,
+  "footer_width_font_units": 600,
+  "note": "Measured from user capture at 2560x1323; bounds and width budgets are provisional until runtime capture."
+}
