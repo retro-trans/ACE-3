@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-09-26
 
+- Remove the Source history reset section from published release notes and its obsolete guide reference. Release assets are unchanged.
+
 - Remove the Method section from the README at the user's request. Documentation only.
 
 - Make the README version-independent, link release-specific changes and limitations to Releases, and remove the What is translated section. Use version placeholders in editing examples. Documentation only.

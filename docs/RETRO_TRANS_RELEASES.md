@@ -17,7 +17,7 @@ Python 3.8 or later and the current Windows Retro Trans checkout are required fo
 
 Prepare a manifest following the upstream standard, using the published 0.1.42 manifest as an example. Specify
 the exact expected source, patch and target hashes/sizes from the build. `source_commit` identifies the translation
-source snapshot. For 0.1.42 it points to the cleaned initial snapshot; see the release's source-history notice.
+source snapshot. For 0.1.42 it points to the cleaned initial snapshot.
 
 Keep a private `work/local/retro-trans-sources.json` mapping each source SHA-256 to an ISO path. Paths may be
 absolute or relative to that JSON file. Never commit this file or any original/patched game image. Example shape:
