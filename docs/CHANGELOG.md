@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-09-26
 
+- Remove the Method section from the README at the user's request. Documentation only.
+
 - Make the README version-independent, link release-specific changes and limitations to Releases, and remove the What is translated section. Use version placeholders in editing examples. Documentation only.
 
 - Record the standing requirement in `AGENTS.md`: every future release must support Retro Trans Tools, pass patch and package validation before publishing, and have verified catalog registration and automatic routing before completion.

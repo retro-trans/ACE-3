@@ -86,13 +86,6 @@ Start with [the tool guide](docs/TOOLS.md) and [contribution guide](CONTRIBUTING
 take an ISO path explicitly. Advanced builders have version-specific inputs: read their requirements before running
 them. Local builds go under `work/output/`; original data and generated review pages stay outside Git.
 
-## Method
-
-Translation sources retain context-review records and open uncertainties. Follow the glossary and inspect adjacent
-lines before changing dialogue. The generic editor preserves table extents; advanced builders can relocate whole
-tables when their particular container supports it. Structural verification does not replace proofreading or checking
-the result in game. The comparison catalog is a snapshot, not a claim that every row is approved or active.
-
 ## Credits
 
 | Role | Contributors |
