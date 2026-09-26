@@ -33,7 +33,7 @@ Use a copy of your game image and inspect the dry run first. Generated files and
 | Encyclopedia and comm windows | `build_encyclopedia_paging_patch.py`, `build_communication_fit_patch.py` |
 | Packed scenes and images | `packed_resource.py`, `build_crawl_inplace_patch.py`, `ui_textures.py`, `meeting_captions.py` |
 | Movies | `pss_inspect.py`, `pss_video.py`, `pss_remux.py`, `movie_subtitles.py` |
-| Release packaging | `package_release_042.py` |
+| Release packaging | `package_release_042.py`, `package_retro_trans.py` ([Retro Trans metadata guide](RETRO_TRANS_RELEASES.md)) |
 
 Some advanced modules use `pycdlib` or Pillow; movie processing also needs external media tools. Install only the
 dependencies required by the module you use. `test_*.py` beside the modules includes both synthetic checks and

@@ -2,6 +2,9 @@
 
 ## Unreleased — 2026-09-26
 
+- Make the cleaned ACE-3 repository public and add Retro Trans automatic-patching metadata to release 0.1.42. Keep all four published patches unchanged; distinguish Original prologue and English prologue routes for original discs and matching 0.1.35 upgrades. Add a reusable dry-run-first metadata packager and user/maintainer instructions. No game version or translation changes.
+- Decode-verify all four patches with Retro Trans's bundled xdelta engine against the published ISO sizes and SHA-256 hashes. Check its catalog routing for both original-disc choices, matching 0.1.35 upgrades, current 0.1.42 discs and unknown-disc rejection. This verifies patch compatibility; in-game coverage is unchanged.
+
 - Validate cleanup with 13 public-workflow tests and 16 targeted advanced-builder tests. Check the public snapshot for valid Python/JSON, working local documentation links, omitted binary artifacts and common credential patterns. Keep a verified private backup of the prior source history and release assets.
 
 - Prepare a public contributor source snapshot and reset Git history to a single initial commit. Keep translation sources, glossary and review notes, editing tools, format-specific builders/tests and useful layout metadata. Move 283 generated files, extracted images, crash dumps, logs, one-off scripts and superseded build journals out of the repository into a private local backup. No game release or translation wording changes.

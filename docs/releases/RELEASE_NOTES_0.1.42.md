@@ -12,6 +12,17 @@ English fan translation of *Another Century's Episode 3: The Final* (PS2, SLPS-2
 - Complete the memory-card operation warnings and fit long option labels.
 - Rename labels to **Purchasable**, **Combo scene**, **Comm messages**, **Camera Movement** and **Situation Report**.
 
+## Automatic patching with Retro Trans
+
+Open [Retro Trans](https://github.com/retro-trans/retro-trans-tools/releases/latest), click **Refresh catalog**,
+and use **Automatic** to select your original Japanese ISO or matching published 0.1.35 ISO. For an original
+disc, choose **Original prologue** or **English prologue** in the **Binary** list, leave **Target** on **Latest**,
+and choose a new output filename. Both editions translate the game text; English prologue also translates the
+opening movie subtitles. The tool selects, downloads and verifies the appropriate patch.
+
+The 2026-09-26 packaging update adds `BUILD-MANIFEST.json`, `VALIDATION.json` and `SHA256SUMS.txt`.
+All four existing xdelta files and their resulting game images are unchanged.
+
 ## Choose one patch
 
 | File | Required source | Result |

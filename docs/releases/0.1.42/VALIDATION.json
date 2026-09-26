@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "manifest_sha256": "0abeb2fd02bd54f66c599654368966e1b0437ce09bad6702f5728b68bd620e70",
+  "patches": [
+    {
+      "patch": "ACE3-English-0.1.42.xdelta",
+      "roundtrip_verified": true,
+      "target_sha256": "ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d"
+    },
+    {
+      "patch": "ACE3-English-0.1.42-movie.xdelta",
+      "roundtrip_verified": true,
+      "target_sha256": "c72752b32b5982b63ef8c5db5f171090469e3aad94999245cace2cb760565353"
+    },
+    {
+      "patch": "ACE3-English-0.1.35-to-0.1.42.xdelta",
+      "roundtrip_verified": true,
+      "target_sha256": "ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d"
+    },
+    {
+      "patch": "ACE3-English-0.1.35-to-0.1.42-movie.xdelta",
+      "roundtrip_verified": true,
+      "target_sha256": "c72752b32b5982b63ef8c5db5f171090469e3aad94999245cace2cb760565353"
+    }
+  ]
+}

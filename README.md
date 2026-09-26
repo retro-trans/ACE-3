@@ -6,6 +6,19 @@ glossaries, layout metadata and tools; disc images, extracted artwork and memory
 
 ## Applying the patch
 
+Use [Retro Trans](https://github.com/retro-trans/retro-trans-tools/releases/latest) for automatic patching:
+
+1. Open **Automatic**, click **Refresh catalog**, and browse to your original Japanese ISO or published 0.1.35 ISO.
+2. For the original ISO, choose **Original prologue** or **English prologue** from the **Binary** list.
+   Both translate the game text; English prologue also translates the opening movie subtitles.
+3. Leave **Target** on **Latest**, choose a new output filename, and apply the patch. Retro Trans downloads the
+   matching patch and verifies the resulting disc. A 0.1.35 ISO automatically matches its own edition.
+
+Release 0.1.42 includes the standard manifest, validation report and checksums used by Retro Trans.
+Boot the result fresh and load a normal memory-card save; older save states retain old text in memory.
+
+For manual patching:
+
 1. Dump your own Japanese disc to an ISO. Full patches apply to the original image:
    - `Another Century's Episode 3 - The Final (Japan).iso`, 4,447,076,352 bytes
    - SHA-256 `5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705`
