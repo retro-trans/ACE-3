@@ -72,3 +72,9 @@ Both editions are **4,455,411,712 bytes**. Full and update patches produce ident
 | --- | --- |
 | Text | `ad9dffa95cf8b8144c13d25c014d73992574c6f50ce4518661ac9c2be486557d` |
 | English prologue | `c72752b32b5982b63ef8c5db5f171090469e3aad94999245cace2cb760565353` |
+
+## Contribute
+
+Bug reports, proofreading and playtesting are welcome:
+
+**[discord.gg/MssepShjmB](https://discord.gg/MssepShjmB)**
