@@ -15,8 +15,9 @@ def main():
     parser.add_argument('--version', required=True)
     parser.add_argument('--catalog', type=Path, required=True)
     parser.add_argument('--manifest', type=Path)
+    parser.add_argument('--retro-trans-tools', type=Path, default=ROOT/'work/local/retro-trans-tools')
     args = parser.parse_args()
-    sys.path.insert(0, str(ROOT/'work/local/retro-trans-tools'))
+    sys.path.insert(0, str(args.retro_trans_tools))
     from retro_trans.catalog import Catalog, assert_immutable, matches
     data = json.loads(args.catalog.read_text(encoding='utf-8'))
     previous = Catalog(data)
@@ -38,16 +39,16 @@ def main():
     require(len({(n.size, n.hashes['sha256']) for n in originals}) == 1, 'Edition choices disagree on original disc')
     routes = []
     for node in nodes:
-        if node.version not in ('original', '0.1.35', '0.1.42', args.version):
-            continue
         plan = catalog.plan(node)
         require(plan.target.version == args.version and plan.latest_reachable, 'Latest does not route to release')
         require(plan.target.edition == node.edition, 'Edition changed during upgrade')
-        expected = 0 if node.version == args.version else 2 if node.version == '0.1.35' else 1
-        require(len(plan.edges) == expected, 'Unexpected route length')
+        require((len(plan.edges) == 0) == (node.version == args.version), 'Invalid no-op route')
+        if node.version == 'original':
+            require(len(plan.edges) == 1, 'Original disc should use the direct full patch')
         routes.append(dict(edition=node.edition, source=node.version, target=plan.target.version,
                            patches=[edge.asset.name for edge in plan.edges]))
-    require(len(routes) == 4, 'Incomplete source coverage')
+    require(len(routes) == len(nodes) and {'original', args.version} <= {r['source'] for r in routes},
+            'Incomplete source coverage')
     require(not any(matches(n, {'sha256': '0'*64, 'sha1': '0'*40}, originals[0].size) for n in nodes), 'Unknown disc accepted')
     print(json.dumps(dict(version=args.version, candidate=bool(args.manifest), verified=True,
                           unknown_disc_rejected=True, routes=routes), indent=2))

@@ -1,0 +1,46 @@
+{
+  "movie": "MOVIE001",
+  "review": {
+    "status": "lyric_draft_with_uncertainties",
+    "method": "Compared local Whisper large-v3-turbo, large-v3 full-run and four large-v3 crop transcriptions; no external lyrics consulted. This partial draft is not human-audio verified.",
+    "source": "work/build/movie_previews_055/MOVIE001.wav",
+    "turbo_segments_examined": 22,
+    "large_segments_examined": 10,
+    "crop_segments_examined": 7,
+    "caption_count": 13,
+    "timing": "Approximate Whisper word boundaries; singing and instrumental tails require audiovisual timing review.",
+    "excluded_hallucinations": ["Turbo at 6.6, 43.42 and 164.36 seconds", "Large-v3 repeated prose at 61.66-74.98 seconds", "Large-v3 crops 58-70, 81-94 and 99-105 seconds produce thanks-for-watching hallucinations"],
+    "unresolved_spans": [
+      {"start": 60.0, "end": 69.9, "reason": "Opening sung words are not reliably recovered. Turbo fragments do not establish a credible complete phrase; large-v3 hallucinates prose."},
+      {"start": 83.14, "end": 86.56, "reason": "Both models disagree on the predicate after itoshisa wa; do not guess the missing lyric."},
+      {"start": 90.0, "end": 93.94, "reason": "Both models produce an implausible fleeting pot reading. The noun is unresolved."},
+      {"start": 100.08, "end": 103.98, "reason": "Models disagree between kogarete and kogasete; this changes the lyric's meaning."},
+      {"start": 122.24, "end": 125.96, "reason": "Models disagree substantially on the phrase after the two heartbeats line."},
+      {"start": 125.96, "end": 127.54, "reason": "Full large-v3 reads this world; turbo and crop read this wish. The noun is not settled, so neither is displayed."},
+      {"start": 134.36, "end": 136.82, "reason": "The word watashi is clear but its following particle differs: turbo no, crop ni, full large-v3 omits it. The intervening phrase remains unresolved."}
+    ],
+    "uncertainties": [
+      "70-75 seconds is supported only by turbo because large-v3 hallucinated through this passage.",
+      "The vow phrase agrees between models but still requires listening confirmation.",
+      "The crimson-sky and strength-to-believe readings use large-v3, which is coherent here where turbo is not.",
+      "The crop did not resolve world versus wish at 126 seconds; the revised cue starts with the shared ending phrase and leaves the subject unspecified.",
+      "The final crop coherently reads mirai tomosu kara, supported in part by both earlier runs. Added this phrase as a draft, while omitting the unresolved watashi particle immediately before it.",
+      "Several captions are fragments because adjoining words remain unresolved. This file must not be presented as a complete or final song translation."
+    ]
+  },
+  "subtitles": [
+    {"start": 69.9, "end": 75.24, "romaji": "Nan no tame ni yowasa kakushite", "text": "Why do you hide your weakness?", "note": "Turbo-only coherent phrase; requires listening confirmation."},
+    {"start": 76.7, "end": 82.16, "romaji": "Dare no tame ni namida nagasu no", "text": "For whom do you shed your tears?"},
+    {"start": 86.56, "end": 90.0, "romaji": "Anata o omou chikai", "text": "A vow to keep you in my thoughts", "note": "Both models identify chikai; verify the sung noun by listening."},
+    {"start": 93.94, "end": 96.48, "romaji": "Watashi o yurashiteku", "text": "It shakes me", "note": "The preceding subject is unresolved and omitted from this partial draft."},
+    {"start": 96.88, "end": 100.08, "romaji": "Setsunasa yori fukaku", "text": "Deeper than heartache"},
+    {"start": 103.98, "end": 107.02, "romaji": "Afuredasu negai o", "text": "These overflowing wishes,"},
+    {"start": 107.02, "end": 110.52, "romaji": "Kono mune ni sasageru no", "text": "I offer them up to my heart."},
+    {"start": 111.8, "end": 115.64, "romaji": "Shinku no sora, moetatsu you ni", "text": "Like the crimson sky ablaze,"},
+    {"start": 115.76, "end": 118.62, "romaji": "Shinjiru tsuyosa motomete", "text": "I seek the strength to believe."},
+    {"start": 118.9, "end": 122.24, "romaji": "Futatsu no kodou, tokeau toki", "text": "When two heartbeats melt into one,"},
+    {"start": 127.54, "end": 132.06, "romaji": "Owari tsugeyou tomo", "text": "Even if it should come to an end,", "note": "The preceding subject differs between ASR runs and is omitted rather than guessed."},
+    {"start": 132.68, "end": 134.36, "romaji": "Anata no koe", "text": "Your voice...", "note": "All three runs agree on this phrase; intervening words before the following cue remain unresolved."},
+    {"start": 136.82, "end": 141.04, "romaji": "Mirai tomosu kara", "text": "For it lights the future.", "note": "The final crop resolves tomosu kara; earlier runs partially support this. The preceding watashi particle is omitted, so this is still a fragment requiring listening confirmation."}
+  ]
+}

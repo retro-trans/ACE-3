@@ -1,0 +1,31 @@
+{
+  "version": "0.1.53",
+  "status": "meaning_reviewed",
+  "scope": "Complete mission-ending table 2002341 and its three copies; 17 timed comm lines and one quit prompt.",
+  "review": {
+    "reviewer": "ending_meaning_053",
+    "rows_in_slice": 18,
+    "rows_examined": 22,
+    "notes": "Reviewed source and following scene. Berkt, Harry and Barrel follow project glossary. Baldora Charge follows the adjacent scene; Baldora terminology remains provisional. Original Japanese is read from the disc, not stored here."
+  },
+  "rows": [
+    {"id":"dialogue_11239","status":"meaning_reviewed","target":"<op()><sp(20)>No way... Can this really be happening?<ab(300)><ed()>"},
+    {"id":"dialogue_11240","status":"meaning_reviewed","target":"<op()><sp(20)>I don't know...<ab(100)>"},
+    {"id":"dialogue_11241","status":"meaning_reviewed","target":"<sp(20)>But... we've seen it ourselves.\nWe have to believe it.<ab(500)><ed()>"},
+    {"id":"dialogue_11242","status":"meaning_reviewed","target":"<op()><sp(20)>Haha... Hahahaha...<ab(300)>"},
+    {"id":"dialogue_11243","status":"meaning_reviewed","target":"<sp(20)>S-so... does that mean...\nwe're saved!?<ab(300)><ed()>"},
+    {"id":"dialogue_11244","status":"meaning_reviewed","target":"<op()><sp(20)>Yes! We're saved!\nUs and the Earth! We're all saved!<ab(500)><ed()>"},
+    {"id":"dialogue_11245","status":"meaning_reviewed","target":"<op()><sp(20)>Piece of cake for us!<ab(500)><ed()>"},
+    {"id":"dialogue_11246","status":"meaning_reviewed","target":"<op()><sp(20)>Everyone...!\nWell done!<ab(500)><ed()>"},
+    {"id":"dialogue_11247","status":"meaning_reviewed","target":"<op()><sp(20)>You're all the best!!!<ab(1200)><ed()>"},
+    {"id":"dialogue_11248","status":"meaning_reviewed","target":"<op()><sp(20)>What a relief...<ab(300)><ed()>"},
+    {"id":"dialogue_11249","status":"meaning_reviewed","target":"<op()><sp(20)>Barrel...<ab(300)><ed()>"},
+    {"id":"dialogue_11250","status":"meaning_reviewed","target":"<op()><sp(20)>Huh? An alarm? ...Aaaah!<ab(100)><ed()>"},
+    {"id":"dialogue_11251","status":"meaning_reviewed","target":"<op()><sp(20)>Harry?<ab(300)><ed()>"},
+    {"id":"dialogue_11252","status":"meaning_reviewed","target":"<op()><sp(20)>Th-the Baldora Charge\nis rising rapidly!<ab(100)><ed()>"},
+    {"id":"dialogue_11253","status":"meaning_reviewed","target":"<op()><sp(20)>Berkt!?<ab(100)><ed()>"},
+    {"id":"dialogue_11254","status":"meaning_reviewed","target":"<op()><sp(20)>No!<ab(100)><ed()>"},
+    {"id":"dialogue_11255","status":"meaning_reviewed","target":"<op()><sp(20)>I-it'll reach critical\nin an instant!!<ab(1200)><ed()>"},
+    {"id":"dialogue_00517","status":"meaning_reviewed","target":"<sp(20)>Quit?"}
+  ]
+}

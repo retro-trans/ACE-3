@@ -48,14 +48,16 @@ def fit_labels(layout, specs, font, limit):
         def set_float(offset, value):
             struct.pack_into('<f', out, offset, value)
             allowed.update(range(offset, offset+4))
+        require(sum(abs(value-right) < .001 for value in xs) == 2, 'Malformed right edge')
         for i, value in enumerate(xs):
-            if value == right:
+            if abs(value-right) < .001:
                 set_float(ptr+i*16, left+box_width)
         set_float(a+32, scale)
         set_float(a, x+left*(old_scale-scale))
         # Validate serialized geometry, including float32 rounding.
         actual_x = [struct.unpack_from('<f', out, ptr+i*16)[0] for i in range(n)]
         actual_scale = struct.unpack_from('<f', out, a+32)[0]
+        require(min(actual_x[2:])-max(actual_x[:2]) >= width+7.99, 'One text edge remains too narrow')
         require(max(actual_x)-min(actual_x) >= width+7.99, 'Local line too narrow')
         require((max(actual_x)-min(actual_x))*actual_scale <= limit+.001, 'Display box too wide')
         require(out[a+84:a+112] == d[a+84:a+112], 'Binding or capacity changed')

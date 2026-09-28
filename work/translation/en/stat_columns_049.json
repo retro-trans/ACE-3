@@ -1,0 +1,10 @@
+{
+  "version": "0.1.49",
+  "counter": {
+    "text_id": 73,
+    "before": "Consec. Sorties",
+    "target": "Streak",
+    "context": "Consecutive deployments with this unit; shortened to stay within the caption cell."
+  },
+  "note": "All six full stat names remain unchanged. Their column uses unscaled 88-unit boxes; gauge fills and tick frames move 28 units right and shorten by the same amount."
+}

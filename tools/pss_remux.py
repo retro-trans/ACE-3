@@ -40,28 +40,40 @@ def access_units(es):
     return [(bounds[n], bounds[n+1], units[n][1], order[n]) for n in range(len(units))]
 
 
-def plan(original, es):
+def plan(original, es, ticks=TICKS, pace_to_original=False, max_lead_packets=16):
     slots = [(at, pay, plen, info) for at, sid, head, pay, plen, info in packets(original) if sid == 0xE0]
     first = slots[0][3]
     base_dts, base_pts = first['dts'], first['pts']
     old_units = access_units(b''.join(original[pay:pay+plen] for _, pay, plen, _ in slots))
     units = access_units(es)
+    import bisect
+    edges = []; position = 0
+    for at, pay, plen, _ in slots:
+        edges.append(position); position += plen
+    old_slots = [bisect.bisect_right(edges, a)-1 for a, _, _, _ in old_units]
+    if pace_to_original and len(units) != len(old_units):
+        raise ValueError('Pacing requires unchanged picture count')
     out = bytearray(original); slot = 0; used = 0; starts_here = False; stuffing = 0; drift = 0; placed = []
     def header(index, unit):
         at, pay, plen, info = slots[index]
         hlen = info['header_len']; field = bytearray(b'\xff'*hlen); flags = out[at+7] & 0x3f
         if unit is not None:
             n, (_, _, kind, shown) = unit
-            dts, pts = base_dts+n*TICKS, base_pts+shown*TICKS
+            dts, pts = base_dts+n*ticks, base_pts+shown*ticks
             if pts == dts: field[:5] = stamp(2, pts); flags |= 0x80
             else: field[:5] = stamp(3, pts); field[5:10] = stamp(1, dts); flags |= 0xc0
         if hlen > 10: field[10:] = original[at+9+10:at+9+hlen]     # the first packet's P-STD extension
         out[at+7] = flags; out[at+9:at+9+hlen] = field
     for index in range(len(slots)): header(index, None)
     for n, (a, b, kind, shown) in enumerate(units):
-        if starts_here:                                  # one access-unit start per packet
+        if starts_here or (pace_to_original and used):   # paced units always start in a fresh packet
             at, pay, plen, _ = slots[slot]
             out[pay+used:pay+plen] = bytes(plen-used); stuffing += plen-used; slot += 1; used = 0
+        if pace_to_original:
+            while slot < max(0, old_slots[n]-max_lead_packets):
+                at, pay, plen, _ = slots[slot]
+                out[pay:pay+plen] = bytes(plen); stuffing += plen
+                slot += 1
         if slot >= len(slots): raise ValueError('New stream does not fit: picture %d of %d' % (n, len(units)))
         header(slot, (n, (a, b, kind, shown))); starts_here = True; placed.append(slot)
         data = es[a:b]; done = 0
@@ -76,12 +88,9 @@ def plan(original, es):
         at, pay, plen, _ = slots[slot]; out[pay+used:pay+plen] = bytes(plen-used); tail += plen-used
         for at, pay, plen, _ in slots[slot+1:]: out[pay:pay+plen] = bytes(plen); tail += plen
     # How far each picture sits from where the original had it, in packets of 4 KB (about 7 ms each at 4.5 Mb/s).
-    old_slots = []; s = 0; position = 0; edges = []
-    for at, pay, plen, _ in slots: edges.append(position); position += plen
-    import bisect
-    for a, _, _, _ in old_units: old_slots.append(bisect.bisect_right(edges, a)-1)
     shift = [p-o for p, o in zip(placed, old_slots)]
-    report = {'pictures_new':len(units), 'pictures_original':len(old_units), 'video_packets':len(slots),
+    report = {'pictures_new':len(units), 'pictures_original':len(old_units), 'video_packets':len(slots), 'ticks_per_picture':ticks, 'paced_to_original':pace_to_original,
+              'pacing_max_lead_packets':max_lead_packets if pace_to_original else None,
               'stuffing_between_pictures':stuffing, 'unused_tail_bytes':tail,
               'max_packets_late':max(shift), 'max_packets_early':-min(shift),
               'types_new':''.join(u[2] for u in units[:19]), 'types_original':''.join(u[2] for u in old_units[:19])}

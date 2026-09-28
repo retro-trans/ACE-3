@@ -1,0 +1,43 @@
+{
+  "movie": "MOVIE001",
+  "timebase": "audio_seconds",
+  "review": {
+    "status": "user_lyrics_meaning_reviewed",
+    "method": "User supplied romaji and English lyrics; independent meaning review of all 14 lines present in the game edit. Timing combines existing Whisper detections with local large-v3-turbo alignment of supplied lyric phonetics.",
+    "source": "User-pasted Shinku lyrics, attributed to Megchan's J-Pop Lyrics",
+    "source_url": "https://megchan.com/lyrics/index.php/Shimatani_Hitomi/Shinku",
+    "audio": "work/build/movie_previews_055/MOVIE001.wav",
+    "source_lines_reviewed": 14,
+    "caption_count": 19,
+    "display_note": "OPENING LYRIC PREVIEW - 0.1.58",
+    "human_listened": false,
+    "unresolved_spans": [],
+    "timing": "Phrase timing draft. Known-word alignment does not prove exact sung onsets; first-token starts were bounded using neighboring recognition and syllable timing. User audiovisual review is still needed.",
+    "uncertainties": [
+      "First-person subjects in the weakness/tears questions follow the user's supplied interpretation and the surrounding first-person verse.",
+      "The heartache/pain comparison is poetic. Kogarete expresses yearning, not being yearned for.",
+      "Only the first verse and first chorus occur in this game movie. Later verses and repetitions from the full song are not added to instrumental sections."
+    ]
+  },
+  "subtitles": [
+    {"start": 56.0, "end": 61.84, "romaji": "Inoru you ni hitomi wo tojita", "text": "I closed my eyes as if in prayer."},
+    {"start": 63.06, "end": 68.78, "romaji": "Kono omoi ga todoku you ni to", "text": "Hoping these feelings would get through."},
+    {"start": 69.9, "end": 75.24, "romaji": "Nan no tame ni yowasa kakushite", "text": "Why do I hide my weakness?"},
+    {"start": 76.7, "end": 82.16, "romaji": "Dare no tame ni namida nagasu no", "text": "For whom do I shed my tears?"},
+    {"start": 83.14, "end": 86.46, "romaji": "Itoshisa wa kanashii uta", "text": "Love is a sad song,"},
+    {"start": 86.56, "end": 90.24, "romaji": "Anata omou chikai", "text": "a vow to hold you dear."},
+    {"start": 90.24, "end": 93.6, "romaji": "Sono hakanai shirabe ga", "text": "That fleeting melody"},
+    {"start": 93.9, "end": 96.48, "romaji": "Watashi wo yurashiteku", "text": "stirs me."},
+    {"start": 96.88, "end": 100.14, "romaji": "Setsunasa yori fukaku", "text": "Deeper than heartache,"},
+    {"start": 100.62, "end": 103.5, "romaji": "Itami yori kogarete", "text": "yearning beyond pain,"},
+    {"start": 103.98, "end": 106.96, "romaji": "Afure dasu negai wo", "text": "These overflowing wishes,"},
+    {"start": 107.02, "end": 110.52, "romaji": "Kono mune ni sasageru no", "text": "I offer up to my heart."},
+    {"start": 111.8, "end": 115.64, "romaji": "Shinku no sora moetatsu you ni", "text": "Like a crimson sky bursting into flame,"},
+    {"start": 115.76, "end": 119.16, "romaji": "Shinjiru tsuyosa motometeku", "text": "I keep seeking the strength to believe."},
+    {"start": 119.16, "end": 122.58, "romaji": "Futatsu no kodou toke au toki", "text": "When two heartbeats melt into one,"},
+    {"start": 122.58, "end": 125.98, "romaji": "Ikiru imi ga sotto kawaru", "text": "Life's meaning quietly changes."},
+    {"start": 125.98, "end": 132.06, "romaji": "Kono sekai ga owari wo tsugeyou to mo", "text": "Even if this world should end,"},
+    {"start": 132.68, "end": 134.66, "romaji": "Anata no koe", "text": "For your voice"},
+    {"start": 135.72, "end": 141.04, "romaji": "Watashi ni mirai wo tomosu kara", "text": "lights a future for me."}
+  ]
+}

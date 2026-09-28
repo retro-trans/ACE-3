@@ -26,6 +26,115 @@
 - Verify the workflow with 13 automated tests, including a synthetic-disc edit/write/verify round trip. Check the 91,074-row catalog against the original disc, a 2,709-row export/no-op verification and a single-table edit preview against 0.1.42, plus browser search, filtering, pagination and the control-code toggle. No Japanese script is stored in the committed catalog.
 - Add a README credits table matching the SRW-Z project's format: Project Lead — pow; Playtesting — SecondarySebs, BlackHowling | QiyoShiro. Documentation only; no new game build.
 
+## 0.1.65 — 2026-09-28 (release)
+
+- Package the approved 0.1.64 content as a distinct release identity using the original disc's file order. All 133 game files match the local test build. Release size: 4,455,581,696 bytes; SHA-256 `b8d7f75e714eb2a0575bf9b7d79030bdc7859a75552b4560bb13e166f633486a`.
+- Provide an original-disc full patch and a published English-prologue v0.1.47 upgrade, using the current Retro Trans builder and validator. Retain older supported upgrade paths through the catalog. Release notes follow the established Apply/changes/status/included/translation/acknowledgements/source/Contribute format and preserve the remaining runtime and translation limitations.
+
+## 0.1.64 — 2026-09-28 (test build)
+
+- Integrate the user-approved 0.1.63 opening layout: full CG picture with compact romaji and English subtitles inside the picture, using the exact preview subtitle script.
+- Re-encode only the opening video and preserve original audio packets, movie extent and frame timestamps. Build on 0.1.62 to retain the ending dialogue and lyric hold changes. Verify complete movie decoding and every output disc byte; emulator playback is not yet verified. No public release is created.
+
+## 0.1.63 — 2026-09-28 (opening preview only)
+
+- Prepare an MP4 of the opening with compact romaji/English lyrics inside the full CG picture. Remove the added subtitle band, reduce native font sizes to 14/15 pixels, tighten the line spacing to 18 pixels and add an outline for readability over the picture.
+- Preserve the approved wording, timing and original audio. Render all 19 bilingual cues at 960x720, validate complete audio/video decoding and inspect sampled frames. This is a layout preview for user review; no game movie or ISO is changed.
+
+## 0.1.62 — 2026-09-28 (test build)
+
+- Keep ending dialogue and song captions visible for 0.5 seconds after their timed line ends, unless the next cue on the same track starts sooner. Preserve the native two-frame text-slot turnover margin for adjacent lines.
+- Check all 98 cues and extend 90 durations. Change only native event-duration fields; preserve text, cue starts, audio, layout and all other disc bytes. Build on 0.1.61 without replacing it. Whole-disc verification is performed by `tools/build_credits_hold_patch.py`; this timing revision has not been replayed in the emulator.
+
+## 0.1.61 — 2026-09-28 (test build)
+
+- Add 72 English credits-dialogue captions and 26 simultaneous romaji/English ending-song captions through the game's native animation text events. Preserve the live credits, music, voices, staff names and existing postcredits dialogue; retain the approved opening from 0.1.59.
+- Align the supplied MP3 against nine sections of the actual credits recording and convert recording timestamps to native animation frames. Keep dialogue below and lyrics above the scrolling staff names.
+- Verify all 98 caption cues in native saved-state playback. Clip scrolling logos as well as staff names so the IKONOS/JSI section does not cover dialogue; preserve full image bounds outside the roll.
+- Relocate the four matching ending text tables, append caption tracks to the original animation and verify the complete rebuilt archive and disc. Native saved-state testing is separate from fresh-disc loading verification; see `ENDING_SUBTITLES_061.md`. No public release is created.
+
+## 0.1.60 — 2026-09-28 (ending song preview only)
+
+- Transcribe the user's supplied ending-song MP3 locally with Whisper large-v3-turbo and large-v3, compare targeted verse checks, and independently review the meaning of all 74 useful-pass transcript rows. Exclude unsupported credits, social-media and closing-phrase hallucinations.
+- Prepare 26 timed romaji/English captions and a full-track MP4 lyric preview with a playback clock and waveform. Mark four captions covering three unresolved wording/pronunciation questions for user review. Keep the source MP3 and Japanese transcripts ignored; no game patch or release changes.
+- Add reusable dry-run-first transcription and lyric-preview tools, caption layout/timing guards and full MP4 audio/video decode validation. The preview follows the supplied MP3, not game-credit timing.
+
+## 0.1.59 — 2026-09-28 (test build)
+
+- Integrate the user-approved 0.1.58 opening romaji/English captions into MOVIE001, keeping the complete picture proportional inside the game's fixed movie frame and retaining original audio/non-video packets. Preserve all 4,980 frames at the opening's exact 30 fps.
+- Add bounded packet pacing and explicit frame-clock handling to the PSS remuxer, with three regression tests. Full movie decoding and full-disc comparison passed; only the opening movie extent differs from 0.1.54.
+- Local ISO only: 4,447,076,352 bytes; SHA-256 `02a88eef45164866969f6892910b4f88ff739eda62cf6f182a84739744ce1faa`. In-game playback verification remains incomplete because Computer Use was stopped before playback. No public release was created.
+
+## 0.1.58 — 2026-09-28 (opening lyric preview only)
+
+- Replace the partial opening-song draft with 19 romaji/English cues covering the first verse and chorus heard in the game edit, using the lyrics supplied by the user. Resolve all previously marked lyric gaps and correct the first-person questions and heartache/yearning wording after meaning review.
+- Refine phrase timing using the supplied lyric phonetics and local Whisper alignment. Retain a separate band below the full picture and identify the result as a preview requiring audiovisual review. Preserve the older preview; no game patch or release is changed.
+
+## 0.1.57 — 2026-09-28 (credits subtitle preview only)
+
+- Capture the user's earlier slot-2 credits state in an isolated PCSX2 profile, recovering the complete opening exchange. Preserve the original state and leave memory cards disconnected.
+- Prepare English credits dialogue subtitles from local Whisper large-v3-turbo transcription, targeted large-v3 checks and an independent meaning review. Record recognition uncertainties rather than inventing missing speech.
+- Add a preview renderer with timing and text-fit checks, a separate subtitle band below the intact credits picture, and MP4 decode validation. Keep Japanese transcripts, save states and media local and ignored. No game patch or release is produced; user review comes before integration.
+
+## 0.1.56 — 2026-09-28 (credits capture only)
+
+- Locate the user's slot-1 credits save state from build 0.1.53 and preserve a verified identical local copy. Restore it in an isolated PCSX2 2.8.2 profile with both memory-card slots disconnected.
+- Capture 5 minutes 25 seconds of the credit roll and following scene, verify MP4 decoding, and run local Whisper transcription. Confirm spoken dialogue is present during the roll. The first sentence is incomplete because the save begins mid-line; transcription is unreviewed and no new subtitles or game patch are produced in this capture step. Keep the state, recording and Japanese draft in ignored local folders.
+
+## 0.1.55 — 2026-09-28 (movie previews only)
+
+- Prepare local MP4 previews of the five remaining PSS movies using local Whisper transcription and reviewed English subtitles. MOVIE003 has 48 dialogue cues; MOVIE006 has 11, with one short speaker name still uncertain. The two short transition movies have no reliable speech and retain no invented captions.
+- Add a partial opening-song review draft with romaji above English in a separate band below the intact picture. Mark unresolved sung phrases visibly; Whisper produced substantial lyric errors even with larger models. This is not a complete or human-audio-verified lyric translation.
+- Keep source media and Japanese machine transcripts local and ignored. Add reproducible audio extraction and preview rendering tools with timing/fit checks, hashes and review metadata. No game ISO/PSS or published release is changed. User preview review is required before game integration; engine-rendered staff-credits voices remain a separate unresolved task.
+
+## 0.1.54 — 2026-09-27 (test build)
+
+- Translate the image-based story disclaimer after the credits. Replace the sole 256×128 texture in ending resource 4350; keep its header, palette, dimensions, scene placement and all other disc bytes unchanged.
+- Meaning-reviewed English preserves the distinction between the game's original story and the settings/storylines of the featured anime works. Local English-prologue test build from 0.1.53; does not add credits voice subtitles or translate the remaining movies. In-game appearance remains unverified.
+- Inspected the decoded English preview; all six lines fit inside the original texture. Full-disc comparison passed with only its indexed pixels changed. Size: 4,447,076,352 bytes; SHA-256: `19c494ad099d38cc4efaf8aaa3676bfec7f8def7f6bf621e2b882efd6dcbbc85`.
+
+## 0.1.53 — 2026-09-27 (test build)
+
+- Translate the separate mission-ending comm sequence containing Jamil's “Everyone...! Well done!”: all 17 timed lines and the quit prompt in scene 2002341 and its three copies. This variant was outside the earlier active-mission audit. Other unclassified mission variants and battle shouts are not certified translated.
+- Relocate complete English tables, preserve source scripts, timing commands, row IDs and sparse-slot structure, and check the existing 400-unit/four-line HUD budget and Latin glyph availability. Meaning review covers all 18 rows plus four following context rows; names follow the project glossary and adjacent-scene terminology.
+- Local English-prologue test build from 0.1.52, retaining its menu-spacing changes. Runtime appearance remains unverified.
+- Verified all four ending resources, 10,344 archive payloads and 133 ISO files. Size: 4,447,076,352 bytes; SHA-256: `d323b46805dcbfbcbb8e688bb203db70b7b2dd46512546e16664876e96d002c3`.
+
+## 0.1.52 — 2026-09-27 (test build)
+
+- Move Controls choices into a separate right column and extend its visible right edge. The 0.1.51 screenshot shows shortened panels retaining their old origins; bake the new positions into mesh vertices and restore original widget origins instead of relying on origin changes alone. Give every choice a full native text width plus padding and reserve separate 14-unit arrow gaps, including Flight Rev. and Invert X/Y. Keep the full option names and all settings bindings.
+- Widen all normal and selected Intermission button borders by 32 native units in both copies, retaining space after Combat Records for the selection marker. Preserve captions and their positions.
+- Local English-prologue test build from 0.1.51. Checks cover caption-column clearance, all choice/arrow intervals, screen limits, button clearance, bindings and unchanged unrelated fields; runtime appearance remains unverified.
+- Spacing validation passed for 39 choices, 24 arrows and 15 option rows across three Controls copies, plus both Intermission copies. Full-disc comparison confirms only the five intended layouts changed. Size: 4,447,076,352 bytes; SHA-256: `99652863265618c436709256d49d5870e5062de3a47a3458cfb2d920e83ff96d`.
+
+## 0.1.51 — 2026-09-27 (test build)
+
+- Address the Controls screenshot's absent Camera Movement, Button Mapping and Restore Defaults captions, plus the clipped Control Scheme caption. These strings already exist in English. Replace scale-dependent fitting with 192-unit caption boxes at scale 1 and widen the actual caption column by 36 units in all three Controls menu copies.
+- Shift and shorten the adjacent choice area without moving its right edge. Give long choices such as Flight Rev. and Invert X/Y complete unscaled text boxes, keeping their right edges fixed. Preserve all option names, control mappings, settings values, help text and bindings.
+- Reuse the Game column layout routine with explicit Controls configuration. Local English-prologue test build from 0.1.50; in-game visibility is still unverified.
+- Verified 21 caption instances and 39 choices, with at least 15 and 8 native units of spare text-box width respectively. A regression check confirms the shared routine still reproduces the 0.1.50 Game layouts byte-for-byte. Full-disc comparison passed with only the three Controls layouts changed. Size: 4,447,076,352 bytes; SHA-256: `3660248c74beed04f64e1dcffd5e70f7ddffdcee42ec146931a6a31b2bb3cb19`.
+
+## 0.1.50 — 2026-09-27 (test build)
+
+- The user reports Lock-On Priority is still blank; the PCSX2 log confirms a boot of 0.1.49. Correcting the skewed quad in 0.1.48 was insufficient. Replace scale-dependent caption fitting with a physically wider Game menu column: all nine caption boxes are 180 units wide at scale 1, and normal/selected button borders widen by 24 units. Keep the full requested option names.
+- Move the adjacent choice area's left edge right by 24 units and shorten its geometry while preserving its right edge. Check full native text widths for all choices, including alternate difficulty widgets, in all three Game menu copies. Preserve help text, bindings, capacities, settings values, vertical positions and unrelated resources.
+- Local English-prologue test build from 0.1.49. Geometry validation is not in-game verification; visibility still needs testing.
+- Verified 27 unscaled captions and 69 choice texts, with minimum spare box widths of 14 and 27.95 native units respectively. The full-disc comparison passed: only the three Game layouts change. Size: 4,447,076,352 bytes; SHA-256: `93cc89c3e958fc6e751e29c4f6e6e6e4ebfe6e68a1980632edc5087052b203c0`.
+
+## 0.1.49 — 2026-09-27 (test build)
+
+- Respond to the new Deployment screenshot showing visible stat names overlapping their gauges and Consec. Sorties colliding with the count. Replace the prior scale-dependent fitting with an actual wider caption column in Deployment, Unit Upgrades and both recruitment panels. Preserve all six full stat names in 88-unit boxes at scale 1; shift gauge fills and their tick frames right 28 units and shorten them by the same amount, retaining their right edges and value bindings.
+- Shorten the consecutive-deployment caption to Streak in the three shared English tables and restore its original caption cell. Preserve the count, Player Sorties sprite, other wording and game values. Remove horizontal scaling from Parameters while retaining its widened box and the earlier Upgrade heading's vertical correction.
+- The dry run checks complete text boxes, at least six units of caption-to-gauge clearance, all fill layers, matching frame geometry, preserved gauge right edges and unchanged nonselected fields. Local test build from 0.1.48; runtime appearance remains unverified.
+- Verified 24 captions and 42 gauge layers: minimum unscaled clearance improves from -17.84 to +6.15 native units. Full-disc comparison passed with only the planned four layouts and three caption strings changed. Size: 4,447,076,352 bytes; SHA-256: `b9caa1cd0cef5e350d7393226ef3a26f1617cce05d61324f9ec90df103cfe15c`.
+
+## 0.1.48 — 2026-09-27 (test build)
+
+- Repair the still-blank Lock-On Priority option in all three Game menu copies. The 0.1.44 builder used exact equality on slightly different floating-point vertex coordinates and widened only the bottom-right corner. The top edge remained 158.21 units wide for a 164–166-unit label, depending on the menu font. Make both edges 172–174 units wide while retaining the existing horizontal fit within the 140-unit row.
+- Correct the earlier builder's corner selection and add a regression check that rejects the old skewed text box. Audit the previously fitted stat panels; none has this malformed right edge. Wording, bindings, scripts and other menu elements are unchanged.
+- Local English-prologue test image built from 0.1.47; in-game visibility still requires testing.
+- Two geometry regression tests and the corrected earlier builder's dry run pass. Whole-disc verification confirms only three four-byte coordinates changed. Size: 4,447,076,352 bytes; SHA-256: `904ad87a1dc019992e31869c1fc3e3b19fab528cf4ba1acd41da879b5721c8e0`.
+
 ## 0.1.47 — 2026-09-26
 
 - Publish the 0.1.43–0.1.47 translation and UI fixes as an English-prologue-only release, with a full original-disc patch and matching published 0.1.42 movie upgrade. Both patches passed complete decode verification and the current Retro Trans package validator. Release image: 4,455,428,096 bytes, SHA-256 `b86f9a52d2b8bfae419d5a7d7bd48d59665787b3e6393e3722d9dc757129aa8e`.

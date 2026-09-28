@@ -1,0 +1,352 @@
+{
+  "movie": "MOVIE003",
+  "review": {
+    "status": "meaning_reviewed",
+    "method": "Whisper small and large-v3-turbo, corrected against all 48 original caption strips; independent meaning review against all caption strips and all 49 large-v3-turbo segments",
+    "rows_in_slice": 48,
+    "rows_examined": 48,
+    "meaning_fixes": 1,
+    "uncertainties": [
+      "Row 39 is intentionally unfinished: the source does not specify what is already happening; the English retains that hesitation."
+    ],
+    "name_pass": "Speaker surname follows character_names_021.json en_short Focker. Corpus scan found older Fokker variants; no unrelated game-text edits in this preview-only task."
+  },
+  "subtitles": [
+    {
+      "source_segments": [
+        1
+      ],
+      "speaker": "Amuro",
+      "text": "Char...!!!"
+    },
+    {
+      "source_segments": [
+        2
+      ],
+      "speaker": "Amuro",
+      "text": "You're not getting away!"
+    },
+    {
+      "source_segments": [
+        3
+      ],
+      "speaker": "Char",
+      "text": "Heh... Hehehe... Hahahahaha!"
+    },
+    {
+      "source_segments": [
+        4
+      ],
+      "speaker": "Amuro",
+      "text": "What's so funny?"
+    },
+    {
+      "source_segments": [
+        5
+      ],
+      "speaker": "Char",
+      "text": "Victory is mine."
+    },
+    {
+      "source_segments": [
+        6
+      ],
+      "speaker": "Char",
+      "text": "I've just calculated it. Earth's gravity will pull the rear half of Axis down."
+    },
+    {
+      "source_segments": [
+        7
+      ],
+      "speaker": "Char",
+      "text": "You pushed yourselves too hard."
+    },
+    {
+      "source_segments": [
+        8
+      ],
+      "speaker": "Amuro",
+      "text": "Don't give me that!"
+    },
+    {
+      "source_segments": [
+        9
+      ],
+      "speaker": "Amuro",
+      "text": "It's just a rock! I'll push it back with the Gundam!"
+    },
+    {
+      "source_segments": [
+        10
+      ],
+      "speaker": "Char",
+      "text": "Stop this foolishness!"
+    },
+    {
+      "source_segments": [
+        11
+      ],
+      "speaker": "Amuro",
+      "text": "We won't know unless we try!"
+    },
+    {
+      "source_segments": [
+        12
+      ],
+      "speaker": "Char",
+      "text": "Axis has already begun to fall!"
+    },
+    {
+      "source_segments": [
+        13
+      ],
+      "speaker": "Amuro",
+      "text": "The Nu Gundam isn't just for show!"
+    },
+    {
+      "source_segments": [
+        14
+      ],
+      "speaker": "Isamu",
+      "text": "...I can't just sit back and watch this!"
+    },
+    {
+      "source_segments": [
+        15
+      ],
+      "speaker": "Focker",
+      "text": "All right! Let's join in!"
+    },
+    {
+      "source_segments": [
+        16
+      ],
+      "speaker": "Kei",
+      "text": "Go!!"
+    },
+    {
+      "source_segments": [
+        17
+      ],
+      "speaker": "Go",
+      "text": "...Yeah!"
+    },
+    {
+      "source_segments": [
+        18
+      ],
+      "speaker": "Kaine",
+      "text": "We're going in too! Tapp! Light!"
+    },
+    {
+      "source_segments": [
+        19
+      ],
+      "speaker": "Tapp",
+      "text": "All right!!"
+    },
+    {
+      "source_segments": [
+        20
+      ],
+      "speaker": "Light",
+      "text": "Leave it to me!!"
+    },
+    {
+      "source_segments": [
+        21
+      ],
+      "speaker": "Amuro",
+      "text": "Stop! Don't get yourselves involved in this!"
+    },
+    {
+      "source_segments": [
+        22
+      ],
+      "speaker": "Amuro",
+      "text": "Even the Geara Dogas...?"
+    },
+    {
+      "source_segments": [
+        23
+      ],
+      "speaker": "Neo Zeon Soldier",
+      "text": "The Earth's survival is at stake!"
+    },
+    {
+      "source_segments": [
+        24
+      ],
+      "speaker": "Neo Zeon Soldier",
+      "text": "It's worth a try!"
+    },
+    {
+      "source_segments": [
+        25
+      ],
+      "speaker": "Garrod",
+      "text": "I can't let Amuro be the only one who looks cool!"
+    },
+    {
+      "source_segments": [
+        26
+      ],
+      "speaker": "Gainer",
+      "text": "What I do is my own business!"
+    },
+    {
+      "source_segments": [
+        27
+      ],
+      "speaker": "Renton",
+      "text": "With Eureka by my side, I'm not afraid of anything!"
+    },
+    {
+      "source_segments": [
+        28
+      ],
+      "speaker": "Eureka",
+      "text": "Me neither!"
+    },
+    {
+      "source_segments": [
+        29
+      ],
+      "speaker": "Amuro",
+      "text": "It's impossible! Everyone, get back!"
+    },
+    {
+      "source_segments": [
+        30
+      ],
+      "speaker": "Barrel",
+      "text": "I... want to fight to the very end! That's okay, isn't it, Faye?"
+    },
+    {
+      "source_segments": [
+        31
+      ],
+      "speaker": "Faye",
+      "text": "Of course."
+    },
+    {
+      "source_segments": [
+        32
+      ],
+      "speaker": "Amuro",
+      "text": "That's enough! Everyone, stop!!"
+    },
+    {
+      "source_segments": [
+        33
+      ],
+      "speaker": "Char",
+      "text": "In the end, sooner or later, nothing but sorrow like this will spread and crush the Earth."
+    },
+    {
+      "source_segments": [
+        34
+      ],
+      "speaker": "Char",
+      "text": "Then humanity must pass judgment on itself and atone to nature and the Earth."
+    },
+    {
+      "source_segments": [
+        35
+      ],
+      "speaker": "Char",
+      "text": "Amuro, why can't you understand this...?!"
+    },
+    {
+      "source_segments": [
+        36
+      ],
+      "speaker": "Isamu",
+      "text": "Tch... It won't be that easy...!"
+    },
+    {
+      "source_segments": [
+        37
+      ],
+      "speaker": "Gainer",
+      "text": "I don't want to die yet...!"
+    },
+    {
+      "source_segments": [
+        38
+      ],
+      "speaker": "Kei",
+      "text": "Not yet...!"
+    },
+    {
+      "source_segments": [
+        39
+      ],
+      "speaker": "Barrel",
+      "text": "But it's already..."
+    },
+    {
+      "source_segments": [
+        40
+      ],
+      "speaker": "Faye",
+      "text": "...Don't give up...!"
+    },
+    {
+      "source_segments": [
+        41
+      ],
+      "speaker": "Barrel",
+      "text": "Aaaaah!!"
+    },
+    {
+      "source_segments": [
+        42
+      ],
+      "speaker": "Jamil",
+      "text": "What is this light...?"
+    },
+    {
+      "source_segments": [
+        43
+      ],
+      "speaker": "Eureka",
+      "text": "...Such a warm... gentle light..."
+    },
+    {
+      "source_segments": [
+        44
+      ],
+      "speaker": "Tiffa",
+      "text": "It's the light of people's hearts."
+    },
+    {
+      "source_segments": [
+        45
+      ],
+      "speaker": "Gidget",
+      "text": "Huh? Ah! Axis is changing course!"
+    },
+    {
+      "source_segments": [
+        46
+      ],
+      "speaker": "Talho",
+      "text": "We're not seeing things, are we?!"
+    },
+    {
+      "source_segments": [
+        47
+      ],
+      "speaker": "Harry",
+      "text": "We've confirmed it here too!"
+    },
+    {
+      "source_segments": [
+        48
+      ],
+      "speaker": "Harry",
+      "text": "Axis's course change is confirmed! It's moving away from Earth."
+    }
+  ]
+}

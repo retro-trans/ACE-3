@@ -60,7 +60,7 @@ def main():
     sys.path.insert(0, str(TOOLS))
     from retro_trans.release import build_release, validate_directory
     from retro_trans.catalog import atomic_json, file_hashes
-    local_config = ROOT/'work/local/release-047-config.json'
+    local_config = ROOT/('work/local/release-'+VERSION.replace('.', '')+'-config.json')
     atomic_json(local_config, config)
     last = [None]
 

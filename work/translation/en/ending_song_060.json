@@ -1,0 +1,59 @@
+{
+  "version": "0.1.60",
+  "title": "Poem of Love",
+  "source": "User-supplied 02. Poem of Love.mp3",
+  "source_sha256": "bb8949e1376c0de9dd392345933b0cd84beab816097ba970ef952b57162b9ad4",
+  "duration": 366.84,
+  "timebase": "audio_seconds",
+  "review": {
+    "status": "meaning_reviewed_with_uncertainties",
+    "method": "Local Whisper large-v3-turbo and large-v3 whole-track recognition, three targeted verse checks, and independent meaning review of all 74 corresponding transcription rows. A fourth short crop produced only an excluded hallucination.",
+    "reviewer": "ending_song_meaning_060",
+    "rows_examined": 74,
+    "caption_count": 26,
+    "human_listened": false,
+    "timing": "Draft phrase timings from Whisper segment and word timestamps. Needs user audiovisual review.",
+    "uncertainties": [
+      {"start": 37.3, "end": 48.3, "issue": "Idaku versus daku: the recognized written word permits either pronunciation."},
+      {"start": 122.3, "end": 133.38, "issue": "One targeted pass adds ai wo before nakushita; both whole-track passes omit it. Omitted provisionally; check the beginning of this phrase."},
+      {"start": 285.4, "end": 291.36, "issue": "Jikuu is the ordinary reading of the recognized word; a special sung reading such as toki remains possible."},
+      {"start": 308.98, "end": 314.36, "issue": "Repeated idaku versus daku pronunciation."}
+    ],
+    "notes": [
+      "Unsupported credits, social-media names and thanks-for-watching hallucinations are excluded.",
+      "Targeted recognition corroborates boku de, kujikenu, the smile/listening verse, and repeated haha naru hoshi.",
+      "First person follows boku; you follows kimi. No gender is inferred. Calling my name is a contextual inference from the surrounding recollection.",
+      "Tatae describes holding or brimming with water, not praise. Hazu expresses expectation, not certainty.",
+      "Wordless vocalizations are not transcribed as invented lyrics. Gaps are labeled Music.",
+      "MP3 lyric preview only; not synchronized to game credits and not patched into the game."
+    ]
+  },
+  "subtitles": [
+    {"start":24.58,"end":35.82,"romaji":"Aoi daichi ni kiyoki mizu tatae","text":"With pure waters filling the blue earth,"},
+    {"start":37.3,"end":48.3,"romaji":"Idaku inochi no haha naru hoshi ni negau","text":"I pray to the mother planet that cradles life.","uncertain":true,"uncertainty_note":"Check pronunciation: idaku or daku?"},
+    {"start":49.08,"end":55.52,"romaji":"Dore hodo no kanashimi ni mo","text":"No matter how deep the sorrow,"},
+    {"start":55.52,"end":59.84,"romaji":"Kujikenu you ni","text":"May I never lose heart."},
+    {"start":61.5,"end":67.5,"romaji":"Sore demo aisuru koto wo","text":"Even then, may I keep on loving,"},
+    {"start":67.5,"end":71.9,"romaji":"Yamenu you ni","text":"May I never stop."},
+    {"start":97.4,"end":109.48,"romaji":"Honno chiisana arifureta boku de","text":"Small and ordinary as I am,"},
+    {"start":109.48,"end":121.02,"romaji":"Dareka no tame ni nani ga dekiru no darou","text":"What could I do for someone else?"},
+    {"start":122.3,"end":133.38,"romaji":"Nakushita kinou no yume ni obieru yori mo","text":"Rather than fear yesterday's lost dreams,","uncertain":true,"uncertainty_note":"Check phrase opening: is ai wo sung before nakushita?"},
+    {"start":134.9,"end":140.44,"romaji":"Hoshi furu kyou no yozora ni","text":"To tonight's sky of falling stars,"},
+    {"start":141.02,"end":145.54,"romaji":"Ai wo utau","text":"I sing of love."},
+    {"start":197.62,"end":203.56,"romaji":"Ai yue ni hito wa daremo","text":"If love brings everyone"},
+    {"start":203.56,"end":208.08,"romaji":"Itami wo ou nara","text":"pain to bear,"},
+    {"start":209.84,"end":215.72,"romaji":"Ai yue ni hito wa itsuka","text":"Then through love, someday"},
+    {"start":215.72,"end":219.84,"romaji":"Yurushiaeru hazu","text":"We should be able to forgive each other."},
+    {"start":248.88,"end":259.94,"romaji":"Hitomi tojireba ukabu ano egao","text":"When I close my eyes, that smile comes to mind."},
+    {"start":261.0,"end":265.98,"romaji":"Mimi wo sumaseba","text":"When I listen closely,"},
+    {"start":265.98,"end":271.98,"romaji":"Namae yobu koe ga suru","text":"I hear a voice calling my name."},
+    {"start":273.0,"end":279.34,"romaji":"Donna ni tooku ni ite mo","text":"No matter how far apart we are,"},
+    {"start":279.34,"end":283.72,"romaji":"Kimi wo omoeba","text":"When I think of you,"},
+    {"start":285.4,"end":291.36,"romaji":"Haruka na jikuu wo koete","text":"Across the vast reaches of time and space,","uncertain":true,"uncertainty_note":"Check pronunciation: jikuu, or a special reading such as toki?"},
+    {"start":291.36,"end":296.02,"romaji":"Mata deaeru","text":"We can meet again."},
+    {"start":296.98,"end":302.18,"romaji":"Aoi daichi ni","text":"Upon the blue earth,"},
+    {"start":302.98,"end":308.44,"romaji":"Kiyoki mizu tatae","text":"Brimming with pure water,"},
+    {"start":308.98,"end":314.36,"romaji":"Idaku inochi no","text":"Cradling life—","uncertain":true,"uncertainty_note":"Check pronunciation: idaku or daku?"},
+    {"start":315.06,"end":321.16,"romaji":"Haha naru hoshi ni negau","text":"I pray to our mother planet."}
+  ]
+}

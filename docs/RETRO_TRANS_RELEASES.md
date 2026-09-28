@@ -6,6 +6,8 @@ The user discontinued the non-movie edition on 2026-09-26. Preserve its historic
 
 ## Build and validate
 
+For 0.1.65, run `tools/relayout_disc.py ACE3-English-0.1.64.iso` first, then with `--write`. This release gives the remastered 0.1.64 content a distinct binary identity. Check out the current Retro Trans Tools sources under ignored `work/local/retro-trans-release-065`, inspect `tools/package_release_065.py --source-commit <full-source-commit>`, then repeat with `--write`. Its routes are original disc and published English-prologue 0.1.47. Use `--retro-trans-tools work/local/retro-trans-release-065` with the route verifier to check all active previous versions, including multi-step upgrades.
+
 For 0.1.47, preview `python tools/relayout_disc.py ACE3-English-0.1.47.iso`, inspect the planned extents, then repeat with `--write`.
 Preview `python tools/package_release_047.py --source-commit <full-source-commit>`, then repeat with `--write`.
 The packager invokes the current Retro Trans builder for the original-disc full patch and the matching published 0.1.42 upgrade.

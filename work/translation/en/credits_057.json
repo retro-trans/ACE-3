@@ -1,0 +1,767 @@
+{
+  "version": "0.1.57-preview",
+  "review_status": "meaning_reviewed_for_user_preview",
+  "timebase": "credits_057_capture_seconds",
+  "review": {
+    "rows_examined": 89,
+    "rows_in_slice": 89,
+    "old_rows_compared": 70,
+    "target_source_rows": 78,
+    "candidate_cues": 72,
+    "withheld_source_segments": [],
+    "human_listened": false,
+    "speaker_labels_inferred": false,
+    "glossary_spellings": [
+      "Faye",
+      "Berkt",
+      "Cynthia",
+      "D.O.M.E.",
+      "Dominic",
+      "Barrel",
+      "Scub Coral"
+    ],
+    "targeted_span_count": 6,
+    "targeted_rows_examined": 25,
+    "unresolved_ranges_seconds": [],
+    "uncertainties": [
+      "ASR-only source; no human listening verification.",
+      "Faye name differs from lower-confidence Ray reading in first targeted pass. Longer-context pass and accompanying-Barrel scene support Faye as addressee.",
+      "Scub initial syllable is lower-confidence but large-model full clause is coherent; other models omitted it.",
+      "Several obvious homophones normalized using adjacent replies and glossary; row notes preserve decisions.",
+      "Dialogue-speaker identities deliberately not assigned."
+    ],
+    "rejected_asr": [
+      "Isolated English me outputs around276,286-288 seconds are excluded as hallucinations.",
+      "Main row79 start268.26 is a timestamp error spanning silence; words belong to existing-caption scene around298 seconds.",
+      "Target97-114 tail conflicts with complete main row37 and is clipped at window edge; retain full main reading."
+    ],
+    "note": "Read all 89 new transcript rows, 70 old transcript rows, and 25 targeted rows. Recovered omitted credits lines through285.16 seconds. All English cues are a meaning-reviewed ASR draft for user preview, not human-listened certification."
+  },
+  "subtitles": [
+    {
+      "source_segments": [
+        1
+      ],
+      "start": 2.29,
+      "end": 3.39,
+      "text": "Faye.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened.",
+      "audio_end": 2.91
+    },
+    {
+      "source_segments": [
+        2
+      ],
+      "start": 3.83,
+      "end": 4.93,
+      "text": "What is it?",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened.",
+      "audio_end": 4.19
+    },
+    {
+      "source_segments": [
+        3,
+        4
+      ],
+      "start": 5.19,
+      "end": 10.83,
+      "text": "If I'd been born on your Earth, would I have done the same thing as Berkt?",
+      "notes": "Opening now complete in earlier capture. Berkt locked glossary spelling. Your Earth refers to explicitly addressed Faye; no speaker label inferred."
+    },
+    {
+      "source_segments": [
+        5
+      ],
+      "start": 12.39,
+      "end": 13.51,
+      "text": "I don't know.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        6
+      ],
+      "start": 15.03,
+      "end": 16.61,
+      "text": "But you're not him.",
+      "notes": "Male pronoun explicit in source; identity unnamed."
+    },
+    {
+      "source_segments": [
+        7
+      ],
+      "start": 17.71,
+      "end": 19.43,
+      "text": "And he wasn't you.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        8
+      ],
+      "start": 20.75,
+      "end": 22.29,
+      "text": "That much is certain.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        9
+      ],
+      "start": 23.23,
+      "end": 25.47,
+      "text": "I could hear Faye's voice.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        10,
+        11
+      ],
+      "start": 26.51,
+      "end": 30.47,
+      "text": "If I hadn't, I don't know what would have happened.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        12,
+        13
+      ],
+      "start": 31.23,
+      "end": 34.31,
+      "text": "It's thanks to you. Thank you.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        14
+      ],
+      "start": 38.24,
+      "end": 39.8,
+      "text": "I'm the one who should thank you.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        15
+      ],
+      "start": 41.14,
+      "end": 44.54,
+      "text": "At first, I only thought of you as a means to an end.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        16,
+        17
+      ],
+      "start": 46.02,
+      "end": 50.56,
+      "text": "But you grew, and taught me so many things.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        18
+      ],
+      "start": 52.08,
+      "end": 53.18,
+      "text": "So we're even.",
+      "notes": "Both ASR drafts spell the loanword 'even' as a homophone. Reciprocal thanks and its pronunciation support this reading; not human-listened.",
+      "audio_end": 53.02
+    },
+    {
+      "source_segments": [
+        19
+      ],
+      "start": 57.66,
+      "end": 59.86,
+      "text": "Our battle ends here, then.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        20
+      ],
+      "start": 61.48,
+      "end": 63.32,
+      "text": "No, it's only just beginning.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        21,
+        22
+      ],
+      "start": 63.88,
+      "end": 66.88,
+      "text": "Rebuilding the world... Making peace with the colonies...",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        23
+      ],
+      "start": 68.08,
+      "end": 69.92,
+      "text": "There is much we must do.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        24
+      ],
+      "start": 70.58,
+      "end": 71.98,
+      "text": "It will be a difficult road.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        25,
+        26
+      ],
+      "start": 72.38,
+      "end": 76.84,
+      "text": "But we made it through this battle. We should be able to do anything.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [],
+      "start": 77.04,
+      "end": 79.08,
+      "text": "It's over!",
+      "notes": "gap76:1, final words; previously missed shout, confirmed by old small-model transcript."
+    },
+    {
+      "source_segments": [
+        27
+      ],
+      "start": 81.24,
+      "end": 82.6,
+      "text": "Now we can finally rest.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        28
+      ],
+      "start": 84.74,
+      "end": 87.0,
+      "text": "But it's sad that we have to say goodbye now.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        29,
+        30
+      ],
+      "start": 87.82,
+      "end": 91.46,
+      "text": "Yeah... After finally getting to know each other as friends, too.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        31,
+        32
+      ],
+      "start": 92.3,
+      "end": 97.0,
+      "text": "Our hearts are connected, as long as we share the same ideals.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        33
+      ],
+      "start": 98.26,
+      "end": 101.58,
+      "text": "The Scub Coral entrusted the Earth to us.",
+      "notes": "Targeted full large-v3 recovers 'Scub'. Scub Coral is the attested glossary term in Greg Egan's role. Initial syllable confidence is lower than rest; review draft only."
+    },
+    {
+      "source_segments": [
+        34
+      ],
+      "start": 102.84,
+      "end": 104.34,
+      "text": "The land was saved.",
+      "notes": "Three ASR passes agree on 'saved the land'. Passive preserves omitted subject; do not insert a guessed name."
+    },
+    {
+      "source_segments": [
+        35
+      ],
+      "start": 106.62,
+      "end": 108.94,
+      "text": "And D.O.M.E. showed us a future.",
+      "notes": "D.O.M.E. spelling locked from glossary; no pronoun added."
+    },
+    {
+      "source_segments": [
+        36
+      ],
+      "start": 109.84,
+      "end": 111.9,
+      "text": "It was entrusted to us.",
+      "notes": "Passive preserves omitted subject; context refers to future in previous line."
+    },
+    {
+      "source_segments": [
+        37
+      ],
+      "start": 113.4,
+      "end": 115.26,
+      "text": "We'll start from scratch.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        38
+      ],
+      "start": 118.16,
+      "end": 123.5,
+      "text": "Well, now that it's over, it's about time we settled our match.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        39,
+        40
+      ],
+      "start": 125.08,
+      "end": 129.22,
+      "text": "You're impatient. I wouldn't mind doing it right now.",
+      "notes": "ASR homophone normalized to 'impatient', supported by reply immediately afterward."
+    },
+    {
+      "source_segments": [
+        41
+      ],
+      "start": 130.34,
+      "end": 132.1,
+      "text": "Then let me join in, too!",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        42
+      ],
+      "start": 133.82,
+      "end": 135.82,
+      "text": "Wait, Cynthia! Don't you have to go home?",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        43,
+        44
+      ],
+      "start": 138.51,
+      "end": 142.39,
+      "text": "The fighting has only just ended. Unbelievable.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        45
+      ],
+      "start": 143.31,
+      "end": 144.89,
+      "text": "We'd be in trouble if they weren't like that.",
+      "notes": "Fresh turbo repairs previously incoherent old row38. Third-person plural inferred from prior warriors' match discussion, without assigning identities."
+    },
+    {
+      "source_segments": [
+        46,
+        47
+      ],
+      "start": 147.49,
+      "end": 152.45,
+      "text": "Fighting all the time is fine, but why not savor the peace a little?",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        48
+      ],
+      "start": 155.26,
+      "end": 156.36,
+      "text": "I guess that works, too.",
+      "notes": "Fresh turbo repairs old row40 opening. Tentative agreement to savor peace, not a named speaker."
+    },
+    {
+      "source_segments": [
+        49
+      ],
+      "start": 158.46,
+      "end": 160.52,
+      "text": "I'm glad it worked out.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        50
+      ],
+      "start": 163.63,
+      "end": 166.53,
+      "text": "But another war could break out.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        51,
+        52
+      ],
+      "start": 167.83,
+      "end": 172.93,
+      "text": "That's right. When a reason arises, people begin to fight.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        53
+      ],
+      "start": 174.29,
+      "end": 175.73,
+      "text": "Just as I did.",
+      "notes": "Final ASR syllable is malformed; both passes support 'as I did/was' continuation of prior statement."
+    },
+    {
+      "source_segments": [
+        54
+      ],
+      "start": 177.75,
+      "end": 181.25,
+      "text": "Then we just have to stop those reasons from arising, right?",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        55
+      ],
+      "start": 184.54,
+      "end": 185.64,
+      "text": "That's right.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened.",
+      "audio_end": 185.18
+    },
+    {
+      "source_segments": [
+        56
+      ],
+      "start": 186.04,
+      "end": 190.16,
+      "text": "You were all a strange bunch, but it was fun in its own way.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        57
+      ],
+      "start": 192.83,
+      "end": 193.93,
+      "text": "Was that a compliment?",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened.",
+      "audio_end": 193.81
+    },
+    {
+      "source_segments": [
+        58
+      ],
+      "start": 195.74,
+      "end": 196.84,
+      "text": "No, no!",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened.",
+      "audio_end": 196.84
+    },
+    {
+      "source_segments": [
+        59
+      ],
+      "start": 197.72,
+      "end": 202.3,
+      "text": "Coralians, Newtypes... So many interesting people.",
+      "notes": "Fresh ASR onset typo corrected against old model's Coralian reading and glossary term."
+    },
+    {
+      "source_segments": [
+        60
+      ],
+      "start": 202.92,
+      "end": 204.42,
+      "text": "It's a shame to let them go.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        61
+      ],
+      "start": 205.54,
+      "end": 207.58,
+      "text": "Well, you're both as bad as each other.",
+      "notes": "Fresh ASR truncates the idiom ending; old ASR supports complete comparison. No named pair inferred."
+    },
+    {
+      "source_segments": [],
+      "start": 208.24,
+      "end": 209.34,
+      "text": "Dominic!",
+      "notes": "gap203:3; previously missed name, glossary spelling confirmed.",
+      "audio_end": 208.96
+    },
+    {
+      "source_segments": [],
+      "start": 210.14,
+      "end": 212.7,
+      "text": "There are so many things I want to do when I get back!",
+      "notes": "gap203:4; previously missed sentence, explicit first-person source."
+    },
+    {
+      "source_segments": [],
+      "start": 213.84,
+      "end": 214.94,
+      "text": "R-really...",
+      "notes": "gap203:5; previously missed hesitant reply.",
+      "audio_end": 214.84
+    },
+    {
+      "source_segments": [
+        62
+      ],
+      "start": 215.87,
+      "end": 217.05,
+      "text": "Go easy on me.",
+      "notes": "Targeted full large-v3 recovers prior Dominic exchange and confirms this reply."
+    },
+    {
+      "source_segments": [
+        63
+      ],
+      "start": 218.23,
+      "end": 219.89,
+      "text": "Under the thumb already?",
+      "notes": "Idiom; no partner gender or identity supplied."
+    },
+    {
+      "source_segments": [
+        64
+      ],
+      "start": 220.83,
+      "end": 222.29,
+      "text": "Sounds like you'll have a tough time when you get back.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        65,
+        66
+      ],
+      "start": 223.25,
+      "end": 227.31,
+      "text": "That's about right. There wasn't room for that until now.",
+      "notes": "Source omits explicit subject; no named couple or speaker supplied."
+    },
+    {
+      "source_segments": [
+        67
+      ],
+      "start": 228.65,
+      "end": 232.91,
+      "text": "From now on, we must find a way toward a world without war.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        68
+      ],
+      "start": 234.01,
+      "end": 235.11,
+      "text": "That's right.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened.",
+      "audio_end": 234.33
+    },
+    {
+      "source_segments": [
+        69
+      ],
+      "start": 235.71,
+      "end": 236.81,
+      "text": "The same goes for us.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened.",
+      "audio_end": 236.81
+    },
+    {
+      "source_segments": [
+        70,
+        71
+      ],
+      "start": 238.03,
+      "end": 242.45,
+      "text": "There will be a lot to think about as we build our future.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        72
+      ],
+      "start": 243.51,
+      "end": 246.35,
+      "text": "We can do it.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        73
+      ],
+      "start": 247.31,
+      "end": 249.05,
+      "text": "There's no need to rush.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        74
+      ],
+      "start": 251.31,
+      "end": 253.39,
+      "text": "The signal is getting weaker.",
+      "notes": "Natural English for communications becoming distant/faint."
+    },
+    {
+      "source_segments": [
+        75
+      ],
+      "start": 254.49,
+      "end": 256.91,
+      "text": "It's nearly time to say goodbye.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        76
+      ],
+      "start": 258.63,
+      "end": 260.59,
+      "text": "I'm glad we could fight together.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [
+        77
+      ],
+      "start": 262.11,
+      "end": 263.21,
+      "text": "Take care, everyone.",
+      "notes": "Fresh turbo resolves old ASR homophone as a farewell.",
+      "audio_end": 262.89
+    },
+    {
+      "source_segments": [
+        78
+      ],
+      "start": 264.78,
+      "end": 268.02,
+      "text": "Yeah. Look after your world's future, too.",
+      "notes": "Meaning reviewed against fresh turbo ASR, old small ASR, and adjacent dialogue. Not human-listened."
+    },
+    {
+      "source_segments": [],
+      "start": 269.36,
+      "end": 272.26,
+      "text": "Barrel, come back soon!",
+      "notes": "gap263:2; previously missed farewell, glossary spelling confirmed."
+    },
+    {
+      "source_segments": [],
+      "start": 272.64,
+      "end": 275.72,
+      "text": "We'll be waiting for you too, Faye!",
+      "notes": "farewell271:2 resolves lower-confidence Ray reading from gap263 as Faye. Object/topic reading follows the call for Barrel to return; Faye accompanies Barrel in the current scene. Explicit contextual interpretation, not human-listened."
+    },
+    {
+      "source_segments": [],
+      "start": 277.94,
+      "end": 281.62,
+      "text": "Take care! Thank you so very, very much!",
+      "notes": "farewell276:1, excluding isolated English me hallucination. Opening time from farewell271:3; full thanks recovered in longer window."
+    },
+    {
+      "source_segments": [],
+      "start": 283.5,
+      "end": 285.16,
+      "text": "Thank you, everyone.",
+      "notes": "farewell276:2; newly recovered final thanks. Following isolated English me/me outputs excluded as ASR hallucinations."
+    }
+  ],
+  "excluded": [
+    {
+      "source_segment": 79,
+      "start": 268.26,
+      "end": 301.06,
+      "reason": "Incorrect start timestamp; words are from already-captioned scene around298 seconds, confirmed by targeted pass."
+    },
+    {
+      "source_segment": 80,
+      "start": 301.88,
+      "end": 303.08,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 81,
+      "start": 304.1,
+      "end": 307.16,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 82,
+      "start": 309.53,
+      "end": 311.67,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 83,
+      "start": 312.77,
+      "end": 313.91,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 84,
+      "start": 314.99,
+      "end": 316.61,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 85,
+      "start": 317.97,
+      "end": 318.91,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 86,
+      "start": 322.47,
+      "end": 323.77,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 87,
+      "start": 326.27,
+      "end": 327.21,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 88,
+      "start": 328.57,
+      "end": 329.15,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    },
+    {
+      "source_segment": 89,
+      "start": 332.94,
+      "end": 335.28,
+      "reason": "Postcredits scene already displays English game captions; do not add duplicate overlay."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "0.1.54",
+  "screen": "Story disclaimer after the ending credits",
+  "source_screenshot": "codex-clipboard-e50ac8a5-b1df-466f-93b6-64bfb87ac936.png",
+  "resource_id": 4350,
+  "texture_offset": 2099680,
+  "texture_size_bytes": 16480,
+  "original_texture_sha256": "f1a571d87a3fe5b8e23a5ed75de04cbb2750e834b7ceb750145a20b609608195",
+  "width": 256,
+  "height": 128,
+  "storage": "Linear 4-bit indexed pixels, low nibble first; 16-entry RGBA palette",
+  "text_bounds": [5, 16, 239, 110],
+  "font": "Georgia",
+  "font_pixels": 14,
+  "line_step": 16,
+  "copy_inventory": [[4350, 2099680]],
+  "preserved": ["32-byte texture header", "64-byte palette", "texture size", "scene placement", "all other disc bytes"],
+  "runtime_verified": false
+}

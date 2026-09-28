@@ -1,0 +1,9 @@
+{
+  "movie": "MOVIE004",
+  "review": {
+    "status": "meaning_reviewed",
+    "method": "Whisper small with VAD detected no speech. Large-v3-turbo without VAD produced only a stock thanks-for-watching hallucination, excluded. Original caption detector and visual contact sheet contain no dialogue captions.",
+    "classification": "Short transition; no reliable spoken dialogue detected. Preserve original audio without invented subtitles."
+  },
+  "subtitles": []
+}
