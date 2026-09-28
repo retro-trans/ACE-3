@@ -30,6 +30,7 @@
 
 - Adopt the requested **0.9.0** version for the latest 0.1.68 content. Include the empty-ally **None** correction, the **BATTLE STATIONS** briefing banner, and the Parameters gauge geometry repair. Preserve the prior opening/ending subtitles and all earlier translation work.
 - Package only the supported English-prologue edition, with a full original-disc patch and a smaller upgrade from published 0.1.65. Earlier supported releases upgrade through the existing chain. Keep canonical Retro Trans metadata, decode verification and public route verification with the release records.
+- Published `v0.9.0` after both patch round trips, upstream package validation and uploaded asset size/SHA-256 checks passed. Catalog workflow `36397824901` succeeded; the actual public catalog routes original, 0.1.35, 0.1.42, 0.1.47 and 0.1.65 images to 0.9.0, recognizes 0.9.0 as current, excludes the discontinued edition and rejects unknown discs. Records are in `docs/releases/0.9.0/`. Release output SHA-256: `68b7fc22f7cde93b453223af0d45ca4e040be40f0edb263acc128f354e1e37d1`.
 - The three latest fixes passed whole-disc byte checks. Briefing animation and stat gauge behavior still need fresh in-game confirmation; earlier movie/credits runtime limitations remain. The version change does not certify full translation coverage.
 
 ## 0.1.68 — 2026-09-28 (test build)
