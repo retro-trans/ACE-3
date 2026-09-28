@@ -1,0 +1,9 @@
+{
+  "source": "なし",
+  "target": "None",
+  "context": "No unit selected for an ally slot; inserted into the deployment confirmation dialogue.",
+  "table_id": 3077,
+  "text_id": 2,
+  "resources": [4002050, 4002053, 4002054, 4002057],
+  "note": "Previously excluded as a non-unit sentinel in the unit-name translation. Matches the existing English None used for absent objectives."
+}

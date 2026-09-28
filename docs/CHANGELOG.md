@@ -26,6 +26,27 @@
 - Verify the workflow with 13 automated tests, including a synthetic-disc edit/write/verify round trip. Check the 91,074-row catalog against the original disc, a 2,709-row export/no-op verification and a single-table edit preview against 0.1.42, plus browser search, filtering, pagination and the control-code toggle. No Japanese script is stored in the committed catalog.
 - Add a README credits table matching the SRW-Z project's format: Project Lead — pow; Playtesting — SecondarySebs, BlackHowling | QiyoShiro. Documentation only; no new game build.
 
+## 0.9.0 — 2026-09-28 (release)
+
+- Adopt the requested **0.9.0** version for the latest 0.1.68 content. Include the empty-ally **None** correction, the **BATTLE STATIONS** briefing banner, and the Parameters gauge geometry repair. Preserve the prior opening/ending subtitles and all earlier translation work.
+- Package only the supported English-prologue edition, with a full original-disc patch and a smaller upgrade from published 0.1.65. Earlier supported releases upgrade through the existing chain. Keep canonical Retro Trans metadata, decode verification and public route verification with the release records.
+- The three latest fixes passed whole-disc byte checks. Briefing animation and stat gauge behavior still need fresh in-game confirmation; earlier movie/credits runtime limitations remain. The version change does not certify full translation coverage.
+
+## 0.1.68 — 2026-09-28 (test build)
+
+- Repair Parameters gauge fills overlapping their captions in the reported Player Select screen. The 0.1.49 fix shortened the fill meshes and shifted their widget origins, while the screenshot shows fills remaining at their old positions despite correctly shifted tick frames. Bake the 28-unit shift into the fill vertices and restore the native widget origins, following the Controls spacing fix.
+- Apply the correction to all 42 fill layers across the four previously adjusted Deployment, Unit Upgrades and recruitment layouts. Preserve intended world bounds, native fill/frame offsets, text, values, bindings, frame artwork and other layout fields. Build from 0.1.67 and verify the complete disc delta. In-game rendering and gauge animation still need testing; no public release is created.
+
+## 0.1.67 — 2026-09-28 (test build)
+
+- Translate the image-based briefing alert, 戦闘配備, as **BATTLE STATIONS** in all three shared briefing bundles. Render with the game's English glyphs and fit the four original character quads together into one line inside the existing brackets.
+- Preserve the indexed texture size, palette, animated border artwork, unrelated layout nodes and event data. Build from 0.1.66, retaining its empty-ally **None** correction. Inspect a reconstructed banner preview and verify the complete output disc against the six intended resource edits. In-game animation remains unverified; this is a local test build, not a public release.
+
+## 0.1.66 — 2026-09-28 (test build)
+
+- Translate the empty ally-slot placeholder to None in all four shared unit-name table copies (resources 4002050, 4002053, 4002054 and 4002057; table 3077, text ID 2). The earlier unit-name pass had excluded it as a non-unit sentinel, leaving Japanese in the deployment confirmation dialog.
+- Build from the exact published 0.1.65 image. Preserve every pointer, other table row, dialog format and unit selection; replace only the four five-byte string spans. Check copy coverage, native font width and the entire output disc against the intended edits. In-game appearance remains unverified; no public release is created.
+
 ## 0.1.65 — 2026-09-28 (release)
 
 - Package the approved 0.1.64 content as a distinct release identity using the original disc's file order. All 133 game files match the local test build. Release size: 4,455,581,696 bytes; SHA-256 `b8d7f75e714eb2a0575bf9b7d79030bdc7859a75552b4560bb13e166f633486a`.
