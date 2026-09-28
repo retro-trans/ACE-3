@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "manifest_sha256": "2dfc5112e7ed94e2e554fac1098a6437b7e272b83a7c7604291cc4cc9a40f3d4",
+  "patches": [
+    {
+      "patch": "ACE3-English-0.1.65-movie.xdelta",
+      "roundtrip_verified": true,
+      "target_sha256": "b8d7f75e714eb2a0575bf9b7d79030bdc7859a75552b4560bb13e166f633486a"
+    },
+    {
+      "patch": "ACE3-English-0.1.47-to-0.1.65-movie.xdelta",
+      "roundtrip_verified": true,
+      "target_sha256": "b8d7f75e714eb2a0575bf9b7d79030bdc7859a75552b4560bb13e166f633486a"
+    }
+  ]
+}

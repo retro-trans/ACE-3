@@ -30,6 +30,7 @@
 
 - Package the approved 0.1.64 content as a distinct release identity using the original disc's file order. All 133 game files match the local test build. Release size: 4,455,581,696 bytes; SHA-256 `b8d7f75e714eb2a0575bf9b7d79030bdc7859a75552b4560bb13e166f633486a`.
 - Provide an original-disc full patch and a published English-prologue v0.1.47 upgrade, using the current Retro Trans builder and validator. Retain older supported upgrade paths through the catalog. Release notes follow the established Apply/changes/status/included/translation/acknowledgements/source/Contribute format and preserve the remaining runtime and translation limitations.
+- Both patches passed full decode verification; all five uploaded assets matched their local sizes and SHA-256 hashes. Published v0.1.65 and confirmed successful catalog workflow 36372451127. Verified public automatic routes from original, 0.1.35, 0.1.42 and 0.1.47, plus the 0.1.65 no-op and unknown-disc rejection. Store canonical metadata and the published route check under `docs/releases/0.1.65`.
 
 ## 0.1.64 — 2026-09-28 (test build)
 

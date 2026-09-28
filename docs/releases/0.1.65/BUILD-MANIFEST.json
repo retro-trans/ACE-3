@@ -1,0 +1,42 @@
+{
+  "game_id": "ace-3",
+  "game_name": "Another Century's Episode 3: The Final",
+  "platform": "PS2",
+  "version": "0.1.65",
+  "source_commit": "485376d45317b50aa50d7c987a88efd278da7f33",
+  "schema_version": 1,
+  "patches": [
+    {
+      "patch": "ACE3-English-0.1.65-movie.xdelta",
+      "edition": "English prologue",
+      "language": "en",
+      "source_version": "original",
+      "source_format": "iso",
+      "target_format": "iso",
+      "source_sha256": "5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705",
+      "source_bytes": 4447076352,
+      "target_sha256": "b8d7f75e714eb2a0575bf9b7d79030bdc7859a75552b4560bb13e166f633486a",
+      "target_bytes": 4455581696,
+      "patch_sha256": "b2372143e2bc5c8ffc94169227fff1ff1c2dc63836e19f342cbd28aab8886d36",
+      "patch_bytes": 235468785,
+      "source_sha1": "e28be00d97ee6624e3985acf9b5267b184c58d78",
+      "target_sha1": "6ec140c252729383de54d5e0565174199a579daf"
+    },
+    {
+      "patch": "ACE3-English-0.1.47-to-0.1.65-movie.xdelta",
+      "edition": "English prologue",
+      "language": "en",
+      "source_version": "0.1.47",
+      "source_format": "iso",
+      "target_format": "iso",
+      "source_sha256": "b86f9a52d2b8bfae419d5a7d7bd48d59665787b3e6393e3722d9dc757129aa8e",
+      "source_bytes": 4455428096,
+      "target_sha256": "b8d7f75e714eb2a0575bf9b7d79030bdc7859a75552b4560bb13e166f633486a",
+      "target_bytes": 4455581696,
+      "patch_sha256": "e4dbe9458cd9501f28a06b940a38a678070e580874c9c51132b8779d64da0ad1",
+      "patch_bytes": 55864333,
+      "source_sha1": "254f9e475d59f41bb058facbdecc9317c6d3c1b6",
+      "target_sha1": "6ec140c252729383de54d5e0565174199a579daf"
+    }
+  ]
+}
