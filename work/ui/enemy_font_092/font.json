@@ -1,0 +1,18 @@
+{
+  "version": "0.9.2",
+  "screen": "In-mission lock-on target name",
+  "reported_name": "Monsuno type10",
+  "reported_render": "???s??? ????10",
+  "bundles": [1200000, 1200001, 1200002, 1200003, 1200004, 1200005, 1200006, 1200007],
+  "font_id": 2501,
+  "texture_id": 2001,
+  "font_height": 16,
+  "atlas_size": [256, 256],
+  "pixel_format": "PSMT4HH",
+  "donor_font_resource": 35,
+  "donor_texture_resource": 36,
+  "ascii_aliases_added": 32,
+  "glyphs_added": 47,
+  "original_glyphs_preserved": 242,
+  "runtime_verified": false
+}

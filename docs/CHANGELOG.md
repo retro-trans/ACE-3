@@ -26,6 +26,22 @@
 - Verify the workflow with 13 automated tests, including a synthetic-disc edit/write/verify round trip. Check the 91,074-row catalog against the original disc, a 2,709-row export/no-op verification and a single-table edit preview against 0.1.42, plus browser search, filtering, pagination and the control-code toggle. No Japanese script is stored in the committed catalog.
 - Add a README credits table matching the SRW-Z project's format: Project Lead — pow; Playtesting — SecondarySebs, BlackHowling | QiyoShiro. Documentation only; no new game build.
 
+## 0.9.3 — 2026-09-29
+
+- Integrate the two remaining prepared English movie tracks: MOVIE003 (Axis, 48 subtitle cues) and MOVIE006 (resonance / two Earths, 11 cues). Retain the reviewed preview wording, timing and layout. Preserve original movie audio, non-video packets, frame counts, frame rates and file sizes; decode-check both remuxes and verify the full output disc.
+- Include the 0.9.1 **Combo Attack / Damage** Deployment-column repair and the 0.9.2 lock-on HUD font repair. Preserve opening lyrics, prologue subtitles, simultaneous credits dialogue/song captions and the ending disclaimer.
+- Package the supported English-prologue edition with an original-disc full patch and a published 0.9.0 upgrade, using canonical Retro Trans metadata and complete decode verification. New movie playback and the two UI fixes still require fresh-boot in-game confirmation; the unresolved short speaker label in MOVIE006 remains documented.
+
+## 0.9.2 — 2026-09-29 (test build)
+
+- Repair the separate lock-on HUD font in all eight gameplay bundles. Its missing ASCII letters reproduced the reported **Monsuno type10** label as `???s??? ????10`. Add 32 aliases and 47 glyphs from the game's own complete font, covering all printable ASCII without changing enemy names.
+- Preserve all 242 original glyphs and the HUD atlas dimensions, GPU header and palette. Build from 0.9.1, retaining the Deployment caption repair; verify all archive payloads and disc files. In-game confirmation remains pending. The two outstanding CG movies are still not integrated; no public release is created.
+
+## 0.9.1 — 2026-09-29 (test build)
+
+- Repair the blank **Combo Attack** and **Damage** captions in the Deployment team summary. Both translations were already present, but exceeded their original local text boxes. Widen the caption column and move its separators and values right through vertex geometry, preserving origins, text, bindings and the outer panel.
+- Build from published 0.9.0 with guarded layout edits and a complete output-disc byte check. In-game confirmation remains pending; this is a local test build, not a public release.
+
 ## 0.9.0 — 2026-09-28 (release)
 
 - Adopt the requested **0.9.0** version for the latest 0.1.68 content. Include the empty-ally **None** correction, the **BATTLE STATIONS** briefing banner, and the Parameters gauge geometry repair. Preserve the prior opening/ending subtitles and all earlier translation work.

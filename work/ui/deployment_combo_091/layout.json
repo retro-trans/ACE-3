@@ -1,0 +1,13 @@
+{
+  "version": "0.9.1",
+  "screen": "Deployment team summary",
+  "bundle": 4002053,
+  "layout": 9,
+  "divider_node": 43,
+  "column_shift": 74,
+  "rows": [
+    {"node": 44, "text_id": 15, "text": "Combo Attack", "value_node": 45, "value_type": 10, "value_binding": 171},
+    {"node": 48, "text_id": 17, "text": "Damage", "value_node": 49, "value_type": 11, "value_binding": 172}
+  ],
+  "notes": "Coordinates use the native layout units. Widen the first column through vertex geometry; retain widget origins, scales, bindings and allocations. Other shared menu bundles use different layouts/tables."
+}
