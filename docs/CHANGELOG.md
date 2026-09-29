@@ -26,11 +26,12 @@
 - Verify the workflow with 13 automated tests, including a synthetic-disc edit/write/verify round trip. Check the 91,074-row catalog against the original disc, a 2,709-row export/no-op verification and a single-table edit preview against 0.1.42, plus browser search, filtering, pagination and the control-code toggle. No Japanese script is stored in the committed catalog.
 - Add a README credits table matching the SRW-Z project's format: Project Lead — pow; Playtesting — SecondarySebs, BlackHowling | QiyoShiro. Documentation only; no new game build.
 
-## 0.9.3 — 2026-09-29
+## 0.9.3 — 2026-09-29 (release)
 
 - Integrate the two remaining prepared English movie tracks: MOVIE003 (Axis, 48 subtitle cues) and MOVIE006 (resonance / two Earths, 11 cues). Retain the reviewed preview wording, timing and layout. Preserve original movie audio, non-video packets, frame counts, frame rates and file sizes; decode-check both remuxes and verify the full output disc.
 - Include the 0.9.1 **Combo Attack / Damage** Deployment-column repair and the 0.9.2 lock-on HUD font repair. Preserve opening lyrics, prologue subtitles, simultaneous credits dialogue/song captions and the ending disclaimer.
 - Package the supported English-prologue edition with an original-disc full patch and a published 0.9.0 upgrade, using canonical Retro Trans metadata and complete decode verification. New movie playback and the two UI fixes still require fresh-boot in-game confirmation; the unresolved short speaker label in MOVIE006 remains documented.
+- Published `v0.9.3` after both patch round trips, upstream package validation and uploaded asset size/SHA-256 checks passed. Catalog workflow `36506289941` succeeded; the actual public catalog routes original, 0.1.35, 0.1.42, 0.1.47, 0.1.65 and 0.9.0 images to 0.9.3, recognizes 0.9.3 as current, excludes the discontinued edition and rejects unknown discs. Records are in `docs/releases/0.9.3/`. Release output SHA-256: `e8a5173150f3c44017adb652aee4798696d3e6ab1ebf86d4bc611b800d53b02b`.
 
 ## 0.9.2 — 2026-09-29 (test build)
 

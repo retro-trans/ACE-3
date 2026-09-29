@@ -1,0 +1,72 @@
+{
+  "version": "0.9.3",
+  "candidate": false,
+  "verified": true,
+  "unknown_disc_rejected": true,
+  "routes": [
+    {
+      "edition": "English prologue",
+      "source": "original",
+      "target": "0.9.3",
+      "patches": [
+        "ACE3-English-0.9.3-movie.xdelta"
+      ]
+    },
+    {
+      "edition": "English prologue",
+      "source": "0.1.42",
+      "target": "0.9.3",
+      "patches": [
+        "ACE3-English-0.1.42-to-0.1.47-movie.xdelta",
+        "ACE3-English-0.1.47-to-0.1.65-movie.xdelta",
+        "ACE3-English-0.1.65-to-0.9.0-movie.xdelta",
+        "ACE3-English-0.9.0-to-0.9.3-movie.xdelta"
+      ]
+    },
+    {
+      "edition": "English prologue",
+      "source": "0.1.35",
+      "target": "0.9.3",
+      "patches": [
+        "ACE3-English-0.1.35-to-0.1.42-movie.xdelta",
+        "ACE3-English-0.1.42-to-0.1.47-movie.xdelta",
+        "ACE3-English-0.1.47-to-0.1.65-movie.xdelta",
+        "ACE3-English-0.1.65-to-0.9.0-movie.xdelta",
+        "ACE3-English-0.9.0-to-0.9.3-movie.xdelta"
+      ]
+    },
+    {
+      "edition": "English prologue",
+      "source": "0.1.47",
+      "target": "0.9.3",
+      "patches": [
+        "ACE3-English-0.1.47-to-0.1.65-movie.xdelta",
+        "ACE3-English-0.1.65-to-0.9.0-movie.xdelta",
+        "ACE3-English-0.9.0-to-0.9.3-movie.xdelta"
+      ]
+    },
+    {
+      "edition": "English prologue",
+      "source": "0.1.65",
+      "target": "0.9.3",
+      "patches": [
+        "ACE3-English-0.1.65-to-0.9.0-movie.xdelta",
+        "ACE3-English-0.9.0-to-0.9.3-movie.xdelta"
+      ]
+    },
+    {
+      "edition": "English prologue",
+      "source": "0.9.0",
+      "target": "0.9.3",
+      "patches": [
+        "ACE3-English-0.9.0-to-0.9.3-movie.xdelta"
+      ]
+    },
+    {
+      "edition": "English prologue",
+      "source": "0.9.3",
+      "target": "0.9.3",
+      "patches": []
+    }
+  ]
+}
