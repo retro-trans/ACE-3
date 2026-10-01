@@ -1,0 +1,53 @@
+{
+  "version": "0.9.16",
+  "shift_x": 30,
+  "total_shift_from_original": -60,
+  "coordinates": [
+    {
+      "role": "speaker",
+      "offset": 114,
+      "old_x": -290,
+      "new_x": -260,
+      "y": 145,
+      "old_screen_x": 30,
+      "new_screen_x": 60
+    },
+    {
+      "role": "dialogue",
+      "offset": 146,
+      "old_x": -274,
+      "new_x": -244,
+      "y": 165,
+      "old_screen_x": 46,
+      "new_screen_x": 76
+    }
+  ],
+  "copies": [
+    {
+      "resource_id": 102006,
+      "config_offset": 0
+    },
+    {
+      "resource_id": 103000,
+      "config_offset": 1056768
+    }
+  ],
+  "coordinate_table_resource": 1,
+  "config_sha256": "2d426050e60246251f463cfdfdb24d58eeccb65f5917f9a49087eb343fef4698",
+  "plain_archive_payloads_scanned": 6206,
+  "packed_headers_audited": 4138,
+  "packed_matching_extent_candidates": [],
+  "changed_coordinate_fields": 4,
+  "preserve": [
+    "vertical positions",
+    "16-unit dialogue indent",
+    "line breaks",
+    "font",
+    "timing",
+    "portrait dialogue layouts",
+    "movies",
+    "credits and lyrics"
+  ],
+  "renderer": "0x233c50: speaker X/Y at record +2/+4, dialogue X/Y at +0x22/+0x24; centered native X plus 320",
+  "runtime_verified": false
+}

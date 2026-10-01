@@ -1,0 +1,21 @@
+{
+  "status": "preview_only_not_applied",
+  "base_version": "0.9.6",
+  "bundle": 4002050,
+  "font": 2500,
+  "texture": 2000,
+  "change": "RGB contrast only; glyph alpha and metrics unchanged",
+  "levels": {
+    "input_black": 55,
+    "input_white": 180,
+    "output_black": 20,
+    "output_white": 255
+  },
+  "enlargement": "1.5x bilinear on both specimens",
+  "limitations": [
+    "Not a runtime screenshot",
+    "No added texture resolution",
+    "Not tested against bright gameplay backgrounds",
+    "Other font atlases and icons are not evaluated"
+  ]
+}

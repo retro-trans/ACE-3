@@ -1,5 +1,82 @@
 # Changelog
 
+## 0.9.16 release — 2026-10-02
+
+- Package local 0.9.16 as the supported English-prologue release, incorporating the 0.9.4–0.9.16 font, staff-credit, wording and layout changes. Use the original disc's file order for patch size efficiency and verify all 133 file payloads against the local build.
+- Provide full original-disc and exact published 0.9.3 upgrade patches, with canonical manifest, decode-verification report and checksums. Use the current upstream release standard and validator at `36f90fcb316195a537aaa7d25361ca2add5a0b1d`; record candidate and public automatic-routing checks in the release metadata directory. Keep the six provisional staff-name readings and runtime limitations explicit in the release notes.
+
+## 0.9.16 — 2026-10-01 (local cinematic alignment adjustment)
+
+- Reduce the cinematic speaker/dialogue leftward shift from 90 to 60 native pixels, as requested. Move both 30 pixels right relative to 0.9.14/0.9.15: speaker frame X 30 → 60, dialogue X 46 → 76. Retain the 16-pixel relative indent and vertical placement.
+- Update the same four signed coordinate fields in configuration 102006 and its embedded copy in 103000. Retain 0.9.15's CAUTION correction and all other content. The local builder scans coordinate copies, checks renderer instructions and verifies every ISO byte against the base plus the four planned edits; in-game alignment remains subject to visual confirmation.
+
+## 0.9.15 — 2026-10-01 (local CAUTION rendering regression test)
+
+- Fix the object layout behind the garbled memory-card CAUTION header reported in 0.9.13/0.9.14. The UI sprite renderer binds the first material's texture once for the object; adding font glyphs as a second material caused them to sample the frame atlas instead.
+- Separate the seven HD glyph strips into their own object using font texture 2000. Keep the five frame strips on texture 50101. Add a matching animation record so the label follows the frame's motion data. Apply this to all three card-panel bundles; retain 0.9.14's left-aligned cinematic speaker/dialogue.
+- Verify object/material separation, graph reachability, shared motion data, preserved geometry/font resources and rebuilt bundle readback. The build verifies all archive payloads and ISO files. Fresh-boot label rendering and panel animation still need in-game confirmation; this is a local test, not a public release.
+
+## 0.9.14 — 2026-10-01 (local cinematic text alignment test)
+
+- Move the native cinematic speaker and dialogue 90 units left. The speaker now starts 30 units inside the 640-wide frame instead of 120; the dialogue starts at 46 instead of 136. Keep their 16-unit relative indent, vertical positions, font, wording, line breaks and timing.
+- Update the two signed X fields in configuration 102006, resource 1, and its identical embedded copy at offset 0x102000 in container 103000. Trace the cinematic draw routine's coordinate loads and confirm the original coordinates against saved EE memory. Portrait dialogue layouts, movie streams, credits/lyrics and the executable are unchanged.
+- Scan all 6,206 plain archive payloads for matching coordinate records and all 4,138 compressed headers for matching standalone/container extents (no candidates). Verify the complete new ISO against 0.9.13 plus exactly four two-byte coordinate edits. Local test only; fresh-boot alignment still needs in-game confirmation.
+
+## 0.9.13 — 2026-10-01 (local HD Caution-label test)
+
+- Replace the low-resolution italic CAUTION image in the memory-card warning panel with seven glyph quads sampled from the existing embedded HD menu font. Use a 16-unit serif font cell, with a small gap after the vertical marker. The frame's five other strips, body warning, panel behavior, fonts and shared image atlas remain unchanged.
+- Apply the mesh change to layout 35 in all three menu bundles (4002050, 4002054 and 4002057), using each bundle's own glyph coordinates. Remove the old caption strip from the active draw list, preserve the frame material and add a separate font-atlas material. No new texture allocation or external texture pack is introduced.
+- Validate the original mesh/hash, material and strip lists, glyph coverage, vertex/UV/color indices, header bounds, rebuilt layouts and unchanged resources. Audit compressed headers for matching menu-bundle sizes (none found). The builder verifies all archive payloads and disc files. Reconstructed comparison and geometry metadata are under `work/ui/caution_0913`; fresh-boot rendering still needs testing. Retain 0.9.12's compressed English credits fix. Local test only.
+## 0.9.12 — 2026-10-01 (local compressed-credits fix)
+
+- Fix the missing runtime integration in 0.9.11: it updated only plain scene resource 4350, while the fresh-boot ending loads its compressed twin, resource 701349. The user's PCSX2 log confirms booting 0.9.11 without loading a state; the original staff table in the resulting saved EE memory matches the packed scene's table byte-for-byte. Searching only uncompressed archive bytes failed to detect this copy.
+- Copy the translated credits table and embedded 3x font into the compressed scene, along with the existing English closing story disclaimer (STUF image 107), which was also absent from the packed copy. Preserve the six other logo/image assets, all nine graphics-command rows, blank/null row slots, other scene chunks, animation, dialogue and song timing.
+- Audit all 4,138 compressed resource headers; resource 701349 is the only packed resource with the matching scene extent. Recompress and decode-verify the scene, keeping both its unpacked chunk positions and its original packed archive allocation unchanged. Check every English target and compare the complete ISO against 0.9.11 plus this one packed-resource edit. This local test supersedes 0.9.11 for credits playback; fresh-boot rendering still needs confirmation.
+
+## 0.9.11 — 2026-10-01 (local English credits test)
+
+- Integrate the English staff roll into the game: 323 text rows, including translated roles/organizations and romanized staff/cast names. Preserve all 781 row slots, blank/null rows, nine graphic-command rows, song-title color commands and company/logo artwork. Correct conflicting online attributions for Go Aoba, Kaori Nazuka and Kojiro Taniguchi against the disc names and additional references.
+- Use provisional romanizations for six otherwise unverified names, explicitly authorized by the user. List every provisional name and source text ID in `docs/STAFF_CREDITS_0911.md` and the build report; do not present those readings as verified.
+- Replace the dedicated credits font with a complete 95-glyph ASCII serif font rasterized at 3x with antialiasing and a dark outline, embedded in the original 512x512 texture allocation. Center translated lines using measured advances and the original scroll origin/21-pixel line height. Four-times sampling of the full ASCII set exceeds this allocation. No emulator texture replacements are needed.
+- Rebuild only the credits STUF bundle within its existing chunk extent. Retain every other resource, motion/timing track, ending dialogue/lyrics, main/HUD fonts and earlier fixes. Validate glyph packing, texture encode/decode, translation/source hashes, line bounds, rebuilt resources, row IDs and the full disc against 0.9.10 plus the one planned bundle edit. Save reconstructed font previews under `work/ui/staff_credits_0911`. In-game playback remains unverified; this is a local test ISO, not a public release.
+
+## 0.9.10 — 2026-10-01 (local Player Sorties test)
+
+- Replace the Player Sorties bitmap sprite in the shared unit-stat panel with a native text widget using the existing HD menu font. Bind the previously unused Sorties text entry to the full Player Sorties label, fit it to the original label column, and retain the counter, divider, other strings and font resources. This avoids repeatedly resampling the old bitmap.
+- Verify the sprite preimage, donor text binding, glyph-buffer capacity, label width, unchanged strings and unrelated layout bytes. The fixed-size builder checks the whole ISO against 0.9.9 plus the two planned resource edits. Runtime alignment still requires a fresh-boot test.
+- Start the staff-roll translation draft: 93 heading/organization entries translated and 53 personal-name entries matched to the indexed MobyGames credits. Preserve nine graphic-command rows and three existing English entries. Leave 174 personal-name rows pending verification rather than guessing readings; flag the conflicting reference at text ID 659. Store source hashes instead of a duplicate Japanese script and create an English first-page preview. This draft is not integrated into the ISO; full Latin font coverage, width/centering checks and roll testing remain necessary.
+
+## 0.9.9 — 2026-10-01 (local remaining-font test)
+
+- Replace the inconsistent lock-on enemy-name lettering in all eight gameplay bundles with freshly rasterized bold sans-serif letters on a common baseline. Use supersampled antialiasing, five previously unused palette entries for brighter fills/smoother outlines, and approximately 1.125x glyph sampling within the original 256x256 PSMT4HH texture. A 4x enemy font does not fit while retaining every existing glyph; keep its shared graphics-memory allocation unchanged.
+- Upgrade Latin glyphs in both remaining 20px gameplay fonts and the standalone 12px fallback font to 3x sampling. Upgrade the 23 existing printable Latin glyphs in the staff-roll font to 1.5x. Preserve every character mapping, all original text metrics and all other glyph pixels and sampled colors. Staff names, Japanese characters, credits timing and translation are unchanged.
+- Preserve the 13 existing 19px HD dialogue/menu font bundles byte-for-byte, as requested after the user clarified that the dialogue looked fine. Retain 0.9.8's Battle Stations banner and earlier fixes. Baked HUD artwork and movie/image lettering are outside this font-resource change.
+- Verify glyph bounds/non-overlap, encode/decode round trips, unchanged mappings/metrics/non-Latin pixels, and the whole ISO against the base plus 24 planned resource edits. Save reconstructed comparisons and per-font capacity reports under `work/ui/font_all_099`. Runtime rendering and filtering still require fresh-boot testing; no public release is published.
+
+## 0.9.8 — 2026-10-01 (local briefing-banner test)
+
+- Redraw the Battle Stations banner with clean, anti-aliased condensed lettering in a 128x128 native texture. Increase the four text quads from 224x28 to 236x40 while keeping the bracket geometry and nine native units of horizontal clearance. Preserve the original palette and border artwork.
+- Update all three briefing bundle copies, retaining the 0.9.7 embedded HD fonts and earlier fixes. Check texture allocation boundaries, layout preimages, unchanged resources, and all archive/disc payloads during the build. Include a reconstructed before/after preview under `work/ui/banner_098`.
+- This is a local test build. In-game animation, filtering and graphics-memory behavior still require testing; no public release is published.
+
+## 0.9.7 — 2026-10-01 (local HD-font test)
+
+- Build on 0.9.6 with freshly rasterized, anti-aliased 4x English letters in 13 main 19px font bundles. Repack the letters into the original 1024x512, 16-color textures with no external emulator texture pack. Keep texture allocation sizes, GPU addresses, palettes, text advances and the original button/symbol glyph pixels.
+- Retain Japanese glyphs referenced by the existing menu/gameplay BND text tables during this test, including song titles and Type Change labels. Reclaim other Japanese-only glyphs to make room; unclassified/legacy mission variants remain outside confirmed coverage. This is not a claim that all Japanese text has been translated.
+- Leave the dedicated staff-roll font/text, ending captions and songs, movies, baked labels, small HUD fonts and 20px secondary fonts unchanged. Preserve the Comm, dialogue-wording and limiter-dialog fixes inherited from 0.9.4–0.9.6.
+- Check glyph bounds and non-overlap, texture encoding round trips, retained glyph pixels/metrics and text widths. The fixed-size writer verifies the entire ISO against the base plus the planned font-resource edits. In-game font sizing/filtering, seam behavior and runtime readability still require testing; this is not a public release.
+
+## Font clarity preview — 2026-10-01 (no game build)
+
+- Inspect live staff-roll font dependencies: identify resource 4350's STUF text table and dedicated 20px font/texture, and confirm the roll's local-font selection in the ending event data and executable. Extend the Japanese inventory to include this previously excluded chunked table (333 nonempty rows, 315 containing Japanese). Keep staff credits untouched by main-font prototypes; require translation/name verification before changing their font. No credits text or ISO is modified.
+
+- Test the user's English-only font direction: omit Japanese-only text glyphs while retaining non-Japanese mappings, icons and symbols, then repack freshly rendered 4x Latin glyphs into the existing native 1024x512/16-color font textures. All five representative 19px fonts fit at 387–415 of 512 rows with padding; texture sizes, GPU headers, palettes and glyph metrics stay unchanged. Verify texture encoding round trips, retained symbol pixels and text widths. Save local native-format resources and a decoded preview, without modifying an ISO. Runtime sampling and remaining Japanese text still prevent integration.
+- Add a remaining-Japanese inventory for supported BND and mission text tables. Store only hashes/locations/counts, with detailed results ignored under `work/local`. Flag song-title and Type Change menu rows for translation; distinguish legacy and unclassified mission variants from proven runtime content. This audit does not cover every game text format or certify all remaining rows as visible.
+
+- Audit five representative main-font atlases for higher-resolution Latin glyphs. Existing 1024x512 PSMT4 storage cannot accommodate a straightforward 2x Latin replacement in the menu/deployment/gameplay samples while keeping every other glyph rectangle; the shared texture address also prevents simply doubling atlas height. Create a separate 4x menu-atlas prototype with freshly rasterized anti-aliased serif letters and a three-way visual comparison. Preserve original font metrics and all non-Latin glyph pixels at nearest-neighbor 4x. The prototype is not an installable emulator pack, has no runtime verification and does not modify the ISO.
+
+- Add a local comparison tool using the actual 0.9.6 menu font. Compare the existing gray lettering with brighter strokes and stronger contrast while keeping the glyph shapes, alpha, spacing and identical enlargement. Save the specimens and preview settings under `work/ui/font_preview`. This is a visual experiment only: no ISO, translation, font resource or release is changed, and gameplay backgrounds and other font atlases remain untested.
+
 ## Unreleased — 2026-09-26
 
 - Reformat both published release descriptions to follow SRW-Z: Apply, changes, release status, included content, translation details, acknowledgements, source code and Contribute. Preserve ACE3-specific source/output hashes, patch routes and runtime limitations; distinguish manual installation of the older release from current automatic patching. Keep local copies of both descriptions. Release assets are unchanged.
@@ -25,6 +102,23 @@
 - Add Check the translation and Translate it README sections, a standalone offline comparison page, an English/offset-only 0.1.42 comparison catalog, and a documented export/edit/apply/verify workflow for supported BND and mission text tables. The generic editor checks preimages and controls, preserves fixed extents, writes a new ISO and verifies the exact output delta. Unsupported formats, resource-copy handling and runtime layout limits are explicit. Tooling only; no new game release.
 - Verify the workflow with 13 automated tests, including a synthetic-disc edit/write/verify round trip. Check the 91,074-row catalog against the original disc, a 2,709-row export/no-op verification and a single-table edit preview against 0.1.42, plus browser search, filtering, pagination and the control-code toggle. No Japanese script is stored in the committed catalog.
 - Add a README credits table matching the SRW-Z project's format: Project Lead — pow; Playtesting — SecondarySebs, BlackHowling | QiyoShiro. Documentation only; no new game build.
+
+## 0.9.6 — 2026-09-30 (test build)
+
+- Restore the original seven-line height of the limiter-release purchase confirmation. Its translated explanation lost the four trailing blank lines that reserve space for Ace Points, Cost and Remaining Ace Points, causing the centered text to overlap the numeric panel.
+- Apply the same reserved-height fix to normal and discounted unit-upgrade confirmations in all three shared menu copies. Preserve the wording, unit-name placeholders, discount icon, prices and calculations; check all 106 roster substitutions per upgrade prompt against the width and character limits.
+- Insert the required line breaks using 13 bytes of existing unused padding per table, adjusting string pointers and verifying every table row. Build from 0.9.5 with complete disc verification. Fresh-boot in-game confirmation of the restored spacing remains pending.
+
+## 0.9.5 — 2026-09-30 (test build)
+
+- Correct Hayato's Situation Report, **The Incident 13 Years Ago**, from **fired a Deuteron Missile at Earth** to **fired a Deuteron Missile at us**, as requested. Update the translation source and active scene text while preserving existing line breaks, glossary links, picture cues, pointers and allocation.
+- Build from 0.9.4, retaining the Comm badge and Jamil wording fixes. Check text fit and verify the full disc against the single intended string edit; in-game confirmation remains pending.
+
+## 0.9.4 — 2026-09-30 (test build)
+
+- Center **Comm** inside the shared communication-window badge and remove its 4% horizontal stretch. Move the local text vertices while retaining the native origin, line allocation, frame and animation data. Check all nine applicable fonts; the widest label has over six native units of padding on each side.
+- Apply the user's wording correction to Jamil's line: **Thanks to your hard work fighting, we were able to handle it fast.** Update the translation source and all four copies of the scene. Fit the text on two lines, preserving its commands and every other dialogue row.
+- Build from published 0.9.3, retaining all earlier fixes and movie subtitles. Validate layout boundaries, dialogue widths and the complete output disc. Fresh-boot in-game confirmation remains pending; this is a local test build.
 
 ## 0.9.3 — 2026-09-29 (release)
 

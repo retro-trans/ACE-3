@@ -1,0 +1,11 @@
+{
+  "version": "0.9.6",
+  "bundles": [4002050, 4002053, 4002057],
+  "table_id": 3013,
+  "text_ids": [190, 191, 192],
+  "total_lines": 7,
+  "minimum_reserved_lines": 4,
+  "width": 410,
+  "capacity": 255,
+  "notes": "The stock purchase confirmations use seven lines including trailing blanks. These reserve the lower area for the separate Ace Points, Cost and Remaining Ace Points widgets. Keep trailing newlines when translating or wrapping these rows."
+}

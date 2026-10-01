@@ -1,0 +1,15 @@
+{
+  "version": "0.9.4",
+  "bundle": 1200009,
+  "layout": 0,
+  "layout_sha256": "49afaa78305b2f272076f36f06493c73255d7261b4485b1961edff9fd1414585",
+  "frame_node": 2,
+  "text_node": 3,
+  "binding": 267,
+  "text_table": 3013,
+  "text_id": 180,
+  "text": "Comm",
+  "scale_x": 1.0,
+  "minimum_horizontal_padding": 6,
+  "notes": "Binding 267 resolves through the gameplay text-pointer array to table 3013, ID 180. Center the rendered label by moving local vertices, preserving its origin and local line width. Keep the frame unchanged."
+}

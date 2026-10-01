@@ -1,0 +1,2678 @@
+{
+  "summary": {
+    "font": {
+      "face": "Times New Roman",
+      "sampling": 3,
+      "atlas": [
+        512,
+        512
+      ],
+      "ascii_glyphs": 95,
+      "font_height": 20,
+      "palette_and_gpu_allocation_preserved": true,
+      "texture_round_trip_verified": true,
+      "unavailable_larger_scales": [
+        [
+          4,
+          "pixel capacity"
+        ]
+      ]
+    },
+    "translated_rows": 323,
+    "graphic_rows_preserved": 9,
+    "row_slots": 781,
+    "english_target_rows": 323,
+    "provisional_names": [
+      {
+        "text_id": 177,
+        "text": "Naoto Sawaguchi",
+        "width": 157.5,
+        "x": 242.25,
+        "center": 321.0,
+        "status": "provisional_romanization"
+      },
+      {
+        "text_id": 179,
+        "text": "Tomohiro Ishii",
+        "width": 135.45000000000002,
+        "x": 252.75,
+        "center": 320.475,
+        "status": "provisional_romanization"
+      },
+      {
+        "text_id": 184,
+        "text": "Tokuya Saito",
+        "width": 120.75,
+        "x": 258.0,
+        "center": 318.375,
+        "status": "provisional_romanization"
+      },
+      {
+        "text_id": 186,
+        "text": "Tomonori Nishikawa",
+        "width": 190.05,
+        "x": 226.5,
+        "center": 321.525,
+        "status": "provisional_romanization"
+      },
+      {
+        "text_id": 427,
+        "text": "Ryo Shin (Burning Publishers)",
+        "width": 278.25,
+        "x": 179.25,
+        "center": 318.375,
+        "status": "provisional_romanization"
+      },
+      {
+        "text_id": 434,
+        "text": "Daiki Watanabe (Burning Production)",
+        "width": 342.3,
+        "x": 147.75,
+        "center": 318.9,
+        "status": "provisional_romanization"
+      }
+    ],
+    "original_chunk_bytes": 231136,
+    "rebuilt_bundle_bytes": 214464,
+    "centering": {
+      "origin_x": 90,
+      "center_x": 320,
+      "line_height": 21,
+      "safe_x": [
+        80,
+        560
+      ]
+    },
+    "row_ids_and_blank_rows_preserved": true,
+    "logo_assets_and_commands_preserved": true,
+    "timing_dialogue_lyrics_and_other_fonts_unchanged": true,
+    "texture_replacement_required": false,
+    "runtime_verified": false
+  },
+  "lines": [
+    {
+      "text_id": 6,
+      "text": "Another Century's Episode 3",
+      "width": 258.3,
+      "x": 189.75,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 7,
+      "text": "THE FINAL",
+      "width": 113.4,
+      "x": 263.25,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 9,
+      "text": "Staff",
+      "width": 43.050000000000004,
+      "x": 300.0,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 29,
+      "text": "Director",
+      "width": 73.5,
+      "x": 284.25,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 31,
+      "text": "Yui Tanimura",
+      "width": 124.95,
+      "x": 258.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 36,
+      "text": "Programming Director",
+      "width": 201.60000000000002,
+      "x": 221.25,
+      "center": 322.05,
+      "status": "translated"
+    },
+    {
+      "text_id": 38,
+      "text": "Yoshitaka Suzuki",
+      "width": 158.55,
+      "x": 242.25,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 43,
+      "text": "Graphics Director",
+      "width": 158.55,
+      "x": 242.25,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 45,
+      "text": "Tomoya Kawasaki",
+      "width": 165.9,
+      "x": 237.0,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 50,
+      "text": "CG Director",
+      "width": 109.2,
+      "x": 263.25,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 52,
+      "text": "Toshiyuki Suzuki",
+      "width": 160.65,
+      "x": 242.25,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 57,
+      "text": "Sound Director",
+      "width": 137.55,
+      "x": 252.75,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 59,
+      "text": "Tsukasa Saitoh",
+      "width": 135.45000000000002,
+      "x": 252.75,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 68,
+      "text": "Programmers",
+      "width": 118.65,
+      "x": 263.25,
+      "center": 322.575,
+      "status": "translated"
+    },
+    {
+      "text_id": 70,
+      "text": "Yusuke Ebata",
+      "width": 123.9,
+      "x": 258.0,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 72,
+      "text": "Kazuaki Ito",
+      "width": 103.95,
+      "x": 268.5,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 74,
+      "text": "Akira Sadoyama",
+      "width": 148.05,
+      "x": 247.5,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 76,
+      "text": "Yoshiaki Watanabe",
+      "width": 174.3,
+      "x": 231.75,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 81,
+      "text": "Game Designers",
+      "width": 144.9,
+      "x": 247.5,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 83,
+      "text": "Shigeto Hirai",
+      "width": 119.7,
+      "x": 258.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 85,
+      "text": "Hayato Taka",
+      "width": 113.4,
+      "x": 263.25,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 87,
+      "text": "Shinichiro Naito",
+      "width": 149.1,
+      "x": 247.5,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 89,
+      "text": "Nozomi Saito",
+      "width": 122.85000000000001,
+      "x": 258.0,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 94,
+      "text": "3D Graphics Designers",
+      "width": 205.8,
+      "x": 216.0,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 96,
+      "text": "Akihiro Hayano",
+      "width": 144.9,
+      "x": 247.5,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 98,
+      "text": "Suguru Ueda",
+      "width": 117.60000000000001,
+      "x": 263.25,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 100,
+      "text": "Kohkichi Takahashi",
+      "width": 180.6,
+      "x": 231.75,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 102,
+      "text": "Fuuta Kamei",
+      "width": 114.45,
+      "x": 263.25,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 104,
+      "text": "Takashi Matsuo",
+      "width": 142.8,
+      "x": 247.5,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 106,
+      "text": "Takayuki Sugimura",
+      "width": 177.45000000000002,
+      "x": 231.75,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 108,
+      "text": "Yoshihito Okada",
+      "width": 152.25,
+      "x": 242.25,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 113,
+      "text": "2D Graphics Designers",
+      "width": 205.8,
+      "x": 216.0,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 115,
+      "text": "Junichiro Ishino",
+      "width": 145.95000000000002,
+      "x": 247.5,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 117,
+      "text": "Tomoko Watanabe",
+      "width": 170.1,
+      "x": 237.0,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 119,
+      "text": "Naomi Maehara",
+      "width": 141.75,
+      "x": 247.5,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 121,
+      "text": "Rie Seki",
+      "width": 75.60000000000001,
+      "x": 284.25,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 123,
+      "text": "Reinu Takenaka",
+      "width": 144.9,
+      "x": 247.5,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 128,
+      "text": "Designers",
+      "width": 88.2,
+      "x": 273.75,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 130,
+      "text": "Masahiro Miki",
+      "width": 133.35,
+      "x": 252.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 132,
+      "text": "Akira Takimoto",
+      "width": 142.8,
+      "x": 247.5,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 137,
+      "text": "Sound",
+      "width": 58.800000000000004,
+      "x": 289.5,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 139,
+      "text": "Yoshikazu Takayama",
+      "width": 192.15,
+      "x": 226.5,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 141,
+      "text": "Koichi Suenaga",
+      "width": 141.75,
+      "x": 247.5,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 143,
+      "text": "Ayako Minami",
+      "width": 135.45000000000002,
+      "x": 252.75,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 145,
+      "text": "Yuki Ichiki",
+      "width": 102.9,
+      "x": 268.5,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 147,
+      "text": "Kota Hoshino",
+      "width": 124.95,
+      "x": 258.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 149,
+      "text": "Hideyuki Eto",
+      "width": 120.75,
+      "x": 258.0,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 151,
+      "text": "Yuji Takenouchi",
+      "width": 151.20000000000002,
+      "x": 242.25,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 156,
+      "text": "CG Designers",
+      "width": 123.9,
+      "x": 258.0,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 158,
+      "text": "Ikuko Matsui",
+      "width": 120.75,
+      "x": 258.0,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 160,
+      "text": "Shota Hirasawa",
+      "width": 138.6,
+      "x": 252.75,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 162,
+      "text": "Shigeru Maeda",
+      "width": 135.45000000000002,
+      "x": 252.75,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 164,
+      "text": "Koji Sugiyama",
+      "width": 134.4,
+      "x": 252.75,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 166,
+      "text": "Takayuki Ozawa",
+      "width": 150.15,
+      "x": 247.5,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 168,
+      "text": "Shirogumi Inc.",
+      "width": 134.4,
+      "x": 252.75,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 173,
+      "text": "Assistants",
+      "width": 89.25,
+      "x": 273.75,
+      "center": 318.375,
+      "status": "translated"
+    },
+    {
+      "text_id": 175,
+      "text": "Event Scripting",
+      "width": 140.70000000000002,
+      "x": 247.5,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 177,
+      "text": "Naoto Sawaguchi",
+      "width": 157.5,
+      "x": 242.25,
+      "center": 321.0,
+      "status": "provisional_romanization"
+    },
+    {
+      "text_id": 179,
+      "text": "Tomohiro Ishii",
+      "width": 135.45000000000002,
+      "x": 252.75,
+      "center": 320.475,
+      "status": "provisional_romanization"
+    },
+    {
+      "text_id": 182,
+      "text": "Character Logic",
+      "width": 142.8,
+      "x": 247.5,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 184,
+      "text": "Tokuya Saito",
+      "width": 120.75,
+      "x": 258.0,
+      "center": 318.375,
+      "status": "provisional_romanization"
+    },
+    {
+      "text_id": 186,
+      "text": "Tomonori Nishikawa",
+      "width": 190.05,
+      "x": 226.5,
+      "center": 321.525,
+      "status": "provisional_romanization"
+    },
+    {
+      "text_id": 189,
+      "text": "Design Assistant",
+      "width": 149.1,
+      "x": 247.5,
+      "center": 322.05,
+      "status": "translated"
+    },
+    {
+      "text_id": 191,
+      "text": "Hideki Tachibana",
+      "width": 158.55,
+      "x": 242.25,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 200,
+      "text": "Development Management",
+      "width": 240.45000000000002,
+      "x": 200.25,
+      "center": 320.475,
+      "status": "translated"
+    },
+    {
+      "text_id": 202,
+      "text": "Product Support Manager",
+      "width": 232.05,
+      "x": 205.5,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 204,
+      "text": "Yoshiyuki Ikeda",
+      "width": 149.1,
+      "x": 247.5,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 207,
+      "text": "QA Staff",
+      "width": 79.8,
+      "x": 279.0,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 209,
+      "text": "Atsushi Miyamoto",
+      "width": 166.95000000000002,
+      "x": 237.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 214,
+      "text": "Debugging",
+      "width": 100.80000000000001,
+      "x": 268.5,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 216,
+      "text": "Testers",
+      "width": 63.0,
+      "x": 289.5,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 218,
+      "text": "Kenji Akiba",
+      "width": 109.2,
+      "x": 263.25,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 219,
+      "text": "Daisuke Deguchi",
+      "width": 153.3,
+      "x": 242.25,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 220,
+      "text": "Hironori Hagiwara",
+      "width": 168.0,
+      "x": 237.0,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 221,
+      "text": "Haruhiko Kumaki",
+      "width": 161.70000000000002,
+      "x": 237.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 222,
+      "text": "Takuma Kinjo",
+      "width": 129.15,
+      "x": 258.0,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 223,
+      "text": "Kei Sato",
+      "width": 76.65,
+      "x": 284.25,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 224,
+      "text": "Naoto Tomita",
+      "width": 123.9,
+      "x": 258.0,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 225,
+      "text": "Koshi Seike",
+      "width": 108.15,
+      "x": 268.5,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 226,
+      "text": "Takuro Seguchi",
+      "width": 142.8,
+      "x": 247.5,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 227,
+      "text": "Tomohiro Ito",
+      "width": 120.75,
+      "x": 258.0,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 228,
+      "text": "Kazumi Kawada",
+      "width": 145.95000000000002,
+      "x": 247.5,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 229,
+      "text": "Hiroyasu Itakura",
+      "width": 150.15,
+      "x": 247.5,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 230,
+      "text": "Yoshie Iizuka",
+      "width": 123.9,
+      "x": 258.0,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 231,
+      "text": "Hiroki Izumi",
+      "width": 115.5,
+      "x": 263.25,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 232,
+      "text": "Youhei Watahiki",
+      "width": 153.3,
+      "x": 242.25,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 233,
+      "text": "Yuji Takei",
+      "width": 95.55,
+      "x": 273.75,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 235,
+      "text": "DIGITAL HEARTS Co., Ltd.",
+      "width": 264.6,
+      "x": 189.75,
+      "center": 322.05,
+      "status": "translated"
+    },
+    {
+      "text_id": 251,
+      "text": "A.C.E. Original Mecha Design",
+      "width": 273.0,
+      "x": 184.5,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 253,
+      "text": "Junya Ishigaki",
+      "width": 130.20000000000002,
+      "x": 252.75,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 255,
+      "text": "Takayuki Yanase",
+      "width": 154.35,
+      "x": 242.25,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 257,
+      "text": "Daisei Fujii (Layup)",
+      "width": 181.65,
+      "x": 231.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 260,
+      "text": "Design Assistance",
+      "width": 161.70000000000002,
+      "x": 237.0,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 262,
+      "text": "Fujiro",
+      "width": 55.650000000000006,
+      "x": 294.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 271,
+      "text": "A.C.E. Original Character Design",
+      "width": 298.2,
+      "x": 168.75,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 273,
+      "text": "Shigenori Soejima (Atlus)",
+      "width": 234.15,
+      "x": 205.5,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 275,
+      "text": "Takuya Saito",
+      "width": 118.65,
+      "x": 263.25,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 284,
+      "text": "Falguen Custom Design",
+      "width": 215.25,
+      "x": 210.75,
+      "center": 318.375,
+      "status": "translated"
+    },
+    {
+      "text_id": 286,
+      "text": "Kunio Okawara",
+      "width": 140.70000000000002,
+      "x": 247.5,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 295,
+      "text": "Scenario",
+      "width": 77.7,
+      "x": 279.0,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 297,
+      "text": "Original Concept",
+      "width": 154.35,
+      "x": 242.25,
+      "center": 319.425,
+      "status": "translated"
+    },
+    {
+      "text_id": 299,
+      "text": "Banpresto",
+      "width": 90.3,
+      "x": 273.75,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 300,
+      "text": "FromSoftware",
+      "width": 128.1,
+      "x": 258.0,
+      "center": 322.05,
+      "status": "translated"
+    },
+    {
+      "text_id": 305,
+      "text": "Scenario Writing",
+      "width": 153.3,
+      "x": 242.25,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 307,
+      "text": "Masaaki Miyata",
+      "width": 142.8,
+      "x": 247.5,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 309,
+      "text": "Yasuyuki Mochida (Edge Works)",
+      "width": 302.40000000000003,
+      "x": 168.75,
+      "center": 319.95000000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 311,
+      "text": "Ryu Nakamura (Edge Works)",
+      "width": 265.65000000000003,
+      "x": 189.75,
+      "center": 322.57500000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 313,
+      "text": "Hiroyuki Fujii (Edge Works)",
+      "width": 261.45,
+      "x": 189.75,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 322,
+      "text": "Satellite Imagery",
+      "width": 151.20000000000002,
+      "x": 242.25,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 324,
+      "text": "(C) Japan Space Imaging Corporation",
+      "width": 337.05,
+      "x": 153.0,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 332,
+      "text": "CG Assets",
+      "width": 92.4,
+      "x": 273.75,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 334,
+      "text": "3D ENCICLOPEDIA BY",
+      "width": 228.9,
+      "x": 205.5,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 335,
+      "text": "DE ESPONA Infografica TM",
+      "width": 263.55,
+      "x": 189.75,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 351,
+      "text": "Theme Song",
+      "width": 113.4,
+      "x": 263.25,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 353,
+      "text": "Shinku",
+      "width": 65.10000000000001,
+      "x": 289.5,
+      "center": 322.05,
+      "status": "translated"
+    },
+    {
+      "text_id": 356,
+      "text": "Lyrics",
+      "width": 56.7,
+      "x": 289.5,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 357,
+      "text": "Hiroki Nagase",
+      "width": 128.1,
+      "x": 258.0,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 358,
+      "text": "Music",
+      "width": 55.650000000000006,
+      "x": 294.75,
+      "center": 322.575,
+      "status": "translated"
+    },
+    {
+      "text_id": 359,
+      "text": "Hideki Yanagisawa",
+      "width": 173.25,
+      "x": 231.75,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 360,
+      "text": "Arrangement",
+      "width": 116.55000000000001,
+      "x": 263.25,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 361,
+      "text": "Yuta Nakano",
+      "width": 117.60000000000001,
+      "x": 263.25,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 362,
+      "text": "Vocals",
+      "width": 60.900000000000006,
+      "x": 289.5,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 363,
+      "text": "Hitomi Shimatani",
+      "width": 158.55,
+      "x": 242.25,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 368,
+      "text": "Ending Song",
+      "width": 118.65,
+      "x": 263.25,
+      "center": 322.575,
+      "status": "translated"
+    },
+    {
+      "text_id": 370,
+      "text": "Ai no Uta",
+      "width": 87.15,
+      "x": 279.0,
+      "center": 322.575,
+      "status": "translated"
+    },
+    {
+      "text_id": 373,
+      "text": "Lyrics",
+      "width": 56.7,
+      "x": 289.5,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 374,
+      "text": "BULGE",
+      "width": 73.5,
+      "x": 284.25,
+      "center": 321.0,
+      "status": "retain_existing"
+    },
+    {
+      "text_id": 375,
+      "text": "Music",
+      "width": 55.650000000000006,
+      "x": 294.75,
+      "center": 322.575,
+      "status": "translated"
+    },
+    {
+      "text_id": 376,
+      "text": "BULGE",
+      "width": 73.5,
+      "x": 284.25,
+      "center": 321.0,
+      "status": "retain_existing"
+    },
+    {
+      "text_id": 377,
+      "text": "Arrangement",
+      "width": 116.55000000000001,
+      "x": 263.25,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 378,
+      "text": "BULGE",
+      "width": 73.5,
+      "x": 284.25,
+      "center": 321.0,
+      "status": "retain_existing"
+    },
+    {
+      "text_id": 379,
+      "text": "Vocals",
+      "width": 60.900000000000006,
+      "x": 289.5,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 380,
+      "text": "Hitomi Shimatani",
+      "width": 158.55,
+      "x": 242.25,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 385,
+      "text": "Music Production Support",
+      "width": 238.35000000000002,
+      "x": 200.25,
+      "center": 319.425,
+      "status": "translated"
+    },
+    {
+      "text_id": 388,
+      "text": "A&R Producer",
+      "width": 133.35,
+      "x": 252.75,
+      "center": 319.425,
+      "status": "translated"
+    },
+    {
+      "text_id": 392,
+      "text": "Yasuhiko Onda",
+      "width": 139.65,
+      "x": 252.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 398,
+      "text": "A&R Director",
+      "width": 126.0,
+      "x": 258.0,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 402,
+      "text": "Junya Shinozaki",
+      "width": 148.05,
+      "x": 247.5,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 408,
+      "text": "Recording Director",
+      "width": 172.20000000000002,
+      "x": 231.75,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 412,
+      "text": "Wataru Yoshioka",
+      "width": 156.45000000000002,
+      "x": 242.25,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 418,
+      "text": "Artist Promotion",
+      "width": 151.20000000000002,
+      "x": 242.25,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 420,
+      "text": "Toshiyasu Takahashi",
+      "width": 189.0,
+      "x": 226.5,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 425,
+      "text": "Project Producer",
+      "width": 149.1,
+      "x": 247.5,
+      "center": 322.05,
+      "status": "translated"
+    },
+    {
+      "text_id": 427,
+      "text": "Ryo Shin (Burning Publishers)",
+      "width": 278.25,
+      "x": 179.25,
+      "center": 318.375,
+      "status": "provisional_romanization"
+    },
+    {
+      "text_id": 432,
+      "text": "Artist Manager",
+      "width": 134.4,
+      "x": 252.75,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 434,
+      "text": "Daiki Watanabe (Burning Production)",
+      "width": 342.3,
+      "x": 147.75,
+      "center": 318.9,
+      "status": "provisional_romanization"
+    },
+    {
+      "text_id": 439,
+      "text": "Promotional Tie-In Coordination",
+      "width": 297.15000000000003,
+      "x": 174.0,
+      "center": 322.57500000000005,
+      "status": "translated"
+    },
+    {
+      "text_id": 443,
+      "text": "Kenichiro Kimura",
+      "width": 161.70000000000002,
+      "x": 237.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 459,
+      "text": "Voice Recording",
+      "width": 151.20000000000002,
+      "x": 242.25,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 461,
+      "text": "Voice Directors",
+      "width": 139.65,
+      "x": 252.75,
+      "center": 322.575,
+      "status": "translated"
+    },
+    {
+      "text_id": 463,
+      "text": "Hiromi Kikuta (Rakuonsha)",
+      "width": 249.9,
+      "x": 195.0,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 465,
+      "text": "Kaoru Machida",
+      "width": 138.6,
+      "x": 252.75,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 468,
+      "text": "Casting",
+      "width": 68.25,
+      "x": 284.25,
+      "center": 318.375,
+      "status": "translated"
+    },
+    {
+      "text_id": 470,
+      "text": "Yasuaki Sumi (Aoni Production)",
+      "width": 295.05,
+      "x": 174.0,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 472,
+      "text": "Sachiko Sekine (Aoni Production)",
+      "width": 308.7,
+      "x": 163.5,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 475,
+      "text": "Recording Studio",
+      "width": 158.55,
+      "x": 242.25,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 477,
+      "text": "MIT Studio",
+      "width": 106.05000000000001,
+      "x": 268.5,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 486,
+      "text": "Cast",
+      "width": 38.85,
+      "x": 300.0,
+      "center": 319.425,
+      "status": "translated"
+    },
+    {
+      "text_id": 487,
+      "text": "Go Aoba",
+      "width": 80.85000000000001,
+      "x": 279.0,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 488,
+      "text": "Yosuke Akimoto",
+      "width": 153.3,
+      "x": 242.25,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 489,
+      "text": "Kazue Ikura",
+      "width": 108.15,
+      "x": 268.5,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 490,
+      "text": "Shuichi Ikeda",
+      "width": 123.9,
+      "x": 258.0,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 491,
+      "text": "Shozo Iizuka",
+      "width": 117.60000000000001,
+      "x": 263.25,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 492,
+      "text": "Hideo Ishikawa",
+      "width": 139.65,
+      "x": 252.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 493,
+      "text": "Akira Ishida",
+      "width": 110.25,
+      "x": 263.25,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 494,
+      "text": "Unsho Ishizuka",
+      "width": 139.65,
+      "x": 252.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 495,
+      "text": "Yuji Ueda",
+      "width": 91.35000000000001,
+      "x": 273.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 496,
+      "text": "Naoya Uchida",
+      "width": 127.05000000000001,
+      "x": 258.0,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 497,
+      "text": "Hisao Egawa",
+      "width": 116.55000000000001,
+      "x": 263.25,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 498,
+      "text": "Akio Otsuka",
+      "width": 113.4,
+      "x": 263.25,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 499,
+      "text": "Tomoko Otsuka",
+      "width": 144.9,
+      "x": 247.5,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 500,
+      "text": "Hochu Otsuka",
+      "width": 128.1,
+      "x": 258.0,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 502,
+      "text": "Yumi Kakazu",
+      "width": 122.85000000000001,
+      "x": 258.0,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 503,
+      "text": "Michiko Neya",
+      "width": 128.1,
+      "x": 258.0,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 504,
+      "text": "Osamu Kato",
+      "width": 110.25,
+      "x": 263.25,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 505,
+      "text": "Mika Kanai",
+      "width": 105.0,
+      "x": 268.5,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 506,
+      "text": "Akira Kamiya",
+      "width": 124.95,
+      "x": 258.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 507,
+      "text": "Otoya Kawano",
+      "width": 133.35,
+      "x": 252.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 508,
+      "text": "Maria Kawamura",
+      "width": 153.3,
+      "x": 242.25,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 509,
+      "text": "Shiho Kikuchi",
+      "width": 131.25,
+      "x": 252.75,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 510,
+      "text": "Masami Kikuchi",
+      "width": 148.05,
+      "x": 247.5,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 511,
+      "text": "Banjo Ginga",
+      "width": 113.4,
+      "x": 263.25,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 512,
+      "text": "Ami Koshimizu",
+      "width": 141.75,
+      "x": 247.5,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 513,
+      "text": "Jurota Kosugi",
+      "width": 124.95,
+      "x": 258.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 514,
+      "text": "Ai Kobayashi",
+      "width": 122.85000000000001,
+      "x": 258.0,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 515,
+      "text": "Tetsuo Komura",
+      "width": 138.6,
+      "x": 252.75,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 516,
+      "text": "Takehito Koyasu",
+      "width": 153.3,
+      "x": 242.25,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 517,
+      "text": "Rikiya Koyama",
+      "width": 139.65,
+      "x": 252.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 519,
+      "text": "Nozomu Sasaki",
+      "width": 139.65,
+      "x": 252.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 520,
+      "text": "Yuko Sanpei",
+      "width": 116.55000000000001,
+      "x": 263.25,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 521,
+      "text": "Saeko Shimazu",
+      "width": 137.55,
+      "x": 252.75,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 522,
+      "text": "Yu Shimamura",
+      "width": 134.4,
+      "x": 252.75,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 523,
+      "text": "Tetsu Shiratori",
+      "width": 133.35,
+      "x": 252.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 524,
+      "text": "Naomi Shindo",
+      "width": 130.20000000000002,
+      "x": 252.75,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 525,
+      "text": "Hirotaka Suzuoki",
+      "width": 157.5,
+      "x": 242.25,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 526,
+      "text": "Tomokazu Seki",
+      "width": 140.70000000000002,
+      "x": 247.5,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 527,
+      "text": "Mie Sonozaki",
+      "width": 124.95,
+      "x": 258.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 529,
+      "text": "Wataru Takagi",
+      "width": 132.3,
+      "x": 252.75,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 530,
+      "text": "Eri Takeda",
+      "width": 97.65,
+      "x": 273.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 531,
+      "text": "Koji Tsujitani",
+      "width": 124.95,
+      "x": 258.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 532,
+      "text": "Mika Doi",
+      "width": 86.10000000000001,
+      "x": 279.0,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 534,
+      "text": "Kazuya Nakai",
+      "width": 124.95,
+      "x": 258.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 535,
+      "text": "Miki Nagasawa",
+      "width": 138.6,
+      "x": 252.75,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 536,
+      "text": "Shigeru Nakahara",
+      "width": 159.6,
+      "x": 242.25,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 537,
+      "text": "Kaori Nazuka",
+      "width": 122.85000000000001,
+      "x": 258.0,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 538,
+      "text": "Daisuke Namikawa",
+      "width": 172.20000000000002,
+      "x": 231.75,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 539,
+      "text": "Kenji Nojima",
+      "width": 120.75,
+      "x": 258.0,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 540,
+      "text": "Hirofumi Nojima",
+      "width": 154.35,
+      "x": 242.25,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 542,
+      "text": "Romi Park",
+      "width": 95.55,
+      "x": 273.75,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 543,
+      "text": "Sho Hayami",
+      "width": 110.25,
+      "x": 263.25,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 544,
+      "text": "Aya Hisakawa",
+      "width": 128.1,
+      "x": 258.0,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 545,
+      "text": "Narumi Hidaka",
+      "width": 136.5,
+      "x": 252.75,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 546,
+      "text": "Noriko Hidaka",
+      "width": 133.35,
+      "x": 252.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 547,
+      "text": "Kohei Fukuhara",
+      "width": 144.9,
+      "x": 247.5,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 548,
+      "text": "Takahiro Fujimoto",
+      "width": 169.05,
+      "x": 237.0,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 549,
+      "text": "Keiji Fujiwara",
+      "width": 128.1,
+      "x": 258.0,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 550,
+      "text": "Jun Fukuyama",
+      "width": 131.25,
+      "x": 252.75,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 551,
+      "text": "Toru Furuya",
+      "width": 113.4,
+      "x": 263.25,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 552,
+      "text": "Soichiro Hoshi",
+      "width": 135.45000000000002,
+      "x": 252.75,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 553,
+      "text": "Kenyu Horiuchi",
+      "width": 144.9,
+      "x": 247.5,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 555,
+      "text": "Naoko Matsui",
+      "width": 127.05000000000001,
+      "x": 258.0,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 556,
+      "text": "Kohei Matsumoto",
+      "width": 161.70000000000002,
+      "x": 237.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 557,
+      "text": "Yasunori Matsumoto",
+      "width": 189.0,
+      "x": 226.5,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 558,
+      "text": "Rica Matsumoto",
+      "width": 147.0,
+      "x": 247.5,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 559,
+      "text": "Fumie Mizusawa",
+      "width": 152.25,
+      "x": 242.25,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 560,
+      "text": "Rena Mizushiro",
+      "width": 142.8,
+      "x": 247.5,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 561,
+      "text": "Yutaro Mitsuoka",
+      "width": 152.25,
+      "x": 242.25,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 562,
+      "text": "Hikaru Midorikawa",
+      "width": 176.4,
+      "x": 231.75,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 563,
+      "text": "Omi Minami",
+      "width": 114.45,
+      "x": 263.25,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 564,
+      "text": "Mugihito",
+      "width": 85.05,
+      "x": 279.0,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 565,
+      "text": "Akino Murata",
+      "width": 126.0,
+      "x": 258.0,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 566,
+      "text": "Toshiyuki Morikawa",
+      "width": 189.0,
+      "x": 226.5,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 567,
+      "text": "Takeshi Mori",
+      "width": 120.75,
+      "x": 258.0,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 569,
+      "text": "Akiko Yajima",
+      "width": 126.0,
+      "x": 258.0,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 570,
+      "text": "Mayu Yamaguchi",
+      "width": 159.6,
+      "x": 242.25,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 571,
+      "text": "Takumi Yamazaki",
+      "width": 162.75,
+      "x": 237.0,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 572,
+      "text": "Shigenori Yamazaki",
+      "width": 181.65,
+      "x": 231.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 573,
+      "text": "Koichi Yamadera",
+      "width": 155.4,
+      "x": 242.25,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 574,
+      "text": "Keiichiro Yamamoto",
+      "width": 186.9,
+      "x": 226.5,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 575,
+      "text": "Chisa Yokoyama",
+      "width": 153.3,
+      "x": 242.25,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 577,
+      "text": "Kumiko Watanabe",
+      "width": 166.95000000000002,
+      "x": 237.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 579,
+      "text": "Listed in Japanese Syllabary Order",
+      "width": 309.75,
+      "x": 163.5,
+      "center": 318.375,
+      "status": "translated"
+    },
+    {
+      "text_id": 596,
+      "text": "Advertising, Publicity and Sales",
+      "width": 287.7,
+      "x": 174.0,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 598,
+      "text": "Koji Kumakura (Banpresto)",
+      "width": 248.85000000000002,
+      "x": 195.0,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 599,
+      "text": "Yoshifumi Matsuda (Banpresto)",
+      "width": 287.7,
+      "x": 174.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 600,
+      "text": "Takashi Watabe (Banpresto)",
+      "width": 253.05,
+      "x": 195.0,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 601,
+      "text": "Chikae Kimura (Banpresto)",
+      "width": 245.70000000000002,
+      "x": 195.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 602,
+      "text": "Tomoko Takehara (Banpresto)",
+      "width": 274.05,
+      "x": 184.5,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 603,
+      "text": "Shota Tsujimoto (Banpresto)",
+      "width": 259.35,
+      "x": 189.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 604,
+      "text": "Hideo Emoto (Banpresto)",
+      "width": 229.95000000000002,
+      "x": 205.5,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 605,
+      "text": "Shoichi Yoshiba (Banpresto)",
+      "width": 259.35,
+      "x": 189.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 606,
+      "text": "Morito Ishii (Banpresto)",
+      "width": 218.4,
+      "x": 210.75,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 607,
+      "text": "Momoko Suzuki (Banpresto)",
+      "width": 261.45,
+      "x": 189.75,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 608,
+      "text": "Seiko Okugaki (Banpresto)",
+      "width": 244.65,
+      "x": 200.25,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 610,
+      "text": "Yoshinori Komatsu (FromSoftware)",
+      "width": 323.40000000000003,
+      "x": 158.25,
+      "center": 319.95000000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 611,
+      "text": "Yasunori Ogura (FromSoftware)",
+      "width": 290.85,
+      "x": 174.0,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 612,
+      "text": "Suminobu Sato (FromSoftware)",
+      "width": 286.65000000000003,
+      "x": 179.25,
+      "center": 322.57500000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 613,
+      "text": "Tomohiro Shimokawa (FromSoftware)",
+      "width": 348.6,
+      "x": 147.75,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 615,
+      "text": "Design",
+      "width": 63.0,
+      "x": 289.5,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 617,
+      "text": "Hiroyuki Kani (FromSoftware)",
+      "width": 278.25,
+      "x": 179.25,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 619,
+      "text": "Support",
+      "width": 72.45,
+      "x": 284.25,
+      "center": 320.475,
+      "status": "translated"
+    },
+    {
+      "text_id": 621,
+      "text": "Tomomi Nakano (FromSoftware)",
+      "width": 299.25,
+      "x": 168.75,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 622,
+      "text": "Hiroyuki Yanai (FromSoftware)",
+      "width": 287.7,
+      "x": 174.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 627,
+      "text": "Supervision",
+      "width": 108.15,
+      "x": 268.5,
+      "center": 322.575,
+      "status": "translated"
+    },
+    {
+      "text_id": 629,
+      "text": "Akihiro Morita (Sunrise)",
+      "width": 223.65,
+      "x": 210.75,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 630,
+      "text": "Makoto Shibuya (Sunrise)",
+      "width": 237.3,
+      "x": 200.25,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 631,
+      "text": "Takeshi Mukai (Sunrise)",
+      "width": 221.55,
+      "x": 210.75,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 632,
+      "text": "Koji Nakajima (Sunrise)",
+      "width": 217.35000000000002,
+      "x": 210.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 634,
+      "text": "Retsu Tamura (Sotsu)",
+      "width": 194.25,
+      "x": 221.25,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 636,
+      "text": "Yasu Tokuhara (Dynamic Planning)",
+      "width": 323.40000000000003,
+      "x": 158.25,
+      "center": 319.95000000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 637,
+      "text": "Kazuomi Nagai (Dynamic Planning)",
+      "width": 325.5,
+      "x": 158.25,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 639,
+      "text": "Kamon Onishi (Big West Ad)",
+      "width": 265.65000000000003,
+      "x": 189.75,
+      "center": 322.57500000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 640,
+      "text": "Shinichi Hirai (Big West Ad)",
+      "width": 261.45,
+      "x": 189.75,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 641,
+      "text": "Toshiko Shibuya (Big West Ad)",
+      "width": 289.8,
+      "x": 174.0,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 643,
+      "text": "Aya Shibata (BONES)",
+      "width": 201.60000000000002,
+      "x": 221.25,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 644,
+      "text": "Yoshiko Kanaya (Bandai)",
+      "width": 232.05,
+      "x": 205.5,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 645,
+      "text": "Jun Satoyoshi (Bandai)",
+      "width": 208.95000000000002,
+      "x": 216.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 647,
+      "text": "Keiko Hirakawa (Rights Inn)",
+      "width": 259.35,
+      "x": 189.75,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 652,
+      "text": "Special Thanks",
+      "width": 136.5,
+      "x": 252.75,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 654,
+      "text": "Yoshiyuki Tomino",
+      "width": 171.15,
+      "x": 237.0,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 655,
+      "text": "Shoji Kawamori",
+      "width": 145.95000000000002,
+      "x": 247.5,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 656,
+      "text": "Tomoki Kyoda",
+      "width": 136.5,
+      "x": 252.75,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 658,
+      "text": "Koichi Inoue (Sunrise)",
+      "width": 204.75,
+      "x": 216.0,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 659,
+      "text": "Kojiro Taniguchi (Sunrise)",
+      "width": 242.55,
+      "x": 200.25,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 660,
+      "text": "Yoshihiro Yoshida (Sunrise)",
+      "width": 257.25,
+      "x": 189.75,
+      "center": 318.375,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 661,
+      "text": "Hirofumi Inagaki (Namco Bandai Games)",
+      "width": 371.7,
+      "x": 132.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 662,
+      "text": "Yoshihiro Okamoto (BEC)",
+      "width": 241.5,
+      "x": 200.25,
+      "center": 321.0,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 664,
+      "text": "Kuninori Yoshizaki (Banpresto)",
+      "width": 287.7,
+      "x": 174.0,
+      "center": 317.85,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 665,
+      "text": "Ayako Higuchi (Banpresto)",
+      "width": 247.8,
+      "x": 195.0,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 666,
+      "text": "Yoshihisa Kanesaka (Banpresto)",
+      "width": 289.8,
+      "x": 174.0,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 667,
+      "text": "Satoshi Otsuka (Banpresto)",
+      "width": 244.65,
+      "x": 200.25,
+      "center": 322.575,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 669,
+      "text": "Masato Miyazaki (FromSoftware)",
+      "width": 302.40000000000003,
+      "x": 168.75,
+      "center": 319.95000000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 670,
+      "text": "Daisuke Satake (FromSoftware)",
+      "width": 284.55,
+      "x": 179.25,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 671,
+      "text": "Makoto Sato (FromSoftware)",
+      "width": 263.55,
+      "x": 189.75,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 672,
+      "text": "Tatsuya Kawate (FromSoftware)",
+      "width": 289.8,
+      "x": 174.0,
+      "center": 318.9,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 673,
+      "text": "Aiko Goto",
+      "width": 95.55,
+      "x": 273.75,
+      "center": 321.525,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 677,
+      "text": "Supporting Companies",
+      "width": 206.85000000000002,
+      "x": 216.0,
+      "center": 319.425,
+      "status": "translated"
+    },
+    {
+      "text_id": 679,
+      "text": "Sunrise Inc.",
+      "width": 106.05000000000001,
+      "x": 268.5,
+      "center": 321.525,
+      "status": "translated"
+    },
+    {
+      "text_id": 680,
+      "text": "Sotsu Co., Ltd.",
+      "width": 134.4,
+      "x": 252.75,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 681,
+      "text": "Big West Ad Co., Ltd.",
+      "width": 199.5,
+      "x": 221.25,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 682,
+      "text": "Rights Inn Inc.",
+      "width": 133.35,
+      "x": 252.75,
+      "center": 319.425,
+      "status": "translated"
+    },
+    {
+      "text_id": 683,
+      "text": "Dynamic Planning Co., Ltd.",
+      "width": 250.95000000000002,
+      "x": 195.0,
+      "center": 320.475,
+      "status": "translated"
+    },
+    {
+      "text_id": 685,
+      "text": "Atlus Co., Ltd.",
+      "width": 132.3,
+      "x": 252.75,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 686,
+      "text": "Bandai Co., Ltd.",
+      "width": 147.0,
+      "x": 247.5,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 687,
+      "text": "PolyAssets United Inc.",
+      "width": 203.70000000000002,
+      "x": 216.0,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 688,
+      "text": "Japan Space Imaging Corporation",
+      "width": 302.40000000000003,
+      "x": 168.75,
+      "center": 319.95000000000005,
+      "status": "translated"
+    },
+    {
+      "text_id": 689,
+      "text": "Shirogumi Inc.",
+      "width": 134.4,
+      "x": 252.75,
+      "center": 319.95,
+      "status": "translated"
+    },
+    {
+      "text_id": 690,
+      "text": "Edge Works Co., Ltd.",
+      "width": 195.3,
+      "x": 221.25,
+      "center": 318.9,
+      "status": "translated"
+    },
+    {
+      "text_id": 691,
+      "text": "DIGITAL HEARTS Co., Ltd.",
+      "width": 264.6,
+      "x": 189.75,
+      "center": 322.05,
+      "status": "translated"
+    },
+    {
+      "text_id": 692,
+      "text": "Layup Co., Ltd.",
+      "width": 141.75,
+      "x": 247.5,
+      "center": 318.375,
+      "status": "translated"
+    },
+    {
+      "text_id": 693,
+      "text": "Artpresto Co., Ltd.",
+      "width": 168.0,
+      "x": 237.0,
+      "center": 321.0,
+      "status": "translated"
+    },
+    {
+      "text_id": 694,
+      "text": "Dimps Corporation",
+      "width": 173.25,
+      "x": 231.75,
+      "center": 318.375,
+      "status": "translated"
+    },
+    {
+      "text_id": 699,
+      "text": "Producers",
+      "width": 89.25,
+      "x": 273.75,
+      "center": 318.375,
+      "status": "translated"
+    },
+    {
+      "text_id": 701,
+      "text": "Hiroshi Kosuge (Banpresto)",
+      "width": 250.95000000000002,
+      "x": 195.0,
+      "center": 320.475,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 703,
+      "text": "Hiroyuki Goto (FromSoftware)",
+      "width": 280.35,
+      "x": 179.25,
+      "center": 319.425,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 705,
+      "text": "Tomohiro Shibuya (FromSoftware)",
+      "width": 318.15000000000003,
+      "x": 163.5,
+      "center": 322.57500000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 710,
+      "text": "Supervisor",
+      "width": 97.65,
+      "x": 273.75,
+      "center": 322.575,
+      "status": "translated"
+    },
+    {
+      "text_id": 712,
+      "text": "Naotoshi Zin",
+      "width": 117.60000000000001,
+      "x": 263.25,
+      "center": 322.05,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 717,
+      "text": "Executive Producers",
+      "width": 183.75,
+      "x": 226.5,
+      "center": 318.375,
+      "status": "translated"
+    },
+    {
+      "text_id": 719,
+      "text": "Toshihiro Nada (Banpresto)",
+      "width": 249.9,
+      "x": 195.0,
+      "center": 319.95,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 721,
+      "text": "Eiichi Nakajima (FromSoftware)",
+      "width": 291.90000000000003,
+      "x": 174.0,
+      "center": 319.95000000000005,
+      "status": "reference_matched"
+    },
+    {
+      "text_id": 737,
+      "text": "Development",
+      "width": 119.7,
+      "x": 258.0,
+      "center": 317.85,
+      "status": "translated"
+    },
+    {
+      "text_id": 755,
+      "text": "Published by",
+      "width": 117.60000000000001,
+      "x": 263.25,
+      "center": 322.05,
+      "status": "translated"
+    }
+  ]
+}

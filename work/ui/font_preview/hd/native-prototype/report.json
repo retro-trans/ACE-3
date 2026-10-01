@@ -1,0 +1,118 @@
+{
+  "status": "offline_native_resource_prototype_not_in_iso",
+  "base_version": "0.9.6",
+  "font_typeface": "Times New Roman from local Windows font; no TTF redistributed",
+  "samples": [
+    {
+      "original_glyphs": 1411,
+      "retained_glyphs": 185,
+      "latin_4x_glyphs": 94,
+      "removed_japanese_only_glyphs": 1226,
+      "used_height": 387,
+      "atlas_height": 512,
+      "atlas_dimensions": [
+        1024,
+        512
+      ],
+      "texture_bytes": 262240,
+      "metrics_preserved": true,
+      "non_latin_glyph_pixels_preserved": true,
+      "palette_and_gpu_header_preserved": true,
+      "texture_round_trip_verified": true,
+      "all_ascii_present": true,
+      "removed_codepoints": 1226,
+      "bundle": 4002050,
+      "source_sha256": "468275029e3258281b0130a3b5a3aeef28ad6e77f3eb1eaf501d8061fd11acfc"
+    },
+    {
+      "original_glyphs": 1465,
+      "retained_glyphs": 182,
+      "latin_4x_glyphs": 94,
+      "removed_japanese_only_glyphs": 1283,
+      "used_height": 387,
+      "atlas_height": 512,
+      "atlas_dimensions": [
+        1024,
+        512
+      ],
+      "texture_bytes": 262240,
+      "metrics_preserved": true,
+      "non_latin_glyph_pixels_preserved": true,
+      "palette_and_gpu_header_preserved": true,
+      "texture_round_trip_verified": true,
+      "all_ascii_present": true,
+      "removed_codepoints": 1283,
+      "bundle": 4002053,
+      "source_sha256": "d10fd55c5d420d86b9f879fcd6868a31ed9f2bcf5ef2c2a2f3dde1a99071d026"
+    },
+    {
+      "original_glyphs": 1411,
+      "retained_glyphs": 185,
+      "latin_4x_glyphs": 94,
+      "removed_japanese_only_glyphs": 1226,
+      "used_height": 387,
+      "atlas_height": 512,
+      "atlas_dimensions": [
+        1024,
+        512
+      ],
+      "texture_bytes": 262240,
+      "metrics_preserved": true,
+      "non_latin_glyph_pixels_preserved": true,
+      "palette_and_gpu_header_preserved": true,
+      "texture_round_trip_verified": true,
+      "all_ascii_present": true,
+      "removed_codepoints": 1226,
+      "bundle": 4002057,
+      "source_sha256": "468275029e3258281b0130a3b5a3aeef28ad6e77f3eb1eaf501d8061fd11acfc"
+    },
+    {
+      "original_glyphs": 1456,
+      "retained_glyphs": 149,
+      "latin_4x_glyphs": 94,
+      "removed_japanese_only_glyphs": 1307,
+      "used_height": 415,
+      "atlas_height": 512,
+      "atlas_dimensions": [
+        1024,
+        512
+      ],
+      "texture_bytes": 262240,
+      "metrics_preserved": true,
+      "non_latin_glyph_pixels_preserved": true,
+      "palette_and_gpu_header_preserved": true,
+      "texture_round_trip_verified": true,
+      "all_ascii_present": true,
+      "removed_codepoints": 1307,
+      "bundle": 1200000,
+      "source_sha256": "d25dc7eb4e161cfba0d183a2de612369060e3bcb95da58381a5dcd82d5ee25b0"
+    },
+    {
+      "original_glyphs": 1298,
+      "retained_glyphs": 159,
+      "latin_4x_glyphs": 94,
+      "removed_japanese_only_glyphs": 1139,
+      "used_height": 415,
+      "atlas_height": 512,
+      "atlas_dimensions": [
+        1024,
+        512
+      ],
+      "texture_bytes": 262240,
+      "metrics_preserved": true,
+      "non_latin_glyph_pixels_preserved": true,
+      "palette_and_gpu_header_preserved": true,
+      "texture_round_trip_verified": true,
+      "all_ascii_present": true,
+      "removed_codepoints": 1139,
+      "bundle": 1200011,
+      "source_sha256": "cac5063a0e65fb3568699a150cbf7bacad72c7ead9348009ec2ee61f37978252"
+    }
+  ],
+  "remaining_work": [
+    "Translate Japanese text still reachable by each font user",
+    "Classify unreviewed/legacy mission variants and unsupported text formats",
+    "Verify renderer sampling and icons with native resources in-game",
+    "Handle smaller HUD fonts separately; this prototype only covers main 19px fonts"
+  ]
+}

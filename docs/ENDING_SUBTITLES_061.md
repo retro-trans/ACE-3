@@ -4,6 +4,14 @@ This local test build integrates the approved credits dialogue (0.1.57) and endi
 
 ## Implementation
 
+- Local 0.9.12 corrects the 0.9.11 integration: update compressed credits scene 701349 as well as plain 4350. A fresh-boot log and saved RAM confirmed the packed scene still supplied Japanese staff text. Include the translated closing disclaimer in that packed copy too. See `docs/STAFF_CREDITS_0912.md`; timing, dialogue and song captions remain unchanged.
+
+- Local 0.9.11 supersedes the earlier staff-font-only experiment with an integrated English staff roll and a new embedded 3x ASCII font. See `docs/STAFF_CREDITS_0911.md` for coverage, provisional name readings, references and checks. Original roll timing, blank rows, logo commands and the dialogue/song captions below remain unchanged.
+
+- Local 0.9.9 font test: following the request to upgrade remaining fonts, redraw only the 23 existing printable Latin glyphs in the dedicated staff font at 1.5x sampling. Preserve every lookup, character metric, non-Latin glyph pixel and existing palette color; repack within the original texture allocation. Names, roles, Japanese text, roll timing and captions are unchanged. This separately scoped update does not remove Japanese coverage or translate the staff roll; fresh-boot runtime checks remain pending.
+
+- Font audit on 2026-10-01 against test build 0.9.6: the scrolling staff names and roles are text in resource `4350`, `STUF` bundle table `3` (333 nonempty rows, 315 containing Japanese). The same bundle supplies a separate 20px, 698-glyph font in resource `2` and its texture in resource `1`. The credits initializer binds those assets; the staff renderer supports selecting that local font separately from the common gameplay font. The roll-start event in motion `3823496` selects local font mode `1`. Main-font HD experiments must leave this bundle intact. Translating the staff roll requires English role headings, verified romanized names, Latin font coverage and scroll-layout checks before its Japanese glyphs can be removed. This is distinct from the already translated dialogue/lyrics and the image-based closing disclaimer.
+
 - 72 dialogue cues and 26 bilingual song cues use the game's two existing STUF text slots. Lyrics appear at the top; dialogue appears at the bottom.
 - Add native type-0x1000/event-25 tracks to POLY clips 7–22 of resource 3823496. Append caption tracks as root siblings, preserving the original animation, camera, audio and event tracks.
 - Relocate the scene text table in resources 6350, 2002350, 3200350 and 3201350. Preserve every existing text ID, null slot and string; add IDs 10001–10098.

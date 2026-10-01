@@ -1,0 +1,48 @@
+{
+  "version": "0.9.15",
+  "changes": [
+    {
+      "bundle": 4002050,
+      "layout": 35,
+      "frame_node": 2,
+      "label_node": 8,
+      "frame_texture": 50101,
+      "label_texture": 2000,
+      "frame_strips": 5,
+      "glyph_strips": 7,
+      "animation_records": 8,
+      "original_layout_sha256": "a1ed2922f0d50f7702f20eda748c391064d7b3db486423db452cc3802a24cba2",
+      "layout_sha256": "44bd0cb2e016563fc5915c798e7f13fd60b2fc7702f61df992e09bbaf8fd9d70",
+      "geometry_and_font_unchanged": true
+    },
+    {
+      "bundle": 4002054,
+      "layout": 35,
+      "frame_node": 2,
+      "label_node": 8,
+      "frame_texture": 50101,
+      "label_texture": 2000,
+      "frame_strips": 5,
+      "glyph_strips": 7,
+      "animation_records": 8,
+      "original_layout_sha256": "dc75d515c105b94a37f4cb0828d3046ed31720d0d50950a9bc757ff2dedba3e1",
+      "layout_sha256": "7ced0a35fa0a5bd3fd90d5ca7891ff8a05c9d4b5eed8edec0cd2ecb342a88643",
+      "geometry_and_font_unchanged": true
+    },
+    {
+      "bundle": 4002057,
+      "layout": 35,
+      "frame_node": 2,
+      "label_node": 8,
+      "frame_texture": 50101,
+      "label_texture": 2000,
+      "frame_strips": 5,
+      "glyph_strips": 7,
+      "animation_records": 8,
+      "original_layout_sha256": "a1ed2922f0d50f7702f20eda748c391064d7b3db486423db452cc3802a24cba2",
+      "layout_sha256": "44bd0cb2e016563fc5915c798e7f13fd60b2fc7702f61df992e09bbaf8fd9d70",
+      "geometry_and_font_unchanged": true
+    }
+  ],
+  "runtime_verified": false
+}

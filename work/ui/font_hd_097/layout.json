@@ -1,0 +1,16 @@
+{
+  "version": "0.9.7",
+  "kind": "local_test",
+  "base": "0.9.6",
+  "font_resource": 2500,
+  "texture_resource": 2000,
+  "glyph_bitmap_scale": 4,
+  "logical_font_height": 19,
+  "texture_dimensions": [1024, 512],
+  "bundles": [1200000, 1200001, 1200004, 1200005, 1200006, 1200007, 1200011, 4002050, 4002051, 4002052, 4002053, 4002054, 4002057],
+  "external_texture_pack": false,
+  "preserved": ["glyph advances and bearings", "button and symbol pixels", "referenced menu/gameplay BND Japanese glyphs", "GPU texture headers", "palettes", "credits resource 4350", "small HUD and 20px secondary fonts"],
+  "runtime_verified": false,
+  "test_screens": ["Intermission menu", "Deployment and Unit Upgrades", "Options", "Briefing dialogue", "In-mission dialogue", "Credits and ending captions"],
+  "limitations": ["Unclassified legacy mission variants are not covered by the retained-Japanese inventory", "Image-based text and movies are not redrawn", "Fresh boot required; old save states can restore old font data", "Local Times New Roman rasterization; no TTF embedded"]
+}

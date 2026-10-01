@@ -1,0 +1,28 @@
+{
+  "resource": 701349,
+  "donor": 4350,
+  "changed_stuf_resources": [
+    1,
+    2,
+    3,
+    107
+  ],
+  "packed_headers_audited": 4138,
+  "matching_unpacked_size_resources": [
+    701349
+  ],
+  "old_packed_bytes": 1332912,
+  "new_stream_bytes": 1276568,
+  "allocation_bytes": 1332912,
+  "unpacked_bytes": 2117072,
+  "chunk_extents_preserved": true,
+  "decoded_scene_sha256": "78e920653f0e91257d19083f84edbe417907371980de93fe71cfbfe4fe83bb73",
+  "english_credit_rows": 323,
+  "logo_command_rows": 9,
+  "closing_disclaimer_english": true,
+  "font_sampling": 3,
+  "compressed_round_trip_verified": true,
+  "all_other_scene_chunks_unchanged": true,
+  "runtime_verified": false,
+  "diagnosis": "Fresh boot of 0.9.11 loaded the original packed credits table; old table exactly matched saved EE RAM at 0x01213360."
+}

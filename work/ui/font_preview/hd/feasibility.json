@@ -1,0 +1,187 @@
+{
+  "status": "offline_prototype_not_installed",
+  "base_version": "0.9.6",
+  "font_source_sha256": "468275029e3258281b0130a3b5a3aeef28ad6e77f3eb1eaf501d8061fd11acfc",
+  "capacity_audit": [
+    {
+      "bundle": 4002050,
+      "dimensions": [
+        1024,
+        512
+      ],
+      "glyph_count": 1411,
+      "latin_glyphs": 94,
+      "texture_base_bytes": 3866624,
+      "palette_base_bytes": 4191232,
+      "atlas_pixel_bytes": 262144,
+      "candidates": [
+        {
+          "latin_scale": 1,
+          "required_pixel_area": 482580,
+          "area_exceeds_atlas": false,
+          "shelf_packed_height": 476
+        },
+        {
+          "latin_scale": 2,
+          "required_pixel_area": 539976,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 539
+        },
+        {
+          "latin_scale": 4,
+          "required_pixel_area": 769560,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 793
+        }
+      ]
+    },
+    {
+      "bundle": 4002053,
+      "dimensions": [
+        1024,
+        512
+      ],
+      "glyph_count": 1465,
+      "latin_glyphs": 94,
+      "texture_base_bytes": 3866624,
+      "palette_base_bytes": 4191232,
+      "atlas_pixel_bytes": 262144,
+      "candidates": [
+        {
+          "latin_scale": 1,
+          "required_pixel_area": 502283,
+          "area_exceeds_atlas": false,
+          "shelf_packed_height": 495
+        },
+        {
+          "latin_scale": 2,
+          "required_pixel_area": 560021,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 558
+        },
+        {
+          "latin_scale": 4,
+          "required_pixel_area": 790973,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 812
+        }
+      ]
+    },
+    {
+      "bundle": 4002057,
+      "dimensions": [
+        1024,
+        512
+      ],
+      "glyph_count": 1411,
+      "latin_glyphs": 94,
+      "texture_base_bytes": 3866624,
+      "palette_base_bytes": 4191232,
+      "atlas_pixel_bytes": 262144,
+      "candidates": [
+        {
+          "latin_scale": 1,
+          "required_pixel_area": 482580,
+          "area_exceeds_atlas": false,
+          "shelf_packed_height": 476
+        },
+        {
+          "latin_scale": 2,
+          "required_pixel_area": 539976,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 539
+        },
+        {
+          "latin_scale": 4,
+          "required_pixel_area": 769560,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 793
+        }
+      ]
+    },
+    {
+      "bundle": 1200000,
+      "dimensions": [
+        1024,
+        512
+      ],
+      "glyph_count": 1456,
+      "latin_glyphs": 94,
+      "texture_base_bytes": 3866624,
+      "palette_base_bytes": 4191232,
+      "atlas_pixel_bytes": 262144,
+      "candidates": [
+        {
+          "latin_scale": 1,
+          "required_pixel_area": 504145,
+          "area_exceeds_atlas": false,
+          "shelf_packed_height": 495
+        },
+        {
+          "latin_scale": 2,
+          "required_pixel_area": 567412,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 591
+        },
+        {
+          "latin_scale": 4,
+          "required_pixel_area": 820480,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 859
+        }
+      ]
+    },
+    {
+      "bundle": 1200011,
+      "dimensions": [
+        1024,
+        512
+      ],
+      "glyph_count": 1298,
+      "latin_glyphs": 94,
+      "texture_base_bytes": 3866624,
+      "palette_base_bytes": 4191232,
+      "atlas_pixel_bytes": 262144,
+      "candidates": [
+        {
+          "latin_scale": 1,
+          "required_pixel_area": 446195,
+          "area_exceeds_atlas": false,
+          "shelf_packed_height": 438
+        },
+        {
+          "latin_scale": 2,
+          "required_pixel_area": 509576,
+          "area_exceeds_atlas": false,
+          "shelf_packed_height": 534
+        },
+        {
+          "latin_scale": 4,
+          "required_pixel_area": 763100,
+          "area_exceeds_atlas": true,
+          "shelf_packed_height": 802
+        }
+      ]
+    }
+  ],
+  "prototype": {
+    "scale": 4,
+    "dimensions": [
+      4096,
+      2048
+    ],
+    "replaced_ascii_glyphs": 94,
+    "typeface": "Times New Roman, locally installed font; TTF not copied",
+    "alpha": "grayscale coverage with a half-native-pixel outline",
+    "font_table_unchanged": true,
+    "other_atlas_pixels_preserved_at_nearest_4x": true
+  },
+  "limitations": [
+    "Prototype uses a similar serif, not a vector reconstruction of the original",
+    "Only one menu atlas redrawn; other font atlases still need handling",
+    "Requires PCSX2 texture dump/hash matching and an in-game trial",
+    "Does not improve PS2 native framebuffer resolution",
+    "Not an ISO patch and not verified for ARMSX2"
+  ],
+  "reference": "https://pcsx2.net/blog/2024/pcsx2-2-release/"
+}

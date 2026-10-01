@@ -1,0 +1,413 @@
+{
+  "fonts": [
+    {
+      "location": "1200000-2501",
+      "changed": true,
+      "scale": 1.125,
+      "atlas": [
+        256,
+        256
+      ],
+      "glyphs": 289,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 5,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ],
+        [
+          1.5,
+          "pixel capacity"
+        ],
+        [
+          1.25,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200001-2501",
+      "changed": true,
+      "scale": 1.125,
+      "atlas": [
+        256,
+        256
+      ],
+      "glyphs": 289,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 5,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ],
+        [
+          1.5,
+          "pixel capacity"
+        ],
+        [
+          1.25,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200002-2501",
+      "changed": true,
+      "scale": 1.125,
+      "atlas": [
+        256,
+        256
+      ],
+      "glyphs": 289,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 5,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ],
+        [
+          1.5,
+          "pixel capacity"
+        ],
+        [
+          1.25,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200002-2500",
+      "changed": true,
+      "scale": 3,
+      "atlas": [
+        1024,
+        512
+      ],
+      "glyphs": 749,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 0,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200003-2501",
+      "changed": true,
+      "scale": 1.125,
+      "atlas": [
+        256,
+        256
+      ],
+      "glyphs": 289,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 5,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ],
+        [
+          1.5,
+          "pixel capacity"
+        ],
+        [
+          1.25,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200003-2500",
+      "changed": true,
+      "scale": 3,
+      "atlas": [
+        1024,
+        512
+      ],
+      "glyphs": 749,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 0,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200004-2501",
+      "changed": true,
+      "scale": 1.125,
+      "atlas": [
+        256,
+        256
+      ],
+      "glyphs": 289,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 5,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ],
+        [
+          1.5,
+          "pixel capacity"
+        ],
+        [
+          1.25,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200005-2501",
+      "changed": true,
+      "scale": 1.125,
+      "atlas": [
+        256,
+        256
+      ],
+      "glyphs": 289,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 5,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ],
+        [
+          1.5,
+          "pixel capacity"
+        ],
+        [
+          1.25,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200006-2501",
+      "changed": true,
+      "scale": 1.125,
+      "atlas": [
+        256,
+        256
+      ],
+      "glyphs": 289,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 5,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ],
+        [
+          1.5,
+          "pixel capacity"
+        ],
+        [
+          1.25,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "1200007-2501",
+      "changed": true,
+      "scale": 1.125,
+      "atlas": [
+        256,
+        256
+      ],
+      "glyphs": 289,
+      "redrawn_latin": 94,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 5,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ],
+        [
+          1.5,
+          "pixel capacity"
+        ],
+        [
+          1.25,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "global-12px",
+      "changed": true,
+      "scale": 3,
+      "atlas": [
+        1024,
+        512
+      ],
+      "glyphs": 3398,
+      "redrawn_latin": 93,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 0,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ]
+      ]
+    },
+    {
+      "location": "staff-20px",
+      "changed": true,
+      "scale": 1.5,
+      "atlas": [
+        512,
+        512
+      ],
+      "glyphs": 698,
+      "redrawn_latin": 23,
+      "all_mappings_preserved": true,
+      "non_latin_pixels_preserved": true,
+      "metrics_preserved": true,
+      "gpu_header_preserved": true,
+      "unused_palette_entries_added": 0,
+      "larger_scales_unavailable": [
+        [
+          4,
+          "pixel capacity"
+        ],
+        [
+          3,
+          "pixel capacity"
+        ],
+        [
+          2,
+          "pixel capacity"
+        ]
+      ]
+    }
+  ],
+  "dialogue_and_menu_19px_unchanged": true,
+  "all_character_mappings_preserved": true,
+  "texture_replacements_required": false,
+  "runtime_verified": false,
+  "limitations": [
+    "Fonts only: baked HUD artwork, movies and image labels remain unchanged",
+    "Existing 19px HD dialogue/menu fonts are preserved",
+    "In-game filtering, target labels, secondary text and credits need fresh-boot testing"
+  ]
+}

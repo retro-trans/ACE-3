@@ -1,0 +1,87 @@
+{
+  "version": "0.9.8",
+  "copies": [
+    {
+      "resource_id": 4002050,
+      "texture_id": 50914,
+      "layout_id": 14,
+      "node": 173,
+      "texture_size": [
+        128,
+        128
+      ],
+      "text_quad": [
+        -118,
+        -20,
+        118,
+        20
+      ],
+      "original_text_quad": [
+        -112,
+        -14,
+        112,
+        14
+      ],
+      "bracket_padding": 9,
+      "graphics_memory_bytes": 8192,
+      "graphics_base": 13088,
+      "next_texture_base": 13120,
+      "main_hd_fonts_preserved": true
+    },
+    {
+      "resource_id": 4002054,
+      "texture_id": 50914,
+      "layout_id": 14,
+      "node": 173,
+      "texture_size": [
+        128,
+        128
+      ],
+      "text_quad": [
+        -118,
+        -20,
+        118,
+        20
+      ],
+      "original_text_quad": [
+        -112,
+        -14,
+        112,
+        14
+      ],
+      "bracket_padding": 9,
+      "graphics_memory_bytes": 8192,
+      "graphics_base": 13088,
+      "next_texture_base": 13344,
+      "main_hd_fonts_preserved": true
+    },
+    {
+      "resource_id": 4002057,
+      "texture_id": 50914,
+      "layout_id": 14,
+      "node": 173,
+      "texture_size": [
+        128,
+        128
+      ],
+      "text_quad": [
+        -118,
+        -20,
+        118,
+        20
+      ],
+      "original_text_quad": [
+        -112,
+        -14,
+        112,
+        14
+      ],
+      "bracket_padding": 9,
+      "graphics_memory_bytes": 8192,
+      "graphics_base": 13088,
+      "next_texture_base": 13120,
+      "main_hd_fonts_preserved": true
+    }
+  ],
+  "runtime_verified": false
+}
