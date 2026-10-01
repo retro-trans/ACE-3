@@ -4,6 +4,7 @@
 
 - Package local 0.9.16 as the supported English-prologue release, incorporating the 0.9.4–0.9.16 font, staff-credit, wording and layout changes. Use the original disc's file order for patch size efficiency and verify all 133 file payloads against the local build.
 - Provide full original-disc and exact published 0.9.3 upgrade patches, with canonical manifest, decode-verification report and checksums. Use the current upstream release standard and validator at `36f90fcb316195a537aaa7d25361ca2add5a0b1d`; record candidate and public automatic-routing checks in the release metadata directory. Keep the six provisional staff-name readings and runtime limitations explicit in the release notes.
+- Published `v0.9.16` after both patches decoded to SHA-256 `fc6112fd08e897dd050426ffb89e1dd4d5c23de79d894642c0b2f9712ec06b22` and all five uploaded asset hashes/sizes matched. Full patch: 355,612,751 bytes; 0.9.3 upgrade: 1,968,757 bytes. Upstream catalog workflow `36900470208` passed and registered the release at catalog commit `10dd9479cdd67737eb2433f6e2137c2b258a09e7`. Public route checks cover all eight recognized source versions, including the direct original-disc route, current-version no-op, unknown-disc rejection and withdrawn-edition exclusion. Evidence is in `docs/releases/0.9.16/`.
 
 ## 0.9.16 — 2026-10-01 (local cinematic alignment adjustment)
 

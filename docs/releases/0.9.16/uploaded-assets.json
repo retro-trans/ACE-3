@@ -1,0 +1,43 @@
+{
+  "version": "0.9.16",
+  "release_id": 401184041,
+  "draft": true,
+  "verified": true,
+  "assets": [
+    {
+      "name": "ACE3-English-0.9.16-movie.xdelta",
+      "bytes": 355612751,
+      "sha256": "5136591431538b72e9da00ac73c4520058baaffe94c50333d9126c8518584b95",
+      "asset_id": 603773959,
+      "verified": true
+    },
+    {
+      "name": "ACE3-English-0.9.3-to-0.9.16-movie.xdelta",
+      "bytes": 1968757,
+      "sha256": "0e30820e486cb3217ef84011d254b8dbe1e951ac0822f292905234fa7cac2837",
+      "asset_id": 603773958,
+      "verified": true
+    },
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 1679,
+      "sha256": "6e242af4d0382968c070c886e90d4ae7c55241c7b484b98c17a14e623492d944",
+      "asset_id": 603775294,
+      "verified": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 375,
+      "sha256": "600300fa83e6d7c5c2c8bea405fb43b4de2148d791c2daf51a29a6a44d2f524e",
+      "asset_id": 603773961,
+      "verified": true
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 519,
+      "sha256": "1b983befe4140f6d6e3572b515b827a8633742be03d5fa7a7da3f9d7237c4494",
+      "asset_id": 603773960,
+      "verified": true
+    }
+  ]
+}

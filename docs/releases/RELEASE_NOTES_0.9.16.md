@@ -25,6 +25,8 @@ Both patches produce the same release image. Earlier supported English-prologue 
 
 Original Japanese ISO: 4,447,076,352 bytes; SHA-256 `5264079d36d953f464b166052e1ddea9be22a84c30a9333da24b8e1471311705`.
 
+Release output: 4,455,671,808 bytes; SHA-256 `fc6112fd08e897dd050426ffb89e1dd4d5c23de79d894642c0b2f9712ec06b22`.
+
 The exact source, output and patch hashes are in `BUILD-MANIFEST.json`. `VALIDATION.json` records patch round trips, and `SHA256SUMS.txt` covers the downloads. Retro Trans handles supported DVD CHD extraction; manual patchers require the unpacked ISO.
 
 ### What changed since v0.9.3
