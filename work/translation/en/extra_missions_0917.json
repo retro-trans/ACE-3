@@ -1,0 +1,293 @@
+{
+  "version": "0.9.17",
+  "status": "meaning_reviewed",
+  "scope": "Complete active text tables for Extra Missions 3 and 4; keep timing and controls unchanged.",
+  "review_notes": [
+    "Reviewed all 51 Japanese rows against the original text and the five supplied screenshots.",
+    "Preserve the stock duplicate 5000-count notification at text ID 32; do not alter mission logic.",
+    "Extra Mission 3 text 101 describes the kill count reaching its highest value; rendered as a new kill record.",
+    "Extra Mission 4 text 112 addresses the player having difficulty, inferred from the support dialogue context.",
+    "Keep Getter Dragon, Tower and AP terminology consistent with the existing translation."
+  ],
+  "scenes": [
+    {
+      "resource_id": 2002442,
+      "copies": [
+        6442,
+        2002442,
+        3200442,
+        3201442
+      ],
+      "source_table_sha256": "5653d7738a9724a788a6933880baebc7ceb0fa93cb61af28f4cee1dc279a842a",
+      "rows": [
+        {
+          "text_id": 3,
+          "source_sha256": "7940c81b1be6d034072002e8efeee1df0bde7f0842a2469bf376f4021d18dd73",
+          "target": "Destroy all targets"
+        },
+        {
+          "text_id": 4,
+          "source_sha256": "9763c05db27ae986bd9a9ecf4f859f0fc32a9ca73b882d839af207aa0a1f83bd",
+          "target": "Objective: Destroy all targets"
+        },
+        {
+          "text_id": 5,
+          "source_sha256": "0e09921df9fb37df85abc3657107012709b51f380e35c0260a3f1c9553ca2348",
+          "target": "Return to the designated point"
+        },
+        {
+          "text_id": 6,
+          "source_sha256": "b45ebf5676e3cbb964deb336208ef83d28fd49db1a6ae96ce2abaf057d3d7aaf",
+          "target": "Objective: Return to the designated point"
+        },
+        {
+          "text_id": 10,
+          "source_sha256": "05ef16105302a61a4a1a8a28e2adc8d4c5aa5e153eff0628be587d3c11b50f35",
+          "target": "Info: Enemies destroyed: 100"
+        },
+        {
+          "text_id": 11,
+          "source_sha256": "3b3f7541aa4868d4a938c7fcdc75f81b54537692d2612825be141a3049e4afbc",
+          "target": "Info: Enemies destroyed: 200"
+        },
+        {
+          "text_id": 12,
+          "source_sha256": "8cfea7cbc81a4ca040d5a4350520512c1126b0bd95b97efd8b254fd8ab10f4c8",
+          "target": "Info: Enemies destroyed: 300"
+        },
+        {
+          "text_id": 13,
+          "source_sha256": "2b96af72aad5fd8095f07bed55c6c6d8cd28c322be946c439c20a6feb95603e8",
+          "target": "Info: Enemies destroyed: 400"
+        },
+        {
+          "text_id": 14,
+          "source_sha256": "13a0adb2380380a737f64cba9ec4ff87727de2af6db0b2ad0ecb3515536385b4",
+          "target": "Info: Enemies destroyed: 500"
+        },
+        {
+          "text_id": 15,
+          "source_sha256": "f4c70cb94c042581c61cc2794be95bcd931125d0e1ca34717fc6d981eff37337",
+          "target": "Info: Enemies destroyed: 600"
+        },
+        {
+          "text_id": 16,
+          "source_sha256": "3be0fcce4e40a0f00e3370dd6650148e06ae934c857fed0f28794e2c7202d880",
+          "target": "Info: Enemies destroyed: 700"
+        },
+        {
+          "text_id": 17,
+          "source_sha256": "9ffe1d3b21634b4ccec78e211602d1ad0a83c098f7e58bcd7282fd969f0753d9",
+          "target": "Info: Enemies destroyed: 800"
+        },
+        {
+          "text_id": 18,
+          "source_sha256": "3c0c720cfb1510d8511b0c501c6e2c82cde34b9e0f7c6edb2f00d3f3d4733da6",
+          "target": "Info: Enemies destroyed: 900"
+        },
+        {
+          "text_id": 19,
+          "source_sha256": "c76917b22fb6dd95b2c997aa1d3400622ff6ce95989dbdbaab2175351fc32f74",
+          "target": "Info: Enemies destroyed: 1000"
+        },
+        {
+          "text_id": 20,
+          "source_sha256": "58824b71ff2f571d534c6f56f678c9c7306565918551d8505e9b8cee8c855b36",
+          "target": "Info: Enemies destroyed: 1500"
+        },
+        {
+          "text_id": 21,
+          "source_sha256": "7a346aca9d6a9b2c2a8e30f12caf8c0f8658b95e1bd228e1efca6eee2c37fb20",
+          "target": "Info: Enemies destroyed: 2000"
+        },
+        {
+          "text_id": 22,
+          "source_sha256": "d7debe2fd040677f60563ed8fb788875d10c004802a067a52f14e1d21d6a0e43",
+          "target": "Info: Enemies destroyed: 2500"
+        },
+        {
+          "text_id": 23,
+          "source_sha256": "6c1dd802f80e9fa483ec31d42a49007e0b93d75a79a1f071b42a682732f744f4",
+          "target": "Info: Enemies destroyed: 3000"
+        },
+        {
+          "text_id": 24,
+          "source_sha256": "ef74232039324e0475b836f1351da08bd34d17091123cd4689e8f4219216eacd",
+          "target": "Info: Enemies destroyed: 3500"
+        },
+        {
+          "text_id": 25,
+          "source_sha256": "1f5e0ec6134137225adec3ca77b2b5298d2a9ec6ffc7e3bfe76ed02ec028e448",
+          "target": "Info: Enemies destroyed: 4000"
+        },
+        {
+          "text_id": 26,
+          "source_sha256": "17c5e03d43205a1846ea956e07fb6e93c654c96d9c1d11218e4346abe339a1a2",
+          "target": "Info: Enemies destroyed: 4500"
+        },
+        {
+          "text_id": 27,
+          "source_sha256": "f04fa558a1d9dcb4849ce453ad659415288836415fa96612959832f0b2c6f013",
+          "target": "Info: Enemies destroyed: 5000"
+        },
+        {
+          "text_id": 28,
+          "source_sha256": "afa068111cde9f6f13c7cc780d5af74093b67e30554421a3ec15b472cc571ad6",
+          "target": "Info: Enemies destroyed: 6000"
+        },
+        {
+          "text_id": 29,
+          "source_sha256": "e5412fa94f49b4dfab7cf6e463aa0b5fdf4e992823a4e1b6111e8d10e7be7b0d",
+          "target": "Info: Enemies destroyed: 7000"
+        },
+        {
+          "text_id": 30,
+          "source_sha256": "86e10ffdbb683dc0a87b2ad87d0707aa6bd3edca10086cc52a1737da10ec5f7f",
+          "target": "Info: Enemies destroyed: 8000"
+        },
+        {
+          "text_id": 31,
+          "source_sha256": "ba78cd216141b3aefd36de8cc44bc5619b063c37d12f3e04a6c013eb06886440",
+          "target": "Info: Enemies destroyed: 9000"
+        },
+        {
+          "text_id": 32,
+          "source_sha256": "f04fa558a1d9dcb4849ce453ad659415288836415fa96612959832f0b2c6f013",
+          "target": "Info: Enemies destroyed: 5000"
+        },
+        {
+          "text_id": 33,
+          "source_sha256": "b35cfd3179cc12409edd52b92a47384513e4dadc8334754655a316c8956caa92",
+          "target": "Mission Complete: 5000 enemies destroyed"
+        },
+        {
+          "text_id": 34,
+          "source_sha256": "2fe910fa2fc8464fc9b2604011f04bd201e52ffe2e3429d1ef9e44085c444f89",
+          "target": "Info: Unidentified warship sighted"
+        },
+        {
+          "text_id": 35,
+          "source_sha256": "3e45ceb486adbac52fdbb18b7201839753f6b0fb73f634467da199902d7dc11e",
+          "target": "Mission Complete: Kill goal reached"
+        },
+        {
+          "text_id": 36,
+          "source_sha256": "85c1d69442e1d52541c2f4ae55160fd99b9d974332c0e7f289275458d9b2c253",
+          "target": "Info: AP restored"
+        },
+        {
+          "text_id": 101,
+          "source_sha256": "bd2787ec12a54cf488f8a40b984cf56334fd3b7b8cbc8af62462afc2a6b9bbc3",
+          "target": "<op()><sp(20)>You've set a new kill record!<ab(600)><ed()>"
+        },
+        {
+          "text_id": 102,
+          "source_sha256": "9a4cfedd6b6c1215f26c0353d4132981c682868f8bfb46d34209e2b66fbb7377",
+          "target": "<op()><sp(20)>That was amazing! I'm impressed!<ab(600)><ed()>"
+        },
+        {
+          "text_id": 103,
+          "source_sha256": "20486c4ba858ed20e4749e1b1f2ab378e24d50f2e965b48bec11aee685fc03e5",
+          "target": "<op()><sp(20)>Target kill count reached.<ab(600)><ed()>"
+        },
+        {
+          "text_id": 104,
+          "source_sha256": "c77ceb2ac74c9182961c0e8f6fc4b39e2f3cce115012dddeb9fa4a082bd37785",
+          "target": "<op()><sp(20)>You're a true ace!<ab(600)><ed()>"
+        }
+      ]
+    },
+    {
+      "resource_id": 2002443,
+      "copies": [
+        6443,
+        2002443,
+        3200443,
+        3201443
+      ],
+      "source_table_sha256": "c89460f6ada2c39f09fd66519942721b46a734533e0da3702065c1e5e4b61a36",
+      "rows": [
+        {
+          "text_id": 10,
+          "source_sha256": "e8cab43c30e5dba4d71772ea9690fcc32bb018ef5261910afb9838fe3e7d1746",
+          "target": "Objective: Destroy all Getter Dragons"
+        },
+        {
+          "text_id": 11,
+          "source_sha256": "f6b8511672fcd9151fa6fd2275f045c2ff5dd333e8272d4ae16e26ef9eb3cf97",
+          "target": "Warning: Enemy reinforcements"
+        },
+        {
+          "text_id": 12,
+          "source_sha256": "c80178da4173ba92c037715b312921bda84f0b62216e2e74d6df47af88428743",
+          "target": "Mission Complete: Getter Dragons down"
+        },
+        {
+          "text_id": 13,
+          "source_sha256": "be98edeccfa425d45bd76916cd88eef890c8fc047877a4c0c67ee3682cec8d8e",
+          "target": "Mission Failed: Time Over"
+        },
+        {
+          "text_id": 14,
+          "source_sha256": "5ab0773d31e3d7f4219bb5f2d36e478e391a950ce57d2a5f145b6097769a8ee6",
+          "target": "Warning: Tower retreating"
+        },
+        {
+          "text_id": 101,
+          "source_sha256": "a15fe7f6f0976fb4049fb61270b5610502f99fcf9dafc2c42cb27bb6d4a8ec35",
+          "target": "<op()><sp(20)>They've sent this many units...<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 102,
+          "source_sha256": "cb4053a4e8d501b49e2c4ff7d6ed97b2bfa35b43d441508acd7de515ec288bfe",
+          "target": "<op()><sp(20)>Everyone, shoot down as many as you can!<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 103,
+          "source_sha256": "ed5be89b6ce1c7cf3160417fb113114489dd95f472e03efee72e5cb0ee0ad4eb",
+          "target": "<op()><sp(20)>That's the spirit! Keep taking them down!<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 104,
+          "source_sha256": "6b03477ba41ffce989dffd44fba3c0cecdf27ffb590d6c6df08629ce54daabce",
+          "target": "<op()><sp(20)>Enemy reinforcements!<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 105,
+          "source_sha256": "0f06404bb9c01616a2b6e87e7c3efb47711f88de778e0f43335a698e605d4371",
+          "target": "<op()><sp(20)>What?!<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 106,
+          "source_sha256": "35021accb038cd9c85228d10539348f0b9b10bd1d82ef2e10bbcff442e17fee8",
+          "target": "<op()><sp(20)>Intercept them too!<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 107,
+          "source_sha256": "4adffe841ef8c87e724ace7d54238bece2326672aebadca561cb4da339bfc7fc",
+          "target": "<op()><sp(20)>All enemy targets eliminated.<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 108,
+          "source_sha256": "afee4db0c0575bff331832ac2b03073d70d9f9d04e2ef3771c4b0c1326cf3a53",
+          "target": "<op()><sp(20)>Your skills... I'm impressed.<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 111,
+          "source_sha256": "ccdef6eb1d8aadf7da22ed3a5ffdb86c90711d4bd5f87e8e18fd46fd4490d4ab",
+          "target": "<op()><sp(20)>Time's up...!<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 112,
+          "source_sha256": "c2131452d1dea5d16952394a705cf29a7f58f26f7e9b22ea9f512219a2749b81",
+          "target": "<op()><sp(20)>Damn, you're having a tough time!<ab(1999)><ed()>"
+        },
+        {
+          "text_id": 113,
+          "source_sha256": "9a7ce83bfae0a9c4299b9c70b8e6107629ab1b7ad290aaa75801c4a13f5ef331",
+          "target": "<op()><sp(20)>No...!<ab(1999)><ed()>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3016 @@
+{
+  "version": "0.9.20",
+  "menus": [
+    {
+      "bundle": 4002050,
+      "native_layout_sha256": "f175d32b5c0a74f5f776b8f4a2ed0d1be823d256fb2798119d75e9aae5682088",
+      "corrected_widgets": [
+        {
+          "node": 4,
+          "descriptor_x": -94.14775848388672,
+          "native_x": -117.37506866455078,
+          "mesh_shift": 23.227310180664062,
+          "vertex_count": 20
+        },
+        {
+          "node": 5,
+          "descriptor_x": -93.60771179199219,
+          "native_x": -116.80367279052734,
+          "mesh_shift": 23.195960998535156,
+          "vertex_count": 4
+        },
+        {
+          "node": 6,
+          "descriptor_x": -90.77790832519531,
+          "native_x": -113.80960845947266,
+          "mesh_shift": 23.031700134277344,
+          "vertex_count": 4
+        },
+        {
+          "node": 7,
+          "descriptor_x": 43.9577751159668,
+          "native_x": 28.746931076049805,
+          "mesh_shift": 15.210844039916992,
+          "vertex_count": 4
+        },
+        {
+          "node": 8,
+          "descriptor_x": 46.627384185791016,
+          "native_x": 31.571500778198242,
+          "mesh_shift": 15.055883407592773,
+          "vertex_count": 4
+        },
+        {
+          "node": 9,
+          "descriptor_x": 183.60484313964844,
+          "native_x": 176.49993896484375,
+          "mesh_shift": 7.1049041748046875,
+          "vertex_count": 4
+        },
+        {
+          "node": 10,
+          "descriptor_x": 186.7486572265625,
+          "native_x": 179.82623291015625,
+          "mesh_shift": 6.92242431640625,
+          "vertex_count": 4
+        },
+        {
+          "node": 14,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 15,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 16,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 17,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 18,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 22,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 24
+        },
+        {
+          "node": 23,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 24,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 25,
+          "descriptor_x": 4.8368353843688965,
+          "native_x": -12.644820213317871,
+          "mesh_shift": 17.481655597686768,
+          "vertex_count": 4
+        },
+        {
+          "node": 26,
+          "descriptor_x": 7.404584884643555,
+          "native_x": -9.928023338317871,
+          "mesh_shift": 17.332608222961426,
+          "vertex_count": 4
+        },
+        {
+          "node": 27,
+          "descriptor_x": 98.2479476928711,
+          "native_x": 86.18842315673828,
+          "mesh_shift": 12.059524536132812,
+          "vertex_count": 4
+        },
+        {
+          "node": 28,
+          "descriptor_x": 100.8156967163086,
+          "native_x": 88.90522003173828,
+          "mesh_shift": 11.910476684570312,
+          "vertex_count": 4
+        },
+        {
+          "node": 29,
+          "descriptor_x": 204.97189331054688,
+          "native_x": 199.10726928710938,
+          "mesh_shift": 5.8646240234375,
+          "vertex_count": 4
+        },
+        {
+          "node": 30,
+          "descriptor_x": 207.53965759277344,
+          "native_x": 201.82406616210938,
+          "mesh_shift": 5.7155914306640625,
+          "vertex_count": 4
+        },
+        {
+          "node": 34,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 35,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 36,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 37,
+          "descriptor_x": 116.64131164550781,
+          "native_x": 105.64945220947266,
+          "mesh_shift": 10.991859436035156,
+          "vertex_count": 4
+        },
+        {
+          "node": 38,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 42,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 43,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 44,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 45,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 46,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 50,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 51,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 52,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 53,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 54,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 58,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 59,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 60,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 61,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 62,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 66,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 67,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 68,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 69,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 70,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 74,
+          "descriptor_x": -94.14775848388672,
+          "native_x": -117.37506866455078,
+          "mesh_shift": 23.227310180664062,
+          "vertex_count": 24
+        },
+        {
+          "node": 75,
+          "descriptor_x": -93.60771179199219,
+          "native_x": -116.80367279052734,
+          "mesh_shift": 23.195960998535156,
+          "vertex_count": 4
+        },
+        {
+          "node": 76,
+          "descriptor_x": -91.03996276855469,
+          "native_x": -114.08687591552734,
+          "mesh_shift": 23.046913146972656,
+          "vertex_count": 4
+        },
+        {
+          "node": 77,
+          "descriptor_x": 4.852035999298096,
+          "native_x": -12.628737449645996,
+          "mesh_shift": 17.480773448944092,
+          "vertex_count": 4
+        },
+        {
+          "node": 78,
+          "descriptor_x": 7.419785499572754,
+          "native_x": -9.911940574645996,
+          "mesh_shift": 17.33172607421875,
+          "vertex_count": 4
+        },
+        {
+          "node": 79,
+          "descriptor_x": 98.26314544677734,
+          "native_x": 86.20450592041016,
+          "mesh_shift": 12.058639526367188,
+          "vertex_count": 4
+        },
+        {
+          "node": 80,
+          "descriptor_x": 100.83089447021484,
+          "native_x": 88.92130279541016,
+          "mesh_shift": 11.909591674804688,
+          "vertex_count": 4
+        },
+        {
+          "node": 81,
+          "descriptor_x": 204.9871063232422,
+          "native_x": 199.12335205078125,
+          "mesh_shift": 5.8637542724609375,
+          "vertex_count": 4
+        },
+        {
+          "node": 82,
+          "descriptor_x": 207.5548553466797,
+          "native_x": 201.84014892578125,
+          "mesh_shift": 5.7147064208984375,
+          "vertex_count": 4
+        }
+      ],
+      "old_native_clearances": [
+        {
+          "panel": 4,
+          "text_bounds": [
+            {
+              "node": 6,
+              "text": "Easy",
+              "left": -73.84742593765259,
+              "right": -27.847425937652588
+            },
+            {
+              "node": 8,
+              "text": "Normal",
+              "left": 58.663267612457275,
+              "right": 130.66326761245728
+            },
+            {
+              "node": 10,
+              "text": "Hard",
+              "left": 217.33159923553467,
+              "right": 266.33159923553467
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 32.37183237075806,
+              "right_gap": 40.73886728286743
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 24.39602041244507,
+              "right_gap": 48.872347831726074
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 75.03387579321861
+        },
+        {
+          "panel": 14,
+          "text_bounds": [
+            {
+              "node": 16,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 18,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Lock-On Info",
+          "connector_gap": 44.01779302954674
+        },
+        {
+          "panel": 22,
+          "text_bounds": [
+            {
+              "node": 24,
+              "text": "Camera",
+              "left": -99.82058954238892,
+              "right": -26.820589542388916
+            },
+            {
+              "node": 26,
+              "text": "Facing",
+              "left": 5.545754432678223,
+              "right": 72.54575443267822
+            },
+            {
+              "node": 28,
+              "text": "Distance",
+              "left": 104.61904621124268,
+              "right": 185.61904621124268
+            },
+            {
+              "node": 30,
+              "text": "Damage",
+              "left": 218.46508646011353,
+              "right": 293.4650864601135
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Camera",
+              "before": "Facing",
+              "left_gap": 6.445192813873291,
+              "right_gap": 12.521164894104004
+            },
+            {
+              "after": "Facing",
+              "before": "Distance",
+              "left_gap": 0.7300100326538086,
+              "right_gap": 17.943303108215332
+            },
+            {
+              "after": "Distance",
+              "before": "Damage",
+              "left_gap": -4.692143440246582,
+              "right_gap": 24.138189792633057
+            }
+          ],
+          "caption": "Lock-On Priority",
+          "connector_gap": 7.017793029546738
+        },
+        {
+          "panel": 34,
+          "text_bounds": [
+            {
+              "node": 36,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 38,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Quick Turn",
+          "connector_gap": 58.01779302954674
+        },
+        {
+          "panel": 42,
+          "text_bounds": [
+            {
+              "node": 44,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 46,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Auto Altitude",
+          "connector_gap": 32.01779302954674
+        },
+        {
+          "panel": 50,
+          "text_bounds": [
+            {
+              "node": 52,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 54,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Combo scene",
+          "connector_gap": 46.01779302954674
+        },
+        {
+          "panel": 58,
+          "text_bounds": [
+            {
+              "node": 60,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 62,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Ingame Comm",
+          "connector_gap": 32.01779302954674
+        },
+        {
+          "panel": 66,
+          "text_bounds": [
+            {
+              "node": 68,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 70,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Controls Guide",
+          "connector_gap": 24.017793029546738
+        },
+        {
+          "panel": 74,
+          "text_bounds": [
+            {
+              "node": 76,
+              "text": "Easy",
+              "left": -94.67949914932251,
+              "right": -48.67949914932251
+            },
+            {
+              "node": 78,
+              "text": "Normal",
+              "left": -6.063156366348267,
+              "right": 65.93684363365173
+            },
+            {
+              "node": 80,
+              "text": "Hard",
+              "left": 108.26013660430908,
+              "right": 157.26013660430908
+            },
+            {
+              "node": 82,
+              "text": "Real Ace",
+              "left": 200.35617685317993,
+              "right": 288.35617685317993
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 11.57018518447876,
+              "right_gap": 17.64617133140564
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 5.855003595352173,
+              "right_gap": 23.068310737609863
+            },
+            {
+              "after": "Hard",
+              "before": "Real Ace",
+              "left_gap": 0.4328489303588867,
+              "right_gap": 29.263197422027588
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 75.03387579321861
+        }
+      ],
+      "corrected_native_clearances": [
+        {
+          "panel": 4,
+          "text_bounds": [
+            {
+              "node": 6,
+              "text": "Easy",
+              "left": -50.815725326538086,
+              "right": -4.815725326538086
+            },
+            {
+              "node": 8,
+              "text": "Normal",
+              "left": 73.7191481590271,
+              "right": 145.7191481590271
+            },
+            {
+              "node": 10,
+              "text": "Hard",
+              "left": 224.25402355194092,
+              "right": 273.2540235519409
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 32.56744194030762,
+              "right_gap": 32.56743764877319
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 32.56746530532837,
+              "right_gap": 32.5674467086792
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 98.26118692755699
+        },
+        {
+          "panel": 14,
+          "text_bounds": [
+            {
+              "node": 16,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 18,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Lock-On Info",
+          "connector_gap": 67.24598154425621
+        },
+        {
+          "panel": 22,
+          "text_bounds": [
+            {
+              "node": 24,
+              "text": "Camera",
+              "left": -76.77279090881348,
+              "right": -3.7727909088134766
+            },
+            {
+              "node": 26,
+              "text": "Facing",
+              "left": 22.878363609313965,
+              "right": 89.87836360931396
+            },
+            {
+              "node": 28,
+              "text": "Distance",
+              "left": 116.52952289581299,
+              "right": 197.529522895813
+            },
+            {
+              "node": 30,
+              "text": "Damage",
+              "left": 224.18067741394043,
+              "right": 299.18067741394043
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Camera",
+              "before": "Facing",
+              "left_gap": 6.625581741333008,
+              "right_gap": 6.625594139099121
+            },
+            {
+              "after": "Facing",
+              "before": "Distance",
+              "left_gap": 6.625596046447754,
+              "right_gap": 6.6255998611450195
+            },
+            {
+              "after": "Distance",
+              "before": "Damage",
+              "left_gap": 6.6255598068237305,
+              "right_gap": 6.625600814819336
+            }
+          ],
+          "caption": "Lock-On Priority",
+          "connector_gap": 30.24598154425621
+        },
+        {
+          "panel": 34,
+          "text_bounds": [
+            {
+              "node": 36,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 38,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Quick Turn",
+          "connector_gap": 81.24598154425621
+        },
+        {
+          "panel": 42,
+          "text_bounds": [
+            {
+              "node": 44,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 46,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Auto Altitude",
+          "connector_gap": 55.24598154425621
+        },
+        {
+          "panel": 50,
+          "text_bounds": [
+            {
+              "node": 52,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 54,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Combo scene",
+          "connector_gap": 69.24598154425621
+        },
+        {
+          "panel": 58,
+          "text_bounds": [
+            {
+              "node": 60,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 62,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Ingame Comm",
+          "connector_gap": 55.24598154425621
+        },
+        {
+          "panel": 66,
+          "text_bounds": [
+            {
+              "node": 68,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 70,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Controls Guide",
+          "connector_gap": 47.24598154425621
+        },
+        {
+          "panel": 74,
+          "text_bounds": [
+            {
+              "node": 76,
+              "text": "Easy",
+              "left": -71.6325855255127,
+              "right": -25.632585525512695
+            },
+            {
+              "node": 78,
+              "text": "Normal",
+              "left": 11.268569946289062,
+              "right": 83.26856994628906
+            },
+            {
+              "node": 80,
+              "text": "Hard",
+              "left": 120.16972827911377,
+              "right": 169.16972827911377
+            },
+            {
+              "node": 82,
+              "text": "Real Ace",
+              "left": 206.07088327407837,
+              "right": 294.07088327407837
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 11.750581741333008,
+              "right_gap": 11.750587463378906
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 11.750587463378906,
+              "right_gap": 11.750592231750488
+            },
+            {
+              "after": "Hard",
+              "before": "Real Ace",
+              "left_gap": 11.7505521774292,
+              "right_gap": 11.7505784034729
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 98.26118692755699
+        }
+      ],
+      "old_minimum_arrow_gap": -4.692143440246582,
+      "runtime_verified": false
+    },
+    {
+      "bundle": 4002054,
+      "native_layout_sha256": "f175d32b5c0a74f5f776b8f4a2ed0d1be823d256fb2798119d75e9aae5682088",
+      "corrected_widgets": [
+        {
+          "node": 4,
+          "descriptor_x": -94.14775848388672,
+          "native_x": -117.37506866455078,
+          "mesh_shift": 23.227310180664062,
+          "vertex_count": 20
+        },
+        {
+          "node": 5,
+          "descriptor_x": -93.60771179199219,
+          "native_x": -116.80367279052734,
+          "mesh_shift": 23.195960998535156,
+          "vertex_count": 4
+        },
+        {
+          "node": 6,
+          "descriptor_x": -90.77790832519531,
+          "native_x": -113.80960845947266,
+          "mesh_shift": 23.031700134277344,
+          "vertex_count": 4
+        },
+        {
+          "node": 7,
+          "descriptor_x": 43.9577751159668,
+          "native_x": 28.746931076049805,
+          "mesh_shift": 15.210844039916992,
+          "vertex_count": 4
+        },
+        {
+          "node": 8,
+          "descriptor_x": 46.627384185791016,
+          "native_x": 31.571500778198242,
+          "mesh_shift": 15.055883407592773,
+          "vertex_count": 4
+        },
+        {
+          "node": 9,
+          "descriptor_x": 183.60484313964844,
+          "native_x": 176.49993896484375,
+          "mesh_shift": 7.1049041748046875,
+          "vertex_count": 4
+        },
+        {
+          "node": 10,
+          "descriptor_x": 186.7486572265625,
+          "native_x": 179.82623291015625,
+          "mesh_shift": 6.92242431640625,
+          "vertex_count": 4
+        },
+        {
+          "node": 14,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 15,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 16,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 17,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 18,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 22,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 24
+        },
+        {
+          "node": 23,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 24,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 25,
+          "descriptor_x": 4.8368353843688965,
+          "native_x": -12.644820213317871,
+          "mesh_shift": 17.481655597686768,
+          "vertex_count": 4
+        },
+        {
+          "node": 26,
+          "descriptor_x": 7.404584884643555,
+          "native_x": -9.928023338317871,
+          "mesh_shift": 17.332608222961426,
+          "vertex_count": 4
+        },
+        {
+          "node": 27,
+          "descriptor_x": 98.2479476928711,
+          "native_x": 86.18842315673828,
+          "mesh_shift": 12.059524536132812,
+          "vertex_count": 4
+        },
+        {
+          "node": 28,
+          "descriptor_x": 100.8156967163086,
+          "native_x": 88.90522003173828,
+          "mesh_shift": 11.910476684570312,
+          "vertex_count": 4
+        },
+        {
+          "node": 29,
+          "descriptor_x": 204.97189331054688,
+          "native_x": 199.10726928710938,
+          "mesh_shift": 5.8646240234375,
+          "vertex_count": 4
+        },
+        {
+          "node": 30,
+          "descriptor_x": 207.53965759277344,
+          "native_x": 201.82406616210938,
+          "mesh_shift": 5.7155914306640625,
+          "vertex_count": 4
+        },
+        {
+          "node": 34,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 35,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 36,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 37,
+          "descriptor_x": 116.64131164550781,
+          "native_x": 105.64945220947266,
+          "mesh_shift": 10.991859436035156,
+          "vertex_count": 4
+        },
+        {
+          "node": 38,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 42,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 43,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 44,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 45,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 46,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 50,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 51,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 52,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 53,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 54,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 58,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 59,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 60,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 61,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 62,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 66,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 67,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 68,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 69,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 70,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 74,
+          "descriptor_x": -94.14775848388672,
+          "native_x": -117.37506866455078,
+          "mesh_shift": 23.227310180664062,
+          "vertex_count": 24
+        },
+        {
+          "node": 75,
+          "descriptor_x": -93.60771179199219,
+          "native_x": -116.80367279052734,
+          "mesh_shift": 23.195960998535156,
+          "vertex_count": 4
+        },
+        {
+          "node": 76,
+          "descriptor_x": -91.03996276855469,
+          "native_x": -114.08687591552734,
+          "mesh_shift": 23.046913146972656,
+          "vertex_count": 4
+        },
+        {
+          "node": 77,
+          "descriptor_x": 4.852035999298096,
+          "native_x": -12.628737449645996,
+          "mesh_shift": 17.480773448944092,
+          "vertex_count": 4
+        },
+        {
+          "node": 78,
+          "descriptor_x": 7.419785499572754,
+          "native_x": -9.911940574645996,
+          "mesh_shift": 17.33172607421875,
+          "vertex_count": 4
+        },
+        {
+          "node": 79,
+          "descriptor_x": 98.26314544677734,
+          "native_x": 86.20450592041016,
+          "mesh_shift": 12.058639526367188,
+          "vertex_count": 4
+        },
+        {
+          "node": 80,
+          "descriptor_x": 100.83089447021484,
+          "native_x": 88.92130279541016,
+          "mesh_shift": 11.909591674804688,
+          "vertex_count": 4
+        },
+        {
+          "node": 81,
+          "descriptor_x": 204.9871063232422,
+          "native_x": 199.12335205078125,
+          "mesh_shift": 5.8637542724609375,
+          "vertex_count": 4
+        },
+        {
+          "node": 82,
+          "descriptor_x": 207.5548553466797,
+          "native_x": 201.84014892578125,
+          "mesh_shift": 5.7147064208984375,
+          "vertex_count": 4
+        }
+      ],
+      "old_native_clearances": [
+        {
+          "panel": 4,
+          "text_bounds": [
+            {
+              "node": 6,
+              "text": "Easy",
+              "left": -73.84742593765259,
+              "right": -27.847425937652588
+            },
+            {
+              "node": 8,
+              "text": "Normal",
+              "left": 58.663267612457275,
+              "right": 130.66326761245728
+            },
+            {
+              "node": 10,
+              "text": "Hard",
+              "left": 217.33159923553467,
+              "right": 266.33159923553467
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 32.37183237075806,
+              "right_gap": 40.73886728286743
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 24.39602041244507,
+              "right_gap": 48.872347831726074
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 73.03387579321861
+        },
+        {
+          "panel": 14,
+          "text_bounds": [
+            {
+              "node": 16,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 18,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Lock-On Info",
+          "connector_gap": 42.01779302954674
+        },
+        {
+          "panel": 22,
+          "text_bounds": [
+            {
+              "node": 24,
+              "text": "Camera",
+              "left": -100.32058954238892,
+              "right": -27.320589542388916
+            },
+            {
+              "node": 26,
+              "text": "Facing",
+              "left": 4.045754432678223,
+              "right": 71.04575443267822
+            },
+            {
+              "node": 28,
+              "text": "Distance",
+              "left": 102.11904621124268,
+              "right": 185.11904621124268
+            },
+            {
+              "node": 30,
+              "text": "Damage",
+              "left": 216.96508646011353,
+              "right": 293.9650864601135
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Camera",
+              "before": "Facing",
+              "left_gap": 5.945192813873291,
+              "right_gap": 12.021164894104004
+            },
+            {
+              "after": "Facing",
+              "before": "Distance",
+              "left_gap": 0.2300100326538086,
+              "right_gap": 17.443303108215332
+            },
+            {
+              "after": "Distance",
+              "before": "Damage",
+              "left_gap": -5.192143440246582,
+              "right_gap": 23.638189792633057
+            }
+          ],
+          "caption": "Lock-On Priority",
+          "connector_gap": 5.017793029546738
+        },
+        {
+          "panel": 34,
+          "text_bounds": [
+            {
+              "node": 36,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 38,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Quick Turn",
+          "connector_gap": 58.01779302954674
+        },
+        {
+          "panel": 42,
+          "text_bounds": [
+            {
+              "node": 44,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 46,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Auto Altitude",
+          "connector_gap": 32.01779302954674
+        },
+        {
+          "panel": 50,
+          "text_bounds": [
+            {
+              "node": 52,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 54,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Combo scene",
+          "connector_gap": 46.01779302954674
+        },
+        {
+          "panel": 58,
+          "text_bounds": [
+            {
+              "node": 60,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 62,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Ingame Comm",
+          "connector_gap": 32.01779302954674
+        },
+        {
+          "panel": 66,
+          "text_bounds": [
+            {
+              "node": 68,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 70,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Controls Guide",
+          "connector_gap": 24.017793029546738
+        },
+        {
+          "panel": 74,
+          "text_bounds": [
+            {
+              "node": 76,
+              "text": "Easy",
+              "left": -94.67949914932251,
+              "right": -48.67949914932251
+            },
+            {
+              "node": 78,
+              "text": "Normal",
+              "left": -6.063156366348267,
+              "right": 65.93684363365173
+            },
+            {
+              "node": 80,
+              "text": "Hard",
+              "left": 108.26013660430908,
+              "right": 157.26013660430908
+            },
+            {
+              "node": 82,
+              "text": "Real Ace",
+              "left": 200.35617685317993,
+              "right": 288.35617685317993
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 11.57018518447876,
+              "right_gap": 17.64617133140564
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 5.855003595352173,
+              "right_gap": 23.068310737609863
+            },
+            {
+              "after": "Hard",
+              "before": "Real Ace",
+              "left_gap": 0.4328489303588867,
+              "right_gap": 29.263197422027588
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 73.03387579321861
+        }
+      ],
+      "corrected_native_clearances": [
+        {
+          "panel": 4,
+          "text_bounds": [
+            {
+              "node": 6,
+              "text": "Easy",
+              "left": -50.815725326538086,
+              "right": -4.815725326538086
+            },
+            {
+              "node": 8,
+              "text": "Normal",
+              "left": 73.7191481590271,
+              "right": 145.7191481590271
+            },
+            {
+              "node": 10,
+              "text": "Hard",
+              "left": 224.25402355194092,
+              "right": 273.2540235519409
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 32.56744194030762,
+              "right_gap": 32.56743764877319
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 32.56746530532837,
+              "right_gap": 32.5674467086792
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 96.26118692755699
+        },
+        {
+          "panel": 14,
+          "text_bounds": [
+            {
+              "node": 16,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 18,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Lock-On Info",
+          "connector_gap": 65.24598154425621
+        },
+        {
+          "panel": 22,
+          "text_bounds": [
+            {
+              "node": 24,
+              "text": "Camera",
+              "left": -77.27279090881348,
+              "right": -4.272790908813477
+            },
+            {
+              "node": 26,
+              "text": "Facing",
+              "left": 21.378363609313965,
+              "right": 88.37836360931396
+            },
+            {
+              "node": 28,
+              "text": "Distance",
+              "left": 114.02952289581299,
+              "right": 197.029522895813
+            },
+            {
+              "node": 30,
+              "text": "Damage",
+              "left": 222.68067741394043,
+              "right": 299.68067741394043
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Camera",
+              "before": "Facing",
+              "left_gap": 6.125581741333008,
+              "right_gap": 6.125594139099121
+            },
+            {
+              "after": "Facing",
+              "before": "Distance",
+              "left_gap": 6.125596046447754,
+              "right_gap": 6.1255998611450195
+            },
+            {
+              "after": "Distance",
+              "before": "Damage",
+              "left_gap": 6.1255598068237305,
+              "right_gap": 6.125600814819336
+            }
+          ],
+          "caption": "Lock-On Priority",
+          "connector_gap": 28.24598154425621
+        },
+        {
+          "panel": 34,
+          "text_bounds": [
+            {
+              "node": 36,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 38,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Quick Turn",
+          "connector_gap": 81.24598154425621
+        },
+        {
+          "panel": 42,
+          "text_bounds": [
+            {
+              "node": 44,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 46,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Auto Altitude",
+          "connector_gap": 55.24598154425621
+        },
+        {
+          "panel": 50,
+          "text_bounds": [
+            {
+              "node": 52,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 54,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Combo scene",
+          "connector_gap": 69.24598154425621
+        },
+        {
+          "panel": 58,
+          "text_bounds": [
+            {
+              "node": 60,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 62,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Ingame Comm",
+          "connector_gap": 55.24598154425621
+        },
+        {
+          "panel": 66,
+          "text_bounds": [
+            {
+              "node": 68,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 70,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Controls Guide",
+          "connector_gap": 47.24598154425621
+        },
+        {
+          "panel": 74,
+          "text_bounds": [
+            {
+              "node": 76,
+              "text": "Easy",
+              "left": -71.6325855255127,
+              "right": -25.632585525512695
+            },
+            {
+              "node": 78,
+              "text": "Normal",
+              "left": 11.268569946289062,
+              "right": 83.26856994628906
+            },
+            {
+              "node": 80,
+              "text": "Hard",
+              "left": 120.16972827911377,
+              "right": 169.16972827911377
+            },
+            {
+              "node": 82,
+              "text": "Real Ace",
+              "left": 206.07088327407837,
+              "right": 294.07088327407837
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 11.750581741333008,
+              "right_gap": 11.750587463378906
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 11.750587463378906,
+              "right_gap": 11.750592231750488
+            },
+            {
+              "after": "Hard",
+              "before": "Real Ace",
+              "left_gap": 11.7505521774292,
+              "right_gap": 11.7505784034729
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 96.26118692755699
+        }
+      ],
+      "old_minimum_arrow_gap": -5.192143440246582,
+      "runtime_verified": false
+    },
+    {
+      "bundle": 4002057,
+      "native_layout_sha256": "f175d32b5c0a74f5f776b8f4a2ed0d1be823d256fb2798119d75e9aae5682088",
+      "corrected_widgets": [
+        {
+          "node": 4,
+          "descriptor_x": -94.14775848388672,
+          "native_x": -117.37506866455078,
+          "mesh_shift": 23.227310180664062,
+          "vertex_count": 20
+        },
+        {
+          "node": 5,
+          "descriptor_x": -93.60771179199219,
+          "native_x": -116.80367279052734,
+          "mesh_shift": 23.195960998535156,
+          "vertex_count": 4
+        },
+        {
+          "node": 6,
+          "descriptor_x": -90.77790832519531,
+          "native_x": -113.80960845947266,
+          "mesh_shift": 23.031700134277344,
+          "vertex_count": 4
+        },
+        {
+          "node": 7,
+          "descriptor_x": 43.9577751159668,
+          "native_x": 28.746931076049805,
+          "mesh_shift": 15.210844039916992,
+          "vertex_count": 4
+        },
+        {
+          "node": 8,
+          "descriptor_x": 46.627384185791016,
+          "native_x": 31.571500778198242,
+          "mesh_shift": 15.055883407592773,
+          "vertex_count": 4
+        },
+        {
+          "node": 9,
+          "descriptor_x": 183.60484313964844,
+          "native_x": 176.49993896484375,
+          "mesh_shift": 7.1049041748046875,
+          "vertex_count": 4
+        },
+        {
+          "node": 10,
+          "descriptor_x": 186.7486572265625,
+          "native_x": 179.82623291015625,
+          "mesh_shift": 6.92242431640625,
+          "vertex_count": 4
+        },
+        {
+          "node": 14,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 15,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 16,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 17,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 18,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 22,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 24
+        },
+        {
+          "node": 23,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 24,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 25,
+          "descriptor_x": 4.8368353843688965,
+          "native_x": -12.644820213317871,
+          "mesh_shift": 17.481655597686768,
+          "vertex_count": 4
+        },
+        {
+          "node": 26,
+          "descriptor_x": 7.404584884643555,
+          "native_x": -9.928023338317871,
+          "mesh_shift": 17.332608222961426,
+          "vertex_count": 4
+        },
+        {
+          "node": 27,
+          "descriptor_x": 98.2479476928711,
+          "native_x": 86.18842315673828,
+          "mesh_shift": 12.059524536132812,
+          "vertex_count": 4
+        },
+        {
+          "node": 28,
+          "descriptor_x": 100.8156967163086,
+          "native_x": 88.90522003173828,
+          "mesh_shift": 11.910476684570312,
+          "vertex_count": 4
+        },
+        {
+          "node": 29,
+          "descriptor_x": 204.97189331054688,
+          "native_x": 199.10726928710938,
+          "mesh_shift": 5.8646240234375,
+          "vertex_count": 4
+        },
+        {
+          "node": 30,
+          "descriptor_x": 207.53965759277344,
+          "native_x": 201.82406616210938,
+          "mesh_shift": 5.7155914306640625,
+          "vertex_count": 4
+        },
+        {
+          "node": 34,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 35,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 36,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 37,
+          "descriptor_x": 116.64131164550781,
+          "native_x": 105.64945220947266,
+          "mesh_shift": 10.991859436035156,
+          "vertex_count": 4
+        },
+        {
+          "node": 38,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 42,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 43,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 44,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 45,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 46,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 50,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 51,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 52,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 53,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 54,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 58,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 59,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 60,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 61,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 62,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 66,
+          "descriptor_x": -94.1629638671875,
+          "native_x": -117.39115142822266,
+          "mesh_shift": 23.228187561035156,
+          "vertex_count": 16
+        },
+        {
+          "node": 67,
+          "descriptor_x": -93.62290954589844,
+          "native_x": -116.81975555419922,
+          "mesh_shift": 23.19684600830078,
+          "vertex_count": 4
+        },
+        {
+          "node": 68,
+          "descriptor_x": -91.05516052246094,
+          "native_x": -114.10295867919922,
+          "mesh_shift": 23.04779815673828,
+          "vertex_count": 4
+        },
+        {
+          "node": 69,
+          "descriptor_x": 116.64128875732422,
+          "native_x": 105.64942169189453,
+          "mesh_shift": 10.991867065429688,
+          "vertex_count": 4
+        },
+        {
+          "node": 70,
+          "descriptor_x": 119.20903778076172,
+          "native_x": 108.36621856689453,
+          "mesh_shift": 10.842819213867188,
+          "vertex_count": 4
+        },
+        {
+          "node": 74,
+          "descriptor_x": -94.14775848388672,
+          "native_x": -117.37506866455078,
+          "mesh_shift": 23.227310180664062,
+          "vertex_count": 24
+        },
+        {
+          "node": 75,
+          "descriptor_x": -93.60771179199219,
+          "native_x": -116.80367279052734,
+          "mesh_shift": 23.195960998535156,
+          "vertex_count": 4
+        },
+        {
+          "node": 76,
+          "descriptor_x": -91.03996276855469,
+          "native_x": -114.08687591552734,
+          "mesh_shift": 23.046913146972656,
+          "vertex_count": 4
+        },
+        {
+          "node": 77,
+          "descriptor_x": 4.852035999298096,
+          "native_x": -12.628737449645996,
+          "mesh_shift": 17.480773448944092,
+          "vertex_count": 4
+        },
+        {
+          "node": 78,
+          "descriptor_x": 7.419785499572754,
+          "native_x": -9.911940574645996,
+          "mesh_shift": 17.33172607421875,
+          "vertex_count": 4
+        },
+        {
+          "node": 79,
+          "descriptor_x": 98.26314544677734,
+          "native_x": 86.20450592041016,
+          "mesh_shift": 12.058639526367188,
+          "vertex_count": 4
+        },
+        {
+          "node": 80,
+          "descriptor_x": 100.83089447021484,
+          "native_x": 88.92130279541016,
+          "mesh_shift": 11.909591674804688,
+          "vertex_count": 4
+        },
+        {
+          "node": 81,
+          "descriptor_x": 204.9871063232422,
+          "native_x": 199.12335205078125,
+          "mesh_shift": 5.8637542724609375,
+          "vertex_count": 4
+        },
+        {
+          "node": 82,
+          "descriptor_x": 207.5548553466797,
+          "native_x": 201.84014892578125,
+          "mesh_shift": 5.7147064208984375,
+          "vertex_count": 4
+        }
+      ],
+      "old_native_clearances": [
+        {
+          "panel": 4,
+          "text_bounds": [
+            {
+              "node": 6,
+              "text": "Easy",
+              "left": -73.84742593765259,
+              "right": -27.847425937652588
+            },
+            {
+              "node": 8,
+              "text": "Normal",
+              "left": 58.663267612457275,
+              "right": 130.66326761245728
+            },
+            {
+              "node": 10,
+              "text": "Hard",
+              "left": 217.33159923553467,
+              "right": 266.33159923553467
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 32.37183237075806,
+              "right_gap": 40.73886728286743
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 24.39602041244507,
+              "right_gap": 48.872347831726074
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 75.03387579321861
+        },
+        {
+          "panel": 14,
+          "text_bounds": [
+            {
+              "node": 16,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 18,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Lock-On Info",
+          "connector_gap": 44.01779302954674
+        },
+        {
+          "panel": 22,
+          "text_bounds": [
+            {
+              "node": 24,
+              "text": "Camera",
+              "left": -99.82058954238892,
+              "right": -26.820589542388916
+            },
+            {
+              "node": 26,
+              "text": "Facing",
+              "left": 5.545754432678223,
+              "right": 72.54575443267822
+            },
+            {
+              "node": 28,
+              "text": "Distance",
+              "left": 104.61904621124268,
+              "right": 185.61904621124268
+            },
+            {
+              "node": 30,
+              "text": "Damage",
+              "left": 218.46508646011353,
+              "right": 293.4650864601135
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Camera",
+              "before": "Facing",
+              "left_gap": 6.445192813873291,
+              "right_gap": 12.521164894104004
+            },
+            {
+              "after": "Facing",
+              "before": "Distance",
+              "left_gap": 0.7300100326538086,
+              "right_gap": 17.943303108215332
+            },
+            {
+              "after": "Distance",
+              "before": "Damage",
+              "left_gap": -4.692143440246582,
+              "right_gap": 24.138189792633057
+            }
+          ],
+          "caption": "Lock-On Priority",
+          "connector_gap": 7.017793029546738
+        },
+        {
+          "panel": 34,
+          "text_bounds": [
+            {
+              "node": 36,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 38,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Quick Turn",
+          "connector_gap": 58.01779302954674
+        },
+        {
+          "panel": 42,
+          "text_bounds": [
+            {
+              "node": 44,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 46,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Auto Altitude",
+          "connector_gap": 32.01779302954674
+        },
+        {
+          "panel": 50,
+          "text_bounds": [
+            {
+              "node": 52,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 54,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Combo scene",
+          "connector_gap": 46.01779302954674
+        },
+        {
+          "panel": 58,
+          "text_bounds": [
+            {
+              "node": 60,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 62,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Ingame Comm",
+          "connector_gap": 32.01779302954674
+        },
+        {
+          "panel": 66,
+          "text_bounds": [
+            {
+              "node": 68,
+              "text": "\uff2f\uff2e",
+              "left": -32.24500894546509,
+              "right": 0.7549910545349121
+            },
+            {
+              "node": 70,
+              "text": "\uff2f\uff26\uff26",
+              "left": 174.76227641105652,
+              "right": 220.76227641105652
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.02077341079712,
+              "right_gap": 86.58653330802917
+            }
+          ],
+          "caption": "Controls Guide",
+          "connector_gap": 24.017793029546738
+        },
+        {
+          "panel": 74,
+          "text_bounds": [
+            {
+              "node": 76,
+              "text": "Easy",
+              "left": -94.67949914932251,
+              "right": -48.67949914932251
+            },
+            {
+              "node": 78,
+              "text": "Normal",
+              "left": -6.063156366348267,
+              "right": 65.93684363365173
+            },
+            {
+              "node": 80,
+              "text": "Hard",
+              "left": 108.26013660430908,
+              "right": 157.26013660430908
+            },
+            {
+              "node": 82,
+              "text": "Real Ace",
+              "left": 200.35617685317993,
+              "right": 288.35617685317993
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 11.57018518447876,
+              "right_gap": 17.64617133140564
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 5.855003595352173,
+              "right_gap": 23.068310737609863
+            },
+            {
+              "after": "Hard",
+              "before": "Real Ace",
+              "left_gap": 0.4328489303588867,
+              "right_gap": 29.263197422027588
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 75.03387579321861
+        }
+      ],
+      "corrected_native_clearances": [
+        {
+          "panel": 4,
+          "text_bounds": [
+            {
+              "node": 6,
+              "text": "Easy",
+              "left": -50.815725326538086,
+              "right": -4.815725326538086
+            },
+            {
+              "node": 8,
+              "text": "Normal",
+              "left": 73.7191481590271,
+              "right": 145.7191481590271
+            },
+            {
+              "node": 10,
+              "text": "Hard",
+              "left": 224.25402355194092,
+              "right": 273.2540235519409
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 32.56744194030762,
+              "right_gap": 32.56743764877319
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 32.56746530532837,
+              "right_gap": 32.5674467086792
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 98.26118692755699
+        },
+        {
+          "panel": 14,
+          "text_bounds": [
+            {
+              "node": 16,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 18,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Lock-On Info",
+          "connector_gap": 67.24598154425621
+        },
+        {
+          "panel": 22,
+          "text_bounds": [
+            {
+              "node": 24,
+              "text": "Camera",
+              "left": -76.77279090881348,
+              "right": -3.7727909088134766
+            },
+            {
+              "node": 26,
+              "text": "Facing",
+              "left": 22.878363609313965,
+              "right": 89.87836360931396
+            },
+            {
+              "node": 28,
+              "text": "Distance",
+              "left": 116.52952289581299,
+              "right": 197.529522895813
+            },
+            {
+              "node": 30,
+              "text": "Damage",
+              "left": 224.18067741394043,
+              "right": 299.18067741394043
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Camera",
+              "before": "Facing",
+              "left_gap": 6.625581741333008,
+              "right_gap": 6.625594139099121
+            },
+            {
+              "after": "Facing",
+              "before": "Distance",
+              "left_gap": 6.625596046447754,
+              "right_gap": 6.6255998611450195
+            },
+            {
+              "after": "Distance",
+              "before": "Damage",
+              "left_gap": 6.6255598068237305,
+              "right_gap": 6.625600814819336
+            }
+          ],
+          "caption": "Lock-On Priority",
+          "connector_gap": 30.24598154425621
+        },
+        {
+          "panel": 34,
+          "text_bounds": [
+            {
+              "node": 36,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 38,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Quick Turn",
+          "connector_gap": 81.24598154425621
+        },
+        {
+          "panel": 42,
+          "text_bounds": [
+            {
+              "node": 44,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 46,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Auto Altitude",
+          "connector_gap": 55.24598154425621
+        },
+        {
+          "panel": 50,
+          "text_bounds": [
+            {
+              "node": 52,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 54,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Combo scene",
+          "connector_gap": 69.24598154425621
+        },
+        {
+          "panel": 58,
+          "text_bounds": [
+            {
+              "node": 60,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 62,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Ingame Comm",
+          "connector_gap": 55.24598154425621
+        },
+        {
+          "panel": 66,
+          "text_bounds": [
+            {
+              "node": 68,
+              "text": "\uff2f\uff2e",
+              "left": -9.197206497192383,
+              "right": 23.802793502807617
+            },
+            {
+              "node": 70,
+              "text": "\uff2f\uff26\uff26",
+              "left": 185.6050956249237,
+              "right": 231.6050956249237
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "\uff2f\uff2e",
+              "before": "\uff2f\uff26\uff26",
+              "left_gap": 74.2011661529541,
+              "right_gap": 74.20117259025574
+            }
+          ],
+          "caption": "Controls Guide",
+          "connector_gap": 47.24598154425621
+        },
+        {
+          "panel": 74,
+          "text_bounds": [
+            {
+              "node": 76,
+              "text": "Easy",
+              "left": -71.6325855255127,
+              "right": -25.632585525512695
+            },
+            {
+              "node": 78,
+              "text": "Normal",
+              "left": 11.268569946289062,
+              "right": 83.26856994628906
+            },
+            {
+              "node": 80,
+              "text": "Hard",
+              "left": 120.16972827911377,
+              "right": 169.16972827911377
+            },
+            {
+              "node": 82,
+              "text": "Real Ace",
+              "left": 206.07088327407837,
+              "right": 294.07088327407837
+            }
+          ],
+          "arrow_gaps": [
+            {
+              "after": "Easy",
+              "before": "Normal",
+              "left_gap": 11.750581741333008,
+              "right_gap": 11.750587463378906
+            },
+            {
+              "after": "Normal",
+              "before": "Hard",
+              "left_gap": 11.750587463378906,
+              "right_gap": 11.750592231750488
+            },
+            {
+              "after": "Hard",
+              "before": "Real Ace",
+              "left_gap": 11.7505521774292,
+              "right_gap": 11.7505784034729
+            }
+          ],
+          "caption": "Difficulty",
+          "connector_gap": 98.26118692755699
+        }
+      ],
+      "old_minimum_arrow_gap": -4.692143440246582,
+      "runtime_verified": false
+    }
+  ],
+  "runtime_verified": false,
+  "diagnosis": "0.9.19 retained shifted descriptors from 0.1.50, but screenshot placement matches native anchors. Restore those anchors and bake the offset into vertices, as in the existing Controls fix."
+}

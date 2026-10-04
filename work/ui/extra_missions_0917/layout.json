@@ -1,0 +1,518 @@
+{
+  "scenes": [
+    {
+      "resource_id": 2002442,
+      "table_bytes": 1376,
+      "rows": [
+        {
+          "text_id": 3,
+          "target": "Destroy all targets",
+          "widths": [
+            210
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 4,
+          "target": "Objective: Destroy all targets",
+          "widths": [
+            327
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 5,
+          "target": "Return to the designated point",
+          "widths": [
+            348
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 6,
+          "target": "Objective: Return to the designated point",
+          "widths": [
+            465
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 10,
+          "target": "Info: Enemies destroyed: 100",
+          "widths": [
+            331
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 11,
+          "target": "Info: Enemies destroyed: 200",
+          "widths": [
+            331
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 12,
+          "target": "Info: Enemies destroyed: 300",
+          "widths": [
+            331
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 13,
+          "target": "Info: Enemies destroyed: 400",
+          "widths": [
+            333
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 14,
+          "target": "Info: Enemies destroyed: 500",
+          "widths": [
+            332
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 15,
+          "target": "Info: Enemies destroyed: 600",
+          "widths": [
+            331
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 16,
+          "target": "Info: Enemies destroyed: 700",
+          "widths": [
+            332
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 17,
+          "target": "Info: Enemies destroyed: 800",
+          "widths": [
+            332
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 18,
+          "target": "Info: Enemies destroyed: 900",
+          "widths": [
+            331
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 19,
+          "target": "Info: Enemies destroyed: 1000",
+          "widths": [
+            344
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 20,
+          "target": "Info: Enemies destroyed: 1500",
+          "widths": [
+            344
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 21,
+          "target": "Info: Enemies destroyed: 2000",
+          "widths": [
+            344
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 22,
+          "target": "Info: Enemies destroyed: 2500",
+          "widths": [
+            344
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 23,
+          "target": "Info: Enemies destroyed: 3000",
+          "widths": [
+            344
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 24,
+          "target": "Info: Enemies destroyed: 3500",
+          "widths": [
+            344
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 25,
+          "target": "Info: Enemies destroyed: 4000",
+          "widths": [
+            346
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 26,
+          "target": "Info: Enemies destroyed: 4500",
+          "widths": [
+            346
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 27,
+          "target": "Info: Enemies destroyed: 5000",
+          "widths": [
+            345
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 28,
+          "target": "Info: Enemies destroyed: 6000",
+          "widths": [
+            344
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 29,
+          "target": "Info: Enemies destroyed: 7000",
+          "widths": [
+            345
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 30,
+          "target": "Info: Enemies destroyed: 8000",
+          "widths": [
+            345
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 31,
+          "target": "Info: Enemies destroyed: 9000",
+          "widths": [
+            344
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 32,
+          "target": "Info: Enemies destroyed: 5000",
+          "widths": [
+            345
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 33,
+          "target": "Mission Complete: 5000 enemies destroyed",
+          "widths": [
+            480
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 34,
+          "target": "Info: Unidentified warship sighted",
+          "widths": [
+            395
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 35,
+          "target": "Mission Complete: Kill goal reached",
+          "widths": [
+            400
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 36,
+          "target": "Info: AP restored",
+          "widths": [
+            198
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 101,
+          "target": "<op()><sp(20)>You've set a new kill record!<ab(600)><ed()>",
+          "widths": [
+            324
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 102,
+          "target": "<op()><sp(20)>That was amazing! I'm impressed!<ab(600)><ed()>",
+          "widths": [
+            384
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 103,
+          "target": "<op()><sp(20)>Target kill count reached.<ab(600)><ed()>",
+          "widths": [
+            296
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 104,
+          "target": "<op()><sp(20)>You're a true ace!<ab(600)><ed()>",
+          "widths": [
+            207
+          ],
+          "limit": 400
+        }
+      ],
+      "copies": [
+        {
+          "resource_id": 6442,
+          "resource_bytes": 56736,
+          "table_offset": 55360,
+          "table_bytes": 1376
+        },
+        {
+          "resource_id": 2002442,
+          "resource_bytes": 56736,
+          "table_offset": 55360,
+          "table_bytes": 1376
+        },
+        {
+          "resource_id": 3200442,
+          "resource_bytes": 2784,
+          "table_offset": 1408,
+          "table_bytes": 1376
+        },
+        {
+          "resource_id": 3201442,
+          "resource_bytes": 2784,
+          "table_offset": 1408,
+          "table_bytes": 1376
+        }
+      ]
+    },
+    {
+      "resource_id": 2002443,
+      "table_bytes": 960,
+      "rows": [
+        {
+          "text_id": 10,
+          "target": "Objective: Destroy all Getter Dragons",
+          "widths": [
+            417
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 11,
+          "target": "Warning: Enemy reinforcements",
+          "widths": [
+            364
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 12,
+          "target": "Mission Complete: Getter Dragons down",
+          "widths": [
+            446
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 13,
+          "target": "Mission Failed: Time Over",
+          "widths": [
+            295
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 14,
+          "target": "Warning: Tower retreating",
+          "widths": [
+            301
+          ],
+          "limit": 480
+        },
+        {
+          "text_id": 101,
+          "target": "<op()><sp(20)>They've sent this many units...<ab(1999)><ed()>",
+          "widths": [
+            371
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 102,
+          "target": "<op()><sp(20)>Everyone, shoot down as many as\nyou can!<ab(1999)><ed()>",
+          "widths": [
+            377,
+            96
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 103,
+          "target": "<op()><sp(20)>That's the spirit! Keep taking\nthem down!<ab(1999)><ed()>",
+          "widths": [
+            338,
+            128
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 104,
+          "target": "<op()><sp(20)>Enemy reinforcements!<ab(1999)><ed()>",
+          "widths": [
+            261
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 105,
+          "target": "<op()><sp(20)>What?!<ab(1999)><ed()>",
+          "widths": [
+            76
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 106,
+          "target": "<op()><sp(20)>Intercept them too!<ab(1999)><ed()>",
+          "widths": [
+            217
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 107,
+          "target": "<op()><sp(20)>All enemy targets eliminated.<ab(1999)><ed()>",
+          "widths": [
+            338
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 108,
+          "target": "<op()><sp(20)>Your skills... I'm impressed.<ab(1999)><ed()>",
+          "widths": [
+            336
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 111,
+          "target": "<op()><sp(20)>Time's up...!<ab(1999)><ed()>",
+          "widths": [
+            157
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 112,
+          "target": "<op()><sp(20)>Damn, you're having a tough time!<ab(1999)><ed()>",
+          "widths": [
+            391
+          ],
+          "limit": 400
+        },
+        {
+          "text_id": 113,
+          "target": "<op()><sp(20)>No...!<ab(1999)><ed()>",
+          "widths": [
+            73
+          ],
+          "limit": 400
+        }
+      ],
+      "copies": [
+        {
+          "resource_id": 6443,
+          "resource_bytes": 52512,
+          "table_offset": 51552,
+          "table_bytes": 960
+        },
+        {
+          "resource_id": 2002443,
+          "resource_bytes": 120320,
+          "table_offset": 119360,
+          "table_bytes": 960
+        },
+        {
+          "resource_id": 3200443,
+          "resource_bytes": 1952,
+          "table_offset": 992,
+          "table_bytes": 960
+        },
+        {
+          "resource_id": 3201443,
+          "resource_bytes": 1952,
+          "table_offset": 992,
+          "table_bytes": 960
+        }
+      ]
+    }
+  ],
+  "unique_dialogue_rows": 15,
+  "unique_hud_rows": 36,
+  "translated_instances": 204,
+  "extra_1_2_active_objectives_verified": [
+    6440,
+    2002440,
+    3200440,
+    3201440,
+    6441,
+    2002441,
+    3200441,
+    3201441
+  ],
+  "packed_headers_audited": 427,
+  "packed_size_candidates": [],
+  "plain_size_candidates": [
+    6442,
+    6443,
+    604020,
+    2002442,
+    2002443,
+    3200442,
+    3200443,
+    3201442,
+    3201443
+  ],
+  "matching_plain_copies": [
+    6442,
+    6443,
+    2002442,
+    2002443,
+    3200442,
+    3200443,
+    3201442,
+    3201443
+  ],
+  "fixed_table_extents": true,
+  "script_offsets_and_timing_unchanged": true,
+  "translation_sha256": "5a78185f2bd48f605a802299ad96e6133f32b4da2797727d3cb4331756288e33",
+  "runtime_verified": false
+}

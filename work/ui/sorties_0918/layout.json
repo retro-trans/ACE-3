@@ -1,0 +1,20 @@
+{
+  "bundle": 4002053,
+  "layout": 21,
+  "node": 6,
+  "text_id": 72,
+  "old_label": "Player Sorties",
+  "new_label": "Sorties",
+  "caption_width": 65,
+  "cell_width": 98.01136779785156,
+  "horizontal_scale": 1,
+  "vertical_scale": 1,
+  "geometry_donor_node": 8,
+  "caption_to_counter_gap": 23.3227566704154,
+  "counter_node": 7,
+  "counter_unchanged": true,
+  "other_strings_unchanged": true,
+  "fonts_unchanged": true,
+  "runtime_verified": false,
+  "diagnosis": "User screenshot shows the fitted HD label overlapping the numeric counter; use the standard Streak caption geometry and shorter wording."
+}

@@ -1,5 +1,38 @@
 # Changelog
 
+## 0.9.20 release — 2026-10-04
+
+- Package the Extra Mission translations, Sorties caption fix and corrected Game-options spacing as the supported English-prologue release. The user confirmed the revised Game menu looks good in 0.9.20; this is not a full-game playtest certification.
+- Master the release in original disc order, verify all file payloads against the local test build, and provide full original-disc and exact published 0.9.16 upgrade patches. Use the current Retro Trans release standard and validator at `34713d556592677891c5dc55c0e30e7b38df1923`, with round-trip verification, canonical manifest and checksums.
+
+## 0.9.20 — 2026-10-04 (local Game-options native-anchor correction)
+
+- Correct the still-crowded Game menu reported after 0.9.19. That build retained descriptor-origin shifts introduced in 0.1.50, while the screenshot matches the original widget anchors used at runtime. Consequently its measured clearances did not describe the displayed menu.
+- Restore native anchors for all 55 choice/frame/highlight widgets in each of the three Game-menu copies and bake their intended offsets into the local vertex coordinates. Follow the established Controls-menu correction from 0.1.52. Retain 0.9.19's requested spacing, full-size font, text and matching selection cells, including both difficulty variants.
+- Replay geometry with native anchors: reproduce negative arrow clearance in 0.9.19, then verify at least 6 pixels of text-to-arrow clearance and 28 pixels between captions and connector dashes in the corrected layout. Preserve Y coordinates, bindings, scale, other attributes, animation resources, strings and fonts. Whole-disc verification and fresh-boot checks are separate; in-game confirmation is still pending.
+- Built and byte-verified `ACE3-English-0.9.20.iso` (4,447,076,352 bytes), SHA-256 `7f2d12c92e221b51c7e9448a0ece5ac6eac550143b7a5a75af6e3ad0efbf1c7e`. The worst native-anchor arrow clearance changes from -5.192 to +6.126 pixels. Evidence is under `work/ui/game_anchors_0920/`. Local test only.
+
+## 0.9.19 — 2026-10-04 (local Game-options spacing test)
+
+- Add 10 native pixels to the Game-options caption column and move the value-panel borders and connector dashes accordingly. Keep the existing caption positions and full-size HD font.
+- Redistribute choices according to their measured text widths, with matching selection highlights and dedicated 20-pixel spaces for separator arrows. Keep at least 6 pixels between text and arrows, including Camera, Facing, Distance and Damage. Apply to all three menu copies, both difficulty variants and all ON/OFF rows.
+- Preserve text, fonts, widget positions, bindings, animation attributes and layout extents. Retain the Extra Mission and Sorties fixes from 0.9.17–0.9.18. Geometry checks are recorded in `work/ui/game_spacing_0919/layout.json`; fresh-boot display confirmation is still needed. This is a local test, not a public release.
+- Built and verified `ACE3-English-0.9.19.iso` (4,447,076,352 bytes), SHA-256 `69d28cbaa58f205ae0bc0a03d98db83944160742a81096fc18c9535c54c27f61`. Whole-disc verification passed; evidence is in `work/ui/game_spacing_0919/validation.json`.
+
+## 0.9.18 — 2026-10-03 (local sortie-label overlap fix)
+
+- Correct the HD Player Sorties caption overlapping its numeric count in Deployment. Shorten the caption to “Sorties” and reuse the standard caption-cell position, geometry and unscaled text size from the Streak row, retaining the sortie row's vertical position and text binding.
+- The 65-unit caption fits inside the 98-unit cell, with more than 23 units between the caption cell and counter cell. Preserve the count, divider, fonts, other strings and layout nodes. Retain 0.9.17's Extra Mission fixes.
+- Build a separate test ISO and verify every byte against 0.9.17 plus the planned layout/string edits. Layout evidence is in `work/ui/sorties_0918/layout.json`. Fresh-boot display confirmation is still needed; this is not a public release.
+- Built and verified `ACE3-English-0.9.18.iso` (4,447,076,352 bytes), SHA-256 `8d50f482879a460e8c2a5344f40693394cb53c75a5fd475a575165c487245314`. Validation evidence is in `work/ui/sorties_0918/validation.json`.
+
+## 0.9.17 — 2026-10-02 (local Extra Mission translation fix)
+
+- Fix the untranslated dialogue and notifications reported in Extra Missions 3 and 4, confirmed still present in 0.9.16. Translate all 15 dialogue lines and 36 HUD/objective messages across eight resource copies (204 instances), including reinforcements, kill-count milestones, return-point objectives and mission results.
+- Keep both text tables inside their original allocations. Preserve mission scripts, IDs, null slots, timing commands, resource locations and existing fonts; validate English glyph coverage and line widths. Confirm that the active objectives for Extra Missions 1 and 2 are already English.
+- Audit exact scene-size copies, including nonempty compressed headers, and verify the entire test ISO against the base plus the eight planned table edits. Details and scope limits are in `docs/EXTRA_MISSIONS_0917.md`. Fresh-boot runtime testing is still needed; published 0.9.16 remains unchanged.
+- Built and verified `ACE3-English-0.9.17.iso` (4,447,076,352 bytes), SHA-256 `0a50626f430844498290a3b73d934ad91965c92a0667876623202ac85abd47a9`. Validation evidence is in `work/ui/extra_missions_0917/validation.json`.
+
 ## 0.9.16 release — 2026-10-02
 
 - Package local 0.9.16 as the supported English-prologue release, incorporating the 0.9.4–0.9.16 font, staff-credit, wording and layout changes. Use the original disc's file order for patch size efficiency and verify all 133 file payloads against the local build.
