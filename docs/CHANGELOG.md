@@ -4,6 +4,7 @@
 
 - Package the Extra Mission translations, Sorties caption fix and corrected Game-options spacing as the supported English-prologue release. The user confirmed the revised Game menu looks good in 0.9.20; this is not a full-game playtest certification.
 - Master the release in original disc order, verify all file payloads against the local test build, and provide full original-disc and exact published 0.9.16 upgrade patches. Use the current Retro Trans release standard and validator at `34713d556592677891c5dc55c0e30e7b38df1923`, with round-trip verification, canonical manifest and checksums.
+- Both patches decode to the verified release image: 4,455,671,808 bytes, SHA-256 `b3e34f1c424b13eb87afdb6f04b17efd68c470ccd840b2bf7748fd660ab65004`. Full patch: 355,614,559 bytes; 0.9.16 upgrade: 20,923 bytes. The current upstream validator and all nine candidate automatic routes pass, including original-disc installation, supported upgrade chains, current-version no-op and unknown-disc rejection. Candidate metadata is in `docs/releases/0.9.20/`; publication and public catalog checks remain pending.
 
 ## 0.9.20 — 2026-10-04 (local Game-options native-anchor correction)
 
