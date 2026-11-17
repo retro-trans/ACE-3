@@ -66,6 +66,6 @@ Translation text, glossaries and tools are available in the [project repository]
 
 ### Contribute
 
-Bug reports, proofreading and playtesting are welcome at **[discord.gg/MssepShjmB](https://discord.gg/MssepShjmB)**.
+Bug reports, proofreading and playtesting are welcome at **[discord.gg/nZBZfTDfCP](https://discord.gg/nZBZfTDfCP)**.
 
 No complete game images are included. Apply the patches to your own disc image.

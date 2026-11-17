@@ -73,7 +73,7 @@ Translation text, glossaries and editing tools are available in the [project rep
 
 Bug reports, proofreading and playtesting are welcome:
 
-**[discord.gg/MssepShjmB](https://discord.gg/MssepShjmB)**
+**[discord.gg/nZBZfTDfCP](https://discord.gg/nZBZfTDfCP)**
 
 ---
 
